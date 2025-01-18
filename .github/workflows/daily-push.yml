@@ -1,0 +1,54 @@
+name: Download Bing Wallpaper
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  #推送时触发
+  #push:
+    #branches: [ main ]
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          ref: 'main'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get -y update
+          sudo apt-get -y install curl jq
+
+      - name: Download Bing Wallpaper
+        run: |
+          URL="https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
+          IMAGE_PATH="$(curl -s $URL | jq -r '.images[0].url' | sed 's/^/https:\/\/www.bing.com/;s/1366x768.jpg$/1920x1080.jpg/')"
+          #FILE_NAME="$(echo $IMAGE_PATH | awk -F '/' '{print $NF}')"
+          FILE_NAME="$(date +"%Y%m%d").jpg"
+          mkdir -p images
+          curl -s $IMAGE_PATH -o "images/$FILE_NAME"
+          #复制文件
+          cp images/$FILE_NAME images/lastest.jpg
+
+
+      - name: Configure Git
+        run: |
+          git config --global user.name ${{ secrets.USERNAME }}
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global pull.rebase false
+
+      - name: Commit Changes
+        run: |
+          git add images/*
+          git commit -m "Update wallpaper bing image"
+          git branch -M main
+
+      - name: Push changes
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          git config --global user.name ${{ secrets.USERNAME }}
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global pull.rebase false
+          git push https://${{ secrets.USERNAME }}:${TOKEN}@github.com/${{ secrets.USERNAME }}/bing-img.git
