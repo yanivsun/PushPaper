@@ -1,54 +1,82 @@
-name: Download Bing Wallpaper
+name: send information wechat
 
 on:
+  # schedule:：表示定时任务的配置。 0：表示在每小时的第零分钟（即整点）1：表示在每天的 1 点（北京上午 9 点）*：表示每个月的每一天。
+  #*：表示每个月。
+  #*：表示每一周的每一天
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
   #推送时触发
   #push:
     #branches: [ main ]
 jobs:
-  download:
+  send_message:
     runs-on: ubuntu-latest
+    name: send information wechat
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          ref: 'main'
+    - name: checkout
+      uses: actions/checkout@v3 #以便检出当前代码库的代码
+      with:
+        ref: master #指定要检出的分支，这里是 master 分支
 
-      - name: Install Dependencies
-        run: |
-          sudo apt-get -y update
-          sudo apt-get -y install curl jq
+    - name: sender
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+        architecture: 'x64'
+    - run: pip install -r ./requirements.txt && python ./main.py
 
-      - name: Download Bing Wallpaper
-        run: |
-          URL="https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
-          IMAGE_PATH="$(curl -s $URL | jq -r '.images[0].url' | sed 's/^/https:\/\/www.bing.com/;s/1366x768.jpg$/1920x1080.jpg/')"
-          #FILE_NAME="$(echo $IMAGE_PATH | awk -F '/' '{print $NF}')"
-          FILE_NAME="$(date +"%Y%m%d").jpg"
-          mkdir -p images
-          curl -s $IMAGE_PATH -o "images/$FILE_NAME"
-          #复制文件
-          cp images/$FILE_NAME images/lastest.jpg
+    env:
+      WECHAT_ID: ${{ secrets.WECHAT_ID }}
+      WECHAT_KEY: ${{ secrets.WECHAT_KEY }}
+      WECAHT_TEMPLATE: ${{ secrets.WECAHT_TEMPLATE }}
+      WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
 
 
-      - name: Configure Git
-        run: |
-          git config --global user.name ${{ secrets.USERNAME }}
-          git config --global user.email ${{ secrets.EMAIL }}
-          git config --global pull.rebase false
-
-      - name: Commit Changes
-        run: |
-          git add images/*
-          git commit -m "Update wallpaper bing image"
-          git branch -M main
-
-      - name: Push changes
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          git config --global user.name ${{ secrets.USERNAME }}
-          git config --global user.email ${{ secrets.EMAIL }}
-          git config --global pull.rebase false
-          git push https://${{ secrets.USERNAME }}:${TOKEN}@github.com/${{ secrets.USERNAME }}/bing-img.git
+#jobs:
+#  download:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout Repository
+#        uses: actions/checkout@v2
+#        with:
+#          ref: 'main'
+#
+#      - name: Install Dependencies
+#        run: |
+#          sudo apt-get -y update
+#          sudo apt-get -y install curl jq
+#
+#      - name: Download Bing Wallpaper
+#        run: |
+#          URL="https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
+#          IMAGE_PATH="$(curl -s $URL | jq -r '.images[0].url' | sed 's/^/https:\/\/www.bing.com/;s/1366x768.jpg$/1920x1080.jpg/')"
+#          #FILE_NAME="$(echo $IMAGE_PATH | awk -F '/' '{print $NF}')"
+#          FILE_NAME="$(date +"%Y%m%d").jpg"
+#          mkdir -p images
+#          curl -s $IMAGE_PATH -o "images/$FILE_NAME"
+#          #复制文件
+#          cp images/$FILE_NAME images/lastest.jpg
+#
+#
+#      - name: Configure Git
+#        run: |
+#          git config --global user.name ${{ secrets.USERNAME }}
+#          git config --global user.email ${{ secrets.EMAIL }}
+#          git config --global pull.rebase false
+#
+#      - name: Commit Changes
+#        run: |
+#          git add images/*
+#          git commit -m "Update wallpaper bing image"
+#          git branch -M main
+#
+#      - name: Push changes
+#        env:
+#          TOKEN: ${{ secrets.TOKEN }}
+#        run: |
+#          git config --global user.name ${{ secrets.USERNAME }}
+#          git config --global user.email ${{ secrets.EMAIL }}
+#          git config --global pull.rebase false
+#          git push https://${{ secrets.USERNAME }}:${TOKEN}@github.com/${{ secrets.USERNAME }}/bing-img.git
