@@ -69,7 +69,7 @@ if __name__ == "__main__":
     f.close()
     data = js_text['data']
     num = 0
-    words = get_words()
+    # words = get_words()
     out_time = get_time()
 
     for user_info in data:
