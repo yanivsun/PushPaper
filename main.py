@@ -4,7 +4,7 @@ import os
 import json
 from datetime import datetime, timedelta,UTC
 import requests
-
+import random
 
 # https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
 
@@ -12,6 +12,12 @@ import requests
 nowtime = datetime.now(UTC) + timedelta(hours=8)
 today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d")
 
+
+def get_color():
+    # 获取随机颜色
+    get_colors = lambda n: list(map(lambda i: "#" + "%06x" % random.randint(0, 0xFFFFFF), range(n)))
+    color_list = get_colors(100)
+    return random.choice(color_list)
 
 #得到当前时间 eg : 2025年01月18日星期六
 def get_time():
@@ -73,17 +79,28 @@ if __name__ == "__main__":
         user_id = user_info['user_id']
         name = user_info['user_name'].upper()
 
-        wea_city, weather = get_weather(city, weather_key)
+        # wea_city, weather = get_weather(city, weather_key)
         data = dict()
-        data['time'] = {'value': out_time}
-        data['words'] = {'value': words}#当前城市地点
-        data['weather'] = {'value': weather['text_day']}
-        data['city'] = {'value': wea_city}
-        data['tem_high'] = {'value': weather['high']}
-        data['tem_low'] = {'value': weather['low']}
+        # data['time'] = {'value': out_time}
+        # data['words'] = {'value': words}#当前城市地点
+        # data['weather'] = {'value': weather['text_day']}
+        # data['city'] = {'value': wea_city}
+        # data['tem_high'] = {'value': weather['high']}
+        # data['tem_low'] = {'value': weather['low']}
+        # data['born_days'] = {'value': get_count(born_date)}
+        # data['birthday_left'] = {'value': get_birthday(birthday)}
+        # data['wind'] = {'value': weather['wind_direction']}
+        # data['name'] = {'value': name}
+
+        data['time'] = {'value': "out_time"}
+        data['words'] = {'value': "words"}  # 当前城市地点
+        data['weather'] = {'value': "sdsdsdas"}
+        data['city'] = {'value': "sdsdsdas"}
+        data['tem_high'] = {'value': "sdsdsdas"}
+        data['tem_low'] = {'value': "sdsdsdas"}
         data['born_days'] = {'value': get_count(born_date)}
         data['birthday_left'] = {'value': get_birthday(birthday)}
-        data['wind'] = {'value': weather['wind_direction']}
+        data['wind'] = {'value': "sdsdsdas"}
         data['name'] = {'value': name}
 
         res = wm.send_template(user_id, template_id, data)

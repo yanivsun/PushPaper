@@ -7,8 +7,12 @@ on:
   schedule:
     - cron: '0 1 * * *'
   #推送时触发
-  #push:
-    #branches: [ main ]
+  push:
+    branches: [ main ]
+
+  pull_request:
+    branches:
+      - main  # 仅当拉取请求目标是 main 分支时触发
 jobs:
   send_message:
     runs-on: ubuntu-latest
@@ -18,7 +22,8 @@ jobs:
     - name: checkout
       uses: actions/checkout@v3 #以便检出当前代码库的代码
       with:
-        ref: master #指定要检出的分支，这里是 master 分支
+        ref: main #指定要检出的分支，这里是 master 分支
+        fetch-depth: 0  # 拉取完整历史记录
 
     - name: sender
       uses: actions/setup-python@v2
