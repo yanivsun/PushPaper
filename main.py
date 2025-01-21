@@ -214,8 +214,8 @@ if __name__ == "__main__":
 
     # unittest.main(exit=False)
 
-    OPENAI_API_KEY = "4f1442ffe47143018f91f0e956f61a15"
-    AZURE_OPENAI_ENDPOINT = "https://gtkchatgpt.openai.azure.com"
+    # OPENAI_API_KEY = "4f1442ffe47143018f91f0e956f61a15"
+    # AZURE_OPENAI_ENDPOINT = "https://gtkchatgpt.openai.azure.com"
     OPENAI_API_VERSION = "2024-02-15-preview"
     deployment_name = "GPT4o"
     # os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
@@ -223,8 +223,8 @@ if __name__ == "__main__":
     # os.environ["OPENAI_API_VERSION"] = OPENAI_API_VERSION
     client = AzureOpenAI(
         api_version=OPENAI_API_VERSION,
-        api_key=OPENAI_API_KEY,
-        azure_endpoint=AZURE_OPENAI_ENDPOINT
+        # api_key=OPENAI_API_KEY,
+        # azure_endpoint=AZURE_OPENAI_ENDPOINT
     )
 
     # 获取当前UTC时间
