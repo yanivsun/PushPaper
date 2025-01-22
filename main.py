@@ -2,7 +2,7 @@ from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage
 import os
 import json
-from datetime import datetime, timedelta,UTC,timezone
+from datetime import datetime, timedelta,timezone
 import requests
 import random
 import unittest
@@ -13,7 +13,7 @@ from openai import AzureOpenAI
 # https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
 
 
-nowtime = datetime.now(UTC) + timedelta(hours=8)
+nowtime = datetime.now(timezone.utc) + timedelta(hours=8)
 today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d")
 
 
@@ -214,8 +214,8 @@ if __name__ == "__main__":
 
     # unittest.main(exit=False)
 
-    # OPENAI_API_KEY = "4f1442ffe47143018f91f0e956f61a15"
-    # AZURE_OPENAI_ENDPOINT = "https://gtkchatgpt.openai.azure.com"
+    OPENAI_API_KEY = "4f1442ffe47143018f91f0e956f61a15"
+    AZURE_OPENAI_ENDPOINT = "https://gtkchatgpt.openai.azure.com"
     OPENAI_API_VERSION = "2024-02-15-preview"
     deployment_name = "GPT4o"
     # os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
@@ -223,8 +223,8 @@ if __name__ == "__main__":
     # os.environ["OPENAI_API_VERSION"] = OPENAI_API_VERSION
     client = AzureOpenAI(
         api_version=OPENAI_API_VERSION,
-        # api_key=OPENAI_API_KEY,
-        # azure_endpoint=AZURE_OPENAI_ENDPOINT
+        api_key=OPENAI_API_KEY,
+        azure_endpoint=AZURE_OPENAI_ENDPOINT
     )
 
     # 获取当前UTC时间
