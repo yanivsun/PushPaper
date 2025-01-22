@@ -1,5 +1,4 @@
-import json
-import re
+from utils import get_proxies
 import unittest
 import os
 import json
@@ -28,12 +27,9 @@ class TestDailyPapers(unittest.TestCase):
     def test_get_daily_papers(self):
         # 发送GET请求
         # 设置本地代理
-        proxies = {
-            'http': '127.0.0.1:443',
-            'https': '127.0.0.1:443',
-        }
+
         # response = requests.get(self.url, proxies=proxies)
-        response = requests.get(self.url)
+        response = requests.get(self.url,proxies=get_proxies())
 
         # 定义文件夹和文件名
         folder_name = 'Paper_metadata_download'
@@ -75,3 +71,5 @@ class TestDailyPapers(unittest.TestCase):
             self.fail(f"写入文件时发生异常: {e}")
 
 
+if __name__ == "__main__":
+    unittest.main(exit=False)
