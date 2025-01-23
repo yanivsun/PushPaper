@@ -53,6 +53,6 @@ jobs:
         git add Paper_metadata_download/*
         git status
         git commit -m "论文下载"
-        git push https://1109812755@qq.com:${TOKEN}@github.com/yanivsun/test.git
+        git push https://yanivsun:${TOKEN}@github.com/yanivsun/test.git
 
 
