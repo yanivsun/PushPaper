@@ -10,9 +10,9 @@ on:
   push:
     branches: [ main ]
 
-  pull_request:
-    branches:
-      - main  # 仅当拉取请求目标是 main 分支时触发
+#  pull_request:
+#    branches:
+#      - main  # 仅当拉取请求目标是 main 分支时触发
 jobs:
   send_message:
     runs-on: ubuntu-latest
