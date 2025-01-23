@@ -5,8 +5,10 @@ on:
     # 定期运行触发器，这里设置为每天UTC时间的17点，对应北京时间次日凌晨1点
     - cron: '0 17 * * *'
   # 也允许手动触发这个工作流
-  workflow_dispatch:
-
+#  workflow_dispatch:
+  pull_request:
+    branches:
+      - main  # 仅当拉取请求目标是 main 分支时触发
 jobs:
   build:
     # 工作流中的单个任务，这里只有一个名为“build”的任务
@@ -39,7 +41,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest Paper_metadata_download.py
+        python -m unittest DailyDownload.py
       # 运行单元测试，调用unittest模块来执行Paper_metadata_download.py脚本
 
     - name: Commit changes
