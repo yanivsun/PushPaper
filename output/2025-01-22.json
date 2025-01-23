@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2501.12380] MMVU: Measuring Expert-Level Multi-Discipline Video Understanding.pdf",
+        "作者": "Yilun Zhao, Lujing Xie, Haowei Zhang, Guo Gan, Yitao Long, Zhiyuan Hu, Tongyan Hu, Weiyuan Chen, Chuhan Li, Junyang Song, Zhijian Xu, Chengye Wang, Weifeng Pan, Ziyao Shangguan, Xiangru Tang, Zhenwen Liang, Yixin Liu, Chen Zhao, Arman Cohan",
+        "摘要": "摘要：\n我们介绍了MMVU，这是一个综合性的专家级多学科基准，用于评估视频理解中的基础模型。MMVU包括3000个专家标注的问题，涵盖四个核心学科中的27个主题：科学、医疗保健、人文学科与社会科学以及工程学。与之前的基准相比，MMVU具有三个主要进步。首先，它挑战模型应用特定领域的知识并进行专家级推理来分析专业领域的视频，超越了目前视频基准中通常评估的基本视觉感知。其次，每个示例都由人类专家从头标注。我们实施严格的数据质量控制，以确保数据集的高质量。最后，每个示例都附有专家标注的推理依据和相关领域知识，以促进深入分析。我们对32个前沿多模态基础模型在MMVU上进行了广泛评估。最新的System-2-capable模型，如o1和Gemini 2.0 Flash Thinking，在测试模型中表现最好。然而，它们仍未能匹敌人类专家的水平。通过深入的错误分析和案例研究，我们为未来在专门领域的专家级知识密集型视频理解提供了可行的见解。",
+        "地址": "https://arxiv.org/pdf/2501.12380.pdf"
+    },
+    {
+        "名称": "2025 [2501.11425] Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training.pdf",
+        "作者": "Siyu Yuan, Zehui Chen, Zhiheng Xi, Junjie Ye, Zhengyin Du, Jiecao Chen",
+        "摘要": "以下是你要求的摘要翻译：\n\n摘要：大型语言模型（LLMs）代理在交互环境中处理复杂任务时越来越重要。现有工作主要通过从较强专家的行为克隆来增强性能，但这种方法在现实应用中往往难以成功，主要是因为无法从错误中恢复。然而，逐步批评数据难以且成本高昂。自动化和动态构建自我批评数据集对于赋予模型智能代理能力至关重要。在这项工作中，我们提出了一种迭代自我训练框架Agent-R，使语言代理能够即时反思。与基于正确性奖励或惩罚动作的传统方法不同，Agent-R利用蒙特卡洛树搜索（MCTS）构建训练数据，从错误轨迹中恢复出正确轨迹。代理反思的一个关键挑战在于需要及时修正，而不是等到整个回合结束。为此，我们引入了一种模型引导的批评构建机制：演员模型在失败轨迹中识别出第一步错误（在当前能力范围内）。从这一点开始，我们将其与在树中共享相同父节点的相邻正确路径进行拼接。这一策略使模型能够基于其当前政策学习反思，从而提高学习效率。为了进一步探索此自我改进范式的可扩展性，我们研究了错误纠正能力和数据集构造的迭代改进。我们的研究结果表明，Agent-R持续提升模型从错误中恢复的能力，并实现及时错误修正。在三个交互环境中的实验显示，Agent-R在纠正错误动作并避免循环方面有效地装备了代理，相比基线方法，性能显著提高（+5.59%）。\n\n标题：Agent-R: 通过迭代自我训练使语言模型代理反思\n作者：Siyu Yuan, Zehui Chen, Zhiheng Xi, Junjie Ye, Zhengyin Du, Jiecao Chen\n年份：2025\n链接：[https://arxiv.org/pdf/2501.11425.pdf](https://arxiv.org/pdf/2501.11425.pdf)",
+        "地址": "https://arxiv.org/pdf/2501.11425.pdf"
+    },
+    {
+        "名称": "2025 [2501.11873] Demons in the Detail: On Implementing Load Balancing Loss for Training Specialized Mixture-of-Expert Models.pdf",
+        "作者": "Zihan Qiu, Zeyu Huang, Bo Zheng, Kaiyue Wen, Zekun Wang, Rui Men, Ivan Titov, Dayiheng Liu, Jingren Zhou, Junyang Lin",
+        "摘要": "\n摘要：本文重新审视了在训练专家混合（MoEs）模型时实现负载平衡损失（Load-balancing Loss, LBL）的方法。具体来说，MoEs的LBL定义为$N_E \\sum_{i=1}^{N_E} f_i p_i$，其中$N_E$是专家总数，$f_i$表示专家$i$被选中的频率，$p_i$表示专家$i$的平均门控评分。现有的MoE训练框架通常采用并行训练策略，因此$f_i$和LBL是在微批次（micro-batch）中计算的，然后在并行组之间取平均值。实际上，用于训练亿级规模大语言模型（LLM）的微批次通常包含很少的序列，因此微批次LBL几乎在序列级别，而路由器被迫在每个序列内均匀分配令牌。在这种严格约束下，即使是来自特定领域序列（例如代码）的令牌也被均匀地路由到所有专家，从而抑制了专家的专业化能力。在这项工作中，我们提出使用全局批次（global-batch）计算LBL以放松这种约束。因为全局批次比微批次包含更多不同的序列，从而鼓励在语料库层面的负载平衡。具体来说，我们引入了一个额外的通信步骤以同步微批次间的$f_i$，然后用它来计算LBL。通过在基于MoEs的LLM训练上的实验（总参数多达42.8B和400B令牌），我们惊讶地发现全局批次LBL策略在预训练困惑度和下游任务中均有显著性能提升。我们的分析表明，全局批次LBL还极大地提高了MoE专家的领域专业化能力。",
+        "地址": "https://arxiv.org/pdf/2501.11873.pdf"
+    },
+    {
+        "名称": "2025 [2501.12326] UI-TARS: Pioneering Automated GUI Interaction with Native Agents.pdf",
+        "作者": "Yujia Qin, Yining Ye, Junjie Fang, Haoming Wang, Shihao Liang, Shizuo Tian, Junda Zhang, Jiahao Li, Yunxin Li, Shijue Huang, Wanjun Zhong, Kuanye Li, Jiale Yang, Yu Miao, Woyu Lin, Longxiang Liu, Xu Jiang, Qianli Ma, Jingyu Li, Xiaojun Xiao, Kai Cai, Chuang Li, Yaowei Zheng, Chaolin Jin, Chen Li, Xiao Zhou, Minchao Wang, Haoli Chen, Zhaojian Li, Haihua Yang, Haifeng Liu, Feng Lin, Tao Peng, Xin Liu, Guang Shi",
+        "摘要": "摘要: 本文介绍了一种名为UI-TARS的原生GUI代理模型，该模型仅以屏幕截图为输入，并执行类似人类的操作（例如键盘和鼠标操作）。与依赖于专家精心设计的提示和工作流程的商业模型（例如GPT-4o）的现有代理框架不同，UI-TARS是一个端到端模型，性能优于这些复杂的框架。实验表明其卓越的性能：在评估感知、基础和GUI任务执行的10多个GUI代理基准测试中，UI-TARS实现了SOTA性能。在OSWorld基准测试中，UI-TARS在50步中获得24.6分，在15步中获得22.7分，均优于Claude（分别为22.0和14.9分）。在AndroidWorld中，UI-TARS获得46.6分，超过了GPT-4o（34.5）。UI-TARS包含几个关键创新：（1）增强的感知能力：利用大型GUI屏幕截图数据集对UI元素进行上下文感知理解和精确标题；（2）统一动作建模：在各个平台上将操作标准化为统一空间，并通过大规模动作轨迹实现准确的基础和交互；（3）系统2推理：在多步骤决策中结合深思熟虑的推理，涉及任务分解、反思性思维、里程碑识别等多种推理模式；（4）具有反思性的在线迭代训练，通过自动收集、过滤和反思性地完善数百台虚拟机上的新交互轨迹，解决数据瓶颈问题。通过迭代训练和反思调优，UI-TARS能够不断从错误中学习，并以最少的人为干预适应意外情况。我们还分析了GUI代理的演进路径，以指导该领域的进一步发展。",
+        "地址": "https://arxiv.org/pdf/2501.12326.pdf"
+    },
+    {
+        "名称": "2025 [2501.12224] TokenVerse: Versatile Multi-concept Personalization in Token Modulation Space.pdf",
+        "作者": "Daniel Garibi, Shahar Yadin, Roni Paiss, Omer Tov, Shiran Zada, Ariel Ephrat, Tomer Michaeli, Inbar Mosseri, Tali Dekel",
+        "摘要": "摘要: 我们提出了TokenVerse——一种多概念个性化方法，利用了预训练的文本到图像扩散模型。我们的框架可以从单一图像中解开复杂的视觉元素和属性，同时能够无缝生成多个图像中的概念组合。与现有作品不同，TokenVerse可以处理包含多个概念的多幅图像，并支持广泛的概念，包括物体、配件、材料、姿势和光照。我们的工作利用了基于DiT的文本到图像模型，其中输入文本通过注意力和调制（移位和缩放）影响生成。我们观察到，调制空间是语义化的，并能局部控制复杂概念。基于这一见解，我们设计了一个基于优化的框架，该框架将图像和文本描述作为输入，并为每个词在调制空间中找到一个独特的方向。然后，这些方向可以被用来生成结合了所学概念的新的图像。我们展示了TokenVerse在具有挑战性的个性化环境中的有效性，并展示了其相对于现有方法的优势。项目网页在这个HTTPS URL中。",
+        "地址": "https://arxiv.org/pdf/2501.12224.pdf"
+    },
+    {
+        "名称": "2025 [2501.12368] InternLM-XComposer2.5-Reward: A Simple Yet Effective Multi-Modal Reward Model.pdf",
+        "作者": "Yuhang Zang, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Ziyu Liu, Shengyuan Ding, Shenxi Wu, Yubo Ma, Haodong Duan, Wenwei Zhang, Kai Chen, Dahua Lin, Jiaqi Wang",
+        "摘要": "摘要：\n尽管大型视觉语言模型（LVLMs）在视觉理解方面表现优异，但它们偶尔会产生不正确的输出。虽然使用强化学习或测试时标度的奖励模型（RMs）有可能提升生成质量，但一个关键的不足仍然存在：公开的多模态奖励模型（RMs）稀缺，且专有模型的实现细节往往不清楚。我们通过InternLM-XComposer2.5-Reward（IXC-2.5-Reward）弥补了这一缺口，这是一种简单而有效的多模态奖励模型，能够使LVLMs与人类偏好保持一致。为了确保IXC-2.5-Reward的鲁棒性和多功能性，我们构建了一个高质量的多模态偏好语料库，涵盖文本、图像和视频输入，领域包括指令跟随、一般理解、富文本文档、数学推理和视频理解。IXC-2.5-Reward在最新的多模态奖励模型基准测试中取得了优异成绩，并在仅文本奖励模型基准测试中表现出竞争力。我们进一步展示了IXC-2.5-Reward的三个关键应用：（1）为强化学习训练提供监督信号。我们将IXC-2.5-Reward与近端策略优化（PPO）结合，得到IXC-2.5-Chat，该模型在指令跟随和多模态开放式对话中表现出持续改进；（2）在测试时标度中从候选响应中选择最佳响应；（3）从现有图像和视频指令调整训练数据中过滤异常或噪声样本。为了确保可重复性并促进进一步研究，我们在此提供了所有模型权重和训练方法的开源链接。\n\n翻译：\n尽管大型视觉语言模型（LVLMs）在视觉理解方面表现优异，但它们偶尔会产生不正确的输出。虽然用强化学习或测试时间范围的奖励模型（RMs）有潜力改进生成质量，但一个重要的缺口仍然存在：公开可用的LVLMs多模态奖励模型稀缺，且专有模型的实现细节通常不明确。我们通过InternLM-XComposer2.5-Reward（IXC-2.5-Reward）弥补了这一缺口，这是一种简单而有效的多模态奖励模型，使LVLMs与人类偏好对齐。为了确保IXC-2.5-Reward的鲁棒性和多功能性，我们建立了一个高质量的多模态偏好语料库，涵盖指令跟随、普遍理解、富文本文档、数学推理和视频理解等不同领域的文本、图像和视频输入。IXC-2.5-Reward在最新的多模态奖励模型基准上取得了优异的结果，并在仅文本奖励模型基准上显示出竞争力。我们进一步展示了IXC-2.5-Reward的三个关键应用：（1）提供RL训练的监督信号。我们结合IXC-2.5-Reward和PPO（近端策略优化）得到IXC-2.5-Chat，其在指令跟随和多模态开放式对话中显示持续改进；（2）在测试时从候选响应中选择最佳响应；（3）从现有的图像和视频指令调优训练数据中过滤掉异常或噪声样本。为了确保可重复性并促进进一步研究，我们已开源所有模型权重和训练方法。",
+        "地址": "https://arxiv.org/pdf/2501.12368.pdf"
+    },
+    {
+        "名称": "2025 [2501.11733] Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks.pdf",
+        "作者": "Zhenhailong Wang, Haiyang Xu, Junyang Wang, Xi Zhang, Ming Yan, Ji Zhang, Fei Huang, Heng Ji",
+        "摘要": "摘要：智能手机在现代生活中变得不可或缺，但在移动设备上执行复杂任务往往令人沮丧。最近，大型多模态模型（LMM）驱动的移动代理显示出了在移动环境中感知和行动的能力。然而，当前的方法面临重大限制：无法满足现实世界的人类需求，难以处理需要推理和长时间规划的任务，并且缺乏从过去经验中学习和改进的机制。为了克服这些挑战，我们引入了Mobile-Agent-E，这是一种通过过去经验自我进化的分层多代理框架。分层指的是高层规划和低层行动执行的明确分离。该框架包括一个经理，负责通过将复杂任务分解为子目标来制定总体计划，及四个下属代理——感知器、操作员、行动反射器和记录员——分别处理细粒度的视觉感知、即时行动执行、错误验证和信息聚合。Mobile-Agent-E还具有新颖的自我进化模块，它维护了一个包含提示和快捷方式的持久长期记忆。提示是从先前任务中学到的关于如何有效与环境互动的通用指导意见和经验教训。快捷方式是为特定子程序定制的可重复使用的原子操作序列。提示和快捷方式的加入促进了性能和效率的持续改进。除了该框架外，我们还引入了Mobile-Eval-E，这是一个包含复杂移动任务的新基准，这些任务需要长时间、多应用交互。实验证明，Mobile-Agent-E在三种基础模型上比之前的最先进方法绝对提高了22%。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2501.11733.pdf"
+    },
+    {
+        "名称": "2025 [2501.12202] Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation.pdf",
+        "作者": "Zibo Zhao, Zeqiang Lai, Qingxiang Lin, Yunfei Zhao, Haolin Liu, Shuhui Yang, Yifei Feng, Mingxin Yang, Sheng Zhang, Xianghui Yang, Huiwen Shi, Sicong Liu, Junta Wu, Yihang Lian, Fan Yang, Ruining Tang, Zebin He, Xinzhou Wang, Jian Liu, Xuhui Zuo, Zhuo Chen, Biwen Lei, Haohan Weng, Jing Xu, Yiling Zhu, Xinhai Liu, Lixin Xu, Changrong Hu, Tianyu Huang, Lifu Wang, Jihong Zhang, Meng Chen, Liang Dong, Yiwen Jia, Yulin Cai, Jiaao Yu, Yixuan Tang, Hao Zhang, Zheng Ye, Peng He, Runzhou Wu, Chao Zhang, Yonghao Tan, Jie Xiao, Yangyu Tao, Jianchen Zhu, Jinbao Xue, Kai Liu, Chongqing Zhao, Xinming Wu, Zhichao Hu, Lei Qin, Jianbing Peng, Zhan Li, Minghui Chen, Xipeng Zhang, Lin Niu, Paige Wang, Yingkai Wang, Haozhao Kuang, Zhongyi Fan, Xu Zheng, Weihao Zhuang, YingPing He, Tian Liu, Yong Yang, Di Wang, Yuhong Liu, Jie Jiang, Jingwei Huang, Chunchao Guo (refer to the report for detailed contributions)",
+        "摘要": "摘要（翻译为中文）：\n\n我们介绍了Hunyuan3D 2.0，这是一个高级大规模3D合成系统，用于生成高分辨率纹理3D资产。该系统包括两个基础组件：大规模形状生成模型——Hunyuan3D-DiT和大规模纹理合成模型——Hunyuan3D-Paint。形状生成模型基于可扩展的基于流的扩散变压器，旨在创建与给定条件图像适当对齐的几何形状，为下游应用奠定坚实的基础。纹理合成模型依靠强大的几何和扩散先验知识，为生成或手工制作的网格生成高分辨率和生动的纹理贴图。此外，我们构建了Hunyuan3D-Studio——一个多功能、用户友好的制作平台，简化了3D资产的再创作过程，使专业和业余用户都能够高效地操作甚至动画化其网格。我们系统地评估了我们的模型，显示Hunyuan3D 2.0在几何细节、条件对齐、纹理质量等方面优于之前的最新模型，包括开源模型和闭源模型。Hunyuan3D 2.0是公开发布的，旨在填补开源3D社区中关于大规模基础生成模型的空白。我们的模型的代码和预训练权重可在此链接获取：https: this https URL。",
+        "地址": "https://arxiv.org/pdf/2501.12202.pdf"
+    },
+    {
+        "名称": "2025 [2501.10893] Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments.pdf",
+        "作者": "Hongjin Su, Ruoxi Sun, Jinsung Yoon, Pengcheng Yin, Tao Yu, Sercan Ö. Arık",
+        "摘要": "摘要：自治代理由大型语言模型（LLMs）驱动，能够增强人类的能力，从发送电子邮件到执行数据分析等任务提供帮助。现有LLMs在这些任务上的能力往往受到来自它们互动环境的高质量代理数据缺乏的阻碍。我们提出了Learn-by-interact，这是一个数据为中心的框架，用于使LLM代理适应任何给定环境而无需人工注释。Learn-by-interact 基于文档合成了代理-环境交互的轨迹，并通过总结或抽象交互历史构建指令，这一过程被称为向后构建。我们通过在基于训练的情景和基于上下文学习（ICL）中使用我们合成的数据来评估其质量，其中我们为代理优化了一些创新的检索方法。在 SWE-bench、WebArena、OSWorld 和 Spider2-V 跨越现实的编码、网络和桌面环境中的广泛实验表明，Learn-by-interact 在各种下游代理任务中的有效性——ICL 在使用 Claude-3.5 时基准结果提高了最多12.2%，在使用 Codestral-22B 进行训练时提高了最多19.5%。我们进一步证明了向后构建的关键作用，其对训练提供了高达14.0%的改进。我们的消融研究表明，合成数据在 ICL 中提供的效率以及我们检索管道相比其他方法（如常规检索增强生成（RAG））的优越性。我们预计，随着LLMs在现实环境中的日益应用，Learn-by-interact将成为代理数据合成的基础。\n\n作者：Hongjin Su, Ruoxi Sun, Jinsung Yoon, Pengcheng Yin, Tao Yu, Sercan Ö. Arık\n\n链接：https://arxiv.org/pdf/2501.10893.pdf\n\n标题：2025 [2501.10893] Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments.pdf",
+        "地址": "https://arxiv.org/pdf/2501.10893.pdf"
+    },
+    {
+        "名称": "2025 [2501.11223] Reasoning Language Models: A Blueprint.pdf",
+        "作者": "Maciej Besta, Julia Barth, Eric Schreiber, Ales Kubicek, Afonso Catarino, Robert Gerstenberger, Piotr Nyczyk, Patrick Iff, Yueling Li, Sam Houliston, Tomasz Sternal, Marcin Copik, Grzegorz Kwaśniewski, Jürgen Müller, Łukasz Flis, Hannes Eberhard, Hubert Niewiadomski, Torsten Hoefler",
+        "摘要": "摘要：推理语言模型（RLMs），也称为大规模推理模型（LRMs），如OpenAI的o1和o3、DeepSeek-V3以及阿里巴巴的QwQ，通过将大型语言模型（LLMs）与先进的推理机制结合，重新定义了AI解决问题的能力。然而，它们的高成本、专有性质以及复杂的架构——独特地结合了强化学习（RL）、搜索启发法和LLMs——带来了可访问性和可扩展性方面的挑战。为了解决这些问题，我们提出了一个全面的蓝图，将RLM组件组织成一个模块化框架，这是基于对所有RLM作品的调查和分析而构建的。该蓝图包含了多种推理结构（链、树、图和嵌套形式）、推理策略（如蒙特卡洛树搜索、束搜索）、RL概念（策略、价值模型等）、监督方案（基于结果和基于过程的监督），以及其他相关概念（如测试时间计算、检索增强生成、代理工具）。我们提供了详细的数学公式和算法规范，以简化RLM的实现。通过展示像LLaMA-Berry、QwQ、Journey Learning和思维图谱等特定案例如何适应，我们演示了该蓝图的多功能性和统一潜力。为了说明其实用性，我们引入了x1，一个用于快速RLM原型设计和实验的模块化实现。利用x1和文献回顾，我们提供了一些关键见解，如用于策略和价值模型的多相训练，以及熟悉训练分布的重要性。最后，我们讨论了可扩展的RLM云部署，并概述了RLM如何与更广泛的LLM生态系统集成。我们的工作揭示了RLM的构建过程，普及了先进的推理能力，促进了创新，旨在通过降低RLM开发和实验的门槛来缩小“富AI”和“穷AI”之间的差距。",
+        "地址": "https://arxiv.org/pdf/2501.11223.pdf"
+    },
+    {
+        "名称": "2025 [2501.12375] Video Depth Anything: Consistent Depth Estimation for Super-Long Videos.pdf",
+        "作者": "Sili Chen, Hengkai Guo, Shengnan Zhu, Feihu Zhang, Zilong Huang, Jiashi Feng, Bingyi Kang",
+        "摘要": "摘要：Depth Anything在单目深度估计方面取得了显著成功，并具有强大的泛化能力。然而，它在视频中存在时间不一致性，阻碍了其实用应用。为缓解这一问题，各种方法已经被提出，这些方法通过利用视频生成模型或引入光流和相机位姿先验。然而，这些方法仅适用于短视频（< 10 秒）并且在质量和计算效率之间需要权衡。我们提出了Video Depth Anything，用于在超长视频（超过几分钟）的高质量、一致深度估计，而不牺牲效率。我们的模型基于Depth Anything V2，并用高效的时空头替换其头部。我们通过约束时间深度梯度设计了一个简洁而有效的时间一致性损失，消除了额外几何先验的需求。该模型在视频深度和未标记图像的联合数据集上进行训练，类似于Depth Anything V2。此外，我们开发了一种用于长视频推理的新颖关键帧策略。实验表明，我们的模型可以应用于任意长的视频，而不会在质量、一致性或泛化能力上受损。在多个视频基准上的全面评估表明，我们的方法在零样本视频深度估计方面设定了新的最先进水平。我们提供了不同规模的模型以支持各种场景，我们最小的模型能够以30 FPS实现实时性能。\n\n翻译：陈思丽，郭恒凯，朱胜男，张飞虎，黄子龙，冯佳士，康炳毅",
+        "地址": "https://arxiv.org/pdf/2501.12375.pdf"
+    },
+    {
+        "名称": "2025 [2501.08331] Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise.pdf",
+        "作者": "Ryan Burgert, Yuancheng Xu, Wenqi Xian, Oliver Pilarski, Pascal Clausen, Mingming He, Li Ma, Yitong Deng, Lingxiao Li, Mohsen Mousavi, Michael Ryoo, Paul Debevec, Ning Yu",
+        "摘要": "摘要：生成建模的目标是将随机噪声转化为有结构的输出。在这项工作中，我们通过结构化潜在噪声采样，实现了对视频扩散模型的运动控制。我们只需对数据进行更改：我们预处理训练视频以生成结构化噪声。因此，我们的方法与扩散模型的设计无关，不需要更改模型架构或训练流程。具体来说，我们提出了一种新的噪声扭曲算法，这种算法足够快，可以实时运行，替换了随机时间高斯性，使用由光流场导出的相关扭曲噪声，同时保留空间高斯性。我们算法的高效性使我们能够使用扭曲噪声对现代视频扩散基本模型进行微调，增加的开销极小，并且提供了广泛的用户友好型运动控制的单一解决方案：局部对象运动控制、全球相机移动控制和运动转移。我们扭曲噪声中时间一致性与空间高斯性的和谐结合，实现了有效的运动控制，同时保持每帧像素质量。广泛的实验和用户研究展示了我们方法的优势，使其成为一种鲁棒且可扩展的方法，用于控制视频扩散模型中的运动。视频结果可以在我们的网站上查看：该https URL。源代码和模型检查点可在GitHub上获取：该https URL。",
+        "地址": "https://arxiv.org/pdf/2501.08331.pdf"
+    },
+    {
+        "名称": "2025 [2501.12273] Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement.pdf",
+        "作者": "Maosong Cao, Taolin Zhang, Mo Li, Chuyu Zhang, Yunxin Liu, Haodong Duan, Songyang Zhang, Kai Chen",
+        "摘要": "摘要：有监督微调（SFT）数据的质量在增强大型语言模型（LLMs）的对话能力方面起着至关重要的作用。然而，随着LLMs变得越来越先进，高质量的人类注释SFT数据的获取已经成为一个重要的瓶颈，从而需要更多依赖合成训练数据。在这项工作中，我们介绍了Condor，这是一种新颖的两阶段合成数据生成框架，结合了世界知识树和自我反思细化，以大规模生成高质量的SFT数据。我们的实验结果表明，仅通过20K Condor生成的样本进行微调的基础模型的性能优于对照组。Condor中的额外细化阶段进一步使LLMs在各种规模（高达72B）上实现迭代自我改进，验证了我们方法的有效性。此外，我们对训练后合成数据扩展性的研究展示了显着的潜力，为未来研究开辟了有前景的途径。\n\n翻译：监督微调（SFT）数据的质量对于增强大型语言模型（LLMs）的对话能力起着关键作用。然而，随着LLMs变得更先进，高质量的人工注释SFT数据变得越来越稀缺，这导致需要更多地依赖合成训练数据。在这项研究中，我们提出了Condor，这是一种新颖的双阶段合成数据生成框架，该框架结合了世界知识树和自反思改进机制，以大规模生成高质量SFT数据。我们的实验结果表明，仅基于20K Condor生成样本微调的基础模型在性能上优于其他模型。Condor中的附加改进阶段进一步使得不同规模（最高至72B）的LLMs能够进行迭代自我改进，验证了我们方法的有效性。此外，我们对训练后合成数据扩展性的研究显示了巨大的潜力，为未来的研究开辟了有前景的方向。",
+        "地址": "https://arxiv.org/pdf/2501.12273.pdf"
+    },
+    {
+        "名称": "2025 [2501.12390] GPS as a Control Signal for Image Generation.pdf",
+        "作者": "Chao Feng, Ziyang Chen, Aleksander Holynski, Alexei A. Efros, Andrew Owens",
+        "摘要": "摘要: \n我们展示了照片元数据中包含的GPS标签为图像生成提供了一个有用的控制信号。我们训练了GPS到图像的模型，并将其用于需要细致理解城市内部图像变化的任务中。特别是，我们训练了一个扩散模型，使其在GPS和文本条件下生成图像。训练后的模型能够生成捕捉不同社区、公园和地标独特外观的图像。我们还通过得分蒸馏采样从2D GPS到图像模型中提取3D模型，使用GPS条件限制每个视点的重建外观。我们的评估表明，我们基于GPS条件的模型成功学习到了生成基于位置变化的图像，并且GPS条件改善了估计的3D结构。",
+        "地址": "https://arxiv.org/pdf/2501.12390.pdf"
+    },
+    {
+        "名称": "2025 [2501.10687] EMO2: End-Effector Guided Audio-Driven Avatar Video Generation.pdf",
+        "作者": "Linrui Tian, Siqi Hu, Qi Wang, Bang Zhang, Liefeng Bo",
+        "摘要": "摘要：在本文中，我们提出了一种新颖的音频驱动说话头方法，该方法能够同时生成高度富有表现力的面部表情和手部动作动作。不像现有方法侧重于生成全身或半身姿态，我们研究了共同语境手势生成的挑战，并确定音频特征与全身手势之间的弱对应关系为一个关键限制。为了解决这个问题，我们将任务重新定义为一个两阶段过程。在第一阶段，我们直接从音频输入生成手部姿势，利用音频信号与手部动作之间的强相关性。在第二阶段，我们采用扩散模型合成视频帧，结合在第一阶段生成的手部姿势，以产生真实的面部表情和身体动作。我们的实验结果表明，所提出的方法在视觉质量和同步精度方面均优于最先进的方法，如CyberHost和Vlogger。这项工作为音频驱动的手势生成提供了一个新的视角，并为创建表达丰富且自然的说话头动画提供了一种稳健的框架。\n\n作者：Linrui Tian, Siqi Hu, Qi Wang, Bang Zhang, Liefeng Bo\n\nURL：https://arxiv.org/pdf/2501.10687.pdf\n\n标题：《2025 [2501.10687] EMO2: End-Effector Guided Audio-Driven Avatar Video Generation》",
+        "地址": "https://arxiv.org/pdf/2501.10687.pdf"
+    },
+    {
+        "名称": "2025 [2501.12389] Taming Teacher Forcing for Masked Autoregressive Video Generation.pdf",
+        "作者": "Deyu Zhou, Quan Sun, Yuang Peng, Kun Yan, Runpei Dong, Duomin Wang, Zheng Ge, Nan Duan, Xiangyu Zhang, Lionel M. Ni, Heung-Yeung Shum",
+        "摘要": "摘要：我们介绍了MAGI，这是一种混合视频生成框架，它结合了用于帧内生成的掩码模型和用于下一帧生成的因果模型。我们的关键创新是完整教师强制（CTF），该方法在掩码帧上以完整观察帧为条件，而不是用掩码帧（即掩码教师强制，MTF），从而实现从令牌级（修补级）到帧级自回归生成的平滑过渡。CTF显著优于MTF，在第一帧条件下的视频预测中FVD得分提高了23%。为了解决如曝光偏差等问题，我们采用了有针对性的训练策略，在自回归视频生成中设立了新的基准。实验表明，即使在只训练了16帧的情况下，MAGI也能生成超过100帧的长、连贯的视频序列，展示了其可扩展、高质量视频生成的潜力。",
+        "地址": "https://arxiv.org/pdf/2501.12389.pdf"
+    },
+    {
+        "名称": "2025 [2501.10057] MSTS: A Multimodal Safety Test Suite for Vision-Language Models.pdf",
+        "作者": "Paul Röttger, Giuseppe Attanasio, Felix Friedrich, Janis Goldzycher, Alicia Parrish, Rishabh Bhardwaj, Chiara Di Bonaventura, Roman Eng, Gaia El Khoury Geagea, Sujata Goswami, Jieun Han, Dirk Hovy, Seogyeong Jeong, Paloma Jeretič, Flor Miriam Plaza-del-Arco, Donya Rooein, Patrick Schramowski, Anastassia Shaitarova, Xudong Shen, Richard Willats, Andrea Zugarini, Bertie Vidgen",
+        "摘要": "摘要: 视觉语言模型（VLMs），可以处理图像和文本输入，正越来越多地被集成到聊天助手和其他消费类人工智能应用中。然而，如果没有适当的保障措施，VLMs可能会提供有害的建议（例如，如何自残）或鼓励不安全的行为（例如，吸食毒品）。尽管存在这些明显的危险，但到目前为止，很少有工作评估VLM的安全性以及多模态输入所带来的新风险。为了弥补这一差距，我们介绍了MSTS，一种用于VLMs的多模态安全测试套件。MSTS包含40个细分危险类别的400个测试提示。每个测试提示由文本和图像组成，只有结合在一起才会显示其完整的不安全含义。通过MSTS，我们发现了几个开放的VLMs存在明显的安全问题。我们还发现一些VLMs是意外安全的，这意味着它们是因为无法理解即使是简单的测试提示而显得安全。我们将MSTS翻译成十种语言，发现非英语提示增加了模型回应不安全的概率。我们还展示了在仅使用文本提示进行测试时，模型会更安全。最后，我们探索了VLMs安全评估的自动化，发现即使是最好的安全分类器也存在不足。\n\n论文标题: 视觉语言模型的多模态安全测试套件（MSTS）\n作者: Paul Röttger, Giuseppe Attanasio, Felix Friedrich, Janis Goldzycher, Alicia Parrish, Rishabh Bhardwaj, Chiara Di Bonaventura, Roman Eng, Gaia El Khoury Geagea, Sujata Goswami, Jieun Han, Dirk Hovy, Seogyeong Jeong, Paloma Jeretič, Flor Miriam Plaza-del-Arco, Donya Rooein, Patrick Schramowski, Anastassia Shaitarova, Xudong Shen, Richard Willats, Andrea Zugarini, Bertie Vidgen\n评论: 待审核\n链接: [https://arxiv.org/pdf/2501.10057.pdf](https://arxiv.org/pdf/2501.10057.pdf)",
+        "地址": "https://arxiv.org/pdf/2501.10057.pdf"
+    },
+    {
+        "名称": "2025 [2501.10573] The Geometry of Tokens in Internal Representations of Large Language Models.pdf",
+        "作者": "Karthik Viswanathan, Yuri Gardinazzi, Giada Panerai, Alberto Cazzaniga, Matteo Biagetti",
+        "摘要": "摘要：我们研究了在transformer模型中，标记嵌入的几何形态与其在预测下一个标记中的作用之间的关系。这个关联的重要方面使用了经验测度的概念，该概念编码了跨transformer层的标记点云分布，并在平均场相互作用图中推动标记表示的演变。我们使用了内在维度、邻域重叠和余弦相似度等度量指标来观察这些层中的经验测度。为了验证我们的方法，我们将这些度量指标与一个标记被打乱的数据集进行比较，这种打乱破坏了句法和语义结构。我们的研究结果揭示了标记嵌入的几何属性与下一个标记预测的交叉熵损失之间的相关性，表明损失值较高的提示中，标记在较高维度的空间中表示。\n\n作者：Karthik Viswanathan，Yuri Gardinazzi，Giada Panerai，Alberto Cazzaniga，Matteo Biagetti\n\n备注：15+9页，21个图，欢迎提出任何意见！\n\n网址：https://arxiv.org/pdf/2501.10573.pdf\n\n标题：标记在大型语言模型内部表示中的几何形态",
+        "地址": "https://arxiv.org/pdf/2501.10573.pdf"
+    },
+    {
+        "名称": "2025 [2501.11900] Panoramic Interests: Stylistic-Content Aware Personalized Headline Generation.pdf",
+        "作者": "Junhong Lian, Xiang Ao, Xinyu Liu, Yang Liu, Qing He",
+        "摘要": "摘要: 个性化新闻标题生成旨在为用户提供引人注目的标题，以满足其偏好。现有的方法侧重于面向用户的内容偏好，但大多数忽视了多样化的风格偏好是用户全景兴趣的组成部分，导致个性化效果欠佳。基于此，我们提出了一种新颖的风格内容感知个性化标题生成（SCAPE）框架。SCAPE在大型语言模型（LLM）协作的帮助下，从标题中提取内容和风格特征，并通过对比学习基础的层次融合网络自适应地整合用户的长期和短期兴趣。通过将全景兴趣纳入标题生成器，SCAPE在生成过程中反映用户的风格内容偏好。基于真实世界数据集PENS的大量实验表明，SCAPE优于基线方法。",
+        "地址": "https://arxiv.org/pdf/2501.11900.pdf"
+    },
+    {
+        "名称": "2025 [2501.12206] Fixing Imbalanced Attention to Mitigate In-Context Hallucination of Large Vision-Language Model.pdf",
+        "作者": "Kazi Hasan Ibn Arif, Sajib Acharjee Dip, Khizar Hussain, Lang Zhang, Chris Thomas",
+        "摘要": "摘要：大型视觉语言模型（LVLMs）在理解和描述视觉内容方面展示了显著的能力，在各类视觉语言任务中实现了最先进的性能。然而，这些模型经常出现幻觉行为，即生成的描述包含输入图像中不存在的对象或细节。我们的工作通过分析变压器层和头部的注意力模式研究这一现象，发现幻觉往往源于深层次视觉定位的逐渐退化。我们提出了一种新颖的注意力修改方法，结合选择性标记强调和头部特定调制，确保在整个生成过程中保持视觉定位。我们的方法引入了两个关键组件：（1）一个双流标记选择机制，用于识别并优先处理局部信息丰富和空间重要的视觉标记；（2）一个注意力头部特定的调制策略，基于个体注意力头部的视觉敏感度来不同程度地放大视觉信息处理。通过在MSCOCO数据集上的大量实验，我们证明了与基线模型相比，我们的方法将幻觉率降低了多达62.3%，同时保持了可比的任务性能。我们的分析揭示了通过在具有不同视觉敏感度的注意力头部之间选择性地调制标记，可以显著改进视觉定位，而无需模型重新训练。",
+        "地址": "https://arxiv.org/pdf/2501.12206.pdf"
+    }
+]
