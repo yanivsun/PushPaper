@@ -48,7 +48,7 @@ class TestDailyPapers(unittest.TestCase):
                 if data:
                     # 如果返回的不是空列表
                     print(f"在 {self.query_date} 找到数据:")
-                    print(data)
+                    # print(data)
                     # 写入数据到文件
                     with open(file_path, 'w', encoding='utf-8') as f:
                         json.dump(data, f, ensure_ascii=False, indent=4)

@@ -10,9 +10,6 @@ on:
   push:
     branches: [ main ]
 
-  pull_request:
-    branches:
-      - main  # 仅当拉取请求目标是 main 分支时触发
 jobs:
   build:
     # 工作流中的单个任务，这里只有一个名为“build”的任务
@@ -41,10 +38,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r ./requirements.txt
-        
-        git config --global user.name "yanivsun"
-        git config --global user.email "1109812755@qq.com"
-        git pull origin main
 
     - name: Run tests
       run: |
@@ -53,15 +46,21 @@ jobs:
 
     - name: Commit changes
       run: |
-        
-        if [ -n "$(git diff origin/main)" ]; then
-          echo "有新的更改，准备提交..."
-          git add .
-          git commit -m "每日论文推送"
-          git push
-        else
-          echo "没有新的更改，跳过提交。"
-        fi
+        git config --global user.name "yanivsun"
+        git config --global user.email "1109812755@qq.com"
+#        git pull origin main
+
+        git add .
+        git commit -m "每日论文推送"
+        git push
+#        if [ -n "$(git diff origin/main)" ]; then
+#          echo "有新的更改，准备提交..."
+#          git add .
+#          git commit -m "每日论文推送"
+#          git push
+#        else
+#          echo "没有新的更改，跳过提交。"
+#        fi
 #        git add .
 #        git commit -m "每日论文推送"
       # 提交更改，设置Git的用户信息，将所有更改添加到暂存区，并提交一个带有消息的提交
