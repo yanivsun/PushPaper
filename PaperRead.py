@@ -6,13 +6,11 @@ import os
 
 file_path = "./Paper_metadata_download/2025-01-20.json"
 results = []
-OPENAI_API_KEY = "4f1442ffe47143018f91f0e956f61a15"
-AZURE_OPENAI_ENDPOINT = "https://gtkchatgpt.openai.azure.com"
-OPENAI_API_VERSION = "2024-02-15-preview"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+OPENAI_API_VERSION = os.getenv("OPENAI_API_VERSION")
 deployment_name = "GPT4o"
-# os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-# os.environ["AZURE_OPENAI_ENDPOINT"] = AZURE_OPENAI_ENDPOINT
-# os.environ["OPENAI_API_VERSION"] = OPENAI_API_VERSION
+
 client = AzureOpenAI(
     api_version=OPENAI_API_VERSION,
     api_key=OPENAI_API_KEY,
@@ -82,6 +80,40 @@ def downandtranslate(file_path,output_folder):
         json.dump(results, outfile, ensure_ascii=False, indent=4)
 
     print(f"结果已保存到文件：{output_file_path}")
+    return output_file_path
 
+def SummaryDay():
+    content = ""
+    for i,data in enumerate(results):
+        content += f"第{i+1}篇文章 标题为：{data["名称"]},摘要为：{data["摘要"]}。\n"
+    i_say = (f"以下是我的文档的一些内容，其中包含了许多论文的内容，请帮我总结以下这些论文有多少篇，分别是什么方向的论文。内容如下：{str(content)}"             )
+
+    # 调用OpenAI API处理URL
+    result = client.chat.completions.create(
+        model=deployment_name,
+        messages=[
+            {
+                "role": "system",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "你是一个优秀的文档阅读助手，你需要按照我的要求，对我给你的文档完成相应的操作."
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": f"{i_say}"
+                    }
+                ]
+            }
+        ],
+        stream=False
+    )
+    return result.choices[0].message.content
 if __name__ == "__main__":
     downandtranslate(file_path, "./output")
+    print(SummaryDay())

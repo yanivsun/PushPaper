@@ -1,7 +1,8 @@
 import os
 from datetime import datetime, timedelta,timezone
-from PaperRead import downandtranslate
+from PaperRead import downandtranslate,SummaryDay
 import re
+from utils import mail
 
 nowtime = datetime.now(timezone.utc) + timedelta(hours=8)
 today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d")
@@ -58,5 +59,7 @@ if __name__ == "__main__":
     for file_path in json_files:
         file_path = file_path.replace("\\","/")
         print(f"找到文件：{file_path}")
-        downandtranslate(file_path,output_file)
+        out_path = downandtranslate(file_path,output_file)
+        data = SummaryDay()
+        mail(data,out_path)
     print(f"结果已保存到文件：{output_file}")

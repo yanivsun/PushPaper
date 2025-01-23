@@ -5,7 +5,7 @@ on:
   #*：表示每个月。
   #*：表示每一周的每一天
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 1 * * *'
   #推送时触发
   push:
     branches: [ main ]
@@ -36,18 +36,26 @@ jobs:
         pip install -r ./requirements.txt && python ./main.py
 
     - name: Commit changes
+      env:
+        TOKEN: ${{ secrets.TMP_PUSH_TOKEN }}
+
       run: |
         git config --global user.name "yanivsun"
         git config --global user.email "1109812755@qq.com"
         git add .
         git commit -m "每日论文推送"
-        git push
+        git push https://yanivsun:${TOKEN}@github.com/yanivsun/test.git
 
     env:
       WECHAT_ID: ${{ secrets.WECHAT_ID }}
       WECHAT_KEY: ${{ secrets.WECHAT_KEY }}
       WECAHT_TEMPLATE: ${{ secrets.WECAHT_TEMPLATE }}
       WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+      QQ_PASSWORD: ${{ secrets.QQ_PASSWORD }}
+      QQ_USER_NAME: ${{ secrets.QQ_USER_NAME }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+      OPENAI_API_VERSION: ${{ secrets.OPENAI_API_VERSION }}
 
 
 #jobs:

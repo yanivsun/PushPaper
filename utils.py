@@ -7,7 +7,8 @@ from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage
 from datetime import datetime, timedelta,timezone
 import random
-
+import zmail
+import smtplib
 
 USE_PROXIES = False
 NEED_DOWNLOAD = False
@@ -213,4 +214,25 @@ def send_wechat():
         num += 1
     print(f"成功发送{num}条信息")
 
-#TODO: 给邮箱发送消息
+# 给邮箱发送消息
+def mail(str,file_path):
+    titil = file_path.split("/")[-1].split(".")[0]
+    username = os.getenv('QQ_USER_NAME')
+    password = os.getenv('QQ_PASSWORD')
+    mail_server = zmail.server(username = username, password = password)
+
+    mail_info = {
+        'subject': f'{titil}的论文内容',
+        # 'content_text': str,
+        'content_html': f'<div>{str}</div>',  # html邮件内容
+        'attachments': file_path,
+    }
+    try:
+        mail_server.send_mail(['1109812755@qq.com','yaniv.sun@goertek.com'], mail_info)
+    except smtplib.SMTPResponseException as e:
+        # 打印异常信息，但继续执行程序
+        print(f"SMTPResponseException: {e}")
+        pass  # 或者其他处理逻辑
+
+if __name__ == "__main__":
+    mail("附件为今天的论文内容。总结为：XXXXX",'./output/2025-01-22.json')

@@ -3,7 +3,7 @@ name: down paper
 on:
   schedule:
     # 定期运行触发器，这里设置为每天UTC时间的17点，对应北京时间次日凌晨1点
-    - cron: '0 17 * * *'
+    - cron: '0 0 * * *'
   # 也允许手动触发这个工作流
 #  workflow_dispatch:
   #推送时触发
