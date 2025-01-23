@@ -39,19 +39,10 @@ jobs:
       run: |
         git config --global user.name "yanivsun"
         git config --global user.email "1109812755@qq.com"
-#        git pull origin main
         git add .
         git commit -m "每日论文推送"
         git push
 
-#        if [ -n "$(git diff origin/main)" ]; then
-#          echo "有新的更改，准备提交..."
-#          git add .
-#          git commit -m "每日论文推送"
-#          git push
-#        else
-#          echo "没有新的更改，跳过提交。"
-#        fi
     env:
       WECHAT_ID: ${{ secrets.WECHAT_ID }}
       WECHAT_KEY: ${{ secrets.WECHAT_KEY }}
