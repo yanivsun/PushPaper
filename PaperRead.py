@@ -85,7 +85,7 @@ def downandtranslate(file_path,output_folder):
 def SummaryDay():
     content = ""
     for i,data in enumerate(results):
-        content += f"第{i+1}篇文章 标题为：{data["名称"]},摘要为：{data["摘要"]}。\n"
+        content += f"第{i+1}篇文章 标题为：{data['名称']},摘要为：{data['摘要']}。\n"
     i_say = (f"以下是我的文档的一些内容，其中包含了许多论文的内容，请帮我总结以下这些论文有多少篇，分别是什么方向的论文。内容如下：{str(content)}"             )
 
     # 调用OpenAI API处理URL
