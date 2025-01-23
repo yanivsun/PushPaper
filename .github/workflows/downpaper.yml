@@ -6,6 +6,10 @@ on:
     - cron: '0 17 * * *'
   # 也允许手动触发这个工作流
 #  workflow_dispatch:
+  #推送时触发
+  push:
+    branches: [ main ]
+
   pull_request:
     branches:
       - main  # 仅当拉取请求目标是 main 分支时触发
