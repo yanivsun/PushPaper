@@ -42,7 +42,6 @@ jobs:
     - name: Run tests
       run: |
         python -m unittest DailyDownload.py
-
     - name: Commit changes
       run: |
         git config --global user.name "yanivsun"
