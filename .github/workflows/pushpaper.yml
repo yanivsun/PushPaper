@@ -1,0 +1,25 @@
+name: pushpaper
+
+on:
+  schedule:
+    # 定期运行触发器，这里设置为每天UTC时间的17点，对应北京时间次日凌晨1点
+    - cron: '0 19 * * *'
+
+  #推送时触发
+  push:
+    branches: [ main ]
+
+  pull_request:
+    branches:
+      - main  # 仅当拉取请求目标是 main 分支时触发
+
+jobs:
+  build:
+    # 工作流中的单个任务，这里只有一个名为“build”的任务
+    runs-on: ubuntu-latest
+    # 运行任务的服务器环境，这里使用最新的Ubuntu
+
+    strategy:
+      matrix:
+        python-version: [ 3.11 ]
+        # 定义一个策略，这里使用Python 3.11版本
