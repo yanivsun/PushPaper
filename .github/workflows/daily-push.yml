@@ -1,11 +1,11 @@
-name: send information wechat
+name: send paper imformation
 
 on:
   # schedule:：表示定时任务的配置。 0：表示在每小时的第零分钟（即整点）1：表示在每天的 1 点（北京上午 9 点）*：表示每个月的每一天。
   #*：表示每个月。
   #*：表示每一周的每一天
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 19 * * *'
   #推送时触发
   push:
     branches: [ main ]
