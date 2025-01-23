@@ -51,11 +51,20 @@ jobs:
       run: |
         git config --global user.name "yanivsun"
         git config --global user.email "1109812755@qq.com"
-        git add .
-        git commit -m "每日论文推送"
+        
+        git fetch origin main
+        if [ -n "$(git diff origin/main)" ]; then
+          echo "有新的更改，准备提交..."
+          git add .
+          git commit -m "每日论文推送"
+          git push
+        else
+          echo "没有新的更改，跳过提交。"
+        fi
+#        git add .
+#        git commit -m "每日论文推送"
       # 提交更改，设置Git的用户信息，将所有更改添加到暂存区，并提交一个带有消息的提交
 
-    - name: Push changes
-      run: |
-        git push
-      # 推送更改到远程仓库，使用之前设置的token进行身份验证
+#    - name: Push changes
+#      run: |
+#        git push
