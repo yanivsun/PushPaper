@@ -42,7 +42,6 @@ jobs:
     - name: Run tests
       run: |
         python -m unittest DailyDownload.py
-      # 运行单元测试，调用unittest模块来执行Paper_metadata_download.py脚本
 
     - name: Commit changes
       run: |
