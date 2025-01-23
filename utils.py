@@ -228,7 +228,7 @@ def mail(str,file_path):
         'attachments': file_path,
     }
     try:
-        mail_server.send_mail(['1109812755@qq.com'], mail_info)
+        mail_server.send_mail(['1109812755@qq.com','yaniv.sun@goertek.com'], mail_info)
     except smtplib.SMTPResponseException as e:
         # 打印异常信息，但继续执行程序
         print(f"SMTPResponseException: {e}")

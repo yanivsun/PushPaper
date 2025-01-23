@@ -7,8 +7,8 @@ on:
   schedule:
     - cron: '0 1 * * *'
   #推送时触发
-  push:
-    branches: [ main ]
+#  push:
+#    branches: [ main ]
 
 #  pull_request:
 #    branches:
