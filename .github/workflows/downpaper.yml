@@ -51,8 +51,10 @@ jobs:
         git config --global user.name "yanivsun"
         git config --global user.email "1109812755@qq.com"
         git add Paper_metadata_download/*
-        git status
-        git commit -m "论文下载"
-        git push https://yanivsun:${TOKEN}@github.com/yanivsun/test.git
-
+        if [ "$(git status --porcelain)" ]; then
+          git commit -m "论文下载"
+          git push https://yanivsun:${TOKEN}@github.com/yanivsun/test.git
+        else
+          echo "No changes to commit."
+        fi
 
