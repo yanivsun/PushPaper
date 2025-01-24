@@ -1,0 +1,56 @@
+[
+    {
+        "名称": "2025 [2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.pdf",
+        "作者": "DeepSeek-AI, Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma, Peiyi Wang, Xiao Bi, Xiaokang Zhang, Xingkai Yu, Yu Wu, Z.F. Wu, Zhibin Gou, Zhihong Shao, Zhuoshu Li, Ziyi Gao, Aixin Liu, Bing Xue, Bingxuan Wang, Bochao Wu, Bei Feng, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, Damai Dai, Deli Chen, Dongjie Ji, Erhang Li, Fangyun Lin, Fucong Dai, Fuli Luo, Guangbo Hao, Guanting Chen, Guowei Li, H. Zhang, Han Bao, Hanwei Xu, Haocheng Wang, Honghui Ding, Huajian Xin, Huazuo Gao, Hui Qu, Hui Li, Jianzhong Guo, Jiashi Li, Jiawei Wang, Jingchang Chen, Jingyang Yuan, Junjie Qiu, Junlong Li, J.L. Cai, Jiaqi Ni, Jian Liang, Jin Chen, Kai Dong, Kai Hu, Kaige Gao, Kang Guan, Kexin Huang, Kuai Yu, Lean Wang, Lecong Zhang, Liang Zhao, Litong Wang, Liyue Zhang, Lei Xu, Leyi Xia, Mingchuan Zhang, Minghua Zhang, Minghui Tang, Meng Li, Miaojun Wang, Mingming Li, Ning Tian, Panpan Huang, Peng Zhang, Qiancheng Wang, Qinyu Chen, Qiushi Du, Ruiqi Ge, Ruisong Zhang, Ruizhe Pan, Runji Wang, R.J. Chen, R.L. Jin, Ruyi Chen, Shanghao Lu, Shangyan Zhou, Shanhuang Chen, Shengfeng Ye, Shiyu Wang, Shuiping Yu, Shunfeng Zhou, Shuting Pan, S.S. Li\n\n\n        , Shuang Zhou, Shaoqing Wu, Shengfeng Ye, Tao Yun, Tian Pei, Tianyu Sun, T. Wang, Wangding Zeng, Wanjia Zhao, Wen Liu, Wenfeng Liang, Wenjun Gao, Wenqin Yu, Wentao Zhang, W.L. Xiao, Wei An, Xiaodong Liu, Xiaohan Wang, Xiaokang Chen, Xiaotao Nie, Xin Cheng, Xin Liu, Xin Xie, Xingchao Liu, Xinyu Yang, Xinyuan Li, Xuecheng Su, Xuheng Lin, X.Q. Li, Xiangyue Jin, Xiaojin Shen, Xiaosha Chen, Xiaowen Sun, Xiaoxiang Wang, Xinnan Song, Xinyi Zhou, Xianzu Wang, Xinxia Shan, Y.K. Li, Y.Q. Wang, Y.X. Wei, Yang Zhang, Yanhong Xu, Yao Li, Yao Zhao, Yaofeng Sun, Yaohui Wang, Yi Yu, Yichao Zhang, Yifan Shi, Yiliang Xiong, Ying He, Yishi Piao, Yisong Wang, Yixuan Tan, Yiyang Ma, Yiyuan Liu, Yongqiang Guo, Yuan Ou, Yuduan Wang, Yue Gong, Yuheng Zou, Yujia He, Yunfan Xiong, Yuxiang Luo, Yuxiang You, Yuxuan Liu, Yuyang Zhou, Y.X. Zhu, Yanhong Xu, Yanping Huang, Yaohui Li, Yi Zheng, Yuchen Zhu, Yunxian Ma, Ying Tang, Yukun Zha, Yuting Yan, Z.Z. Ren, Zehui Ren, Zhangli Sha, Zhe Fu, Zhean Xu, Zhenda Xie, Zhengyan Zhang, Zhewen Hao, Zhicheng Ma, Zhigang Yan, Zhiyu Wu, Zihui Gu, Zijia Zhu, Zijun Liu, Zilin Li, Ziwei Xie, Ziyang Song, Zizheng Pan, Zhen Huang, Zhipeng Xu, Zhongyu Zhang, Zhen Zhang\n\n\n    et al. (100 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们介绍了第一代推理模型，DeepSeek-R1-Zero 和 DeepSeek-R1。DeepSeek-R1-Zero 是一个通过大规模强化学习（RL）训练、无监督微调（SFT）作为预备步骤的模型，展示了显著的推理能力。通过RL，DeepSeek-R1-Zero自然涌现出许多强大且有趣的推理行为。然而，它面临诸如可读性差和语言混杂等挑战。为了解决这些问题并进一步增强推理性能，我们引入了DeepSeek-R1，结合了多阶段训练和冷启动数据在RL之前。DeepSeek-R1在推理任务中的表现可与OpenAI-o1-1217媲美。为支持研究社区，我们开源了DeepSeek-R1-Zero、DeepSeek-R1和从DeepSeek-R1中提炼出的六个密集模型（1.5B, 7B, 8B, 14B, 32B, 70B）。",
+        "地址": "https://arxiv.org/pdf/2501.12948.pdf"
+    },
+    {
+        "名称": "2025 [2501.13106] VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding.pdf",
+        "作者": "Boqiang Zhang, Kehan Li, Zesen Cheng, Zhiqiang Hu, Yuqian Yuan, Guanzheng Chen, Sicong Leng, Yuming Jiang, Hang Zhang, Xin Li, Peng Jin, Wenqi Zhang, Fan Wang, Lidong Bing, Deli Zhao",
+        "摘要": "摘要：在本文中，我们提出了VideoLLaMA3，这是一种更先进的多模态基础模型，用于图像和视频理解。VideoLLaMA3的核心设计理念是“以视觉为中心”，其含义有两个方面：以视觉为中心的训练范式和以视觉为中心的框架设计。我们的以视觉为中心的训练范式的关键见解是高质量的图像-文本数据对于图像和视频理解都是至关重要的。我们并没有准备大量的视频-文本数据集，而是专注于构建大规模和高质量的图像-文本数据集。VideoLLaMA3有四个训练阶段：1）视觉编码器适应，使视觉编码器能够接受不同分辨率的图像作为输入；2）视觉-语言对齐，联合调整视觉编码器、投影器和大型语言模型（LLM），使用涵盖多个类型（包括场景图像、文档、图表）的大规模图像-文本数据以及纯文本数据；3）多任务微调，采用用于下游任务的图像-文本SFT数据和视频-文本数据，为视频理解建立基础；4）以视频为中心的微调，进一步提升模型在视频理解方面的能力。在框架设计方面，为了更好地捕捉图像中的细粒度细节，预训练的视觉编码器被调整为将不同大小的图像编码为相应数量的视觉标记，而不是固定数量的标记。对于视频输入，我们根据相似性减少视觉标记的数量，从而使视频的表示更精确和紧凑。得益于以视觉为中心的设计，VideoLLaMA3在图像和视频理解基准测试中取得了出色的表现。",
+        "地址": "https://arxiv.org/pdf/2501.13106.pdf"
+    },
+    {
+        "名称": "2025 [2501.12909] FilmAgent: A Multi-Agent Framework for End-to-End Film Automation in Virtual 3D Spaces.pdf",
+        "作者": "Zhenran Xu, Longyue Wang, Jifang Wang, Zhouyi Li, Senbao Shi, Xue Yang, Yiyu Wang, Baotian Hu, Jun Yu, Min Zhang",
+        "摘要": "摘要：虚拟电影制作需要复杂的决策过程，包括剧本写作、虚拟电影摄影以及精确的演员定位和动作。受基于语言代理的社会自动决策最新进展的启发，本文介绍了FilmAgent，一种基于大语言模型 (LLM) 的多代理协作框架，用于我们构建的3D虚拟空间中的端到端电影自动化。FilmAgent模拟了包括导演、编剧、演员和摄影师在内的各种剧组角色，并涵盖了电影制作流程的关键阶段：(1) 将头脑风暴的创意转化为结构化故事大纲的创意发展；(2) 每个场景对话和角色动作细化的剧本写作；(3) 决定每个镜头摄像机设置的电影摄影。一个代理团队通过反复的反馈和修订进行合作，从而验证中间剧本并减少虚假生成。我们在15个创意和4个关键方面评估生成的视频。人工评估表明，FilmAgent在所有方面都优于所有基线，平均得分为3.98（满分5分），显示了多代理协作在电影制作中的可行性。进一步分析发现，尽管FilmAgent使用了较不先进的GPT-4o模型，但仍优于单代理o1，展示了协调良好的多代理系统的优势。最后，我们讨论了OpenAI的文本到视频模型Sora与我们的FilmAgent在电影制作中的互补优缺点。",
+        "地址": "https://arxiv.org/pdf/2501.12909.pdf"
+    },
+    {
+        "名称": "2025 [2501.12895] Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback.pdf",
+        "作者": "Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng",
+        "摘要": "摘要：大型语言模型（LLMs）表现出令人印象深刻的性能，但缺乏在不重新训练的情况下快速适应人类偏好的灵活性。在这项工作中，我们介绍了测试时偏好优化（TPO）框架，该框架在推理过程中使LLM的输出与人类偏好对齐，消除了更新模型参数的需求。TPO不是仅依赖纯粹的数值奖励，而是将奖励信号转化为文本评论，并使用它们作为文本奖励来迭代地优化其响应。在涉及指令遵循、偏好对齐、安全性和数学的基准评估中，TPO逐步改善了与人类偏好的对齐。值得注意的是，仅经过几个TPO步骤，最初未对齐的Llama-3.1-70B-SFT模型就可以超过其对齐的对应模型Llama-3.1-70B-Instruct。此外，TPO在推理过程中可以高效地扩展搜索宽度和深度。通过案例研究，我们展示了TPO如何利用LLM固有的能力来解释和执行奖励信号。我们的研究结果表明，TPO是一种实用、轻量级的测试时偏好优化替代方案，能够即时实现对齐。我们的代码可以通过此https网址公开获取。",
+        "地址": "https://arxiv.org/pdf/2501.12895.pdf"
+    },
+    {
+        "名称": "2025 [2501.12599] Kimi k1.5: Scaling Reinforcement Learning with LLMs.pdf",
+        "作者": "Kimi Team, Angang Du, Bofei Gao, Bowei Xing, Changjiu Jiang, Cheng Chen, Cheng Li, Chenjun Xiao, Chenzhuang Du, Chonghua Liao, Chuning Tang, Congcong Wang, Dehao Zhang, Enming Yuan, Enzhe Lu, Fengxiang Tang, Flood Sung, Guangda Wei, Guokun Lai, Haiqing Guo, Han Zhu, Hao Ding, Hao Hu, Hao Yang, Hao Zhang, Haotian Yao, Haotian Zhao, Haoyu Lu, Haoze Li, Haozhen Yu, Hongcheng Gao, Huabin Zheng, Huan Yuan, Jia Chen, Jianhang Guo, Jianlin Su, Jianzhou Wang, Jie Zhao, Jin Zhang, Jingyuan Liu, Junjie Yan, Junyan Wu, Lidong Shi, Ling Ye, Longhui Yu, Mengnan Dong, Neo Zhang, Ningchen Ma, Qiwei Pan, Qucheng Gong, Shaowei Liu, Shengling Ma, Shupeng Wei, Sihan Cao, Siying Huang, Tao Jiang, Weihao Gao, Weimin Xiong, Weiran He, Weixiao Huang, Wenhao Wu, Wenyang He, Xianghui Wei, Xianqing Jia, Xingzhe Wu, Xinran Xu, Xinxing Zu, Xinyu Zhou, Xuehai Pan, Y. Charles, Yang Li, Yangyang Hu, Yangyang Liu, Yanru Chen, Yejie Wang, Yibo Liu, Yidao Qin, Yifeng Liu, Ying Yang, Yiping Bao, Yulun Du, Yuxin Wu, Yuzhi Wang, Zaida Zhou, Zhaoji Wang, Zhaowei Li, Zhen Zhu, Zheng Zhang, Zhexu Wang, Zhilin Yang, Zhiqi Huang, Zihao Huang, Ziyao Xu, Zonghan Yang",
+        "摘要": "摘要：通过预测下一个词进行语言模型的预训练已被证明对于计算扩展是有效的，但受到可用训练数据量的限制。扩展强化学习（RL）解锁了人工智能持续改进的新轴，因为大型语言模型（LLMs）可以通过学习探索奖励来扩展其训练数据。然而，之前发表的工作未能产生具有竞争力的结果。有鉴于此，我们报告了Kimi k1.5的训练实践，这是一种使用RL训练的最新多模态LLM，包括其RL训练技术、多模态数据配方和基础设施优化。长上下文扩展和改进的策略优化方法是我们方法的关键成分，这建立了一个简单有效的RL框架，而无需依赖诸如蒙特卡洛树搜索、价值函数和过程奖励模型等更复杂的技术。值得注意的是，我们的系统在多个基准和模态上实现了最先进的推理性能——例如，AIME得77.5分，MATH 500得96.2分，Codeforces得94百分位，MathVista得74.9分——相当于OpenAI的o1。此外，我们提出了有效的long2short方法，使用long-CoT技术来改进short-CoT模型，产生最先进的short-CoT推理结果——例如，AIME得60.8分，MATH500得94.6分，LiveCodeBench得47.3分——大幅超越现有的short-CoT模型，如GPT-4o和Claude Sonnet 3.5（最高达到+550%）。\n",
+        "地址": "https://arxiv.org/pdf/2501.12599.pdf"
+    },
+    {
+        "名称": "2025 [2501.13074] Autonomy-of-Experts Models.pdf",
+        "作者": "Ang Lv, Ruobing Xie, Yining Qian, Songhao Wu, Xingwu Sun, Zhanhui Kang, Di Wang, Rui Yan",
+        "摘要": "摘要：混合专家 (MoE) 模型通常使用路由器将令牌分配给特定的专家模块，仅激活部分参数，从而经常表现优于稠密模型。我们认为，路由器的决策和专家的执行之间的分离是一个关键但被忽视的问题，导致专家选择不佳和学习效率低下。为了解决这一问题，我们提出了专家自治 (AoE)，这是一种新颖的 MoE 范式，其中专家自主选择处理输入。AoE 的基础是一个专家能够意识到其自身有效处理令牌的能力，这种意识体现在其内部激活的规模上。在 AoE 中，路由器被移除；取而代之的是，专家为输入预计算内部激活，并根据其激活规范进行排名。只有排名靠前的专家继续进行前向传递，而其他专家则停止。通过低秩权重分解减少了预计算激活的开销。这种自我评价然后与其他专家比较的方法确保了更好的专家选择和有效的学习。我们预训练了具有 7 亿到 40 亿参数的语言模型，展示了 AoE 在可比效率下优于传统 MoE 模型。",
+        "地址": "https://arxiv.org/pdf/2501.13074.pdf"
+    },
+    {
+        "名称": "2025 [2501.13007] Pairwise RM: Perform Best-of-N Sampling with Knockout Tournament.pdf",
+        "作者": "Yantao Liu, Zijun Yao, Rui Min, Yixin Cao, Lei Hou, Juanzi Li",
+        "摘要": "摘要：Best-of-N (BoN) 采样是一种常见的用于大语言模型（LLMs）测试时间扩展的策略，依赖奖励模型从多个生成方案中选择最佳候选解决方案。然而，传统的奖励模型通常会赋予任意且不一致的分数，限制了它们的有效性。为了解决这个问题，我们提出了一种基于成对比较的奖励模型（Pairwise RM），并结合淘汰赛算法来进行BoN采样。与赋予绝对分数不同，对于一个数学问题，Pairwise RM能够同时评估两个候选解决方案的正确性。这一方法消除了对任意评分的需求，并通过平行比较实现了对解决方案的交叉验证。在淘汰赛中，Pairwise RM通过成对比较候选方案并迭代地淘汰不正确的方案。我们构建了\\\\ourdataset，一个由NumiaMath派生并使用\\\\texttt{gemini-1.5-flash}注释的包含443K对比数据的大规模数据集，并通过监督微调来训练Pairwise RM。在MATH-500和Olympiad Bench上的实验表明，相比传统的判别奖励模型，性能有了显著提高，并且在最具挑战性的前50%的问题上，达到了40%到60%的相对提升。",
+        "地址": "https://arxiv.org/pdf/2501.13007.pdf"
+    },
+    {
+        "名称": "2025 [2501.12570] O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning.pdf",
+        "作者": "Haotian Luo, Li Shen, Haiying He, Yibo Wang, Shiwei Liu, Wei Li, Naiqiang Tan, Xiaochun Cao, Dacheng Tao",
+        "摘要": "摘要: 最近，像OpenAI的O1这样的长思维推理LLM，采用了类似于人类深思熟虑复杂问题的扩展推理过程。这种推理范式极大地增强了模型解决问题的能力，并取得了令人期待的成果。然而，长思维推理过程导致推理时间显著增加。一个紧迫的挑战在于减少长思维LLM的推理开销，同时确保准确性。在这篇论文中，我们通过实验表明，长思维推理模型在根据问题难度和推理冗余有效分配标记预算方面表现不佳。为了解决这一问题，我们提出了长度协调微调（O1-Pruner），旨在在保持准确性的同时最小化推理开销。这种有效的微调方法首先通过预采样估算LLM的基线表现，然后使用类似RL的微调方法，鼓励模型在准确性约束下生成更短的推理过程。这样可以使模型在保持准确性的同时实现低冗余的高效推理。在各种数学推理基准测试上的实验表明，O1-Pruner不仅显著减少了推理开销，还实现了更高的准确性，为这一挑战提供了一种新颖且有前途的解决方案。我们的代码即将发布在这个https URL。",
+        "地址": "https://arxiv.org/pdf/2501.12570.pdf"
+    },
+    {
+        "名称": "2025 [2501.11067] IntellAgent: A Multi-Agent Framework for Evaluating Conversational AI Systems.pdf",
+        "作者": "Elad Levi, Ilan Kadar",
+        "摘要": "摘要：大型语言模型（LLMs）正在改变人工智能，发展为能够自主规划和执行任务的系统。LLMs的主要应用之一是会话AI系统，这些系统必须处理多轮对话，整合特定领域的API，并遵守严格的政策约束。然而，评估这些代理仍然是一个重大挑战，因为传统方法无法捕捉到现实世界交互的复杂性和多样性。我们介绍了IntellAgent，这是一个可扩展的开源多代理框架，旨在全面评估会话AI系统。IntellAgent通过结合驱动策略的图模型、现实事件生成和交互式用户代理模拟，自动创建多样化的合成基准。这种创新方法提供了细粒度诊断，解决了静态和手动策划基准中粗粒度指标的局限性。IntellAgent代表了评估会话AI的范式转变。通过模拟具有不同复杂度的多策略场景，IntellAgent捕捉到了代理能力和政策约束之间的细微互动。与传统方法不同，它采用基于图的策略模型来表示政策交互的关系、可能性和复杂性，从而实现高度详细的诊断。IntellAgent还识别了关键的性能差距，提供了有针对性的优化见解。其模块化、开源的设计支持新领域、政策和API的无缝集成，促进了可重复性和社区协作。我们的研究结果表明，IntellAgent作为一个有效的框架，通过解决研究和部署之间的挑战，推动了会话AI的进步。该框架可在此网址获取：https://arxiv.org/pdf/2501.11067.pdf\n\n作者：Elad Levi, Ilan Kadar",
+        "地址": "https://arxiv.org/pdf/2501.11067.pdf"
+    }
+]
