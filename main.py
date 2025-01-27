@@ -60,6 +60,8 @@ if __name__ == "__main__":
         file_path = file_path.replace("\\","/")
         print(f"找到文件：{file_path}")
         out_path = downandtranslate(file_path,output_file)
+        if out_path is None:
+            break
         data = SummaryDay()
         mail(data,out_path)
     print(f"结果已保存到文件：{output_file}")

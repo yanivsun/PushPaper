@@ -22,6 +22,11 @@ def downandtranslate(file_path,output_folder):
         data = json.load(file)
 
     ids = []
+
+    if (isinstance(data, int)):
+        # 可能当天没有新的论文
+        return None
+
     for tmp in data:
         ids.append(tmp['paper']['id'])
 
