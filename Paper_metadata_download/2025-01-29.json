@@ -1,0 +1,1095 @@
+[
+    {
+        "paper": {
+            "id": "2501.17161",
+            "authors": [
+                {
+                    "_id": "6799b39b15f4661561c22968",
+                    "user": {
+                        "_id": "65127ec162b7d28b1eaab17a",
+                        "avatarUrl": "/avatars/0bcfeb68a405be4efb6e8a29738a5598.svg",
+                        "isPro": false,
+                        "fullname": "Tianzhe",
+                        "user": "tianzhechu",
+                        "type": "user"
+                    },
+                    "name": "Tianzhe Chu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:03.469Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c22969",
+                    "name": "Yuexiang Zhai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296a",
+                    "user": {
+                        "_id": "6304baf041387c7f1177a5d2",
+                        "avatarUrl": "/avatars/795c63f2394080eec78ca7981d4a1f78.svg",
+                        "isPro": false,
+                        "fullname": "Jihan Yang",
+                        "user": "jihanyang",
+                        "type": "user"
+                    },
+                    "name": "Jihan Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:18:57.418Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296b",
+                    "name": "Shengbang Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296c",
+                    "user": {
+                        "_id": "6596422646624a86ff3b3bda",
+                        "avatarUrl": "/avatars/216e12b77e45ac5f1fa20932f5745411.svg",
+                        "isPro": false,
+                        "fullname": "Saining Xie",
+                        "user": "sainx",
+                        "type": "user"
+                    },
+                    "name": "Saining Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:19:29.194Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296d",
+                    "name": "Dale Schuurmans",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296e",
+                    "name": "Quoc V. Le",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c2296f",
+                    "user": {
+                        "_id": "665ce54120a307a3754849dd",
+                        "avatarUrl": "/avatars/e698726e9be61dd50ce2efe372ed5dac.svg",
+                        "isPro": false,
+                        "fullname": "Sergey Levine",
+                        "user": "svlevine",
+                        "type": "user"
+                    },
+                    "name": "Sergey Levine",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:19:47.824Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b39b15f4661561c22970",
+                    "name": "Yi Ma",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T18:59:44.000Z",
+            "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model\n  Post-training",
+            "summary": "Supervised fine-tuning (SFT) and reinforcement learning (RL) are widely used\npost-training techniques for foundation models. However, their roles in\nenhancing model generalization capabilities remain unclear. This paper studies\nthe difference between SFT and RL on generalization and memorization, focusing\non text-based rule variants and visual variants. We introduce GeneralPoints, an\narithmetic reasoning card game, and adopt V-IRL, a real-world navigation\nenvironment, to assess how models trained with SFT and RL generalize to unseen\nvariants in both textual and visual domains. We show that RL, especially when\ntrained with an outcome-based reward, generalizes across both rule-based\ntextual and visual variants. SFT, in contrast, tends to memorize training data\nand struggles to generalize out-of-distribution scenarios. Further analysis\nreveals that RL improves the model's underlying visual recognition\ncapabilities, contributing to its enhanced generalization in the visual domain.\nDespite RL's superior generalization, we show that SFT remains essential for\neffective RL training; SFT stabilizes the model's output format, enabling\nsubsequent RL to achieve its performance gains. These findings demonstrates the\ncapability of RL for acquiring generalizable knowledge in complex, multi-modal\ntasks.",
+            "upvotes": 29,
+            "discussionId": "6799b39d15f4661561c229e6"
+        },
+        "publishedAt": "2025-01-28T23:50:56.664Z",
+        "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.17161.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "60f1abe7544c2adfd699860c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+            "fullname": "AK",
+            "name": "akhaliq",
+            "type": "user",
+            "isPro": false,
+            "isHf": true,
+            "isMod": false,
+            "followerCount": 5856
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2501.17116",
+            "authors": [
+                {
+                    "_id": "6799b367d30dc065a2d51592",
+                    "name": "Ruizhe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51593",
+                    "name": "Yeyun Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51594",
+                    "user": {
+                        "_id": "63fb6e281b4b1bd4e7ffc5be",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677422062937-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiao Liu",
+                        "user": "lx865712528",
+                        "type": "user"
+                    },
+                    "name": "Xiao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:05.045Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51595",
+                    "user": {
+                        "_id": "663de80ca920d195191807da",
+                        "avatarUrl": "/avatars/2437ce3fa073a07b971d370c26c7ab65.svg",
+                        "isPro": false,
+                        "fullname": "Guoshuai Zhao",
+                        "user": "crayonshine",
+                        "type": "user"
+                    },
+                    "name": "Guoshuai Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:20:36.800Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51596",
+                    "user": {
+                        "_id": "62f6a9add3bdacb7eec0d4f5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660332390183-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Ziyue Yang",
+                        "user": "ziyueyang37",
+                        "type": "user"
+                    },
+                    "name": "Ziyue Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:20:42.213Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51597",
+                    "name": "Baining Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51598",
+                    "name": "Zhengjun Zha",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b367d30dc065a2d51599",
+                    "user": {
+                        "_id": "653feb7ccf1f9c88f4928910",
+                        "avatarUrl": "/avatars/23a6a6818116683ea9485e1470a0062f.svg",
+                        "isPro": false,
+                        "fullname": "Peng Cheng",
+                        "user": "cp5555",
+                        "type": "user"
+                    },
+                    "name": "Peng Cheng",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-29T04:49:44.372Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T18:04:50.000Z",
+            "title": "Optimizing Large Language Model Training Using FP4 Quantization",
+            "summary": "The growing computational demands of training large language models (LLMs)\nnecessitate more efficient methods. Quantized training presents a promising\nsolution by enabling low-bit arithmetic operations to reduce these costs. While\nFP8 precision has demonstrated feasibility, leveraging FP4 remains a challenge\ndue to significant quantization errors and limited representational capacity.\nThis work introduces the first FP4 training framework for LLMs, addressing\nthese challenges with two key innovations: a differentiable quantization\nestimator for precise weight updates and an outlier clamping and compensation\nstrategy to prevent activation collapse. To ensure stability, the framework\nintegrates a mixed-precision training scheme and vector-wise quantization.\nExperimental results demonstrate that our FP4 framework achieves accuracy\ncomparable to BF16 and FP8, with minimal degradation, scaling effectively to\n13B-parameter LLMs trained on up to 100B tokens. With the emergence of\nnext-generation hardware supporting FP4, our framework sets a foundation for\nefficient ultra-low precision training.",
+            "upvotes": 14,
+            "discussionId": "6799b368d30dc065a2d515bf"
+        },
+        "publishedAt": "2025-01-28T23:50:12.472Z",
+        "title": "Optimizing Large Language Model Training Using FP4 Quantization",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.17116.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "60f1abe7544c2adfd699860c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+            "fullname": "AK",
+            "name": "akhaliq",
+            "type": "user",
+            "isPro": false,
+            "isHf": true,
+            "isMod": false,
+            "followerCount": 5856
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2501.16764",
+            "authors": [
+                {
+                    "_id": "6799aa5a311dbfe3c96724cd",
+                    "user": {
+                        "_id": "62e18206926f4892a4c782bd",
+                        "avatarUrl": "/avatars/0f89091a5eb72165d2e860d15b339539.svg",
+                        "isPro": false,
+                        "fullname": "Chenguo Lin",
+                        "user": "chenguolin",
+                        "type": "user"
+                    },
+                    "name": "Chenguo Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:14.090Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799aa5a311dbfe3c96724ce",
+                    "user": {
+                        "_id": "654866e8cd0a5621395f8287",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/654866e8cd0a5621395f8287/4Bccwd1ehn-Ee4T1rId5S.jpeg",
+                        "isPro": false,
+                        "fullname": "Panwang Pan",
+                        "user": "paulpanwang",
+                        "type": "user"
+                    },
+                    "name": "Panwang Pan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:26:28.217Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799aa5a311dbfe3c96724cf",
+                    "name": "Bangbang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799aa5a311dbfe3c96724d0",
+                    "user": {
+                        "_id": "65c04adbc63d6a8d7f217c4d",
+                        "avatarUrl": "/avatars/3407dd73d1f5cf41c56cee7542858f93.svg",
+                        "isPro": false,
+                        "fullname": "Zeming Li",
+                        "user": "ZemingLi",
+                        "type": "user"
+                    },
+                    "name": "Zeming Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:26:44.370Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799aa5a311dbfe3c96724d1",
+                    "name": "Yadong Mu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T07:38:59.000Z",
+            "title": "DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian\n  Splat Generation",
+            "summary": "Recent advancements in 3D content generation from text or a single image\nstruggle with limited high-quality 3D datasets and inconsistency from 2D\nmulti-view generation. We introduce DiffSplat, a novel 3D generative framework\nthat natively generates 3D Gaussian splats by taming large-scale text-to-image\ndiffusion models. It differs from previous 3D generative models by effectively\nutilizing web-scale 2D priors while maintaining 3D consistency in a unified\nmodel. To bootstrap the training, a lightweight reconstruction model is\nproposed to instantly produce multi-view Gaussian splat grids for scalable\ndataset curation. In conjunction with the regular diffusion loss on these\ngrids, a 3D rendering loss is introduced to facilitate 3D coherence across\narbitrary views. The compatibility with image diffusion models enables seamless\nadaptions of numerous techniques for image generation to the 3D realm.\nExtensive experiments reveal the superiority of DiffSplat in text- and\nimage-conditioned generation tasks and downstream applications. Thorough\nablation studies validate the efficacy of each critical design choice and\nprovide insights into the underlying mechanism.",
+            "upvotes": 10,
+            "discussionId": "6799aa5c311dbfe3c9672542"
+        },
+        "publishedAt": "2025-01-29T01:12:02.839Z",
+        "title": "DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/654866e8cd0a5621395f8287/TFJMeKzXxMLOnq8NH8ltZ.mp4",
+            "https://cdn-uploads.huggingface.co/production/uploads/654866e8cd0a5621395f8287/6kn1RLEUsUV-W6S0Taylo.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.16764.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "654866e8cd0a5621395f8287",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/654866e8cd0a5621395f8287/4Bccwd1ehn-Ee4T1rId5S.jpeg",
+            "fullname": "Panwang Pan",
+            "name": "paulpanwang",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isMod": false,
+            "followerCount": 3
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2501.16975",
+            "authors": [
+                {
+                    "_id": "6799b345a66ae6b357bef986",
+                    "user": {
+                        "_id": "66fbbed8a0154e0b6498293d",
+                        "avatarUrl": "/avatars/5c4202f13cc5af6424154fae293fad52.svg",
+                        "isPro": false,
+                        "fullname": "Huang Hongzhi",
+                        "user": "xyzed",
+                        "type": "user"
+                    },
+                    "name": "Hongzhi Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:08.642Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef987",
+                    "user": {
+                        "_id": "667505f4361b960c79e35486",
+                        "avatarUrl": "/avatars/d352639c520075220f6abaae23c39376.svg",
+                        "isPro": false,
+                        "fullname": "Defa Zhu",
+                        "user": "mathfinder",
+                        "type": "user"
+                    },
+                    "name": "Defa Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:06.916Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef988",
+                    "user": {
+                        "_id": "64a3b0fa565496b629879293",
+                        "avatarUrl": "/avatars/9d5de6cc4a01052ea971701f72bd3489.svg",
+                        "isPro": false,
+                        "fullname": "wubanggu",
+                        "user": "banggu",
+                        "type": "user"
+                    },
+                    "name": "Banggu Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:21:12.737Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef989",
+                    "user": {
+                        "_id": "6371128eafbe42caa5a5222b",
+                        "avatarUrl": "/avatars/c3b2ab35949c38aa3dfb2657a1300aac.svg",
+                        "isPro": false,
+                        "fullname": "Yutao Zeng",
+                        "user": "Taoer",
+                        "type": "user"
+                    },
+                    "name": "Yutao Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:10.495Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef98a",
+                    "name": "Ya Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef98b",
+                    "user": {
+                        "_id": "645507b89d37c3fb33279fe3",
+                        "avatarUrl": "/avatars/ec1122137c49204ab968182d1f726c35.svg",
+                        "isPro": false,
+                        "fullname": "min",
+                        "user": "qiyang-attn",
+                        "type": "user"
+                    },
+                    "name": "Qiyang Min",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:21:23.469Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b345a66ae6b357bef98c",
+                    "user": {
+                        "_id": "62533db4a06ec75172eeabe7",
+                        "avatarUrl": "/avatars/b1a4dad90afae5c00df97233a97777db.svg",
+                        "isPro": false,
+                        "fullname": "xunzhou",
+                        "user": "xunzhou",
+                        "type": "user"
+                    },
+                    "name": "Xun Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:21:37.188Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T14:15:42.000Z",
+            "title": "Over-Tokenized Transformer: Vocabulary is Generally Worth Scaling",
+            "summary": "Tokenization is a fundamental component of large language models (LLMs), yet\nits influence on model scaling and performance is not fully explored. In this\npaper, we introduce Over-Tokenized Transformers, a novel framework that\ndecouples input and output vocabularies to improve language modeling\nperformance. Specifically, our approach scales up input vocabularies to\nleverage multi-gram tokens. Through extensive experiments, we uncover a\nlog-linear relationship between input vocabulary size and training loss,\ndemonstrating that larger input vocabularies consistently enhance model\nperformance, regardless of model size. Using a large input vocabulary, we\nachieve performance comparable to double-sized baselines with no additional\ncost. Our findings highlight the importance of tokenization in scaling laws and\nprovide practical insight for tokenizer design, paving the way for more\nefficient and powerful LLMs.",
+            "upvotes": 10,
+            "discussionId": "6799b346a66ae6b357bef9e3"
+        },
+        "publishedAt": "2025-01-28T23:49:26.959Z",
+        "title": "Over-Tokenized Transformer: Vocabulary is Generally Worth Scaling",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.16975.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "60f1abe7544c2adfd699860c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+            "fullname": "AK",
+            "name": "akhaliq",
+            "type": "user",
+            "isPro": false,
+            "isHf": true,
+            "isMod": false,
+            "followerCount": 5856
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2501.16496",
+            "authors": [
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d99",
+                    "name": "Lee Sharkey",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9a",
+                    "user": {
+                        "_id": "64ad563f4beffa272de6efac",
+                        "avatarUrl": "/avatars/f1a4902a95830cc3936058449626f8e4.svg",
+                        "isPro": false,
+                        "fullname": "Bilal Chughtai",
+                        "user": "bilalchughtai",
+                        "type": "user"
+                    },
+                    "name": "Bilal Chughtai",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-29T04:47:56.702Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9b",
+                    "user": {
+                        "_id": "6397aa4e41e44ea30597cd69",
+                        "avatarUrl": "/avatars/5644feab569e5dbd0c4be9bd9c4646ce.svg",
+                        "isPro": false,
+                        "fullname": "Joshua Batson",
+                        "user": "thebasepoint",
+                        "type": "user"
+                    },
+                    "name": "Joshua Batson",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:21:53.141Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9c",
+                    "user": {
+                        "_id": "65f244830d81c637f9cd78c8",
+                        "avatarUrl": "/avatars/c3c196b89223a66b3a6b3a0ba2350f9f.svg",
+                        "isPro": false,
+                        "fullname": "Jack Lindsey",
+                        "user": "BV29",
+                        "type": "user"
+                    },
+                    "name": "Jack Lindsey",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:22:00.071Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9d",
+                    "name": "Jeff Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9e",
+                    "name": "Lucius Bushnaq",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7d9f",
+                    "name": "Nicholas Goldowsky-Dill",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da0",
+                    "user": {
+                        "_id": "66b392b2269c7cd48bef2f99",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66b392b2269c7cd48bef2f99/7sOvaB4yAc_omhlYy9Jiz.jpeg",
+                        "isPro": false,
+                        "fullname": "Stefan Heimersheim",
+                        "user": "stefanhex-apollo",
+                        "type": "user"
+                    },
+                    "name": "Stefan Heimersheim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:22:54.589Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da1",
+                    "name": "Alejandro Ortega",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da2",
+                    "user": {
+                        "_id": "6313dffa0b24eab4746ff6a4",
+                        "avatarUrl": "/avatars/ccccd6c832572723602019415992b6ac.svg",
+                        "isPro": false,
+                        "fullname": "Joseph Bloom",
+                        "user": "jbloom",
+                        "type": "user"
+                    },
+                    "name": "Joseph Bloom",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:23:26.417Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da3",
+                    "user": {
+                        "_id": "60347d3660e3dd96631c9093",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60347d3660e3dd96631c9093/B3fuZer5N04tZIAYrLnz4.jpeg",
+                        "isPro": false,
+                        "fullname": "Stella Biderman",
+                        "user": "stellaathena",
+                        "type": "user"
+                    },
+                    "name": "Stella Biderman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:23:32.126Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da4",
+                    "user": {
+                        "_id": "645ecd18f0f92653b9f33d4e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645ecd18f0f92653b9f33d4e/nHDMWtM9ZHrji0c4Y4XW1.jpeg",
+                        "isPro": false,
+                        "fullname": "Adrià Garriga-Alonso",
+                        "user": "agaralon",
+                        "type": "user"
+                    },
+                    "name": "Adria Garriga-Alonso",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:23:39.165Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da5",
+                    "user": {
+                        "_id": "631ecc58daa9591e522e1494",
+                        "avatarUrl": "/avatars/4f808fae966e808105e89712c97d90d2.svg",
+                        "isPro": false,
+                        "fullname": "VConm",
+                        "user": "ArthurConmy",
+                        "type": "user"
+                    },
+                    "name": "Arthur Conmy",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:23:55.013Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da6",
+                    "user": {
+                        "_id": "62669380c8bc5cf80ca97350",
+                        "avatarUrl": "/avatars/6d5cd2261163308b82341c1ce28984d1.svg",
+                        "isPro": false,
+                        "fullname": "Neel Nanda",
+                        "user": "NeelNanda",
+                        "type": "user"
+                    },
+                    "name": "Neel Nanda",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:24:02.966Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da7",
+                    "user": {
+                        "_id": "64faffff304b8cb412aca2c6",
+                        "avatarUrl": "/avatars/1d3c97f338cf9eae7b786b202da99092.svg",
+                        "isPro": false,
+                        "fullname": "Jessica Rumbelow",
+                        "user": "J-RUM",
+                        "type": "user"
+                    },
+                    "name": "Jessica Rumbelow",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:24:13.466Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da8",
+                    "user": {
+                        "_id": "6303e1cc0907b9a115c4b047",
+                        "avatarUrl": "/avatars/0e9bd14e28ead268b2f0cf40f39b53c2.svg",
+                        "isPro": false,
+                        "fullname": "Martin Wattenberg",
+                        "user": "wattenberg",
+                        "type": "user"
+                    },
+                    "name": "Martin Wattenberg",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:24:23.067Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7da9",
+                    "name": "Nandi Schoots",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7daa",
+                    "name": "Joseph Miller",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7dab",
+                    "user": {
+                        "_id": "6303e59c7b50dd9d0a367375",
+                        "avatarUrl": "/avatars/353aaaae6db1c7dc89895927a65fa9b1.svg",
+                        "isPro": false,
+                        "fullname": "Eric Michaud",
+                        "user": "ericjm",
+                        "type": "user"
+                    },
+                    "name": "Eric J. Michaud",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:24:59.946Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7dac",
+                    "user": {
+                        "_id": "6466a046326128fd2c6c59c2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6466a046326128fd2c6c59c2/kYwPcxupelOBvKFB0y8Me.png",
+                        "isPro": false,
+                        "fullname": "Stephen Casper",
+                        "user": "stecas",
+                        "type": "user"
+                    },
+                    "name": "Stephen Casper",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:25:19.810Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7dad",
+                    "name": "Max Tegmark",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7dae",
+                    "user": {
+                        "_id": "6689b044b424c825f7244cab",
+                        "avatarUrl": "/avatars/d6d519689012a840f186397f5cd24c66.svg",
+                        "isPro": false,
+                        "fullname": "William Saunders",
+                        "user": "william-r-s",
+                        "type": "user"
+                    },
+                    "name": "William Saunders",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:25:30.107Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7daf",
+                    "user": {
+                        "_id": "6214d6c01e35c843d42d1f77",
+                        "avatarUrl": "/avatars/ac208cd180b4f3ed1ec367e581facfcf.svg",
+                        "isPro": false,
+                        "fullname": "David Bau",
+                        "user": "davidbau",
+                        "type": "user"
+                    },
+                    "name": "David Bau",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:25:43.370Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db0",
+                    "name": "Eric Todd",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db1",
+                    "user": {
+                        "_id": "627b2d0527dc4650b62eef42",
+                        "avatarUrl": "/avatars/e70381850f5657b54e90f5539f3d74eb.svg",
+                        "isPro": false,
+                        "fullname": "Atticus Geiger",
+                        "user": "atticusg",
+                        "type": "user"
+                    },
+                    "name": "Atticus Geiger",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:25:56.041Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db2",
+                    "user": {
+                        "_id": "610b729f9da682cd54ad9adf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1628140189042-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Mor Geva",
+                        "user": "mega",
+                        "type": "user"
+                    },
+                    "name": "Mor Geva",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:26:02.930Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db3",
+                    "user": {
+                        "_id": "630f0804236215d0b705996a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661929457771-noauth.png",
+                        "isPro": false,
+                        "fullname": "Jesse Hoogland",
+                        "user": "jqhoogland",
+                        "type": "user"
+                    },
+                    "name": "Jesse Hoogland",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:26:09.318Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db4",
+                    "name": "Daniel Murfet",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799b2fbfe3c29ec219d7db5",
+                    "name": "Tom McGrath",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-27T20:57:18.000Z",
+            "title": "Open Problems in Mechanistic Interpretability",
+            "summary": "Mechanistic interpretability aims to understand the computational mechanisms\nunderlying neural networks' capabilities in order to accomplish concrete\nscientific and engineering goals. Progress in this field thus promises to\nprovide greater assurance over AI system behavior and shed light on exciting\nscientific questions about the nature of intelligence. Despite recent progress\ntoward these goals, there are many open problems in the field that require\nsolutions before many scientific and practical benefits can be realized: Our\nmethods require both conceptual and practical improvements to reveal deeper\ninsights; we must figure out how best to apply our methods in pursuit of\nspecific goals; and the field must grapple with socio-technical challenges that\ninfluence and are influenced by our work. This forward-facing review discusses\nthe current frontier of mechanistic interpretability and the open problems that\nthe field may benefit from prioritizing.",
+            "upvotes": 9,
+            "discussionId": "6799b2fcfe3c29ec219d7dca"
+        },
+        "publishedAt": "2025-01-28T23:48:30.888Z",
+        "title": "Open Problems in Mechanistic Interpretability",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.16496.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "60f1abe7544c2adfd699860c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+            "fullname": "AK",
+            "name": "akhaliq",
+            "type": "user",
+            "isPro": false,
+            "isHf": true,
+            "isMod": false,
+            "followerCount": 5856
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2501.16372",
+            "authors": [
+                {
+                    "_id": "67999c3dc1e34886f90320ee",
+                    "user": {
+                        "_id": "63dece97e742e86dc92169b9",
+                        "avatarUrl": "/avatars/b408736f5089200ffd2898cd00132f0a.svg",
+                        "isPro": false,
+                        "fullname": "J. Pablo Munoz",
+                        "user": "jpablomch",
+                        "type": "user"
+                    },
+                    "name": "J. Pablo Muñoz",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:27:08.761Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67999c3dc1e34886f90320ef",
+                    "user": {
+                        "_id": "6541d41ae2e170b6a8de2f78",
+                        "avatarUrl": "/avatars/f7b524d17910b0e93548d08089d24f60.svg",
+                        "isPro": false,
+                        "fullname": "Jinjie Yuan",
+                        "user": "jinjieyuan",
+                        "type": "user"
+                    },
+                    "name": "Jinjie Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:27:14.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67999c3dc1e34886f90320f0",
+                    "user": {
+                        "_id": "62d28f0c8d8206fd4d84ceca",
+                        "avatarUrl": "/avatars/bfcaa0ba84e80710964f4161e0aa56b7.svg",
+                        "isPro": false,
+                        "fullname": "Nilesh Jain",
+                        "user": "dalle2",
+                        "type": "user"
+                    },
+                    "name": "Nilesh Jain",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:27:20.569Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-23T02:14:08.000Z",
+            "title": "Low-Rank Adapters Meet Neural Architecture Search for LLM Compression",
+            "summary": "The rapid expansion of Large Language Models (LLMs) has posed significant\nchallenges regarding the computational resources required for fine-tuning and\ndeployment. Recent advancements in low-rank adapters have demonstrated their\nefficacy in parameter-efficient fine-tuning (PEFT) of these models. This\nretrospective paper comprehensively discusses innovative approaches that\nsynergize low-rank representations with Neural Architecture Search (NAS)\ntechniques, particularly weight-sharing super-networks. Robust solutions for\ncompressing and fine-tuning large pre-trained models are developed by\nintegrating these methodologies. Our analysis highlights the potential of these\ncombined strategies to democratize the use of LLMs, making them more accessible\nfor deployment in resource-constrained environments. The resulting models\nexhibit reduced memory footprints and faster inference times, paving the way\nfor more practical and scalable applications of LLMs. Models and code are\navailable at\nhttps://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning.",
+            "upvotes": 5,
+            "discussionId": "67999c3dc1e34886f9032140"
+        },
+        "publishedAt": "2025-01-28T22:11:04.472Z",
+        "title": "Low-Rank Adapters Meet Neural Architecture Search for LLM Compression",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.16372.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "60f1abe7544c2adfd699860c",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+            "fullname": "AK",
+            "name": "akhaliq",
+            "type": "user",
+            "isPro": false,
+            "isHf": true,
+            "isMod": false,
+            "followerCount": 5856
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2501.15747",
+            "authors": [
+                {
+                    "_id": "6799946c18cb282841d42639",
+                    "user": {
+                        "_id": "664e218ea10258b399d5c358",
+                        "avatarUrl": "/avatars/77f2ee0949560504e1643263fd7084da.svg",
+                        "isPro": false,
+                        "fullname": "Sankalp KJ",
+                        "user": "SankalpKJ",
+                        "type": "user"
+                    },
+                    "name": "Sankalp KJ",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:27:40.565Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263a",
+                    "user": {
+                        "_id": "65c7fa3a242e3ee0c656927d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c7fa3a242e3ee0c656927d/yulc-eFl2hntzfbRJWiox.jpeg",
+                        "isPro": false,
+                        "fullname": "Ashutosh Kumar",
+                        "user": "ashu-1069",
+                        "type": "user"
+                    },
+                    "name": "Ashutosh Kumar",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T21:06:22.798Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263b",
+                    "user": {
+                        "_id": "66707b60405252abeefd4c50",
+                        "avatarUrl": "/avatars/ee2728f115376e234e96820b8b376849.svg",
+                        "isPro": false,
+                        "fullname": "Laxmaan Balaji",
+                        "user": "laxmaanb",
+                        "type": "user"
+                    },
+                    "name": "Laxmaan Balaji",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-29T02:37:34.240Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263c",
+                    "user": {
+                        "_id": "66c607f85eae54107879aee9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c607f85eae54107879aee9/m2rRKcN9H6baABGzN-Fzr.png",
+                        "isPro": false,
+                        "fullname": "Nikunj Kotecha",
+                        "user": "nikunjkotecha",
+                        "type": "user"
+                    },
+                    "name": "Nikunj Kotecha",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:28:09.074Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263d",
+                    "user": {
+                        "_id": "6517bfecce732bf33a29d04b",
+                        "avatarUrl": "/avatars/b6534a540fa10199df8f9acc497083d5.svg",
+                        "isPro": false,
+                        "fullname": "Vinija Jain",
+                        "user": "Vinija",
+                        "type": "user"
+                    },
+                    "name": "Vinija Jain",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:28:16.742Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263e",
+                    "user": {
+                        "_id": "63a4754927f1f64ed7238dac",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+                        "isPro": false,
+                        "fullname": "Aman Chadha",
+                        "user": "amanchadha",
+                        "type": "user"
+                    },
+                    "name": "Aman Chadha",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T08:55:14.312Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799946c18cb282841d4263f",
+                    "user": {
+                        "_id": "6760b279deb31f2c1e5b4f42",
+                        "avatarUrl": "/avatars/b3863ab0d63d052198dc9b4261def623.svg",
+                        "isPro": false,
+                        "fullname": "sreyoshi bhaduri",
+                        "user": "sreyoshibhaduri",
+                        "type": "user"
+                    },
+                    "name": "Sreyoshi Bhaduri",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:28:22.871Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-27T03:19:03.000Z",
+            "title": "IndicMMLU-Pro: Benchmarking Indic Large Language Models on Multi-Task\n  Language Understanding",
+            "summary": "Known by more than 1.5 billion people in the Indian subcontinent, Indic\nlanguages present unique challenges and opportunities for natural language\nprocessing (NLP) research due to their rich cultural heritage, linguistic\ndiversity, and complex structures. IndicMMLU-Pro is a comprehensive benchmark\ndesigned to evaluate Large Language Models (LLMs) across Indic languages,\nbuilding upon the MMLU Pro (Massive Multitask Language Understanding)\nframework. Covering major languages such as Hindi, Bengali, Gujarati, Marathi,\nKannada, Punjabi, Tamil, Telugu, and Urdu, our benchmark addresses the unique\nchallenges and opportunities presented by the linguistic diversity of the\nIndian subcontinent. This benchmark encompasses a wide range of tasks in\nlanguage comprehension, reasoning, and generation, meticulously crafted to\ncapture the intricacies of Indian languages. IndicMMLU-Pro provides a\nstandardized evaluation framework to push the research boundaries in Indic\nlanguage AI, facilitating the development of more accurate, efficient, and\nculturally sensitive models. This paper outlines the benchmarks' design\nprinciples, task taxonomy, and data collection methodology, and presents\nbaseline results from state-of-the-art multilingual models.",
+            "upvotes": 4,
+            "discussionId": "6799946e18cb282841d426d6"
+        },
+        "publishedAt": "2025-01-28T21:38:17.182Z",
+        "title": "IndicMMLU-Pro: Benchmarking Indic Large Language Models on Multi-Task Language Understanding",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.15747.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "63a4754927f1f64ed7238dac",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a4754927f1f64ed7238dac/aH-eJF-31g4vof9jv2gmI.jpeg",
+            "fullname": "Aman Chadha",
+            "name": "amanchadha",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2501.17117",
+            "authors": [
+                {
+                    "_id": "6799e5f9121155210e4fa48c",
+                    "user": {
+                        "_id": "6239d3fa32af073244f7740d",
+                        "avatarUrl": "/avatars/36d4c6f7a650a5606613efaf9f0bc71e.svg",
+                        "isPro": false,
+                        "fullname": "Thibaud Leteno",
+                        "user": "thibaudltn",
+                        "type": "user"
+                    },
+                    "name": "Thibaud Leteno",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:29:00.764Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa48d",
+                    "user": {
+                        "_id": "629a3dbcd496c6dcdebf41cc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655113762275-629a3dbcd496c6dcdebf41cc.jpeg",
+                        "isPro": false,
+                        "fullname": "Irina Proskurina",
+                        "user": "iproskurina",
+                        "type": "user"
+                    },
+                    "name": "Irina Proskurina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T17:16:01.526Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa48e",
+                    "user": {
+                        "_id": "64e475d0ba1c93ea6d23cf78",
+                        "avatarUrl": "/avatars/217833f8932d494465e4e383ee03c384.svg",
+                        "isPro": false,
+                        "fullname": "Antoine Gourru",
+                        "user": "AntoineGourru",
+                        "type": "user"
+                    },
+                    "name": "Antoine Gourru",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:29:06.818Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa48f",
+                    "user": {
+                        "_id": "638f42767879bae278a73482",
+                        "avatarUrl": "/avatars/2fadaf4e4457aab35a18a129fffaf3eb.svg",
+                        "isPro": false,
+                        "fullname": "Julien Velcin",
+                        "user": "jvelcin",
+                        "type": "user"
+                    },
+                    "name": "Julien Velcin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-29T17:29:13.336Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa490",
+                    "name": "Charlotte Laclau",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa491",
+                    "name": "Guillaume Metzler",
+                    "hidden": false
+                },
+                {
+                    "_id": "6799e5f9121155210e4fa492",
+                    "name": "Christophe Gravier",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T18:07:30.000Z",
+            "title": "Histoires Morales: A French Dataset for Assessing Moral Alignment",
+            "summary": "Aligning language models with human values is crucial, especially as they\nbecome more integrated into everyday life. While models are often adapted to\nuser preferences, it is equally important to ensure they align with moral norms\nand behaviours in real-world social situations. Despite significant progress in\nlanguages like English and Chinese, French has seen little attention in this\narea, leaving a gap in understanding how LLMs handle moral reasoning in this\nlanguage. To address this gap, we introduce Histoires Morales, a French dataset\nderived from Moral Stories, created through translation and subsequently\nrefined with the assistance of native speakers to guarantee grammatical\naccuracy and adaptation to the French cultural context. We also rely on\nannotations of the moral values within the dataset to ensure their alignment\nwith French norms. Histoires Morales covers a wide range of social situations,\nincluding differences in tipping practices, expressions of honesty in\nrelationships, and responsibilities toward animals. To foster future research,\nwe also conduct preliminary experiments on the alignment of multilingual models\non French and English data and the robustness of the alignment. We find that\nwhile LLMs are generally aligned with human moral norms by default, they can be\neasily influenced with user-preference optimization for both moral and immoral\ndata.",
+            "upvotes": 2,
+            "discussionId": "6799e5fb121155210e4fa500"
+        },
+        "publishedAt": "2025-01-29T03:32:09.927Z",
+        "title": "Histoires Morales: A French Dataset for Assessing Moral Alignment",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2501.17117.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "629a3dbcd496c6dcdebf41cc",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655113762275-629a3dbcd496c6dcdebf41cc.jpeg",
+            "fullname": "Irina Proskurina",
+            "name": "iproskurina",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    }
+]
