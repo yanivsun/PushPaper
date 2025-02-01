@@ -1,0 +1,56 @@
+[
+    {
+        "名称": "2025 [2501.18492] GuardReasoner: Towards Reasoning-based LLM Safeguards.pdf",
+        "作者": "Yue Liu, Hongcheng Gao, Shengfang Zhai, Jun Xia, Tianyi Wu, Zhiwei Xue, Yulin Chen, Kenji Kawaguchi, Jiaheng Zhang, Bryan Hooi",
+        "摘要": "摘要：随着大型语言模型（LLMs）在安全关键应用中的影响日益增加，利用护栏确保其安全性仍然是一个关键挑战。本文提出了GuardianReasoner，一种新的LLM安全保障方法，通过指导护模学习推理。具体来说，我们首先创建了GuardianReasonerTrain数据集，包括127K样本和460K详细推理步骤。然后，我们引入了推理SFT以解锁护模的推理能力。此外，我们提出了硬样本DPO以进一步增强其推理能力。通过这种方式，GuardianReasoner在性能、可解释性和普适性方面表现更佳。在3个护栏任务的13个基准测试上的大量实验和分析表明了它的优越性。值得注意的是，GuardianReasoner 8B在F1评分上平均比GPT-4o+CoT高出5.74％，比LLaMA Guard 3 8B高出20.84％。我们发布了GuardianReasoner的训练数据、代码以及不同规模（1B、3B、8B）的模型。\n\n作者：岳刘、宏成高、胜芳翟、军夏、天义吴、志伟薛、玉林陈、川口健二、家恒张、布莱恩霍伊\n\n评论：22页，18张图示",
+        "地址": "https://arxiv.org/pdf/2501.18492.pdf"
+    },
+    {
+        "名称": "2025 [2501.18585] Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs.pdf",
+        "作者": "Yue Wang, Qiuzhi Liu, Jiahao Xu, Tian Liang, Xingyu Chen, Zhiwei He, Linfeng Song, Dian Yu, Juntao Li, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu",
+        "摘要": "摘要: 大型语言模型（LLMs），例如 OpenAI 的 o1，通过扩展测试时计算和表现出类似人类的深度思考，展示出在复杂推理任务中的显著能力。然而，我们发现了一种现象，我们称之为“思考不足”，即 o1 类 LLMs 在不同的推理思路之间频繁切换，而未能充分探索有希望的路径以达到正确的解决方案。这种行为导致推理深度不足，特别是在处理具有挑战性的数学问题时表现下降。为系统分析这一问题，我们在三个具有挑战性的测试集和两个具有代表性的开源 o1 类模型上进行了实验，结果显示，频繁的思路切换与错误的回答相关。我们引入了一种新颖的度量方式，通过测量错误答案中的令牌效率来量化“思考不足”。为了解决这一问题，我们提出了一种具有思路切换惩罚的解码策略 TIP，旨在抑制过早的思路切换，鼓励对每条推理路径进行更深入的探索。实验结果表明，我们的方法在无需模型微调的情况下提高了多个具有挑战性数据集的准确性。我们的研究有助于理解 o1 类 LLMs 在推理中的低效性，并提供了一个实际解决方案以增强其解决问题的能力。",
+        "地址": "https://arxiv.org/pdf/2501.18585.pdf"
+    },
+    {
+        "名称": "2025 [2501.18512] Streaming DiLoCo with overlapping communication: Towards a Distributed Free Lunch.pdf",
+        "作者": "Arthur Douillard, Yanislav Donchev, Keith Rush, Satyen Kale, Zachary Charles, Zachary Garrett, Gabriel Teston, Dave Lacey, Ross McIlroy, Jiajun Shen, Alexandre Ramé, Arthur Szlam, Marc'Aurelio Ranzato, Paul Barham",
+        "摘要": "摘要：大型语言模型（LLMs）的训练通常分布在大量加速器上，以缩短训练时间。由于每个梯度步骤都需要交换内部状态和参数梯度，因此所有设备需要通过低延迟高带宽通信链路共同定位，以支持所需的大量交换数据量。最近，诸如DiLoCo之类的分布式算法放宽了这种共同定位约束：加速器可以分组为“工作者”，其中工作者之间的同步只偶尔发生。这意味着工作者可以通过低带宽通信链路进行连接，而不会影响学习质量。然而，在这些方法中，工作者之间的通信仍然需要与之前相同的峰值带宽，因为同步要求所有参数在所有工作者之间交换。本文对DiLoCo进行三方面改进。首先，我们依次只同步部分参数，而不是一次性同步所有参数，从而大大降低了峰值带宽。其次，我们允许工作者在同步时继续训练，这减少了总时间。第三，我们量化了工作者之间交换的数据，进一步减少了工作者之间的带宽。通过适当地结合这些修改，我们通过实验表明，我们可以分布式训练亿级参数，并达到与之前相同的效果，但所需带宽减少了两个数量级。\n\n作者：Arthur Douillard, Yanislav Donchev, Keith Rush, Satyen Kale, Zachary Charles, Zachary Garrett, Gabriel Teston, Dave Lacey, Ross McIlroy, Jiajun Shen, Alexandre Ramé, Arthur Szlam, Marc'Aurelio Ranzato, Paul Barham\n\nURL：https://arxiv.org/pdf/2501.18512.pdf\n\n标题：《具有重叠通信的流式DiLoCo：迈向分布式免费午餐》",
+        "地址": "https://arxiv.org/pdf/2501.18512.pdf"
+    },
+    {
+        "名称": "2025 [2501.18362] MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding.pdf",
+        "作者": "Yuxin Zuo, Shang Qu, Yifei Li, Zhangren Chen, Xuekai Zhu, Ermo Hua, Kaiyan Zhang, Ning Ding, Bowen Zhou",
+        "摘要": "摘要：我们介绍了MedXpertQA，这是一项极具挑战性和全面性的基准，用于评估专家级医学知识和高级推理能力。MedXpertQA包含了4,460个问题，涵盖了17个专业和11个身体系统。它包括两个子集，一个用于文本评估（Text），另一个用于多模态评估（MM）。尤其值得注意的是，MM子集引入了包含多样化图像和丰富临床信息（如患者记录和检查结果）的专家级考试问题，这与传统医学多模态基准中简单的基于图像描述生成的问答对有所不同。MedXpertQA通过严格的过滤和增强来解决现有基准（如MedQA）难度不足的问题，并加入了专业考试问题以提高临床相关性和全面性。我们还进行了数据合成以降低数据泄露风险，并进行了多轮专家审查以确保准确性和可靠性。我们在MedXpertQA上评估了16个领先模型。此外，医学与现实决策深度关联，为评估超越数学和代码的推理能力提供了一个丰富且具有代表性的环境。为此，我们开发了一个面向推理的子集来促进对类o1模型的评估。\n\n原始摘要网址：https://arxiv.org/pdf/2501.18362.pdf",
+        "地址": "https://arxiv.org/pdf/2501.18362.pdf"
+    },
+    {
+        "名称": "2025 [2501.16411] PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding.pdf",
+        "作者": "Wei Chow, Jiageng Mao, Boyi Li, Daniel Seita, Vitor Guizilini, Yue Wang",
+        "摘要": "摘要：理解物理世界是体现智能体的一个基本挑战，对于使智能体执行复杂任务并在现实环境中安全运行至关重要。虽然视觉语言模型（VLMs）在推理和任务规划方面展示了巨大的潜力，但它们对物理现象的理解仍然非常有限。为了解决这个问题，我们引入了PhysBench，这是一个全面的基准，旨在评估VLMs在多样化任务中的物理世界理解能力。PhysBench包括10002条交错的视频-图像-文本数据，分为四个主要领域：物体物理属性、物体物理关系、物理场景理解和基于物理的动态，进一步分为19个子类别和8个不同的能力维度。我们在75个代表性VLMs上进行了广泛实验，结果表明这些模型虽然在常识推理方面表现出色，但在理解物理世界方面却表现较差，这很可能是由于它们的训练数据中缺乏物理知识以及缺乏嵌入的物理先验知识。为了解决这一不足，我们介绍了PhysAgent，这是一个结合了VLMs的泛化能力与视觉模型的专业知识的新框架，显著提升了VLMs在各种任务中的物理理解能力，包括在GPT-4o上提升了18.4%。此外，我们的结果表明，增强VLMs的物理世界理解能力可以帮助MOKA等体现智能体。我们相信，PhysBench和PhysAgent提供了宝贵的见解，并为弥合VLMs与物理世界理解之间的差距作出了贡献。",
+        "地址": "https://arxiv.org/pdf/2501.16411.pdf"
+    },
+    {
+        "名称": "2025 [2501.18009] Large Language Models Think Too Fast To Explore Effectively.pdf",
+        "作者": "Lan Pan, Hanbo Xie, Robert C. Wilson",
+        "摘要": "摘要：大型语言模型展现了许多智力技能。尽管有众多基准评估它们的智能，但对其探索能力，特别是在开放式任务中的探索能力，关注较少。而探索是发现新信息和适应新环境的关键能力。本研究使用\"小炼金术 2\"作为范例，调查LLMs是否能在开放式任务中超越人类，其中代理人组合各种元素以发现新的元素。结果显示，大多数LLM整体表现不及人类，除了o1模型。与主要依赖不确定驱动策略的传统LLM不同，人类在探索时平衡了不确定性和自主性。使用稀疏自动编码器的表征分析表明，不确定性和选择在前期的变换模块中被表示，而自主性处理在后期，使得LLMs思考过快并做出仓促决策，妨碍了有效探索。这些发现揭示了LLM在探索方面的局限，并建议为提高其适应性提供方向。\n\n翻译：大型语言模型展现了众多智力能力。尽管许多基准评估了它们的智能，但对它们的探索能力关注较少，而探索能力在自然与人工系统中发现新信息和适应新环境至关重要。本研究利用“小炼金术2”作为范式，探讨LLMs在开放式任务中是否能超越人类，在该任务中，代理人需通过组合元素来发现新元素。结果显示：除o1模型外，大部分LLM表现不如人类。这些传统LLM主要依赖于不确定性驱动的策略，而人类在探索中则平衡了不确定性和自主权。对使用稀疏自动编码器的模型进行表征分析发现，不确定性和选择在较早的变换块中被表示，而自主权值在较晚处理，导致LLMs思考过快做出过早决策，阻碍了有效探索。这些研究发现揭示了LLM探索的局限性，并提出了改进适应性的方向。",
+        "地址": "https://arxiv.org/pdf/2501.18009.pdf"
+    },
+    {
+        "名称": "2025 [2501.18511] WILDCHAT-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training.pdf",
+        "作者": "Benjamin Feuer, Chinmay Hegde",
+        "摘要": "摘要：大语言模型（LLM）的后训练过程，从DPO到蒸馏，可以优化行为并解锁新技能，但支撑这些后训练技术的开放科学仍处于起步阶段。一个限制因素是难以对合成数据生成模型和LLM判断器进行大规模比较分析。为了弥补这一差距，我们推出了WILDCHAT-50M，这是迄今为止最大的公开聊天数据集。我们扩展了现有的WildChat数据集，不仅包括从GPT生成的回复，还包括来自超过50种不同开放权重模型（其参数规模从0.5B到104B不等）的回复。我们进行了广泛的比较分析，并通过创建我们的公共SFT混合模型RE-WILD，展示了该数据集的潜力。RE-WILD仅使用了Tulu-3 SFT混合模型40%的样本，却超过了其表现。我们的数据集、样本和代码可以在此HTTPS网址获得。\n\n作者：Benjamin Feuer, Chinmay Hegde",
+        "地址": "https://arxiv.org/pdf/2501.18511.pdf"
+    },
+    {
+        "名称": "2025 [2501.18438] o3-mini vs DeepSeek-R1: Which One is Safer?.pdf",
+        "作者": "Aitor Arrieta, Miriam Ugarte, Pablo Valle, José Antonio Parejo, Sergio Segura",
+        "摘要": "摘要: DeepSeek-R1的出现标志着人工智能产业，特别是大型语言模型(LLMs)的一个转折点。其功能在多个任务中表现出色，包括创造性思维、代码生成、数学和自动程序修复，且执行成本较低。然而，LLMs必须符合一个重要的定性属性，即其与安全性和人类价值的对齐。DeepSeek-R1的一个明显竞争对手是其美国同行OpenAI的o3-mini模型，该模型有望在性能、安全性和成本方面设定高标准。在这篇论文中，我们对DeepSeek-R1(70b版本)和OpenAI的o3-mini(测试版本)的安全级别进行系统评估。为此，我们使用了我们最近发布的自动安全测试工具ASTRAL。通过利用该工具，我们自动系统地生成并执行了总计1260个不安全测试输入。经过对两种LLMs提供的结果进行半自动化评估后，结果表明与OpenAI的o3-mini相比，DeepSeek-R1高度不安全。根据我们的评估，DeepSeek-R1在11.98%的执行提示中给出了不安全的回答，而o3-mini仅为1.19%。\n\n作者: Aitor Arrieta, Miriam Ugarte, Pablo Valle, José Antonio Parejo, Sergio Segura\n\n评论: arXiv管理员注: 与arXiv:2501.17749文本有大量重叠\n\n网址: https://arxiv.org/pdf/2501.18438.pdf\n\n标题: 2025 [2501.18438] o3-mini与DeepSeek-R1：哪个更安全？",
+        "地址": "https://arxiv.org/pdf/2501.18438.pdf"
+    },
+    {
+        "名称": "2025 [2501.16609] CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation.pdf",
+        "作者": "Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig",
+        "摘要": "摘要：尽管关于网络代理的研究强调了代理能够自主执行用户任务的前景，但实际上，代理在现实世界的复杂任务和用户偏好建模方面往往表现欠佳。这为人类与代理的协作、充分利用代理的能力提供了机会。我们提出了CowPilot，这是一种支持自主以及人类-代理协同网络导航的框架，并且在任务成功率和任务效率方面进行了评估。CowPilot通过允许代理提出下一步建议，减少了人类需要执行的步骤，而用户可以暂停、拒绝或采取其他行动。在执行过程中，用户可以通过覆盖建议或在需要时恢复代理控制，与代理交替进行操作。我们在五个常见网站上进行了案例研究，发现人类-代理协同模式达到了95%的最高成功率，同时人类仅需执行15.2%的总步骤。即使在任务执行过程中有人的干预，代理仍能单独成功驱动高达一半的任务成功。CowPilot可以作为一个有用的工具，用于跨网站的数据收集和代理评估，我们相信这将促进用户与代理合作的研究。视频演示可在此HTTPS网址查看。",
+        "地址": "https://arxiv.org/pdf/2501.16609.pdf"
+    }
+]
