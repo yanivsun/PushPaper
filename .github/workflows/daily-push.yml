@@ -43,8 +43,12 @@ jobs:
         git config --global user.name "yanivsun"
         git config --global user.email "1109812755@qq.com"
         git add .
-        git commit -m "每日论文推送"
-        git push
+        if [ "$(git status --porcelain)" ]; then
+          git commit -m "每日论文推送"
+          git push
+        else
+          echo "No changes to commit."
+        fi
 
     env:
       WECHAT_ID: ${{ secrets.WECHAT_ID }}
