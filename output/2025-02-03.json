@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2501.19393] s1: Simple test-time scaling.pdf",
+        "作者": "Niklas Muennighoff, Zitong Yang, Weijia Shi, Xiang Lisa Li, Li Fei-Fei, Hannaneh Hajishirzi, Luke Zettlemoyer, Percy Liang, Emmanuel Candès, Tatsunori Hashimoto",
+        "摘要": "摘要: 测试时代数缩放是一种新兴的语言建模方法，通过在测试时使用额外的计算资源来提高性能。最近，OpenAI的o1模型展示了这一能力，但并未公开其方法论，导致许多复制尝试。我们寻找最简单的方法来实现测试时代数缩放和强大的推理性能。首先，我们精心编制了一个包含1,000个问题及其推理轨迹的小型数据集s1K，基于我们通过消融验证的三项标准：难度、多样性和质量。其次，我们开发了预算强制方法，通过强行终止模型的思考过程或在模型试图结束时多次附加“等待”以延长其生成，来控制测试时的计算。这可以使模型重新检查其答案，常常修正错误的推理步骤。在对Qwen2.5-32B-Instruct语言模型进行s1K数据集的监督微调并配备预算强制方法后，我们的模型s1在竞赛数学问题上比o1-preview提高了多达27%（MATH和AIME24）。此外，通过预算强制缩放s1，可以在不进行测试时干预的情况下实现性能提升：AIME24从50%提高到57%。我们的模型、数据和代码在此https URL处开源。",
+        "地址": "https://arxiv.org/pdf/2501.19393.pdf"
+    },
+    {
+        "名称": "2025 [2501.19324] Reward-Guided Speculative Decoding for Efficient LLM Reasoning.pdf",
+        "作者": "Baohao Liao, Yuhui Xu, Hanze Dong, Junnan Li, Christof Monz, Silvio Savarese, Doyen Sahoo, Caiming Xiong",
+        "摘要": "摘要：我们介绍了一种新颖的框架，称为奖励引导的推测解码（RSD），旨在提高大型语言模型（LLMs）推理的效率。RSD协同结合了一个轻量级的草稿模型和一个更强大的目标模型，纳入了可控的偏置，以优先考虑高奖励输出，这与现有的推测解码方法要求严格的无偏性形成对比。RSD采用过程奖励模型来评估中间解码步骤，并动态决定是否调用目标模型，从而优化计算成本和输出质量之间的权衡。我们在理论上证明了基于阈值的混合策略可以实现资源利用和性能之间的最佳平衡。在包括奥林匹克级别任务在内的具有挑战性的推理基准测试中进行的广泛评估表明，与仅使用目标模型解码相比，RSD在效率上显著提升（FLOPs减少最多4.4倍），同时在准确性上也显著优于并行解码方法（平均提高最多3.5）。这些结果突出显示了RSD作为在资源密集型场景中部署LLMs的一种稳健且具有成本效益的方法。\n\n作者：廖宝昊，徐宇辉，董涵泽，李俊南，克里斯托夫·蒙茨，西尔维奥·萨瓦雷斯，杜彦骚，熊才明\n\n链接：https://arxiv.org/pdf/2501.19324.pdf\n\n题目：2025 [2501.19324] 奖励引导的推测解码用于高效的LLM推理",
+        "地址": "https://arxiv.org/pdf/2501.19324.pdf"
+    },
+    {
+        "名称": "2025 [2501.18119] Self-supervised Quantized Representation for Seamlessly Integrating Knowledge Graphs with Large Language Models.pdf",
+        "作者": "Qika Lin, Tianzhe Zhao, Kai He, Zhen Peng, Fangzhi Xu, Ling Huang, Jingying Ma, Mengling Feng",
+        "摘要": "摘要：由于知识图谱（KG）结构与自然语言之间存在天然的差距，如何有效地将KG的整体结构信息与大型语言模型（LLMs）结合起来成为了一个重要问题。为此，我们提出了一个两阶段的框架，通过为每个实体学习和应用量化代码，实现KG与LLMs的无缝集成。首先，我们提出了一种自监督量化表示（SSQR）方法，将KG的结构和语义知识压缩成离散代码（即：tokens），使其与语言句子的格式对齐。我们进一步设计了KG指令跟随数据，将这些学习到的代码视为直接输入LLMs的特征，从而实现无缝集成。实验结果表明，SSQR优于现有的无监督量化方法，生成了更具区分性的代码。此外，仅使用每个实体16个tokens，微调后的LLaMA2和LLaMA3.1在KG链接预测和三元组分类任务上也表现出色，而传统提示方法则需要数千个tokens。\n\n作者：林启卡，赵添喆，何凯，彭真，许芳志，黄玲，马景莹，冯孟灵",
+        "地址": "https://arxiv.org/pdf/2501.18119.pdf"
+    },
+    {
+        "名称": "2025 [2501.19339] PixelWorld: Towards Perceiving Everything as Pixels.pdf",
+        "作者": "Zhiheng Lyu, Xueguang Ma, Wenhu Chen",
+        "摘要": "摘要：现有的基础模型通常将视觉输入处理为像素，将文本输入处理为标记，这种范式与人类感知形成对比，后者会以统一的方式处理这两种模态。随着以摄像头像素为主要输入的具身和代理AI的兴起，迫切需要统一的感知框架。在本文中，我们提出将所有模态（文本、表格、代码、图表、图像等）统一为像素输入，即“将一切感知为像素”（PEAP）。我们介绍了PixelWorld，一种新颖的评估套件，将所有提到的模态统一到像素空间，以评估现有模型的性能。我们的研究结果显示：(1) 在多模态数据集上，PEAP相比基于标记输入的基线表现更好，受益于统一输入以实现更好的消歧；(2) 在处理基于像素的输入时，所有模型的推理和编程能力显著下降，突显了需增强基础模型感知能力的重要性；(3) 较大模型在非推理任务下能在PEAP中保持较强表现，而小模型如Phi-3.5-V则显著表现退化；(4) PEAP的注意力模式与文本标记输入高度一致；(5) 利用空间稀疏性可显著加速PEAP。我们得出结论，现有的前沿模型在像素感知方面表现良好，但仍有改进空间。我们的代码和数据集将在论文接受后发布。\n\n翻译：现有的基础模型通常将视觉输入处理为像素，将文本输入处理为标记，这种范式与人类感知形成对比，后者会以统一的方式处理这两种模态。随着以摄像头像素为主要输入的具身和代理AI的兴起，迫切需要统一的感知框架。在本文中，我们提出将所有模态（文本、表格、代码、图表、图像等）统一为像素输入，即“将一切感知为像素”（PEAP）。我们介绍了PixelWorld，一种新颖的评估套件，将所有提到的模态统一到像素空间，以评估现有模型的性能。我们的研究结果显示：(1) 在多模态数据集上，PEAP相比基于标记输入的基线表现更好，受益于统一输入以实现更好的消歧；(2) 在处理基于像素的输入时，所有模型的推理和编程能力显著下降，突显了需增强基础模型感知能力的重要性；(3) 较大模型在非推理任务下能在PEAP中保持较强表现，而小模型如Phi-3.5-V则显著表现退化；(4) PEAP的注意力模式与文本标记输入高度一致；(5) 利用空间稀疏性可显著加速PEAP。我们得出结论，现有的前沿模型在像素感知方面表现良好，但仍有改进空间。我们的代码和数据集将在论文接受后发布。",
+        "地址": "https://arxiv.org/pdf/2501.19339.pdf"
+    },
+    {
+        "名称": "2025 [2501.14677] MatAnyone: Stable Video Matting with Consistent Memory Propagation.pdf",
+        "作者": "Peiqing Yang, Shangchen Zhou, Jixin Zhao, Qingyi Tao, Chen Change Loy",
+        "摘要": "摘要：无需辅助的人工视频抠像方法仅依赖输入帧，通常在处理复杂或模糊背景时表现欠佳。为了解决这一问题，我们提出了MatAnyone，这是一个针对目标指定视频抠像的强大框架。具体来说，基于记忆范式，我们引入了一种通过区域自适应记忆融合进行的持续记忆传播模块，该模块自适应地整合来自前一帧的记忆。这确保了核心区域的语义稳定性，同时保留了物体边界的细粒度细节。为了实现稳健的训练，我们提供了一个更大、更高质量和多样化的视频抠像数据集。此外，我们采用了一种新颖的训练策略，有效利用大规模分割数据，提升抠像稳定性。通过这种全新的网络设计、数据集和训练策略，MatAnyone在各种真实世界场景中提供了稳健且准确的视频抠像结果，优于现有方法。",
+        "地址": "https://arxiv.org/pdf/2501.14677.pdf"
+    },
+    {
+        "名称": "2024 [2411.04983] DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning.pdf",
+        "作者": "Gaoyue Zhou, Hengkai Pan, Yann LeCun, Lerrel Pinto",
+        "摘要": "摘要：预测在控制操作下的未来结果的能力对于物理推理来说是至关重要的。然而，这类预测模型通常被称为“世界模型”，其学习仍然具有挑战性，且通常为具有在线策略学习的特定任务提供解决方案。为了让世界模型充分发挥其潜力，我们认为它们应该1) 能够通过离线的、预先收集的轨迹进行训练，2) 支持测试时的行为优化，3) 促进与任务无关的推理。为此，我们提出DINO世界模型（DINO-WM），一种在不重构视觉世界的情况下对视觉动态进行建模的新方法。DINO-WM利用预训练的DINOv2的空间补丁特征，使其通过预测未来的补丁特征从离线行为轨迹中学习。这使得DINO-WM能够通过动作序列优化实现观测目标，进而通过将目标特征作为预测目标来促进任务无关的规划。我们展示了DINO-WM在测试时无需专家演示、奖励建模或预先学习的逆向模型的情况下，在六个环境中实现了零样本行为解决方案，并在各种任务家族如任意配置的迷宫、具有各种形状物体的推拉操作以及多粒子场景中优于之前的最先进工作。\n\n作者：周高越，潘恒凯，Yann LeCun，Lerrel Pinto\n\n链接：https://arxiv.org/pdf/2411.04983.pdf\n\n标题：2024 [2411.04983] DINO-WM: 借助预训练视觉特征实现零样本计划的世界模型.pdf",
+        "地址": "https://arxiv.org/pdf/2411.04983.pdf"
+    },
+    {
+        "名称": "2025 [2501.19399] Scalable-Softmax Is Superior for Attention.pdf",
+        "作者": "Ken M. Nakanishi",
+        "摘要": "摘要：随着输入向量大小的增大，由Softmax函数输出的向量中的最大元素趋近于零。基于Transformer的语言模型依赖Softmax计算注意力分数，导致注意力分布在上下文规模增大时变得平坦。这削弱了模型有效优先处理关键信息的能力，并可能限制其长度泛化能力。为了解决这个问题，我们提出了Scalable-Softmax（SSMax），它在输入向量大小变化的场景中取代Softmax。SSMax可以无缝集成到现有的基于Transformer的架构中。在语言建模的实验结果表明，使用SSMax的模型不仅在预训练期间能更快地减少损失，还能显著提升在长上下文和关键信息检索方面的性能。此外，对注意力分数的分析表明，SSMax使模型即使在长上下文中也能将注意力集中在关键信息上。此外，尽管从预训练一开始就使用SSMax的模型在长度泛化上表现更好，但那些已经开始预训练的模型通过在注意力层中用SSMax替换Softmax，无论是在预训练期间还是之后，仍然可以获得这种能力。\n\n作者：Ken M. Nakanishi\n\n评论：11页，8幅图\n\n链接：https://arxiv.org/pdf/2501.19399.pdf\n\n标题：Scalable-Softmax在注意力机制中表现优越",
+        "地址": "https://arxiv.org/pdf/2501.19399.pdf"
+    },
+    {
+        "名称": "2025 [2501.18837] Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming.pdf",
+        "作者": "Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, Andy Dau, Anjali Gopal, Rob Gilson, Logan Graham, Logan Howard, Nimit Kalra, Taesung Lee, Kevin Lin, Peter Lofgren, Francesco Mosconi, Clare O'Hara, Catherine Olsson, Linda Petrini, Samir Rajani, Nikhil Saxena, Alex Silverstein, Tanya Singh, Theodore Sumers, Leonard Tang, Kevin K. Troy, Constantin Weisser, Ruiqi Zhong, Giulio Zhou, Jan Leike, Jared Kaplan, Ethan Perez",
+        "摘要": "摘要: 大型语言模型（LLMs）容易受到普遍性越狱攻击的侵害，这些攻击通过提示策略系统地绕过模型的安全防护措施，使用户能够执行需要多次模型交互的有害操作，例如大规模制造非法物品。为了防御这些攻击，我们引入了“宪法分类器”：使用合成数据训练的安全防护措施，这些数据由提示LLMs并遵循自然语言规则（即宪法）生成，规定了允许和限制的内容。在超过3000小时的红队测试中，没有红队成员发现一种普遍性越狱方法可以在大多数目标查询中从早期分类器保护的LLM中提取出与未保护模型相似级别的详细信息。在自动评估中，增强的分类器展示了对特定领域越狱的强大防御能力。这些分类器也保持了部署的可行性，生产流量拒绝率绝对增加0.38%，推断开销增加23.7%。我们的研究表明，在维护实际部署可行性的同时，防御普遍性越狱是可行的。",
+        "地址": "https://arxiv.org/pdf/2501.18837.pdf"
+    },
+    {
+        "名称": "2025 [2501.18052] SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders.pdf",
+        "作者": "Bartosz Cywiński, Kamil Deja",
+        "摘要": "摘要:扩散模型虽然非常强大，但可能会意外生成有害或不良内容，从而引发重大伦理和安全问题。最近的机器遗忘方法提供了潜在的解决方案，但通常缺乏透明性，难以理解它们对基础模型引入的变化。在这项工作中，我们介绍了一种新方法SAeUron，它利用稀疏自编码器（SAE）学习到的特征来移除文本到图像扩散模型中不需要的概念。首先，我们证明了在对扩散模型的多个去噪时间步的激活进行无监督训练的过程中，SAE可以捕捉到与特定概念相对应的稀疏且可解释的特征。在此基础上，我们提出了一种特征选择方法，可以对模型激活进行精确干预，以阻止目标内容的生成，同时保持整体性能。通过在UnlearnCanvas基准测试上的评估，SAeUron在对象和风格遗忘方面表现出色。此外，我们表明使用单个SAE可以同时移除多个概念，并且与其他方法相比，即使在对抗攻击下，SAeUron仍然可以减少生成不需要内容的可能性。代码和检查点可在此URL获得：https://arxiv.org/pdf/2501.18052.pdf。",
+        "地址": "https://arxiv.org/pdf/2501.18052.pdf"
+    },
+    {
+        "名称": "2025 [2501.18841] Trading Inference-Time Compute for Adversarial Robustness.pdf",
+        "作者": "Wojciech Zaremba, Evgenia Nitishinskaya, Boaz Barak, Stephanie Lin, Sam Toyer, Yaodong Yu, Rachel Dias, Eric Wallace, Kai Xiao, Johannes Heidecke, Amelia Glaese",
+        "摘要": "摘要（翻译为中文）：\n\n我们对推理模型（具体来说是OpenAI o1-preview和o1-mini）在推理时计算量增加对其应对对抗攻击的鲁棒性影响进行了实验研究。我们发现，在多种攻击中，增加推理时计算量会提高模型的鲁棒性。在许多情况下（有一些重要的例外），随着测试时计算量的增加，攻击成功的模型样本比例趋于零。我们在研究的任务中没有进行对抗训练，仅通过允许模型在推理时花费更多的计算资源来实现增加计算量，而无需考虑攻击的形式。我们的研究结果表明，推理时计算量有可能提高大型语言模型的对抗鲁棒性。我们还探索了针对推理模型的新攻击，以及推理时计算量未能提高可靠性的情形，并推测了这些情况的原因以及应对方法。",
+        "地址": "https://arxiv.org/pdf/2501.18841.pdf"
+    },
+    {
+        "名称": "2025 [2501.18804] Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion.pdf",
+        "作者": "Vitor Guizilini, Muhammad Zubair Irshad, Dian Chen, Greg Shakhnarovich, Rares Ambrus",
+        "摘要": "摘要：当前从稀疏姿势图像进行3D场景重建的方法采用神经场、体素网格或3D高斯等中间3D表示，以实现多视图一致的场景外观和几何。在本文中，我们引入了MVGD，一种基于扩散的架构，能够从新的视点直接生成像素级图像和深度图，输入视图的数量可以是任意的。我们的方法使用射线图条件，以增强来自不同视点的视觉特征的空间信息，并引导新视图生成图像和深度图。我们方法的一个关键方面是图像和深度图的多任务生成，使用可学习的任务嵌入来引导扩散过程，生成特定的模式。我们在公开数据集的6000多万个多视图样本集上训练了该模型，并提出了一些技术，以实现高效和一致的学习。我们还提出了一种新策略，通过逐步微调较小的模型，能有效训练更大的模型，并展示了有前景的扩展行为。通过广泛的实验，我们在多种新视图合成基准、多视图立体和视频深度估计方面报告了最先进的结果。\n\n翻译作者： 魏托尔•吉兹里尼，穆罕默德•祖巴尔•伊尔沙德，迪安•陈，格雷格•沙赫纳罗维奇，雷斯•安布鲁斯",
+        "地址": "https://arxiv.org/pdf/2501.18804.pdf"
+    },
+    {
+        "名称": "2025 [2501.18965] The Surprising Agreement Between Convex Optimization Theory and Learning-Rate Scheduling for Large Model Training.pdf",
+        "作者": "Fabian Schaipp, Alexander Hägele, Adrien Taylor, Umut Simsekli, Francis Bach",
+        "摘要": "摘要: 我们展示了大型模型训练的学习率调度与非光滑凸优化理论中的性能界出奇地相似。我们为带线性冷却的常数调度提供了一个界，特别是冷却的实际效果在界中反映出来，因为缺乏对数项。此外，我们表明，优化理论与实践之间这种出奇接近的一致性可以被利用于学习率调整：通过（i）延长调度以在继续训练时使用最优学习率，以及（ii）在不同调度之间转移最优学习率，我们在训练124M和210M的Llama类型模型时取得了显著的改进。\n\n作者: Fabian Schaipp, Alexander Hägele, Adrien Taylor, Umut Simsekli, Francis Bach\n\n链接: https://arxiv.org/pdf/2501.18965.pdf\n\n标题: 2025 [2501.18965] 凸优化理论和大型模型训练学习率调度之间的惊人一致性",
+        "地址": "https://arxiv.org/pdf/2501.18965.pdf"
+    },
+    {
+        "名称": "2025 [2501.18753] INT: Instance-Specific Negative Mining for Task-Generic Promptable Segmentation.pdf",
+        "作者": "Jian Hu, Zixu Cheng, Shaogang Gong",
+        "摘要": "摘要：任务通用的可提示图像分割旨在仅利用一个任务通用的提示，通过单一任务描述实现对不同样本的分割。当前方法利用视觉语言模型（VLMs）的泛化能力，从这些任务通用的提示中推断出实例特定的提示，以指导分割过程。然而，当VLMs难以对某些图像实例进行泛化时，实例特定提示的预测效果较差。为了解决这一问题，我们介绍了一种实例特定负挖掘方法，用于任务通用可提示分割（INT）。INT的核心思路是自适应地减少无关（负面）先验知识的影响，同时通过高对比度的负挖掘选择最可信的先验知识，从而优化实例特定的提示生成。具体来说，INT包括两个组成部分：（1）实例特定的提示生成，逐步过滤提示生成中的错误信息；（2）语义掩码生成，确保每个图像实例的分割正确匹配实例特定提示的语义。INT在六个数据集上进行了验证，包括伪装物体和医学图像，证明了其有效性、鲁棒性和可扩展性。\n\n作者：Jian Hu, Zixu Cheng, Shaogang Gong\n\n备注：一种新的任务通用可提示分割方法\n\n链接：https://arxiv.org/pdf/2501.18753.pdf\n\n标题：2025 [2501.18753] INT: Instance-Specific Negative Mining for Task-Generic Promptable Segmentation.pdf",
+        "地址": "https://arxiv.org/pdf/2501.18753.pdf"
+    },
+    {
+        "名称": "2025 [2501.18128] Unraveling the Capabilities of Language Models in News Summarization.pdf",
+        "作者": "Abdurrahman Odabaşı, Göksel Biricik",
+        "摘要": "摘要：鉴于最近推出的多种语言模型以及对改进自然语言处理任务（特别是摘要）的持续需求，本研究对20种近期语言模型（尤其是较小模型）在新闻摘要任务中的表现进行了全面的基准测试。我们系统地测试了这些模型在对不同风格书写的新闻文章文本进行摘要时的能力和有效性，这些文本被展示在三个不同的数据集中。具体而言，我们在零样本和小样本学习设置下进行测试，并采用结合了不同评价概念的稳健评估方法，包括自动指标评估、人工评估和大语言模型作为评判者。令人感兴趣的是，在小样本学习设置中包含示例并没有提升模型的表现，有时甚至导致生成摘要质量下降。这个问题主要是由于用作参考摘要的黄金摘要质量较差，负面影响了模型的表现。此外，我们的研究结果突出了GPT-3.5-Turbo和GPT-4的卓越表现，由于其先进的能力，这些模型总体上占据了主导地位。然而，在所评估的公共模型中，某些模型如Qwen1.5-7B、SOLAR-10.7B-Instruct-v1.0、Meta-Llama-3-8B和Zephyr-7B-Beta展示了令人鼓舞的结果。这些模型显示出显著的潜力，使其成为新闻摘要任务中大型模型的有力竞争对手。\n\n作者：Abdurrahman Odabaşı，Göksel Biricik\n\nURL: [https://arxiv.org/pdf/2501.18128.pdf](https://arxiv.org/pdf/2501.18128.pdf)\n\n标题：2025 [2501.18128] 解开语言模型在新闻摘要中的能力",
+        "地址": "https://arxiv.org/pdf/2501.18128.pdf"
+    },
+    {
+        "名称": "2024 [2404.07097] Fast Encoder-Based 3D from Casual Videos via Point Track Processing.pdf",
+        "作者": "Yoni Kasten, Wuyue Lu, Haggai Maron",
+        "摘要": "摘要: 本文解决了从包含动态内容的视频重建3D结构的长期挑战。现有的方法并不适合在标准相机录制的随意视频上操作，或者需要很长的优化时间。为了显著提高先前方法的效率，我们提出了TracksTo4D，一种基于学习的方法，使得能够通过单次高效的前馈过程从随意视频中推断出动态内容的3D结构和相机位置。为此，我们建议直接对2D点轨迹作为输入进行操作，并设计了一种专门处理2D点轨迹的架构。我们的架构设计遵循两个关键原则：(1) 考虑到输入点轨迹数据中的固有对称性，(2) 假设运动模式可以用低秩近似有效表示。TracksTo4D在一个随意视频的数据集上进行无监督训练，仅利用从视频中提取的2D点轨迹，无需任何3D监督。我们的实验表明，TracksTo4D可以重建视频的时间点云和相机位置，其准确性可与最先进的方法媲美，但运行时间最多可以减少95%。我们进一步表明，TracksTo4D在推断时可以很好地推广到未见过语义类别的未见视频上。\n\nAuthors: Yoni Kasten, Wuyue Lu, Haggai Maron\n\nTitle: 2024 [2404.07097] 基于点轨迹处理的快速编码器在随意视频中的3D重建\n\nURL: https://arxiv.org/pdf/2404.07097.pdf\n\n备注：无",
+        "地址": "https://arxiv.org/pdf/2404.07097.pdf"
+    }
+]
