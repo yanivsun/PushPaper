@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2502.01237] The Differences Between Direct Alignment Algorithms are a Blur.pdf",
+        "作者": "Alexey Gorbatovski, Boris Shaposhnikov, Viacheslav Sinii, Alexey Malakhov, Daniil Gavrilov",
+        "摘要": "摘要：直接对齐算法（DAAs）通过替换基于人类反馈的强化学习（RLHF）中的强化学习（RL）和奖励模型（RM），使用直接策略优化来简化语言模型的对齐。根据其排名损失（成对 vs 单点）、损失中使用的奖励（例如，策略和参考策略的似然比或赔率比），或是否需要监督微调（SFT）阶段（两阶段 vs 单阶段），DAAs可以被分类。我们首先展示了单阶段方法的表现不如两阶段方法。为了解决这个问题，我们在单阶段的ORPO和ASFT中引入显式SFT阶段，并引入控制偏好优化强度的β参数。这些修改在Alpaca Eval 2中的表现得到了+3.46（ORPO）和+8.27（ASFT）的提升，达到了像DPO这样的两阶段方法的水平。进一步分析揭示，关键因素在于方法使用成对或单点目标，而不是特定的隐式奖励或损失函数。这些结果突显了需要仔细评估，以避免在对齐算法中的性能提升或总体优越性上的过早结论。",
+        "地址": "https://arxiv.org/pdf/2502.01237.pdf"
+    },
+    {
+        "名称": "2025 [2502.01061] OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models.pdf",
+        "作者": "Gaojie Lin, Jianwen Jiang, Jiaqi Yang, Zerong Zheng, Chao Liang",
+        "摘要": "摘要: 端到端人类动画生成，例如音频驱动的说话人类生成，在最近几年取得了显著进展。然而，现有的方法在扩大规模方面仍然存在困难，难以像大型通用视频生成模型那样扩展，从而限制了它们在实际应用中的潜力。在本文中，我们提出了OmniHuman，这是一个基于扩散变压器的框架，通过在训练阶段混合与运动相关的条件来扩展数据。为此，我们为这些混合条件引入了两个训练原则，以及相应的模型架构和推理策略。这些设计使OmniHuman能够充分利用数据驱动的运动生成，最终实现高度逼真的人类视频生成。更重要的是，OmniHuman支持各种人像内容（面部特写、人像、半身像、全身像），支持说话和唱歌，处理人类与物体的交互以及具有挑战性的身体姿势，并适应不同的图像风格。与现有的端到端音频驱动方法相比，OmniHuman不仅生成更逼真的视频，而且在输入方面提供了更大的灵活性。它还支持多种驱动方式（音频驱动、视频驱动和组合驱动信号）。视频样本提供在ttfamily项目页面。",
+        "地址": "https://arxiv.org/pdf/2502.01061.pdf"
+    },
+    {
+        "名称": "2025 [2502.01456] Process Reinforcement through Implicit Rewards.pdf",
+        "作者": "Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding",
+        "摘要": "摘要: 在大语言模型（LLMs）的推理时标度任务中，相对于稀疏的结果奖励，密集的过程奖励被证明是更有效的替代方法，特别是在需要复杂多步骤推理的任务中。尽管密集奖励也为LLMs的强化学习（RL）提供了一个有吸引力的选择，因为其细粒度奖励有潜力解决如训练效率和信贷分配等结果奖励的内在问题，但这些潜力在很大程度上仍未实现。主要原因是在线训练过程奖励模型（PRMs）面临的挑战，其中收集高质量的过程标签费用高昂，使其特别容易受到奖励欺骗的影响。为了解决这些挑战，我们提出了PRIME（通过隐式奖励的过程强化），它允许通过隐式过程奖励仅使用策略展开和结果标签进行在线PRM更新。PRIME与各种优势函数结合良好，并且放弃了现有方法所需的专门的奖励模型训练阶段，从而大大减少了开发开销。我们在竞赛数学和编码上展示了PRIME的有效性。从Qwen2.5-Math-7B-Base开始，PRIME在多个关键推理基准上实现了15.1%的平均改进。值得注意的是，我们最终的模型Eurus-2-7B-PRIME在七个推理基准上超过了Qwen2.5-Math-7B-Instruct，训练数据仅为其10%。\n\n摘要翻译:\n在大语言模型（LLMs）的推理时标度任务中，相对于稀疏的结果奖励，密集的过程奖励被证明是更有效的替代方法，特别是在需要复杂多步骤推理的任务中。尽管密集奖励也为LLMs的强化学习（RL）提供了一个有吸引力的选择，因为其细粒度奖励有潜力解决如训练效率和信贷分配等结果奖励的内在问题，但这些潜力在很大程度上仍未实现。主要原因是在线训练过程奖励模型（PRMs）面临的挑战，其中收集高质量的过程标签费用高昂，使其特别容易受到奖励欺骗的影响。为了解决这些挑战，我们提出了PRIME（通过隐式奖励的过程强化），它允许通过隐式过程奖励仅使用策略展开和结果标签进行在线PRM更新。PRIME与各种优势函数结合良好，并且放弃了现有方法所需的专门的奖励模型训练阶段，从而大大减少了开发开销。我们在竞赛数学和编码上展示了PRIME的有效性。从Qwen2.5-Math-7B-Base开始，PRIME在多个关键推理基准上实现了15.1%的平均改进。值得注意的是，我们最终的模型Eurus-2-7B-PRIME在七个推理基准上超过了Qwen2.5-Math-7B-Instruct，训练数据仅为其10%。",
+        "地址": "https://arxiv.org/pdf/2502.01456.pdf"
+    },
+    {
+        "名称": "2025 [2502.01341] AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Understanding.pdf",
+        "作者": "Ahmed Masry, Juan A. Rodriguez, Tianyu Zhang, Suyuchen Wang, Chao Wang, Aarash Feizi, Akshay Kalkunte Suresh, Abhay Puri, Xiangru Jian, Pierre-André Noël, Sathwik Tejaswi Madhusudhan, Marco Pedersoli, Bang Liu, Nicolas Chapados, Yoshua Bengio, Enamul Hoque, Christopher Pal, Issam H. Laradji, David Vazquez, Perouz Taslakian, Spandana Gella, Sai Rajeswar",
+        "摘要": "摘要：在视觉-语言模型（VLMs）中，使视觉特征与语言嵌入对齐是一个关键挑战。这类模型的性能在很大程度上依赖于一个良好的连接器，即将视觉编码器生成的视觉特征映射到与LLM共享的嵌入空间，同时保持语义相似性。现有的连接器，如多层感知器（MLPs），通常会产生分布外或噪声输入，导致模态之间的未对齐。在这项工作中，我们提出了一种新颖的视觉-文本对齐方法AlignVLM，它将视觉特征映射为LLM文本嵌入的加权平均。我们的方法利用了LLM编码的语言先验，确保视觉特征被映射到LLM可以有效解释的空间区域。AlignVLM在文档理解任务中特别有效，其准确地将扫描的文档图像映射到其文本内容。我们的大量实验表明，与之前的对齐方法相比，AlignVLM取得了最先进的性能。进一步分析显示了改进的视觉-文本特征对齐和对噪声的鲁棒性。\n\n翻译：\n在视觉-语言模型中，使视觉特征与语言嵌入对齐是一个主要挑战。模型的性能依赖于一个好的连接器，该连接器将视觉编码器生成的视觉特征映射到与大语言模型 (LLM) 共享的嵌入空间，同时保持语义相似性。现有的连接器，如多层感知器 (MLPs)，通常会产生分布外或噪声输入，导致模态之间未对齐。在这项研究中，我们提出了一种新颖的视觉-文本对齐方法 AlignVLM，该方法将视觉特征映射为 LLM 文本嵌入的加权平均。我们的方法利用了 LLM 所编码的语言先验，确保视觉特征被映射到 LLM 可以有效解释的空间区域。AlignVLM 特别适用于文档理解任务，能够准确地将扫描的文档图像映射到其文本内容。我们的大量实验表明，与现有的对齐方法相比，AlignVLM 达到了最先进的性能。我们进一步分析展示了改进的视觉-文本特征对齐和对噪声的鲁棒性。",
+        "地址": "https://arxiv.org/pdf/2502.01341.pdf"
+    },
+    {
+        "名称": "2025 [2501.18636] SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model.pdf",
+        "作者": "Xun Liang, Simin Niu, Zhiyu Li, Sensen Zhang, Hanyu Wang, Feiyu Xiong, Jason Zhaoxin Fan, Bo Tang, Shichao Song, Mengwei Wang, Jiawei Yang",
+        "摘要": "摘要：检索增强生成（RAG）通过将外部知识整合到大规模语言模型（LLMs）中，在解决知识密集型任务方面取得了巨大成功。然而，外部和未经验证的知识的引入增加了LLMs的脆弱性，因为攻击者可以通过操纵知识来执行攻击任务。在本文中，我们引入了一个名为SafeRAG的基准，旨在评估RAG的安全性。首先，我们将攻击任务分类为银噪音、上下文间冲突、软广告和白帽拒绝服务。接着，我们主要通过手动方式为每个任务构建RAG安全评估数据集（即SafeRAG数据集）。然后，我们利用SafeRAG数据集模拟RAG可能遇到的各种攻击场景。在14个具有代表性的RAG组件上进行的实验表明，RAG 对所有攻击任务表现出显著的脆弱性，甚至最明显的攻击任务也能轻易绕过现有的检索器、过滤器或先进的LLMs，导致RAG服务质量的下降。代码请访问：这个https URL。",
+        "地址": "https://arxiv.org/pdf/2501.18636.pdf"
+    },
+    {
+        "名称": "2025 [2502.01534] Preference Leakage: A Contamination Problem in LLM-as-a-judge.pdf",
+        "作者": "Dawei Li, Renliang Sun, Yue Huang, Ming Zhong, Bohan Jiang, Jiawei Han, Xiangliang Zhang, Wei Wang, Huan Liu",
+        "摘要": "摘要: 大型语言模型 (LLMs) 作为评判者和基于 LLM 的数据合成已成为模型开发中两种基本的 LLM 驱动的数据注释方法。虽然它们的结合显著提高了模型训练和评估的效率，但很少有人关注这种新模型开发范式可能带来的潜在污染问题。在这项工作中，我们揭示了偏好泄漏，这是一个 LLM 作为评判者中的污染问题，其原因是合成数据生成器和基于 LLM 的评估者之间的相关性。为了研究这个问题，我们首先定义了数据生成器 LLM 和评判者 LLM 之间的三种常见相关性：相同模型、继承关系和属于同一模型家族。通过大量实验证实了偏好泄漏导致的评判者对其相关学生模型的偏向性，这在多个 LLM 基准测试中均得到了验证。进一步分析表明，与之前发现的 LLM 作为评判者场景中的偏见相比，偏好泄漏是一个更难被检测的普遍问题。所有这些发现表明，偏好泄漏是 LLM 作为评判者领域中普遍存在且具有挑战性的问题。我们在此网址：https://arxiv.org/pdf/2502.01534.pdf 公布了所有代码和数据。\n\n作者: 李大伟, 孙仁良, 黄越, 钟明, 蒋博瀚, 韩家伟, 张湘良, 王伟, 刘欢\n评论: 17 页，8 张图表",
+        "地址": "https://arxiv.org/pdf/2502.01534.pdf"
+    },
+    {
+        "名称": "2025 [2502.01639] SliderSpace: Decomposing the Visual Capabilities of Diffusion Models.pdf",
+        "作者": "Rohit Gandikota, Zongze Wu, Richard Zhang, David Bau, Eli Shechtman, Nick Kolkin",
+        "摘要": "摘要：我们提出了SliderSpace，这是一个自动分解扩散模型视觉能力的框架，使其能够通过可控且易于理解的方向进行人机交互。与现有的需要用户分别为每个编辑方向指定属性的控制方法不同，SliderSpace能够从单个文本提示中同时发现多个可解释且多样化的方向。每个方向都被训练为低阶适配器，从而实现组合控制并在模型的潜在空间中发现意想不到的可能性。通过对最先进的扩散模型进行广泛实验，我们展示了SliderSpace在概念分解、艺术风格探索和多样性增强这三方面的有效性。我们的量化评估表明，SliderSpace发现的方向能够有效地分解模型知识的视觉结构，从而提供有关扩散模型编码的潜在能力的洞见。用户研究进一步验证了与基线方法相比，我们的方法能产生更多样和有用的变化。我们的代码、数据和训练权重可以在该链接获取。",
+        "地址": "https://arxiv.org/pdf/2502.01639.pdf"
+    },
+    {
+        "名称": "2025 [2502.00698] MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models.pdf",
+        "作者": "Huanqia Cai, Yijun Yang, Winston Hu",
+        "摘要": "摘要：智商测试一直是评估人类认知能力的基础方法，故意将测试与语言背景、语言熟练程度或特定领域知识分离，以隔离抽象和推理的核心能力。然而，人工智能研究目前缺乏系统性的基准来量化多模态系统中的这些关键认知维度。为了弥补这一关键空白，我们提出了MM-IQ，这是一个综合评估框架，包含2710个精心策划的测试项目，涵盖8种不同的推理范式。\n通过对领先的开源和专有多模态模型的系统评估，我们的基准揭示了显著的局限性：即使是最先进的架构也仅比随机机会略高（27.49% 对比 25% 基线准确率）。这种显著的性能差距突显了当前多模态系统在模拟基本人类推理能力方面的不足，强调了需要进行范式转变的进步以弥合这一认知鸿沟。",
+        "地址": "https://arxiv.org/pdf/2502.00698.pdf"
+    },
+    {
+        "名称": "2025 [2502.01068] FastKV: KV Cache Compression for Fast Long-Context Processing with Token-Selective Propagation.pdf",
+        "作者": "Dongwon Jo, Jiwon Song, Yulhwa Kim, Jae-Joon Kim",
+        "摘要": "摘要：虽然大语言模型（LLMs）在处理长上下文序列方面表现出色，但它们需要大量的键值（KV）缓存来存储上下文信息，这可能会极大地影响计算效率和内存使用。之前的KV缓存压缩工作主要集中在减少内存需求方面，但在提高延迟方面效果有限。为了解决这个问题，我们引入了FastKV，这是一种为长上下文序列设计的KV缓存压缩方法，可以提高延迟。为了在保持精度的同时提高处理速度，FastKV采用了一种新型的令牌选择传播（Token-Selective Propagation, TSP）方法，该方法在LLM的初始层中保留完整的上下文信息，并在更深层中选择性地传播这些信息的一部分，即使在预填充阶段也是如此。此外，FastKV结合了分组查询注意力（Grouped-Query Attention, GQA）感知的KV缓存压缩，以利用GQA在内存和计算效率方面的优势。我们的实验结果表明，与最先进的KV缓存压缩方法HeadKV相比，FastKV在首次令牌时间（TTFT）和吞吐量方面分别提高了2.00倍和1.40倍。此外，FastKV在长上下文基准测试中的准确率成功保持在与基线相当的水平。我们的代码可以在此链接获取：https://arxiv.org/pdf/2502.01068.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.01068.pdf"
+    },
+    {
+        "名称": "2025 [2502.00094] AIN: The Arabic INclusive Large Multimodal Model.pdf",
+        "作者": "Ahmed Heakl, Sara Ghaboura, Omkar Thawkar, Fahad Shahbaz Khan, Hisham Cholakkal, Rao Muhammad Anwer, Salman Khan",
+        "摘要": "摘要：在大型语言模型（LLMs）迅速发展并演变为大型多模态模型（LMMs）的过程中，高资源语言（如英语和汉语）取得了显著进展。尽管阿拉伯语LLMs取得了一定的进展，但阿拉伯语LMMs仍然基本上未被探索，且通常仅限于对语言和视觉理解的几个特定方面。为弥补这一差距，我们引入了AIN—阿拉伯语包容性多模态模型，旨在各个领域中表现出色。AIN是一个英语-阿拉伯语双语LMM，利用精心构建的360万高质量阿拉伯语-英语多模态数据样本，在英语和阿拉伯语方面均表现出色。AIN在最近的CAMEL-Bench基准测试中表现出色，该基准测试涵盖了包括多图像理解、复杂视觉感知、手写文档理解、视频理解、医学成像、植物疾病和基于远程感知的土地利用理解在内的38个子领域。我们7B模型在八个领域和38个子领域的平均表现上，比GPT-4o绝对提升了3.4%。AIN的卓越能力使其成为在各类应用中，为阿拉伯语使用者提供先进多模态生成AI工具的重要一步。",
+        "地址": "https://arxiv.org/pdf/2502.00094.pdf"
+    },
+    {
+        "名称": "2025 [2502.01637] Scaling Embedding Layers in Language Models.pdf",
+        "作者": "Da Yu, Edith Cohen, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Daogao Liu, Chiyuan Zhang",
+        "摘要": "摘要：我们提出了SCONE（一种可扩展的、上下文化的、离线的n-gram嵌入方法），用于扩展输入嵌入层以增强语言模型在层大小扩展时的性能。为了避免增加解码成本，SCONE在引入一组常见n-gram的嵌入的同时保留了原始词汇表。这些嵌入为每个输入标记提供上下文化表示，并在训练期间通过一个单独的模型学习。在推理过程中，它们被预先计算并存储在非加速器内存中，对推理速度影响最小。SCONE提出了两种新的扩展策略：增加缓存n-gram嵌入的数量和扩展用于学习它们的模型，同时保持固定的推理时间FLOPS。我们展示了通过同时扩展这两方面，SCONE能够在不增加推理时间FLOPS的情况下，优于一个拥有19亿参数的基准模型，并在各种语料库上取得更好的表现。",
+        "地址": "https://arxiv.org/pdf/2502.01637.pdf"
+    },
+    {
+        "名称": "2025 [2502.01142] DeepRAG: Thinking to Retrieval Step by Step for Large Language Models.pdf",
+        "作者": "Xinyan Guan, Jiali Zeng, Fandong Meng, Chunlei Xin, Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun, Jie Zhou",
+        "摘要": "摘要: 大型语言模型（LLMs）在推理方面展现出显著潜力的同时，由于参数知识的新颖性、准确性和覆盖范围的限制，仍然存在严重的虚假幻觉问题。同时，将推理与检索增强生成（RAG）结合起来仍然具有挑战性，因为无效的任务分解和冗余的检索会引入噪音，降低响应质量。在本文中，我们提出了DeepRAG，这一框架将检索增强推理建模为马尔可夫决策过程（MDP），从而实现战略性和自适应的检索。通过迭代地分解查询，DeepRAG能够动态地确定在每个步骤是检索外部知识还是依赖参数推理。实验表明，DeepRAG在提高检索效率的同时，将答案准确率提高了21.99%，展示了其在优化检索增强推理方面的有效性。",
+        "地址": "https://arxiv.org/pdf/2502.01142.pdf"
+    },
+    {
+        "名称": "2025 [2502.01100] ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning.pdf",
+        "作者": "Bill Yuchen Lin, Ronan Le Bras, Kyle Richardson, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi",
+        "摘要": "摘要：我们研究了大型语言模型（LLMs）的逻辑推理能力及其在复杂非单调推理中的可扩展性。为此，我们引入了ZebraLogic，这是一个全面的评估框架，用于评估LLM在从约束满足问题（CSPs）派生的逻辑网格谜题上的推理性能。ZebraLogic能够生成具有可控且可量化复杂度的谜题，从而系统地研究像Llama、o1模型和DeepSeek-R1等模型的扩展极限。通过涵盖广泛的搜索空间复杂性和多种逻辑约束，ZebraLogic提供了一个结构化的环境来评估在逐渐增加的难度下的推理能力。\n\n我们的结果揭示了一个显著的准确性下降现象，随着问题复杂性增加，我们称之为复杂性诅咒。即使使用更大的模型和增加推理时间计算，这一限制仍然存在，这表明当前LLM推理能力存在固有的限制。此外，我们探索了增强逻辑推理的策略，包括Best-of-N抽样、回溯机制和自我验证提示。我们的研究结果为LLM推理的可扩展性提供了关键的见解，强调了基本限制，并提出了潜在的改进方向。",
+        "地址": "https://arxiv.org/pdf/2502.01100.pdf"
+    },
+    {
+        "名称": "2025 [2502.01081] The Jumping Reasoning Curve? Tracking the Evolution of Reasoning Performance in GPT-[n] and o-[n] Models on Multimodal Puzzles.pdf",
+        "作者": "Vernon Y.H. Toh, Yew Ken Chia, Deepanway Ghosal, Soujanya Poria",
+        "摘要": "摘要：OpenAI 发布的 o1 和 o3 标志着大型语言模型在高级推理能力方面的重大范式转变。值得注意的是，o3 在人工通用智能的抽象与推理语料库（ARC-AGI）中的新颖问题解决和技能获取方面超越了人类。然而，该基准仅限于符号模式，而人类通常会感知和推理涉及视觉和语言数据的多模态场景。因此，迫切需要研究多模态任务中的高级推理能力。为此，我们跟踪了 GPT-[n] 和 o-[n] 系列模型在具有挑战性的多模态谜题上的演变，这些谜题需要精细的视觉感知和抽象或算法推理。o1 的卓越表现几乎以 GPT-4o 七百五十倍的计算成本为代价，这引发了对其效率的担忧。我们的结果表明，各模型迭代的推理能力呈明显上升趋势，GPT 系列模型及之后的 o1 均有显著的性能提升。然而，我们观察到 o1 模型在需要抽象推理的简单多模态谜题上仍然存在困难。此外，其在算法谜题上的表现依然较差。我们计划持续跟踪该系列的新模型，并在本文中更新我们的结果。所有资源均可在公开的 URL 获取。",
+        "地址": "https://arxiv.org/pdf/2502.01081.pdf"
+    },
+    {
+        "名称": "2025 [2502.01591] Improving Transformer World Models for Data-Efficient RL.pdf",
+        "作者": "Antoine Dedieu, Joseph Ortiz, Xinghua Lou, Carter Wendelken, Wolfgang Lehrach, J Swaroop Guntupalli, Miguel Lazaro-Gredilla, Kevin Patrick Murphy",
+        "摘要": "摘要：我们提出了一种基于模型的强化学习（RL）方法，在具有挑战性的Craftax-classic基准测试中实现了新的最先进性能。Craftax-classic是一款开放世界的二维生存游戏，要求智能体展示广泛的通用能力，例如强大的归纳能力、深度探索和长期推理能力。通过一系列旨在提高样本效率的精心设计选择，我们的MBRL算法在仅使用了100万环境步后达到了67.4%的奖励，显著优于DreamerV3的53.2%，并且首次超过了人类表现65.0%。我们的方法首先通过使用结合CNN和RNN的新型策略架构构建了一个SOTA无模型基准。然后，我们在标准MBRL设置中添加了三项改进：（a）“带预热的Dyna”，在真实和虚拟数据上训练策略，（b）图像块上的“最近邻标记器”，改善了创建Transformer世界模型（TWM）输入的方案，以及（c）“块教师强制”，使TWM能够共同推理下一个时间步的未来标记。\n\n作者：Antoine Dedieu, Joseph Ortiz, Xinghua Lou, Carter Wendelken, Wolfgang Lehrach, J Swaroop Guntupalli, Miguel Lazaro-Gredilla, Kevin Patrick Murphy。",
+        "地址": "https://arxiv.org/pdf/2502.01591.pdf"
+    },
+    {
+        "名称": "2025 [2502.01208] Almost Surely Safe Alignment of Large Language Models at Inference-Time.pdf",
+        "作者": "Xiaotong Ji, Shyam Sundhar Ramesh, Matthieu Zimmer, Ilija Bogunovic, Jun Wang, Haitham Bou Ammar",
+        "摘要": "摘要：即使是能力很强的大型语言模型（LLMs）也可能会产生有偏见或不安全的响应，而旨在缓解这一问题的对齐技术（如RLHF）既昂贵又容易因重新训练LLM而导致过拟合。本文介绍了一种新颖的推理时间对齐方法，可以确保LLMs生成几乎确定性安全的响应，即生成安全响应的概率接近于1。我们通过在LLM的潜在空间中将推理时间响应的安全生成表述为受约束的马尔可夫决策过程来实现这一点。关键在于，我们增强了一个安全状态，以跟踪安全约束的演变，并使我们能够在潜在空间中求解MDP时证明形式化的安全性保证。在此基础上，我们提出了InferenceGuard，这是一种无需修改模型权重的实际实现方法，可以安全地对齐LLMs。实验证明，InferenceGuard在生成安全且对齐的响应方面有效平衡了安全性和任务性能，优于现有的推理时间对齐方法。\n\n作者：季晓童，Shyam Sundhar Ramesh，Matthieu Zimmer，Ilija Bogunovic，王军，Haitham Bou Ammar\n\n论文标题：几乎确定性安全的推理时间大型语言模型对齐方法\n\n链接：https://arxiv.org/pdf/2502.01208.pdf",
+        "地址": "https://arxiv.org/pdf/2502.01208.pdf"
+    },
+    {
+        "名称": "2025 [2502.01441] Improved Training Technique for Latent Consistency Models.pdf",
+        "作者": "Quan Dao, Khanh Doan, Di Liu, Trung Le, Dimitris Metaxas",
+        "摘要": "摘要: 一致性模型是一类新的生成模型，能够在单步或多步内生成高质量样本。最近，一致性模型在像素空间中表现出色，达到了与扩散模型相媲美的效果。然而，在大规模数据集上进行一致性训练的成功，特别是在文本到图像和视频生成任务中，取决于在潜在空间中的表现。在这项工作中，我们分析了像素空间和潜在空间之间的统计差异，发现潜在数据经常包含高度突出的异常值，显著降低了潜在空间中iCT的性能。为了解决这个问题，我们用柯西损失替代了伪Huber损失，有效减缓了异常值的影响。此外，我们在早期时间步引入了扩散损失，并采用最优传输(OT)耦合以进一步提高性能。最后，我们引入了自适应缩放-c调度器来管理稳健的训练过程，并在架构中采用了非缩放LayerNorm，以更好地捕捉特征的统计信息并减少异常值的影响。通过这些策略，我们成功地训练了能够在一或两步内实现高质量采样的潜在一致性模型，显著缩小了潜在一致性模型和扩散模型之间的性能差距。实现代码已在此发布：this https URL",
+        "地址": "https://arxiv.org/pdf/2502.01441.pdf"
+    },
+    {
+        "名称": "2025 [2502.01584] PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models.pdf",
+        "作者": "Carolyn Jane Anderson, Joydeep Biswas, Aleksander Boruch-Gruszecki, Federico Cassano, Molly Q Feldman, Arjun Guha, Francesca Lucchetti, Zixuan Wu",
+        "摘要": "摘要：现有的前沿模型基准测试通常考察专门的“博士级”知识，这些知识对于非专家来说难以理解。相反，我们提出了一个基于NPR Sunday Puzzle Challenge的基准测试，这个测试只需要普通的常识。我们的基准测试对人类和模型都是具有挑战性的，但正确的解决方案很容易验证，模型的错误也很容易发现。我们的工作揭示了现有基准测试中没有显现的能力差距：OpenAI o1在推理模型中的表现显著优于那些在专门知识测试中表现平平的模型。此外，我们对推理结果的分析揭示了新的失败类型。例如，DeepSeek R1在提供一个它知道是错误答案之前，常常会以“我放弃”认输。R1在输出中也常常表现出显著的不确定性，并且在极少数情况下，它会“思维中止”，这表明需要一种推理时间内的技术来在达到上下文窗口限制之前“结束思考”。我们还量化了R1和Gemini Thinking的推理延长效果，以确定在我们的基准测试中更多的推理之后不再可能提高准确性的位置。\n\n翻译：现有的前沿模型基准测试通常考察专门的“博士级”知识，这些知识对于非专家来说难以理解。相反，我们提出了一个基于NPR Sunday Puzzle Challenge的基准测试，这个测试只需要普通的常识。我们的基准测试对人类和模型都是具有挑战性的，但正确的解决方案很容易验证，模型的错误也很容易发现。我们的工作揭示了现有基准测试中没有显现的能力差距：OpenAI o1在推理模型中的表现显著优于那些在专门知识测试中表现平平的模型。此外，我们对推理结果的分析揭示了新的失败类型。例如，DeepSeek R1在提供一个它知道是错误答案之前，常常会以“我放弃”认输。R1在输出中也常常表现出显著的不确定性，并且在极少数情况下，它会“思维中止”，这表明需要一种推理时间内的技术来在达到上下文窗口限制之前“结束思考”。我们还量化了R1和Gemini Thinking的推理延长效果，以确定在我们的基准测试中更多的推理之后不再可能提高准确性的位置。",
+        "地址": "https://arxiv.org/pdf/2502.01584.pdf"
+    },
+    {
+        "名称": "2025 [2502.01636] Lifelong Sequential Knowledge Editing without Model Degradation.pdf",
+        "作者": "Akshat Gupta, Phudish Prateepamornkul, Maochuan Lu, Ahmed Alaa, Thomas Hartvigsen, Gopala Anumanchipalli",
+        "摘要": "摘要: 先前在参数修改知识编辑方面的研究显示，大规模顺序编辑会导致模型退化。在本文中，我们研究了这种现象背后的原因，并将顺序知识编辑扩展到10,000次编辑，同时保持原始模型的下游性能。我们首先展示了定位后编辑方法会导致对编辑的事实过拟合。我们还发现，使用这些方法进行连续性知识编辑会导致编辑矩阵的范数不成比例地增长。然后，我们提供了对定位后编辑方法内部运作的关键洞察。我们展示了范数增长是这些方法使用的一个隐藏技巧，通过给编辑层输出激活赋予更大的重要性，实现了所谓的“重要性黑客”。通过这种方式，编辑层对模型输出的贡献变得更大。为了解决这些问题，我们提出了ENCORE - 早停和范数约束的鲁棒知识编辑。ENCORE通过控制过拟合和范数不成比例的增长，实现了长期的顺序编辑，使我们能够在不损失下游性能的情况下进行多达10,000次顺序编辑。ENCORE在Llama3-8B上比MEMIT快61%，比AlphaEdit快64%。\n\n作者: Akshat Gupta, Phudish Prateepamornkul, Maochuan Lu, Ahmed Alaa, Thomas Hartvigsen, Gopala Anumanchipalli\n\n标题: 2025 [2502.01636] 无模型退化的终身顺序知识编辑\n\n[链接到论文](https://arxiv.org/pdf/2502.01636.pdf)",
+        "地址": "https://arxiv.org/pdf/2502.01636.pdf"
+    },
+    {
+        "名称": "2025 [2502.01619] Learning to Generate Unit Tests for Automated Debugging.pdf",
+        "作者": "Archiki Prasad, Elias Stengel-Eskin, Justin Chih-Yao Chen, Zaid Khan, Mohit Bansal",
+        "摘要": "摘要：单元测试 (UTs) 在评估代码正确性、并在大语言模型 (LLM) 迭代调试错误代码时提供反馈方面发挥着重要作用，这也激励了自动化测试生成。然而，我们发现了在生成能够揭露错误的单元测试输入并在没有参考答案的情况下正确预测单元测试输出之间存在权衡。为了解决这一权衡问题，我们提出了UTGen，它教会LLMs根据任务描述和候选代码生成能够揭露错误的单元测试输入及其正确的预期输出。我们将UTGen集成到UTDebug中，一个强大的调试管道，利用生成的测试帮助LLMs进行有效调试。由于模型生成的测试会提供嘈杂信号（例如，来自错误预测的输出），UTDebug (i) 通过测试时计算扩展UTGen以改进UT输出预测，并 (ii) 基于多个生成的UT对编辑进行验证和回溯，以避免过拟合。我们展示了UTGen在生成的UT输入和正确UT输出的存在度量上，比单元测试生成基线高出7.59%。当与UTDebug一起使用时，我们发现来自UTGen单元测试的反馈将Qwen-2.5 7B在HumanEvalFix和我们自己的更难调试划分MBPP+上的pass@1准确率分别提高了超过3%和12.35%，超过了其他基于LLM的单元测试生成基线。\n\n翻译：\n单元测试 (UTs) 在评估代码正确性和提供反馈时发挥着重要作用，并推动了自动化测试生成。然而，我们发现了生成揭示错误的单元测试输入与在没有正确解决方案的情况下注预测单元测试输出之间的权衡。为了解决这个权衡，我们提出了UTGen，它教导LLM根据任务描述和候选代码生成揭示错误的单元测试输入及其正确预期输出。我们将UTGen集成到UTDebug中，这是一个利用生成的测试来帮助LLMs有效调试的强大调试管道。由于模型生成的测试可能会提供噪音信号（例如，错误预测的输出），UTDebug通过测试时计算扩展UTGen来改善UT输出预测，并基于多个生成的UT验证并回溯编辑，以避免过拟合。我们展示了UTGen在衡量揭示错误的UT输入和正确的UT输出上超过基线7.59%。当与UTDebug一起使用时，从UTGen单元测试获得的反馈将Qwen-2.5 7B在HumanEvalFix和我们自己的更高难度的MBPP+调试拆分上的pass@1准确率分别提高了超过3%和12.35%，超过了其他基于LLM的单元测试生成基线。",
+        "地址": "https://arxiv.org/pdf/2502.01619.pdf"
+    },
+    {
+        "名称": "2025 [2502.00314] A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation.pdf",
+        "作者": "Moein Heidari, Ehsan Khodapanah Aghdam, Alexander Manzella, Daniel Hsu, Rebecca Scalabrino, Wenjin Chen, David J. Foran, Ilker Hacihaliloglu",
+        "摘要": "摘要: \n腹膜后区域有多种肿瘤，包括罕见的良性和恶性肿瘤，这些肿瘤由于其罕见性和邻近重要结构而在诊断和治疗方面具有挑战性。由于这些肿瘤形状不规则，估算肿瘤体积十分困难，而手动分割则耗时耗力。虽然使用U-Net及其结合视觉Transformer (ViT)元素的变体进行自动分割显示出良好效果，但他们面临高计算需求的问题。为了解决这一问题，Mamba状态空间模型（SSM）和扩展长短期记忆网络（xLSTM）等架构通过以更低的资源消耗处理远距离依赖关系，提供了高效的解决方案。本研究在一个新的内部CT数据集和一个公共器官分割数据集上评估了U-Net的增强版本，包括CNN、ViT、Mamba和xLSTM，并提出了集成Vi块以改进分割的ViLU-Net模型。结果突出了xLSTM在U-Net框架中的效率。代码可以在GitHub上公开访问。",
+        "地址": "https://arxiv.org/pdf/2502.00314.pdf"
+    },
+    {
+        "名称": "2025 [2502.00987] RandLoRA: Full-rank parameter-efficient fine-tuning of large models.pdf",
+        "作者": "Paul Albert, Frederic Z. Zhang, Hemanth Saratchandran, Cristian Rodriguez-Opazo, Anton van den Hengel, Ehsan Abbasnejad",
+        "摘要": "摘要：低秩自适应（LoRA）及其变体在减少大规模Transformer网络的可训练参数数量和内存需求的同时，在微调表现方面取得了令人印象深刻的结果。然而，权重更新的低秩性质固有地限制了微调模型的表现能力，可能会在复杂任务上损害性能。这就引发了一个关键问题：当观察到LoRA与标准微调之间存在性能差距时，是由于可训练参数数量的减少还是秩不足造成的？ 本文旨在通过引入RandLoRA来回答这个问题，这是一种参数高效的方法，使用学习到的低秩、不可训练随机矩阵的线性组合进行全秩更新。我们的方法通过将优化限制在应用于固定随机矩阵的对角缩放矩阵上，从而限制了可训练参数的数量。这使我们能够在训练期间有效克服低秩限制，同时保持参数和内存效率。通过对视觉、语言和视觉-语言基准的广泛实验，我们系统地评估了LoRA和现有随机基方法的局限性。我们的研究结果表明，全秩更新在视觉和语言任务中均有益，尤其在视觉-语言任务中，RandLoRA显著减少甚至消除了标准微调和LoRA之间的性能差距，证明了其有效性。\n\n作者：Paul Albert, Frederic Z. Zhang, Hemanth Saratchandran, Cristian Rodriguez-Opazo, Anton van den Hengel, Ehsan Abbasnejad\n\n评论：将出现在2025年国际学习表征会议（ICLR）上\n\n链接：https://arxiv.org/pdf/2502.00987.pdf\n\n标题：《RandLoRA: 大模型的全秩参数高效微调》",
+        "地址": "https://arxiv.org/pdf/2502.00987.pdf"
+    },
+    {
+        "名称": "2025 [2501.18055] Current Pathology Foundation Models are unrobust to Medical Center Differences.pdf",
+        "作者": "Edwin D. de Jong, Eric Marcus, Jonas Teuwen",
+        "摘要": "摘要：病理基础模型（FMs）在医疗领域前景广阔。在它们被临床应用之前，必须确保它们能够适应不同医疗中心的差异。我们评估了病理FMs是否专注于生物特征（如组织和癌症类型），或者受到了因染色程序和其他差异引入的医疗中心特征的混淆影响。我们提出了鲁棒性指数，这是一种新的鲁棒性度量指标，反映了生物特征相对于混淆特征的主导程度。本文评估了十个当前公开可用的病理基础模型。我们发现，目前评估的所有病理基础模型都在很大程度上代表了医疗中心的特征。观察到了鲁棒性指数的显著差异。目前只有一个模型的鲁棒性指数大于1，即生物特征略微占据主导地位。本文介绍了一种量化方法，用于评估医疗中心差异对基于FM的预测性能的影响。我们分析了鲁棒性不足对下游模型分类性能的影响，发现癌症类型分类错误并非随机，而是具体归因于同一中心的混淆因素：来自同一医疗中心的其他类别的图像。我们可视化了FM的嵌入空间，发现这些嵌入空间更多地由医疗中心组织，而非生物因素。因此，医疗中心的来源预测比组织来源和癌症类型更准确。本文提出的鲁棒性指数旨在推动病理FMs在临床应用中的进展，使其更加鲁棒和可靠。\n\n作者：Edwin D. de Jong, Eric Marcus, Jonas Teuwen",
+        "地址": "https://arxiv.org/pdf/2501.18055.pdf"
+    },
+    {
+        "名称": "2025 [2502.01126] Language Models Prefer What They Know: Relative Confidence Estimation via Confidence Preferences.pdf",
+        "作者": "Vaishnavi Shrivastava, Ananya Kumar, Percy Liang",
+        "摘要": "摘要：语言模型 (LM) 应该提供可靠的置信度估计，以帮助用户发现输出中的错误，并在必要时求助于人类专家。要求语言模型评估其置信度（“从0到1打分你的信心”）是评估其不确定性的自然方式。然而，模型难以提供绝对置信度评估（即独立于其他问题评估回答问题的信心），它们生成的粗粒度评分对于评估答案的正确性没有用处。我们提出了相对置信度估计，将问题相互匹配，并要求模型做出相对置信度的判断（“你更有信心正确回答哪个问题？”）。将每个问题视为在一系列与其他问题的对决中的“玩家”，并将模型的偏好视为比赛结果，我们可以使用排名聚合方法（例如 Elo 等级评定和 Bradley-Terry 模型）将模型的置信度偏好转化为置信度评分。我们在五个最先进的语言模型——GPT-4、GPT-4o、Gemini 1.5 Pro、Claude 3.5 Sonnet 和 Llama 3.1 405B——的14项具有挑战性的STEM、社会科学和常识推理问答任务上对相对置信度估计与绝对置信度估计和自洽置信度方法进行了评估。我们的结果表明，相对置信度估计比绝对置信度估计提供了更可靠的置信度评分，在所有模型和数据集上，相对于直接的绝对置信度估计方法，选择性分类AUC平均提高了3.5%，相对于自洽方法平均提高了1.7%。",
+        "地址": "https://arxiv.org/pdf/2502.01126.pdf"
+    }
+]
