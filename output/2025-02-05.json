@@ -1,0 +1,80 @@
+[
+    {
+        "名称": "2025 [2502.02492] VideoJAM: Joint Appearance-Motion Representations for Enhanced Motion Generation in Video Models.pdf",
+        "作者": "Hila Chefer, Uriel Singer, Amit Zohar, Yuval Kirstain, Adam Polyak, Yaniv Taigman, Lior Wolf, Shelly Sheynin",
+        "摘要": "摘要：尽管最近取得了巨大进展，生成视频模型仍然难以捕捉现实世界的运动、动态和物理现象。我们表明，这一限制源于传统的像素重建目标，它使模型偏向于外观逼真性，而牺牲了运动连贯性。为了解决这一问题，我们引入了VideoJAM，一种通过鼓励模型学习联合外观-运动表征为视频生成器赋予有效运动先验的新颖框架。VideoJAM由两个互补单元组成。在训练过程中，我们扩展了目标，从一个单一的学习表征中预测生成的像素及其相应的运动。在推理过程中，我们引入了Inner-Guidance，一种通过利用模型自身不断发展的运动预测作为动态引导信号来引导生成朝向连贯运动的机制。值得注意的是，我们的框架可以以最小的调整应用于任何视频模型，不需要对训练数据或模型规模进行修改。VideoJAM在运动连贯性方面实现了最先进的性能，超过了高度竞争的专有模型，同时还提升了生成的视觉质量。这些发现强调，外观和运动可以是互补的，并且当有效整合时，可以增强视频生成的视觉质量和连贯性。",
+        "地址": "https://arxiv.org/pdf/2502.02492.pdf"
+    },
+    {
+        "名称": "2025 [2502.01362] Inverse Bridge Matching Distillation.pdf",
+        "作者": "Nikita Gushchin, David Li, Daniil Selikhanovych, Evgeny Burnaev, Dmitry Baranchuk, Alexander Korotin",
+        "摘要": "摘要：学习扩散桥模型很容易；使其快速和实用是一门艺术。扩散桥模型（DBMs）是扩散模型在图像到图像转换应用中的一种有前途的扩展。然而，与许多现代扩散和流动模型一样，DBMs也存在推理速度缓慢的问题。为了解决这一问题，我们提出了一种基于反向桥匹配公式的新蒸馏技术，并推导出了在实践中解决该问题的易处理目标。与以前开发的DBM蒸馏技术不同，所提方法可以蒸馏条件和无条件类型的DBMs，在一步生成器中蒸馏模型，并且只使用损坏的图像进行训练。我们在包括超分辨率、JPEG恢复、素描到图像转换等广泛设置上，对我们的方法在条件和无条件的桥匹配类型上进行了评估，并表明我们的蒸馏技术可以使DBMs的推理速度提高4倍到100倍，甚至在特定设置下提供比使用的教师模型更好的生成质量。",
+        "地址": "https://arxiv.org/pdf/2502.01362.pdf"
+    },
+    {
+        "名称": "2025 [2502.01718] ACECODER: Acing Coder RL via Automated Test-Case Synthesis.pdf",
+        "作者": "Huaye Zeng, Dongfu Jiang, Haozhe Wang, Ping Nie, Xiaotong Chen, Wenhu Chen",
+        "摘要": "摘要：近期在编码器模型方面的进展主要依赖于监督微调（SFT），而强化学习（RL）的潜力基本上仍未被开发，这主要是由于代码领域缺乏可靠的奖励数据或模型。在本文中，我们通过利用自动化的大规模测试用例合成来增强代码模型训练，以应对这一挑战。具体而言，我们设计了一个流水线，能够从现有的代码数据生成大量的（问题，测试用例）对。利用这些测试用例，我们根据采样程序的通过率构建偏好对，通过Bradley-Terry损失训练奖励模型。在通过最好32次采样的情况下，这种方法显示Llama-3.1-8B-Ins平均提升了10分，Qwen2.5-Coder-7B-Ins提升了5分，使得7B模型的表现相当于236B的DeepSeek-V2.5。此外，我们使用奖励模型和测试用例通过奖励进行强化学习，在HumanEval、MBPP、BigCodeBench和LiveCodeBench（V4）中取得了持续的改进。值得注意的是，我们直接从Qwen2.5-Coder-base开始进行R1风格的训练，并在仅80次优化步骤中显示出在人类评估-plus上提高超过25%，在MBPP-plus上提高6%。我们相信我们的结果突显了强化学习在编码器模型中的巨大潜力。",
+        "地址": "https://arxiv.org/pdf/2502.01718.pdf"
+    },
+    {
+        "名称": "2025 [2502.02584] QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search.pdf",
+        "作者": "Zongyu Lin, Yao Tang, Xingcheng Yao, Da Yin, Ziniu Hu, Yizhou Sun, Kai-Wei Chang",
+        "摘要": "摘要: 语言代理在处理复杂的交互任务时已成为一种有前途的解决方案。语言代理成功的关键因素之一是基于代理工作流程轨迹的奖励模型，该模型在训练或推理期间提供了宝贵的指导。然而，由于缺乏中间交互的注释，大多数现有工作使用结果奖励模型来优化整个轨迹的策略。这可能导致次优策略并阻碍整体性能。为了解决这个问题，我们提出了QLASS（基于Q指导的语言代理逐步搜索），通过逐步估计Q值来自动生成开放语言代理的注释。通过引入推理树和进行过程奖励建模，QLASS为每一步提供了有效的中间指导。通过逐步指导，我们提出了一种Q指导生成策略，使语言代理能够更好地适应长期价值，在复杂的交互代理任务的模型推理期间显著提高性能。值得注意的是，即使只有几乎一半的注释数据，QLASS仍然保持强劲的性能，展示了其在有限监督情况下的处理效率。我们还通过定性分析实证表明，QLASS可以导致更有效的决策。我们将发布我们的代码和数据。",
+        "地址": "https://arxiv.org/pdf/2502.02584.pdf"
+    },
+    {
+        "名称": "2025 [2502.02508] Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search.pdf",
+        "作者": "Maohao Shen, Guangtao Zeng, Zhenting Qi, Zhang-Wei Hong, Zhenfang Chen, Wei Lu, Gregory Wornell, Subhro Das, David Cox, Chuang Gan",
+        "摘要": "摘要：大型语言模型（LLMs）在各个领域展示了显著的推理能力。最近的研究表明，在测试时增加计算量可以增强LLMs的推理能力。这通常涉及在推理时进行广泛抽样，并由外部LLM验证器引导，从而形成一个两方系统。尽管有外部指南，这种系统的有效性展示了单个LLM解决复杂任务的潜力。因此，我们提出了一个新的研究问题：我们能否将搜索能力内化，以从根本上增强单个LLM的推理能力？此项工作探索了一个正交方向，关注训练后的LLMs进行自回归搜索（即通过自我反省和自我探索新策略来扩展推理过程）。为此，我们提出了链式行动思想（COAT）推理和一个两阶段训练模式：1）小规模格式调优阶段以内化COAT推理格式，2）利用强化学习的大规模自我改进阶段。我们的方法产生了Satori，这是一个基于开源模型和数据训练的7B LLM。广泛的实证评估表明，Satori在数学推理基准上达到了最先进的性能，同时在域外任务上表现出强大的泛化能力。代码、数据和模型将全部开源。",
+        "地址": "https://arxiv.org/pdf/2502.02508.pdf"
+    },
+    {
+        "名称": "2025 [2502.02589] COCONut-PanCap: Joint Panoptic Segmentation and Grounded Captions for Fine-Grained Understanding and Generation.pdf",
+        "作者": "Xueqing Deng, Qihang Yu, Ali Athar, Chenglin Yang, Linjie Yang, Xiaojie Jin, Xiaohui Shen, Liang-Chieh Chen",
+        "摘要": "摘要：本文介绍了COCONut-PanCap数据集，旨在增强全景分割和情景图像描述。在COCO数据集和高级COCONut全景掩膜基础上，该数据集旨在克服现有图像-文本数据集中经常缺乏详细、场景全面描述的局限性。COCONut-PanCap数据集结合了基于全景分割掩膜的细粒度区域级描述，确保一致性并提升生成描述的细节。通过人工编辑的密集注释描述，COCONut-PanCap支持视觉语言模型（VLMs）在图像理解和生成模型的文本到图像任务中的改进训练。实验结果表明，COCONut-PanCap显著提升了理解和生成任务的性能，为大型数据集提供互补优势。该数据集为联合全景分割和情景描述任务评估模型设立了新的基准，解决了多模态学习中对高质量、详细图像-文本注释的需求。",
+        "地址": "https://arxiv.org/pdf/2502.02589.pdf"
+    },
+    {
+        "名称": "2025 [2502.01941] Can LLMs Maintain Fundamental Abilities under KV Cache Compression?.pdf",
+        "作者": "Xiang Liu, Zhenheng Tang, Hong Chen, Peijie Dong, Zeyu Li, Xiuze Zhou, Bo Li, Xuming Hu, Xiaowen Chu",
+        "摘要": "摘要: 本文研究了大语言模型(LLMs)中一个尚未充分探索的挑战：KV缓存压缩方法对LLMs基本能力的影响。尽管现有方法在长上下文基准测试中实现了令人印象深刻的压缩比，但它们对核心模型能力的影响仍未得到充分研究。我们通过全面的实证研究，评估了在各种任务中突出的KV缓存压缩方法，包括世界知识、常识推理、算术推理、代码生成、安全性和长上下文理解。分析表明，KV缓存压缩方法在任务上的表现存在特定性能下降的情况。算术推理任务对激进的压缩特别敏感，不同方法的表现下降了17.4%-43.3%。值得注意的是，DeepSeek R1 Distill模型比指令调整模型表现出更强的压缩容忍度，表现下降仅为9.67% - 25.53%。基于对注意模式和跨任务压缩性能的分析，我们提出了ShotKV，这是一种在保留shot级语义一致性的同时区分预填充和解码阶段的新压缩方法。实证结果显示，ShotKV在激进压缩比下的长上下文生成任务中实现了9%-18%的性能提升。",
+        "地址": "https://arxiv.org/pdf/2502.01941.pdf"
+    },
+    {
+        "名称": "2025 [2502.00674] Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?.pdf",
+        "作者": "Wenzhe Li, Yong Lin, Mengzhou Xia, Chi Jin",
+        "摘要": "摘要：联合来自不同来源的输出是一种直接但有效的提高性能的方法。代理混合（MoA）是一种流行的集成方法，它汇总多个不同大型语言模型（LLM）的输出。本文在语言模型的背景下提出了一个问题：混合不同的LLM真的有益吗？我们提出了Self-MoA——一种仅汇总单个表现最佳LLM输出的集成方法。我们的广泛实验显示，令人惊讶的是，在许多场景中，Self-MoA优于混合不同LLM的标准MoA：在AlpacaEval 2.0基准上，Self-MoA比MoA提高了6.6%，并在包括MMLU、CRUX和MATH在内的各种基准上平均提高了3.8%。将Self-MoA应用于AlpacaEval 2.0中的顶级模型之一，直接在排行榜上实现了新的最先进性能。为了理解Self-MoA的有效性，我们系统地研究了在不同MoA设置下输出的多样性和质量之间的权衡。我们确认MoA性能对质量非常敏感，混合不同LLM往往降低模型的平均质量。为了补充这项研究，我们识别了混合不同LLM可能有帮助的情景。本文进一步引入了Self-MoA的顺序版本，能够在多轮中动态汇总大量LLM输出，并且其效果与一次性汇总所有输出一样有效。\n\n作者：Wenzhe Li, Yong Lin, Mengzhou Xia, Chi Jin",
+        "地址": "https://arxiv.org/pdf/2502.00674.pdf"
+    },
+    {
+        "名称": "2025 [2501.19066] Concept Steerers: Leveraging K-Sparse Autoencoders for Controllable Generations.pdf",
+        "作者": "Dahye Kim, Deepti Ghadiyaram",
+        "摘要": "摘要: 尽管文本到图像生成模型取得了显著进展，但它们容易受到对抗性攻击并不经意地生成不安全、不道德的内容。现有的方法通常依靠微调模型来去除特定概念，这在计算上非常昂贵、缺乏可扩展性，并且会降低生成质量。在这项工作中，我们提出了一种新颖的框架，利用k-稀疏自动编码器（k-SAEs）来实现扩散模型中高效且可解释的概念操控。具体而言，我们首先在文本嵌入的潜在空间中识别出可解释的单意概念，并利用它们来精确地引导生成远离或接近某一特定概念（例如，裸体）或引入新概念（例如，摄影风格）。通过大量的实验，我们证明了我们的方法非常简单，不需要对基础模型或LoRA适配器进行再训练，不会降低生成质量，并且对对抗性提示操控具有鲁棒性。我们的方法在去除不安全概念方面取得了20.01%的改进，在风格操控方面也有效，并且比当前最先进的方法快约5倍。",
+        "地址": "https://arxiv.org/pdf/2501.19066.pdf"
+    },
+    {
+        "名称": "2025 [2502.01720] Generating Multi-Image Synthetic Data for Text-to-Image Customization.pdf",
+        "作者": "Nupur Kumari, Xi Yin, Jun-Yan Zhu, Ishan Misra, Samaneh Azadi",
+        "摘要": "摘要（中文翻译）：\n摘要：文本到图像模型的定制化使用户能够插入自定义概念，并在未曾见过的场景中生成这些概念。现有方法要么依赖于高成本的测试时优化，要么在单图像训练数据集上训练编码器，缺乏多图像监督，从而导致图像质量较差。我们提出了一种简单的方法来解决这两个局限。我们首先利用现有的文本到图像模型和3D数据集，创建一个高质量的合成定制数据集（SynCD），该数据集包含相同对象在不同光照、背景和姿势下的多张图像。然后，我们提出了一种基于共享注意力机制的新编码器架构，可以更好地结合输入图像中的细粒度视觉细节。最后，我们提出了一种新的推理技术，通过对文本和图像指导向量进行归一化，减轻推理过程中的过曝问题。通过大量实验，我们表明，经过合成数据集、所提编码器和推理算法训练的模型在标准定制基准上优于现有的无调优方法。\n\n作者：Nupur Kumari, Xi Yin, Jun-Yan Zhu, Ishan Misra, Samaneh Azadi\n\n评论：项目网页：此 https URL\n\n链接：https://arxiv.org/pdf/2502.01720.pdf\n\n标题：2025 [2502.01720] 生成文本到图像定制化的多图像合成数据",
+        "地址": "https://arxiv.org/pdf/2502.01720.pdf"
+    },
+    {
+        "名称": "2025 [2501.19389] Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models.pdf",
+        "作者": "Wenzhi Fang, Dong-Jun Han, Liangqi Yuan, Seyyedali Hosseinalipour, Christopher G. Brinton",
+        "摘要": "摘要：\n对设备上的大型语言模型（LLMs）进行微调正吸引越来越多的关注。最近的研究已将低秩适应（LoRA）技术与联邦微调结合在一起，以缓解与设备模型大小和数据稀缺相关的挑战。然而，计算资源的异质性仍然是一个关键瓶颈：尽管较高秩模块通常可增强性能，但不同设备的能力限制了LoRA的可行秩范围。现有解决方法要么缺乏理论依据，要么引入额外的计算负担，使得高效且有理论依据的解决方案存在较大空白。为了解决这些挑战，我们提出了联邦草图LoRA（FSLoRA），该方法利用草图机制，使设备能够选择性地更新服务器维护的全局LoRA模块的子矩阵。通过调整草图比率，FSLoRA可以灵活适应特定设备的通信和计算限制。我们对FSLoRA的收敛性提供了严格的分析，表明草图比率如何影响收敛速度。通过对多个数据集和LLM模型进行全面实验，我们证明了FSLoRA相对于各种基线的优越性能。\n\n翻译为中文：\n\n对设备上的大型语言模型进行微调正吸引越来越多的关注。最近的研究已将低秩适应技术与联邦微调结合在一起，以缓解与设备模型大小和数据稀缺相关的挑战。然而，计算资源的异质性仍是一个关键瓶颈：尽管较高秩模块通常可以增强性能，不同设备的能力限制了低秩适应的可行秩范围。现有解决方法要么缺乏理论依据，要么增加额外的计算负担，迫切需要一个高效且有理论基础的解决方案。为解决这些问题，我们提出了联邦草图LoRA，通过利用草图机制，使设备能够选择性地更新由服务器维护的全局低秩适应模块的子矩阵。通过调整草图比率，该方法可以灵活适应特定设备的通信和计算限制。我们对该方法的收敛性进行了严格分析，揭示了草图比率如何影响收敛速度。通过对多个数据集和大型语言模型进行全面实验，我们证明了该方法相较于各种基线方法的优越性能。",
+        "地址": "https://arxiv.org/pdf/2501.19389.pdf"
+    },
+    {
+        "名称": "2025 [2502.01839] Sample, Scrutinize and Scale: Effective Inference-Time Search by Scaling Verification.pdf",
+        "作者": "Eric Zhao, Pranjal Awasthi, Sreenivas Gollapudi",
+        "摘要": "摘要：基于采样的搜索是一种利用测试时计算资源的简单范式，包括生成多个候选答案并选择最佳的一个——通常是通过验证每个答案的正确性。在本文中，我们研究了基于采样的搜索的扩展趋势。我们的研究发现，简单地扩展仅使用随机采样和直接自我验证的极简实现可以持续提高性能，例如，将Gemini v1.5 Pro模型的推理能力提升到超过o1-Preview在流行基准上的表现。我们部分将基于采样的搜索的可扩展性归因于隐含扩展的现象，即采样更大的响应池反过来会提高验证的准确性。我们进一步确定了两个有助于使用测试时计算资源提高自我验证能力的原则：（1）比较不同的响应可以提供关于错误和幻觉位置的有用信号；（2）不同的模型输出风格对不同的上下文是有用的——思维链对于推理有用但难以验证。我们还发现，尽管可以引出准确的验证，但前沿模型表现出惊人的弱开箱即用验证能力，并引入了一个基准来衡量这些缺陷的进展。\n\n作者：Eric Zhao, Pranjal Awasthi, Sreenivas Gollapudi",
+        "地址": "https://arxiv.org/pdf/2502.01839.pdf"
+    },
+    {
+        "名称": "2025 [2502.00840] Activation Approximations Can Incur Safety Vulnerabilities Even in Aligned LLMs: Comprehensive Analysis and Defense.pdf",
+        "作者": "Jiawen Zhang, Kejia Chen, Lipeng He, Jian Lou, Dan Li, Zunlei Feng, Mingli Song, Jian Liu, Kui Ren, Xiaohu Yang",
+        "摘要": "摘要: 大型语言模型（LLMs）在各个领域展示出了显著的能力。随着LLMs能力的不断发展和应用场景的广泛扩展，由于其巨大的规模和复杂的激活设计（如Llama、Gemma和Mistral系列中的高级设计），其部署挑战也日益增加。尤其在资源受限的部署场景中，缓解推理效率瓶颈显得尤为重要。最近的诸多研究中，激活近似已成为追求推理效率的一个有前景的途径，有时在一些应用如私人推理中甚至被视为不可或缺。尽管激活近似在实际部署中能实现显著的加速且对效用影响甚微，但其安全隐患仍不明确。在本研究中，我们通过首次系统性安全评估填补了这一重要的LLM安全性空白。我们的安全检测涵盖了三个热门类别中的七种现今最先进技术，揭示了在十个安全对齐的LLM中的一致性安全退化问题。",
+        "地址": "https://arxiv.org/pdf/2502.00840.pdf"
+    }
+]
