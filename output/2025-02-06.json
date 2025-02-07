@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2502.02737] SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model.pdf",
+        "作者": "Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, Gabriel Martín Blázquez, Guilherme Penedo, Lewis Tunstall, Andrés Marafioti, Hynek Kydlíček, Agustín Piqueres Lajarín, Vaibhav Srivastav, Joshua Lochner, Caleb Fahlgren, Xuan-Son Nguyen, Clémentine Fourrier, Ben Burtenshaw, Hugo Larcher, Haojun Zhao, Cyril Zakka, Mathieu Morlon, Colin Raffel, Leandro von Werra, Thomas Wolf",
+        "摘要": "摘要:\n虽然大型语言模型在许多人工智能应用中取得了突破性进展，但其固有的庞大规模使得它们在资源受限的环境中部署时计算成本高昂且具有挑战性。在本文中，我们记录了SmolLM2的开发过程，这是一种先进的“小型”（17亿参数）语言模型（LM）。为了获得强大的性能，我们通过一个多阶段的训练过程对SmolLM2进行过度训练，使用大约11万亿个数据令牌，该过程将网络文本与专业的数学、代码和指令跟随数据混合使用。我们还在现有数据集规模小或质量低的问题阶段引入了新的专业数据集（FineMath、Stack-Edu和SmolTalk）。为了指导我们的设计决策，我们进行了小规模的消融实验以及手动细化过程，根据每一阶段的性能更新数据集混合比率。最终，我们证明了SmolLM2在性能上优于其他最近的小型语言模型，包括Qwen2.5-1.5B和Llama3.2-1B。为了促进未来关于语言模型开发的研究以及小型语言模型的应用，除了SmolLM2本身外，我们还发布了在此项目中准备的所有数据集。",
+        "地址": "https://arxiv.org/pdf/2502.02737.pdf"
+    },
+    {
+        "名称": "2025 [2502.01506] TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets.pdf",
+        "作者": "Yuzhe Yang, Yifei Zhang, Minghao Wu, Kaidi Zhang, Yunmiao Zhang, Honghai Yu, Yan Hu, Benyou Wang",
+        "摘要": "摘要: 社会涌现研究长期以来一直是社会科学的核心焦点。传统的建模方法，如基于规则的代理模型(ABMs)，难以捕捉人类行为的多样性和复杂性，尤其是行为经济学中强调的非理性因素。最近，大型语言模型(LLM)代理作为模拟工具在社会科学和角色扮演应用中获得了关注。有研究表明，LLMs能够考虑认知偏差、情绪波动和其他非理性影响，从而使社会经济动态的模拟更加现实。在这项工作中，我们介绍了一种新颖的多代理框架TwinMarket，该框架利用LLMs来模拟社会经济系统。具体来说，我们研究了个体行为通过交互和反馈机制如何引发集体动态和涌现现象。通过在一个模拟股票市场环境中的实验，我们展示了个体行为如何触发群体行为，导致金融泡沫和经济衰退等突现结果。我们的方法为个体决策与集体社会经济模式之间的复杂相互作用提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2502.01506.pdf"
+    },
+    {
+        "名称": "2025 [2502.03373] Demystifying Long Chain-of-Thought Reasoning in LLMs.pdf",
+        "作者": "Edward Yeo, Yuxuan Tong, Morry Niu, Graham Neubig, Xiang Yue",
+        "摘要": "摘要：扩大推理计算能力可以增强大型语言模型（LLMs）中的推理性能，长链思维（CoTs）可以实现诸如回溯和错误修正等策略。强化学习（RL）已成为发展这些能力的关键方法，但长链思维出现的条件仍不清楚，RL训练需要仔细的设计选择。在这项研究中，我们系统地研究了长链思维推理的机制，确定了使模型生成长链思维轨迹的关键因素。通过广泛的监督微调（SFT）和RL实验，我们提出了四个主要发现：(1) 尽管SFT不是绝对必要的，但它简化了训练并提高了效率；(2) 推理能力通常随着训练计算的增加而显现，但它们的发展并不保证，因此奖励塑造对于稳定长链思维长度增长至关重要；(3) 扩展可验证的奖励信号对于RL至关重要。我们发现，利用带有过滤机制的噪声、网络提取的解决方案显示出强大的潜力，特别是对于STEM推理等分布外（OOD）任务；(4) 错误修正等核心能力在基础模型中固有存在，但通过RL有效激励这些技能以应对复杂任务需要大量计算，并且衡量它们的出现需要细致的方法。这些见解为优化训练策略，以增强LLMs中的长链思维推理提供了实际指导。我们的代码可在以下网址获得：https://arxiv.org/pdf/2502.03373.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.03373.pdf"
+    },
+    {
+        "名称": "2025 [2502.03387] LIMO: Less is More for Reasoning.pdf",
+        "作者": "Yixin Ye, Zhen Huang, Yang Xiao, Ethan Chern, Shijie Xia, Pengfei Liu",
+        "摘要": "摘要: \n我们提出了一项基础性发现，挑战了我们对复杂推理在大型语言模型中出现方式的理解。尽管传统观点认为复杂推理任务需要大量的训练数据(>100,000个例子)，我们展示了仅用少量的例子就能有效引出复杂数学推理能力。通过全面的实验，我们提出的模型LIMO展示了前所未有的数学推理表现。仅用了817个精心编排的训练样本，LIMO在AIME上达到了57.1%的准确率，在MATH上达到了94.8%的准确率，相比之前基于SFT（顺序微调）模型的6.5%和59.2%的准确率有显著提高，同时只使用了之前方法所需训练数据的1%。LIMO表现出卓越的分布外泛化能力，在10个不同基准上取得了40.5%的绝对提升，超越了使用多100倍数据训练的模型，挑战了SFT导致记忆而非泛化的观念。基于这些结果，我们提出了“少即是多推理假说”（LIMO假说）：在预训练过程中域知识已被全面编码的基础模型中，复杂推理能力可通过少量但精确编排的认知过程展示而产生。该假说认为复杂推理的引出阈值由两个关键因素决定：(1) 模型在预训练中编码知识基础的完备性；(2) 后训练样例作为“认知模板”的有效性，这些模板向模型展示如何利用其知识库来解决复杂的推理任务。为了促进数据高效推理方面的可重复性和未来研究，我们将LIMO作为一个全面的开源套件发布在该网址上。\n\n作者: \n叶义信, 黄震, 肖杨, Ethan Chern, 夏思思, 刘鹏飞\n\n评论: \n17页\n\n网址:\nhttps://arxiv.org/pdf/2502.03387.pdf\n\n标题:\n2025 [2502.03387] LIMO: 少即是多推理.pdf",
+        "地址": "https://arxiv.org/pdf/2502.03387.pdf"
+    },
+    {
+        "名称": "2025 [2502.02339] Boosting Multimodal Reasoning with MCTS-Automated Structured Thinking.pdf",
+        "作者": "Jinyang Wu, Mingkuan Feng, Shuai Zhang, Ruihan Jin, Feihu Che, Zengqi Wen, Jianhua Tao",
+        "摘要": "摘要：多模态大型语言模型 (MLLMs) 展现了令人印象深刻的能力，但在复杂的视觉推理中仍面临挑战。尽管近期的努力试图通过显式搜索结构或教师指导的蒸馏来改进MLLMs的推理，使其具备类似 OpenAI o1 的结构化思维，但往往在性能和效率之间难以平衡。一个关键的限制是它们严重依赖大量数据和搜索空间，导致隐含洞察提取和数据利用的效率较低。为了解决这一问题，我们提出了 AStar，一种基于蒙特卡罗树搜索 (MCTS) 的自动化结构化思维范式用于多模态推理。AStar 使用 MCTS 驱动的分层结构从有限数据中自动导出高级认知推理模式。在这些显式模式的基础上，我们设计了一个统一的推理框架，完美结合了模型的内部推理能力和外部推理指导，能够通过最少的树迭代实现高效推断。这一新颖的范式在性能和效率之间取得了令人信服的平衡。广泛的实验证明了 AStar 的有效性，在 MathVerse 基准测试中以7B主干实现了优越的准确率（54.0%），超越了 GPT-4o（50.2%），同时保持了显著的数据和计算效率。",
+        "地址": "https://arxiv.org/pdf/2502.02339.pdf"
+    },
+    {
+        "名称": "2025 [2502.01105] LayerTracer: Cognitive-Aligned Layered SVG Synthesis via Diffusion Transformer.pdf",
+        "作者": "Yiren Song, Danze Chen, Mike Zheng Shou",
+        "摘要": "摘要：生成认知对齐的分层SVG仍然是一个挑战，因为现有的方法往往倾向于简化的单层输出或由于优化引起的形状冗余。我们提出了LayerTracer，这是一种基于扩散变压器的框架，通过从一个新的顺序设计操作数据集中学习设计师的分层SVG创建过程来弥合这一差距。我们的方法分为两个阶段：首先，由文本条件化的DiT生成多个阶段的光栅化构造蓝图，模拟人类设计工作流程。其次，通过路径去重复进行逐层矢量化，生成简洁、可编辑的SVG。对于图像矢量化，我们引入了一种条件扩散机制，该机制将参考图像编码为潜在标记，引导分层重建，同时保持结构完整性。广泛的实验表明，LayerTracer在生成质量和可编辑性方面的表现优于基于优化和神经网络的基线，有效地使人工智能生成的矢量与专业设计认知对齐。\n\n作者：宋怡人，陈丹泽，邵正昱\n\n链接：https://arxiv.org/pdf/2502.01105.pdf\n\n标题：2025 [2502.01105] LayerTracer: 通过扩散变压器进行认知对齐的分层SVG合成",
+        "地址": "https://arxiv.org/pdf/2502.01105.pdf"
+    },
+    {
+        "名称": "2025 [2502.02671] On Teacher Hacking in Language Model Distillation.pdf",
+        "作者": "Daniil Tiapkin, Daniele Calandriello, Johan Ferret, Sarah Perrin, Nino Vieillard, Alexandre Ramé, Mathieu Blondel",
+        "摘要": "摘要：语言模型（LMs）的后训练越来越依赖于以下两个阶段：（i）知识蒸馏，即训练LM模仿更大的教师LM，以及（ii）来自人类反馈的强化学习（RLHF），即通过优化奖励模型来调整LM。在第二阶段RLHF中，一个众所周知的挑战是奖励作弊，即LM过度优化奖励模型，这与古德哈特法则一致，并可能导致在真实目标上的性能下降。本文研究了在知识蒸馏过程中是否会出现类似现象，我们称之为教师作弊。这可能发生的原因在于教师LM本身是对真实分布的不完美近似。为研究这一问题，我们提出了一种对照实验设置，包括：（i）代表真实分布的Oracle LM，（ii）从Oracle蒸馏而来的教师LM，以及（iii）从教师蒸馏而来的学生LM。我们的实验揭示了以下几点见解。当使用固定的离线数据集进行蒸馏时，会发生教师作弊；此外，我们可以通过观察当优化过程偏离多项式收敛定律时检测到它。相比之下，采用在线数据生成技术能够有效减轻教师作弊。更确切地说，我们确定数据多样性是防止作弊的关键因素。总体而言，我们的研究结果提供了对构建稳健且高效的LMs的好处和局限性的更深入理解。\n\n作者：Daniil Tiapkin, Daniele Calandriello, Johan Ferret, Sarah Perrin, Nino Vieillard, Alexandre Ramé, Mathieu Blondel\n链接：https://arxiv.org/pdf/2502.02671.pdf\n标题：2025 [2502.02671] 论语言模型蒸馏中的教师作弊.pdf",
+        "地址": "https://arxiv.org/pdf/2502.02671.pdf"
+    },
+    {
+        "名称": "2025 [2502.01618] A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods.pdf",
+        "作者": "Isha Puri, Shivchander Sudalairaj, Guangxuan Xu, Kai Xu, Akash Srivastava",
+        "摘要": "摘 要：大规模语言模型（LLMs）通过扩大模型规模和/或数据量在性能上取得了显著提升。然而，最近的证据表明这种方法收益递减，从而推动在推理时间内进行计算扩展。现有的推理时间扩展方法通常使用奖励模型，将任务视为搜索问题，这往往因奖励模型中的近似误差而容易受到奖励黑客攻击。在本文中，我们将推理时间扩展改为一个概率推断任务，并利用基于采样的技术来探索具有近似似然的状态空间模型的状态分布的典型集，而不是直接优化它的模式。我们提出了一种新的推理时间扩展方法，通过将基于粒子的蒙特卡罗方法应用于该任务。我们的实证评估表明，在各种具有挑战性的数学推理任务中，我们的方法比我们的确定性搜索对手具有 4-16 倍更好的扩展率。使用我们的方法，我们显示出 Qwen2.5-Math-1.5B-Instruct 可以在仅 4 次迭代中超越 GPT-4o 的准确性，而 Qwen2.5-Math-7B-Instruct 仅需 32 次迭代即可扩展到 o1 级别的准确性。我们的工作不仅提出了一种有效的推理时间扩展方法，还将概率推断的丰富文献与 LLM 的推理时间扩展联系起来，以便在未来的研究中开发更为稳健的算法。代码和更多信息可在此 https URL 获得。",
+        "地址": "https://arxiv.org/pdf/2502.01618.pdf"
+    },
+    {
+        "名称": "2025 [2502.01154] Jailbreaking with Universal Multi-Prompts.pdf",
+        "作者": "Yu-Ling Hsu, Hsuan Su, Shang-Tse Chen",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）快速发展，彻底改变了各种应用，并显著提高了便利性和生产力。然而，尽管其能力令人印象深刻，但也出现了伦理问题和新型攻击方式，例如越狱攻击。大多数提示技术主要集中于优化单个案例的对抗性输入，当处理大数据集时，这会导致更高的计算成本。较少有研究关注于训练能够转移到未见任务的通用攻击者的更普遍的设定。在本文中，我们介绍了JUMP——一种使用通用多重提示词破解LLMs的方法。我们还调整了我们的方法用于防御，称之为DUMP。实验结果表明，我们优化通用多重提示词的方法优于现有技术。",
+        "地址": "https://arxiv.org/pdf/2502.01154.pdf"
+    },
+    {
+        "名称": "2025 [2502.02928] Large Language Model Guided Self-Debugging Code Generation.pdf",
+        "作者": "Muntasir Adnan, Zhiwei Xu, Carlos C. N. Kuhn",
+        "摘要": "摘要:\n自动代码生成在智能计算机编程和系统部署中正变得越来越重要。然而，当前的方法通常在计算效率和缺乏强大的代码解析和错误纠正机制方面面临挑战。在这项工作中，我们提出了一种新颖的框架——PyCapsule，它通过一个简单但有效的双代理管道和高效的自调试模块来生成Python代码。PyCapsule 具有复杂的提示推理、迭代错误处理和案例测试，确保了高生成稳定性、安全性和正确性。在经验上，PyCapsule 在HumanEval上成功率提高了5.7%，在HumanEval-ET上提高了10.3%，在BigCodeBench上提高了24.4%，与现有最先进的方法相比。我们还观察到，在更多自调试尝试的情况下，标准化成功率有所下降，可能受到有限和嘈杂的错误反馈的影响。PyCapsule展示了在推动轻量且高效的人工智能系统代码生成方面的广泛影响。",
+        "地址": "https://arxiv.org/pdf/2502.02928.pdf"
+    },
+    {
+        "名称": "2025 [2502.03275] Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning.pdf",
+        "作者": "DiJia Su, Hanlin Zhu, Yingchen Xu, Jiantao Jiao, Yuandong Tian, Qinqing Zheng",
+        "摘要": "摘要：大语言模型（LLMs）在被训练于链式思考（CoT）数据时，在推理和计划方面表现出色，因其逐步思考过程由文本标记明确列出。然而，这导致输入的篇幅较长，许多词汇用于支持文本连贯性而非核心推理信息，处理这些输入消耗了大量计算资源。在这项工作中，我们提出了一种混合推理过程的表示方法，通过使用VQ-VAE生成的潜在离散标记部分抽象初始推理步骤，显著缩短了推理轨迹的长度。我们在两种情境中探讨了潜在轨迹抽象的应用：1）从头开始训练模型以解决“钥匙寻找迷宫”问题，2）通过扩展词汇表，包括未见过的潜在标记，微调LLMs，用于逻辑和数学推理问题。为了促进有效学习，我们引入了一种简单的训练程序，随机混合潜在和文本标记，从而实现对新潜在标记的快速适应。我们的方法在各种基准测试中始终优于基线方法。\n\n翻译后的文章标题：混合标记：混合潜在和文本标记以改进语言模型推理",
+        "地址": "https://arxiv.org/pdf/2502.03275.pdf"
+    },
+    {
+        "名称": "2025 [2502.02421] Activation-Informed Merging of Large Language Models.pdf",
+        "作者": "Amin Heyrani Nobari, Kaveh Alimohammadi, Ali ArjomandBigdeli, Akash Srivastava, Faez Ahmed, Navid Azizan",
+        "摘要": "摘要：模型融合是一种将多个微调的大型语言模型（LLMs）的参数和嵌入结合起来的方法，提供了一种在各种任务中提升模型性能同时保持计算效率的有希望的方法。本文介绍了一种称为激活信息融合（AIM）的技术，该技术将LLMs的激活空间信息整合到融合过程中，以提高性能和鲁棒性。AIM被设计为一种灵活的、互补的解决方案，适用于任何现有的融合方法。其目标是从基模型中保留关键权重，汲取了持续学习（CL）和模型压缩的原理。利用一个与任务无关的校准集，AIM在融合过程中有选择地优先保留必要的权重。我们通过实验证明，AIM显著提升了融合模型在多个基准上的性能。我们的研究结果表明，考虑激活空间信息可以为LLMs的模型融合策略提供实质性的改进，在基准性能中提高最多达40%。\n\n作者：Amin Heyrani Nobari, Kaveh Alimohammadi, Ali ArjomandBigdeli, Akash Srivastava, Faez Ahmed, Navid Azizan\n\n链接：https://arxiv.org/pdf/2502.02421.pdf\n\n标题：2025 [2502.02421] 大型语言模型的激活信息融合",
+        "地址": "https://arxiv.org/pdf/2502.02421.pdf"
+    },
+    {
+        "名称": "2025 [2502.00306] Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation.pdf",
+        "作者": "Ali Naseh, Yuefeng Peng, Anshuman Suri, Harsh Chaudhari, Alina Oprea, Amir Houmansadr",
+        "摘要": "摘要（中文翻译）：检索增强生成（Retrieval-Augmented Generation, RAG）通过利用外部知识数据库生成有根据的响应，而无需改变模型参数。尽管缺少权重调整避免了通过模型参数泄漏的风险，但它引入了推理对手在模型上下文中利用检索到的文档的风险。现有的成员推断和数据提取方法通常依赖于越狱或精心设计的不自然查询，这些查询可以通过RAG系统中常见的查询重写技术轻松检测或阻止。在这项工作中，我们提出了Interrogation Attack（IA），这是一种针对RAG数据存储中文档的成员推断技术。通过生成只有在目标文档存在时才能回答的自然文本查询，我们的方法在仅用30个查询的情况下演示了成功的推断，同时保持隐蔽性；相比现有方法生成的对抗性提示，我们的攻击生成的提示被简单检测器检测到的频率低至1/76。我们观察到，与之前的推断攻击相比，在各种RAG配置下，TPR@1%FPR提升了2倍，同时每次文档推断的成本不到0.02美元。",
+        "地址": "https://arxiv.org/pdf/2502.00306.pdf"
+    },
+    {
+        "名称": "2025 [2502.00226] HackerRank-ASTRA: Evaluating Correctness & Consistency of Large Language Models on cross-domain multi-file project problems.pdf",
+        "作者": "Jun Xing, Mayur Bhatia, Sahil Phulwani, Darshan Suresh, Rafik Matta",
+        "摘要": "摘要：评估大语言模型（LLMs）在现实世界中的适用性为它们在软件开发任务中的开发和使用提供了有价值的见解。现有的基准测试通常集中于单独的编码问题或特定库，忽视了多文件、基于项目的场景，并缺乏对一致性的严格评估。HackerRank-ASTRA 基准测试引入了基于项目的编码问题，反映了现实世界的场景。它通过 32 次运行（k = 32）和中位数标准偏差来评估模型一致性，同时结合分类级别分析评估子技能能力。对 65 个问题的初步评估显示，前三个模型——o1、o1-preview 和 Claude-3.5-Sonnet-1022——平均成绩为 75%，性能没有显著性差异。值得注意的是，Claude-3.5-Sonnet-1022 在各个问题中表现出最高的一致性，具有较低的变异性（SD = 0.0497），与其他模型相比具有统计显著性，突显了其在现实世界软件开发任务中的可靠性。",
+        "地址": "https://arxiv.org/pdf/2502.00226.pdf"
+    }
+]
