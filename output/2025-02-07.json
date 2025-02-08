@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2502.03032] Analyze Feature Flow to Enhance Interpretation and Steering in Language Models.pdf",
+        "作者": "Daniil Laptev, Nikita Balagansky, Yaroslav Aksenov, Daniil Gavrilov",
+        "摘要": "摘要：我们介绍了一种新的方法，系统地映射在大语言模型的连续层中由稀疏自编码器发现的特征，扩展了早期关于层间特征链接的研究。通过使用无数据的余弦相似性技术，我们追踪了特定特征如何在每个阶段持续存在、变换或首次出现。这种方法产生了特征演化的细粒度流动图，从而实现了对模型计算的细粒度可解释性和机制洞察。关键是，我们展示了这些跨层特征图如何通过放大或抑制选定特征来直接引导模型行为，从而在文本生成中实现有针对性的主题控制。总之，我们的研究结果突出了因果的、跨层可解释性框架的实用性，它不仅澄清了特征如何通过前向传递来发展，而且还提供了对大语言模型进行透明操控的新方法。",
+        "地址": "https://arxiv.org/pdf/2502.03032.pdf"
+    },
+    {
+        "名称": "2025 [2502.03621] DynVFX: Augmenting Real Videos with Dynamic Content.pdf",
+        "作者": "Danah Yatim, Rafail Fridman, Omer Bar-Tal, Tali Dekel",
+        "摘要": "摘要: 我们提出了一种为真实视频增加新生成动态内容的方法。给定一个输入视频和用户提供的简单文本说明，描述所需内容，我们的方法可以合成与现有场景自然交互的动态对象或复杂场景效果。新内容的位置、外观和运动与原始视频无缝集成，同时考虑相机运动、遮挡和与场景中其他动态对象的交互，产生一个连贯且逼真的输出视频。我们通过一个零样本、无需训练的框架来实现这一点，利用预训练的文本到视频扩散变压器来合成新内容，并使用预训练的视觉语言模型详细设想增强场景。具体来说，我们引入了一种新的基于推理的方法，操纵注意力机制中的特征，能够在保持原始场景完整性的同时，准确定位和无缝集成新内容。我们的方法是全自动的，只需要一个简单的用户指令。我们展示了其在应用于真实视频的广泛编辑中的有效性，包括涉及相机和对象运动的各种对象和场景。\n\n作者: Danah Yatim, Rafail Fridman, Omer Bar-Tal, Tali Dekel\n\n评论: 项目页面：此HTTPS URL\n\n链接: https://arxiv.org/pdf/2502.03621.pdf\n\n标题: 2025 [2502.03621] DynVFX: 增强真实视频的动态内容\n\n",
+        "地址": "https://arxiv.org/pdf/2502.03621.pdf"
+    },
+    {
+        "名称": "2025 [2502.04153] UltraIF: Advancing Instruction Following from the Wild.pdf",
+        "作者": "Kaikai An, Li Sheng, Ganqu Cui, Shuzheng Si, Ning Ding, Yu Cheng, Baobao Chang",
+        "摘要": "摘要:指令跟随使得现代大型语言模型（LLMs）成为有用的助手。然而，在复杂指令上的模型驯化之关键仍然是一个谜，因为开放源社区训练的模型与领先公司训练的模型之间存在巨大差距。为了弥合这一差距，我们提出了一种简单且可扩展的方法——UltraIF，用于利用开源数据构建能够遵循复杂指令的LLMs。UltraIF首先将现实世界的用户提示分解为更简单的查询、约束条件及对应的评估问题。然后，我们训练一个UltraComposer以约束条件相关的提示与评估问题进行组合。这个提示组合器使我们能够合成复杂的指令，并使用评估问题过滤响应。在我们的实验中，我们首次成功地使LLaMA-3.1-8B-Base在没有任何基准信息的情况下，通过仅使用8B模型作为响应生成器和评估器，在五个指令跟随基准测试中赶上它的指令版本。对齐后的模型在其他基准测试上也取得了有竞争力的分数。此外，我们还显示UltraIF能进一步通过自对齐提升LLaMA-3.1-8B-Instruct，激发了该方法的更广泛应用。我们的代码将会在此链接发布。\n\n作者：Kaikai An, Li Sheng, Ganqu Cui, Shuzheng Si, Ning Ding, Yu Cheng, Baobao Chang\n\n链接：https://arxiv.org/pdf/2502.04153.pdf\n\n标题：2025 [2502.04153] UltraIF：从野外推进指令跟随",
+        "地址": "https://arxiv.org/pdf/2502.04153.pdf"
+    },
+    {
+        "名称": "2025 [2502.04313] Great Models Think Alike and this Undermines AI Oversight.pdf",
+        "作者": "Shashwat Goel, Joschka Struber, Ilze Amanda Auzina, Karuna K Chandra, Ponnurangam Kumaraguru, Douwe Kiela, Ameya Prabhu, Matthias Bethge, Jonas Geiping",
+        "摘要": "摘要： 随着语言模型（LM）能力的进步，人类在大规模评估和监督它们时变得越来越困难。希望其他语言模型能够自动执行这两项任务，我们将其称为“AI监督”。我们通过提出一种基于模型错误重叠的概率度量来研究模型相似性如何影响AI监督的两个方面。首先，使用该度量，我们表明作为评判的LLM得分偏向于与评判模型相似的模型，推广了近期的自我偏好结果。然后，我们研究了基于LM注释的训练，发现弱监督和强学生模型之间的互补知识在“弱到强的泛化”增益中起着关键作用。随着模型能力的提高，发现其错误变得更加困难，我们可能更多地依赖AI监督。然而，我们观察到一个令人担忧的趋势——随着能力的提升，模型错误变得更加相似，表明存在关联失败的风险。我们的工作强调了报告和纠正模型相似性的重要性，特别是在新兴的AI监督范式中。",
+        "地址": "https://arxiv.org/pdf/2502.04313.pdf"
+    },
+    {
+        "名称": "2025 [2502.04328] Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive Modality Alignment.pdf",
+        "作者": "Zuyan Liu, Yuhao Dong, Jiahui Wang, Ziwei Liu, Winston Hu, Jiwen Lu, Yongming Rao",
+        "摘要": "摘要：最近在大语言模型上的进展，特别是在GPT-4o之后，引发了对开发能够理解更多模态的全模态模型的兴趣。尽管出现了一些开源的替代方案，但在性能上仍然显著落后于专门的单模态模型。在本文中，我们提出了Ola，一种在图像、视频和音频理解方面与专门的模型相比具有竞争力的全模态语言模型。Ola的核心设计在于其渐进模态对齐策略，该策略逐步扩展语言模型的支持模态。我们的训练流程从最明显的模态开始：图像和文本，然后逐步使用连接语言和音频知识的语音数据以及连接所有模态的视频数据扩展模型的技能集。渐进的学习流程还使我们能够保持跨模态对齐数据的相对较小规模，从而使从现有的视觉-语言模型开发全模态模型变得容易且成本较低。此外，为了实现类似GPT-4o的高级互动体验，我们进一步设计了一种逐句解码解决方案用于流式语音生成。大量实验表明，Ola在所有模态上都超越了现有的开源全模态大型语言模型，同时在与相似规模的最新专门模型竞争中表现出高度竞争力。我们旨在使Ola成为一个完全开源的全模态理解解决方案，以推进这一新兴领域的未来研究。模型权重、代码和数据均在此https URL开源。\n\n作者：刘作远、董宇昊、王佳辉、刘子炜、胡温斯顿、陆季文、饶永明\nURL：https://arxiv.org/pdf/2502.04328.pdf\n标题：2025 Ola：通过渐进模态对齐推动全模态语言模型的前沿发展",
+        "地址": "https://arxiv.org/pdf/2502.04328.pdf"
+    },
+    {
+        "名称": "2025 [2502.03544] Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2.pdf",
+        "作者": "Yuri Chervonyi, Trieu H. Trinh, Miroslav Olšák, Xiaomeng Yang, Hoang Nguyen, Marcelo Menegali, Junehyuk Jung, Vikas Verma, Quoc V. Le, Thang Luong",
+        "摘要": "摘要：我们介绍了AlphaGeometry2，这是在Trinh等人（2024）提出的AlphaGeometry基础上显著改进的版本，该版本现已超过平均金牌得主解决奥林匹克几何问题的能力。为实现这一目标，我们首先扩展了原始AlphaGeometry语言，以解决涉及物体移动、更复杂线性方程（包括角度、比率和距离）的难题。这些改进使AlphaGeometry语言对2000-2024年国际数学奥林匹克（IMO）几何题的覆盖率从66%提高到88%。同时，AlphaGeometry2的搜索过程经过优化，采用Gemini架构进行更好的语言建模，并引入了结合多个搜索树的创新知识共享机制。结合对符号引擎和综合数据生成的进一步增强，我们显著提升了AlphaGeometry2在过去25年中对所有几何问题的总体解决率，从之前的54%提高到84%。AlphaGeometry2也是在IMO 2024上实现银牌标准的系统的一部分。最后，我们报告了利用AlphaGeometry2作为完全自动化系统的一部分，可信赖地从自然语言输入中直接解决几何问题的进展。\n\n作者：Yuri Chervonyi, Trieu H. Trinh, Miroslav Olšák, Xiaomeng Yang, Hoang Nguyen, Marcelo Menegali, Junehyuk Jung, Vikas Verma, Quoc V. Le, Thang Luong\n\n备注：28页，16张图\n\n链接：https://arxiv.org/pdf/2502.03544.pdf\n\n题目：在解决奥林匹克几何问题中实现金牌得主表现的AlphaGeometry2",
+        "地址": "https://arxiv.org/pdf/2502.03544.pdf"
+    },
+    {
+        "名称": "2025 [2502.04235] MAGA: MAssive Genre-Audience Reformulation to Pretraining Corpus Expansion.pdf",
+        "作者": "Xintong Hao, Ke Shen, Chenggang Li",
+        "摘要": "摘要：尽管大型语言模型在各种任务中表现出显著的能力，但它们的持续扩展面临一个关键挑战：高质量预训练数据的匮乏。尽管模型架构继续发展，自然语言数据的扩展却举步维艰。为了解决这一瓶颈，我们提出了MAssive Genre-Audience（MAGA）重构方法，该方法系统地从现有语料库中合成出多样化、富有语境的预训练数据。本文的主要贡献有三点：（1）我们提出了MAGA重构方法，这是一种轻量级且可扩展的预训练语料库扩展方法，并构建了一个含有7700亿个标记的MAGACorpus。（2）我们使用不同的数据预算扩展策略评估了MAGACorpus，展示了在各种模型规模（134M-13B）上的一致性提升，证明了下一代大规模合成预训练语言模型的必要性。（3）通过全面的分析，我们研究了提示工程对合成训练崩溃的影响，并揭示了使用验证损失的传统崩溃检测指标的局限性。我们的研究表明，MAGA可以在保持质量的同时大幅扩展训练数据集，为超越数据限制扩展模型提供了一条可靠的途径。\n\n作者：Xintong Hao, Ke Shen, Chenggang Li\n\n链接：https://arxiv.org/pdf/2502.04235.pdf",
+        "地址": "https://arxiv.org/pdf/2502.04235.pdf"
+    },
+    {
+        "名称": "2025 [2502.02358] MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm.pdf",
+        "作者": "Ziyan Guo, Zeyu Hu, Na Zhao, De Wen Soh",
+        "摘要": "摘要：人类运动的生成和编辑是计算机图形学和视觉的关键组成部分。然而，该领域的当前方法往往提供针对特定任务的孤立解决方案，这对于实际应用而言可能是低效且不切实际的。尽管一些研究尝试统一与运动相关的任务，这些方法只是使用不同的模态作为条件来引导运动生成。因此，它们缺乏编辑能力、细粒度控制，并且未能促进跨任务的知识共享。为了解决这些局限性并提供一个能够处理人类运动生成和编辑的多功能统一框架，我们引入了一种新的范式：运动-条件-运动（Motion-Condition-Motion），该范式通过三个概念来实现多样化任务的统一形式：源运动、条件和目标运动。在此范式的基础上，我们提出了一个统一框架，MotionLab，它结合了修正的流体来学习从源运动到目标运动的映射，并由指定的条件引导。在MotionLab中，我们引入了1) MotionFlow Transformer以增强无任务特定模块的条件生成和编辑；2) 对齐的旋转位置编码以保证源运动和目标运动之间的时间同步；3) 任务指定指令调制；以及4) 针对有效的多任务学习和跨任务知识共享的运动课程学习。值得注意的是，我们的MotionLab在多个检测人类运动的基准上展示了有前途的泛化能力和推理效率。我们的代码和附加的视频结果可在以下网址获得：this https URL。\n\n作者：Ziyan Guo, Zeyu Hu, Na Zhao, De Wen Soh\n\n链接：https://arxiv.org/pdf/2502.02358.pdf\n\n标题：2025 [2502.02358] MotionLab：通过运动-条件-运动范式实现统一的人类运动生成和编辑",
+        "地址": "https://arxiv.org/pdf/2502.02358.pdf"
+    },
+    {
+        "名称": "2025 [2502.04306] ScoreFlow: Mastering LLM Agent Workflows via Score-based Preference Optimization.pdf",
+        "作者": "Yinjie Wang, Ling Yang, Guohao Li, Mengdi Wang, Bryon Aragam",
+        "摘要": "摘要：最近的研究利用大型语言模型多代理系统进行复杂问题求解，同时试图减少构建它们所需的手动工作量，推动了自动化代理工作流程优化方法的发展。然而，由于表示限制、缺乏适应性以及依赖离散优化技术时的可扩展性差，现有方法仍然不够灵活。我们通过ScoreFlow克服了这些挑战，ScoreFlow是一个简单但高性能的框架，它利用连续空间中的高效梯度优化。ScoreFlow结合了Score-DPO，这是一种新颖的直接偏好优化方法变体，考虑了定量反馈。在跨越问答、编码和数学推理的六个基准上，ScoreFlow比现有的基线提高了8.2%。此外，它使得较小的模型在较低的推理成本下超过较大的模型。",
+        "地址": "https://arxiv.org/pdf/2502.04306.pdf"
+    },
+    {
+        "名称": "2025 [2502.04128] Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis.pdf",
+        "作者": "Zhen Ye, Xinfa Zhu, Chi-Min Chan, Xinsheng Wang, Xu Tan, Jiahe Lei, Yi Peng, Haohe Liu, Yizhu Jin, Zheqi DAI, Hongzhan Lin, Jianyi Chen, Xingjian Du, Liumeng Xue, Yunlin Chen, Zhifei Li, Lei Xie, Qiuqiang Kong, Yike Guo, Wei Xue",
+        "摘要": "摘要：近期在文本大语言模型（LLMs）方面的进展，特别是在GPT系列和o1模型中，展示了在训练时和推理时计算扩展的有效性。然而，当前最先进的利用LLMs的TTS系统通常是多阶段的，需要单独的模型（例如，LLM之后的扩散模型），这使得在训练或测试期间是否扩展特定模型的决策变得复杂。本文作出了以下贡献：首先，我们探索了训练时间和推理时间计算在语音合成中的扩展。其次，我们提出了一种简单的语音合成框架Llasa，该框架采用单层矢量量化（VQ）编码器和单一Transformer架构，以完全与标准LLMs（如Llama）对齐。我们的实验表明，对于Llasa来说，扩展训练时间计算会一致地提高合成语音的自然度，并能够生成更复杂和准确的韵律模式。此外，从扩展推理时间计算的角度来看，我们使用了语音理解模型作为搜索中的验证器，发现扩展推理时间计算会将采样模式转向特定验证器的偏好，从而提高情感表现力、音色一致性和内容准确性。此外，我们公开发布了我们的TTS模型（1B, 3B, 8B）和编码器模型的检查点和训练代码。\n\n翻译：Zhen Ye, Zhu Xinfa, Chi-Min Chan, Xinsheng Wang, Xu Tan, Jiahe Lei, Yi Peng, Haohe Liu, Yizhu Jin, Zheqi DAI, Hongzhan Lin, Jianyi Chen, Xingjian Du, Liumeng Xue, Yunlin Chen, Zhifei Li, Lei Xie, Qiuqiang Kong, Yike Guo, Wei Xue",
+        "地址": "https://arxiv.org/pdf/2502.04128.pdf"
+    },
+    {
+        "名称": "2025 [2502.04320] ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features.pdf",
+        "作者": "Alec Helbling, Tuna Han Salih Meral, Ben Hoover, Pinar Yanardag, Duen Horng Chau",
+        "摘要": "摘要：多模态扩散转换器（DiTs）的丰富表示是否具有独特的属性，从而增强其可解释性？我们介绍了ConceptAttention，一种新方法，利用DiT注意层的表现力生成高质量的显著性图，精确定位图像中的文本概念。无需额外训练，ConceptAttention重新利用DiT注意层的参数，以生成高度上下文化的概念嵌入，发现在线性投影DiT注意层输出空间时，产生的显著性图比常用的交叉注意机制更为清晰。值得注意的是，ConceptAttention甚至在零样本图像分割基准测试中实现了最先进的性能，超越了11种其他零样本可解释性方法在ImageNet-Segmentation数据集和PascalVOC单类子集上的表现。我们的研究首次提供了证据，证明了像Flux这样的多模态DiT模型的表示在视觉任务（如分割）中高度可转移，甚至超越了多模态基础模型（如CLIP）。\n\n作者：Alec Helbling, Tuna Han Salih Meral, Ben Hoover, Pinar Yanardag, Duen Horng Chau",
+        "地址": "https://arxiv.org/pdf/2502.04320.pdf"
+    },
+    {
+        "名称": "2025 [2502.00473] Weak-to-Strong Diffusion with Reflection.pdf",
+        "作者": "Lichen Bai, Masashi Sugiyama, Zeke Xie",
+        "摘要": "摘要:扩散生成模型的目标是通过梯度分数匹配使学习到的分布与真实数据分布对齐。然而，训练数据质量、建模策略和架构设计中的固有限制导致生成输出与真实数据之间不可避免的差距。为减少这一差距，我们提出了一种新颖的框架——从弱到强的扩散（Weak-to-Strong Diffusion，W2SD），它利用现有的弱模型和强模型之间的估计差异（即弱到强的差异）来近似理想模型与强模型之间的差距。通过交替使用去噪和逆转的反射操作，并结合弱到强的差异，我们从理论上理解了W2SD如何使潜变量沿着采样轨迹向真实数据分布区域靠拢。W2SD具有高度的灵活性和广泛的适用性，通过策略性地选择弱到强模型对（例如，DreamShaper对比SD1.5，专家模型中的好专家对比坏专家），可以实现多种改进。大量实验表明，W2SD显著提高了人类偏好、美学质量和提示遵循性，在各种模态（如图像、视频）、架构（如基于UNet、基于DiT、基于MoE）和基准测试中达到了最先进的性能。例如，使用W2SD的Juggernaut-XL在HPSv2的胜率提高到原始结果的90%。此外，W2SD带来的性能提升明显超过了其额外的计算开销，而不同弱到强差异的累积改进进一步巩固了其实际效用和可部署性。",
+        "地址": "https://arxiv.org/pdf/2502.00473.pdf"
+    },
+    {
+        "名称": "2025 [2502.04299] MotionCanvas: Cinematic Shot Design with Controllable Image-to-Video Generation.pdf",
+        "作者": "Jinbo Xing, Long Mai, Cusuh Ham, Jiahui Huang, Aniruddha Mahapatra, Chi-Wing Fu, Tien-Tsin Wong, Feng Liu",
+        "摘要": "摘要：本文介绍了一种在图像到视频生成背景下允许用户设计电影视频镜头的方法。镜头设计是电影制作的重要方面，涉及对场景中摄像机运动和物体运动进行精心规划。然而，在现代图像到视频生成系统中实现直观的镜头设计存在两个主要挑战：首先，有效捕捉用户对运动设计的意图，即必须同时指定摄像机运动和场景空间物体运动；其次，表示能被视频扩散模型有效利用的运动信息，以合成图像动画。为了解决这些挑战，我们引入了MotionCanvas，一种将用户驱动控制集成到图像到视频（I2V）生成模型中的方法，允许用户以场景感知的方式控制场景中的物体和摄像机运动。通过连接经典计算机图形学和当代视频生成技术的见解，我们展示了在I2V合成中实现3D感知运动控制的能力，而无需昂贵的3D相关训练数据。MotionCanvas使用户能够直观地描述场景空间运动意图，并将其转换为视频扩散模型的时空运动调节信号。我们在各种真实世界的图像内容和镜头设计场景中展示了我们方法的有效性，突出了其在增强数字内容创作中的创造性工作流的潜力，并能适应各种图像和视频编辑应用。\n\n作者：邢金波，麦朗，咸久舒，黄嘉辉，阿尼鲁德·马哈帕特拉，符志荣，黄天胜，刘锋\n\n评论：最佳查看方式为Acrobat。项目页面：此HTTPS URL\n\nURL：https://arxiv.org/pdf/2502.04299.pdf\n\n标题：2025 [2502.04299] MotionCanvas：通过可控图像到视频生成进行电影镜头设计",
+        "地址": "https://arxiv.org/pdf/2502.04299.pdf"
+    },
+    {
+        "名称": "2025 [2502.03860] BOLT: Bootstrap Long Chain-of-Thought in Language Models without Distillation.pdf",
+        "作者": "Bo Pang, Hanze Dong, Jiacheng Xu, Silvio Savarese, Yingbo Zhou, Caiming Xiong",
+        "摘要": "摘要: 大型语言模型（LLMs），如OpenAI的o1，展示了显著的推理能力。o1在回答问题前生成了一个长推理链（LongCoT）。LongCoT使LLMs能够有效地分析问题、制定计划、反思和回溯，从而解决复杂问题。在o1发布后，许多团队尝试复制其长推理链和推理能力。它们的方法主要依赖于从具有LongCoT能力的现有模型（如OpenAI-o1、Qwen-QwQ、DeepSeek-R1-Preview）中提取知识，这导致了系统化开发此类推理能力的不确定性。在数据领域，这些工作主要集中在数学上，少数涉及编码，限制了其普遍性。本文介绍了一种新颖的方法，使LLM在不依赖于类似o1模型的蒸馏或昂贵人工标注的情况下具备LongCoT能力，通过从标准指令模型引导LongCoT（BOLT）。BOLT包括三个阶段：1）通过在标准指令模型上进行上下文学习引导LongCoT数据；2）LongCoT监督微调；3）在线训练以进一步完善LongCoT能力。在BOLT中，在引导阶段只需构建少量上下文实例；在我们的实验中，我们创建了10个实例，证明了这种方法的可行性。我们使用Llama-3.1-70B-Instruct引导LongCoT，并将我们的方法应用于各种模型规模（7B、8B、70B）。我们在多个评估多样任务解决和推理能力的基准上取得了令人印象深刻的成绩，包括Arena-Hard、MT-Bench、WildBench、ZebraLogic、MATH500。",
+        "地址": "https://arxiv.org/pdf/2502.03860.pdf"
+    },
+    {
+        "名称": "2025 [2502.00989] ChartCitor: Multi-Agent Framework for Fine-Grained Chart Visual Attribution.pdf",
+        "作者": "Kanika Goswami, Puneet Mathur, Ryan Rossi, Franck Dernoncourt",
+        "摘要": "摘要:大型语言模型（LLMs）可以执行图表问答任务，但常常生成未经证实的幻觉性回答。现有的答案归因方法由于视觉-语义上下文有限、复杂的视觉-文本对齐要求以及在复杂布局中预测边界框的困难，难以将回答与来源图表联系起来。我们提出了ChartCitor，这是一种多代理框架，通过识别图表图像中的支持证据，提供细粒度的边界框引文。该系统协调LLM代理执行图表到表格的提取、答案重述、表格扩充、通过预过滤和重新排序进行证据检索以及表格到图表的映射。ChartCitor在不同图表类型上均优于现有基线。定性用户研究表明，通过为LLM辅助的图表问答提供增强的可解释性，ChartCitor有助于增加用户对生成式AI的信任，并使专业人员更加高效。",
+        "地址": "https://arxiv.org/pdf/2502.00989.pdf"
+    },
+    {
+        "名称": "2025 [2502.04270] PILAF: Optimal Human Preference Sampling for Reward Modeling.pdf",
+        "作者": "Yunzhen Feng, Ariel Kwiatkowski, Kunhao Zheng, Julia Kempe, Yaqi Duan",
+        "摘要": "摘要: 随着大型语言模型日益驱动实际应用，使它们与人类价值观相一致变得至关重要。人类反馈强化学习（RLHF）作为一项关键技术已经出现，当无法获取人类价值观的标准数据（oracle values）时，将偏好数据转化为奖励模型。在实际中，RLHF大多依赖于近似奖励模型，这可能无法一致地引导策略以最大化潜在的人类价值。我们提出了一种新的偏好标记响应采样策略，称为PILAF（Policy-Interpolated Learning for Aligned Feedback），该策略明确地将偏好学习与最大化潜在oracle奖励对齐。PILAF在理论上具有坚实的基础，从优化和统计角度证明了其最优性。该方法易于实施，并在反馈整理至关重要的迭代和在线RLHF环境中表现出强劲的性能。\n\n作者: 尹震凤、亚里尔·科维亚特科夫斯基、郑坤昊、茱莉亚·凯普、段雅琪\n\nURL: https://arxiv.org/pdf/2502.04270.pdf\n\n标题: 2025 [2502.04270] PILAF: Optimal Human Preference Sampling for Reward Modeling.pdf",
+        "地址": "https://arxiv.org/pdf/2502.04270.pdf"
+    },
+    {
+        "名称": "2025 [2502.00988] PlotGen: Multi-Agent LLM-based Scientific Data Visualization via Multimodal Feedback.pdf",
+        "作者": "Kanika Goswami, Puneet Mathur, Ryan Rossi, Franck Dernoncourt",
+        "摘要": "摘要：科学数据可视化对于将原始数据转换为可理解的视觉表示至关重要，这使模式识别、预测和数据驱动的见解展示成为可能。然而，由于选择合适的工具和掌握可视化技术的复杂性，新手用户常常面临困难。近年来，大型语言模型（LLM）在代码生成方面显示出潜力，但它们在准确性方面表现欠佳，并需要反复调试。在本文中，我们提出了PlotGen，这是一种旨在自动创建精确科学可视化图的新型多智能体框架。PlotGen协调多个基于LLM的智能体，包括一个将复杂用户请求分解为可执行步骤的查询规划智能体、一个将伪代码转换为可执行Python代码的代码生成智能体，以及三个利用多模态LLM的检索反馈智能体——数值反馈智能体、词汇反馈智能体和视觉反馈智能体——通过自我反思来迭代地改进生成图的数据信息、文本标签和视觉正确性。广泛的实验表明，PlotGen在MatPlotBench数据集上表现优于强基线，提高了4-6个百分点，从而增强了用户对LLM生成可视化的信任，并通过减少图表错误调试时间提高了新手生产力。\n\n作者：Kanika Goswami, Puneet Mathur, Ryan Rossi, Franck Dernoncourt",
+        "地址": "https://arxiv.org/pdf/2502.00988.pdf"
+    },
+    {
+        "名称": "2025 [2501.19085] Enhancing Code Generation for Low-Resource Languages: No Silver Bullet.pdf",
+        "作者": "Alessandro Giagnorio, Alberto Martin-Lopez, Gabriele Bavota",
+        "摘要": "摘要：大型语言模型（LLMs）的出现显著推进了自动化代码生成领域的发展。LLMs依赖于大量且多样化的数据集来学习编程语言的语法、语义和使用模式。对于低资源语言（即训练数据稀缺的特定编程语言），这种数据的有限性阻碍了模型的有效泛化能力，导致相比高资源语言而言，代码生成性能较差。因此，人们正在寻找能够弥合这一性能差距的技术。我们进行了一项实证研究，探讨了几种提高LLMs在低资源语言上性能的方法，包括：（i）经典微调，但由于训练数据稀缺，其规模受限；（ii）三种变体的上下文学习，通过精心设计的提示为LLM提供有关低资源语言的附加信息（例如，展示目标语言特性的几个示例）；以及（iii）一种预训练目标，教模型如何在高资源语言和低资源语言之间进行翻译。研究对象为两种低资源语言（R和Racket）和六个具有不同架构和规模的LLM。研究结果表明，对于较小的LLM，微调通常是最好的选择，可能是由于即使是一个小数据集也足以训练其有限数量的参数。随着模型规模的扩大，上下文学习变得越来越有效，代表了一种安全且廉价的方法（即，它总是有帮助，但程度不同）。不同的是，对于非常大的LLM，当执行微调时，它们在低资源语言上的性能可能会下降，可能是由于缺乏足够的数据来有效更新其权重。\n\n标题：增强低资源语言代码生成：没有银弹\n\n作者：Alessandro Giagnorio, Alberto Martin-Lopez, Gabriele Bavota\n\n评论：已被ICPC'25接受\n\n网址：https://arxiv.org/pdf/2501.19085.pdf\n\n年份：2025",
+        "地址": "https://arxiv.org/pdf/2501.19085.pdf"
+    },
+    {
+        "名称": "2025 [2502.03639] Towards Physical Understanding in Video Generation: A 3D Point Regularization Approach.pdf",
+        "作者": "Yunuo Chen, Junli Cao, Anil Kag, Vidit Goel, Sergei Korolev, Chenfanfu Jiang, Sergey Tulyakov, Jian Ren",
+        "摘要": "摘要：我们提出了一种新颖的视频生成框架，该框架结合了三维几何和动态感知。为此，我们通过3D点轨迹增强2D视频并在像素空间对齐它们。生成的3D感知视频数据集PointVid被用来微调潜在扩散模型，使其能够使用3D笛卡尔坐标跟踪2D对象。在此基础上，我们对视频中对象的形状和运动进行规范化，以消除不希望的伪影，例如非物理变形。因此，我们提高了生成的RGB视频的质量，缓解了当前视频模型中由于缺乏形状感知而普遍存在的对象变形等常见问题。通过我们的3D增强和规范化，我们的模型能够处理任务导向视频等涉及复杂实体交互的接触丰富场景。在这些视频中，3D信息对于感知变形和接触至关重要。此外，我们的模型还通过促进运动对象的3D一致性和减少形状和运动的突变来提高视频生成的整体质量。\n\n作者：Yunuo Chen, Junli Cao, Anil Kag, Vidit Goel, Sergei Korolev, Chenfanfu Jiang, Sergey Tulyakov, Jian Ren\n\n评论：项目页面: [链接](https://arxiv.org/pdf/2502.03639.pdf)\n\n标题：走向视频生成中的物理理解：一种3D点规范化方法 (2025 [2502.03639])",
+        "地址": "https://arxiv.org/pdf/2502.03639.pdf"
+    },
+    {
+        "名称": "2025 [2502.04295] Beyond Prompt Content: Enhancing LLM Performance via Content-Format Integrated Prompt Optimization.pdf",
+        "作者": "Yuanye Liu, Jiahang Xu, Li Lyna Zhang, Qi Chen, Xuan Feng, Yang Chen, Zhongxin Guo, Yuqing Yang, Cheng Peng",
+        "摘要": "摘要：大型语言模型（LLMs）在各种任务中表现出显著能力，其在现实世界中的有效性通常依赖于提示设计。尽管最近的研究集中于优化提示内容，但作为一个关键但经常被忽视的维度，提示格式的作用并未获得系统性研究。在本文中，我们介绍了一种创新的方法——内容格式一体化提示优化（CFPO），通过迭代优化过程共同优化提示内容和格式。CFPO利用自然语言变异来探索内容变体，并采用动态格式探索策略系统地评估多种格式选项。我们在多项任务和开源LLMs上的广泛评估表明，与仅优化内容的方法相比，CFPO显示出可衡量的性能改进。这突显了内容格式整合优化的重要性，并提供了一种实用的、与模型无关的方法来增强LLM性能。代码将会在此网址提供。",
+        "地址": "https://arxiv.org/pdf/2502.04295.pdf"
+    },
+    {
+        "名称": "2025 [2502.04322] Speak Easy: Eliciting Harmful Jailbreaks from LLMs with Simple Interactions.pdf",
+        "作者": "Yik Siu Chan, Narutatsu Ri, Yuxin Xiao, Marzyeh Ghassemi",
+        "摘要": "摘要：尽管进行了广泛的安全对齐工作，大型语言模型（LLMs）仍然容易受到引发有害行为的越狱攻击。虽然现有研究主要关注需要技术专长的攻击方法，但仍有两个关键问题未得到充分探讨：（1）越狱响应在多大程度上真正有助于普通用户实施有害行为？（2）在更常见的简单的人机互动中，是否存在安全漏洞？本文证明，当LLM的响应既可操作又信息丰富时，最能有效地促成有害行为，这两个属性在多步骤、多语言的互动中容易被引出。基于这一见解，我们提出了HarmScore，一种衡量LLM响应促成有害行为效果的越狱指标，以及Speak Easy，一个简单的多步骤、多语言攻击框架。值得注意的是，通过将Speak Easy纳入直接请求和越狱基线，我们在四个安全基准上看到在开源和专有LLM中攻击成功率和HarmScore分别绝对增加了0.319和0.426。我们的工作揭示了一个关键但经常被忽视的漏洞：恶意用户可以轻易地利用常见的互动模式达到有害目的。",
+        "地址": "https://arxiv.org/pdf/2502.04322.pdf"
+    },
+    {
+        "名称": "2025 [2502.04296] Learning Real-World Action-Video Dynamics with Heterogeneous Masked Autoregression.pdf",
+        "作者": "Lirui Wang, Kevin Zhao, Chaoqi Liu, Xinlei Chen",
+        "摘要": "摘要：我们提出了一种用于建模动作视频动态的异构掩码自回归模型 (HMA)，以生成高质量的数据和评估机器人学习的扩展。由于需要处理各种设置，同时保持计算效率以实时运行，因此构建交互视频世界模型和机器人策略具有挑战性。HMA 利用来自不同机器人体现、领域和任务的观察和动作序列进行异构预训练。HMA 利用掩码自回归生成视频预测的量化或软标记。相比之前的机器人视频生成模型，HMA 在视觉保真度和可控性方面表现更好，且在现实世界中的速度快15倍。经过后训练，该模型可以作为从低层次动作输入评估策略和生成合成数据的视频模拟器。\n\n作者：王力锐, 赵凯文, 刘超奇, 陈鑫磊\n\n评论：网站链接：这个https URL\n\n链接：https://arxiv.org/pdf/2502.04296.pdf\n\n标题：2025 [2502.04296] 使用异构掩码自回归学习真实世界动作视频动态",
+        "地址": "https://arxiv.org/pdf/2502.04296.pdf"
+    }
+]
