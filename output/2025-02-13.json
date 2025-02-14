@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2502.08127] Fino1: On the Transferability of Reasoning Enhanced LLMs to Finance.pdf",
+        "作者": "Lingfei Qian, Weipeng Zhou, Yan Wang, Xueqing Peng, Jimin Huang, Qianqian Xie",
+        "摘要": "摘要：最近在大型语言模型（LLMs）方面的进展展示了其强大的通用推理能力，但其在金融推理中的有效性仍未得到充分探索。在本研究中，我们对16个强大的推理和通用LLMs在涉及金融文本、表格数据和方程式的三个复杂金融任务上进行了全面评估，评估了数值推理、表格解释、金融术语理解、长上下文处理和基于方程的问题解决能力。我们的结果表明，尽管更好的数据集和预训练可以改善金融推理，但通用的改进方法如CoT微调并不总是能带来一致的提升。此外，所有的推理策略在改善长上下文和多表任务的表现方面都面临挑战。为了解决这些限制，我们开发了一种基于Llama-3.1-8B-Instruct的金融推理增强模型，通过CoT微调和领域特定推理路径的强化学习。即使只用一个金融数据集简单微调，我们的模型在任务中的表现仍能持续提升10%，平均超过所有8B模型，甚至超过Llama3-70B-Instruct和Llama3.1-70B-Instruct。我们的结果突显了金融任务中领域特定适配的必要性，强调了未来需要关注的方向，如多表推理、长上下文处理和金融术语理解。我们所有的数据集、模型和代码都是公开的。此外，我们引入了一个排行榜，用于基准测试未来的数据集和模型。",
+        "地址": "https://arxiv.org/pdf/2502.08127.pdf"
+    },
+    {
+        "名称": "2025 [2502.07870] TextAtlas5M: A Large-scale Dataset for Dense Text Image Generation.pdf",
+        "作者": "Alex Jinpeng Wang, Dongxing Mao, Jiawei Zhang, Weiming Han, Zhuobai Dong, Linjie Li, Yiqi Lin, Zhengyuan Yang, Libo Qin, Fuwei Zhang, Lijuan Wang, Min Li",
+        "摘要": "摘要：近几年来，文本条件图像生成技术受到了极大的关注，并且处理的文本提示越来越长和复杂。在日常生活中，广告、信息图表和标志等场景中出现了密集和复杂的文本，这些场景中，文本和视觉效果的结合对于传达复杂信息至关重要。然而，尽管在这些方面取得了进展，生成包含长文本的图像仍然是一个持续的挑战，这主要是由于现有数据集的局限性，这些数据集通常关注较短和较简单的文本。为了解决这一问题，我们引入了TextAtlas5M，这是一个专门设计用于评估文本条件图像生成中长文本渲染的新数据集。我们的数据集包括500万张长文本生成和收集的图像，涵盖多种数据类型，使得对大规模生成模型在长文本图像生成上的全面评估成为可能。我们进一步策划了3000个人工改进的测试集TextAtlasEval，跨越三个数据域，建立了文本条件生成的最广泛基准之一。评估表明，即使是最先进的专有模型（如结合DallE-3的GPT4o），对TextAtlasEval基准也面临着重大的挑战，而开源模型的表现差距更大。这些证据表明，TextAtlas5M是训练和评估未来一代文本条件图像生成模型的宝贵数据集。",
+        "地址": "https://arxiv.org/pdf/2502.07870.pdf"
+    },
+    {
+        "名称": "2025 [2502.08590] Light-A-Video: Training-free Video Relighting via Progressive Light Fusion.pdf",
+        "作者": "Yujie Zhou, Jiazi Bu, Pengyang Ling, Pan Zhang, Tong Wu, Qidong Huang, Jinsong Li, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Anyi Rao, Jiaqi Wang, Li Niu",
+        "摘要": "摘要: 最近在大规模数据集和预训练扩散模型驱动下的图像重光照模型取得了长足的进展，使得光照效果一致。然而，视频重光照仍然落后，主要是因为训练成本过高且缺乏多样化且高质量的视频重光照数据集。简单地逐帧应用图像重光照模型会导致诸多问题：光源不一致和重光照后的外观不一致，从而导致生成视频中出现闪烁现象。在这项工作中，我们提出了Light-A-Video，这是一种无需训练的方法，实现了时间平滑的视频重光照。Light-A-Video从图像重光照模型中改进，引入了两项关键技术来增强光照的一致性。首先，我们设计了一个一致性光注意(CLA)模块，以增强自注意层内的跨帧交互，稳定背景光源的生成。其次，通过利用光传输独立性的物理原则，我们在源视频的外观和重光照后的外观之间应用线性混合，采用逐步光融合(PLF)策略，以确保光照平滑时间过渡。实验表明，Light-A-Video在保持图像质量的同时，改善了重光照视频的时间一致性，确保了帧间光照过渡的连贯性。\n\n翻译： 最近在图像重光照模型方面的进展，由大规模数据集和预训练扩散模型推动，使得光照效果一致。然而，视频重光照仍然落后，主要原因是训练成本过高且缺乏多样且高质量的视频重光照数据集。简单地逐帧应用图像重光照模型会导致一些问题：光源的一致性和重光照外观的一致性，导致生成的视频中出现闪烁现象。在这项工作中，我们提出了Light-A-Video，这是一种无需训练的方法，旨在实现时间上平滑的视频重光照。Light-A-Video从图像重光照模型中进行了改进，引入了两项关键技术以增强光照一致性。首先，我们设计了一个一致光注意（CLA）模块，增强了自注意层内的跨帧交互，稳定了背景光源的生成。其次，利用光传输独立性的物理原则，我们在源视频的外观和重光照外观之间应用线性混合，采用逐步光融合（PLF）策略，以确保光照平滑的时间过渡。实验表明，Light-A-Video在保持图像质量的同时，改善了重光照视频的时间一致性，确保了帧间光照过渡的连贯性。",
+        "地址": "https://arxiv.org/pdf/2502.08590.pdf"
+    },
+    {
+        "名称": "2025 [2502.07346] BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models.pdf",
+        "作者": "Xu Huang, Wenhao Zhu, Hanxu Hu, Conghui He, Lei Li, Shujian Huang, Fei Yuan",
+        "摘要": "摘要：此前的多语言基准测试主要集中在简单的理解任务上，而对于大型语言模型（LLMs），我们强调其在遵循指令、推理、长文本理解和代码生成等方面的熟练程度。然而，对这些高级能力在不同语言中的测量研究仍然不足。为了解决这一差异，我们介绍了BenchMAX，这是一个多向的多语言评估基准，允许在语言之间进行这些重要能力的公平比较。为了保证高质量，所有任务的数据在从英文机器翻译成其他16种语言后，由三位不同的母语评审员独立标注。此外，我们还提出了一个新颖的、源于数据集构建过程的翻译挑战。在BenchMAX上的大量实验揭示了不同语言核心能力的有效性差异，强调了不能仅通过扩大模型规模来弥合的性能差距。BenchMAX作为一个全面的多语言评估平台，提供了一个有前途的测试平台，以推动多语言语言模型的发展。数据集和代码是公开可访问的。",
+        "地址": "https://arxiv.org/pdf/2502.07346.pdf"
+    },
+    {
+        "名称": "2025 [2502.08639] CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation.pdf",
+        "作者": "Qinghe Wang, Yawen Luo, Xiaoyu Shi, Xu Jia, Huchuan Lu, Tianfan Xue, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai",
+        "摘要": "摘要：\n在这项工作中，我们提出了CineMaster，这是一种新颖的3D感知和可控文字生成视频框架。我们的目标是赋予用户与专业电影导演相当的可控能力：在场景中精确放置物体，灵活操控3D空间中的物体和摄像机，并直观地控制渲染帧的布局。为了实现这一目标，CineMaster分两个阶段进行操作。在第一阶段，我们设计了一种互动工作流程，允许用户通过在3D空间中定位物体边界框和定义摄像机运动来直观地构建3D感知条件信号。在第二阶段，这些控制信号——包括渲染的深度图、摄像机轨迹和物体类别标签——作为文字生成视频扩散模型的指导，确保生成用户预期的视频内容。此外，为了克服缺乏具有3D物体运动和摄像机姿态注释的野外数据集的困难，我们精心建立了一条自动数据注释管道，从大规模视频数据中提取3D边界框和摄像机轨迹。大量的定性和定量实验表明，CineMaster显著优于现有的方法，实现了出色的3D感知文字生成视频。项目页面：该https URL。\n\n作者：\nQinghe Wang, Yawen Luo, Xiaoyu Shi, Xu Jia, Huchuan Lu, Tianfan Xue, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai\n\n链接：\nhttps://arxiv.org/pdf/2502.08639.pdf\n\n标题：\nCineMaster：一个用于电影文字生成视频的3D感知和可控框架（2025 [2502.08639]）",
+        "地址": "https://arxiv.org/pdf/2502.08639.pdf"
+    },
+    {
+        "名称": "2025 [2502.07864] TransMLA: Multi-Head Latent Attention Is All You Need.pdf",
+        "作者": "Fanxu Meng, Zengwei Yao, Muhan Zhang",
+        "摘要": "摘要：现代大型语言模型（LLMs）在当前硬件上通常遇到通信瓶颈，而不仅仅是纯粹的计算限制。多头潜在注意力（MLA）通过在键值（KV）层中使用低秩矩阵来应对这一挑战，从而允许压缩的潜在KV状态被缓存。与传统的多头注意力相比，这种方法显著减少了KV缓存大小，从而加快了推理速度。此外，MLA采用一个上投影矩阵来增加表现力，用额外的计算换取通信开销的减少。尽管MLA在Deepseek V2/V3/R1中展示了其高效性和有效性，许多主要的模型提供商仍然依赖于组查询注意力（GQA），并且没有宣布任何采用MLA的计划。在本文中，我们展示了GQA始终可以通过MLA表示，同时保持相同的KV缓存开销，但反之则不成立。为了鼓励更广泛使用MLA，我们引入了TransMLA，这是一种后训练方法，可以将广泛使用的基于GQA的预训练模型（例如LLaMA、Qwen、Mixtral）转换为基于MLA的模型。转换后，该模型可以进行额外的训练，以在不增加KV缓存大小的情况下提升表现力。此外，我们计划开发MLA特定的推理加速技术，以保持转换模型的低延迟，从而实现Deepseek R1的更高效的蒸馏。\n\n作者：孟凡旭，姚增伟，张穆函\n\n评论：Comments: this https URL\n\n链接：https://arxiv.org/pdf/2502.07864.pdf\n\n标题：TransMLA: Multi-Head Latent Attention Is All You Need",
+        "地址": "https://arxiv.org/pdf/2502.07864.pdf"
+    },
+    {
+        "名称": "2025 [2502.08047] WorldGUI: Dynamic Testing for Comprehensive Desktop GUI Automation.pdf",
+        "作者": "Henry Hengyuan Zhao, Difei Gao, Mike Zheng Shou",
+        "摘要": "摘要（中文翻译）：\n\n当前的图形用户界面（GUI）代理在GUI元素定位方面已经取得了出色的表现。然而，规划仍然是一个极具挑战性的任务，尤其是由于环境初始状态的敏感性。具体而言，初始状态的细微差别，例如目标软件未打开或界面未处于默认状态，常常导致规划错误。这一问题在真实用户场景中普遍存在，但现有的基准测试未能对此进行评估。本文提出了WorldGUI，这是一个新的GUI基准，通过设计具有各种初始状态的GUI任务来模拟真实的计算机-用户交互。该基准涵盖了包括PowerPoint、VSCode和Adobe Acrobat在内的10款流行软件应用中的广泛任务。此外，为了应对动态GUI自动化任务的挑战，我们提出了GUI-Thinker，这是一种利用批判机制的整体框架，有效地管理了GUI交互的不可预测性和复杂性。实验结果表明，在WorldGUI任务上，GUI-Thinker在成功率方面显著超越了Claude-3.5（Computer Use），提高了14.9%，这突显了我们基于批判性思维的框架在增强GUI自动化方面的有效性。",
+        "地址": "https://arxiv.org/pdf/2502.08047.pdf"
+    },
+    {
+        "名称": "2025 [2502.07563] LASP-2: Rethinking Sequence Parallelism for Linear Attention and Its Hybrid.pdf",
+        "作者": "Weigao Sun, Disen Lan, Yiran Zhong, Xiaoye Qu, Yu Cheng",
+        "摘要": "摘要：线性序列建模方法，如线性注意力，提供了线性时间训练和恒定内存推理的优势。然而，现有的序列并行（SP）方法要么没有针对线性注意力的右积优先特性进行优化，要么使用环式通信策略，导致计算并行度降低，限制了它们在分布式系统中处理更长序列的可扩展性。本文中，我们介绍了LASP-2，一种新的SP方法，用于在训练具有超长输入序列的线性注意力变压器模型时增强通信和计算并行性。与之前的LASP工作相比，LASP-2重新考虑了线性注意力层SP的最小通信需求，重组了LASP的整个通信-计算工作流程。这样，只需要对中间内存状态进行一次AllGather集合通信，而其大小与序列长度无关，从而显著提高了通信和计算并行性及其重叠。此外，我们通过对标准注意力模块应用类似的通信重设计，将LASP-2扩展为LASP-2H，为混合模型（混合线性和标准注意力层）提供高效的SP解决方案。我们在Linear-Llama3模型（一种用线性注意力替代标准注意力的Llama3变体）上的评估显示了LASP-2和LASP-2H的有效性。具体来说，LASP-2在64个GPU上处理2048K序列长度时，训练速度比LASP提高了15.2%，比Ring Attention提高了36.6%。代码作为链接的一部分发布。",
+        "地址": "https://arxiv.org/pdf/2502.07563.pdf"
+    },
+    {
+        "名称": "2025 [2502.08606] Distillation Scaling Laws.pdf",
+        "作者": "Dan Busbridge, Amitis Shidani, Floris Weers, Jason Ramapuram, Etai Littwin, Russ Webb",
+        "摘要": "摘要: 我们提供了一种蒸馏缩放定律，该定律可以根据计算预算及其在学生模型和教师模型之间的分配来估算蒸馏模型的性能。我们的研究结果降低了在大规模使用蒸馏时的风险；现在，可以为教师模型和学生模型分配计算资源，以最大化学生模型的性能。我们提供了计算最优蒸馏方案，适用于以下两种情况：1）现有教师模型，或2）需要训练教师模型。如果需要蒸馏多个学生模型，或已存在教师模型，蒸馏在计算水平上优于监督预训练，并且这一水平会随着学生模型大小而可预测地增长。如果需要蒸馏一个学生模型且需要训练教师模型，则应改为进行监督学习。此外，我们在大规模蒸馏研究中提供了许多见解，这些见解增加了我们对蒸馏的理解，并指导实验设计。\n\n翻译作者: Dan Busbridge, Amitis Shidani, Floris Weers, Jason Ramapuram, Etai Littwin, Russ Webb\n\n评论: 67页，54个图，13个表\n\n网址: [https://arxiv.org/pdf/2502.08606.pdf](https://arxiv.org/pdf/2502.08606.pdf)\n\n标题: 2025 [2502.08606] 蒸馏缩放定律.pdf",
+        "地址": "https://arxiv.org/pdf/2502.08606.pdf"
+    },
+    {
+        "名称": "2025 [2502.06533] Ignore the KL Penalty! Boosting Exploration on Critical Tokens to Enhance RL Fine-Tuning.pdf",
+        "作者": "Jean Vassoyan, Nathanaël Beau, Roman Plaud",
+        "摘要": "摘要: 实现长期目标的能力是当前大型语言模型（LLMs）发展的关键挑战。为了解决这个问题，预训练的LLMs可以通过强化学习（RL）进行微调，以探索优化给定目标的解决方案。然而，使用LLMs进行探索非常困难，因为必须在发现新解决方案和保持足够接近预训练模型之间取得平衡，以免降低基本能力。这通常通过Kullback-Leibler（KL）惩罚来控制。在本文中，我们研究了一个简单算术任务中一个小型语言模型的探索动态。我们展示了预训练的不同程度如何影响探索，并证明了对最终结果有显著影响的\"关键标记\"的重要性。因此，我们提出了一种简单的KL惩罚修改，偏向于在关键标记上的探索，从而提高RL微调阶段的效率。\n\n翻译: 实现长期目标的能力是当前大型语言模型（LLMs）发展的关键挑战。为了解决这个问题，预训练的LLMs可以通过强化学习（RL）进行微调，以探索优化给定目标的解决方案。然而，使用LLMs进行探索非常困难，因为必须在发现新解决方案和保持足够接近预训练模型之间取得平衡，以免降低基本能力。这通常通过Kullback-Leibler（KL）惩罚来控制。在本文中，我们研究了一个简单算术任务中一个小型语言模型的探索动态。我们展示了预训练的不同程度如何影响探索，并证明了对最终结果有显著影响的\"关键标记\"的重要性。因此，我们提出了一种简单的KL惩罚修改，偏向于在关键标记上的探索，从而提高RL微调阶段的效率。",
+        "地址": "https://arxiv.org/pdf/2502.06533.pdf"
+    },
+    {
+        "名称": "2025 [2502.08168] SARChat-Bench-2M: A Multi-Task Vision-Language Benchmark for SAR Image Interpretation.pdf",
+        "作者": "Zhiming Ma, Xiayang Xiao, Sihao Dong, Peidong Wang, HaiPeng Wang, Qingyun Pan",
+        "摘要": "摘要：作为一种强大的全天候地球观测工具，合成孔径雷达（SAR）遥感在关键的军事侦察、海上监视和基础设施监测中具有重要作用。尽管视觉语言模型（VLMs）在自然语言处理和图像理解方面取得了显著进展，但由于缺乏领域专业知识，其在专业领域的应用仍然有限。本文创新性地提出了第一个针对SAR图像的大规模多模态对话数据集，名为SARChat-2M，包含大约200万高质量的图像-文本对，并涵盖了详细目标注释的多种场景。该数据集不仅支持视觉理解和目标检测等关键任务，还具有独特的创新方面：本研究开发了一个用于SAR领域的视觉-语言数据集和基准，启用并评估了VLMs在SAR图像解释中的能力，为构建不同遥感垂直领域的多模态数据集提供了一种范式框架。通过对16种主流VLMs的实验，数据集的有效性得到了充分验证。该项目将于此网址发布：https URL。",
+        "地址": "https://arxiv.org/pdf/2502.08168.pdf"
+    },
+    {
+        "名称": "2025 [2502.07599] DPO-Shift: Shifting the Distribution of Direct Preference Optimization.pdf",
+        "作者": "Xiliang Yang, Feng Jiang, Qianen Zhang, Lei Zhao, Xiao Li",
+        "摘要": "摘要：直接偏好优化（Direct Preference Optimization, DPO）及其变体在使语言模型符合人类偏好方面变得越来越流行。这些方法旨在教会模型更好地区分被选择（或优先）和被拒绝（或不优先）的响应。然而，以前的研究发现，在训练过程中，被选择响应的概率常常会下降，这种现象被称为似然位移。为了解决这个问题，我们在这项工作中引入了\\method，以可控地调整被选择概率的分布。然后，我们展示了\\method在提高被选择概率和牺牲奖励幅度之间存在根本性的权衡，这得到了理论分析和实验验证的支持。此外，我们证明了\\method在后续任务如MT-Bench和设计的赢率实验中优于DPO。我们认为这项研究表明，通过一个简单且理论上有依据的解决方案，可以有效缓解DPO的似然位移问题。我们的代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2502.07599.pdf"
+    },
+    {
+        "名称": "2025 [2502.08524] LLM Pretraining with Continuous Concepts.pdf",
+        "作者": "Jihoon Tack, Jack Lanchantin, Jane Yu, Andrew Cohen, Ilia Kulikov, Janice Lan, Shibo Hao, Yuandong Tian, Jason Weston, Xian Li",
+        "摘要": "摘要: 下一步预测一直是大型语言模型预训练中使用的标准训练目标。通过优化标记级困惑度来学习表示。我们提出了连续概念混合（CoCoMix），一种结合离散下一步预测与连续概念的新颖预训练框架。具体来说，CoCoMix从预训练稀疏自动编码器中学习连续概念，并通过与标记隐藏表示交替将其混合到模型的隐藏状态中。通过在包括语言模型和下游推理任务的多个基准测试上的实验，我们表明CoCoMix在样本效率方面更为高效，并且始终优于标准的下一步预测、知识蒸馏和插入暂停标记。我们发现将概念学习和交替相结合的端到端框架对于提高性能至关重要。此外，CoCoMix通过允许对预测概念的直接检查和修改，提高了可解释性和可控性，提供了一种透明的方式来引导模型的内部推理过程。",
+        "地址": "https://arxiv.org/pdf/2502.08524.pdf"
+    },
+    {
+        "名称": "2025 [2502.00963] PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs.pdf",
+        "作者": "Mauricio Soroco, Jialin Song, Mengzhou Xia, Kye Emond, Weiran Sun, Wuyang Chen",
+        "摘要": "摘要：尽管近年来人工智能在纯数学领域取得了进展，但应用数学领域，特别是偏微分方程（PDEs）的研究仍然不足，尽管其在现实世界中的应用非常重要。我们提出了PDE-Controller，这是一个框架，允许大型语言模型（LLMs）控制由偏微分方程（PDEs）支配的系统。我们的方法使得LLMs能够将非正式的自然语言指令转换为正式规范，然后执行推理和规划步骤，以提高PDE控制的效用。我们构建了一个全面的解决方案，包括数据集（既有人工编写的案例，也有200万合成样本）、数学推理模型和新的评估指标，这些都需要大量的努力。我们的PDE-Controller在推理、自动形式化和程序合成方面显著优于最新的开源和GPT模型，在PDE控制效用上的改善高达62%。通过弥合语言生成与PDE系统之间的差距，我们展示了LLMs在解决复杂科学和工程挑战方面的潜力。我们将发布所有数据、模型检查点和代码。",
+        "地址": "https://arxiv.org/pdf/2502.00963.pdf"
+    },
+    {
+        "名称": "2025 [2502.05167] NoLiMa: Long-Context Evaluation Beyond Literal Matching.pdf",
+        "作者": "Ali Modarressi, Hanieh Deilamsalehy, Franck Dernoncourt, Trung Bui, Ryan A. Rossi, Seunghyun Yoon, Hinrich Schütze",
+        "摘要": "摘要: 最近的大型语言模型（LLMs）支持从128K到1M标记的长上下文。评估这些能力的一个流行方法是大海捞针（NIAH）测试，涉及从 \"干草堆\"（长而无关的上下文）中检索 \"针\"（相关信息）。这种方法的扩展包括增加干扰项、事实链和上下文推理。然而，在这些基准测试中，模型可以利用针和干草堆之间现有的字面匹配来简化任务。为了解决这个问题，我们推出了NoLiMa，一个通过精心设计的针集扩展NIAH的基准测试，其中问题和针的词汇重叠最小，需要模型推断隐含的关联以在干草堆中找到针。我们评估了12个声称支持至少128K标记上下文的流行LLMs。虽然它们在短上下文（<1K）中表现良好，但随着上下文长度的增加，性能显著下降。例如，在32K时，10个模型的表现低于它们强劲的短长度基准的50%。即使是表现最好的GPT-4o，也从几乎完美的99.3%基准降至69.7%。我们的分析表明，这些下降源于在较长上下文中缺乏字面匹配时注意机制面临的增加难度，这使得检索相关信息变得更加困难。",
+        "地址": "https://arxiv.org/pdf/2502.05167.pdf"
+    },
+    {
+        "名称": "2025 [2502.07737] Next Block Prediction: Video Generation via Semi-Autoregressive Modeling.pdf",
+        "作者": "Shuhuai Ren, Shuming Ma, Xu Sun, Furu Wei",
+        "摘要": "摘要：下一步预测（NTP）是自回归（AR）视频生成的事实标准方法，但它存在次优的单向依赖性和缓慢的推理速度。在这项工作中，我们提出了一种用于视频生成的半自回归（semi-AR）框架，称为下一块预测（NBP）。通过将视频内容均匀地分解成大小相等的块（例如，行或帧），我们将生成单位从单个令牌移至块，从而允许当前块中的每个令牌同时预测下一个块中的对应令牌。与传统的AR建模不同，我们的框架在每个区块内使用双向注意力，使令牌能够捕捉到更强的空间依赖性。通过并行预测多个令牌，NBP模型显著减少了生成步骤的数量，从而加快了推理速度，提高了效率。我们的模型在UCF101上达到了103.3的FVD得分，在K600上达到了25.5，平均比标准的NTP模型高出4.4。此外，得益于减少的推理步骤数，NBP模型每秒生成8.89帧（128x128分辨率），实现了11倍的提速。我们还探索了从700M到3B参数的模型规模，观察到生成质量显著提高，UCF101上的FVD得分从103.3降至55.3，K600上的得分从25.5降至19.5，证明了我们方法的可扩展性。",
+        "地址": "https://arxiv.org/pdf/2502.07737.pdf"
+    },
+    {
+        "名称": "2025 [2502.06145] Animate Anyone 2: High-Fidelity Character Image Animation with Environment Affordance.pdf",
+        "作者": "Li Hu, Guangyuan Wang, Zhen Shen, Xin Gao, Dechao Meng, Lian Zhuo, Peng Zhang, Bang Zhang, Liefeng Bo",
+        "摘要": "摘要：最近基于扩散模型的角色图像动画方法，如 Animate Anyone，在生成一致且具备一般性的角色动画方面取得了显著进展。然而，这些方法在角色与其环境之间产生合理的关联上存在不足。为了解决这个问题，我们推出了 Animate Anyone 2，旨在生成具有环境支撑的角色动画。除了从源视频中提取运动信号外，我们还捕捉环境表示作为条件输入。环境被表述为不包含角色的区域，我们的模型生成角色以填充这些区域，同时保持与环境上下文的一致性。我们提出了一种与形状无关的遮罩策略，更有效地表征角色与环境之间的关系。此外，为了增强对象交互的真实感，我们利用一个对象引导器提取交互对象的特征，并采用空间融合进行特征注入。我们还引入了一种姿势调制策略，使模型能够处理更多样化的运动模式。实验结果证明了所提出方法的优越性能。",
+        "地址": "https://arxiv.org/pdf/2502.06145.pdf"
+    },
+    {
+        "名称": "2025 [2502.06872] Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey.pdf",
+        "作者": "Bo Ni, Zheyuan Liu, Leyao Wang, Yongjia Lei, Yuying Zhao, Xueqi Cheng, Qingkai Zeng, Luna Dong, Yinglong Xia, Krishnaram Kenthapadi, Ryan Rossi, Franck Dernoncourt, Md Mehrab Tanjim, Nesreen Ahmed, Xiaorui Liu, Wenqi Fan, Erik Blasch, Yu Wang, Meng Jiang, Tyler Derr",
+        "摘要": "摘要：检索增强生成（RAG）是一种先进技术，旨在解决人工智能生成内容（AIGC）面临的挑战。通过将上下文检索融入内容生成，RAG提供了可靠的、最新的外部知识，减少了幻觉，并确保在广泛任务中相关的上下文。然而，尽管RAG取得了成功并展现了潜力，但最近的研究表明，RAG范式也引入了新的风险，包括鲁棒性问题、隐私问题、对抗攻击和责任问题。解决这些风险对于RAG系统未来应用至关重要，因为它们直接影响其可信度。尽管已经开发了各种方法来提高RAG方法的可信度，但在该主题的研究中，缺乏统一的视角和框架。因此，在本文中，我们旨在通过提供开发可信RAG系统的全面路线图来填补这一空白。我们围绕五个关键视角展开讨论：可靠性、隐私、安全性、公平性、可解释性和责任性。对于每个视角，我们提出了一个通用框架和分类法，提供了一个结构化的方法来理解当前的挑战、评估现有的解决方案，并确定有前途的未来研究方向。为了鼓励更广泛的采用和创新，我们还重点介绍了可信RAG系统对下游应用的重大影响。",
+        "地址": "https://arxiv.org/pdf/2502.06872.pdf"
+    },
+    {
+        "名称": "2025 [2502.04411] Mediator: Memory-efficient LLM Merging with Less Parameter Conflicts and Uncertainty Based Routing.pdf",
+        "作者": "Kunfeng Lai, Zhenheng Tang, Xinglin Pan, Peijie Dong, Xiang Liu, Haolan Chen, Li Shen, Bo Li, Xiaowen Chu",
+        "摘要": "摘要：模型合并通过将针对不同任务微调的大型语言模型(LLMs)合并为一个更强的模型。然而，模型之间的参数冲突会导致在平均时性能下降。尽管模型路由通过在推理期间选择单个模型来解决这一问题，但它会带来过多的存储和计算成本，并且未能利用不同模型的共同知识。在这项工作中，我们观察到不同层展示出不同程度的参数冲突。基于这一见解，我们对具有最小参数冲突的层进行平均，并对具有显著冲突的层使用一种新颖的任务级专家路由。为了进一步降低存储成本，受到任务算术稀疏性的启发，我们将多个微调专家解耦为一个密集专家和几个稀疏专家。考虑到分布外样本，我们根据输入数据的任务不确定性选择并合并适当的专家。我们在具有不同参数规模的LLaMA和Qwen上进行了广泛的实验，并在现实世界的推理任务上进行了评估。结果表明，我们的方法在实现显著性能改进的同时，系统成本比现有方法更低。",
+        "地址": "https://arxiv.org/pdf/2502.04411.pdf"
+    },
+    {
+        "名称": "2025 [2502.08213] LLM Modules: Knowledge Transfer from a Large to a Small Model using Enhanced Cross-Attention.pdf",
+        "作者": "Konstantin Kolomeitsev (Almaty, Kazakhstan)",
+        "摘要": "以下是英文摘要的中文翻译：\n\n摘要：在这项工作中，我们提出了一种LLM模块（大型语言模型模块）架构，该架构使用增强型交叉注意力机制实现了从大规模预训练模型向小规模模型的知识转移。在所提方案中，Qwen2-1.5B模型被冻结，其表示通过专门设计的注意力层传递到在有限计算资源上训练的GPT-Neo-125M模型。Bespoke-Stratos-17k数据集上的实验结果表明，经过15个时期的训练，组合模型生成的响应质量与蒸馏方法获得的结果相当。我们讨论了模块化方法的优点，提供了输入查询的示例和比较分析，并概述了该方法的进一步扩展前景。",
+        "地址": "https://arxiv.org/pdf/2502.08213.pdf"
+    },
+    {
+        "名称": "2025 [2502.07985] MetaSC: Test-Time Safety Specification Optimization for Language Models.pdf",
+        "作者": "Víctor Gallego",
+        "摘要": "摘要：我们提出了一种新颖的动态安全框架，该框架在推理时优化语言模型（LM）的安全推理，而无需修改模型权重。基于最近的自我批评方法的进展，我们的方法利用了一种元批评机制，该机制迭代更新被称为规格的安全提示，从而自适应地推动批评和修订过程。此测试时优化不仅在对抗性越狱请求方面提高了性能，而且在多样化的一般安全相关任务中也表现出色，如避免道德伤害或追求诚实的回应。我们对多个语言模型的实证评估表明，动态优化的安全提示比固定系统提示和静态自我批评防御方法显著提高了安全评分。代码将在此HTTPS URL发布。\n\n作者：Víctor Gallego\n\n标题：2025 [2502.07985] MetaSC: 用于语言模型的测试时安全规格优化\n\n链接：https://arxiv.org/pdf/2502.07985.pdf",
+        "地址": "https://arxiv.org/pdf/2502.07985.pdf"
+    },
+    {
+        "名称": "2025 [2502.05282] Homeomorphism Prior for False Positive and Negative Problem in Medical Image Dense Contrastive Representation Learning.pdf",
+        "作者": "Yuting He, Boyu Wang, Rongjun Ge, Yang Chen, Guanyu Yang, Shuo Li",
+        "摘要": "摘要：致密对比表示学习（DCRL）极大地提高了图像致密预测任务的学习效率，展现了其在减少医疗图像收集和密集标注的巨大成本方面的潜力。然而，医疗图像的特性使得对应发现不可靠，带来了DCRL中的大规模假阳性和假阴性（FP&N）对的开放问题。在本文中，我们提出了几何视觉致密相似性（GEMINI）学习，它将同胚先验嵌入DCRL中，并实现了有效致密对比的可靠对应发现。我们提出了一种可变形同胚学习（DHL），它对医疗图像的同胚进行建模，并学习估计一种可变形映射，以在拓扑保持下预测像素的对应关系。它有效减少了配对的搜索空间，并通过梯度驱动负配对的隐式和软学习。我们还提出了一种几何语义相似性（GSS），它在特征中提取语义信息，以衡量对应学习的对齐度。这将提高变形的学习效率和性能，可靠地构建正配对。我们在实验中对两种典型表示学习任务进行了实用的变体实现。在七个数据集上的有希望的结果优于现有方法，展示了我们的巨大优势。我们将在伴随链接上发布我们的代码：https://arxiv.org/pdf/2502.05282.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.05282.pdf"
+    }
+]
