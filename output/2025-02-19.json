@@ -1,0 +1,188 @@
+[
+    {
+        "名称": "2025 [2502.12900] Soundwave: Less is More for Speech-Text Alignment in LLMs.pdf",
+        "作者": "Yuhao Zhang, Zhiheng Liu, Fan Bu, Ruiyu Zhang, Benyou Wang, Haizhou Li",
+        "摘要": "摘要：现有的端到端语音大型语言模型（LLMs）通常依赖于大规模标注数据进行训练，而数据高效训练尚未被深入讨论。我们关注语音和文本之间的两个基本问题：表示空间差异和序列长度不一致。我们提出了Soundwave，它利用一种高效的训练策略和一种新颖的架构来解决这些问题。结果显示，Soundwave在语音翻译和AIR-Bench语音任务中表现优于先进的Qwen2-Audio，而且只使用了五十分之一的训练数据。进一步的分析表明，Soundwave在对话过程中仍然保持着智能。 该项目的资料可在此网址获取： this https URL",
+        "地址": "https://arxiv.org/pdf/2502.12900.pdf"
+    },
+    {
+        "名称": "2025 [2502.13063] Cramming 1568 Tokens into a Single Vector and Back Again: Exploring the Limits of Embedding Space Capacity.pdf",
+        "作者": "Yuri Kuratov, Mikhail Arkhipov, Aydar Bulatov, Mikhail Burtsev",
+        "摘要": "摘要：近期大量研究探讨了将标记序列压缩为更短的实值向量序列并作为输入使用，而非标记嵌入或键值缓存。此类方法可减少现有语言模型的计算量。尽管依赖于强大的编码器模型，但能够实现的最大无损压缩率通常不超过x10。这一现象颇具吸引力，因为理论上，即使是16位精度和适中的向量大小，实值向量的最大信息容量也远超所呈现的比率。在本研究中，我们通过用逐样本优化过程代替编码器来探索压缩的极限。我们展示了压缩率可达x1500的向量，这表明现有解决方案与实际可实现的解决方案之间存在两个数量级的差距。此外，我们通过实验证明，压缩极限并非由输入长度决定，而是由需要减少的不确定性量决定，即在没有任何条件下该序列的交叉熵损失。得到的极限值突显了输入嵌入的理论容量和其实际使用之间的巨大差距，表明在模型设计中有显著的优化空间。\n\n作者：Yuri Kuratov, Mikhail Arkhipov, Aydar Bulatov, Mikhail Burtsev\n\n论文标题：2025 [2502.13063] 把1568个标记压缩成一个向量并再展开：探索嵌入空间容量的极限。\n论文链接：https://arxiv.org/pdf/2502.13063.pdf",
+        "地址": "https://arxiv.org/pdf/2502.13063.pdf"
+    },
+    {
+        "名称": "2025 [2502.11564] Continuous Diffusion Model for Language Modeling.pdf",
+        "作者": "Jaehyeong Jo, Sung Ju Hwang",
+        "摘要": "摘要:扩散模型在对离散类别数据建模方面，已成为自回归模型的有力替代方案。然而，直接在离散数据空间上工作的扩散模型并未充分利用迭代优化的能力，因为在离散状态之间的转换过程中信号会丢失。现有的用于离散数据的连续扩散模型相比于离散方法的性能有限，并且它们之间不清晰的联系限制了离散数据扩散模型的发展。在本研究中，我们提出了一种用于语言建模的连续扩散模型，该模型结合了底层类别分布的几何结构。我们建立了离散扩散和统计流形上的连续流动之间的联系，基于这一类比，我们引入了一种简单的扩散过程设计，该设计推广了以前的离散扩散模型。我们进一步提出了一种基于径向对称的无仿真训练框架，以及一种解决流形高维性问题的简单技巧。在语言建模基准和其他模态上的全面实验表明，我们的方法优于现有的离散扩散模型，并接近自回归模型的性能。代码可在此 https URL 上获取。",
+        "地址": "https://arxiv.org/pdf/2502.11564.pdf"
+    },
+    {
+        "名称": "2025 [2502.11079] Phantom: Subject-consistent video generation via cross-modal alignment.pdf",
+        "作者": "Lijie Liu, Tianxiang Ma, Bingchuan Li, Zhuowei Chen, Jiawei Liu, Qian He, Xinglong Wu",
+        "摘要": "摘要：基础模型在视频生成领域的不断发展正在向各种应用演变，其中主体一致性视频生成仍处于探索阶段。我们将其称为Subject-to-Video，它从参考图像中提取主体元素，并通过文本指令生成主体一致性视频。我们认为，Subject-to-Video的本质在于平衡文本和图像的双模态提示，从而在深度上同时对齐文本和视觉内容。为此，我们提出了Phantom，这是一种统一的视频生成框架，适用于单主体和多主体参考。基于现有的文本到视频和图像到视频的架构，我们重新设计了联合文本图像注入模型，并通过文本-图像-视频三重数据驱动其学习跨模态对齐。特别是，我们强调人类生成中的主体一致性，涵盖现有的ID保留视频生成，同时提供增强的优势。项目主页在此：https://arxiv.org/pdf/2502.11079.pdf",
+        "地址": "https://arxiv.org/pdf/2502.11079.pdf"
+    },
+    {
+        "名称": "2025 [2502.13131] Rethinking Diverse Human Preference Learning through Principal Component Analysis.pdf",
+        "作者": "Feng Luo, Rui Yang, Hao Sun, Chunyuan Deng, Jiarui Yao, Jingyan Shen, Huan Zhang, Hanjie Chen",
+        "摘要": "摘要：理解人类偏好对于改进基础模型和构建个性化的人工智能系统至关重要。然而，偏好本质上是多样且复杂的，传统的奖励模型难以完全捕捉其范围。尽管细粒度的偏好数据可以提供帮助，但收集这些数据昂贵且难以扩展。在本文中，我们介绍了一种新颖的方法——分解奖励模型（DRMs），它无需细粒度注释即可从二元比较中提取多样化的人类偏好。我们的关键见解是将人类偏好表示为向量，并使用主成分分析（PCA）进行分析。通过构建偏好与拒绝响应之间的嵌入差异数据集，DRMs识别了捕捉偏好不同方面的正交基向量。这些分解后的奖励可以灵活地组合，以符合不同用户的需求，提供了一种可解释且可扩展的传统奖励模型替代方案。我们证明了DRMs能够有效地提取有意义的偏好维度（例如，乐于助人、安全性、幽默感）并在不进行额外训练的情况下适应新用户。我们的研究结果突出表明，DRMs 是个性化和可解释的LLM对齐的强大框架。\n\n作者：罗峰，杨锐，孙浩，邓春元，姚家瑞，沈静延，张欢，陈涵杰\n\n备注：14页\n\n网址：https://arxiv.org/pdf/2502.13131.pdf\n\n标题：2025 [2502.13131] 通过主成分分析重新思考多样化的人类偏好学习.pdf",
+        "地址": "https://arxiv.org/pdf/2502.13131.pdf"
+    },
+    {
+        "名称": "2025 [2502.13130] Magma: A Foundation Model for Multimodal AI Agents.pdf",
+        "作者": "Jianwei Yang, Reuben Tan, Qianhui Wu, Ruijie Zheng, Baolin Peng, Yongyuan Liang, Yu Gu, Mu Cai, Seonghyeon Ye, Joel Jang, Yuquan Deng, Lars Liden, Jianfeng Gao",
+        "摘要": "摘要:\n我们提出了Magma，一个在数字和物理世界中用于多模态人工智能代理任务的基础模型。Magma是视觉-语言（VL）模型的重大扩展，不仅保留了VL模型的语言理解能力（语言智能），还具备在视觉-空间世界中进行规划和行动的能力（时空智能），能够完成从用户界面导航到机器人操作的代理任务。为了赋予代理能力，Magma在大量异构数据集（包括图像、视频和机器人数据）上进行了预训练，图像中的可操作视觉物体（例如可点击的图形用户界面按钮）由动作标记集合（SoM）标注用于动作定位，视频中的物体运动（例如人手或机器人手臂的轨迹）由轨迹标记（ToM）标注用于动作规划。大量实验表明，SoM和ToM展现了极大的协同作用，促进了Magma模型获取时空智能，这对于如图1所示的广泛任务至关重要。特别是，Magma在用户界面导航和机器人操作任务上创造了新的最先进成果，超过了先前专门为这些任务设计的模型。在图像和视频相关的多模态任务上，Magma相较于在更大数据集上训练的流行的大型多模态模型也表现出色。我们公开了我们的模型和代码以供重现。链接见此： https://arxiv.org/pdf/2502.13130.pdf",
+        "地址": "https://arxiv.org/pdf/2502.13130.pdf"
+    },
+    {
+        "名称": "2025 [2502.13145] Multimodal Mamba: Decoder-only Multimodal State Space Model via Quadratic to Linear Distillation.pdf",
+        "作者": "Bencheng Liao, Hongyuan Tao, Qian Zhang, Tianheng Cheng, Yingyue Li, Haoran Yin, Wenyu Liu, Xinggang Wang",
+        "摘要": "摘要：近期的多模态大语言模型（MLLMs）虽然在性能上取得了显著的进展，但由于其二次计算复杂度、不断增长的键值缓存需求以及对单独视觉编码器的依赖，在部署上面临挑战。我们提出了mmMamba，这是一个通过从现有的MLLM进行渐进蒸馏，并利用中等学术计算资源来开发线性复杂度原生多模态状态空间模型的框架。我们的方法可以直接将训练好的仅解码器MLLM转换为线性复杂度架构，无需预训练的基于RNN的LLM或视觉编码器。我们提出了一种从训练好的Transformer中提取Mamba的种子策略以及一个三阶段的蒸馏方案，可以有效地将Transformer中的知识转移到Mamba中，同时保留多模态能力。我们的方法还支持结合Transformer和Mamba层的灵活混合架构，以实现定制的效率-性能权衡。由基于Transformer的仅解码器HoVLE蒸馏而成，mmMamba-linear在与现有的线性和二次复杂度VLMs竞争时表现出色，而mmMamba-hybrid进一步显著提高了性能，接近HoVLE的能力。在103K个标记处，mmMamba-linear相比HoVLE展示出20.6倍的速度提升和75.8%的GPU内存减少，而mmMamba-hybrid实现了13.5倍的速度提升和60.2%的内存节省。代码和模型可在此链接获取。\n\n作者：廖本成，陶鸿源，张茜，程天恒，李莹悦，尹浩然，刘文宇，王兴刚\n\n评论：代码和模型可在此链接获取\n\n链接：https://arxiv.org/pdf/2502.13145.pdf\n标题：2025年 [2502.13145] 多模态Mamba：通过二次到线性蒸馏的仅解码器多模态状态空间模型",
+        "地址": "https://arxiv.org/pdf/2502.13145.pdf"
+    },
+    {
+        "名称": "2025 [2502.13143] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation.pdf",
+        "作者": "Zekun Qi, Wenyao Zhang, Yufei Ding, Runpei Dong, Xinqiang Yu, Jingwen Li, Lingyun Xu, Baoyu Li, Xialin He, Guofan Fan, Jiazhao Zhang, Jiawei He, Jiayuan Gu, Xin Jin, Kaisheng Ma, Zhizheng Zhang, He Wang, Li Yi",
+        "摘要": "摘要: 空间智能是嵌入式人工智能的关键组成部分，它促进了机器人对环境的理解和交互。尽管最近的进展增强了视觉语言模型（VLMs）感知物体位置和位置关系的能力，它们仍然缺乏精确理解物体方位的能力，这对于涉及细致操作的任务至关重要。解决这个限制不仅需要几何推理，还需要一种表达能力强且直观的方式来表示方位。在此背景下，我们提出自然语言提供了一种比标准框架更灵活的表示空间，使其特别适合用于指令跟踪机器人系统。在本文中，我们引入了语义方位的概念，这种概念使用自然语言以无参考框架的方式定义物体方位（例如，USB的“插入”方向或刀具的“柄”方向）。为了支持这一点，我们构建了一个名为OrienText300K的大规模数据集，该数据集包含带有语义方位注释的3D模型，将几何理解与功能语义联系起来。通过将语义方位整合到VLM系统中，我们使机器人能够生成具有位置和方位约束的操作动作。广泛的模拟和现实世界实验表明，我们的方法显著增强了机器人的操作能力，如在Open6DOR上的准确率为48.7%，在SIMPLER上的准确率为74.9%。",
+        "地址": "https://arxiv.org/pdf/2502.13143.pdf"
+    },
+    {
+        "名称": "2025 [2502.12464] SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models.pdf",
+        "作者": "Seanie Lee, Dong Bok Lee, Dominik Wagner, Minki Kang, Haebin Seong, Tobias Bocklet, Juho Lee, Sung Ju Hwang",
+        "摘要": "摘要：将大型语言模型（LLMs）部署在实际应用中需要强健的安全防护模型，以检测并阻止有害的用户提示语。尽管大型安全防护模型表现出色，但其计算成本非常高。为了减轻计算负担，通常使用较小的蒸馏模型，但它们在“大型”模型准确预测的“难”例子上表现不佳。我们观察到许多输入可以由较小的模型可靠地处理，只有少部分需要较大模型的能力。基于此，我们提出了一种名为SafeRoute的二进制路由器，它能够区分难例子和易例子。我们的方法选择性地将较大的安全防护模型应用于路由器认为困难的数据，提高了效率，同时相比仅使用较大的安全防护模型保持了准确性。多个基准数据集的实验结果表明，与相关基准相比，我们的自适应模型选择显著提升了计算成本和安全性能之间的权衡。\n\n作者：Seanie Lee, Dong Bok Lee, Dominik Wagner, Minki Kang, Haebin Seong, Tobias Bocklet, Juho Lee, Sung Ju Hwang\n\n评论：共9页\n\nURL：https://arxiv.org/pdf/2502.12464.pdf\n\n标题：2025 [2502.12464] SafeRoute: Adaptive Model Selection for Efficient and Accurate Safety Guardrails in Large Language Models.pdf",
+        "地址": "https://arxiv.org/pdf/2502.12464.pdf"
+    },
+    {
+        "名称": "2025 [2502.09245] You Do Not Fully Utilize Transformer's Representation Capacity.pdf",
+        "作者": "Gleb Gerasimov, Yaroslav Aksenov, Nikita Balagansky, Viacheslav Sinii, Daniil Gavrilov",
+        "摘要": "摘要：\n与将先前的序列标记压缩到单个隐藏状态的RNN不同，Transformer可以直接关注所有先前的序列标记。然而，标准的Transformer仅使用来自紧邻的前一层的表示。在本文中，我们表明这种设计选择会导致表示塌陷，并造成次优性能。为了解决这个问题，我们引入了层集成存储（Layer-Integrated Memory, LIMe），这是一种简单但强大的方法，它能在保持模型总体内存占用不变的同时，通过允许访问较早层的隐藏状态来扩展表示能力。通过在各种架构和不同查找机制上的广泛实验，我们展示了在多种任务上持续的性能提升。此外，我们对学习到的表示动态的分析以及对纵深电路的探索，揭示了LIMe如何跨层整合信息，指出了未来研究的有希望方向。\n\n作者：Gleb Gerasimov, Yaroslav Aksenov, Nikita Balagansky, Viacheslav Sinii, Daniil Gavrilov\nURL：https://arxiv.org/pdf/2502.09245.pdf\n标题：2025 [2502.09245] 你没有充分利用Transformer的表示能力。",
+        "地址": "https://arxiv.org/pdf/2502.09245.pdf"
+    },
+    {
+        "名称": "2025 [2502.11433] FLAG-Trader: Fusion LLM-Agent with Gradient-based Reinforcement Learning for Financial Trading.pdf",
+        "作者": "Guojun Xiong, Zhiyang Deng, Keyi Wang, Yupeng Cao, Haohang Li, Yangyang Yu, Xueqing Peng, Mingquan Lin, Kaleb E Smith, Xiao-Yang Liu, Jimin Huang, Sophia Ananiadou, Qianqian Xie",
+        "摘要": "摘要：大型语言模型（LLMs）在多模态金融数据上进行微调后，在各种金融任务中展示了令人印象深刻的推理能力。然而，在交易等需要复杂智能方法来改进决策的交互金融市场中的多步骤、目标导向情景中，这些模型往往表现不佳。为了解决这一问题，我们提出了\\textsc{FLAG-Trader}，这一统一架构将语言处理（通过LLMs）与基于梯度的强化学习（RL）策略优化相结合，其中一个部分微调的LLM作为策略网络，利用预训练的知识的同时，通过参数高效微调适应金融领域。通过由交易回报驱动的策略梯度优化，我们的框架不仅提高了LLM在交易中的表现，还改善了其他金融领域任务的结果。我们提供了大量经验证据来验证这些提升。\n\n中文翻译：\n摘要：大型语言模型（LLMs）在多模态金融数据上进行微调后，在各种金融任务中展示了令人印象深刻的推理能力。然而，在需要复杂代理方法改进决策的互动金融市场中的多步骤、目标导向情景（如交易）中，它们经常表现不佳。为了解决这一问题，我们提出了\\\\textsc{FLAG-Trader}，这是一种统一架构，将语言处理（通过LLMs）与基于梯度的强化学习（RL）策略优化相结合，其中部分微调的LLM作为策略网络，利用预训练知识同时通过参数高效微调适应金融领域。通过由交易回报驱动的策略梯度优化，我们的框架不仅提高了LLM在交易中的表现，还改善了其他金融领域任务的结果。我们提供了大量经验证据来验证这些提升。",
+        "地址": "https://arxiv.org/pdf/2502.11433.pdf"
+    },
+    {
+        "名称": "2025 [2502.12513] RealSyn: An Effective and Scalable Multimodal Interleaved Document Transformation Paradigm.pdf",
+        "作者": "Tiancheng Gu, Kaicheng Yang, Chaoyi Zhang, Yin Xie, Xiang An, Ziyong Feng, Dongnan Liu, Weidong Cai, Jiankang Deng",
+        "摘要": "摘要：通过在大量图像-文本对上进行预训练， 对比语言-图像预训练（Contrastive Language-Image Pre-training，简称CLIP）在广泛的基准测试中展现了显著的表现。然而，大量非配对的数据（如多模态交错文档）在视觉-语言表示学习中仍未得到充分利用。为充分利用这些未配对文档， 我们首先建立了一个真实世界数据提取管道，以提取高质量的图像和文本。然后，我们设计了一种分层检索方法，以高效地将每个图像与多个语义相关的现实文本关联起来。为了进一步增强细粒度的视觉信息，我们提出了一个图像语义增强生成模块，用于合成文本的生成。此外，我们采用了一种语义平衡采样策略，以提高数据集的多样性，从而更好地学习长尾概念。基于这些创新，我们构建了一个结合现实和合成文本的数据集——RealSyn，其包含三个规模：1500万、3000万和1亿。大量实验证明，RealSyn有效地推进了视觉-语言表示学习，并表现出很强的可扩展性。基于RealSyn预训练的模型在多个下游任务中达到了最先进的表现。为促进未来研究，RealSyn数据集和预训练模型权重在该网址发布。\n\n作者：古天成，杨开成，张超轶，谢音，安翔，冯子泳，刘东南，蔡伟东，邓建康\n\n评论：16页，12张图表，网页：该网址\n\n网址：https://arxiv.org/pdf/2502.12513.pdf\n\n标题：RealSyn：一种有效且可扩展的多模态交错文档转换范式",
+        "地址": "https://arxiv.org/pdf/2502.12513.pdf"
+    },
+    {
+        "名称": "2025 [2502.11271] OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+        "作者": "Pan Lu, Bowen Chen, Sheng Liu, Rahul Thapa, Joseph Boen, James Zou",
+        "摘要": "摘要（翻译中文）：解决复杂推理任务可能涉及视觉理解、领域知识检索、数值计算和多步推理。现有方法通过外部工具增强大型语言模型（LLMs），但受限于特定领域、有限的工具类型或需要额外的训练数据。在本文中，我们介绍了OctoTools，这是一种无需训练、用户友好且易于扩展的开源代理框架，旨在解决跨多个领域的复杂推理问题。OctoTools引入了标准化工具卡以封装工具功能，还包括一个用于高层次和低层次规划的规划器，以及一个执行工具使用的执行器。我们在16项不同任务（包括MathVista、MMLU-Pro、MedQA和GAIA-Text）中验证了OctoTools的普适性，平均准确率相较于GPT-4o提高了9.3%。此外，OctoTools在给定相同工具集的情况下，超过了AutoGen、GPT-Functions和LangChain，性能提升高达10.6%。通过全面的分析和消融实验，OctoTools在任务规划、有效使用工具和多步问题解决方面展现了优势。",
+        "地址": "https://arxiv.org/pdf/2502.11271.pdf"
+    },
+    {
+        "名称": "2025 [2502.12859] PAFT: Prompt-Agnostic Fine-Tuning.pdf",
+        "作者": "Chenxing Wei, Yao Shu, Mingwen Ou, Ying Tiffany He, Fei Richard Yu",
+        "摘要": "摘要：尽管大型语言模型(LLMs)在微调后能够很好地适应下游任务，这种适应性往往会影响提示词的鲁棒性，因为即使提示词有微小的变化也会显著降低性能。为了解决这一问题，我们提出了提示词无关微调(PAFT)，这是一种简单但有效的方法，可以在微调过程中动态调整提示词。这鼓励模型学习潜在的任务原则，而不是对特定的提示词形式过拟合。PAFT分为两个阶段操作：首先，构建一组多样化的、有意义的、合成的候选提示词；其次，在微调过程中从这一集合中随机抽取提示词，以创建动态的训练输入。广泛的实验表明，在不同数据集和LLMs上，经过PAFT训练的模型在广泛的提示词（包括未见过的提示词）上表现出强大的鲁棒性和泛化能力。通过这种增强的鲁棒性，模型性能和推理速度都得到了改善，同时保持了训练效率。消融研究进一步证实了PAFT的有效性。\n\n作者：Chenxing Wei, Yao Shu, Mingwen Ou, Ying Tiffany He, Fei Richard Yu\n\n备注：20页，6个图表\n\n链接： [https://arxiv.org/pdf/2502.12859.pdf](https://arxiv.org/pdf/2502.12859.pdf)\n\n标题：2025 [2502.12859] PAFT: 提示词无关微调(Prompt-Agnostic Fine-Tuning).pdf",
+        "地址": "https://arxiv.org/pdf/2502.12859.pdf"
+    },
+    {
+        "名称": "2025 [2502.12170] MUDDFormer: Breaking Residual Bottlenecks in Transformers via Multiway Dynamic Dense Connections.pdf",
+        "作者": "Da Xiao, Qingye Meng, Shengping Li, Xingyuan Yuan",
+        "摘要": "摘要：我们提出了多路动态密集（MUDD）连接，这是一种简单而有效的方法，可以解决残差连接的局限性并增强Transformer中跨层信息的流动。与具有静态和共享连接权重的现有密集连接方法不同，MUDD根据Transformer块中每个序列位置的隐藏状态和每个独立的输入流（查询、键、值或残差）动态生成连接权重。MUDD连接可以无缝集成到任何Transformer架构中，创建MUDDFormer。大量实验表明，MUDDFormer在语言模型中显著优于各种模型架构和规模的Transformer，实现了1.8X-2.4X计算量下Transformer的性能。值得注意的是，MUDDPythia-2.8B在预训练困惑度和下游任务上与Pythia-6.9B相匹配，甚至在五次尝试设置中可与Pythia-12B媲美，而仅增加了0.23%的参数和0.4%的计算量。JAX和PyTorch代码及预训练模型可在此https URL获取。\n\n翻译：我们提出了多路动态密集（MUDD）连接，这是一种简单而有效的方法，通过增强Transformer中跨层信息的流动来解决残差连接的局限性。与现有的静态且共享连接权重的密集连接方法不同，MUDD根据Transformer块的每个序列位置的隐藏状态动态生成连接权重。MUDD连接可以无缝地融入任意Transformer架构中，以创建MUDDFormer。 大量实验表明，MUDDFormer在语言建模中显著超越了各种模型架构和规模的Transformer，实现了1.8倍至2.4倍计算量下Transformer的性能。值得注意的是，MUDDPythia-2.8B在预训练和下游任务表现上可比拟Pythia-6.9B，在五次尝试中甚至可媲美Pythia-12B，而仅增加了0.23%的参数和0.4%的计算量。JAX和PyTorch代码及预训练模型可在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2502.12170.pdf"
+    },
+    {
+        "名称": "2025 [2502.12215] Revisiting the Test-Time Scaling of o1-like Models: Do they Truly Possess Test-Time Scaling Capabilities?.pdf",
+        "作者": "Zhiyuan Zeng, Qinyuan Cheng, Zhangyue Yin, Yunhua Zhou, Xipeng Qiu",
+        "摘要": "摘要：大型语言模型（LLMs）在推理过程中通过扩展计算资源分配实现了测试时扩展能力，例如OpenAI的o1系列。尽管后续模型如QwQ、Deepseek-R1 (R1)和LIMO复制了这些进展，这些模型是否真正具有测试时扩展能力尚未深入探索。本研究发现，这些类似o1模型的较长思考链并不会始终提升准确性；实际上，同一问题的正确答案往往比错误答案更短。进一步研究表明，这一现象与模型的自我修正能力密切相关——较长的思考链包含更多的自我修正，通常会导致性能下降。我们比较了QwQ、R1和LIMO上的顺序和并行扩展策略，发现并行扩展实现了更好的覆盖率和可扩展性。基于这些洞察，我们提出了\"最短多数投票\"方法，该方法结合并行扩展策略与思考链长度特征，与传统的多数投票方法相比显著提升了模型的测试时可扩展性。",
+        "地址": "https://arxiv.org/pdf/2502.12215.pdf"
+    },
+    {
+        "名称": "2025 [2502.13092] Text2World: Benchmarking Large Language Models for Symbolic World Model Generation.pdf",
+        "作者": "Mengkang Hu, Tianxing Chen, Yude Zou, Yuheng Lei, Qiguang Chen, Ming Li, Hongyuan Zhang, Wenqi Shao, Ping Luo",
+        "摘要": "摘要: 最近，人们对利用大型语言模型（LLMs）从文本描述中生成符号世界模型产生了浓厚兴趣。尽管在世界建模背景下对LLMs进行了广泛研究，早期的研究仍面临一些挑战，包括评估的随机性、对间接指标的依赖以及领域范围的有限性。为了解决这些问题，我们基于规划域定义语言（PDDL）引入了一个新基准Text2World，该基准涵盖数百个不同领域，并采用多标准、基于执行的指标进行更稳健的评估。我们利用Text2World对当前的LLMs进行了基准测试，发现使用大规模强化学习训练的推理模型表现优于其他模型。然而，即使是表现最好的模型在世界建模方面仍表现出有限的能力。基于这些见解，我们探讨了几种有前景的策略以增强LLMs的世界建模能力，包括测试时的扩展、代理训练等。我们希望Text2World能成为一个重要资源，为未来利用LLMs作为世界模型的研究奠定基础。项目页面位于这个https URL。",
+        "地址": "https://arxiv.org/pdf/2502.13092.pdf"
+    },
+    {
+        "名称": "2025 [2502.12996] Eager Updates For Overlapped Communication and Computation in DiLoCo.pdf",
+        "作者": "Satyen Kale, Arthur Douillard, Yanislav Donchev",
+        "摘要": "摘要：分布式优化方法，例如DiLoCo，已经被证明在跨多个分布式工作节点（如数据中心）训练非常大的模型时是有效的。这些方法将更新分为两个部分：一个是内部优化阶段，在这个阶段，工作节点独立地对其本地数据执行多个优化步骤；另一个是外部优化步骤，在这个阶段，同步内部更新。虽然这种方法在通信需求上比标准的数据并行训练少得多，但在工作节点是数据中心的情况下，即使是这种有限的通信需求也可能会导致显著的速度减慢，因为每个外部优化步骤都需要阻塞。在本文中，我们研究了通过以一种允许外部优化步骤与内部优化阶段完全重叠的方式来重叠通信与计算的方法来缓解这个问题的技术。我们表明了一种特殊的变体，被称为\"急切更新\"，在工作节点间带宽较低的情况下，可以提供与标准DiLoCo相媲美的性能。",
+        "地址": "https://arxiv.org/pdf/2502.12996.pdf"
+    },
+    {
+        "名称": "2025 [2502.09838] HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation.pdf",
+        "作者": "Tianwei Lin, Wenqiao Zhang, Sijing Li, Yuqian Yuan, Binhe Yu, Haoyuan Li, Wanggui He, Hao Jiang, Mengze Li, Xiaohui Song, Siliang Tang, Jun Xiao, Hui Lin, Yueting Zhuang, Beng Chin Ooi",
+        "摘要": "摘要: 我们介绍了HealthGPT，一个强大的医疗大视听语言模型(Med-LVLM)，它在统一的自回归范式中整合了医疗视觉理解和生成能力。我们的自举理念是逐步将异质的理解和生成知识适应于预训练的大语言模型(LLMs)。这通过一种新颖的异质低秩适应(H-LoRA)技术来实现，并辅以定制的分层视觉感知方法和三阶段学习策略。为了有效地学习HealthGPT，我们设计了一个综合的医疗领域特定的理解和生成数据集，称为VL-Health。实验结果表明，HealthGPT在医疗视觉统一任务中表现出色且具有可扩展性。我们的项目可以在此网址访问。\n\n网址: https://arxiv.org/pdf/2502.09838.pdf\n\n作者: 林天威, 张文乔, 李思静, 袁宇骞, 于滨和, 李昊源, 何望贵, 蒋浩, 李孟泽, 宋晓辉, 唐思亮, 肖骏, 林辉, 庄越挺, 黄志成.",
+        "地址": "https://arxiv.org/pdf/2502.09838.pdf"
+    },
+    {
+        "名称": "2025 [2502.12018] Atom of Thoughts for Markov LLM Test-Time Scaling.pdf",
+        "作者": "Fengwei Teng, Zhaoyang Yu, Quan Shi, Jiayi Zhang, Chenglin Wu, Yuyu Luo",
+        "摘要": "摘要：\n大型语言模型（LLMs）通过训练时间扩展获得卓越的性能，测试时间扩展则通过在推理过程中进行有效的推理进一步增强其能力。然而，随着推理规模的增加，现有的测试时间扩展方法受到累积历史信息的影响，这不仅浪费计算资源，还干扰了有效的推理。为了解决这个问题，我们观察到复杂的推理过程通常通过解决一系列独立的子问题来实现，每个子问题都是自包含且可验证的。这些子问题本质上是原子问题，主要依赖于其当前状态而不是累积的历史信息，类似于马尔可夫过程中无记忆的状态转换。基于这一观察，我们提出了“思想原子”（Atom of Thoughts, AoT），在推理过程中，每个状态转换由将当前问题分解为基于依赖性的有向无环图并压缩其子问题，形成一个新的原子问题状态的过程组成。这个迭代的分解-压缩过程持续进行，直到达到可以直接解决的原子问题状态，自然实现了问题状态之间的马尔可夫转换。此外，这些原子问题可以无缝集成到现有的测试时间扩展方法中，使AoT成为用于提高推理能力的插件。六个基准测试的实验结果表明，AoT既可以作为独立框架使用，也可以作为插件增强使用。特别是在HotpotQA上，当应用于gpt-4o-mini时，AoT实现了80.6%的F1得分，超过了o3-mini 3.4%和DeepSeek-R1 10.6%。代码将公开于此HTTPS URL。\n\n作者：滕丰伟、余兆阳、石泉、张嘉怡、吴成林、罗玉玉\n\n标题：《思想原子用于马尔可夫LLM测试时间扩展》\n\n网址：https://arxiv.org/pdf/2502.12018.pdf",
+        "地址": "https://arxiv.org/pdf/2502.12018.pdf"
+    },
+    {
+        "名称": "2025 [2502.12574] HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading.pdf",
+        "作者": "Cheng Luo, Zefan Cai, Hanshi Sun, Jinqi Xiao, Bo Yuan, Wen Xiao, Junjie Hu, Jiawei Zhao, Beidi Chen, Anima Anandkumar",
+        "摘要": "摘要: 基于Transformer的大型语言模型（LLMs）在长上下文生成中展示了令人印象深刻的性能。然而，扩展上下文长度不成比例地将LLMs在推理过程中的内存占用转移到了关键-值缓存（KV缓存）上。在本文中，我们提出了HEADINFER，它将KV缓存卸载到CPU RAM，同时避免了在任何Transformer层上完全存储KV缓存于GPU上。HEADINFER采用细粒度、基于头部的卸载策略，仅在GPU上保留部分注意头的KV缓存，同时动态计算注意输出。通过roofline分析，我们证明了HEADINFER在显著减少内存占用的同时维持了计算效率。我们在Llama-3-8B模型上将HEADINFER与1百万标记序列进行评估，将KV缓存的GPU内存占用从128 GB减少到1 GB，总体GPU内存使用量从207 GB减少到17 GB，相较于BF16基线推理实现了92%的减少。值得注意的是，HEADINFER使得在单个拥有24GB内存的消费级GPU（例如NVIDIA RTX 4090）上无需使用近似方法即可实现4百万标记的推理。",
+        "地址": "https://arxiv.org/pdf/2502.12574.pdf"
+    },
+    {
+        "名称": "2025 [2502.12501] Crowd Comparative Reasoning: Unlocking Comprehensive Evaluations for LLM-as-a-Judge.pdf",
+        "作者": "Qiyuan Zhang, Yufei Wang, Yuxin Jiang, Liangyou Li, Chuhan Wu, Yasheng Wang, Xin Jiang, Lifeng Shang, Ruiming Tang, Fuyuan Lyu, Chen Ma",
+        "摘要": "摘要：LLM-as-a-Judge生成链式思维（CoT）判断，已成为广泛采用的自动评估方法。然而，由于CoT推理无法捕捉全面和深入的细节，其可靠性受到影响，常导致结果不完整。现有方法主要依赖多数投票或标准扩展来处理这个局限性，但这些方法不足以解决CoT中的问题。我们提出了一种基于众包的比较评估方法，通过引入额外的众多响应来与候选响应进行比较，从而揭示候选响应中的更深入和更全面的细节。这一过程有效地引导LLM-as-a-Judge提供更为详尽的CoT判断。大量实验表明，我们的方法提高了评估的可靠性，在五个基准上取得了平均6.7%的准确性提升。此外，我们的方法生成了更高质量的CoTs，有助于裁判蒸馏，并在监督微调（SFT）的拒采样中表现出优越性能，称为众包拒采样，从而实现更高效的SFT。我们的分析证实，由我们生成的CoTs更加全面且质量更高，且随着推理规模的扩大，评估准确性也有所提高。",
+        "地址": "https://arxiv.org/pdf/2502.12501.pdf"
+    },
+    {
+        "名称": "2025 [2502.12929] Flow-of-Options: Diversified and Improved LLM Reasoning by Thinking Through Options.pdf",
+        "作者": "Lakshmi Nair, Ian Trase, Mark Kim",
+        "摘要": "摘要：我们提出了一种称为Flow-of-Options（FoO）的新颖推理方法，用于解决大型语言模型（LLMs）中的内在偏见问题。FoO使LLMs能够系统地探索多种可能性，在其推理中展示更大的多样性。我们展示了一个基于FoO的自主系统，用于自动完成机器学习任务（AutoML）。我们的框架在标准数据科学任务上取得了38.2%-69.2%的改进，在治疗化学任务上取得了37.4%-47.9%的改进。每个任务的总操作成本低于1美元，使我们的框架非常适合对成本敏感的应用。除了分类和回归，我们还展示了基于FoO的自主系统在强化学习和图像生成等任务中的广泛适用性。与当前最先进的AutoML自主系统相比，我们的框架在多个方面展现了显著进步，得益于FoO通过压缩、可解释的表示形式强制在LLM解决方案中实现多样性，并结合基于案例推理支持长期记忆。\n\n翻译为中文后摘要：我们提出了一种称为Flow-of-Options（FoO）的新颖推理方法，用于解决大型语言模型（LLMs）中的内在偏见问题。FoO使LLMs能够系统地探索多种可能性，并在其推理过程中展示更大的多样性。本文展示了一个基于FoO的自主系统，用于自主解决机器学习任务（AutoML）。我们的框架在标准数据科学任务上相比最先进的基线有所提升，达到了38.2% - 69.2%的改进，并在治疗化学任务上达到了37.4% - 47.9%的提升。每个任务的总操作成本低于1美元，使得该框架非常适用于对成本敏感的应用。除分类和回归外，我们还展示了基于FoO的自主系统在强化学习和图像生成任务中的广泛适用性。由于FoO在LLM解决方案中通过压缩、可解释的表征强制实现多样性，并结合基于案例推理支持长期记忆，因此我们的框架相比当前最先进的AutoML自主系统展示了显著的进步。",
+        "地址": "https://arxiv.org/pdf/2502.12929.pdf"
+    },
+    {
+        "名称": "2025 [2502.10708] Injecting Domain-Specific Knowledge into Large Language Models: A Comprehensive Survey.pdf",
+        "作者": "Zirui Song, Bin Yan, Yuhan Liu, Miao Fang, Mingzhe Li, Rui Yan, Xiuying Chen",
+        "摘要": "以下是该学术论文的摘要，并将其翻译为中文：\n\n摘要：大型语言模型（Large Language Models, LLMs）在自然语言理解、文本摘要和机器翻译等各种任务中表现出了显著的成功。然而，其通用性往往限制了它们在需要专业知识的领域特定应用中的有效性，例如医疗保健、化学或法律分析。为了解决这一问题，研究人员探索了通过整合领域特定知识来增强LLMs的多种方法。在本次综述中，我们提供了这些方法的全面概述，并将其分为四类主要方法：动态知识注入、静态知识嵌入、模块化适配器和提示优化。每种方法提供了使LLMs具备领域专业知识的独特机制，平衡了灵活性、可扩展性和效率之间的权衡。我们讨论了这些方法如何使LLMs能够解决专业任务，比较了它们的优缺点，评估了领域特定LLMs与通用LLMs的对比，并强调了这一新兴领域中的挑战和机遇。对于那些对深入研究该领域感兴趣的人，我们还总结了常用的数据集和基准测试。为了使研究人员及时了解最新的研究动态，我们在此开放源码网址维护了一份专门记录该领域研究的文档：https://arxiv.org/pdf/2502.10708.pdf。\n\n原文链接：https://arxiv.org/pdf/2502.10708.pdf\n\n作者：Zirui Song, Bin Yan, Yuhan Liu, Miao Fang, Mingzhe Li, Rui Yan, Xiuying Chen\n\n备注：正在处理",
+        "地址": "https://arxiv.org/pdf/2502.10708.pdf"
+    },
+    {
+        "名称": "2025 [2502.08869] Harnessing Vision Models for Time Series Analysis: A Survey.pdf",
+        "作者": "Jingchao Ni, Ziming Zhao, ChengAo Shen, Hanghang Tong, Dongjin Song, Wei Cheng, Dongsheng Luo, Haifeng Chen",
+        "摘要": "摘要: 时间序列分析已经从传统的自回归模型、深度学习模型发展到最近的变换器和大语言模型（LLMs）。虽然在时间序列分析中利用视觉模型的努力也在进行中，但由于这一领域主要研究的是序列建模，这些努力不太被社区所关注。然而，连续时间序列和LLMs离散符号空间之间的差异，以及显式建模多元时间序列中变量相关性所面临的挑战，使得一些研究注意力转向同样成功的大视觉模型（LVMs）和视觉语言模型（VLMs）。为了弥补现有文献的空白，本文调查了视觉模型在时间序列分析中相对于LLMs的优势。本文全面深入地概述了现有方法，通过详细的分类体系回答了如何将时间序列编码为图像以及如何对成像的时间序列进行各种任务建模等关键研究问题。除此之外，我们还解决了该框架中涉及的前后处理步骤中的挑战，并概述了未来进一步利用视觉模型推进时间序列分析的发展方向。",
+        "地址": "https://arxiv.org/pdf/2502.08869.pdf"
+    },
+    {
+        "名称": "2025 [2502.12669] Perovskite-LLM: Knowledge-Enhanced Large Language Models for Perovskite Solar Cell Research.pdf",
+        "作者": "Xiang Liu, Penglei Sun, Shuyan Chen, Longhan Zhang, Peijie Dong, Huajie You, Yongqi Zhang, Chang Yan, Xiaowen Chu, Tong-yi Zhang",
+        "摘要": "摘要: 由于钙钛矿太阳能电池（PSCs）的快速发展，研究出版物呈指数级增长，因此在该领域迫切需要高效的知识管理和推理系统。本文提出了一个用于PSCs的综合知识增强系统，包含三个关键组成部分。首先，我们构建了Perovskite-KG，一个从1517篇研究论文中构建的领域特定知识图谱，包含23,789个实体和22,272个关系。其次，我们创建了两个互补的数据集：Perovskite-Chat，包含通过一种新颖的多智能体框架生成的55,101个高质量问答对，和Perovskite-Reasoning，包含2,217个精心策划的材料科学问题。第三，我们引入了两个专业的大型语言模型：为领域特定知识提供支持的Perovskite-Chat-LLM和为科学推理任务提供支持的Perovskite-Reasoning-LLM。实验结果表明，我们的系统在领域特定知识检索和科学推理任务方面显著优于现有模型，为科研人员在PSCs研究中的文献综述、实验设计和复杂问题解决方面提供了有效的工具。",
+        "地址": "https://arxiv.org/pdf/2502.12669.pdf"
+    },
+    {
+        "名称": "2025 [2502.13142] Pre-training Auto-regressive Robotic Models with 4D Representations.pdf",
+        "作者": "Dantong Niu, Yuvan Sharma, Haoru Xue, Giscard Biamby, Junyi Zhang, Ziteng Ji, Trevor Darrell, Roei Herzig",
+        "摘要": "摘要: 预训练在大量未标记数据集上的基础模型已经彻底改变了自然语言处理和计算机视觉，展示了卓越的泛化能力，从而突显了预训练的重要性。然而，机器人领域的努力却难以取得类似的成功，受限于对昂贵的机器人注释的需求或缺乏有效建模物理世界的表示。在本文中，我们介绍了ARM4R，一种利用从人类视频数据中学习到的低级4D表示生成更好的预训练机器人模型的自回归机器人模型。具体而言，我们专注于通过在时间轴上通过单目深度估计将2D表示提升到3D空间，从视频中利用3D点跟踪表示。这些4D表示在一个线性变换下保持点与机器人状态表示之间的共享几何结构，从而能够实现从人类视频数据到低级机器人控制的高效迁移学习。我们的实验表明，ARM4R能够有效地从人类视频数据迁移到机器人领域，并在各种机器人环境和配置任务中持续提高性能。\n\n来源：Dantong Niu, Yuvan Sharma, Haoru Xue, Giscard Biamby, Junyi Zhang, Ziteng Ji, Trevor Darrell, Roei Herzig (2025) \"Pre-training Auto-regressive Robotic Models with 4D Representations\"\n链接：https://arxiv.org/pdf/2502.13142.pdf",
+        "地址": "https://arxiv.org/pdf/2502.13142.pdf"
+    },
+    {
+        "名称": "2025 [2502.10852] Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages.pdf",
+        "作者": "Zeli Su, Ziyin Zhang, Guixian Xu, Jianing Liu, XU Han, Ting Zhang, Yushuang Dong",
+        "摘要": "2025年，摘要：尽管像XLM-R这样的多语言模型在NLP中的多语言处理方面取得了进展，但它们在极低资源语言上的表现仍然不尽如人意。尤其是当代的大型语言模型（如LLaMA和Qwen）支持的语言要远少于XLM-R，这使得许多世界语言几乎没有对应的文本生成模型。为了应对这一挑战，我们提出了一种新的框架，用于将多语言编码器适应于极低资源语言的文本生成。通过在编码器和解码器之间重用权重，我们的框架允许模型利用编码器的语义空间，从而在低资源语言中实现高效学习和有效泛化。将该框架应用于四种中国少数民族语言，我们提出了XLM-SWCM模型，即使与更大规模的模型相比，它在各种下游任务中也表现出卓越的性能。\n\n作者：苏泽立，张子寅，许桂仙，刘佳宁，韩旭，张婷，董羽霜\n\n链接：https://arxiv.org/pdf/2502.10852.pdf\n\n标题：多语言编码器比你想象的更懂：面向极低资源语言的共享权重预训练",
+        "地址": "https://arxiv.org/pdf/2502.10852.pdf"
+    },
+    {
+        "名称": "2025 [2502.12130] Scaling Autonomous Agents via Automatic Reward Modeling And Planning.pdf",
+        "作者": "Zhenfang Chen, Delin Chen, Rui Sun, Wenjun Liu, Chuang Gan",
+        "摘要": "摘要：大型语言模型（LLMs）在一系列文本生成任务中展示了显著的能力。然而，LLMs在需要多步决策和环境反馈的问题上仍存在困难，例如在线购物、科学推理和数学问题求解。与纯文本数据不同，收集大规模决策数据存在挑战。此外，许多强大的LLMs只能通过API访问，这由于成本和复杂性而阻碍了它们在代理任务中的微调。为了应对LLM代理的局限性，我们提出了一个框架，可以自动从环境中学习奖励模型，而无需人工注释。该模型可以用于评估LLM代理的行动轨迹，并为任务计划提供启发。具体而言，我们的方法涉及使用一个基于LLM的代理随机导航环境，生成多样的行动轨迹。随后，利用另一个LLM为每个轨迹分配任务意图，并综合生成正确和负面响应。这些三重组合（任务意图、正面响应和负面响应）然后作为训练数据，优化一个能够对行动轨迹进行评分的奖励模型。通过在不同的代理基准上的评估，我们证明了我们框架的有效性和普遍性。总之，我们提出的框架在增强LLM代理决策能力方面代表了一个重要的进展。通过自动学习奖励模型，我们克服了数据稀缺和API限制的挑战，有可能彻底改变LLMs在复杂和互动环境中的应用。该研究为更复杂的AI代理铺平了道路，使其能够应对需要多步决策的广泛现实问题。",
+        "地址": "https://arxiv.org/pdf/2502.12130.pdf"
+    },
+    {
+        "名称": "2025 [2502.12524] YOLOv12: Attention-Centric Real-Time Object Detectors.pdf",
+        "作者": "Yunjie Tian, Qixiang Ye, David Doermann",
+        "摘要": "摘要：增强 YOLO 框架的网络架构长时间以来一直是一个重要课题，但大多集中在基于卷积神经网络（CNN）的改进上，尽管注意力机制在建模能力上已被证明具有优势。这是因为基于注意力的模型无法与基于 CNN 的模型在速度上匹敌。本文提出了一个以注意力为中心的 YOLO 框架，即 YOLOv12，它在利用注意力机制性能优势的同时匹配了之前基于 CNN 模型的速度。YOLOv12 在精度上超越了所有流行的实时物体检测器，并且速度也具有竞争力。例如，YOLOv12-N 在 T4 GPU 上的推理延迟为 1.64 毫秒的情况下实现了 40.6% 的 mAP，分别超越了先进的 YOLOv10-N 和 YOLOv11-N 2.1% 和 1.2% 的 mAP，速度也相当。这一优势在其他型号规模上也有所体现。YOLOv12 还超越了改进 DETR 的端到端实时检测器，例如 RT-DETR 和 RT-DETRv2，其中 YOLOv12-S 比 RT-DETR-R18 和 RT-DETRv2-R18 更快 42%，只使用了 36% 的计算量和 45% 的参数。更多对比请见图1。",
+        "地址": "https://arxiv.org/pdf/2502.12524.pdf"
+    },
+    {
+        "名称": "2025 [2502.10990] FinMTEB: Finance Massive Text Embedding Benchmark.pdf",
+        "作者": "Yixuan Tang, Yi Yang",
+        "摘要": "摘要: 嵌入模型在各种自然语言处理（NLP）应用中发挥着关键作用，用于表示和检索信息。大型语言模型（LLM）的最新进展进一步提高了嵌入模型的性能。尽管这些模型经常在通用数据集上进行基准测试，但现实世界的应用需要特定领域的评估。在这项工作中，我们介绍了金融大规模文本嵌入基准（FinMTEB），这是专为金融领域设计的MTEB的专门对照版本。FinMTEB包括64个金融领域特定的嵌入数据集，涵盖7个任务，涉及多种类型的文本，包括中文和英文的金融新闻文章、公司年度报告、环境、社会和治理（ESG）报告、监管文件和盈利电话会议记录。我们还使用基于角色的数据合成方法开发了一种适应金融的模型FinPersona-E5，以涵盖多种金融嵌入任务进行训练。通过对15个嵌入模型（包括FinPersona-E5）的广泛评估，我们得出了三个关键发现：（1）在通用基准测试上的表现与金融领域任务的相关性有限；（2）特定领域适应的模型始终优于其通用对照模型；（3）令人惊讶的是，在金融语义文本相似性（STS）任务中，简单的词袋（BoW）方法比复杂的密集嵌入技术表现更好，突显了当前密集嵌入技术的局限性。我们的工作为金融NLP应用建立了一个稳健的评估框架，并为开发特定领域嵌入模型提供了重要见解。\n\n作者: 唐奕轩，杨毅\n\n评论: 此https URL\n\n网址: https://arxiv.org/pdf/2502.10990.pdf\n\n标题: 2025 [2502.10990] 金融大规模文本嵌入基准（FinMTEB）.pdf",
+        "地址": "https://arxiv.org/pdf/2502.10990.pdf"
+    }
+]
