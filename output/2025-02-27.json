@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2502.18417] GHOST 2.0: generative high-fidelity one shot transfer of heads.pdf",
+        "作者": "Alexander Groshev, Anastasiia Iashchenko, Pavel Paramonov, Denis Dimitrov, Andrey Kuznetsov",
+        "摘要": "摘要：尽管人脸置换任务最近在研究界获得了关注，但与之相关的头部置换问题仍然很少被探索。除了肤色传递之外，头部置换还提出了额外的挑战，例如在合成过程中需要保持整个头部的结构信息以及填补置换后头部与背景之间的缝隙。在本文中，我们用GHOST 2.0来解决这些问题，该方法包括两个特定问题模块。首先，我们引入了增强对齐模型，用于头部重现，该模型在多个尺度上保留身份信息，并且对极端姿态变化具有鲁棒性。其次，我们使用Blender模块，通过传递肤色和补绘不匹配区域，将重现的头部无缝集成到目标背景中。这两个模块在对应任务上都优于基准表现，使得头部置换任务达到了最新的研究水平。我们还处理了复杂情况，例如源和目标之间发型的巨大差异。代码可以在此HTTPS URL获得。\n\n作者：Alexander Groshev, Anastasiia Iashchenko, Pavel Paramonov, Denis Dimitrov, Andrey Kuznetsov\n\n论文标题：[2502.18417] GHOST 2.0: 一次性头部高保真生成转移\n\n论文链接：https://arxiv.org/pdf/2502.18417.pdf",
+        "地址": "https://arxiv.org/pdf/2502.18417.pdf"
+    },
+    {
+        "名称": "2025 [2502.18934] Kanana: Compute-efficient Bilingual Language Models.pdf",
+        "作者": "Kanana LLM Team: Yunju Bak, Hojin Lee, Minho Ryu, Jiyeon Ham, Seungjae Jung, Daniel Wontae Nam, Taegyeong Eo, Donghun Lee, Doohae Jung, Boseop Kim, Nayeon Kim, Jaesun Park, Hyunho Kim, Hyunwoong Ko, Changmin Lee, Kyoung-Woon On, Seulye Baeg, Junrae Cho, Sunghee Jung, Jieun Kang, EungGyun Kim, Eunhwa Kim, Byeongil Ko, Daniel Lee, Minchul Lee, Miok Lee, Shinbok Lee, Gaeun Seo",
+        "摘要": "摘要：我们介绍了Kanana，一个表现出色的双语语言模型系列，在韩语上表现优越，在英语上具有竞争力。Kanana的计算成本显著低于同等规模的最先进模型。报告详细描述了在预训练过程中使用的技术，以实现计算效率高且具有竞争力的模型，包括高质量的数据过滤，分阶段预训练，深度扩展，以及修剪和蒸馏。报告还概述了Kanana模型在训练后使用的方法，包括监督微调和偏好优化，旨在增强其与用户无缝互动的能力。最后，报告解释了用于语言模型适应特定场景的可行方法，如嵌入、检索增强生成和函数调用。Kanana模型系列涵盖从2.1B到32.5B参数，其中2.1B参数的模型（基础模型、指令模型、嵌入模型）已经公开发布，以促进韩语语言模型的研究。",
+        "地址": "https://arxiv.org/pdf/2502.18934.pdf"
+    },
+    {
+        "名称": "2025 [2502.19400] TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding.pdf",
+        "作者": "Max Ku, Thomas Chong, Jonathan Leung, Krish Shah, Alvin Yu, Wenhu Chen",
+        "摘要": "摘要：理解领域特定的定理往往需要超越简单的基于文本的推理；通过结构化的视觉解释进行有效沟通对于更深入的理解至关重要。尽管大型语言模型（LLMs）在基于文本的定理推理中表现出色，但它们生成连贯且具有教育意义的视觉解释的能力仍是一个未解的难题。在这项工作中，我们介绍了TheoremExplainAgent，一种使用Manim动画生成长篇（超过5分钟）的定理解释视频的新方法。为了系统地评估多模态定理解释，我们提出了TheoremExplainBench，这是一项覆盖多个STEM学科的240个定理的基准测试，并附带5个自动评估指标。我们的结果表明，代理规划对于生成详细的长篇视频至关重要，o3-mini代理达到了93.8%的成功率和0.77的整体评分。然而，我们的定量和定性研究表明，大多数生成的视频在视觉元素布局上存在轻微问题。此外，多模态解释揭示了文本解释未能揭示的更深层次的推理缺陷，突显了多模态解释的重要性。",
+        "地址": "https://arxiv.org/pdf/2502.19400.pdf"
+    },
+    {
+        "名称": "2025 [2502.18772] Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance.pdf",
+        "作者": "Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoros Giannouris, Ruoyu Xiang, Yan Wang, Lingfei Qian, Jimin Huang, Qianqian Xie, Sophia Ananiadou",
+        "摘要": "摘要：尽管希腊在全球经济中扮演着重要角色，由于希腊语言的复杂性和特定领域数据集的稀缺，大型语言模型（LLMs）在希腊金融背景中的应用仍然没有得到充分探索。此前在多语言金融自然语言处理（NLP）方面的努力暴露出显著的性能差异，但直到现在还没有专门的希腊金融基准或希腊特定的金融LLMs。为了填补这一空白，我们介绍了Plutus-ben，第一个希腊金融评估基准，以及Plutus-8B，首个希腊金融LLM，使用希腊特定领域数据进行了微调。Plutus-ben解决了五个核心的希腊金融NLP任务：数字和文本命名实体识别、问答、抽象概括和主题分类，从而方便了系统且可重复的LLM评估。为支持这些任务，我们提供了三个全新的高质量希腊金融数据集，这些数据集由希腊语本土专家彻底标注，并补充了两个现有资源。我们对22个LLMs在Plutus-ben上的全面评估表明，由于语言复杂性、特定领域术语以及金融推理缺口，希腊金融NLP仍然具有挑战性。这些发现强调了跨语言迁移的局限性、在希腊训练模型中对金融专业知识的必要性以及将金融LLMs适应希腊文本的挑战。我们公开发布了Plutus-ben、Plutus-8B及所有相关数据集，以促进可重复的研究并推进希腊金融NLP的发展，促进金融领域的多语言包容性。\n\n翻译：摘要：尽管希腊在全球经济中扮演着重要角色，由于希腊语言的复杂性和特定领域数据集的稀缺，大型语言模型（LLMs）在希腊金融背景中的应用仍没有得到充分探索。此前在多语言金融自然语言处理（NLP）方面的努力暴露出显著的性能差异，但直到现在还没有专门的希腊金融基准或希腊特定的金融LLMs。为了填补这一空白，我们介绍了Plutus-ben，第一个希腊金融评估基准，以及Plutus-8B，首个希腊金融LLM，使用希腊特定领域数据进行了微调。Plutus-ben解决了五个核心的希腊金融NLP任务：数字和文本命名实体识别、问答、抽象概括和主题分类，从而方便了系统且可重复的LLM评估。为支持这些任务，我们提供了三个全新的高质量希腊金融数据集，这些数据集由希腊语本土专家彻底标注，并补充了两个现有资源。我们对22个LLMs在Plutus-ben上的全面评估表明，由于语言复杂性、特定领域术语以及金融推理缺口，希腊金融NLP仍然具有挑战性。这些发现强调了跨语言迁移的局限性、在希腊训练模型中对金融专业知识的必要性以及将金融LLMs适应希腊文本的挑战。我们公开发布了Plutus-ben、Plutus-8B及所有相关数据集，以促进可重复的研究并推进希腊金融NLP的发展，促进金融领域的多语言包容性。",
+        "地址": "https://arxiv.org/pdf/2502.18772.pdf"
+    },
+    {
+        "名称": "2025 [2502.17955] Language Models' Factuality Depends on the Language of Inquiry.pdf",
+        "作者": "Tushar Aggarwal, Kumar Tanmay, Ayush Agrawal, Kumar Ayush, Hamid Palangi, Paul Pu Liang",
+        "摘要": "摘要：多语言语言模型（LMs）被期望能够在不同语言中一致地记住事实知识，然而它们常常无法在拥有正确信息的情况下在不同语言之间转移知识。例如，我们发现，当被问及阿拉伯语时，一个LM可能会正确识别Rashed Al Shashai来自沙特阿拉伯，但在被问及英语或斯瓦希里语时则经常失败。为了系统地研究这个限制，我们引入了一个包含13种语言的10,000个国家相关事实的基准，并提出了三个新的指标：事实召回分数、知识转移性分数以及跨语言事实知识转移性分数——以量化LM在不同语言中的事实召回和知识转移性。我们的结果揭示了当今最先进的LMs在跨语言泛化中的根本弱点，即模型在不同语言间无法有效地转移知识，导致对使用的语言敏感的性能不一致。我们的发现强调了LMs需要认识到语言特定的事实可靠性，并利用跨语言中最可信的信息。我们发布了我们的基准和评估框架，以推动多语言知识转移的未来研究。\n\n作者: Tushar Aggarwal, Kumar Tanmay, Ayush Agrawal, Kumar Ayush, Hamid Palangi, Paul Pu Liang",
+        "地址": "https://arxiv.org/pdf/2502.17955.pdf"
+    },
+    {
+        "名称": "2025 [2502.19361] Can Large Language Models Detect Errors in Long Chain-of-Thought Reasoning?.pdf",
+        "作者": "Yancheng He, Shilong Li, Jiaheng Liu, Weixun Wang, Xingyuan Bu, Ge Zhang, Zhongyuan Peng, Zhaoxiang Zhang, Zhicheng Zheng, Wenbo Su, Bo Zheng",
+        "摘要": "摘要：最近，o1类模型引起了广泛关注，这些模型生成长链式思维（CoT）的推理步骤，以提高现有大型语言模型（LLMs）的推理能力。本文中，为了理解这些长链式思维的质量并衡量现有LLMs在这些长链式思维上的批判能力，我们介绍了DeltaBench，包括从不同o1类模型（例如，QwQ，DeepSeek-R1）生成的用于不同推理任务（例如，数学、代码、一般推理）的长链式思维，以衡量在长链式思维推理中发现错误的能力。基于DeltaBench，我们首先对生成的长链式思维进行细粒度分析，以发现不同o1类模型的有效性和效率。然后，我们对现有过程奖励模型（PRMs）和批判模型进行了广泛评估，以检测每个注释过程中的错误，旨在调查现有PRMs和批判模型的边界和局限性。最后，我们希望DeltaBench能够指导开发者更好地理解其模型的长链式思维推理能力。\n\n作者：何艳成，李世龙，刘家恒，王维勋，布星元，张戈，彭中原，张肇翔，郑志成，苏文博，郑博\n\n注释：前四位作者贡献相同，共27页\n\n链接：https://arxiv.org/pdf/2502.19361.pdf\n\n标题：2025 [2502.19361] 大型语言模型能否检测长链式思维推理中的错误？",
+        "地址": "https://arxiv.org/pdf/2502.19361.pdf"
+    },
+    {
+        "名称": "2025 [2502.19328] Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems.pdf",
+        "作者": "Hao Peng, Yunjia Qi, Xiaozhi Wang, Zijun Yao, Bin Xu, Lei Hou, Juanzi Li",
+        "摘要": "摘要：奖励模型（RMs）对于大规模语言模型（LLMs）的训练和推理扩展至关重要。然而，现有的奖励模型主要关注人类偏好，忽视了已验证的正确性信号，而这些信号在训练LLMs中显示出很大的潜力。本文提出了一种智能体奖励建模，结合来自不同方面的奖励模型和可验证的正确性信号，提供可靠的奖励。我们实践了一个奖励智能体，命名为RewardAgent，它结合了人类偏好奖励以及两个可验证信号：事实性和指令遵循，以提供更可靠的奖励。我们在现有的奖励模型基准测试和现实世界下游任务的推理时间最佳搜索上进行了全面实验。RewardAgent显著优于传统奖励模型，展示了其有效性。我们进一步使用RewardAgent构建训练偏好对，并使用DPO目标训练LLM，在各种NLP基准上取得了优于传统奖励模型的卓越性能。我们公开了代码以促进进一步研究。（this https URL）",
+        "地址": "https://arxiv.org/pdf/2502.19328.pdf"
+    },
+    {
+        "名称": "2025 [2502.18864] Towards an AI co-scientist.pdf",
+        "作者": "Juraj Gottweis, Wei-Hung Weng, Alexander Daryin, Tao Tu, Anil Palepu, Petar Sirkovic, Artiom Myaskovsky, Felix Weissenberger, Keran Rong, Ryutaro Tanno, Khaled Saab, Dan Popovici, Jacob Blum, Fan Zhang, Katherine Chou, Avinatan Hassidim, Burak Gokturk, Amin Vahdat, Pushmeet Kohli, Yossi Matias, Andrew Carroll, Kavita Kulkarni, Nenad Tomasev, Yuan Guan, Vikram Dhillon, Eeshit Dhaval Vaishnav, Byron Lee, Tiago R D Costa, José R Penadés, Gary Peltz, Yunhan Xu, Annalisa Pawlosky, Alan Karthikesalingam, Vivek Natarajan",
+        "摘要": "摘要：科学发现依赖于科学家们生成新颖假设并经过严格的实验验证。为了增强这个过程，我们引入了一名AI共生科学家，这是一个基于Gemini 2.0的多代理系统。AI共生科学家旨在帮助发现新的、原创的知识，并提出经过验证的新研究假设和提案，这些假设和提案是基于之前的证据并与科学家提供的研究目标和指导相一致。该系统的设计结合了生成、辩论和进化的方法来生成假设，受科学方法启发，并通过扩展测试时间计算加速这一过程。主要贡献包括：(1) 一个具有异步任务执行框架的多代理架构，用于灵活计算扩展；(2) 通过锦标赛进化过程自我改进假设生成。自动评估显示了测试时间计算的持续优势，改进了假设质量。虽然是通用的，但我们在三个生物医学领域集中开发和验证：药物再利用、新靶标发现，以及解释细菌进化和抗微生物耐药性的机制。在药物再利用方面，系统提出了具有有希望的验证发现的候选药物，包括在临床可应用浓度下在体外显示出肿瘤抑制的急性髓系白血病候选药物。对于新靶标发现，AI共生科学家提出了针对肝纤维化的新表观遗传靶标，这些靶标通过在人类肝类器官中显示的抗纤维化活性和肝细胞再生得到了验证。最后，AI共生科学家通过在硅内发现的一种新的基因转移机制，重述了未发表的实验结果。这些结果在单独的同步报告中详细说明，展示了增强生物医学和科学发现的潜力，并预示了一个AI赋能的科学家时代的到来。",
+        "地址": "https://arxiv.org/pdf/2502.18864.pdf"
+    },
+    {
+        "名称": "2025 [2502.19414] Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation.pdf",
+        "作者": "Shiven Sinha, Shashwat Goel, Ponnurangam Kumaraguru, Jonas Geiping, Matthias Bethge, Ameya Prabhu",
+        "摘要": "摘要：随着语言模型（LMs）在加速科学发现方面潜力的兴起，人们对此充满期待。证伪假设是科学进步的关键，因为它允许随着时间的推移对主张进行迭代优化。这个过程需要研究人员投入大量的努力、推理和创造力。然而，当前对LMs基准测试主要评估其生成解决方案的能力，而非挑战它们。我们主张开发评估这种反向能力的基准 - 为微妙不正确的解决方案创建反例。为了展示这种方法，我们从算法问题解决领域开始，在这个领域中，可以通过代码执行自动评估反例。具体而言，我们引入了REFUTE，这是一个动态更新的基准，其中包含了最近编程比赛中的问题和错误提交，且人类专家成功地识别出了反例。我们的分析发现，即使是拥有代码执行反馈的最佳推理代理（如OpenAI o3-mini（高）），也只能为REFUTE中的<9%的错误解决方案创建反例，尽管其评分显示其从零开始解决这些问题的能力高达48%。我们希望我们的工作能促进在评估和增强LMs证伪不正确解决方案能力方面的进展 - 这一能力对加速研究以及模型通过可靠的反思推理进行自我改进至关重要。",
+        "地址": "https://arxiv.org/pdf/2502.19414.pdf"
+    },
+    {
+        "名称": "2025 [2502.19413] Project Alexandria: Towards Freeing Scientific Knowledge from Copyright Burdens via LLMs.pdf",
+        "作者": "Christoph Schuhmann, Gollam Rabby, Ameya Prabhu, Tawsif Ahmed, Andreas Hochlehnert, Huu Nguyen, Nick Akinci Heidrich, Ludwig Schmidt, Robert Kaczmarczyk, Sören Auer, Jenia Jitsev, Matthias Bethge",
+        "摘要": "摘要: 由于付费墙、许可证和版权规定，科学知识的广泛传播和再利用常受到限制。我们认为在法律和技术上均可行的是从学术文本中提取科学知识。当前的方法，如文本嵌入模型，无法可靠地保持事实内容，简单的改写也可能不符合法律要求。我们敦促学术界采用一种新思路：使用大型语言模型 (LLMs) 将学术文献转换为知识单元。这些单元利用结构化数据捕捉实体、属性和关系，而不包含文体内容。我们提供的证据表明，知识单元：(1) 依据德国版权法和美国合理使用原则的法律分析，构成了一个合法的知识共享框架；(2) 保留了大部分（约95%）原始文本中的事实知识，通过对四个研究领域原始版权文本中事实的选择题（MCQ）表现进行测量。解放科学知识可以通过允许语言模型重新使用版权文本中的重要事实，为科学研究和教育带来变革性的好处。为此，我们分享了用于将研究文献转换为知识单元的开源工具。总的来说，我们的工作表明，在尊重版权的同时，实现科学知识民主化的可行性。",
+        "地址": "https://arxiv.org/pdf/2502.19413.pdf"
+    },
+    {
+        "名称": "2025 [2502.18418] Rank1: Test-Time Compute for Reranking in Information Retrieval.pdf",
+        "作者": "Orion Weller, Kathryn Ricci, Eugene Yang, Andrew Yates, Dawn Lawrie, Benjamin Van Durme",
+        "摘要": "摘要: 我们介绍了Rank1，这是第一个经过训练以利用测试时计算的重新排序模型。Rank1展示了在检索中使用推理语言模型（例如OpenAI的o1，Deepseek的R1等）进行蒸馏，以迅速提高较小模型性能的适用性。我们收集并开源了一个包含超过60万个MS MARCO中查询和段落生成的R1推理轨迹的数据集。基于该数据集训练的模型显示：（1）在高级推理和指令遵循数据集上表现出最先进的性能；（2）由于能够响应用户输入提示，因此在分布外表现非常出色；和（3）具有可向用户或基于RAG的系统提供的可解释推理链。此外，我们展示了这些模型的量化版本在使用更少计算/内存的情况下仍然保持强劲的性能。总体而言，Rank1表明测试时计算允许一种根本上新的、可解释且性能优越的搜索重新排序模型。\n\n作者: Orion Weller, Kathryn Ricci, Eugene Yang, Andrew Yates, Dawn Lawrie, Benjamin Van Durme\n\n链接: https://arxiv.org/pdf/2502.18418.pdf\n\n标题: 2025 [2502.18418] Rank1: 信息检索中重新排序的测试时计算.pdf",
+        "地址": "https://arxiv.org/pdf/2502.18418.pdf"
+    },
+    {
+        "名称": "2025 [2502.18906] VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model.pdf",
+        "作者": "Jiani Zheng, Lu Wang, Fangkai Yang, Chaoyun Zhang, Lingrui Mei, Wenjie Yin, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Qi Zhang",
+        "摘要": "摘要: 用于图形用户界面（GUI）代理的视觉语言模型（VLMs）训练通过强化学习（RL）面临关键挑战：基于环境的RL需要昂贵的交互，而无环境的方法则难以处理分布偏移和奖励泛化问题。我们提出了一种无环境的RL框架，通过利用预训练的价值环境模型（VEM）来解耦值估计和策略优化。VEM直接从离线数据中预测状态-动作值，提取类似于人类对GUI交互结果的先验知识，而不需要下一个状态的预测或环境反馈。这样可以避免累积错误，并通过关注语义推理（例如，这个动作是否推进了用户的目标？）增强对UI变化的弹性。该框架分两个阶段操作：（1）预训练VEM以估计长期动作效用；（2）通过冻结的VEM信号指导策略探索，从而实现布局无关的GUI自动化。在Android-in-the-Wild基准上评估，VEM在离线和在线设置中均实现了最先进的性能，显著超过了无环境的基线，并在没有交互成本的情况下匹配环境基方法的表现。重要的是，VEM表明，语义感知的价值估计可以达到与在线训练方法相当的性能。",
+        "地址": "https://arxiv.org/pdf/2502.18906.pdf"
+    },
+    {
+        "名称": "2025 [2502.19204] Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator.pdf",
+        "作者": "Xiankang He, Dongyan Guo, Hongji Li, Ruibo Li, Ying Cui, Chi Zhang",
+        "摘要": "摘要：单目深度估计（Monocular Depth Estimation, MDE）旨在从单个RGB图像中预测场景深度，在3D场景理解中起着关键作用。最近在零样本MDE方面的进展利用了归一化深度表示和基于蒸馏的学习来提高在不同场景中的泛化能力。然而，目前用于蒸馏的深度归一化方法依赖于全局归一化，可能会放大噪声伪标签，降低蒸馏效果。本文系统分析了不同深度归一化策略对伪标签蒸馏的影响。基于我们的研究结果，我们提出了交叉上下文蒸馏方法，结合全局和局部深度线索来提高伪标签质量。此外，我们引入了一个多教师蒸馏框架，利用不同深度估计模型的互补优势，从而获得更稳健和准确的深度预测。在基准数据集上的广泛实验表明，我们的方法在定量和定性上都显著优于最先进的方法。\n\n作者：何先康、郭东燕、李宏基、李瑞波、崔颖、张驰\n\n评论：项目页面：这个https URL\n\n链接：https://arxiv.org/pdf/2502.19204.pdf\n\n题目：2025 [2502.19204] 蒸馏任何深度：蒸馏创造了更强的单目深度估计器.pdf",
+        "地址": "https://arxiv.org/pdf/2502.19204.pdf"
+    },
+    {
+        "名称": "2025 [2502.19187] BIG-Bench Extra Hard.pdf",
+        "作者": "Mehran Kazemi, Bahare Fatemi, Hritik Bansal, John Palowitch, Chrysovalantis Anastasiou, Sanket Vaibhav Mehta, Lalit K. Jain, Virginia Aglietti, Disha Jindal, Peter Chen, Nishanth Dikkala, Gladys Tyen, Xin Liu, Uri Shalit, Silvia Chiappa, Kate Olszewska, Yi Tay, Vinh Q. Tran, Quoc V. Le, Orhan Firat",
+        "摘要": "摘要：大语言模型（LLMs）在日常应用中日益普及，对其鲁棒的综合推理能力和多样推理技能的需求也在不断上升。然而，目前的LLM推理基准测试主要关注数学和编码能力，未能全面评估其更广泛的推理能力。一个重要的例外是BIG-Bench数据集，它提供了一组具有挑战性的多样任务，使得可以在统一框架下对各种技能进行综合评估，并因此成为评估LLMs综合推理能力的关键基准。然而，随着LLMs的不断进步，BIG-Bench及其更困难版本BIG-Bench Hard（BBH）均接近饱和，当前最先进的模型在BBH的许多任务上取得了几近完美的分数，从而削弱了其实用性。为了解决这一问题，我们引入了BIG-Bench Extra Hard（BBEH），这是一种新的基准设计，旨在突破LLM推理评估的边界。BBEH用新的任务替代了BBH中的每一个任务，这些新任务需要类似的推理能力，但难度显著增加。我们在BBEH上评估了各种模型，观察到最佳通用模型的平均准确率为9.8％，最佳推理专用模型的平均准确率为44.8％，显示出巨大的改进空间，并突显了在LLMs中实现鲁棒综合推理的持续挑战。我们在以下网址公开发布了BBEH：https://arxiv.org/pdf/2502.19187.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.19187.pdf"
+    },
+    {
+        "名称": "2025 [2502.19279] CritiQ: Mining Data Quality Criteria from Human Preferences.pdf",
+        "作者": "Honglin Guo, Kai Lv, Qipeng Guo, Tianyi Liang, Zhiheng Xi, Demin Song, Qiuyinzhe Zhang, Yu Sun, Kai Chen, Xipeng Qiu, Tao Gui",
+        "摘要": "摘 要:\n语言模型在很大程度上依赖于高质量数据以实现最佳性能。现有的方法依赖于手工设计的启发式方法、现有模型的困惑度、训练分类器或精心设计的提示工程，这些方法需要大量的专家经验和人工标注，同时引入偏见。我们介绍了一种新颖的数据选择方法CritiQ，该方法自动从人类对数据质量的偏好中挖掘标准，只需大约30个人工标注对，并执行高效的数据选择。CritiQ Flow的主要组件包括一个负责演化质量标准的管理代理和进行成对判断的工作代理。我们构建了一个知识库，从以往工作中提取质量标准以增强CritiQ Flow。与基于困惑度和分类器的方法相比，语言标准更加可解释且具有可重用价值。在推导标准后，我们训练CritiQ Scorer以给出质量评分并进行高效数据选择。我们展示了我们的方法在代码、数学和逻辑领域的有效性，在人工标注的测试集上实现了高准确度。为了验证选择数据的质量，我们不断训练Llama 3.1模型，并观察到与均匀采样相比下游任务的性能有所改善。消融研究验证了知识库和反思过程的好处。我们分析了标准如何演变以及多数表决的有效性。\n\n作 者:\n郭鸿麟、吕凯、郭奇鹏、梁天懿、席志恒、宋德民、张秋吟、孙宇、陈凯、邱锡鹏、桂涛\n\n链接: \n[https://arxiv.org/pdf/2502.19279.pdf](https://arxiv.org/pdf/2502.19279.pdf)\n\n标题:\nCritiQ：从人类偏好中挖掘数据质量标准",
+        "地址": "https://arxiv.org/pdf/2502.19279.pdf"
+    },
+    {
+        "名称": "2025 [2502.16776] AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement.pdf",
+        "作者": "Zhexin Zhang, Leqi Lei, Junxiao Yang, Xijie Huang, Yida Lu, Shiyao Cui, Renmiao Chen, Qinglin Zhang, Xinyuan Wang, Hao Wang, Hao Li, Xianqi Lei, Chengwei Pan, Lei Sha, Hongning Wang, Minlie Huang",
+        "摘要": "摘要：随着人工智能模型在各种现实世界场景中的应用越来越广泛，确保其安全性仍然是一个关键但尚未深入研究的挑战。尽管已经做出了大量努力来评估和提高人工智能的安全性，但缺乏标准化框架和综合工具包，成为系统研究和实际应用的重大障碍。为了解决这一问题，我们引入了AISafetyLab，一个统一的框架和工具包，集成了代表性的攻击、防御和评估方法，用于人工智能的安全性。AISafetyLab具有直观的界面，使得开发人员能够无缝应用各种技术，同时保持一个结构良好且可扩展的代码库，以便未来的进步。此外，我们还对Vicuna进行实证研究，分析不同的攻击和防御策略，为它们的比较效果提供宝贵的见解。为了促进人工智能安全性的持续研究与发展，AISafetyLab在此网址公开，我们致力于它的持续维护和改进。\n\n网址：https://arxiv.org/pdf/2502.16776.pdf",
+        "地址": "https://arxiv.org/pdf/2502.16776.pdf"
+    },
+    {
+        "名称": "2025 [2502.19312] FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users.pdf",
+        "作者": "Anikait Singh, Sheryl Hsu, Kyle Hsu, Eric Mitchell, Stefano Ermon, Tatsunori Hashimoto, Archit Sharma, Chelsea Finn",
+        "摘要": "摘要：大语言模型（LLM）的有效个性化对于虚拟助手和内容策展等广泛的用户交互应用至关重要。受LLM强大的上下文学习能力启发，我们提出了少样本偏好优化（FSPO），将奖励建模重新定义为一个元学习问题。在这个框架下，LLM通过用户的一些标注偏好快速适应用户，为他们构建个性化的奖励函数。此外，由于现实世界的偏好数据稀缺且难以大规模收集，我们提议通过谨慎的设计选择来构建用于个性化的合成偏好数据集，使用公开的LLM生成超过100万个合成个性化偏好数据。特别是，为了成功地从合成数据转移到真实用户，我们发现数据同时表现出高多样性和连贯、自洽的结构至关重要。我们在三个领域对FSPO进行了评估：电影评论、基于教育背景的教育适应和一般问答，涵盖了多达1500个合成用户的个性化开放生成，以及一个控制的人工研究。总体而言，在生成对合成用户个性化的响应方面，FSPO平均在Alpaca Eval上达到了87%的胜率，在开放式问答中对真实用户的胜率达到了72%。\n\n作者：Anikait Singh, Sheryl Hsu, Kyle Hsu, Eric Mitchell, Stefano Ermon, Tatsunori Hashimoto, Archit Sharma, Chelsea Finn\n\n评论：Website: this https URL\n\n网址：https://arxiv.org/pdf/2502.19312.pdf\n\n标题：FSPO: Few-Shot Preference Optimization of Synthetic Preference Data in LLMs Elicits Effective Personalization to Real Users",
+        "地址": "https://arxiv.org/pdf/2502.19312.pdf"
+    },
+    {
+        "名称": "2025 [2502.18779] Towards Optimal Multi-draft Speculative Decoding.pdf",
+        "作者": "Zhengmian Hu, Tong Zheng, Vignesh Viswanathan, Ziyi Chen, Ryan A. Rossi, Yihan Wu, Dinesh Manocha, Heng Huang",
+        "摘要": "摘要: 大型语言模型（LLMs）已经成为自然语言处理任务中不可或缺的一部分。然而，自回归采样已成为效率瓶颈。多草稿推测解码（MDSD）是一种近年来提出的方法，在生成每个标记时，一个小草稿模型会生成多个草稿，目标LLM并行验证这些草稿，确保最终输出符合目标模型的分布。MDSD中的两个主要设计选择是草稿采样方法和验证算法。对于固定的草稿采样方法，最佳接受率是一个最优传输问题的解决方案，但该问题的复杂性使得很难求解最佳接受率并衡量现有验证算法与理论上限之间的差距。本文讨论了最优传输问题的对偶问题，提供了一种有效计算最佳接受率的方法。我们首次测量了词汇量为数千时MDSD效率的理论上限，并量化了现有验证算法与该上限之间的差距。我们还根据它们的最佳接受率比较了不同的草稿采样方法。我们的结果表明，草稿采样方法对最佳接受率有重要影响，其中无替换采样优于有替换采样。此外，现有验证算法在无替换和有替换采样中均未达到理论上限。我们的研究结果表明，精心设计的草稿采样方法可能改善最佳接受率，并促使开发出更接近理论上限的验证算法。",
+        "地址": "https://arxiv.org/pdf/2502.18779.pdf"
+    },
+    {
+        "名称": "2025 [2502.16284] MolSpectra: Pre-training 3D Molecular Representation with Multi-modal Energy Spectra.pdf",
+        "作者": "Liang Wang, Shaozhen Liu, Yu Rong, Deli Zhao, Qiang Liu, Shu Wu, Liang Wang",
+        "摘要": "摘要: 建立3D结构与分子系统能态之间的关系已被证明是一种有前途的方法，用于学习3D分子表示。然而，现有方法仅限于从经典力学角度建模分子能态。这一限制导致量子力学效应（如量子化（离散）能级结构）的显著忽略，而这些效应可更准确地估计分子能量，并可通过能量谱实验测量。在本文中，我们提出利用能量谱来增强3D分子表示（MolSpectra）的预训练，从而将量子力学知识融入分子表示。具体来说，我们提出了SpecFormer，这是一个通过掩码补丁重建来编码分子光谱的多谱编码器。通过使用对比目标进一步对齐3D编码器和光谱编码器的输出，我们增强了3D编码器对分子的理解。在公共基准测试上的评估显示，我们的预训练表示在预测分子属性和建模动态方面优于现有方法。\n\n来源：https://arxiv.org/pdf/2502.16284.pdf",
+        "地址": "https://arxiv.org/pdf/2502.16284.pdf"
+    },
+    {
+        "名称": "2025 [2502.19261] Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization.pdf",
+        "作者": "Taishi Nakamura, Takuya Akiba, Kazuki Fujii, Yusuke Oda, Rio Yokota, Jun Suzuki",
+        "摘要": "摘要：专家混合（MoE）架构相比于具有相同容量的密集模型显著减少了训练和推理成本。重利用（Upcycling）是一种使用预训练的密集模型来初始化和训练MoE模型的方法。尽管重利用在初始阶段带来了性能提升，但训练进展比从头训练的速度慢，从长远来看导致了次优性能。我们提出了一种有效解决这一问题的方法——Drop-Upcycling。Drop-Upcycling结合了两种看似矛盾的方法：利用预训练的密集模型知识，同时统计地重新初始化部分权重。这种方法战略性地促进了专家的专业化，显著提高了MoE模型在知识获取方面的效率。大量的大规模实验证明，Drop-Upcycling在长期训练中显著优于之前的MoE构建方法，特别是在训练数千亿个token或更多时。因此，我们的具有5.9B活跃参数的MoE模型表现与同一模型家族中13B的密集模型相当，而训练 FLOPs 约为其1/4。所有实验资源，包括源代码、训练数据、模型检查点和日志，都公开可用，以促进MoE的可重复性和未来研究。\n\n评论：将出现在第十三届国际学习表示大会（ICLR 2025）\n\n标题：Drop-Upcycling：通过部分重初始化训练稀疏专家混合模型\n\n链接：https://arxiv.org/pdf/2502.19261.pdf\n\n作者：中村太志、秋叶拓也、藤井和树、小田裕介、横田理央、铃木淳",
+        "地址": "https://arxiv.org/pdf/2502.19261.pdf"
+    },
+    {
+        "名称": "2025 [2502.17540] PosterSum: A Multimodal Benchmark for Scientific Poster Summarization.pdf",
+        "作者": "Rohit Saxena, Pasquale Minervini, Frank Keller",
+        "摘要": "摘要: 从多模态文档中生成准确且简洁的文本摘要具有挑战性，特别是对于科学海报等内容视觉上复杂的文档。我们介绍了PosterSum，这是一项新颖的基准，旨在推动能够理解和总结科学海报为研究论文摘要的视觉-语言模型的发展。我们的数据集包含16,305张会议海报及其相应的摘要作为总结。每张海报以图像格式提供，并呈现出多样的视觉理解挑战，如复杂布局、密集的文本区域、表格和图形。我们在PosterSum基准上对现有的最先进的多模态大语言模型（MLLMs）进行了测试，并证明它们难以准确解释和总结科学海报。我们提出了一种分段与总结的分层方法，在自动化指标上超越了当前的MLLMs，ROUGE-L指标取得了3.14%的提升。这将作为未来海报总结研究的起点。",
+        "地址": "https://arxiv.org/pdf/2502.17540.pdf"
+    },
+    {
+        "名称": "2025 [2502.15885] DOEI: Dual Optimization of Embedding Information for Attention-Enhanced Class Activation Maps.pdf",
+        "作者": "Hongjie Zhu, Zeyu Zhang, Guansong Pang, Xu Wang, Shimin Wen, Yu Bai, Daji Ergu, Ying Cai, Yang Zhao",
+        "摘要": "摘要：弱监督语义分割（WSSS）通常利用有限的语义标注来获得初始类别激活图（CAMs）。然而，由于在高维空间中类别激活响应与语义信息之间联系不足，CAM容易出现对象共现或激活不足，从而导致识别准确率较低。为了解决这个问题，我们提出了一种新的方法——DOEI（Embedding 信息的双重优化），该方法通过语义感知注意力权重矩阵来重构嵌入表示，从而优化嵌入信息的表达能力。具体来说，DOEI在类别与补丁的互动过程中放大高置信度的标记，并抑制低置信度的标记。激活响应与语义信息的这种一致性增强了目标特征的传播和解耦，使生成的嵌入能够在高水平语义空间中更准确地表示目标特征。此外，我们在DOEI中提出了一个混合特征对齐模块，该模块结合了RGB值、嵌入引导特征和自注意力权重，以增加候选标记的可靠性。全面实验表明，DOEI是一种有效的即插即用模块，赋能基于最新视觉变压器的WSSS模型显著提高CAM和分割性能在流行的基准上，包括PASCAL VOC（+3.6%，+1.5%，+1.2% mIoU）和MS COCO（+1.2%，+1.6% mIoU）。代码将会在此链接提供。\n\n链接：https://arxiv.org/pdf/2502.15885.pdf",
+        "地址": "https://arxiv.org/pdf/2502.15885.pdf"
+    }
+]
