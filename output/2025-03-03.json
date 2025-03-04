@@ -1,0 +1,104 @@
+[
+    {
+        "名称": "2025 [2502.20730] DeepSolution: Boosting Complex Engineering Solution Design via Tree-based Exploration and Bi-point Thinking.pdf",
+        "作者": "Zhuoqun Li, Haiyang Yu, Xuanang Chen, Hongyu Lin, Yaojie Lu, Fei Huang, Xianpei Han, Yongbin Li, Le Sun",
+        "摘要": "摘要翻译为中文如下：\n\n摘要：为解决复杂工程挑战设计解决方案是人类生产活动中的关键。然而，以往在检索增强生成（RAG）领域的研究尚未充分解决与复杂工程解决方案设计相关的任务。为填补这一空缺，我们引入了一个新的基准，SolutionBench，用于评估系统在生成具有多重复杂约束的完整且可行的工程问题解决方案方面的能力。为了进一步推进复杂工程解决方案的设计，我们提出了一种新颖的系统SolutionRAG，该系统利用基于树的探索和双点思维机制来生成可靠的解决方案。大量实验结果表明，SolutionRAG在SolutionBench上达到了最先进（SOTA）的性能，突显了其在现实应用中增强复杂工程解决方案设计的自动化和可靠性的潜力。",
+        "地址": "https://arxiv.org/pdf/2502.20730.pdf"
+    },
+    {
+        "名称": "2025 [2502.18600] Chain of Draft: Thinking Faster by Writing Less.pdf",
+        "作者": "Silei Xu, Wenhao Xie, Lingxiao Zhao, Pengcheng He",
+        "摘要": "摘要: 大型语言模型（LLMs）通过链式推理提示（Chain-of-Thought, CoT）在解决复杂推理任务中表现出显著性能，强调详细的、逐步的推理。然而，人类通常采用更高效的策略：草拟简洁的中间思维，仅捕捉必要的信息。在这项工作中，我们提出了一种受人类认知过程启发的新范式——Chain of Draft (CoD)，其中LLMs在解决任务时生成简洁但信息丰富的中间推理输出。通过减少冗长内容并专注于关键信息，CoD在准确性上匹配甚至超过CoT，同时仅使用7.6%的令牌，显著降低了各种推理任务的成本和延迟。\n\n作者: 徐思磊, 谢文浩, 赵凌潇, 何鹏程",
+        "地址": "https://arxiv.org/pdf/2502.18600.pdf"
+    },
+    {
+        "名称": "2025 [2502.20380] Multi-Turn Code Generation Through Single-Step Rewards.pdf",
+        "作者": "Arnav Kumar Jain, Gonzalo Gonzalez-Pumariega, Wayne Chen, Alexander M Rush, Wenting Zhao, Sanjiban Choudhury",
+        "摘要": "摘要：我们解决了从多轮执行反馈生成代码的问题。现有方法要么在没有反馈的情况下生成代码，要么使用复杂的层级强化学习来优化多轮奖励。我们提出了一种简单但可扩展的方法$\\mu$Code，该方法仅使用单步奖励来解决多轮代码生成。我们的关键见解是代码生成是一个一步可恢复的马尔可夫决策过程，其中可以在单次迭代中从任何中间代码状态恢复出正确的代码。$\\mu$Code迭代训练生成器以根据多轮执行反馈提供代码解决方案，并训练验证器对新生成的代码进行评分。实验评估表明，我们的方法在现有的最新基线上实现了显著改进。我们提供了关于奖励模型和策略设计选择的分析，并展示了$\\mu$Code在利用执行反馈方面的效果。我们的代码可以在该链接获取：https://arxiv.org/pdf/2502.20380.pdf。\n\n（作者：Arnav Kumar Jain, Gonzalo Gonzalez-Pumariega, Wayne Chen, Alexander M Rush, Wenting Zhao, Sanjiban Choudhury; 评论：正文9页（不包括参考文献或附录）；6个图（在主论文中）；(v1) 预印本；标题：《2025 [2502.20380] 通过单步奖励的多轮代码生成》）",
+        "地址": "https://arxiv.org/pdf/2502.20380.pdf"
+    },
+    {
+        "名称": "2025 [2502.21318] How far can we go with ImageNet for Text-to-Image generation?.pdf",
+        "作者": "L. Degeorge, A. Ghosh, N. Dufour, D. Picard, V. Kalogeiton",
+        "摘要": "摘要：最近的文本到图像（T2I）生成模型通过在十亿级数据集上训练，取得了显著成果，遵循了“越大越好”的范式，优先考虑数据量而非质量。我们挑战这一既定范式，展示了对小型、精心策划的数据集进行战略性数据增强，可以匹敌或超越在大规模网络数据集上训练的模型。仅使用经过精心设计的文本和图像增强的ImageNet，我们在GenEval上比SD-XL高出+2分，在DPGBench上高出+5分，而使用的参数仅为后者的1/10，训练图像仅为后者的1/1000。我们的结果表明，战略性的数据增强，而非海量数据集，可能为T2I生成提供一条更加可持续的前进道路。\n\n作者：L. Degeorge, A. Ghosh, N. Dufour, D. Picard, V. Kalogeiton\n\n链接：https://arxiv.org/pdf/2502.21318.pdf\n\n标题：《通过ImageNet进行文本到图像生成的极限探讨》",
+        "地址": "https://arxiv.org/pdf/2502.21318.pdf"
+    },
+    {
+        "名称": "2025 [2502.18017] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents.pdf",
+        "作者": "Qiuchen Wang, Ruixue Ding, Zehui Chen, Weiqi Wu, Shihang Wang, Pengjun Xie, Feng Zhao",
+        "摘要": "摘要：理解视觉信息丰富的文档对于传统的检索增强生成（RAG）方法而言仍然是一个重大挑战。现有的基准测试主要侧重于基于图像的问答（QA），忽视了在密集的视觉文档中有效检索、理解和推理的基本挑战。为了弥补这一差距，我们引入了ViDoSeek，这是一个新颖的数据集，旨在评估需要复杂推理的视觉信息丰富文档上的RAG性能。基于该数据集，我们识别出当前RAG方法的关键限制：（i）纯粹的视觉检索方法难以有效整合文本和视觉特征，并且（ii）之前的方法通常分配的推理标记不足，限制了其有效性。为了解决这些挑战，我们提出了ViDoRAG，这是一种新的多代理RAG框架，专为跨视觉文档的复杂推理而设计。ViDoRAG采用基于高斯混合模型（GMM）的混合策略来有效处理多模态检索。为了进一步引发模型的推理能力，我们引入了一个包含探索、总结和反思的迭代代理工作流，为研究测试时间扩展在RAG域中的应用提供了框架。在ViDoSeek上的大量实验验证了我们方法的有效性和通用性。值得注意的是，ViDoRAG在竞争激烈的ViDoSeek基准测试中表现超出现有方法超过10%。\n\n翻译为中文的摘要：\n理解视觉信息丰富的文档对于传统的检索增强生成（RAG）方法来说仍然是一个重大挑战。现有的基准测试主要关注基于图像的问答（QA），忽略了在密集的视觉文档中高效检索、理解和推理的基本挑战。为了弥补这一差距，我们引入了ViDoSeek，这是一个新颖数据集，旨在评估需要复杂推理的视觉信息丰富文档上的RAG性能。基于此，我们识别出当前RAG方法的关键局限：（i）纯视觉检索方法难以有效整合文本和视觉特征;（ii）之前的方法常常为推理分配的标记不足，限制了其有效性。为了解决这些挑战，我们提出了ViDoRAG，这是一种新的多代理RAG框架，专为在视觉文档中进行复杂推理而设计。ViDoRAG采用基于高斯混合模型（GMM）的混合策略来有效处理多模态检索。为了进一步发挥模型的推理能力，我们引入了一个包含探索、总结和反思的迭代代理工作流，为研究RAG领域中的测试时间扩展提供了框架。在ViDoSeek上的大量实验证明了我们方法的有效性和通用性。值得注意的是，ViDoRAG在竞争激烈的ViDoSeek基准测试上表现超出现有方法10%以上。",
+        "地址": "https://arxiv.org/pdf/2502.18017.pdf"
+    },
+    {
+        "名称": "2025 [2502.20545] SoS1: O1 and R1-Like Reasoning LLMs are Sum-of-Square Solvers.pdf",
+        "作者": "Kechen Li, Wenqi Zhu, Coralia Cartis, Tianbo Ji, Shiwei Liu",
+        "摘要": "摘要：大型语言模型（LLMs）在各种任务中已经达到人类水平，但其进行严格数学问题求解的能力仍然是一个亟待解决的挑战。在这项工作中，我们探讨了一个基本但计算上难以解决的问题：确定给定的多变量多项式是否为非负。这一问题与希尔伯特第十七问题密切相关，在全局多项式优化中起着至关重要的作用，并在多个领域有应用。首先，我们引入了SoS-1K，一个经过精心策划的包含约1,000个多项式的数据集，附带了基于五个逐渐挑战标准设计的专家推理指示。在评估多种最先进的LLMs时，我们发现如果没有结构化指导，所有模型的表现仅略高于随机猜测的基准50%。然而，高质量的推理指示显著提高了准确性，使性能提高到81%。此外，我们的7B模型SoS-7B，通过在SoS-1K上仅微调4小时，在准确性上超过了671B的DeepSeek-V3和GPT-4o-mini，而只需分别占用1.8%和5%的计算时间。我们的研究结果突显了LLMs在推动数学推理边界和解决NP难问题方面的潜力。",
+        "地址": "https://arxiv.org/pdf/2502.20545.pdf"
+    },
+    {
+        "名称": "2025 [2502.20396] Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids.pdf",
+        "作者": "Toru Lin, Kartik Sachdev, Linxi Fan, Jitendra Malik, Yuke Zhu",
+        "摘要": "摘要：强化学习在许多不同领域中已经展示了达到人类水平甚至超人类水平能力的潜力，但在灵巧的机器人操控方面的成功仍然有限。本研究探讨了将强化学习应用于解决人形机器人涉及丰富接触的操控任务所面临的关键挑战。我们提出了一些新颖的技术来克服这些已确定的挑战，并进行实证验证。我们的主要贡献包括一个自动现实到模拟调优模块，使模拟环境更接近现实世界；一种简化长时程接触丰富操控任务奖励工程的通用奖励设计方案；一种分而治之的蒸馏过程，提高硬探索问题的样本效率，同时保持虚实性能；以及一种结合稀疏和密集对象表示的方法，以弥合虚实感知差距。我们在三个灵巧操控的任务上展示了令人鼓舞的结果，并对每一种技术进行了消融研究。我们的工作展示了使用虚实结合强化学习学习人形机器人灵巧操控的成功方法，实现了稳健的泛化和高性能，而不需要人类示范。\n\n作者：林徹、Kartik Sachdev、范琳曦、马文、朱郁克\n\n项目页面可在此 URL 找到：https://arxiv.org/pdf/2502.20396.pdf",
+        "地址": "https://arxiv.org/pdf/2502.20396.pdf"
+    },
+    {
+        "名称": "2025 [2502.19577] Tell me why: Visual foundation models as self-explainable classifiers.pdf",
+        "作者": "Hugues Turbé, Mina Bjelogrlic, Gianmarco Mengaldo, Christian Lovis",
+        "摘要": "摘要： 视觉基础模型（VFMs）因其最先进的性能而越来越受欢迎。然而，对于关键应用来说，可解释性仍然至关重要。从这个角度看，自解释模型（SEM）旨在提供可解释的分类器，将预测分解为可解释概念的加权和。尽管前景光明，但最近的研究表明，这些解释往往缺乏忠实性。在这项工作中，我们结合了VFM与一种新颖的原型架构和专门的训练目标。通过仅在冻结的VFM上训练一个轻量级的头（约100万个参数），我们的方法（ProtoFM）提供了一种高效且可解释的解决方案。评估表明，我们的方法在实现有竞争力的分类性能的同时，在文献中的一系列可解释性指标上优于现有模型。代码可在此处URL获得。",
+        "地址": "https://arxiv.org/pdf/2502.19577.pdf"
+    },
+    {
+        "名称": "2025 [2502.20969] TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval.pdf",
+        "作者": "Chien-Yu Lin, Keisuke Kamahori, Yiyu Liu, Xiaoxiang Shi, Madhav Kashyap, Yile Gu, Rulin Shao, Zihao Ye, Kan Zhu, Stephanie Wang, Arvind Krishnamurthy, Rohan Kadekodi, Luis Ceze, Baris Kasikci",
+        "摘要": "摘要: 检索增强生成 (RAG) 通过外部数据源扩展大型语言模型 (LLM) 以增强事实的准确性和领域覆盖。现代 RAG 流水线依赖于大型数据存储，这在对延迟敏感的部署中面临系统挑战，特别是在 GPU 内存有限的情况下。为了解决这些挑战，我们提出了 TeleRAG，这是一种高效的推理系统，它在最小 GPU 内存需求的情况下减少了 RAG 的延迟。TeleRAG 的核心创新是前瞻检索，这是一种预测所需数据并在 LLM 生成过程中将其从 CPU 转移到 GPU 的预取机制。通过利用 RAG 流水线的模块化、倒排文件索引 (IVF) 搜索算法和查询之间的相似性，TeleRAG 能够最佳地重叠数据移动和计算。实验结果表明，TeleRAG 使端到端 RAG 推理延迟平均减少高达 1.72 倍，相比于最先进的系统，能够更快、更高效地部署先进的 RAG 应用。",
+        "地址": "https://arxiv.org/pdf/2502.20969.pdf"
+    },
+    {
+        "名称": "2025 [2502.20583] LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation.pdf",
+        "作者": "Keisuke Kamahori, Jungo Kasai, Noriyuki Kojima, Baris Kasikci",
+        "摘要": "摘要：现代自动语音识别（ASR）模型，如OpenAI的Whisper，依赖于深度编码器-解码器结构，其编码器由于高计算强度而成为高效部署的关键瓶颈。我们介绍了LiteASR，这是一种针对ASR编码器的低秩压缩方案，可以在保持转录准确率的同时显著降低推理成本。我们的方法利用了中间激活中的强低秩特性：通过使用一个小的校准数据集应用主成分分析（PCA），我们用一串低秩矩阵乘法来近似线性变换，并进一步优化自注意机制在降维空间中工作。评估结果显示，我们的方法可以将Whisper large-v3的编码器尺寸压缩超过50%，达到与Whisper medium相同的尺寸，并具有更好的转录准确率，从而在效率和性能方面建立了新的帕累托最优前沿。LiteASR的代码可以在这个HTTPS URL获得。",
+        "地址": "https://arxiv.org/pdf/2502.20583.pdf"
+    },
+    {
+        "名称": "2025 [2502.17941] Optimal Brain Apoptosis.pdf",
+        "作者": "Mingyuan Sun, Zheng Fang, Jiaxu Wang, Junjie Jiang, Delei Kong, Chenming Hu, Yuetong Fang, Renjing Xu",
+        "摘要": "摘要: 卷积神经网络（CNNs）和Transformer的日益复杂性和参数数量带来了计算效率和资源需求方面的挑战。剪枝被认为是一种有效的策略，通过移除冗余的元素如神经元、通道或连接，从而在不大幅度降低性能的情况下提高计算效率。本文以“最佳脑损伤”（Optimal Brain Damage, OBD）的基础工作为出发点，通过使用Hessian矩阵改进参数重要性估计的方法。与依赖于近似的前人方法不同，我们引入了“最佳脑程序性细胞死亡”（Optimal Brain Apoptosis, OBA），这是一种通过直接为每个参数计算Hessian-向量积值的新型剪枝方法。通过分解网络层的Hessian矩阵并识别各层间Hessian子矩阵非零的条件，我们提出了一种高效的方法来计算参数的二阶泰勒展开。这种方法允许更精确的剪枝过程，特别是在CNN和Transformer的背景下，已在包括VGG19、ResNet32、ResNet50和ViT-B/16在CIFAR10、CIFAR100和Imagenet数据集上的实验中验证。我们的代码已在此URL提供。\n\n代码链接：https://arxiv.org/pdf/2502.17941.pdf",
+        "地址": "https://arxiv.org/pdf/2502.17941.pdf"
+    },
+    {
+        "名称": "2025 [2502.19731] Preference Learning Unlocks LLMs' Psycho-Counseling Skills.pdf",
+        "作者": "Mian Zhang, Shaun M. Eack, Zhiyu Zoey Chen",
+        "摘要": "摘要：将大型语言模型（LLMs）应用于心理咨询是一个新兴且有意义的方法，这是由于患者需求与心理健康支持的可用性之间存在显著差距。然而，由于缺乏高质量的真实心理咨询数据的监督，当前的LLMs难以持续提供有效的客户发言反馈，这些数据通常由于客户隐私问题而无法获取。此外，可用会话中治疗师回答的质量可能因其专业培训和经验而显著不同，评估治疗师回复的质量仍然是一个开放的挑战。在这项工作中，我们首先提出了一套专业和全面的原则来评估治疗师对客户发言的回应。使用这些原则，我们创建了一个偏好数据集PsychoCounsel-Preference，该数据集包含36,000个高质量的偏好比较对。该数据集与专业心理治疗师的偏好一致，为评估和提高LLMs在心理咨询中的表现提供了坚实的基础。在奖励建模和偏好学习上的实验表明，PsychoCounsel-Preference是LLMs在咨询会话中获得回应客户的基本技能的优秀资源。我们最优对齐模型PsychoCounsel-Llama3-8B对抗GPT-4o的胜率达到87%。我们发布了PsychoCounsel-Preference、PsychoCounsel-Llama3-8B和奖励模型PsychoCounsel-Llama3-8B-Reward以促进使用LLMs进行心理咨询研究。详细信息见：https://arxiv.org/pdf/2502.19731.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.19731.pdf"
+    },
+    {
+        "名称": "2025 [2502.20900] DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping.pdf",
+        "作者": "Yifan Zhong, Xuchuan Huang, Ruochong Li, Ceyao Zhang, Yitao Liang, Yaodong Yang, Yuanpei Chen",
+        "摘要": "摘要：灵活抓取仍然是机器人领域一个基本且具有挑战性的问题。一个通用机器人必须能够在任意场景下抓取各种各样的物体。然而，现有的研究通常依赖于特定的假设，例如单一物体设定或有限的环境，导致泛化受限。我们的解决方案是DexGraspVLA，一个分层框架，利用预训练的视觉语言模型作为高层次任务规划器，并学习基于扩散的策略作为低层次动作控制器。关键在于迭代地将多样的语言和视觉输入转化为域不变的表示，从而由于减少了域转换，模仿学习可以被有效地应用。因此，它能够在广泛的现实场景中实现强大的泛化。值得注意的是，我们的方法在“零次学习”的环境中对数千个未见过的物体、光照和背景组合实现了超过90%的成功率。经验分析进一步确认了在环境变化中的内部模型行为的一致性，从而验证了我们的设计并解释了其泛化性能。我们希望我们的工作能在实现通用灵巧抓取方面迈出一步。我们的演示和代码可以在此链接找到：https://arxiv.org/pdf/2502.20900.pdf。",
+        "地址": "https://arxiv.org/pdf/2502.20900.pdf"
+    },
+    {
+        "名称": "2025 [2502.21291] MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing.pdf",
+        "作者": "Xueyun Tian, Wei Li, Bingbing Xu, Yige Yuan, Yuanzhuo Wang, Huawei Shen",
+        "摘要": "摘要: 尽管基于扩散的图像生成取得了显著进展，但特定主体驱动的生成和基于指令的编辑仍然具有挑战性。现有方法通常将它们分开处理，面临高质量数据有限和泛化能力差的问题。然而，这两项任务都需要捕捉复杂的视觉变化，同时在输入和输出之间保持一致性。因此，我们提出了MIGE，一个使用多模态指令标准化任务表示的统一框架。它将主体驱动的生成视为在空白画布上的创作，并将基于指令的编辑视为对现有图像的修改，建立了共享的输入输出形式。MIGE引入了一种新颖的多模态编码器，将自由形式的多模态指令映射到统一的视觉-语言空间，通过特征融合整合视觉和语义特征。这种统一使得两项任务的联合训练成为可能，并提供了两个关键优势：(1) 任务间增强：通过利用共享的视觉和语义表示，联合训练提高了指令遵从性和视觉一致性，无论是主体驱动的生成还是基于指令的编辑。(2) 泛化：在统一格式下学习促进了任务间知识迁移，使MIGE能够推广到新的组合任务，包括基于指令的主体驱动的编辑。实验表明，MIGE在主体驱动的生成和基于指令的编辑方面都表现出色，并在新任务基于指令的主体驱动编辑中设立了新的基准。代码和模型已在此 https URL 上公开。",
+        "地址": "https://arxiv.org/pdf/2502.21291.pdf"
+    },
+    {
+        "名称": "2025 [2502.17125] LettuceDetect: A Hallucination Detection Framework for RAG Applications.pdf",
+        "作者": "Ádám Kovács, Gábor Recski",
+        "摘要": "摘要：尽管使用了外部知识源，检索增强生成（RAG）系统仍然容易产生幻觉回答。我们提出了一种名为LettuceDetect的框架，解决了现有幻觉检测方法中的两个关键限制：（1）传统编码器方法的上下文窗口限制，（2）基于LLM方法的计算效率低下。通过利用ModernBERT的扩展上下文能力（最多8000个标记）并在RAGTruth基准数据集上进行训练，我们的方法优于所有之前基于编码器的模型和大多数基于提示的模型，同时其规模约为最佳模型的30倍小。LettuceDetect是一个标记分类模型，处理上下文-问题-答案三元组，允许在标记级别识别不支持的声明。在RAGTruth语料库上的评估显示，其示例级别检测的F1得分为79.22%，比之前最先进的编码器架构Luna提高了14.8%。此外，该系统在单个GPU上每秒可以处理30至60个示例，使其在真实世界RAG应用中更具实用性。",
+        "地址": "https://arxiv.org/pdf/2502.17125.pdf"
+    },
+    {
+        "名称": "2025 [2502.20490] EgoNormia: Benchmarking Physical Social Norm Understanding.pdf",
+        "作者": "MohammadHossein Rezaei, Yicheng Fu, Phil Cuvin, Caleb Ziems, Yanzhe Zhang, Hao Zhu, Diyi Yang",
+        "摘要": "摘要：人类的活动受到规范的调节。在实际行动中，人类不仅遵循规范，还会考虑不同规范之间的权衡。然而，机器在训练时通常没有关于规范理解和推理的明确指导，特别是当这些规范根植于物理和社会环境中时。为了改进和评估视觉语言模型（VLMs）的规范推理能力，我们提出了EgoNormia $\\\\|\\\\epsilon\\\\|$，该数据集由1,853个以自我为中心的人类交互视频组成，每个视频都附有两个相关的问题，用于评估规范行为的预测和理由。这些规范行为涵盖七个类别：安全、隐私、亲密距离、礼貌、合作、协调/主动性和交流/易读性。为了大规模编译此数据集，我们提出了一种新颖的流程，包括视频采样、自动生成答案、过滤和人工验证。我们的研究表明，当前最先进的视觉语言模型缺乏稳健的规范理解能力，在EgoNormia上的得分最高仅为45%（对比人类基线92%）。我们对各个维度性能的分析突显了在应用于真实世界代理时，在安全、隐私和缺乏协作与沟通能力上的显著风险。我们还展示了通过基于检索的生成方法，可以使用EgoNomia来增强VLMs的规范推理能力。",
+        "地址": "https://arxiv.org/pdf/2502.20490.pdf"
+    },
+    {
+        "名称": "2025 [2502.20811] HAIC: Improving Human Action Understanding and Generation with Better Captions for Multi-modal Large Language Models.pdf",
+        "作者": "Xiao Wang, Jingyun Hua, Weihong Lin, Yuanxing Zhang, Fuzheng Zhang, Jianlong Wu, Di Zhang, Liqiang Nie",
+        "摘要": "摘要: 最近的多模态大型语言模型（MLLMs）在视频理解方面取得了很大进展。然而，它们在涉及人类动作的视频中的表现仍然受限于缺乏高质量的数据。为了解决这个问题，我们引入了一个两阶段的数据注释流程。首先，我们设计策略从互联网上收集清晰展示人类动作的视频。其次，这些视频按照标准化的字幕格式进行标注，使用人物属性来区分个体，并按时间顺序详细描述他们的动作和互动。通过这个流程，我们收集了两个数据集，即HAICTrain和HAICBench。HAICTrain包含由Gemini-Pro生成并经过验证的126K视频字幕对，用于训练目的。与此同时，HAICBench包括500对手动标注的视频字幕对和1,400对问答对，用于全面评估人类动作理解。实验结果表明，使用HAICTrain进行训练不仅显著增强了跨越4个基准的人类理解能力，还能改进文本到视频的生成结果。HAICTrain和HAICBench数据集均公开发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2502.20811.pdf"
+    }
+]
