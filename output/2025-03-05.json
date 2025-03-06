@@ -1,0 +1,152 @@
+[
+    {
+        "名称": "2025 [2503.02682] MPO: Boosting LLM Agents with Meta Plan Optimization.pdf",
+        "作者": "Weimin Xiong, Yifan Song, Qingxiu Dong, Bingchan Zhao, Feifan Song, Xun Wang, Sujian Li",
+        "摘要": "摘要：近年来大规模语言模型（LLMs）的进步使得基于LLM的智能体能够成功解决交互式规划任务。然而，尽管取得了一些成功，现有方法常常面临规划幻觉的问题，并且每个新的智能体需要重新训练。为了解决这些挑战，我们提出了元规划优化（Meta Plan Optimization, MPO）框架，通过直接整合显式指导来增强智能体的规划能力。与依赖复杂知识的以往方法不同，这些方法要么需要大量人力，要么质量得不到保证。MPO利用通过元规划提供的高层次的通用指导来辅助智能体规划，并能够根据智能体任务执行的反馈持续优化元规划。我们在两个具有代表性的任务上进行的实验表明，MPO显著优于现有基线方法。此外，我们的分析表明，MPO提供了一种即插即用的解决方案，增强了任务完成效率和在先前未见情境中的泛化能力。\n\n作者：熊伟民，宋艺凡，董庆秀，赵秉宸，宋飞凡，王勋，李素建\n\n链接：https://arxiv.org/pdf/2503.02682.pdf\n\n标题：《2025 [2503.02682] MPO：通过元规划优化提升LLM智能体》",
+        "地址": "https://arxiv.org/pdf/2503.02682.pdf"
+    },
+    {
+        "名称": "2025 [2503.02846] Mask-DPO: Generalizable Fine-grained Factuality Alignment of LLMs.pdf",
+        "作者": "Yuzhe Gu, Wenwei Zhang, Chengqi Lyu, Dahua Lin, Kai Chen",
+        "摘要": "摘要：大型语言模型（LLMs）在担任各领域的人工智能助手时，表现出幻觉（即不真实或无意义的信息）。由于幻觉总是伴随着LLM响应中的真实内容，先前在响应级别进行偏好学习的事实对齐方法在训练期间不可避免地引入了噪声。因此，本文提出了一种基于直接偏好优化（DPO）的细粒度事实对齐方法，称为Mask-DPO。Mask-DPO将句子级别的真实性作为掩码信号，仅从首选样本中的真实句子中学习，并防止对非首选样本中的真实内容进行惩罚，从而解决了偏好学习中的模糊性。广泛的实验结果表明，Mask-DPO可以显著提高LLMs对来自域内和域外数据集的问题的响应真实度，尽管这些问题及其相应的主题在训练期间是不可见的。仅在ANAH训练集上进行训练，Llama3.1-8B-Instruct在ANAH测试集上的得分从49.19％提高到77.53％，甚至超过了Llama3.1-70B-Instruct（53.44％）的得分，而其在域外传记数据集上的FactScore也从30.29％提高到39.39％。我们进一步使用不同的训练样本扩展策略研究了Mask-DPO的泛化特性，发现扩展数据集中主题的数量比问题数量更有效。我们提供了一个假设，解释了事实对齐在LLMs中的作用及其含义，并进行了概念验证实验来验证它。我们希望该方法和发现能为未来在扩展事实对齐方面的研究铺平道路。\n\n作者：谷宇哲，张文为，吕成启，林达华，陈凯\n\n备注：评论：被ICLR 2025接收。代码可在此HTTPS URL访问。\n\n链接：https://arxiv.org/pdf/2503.02846.pdf \n\n标题：2025 [2503.02846] Mask-DPO: LLMs的可概括细粒度事实对齐",
+        "地址": "https://arxiv.org/pdf/2503.02846.pdf"
+    },
+    {
+        "名称": "2025 [2503.02879] Wikipedia in the Era of LLMs: Evolution and Risks.pdf",
+        "作者": "Siming Huang, Yuliang Xu, Mingmeng Geng, Yao Wan, Dongping Chen",
+        "摘要": "摘要：在本文中，我们对大规模语言模型（LLM）对维基百科的影响进行了深入分析，通过现有数据审查维基百科的演变，并使用模拟探讨潜在风险。我们首先分析了页面浏览量和文章内容，以研究维基百科的近期变化并评估LLMs的影响。随后，我们评估了LLMs对与维基百科相关的各种自然语言处理（NLP）任务的影响，包括机器翻译和检索增强生成（RAG）。我们的发现和模拟结果显示，维基百科文章受LLM影响，在某些类别中影响约为1%至2%。如果基于维基百科的机器翻译基准受到LLM的影响，模型的得分可能会膨胀，模型之间的比较结果可能也会发生变化。此外，如果知识库被LLM生成的内容污染，RAG的有效性可能会下降。尽管LLM尚未全面改变维基百科的语言和知识结构，但我们认为，我们的实证结果表明需要仔细考虑潜在的未来风险。",
+        "地址": "https://arxiv.org/pdf/2503.02879.pdf"
+    },
+    {
+        "名称": "2025 [2503.01935] MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents.pdf",
+        "作者": "Kunlun Zhu, Hongyi Du, Zhaochen Hong, Xiaocheng Yang, Shuyi Guo, Zhe Wang, Zhenhailong Wang, Cheng Qian, Xiangru Tang, Heng Ji, Jiaxuan You",
+        "摘要": "摘要： 大型语言模型（LLMs）在作为自主代理方面展现出显著能力，然而现有基准要么专注于单代理任务，要么限制在狭窄领域，未能捕捉多代理协调与竞争的动态。在本文中，我们介绍了MultiAgentBench，这是一个全面的基准，旨在评估基于LLM的多代理系统在各种互动场景中的表现。我们的框架不仅衡量任务完成情况，还使用新的基于里程碑的关键绩效指标来评估合作与竞争的质量。此外，我们评估了各种协调协议（包括星形、链式、树状和图状拓扑结构）和创新策略，如小组讨论和认知规划。值得注意的是，gpt-4o-mini在任务得分上达到平均最高，图结构在研究场景中的协调协议中表现最佳，认知规划使里程碑达成率提高了3%。代码和数据集公开可用，见此https URL。",
+        "地址": "https://arxiv.org/pdf/2503.01935.pdf"
+    },
+    {
+        "名称": "2025 [2503.00735] LADDER: Self-Improving LLMs Through Recursive Problem Decomposition.pdf",
+        "作者": "Toby Simonds, Akira Yoshiyama",
+        "摘要": "摘要：我们介绍了LADDER（通过自主难度驱动示例递归学习），这是一个框架，使大型语言模型能够通过自我引导学习，递归生成和解决逐步简化的复杂问题变体，来自主提高其解决问题的能力。与之前需要整理数据集或人工反馈的方法不同，LADDER利用模型自身的能力生成更简单的问题变体。我们展示了LADDER在数学积分领域的有效性，将Llama 3.2 3B在本科水平问题上的准确率从1%提高到82%，并使Qwen2.5 7B Deepseek-R1 Distilled在MIT积分比赛资格考试中达到73%。我们还介绍了TTRL（测试时强化学习），在推理时对测试问题的变体进行强化学习。TTRL使Qwen2.5 7B Deepseek-R1 Distilled在MIT积分比赛资格考试中达到90%的最新水平，超越了OpenAI o1的表现。这些结果表明，自我指导的战略学习可以在不依赖架构扩展或人为监督的情况下显著提高能力。\n\n作者：Toby Simonds, Akira Yoshiyama\n\n链接：https://arxiv.org/pdf/2503.00735.pdf\n\n标题：2025 [2503.00735] LADDER：通过递归问题分解实现LLMs的自我改进",
+        "地址": "https://arxiv.org/pdf/2503.00735.pdf"
+    },
+    {
+        "名称": "2025 [2503.02368] Iterative Value Function Optimization for Guided Decoding.pdf",
+        "作者": "Zhenhua Liu, Lijun Li, Ruizhe Chen, Yuxian Jiang, Tong Zhu, Zhaochen Su, Wenliang Chen, Jing Shao",
+        "摘要": "摘要: 虽然基于人类反馈的强化学习（RLHF）已成为控制语言模型输出的主要方法，但其计算成本高且训练不稳定。引导解码，尤其是基于值引导的方法，通过在不重新训练模型的情况下控制输出，提供了一种节约成本的替代方案。然而，值函数的准确性对于值引导解码至关重要，因为误差会导致次优决策和性能下降。现有方法难以准确估计最优值函数，导致控制效果欠佳。我们提出了迭代值函数优化（Iterative Value Function Optimization），通过两个关键部分解决这些问题：蒙特卡洛值估计（Monte Carlo Value Estimation），通过探索不同轨迹减少估计方差；迭代在策略优化（Iterative On-Policy Optimization），通过收集值引导策略的轨迹逐步改进值估计。在文本摘要、复杂对话和指令跟随任务上的大量实验表明，值引导解码方法在对齐语言模型方面的有效性。这些方法不仅达到对齐效果，还通过利用严谨的值函数优化，实现了高效且有效的控制，同时显著降低了计算成本。\n\n来源：https://arxiv.org/pdf/2503.02368.pdf",
+        "地址": "https://arxiv.org/pdf/2503.02368.pdf"
+    },
+    {
+        "名称": "2025 [2503.01328] PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization.pdf",
+        "作者": "Xinyi Wan, Penghui Qi, Guangxing Huang, Jialin Li, Min Lin",
+        "摘要": "摘要：流水线并行性（PP）广泛用于训练大语言模型（LLM），但其可扩展性通常受限于高激活内存消耗，因为随着PP度的增加，正在处理的微批次数量也会上升。本文我们专注于通过利用在PP中未充分探索的内存卸载策略来解决这一挑战。通过实证研究，我们发现，在大多数标准配置中，至少有一半，甚至全部的激活可以以极小的开销进行卸载。在无法完全卸载的情况下，我们提出了一种新颖的选择性卸载策略，该策略能以超线性方式降低峰值激活内存。此外，我们将内存卸载与其他技术结合起来，综合考虑整体吞吐量和内存限制。我们的实验表明，随着阶段总数的增加，每个设备的激活内存有效减少，使得PP成为一个比TP更强的选择，在减少内存消耗的同时，还能加速高达19%。该实现已开源，具体见链接。\n\n作者：Xinyi Wan, Penghui Qi, Guangxing Huang, Jialin Li, Min Lin\n\n链接：[https://arxiv.org/pdf/2503.01328.pdf](https://arxiv.org/pdf/2503.01328.pdf)",
+        "地址": "https://arxiv.org/pdf/2503.01328.pdf"
+    },
+    {
+        "名称": "2025 [2503.00069] Societal Alignment Frameworks Can Improve LLM Alignment.pdf",
+        "作者": "Karolina Stańczak, Nicholas Meade, Mehar Bhatia, Hattie Zhou, Konstantin Böttinger, Jeremy Barnes, Jason Stanley, Jessica Montgomery, Richard Zemel, Nicolas Papernot, Nicolas Chapados, Denis Therien, Timothy P. Lillicrap, Ana Marasović, Sylvie Delacroix, Gillian K. Hadfield, Siva Reddy",
+        "摘要": "摘要：最近在大语言模型（LLMs）方面的进展主要集中在生成符合人类期望并与共同价值观一致的响应，这一过程被称为对齐。然而，由于人类价值观的复杂性与现有技术方法的狭隘性之间的固有脱节，使得对齐LLMs仍充满挑战。目前的对齐方法常导致目标不明确，反映了在模型开发者与模型之间指定契约以涵盖所有LLM对齐情境的实际困难。本文中，我们主张改进LLM对齐需要纳入社会对齐框架的见解，包括社会、经济和契约对齐，并讨论这些领域中的潜在解决方案。鉴于不确定性在社会对齐框架中的角色，我们进一步分析了这种不确定性如何在LLM对齐中表现出来。我们最后提出了一种看待LLM对齐的新视角，认为其目标的未完全指定性是一种机遇，而不是追求完美规范的目标。除了技术改进，我们还讨论了参与式对齐界面设计的需求。",
+        "地址": "https://arxiv.org/pdf/2503.00069.pdf"
+    },
+    {
+        "名称": "2025 [2503.00955] SemViQA: A Semantic Question Answering System for Vietnamese Information Fact-Checking.pdf",
+        "作者": "Nam V. Nguyen, Dien X. Tran, Thanh T. Tran, Anh T. Hoang, Tai V. Duong, Di T. Le, Phuc-Lu Le",
+        "摘要": "摘要：虚假信息的增加，尤其是由于像GPT和Gemini这样的大型语言模型（LLMs）的推动，要求为资源匮乏的语言（如越南语）提供强有力的事实核查解决方案。现有的方法在处理语义歧义、同音异义词和复杂的语言结构时往往难以兼顾准确性和效率。我们介绍了SemViQA，这是一种新颖的越南语事实核查框架，集成了语义证据检索（SER）和两步裁决分类（TVC）。我们的方法在平衡精度和速度的同时，达到了当前最先进的效果，在ISE-DSC01数据集上取得了78.97%的严格准确率，在ViWikiFC数据集上取得了80.82%的准确率，并在UIT数据科学挑战赛中获得第一名。此外，SemViQA Faster在推理速度上提升了7倍，同时保持了竞争力的准确率。SemViQA为越南语事实核查设立了新的基准，推动了对抗虚假信息的进程。源代码可在此链接获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.00955.pdf"
+    },
+    {
+        "名称": "2025 [2502.14856] FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling.pdf",
+        "作者": "Weilin Zhao, Tengyu Pan, Xu Han, Yudi Zhang, Ao Sun, Yuxiang Huang, Kaihuo Zhang, Weilun Zhao, Yuxuan Li, Jianyong Wang, Zhiyuan Liu, Maosong Sun",
+        "摘要": "摘要：投机采样已成为通过利用草稿-验证机制在每次前向传递中生成多个标记来加速大语言模型 (LLMs) 自回归生成过程的一项重要技术。尽管最先进的投机采样方法仅使用单层和语言模型 (LM) 头作为草稿模型来实现显著的层压缩，但对于具有大词汇量的LLM（例如词汇量为128k标记的Llama-3-8B），其效率显著降低。为了解决这个问题，我们提出了FR-Spec，这是一种通过词汇空间压缩优化草稿候选选择的频率排序投机采样框架。通过将草稿搜索限制在频率优先的标记子集中，我们的方法在确保最终输出分布等效的情况下，将LM头的计算开销减少了75%。跨多个数据集的实验表明，与最先进的投机采样方法EAGLE-2相比，我们的方法平均加速了1.12倍。\n\n翻译：Speculative sampling 已成为通过利用草稿-验证机制在每次前向传播中生成多个标记来加速大语言模型 (LLMs) 自回归生成过程的一个重要技术。而最先进的 speculative sampling 方法仅使用单层和语言模型 (LM) 头作为草稿模型来实现显著的层压缩，它们对于具有大词汇量的 LLM 的效率增益显著降低，如具有128k标记词汇量的 Llama-3-8B。为了解决这个问题，我们提出了 FR-Spec，一种通过词汇空间压缩来优化草稿候选选择的频率排序 speculative sampling 框架。通过将草稿搜索限制在优先考虑频率的标记子集中，我们的方法在保证最终输出分布等效的情况下，将 LM 头的计算开销减少了 75%。在多个数据集的实验表明，与最先进的 speculative sampling 方法 EAGLE-2 相比，该方法的平均加速比为 1.12 倍。",
+        "地址": "https://arxiv.org/pdf/2502.14856.pdf"
+    },
+    {
+        "名称": "2025 [2503.02537] RectifiedHR: Enable Efficient High-Resolution Image Generation via Energy Rectification.pdf",
+        "作者": "Zhen Yang, Guibao Shen, Liang Hou, Mushui Liu, Luozhou Wang, Xin Tao, Pengfei Wan, Di Zhang, Ying-Cong Chen",
+        "摘要": "摘要: 扩散模型在各种图像生成任务中取得了显著进展。然而，当生成分辨率高于训练期间使用的分辨率时，它们的性能会明显下降。尽管已有众多方法来生成高分辨率图像，但它们要么效率低下，要么受复杂操作的限制。本文提出了一种高效且简单的无训练高分辨率图像生成解决方案——RectifiedHR。具体而言，我们引入了噪声刷新策略，从理论上讲，只需几行代码即可开启模型的高分辨率生成能力并提高效率。此外，我们首次观察到能量衰减现象，这可能导致高分辨率图像生成过程中出现图像模糊。为了解决这一问题，我们提出了能量校正策略，通过修改无分类器指导的超参数有效提高生成性能。我们的方法完全无需训练，且实现逻辑简单。通过与众多基准方法的广泛对比，我们的RectifiedHR展示了卓越的有效性和高效性。",
+        "地址": "https://arxiv.org/pdf/2503.02537.pdf"
+    },
+    {
+        "名称": "2025 [2503.01342] UFO: A Unified Approach to Fine-grained Visual Perception via Open-ended Language Interface.pdf",
+        "作者": "Hao Tang, Chenwei Xie, Haiyang Wang, Xiaoyi Bao, Tingyu Weng, Pandeng Li, Yun Zheng, Liwei Wang",
+        "摘要": "摘要: 通用模型在语言和视觉-语言任务中取得了显著成功，展示了统一建模的潜力。然而，将诸如检测和分割等细粒度感知任务有效地集成到这些模型中仍然是一个重大挑战。这主要是因为这些任务通常高度依赖任务特定的设计和架构，可能会使建模过程复杂化。为了解决这一挑战，我们提出了\\\\ours，一个通过开放式语言接口统一细粒度视觉感知任务的框架。通过将所有感知目标转换为语言空间，\\\\ours 将对象级检测、像素级分割和图像级视觉-语言任务统一到一个模型中。此外，我们引入了一种新颖的嵌入检索方法，该方法仅依赖于语言接口来支持分割任务。我们的框架弥合了细粒度感知任务和视觉-语言任务之间的差距，显著简化了架构设计和训练策略，同时达到或超过了具有复杂任务特定设计的方法的性能。在五个标准视觉感知数据集上的多任务训练后，\\\\ours 在COCO实例分割上比之前的最先进通用模型高出12.3 mAP，在ADE20K语义分割上高出3.3 mIoU。此外，我们的方法与现有的多模态大语言模型（MLLM）无缝集成，有效地将细粒度感知能力与其先进的语言能力结合起来，从而使得诸如推理分割等更具挑战性的任务成为可能。代码和模型可在以下网址找到：https://arxiv.org/pdf/2503.01342.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.01342.pdf"
+    },
+    {
+        "名称": "2025 [2503.02197] ATLaS: Agent Tuning via Learning Critical Steps.pdf",
+        "作者": "Zhixun Chen, Ming Li, Yuxuan Huang, Yali Du, Meng Fang, Tianyi Zhou",
+        "摘要": "摘要: 大语言模型(LLM)代理在跨多领域任务中的泛化能力表现出色。现有的代理调优方法通常采用对整个专家轨迹进行监督微调。然而，对完整轨迹进行行为克隆可能引入专家偏见，并削弱对专家数据未覆盖状态的泛化能力。此外，规划、中间子任务的复杂推理和战略决策等关键步骤对代理任务的成功至关重要，因此学习这些步骤是提高LLM代理的关键。为了更有效和高效地进行代理调优，我们提出了ATLaS，识别专家轨迹中的关键步骤，并仅对这些步骤进行LLM微调，从而降低成本。通过将训练重点转移到少量关键步骤上，我们的方法减轻了对完整轨迹过拟合的风险，并促进了在不同环境和任务中的泛化。在广泛的实验中，仅对ATLaS选择的30%关键步骤进行微调的LLM，其表现优于对所有步骤进行微调的LLM和近期的开源LLM代理。ATLaS保持并提高了基础LLM作为在多样环境中互动的通用代理的技能。",
+        "地址": "https://arxiv.org/pdf/2503.02197.pdf"
+    },
+    {
+        "名称": "2025 [2503.02878] Language Models can Self-Improve at State-Value Estimation for Better Search.pdf",
+        "作者": "Ethan Mendes, Alan Ritter",
+        "摘要": "摘要：针对多步推理任务收集真实目标任务完成奖励或人类示范通常成本高昂且耗时，特别是在诸如网页任务等互动领域。为了解决这一瓶颈，我们提出了一种自我监督的方法——“自教前瞻”（self-taught lookahead），该方法利用状态转移动态来训练一个值模型，使其能够有效引导语言模型控制的搜索。我们的研究发现，通过“自教前瞻”改进的中等规模（80亿参数）的开源值模型，其性能可以与使用前沿LLM（如gpt-4o）作为值模型的表现相媲美。此外，我们发现，“自教前瞻”可以在不依赖真实奖励的情况下，将性能提高20%，同时将成本降低37倍，相较于以往基于LLM的树搜索。\n\n翻译完毕。",
+        "地址": "https://arxiv.org/pdf/2503.02878.pdf"
+    },
+    {
+        "名称": "2025 [2503.00876] Improve Representation for Imbalanced Regression through Geometric Constraints.pdf",
+        "作者": "Zijian Dong, Yilei Wu, Chongyao Chen, Yingtian Zou, Yichi Zhang, Juan Helen Zhou",
+        "摘要": "摘要：在表示学习中，均匀性指的是在潜在空间（即单位超球体）中的均匀特征分布。先前的研究表明，提高均匀性有助于低表示类的学习。然而，大多数先前的工作集中于分类；不平衡回归的表示空间仍然未被探索。基于分类的方法不适合回归任务，因为它们将特征聚集成不同的群体，而没有考虑对回归至关重要的连续和有序性质。从几何角度来看，我们独特地专注于通过两个关键损失在不平衡回归中确保潜在空间的均匀性：包络损失和均匀性损失。包络损失鼓励诱导轨迹均匀地占据超球体表面，而均匀性损失确保平滑性，并且表示在一致的间隔均匀分布。我们的方法通过基于代理驱动的表示学习（SRL）框架将这些几何原理整合到数据表示中。对真实世界回归和算子学习任务的实验强调了在不平衡回归中均匀性的重要性，并验证了我们基于几何的损失函数的有效性。",
+        "地址": "https://arxiv.org/pdf/2503.00876.pdf"
+    },
+    {
+        "名称": "2025 [2503.02268] AppAgentX: Evolving GUI Agents as Proficient Smartphone Users.pdf",
+        "作者": "Wenjia Jiang, Yangyang Zhuang, Chenxi Song, Xu Yang, Chi Zhang",
+        "摘要": "摘要: 最近大规模语言模型（LLMs）的进步催生了能够与图形用户界面（GUIs）交互的智能LLM代理。这些代理展示出了强大的推理能力和适应性，使其能够执行传统上需要预定义规则的复杂任务。然而，LLM代理对逐步推理的依赖往往导致效率低下，尤其是在执行常规任务时。相比之下，传统的基于规则的系统虽然效率高，但缺乏适应新情景的智能和灵活性。为了解决这一挑战，我们提出了一种新的进化框架，用于增强GUI代理的运行效率，同时保持智能和灵活性。我们的方法引入了记录代理任务执行历史的记忆机制。通过分析这一历史，代理识别出重复的动作序列，并进化出作为快捷方式的高级动作，这些高级动作取代了低级操作并提高了效率。这使得代理能够专注于需要更复杂推理的任务，同时简化常规操作。多个基准任务的实验结果表明，我们的方法在效率和准确性方面显著优于现有的方法。代码将开源以支持进一步的研究。",
+        "地址": "https://arxiv.org/pdf/2503.02268.pdf"
+    },
+    {
+        "名称": "2025 [2503.02876] SPIDER: A Comprehensive Multi-Organ Supervised Pathology Dataset and Baseline Models.pdf",
+        "作者": "Dmitry Nechaev, Alexey Pchelnikov, Ekaterina Ivanova",
+        "摘要": "摘要：推进计算病理学中的人工智能需要大规模的、高质量的、多样化的数据集，但现有的公共数据集通常在器官多样性、类别覆盖范围或注释质量方面存在限制。为了弥补这一差距，我们引入了SPIDER（监督病理图像描述库），这是最大的公开可用的覆盖多种器官类型的片段级数据集，包括皮肤、结肠直肠和胸腔，每种器官都有全面的类别覆盖。SPIDER提供由专家病理学家验证的高质量注释，并包含周围的上下文片段，通过提供空间上下文来增强分类性能。\n\n除了数据集外，我们还展示了使用Hibou-L基础模型作为特征提取器并结合基于注意力的分类头训练的基线模型。该模型在多种组织类别中实现了最前沿的性能，并作为未来数字病理学研究的强大基准。除了片段分类外，该模型还能够快速识别重要区域、量化组织指标，并为多模态方法奠定了基础。\n\n数据集和训练模型都公开可用，以推动研究、可重复性和人工智能驱动的病理学发展。访问地址：此https URL。",
+        "地址": "https://arxiv.org/pdf/2503.02876.pdf"
+    },
+    {
+        "名称": "2025 [2503.02357] Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content.pdf",
+        "作者": "Zicheng Zhang, Tengchuan Kou, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min, Xiaohong Liu, Guangtao Zhai",
+        "摘要": "摘要：评估文本到视觉内容有两个关键方面：视觉质量和一致性。尽管在评估这两个方面的客观模型开发方面取得了显著进展，但这类模型的性能在很大程度上依赖于人工注释的规模和质量。根据规模定律，增加人工标注实例的数量具有可预测的模式，可提升评估模型的性能。因此，我们推出了一个综合数据集，用于评估文本到视觉内容的视觉质量和一致性水平（Q-EVAL-100K），这是迄今为止收集到的最大规模的人为注释均值意见分数（MOS）数据集。Q-EVAL-100K数据集包含文本到图像和文本到视频的模型，共有96万个人工注释，专注于100K实例（60K图像和40K视频）的视觉质量和一致性。通过利用该数据集和情境提示，我们提出了Q-Eval-Score，一个能够同时评估视觉质量和一致性，并特别改善了长文本提示一致性处理的统一模型。实验结果表明，所提出的Q-Eval-Score在视觉质量和一致性方面均表现出色，且在其它基准测试中具有较强的泛化能力。这些研究结果突显了Q-EVAL-100K数据集的重要价值。数据和代码将在此URL提供。",
+        "地址": "https://arxiv.org/pdf/2503.02357.pdf"
+    },
+    {
+        "名称": "2025 [2503.02783] IterPref: Focal Preference Learning for Code Generation via Iterative Debugging.pdf",
+        "作者": "Jie Wu, Haoling Li, Xin Zhang, Jianwen Luo, Yangyu Huang, Ruihang Chu, Yujiu Yang, Scarlett Li",
+        "摘要": "摘要：偏好学习通过利用相对质量比较增强了代码大型语言模型（Code LLMs），超越了监督微调。现有方法从候选项中基于测试用例成功率构造偏好对，将高通过率样本视为正例，低通过率样本视为负例。然而，这种方法并未明确指出代码中的具体错误，阻碍了模型学习更多的信息性错误纠正模式，因为整体对齐失败代码缺乏捕捉有意义错误解决关系所需的细粒度。为了解决这些问题，我们提出了IterPref，一种新的偏好对齐框架，模拟人类迭代调试以优化Code LLMs。IterPref明确找到错误区域，并通过定制的DPO算法对齐相应的标记。为了生成信息丰富的样本对，我们引入了CodeFlow数据集，其中样本被迭代地优化直到通过测试，修改捕捉到错误纠正。大量实验表明，配备IterPref的各种Code LLMs在代码生成中显著提升了性能，并在诸如BigCodeBench等具有挑战性的任务上表现改善。深入分析显示，IterPref导致的错误减少。我们的代码和数据将公开可用。\n\n作者：Jie Wu, Haoling Li, Xin Zhang, Jianwen Luo, Yangyu Huang, Ruihang Chu, Yujiu Yang, Scarlett Li\n\n备注：代码和数据将很快发布\n\n链接：https://arxiv.org/pdf/2503.02783.pdf\n\n标题：IterPref：通过迭代调试实现代码生成的焦点偏好学习",
+        "地址": "https://arxiv.org/pdf/2503.02783.pdf"
+    },
+    {
+        "名称": "2025 [2503.02812] Q-Filters: Leveraging QK Geometry for Efficient KV Cache Compression.pdf",
+        "作者": "Nathan Godey, Alessio Devoto, Yu Zhao, Simone Scardapane, Pasquale Minervini, Éric de la Clergerie, Benoît Sagot",
+        "摘要": "摘要：自回归语言模型依赖于键值（KV）缓存，以避免在生成期间重新计算过去的隐藏状态，从而提高速度。随着模型规模和上下文长度的增加，KV缓存成为一个显著的内存瓶颈，这需要在生成期间通过压缩方法来限制其大小。在本文中，我们发现了查询（Q）和键（K）向量的一些令人惊讶的性质，使我们能够在不计算注意力图的情况下高效地近似注意力分数。我们提出了一种名为Q-Filters的训练自由的KV缓存压缩方法，该方法基于单一与上下文无关的投影筛选出较不重要的键值对。与许多替代方案不同，Q-Filters与闪电注意力（FlashAttention）兼容，因为它不需要直接访问注意力权重。在长上下文环境中的实验结果表明，Q-Filters在检索任务中与基于注意力的压缩方法如SnapKV具有竞争力，同时在生成设置中一致地优于高效压缩方案如Streaming-LLM。值得注意的是，Q-Filters在大海捞针任务中以x32的压缩水平达到了99%的准确率，并且在文本生成中将生成困惑度的下降减少了高达65%，相比于Streaming-LLM。",
+        "地址": "https://arxiv.org/pdf/2503.02812.pdf"
+    },
+    {
+        "名称": "2025 [2503.02823] A Multimodal Symphony: Integrating Taste and Sound through Generative AI.pdf",
+        "作者": "Matteo Spanio, Massimiliano Zampini, Antonio Rodà, Franco Pierucci",
+        "摘要": "摘要: 近几十年来，神经科学和心理学研究已经追踪到味觉和听觉感知之间的直接关系。本文探索了能够将味觉信息转换为音乐的多模态生成模型，并在此基础研究上进行了构建。我们简要回顾了该领域的最新进展，重点介绍了关键发现和方法。我们展示了一项实验，在该实验中，使用一个微调后的生成音乐模型（MusicGEN）根据每个音乐片段提供的详细味觉描述生成音乐。结果令人鼓舞：根据参与者（$n=111$）的评价，微调模型生成的音乐相比于未微调模型，更能连贯地反映输入的味觉描述。这项研究代表了在理解和发展AI、声音和味觉之间的具体互动方面的重要一步，为生成AI领域开辟了新的可能性。我们在此处提供了我们的数据集、代码和预训练模型：this https URL.",
+        "地址": "https://arxiv.org/pdf/2503.02823.pdf"
+    },
+    {
+        "名称": "2025 [2503.02152] Tabby: Tabular Data Synthesis with Language Models.pdf",
+        "作者": "Sonia Cromp, Satya Sai Srinath Namburi GNVV, Mohammed Alkhudhayri, Catherine Cao, Samuel Guo, Nicholas Roberts, Frederic Sala",
+        "摘要": "摘要：近年来，尽管大型语言模型（LLMs）的进步大大提高了合成文本数据的质量，合成表格数据却相对较少受到关注。我们通过Tabby解决了这一差异。Tabby是对标准Transformer语言模型架构的一种简单但强大的训练后修改，使其能够用于表格数据集的合成。Tabby通过使用列特定参数集的门控专家混合模型（Gated Mixture-of-Experts），实现了对列间差异的表示。实验证明，Tabby生成的数据质量接近或等同于真实数据。将我们新颖的LLM表格训练技术Plain与Tabby结合使用，我们观察到比以往方法高出多达44%的质量改进。我们还展示了Tabby不仅适用于表格数据，还能扩展到更通用的结构化数据，在嵌套JSON数据集上也达到了与真实数据相提并论的效果。\n\n作者：Sonia Cromp, Satya Sai Srinath Namburi GNVV, Mohammed Alkhudhayri, Catherine Cao, Samuel Guo, Nicholas Roberts, Frederic Sala\n\n备注：21页，8幅图\n\n链接：https://arxiv.org/pdf/2503.02152.pdf\n\n标题：2025 [2503.02152] Tabby: 使用语言模型进行表格数据合成.pdf",
+        "地址": "https://arxiv.org/pdf/2503.02152.pdf"
+    },
+    {
+        "名称": "2025 [2503.02304] A Token-level Text Image Foundation Model for Document Understanding.pdf",
+        "作者": "Tongkun Guan, Zining Wang, Pei Fu, Zhengtao Guo, Wei Shen, Kai Zhou, Tiezhu Yue, Chen Duan, Hao Sun, Qianyi Jiang, Junfeng Luo, Xiaokang Yang",
+        "摘要": "摘要：近年来，通用视觉基础模型（VFMs）作为流行的多模态大语言模型（MLLMs）的图像编码器得到了越来越多的应用。然而，在没有语义细粒度监督的情况下，这些模型在预测下游文本图像相关任务时仍会遇到基本错误，即对包含小而密集文本的图像进行感知、理解和推理。为弥补这一差距，我们开发了TokenOCR，这是第一个专门针对文本图像相关任务的标记级视觉基础模型，旨在支持各种传统的下游应用。为了促进TokenOCR的预训练，我们还设计了一条高质量的数据生成管道，构建了第一个标记级图像文本数据集TokenIT，包括2000万张图像和18亿个标记-掩码对。此外，利用这种具有出色图像即文本能力的基础，我们无缝地用TokenOCR替换了之前的VFMs，以构建用于基于ＶQA的文档理解任务的文档级MLLM，TokenVL。最后，广泛的实验证明了TokenOCR和TokenVL的有效性。代码、数据集和权重将在此https URL上提供。\n\n翻译之后的中文版本如下：\n\n近年来，通用视觉基础模型（VFMs）作为流行的多模态大语言模型（MLLMs）的图像编码器得到了越来越多的应用。然而，在没有语义细粒度监督的情况下，这些模型在预测下游文本图像相关任务时仍会遇到基本错误，即对包含小而密集文本的图像进行感知、理解和推理。为弥补这一差距，我们开发了TokenOCR，这是第一个专门针对文本图像相关任务的标记级视觉基础模型，旨在支持各种传统的下游应用。为了促进TokenOCR的预训练，我们还设计了一条高质量的数据生成管道，构建了第一个标记级图像文本数据集TokenIT，包括2000万张图像和18亿个标记-掩码对。此外，利用这种具有出色图像即文本能力的基础，我们无缝地用TokenOCR替换了之前的VFMs，以构建用于基于ＶQA的文档理解任务的文档级MLLM，TokenVL。最后，广泛的实验证明了TokenOCR和TokenVL的有效性。代码、数据集和权重将在此https URL上提供。",
+        "地址": "https://arxiv.org/pdf/2503.02304.pdf"
+    },
+    {
+        "名称": "2025 [2503.00200] Unified Video Action Model.pdf",
+        "作者": "Shuang Li, Yihuai Gao, Dorsa Sadigh, Shuran Song",
+        "摘要": "摘要:\n统一的视频和动作模型在机器人领域中具有重要的前景，其中视频为动作预测提供了丰富的场景信息，而动作为视频预测提供了动态信息。然而，有效地结合视频生成和动作预测仍然具有挑战性，目前基于视频生成的方法在动作准确性和推理速度方面难以匹敌直接策略学习。为弥合这一差距，我们引入了统一视频动作模型（UVA），它通过联合优化视频和动作预测，实现高准确性和高效的动作推理。关键在于学习联合视频-动作潜在表示，并将视频-动作解码分离。联合潜在表示在视觉和动作领域之间架起桥梁，有效地建模视频和动作序列之间的关系。同时，由两个轻量级扩散头驱动的解耦解码通过在推理过程中绕过视频生成，实现高速动作推理。这样的统一框架通过掩码输入训练进一步实现了多功能性。通过选择性地掩蔽动作或视频，单一模型可以处理超越策略学习的多种任务，如正向和逆向动力学建模以及视频生成。通过一系列广泛的实验，我们证明了UVA可以作为广泛的机器人任务的通用解决方案，例如策略学习、正向/逆向动力学和视频观测预测，并且在性能上不逊于为特定应用量身定制的方法。结果最佳查看链接：https URL。",
+        "地址": "https://arxiv.org/pdf/2503.00200.pdf"
+    },
+    {
+        "名称": "2025 [2503.01842] Discrete-Time Hybrid Automata Learning: Legged Locomotion Meets Skateboarding.pdf",
+        "作者": "Hang Liu, Sangli Teng, Ben Liu, Wei Zhang, Maani Ghaffari",
+        "摘要": "摘要: 本文介绍了离散时间混合自动机学习（DHAL），这是一个使用策略优化强化学习来识别和执行模式切换的框架，无需轨迹分割或事件函数学习。混合动力系统，包括连续流和离散模式切换，可以模拟诸如腿式机器人移动等机器人任务。基于模型的方法通常依赖于预定义的步态，而无模型的方法缺乏明确的模式切换知识。目前的方法通过分割首先识别离散模式，然后回归连续流，但在没有轨迹标签或分割的情况下学习高维复杂刚体动力学是一个具有挑战性的开放问题。我们的方法结合了一个贝塔策略分布和一个多评论架构来模拟接触引导的运动，以一个具有挑战性的四足机器人滑板任务为例。我们通过模拟和现实世界测试验证了我们的方法，展示了其在混合动力系统中的稳健性能。",
+        "地址": "https://arxiv.org/pdf/2503.01842.pdf"
+    }
+]
