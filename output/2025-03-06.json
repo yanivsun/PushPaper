@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2503.00865] Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers.pdf",
+        "作者": "Yiran Zhao, Chaoqun Liu, Yue Deng, Jiahao Ying, Mahani Aljunied, Zhaodonghui Li, Lidong Bing, Hou Pong Chan, Yu Rong, Deli Zhao, Wenxuan Zhang",
+        "摘要": "摘要: 大型语言模型（LLMs）已经彻底改变了自然语言处理（NLP），但开源的多语言LLMs仍然稀缺，已有的模型往往在语言覆盖范围上有限。这些模型通常优先考虑资源丰富的语言，而广泛使用但资源匮乏的语言往往被忽视。为了应对这种差异，我们推出了$\\\\texttt{Babel}$，一个覆盖全球前25种语言的开源多语言LLM，支持超过90%的人口，并包括许多被其他开源多语言LLM忽视的语言。与传统的持续预训练方法不同，Babel通过一种层扩展技术增加了参数数量，提高了Babel的性能上限。我们引入了两种变体：$\\\\texttt{Babel-9B}$，设计用于高效推理和微调，和$\\\\texttt{Babel-83B}$，设立了开源多语言LLM的新标准。对多语言任务的广泛评估显示了其在同等规模开源LLMs中的卓越表现。此外，使用开源的监督微调数据集，Babel表现出了显著的性能，$\\\\texttt{Babel-9B-Chat}$在10B规模的LLMs中领先，$\\\\texttt{Babel-83B-Chat}$在多语言任务中设立了新标准，达到了商业模型的水平。\n\n作者: Yiran Zhao, Chaoqun Liu, Yue Deng, Jiahao Ying, Mahani Aljunied, Zhaodonghui Li, Lidong Bing, Hou Pong Chan, Yu Rong, Deli Zhao, Wenxuan Zhang\n\n链接: https://arxiv.org/pdf/2503.00865.pdf\n\n标题: 2025 [2503.00865] Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers.pdf",
+        "地址": "https://arxiv.org/pdf/2503.00865.pdf"
+    },
+    {
+        "名称": "2025 [2503.02003] HoT: Highlighted Chain of Thought for Referencing Supporting Facts from Inputs.pdf",
+        "作者": "Tin Nguyen, Logan Bolton, Mohammad Reza Taesiri, Anh Totti Nguyen",
+        "摘要": "摘要：大型语言模型（LLMs）的一个致命弱点是其倾向于产生非事实性的陈述。当一个混合了真实和非真实陈述的回答出现时，人类在验证并据此准确做出决策时会遇到挑战。为了解决这个问题，我们提出了一种新的提示技术，称为Highlighted Chain-of-Thought Prompting（HoT），用于提示LLMs生成带有XML标签的响应，将事实基于查询中提供的内容。具体来说，给定一个输入问题，LLMs会首先重新格式化该问题，添加XML标签以突出关键信息，然后生成一个带有高亮显示的响应，标注出引用自输入的事实。有趣的是，在少量示范设置中，HoT在包括算术、阅读理解和逻辑推理在内的17项任务中，性能优于传统的思维链提示法（CoT）。当要求人类验证LLM的响应时，高亮显示帮助时间有限的参与者更准确高效地识别LLM的正确性。然而，令人惊讶的是，当LLMs答案错误时，HoTs反而会令用户相信答案是正确的。\n\n翻译：大型语言模型（LLMs）的一个致命弱点是它们倾向于产生不符合事实的陈述。混合了事实和不事实陈述的回答对人类来说验证和做出准确的决策是一大挑战。为了解决这个问题，我们提出了Highlighted Chain-of-Thought Prompting（HoT），这是一种提示技术，旨在让LLMs生成包含XML标签的响应，将事实与查询中提供的内容联系起来。具体来说，给定一个输入问题，LLMs会首先重新格式化问题，添加XML标签以突出关键信息，然后生成一个带有高亮显示的响应，标注引用自输入的事实。有趣的是，在少量示例的设置下，HoT在17项任务，包括算术、阅读理解和逻辑推理方面，表现优于普通的思维链提示（CoT）。当要求人类验证LLM的响应时，高亮显示帮助时间有限的参与者更准确高效地识别LLMs的正确性。然而，令人惊讶的是，当LLMs出错时，HoTs反而会让用户相信答案是正确的。",
+        "地址": "https://arxiv.org/pdf/2503.02003.pdf"
+    },
+    {
+        "名称": "2025 [2503.03746] Process-based Self-Rewarding Language Models.pdf",
+        "作者": "Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong",
+        "摘要": "摘要：大型语言模型（LLMs）在各种下游任务中表现出色，并已广泛应用于多种场景。为了进一步提高LLMs的性能，利用人工标注的偏好数据进行训练，但其性能受限于人为标注的上限。为此，提出了自奖励方法，让LLMs通过奖励其自身输出生成训练数据。然而，现有的自奖励范式在数学推理情景下效果不佳，甚至可能导致性能下降。在这项工作中，我们提出了基于过程的语言模型自奖励管道，该方法在自奖励范式内引入了长时间的推理、逐步的LLM评审以及逐步偏好优化。我们的新范式通过迭代的基于过程的自奖励成功地提升了LLMs在多个数学推理基准上的性能，展示了自奖励在实现可能超越人类能力的LLM推理方面的巨大潜力。",
+        "地址": "https://arxiv.org/pdf/2503.03746.pdf"
+    },
+    {
+        "名称": "2025 [2503.00329] ABC: Achieving Better Control of Multimodal Embeddings using VLMs.pdf",
+        "作者": "Benjamin Schneider, Florian Kerschbaum, Wenhu Chen",
+        "摘要": "摘要：视觉嵌入模型在诸如视觉检索和分类的零样本任务方面表现出色。然而，这些模型无法用于包含歧义或需要用户指示的任务。这些任务需要一种多模态嵌入模型，该模型输出结合视觉和自然语言输入的嵌入。现有的基于CLIP的方法独立嵌入图像和文本，并融合结果。我们发现，这导致模态间的相互作用较弱，用户对表示的控制较差。我们介绍了ABC，这是一种开源的多模态嵌入模型，它使用视觉-语言模型骨干来深度整合图像特征与自然语言指令。ABC在MSCOCO图像到文本检索任务中实现了最佳性能，并在大规模多模态嵌入基准测试中的分类和VQA任务中表现优异。通过这种强统一的视觉-语言表示，ABC可以使用自然语言解决细微且潜在的歧义视觉检索问题。为评估此能力，我们设计了CtrlBench，这是一个需要文本指令与图像内容交织进行正确检索的基准测试。ABC通过提供高质量的表征和灵活的自然语言控制推进了多模态嵌入的现状。我们的模型和数据集可在我们的项目页面上获得。\n\n来源：https://arxiv.org/pdf/2503.00329.pdf",
+        "地址": "https://arxiv.org/pdf/2503.00329.pdf"
+    },
+    {
+        "名称": "2025 [2503.03751] GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control.pdf",
+        "作者": "Xuanchi Ren, Tianchang Shen, Jiahui Huang, Huan Ling, Yifan Lu, Merlin Nimier-David, Thomas Müller, Alexander Keller, Sanja Fidler, Jun Gao",
+        "摘要": "摘要：我们提出了GEN3C，这是一种具有精确摄像机控制和时序3D一致性的视频生成模型。尽管之前的视频模型已经能够生成逼真的视频，但它们通常利用非常少的3D信息，导致诸如物体突然出现和消失的不一致现象。即便实现了摄像机控制，也是不精确的，因为摄像机参数只是神经网络的输入，必须推断视频如何依赖摄像机。相比之下，GEN3C由一个3D缓存引导：通过预测种子图像或之前生成帧的逐像素深度获得的点云。在生成下一帧时，GEN3C基于用户提供的新摄像机轨迹生成的3D缓存的2D渲染图像进行条件生成。重要的是，这意味着GEN3C既无需记住之前生成的内容，也无需从摄像机姿态中推断图像结构。相反，该模型可以将所有生成能力集中在先前未观察到的区域，并将场景状态推进到下一帧。我们的结果表明，与之前的工作相比，GEN3C具有更精确的摄像机控制，并且在稀疏视图新视图合成方面取得了最先进的效果，即使在驾驶场景和单目动态视频等具有挑战性的环境中也是如此。结果最好在视频中观看。请查看我们的网站！链接：https://arxiv.org/pdf/2503.03751.pdf",
+        "地址": "https://arxiv.org/pdf/2503.03751.pdf"
+    },
+    {
+        "名称": "2025 [2503.02951] KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding.pdf",
+        "作者": "Zhangchen Xu, Yang Liu, Yueqin Yin, Mingyuan Zhou, Radha Poovendran",
+        "摘要": "摘要：我们介绍了KodCode，这是一个合成数据集，旨在解决在不同难度和领域中为编程大型语言模型训练获取高质量、可验证的训练数据的持续挑战。现有的代码相关资源通常无法确保覆盖范围的广度（例如，从简单的编程任务到高级算法问题）或可验证的正确性（例如，单元测试）。相反，KodCode包含经过系统验证的问题-解决方案-测试三胞胎，并通过自我验证程序进行验证。我们的工作流程从合成广泛的编码问题开始，然后生成解决方案和测试用例，并分配额外的尝试来解决具有挑战性的问题。最后，通过将问题重写成多种格式并在基于测试的拒绝采样程序下从推理模型（DeepSeek R1）生成响应来进行后训练数据合成。该流程生成了大规模、健壮且多样化的编码数据集。KodCode适用于监督微调，并且成对的单元测试也为RL调优提供了极大的潜力。在编程基准测试（HumanEval(+)、MBPP(+)、BigCodeBench和LiveCodeBench）上的微调实验表明，KodCode微调的模型实现了最新的性能，超越了Qwen2.5-Coder-32B-Instruct和DeepSeek-R1-Distill-Llama-70B等模型。\n\n翻译：我们介绍了KodCode，这是一个合成数据集，旨在解决在不同难度和领域中为编程大型语言模型训练获取高质量、可验证的训练数据的持续挑战。现有的代码相关资源通常无法确保覆盖范围的广度（例如，从简单的编码任务到高级算法问题）或可验证的正确性（例如，单元测试）。相反，KodCode包含经过系统验证的问题-解决方案-测试三元组，通过自我验证程序进行验证。我们的流程从合成广泛的编码问题开始，然后生成解决方案和测试用例，并为具有挑战性的问题分配额外的尝试。最后，通过将问题重写成多种格式并在基于测试的拒绝采样程序下从推理模型（DeepSeek R1）生成响应来进行后训练数据合成。该流程生成了大规模、健壮且多样化的编码数据集。KodCode适用于监督微调，并且成对的单元测试也为强化学习调优提供了极大的潜力。在编程基准测试（HumanEval(+)、MBPP(+)、BigCodeBench和LiveCodeBench）上的微调实验表明，KodCode微调的模型实现了最新的性能，超越了Qwen2.5-Coder-32B-Instruct和DeepSeek-R1-Distill-Llama-70B等模型。",
+        "地址": "https://arxiv.org/pdf/2503.02951.pdf"
+    },
+    {
+        "名称": "2025 [2503.03278] Enhancing Abnormality Grounding for Vision Language Models with Knowledge Descriptions.pdf",
+        "作者": "Jun Li, Che Liu, Wenjia Bai, Rossella Arcucci, Cosmin I. Bercea, Julia A. Schnabel",
+        "摘要": "这篇论文的摘要如下：\n\n摘要：视觉语言模型（VLMs）在视觉定位任务中展示了令人印象深刻的能力。然而，它们在医学领域中的有效性，特别是在医学图像中检测和定位异常方面，仍未得到充分探索。一个主要挑战是医学术语的复杂和抽象性质，使得很难直接将病理异常术语与其对应的视觉特征联系起来。在这项工作中，我们引入了一种新方法，通过利用分解的医学知识来增强VLM在医学异常检测和定位中的性能。我们不是直接提示模型识别特定异常，而是致力于将医学概念分解为基本属性和常见视觉模式。这种策略促进了文本描述与视觉特征之间的更强对齐，提高了医学异常识别和定位的能力。我们在0.23B Florence-2基模型上评估了我们的方法，并证明即使只使用这种模型所需数据的1.5％进行训练，也能在异常定位中实现与显著更大的7B LLaVA基医疗VLM相当的性能。实验结果还证明了我们的方法在已知和以前未见异常中的有效性，表明其强大的泛化能力。",
+        "地址": "https://arxiv.org/pdf/2503.03278.pdf"
+    },
+    {
+        "名称": "2025 [2503.01836] CrowdSelect: Synthetic Instruction Data Selection with Multi-LLM Wisdom.pdf",
+        "作者": "Yisen Li, Lingfeng Yang, Wenxuan Shen, Pan Zhou, Yao Wan, Weiwei Lin, Dongping Chen",
+        "摘要": "摘要: 将高级大型语言模型的指令遵循能力提炼到较小的模型中，使用选定的子集已经成为模型训练的主流方法。尽管现有的合成指令数据选择策略主要依赖于单维度信号（即奖励分数，模型困惑度），但它们未能捕捉到跨多个领域的指令遵循的复杂性。因此，我们探讨了更多样化的信号，以捕捉全面的指令-响应对特征，并提出了利用多LLM智慧的三项基本指标，这些指标受到了（1）多样化LLM响应和（2）奖励模型评估的启发。在基本指标的基础上，我们提出了CrowdSelect，这是一种结合聚类方法以保持响应多样性的综合指标。我们全面的实验表明，我们的基础指标在MT-bench和Arena-Hard上的4个基本模型中一致提高了性能。CrowdSelect有效地整合了所有指标，在全量和LoRA微调中均达到最先进的性能，在Arena-Hard上提高了4.81%，在MT-bench上提高了11.1%（使用Llama-3.2-3b-instruct）。我们希望我们的发现能为未来在这一方向上的研究提供宝贵的见解。代码可以在此https URL上获得。",
+        "地址": "https://arxiv.org/pdf/2503.01836.pdf"
+    },
+    {
+        "名称": "2025 [2503.01933] Fine-Tuning Small Language Models for Domain-Specific AI: An Edge AI Perspective.pdf",
+        "作者": "Rakshit Aralimatti, Syed Abdul Gaffar Shakhadri, Kruthika KR, Kartik Basavaraj Angadi",
+        "摘要": "摘要：将大型语言模型部署在边缘设备上面临诸多挑战，如高计算需求、能源消耗以及潜在的数据隐私风险。本文介绍了Shakti小语言模型（SLMs）系列，包括Shakti-100M、Shakti-250M和Shakti-500M，这些模型直接针对上述约束。通过结合高效架构、量化技术和负责的AI原则，Shakti系列为智能手机、智能家电、物联网系统等提供了设备上的智能解决方案。我们详细介绍了它们的设计理念、训练管道以及在常规任务（如MMLU、Hellaswag）和专业领域（医疗、金融和法律）中的基准性能。我们的研究发现表明，精心设计和微调的紧凑模型在实际边缘AI场景中能够满足甚至超过预期。\n\n作者：Rakshit Aralimatti, Syed Abdul Gaffar Shakhadri, Kruthika KR, Kartik Basavaraj Angadi\n\n标题：2025 [2503.01933] 特定领域人工智能的小语言模型微调：边缘人工智能视角\n\n链接：https://arxiv.org/pdf/2503.01933.pdf",
+        "地址": "https://arxiv.org/pdf/2503.01933.pdf"
+    },
+    {
+        "名称": "2025 [2502.20317] Mixture of Structural-and-Textual Retrieval over Text-rich Graph Knowledge Bases.pdf",
+        "作者": "Yongjia Lei, Haoyu Han, Ryan A. Rossi, Franck Dernoncourt, Nedim Lipka, Mahantesh M Halappanavar, Jiliang Tang, Yu Wang",
+        "摘要": "摘要：文本丰富的图知识库（TG-KBs）在通过提供文本和结构知识来回答查询时变得越来越重要。然而，目前的检索方法通常将这两种类型的知识隔离检索，而没有考虑它们的相互增强效果，一些混合方法在邻域聚合后甚至完全绕过了结构检索。为了解决这个问题，我们提出了一种结构和文本混合检索方法（MoR），通过规划-推理-组织框架来检索这两种类型的知识。在规划阶段，MoR生成描绘回答查询逻辑的文本规划图。随后在推理阶段，MoR交织结构遍历和文本匹配，以从TG-KBs中获取候选。在组织阶段，MoR进一步基于结构轨迹重新排序所提取的候选。大量实验表明MoR在协调结构和文本检索方面的优越性，见解包括不同查询逻辑的检索性能不均衡和整合结构轨迹进行候选重新排序的好处。我们的代码可在此URL获取。\n\n作者：Yongjia Lei, Haoyu Han, Ryan A. Rossi, Franck Dernoncourt, Nedim Lipka, Mahantesh M Halappanavar, Jiliang Tang, Yu Wang\n\n论文链接：https://arxiv.org/pdf/2502.20317.pdf\n\n标题：2025 [2502.20317] 混合结构和文本检索在文本丰富的图知识库上",
+        "地址": "https://arxiv.org/pdf/2502.20317.pdf"
+    },
+    {
+        "名称": "2025 [2503.03044] QE4PE: Word-level Quality Estimation for Human Post-Editing.pdf",
+        "作者": "Gabriele Sarti, Vilém Zouhar, Grzegorz Chrupała, Ana Guerberof-Arenas, Malvina Nissim, Arianna Bisazza",
+        "摘要": "摘要：单词级质量估测(QE)检测机器翻译中的错误片段，可以指导和促进人工后编辑。尽管单词级QE系统的准确性已经得到了广泛评估，但它们在数据处理过程中的可用性以及对人工后编辑速度、质量和编辑选择的影响仍缺乏研究。我们的QE4PE研究在涉及42名专业后编辑人员及两个翻译方向的真实环境中，探讨了单词级QE对机器翻译后编辑的影响。我们比较了四种错误片段高亮显示模式，包括基于监督和不确定性的单词级QE方法，以识别最先进的神经机器翻译模型输出中的潜在错误。通过行为日志估计后编辑的努力和生产力，同时通过单词和片段级的人类注释评估质量改进。我们发现，领域、语言和编辑的速度是决定高亮显示效果的关键因素，而人工和自动QE高亮显示之间的差异适中，突显了在专业工作流程中的准确性和可用性之间的差距。\n\n翻译摘要：单词级质量估测(QE)检测机器翻译中的错误片段，可以指导和促进人工后编辑。尽管单词级QE系统的准确性已经得到了广泛评估，但它们在数据处理过程中的可用性以及对人工后编辑速度、质量和编辑选择的影响仍缺乏研究。我们的QE4PE研究在涉及42名专业后编辑人员及两个翻译方向的真实环境中，探讨了单词级QE对机器翻译后编辑的影响。我们比较了四种错误片段高亮显示模式，包括基于监督和不确定性的单词级QE方法，以识别最先进的神经机器翻译模型输出中的潜在错误。通过行为日志估计后编辑的努力和生产力，同时通过单词和片段级的人类注释评估质量改进。我们发现，领域、语言和编辑的速度是决定高亮显示效果的关键因素，而人工和自动QE高亮显示之间的差异适中，突显了在专业工作流程中的准确性和可用性之间的差距。",
+        "地址": "https://arxiv.org/pdf/2503.03044.pdf"
+    },
+    {
+        "名称": "2025 [2503.00307] Remasking Discrete Diffusion Models with Inference-Time Scaling.pdf",
+        "作者": "Guanghan Wang, Yair Schiff, Subham Sekhar Sahoo, Volodymyr Kuleshov",
+        "摘要": "摘要：扩散模型的成功部分归功于其迭代优化能力，即在生成过程中反复纠正输出。然而，现代掩码离散扩散模型缺乏这种能力：一旦生成了一个标记，它不能再被更新，即使它引入了错误。在此，我们通过介绍重新掩码扩散模型（ReMDM）采样器来解决这一限制，这是一种可以以合理方式应用于预训练掩码扩散模型的方法，其源自具有自定义重新掩码反向过程的离散扩散模型。最有趣的是，ReMDM赋予离散扩散模型一种推理时间计算扩展形式。通过增加采样步骤的数量，ReMDM生成的自然语言输出接近自回归模型的质量，而在计算预算有限的情况下，ReMDM更好地保持了质量。ReMDM还提高了离散图像掩码扩散模型的样本质量，在分子设计等科学领域，ReMDM促进了扩散引导，并相对于经典掩码和均匀噪声扩散推进了可控性的帕累托前沿。我们在项目页面提供了代码和博客文章：https URL。",
+        "地址": "https://arxiv.org/pdf/2503.00307.pdf"
+    },
+    {
+        "名称": "2025 [2502.18860] Exploring Rewriting Approaches for Different Conversational Tasks.pdf",
+        "作者": "Md Mehrab Tanjim, Ryan A. Rossi, Mike Rimer, Xiang Chen, Sungchul Kim, Vaishnavi Muppala, Tong Yu, Zhengmian Hu, Ritwik Sinha, Wei Zhang, Iftikhar Ahamath Burhanuddin, Franck Dernoncourt",
+        "摘要": "摘要：对话助手通常需要一种重写算法，该算法利用过去交互中的一部分来为用户的问题或请求提供更有意义（准确）的答案。然而，具体的重写方法可能会因使用场景和对话助手支持的特定任务而有所不同。在本文中，我们系统地研究了两种不同的方法，即重写和融合，针对两类根本不同的生成任务，包括文本生成任务和多模态生成任务。多模态生成任务以文本为输入并生成可视化或数据表以回答用户的问题。我们的结果表明，具体的重写或融合方法高度依赖于底层的使用场景和生成任务。特别是，我们发现对于对话式问答助手，查询重写方法表现最佳，而对于基于用户与助手的对话生成可视化和数据表的数据分析助手，融合方法效果最好。值得注意的是，我们探索了两种数据分析助手使用场景的数据集，分别是短对话和长对话数据集，发现查询融合方法总是表现更好，而对于对话式基于文本的问答助手，查询重写方法表现最佳。\n\n作者：Md Mehrab Tanjim, Ryan A. Rossi, Mike Rimer, Xiang Chen, Sungchul Kim, Vaishnavi Muppala, Tong Yu, Zhengmian Hu, Ritwik Sinha, Wei Zhang, Iftikhar Ahamath Burhanuddin, Franck Dernoncourt\n\n评论：预印本\n\n链接：https://arxiv.org/pdf/2502.18860.pdf\n\n标题：探索不同对话任务的重写方法",
+        "地址": "https://arxiv.org/pdf/2502.18860.pdf"
+    },
+    {
+        "名称": "2025 [2503.01763] Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models.pdf",
+        "作者": "Zhengliang Shi, Yuhan Wang, Lingyong Yan, Pengjie Ren, Shuaiqiang Wang, Dawei Yin, Zhaochun Ren",
+        "摘要": "摘要：工具学习旨在通过集成多种工具增强大型语言模型（LLMs），使其能够作为代理解决实际任务。由于使用工具的LLMs具有有限的上下文长度，因此采用信息检索（IR）模型从大量工具集中选择有用工具是一个关键的初始步骤。然而，IR模型在工具检索任务中的表现仍未得到充分探索和明确认识。大多数工具使用基准通过手动预先标注每个任务的一小组相关工具来简化此步骤，这与现实世界场景相去甚远。在本文中，我们提出了ToolRet，这是一个异构工具检索基准测试，包含7.6万个多样化的检索任务和一个由现有数据集收集的43,000个工具的语料库。我们在ToolRet上对六种类型的模型进行了基准测试。令人惊讶的是，即使在传统IR基准上表现强劲的模型，在ToolRet上的表现也较差。这种低检索质量降低了工具使用LLMs的任务通过率。作为进一步的步骤，我们贡献了一个包含超过20万个实例的大规模训练数据集，大大优化了IR模型的工具检索能力。",
+        "地址": "https://arxiv.org/pdf/2503.01763.pdf"
+    },
+    {
+        "名称": "2025 [2503.01729] FLAME: A Federated Learning Benchmark for Robotic Manipulation.pdf",
+        "作者": "Santiago Bou Betran, Alberta Longhini, Miguel Vasco, Yuchong Zhang, Danica Kragic",
+        "摘要": "摘要： \n最近在机器人操作方面的进展得益于在各种环境中收集的大规模数据集。通过这些数据集进行机器人的操作策略训练传统上是以集中化的方式进行的，因而在可扩展性、适应性和数据隐私方面存在一些问题。尽管联邦学习能实现去中心化和隐私保护的训练，但其在机器人操作中的应用仍然较少被探索。我们介绍FLAME（跨操作环境的联邦学习），这是第一个专为机器人操作中的联邦学习设计的基准。FLAME包括：（i）一组包含超过160,000个专家演示操作任务的多个大规模数据集，这些数据集收集于广泛的模拟环境中；（ii）一个用于在联邦设置中进行机器人策略学习的训练和评估框架。我们在FLAME中评估了标准的联邦学习算法，展示了其用于分布式策略学习的潜力，并指出了关键挑战。我们的基准为可扩展、自适应和隐私感知的机器人学习奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2503.01729.pdf"
+    },
+    {
+        "名称": "2025 [2503.01449] Benchmarking Large Language Models for Multi-Language Software Vulnerability Detection.pdf",
+        "作者": "Ting Zhang, Chengran Yang, Yindu Su, Martin Weyssow, Hung Nguyen, Tan Bui, Hong Jin Kang, Yikun Li, Eng Lieh Ouh, Lwin Khin Shar, David Lo",
+        "摘要": "摘要：最近在生成式人工智能上的进展导致大型语言模型（LLMs）在软件工程中的广泛应用，解决了许多长期存在的挑战。然而，目前缺乏对LLMs在软件漏洞检测（SVD）中的能力的全面研究，而SVD是软件安全的一个关键方面。现有研究主要集中在使用C/C++数据集评估LLMs，通常仅探讨提示工程、指令调优和序列分类微调中的一两种策略。因此，对于各种编程语言中的漏洞检测，关于不同LLMs有效性存在显著的知识空白。为了填补这一知识空白，我们提出了一项全面的实证研究，评估LLMs在SVD任务中的表现。我们汇编了包含8,260个Python漏洞函数、7,505个Java漏洞函数和28,983个JavaScript漏洞函数的综合数据集。我们通过多种方法（包括提示工程、指令调优和序列分类微调）评估了五个开源LLMs。这些LLMs与五个微调小型语言模型和两个开源静态应用安全测试工具进行了比较。此外，我们探讨了改进LLMs在SVD性能的两条途径：a) 数据视角：使用下采样平衡数据集重新训练模型。b) 模型视角：研究结合多个LLMs预测的集成学习方法。我们的全面实验表明，SVD对于LLMs仍然是一个具有挑战性的任务。本研究全面了解了LLMs在SVD中的作用，并为未来利用生成式人工智能增强软件安全实践提供了实用见解。\n\n来源：https://arxiv.org/pdf/2503.01449.pdf",
+        "地址": "https://arxiv.org/pdf/2503.01449.pdf"
+    },
+    {
+        "名称": "2025 [2503.01378] CognitiveDrone: A VLA Model and Evaluation Benchmark for Real-Time Cognitive Task Solving and Reasoning in UAVs.pdf",
+        "作者": "Artem Lykov, Valerii Serpiva, Muhammad Haris Khan, Oleg Sautenkov, Artyom Myshlyaev, Grik Tadevosyan, Yasheerah Yaqoot, Dzmitry Tsetserukou",
+        "摘要": "摘要：本文介绍了CognitiveDrone，这是一种新颖的视觉-语言-动作（VLA）模型，专为需要高级认知能力的复杂无人机任务而设计。该模型在包含超过8,000条模拟飞行轨迹的数据集中训练，这些轨迹涵盖了人类识别、符号理解和推理三大关键类别。该模型基于第一人称视觉输入和文本指令生成实时的4D动作指令。为了进一步提升复杂场景中的性能，我们提出了CognitiveDrone-R1，它集成了一个额外的视觉-语言模型（VLM）推理模块，以简化高频控制前的任务指令。在使用我们的开源基准CognitiveDroneBench进行的实验评估中，尽管专注于竞速的RaceVLA模型总体成功率为31.3%，基础CognitiveDrone模型达到了59.6%，而CognitiveDrone-R1达到了77.2%的成功率。这些结果显示了在关键认知任务中高达30%的改进，强调了在无人机控制系统中整合高级推理能力的有效性。我们的贡献包括开发了一种用于无人机控制的最先进的VLA模型，并引入了第一个专为评估无人机操作中的认知任务而设立的基准。完整的资料库可在此URL获取： https://arxiv.org/pdf/2503.01378.pdf",
+        "地址": "https://arxiv.org/pdf/2503.01378.pdf"
+    },
+    {
+        "名称": "2025 [2503.01372] SwiLTra-Bench: The Swiss Legal Translation Benchmark.pdf",
+        "作者": "Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, Cyrill A. H. Chevalley, Claude Humbel, Christophe Gösken, Lorenzo Tanzi, Thomas Lüthi, Stefan Palombo, Spencer Poff, Boling Yang, Nan Wu, Matthew Guillod, Robin Mamié, Daniel Brunner, Julio Pereyra, Niko Grupen",
+        "摘要": "摘要: 在瑞士，由于该国的四种官方语言以及对多语言法律文档的要求，法律翻译具有独特的重要性。然而，这个过程传统上依赖于既要精通法律又要擅长翻译的专业人员——这造成了瓶颈并影响了有效的司法获取。为应对这一挑战，我们介绍了SwiLTra-Bench，这是一个包含超过18万个瑞士法律翻译对的全面多语言基准，其中包括法律、摘要和新闻稿，涵盖所有瑞士语言及英语，旨在评估基于LLM的翻译系统。我们的系统评估表明，前沿模型在所有文档类型上都实现了卓越的翻译性能，而专门的翻译系统则在法律方面表现出色，但在摘要中表现不佳。通过严格的测试和人类专家验证，我们证明了虽然微调开放的SLMs显著提高了其翻译质量，但它们仍落后于最佳的零样本提示前沿模型，如Claude-3.5-Sonnet。此外，我们还提出了SwiLTra-Judge，这是一个专门的LLM评估系统，与人类专家评估结果最为一致。",
+        "地址": "https://arxiv.org/pdf/2503.01372.pdf"
+    },
+    {
+        "名称": "2025 [2503.00502] Interact, Instruct to Improve: A LLM-Driven Parallel Actor-Reasoner Framework for Enhancing Autonomous Vehicle Interactions.pdf",
+        "作者": "Shiyu Fang, Jiaqi Liu, Chengkai Xu, Chen Lv, Peng Hang, Jian Sun",
+        "摘要": "摘要：自动驾驶汽车（AVs）已进入商业化阶段，但其有限的交互和表达意图的能力在与人类驾驶车辆（HVs）的互动中仍然存在挑战。大规模语言模型（LLMs）的最新进展实现了双向人机通信，但是推理速度慢与实时决策需求之间的矛盾对实际部署构成了挑战。为了解决这些问题，本文引入了一种并行的演员-推理者框架，旨在实现跨多个场景的明确双向AV-HV交互。首先，通过在训练过程中促进LLM驱动的推理者与异质模拟HV的交互，建立了一个称为演员的交互记忆数据库。然后，通过引入内存分区模块和两层内存检索模块，显著增强了演员处理异质HV的能力。消融研究和与其他决策方法的比较表明，所提出的演员-推理者框架显著提高了安全性和效率。最后，通过结合从推理者推理得到的外部人机界面（eHMI）信息和从演员检索的可行行动解决方案，验证了所提出的演员-推理者框架在多场景现场交互中的有效性。我们的代码可在此链接访问。\n\n链接：https://arxiv.org/pdf/2503.00502.pdf\n\n作者：Shiyu Fang, Jiaqi Liu, Chengkai Xu, Chen Lv, Peng Hang, Jian Sun\n标题：2025 如何互动、指令改进：一种基于LLM的并行演员-推理者框架以增强自动驾驶车辆交互",
+        "地址": "https://arxiv.org/pdf/2503.00502.pdf"
+    },
+    {
+        "名称": "2025 [2503.02954] Reliable and Efficient Multi-Agent Coordination via Graph Neural Network Variational Autoencoders.pdf",
+        "作者": "Yue Meng, Nathalie Majcherczyk, Wenliang Liu, Scott Kiesel, Chuchu Fan, Federico Pecora",
+        "摘要": "摘要：\n多智能体协调对于在共享空间（如自动化仓库）中的可靠多机器人导航至关重要。在机器人交通密集的区域，局部协调方法可能无法找到无死锁的解决方案。在这些情况下，适合由中央单元生成决定机器人通过顺序的全局时间表。然而，这种集中式协调方法的运行时间会随着问题规模的增加而显著增加。在本文中，我们提出利用图神经网络变分自编码器（GNN-VAE）来更快地解决大规模多智能体协调问题，而不是通过集中优化。我们将协调问题表述为图问题，并使用混合整数线性规划（MILP）求解器收集真实数据。在训练过程中，我们的学习框架将图问题的高质量解决方案编码到潜在空间中。在推理阶段，通过对采样的潜在变量解码得到解决方案样本，并选择最低成本的样本进行协调。最后，选择性能指数最高的可行提案进行部署。通过设计，我们的GNN-VAE框架返回的解决方案始终尊重所考虑的协调问题的约束。数值结果表明，我们的方法在小规模问题上训练的模型，即使在包含250个机器人的大规模问题上也能实现高质量的解决方案，比其他基线方法快得多。\n\n项目页面：this https URL\n\n作者：\nYue Meng, Nathalie Majcherczyk, Wenliang Liu, Scott Kiesel, Chuchu Fan, Federico Pecora\n\n注释：\n本文已被2025年国际机器人与自动化会议（ICRA 2025）接收\n\n链接：\nhttps://arxiv.org/pdf/2503.02954.pdf",
+        "地址": "https://arxiv.org/pdf/2503.02954.pdf"
+    },
+    {
+        "名称": "2025 [2503.02924] Diverse Controllable Diffusion Policy with Signal Temporal Logic.pdf",
+        "作者": "Yue Meng, Chuchu fan",
+        "摘要": "摘要：生成逼真的模拟对于自动系统应用（如自动驾驶和人机交互）至关重要。然而，如今的驾驶模拟器在为道路参与者生成可控的、多样化的和符合法规的行为方面仍然存在困难：基于规则的模型无法产生多样化的行为，需要仔细调整，而基于学习的方法则从数据中模仿策略，但无法Explicitly 遵循规则。此外，现实世界的数据集本质上是“单一结果”的，使得学习方法难以生成多样化的行为。在本文中，我们利用信号时序逻辑（STL）和扩散模型来学习可控的、多样化的和意识到规则的策略。我们首先在真实世界数据上校准STL，然后利用轨迹优化生成多样化的合成数据，最后在增强的数据集上学习校正的扩散策略。我们在NuScenes数据集上进行测试，与其他基线方法相比，我们的方法可以产生最多样化且符合法规的轨迹，运行时间为第二佳方法的1/17。在闭环测试中，我们的方法达到了最高的多样性、法规满足率和最低的碰撞率。我们的方法可以在测试中根据不同的STL参数生成不同特点的轨迹。一项人机交互场景的案例研究表明，我们的方法可以生成多样化且接近oracle的轨迹。标注工具、增强数据集和代码可在此https URL获得。\n\n论文标题：《使用信号时序逻辑的多样可控扩散策略》，作者：Yue Meng, Chuchu Fan，评论：已被IEEE Robotics and Automation Letters (RA-L) 2024年10月接受。",
+        "地址": "https://arxiv.org/pdf/2503.02924.pdf"
+    }
+]
