@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2503.04625] START: Self-taught Reasoner with Tools.pdf",
+        "作者": "Chengpeng Li, Mingfeng Xue, Zhenru Zhang, Jiaxi Yang, Beichen Zhang, Xiang Wang, Bowen Yu, Binyuan Hui, Junyang Lin, Dayiheng Liu",
+        "摘要": "摘要：大型推理模型（LRM）如OpenAI-o1和DeepSeek-R1通过利用长链式思维（CoT）在复杂推理任务中展示了卓越的能力。然而，由于这些模型完全依赖于内部推理过程，往往会出现幻觉和低效问题。在本文中，我们介绍了START（自教推理器与工具），一种新型工具整合的长链式推理大语言模型（LLM），通过利用外部工具显著增强了推理能力。通过代码执行，START能够进行复杂计算、自我检查、探索多样化方法和自我调试，从而解决LRMs的局限性。START的核心创新在于其自学习框架，包括两个关键技术：1）提示推断：我们展示了在LRM的推理过程中插入人工设计的提示（例如，“等等，也许在这里使用Python是个好主意。”）能够有效激发其利用外部工具的能力，而无需任何示范数据。提示推断还可以作为一种简单有效的序列测试时间扩展方法；2）提示拒绝采样微调（Hint-RFT）：Hint-RFT结合提示推断和RFT，通过对LRM生成的工具调用推理轨迹进行评分、过滤和修改，然后微调LRM。通过这个框架，我们微调了QwQ-32B模型以实现START。在博士级科学问答（GPQA）、竞赛级数学基准测试（AMC23、AIME24、AIME25）和竞赛级代码基准测试（LiveCodeBench）中，START分别实现了63.6%、95.0%、66.7%、47.1%和47.3%的准确率，显著优于基础QwQ-32B，并达到了与最先进的开源模型R1-Distill-Qwen-32B和专有模型o1-Preview相当的性能。\n\n来源： https://arxiv.org/pdf/2503.04625.pdf",
+        "地址": "https://arxiv.org/pdf/2503.04625.pdf"
+    },
+    {
+        "名称": "2025 [2503.04130] Token-Efficient Long Video Understanding for Multimodal LLMs.pdf",
+        "作者": "Jindong Jiang, Xiuyu Li, Zhijian Liu, Muyang Li, Guo Chen, Zhiqi Li, De-An Huang, Guilin Liu, Zhiding Yu, Kurt Keutzer, Sungjin Ahn, Jan Kautz, Hongxu Yin, Yao Lu, Song Han, Wonmin Byeon",
+        "摘要": "摘要：最近在基于视频的多模态大语言模型（Video-LLMs）方面的进展通过将视频处理为图像帧序列显著提升了视频理解能力。然而，许多现有方法在视觉骨干网络中独立处理这些帧，缺乏显式的时间建模，限制了它们捕捉动态模式和有效处理长视频的能力。为了解决这些局限性，我们引入了STORM（时空令牌简化多模态大语言模型），这是一种在图像编码器和大语言模型之间结合了专用时间编码器的创新架构。我们的时间编码器利用曼巴状态空间模型将时间信息整合到图像令牌中，生成丰富的表示形式，保留整个视频序列中的帧间动态关系。这种丰富的编码不仅增强了视频推理能力，还支持有效的令牌简化策略，包括测试时的采样和基于训练的时间与空间池化，在不牺牲关键时间信息的前提下大幅减少对大语言模型的计算需求。通过整合这些技术，我们的方法在减少训练和推理延迟的同时提升了性能，使得在扩展的时间背景下能够高效且稳健地理解视频。广泛的评估表明，STORM在各种长视频理解基准上实现了最先进的结果（在MLVU和LongVideoBench上提升超过5%），同时在固定输入帧数量的情况下将计算成本减少高达8倍，将解码延迟减少2.4到2.9倍。项目页面可在此网址获取：https://arxiv.org/pdf/2503.04130.pdf\n\n作者：Jindong Jiang, Xiuyu Li, Zhijian Liu, Muyang Li, Guo Chen, Zhiqi Li, De-An Huang, Guilin Liu, Zhiding Yu, Kurt Keutzer, Sungjin Ahn, Jan Kautz, Hongxu Yin, Yao Lu, Song Han, Wonmin Byeon\n\n链接：https://arxiv.org/pdf/2503.04130.pdf\n\n标题：2025 [2503.04130] Token-Efficient Long Video Understanding for Multimodal LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2503.04130.pdf"
+    },
+    {
+        "名称": "2025 [2503.04724] LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM.pdf",
+        "作者": "Sambal Shikhar, Mohammed Irfan Kurpath, Sahal Shaji Mullappilly, Jean Lahoud, Fahad Khan, Rao Muhammad Anwer, Salman Khan, Hisham Cholakkal",
+        "摘要": "摘要：近年来，语音对话系统在使用大语言模型(LLMs)进行多模态交互方面取得了进展，然而它们仍然受到微调需求、高计算开销和文本-语音不一致性的影响。现有的语音支持LLMs通常通过修改LLM来实现，导致对话质量下降，从而削弱了其语言能力。相比之下，我们提出了LLMVoX，这是一个轻量级的、与LLM无关的、自回归流式TTS（文本转语音）系统，具有3000万个参数，能够在完全保留基础LLM能力的同时，生成高质量的低延迟语音。我们的方法在单词错误率(WER)上显著低于语音支持LLMs，同时在延迟和UTMOS评分方面相当。通过将语音合成与LLM处理分离，借助多队列令牌流系统，LLMVoX支持无缝的、无限长度的对话。其即插即用设计还便于扩展到不同基础架构的各种任务。此外，通过仅调整数据集，LLMVoX能够很好地泛化到新语言，在阿拉伯语语音任务中取得了较低的字符错误率(CER)。另外，我们将LLMVoX与视觉语言模型(Vision-Language Model)集成，创建了一个具有语音、文本和视觉能力的全能模型，无需额外的多模态训练。我们的代码库和项目页面可在此https URL上获得。",
+        "地址": "https://arxiv.org/pdf/2503.04724.pdf"
+    },
+    {
+        "名称": "2025 [2503.03803] EgoLife: Towards Egocentric Life Assistant.pdf",
+        "作者": "Jingkang Yang, Shuai Liu, Hongming Guo, Yuhao Dong, Xiamengwei Zhang, Sicheng Zhang, Pengyun Wang, Zitang Zhou, Binzhu Xie, Ziyue Wang, Bei Ouyang, Zhengyu Lin, Marco Cominelli, Zhongang Cai, Yuanhan Zhang, Peiyuan Zhang, Fangzhou Hong, Joerg Widmer, Francesco Gringoli, Lei Yang, Bo Li, Ziwei Liu",
+        "摘要": "摘要：我们介绍了EgoLife项目，旨在通过人工智能驱动的可穿戴眼镜开发一个陪伴并提升个人效率的第一人称生活助手。为了奠定此助手的基础，我们进行了全面的数据收集研究，六名参与者共同生活了一周，使用AI眼镜持续记录他们的日常活动——包括讨论、购物、做饭、社交和娱乐——进行多模态第一人称视频捕捉，并使用同步的第三人称视角视频作为参考。此项工作生成了EgoLife数据集，这是一个详尽的300小时第一人称、人与人互动、多视角和多模态的日常生活数据集，配有密集的注释。在此基础上，我们引入EgoLifeQA，这是一组长情境、生活导向的问题回答任务，旨在通过解决实际问题（如回忆过去相关事件、监测健康习惯和提供个性化建议）来提供有意义的日常生活援助。为了应对以下关键技术挑战：(1)开发稳健的视听模型用于第一人称数据，(2)实现身份识别，以及(3)在广泛的时间信息上促进长情境问答，我们引入了EgoButler，一个集成系统，包含EgoGPT和EgoRAG。EgoGPT是一个在第一人称数据集上训练的全模态模型，在第一人称视频理解方面达到了先进水平。EgoRAG是一个基于检索的组件，支持回答超长情境问题。我们的实验研究验证了它们的工作机制，并揭示了关键因素和瓶颈，以指导未来的改进。通过发布我们的数据集、模型和基准测试，我们旨在激发在第一人称AI助手领域的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2503.03803.pdf"
+    },
+    {
+        "名称": "2025 [2503.02972] LINGOLY-TOO: Disentangling Memorisation from Reasoning with Linguistic Templatisation and Orthographic Obfuscation.pdf",
+        "作者": "Jude Khouja, Karolina Korgul, Simi Hellsten, Lingyi Yang, Vlad Neacs, Harry Mayne, Ryan Kearns, Andrew Bean, Adam Mahdi",
+        "摘要": "摘要：评估大型语言模型（LLMs）的推理能力常受到评估基准数据曝光的影响，容易导致高估。本研究引入了一种生成语言推理问题的框架，旨在减少记忆效应对模型性能评估的影响，并以此框架开发了LINGOLY-TOO，一个具有挑战性的语言推理基准。通过开发正字模板，我们动态地混淆真实语言的书写系统，生成了大量问题变体。这些变体保留了每个解决方案所需的推理步骤，同时减少了特定问题实例出现在模型训练数据中的可能性。我们的实验表明，前沿模型（包括Claud 3.7 Sonnet、o1-preview和DeepSeek R1）在高级推理方面表现不佳。我们的分析还显示，LLMs在同一问题的不同变体中表现出明显的准确性差异，并且平均而言，在其原始正字法中出现的问题上表现更好。我们的研究结果突出了一点，即LLMs的响应生成具有不透明性，并且提供了证据表明先前的数据曝光会导致对前沿模型推理能力的高估。",
+        "地址": "https://arxiv.org/pdf/2503.02972.pdf"
+    },
+    {
+        "名称": "2025 [2502.20258] LLM as a Broken Telephone: Iterative Generation Distorts Information.pdf",
+        "作者": "Amr Mohamed, Mingmeng Geng, Michalis Vazirgiannis, Guokan Shang",
+        "摘要": "摘要：随着大型语言模型越来越多地负责在线内容，人们开始担心反复处理其自身输出的影响。受链式人类交流中的“破损电话”效应启发，本研究调查了LLM（大型语言模型）在迭代生成过程中是否同样会扭曲信息。通过基于翻译的实验，我们发现扭曲随着时间的推移而积累，并受到语言选择和链条复杂性的影响。虽然降质是不可避免的，但可以通过战略性提示技术加以减轻。这些发现为讨论AI介导的信息传播的长期影响做出了贡献，并提出了关于LLM生成内容在迭代工作流程中可靠性的重要问题。",
+        "地址": "https://arxiv.org/pdf/2502.20258.pdf"
+    },
+    {
+        "名称": "2025 [2503.04598] HybridNorm: Towards Stable and Efficient Transformer Training via Hybrid Normalization.pdf",
+        "作者": "Zhijian Zhuo, Yutao Zeng, Ya Wang, Sijun Zhang, Jian Yang, Xiaoqing Li, Xun Zhou, Jinwen Ma",
+        "摘要": "摘要： 近年来，Transformer架构已成为广泛的机器学习任务中的实际标准，特别是在大规模语言模型（LLMs）中。尽管Transformer表现出色，但在训练深度Transformer网络时仍存在挑战，尤其是与层归一化位置相关的问题。尽管Pre-Norm结构由于其更加突出的身份路径使训练变得更容易，但与Post-Norm相比，其性能往往不尽如人意。本文提出了一种简洁而有效的混合归一化策略$\\\\textbf{HybridNorm}$，结合了Pre-Norm和Post-Norm方法的优点。具体而言，HybridNorm在每个Transformer块的注意力机制中采用QKV归一化，在前馈网络（FFN）中使用Post-Norm。该设计不仅稳定了训练过程，还提升了性能，尤其是在LLMs背景下。在密集和稀疏架构中的全面实验表明，HybridNorm始终优于Pre-Norm和Post-Norm方法，在各项基准测试中取得了最先进的结果。这些发现突显出HybridNorm作为一种更稳定和高效的技术，具有改善深度Transformer模型的训练和性能的潜力。",
+        "地址": "https://arxiv.org/pdf/2503.04598.pdf"
+    },
+    {
+        "名称": "2025 [2503.04644] IFIR: A Comprehensive Benchmark for Evaluating Instruction-Following in Expert-Domain Information Retrieval.pdf",
+        "作者": "Tingyu Song, Guo Gan, Mingsheng Shang, Yilun Zhao",
+        "摘要": "摘要：我们介绍了IFIR，这是第一个用于评估专家领域中指令跟随信息检索（IR）的综合性基准。IFIR包括2,426个高质量示例，涵盖金融、法律、医疗保健和科学文献四个专业领域中的八个子集。每个子集处理一个或多个特定领域的检索任务，模拟了需要定制指令的现实场景。IFIR通过结合不同复杂程度的指令，使得能够详细分析指令跟随检索能力。我们还提出了一种基于大语言模型（LLM）的新颖评估方法，以提供更精确和可靠的模型性能评估。在包含基于LLM的先进检索模型进行的大量实验中，我们的结果表明当前模型在有效跟随复杂的特定领域指令方面面临重大挑战。我们进一步提供了深入的分析，以突出这些局限性，为未来检索器开发提供有价值的见解。",
+        "地址": "https://arxiv.org/pdf/2503.04644.pdf"
+    },
+    {
+        "名称": "2025 [2503.04725] L$^2$M: Mutual Information Scaling Law for Long-Context Language Modeling.pdf",
+        "作者": "Zhuo Chen, Oriol Mayné i Comas, Zhuotao Jin, Di Luo, Marin Soljačić",
+        "摘要": "摘要：我们严格建立了一种控制长程依赖的自然语言的二分互信息缩放定律。这一缩放定律与传统的两点互信息不同，并独立缩放，是理解长上下文语言建模的关键。利用这一缩放定律，我们制定了长上下文语言建模（L$^2$M）条件，该条件将模型有效长上下文长度建模的能力与其存储过往信息的潜在状态大小的缩放关系联系起来。我们的实验在变换器和状态空间模型上验证了这些结果。这项工作确定了一个理论基础，指导大型语言模型向更长的上下文长度发展。",
+        "地址": "https://arxiv.org/pdf/2503.04725.pdf"
+    },
+    {
+        "名称": "2025 [2503.04222] FuseChat-3.0: Preference Optimization Meets Heterogeneous Model Fusion.pdf",
+        "作者": "Ziyi Yang, Fanqi Wan, Longguang Zhong, Canbin Huang, Guosheng Liang, Xiaojun Quan",
+        "摘要": "摘要：我们介绍了FuseChat-3.0，这是一套通过将异构来源的大型语言模型（LLMs）的优势整合到更紧凑的目标LLMs中开发的大型语言模型。我们的源模型包括强大的Gemma-2-27B-it，Mistral-Large-Instruct-2407，Qwen-2.5-72B-Instruct和Llama-3.1-70B-Instruct。对于目标模型，我们专注于三种广泛使用的较小变体——Llama-3.1-8B-Instruct，Gemma-2-9B-it和Qwen-2.5-7B-Instruct，以及两个超紧凑选项，Llama-3.2-3B-Instruct和Llama-3.2-1B-Instruct。为了利用这些源模型的多样化能力，我们开发了一个专门的数据构建协议，适用于各种任务和领域。FuseChat-3.0训练管道包括两个关键阶段：（1）监督微调（SFT）以对齐目标和源模型分布，以及（2）直接偏好优化（DPO）以应用来自多个源LLMs的偏好来微调目标模型。所产生的FuseChat-3.0模型在指令跟随、通用知识、数学和编程等任务中表现出显著的性能提升。如图1所示，以Llama-3.1-8B-Instruct作为目标模型，我们的融合方法在14个基准测试中平均提高了6.8分。此外，在指令跟随基准测试AlpacaEval-2和Arena-Hard上分别表现出显著的37.1分和30.1分的增益。我们的代码、模型和数据集可以在这个https URL上获得。\n\n作者：杨子义，万繁其，钟龙光，黄灿斌，梁国胜，全晓君\n\n评论：技术报告\n\n全文链接：https://arxiv.org/pdf/2503.04222.pdf\n\n标题：2025 [2503.04222] FuseChat-3.0：偏好优化与异构模型融合的结合",
+        "地址": "https://arxiv.org/pdf/2503.04222.pdf"
+    },
+    {
+        "名称": "2025 [2503.04094] PokéChamp: an Expert-level Minimax Language Agent.pdf",
+        "作者": "Seth Karten, Andy Luu Nguyen, Chi Jin",
+        "摘要": "摘要：我们介绍了PokéChamp，这是一种由大型语言模型（LLMs）提供支持的决斗代理，用于口袋妖怪对战。基于两人竞争游戏的通用框架，PokéChamp利用LLMs的通才能力来增强极小极大树搜索。具体来说，LLMs取代了三个关键模块：（1）玩家动作采样、（2）对手建模和（3）价值函数估计，使代理能够有效利用游戏历史和人类知识减少搜索空间并解决部分可观测性问题。值得注意的是，我们的框架不需要额外的LLM训练。我们在流行的第9代OU格式中评估了PokéChamp。当由GPT-4o提供支持时，它在与现有最佳LLM基础机器人对战中达到了76%的胜率，并在与最强的基于规则的机器人对战中达到了84%的胜率，证明了其卓越的性能。即使使用开源的80亿参数Llama 3.1模型，PokéChamp在与由GPT-4o提供支持的Pokéllmon对战时，依然取得了64%的胜率，稳定超越了之前最好的LLM基础机器人。PokéChamp在Pokémon Showdown在线梯位中获得了1300-1500的预计Elo分，排在前30%-10%的玩家之中。此外，该工作汇编了最大的真实玩家口袋妖怪对战数据集，包含超过300万场比赛，其中包括超过50万场高Elo比赛。基于该数据集，我们建立了一系列战斗基准和难题来评估特定的战斗技能。我们进一步提供了本地游戏引擎的关键更新。希望此工作能够推动进一步研究，利用口袋妖怪对战作为基准，将LLM技术与博弈论算法结合，解决一般的多代理问题。视频、代码和数据集请访问此HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2503.04094.pdf"
+    },
+    {
+        "名称": "2025 [2503.03983] Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities.pdf",
+        "作者": "Sreyan Ghosh, Zhifeng Kong, Sonal Kumar, S Sakshi, Jaehyeon Kim, Wei Ping, Rafael Valle, Dinesh Manocha, Bryan Catanzaro",
+        "摘要": "摘要：理解和推理非语音声音和音乐对于人类和AI代理有效地与环境互动至关重要。本文介绍了Audio Flamingo 2（AF2），一种具备高级音频理解和推理能力的音频语言模型（ALM）。AF2利用了（i）定制的CLAP模型，（ii）用于细粒度音频推理的合成音频问答数据，以及（iii）多阶段课程学习策略。AF2仅使用一个3B参数的小型语言模型即达到了最先进的性能，超越了20多个基准测试中的大型开源和专有模型。接下来，我们首次将音频理解扩展到长音频段（30秒到5分钟），并提出了LongAudio，这是一种用于训练在长音频描述和问答任务中ALM的大型新颖数据集。在LongAudio上微调AF2在我们提出的LongAudioBench上表现出色，这是一个用于评估ALM长音频理解能力的专家注释基准。我们进行了广泛的消融研究以验证我们方法的有效性。项目网站：此https网址。",
+        "地址": "https://arxiv.org/pdf/2503.03983.pdf"
+    },
+    {
+        "名称": "2025 [2503.01917] How to Steer LLM Latents for Hallucination Detection?.pdf",
+        "作者": "Seongheon Park, Xuefeng Du, Min-Hsuan Yeh, Haobo Wang, Yixuan Li",
+        "摘要": "摘要： 大型语言模型（LLMs）的幻觉问题对其在现实应用中的安全部署构成了重大隐患。近期的方法利用LLMs的潜在空间进行幻觉检测，但这些嵌入因优化于语言连贯性而非事实准确性，往往难以清晰地区分真实和幻觉内容。为此，我们提出了真实性分隔向量（TSV），一种轻量且灵活的引导向量，用于在推理期间重塑LLM的表示空间，以增强真实和幻觉输出之间的分离，而无需改变模型参数。我们的两阶段框架首先在一小组标注示例上训练TSV，以形成紧凑且分离良好的聚类。然后，利用一个基于最优传输的算法和结合置信度过滤过程，通过伪标记扩充示例集。广泛的实验表明，TSV在最少的标注数据下实现了最先进的性能，展现了跨数据集的强泛化能力，为现实世界的LLM应用提供了实用的解决方案。\n\n本文作者：Seongheon Park, Xuefeng Du, Min-Hsuan Yeh, Haobo Wang, Yixuan Li\n\n注释： ICLR Workshop on Quantify Uncertainty and Hallucination in Foundation Models (QUESTION), 2025\n链接： https://arxiv.org/pdf/2503.01917.pdf\n标题：2025 [2503.01917] 如何引导LLM潜在空间进行幻觉检测？",
+        "地址": "https://arxiv.org/pdf/2503.01917.pdf"
+    },
+    {
+        "名称": "2025 [2503.04378] Dedicated Feedback and Edit Models Empower Inference-Time Scaling for Open-Ended General-Domain Tasks.pdf",
+        "作者": "Zhilin Wang, Jiaqi Zeng, Olivier Delalleau, Daniel Egert, Ellie Evans, Hoo-Chang Shin, Felipe Soares, Yi Dong, Oleksii Kuchaiev",
+        "摘要": "摘要：推理时缩放技术对最近的模型（如OpenAI o1和DeepSeek R1）的成功至关重要。然而，许多用于训练模型以进行推理时缩放的技术需要任务具有可验证的答案，从而限制了它们在数学、编码和逻辑推理等领域的应用。我们从人类如何进行初次尝试、从他人那里获取详细反馈并根据这些反馈在广泛的开放式任务中进行改进中获得启发。为此，我们收集数据并训练专门的反馈和编辑模型，这些模型能够对开放的通用领域任务执行推理时缩放。在我们的设置中，一个模型生成初始响应，第二个模型提供反馈，然后第三个模型使用这些反馈来编辑响应。我们展示了通过扩展初始响应草稿的数量、有效反馈和编辑响应，可以提高Arena Hard（一个强烈预测Chatbot Arena Elo的基准）的性能。当优化扩展时，我们基于Llama 3系列70B模型的设置可以在2025年3月5日达到92.7的Arena Hard的最先进性能，超过了OpenAI o1-preview-2024-09-12的90.4和DeepSeek R1的92.3。\n\n\n翻译：\n推理时刻缩放对最近的模型（如OpenAI o1和DeepSeek R1）的成功至关重要。然而，很多用于训练模型进行推理时刻缩放的技术需要任务必须有可以验证的答案，从而限制了这些技术在诸如数学、编码和逻辑推理等领域的应用。我们的灵感来源于人类如何进行初次尝试，从他人那里获取详细反馈，并根据这些反馈在广泛的开放性任务中进行改进。为此，我们收集数据并训练专门的反馈和编辑模型，这些模型能够对开端的一般领域任务进行推理时刻缩放。在我们的设置中，一个模型生成初始回应，第二个模型提供反馈，然后第三个模型根据这些反馈编辑回应。我们展示了通过扩大初始回应草案的数量、有效反馈和编辑回应，可以提高在Arena Hard（一个强烈预测Chatbot Arena Elo的基准）的表现。当优化扩展时，我们基于Llama 3系列70B模型的设置可以在2025年3月5日达到92.7的Arena Hard最先进表现，超过OpenAI o1-preview-2024-09-12的90.4和DeepSeek R1的92.3。",
+        "地址": "https://arxiv.org/pdf/2503.04378.pdf"
+    },
+    {
+        "名称": "2025 [2503.01901] Identifying Sensitive Weights via Post-quantization Integral.pdf",
+        "作者": "Yuezhou Hu, Weiyu Huang, Zichen Liang, Chang Chen, Jintao Zhang, Jun Zhu, Jianfei Chen",
+        "摘要": "摘要：运行大型语言模型(LLM)的成本很高。然而，训练后权重量化可以通过压缩模型大小以适应有限的内存和节省带宽来提高加速性能，从而解决这个问题。由于并非所有权重维度都同等重要，这些方法通常依赖敏感度度量来表明权重对损失函数的逐元素影响，并用于对原始权重进行预处理以实现更好的量化。在这项工作中，我们对现有敏感度度量的准确性进行了实证研究，并发现现有的基于梯度和Hessian的度量非常不准确：它们低估了量化对损失函数的影响，误差达到几个数量级，主要原因在于局部二阶近似（即泰勒公式中的梯度和Hessian项）的收敛半径过小。为了解决这一问题，我们提出了后量化积分（PQI），这是一种准确的度量，用于以细粒度方式估计后验敏感度。为了利用这一准确度量，我们进一步提出了ReQuant，这是一个简单而强大的框架，主要包括两个稠密和稀疏分离的组件：自适应异常值选择和逐步显著权重分离。结果表明，ReQuant显著提升了现有最先进的训练后量化方法，并在使用QTIP的Llama 3.2 1B上取得了2.66的困惑度增益。\n\n作者：Yuezhou Hu, Weiyu Huang, Zichen Liang, Chang Chen, Jintao Zhang, Jun Zhu, Jianfei Chen\n\n链接：https://arxiv.org/pdf/2503.01901.pdf\n\n标题：2025 [2503.01901] 通过后量化积分识别敏感权重",
+        "地址": "https://arxiv.org/pdf/2503.01901.pdf"
+    },
+    {
+        "名称": "2025 [2503.02495] Union of Experts: Adapting Hierarchical Routing to Equivalently Decomposed Transformer.pdf",
+        "作者": "Yujiao Yang, Jing Lian, Linhui Li",
+        "摘要": "摘要：我们提出了专家联合（UoE）方法，该方法将Transformer模型分解为一个等价的专家群组，然后在输入数据和专家之间实现选择性路由。我们的方法通过四个关键创新推进了专家混合（MoE）设计：(1) 基于张量并行的矩阵分区，我们对MLP块和注意块进行了等价专家分解。(2) 我们开发了两个路由范式：基于patch的数据选择和专家选择，以在不同层次上应用路由。(3) 设计了UoE模型的架构，包括选择性多头注意力(SMHA)和MLP专家联合(UoME)。(4) 我们开发了UoE路由和计算操作的并行实现，并基于硬件处理分析优化了效率。实验表明，UoE模型在多个图像和自然语言任务中均优于全注意力、最先进的MoE和高效Transformer（包括最近提出的DeepSeek-V3模型架构）。在语言建模任务中，我们在平均Flops为76%的情况下，相比表现最好的MoE方法，困惑度平均降低了2.38。在长程竞技场基准测试中，我们的平均得分至少比所有比较模型（包括全注意力、MoE和Transformer变体）高0.68%，且只占表现最佳的MoE方法的50% Flops。在图像分类中，我们的模型在保持Flops相当的情况下，平均准确率提高了1.75%。源码已发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2503.02495.pdf"
+    },
+    {
+        "名称": "2025 [2503.04606] The Best of Both Worlds: Integrating Language Models and Diffusion Models for Video Generation.pdf",
+        "作者": "Aoxiong Yin, Kai Shen, Yichong Leng, Xu Tan, Xinyu Zhou, Juncheng Li, Siliang Tang",
+        "摘要": "摘要：近年来，文本生成视频（T2V）领域的发展由两种竞争的范式驱动：自回归语言模型和扩散模型。然而，每种范式都有其自身固有的局限性：语言模型在视觉质量和错误累积方面存在挑战，而扩散模型则缺乏语义理解和因果建模。在这项工作中，我们提出了LanDiff，这是一种通过粗到细生成方式来协同发挥两种范式优势的混合框架。我们的架构引入了三个关键创新：（1）一种语义标记器，通过高效的语义压缩将3D视觉特征压缩成紧凑的1D离散表示，达到约14000倍的压缩比；（2）一种生成具有高级语义关系的语义标记的语言模型；（3）一种将粗略语义细化成高保真视频的流式扩散模型。实验结果表明，LanDiff（一个5B模型）在VBench T2V基准测试中获得了85.43 的得分，超过了最先进的开源模型Hunyuan Video（13B）和其他商业模型如Sora, Keling 和 Hailuo。此外，我们的模型在长视频生成方面也达到了最先进的表现，超过了该领域的其他开源模型。我们的演示可以在此https网址查看。",
+        "地址": "https://arxiv.org/pdf/2503.04606.pdf"
+    },
+    {
+        "名称": "2025 [2503.04369] Lost in Literalism: How Supervised Training Shapes Translationese in LLMs.pdf",
+        "作者": "Yafu Li, Ronghao Zhang, Zhilin Wang, Huajian Zhang, Leyang Cui, Yongjing Yin, Tong Xiao, Yue Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）在机器翻译方面取得了显著的成功，表现出在多种语言中的出色性能。然而，翻译腔（翻译作品中过于字面且不自然的特点）仍然是基于LLM的翻译系统的一个持续挑战。尽管LLMs在庞大的自然表达语料库上进行了预训练，它们在监督微调（SFT）过程中引入的偏差，仍会表现出翻译腔错误并生成出乎意料的不自然翻译。在这项工作中，我们系统地评估了LLM生成的翻译中翻译腔的普遍性，并调查了其在监督训练期间产生的根源。我们引入了减少这些偏差的方法，包括优化黄金参考和过滤不自然的训练实例。实证评估表明，这些方法显著减少了翻译腔，同时提高了翻译的自然性，通过人工评估和自动指标验证。我们的研究结果突显了针对训练的调整以优化LLM翻译输出的必要性，为更流畅且与目标语言一致的翻译铺平了道路。我们在此网址发布数据和代码：https URL。\n\n作者：Yafu Li, Ronghao Zhang, Zhilin Wang, Huajian Zhang, Leyang Cui, Yongjing Yin, Tong Xiao, Yue Zhang\n\n链接：https://arxiv.org/pdf/2503.04369.pdf\n\n题目：迷失在字面性中：监督训练如何在LLMs中塑造翻译腔",
+        "地址": "https://arxiv.org/pdf/2503.04369.pdf"
+    },
+    {
+        "名称": "2025 [2503.02191] Understanding and Predicting Derailment in Toxic Conversations on GitHub.pdf",
+        "作者": "Mia Mohammad Imran, Robert Zita, Rebekah Copeland, Preetha Chatterjee, Rahat Rizvi Rahman, Kostadin Damevski",
+        "摘要": "摘要：软件项目依赖于来自不同背景的个人的参与和贡献。但是，毒性语言和负面互动会妨碍贡献者的参与和留存，并且排斥新来者。主动的管理策略旨在通过解决偏离其预期目的的对话来防止毒性行为的发生。本研究旨在理解和预测GitHub上的对话偏离导致的毒性行为。为了促进这项研究，我们创建了一个新的数据集，包含GitHub上的202个带有标注偏离点的毒性对话，以及696个非毒性对话作为基线。基于此数据集，我们确定了毒性对话和偏离点的独特特征，包括诸如第二人称代词、否定词语以及“痛苦的沮丧”和“不耐烦”的语气等语言标记，以及项目贡献者与外部参与者之间对话动态的模式。利用这些实证观察，我们提出了一种主动管理方法，用于在潜在有害对话升级之前自动检测和解决这些对话。通过利用现代LLM，我们开发了一种对话轨迹摘要技术，以捕捉讨论的演变并识别早期偏离的迹象。我们的实验表明，经过调整以提供GitHub对话摘要的LLM提示在预测对话偏离方面达到69%的F1分数，较一组基线方法有显著提高。\n\n翻译作者：Mia Mohammad Imran, Robert Zita, Rebekah Copeland, Preetha Chatterjee, Rahat Rizvi Rahman, Kostadin Damevski",
+        "地址": "https://arxiv.org/pdf/2503.02191.pdf"
+    },
+    {
+        "名称": "2025 [2503.01375] Combining Flow Matching and Transformers for Efficient Solution of Bayesian Inverse Problems.pdf",
+        "作者": "Daniil Sherki, Ivan Oseledets, Ekaterina Muravleva",
+        "摘要": "这篇论文的摘要如下：\n\n摘要：由于后验分布的复杂性和传统采样方法的计算成本，要高效地解决贝叶斯逆问题仍然是一个重大挑战。鉴于一系列观测数据及前向模型，我们希望在条件于观测实验数据下，恢复参数的分布。我们证明，通过结合条件流匹配（Conditional Flow Matching, CFM）和基于转换器（transformer）的架构，可以有效地从这类分布中采样，前提是观测数量是可变的。\n\n翻译结果：\n摘要：由于后验分布的复杂性和传统采样方法的计算成本，解决贝叶斯逆问题的高效方法仍然是一个重大挑战。给定一系列观测数据和前向模型，我们希望在给定观测实验数据的条件下恢复参数分布。我们证明，通过结合条件流匹配（CFM）和基于Transformer的架构，我们可以高效地从这种分布中采样，条件是观测数据的数量是可变的。",
+        "地址": "https://arxiv.org/pdf/2503.01375.pdf"
+    },
+    {
+        "名称": "2025 [2503.03962] On the Acquisition of Shared Grammatical Representations in Bilingual Language Models.pdf",
+        "作者": "Catherine Arnett, Tyler A. Chang, James A. Michaelov, Benjamin K. Bergen",
+        "摘要": "摘要：尽管跨语言迁移对于当代语言模型的多语言能力至关重要，但我们对其发生机制了解甚少。本文探讨了一旦单语语言模型开始训练第二语言，会发生什么情况。具体来说，我们训练了小型双语模型，控制每种语言的数据量和语言接触的顺序。为了找到共享多语言表示的证据，我们采用了结构启动（structural priming），一种用于研究人类语法表示的方法。我们首先复制了先前的跨语言结构启动结果，并发现，在控制训练数据量和语言接触后，跨语言对和方向存在不对称效应。我们认为这种不对称性可能会对人类结构启动效应的假设产生影响。我们还发现，对于语言相似度较小的语言对，结构启动效应较弱，这凸显了跨语言迁移学习和对类型学多样语言的共享表示潜在的局限性。\n\n作者：Catherine Arnett, Tyler A. Chang, James A. Michaelov, Benjamin K. Bergen\n\nURL：https://arxiv.org/pdf/2503.03962.pdf\n\n标题：2025 [2503.03962] 关于双语语言模型中共享语法表示的习得",
+        "地址": "https://arxiv.org/pdf/2503.03962.pdf"
+    }
+]
