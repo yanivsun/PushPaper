@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2502.21263] RuCCoD: Towards Automated ICD Coding in Russian.pdf",
+        "作者": "Aleksandr Nesterov, Andrey Sakhovskiy, Ivan Sviridov, Airat Valiev, Vladimir Makharev, Petr Anokhin, Galina Zubkova, Elena Tutubalina",
+        "摘要": "摘要：本研究探讨了在俄语中实现临床编码自动化的可行性，俄语是一种生物医学资源相对匮乏的语言。我们提出了一个新的用于ICD编码的数据集，包括从电子健康记录（EHRs）中提取的诊断字段，这些字段标注了超过10,000个实体和1,500多个独特的ICD代码。该数据集作为几种最先进模型的基准，包括BERT、带LoRA的LLaMA和RAG，并额外进行了跨领域（从PubMed摘要到医疗诊断）和术语（从UMLS概念到ICD代码）的迁移学习实验。然后我们应用性能最佳的模型标注一个包含2017年至2021年患者病史的内部EHR数据集。我们在一个精心策划的测试集上进行的实验表明，与医生手动注释的数据相比，使用自动预测代码进行训练能显著提高准确性。我们认为我们的研究结果为在像俄语这样资源有限的语言中实现临床编码自动化提供了宝贵的见解，这可能提高这些环境中的临床效率和数据准确性。",
+        "地址": "https://arxiv.org/pdf/2502.21263.pdf"
+    },
+    {
+        "名称": "2025 [2503.05236] Unified Reward Model for Multimodal Understanding and Generation.pdf",
+        "作者": "Yibin Wang, Yuhang Zang, Hao Li, Cheng Jin, Jiaqi Wang",
+        "摘要": "摘要：近年来，人类偏好对齐的最新进展显著提升了多模态生成和理解的能力。一个关键方法是训练奖励模型以指导偏好优化。然而，现有的模型往往是针对特定任务的，限制了它们在各种视觉应用中的适应性。我们还认为，联合学习以评估多项任务可能会产生协同效应，即改进的图像理解提升了图像生成评估，而精炼的图像评估通过更好的帧分析提升了视频评估。为此，本文提出了UnifiedReward，这是第一个用于多模态理解和生成评估的统一奖励模型，能够实现成对排序和逐点打分，可用于视觉模型偏好对齐。具体来说，(1) 我们首先在我们构建的大规模人类偏好数据集上开发了UnifiedReward，涵盖图像和视频生成/理解任务。(2) 然后，它被用于基于视觉模型自动构建高质量的偏好对数据，通过成对排序和逐点筛选细化它们的输出。(3) 最后，这些数据被用于通过直接偏好优化（DPO）进行偏好对齐。实验结果表明，联合学习以评估不同的视觉任务可以带来显著的互惠效应，我们将我们的流程应用到图像和视频理解/生成任务上，显著提升了每个领域的性能。",
+        "地址": "https://arxiv.org/pdf/2503.05236.pdf"
+    },
+    {
+        "名称": "2025 [2503.05500] EuroBERT: Scaling Multilingual Encoders for European Languages.pdf",
+        "作者": "Nicolas Boizard, Hippolyte Gisserot-Boukhlef, Duarte M. Alves, André Martins, Ayoub Hammal, Caio Corro, Céline Hudelot, Emmanuel Malherbe, Etienne Malaboeuf, Fanny Jourdan, Gabriel Hautreux, João Alves, Kevin El-Haddad, Manuel Faysse, Maxime Peyrard, Nuno M. Guerreiro, Patrick Fernandes, Ricardo Rei, Pierre Colombo",
+        "摘要": "摘要：通用的多语言向量表示，通常用于检索、回归和分类，传统上是从双向编码器模型中获得的。尽管它们具有广泛的适用性，但近期生成的仅解码器模型的进展使编码器黯然失色。然而，许多推动这一进展的创新并没有固有地与解码器捆绑在一起。在本文中，我们通过这些进展的视角重新审视了多语言编码器的发展，并介绍了EuroBERT，这是一系列涵盖欧洲及世界范围内广泛使用语言的多语言编码器。我们的模型在跨多任务的表现上优于现有的替代方案，涵盖多语言能力、数学和编码，并原生支持长达8192个令牌的序列。我们还审查了EuroBERT背后的设计决策，提供了对我们数据集组成和训练流水线的见解。我们公开发布了EuroBERT模型，包括中间训练检查点，以及我们的训练框架。\n\n翻译：一般用途的多语言向量表示，传统上是通过双向编码器模型获得的，常用于检索、回归和分类。尽管它们具有广泛的适用性，但最近生成的仅解码器模型的进展使编码器黯然失色。然而，许多推动这一进展的创新并不是天生绑定在解码器上的。在本文中，我们通过这些进展的视角重新审视了多语言编码器的发展，并介绍了EuroBERT，这是一个涵盖欧洲及广泛使用的全球语言的系列多语言编码器。我们的模型在各种任务上表现优于现有的替代方案，包括多语言能力、数学和编码，并且原生支持最大8192个令牌的序列。我们还研究了EuroBERT背后的设计决策，提供了关于我们数据集组成和训练管道的见解。我们公开发布了EuroBERT模型，包括中间训练检查点和我们的训练框架。",
+        "地址": "https://arxiv.org/pdf/2503.05500.pdf"
+    },
+    {
+        "名称": "2025 [2503.05085] S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following with Paralinguistic Information.pdf",
+        "作者": "Feng Jiang, Zhiyu Lin, Fan Bu, Yuhao Du, Benyou Wang, Haizhou Li",
+        "摘要": "摘要: 随着大型语言模型（LLMs）的快速发展，语音模型，特别是支持语音输入和输出的speech2speech协议，受到了显著关注。然而，现有的基准测试采用自动文本评估器来评估这些模型的指令跟随能力，但对此类评估器往往忽略了语音理解和生成中的副语言信息。为了解决这些问题，我们引入了S2S-Arena，这是一个新的竞技场式S2S基准，评估在实际任务中具有副语言信息的语音输入和语音输出的指令跟随能力。我们设计了154个样本，融合了四个领域的TTS和现场录音，共21个任务，并以竞技场式方式手动评估了现有的流行语音模型。实验结果显示：(1) 除了GPT-4o的出色表现外，在text-speech对齐后的speech2speech协议中，级联的ASR、LLM和TTS的语音模型优于联合训练的模型；(2) 考虑副语言信息后，语音模型的知识性主要依赖于LLM骨干，而其多语言支持受限于语音模块；(3) 优秀的语音模型已经可以理解语音输入中的副语言信息，但生成适当的包含副语言信息的音频仍然是一个挑战。\n\n作者: 江峰, 林志宇, 卜凡, 杜昱昊, 王本友, 李海洲\n\n链接: [https://arxiv.org/pdf/2503.05085.pdf](https://arxiv.org/pdf/2503.05085.pdf)\n\n标题: 2025 [2503.05085] S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following with Paralinguistic Information.pdf",
+        "地址": "https://arxiv.org/pdf/2503.05085.pdf"
+    },
+    {
+        "名称": "2025 [2503.05179] Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching.pdf",
+        "作者": "Simon A. Aytes, Jinheon Baek, Sung Ju Hwang",
+        "摘要": "摘要：近年来，大型语言模型通过链式思维（Chain of Thought, CoT）提示展示了显著的推理能力，但往往代价是中间输出过于冗长，增加了计算开销。我们介绍了思维素描（Sketch-of-Thought, SoT），一种新颖的提示框架，它结合了认知启发的推理范式和语言约束，以最小化标记使用量，同时保持推理准确性。SoT被设计为一个灵活的框架，可以结合任何基于认知科学的自定义推理范式，我们通过三种认知范式实例化它：概念链、分块象征主义和专家词汇，分别针对不同的推理任务，并通过一个轻量级路由模型动态选择。通过对15个跨越多种语言和多模态场景的推理数据集的全面评估，我们证明了SoT在几乎不影响准确性的情况下减少了76%的标记使用量。在某些领域，如数学和多跳推理，它甚至在使用明显较少标记的情况下提高了准确性。我们的代码是公开的：this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.05179.pdf"
+    },
+    {
+        "名称": "2025 [2503.05132] R1-Zero's \"Aha Moment\" in Visual Reasoning on a 2B Non-SFT Model.pdf",
+        "作者": "Hengguang Zhou, Xirui Li, Ruochen Wang, Minhao Cheng, Tianyi Zhou, Cho-Jui Hsieh",
+        "摘要": "摘要：最近，DeepSeek R1展示了如何通过使用简单的基于规则的激励机制进行强化学习，使得大型语言模型能够自主发展复杂的推理能力，其特征是训练过程中模型在自我反省时出现的“恍然大悟”时刻，并伴随着回答长度的增加。然而，将这一成功延伸到多模态推理的尝试往往未能再现这些关键特征。在这份报告中，我们首次成功地在仅非SFT的2B模型上复现了这些新兴特征。我们以Qwen2-VL-2B为起点，直接在SAT数据集上应用强化学习，我们的模型在CVBench上达到了59.47%的准确率，性能比基准模型提高了约30%，超过了基于SFT的设置约2%。此外，我们还分享了尝试使用强化学习实现类似R1推理时的失败尝试和见解，以期揭示其中的挑战。我们的主要观察包括：（1）在指令模型上应用强化学习通常会导致琐碎的推理轨迹，以及（2）简单的长度奖励无法有效地引出推理能力。项目代码可在此HTTPS URL上获得。\n\n翻译中文摘要：\n\n摘要：最近，DeepSeek R1展示了如何通过使用简单的基于规则的激励机制进行强化学习，使得大型语言模型能够自主发展复杂的推理能力，其特征是训练过程中模型在自我反省时出现的“恍然大悟”时刻，并伴随着回答长度的增加。然而，将这一成功延伸到多模态推理的尝试往往未能再现这些关键特征。在这份报告中，我们首次成功地在仅非SFT的2B模型上复现了这些新兴特征。我们以Qwen2-VL-2B为起点，直接在SAT数据集上应用强化学习，我们的模型在CVBench上达到了59.47%的准确率，性能比基准模型提高了约30%，超过了基于SFT的设置约2%。此外，我们还分享了尝试使用强化学习实现类似R1推理时的失败尝试和见解，以期揭示其中的挑战。我们的主要观察包括：（1）在指令模型上应用强化学习通常会导致琐碎的推理轨迹，以及（2）简单的长度奖励无法有效地引出推理能力。项目代码可在此HTTPS URL上获得。",
+        "地址": "https://arxiv.org/pdf/2503.05132.pdf"
+    },
+    {
+        "名称": "2025 [2503.02130] Forgetting Transformer: Softmax Attention with a Forget Gate.pdf",
+        "作者": "Zhixuan Lin, Evgenii Nikishin, Xu Owen He, Aaron Courville",
+        "摘要": "摘要：现代递归序列模型的一个重要组成部分是遗忘门。虽然Transformers没有显式的递归形式，但我们展示了可以通过以数据依赖的方式削弱未归一化的注意力得分，自然地将遗忘门结合到Transformers中。我们将这种注意力机制命名为遗忘注意力（Forgetting Attention），由此得到的模型命名为遗忘Transformer（FoX）。我们展示了FoX在长上下文语言建模、长度外推和短上下文下游任务上优于Transformer，同时在长上下文下游任务上表现与Transformer相当。此外，它与FlashAttention算法兼容，不需要任何位置嵌入。包括大海捞针测试在内的几项分析表明，FoX也保留了Transformer在长上下文能力上的优越性，超过了诸如Mamba-2、HGRN2和DeltaNet这样的递归序列模型。我们还介绍了一种“Pro”模块设计，结合了递归序列模型中的一些常见架构组件，发现它显著提高了FoX和Transformer的性能。我们的代码可在此 https URL 获取。\n\n作者：林志轩，叶夫根尼·尼基申，许欧文·何，艾伦·柯维尔\n\n评论：发表为ICLR 2025会议论文\n\n链接：https://arxiv.org/pdf/2503.02130.pdf\n\n标题：2025 [2503.02130] 遗忘Transformer：带有遗忘门的Softmax注意力机制.pdf",
+        "地址": "https://arxiv.org/pdf/2503.02130.pdf"
+    },
+    {
+        "名称": "2025 [2503.05592] R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning.pdf",
+        "作者": "Huatong Song, Jinhao Jiang, Yingqian Min, Jie Chen, Zhipeng Chen, Wayne Xin Zhao, Lei Fang, Ji-Rong Wen",
+        "摘要": "摘要：现有的大型推理模型（LRMs）展示了使用强化学习（RL）增强大型语言模型（LLMs）复杂推理能力的潜力。尽管在数学和编程等具有挑战性的任务上表现出色，但它们通常依赖于内部知识来解决问题，这对于时效性或知识密集型问题可能不足，导致不准确和幻觉。为了解决这个问题，我们提出了R1-Searcher，一种新颖的基于结果的两阶段RL方法，旨在增强LLMs的搜索能力。该方法允许LLMs在推理过程中自主调用外部搜索系统以获取额外知识。我们的框架完全依赖RL，无需过程奖励或蒸馏来进行冷启动。实验证明，我们的方法显著优于以前的强RAG方法，即使在与闭源的GPT-4o-mini相比时亦如此。",
+        "地址": "https://arxiv.org/pdf/2503.05592.pdf"
+    },
+    {
+        "名称": "2025 [2503.04957] SafeArena: Evaluating the Safety of Autonomous Web Agents.pdf",
+        "作者": "Ada Defne Tur, Nicholas Meade, Xing Han Lù, Alejandra Zambrano, Arkil Patel, Esin Durmus, Spandana Gella, Karolina Stańczak, Siva Reddy",
+        "摘要": "摘要: 基于LLM的代理在解决基于网络的任务方面变得越来越娴熟。然而，这种能力带来了被恶意使用的更大风险，例如在网上论坛发布虚假信息或在网站上出售非法物品。为了评估这些风险，我们提出了SafeArena，这是第一个专注于故意滥用网络代理的基准。SafeArena涵盖了四个网站上的250个安全任务和250个有害任务。我们将有害任务分为五类：虚假信息、非法活动、骚扰、网络犯罪和社会偏见，旨在评估网络代理的现实滥用情况。我们在我们的基准上评估了包括GPT-4o、Claude-3.5 Sonnet、Qwen-2-VL 72B和Llama-3.2 90B在内的领先的基于LLM的网络代理。为了系统地评估它们对有害任务的易感性，我们引入了代理风险评估框架，将代理行为分为四个风险等级。我们发现，代理对于恶意请求表现出惊人的顺从，GPT-4o和Qwen-2分别完成了34.7%和27.3%的有害请求。我们的研究结果突显了对网络代理进行安全对齐程序的迫切需求。我们的基准在此处可用: this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.04957.pdf"
+    },
+    {
+        "名称": "2025 [2503.05639] VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control.pdf",
+        "作者": "Yuxuan Bian, Zhaoyang Zhang, Xuan Ju, Mingdeng Cao, Liangbin Xie, Ying Shan, Qiang Xu",
+        "摘要": "摘要：视频修复旨在恢复受损视频内容，该领域已取得了显著进展。然而，现有方法，无论是通过光流和感受野先验传播未遮蔽区域像素，还是时间延伸图像修复模型，均在生成完全遮蔽物体或在单模型中平衡背景上下文保留与前景生成的竞争目标方面面临挑战。为了解决这些限制，我们提出了一种新颖的双流范式VideoPainter，该方法结合了有效的上下文编码器（仅占骨干参数的6%）以处理遮蔽视频，并向任何预训练的视频DiT中注入骨干感知的背景上下文线索，从而以即插即用的方式生成语义一致的内容。这种架构分离显著减少了模型的学习复杂度，同时实现了关键背景上下文的细致整合。我们还引入了一种新颖的目标区域ID重采样技术，使任何长度的视频修复成为可能，极大地增强了我们的实际适用性。此外，我们建立了一个可扩展的数据集管道，利用当前的视觉理解模型，提供VPData和VPBench，以促进基于分割的修复训练和评估，它们是迄今为止包含超过39万种不同片段的最大视频修复数据集和基准。以修复为管道基础，我们还探索了下游应用，包括视频编辑和视频编辑对数据生成，展示了具有竞争力的性能和显著的实际潜力。大量实验表明，VideoPainter在任何长度的视频修复和编辑中的卓越表现，在包括视频质量、遮罩区域保留和文本连贯性在内的八个关键指标上均优于其他方法。",
+        "地址": "https://arxiv.org/pdf/2503.05639.pdf"
+    },
+    {
+        "名称": "2025 [2503.05379] R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcing Learning.pdf",
+        "作者": "Jiaxing Zhao, Xihan Wei, Liefeng Bo",
+        "摘要": "摘要：在这项工作中，我们首次将可验证奖励的强化学习（RLVR）应用于全方位多模态大语言模型，并在情感识别这一视觉和音频模态均起重要作用的任务中取得了突破。我们利用RLVR对全方位模型进行优化，使其在推理能力、情感识别准确性和泛化能力这三个关键方面的表现显著提升。引入RLVR不仅提高了模型在分布内数据上的整体表现，还在评估分布外数据集时展示了出色的鲁棒性。更重要的是，增强的推理能力使得对不同模态，特别是视觉和音频信息，在情感识别过程中的贡献进行清晰的分析。这为多模态大语言模型的优化提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2503.05379.pdf"
+    },
+    {
+        "名称": "2025 [2503.04808] Learning from Failures in Multi-Attempt Reinforcement Learning.pdf",
+        "作者": "Stephen Chung, Wenyu Du, Jie Fu",
+        "摘要": "摘要：近期在增强学习（RL）应用于大型语言模型（LLMs）方面的进展，以DeepSeek R1为例表明，即使是简单的问答任务也能显著提升LLM的推理能力。在本研究中，我们将这一任务扩展为多次尝试设置。模型不再每个问题仅生成一个响应，而是给予多次尝试的机会，并在错误响应后提供反馈。多次尝试任务鼓励模型改进之前的尝试，并提高搜索效率。实验结果显示，即使是一个在多次尝试任务上训练的小型LLM，在多次尝试评估时也能获得显著更高的准确率，从1次尝试的45.6%提升到2次尝试的52.5%的数学基准测试中。相比之下，训练于标准单次任务的同一个LLM在评估时于多次尝试情况下，却只有微小的提升，从42.3%增至43.2%。结果表明，较之于标准单次任务，训练于多次尝试任务的LLM在数学基准测试上表现略有更好，同时更有效地学习基于用户反馈改进响应。完整代码公开于此链接 https://arxiv.org/pdf/2503.04808.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.04808.pdf"
+    },
+    {
+        "名称": "2025 [2503.04872] TinyR1-32B-Preview: Boosting Accuracy with Branch-Merge Distillation.pdf",
+        "作者": "Lin Sun, Guangxiang Zhao, Xiaoqi Jian, Yuhan Wu, Weihong Lin, Yongfu Zhu, Change Jia, Linglin Zhang, Jinzhu Wu, Junfeng Ran, Sai-er Hu, Zihan Jiang, Junting Zhou, Wenrui Liu, Bin Cui, Tong Yang, Xiangzheng Zhang",
+        "摘要": "摘要: 减小大型语言模型（LLMs）尺寸的同时保持其性能的挑战已经引起了显著关注。然而，现有的方法，如模型蒸馏和迁移学习，通常难以实现高准确性。为了解决这一限制，我们提出了Branch-Merge蒸馏方法，通过两个阶段来增强模型压缩：(1) 分支阶段，在该阶段，通过领域特定的监督微调（SFT）选择性地将大型教师模型的知识蒸馏到专门的学生模型中；(2) 合并阶段，将这些学生模型合并，以实现跨领域的知识转移并提高泛化能力。我们使用DeepSeek-R1作为教师模型，DeepSeek-R1-Distill-Qwen-32B作为学生模型验证了我们的蒸馏方法。最终合并的模型TinyR1-32B-Preview在多个基准测试中表现优于其对应的DeepSeek-R1-Distill-Qwen-32B，包括数学（+5.5分）、编程（+4.4分）和科学（+2.9分），同时在AIME 2024上的表现几乎与DeepSeek-R1相同。Branch-Merge蒸馏方法为创建较小、高性能的LLMs提供了一种可扩展的解决方案，并减少了计算成本和时间。",
+        "地址": "https://arxiv.org/pdf/2503.04872.pdf"
+    },
+    {
+        "名称": "2025 [2503.05638] TrajectoryCrafter: Redirecting Camera Trajectory for Monocular Videos via Diffusion Models.pdf",
+        "作者": "Mark YU, Wenbo Hu, Jinbo Xing, Ying Shan",
+        "摘要": "摘要: 我们提出了TrajectoryCrafter，这是一种用于重定向单目视频中相机轨迹的新方法。通过解耦确定性视图变换和随机内容生成，我们的方法实现了对用户指定的相机轨迹的精确控制。我们提出了一种新颖的双流条件视频扩散模型，该模型同时集成了点云渲染和源视频作为条件，确保了准确的视图变换和一致的4D内容生成。我们没有利用稀缺的多视角视频，而是通过创新的双重重投影策略，精心设计了一种混合训练数据集，结合了网络级单目视频和静态多视角数据集，显著增强了在不同场景中的强大泛化能力。在多视角和大规模单目视频上的广泛评估表明，我们的方法性能优越。\n\n翻译成中文的摘要: 我们提出了TrajectoryCrafter，这是一种用于重定向单目视频中相机轨迹的新方法。通过解耦确定性视图变换和随机内容生成，我们的方法实现了对用户指定的相机轨迹的精确控制。我们提出了一种新颖的双流条件视频扩散模型，该模型同时集成了点云渲染和源视频作为条件，确保了准确的视图变换和一致的4D内容生成。我们没有利用稀缺的多视角视频，而是通过创新的双重重投影策略，精心设计了一种混合训练数据集，结合了网络级单目视频和静态多视角数据集，显著增强了在不同场景中的强大泛化能力。在多视角和大规模单目视频上的广泛评估表明，我们的方法性能优越。",
+        "地址": "https://arxiv.org/pdf/2503.05638.pdf"
+    },
+    {
+        "名称": "2025 [2503.04824] ProReflow: Progressive Reflow with Decomposed Velocity.pdf",
+        "作者": "Lei Ke, Haohang Xu, Xuefei Ning, Yu Li, Jiajun Li, Haoling Li, Yuxuan Lin, Dongsheng Jiang, Yujiu Yang, Linfeng Zhang",
+        "摘要": "摘要：扩散模型在图像和视频生成中取得了显著进展，但仍然面临巨大的计算成本。作为一种有效的解决方案，流匹配旨在将扩散模型的扩散过程重新调整为直线，从而使其能够在少量步骤甚至一步中生成。然而，在本文中，我们指出原始的流匹配训练流程并不最优，并引入了两种技术来改进它。首先，我们引入渐进重新流动，逐步在局部时间步中重新流动扩散模型，直到整个扩散过程完成，减少了流匹配的难度。其次，我们引入对齐的v-预测，强调在流匹配中方向匹配的重要性，超过了幅度匹配。在SDv1.5和SDXL上的实验结果证明了我们方法的有效性，例如，在SDv1.5上进行实验时，仅用4个采样步骤就达到了MSCOCO2014验证集上的FID为10.70，接近我们的教师模型（32个DDIM步骤，FID=10.05）。",
+        "地址": "https://arxiv.org/pdf/2503.04824.pdf"
+    },
+    {
+        "名称": "2025 [2503.05652] BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities.pdf",
+        "作者": "Yunfan Jiang, Ruohan Zhang, Josiah Wong, Chen Wang, Yanjie Ze, Hang Yin, Cem Gokmen, Shuran Song, Jiajun Wu, Li Fei-Fei",
+        "摘要": "摘要: 现实世界中的家庭任务对移动操控机器人提出了重大挑战。现有机器人基准测试的分析表明，成功完成任务取决于三个关键的全身控制能力：双手协调、稳定和精确的导航、以及广泛的末端执行器可达性。实现这些能力需要精心的硬件设计，但由此产生的系统复杂性进一步加剧了视觉运动策略学习的难度。为了解决这些问题，我们引入了BEHAVIOR机器人套件(BRS)，这是一个在各种家庭任务中进行全身操控的综合框架。该框架基于一款带有4自由度躯干的双手轮式机器人，集成了一种经济高效的全身遥操作界面用于数据收集，以及一种新颖的算法用于学习全身视觉运动策略。我们在五个具有挑战性的家庭任务中评估了BRS，这些任务不仅强调了三大核心能力，还引入了额外的复杂性，如长距离导航、与关节和可变形物体的交互，以及在狭窄空间中的操作。我们相信，BRS集成的机器人化身、数据收集界面和学习框架标志着实现现实世界中的全身操控家务任务的重要一步。BRS已在这个HTTPS URL开源。\n\n原文网址：https://arxiv.org/pdf/2503.05652.pdf\n项目网站：https://arxiv.org/pdf/2503.05652.pdf\n作者: Yunfan Jiang, Ruohan Zhang, Josiah Wong, Chen Wang, Yanjie Ze, Hang Yin, Cem Gokmen, Shuran Song, Jiajun Wu, Li Fei-Fei",
+        "地址": "https://arxiv.org/pdf/2503.05652.pdf"
+    },
+    {
+        "名称": "2025 [2503.04548] An Empirical Study on Eliciting and Improving R1-like Reasoning Models.pdf",
+        "作者": "Zhipeng Chen, Yingqian Min, Beichen Zhang, Jie Chen, Jinhao Jiang, Daixuan Cheng, Wayne Xin Zhao, Zheng Liu, Xu Miao, Yang Lu, Lei Fang, Zhongyuan Wang, Ji-Rong Wen",
+        "摘要": "摘要：在这份报告中，我们介绍了STILL项目中慢思维模型开发的第三份技术报告。随着技术路径变得更加清晰，扩展强化学习（RL）训练已成为实施此类推理模型的核心技术。我们系统地实验并记录了各种影响强化学习训练的因素，对基础模型和微调模型进行了实验。具体来说，我们证明了我们的RL训练方法始终如一地改进了Qwen2.5-32B基础模型，增强了响应长度和测试准确性。此外，我们展示了即使是已经达到高性能水平的模型，如DeepSeek-R1-Distill-Qwen-1.5B，仍可以通过RL训练进一步优化，在AIME 2024上达到39.33%的准确率。除了RL训练，我们还探索了工具操作的使用，发现它显著提升了大型推理模型的推理性能。此方法在AIME 2024上通过贪婪搜索实现了86.67%的显著准确率，突显其在增强模型能力方面的有效性。我们在STILL项目网站上发布了我们的资源。\n\n这是一份关于使用大型语言模型进行慢思考的技术报告：第三部分，由Zhipeng Chen、Yingqian Min、Beichen Zhang、Jie Chen、Jinhao Jiang、Daixuan Cheng、Wayne Xin Zhao、Zheng Liu、Xu Miao、Yang Lu、Lei Fang、Zhongyuan Wang和Ji-Rong Wen编写。论文地址为：https://arxiv.org/pdf/2503.04548.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.04548.pdf"
+    },
+    {
+        "名称": "2025 [2503.05447] Linear-MoE: Linear Sequence Modeling Meets Mixture-of-Experts.pdf",
+        "作者": "Weigao Sun, Disen Lan, Tong Zhu, Xiaoye Qu, Yu Cheng",
+        "摘要": "摘要：线性序列建模（LSM）如线性注意力、状态空间模型和线性RNN，以及专家混合（MoE）最近作为重要的架构改进出现。在本文中，我们介绍了Linear-MoE，这是一种生产级别的系统，用于建模和训练大规模模型，集成了LSM和MoE。Linear-MoE利用了LSM模块的线性复杂度序列建模优势和MoE层的稀疏激活优势，旨在提供高性能和高效训练。Linear-MoE系统包括：1）建模子系统，提供支持所有LSM实例的统一框架；2）训练子系统，通过结合各种先进的并行技术（特别是为Linear-MoE模型设计的序列并行技术），促进高效训练。此外，我们还探索了将Linear-MoE层与标准Transformer-MoE层及其序列并行技术结合的混合模型，以进一步增强模型的灵活性和性能。在A0.3B-2B和A1B-7B两个模型系列的评估中，Linear-MoE在各种基准上表现出效率提升，同时保持了竞争力，展示了其作为下一代基础模型架构的潜力。代码见：此https URL。",
+        "地址": "https://arxiv.org/pdf/2503.05447.pdf"
+    },
+    {
+        "名称": "2025 [2503.04359] LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding.pdf",
+        "作者": "Jia Li, Xuyuan Guo, Lei Li, Kechi Zhang, Ge Li, Jia Li, Zhengwei Tao, Fang Liu, Chongyang Tao, Yuqi Zhu, Zhi Jin",
+        "摘要": "摘要：当前先进的长上下文语言模型在实际软件工程应用中显示出巨大潜力。然而，在这一关键领域的进展仍然受到一个根本限制的阻碍：缺乏一个严格的长代码理解评估框架。为了解决这一障碍，我们提出了从四个方面（8个任务）评估长上下文语言模型（LCLMs）在实际应用中所需的长代码理解能力的基准测试LONGCODEU，包括代码单元感知、代码单元内部理解、代码单元间关系理解和长代码文档理解。我们在LONGCODEU上评估了9个流行的LCLMs（即6个通用模型和3个代码模型）。我们的实验结果揭示了当前LCLMs在长代码理解能力上的主要局限性。特别地，当长代码长度大于32K时，LCLMs的性能急剧下降，远远低于它们声称的128K-1M上下文窗口。在四个方面中，代码单元间关系理解对LCLMs来说是最具挑战性的。我们的研究为优化LCLMs和推动软件工程进步提供了有价值的见解。",
+        "地址": "https://arxiv.org/pdf/2503.04359.pdf"
+    },
+    {
+        "名称": "2025 [2503.01713] SAGE: A Framework of Precise Retrieval for RAG.pdf",
+        "作者": "Jintao Zhang, Guoliang Li, Jinyang Su",
+        "摘要": "摘要：检索增强生成（RAG）在指定语料库中进行问答任务方面展示了显著的能力。然而，RAG在问答中的许多失败实例依然存在。这些失败不仅仅是因为大语言模型（LLMs）的局限性，更多的是由于LLMs检索到不准确信息产生的。这种情况主要有两个原因：(1) 当前的RAG方法在分割语料库时不考虑语义，这使得由于问题与语段之间的关联性减弱，难以找到相关的上下文。(2) 在检索较少的上下文时可能会错过重要的内容，而检索较多的上下文时则可能会得到不相关的内容，存在一个权衡问题。本文我们提出了一种RAG框架（SAGE）来克服这些限制。首先，为了解决不考虑语义的分割问题，我们提出训练一个语义分割模型，将语料库分割成语义完整的块。其次，为了确保只检索到最相关的块，并忽略不相关的块，我们设计了一种块选择算法，基于相关度评分的减速动态选择块，从而获得更相关的选择。第三，我们提出让LLMs评估检索到的块是否过多或不足，并相应调整上下文的数量，以进一步确保已检索块的精确性。实验结果表明，SAGE在问答质量方面平均优于基线61.25%。此外，通过避免检索噪声上下文，SAGE降低了LLMs推理所消耗的token成本，平均提高了49.41%的成本效率。我们的工作还为提升RAG提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2503.01713.pdf"
+    },
+    {
+        "名称": "2025 [2503.01840] EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test.pdf",
+        "作者": "Yuhui Li, Fangyun Wei, Chao Zhang, Hongyang Zhang",
+        "摘要": "摘要：现代大型语言模型（LLMs）的顺序性质使得它们的运行成本高且速度慢，而推测采样已被证明是解决此问题的有效方法。EAGLE等方法在特征层次上执行自回归，再利用目标模型的顶层特征，以达到比普通推测采样更好的结果。LLM社区的一种趋势是通过扩大训练数据来提高模型的智能性，而不增加推理成本。然而，我们观察到，数据扩展对EAGLE的改进有限。我们发现这种局限性源于EAGLE的特征预测限制。在这篇论文中，我们介绍了EAGLE-3，它放弃了特征预测，转而直接进行标记预测，并通过一种称为训练时间测试的技术，用多层特征融合代替对顶层特征的依赖。这些改进显著提升了性能，使模型能够充分利用扩展的训练数据。我们的实验包括对话模型和推理模型，并在五项任务上进行了评估。结果显示，EAGLE-3的加速比率高达6.5倍，比EAGLE-2约提升了1.4倍。代码可以在这个URL获取。\n\n作者：李雨晖，魏方云，张超，张宏扬\n\n链接：https://arxiv.org/pdf/2503.01840.pdf\n\n标题：EAGLE-3: 通过训练时间测试加速大规模语言模型的推断",
+        "地址": "https://arxiv.org/pdf/2503.01840.pdf"
+    },
+    {
+        "名称": "2025 [2502.18968] Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles.pdf",
+        "作者": "Kuang Wang, Xianfei Li, Shenghao Yang, Li Zhou, Feng Jiang, Haizhou Li",
+        "摘要": "摘要（Abstract）：\n用户模拟器对于复制与对话系统的用户交互至关重要，特别是对于大型语言模型（LLMs）的协同训练和自动评估。然而，现有的模拟器通常仅依赖文本话语，忽略了用户的隐性特征，如个性、说话风格和目标。相反，基于人格的方法缺乏普适性，因为它们依赖于预定义的名人或原型档案。为了解决这些挑战，我们提出了隐性档案的用户模拟器（USP），这是一个从人机对话中推断隐性用户档案并使用它们生成更个性化和真实对话的框架。我们首先开发了一个采用全面档案模式驱动的大型语言模型提取器。然后，我们通过条件监督微调和周期一致性的强化学习来优化模拟，在话语和对话层面进行优化。最后，我们采用多样化档案采样器来捕捉现实世界用户档案的分布。实验结果表明，USP在真实性和多样性方面优于强基线，同时在一致性方面表现出可比的性能。此外，基于USP的动态多轮评估与主流基准高度一致，证明了其在实际应用中的有效性。\n\n翻译（Translation）：\n用户模拟器对于复制人类与对话系统的交互至关重要，特别是在大型语言模型（LLMs）的协同训练和自动评估方面。然而，现有的模拟器通常仅依赖文本话语，缺乏对用户隐含特征的考虑，如个性、说话风格和目标。相反，基于个人人格的方法缺乏普遍适用性，因为它们依赖于预定义的知名个人或典型人物档案。为了解决这些问题，我们提出了隐性档案的用户模拟器（USP）框架，该框架从人机对话中推断隐性用户档案，并利用这些档案生成更个性化和真实的对话。我们首先开发了基于大型语言模型驱动的全面档案提取器。然后，我们通过条件监督微调和具有循环一致性的强化学习来优化模拟器，从话语和对话层面进行优化。最后，我们采用多样化档案采样器来捕捉真实世界用户档案的分布。实验结果表明，USP在真实性和多样性方面优于现有强基线，并在一致性方面表现出可比的性能。此外，基于USP的动态多轮评估与主流基准高度一致，证明了其在实际应用中的有效性。",
+        "地址": "https://arxiv.org/pdf/2502.18968.pdf"
+    },
+    {
+        "名称": "2025 [2503.05315] LoRACode: LoRA Adapters for Code Embeddings.pdf",
+        "作者": "Saumya Chaturvedi, Aman Chadha, Laurent Bindschaedler",
+        "摘要": "摘要：代码嵌入对于语义代码搜索至关重要；然而，目前的方法往往难以捕捉代码固有的精确语法和上下文细微差别。开源模型如CodeBERT和UniXcoder在可扩展性和效率方面表现出局限性，而高性能的专有系统则带来了巨大的计算成本。我们介绍了一种基于低秩适应（LoRA）的参数高效微调方法，用于构建任务特定的代码检索适配器。我们的方法将可训练参数的数量减少到基础模型的不到2%，从而在大量代码语料库上实现快速微调（在两块H100 GPU上25分钟内处理200万样本）。实验表明，在Code2Code搜索中，平均互惠排名（MRR）提高了最多9.1%，在Text2Code搜索任务中提高了最多86.69%，且支持多种编程语言。任务和语言的适应性区别有助于探索代码检索对语法和语言变化的敏感性。",
+        "地址": "https://arxiv.org/pdf/2503.05315.pdf"
+    },
+    {
+        "名称": "2025 [2503.04504] AnyAnomaly: Zero-Shot Customizable Video Anomaly Detection with LVLM.pdf",
+        "作者": "Sunghyun Ahn, Youngwan Jo, Kijung Lee, Sein Kwon, Inpyo Hong, Sanghyun Park",
+        "摘要": "摘要: 视频异常检测（VAD）是计算机视觉中视频分析和监控的关键。然而，现有的VAD模型依赖于学习到的正常模式，这使得它们难以适用于多样化的环境。因此，用户需要重新训练模型或为新环境开发独立的AI模型，这需要机器学习专业知识、高性能硬件和广泛的数据收集，限制了VAD的实际可用性。为了解决这些挑战，本研究提出了定制视频异常检测（C-VAD）技术和AnyAnomaly模型。C-VAD将用户定义的文本视为异常事件，并检测视频中包含指定事件的帧。我们在不微调大型视觉语言模型的情况下，利用上下文感知的视觉问答有效地实现了AnyAnomaly。为了验证所提出模型的有效性，我们构建了C-VAD数据集，并展示了AnyAnomaly的优越性。此外，我们的方法在VAD基准数据集上表现出竞争力，在UBnormal数据集上实现了最先进的结果，并在所有数据集上的泛化方面优于其他方法。我们的代码可以在线获得，链接在此 URL。\n\n作者: Sunghyun Ahn, Youngwan Jo, Kijung Lee, Sein Kwon, Inpyo Hong, Sanghyun Park",
+        "地址": "https://arxiv.org/pdf/2503.04504.pdf"
+    }
+]
