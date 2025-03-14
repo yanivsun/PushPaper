@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2503.09566] TPDiff: Temporal Pyramid Video Diffusion Model.pdf",
+        "作者": "Lingmin Ran, Mike Zheng Shou",
+        "摘要": "摘要：视频扩散模型的发展揭示了一个显著的挑战：巨大的计算需求。为了缓解这一挑战，我们注意到扩散的逆过程具有内在的熵减少特性。鉴于视频模式中的帧间冗余，在高熵阶段维持完整的帧率是没有必要的。基于这一洞察，我们提出了TPDiff，这是一种统一的框架，用于提高训练和推理效率。通过将扩散分为几个阶段，我们的框架在扩散过程中逐渐增加帧率，只有最后阶段以完整帧率操作，从而优化计算效率。为了训练多阶段扩散模型，我们引入了一个专门的训练框架：分阶段扩散。通过在对齐的数据和噪声下求解分段的概率流常微分方程（ODE）的扩散，我们的训练策略适用于各种扩散形式，并进一步提高了训练效率。综合实验评估验证了我们方法的普适性，显示训练成本减少50%，推理效率提高1.5倍。\n\n作者：Lingmin Ran, Mike Zheng Shou\n\n评论：项目页面：this https URL\n\n链接：https://arxiv.org/pdf/2503.09566.pdf\n\n标题：2025 [2503.09566] TPDiff: 时序金字塔视频扩散模型.pdf",
+        "地址": "https://arxiv.org/pdf/2503.09566.pdf"
+    },
+    {
+        "名称": "2025 [2503.09573] Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models.pdf",
+        "作者": "Marianne Arriola, Aaron Gokaslan, Justin T Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov",
+        "摘要": "摘要：扩散语言模型由于潜在的并行生成和可控性相对于自回归模型具有独特的优势，但它们在似然建模上有所滞后，并且仅限于固定长度生成。在这项工作中，我们引入了一类块扩散语言模型，这些模型在离散去噪扩散和自回归模型之间进行插值。通过支持灵活长度生成并通过KV缓存和并行令牌采样改进推理效率，块扩散克服了这两种方法的关键限制。我们提出了一种构建有效块扩散模型的方案，其中包括一种高效的训练算法、梯度方差的估计量以及数据驱动的噪声调度，以最小化方差。块扩散在语言建模基准测试中在扩散模型中设立了新的最先进的性能标准，并且能够生成任意长度的序列。我们在项目页面上提供了代码、模型权重和博客文章。\n\n——Marianne Arriola, Aaron Gokaslan, Justin T Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham Sekhar Sahoo, Volodymyr Kuleshov",
+        "地址": "https://arxiv.org/pdf/2503.09573.pdf"
+    },
+    {
+        "名称": "2025 [2503.09151] Reangle-A-Video: 4D Video Generation as Video-to-Video Translation.pdf",
+        "作者": "Hyeonho Jeong, Suhyeon Lee, Jong Chul Ye",
+        "摘要": "摘要：我们介绍了一种统一的框架Reangle-A-Video，用于从单个输入视频生成同步的多视角视频。不同于基于大规模4D数据集训练多视角视频扩散模型的主流方法，我们的方法将多视角视频生成任务重新定义为视频到多个视频的翻译，利用公开可用的图像和视频扩散先验。基本上，Reangle-A-Video操作分为两个阶段。第一阶段是多视角运动学习：一个图像到视频的扩散转换器在自监督的方式下同步微调，以从一组变形视频中提炼视图不变的运动。第二阶段是多视角一致的图像到图像翻译：输入视频的第一帧在推理时间的跨视图一致性指导下使用DUSt3R进行变形和修补，生成多视角一致的起始图像。在静态视图传输和动态摄像机控制的广泛实验中，Reangle-A-Video超越了现有的方法，为多视角视频生成建立了一种新方案。我们将公开发布我们的代码和数据。项目页面：这个https URL。",
+        "地址": "https://arxiv.org/pdf/2503.09151.pdf"
+    },
+    {
+        "名称": "2025 [2503.09601] RewardSDS: Aligning Score Distillation via Reward-Weighted Sampling.pdf",
+        "作者": "Itay Chachy, Guy Yariv, Sagie Benaim",
+        "摘要": "摘要：分数蒸馏采样（Score Distillation Sampling，简称SDS）作为一种有效的技术已经在文本生成3D任务中展示出强大的能力。然而，SDS在实现用户意图的精细对齐方面存在困难。为了解决这个问题，我们引入了RewardSDS，这是一种新颖的方法，通过奖励模型的对齐分数对噪声样本进行加权，生成加权的SDS损失。这种损失优先考虑那些生成高奖励输出的噪声样本的梯度。我们的方法具有广泛的适用性，可以扩展基于SDS的方法。特别地，我们通过引入RewardVSD展示了其对变分分数蒸馏（VSD）的适用性。我们在文本生成图像、2D编辑和文本生成3D任务上评估了RewardSDS和RewardVSD，显示出在多个度量生成质量和对期望奖励模型的对齐度上显著优于SDS和VSD，达到了最先进的性能。项目页面可在此网址获取：https://arxiv.org/pdf/2503.09601.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.09601.pdf"
+    },
+    {
+        "名称": "2025 [2503.08525] GTR: Guided Thought Reinforcement Prevents Thought Collapse in RL-based VLM Agent Training.pdf",
+        "作者": "Tong Wei, Yijun Yang, Junliang Xing, Yuanchun Shi, Zongqing Lu, Deheng Ye",
+        "摘要": "摘要: 利用具有可验证结果奖励的强化学习（RLVR）已成功扩展大型语言模型（LLM）的链式思维（CoT）推理。然而，其在训练视觉-语言模型（VLM）代理以进行视觉环境中目标导向行动推理方面的有效性尚不明确。本研究通过在复杂纸牌游戏（如24点）和ALFWorld的具身任务上进行大量实验来探讨这一问题。研究发现，当奖励仅基于行动结果时，RL难以激励VLM中的CoT推理，反而导致我们称之为“思维崩溃”的现象，其特点是代理思维的多样性迅速丧失、状态无关和不完整的推理，以及随后的无效行动，导致负面奖励。为应对思维崩溃，我们强调过程指导的必要性，并提出了一种自动校正器，在每个RL步骤评估并改进代理的推理。这个简便且可扩展的GTR（Guided Thought Reinforcement）框架在无需密集的逐步人工标注的情况下，同时训练推理和行动。实验表明，GTR显著提升了LLaVA-7b模型在各种视觉环境中的性能和泛化能力，其任务成功率较SoTA模型高出3-5倍，而模型尺寸明显更小。",
+        "地址": "https://arxiv.org/pdf/2503.08525.pdf"
+    },
+    {
+        "名称": "2025 [2503.04388] More Documents, Same Length: Isolating the Challenge of Multiple Documents in RAG.pdf",
+        "作者": "Shahar Levy, Nir Mazor, Lihi Shalmon, Michael Hassid, Gabriel Stanovsky",
+        "摘要": "摘要: 检索增强生成 (RAG) 为大型语言模型 (LLMs) 提供相关文档。尽管先前的研究指出检索大量文档可能会降低性能，但他们没有在控制上下文长度的情况下隔离文档数量如何影响性能。我们在从多跳问答任务衍生的自定义数据集上评估了各种语言模型。我们保持上下文长度和相关信息的位置不变，同时改变文档数量，发现增加 RAG 设置中的文档数量对大模型提出了重大挑战。此外，我们的结果表明处理多个文档与处理长上下文是单独的挑战。我们也提供数据集和代码: 此 https URL 。",
+        "地址": "https://arxiv.org/pdf/2503.04388.pdf"
+    },
+    {
+        "名称": "2025 [2503.06955] Motion Anything: Any to Motion Generation.pdf",
+        "作者": "Zeyu Zhang, Yiran Wang, Wei Mao, Danning Li, Rui Zhao, Biao Wu, Zirui Song, Bohan Zhuang, Ian Reid, Richard Hartley",
+        "摘要": "摘要：在计算机视觉领域内，有条件的运动生成已经被广泛研究，但仍然存在两个关键挑战。首先，尽管掩码自回归方法最近优于扩散方法，现有的掩码模型缺乏根据给定条件优先处理动态帧和身体部位的机制。其次，现有的不同条件模态的方法通常无法有效整合多种模态，限制了生成运动的控制和连贯性。为了解决这些挑战，我们提出了“Motion Anything”，一个多模态运动生成框架，该框架引入了基于注意力的掩码建模方法，从而实现对关键帧和动作的精细空间和时间控制。我们的模型自适应地编码多模态条件，包括文本和音乐，从而提高了可控性。此外，我们引入了文本-音乐-舞蹈（TMD）这一新的运动数据集，其中包括2,153对文本、音乐和舞蹈，使其数据量是AIST++的两倍，有效填补了研究空白。大量实验表明，Motion Anything在多个基准上超越了现有最先进的方法，实现了在HumanML3D数据集上15%的FID提升，并在AIST++和TMD数据集上表现出持续的性能提升。\n\n链接： [原文PDF](https://arxiv.org/pdf/2503.06955.pdf)",
+        "地址": "https://arxiv.org/pdf/2503.06955.pdf"
+    },
+    {
+        "名称": "2025 [2503.07103] Quantizing Large Language Models for Code Generation: A Differentiated Replication.pdf",
+        "作者": "Alessandro Giagnorio, Antonio Mastropaolo, Saima Afrin, Massimiliano Di Penta, Gabriele Bavota",
+        "摘要": "摘要：大型语言模型（LLMs）在代码生成方面表现出令人印象深刻的能力，特别是在自动实现自然语言描述的需求方面。LLM的效能通常随着其规模的增加而提高：可训练参数数量越多，其实现代码的能力越强。然而，当涉及到部署基于LLM的代码生成器时，较大的LLM会带来与其内存（因此也包括碳）足迹相关的重大挑战。Wei等人的先前工作提出利用量化技术在不大幅降低效能的情况下，减少基于LLM的代码生成器的内存占用。简而言之，他们研究了具有高达160亿参数的LLM，将其精度从浮点32位量化到整数8位，并显示出这种量化对代码生成性能的有限影响。鉴于LLM能力和量化技术快速发展的步伐，在这项工作中，我们呈现了对Wei等人工作的差异化复现，其考虑了（i）更近期的、更大的代码相关的LLM，参数数量高达340亿；（ii）最新的模型量化技术，允许将压缩推到每个模型参数2位的极端量化水平；以及（iii）不同类型的校准数据集来引导量化过程，包括特定代码的数据集。我们的实证评估表明，LLM量化的新前沿是4位精度，在不显著降低性能的前提下，实现了平均70%的内存占用减少。此外，当量化变得更加极端（3位和2位）时，特定代码的校准数据集有助于限制性能损失。",
+        "地址": "https://arxiv.org/pdf/2503.07103.pdf"
+    },
+    {
+        "名称": "2025 [2503.09402] VLog: Video-Language Models by Generative Retrieval of Narration Vocabulary.pdf",
+        "作者": "Kevin Qinghong Lin, Mike Zheng Shou",
+        "摘要": "摘要：人类的日常活动可以被简洁地叙述为视频流中的一系列常规事件（例如关闭闹钟），形成一个事件词汇表。受此启发，我们提出了VLog，这是一种新颖的视频理解框架，将视频叙述定义为词汇，超越了现有生成视频-语言模型中的典型子词词汇。VLog基于轻量级语言模型GPT-2，具有三个关键创新：（i）生成检索模型，将语言模型的复杂推理能力与对比检索的高效相似性搜索相结合。（ii）利用我们的叙述对编码算法从大规模视频叙述中提取的分层词汇，通过识别包含表达后缀（例如用左手）更广泛的场景（例如厨房），实现特定事件（例如切番茄）的高效索引。（iii）利用生成模型扩展词汇更新策略，扩展推理过程中遇到的新事件的词汇。为了验证我们的方法，我们引入了VidCap-Eval，这是一个需要简洁叙述和推理关系（例如前后关系）的开发集。在EgoSchema、COIN和HiREST上的实验进一步证明了VLog的有效性，突显了其生成简洁、上下文准确和高效叙述的能力，为视频理解提供了新的视角。代码已在此https URL上发布。",
+        "地址": "https://arxiv.org/pdf/2503.09402.pdf"
+    },
+    {
+        "名称": "2025 [2503.06573] WildIFEval: Instruction Following in the Wild.pdf",
+        "作者": "Gili Lior, Asaf Yehudai, Ariel Gera, Liat Ein-Dor",
+        "摘要": "摘要：最近的LLMs在遵循用户指令方面表现出显著的成功，然而处理具有多重约束的指令仍然是一个重要的挑战。在这项工作中，我们介绍了WildIFEval - 一个包含12K真实用户指令的大规模数据集，具备多样化的多重约束条件。与之前的数据集不同，我们的集合涵盖了自然用户提示中广泛的词汇和主题约束。我们将这些约束分类为八个高级类别，以捕捉其在现实场景中的分布和动态。利用WildIFEval，我们进行了广泛的实验，以基准测试领先的LLMs的指令遵循能力。我们的研究结果表明，所有评估的模型在约束数量增加时性能都会下降。因此，我们显示了所有模型在这类任务上都有很大的改进空间。此外，我们观察到约束的具体类型对模型性能起着关键作用。我们发布了我们的数据集，以促进在复杂、现实条件下的指令遵循研究。\n\n作者：Gili Lior, Asaf Yehudai, Ariel Gera, Liat Ein-Dor\n\n网址：https://arxiv.org/pdf/2503.06573.pdf\n\n论文标题：WildIFEval: Instruction Following in the Wild",
+        "地址": "https://arxiv.org/pdf/2503.06573.pdf"
+    },
+    {
+        "名称": "2025 [2503.09419] Alias-Free Latent Diffusion Models:Improving Fractional Shift Equivariance of Diffusion Latent Space.pdf",
+        "作者": "Yifan Zhou, Zeqi Xiao, Shuai Yang, Xingang Pan",
+        "摘要": "摘要：潜在扩散模型（LDMs）在生成过程中存在不稳定性，即使输入噪声发生微小的扰动或偏移，也可能导致显著不同的输出。这限制了它们在需要一致性结果的应用中的适用性。在这项工作中，我们通过使LDMs具有平移等变性来增强其一致性。尽管引入抗锯齿操作可以部分改善平移等变性，但由于LDMs中的独特挑战，显著的混叠和不一致仍然存在，这些挑战包括：1）在VAE训练和多次U-Net推理过程中混叠放大，2）自注意模块固有地缺乏平移等变性。为了解决这些问题，我们重新设计了注意模块，使其具有平移等变性，并提出了一种等变损失，有效地抑制了连续域中特征的频谱带宽。所得的无混叠LDM（AF-LDM）实现了强大的平移等变性，同时对不规则变形具有鲁棒性。大量实验证明，AF-LDM在各种应用中（包括视频编辑和图像到图像的转换）产生了比原始LDM明显更一致的结果。代码可在此URL获得。\n链接：https://arxiv.org/pdf/2503.09419.pdf",
+        "地址": "https://arxiv.org/pdf/2503.09419.pdf"
+    },
+    {
+        "名称": "2025 [2503.09579] Cost-Optimal Grouped-Query Attention for Long-Context LLMs.pdf",
+        "作者": "Yingfa Chen, Yutong Wu, Xu Han, Zhiyuan Liu, Maosong Sun",
+        "摘要": "摘要：近年来，构建高效的基于Transformer的大型语言模型（LLM）成为研究的重点，需要在最大化模型语言能力和最小化训练及部署成本之间取得平衡。现有的工作主要描述了模型性能、参数规模和数据量之间的复杂关系，并寻找训练LLM的最佳计算分配。然而，它们忽视了上下文长度和注意力头配置（分组查询注意中的查询和键值头数量）对训练和推理的影响。在本文中，我们系统地比较了不同参数规模、上下文长度和注意力头配置的模型在模型性能、计算成本和内存成本方面的表现。随后，我们扩展了现有的仅基于参数规模和训练计算的扩展方法，以在训练和推理过程中指导构建成本优化的LLM。我们的量化扩展研究表明，在处理足够长的序列时，具有较少注意力头的较大模型可以在减少计算和内存成本的同时实现更低的损失。我们的研究结果为开发实际的LLM提供了宝贵的见解，特别是在长上下文处理场景中。我们将公开发布我们的代码和数据。\n\n作者：陈迎发, 吴雨桐, 韩旭, 刘志远, 孙茂松\n\n链接：https://arxiv.org/pdf/2503.09579.pdf\n\n标题：基于成本优化的长上下文LLM分组查询注意力量模型",
+        "地址": "https://arxiv.org/pdf/2503.09579.pdf"
+    },
+    {
+        "名称": "2025 [2503.08681] Self-Taught Self-Correction for Small Language Models.pdf",
+        "作者": "Viktor Moskvoretskii, Chris Biemann, Irina Nikishina",
+        "摘要": "摘要：尽管大型语言模型（LLMs）在各种任务中取得了显著成绩，它们仍然容易出现错误。一个关键挑战是使它们能够自我纠正。先前的研究依赖于外部工具或大型专有模型，而这项工作通过仅使用自生数据的迭代微调，探索了小型语言模型（SLMs）的自我纠正。我们引入了自学自我纠正（STaSC）算法，该算法包含了多种算法设计选择。在问答任务上的实验结果表明，STaSC能够有效地学习自我纠正，从而显著提高性能。我们的分析进一步提供了关于自我纠正机制的见解，以及不同设计选择对学习动态和整体性能的影响。为了支持未来的研究，我们发布了用户友好的代码库和轻量级模型。",
+        "地址": "https://arxiv.org/pdf/2503.08681.pdf"
+    },
+    {
+        "名称": "2025 [2503.07588] When Large Vision-Language Model Meets Large Remote Sensing Imagery: Coarse-to-Fine Text-Guided Token Pruning.pdf",
+        "作者": "Junwei Luo, Yingying Zhang, Xue Yang, Kang Wu, Qi Zhu, Lei Liang, Jingdong Chen, Yansheng Li",
+        "摘要": "摘要：高效理解大规模遥感图像（RSI）的视觉与语言信息具有重要意义，但极具挑战性。当前的大型视觉语言模型（LVLMs）通常使用有限的预定义网格处理图像，在处理千兆像素的RSI时会导致信息丢失。相反，使用无限网格会显著增加计算成本。为了在保留图像细节的同时降低计算复杂度，我们提出了一种结合动态图像金字塔（DIP）整合的文本引导令牌剪枝方法。我们的方法引入了： (i) 一个区域聚焦模块（RFM），利用文本感知的区域定位能力来识别关键视觉令牌； (ii) 基于DIP的由粗到细的图像块选择和视觉令牌剪枝策略，该策略由RFM输出引导，避免直接处理整个大图像。此外，现有用于评估LVLMs在大尺度RSI感知能力的基准存在问题，包括问题多样性有限和图像尺寸受限。为此，我们构建了一个新的基准LRS-VQA，其中包含8个类别，总计7,333对问答对，图像长度最长可达27,328像素。我们的方法在四个数据集上的表现优于现有的高分辨率策略。此外，相比现有的令牌减少方法，我们的方法在高分辨率设置下表现出更高的效率。数据集和代码可以在此https URL中找到。",
+        "地址": "https://arxiv.org/pdf/2503.07588.pdf"
+    },
+    {
+        "名称": "2025 [2503.09590] BIMBA: Selective-Scan Compression for Long-Range Video Question Answering.pdf",
+        "作者": "Md Mohaiminul Islam, Tushar Nagarajan, Huiyu Wang, Gedas Bertasius, Lorenzo Torresani",
+        "摘要": "摘要: 视频问答（VQA）在长视频中面临的主要挑战是从大量冗余帧中提取相关信息和建模远程依赖关系。自注意机制为序列建模提供了普遍的解决方案，但应用于长视频中的大量时空令牌时，其计算成本过高。大多数以往的方法依靠压缩策略来降低计算成本，例如通过稀疏帧采样减少输入长度或通过时空池化压缩传递给大型语言模型（LLM）的输出序列。然而，这些简单的做法会过度表征冗余信息，并且经常错过显著事件或快速发生的时空模式。在此工作中，我们介绍了BIMBA，这是一种高效的状态空间模型，能够处理长视频。我们的模型利用选择性扫描算法，从高维视频中学习有效选择关键信息，并将其转换为简化的令牌序列，以提高LLM处理的效率。广泛的实验表明，BIMBA在多个长视频VQA基准（包括PerceptionTest、NExT-QA、EgoSchema、VNBench、LongVideoBench和Video-MME）上实现了最先进的准确性。代码和模型可在此https网址公开获取。",
+        "地址": "https://arxiv.org/pdf/2503.09590.pdf"
+    },
+    {
+        "名称": "2025 [2503.09427] Multimodal Language Modeling for High-Accuracy Single Cell Transcriptomics Analysis and Generation.pdf",
+        "作者": "Yaorui Shi, Jiaqi Yang, Sihang Li, Junfeng Fang, Xiang Wang, Zhiyuan Liu, Yang Zhang",
+        "摘要": "摘要: 预训练语言模型（PLMs）已经革新了科学研究，但它们在单细胞分析中的应用仍然有限。文本PLMs不能处理单细胞RNA测序数据，而细胞PLMs缺乏处理自由文本的能力，限制了它们在多模式任务中的使用。现有的将这些模式连接起来的努力往往面临信息丢失或单一模式预训练不足的问题，导致性能不佳。为了解决这些挑战，我们提出了单细胞多模态生成预训练转化器（scMMGPT），一种用于细胞和文本联合建模的统一PLM。scMMGPT有效整合了最先进的细胞和文本PLMs，促进了跨模态知识共享，以提高性能。 为了弥合文本-细胞模式的差距，scMMGPT利用专门的跨模态投影仪，并在2700万个细胞上进行广泛的预训练——这是到目前为止最大的多模式细胞-文本PLM数据集。这种大规模的预训练使得scMMGPT在联合细胞-文本任务中表现出色，在细胞描述生成的文本差异上实现了84%的相对改善，细胞类型注释的准确性提高了20.5%，而文本条件伪细胞生成的$k$-NN准确性提高了4%，超越了基线模型。\n\n翻译为中文如下：\n预训练语言模型（PLMs）已经革新了科学研究，但它们在单细胞分析中的应用仍然有限。文本PLMs不能处理单细胞RNA测序数据，而细胞PLMs缺乏处理自由文本的能力，限制了它们在多模式任务中的使用。现有的将这些模式连接起来的努力往往面临信息丢失或单一模式预训练不足的问题，导致性能不佳。为了解决这些挑战，我们提出了单细胞多模态生成预训练转化器（scMMGPT），一种用于细胞和文本联合建模的统一PLM。scMMGPT有效整合了最先进的细胞和文本PLMs，促进了跨模态知识共享，以提高性能。 为了弥合文本-细胞模式的差距，scMMGPT利用专门的跨模态投影仪，并在2700万个细胞上进行广泛的预训练——这是到目前为止最大的多模式细胞-文本PLM数据集。这种大规模的预训练使得scMMGPT在联合细胞-文本任务中表现出色，在细胞描述生成的文本差异上实现了84%的相对改善，细胞类型注释的准确性提高了20.5%，而文本条件伪细胞生成的$k$-NN准确性提高了4%，超越了基线模型。",
+        "地址": "https://arxiv.org/pdf/2503.09427.pdf"
+    },
+    {
+        "名称": "2025 [2503.05397] Multi Agent based Medical Assistant for Edge Devices.pdf",
+        "作者": "Sakharam Gawade, Shivam Akhouri, Chinmay Kulkarni, Jagdish Samant, Pragya Sahu, Aastik, Jai Pahal, Saswat Meher",
+        "摘要": "摘要：大规模操作模型（LAMs）已经革新了智能自动化领域，但由于隐私问题、延迟和对互联网接入的依赖，它们在医疗保健中的应用面临挑战。本报告介绍了一种克服这些限制的设备端多代理医疗助手系统。该系统利用较小的任务专用代理来优化资源，确保可扩展性和高性能。我们提出的系统是满足医疗保健需求的一站式解决方案，具有预约预订、健康监测、用药提醒和每日健康报告等功能。该系统由Qwen Code Instruct 2.5 7B模型提供支持，规划和呼叫代理在我们的任务中分别达到了85.5的RougeL平均得分和96.5的呼叫得分，同时在设备端部署时保持了轻量化。该创新方法结合了设备端系统和多代理架构的优势，为以用户为中心的医疗保健解决方案开辟了道路。\n\n发布时间：2025\n作者：Sakharam Gawade, Shivam Akhouri, Chinmay Kulkarni, Jagdish Samant, Pragya Sahu, Aastik, Jai Pahal, Saswat Meher\n链接：https://arxiv.org/pdf/2503.05397.pdf\n标题：基于边缘设备的多代理医疗助手",
+        "地址": "https://arxiv.org/pdf/2503.05397.pdf"
+    },
+    {
+        "名称": "2025 [2503.09600] MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System.pdf",
+        "作者": "Jihao Zhao, Zhiyuan Ji, Zhaoxin Fan, Hanyu Wang, Simin Niu, Bo Tang, Feiyu Xiong, Zhiyu Li",
+        "摘要": "摘要：尽管检索增强生成（RAG）作为大型语言模型（LLMs）的有效补充，但往往忽略了其流程中的文本分块这个关键点。本文首先引入了双指标评估方法，包括边界清晰度和分块粘性，以直接量化分块质量。利用这种评估方法，我们揭示了传统和语义分块在处理复杂上下文细微差别方面的固有限制，从而证明了将LLMs融入分块过程的必要性。为了应对LLM方法中计算效率与分块精度之间的权衡问题，我们设计了一个感知粒度的分块混合框架（MoC），其中包含一个三阶段处理机制。值得注意的是，我们的目标是引导分块器生成结构化的分块正则表达式列表，随后用于从原始文本中提取分块。大量实验表明，我们提出的度量标准和MoC框架有效解决了分块任务的挑战，揭示了分块核心，同时提高了RAG系统的性能。",
+        "地址": "https://arxiv.org/pdf/2503.09600.pdf"
+    },
+    {
+        "名称": "2025 [2503.09516] Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning.pdf",
+        "作者": "Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, Jiawei Han",
+        "摘要": "摘要：高效获取外部知识和最新信息对于大型语言模型（LLMs）的有效推理和文本生成至关重要。当前的检索增强和工具使用训练方法将搜索引擎视为工具，但缺乏复杂的多轮检索灵活性或需要大规模的有监督数据。在推理过程中提示高级LLM使用搜索引擎并非最佳，因为LLM无法学习如何最优地与搜索引擎交互。本文介绍了Search-R1，该模型是DeepSeek-R1的扩展版本，其中LLM通过强化学习（RL）自主生成多个检索查询，并在逐步推理过程中进行实时检索。Search-R1通过多轮搜索交互优化LLM的卷出操作，利用检索到的标记屏蔽稳定RL训练，并使用简单的基于结果的奖励函数。在七个问答数据集上的实验表明，Search-R1比现有的SOTA基准提高了26%（Qwen2.5-7B）、21%（Qwen2.5-3B）和10%（LLaMA3.2-3B）的性能。本文还提供了关于RL优化方法、LLM选择及检索增强推理中响应长度动态的实证见解。代码和模型检查点可在此HTTPS网址找到。\n\n翻译作者：金博文, 曾涵丝, 岳真锐, 王东, 哈梅德·扎马尼, 韩家炜\n评论：16页\nURL：https://arxiv.org/pdf/2503.09516.pdf \n标题：2025 [2503.09516] Search-R1：通过强化学习训练LLMs推理和利用搜索引擎",
+        "地址": "https://arxiv.org/pdf/2503.09516.pdf"
+    },
+    {
+        "名称": "2025 [2503.09410] Monte Carlo Diffusion for Generalizable Learning-Based RANSAC.pdf",
+        "作者": "Jiale Wang, Chen Zhao, Wei Ke, Tong Zhang",
+        "摘要": "摘要：随机抽样一致性算法（RANSAC）是一种基础方法，用于从噪声数据中稳健地估计参数模型。现有的基于学习的RANSAC方法利用深度学习来增强RANSAC在对抗离群值时的稳健性。然而，这些方法在训练和测试时使用的是由相同算法生成的数据，这导致在推理时对分布外数据的泛化能力有限。因此，在本文中，我们提出了一种新颖的基于扩散的范式，该范式逐步向真实数据中注入噪声，模拟用于训练基于学习的RANSAC的噪声条件。为了增强数据多样性，我们将蒙特卡洛采样引入扩散范式，通过在多个阶段引入不同类型的随机性来近似多样的数据分布。我们在ScanNet和MegaDepth数据集上进行了全面的实验，评估了我们的方法在特征匹配中的表现。实验结果表明，我们的蒙特卡洛扩散机制显著提高了基于学习的RANSAC的泛化能力。我们还开展了广泛的消融研究，突出了我们框架中关键组件的有效性。",
+        "地址": "https://arxiv.org/pdf/2503.09410.pdf"
+    },
+    {
+        "名称": "2025 [2503.08674] Understanding and Mitigating Distribution Shifts For Machine Learning Force Fields.pdf",
+        "作者": "Tobias Kreiman, Aditi S. Krishnapriyan",
+        "摘要": "摘要：机器学习力场（Machine Learning Force Fields，MLFFs）是昂贵的从头算量子力学分子模拟的一种有前途的替代方法。鉴于化学空间的多样性以及生成新数据的成本，理解MLFFs如何在其训练分布之外进行泛化变得至关重要。为了描述和更好地理解MLFFs中的分布漂移，我们在化学数据集上进行诊断实验，揭示了即使是经过大量数据训练的大型基础模型也面临的显著挑战。基于这些观察结果，我们假设当前的监督训练方法无法充分正则化MLFFs，导致过拟合和对分布外系统学习效果差。我们提出了两个新方法作为缓解MLFFs分布漂移的初步步骤。我们的方法专注于测试时调整策略，这些策略计算成本低且不使用昂贵的从头计算参考标签。第一种策略基于谱图理论，修改测试图的边，使其与训练期间观察到的图结构对齐。第二种策略通过使用辅助目标（例如一个简单的物理先验），在测试时通过梯度步改善分布外系统的表示。我们的测试时调整策略显著减少了分布外系统的错误，表明MLFFs能够并且可以朝着更广泛的化学空间建模方向发展，但当前的训练方式未能有效实现这一点。我们的实验为评估新一代MLFFs的泛化能力建立了明确的基准。我们的代码可以在此HTTPS网址获取。\n\n原文链接: https://arxiv.org/pdf/2503.08674.pdf",
+        "地址": "https://arxiv.org/pdf/2503.08674.pdf"
+    },
+    {
+        "名称": "2025 [2503.05333] PhysicsGen: Can Generative Models Learn from Images to Predict Complex Physical Relations?.pdf",
+        "作者": "Martin Spitznagel, Jan Vaillant, Janis Keuper",
+        "摘要": "摘要: 生成学习模型的图像到图像翻译能力最近在估计图像分布之间复杂（受控）映射方面取得了显著进展。虽然基于外观的任务，如图像修复或风格迁移，已经被广泛研究，但我们提出在物理模拟的背景下研究生成模型的潜力。我们提供了一个包含30万对图像的数据库，并对三种不同的物理模拟任务进行了基准评估，旨在调查以下研究问题：i) 生成模型能否通过输入输出图像对学习复杂的物理关系？ ii) 替代基于微分方程的模拟可以达到哪些加速效果？尽管对不同当前模型的基准评估显示出高加速潜力（ii），这些结果也表现出在物理正确性方面的强大限制（i）。这强调了需要新的方法来确保物理正确性。数据、基准模型和评估代码可在该网址获取。\n\n作者: Martin Spitznagel, Jan Vaillant, Janis Keuper\n\n论文标题: PhysicsGen: 生成模型能从图像中学习以预测复杂的物理关系吗？",
+        "地址": "https://arxiv.org/pdf/2503.05333.pdf"
+    }
+]
