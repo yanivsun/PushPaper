@@ -1,0 +1,164 @@
+[
+    {
+        "名称": "2025 [2503.11647] ReCamMaster: Camera-Controlled Generative Rendering from A Single Video.pdf",
+        "作者": "Jianhong Bai, Menghan Xia, Xiao Fu, Xintao Wang, Lianrui Mu, Jinwen Cao, Zuozhu Liu, Haoji Hu, Xiang Bai, Pengfei Wan, Di Zhang",
+        "摘要": "摘要：在当前的文本或图像驱动的视频生成任务中，相机控制技术得到了积极的研究。然而，尽管在视频制作领域发挥着重要作用，改变已给定视频的摄像机轨迹仍未得到充分探索。由于需要在多帧外观和动态同步的额外约束下进行操作，这一问题并非简单。为了解决这一问题，我们提出了ReCamMaster，这是一种相机控制的生成性视频重新渲染框架，可以在新的摄像机轨迹下重现输入视频的动态场景。其核心创新在于通过一种简单而强大的视频调节机制，利用预训练的文本到视频模型的生成能力——这一能力在当前研究中往往被忽视。为了克服合格训练数据的稀缺性，我们使用Unreal Engine 5构建了一个综合的多摄像机同步视频数据集，精心策划以遵循现实世界的拍摄特性，覆盖了多种场景和摄像机运动。它帮助模型推广到现实世界的视频。最后，我们通过精心设计的训练策略进一步提高了对多样输入的鲁棒性。大量实验表明，我们的方法显著优于现有的最先进的方法和强基线。我们的方法在视频稳定、超分辨率和外延方面也找到了一些前景应用。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2503.11647.pdf"
+    },
+    {
+        "名称": "2025 [2503.07677] PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference Time by Leveraging Sparsity.pdf",
+        "作者": "Kwanyoung Kim, Byeongsu Sim",
+        "摘要": "摘要：扩散模型在使用无分类器引导（CFG）等引导技术生成高质量的条件样本方面展示了令人印象深刻的成果。然而，现有方法通常需要额外的训练或神经功能评估（NFE），这使得它们无法与引导蒸馏模型兼容。此外，它们依赖于启发式方法，需要识别目标层。在这项工作中，我们提出了一种新颖且高效的方法，称为PLADIS，通过利用稀疏注意力来提升预训练模型（U-Net/Transformer）的性能。具体来说，我们在推理期间使用softmax及其稀疏对应项外推查询-键相关性，而无需额外的训练或NFE。通过利用稀疏注意力的噪声鲁棒性，我们的PLADIS释放了文本到图像扩散模型的潜在能力，使其在曾经表现欠佳的领域中表现出新的高效。它可以无缝集成引导技术，包括引导蒸馏模型。广泛的实验表明，在文本对齐和人类偏好方面有显著改善，提供了一个高效且普遍适用的解决方案。访问我们的项目页面：this https URL\n\n作者：金宽勇，沈炳洙\n\n评论：29页，19个图表，项目页面：this https URL\n\nURL：https://arxiv.org/pdf/2503.07677.pdf\n\n标题：2025 [2503.07677] PLADIS：在推理时利用稀疏性提升注意力在扩散模型中的极限",
+        "地址": "https://arxiv.org/pdf/2503.07677.pdf"
+    },
+    {
+        "名称": "2025 [2503.11646] Adversarial Data Collection: Human-Collaborative Perturbations for Efficient and Robust Robotic Imitation Learning.pdf",
+        "作者": "Siyuan Huang, Yue Liao, Siyuan Feng, Shu Jiang, Si Liu, Hongsheng Li, Maoqing Yao, Guanghui Ren",
+        "摘要": "摘要: 数据效率的追求，即质量重于数量，已成为机器人操作中的一个基石，特别是鉴于现实世界数据收集的高成本。我们提出，最大化单个演示的有效信息密度可以极大地减少对大型数据集的依赖，同时提高任务性能。为此，我们引入了对抗性数据收集，一种人类在循环中的框架，通过实时、双向的人类与环境交互重新定义机器人数据采集。与被动记录静态演示的常规管道不同，对抗性数据收集采用了协作干扰范式：在单一情节中，对抗操作者动态改变物体状态、环境条件和语言指令，而远程操作者自适应地调整动作以克服这些不断变化的挑战。该过程将多样的失败恢复行为、组合任务变化和环境干扰压缩到最小演示中。我们的实验表明，使用对抗性数据收集训练的模型对看不见的任务指令表现出优越的组合泛化能力、增强的感知干扰鲁棒性以及新兴的错误恢复能力。显然，通过对抗性数据收集收集的演示体量仅为20%的模型显著优于使用全部数据集的传统方法。这些进展弥合了数据中心学习范式与实际机器人部署之间的差距，表明战略性数据采集，而不仅仅是事后的处理，对于可扩展的现实世界机器人学习至关重要。此外，我们正在策划一个大规模的对抗性数据收集-机器人数据集，其中包括现实世界的操纵任务和对抗性干扰。这个基准将被开源，以促进机器人模仿学习的进步。",
+        "地址": "https://arxiv.org/pdf/2503.11646.pdf"
+    },
+    {
+        "名称": "2025 [2503.11224] Technologies on Effectiveness and Efficiency: A Survey of State Spaces Models.pdf",
+        "作者": "Xingtai Lv, Youbang Sun, Kaiyan Zhang, Shang Qu, Xuekai Zhu, Yuchen Fan, Yi Wu, Ermo Hua, Xinwei Long, Ning Ding, Bowen Zhou",
+        "摘要": "摘要：状态空间模型（SSMs）作为一种有前途的替代方案，正在逐渐取代广受欢迎的基于transformer的模型，并且越来越受到关注。与transformers相比，SSMs在处理顺序数据或较长上下文的任务时表现优异，展示了在显著提高效率的同时保持了相当的性能。在本次调查中，我们对SSMs进行了连贯而系统的概述，包括其理论动机、数学公式、与现有模型类别的比较以及各种应用。我们将SSM系列分为三个主要部分，详细介绍了原始SSM、以S4为代表的结构化SSM和以Mamba为代表的选择性SSM。我们强调了技术性，重点介绍了为解决SSMs有效性和效率所引入的各种关键技术。我们希望本手稿能作为研究人员探索SSMs理论基础的入门指南。",
+        "地址": "https://arxiv.org/pdf/2503.11224.pdf"
+    },
+    {
+        "名称": "2025 [2503.11069] API Agents vs. GUI Agents: Divergence and Convergence.pdf",
+        "作者": "Chaoyun Zhang, Shilin He, Liqun Li, Si Qin, Yu Kang, Qingwei Lin, Dongmei Zhang",
+        "摘要": "摘要: 大型语言模型（LLMs）已经从简单的文本生成发展到驱动软件代理，通过自然语言命令直接转化为实际行动。虽然基于API的LLM代理最初因其强大的自动化能力和与编程端点的无缝集成而受到关注，最近多模态LLM研究的进展使得基于GUI的LLM代理能够以类人方式与图形用户界面交互。尽管这两种范式的目标都是实现LLM驱动的任务自动化，但它们在架构复杂性、开发工作流和用户交互模型上存在显著差异。\n\n本文首次对基于API和基于GUI的LLM代理进行了全面的比较研究，系统地分析了它们的差异和潜在的融合点。我们考察了关键维度，并重点介绍了混合方法可以利用它们互补优势的场景。通过提出明确的决策标准和说明实际使用案例，我们旨在为实践者和研究人员在选择、组合或过渡这些范式时提供指导。最终，我们表明，LLM自动化的持续创新有望模糊API和GUI驱动代理之间的界限，为各种现实应用中的更灵活、适应性更强的解决方案铺平道路。",
+        "地址": "https://arxiv.org/pdf/2503.11069.pdf"
+    },
+    {
+        "名称": "2025 [2503.11576] SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion.pdf",
+        "作者": "Ahmed Nassar, Andres Marafioti, Matteo Omenetti, Maksym Lysak, Nikolaos Livathinos, Christoph Auer, Lucas Morin, Rafael Teixeira de Lima, Yusik Kim, A. Said Gurbuz, Michele Dolfi, Miquel Farré, Peter W. J. Staar",
+        "摘要": "摘要：\n我们介绍了SmolDocling，这是一种超紧凑型视觉-语言模型，面向端到端的文档转换。我们的模型通过生成DocTags，一种新的通用标记格式，全面处理整页内容，捕捉所有页面元素的完整上下文和位置。与依赖大型基础模型或依赖多个专用模型手工管道的集成解决方案的现有方法不同，SmolDocling提供了端到端的转换，能够准确捕捉文档元素的内容、结构和空间位置，并包含256M参数的视觉-语言模型。SmolDocling在正确重现文档特征（如代码列表、表格、方程、图表、列表等）方面表现出强大性能，并覆盖各种不同类型的文档，包括商业文件、学术论文、技术报告、专利和表格，远远超出了通常关注的科学论文。此外，我们还贡献了新的公开来源的数据集，涵盖图表、表格、方程和代码识别。实验结果表明，SmolDocling在竞争中能够与体积大27倍的其他视觉语言模型媲美，同时大幅降低了计算需求。该模型现已可用，数据集将很快公开发布。",
+        "地址": "https://arxiv.org/pdf/2503.11576.pdf"
+    },
+    {
+        "名称": "2025 [2503.10772] FlowTok: Flowing Seamlessly Across Text and Image Tokens.pdf",
+        "作者": "Ju He, Qihang Yu, Qihao Liu, Liang-Chieh Chen",
+        "摘要": "摘要：跨模态生成的核心在于桥接不同的模态。传统方法将文本模态作为一种条件信号，逐渐引导高斯噪声到目标图像模态的去噪过程，而我们探索了一种更简单的范式——通过流匹配直接在文本和图像模态之间演变。这要求将两种模态投射到一个共享的潜在空间，这是一个巨大的挑战，因为它们本质上的表示方式不同：文本是高度语义化的，被编码为1D令牌，而图像是空间冗余的，被表示为2D潜在嵌入。为了解决这个问题，我们引入了FlowTok，一个极简框架，通过将图像编码为紧凑的1D令牌表示无缝地跨越文本和图像。与以前的方法相比，在256分辨率下，这种设计将潜在空间大小减少了3.3倍，消除了复杂的条件机制或噪声调度的需求。此外，FlowTok在相同公式下自然扩展到图像生成文本。凭借围绕紧凑1D令牌的精简架构，FlowTok在内存效率、所需训练资源和采样速度方面都显著优于现有的模型，同时性能与最先进的模型相当。代码将在此URL提供。",
+        "地址": "https://arxiv.org/pdf/2503.10772.pdf"
+    },
+    {
+        "名称": "2025 [2503.11514] Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks.pdf",
+        "作者": "Pengxin Guo, Runxi Wang, Shuang Zeng, Jinjing Zhu, Haoning Jiang, Yanran Wang, Yuyin Zhou, Feifei Wang, Hui Xiong, Liangqiong Qu",
+        "摘要": "摘要：联邦学习（Federated Learning，FL）作为一种有前途的隐私保护型协作模型训练范式，不需要共享原始数据。然而，最近的研究表明，私人信息仍然可以通过共享的梯度信息泄露，并受到梯度逆转攻击（Gradient Inversion Attacks，GIA）的攻击。尽管许多GIA方法已经被提出，但这些方法的详细分析、评估和总结仍然缺乏。尽管各种综述论文总结了FL中的现有隐私攻击，但很少有研究在此背景下进行了大量实验，以揭示GIA的有效性及其相关的限制因素。为了填补这一空白，我们首先对GIA进行系统回顾，并将现有方法分为三类，即基于优化的GIA（OP-GIA）、基于生成的GIA（GEN-GIA）和基于分析的GIA（ANA-GIA）。然后，我们全面分析和评估了FL中的三类GIA，深入探讨了影响其性能、实用性及潜在威胁的因素。我们的研究发现，尽管OP-GIA的表现不尽如人意，但它是最实际的攻击环境，而GEN-GIA具有许多依赖性，ANA-GIA容易被检测到，使得它们都不切实际。最后，我们为设计FL框架和协议的用户提供三阶段防御管道，以更好地保护隐私，并从攻击者和防御者的角度分享一些未来的研究方向。我们希望我们的研究能够帮助研究人员设计更强大的FL框架，以防范这些攻击。",
+        "地址": "https://arxiv.org/pdf/2503.11514.pdf"
+    },
+    {
+        "名称": "2025 [2503.10781] Large-scale Pre-training for Grounded Video Caption Generation.pdf",
+        "作者": "Evangelos Kazakos, Cordelia Schmid, Josef Sivic",
+        "摘要": "摘要：我们提出了一种新颖的方法，用于视频中的字幕生成和目标定位，通过在时间上密集的边界框将字幕中的对象定位在视频中。我们提出以下贡献。首先，我们提出了一种大规模自动注释方法，该方法将跨单个帧的带有边界框的字幕汇总成时间上密集且一致的边界框注释。我们在 HowTo100M 数据集上应用该方法，构建了一个大规模的预训练数据集，命名为 HowToGround1M。我们还介绍了一种称为 GROVE 的视频字幕生成模型，并在 HowToGround1M 数据集上预训练该模型。其次，我们介绍了一个新的数据集 iGround，包含 3500 个手动注释字幕和密集时空定位边界框的视频。这使我们能够衡量这一挑战性问题的进展，并在这个小规模但高质量的数据上微调我们的模型。第三，我们展示了我们的方法在提出的 iGround 数据集上相对于多个基线模型达到的最新最先进的结果，以及在 VidSTG 和 ActivityNet-Entities 数据集上的表现。我们进行了广泛的消融实验，展示了使用我们自动注释的 HowToGround1M 数据集进行预训练，然后在手动注释的 iGround 数据集上微调的必要性，并验证了我们模型的关键技术贡献。",
+        "地址": "https://arxiv.org/pdf/2503.10781.pdf"
+    },
+    {
+        "名称": "2025 [2503.11579] Vamba: Understanding Hour-Long Videos with Hybrid Mamba-Transformers.pdf",
+        "作者": "Weiming Ren, Wentao Ma, Huan Yang, Cong Wei, Ge Zhang, Wenhu Chen",
+        "摘要": "摘要：目前最先进的基于Transformer的大型多模态模型（LMMs）由于因果自注意操作的二次复杂性，难以处理长达一小时的视频输入，从而导致训练和推理过程中高昂的计算成本。目前的基于令牌压缩的方法减少了视频令牌数量，但常常会引起信息丢失，且在处理极长序列时仍然效率低下。本文探索了一种正交方向，构建了一个混合Mamba-Transformer模型（VAMBA），该模型采用Mamba-2块以线性复杂度编码视频令牌。在没有任何令牌减少的情况下，VAMBA可以在单个GPU上编码超过1024帧（640×360）的视频，而基于Transformer的模型只能编码256帧。在长视频输入上，VAMBA在训练和推理期间的GPU内存使用减少至少50%，并且相比于基于Transformer的LMMs，其每个训练步骤的速度几乎翻倍。我们的实验结果表明，在具有挑战性的长达一小时的视频理解基准LVBench上，VAMBA的准确性比之前的高效视频LMMs提升了4.3%，并在广泛的长短视频理解任务中保持了强大的性能。",
+        "地址": "https://arxiv.org/pdf/2503.11579.pdf"
+    },
+    {
+        "名称": "2025 [2503.10970] TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools.pdf",
+        "作者": "Shanghua Gao, Richard Zhu, Zhenglun Kong, Ayush Noori, Xiaorui Su, Curtis Ginder, Theodoros Tsiligkaridis, Marinka Zitnik",
+        "摘要": "摘要：精准治疗需要多模态自适应模型来生成个性化的治疗建议。我们介绍了TxAgent，这是一种利用多步推理和实时生物医学知识检索的AI代理，通过一个包含211种工具的工具箱来分析药物相互作用、禁忌症和患者特异性治疗策略。TxAgent评估药物在分子、药代动力学和临床层面的相互作用，根据患者合并症和同时用药识别禁忌症，并根据个体患者的特点定制治疗策略。它从多个生物医学来源中检索并综合证据，评估药物与患者状况之间的相互作用，并通过迭代推理优化治疗建议。它根据任务目标选择工具，并执行结构化功能调用来解决需要临床推理和跨源验证的治疗任务。ToolUniverse将来自受信任来源的211种工具整合，包括自1939年以来所有美国FDA批准的药物和来自Open Targets的验证的临床见解。在五个新基准测试DrugPC、BrandPC、GenericPC、TreatmentPC和DescriptionPC中，TxAgent在3,168个药物推理任务和456个个性化治疗情景中均表现优于领先的LLMs、工具使用模型和推理代理。它在开放式药物推理任务中达到了92.1%的准确率，超越了GPT-4o，并在结构化多步骤推理中优于DeepSeek-R1（671B）。TxAgent能够泛化不同的药名和描述。通过整合多步推理、实时知识基础和工具辅助决策，TxAgent确保治疗建议符合既定的临床指南和现实世界证据，减少不良事件的风险并改善治疗决策。\n\n作者：Shanghua Gao, Richard Zhu, Zhenglun Kong, Ayush Noori, Xiaorui Su, Curtis Ginder, Theodoros Tsiligkaridis, Marinka Zitnik\n\n评论：项目主页： this https URL，TxAgent代码： this https URL，ToolUniverse代码： this https URL\n\n网址：https://arxiv.org/pdf/2503.10970.pdf\n\n标题: \"TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools.pdf\"",
+        "地址": "https://arxiv.org/pdf/2503.10970.pdf"
+    },
+    {
+        "名称": "2025 [2503.11651] VGGT: Visual Geometry Grounded Transformer.pdf",
+        "作者": "Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny",
+        "摘要": "摘要: 我们提出了VGGT（一种前馈神经网络），可以直接从一个、几个或数百个视图推断场景的所有关键3D属性，包括摄像机参数、点图、深度图和3D点轨迹。这一方法在3D计算机视觉领域向前迈出了一步，该领域的模型通常被限制并专门用于单一任务。VGGT结构简单高效，可以在不到一秒的时间内重建图像，并且仍然优于那些需要通过视觉几何优化技术进行后处理的替代方案。该网络在多个3D任务中取得了最新的成果，包括摄像机参数估计、多视图深度估计、密集点云重建和3D点跟踪。我们还展示了使用预训练的VGGT作为特征骨干显著增强了下游任务，如非刚性点跟踪和前馈式新视图合成。代码和模型可在此HTTP URL公开获取。",
+        "地址": "https://arxiv.org/pdf/2503.11651.pdf"
+    },
+    {
+        "名称": "2025 [2503.10632] Kolmogorov-Arnold Attention: Is Learnable Attention Better For Vision Transformers?.pdf",
+        "作者": "Subhajit Maity, Killian Hitsman, Xin Li, Aritra Dutta",
+        "摘要": "摘要：柯尔莫戈罗夫-阿尔诺德网络（KANs）是一种创新，由可学习的激活函数组成，具有捕捉数据中更复杂关系的潜力。尽管KANs在寻找符号表示和一维函数的持续学习方面很有用，但它们在视觉等各种机器学习任务中的有效性仍存疑。目前，KANs是通过替换深度网络架构中的多层感知器（MLPs）来部署的，包括高级架构如视觉Transformer（ViTs）。在这篇论文中，我们首次为基础的ViTs设计了一种通用的可学习柯尔莫戈罗夫-阿尔诺德注意力（KArAt），它可以在任何选择的基上运行。然而，训练它们的计算和内存成本促使我们提出了一个更模块化的版本，我们设计了一种特定的可学习注意力，称为傅里叶-KArAt。傅里叶-KArAt及其变体在CIFAR-10、CIFAR-100和ImageNet-1K数据集上要么优于其ViT对手，要么表现出相当的性能。我们通过分析这些架构的损失景观、权重分布、优化器路径、注意力可视化和光谱行为，并与基础ViTs进行对比，来剖析它们的性能和泛化能力。本文的目标不是生成参数和计算高效的注意力，而是鼓励社区探索KANs与更高级架构的结合，这需要仔细理解可学习激活函数。我们的开源代码和实现细节可在此：https URL获取。",
+        "地址": "https://arxiv.org/pdf/2503.10632.pdf"
+    },
+    {
+        "名称": "2025 [2503.06542] ARMOR v0.1: Empowering Autoregressive Multimodal Understanding Model with Interleaved Multimodal Generation via Asymmetric Synergy.pdf",
+        "作者": "Jianwen Sun, Yukang Feng, Chuanhao Li, Fanrui Zhang, Zizhen Li, Jiaxin Ai, Sizhuo Zhou, Yu Dai, Shenglin Zhang, Kaipeng Zhang",
+        "摘要": "摘要：近年来，统一模型（UniMs）在视觉和语言领域的多模态理解与生成方面引起了大量关注。现有的UniMs设计旨在同时学习多模态理解和生成能力，这需要大量的计算资源，并且常常难以生成交错的文本-图像。我们提出了ARMOR，这是一种资源高效且纯粹的自回归框架，通过微调现有的多模态大型语言模型（MLLMs），在实现理解和生成。具体来说，ARMOR从三个角度扩展了现有的MLLMs：(1)在模型架构方面，引入一种不对称的编码器-解码器架构，并采用前置切换机制来统一嵌入空间，整合文本和视觉模态，实现自然的文本-图像交织生成，极少的计算开销。(2)在训练数据方面，精心收集了高质量的交错数据集，用于微调MLLMs。(3)在训练算法方面，我们提出了一种“生成什么或如何生成”的算法，通过基于收集数据集的三个渐进训练阶段，使现有MLLMs具备多模态生成能力，同时保留其多模态理解能力。实验结果表明，ARMOR在使用有限训练资源的情况下，升级现有MLLMs至具备出色图像生成能力的UniMs。我们的代码将很快在此网址发布。",
+        "地址": "https://arxiv.org/pdf/2503.06542.pdf"
+    },
+    {
+        "名称": "2025 [2503.09279] Cockatiel: Ensembling Synthetic and Human Preferenced Training for Detailed Video Caption.pdf",
+        "作者": "Luozheng Qin, Zhiyu Tan, Mengping Yang, Xiaomeng Yang, Hao Li",
+        "摘要": "摘要：视频详细描述（Video Detailed Captioning, VDC）是视觉-语言桥接中的一项重要任务，能够对复杂视频内容进行细粒度描述。在本文中，我们首先全面基准测试了当前最先进的方法，系统地确定了两大关键限制：偏向特定描述的能力以及与人类偏好的不一致。为了解决这些问题，我们提出了Cockatiel，这是一种新颖的三阶段训练流程，通过结合合成和人类对齐训练来提升VDC性能。在第一阶段，我们从一个精细标注的数据集中推导出一个评分器，用于选择在某些细粒度视频-描述对齐和人类偏好方面表现出色的合成描述，同时忽略其他部分。然后，我们使用这个精心策划的数据集训练Cockatiel-13B，使其融合模型优势和人类偏好。最后，我们进一步从Cockatiel-13B中提炼出Cockatiel-8B，以便于使用。广泛的定量和定性实验结果反映出我们方法的有效性，因为我们不仅在VDCSCORE上以维度平衡的方式设定了新的最先进性能，还在人类偏好评估中以较大幅度超过了领先的替代方法。\n\n作者：Luozheng Qin, Zhiyu Tan, Mengping Yang, Xiaomeng Yang, Hao Li\n备注：更多细节，请参阅我们的项目页面：此https URL\n链接：https://arxiv.org/pdf/2503.09279.pdf\n标题：2025 [2503.09279] Cockatiel：结合合成和人类偏好训练的详细视频描述",
+        "地址": "https://arxiv.org/pdf/2503.09279.pdf"
+    },
+    {
+        "名称": "2025 [2503.10696] Neighboring Autoregressive Modeling for Efficient Visual Generation.pdf",
+        "作者": "Yefei He, Yuanyu He, Shaoxuan He, Feng Chen, Hong Zhou, Kaipeng Zhang, Bohan Zhuang",
+        "摘要": "摘要：视觉自回归模型通常遵循光栅顺序的“下一个令牌预测”范式，这忽略了视觉内容中固有的空间和时间局部性。具体来说，视觉令牌与其在空间或时间上相邻的令牌相比，与那些距离较远的令牌有显著更强的相关性。在本文中，我们提出了邻近自回归建模（NAR），一种新颖的范式，将自回归视觉生成公式化为渐进扩展的过程，遵循“下一个邻居预测”机制。从初始令牌开始，其余令牌按照它们与初始令牌在空间-时间空间中的曼哈顿距离的升序顺序解码，逐步扩展解码区域的边界。为了实现空间-时间空间中多个相邻令牌的并行预测，我们引入了一组维度导向的解码头，每个解码头预测沿互相正交的维度的下一个令牌。在推理过程中，所有与解码令牌相邻的令牌都被并行处理，大大减少了生成所需的模型前向步骤。在ImageNet$256×256$和UCF101上的实验表明，NAR分别实现了2.4倍和8.6倍的吞吐量，同时获得了比PAR-4X方法更好的图像和视频生成任务的FID/FVD分数。在文本到图像生成基准GenEval上评估时，参数量为0.8B的NAR在仅使用0.4的训练数据的情况下，表现优于Chameleon-7B。代码可在此网址获得：https://arxiv.org/pdf/2503.10696.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.10696.pdf"
+    },
+    {
+        "名称": "2025 [2503.06674] Learning Few-Step Diffusion Models by Trajectory Distribution Matching.pdf",
+        "作者": "Yihong Luo, Tianyang Hu, Jiacheng Sun, Yujun Cai, Jing Tang",
+        "摘要": "摘要：加速扩散模型的采样对于高效的人工智能生成内容（AIGC）部署至关重要。尽管基于分布匹配和轨迹匹配的扩散蒸馏方法能够将采样减少到一步，但在生成图像等复杂任务中表现不佳。少步生成在速度和质量之间提供了更好的平衡，但现有方法面临持续的权衡：分布匹配在多步采样中缺乏灵活性，而轨迹匹配通常导致图像质量不佳。为弥合这一差距，我们提出了一种通过轨迹分布匹配（TDM）学习少步扩散模型的统一蒸馏范式，结合了分布匹配和轨迹匹配的优点。我们的方法引入了无数据的评分蒸馏目标，在分布层面上对齐学生的轨迹与教师的轨迹。此外，我们开发了一个采样步骤感知目标，解耦不同步骤的学习目标，从而实现更灵活的采样。该方法支持用于获得优质图像的确定性采样和灵活的多步适应，凭借出色的效率达到了最先进的性能。我们的模型TDM在各种骨干网络（例如SDXL和PixArt-$\\alpha$）上优于现有方法，提供了更高质量并显著降低了训练成本。特别是，我们的方法将PixArt-$\\alpha$蒸馏成一个4步生成器，在1024分辨率下优于老师模型，实际用户偏好更高。该方法仅用500次迭代和2小时A800时间，训练成本仅为老师的0.01%。此外，我们提出的TDM还可以扩展到加速从文本到视频的扩散。在VBench上，TDM仅用4次NFE即超越了它的教师模型（CogVideoX-2B），将总分从80.91提高到81.65。项目页面: this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.06674.pdf"
+    },
+    {
+        "名称": "2025 [2503.06553] ProJudge: A Multi-Modal Multi-Discipline Benchmark and Instruction-Tuning Dataset for MLLM-based Process Judges.pdf",
+        "作者": "Jiaxin Ai, Pengfei Zhou, Zhaopan Xu, Ming Li, Fanrui Zhang, Zizhen Li, Jianwen Sun, Yukang Feng, Baojin Huang, Zhongyuan Wang, Kaipeng Zhang",
+        "摘要": "摘要：\n随着多模态大语言模型（MLLMs）在解决科学问题时经常出现错误，评估其推理过程的有效性对于确保可靠性和发现细粒度模型弱点至关重要。由于人工评估繁琐且成本高昂，将MLLMs作为自动化过程评判者已经成为一种常见做法。然而，这些基于模型的评判者的可靠性尚不确定。为了解决这个问题，我们推出了ProJudgeBench，这是第一个专门设计用于评估基于MLLM的过程评判者能力的全面基准。ProJudgeBench包含2400个测试用例和50,118个步骤级标签，跨越四个科学学科，具有不同的难度级别和多模态内容。在ProJudgeBench中，每一步都由人类专家精心注释，标明正确性、错误类型及其解释，从而系统地评估评判者检测、分类和诊断错误的能力。在ProJudgeBench上的评估显示开源模型与专有模型之间存在显著的性能差距。为了弥合这一差距，我们进一步提出了ProJudge-173k，大规模的指令调整数据集，以及一种鼓励模型在评估解决方案之前明确推理的动态双阶段微调策略。两者都显著增强了开源模型的过程评估能力。所有资源将被发布，以促进未来可靠的多模态过程评估研究。",
+        "地址": "https://arxiv.org/pdf/2503.06553.pdf"
+    },
+    {
+        "名称": "2025 [2503.10624] ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness.pdf",
+        "作者": "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, Yuliang Xiu",
+        "摘要": "摘要:为人体穿戴的3D点云模型拟合身体是一个常见但具有挑战性的任务。传统的基于优化的方法使用对姿势初始化敏感的多阶段流程，而最新的基于学习的方法通常很难在各种姿势和服装类型中实现泛化。我们提出了一种新的流程，名为Equivariant Tightness Fitting for Clothed Humans(简称ETCH)，它通过局部近似SE(3)等变性来估计从衣物到身体表面的映射，把紧贴度编码为从衣物表面到潜在身体的位移向量。在此映射之后，姿势不变的身体特征回归稀疏的身体标记，使穿衣人体拟合简化为内部身体标记拟合任务。在CAPE和4D-Dress上的大量实验表明，在宽松的衣物（拟合准确度提升16.7%至69.5%）和形状准确度（平均提升49.9%）方面，ETCH明显优于现有的最先进方法（无论是否考虑紧贴度）。我们的等变紧贴设计甚至能在一次性（或分布外）设置中减少67.2%至89.8%的方向性误差。定性结果表明，无论是具有挑战性的姿势、未见过的形状、宽松的衣服还是非刚性动态，ETCH均表现出很强的泛化能力。我们将很快在this https URL发布代码和模型供研究使用。",
+        "地址": "https://arxiv.org/pdf/2503.10624.pdf"
+    },
+    {
+        "名称": "2025 [2503.11629] TreeMeshGPT: Artistic Mesh Generation with Autoregressive Tree Sequencing.pdf",
+        "作者": "Stefan Lionar, Jiabin Liang, Gim Hee Lee",
+        "摘要": "摘要：我们介绍了TreeMeshGPT，这是一种自回归Transformer，旨在生成与输入点云对齐的高质量艺术网格。与传统的自回归Transformer中的下一个标记预测不同，我们提出了一种新颖的自回归树序列方法，其中下一个输入标记是从一个动态增长的树结构中检索的，该树结构是基于网格内面三角形的邻接关系构建的。我们的序列化使网格能够在每一步从上一次生成的三角形面局部扩展，从而降低了训练难度，提高了网格质量。我们的方法使用两个标记表示每个三角形面，较之于原始面标记化方式实现了约22%的压缩率。这种高效的标记化使我们的模型能够生成具有强点云条件的高度详细的艺术网格，在容量和保真度上超越了以往的方法。此外，我们的方法生成的网格具有较强的法线方向约束，最小化了以往方法中常见的法线翻转问题。我们的实验表明，TreeMeshGPT通过细化的细节和法线方向一致性提高了网格生成质量。",
+        "地址": "https://arxiv.org/pdf/2503.11629.pdf"
+    },
+    {
+        "名称": "2025 [2503.11207] Can Large Reasoning Models do Analogical Reasoning under Perceptual Uncertainty?.pdf",
+        "作者": "Giacomo Camposampiero, Michael Hersche, Roger Wattenhofer, Abu Sebastian, Abbas Rahimi",
+        "摘要": "摘要：本研究首次评估了两个最先进的大型推理模型（LRMs），OpenAI的o3-mini和DeepSeek R1，在类似推理上的表现，重点是基于Raven渐进矩阵的公认的非语言人类智力测试。我们使用I-RAVEN数据集及其更困难的扩展集I-RAVEN-X进行基准测试，后者测试了推理规则和属性值范围更长的泛化能力。为评估视觉不确定性对这些非语言类比推理测试的影响，我们扩展了I-RAVEN-X数据集，该数据集否则假定为预知感知。我们采用了一种两步策略来模拟这种不完美的视觉感知：1）引入混淆属性，这些属性是随机抽样的，不会对谜题正确答案的预测产生贡献；2）平滑输入属性值的分布。我们观察到，尽管消耗了3.4倍的推理次数，OpenAI的o3-mini任务准确度仍然急剧下降，从原始I-RAVEN的86.6%降至更加具挑战性的I-RAVEN-X上的17.0%，接近随机水平。这类下降趋势在DeepSeek R1中也被观察到：从80.6%降至23.2%。另一方面，一种神经符号概率溯因模型ARLC，在I-RAVEN上表现出最先进性能，能够在所有分布外测试中稳健推理，其准确度仅从98.6%小幅下降至88.0%。我们的代码可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2503.11207.pdf"
+    },
+    {
+        "名称": "2025 [2503.10620] From TOWER to SPIRE: Adding the Speech Modality to a Text-Only LLM.pdf",
+        "作者": "Kshitij Ambilduke, Ben Peters, Sonal Sannigrahi, Anil Keshwani, Tsz Kin Lam, Bruno Martins, Marcely Zanon Boito, André F.T. Martins",
+        "摘要": "摘要：大规模语言模型（LLMs）在多种语言和任务中表现出色，具有出色的泛化能力，这使得它们非常适合多模态集成（例如，图像或语音）。在这项工作中，我们通过语音离散化和持续预训练，将现有的LLM扩展到语音模态。特别是，我们对多语言LLMs（如TOWER）感兴趣，因为它们的预训练设置允许我们将离散化的语音输入视为一种额外的翻译语言。由此产生的开源模型SPIRE不仅能够转录和翻译英语语音输入，还能保持TOWER在翻译相关任务上的原始性能，展示了在LLM适配过程中将离散化的语音输入集成为额外语言的可行性。我们向社区提供了我们的代码和模型。\n\n作者：Kshitij Ambilduke, Ben Peters, Sonal Sannigrahi, Anil Keshwani, Tsz Kin Lam, Bruno Martins, Marcely Zanon Boito, André F.T. Martins\n\n网址：https://arxiv.org/pdf/2503.10620.pdf\n\n标题：从TOWER到SPIRE：向仅文本的LLM添加语音模态",
+        "地址": "https://arxiv.org/pdf/2503.10620.pdf"
+    },
+    {
+        "名称": "2025 [2503.10684] Open-World Skill Discovery from Unsegmented Demonstrations.pdf",
+        "作者": "Jingwen Deng, Zihao Wang, Shaofei Cai, Anji Liu, Yitao Liang",
+        "摘要": "摘要：在开放世界环境中学习技能对于开发能够通过组合基本技能处理各种任务的代理至关重要。在线示范视频通常很长且未分段，使其难以分割并用技能标识符进行标记。与依赖序列采样或人工标注的现有方法不同，我们开发了一种基于自监督学习的方法，将这些长视频分割成一系列具有语义意识和技能一致的片段。从人类认知事件分割理论中汲取灵感，我们引入了一种无标注的时间视频分割算法——技能边界检测（SBD）。SBD通过利用预训练的无条件动作预测模型的预测误差来检测视频中的技能边界。这种方法基于预测误差显著增加表明正在执行的技能发生变化的假设。我们在Minecraft中评估了我们的方法，这是一个拥有丰富在线游戏视频的开放世界模拟器。我们的SBD生成的片段使得条件策略在短期原子技能任务中的平均表现提高了63.7%和52.1%，对应的分层代理在长期任务中的表现提高了11.3%和20.8%。我们的方法可以利用多样化的YouTube视频来训练遵循指令的代理。项目页面可以在该网址中找到。",
+        "地址": "https://arxiv.org/pdf/2503.10684.pdf"
+    },
+    {
+        "名称": "2025 [2503.05689] GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving.pdf",
+        "作者": "Zebin Xing, Xingyu Zhang, Yang Hu, Bo Jiang, Tong He, Qian Zhang, Xiaoxiao Long, Wei Yin",
+        "摘要": "摘要：我们提出了GoalFlow，一种端到端自主驾驶方法，用于生成高质量的多模态轨迹。在自动驾驶场景中，通常很少有单一合适的轨迹。最近的方法越来越注重建模多模态轨迹分布。然而，由于高轨迹发散性和指导信息与场景信息之间的不一致性，这些方法在轨迹选择复杂性和轨迹质量方面表现不佳。为了解决这些问题，我们引入了GoalFlow，这是一种有效约束生成过程以产生高质量多模态轨迹的新方法。为解决基于扩散的方法固有的轨迹发散问题，GoalFlow通过引入目标点来约束生成的轨迹。GoalFlow建立了一种新的评分机制，根据场景信息从候选点中选择最合适的目标点。此外，GoalFlow采用了一种高效的生成方法Flow Matching来生成多模态轨迹，并结合优化的评分机制从候选点中选择最优轨迹。我们在Navsim\\\\cite{Dauner2024_navsim}上的实验结果验证了GoalFlow实现了最先进的性能，提供了稳健的自动驾驶多模态轨迹。GoalFlow达到了90.3的PDMS，显著超过了其他方法。与其他基于扩散策略的方法相比，我们的方法只需一个去噪步骤即可获得出色的性能。代码可从此网址获得。\n\n链接：https://arxiv.org/pdf/2503.05689.pdf",
+        "地址": "https://arxiv.org/pdf/2503.05689.pdf"
+    },
+    {
+        "名称": "2025 [2503.11958] CHOrD: Generation of Collision-Free, House-Scale, and Organized Digital Twins for 3D Indoor Scenes with Controllable Floor Plans and Optimal Layouts.pdf",
+        "作者": "Chong Su, Yingbin Fu, Zheyuan Hu, Jing Yang, Param Hanji, Shaojun Wang, Xuan Zhao, Cengiz Öztireli, Fangcheng Zhong",
+        "摘要": "摘要：我们引入了CHOrD，一个用于大规模合成3D室内场景的新框架，旨在创建房屋规模的无碰撞、分层结构的室内数字孪生体。与现有直接将场景布局合成为场景图或对象列表的方法不同，CHOrD结合了基于2D图像的中间布局表示，在生成过程中，通过成功捕捉到超出分布（OOD）的场景，有效防止了碰撞伪影。此外，CHOrD与现有方法不同，能够生成符合复杂平面图、具有多模式控制的场景布局，使得生成的布局在几何和语义变化的房间结构中保持一致性和连贯性。此外，我们提出了一个新的数据集，扩展了家居物品和房间配置的覆盖范围，并显著提高了数据质量。CHOrD在3D-FRONT和我们提出的数据集上展示了最先进的性能，在任意平面图变化下提供了真实感、空间连贯的室内场景合成。\n\n本文作者：苏冲，伏迎斌，胡哲远，杨静，汉基，王少军，赵玄，厄兹提雷利，钟方诚。\n\n备注：苏冲和伏迎斌对本文贡献相同。网址：https://arxiv.org/pdf/2503.11958.pdf\n\n标题：2025 [2503.11958] CHOrD：无碰撞、房屋规模和有序的数字孪生体生成，用于可控平面图和最佳布局的3D室内场景合成。",
+        "地址": "https://arxiv.org/pdf/2503.11958.pdf"
+    },
+    {
+        "名称": "2025 [2503.08111] MaRI: Material Retrieval Integration across Domains.pdf",
+        "作者": "Jianhui Wang, Zhifei Yang, Yangfan He, Huixiong Zhang, Yuxuan Chen, Jingwei Huang",
+        "摘要": "摘要：准确的材料检索对于创建逼真的3D资产至关重要。现有的方法依赖于捕捉形状不变和光照变化材料表现的数据集，这些数据集稀缺且由于多样性有限和现实世界泛化能力不足面临挑战。目前大多数方法采用传统的图像搜索技术，这些方法未能捕捉材料空间的独特属性，导致检索任务性能欠佳。为了解决这些挑战，我们提出了MaRI，一个设计用来弥合合成材料与现实世界材料之间特征空间差距的框架。MaRI通过对图像编码器和材料编码器联合训练，构建了一个共享嵌入空间，该空间通过对比学习策略来协调视觉和材料属性，将相似的材料和图像拉近，同时在特征空间内分离开不同的配对。为了支持这一点，我们构建了一个全面的数据集，包括在受控形状变化和多样光照条件下渲染的高质量合成材料，以及使用材料转移技术处理和标准化的现实世界材料。大量实验表明，MaRI在各种复杂材料检索任务中的表现优越，准确性高且具有很好的泛化能力，超越了现有方法。",
+        "地址": "https://arxiv.org/pdf/2503.08111.pdf"
+    },
+    {
+        "名称": "2025 [2503.09330] Group-robust Machine Unlearning.pdf",
+        "作者": "Thomas De Min, Subhankar Roy, Stéphane Lathuilière, Elisa Ricci, Massimiliano Mancini",
+        "摘要": "摘要: 机器消忘是一种新兴的范式，旨在从模型中移除特定训练数据（即遗忘集）的影响，同时保留其对其余数据（即保留集）的知识。以前的方法假设遗忘数据均匀地分布在所有训练数据点中。然而，如果要遗忘的数据在某个群体中占主导地位，我们凭经验表明，该群体的性能会下降，导致公平性问题。这项工作通过提出一种简单而有效的策略来解决被忽视的非均匀分布遗忘集问题，我们称之为群体鲁棒机器消忘，该策略通过样本分布重加权来减轻主导群体中的性能损失。此外，我们提出了MIU（互信息感知机器消忘），这是第一个在近似机器消忘中实现群体鲁棒性的方法。MIU最小化模型特征与群体信息之间的互信息，实现消忘的同时减少遗忘集主导群体的性能下降。并且，MIU利用样本分布重加权和与原始模型的互信息校准来保持群体鲁棒性。我们在三个数据集上进行了实验，结果显示MIU优于标准方法，实现了消忘且不损害模型鲁棒性。源代码可在此https URL获取。\n\n翻译: 机器消忘是一种新兴的范式，用于在保留模型对其余数据（即保留集）知识的同时，移除特定训练数据（即遗忘集）的影响。以往的方法假设遗忘数据均匀分布于所有训练数据点中。然而，实验证明如果遗忘的数据在某一群体中占主导地位，这一群体的性能会下降，导致公平性问题。本研究提出了一种简单且有效的策略，以解决这一被忽视的问题，即非均匀分布的遗忘集问题，并将其称为群体鲁棒机器消忘。这一策略通过样本分布重加权减轻主导群体中的性能损失。此外，我们还提出了第一个在近似机器消忘中实现群体鲁棒性的策略——MIU（互信息感知机器消忘）。该方法通过最小化模型特征与群体信息之间的互信息，实现消忘的同时减少遗忘集主导群体的性能下降。此外，MIU通过样本分布重加权和与原始模型的互信息校准以保持群体鲁棒性。我们在三个数据集上的实验结果显示，MIU优于标准方法，实现了在不损害模型鲁棒性的情况下的消忘。源代码可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2503.09330.pdf"
+    }
+]
