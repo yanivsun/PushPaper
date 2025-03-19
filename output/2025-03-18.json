@@ -1,0 +1,158 @@
+[
+    {
+        "名称": "2025 [2503.06053] DropletVideo: A Dataset and Approach to Explore Integral Spatio-Temporal Consistent Video Generation.pdf",
+        "作者": "Runze Zhang, Guoguang Du, Xiaochuan Li, Qi Jia, Liang Jin, Lu Liu, Jingjing Wang, Cong Xu, Zhenhua Guo, Yaqian Zhao, Xiaoli Gong, Rengang Li, Baoyu Fan",
+        "摘要": "在视频生成研究中，时空一致性是一个关键课题。一个合格的视频片段必须确保情节的合理性和连贯性，同时在不同视角下保持物体和场景的视觉一致性。先前的研究，特别是开源项目，主要关注时间或空间一致性，或它们的基本结合，例如在提示后附加相机运动的描述，而不约束这种运动的结果。然而，相机运动可能会引入新物体到场景中或消除现有物体，从而覆盖并影响先前的叙述。特别是在包含大量相机运动的视频中，多情节之间的相互作用变得越来越复杂。本文引入并探讨了整体时空一致性，考虑情节进展与相机技术之间的协同作用，以及先前内容对后续生成的长期影响。我们的研究涵盖了从数据集构建到模型开发的全过程。首先，我们构建了包含1000万个视频的DropletVideo-10M数据集，这些视频包括动态相机运动和物体行为。每个视频都带有平均206字的注释，详细描述了各种相机运动和情节发展。随后，我们开发并训练了DropletVideo模型，该模型在视频生成过程中在保持时空一致性方面表现出色。DropletVideo数据集和模型可通过该链接获取：https://arxiv.org/pdf/2503.06053.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.06053.pdf"
+    },
+    {
+        "名称": "2025 [2503.12533] Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills.pdf",
+        "作者": "Haoqi Yuan, Yu Bai, Yuhui Fu, Bohan Zhou, Yicheng Feng, Xinrun Xu, Yi Zhan, Börje F. Karlsson, Zongqing Lu",
+        "摘要": "摘要：构建能够在现实世界中执行具有人类水平表现的自主机器人是人形机器人研究的终极目标。最近的进展在基金模型（Foundation Models，简称FMs）高层次认知和人形机器人的低层技能发展方面取得了重大进展。然而，直接将这些组件结合起来通常会因为长期任务中的累积错误和不同模块的延迟变化，导致鲁棒性和效率较低。我们介绍了一种分层代理框架Being-0，它整合了一种基金模型和模块化技能库。基金模型处理高级认知任务，如指令理解、任务规划和推理，而技能库则为低层次控制提供稳定的运动和灵巧的操作。为了弥合这些层次之间的差距，我们提出了一种由轻量级视觉-语言模型驱动的新型连接模块。连接模块通过将基于语言的计划转换为可操作的技能命令，并动态协调运动和操作来增强基金模型的体现能力，从而提高任务成功率。除基金模型外，所有组件都可以部署在低成本的车载计算设备上，Being-0在配备灵巧手和主动视觉的全尺寸人形机器人上实现了高效的实时性能。在大型室内环境中的广泛实验表明，Being-0在解决需要挑战性导航和操作子任务的复杂长期任务方面的有效性。更多详情和视频，请访问这个：https URL。",
+        "地址": "https://arxiv.org/pdf/2503.12533.pdf"
+    },
+    {
+        "名称": "2025 [2503.12885] DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale Text-to-Image Models.pdf",
+        "作者": "Dewei Zhou, Mingwei Li, Zongxin Yang, Yi Yang",
+        "摘要": "摘要：图像条件生成方法，如深度条件和边缘检测条件方法，在精确图像合成方面表现出显著的能力。然而，现有模型在准确控制多个实例（或区域）的内容时仍然存在困难。即使是最先进的模型如FLUX和3DIS也面临挑战，比如实例之间属性泄露，限制了用户的控制。为了解决这些问题，我们提出了DreamRenderer，这是一种基于FLUX模型的无训练方法。DreamRenderer使用户能够通过边界框或掩码控制每个实例的内容，同时确保整体视觉和谐。我们提出了两个关键创新：1）用于硬文本属性绑定的桥接图像标记，通过使用复制的图像标记作为桥接标记，确保仅在文本数据上预训练的T5文本嵌入在联合注意期间绑定每个实例的正确视觉属性；2）仅应用于重要层的硬图像属性绑定。通过对FLUX的分析，我们识别出负责实例属性渲染的重要层，并仅在这些层中应用硬图像属性绑定，在其他层中使用软绑定。这种方法确保了精确控制，同时保持了图像质量。在COCO-POS和COCO-MIG基准上的评估表明，DreamRenderer将图像成功率提高了17.7%，并将布局到图像模型如GLIGEN和3DIS的性能提高了最多26.8%。\n\n翻译后的摘要：图像条件生成方法，如深度和边缘检测条件方法，在精确图像合成方面展示了卓越的能力。然而，现有模型在准确控制多个实例（或区域）的内容时仍存有困难。即使是最先进的模型，例如FLUX和3DIS也面临挑战，如实例之间的属性泄露，限制了用户的控制。为了解决这些问题，我们引入了DreamRenderer，这是一种基于FLUX模型的无训练方法。DreamRenderer使用户能够通过边界框或掩码控制每个实例的内容，同时确保整体视觉和谐。我们提出了两个关键创新：1）用于硬文本属性绑定的桥接图像标记，通过使用复制的图像标记作为桥接标记，确保仅在文本数据上预训练的T5文本嵌入在联合注意机制中绑定每个实例的正确视觉属性；2）仅应用于关键层的硬图像属性绑定。通过对FLUX的分析，我们识别出了负责实例属性渲染的关键层，并仅在这些层中应用硬图像属性绑定，在其他层中使用软绑定。该方法确保了在保持图像质量的同时实现精确控制。在COCO-POS和COCO-MIG基准测试上的评估表明，DreamRenderer将图像成功率提高了17.7%，并将布局到图像模型如GLIGEN和3DIS的性能提高了最多26.8%。",
+        "地址": "https://arxiv.org/pdf/2503.12885.pdf"
+    },
+    {
+        "名称": "2025 [2503.12590] Personalize Anything for Free with Diffusion Transformer.pdf",
+        "作者": "Haoran Feng, Zehuan Huang, Lin Li, Hairong Lv, Lu Sheng",
+        "摘要": "摘要：个性化图像生成旨在生成用户指定概念的图像，同时实现灵活编辑。尽管近期的无训练方法在计算效率方面优于基于训练的方法，但在身份保持、适用性和与扩散变压器（DiTs）的兼容性方面仍存在挑战。在本文中，我们发掘了DiT未被利用的潜力，只需将去噪标记替换为参考主体标记，即可实现零样本主体重建。这种简单而有效的特征注入技术解锁了从个性化到图像编辑的多种场景。在这一发现的基础上，我们提出了\\\\textbf{个人化任意}，一个无需训练的框架，通过以下方法在DiT中实现个性化图像生成：1) 时间步自适应标记替换，通过早期注入来强制主体一致性，并通过后期正则化增强弹性；2) 补丁扰动策略以提高结构多样性。我们的方法无缝支持布局指导生成、多主体个性化和掩码控制编辑。评估显示我们在身份保持和多用性方面的表现处于行业领先水平。我们的工作为DiTs提供了新见解，同时为高效个性化提供了一个实际范式。\n\n---\n\n作者：冯浩然，黄泽桓，李林，吕海荣，盛路\n\n链接： [https://arxiv.org/pdf/2503.12590.pdf](https://arxiv.org/pdf/2503.12590.pdf)\n\n标题：2025 [2503.12590] 使用扩散变压器免费个性化任何事物",
+        "地址": "https://arxiv.org/pdf/2503.12590.pdf"
+    },
+    {
+        "名称": "2025 [2503.13327] Edit Transfer: Learning Image Editing via Vision In-Context Relations.pdf",
+        "作者": "Lan Chen, Qi Mao, Yuchao Gu, Mike Zheng Shou",
+        "摘要": "摘要：我们引入了一种新的设置，即编辑迁移（Edit Transfer），其中模型通过单个源-目标示例学习一种变换，并将其应用于新的查询图像。尽管基于文本的方法在通过文本提示进行语义操作方面表现出色，但它们通常难以处理精确的几何细节（例如，姿势和视角变化）。参考基于参考的编辑通常专注于风格或外观，并且难以实现非刚性变换。通过从源-目标对显式学习编辑变换，编辑迁移减轻了纯文本和外观中心参考的局限性。从大规模语言模型的上下文学习中汲取灵感，我们提出了一种基于视觉关系的上下文学习范式，基于DiT的文本到图像模型构建。我们将编辑示例和查询图像排列成一个统一的四面板复合图，然后应用轻量级LoRA微调以从最小的示例中捕捉复杂的空间变换。尽管只使用了42个训练样本，但编辑迁移在多种非刚性场景中显著优于最先进的TIE和RIE方法，证明了少样本视觉关系学习的有效性。\n\n翻译：我们提出了一种新的设置——编辑迁移（Edit Transfer），其中模型能够通过一个源-目标示例学习一种变换，并将其应用到新的查询图像上。尽管基于文本的方法在通过文本提示进行语义操作时表现出色，但它们通常难以处理精确的几何细节（例如姿势和视角变化）。基于参考的编辑则通常专注于风格或外观，并且难以进行非刚性变换。通过从源-目标对显式学习编辑变换，编辑迁移克服了仅文字和外观参考的局限性。受到大规模语言模型中的上下文学习的启发，我们提出了一种基于视觉关系的上下文学习范式，基于DiT的文本到图像模型进行构建。我们将编辑过的示例和查询图像排列成一个统一的四面板复合图，然后应用轻量级的LoRA微调，以从有限的示例中捕捉复杂的空间变换。尽管只使用了42个训练样本，编辑迁移在多种非刚性场景中显著优于最先进的TIE和RIE方法，体现了少样本视觉关系学习的有效性。",
+        "地址": "https://arxiv.org/pdf/2503.13327.pdf"
+    },
+    {
+        "名称": "2025 [2503.12349] SPIN-Bench: How Well Do LLMs Plan Strategically and Reason Socially?.pdf",
+        "作者": "Jianzhu Yao, Kevin Wang, Ryan Hsieh, Haisu Zhou, Tianqing Zou, Zerui Cheng, Zhangyang Wang, Pramod Viswanath",
+        "摘要": "摘要：推理和在社会互动中进行战略行为是智力的标志。这种推理形式比在静态环境中进行的孤立规划或推理任务（如数学问题解决）要复杂得多。在本文中，我们提出了战略规划、互动和谈判（SPIN-Bench），这是一种新的多领域评估，旨在衡量战略规划和社会推理的智力。尽管许多现有的基准测试集中在狭隘的规划或单智能体推理上，但SPIN-Bench将经典的PDDL任务、竞争性棋盘游戏、合作卡牌游戏和多智能体谈判场景结合到一个统一的框架中。该框架包括一个基准测试以及一个竞技场，用于模拟和评估各种社会环境，以测试AI代理的推理和战略行为。我们通过系统地改变行动空间、状态复杂性和交互智能体的数量来制定SPIN-Bench基准测试，从而模拟各种社会环境，在这些环境中，成功不仅依赖于有条不紊的逐步决策，还依赖于对其他（对抗或合作）参与者的概念性推断。我们的实验表明，尽管当代大型语言模型在处理基本事实检索和短期规划时表现得相当好，但在需要跨大状态空间进行深度多跳推理和在不确定性下进行社会协调的任务中遇到了显著的性能瓶颈。我们设想SPIN-Bench将成为未来关于稳健的多智能体规划、社会推理和人机团队合作研究的催化剂。\n\n项目网址：https://arxiv.org/pdf/2503.12349.pdf\n\n作者：Jianzhu Yao, Kevin Wang, Ryan Hsieh, Haisu Zhou, Tianqing Zou, Zerui Cheng, Zhangyang Wang, Pramod Viswanath\n\n备注：51页，7个图表",
+        "地址": "https://arxiv.org/pdf/2503.12349.pdf"
+    },
+    {
+        "名称": "2025 [2503.13434] BlobCtrl: A Unified and Flexible Framework for Element-level Image Generation and Editing.pdf",
+        "作者": "Yaowei Li, Lingen Li, Zhaoyang Zhang, Xiaoyu Li, Guangzhi Wang, Hongxiang Li, Xiaodong Cun, Ying Shan, Yuexian Zou",
+        "摘要": "摘要：元素级的视觉操控对于数字内容创作至关重要，但现有基于扩散的方法缺乏传统工具的精确性和灵活性。在这项工作中，我们介绍了BlobCtrl，这是一种将元素级生成和编辑统一起来的框架，利用基于概率的blob表示法。通过采用blob作为视觉原语，我们的方法有效地解耦并表示空间位置、语义内容和身份信息，实现了精确的元素级操控。我们的主要贡献包括：1) 一个具有分层特征融合的双分支扩散架构，实现了前景-背景的无缝集成；2) 一种自监督训练范式，配有专门的数据增强和评分函数；3) 可控的丢弃策略，以平衡精确度和多样性。为了支持进一步的研究，我们引入了用于大规模训练的BlobData和系统评估的BlobBench。实验表明，BlobCtrl在各种元素级操控任务中表现出色，同时保持了计算效率，提供了一个用于精确和灵活的视觉内容创作的实用解决方案。项目页面：这个：https URL",
+        "地址": "https://arxiv.org/pdf/2503.13434.pdf"
+    },
+    {
+        "名称": "2025 [2503.12937] R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization.pdf",
+        "作者": "Jingyi Zhang, Jiaxing Huang, Huanjin Yao, Shunyu Liu, Xikun Zhang, Shijian Lu, Dacheng Tao",
+        "摘要": "摘要: 近期的研究普遍通过在高质量的逐步推理数据上进行监督微调，增强了多模态大语言模型（MLLMs）的推理能力，但这通常会导致模型仅仅模仿成功的推理路径，而不理解错误的推理路径。在这项工作中，我们旨在提升MLLMs的推理能力，使其超越被动模仿正面的推理路径。为此，我们设计了逐步分组相对策略优化（StepGRPO），这是一个新的在线强化学习框架，使MLLMs通过简单、高效且密集的逐步奖励来自我提升推理能力。具体而言，StepGRPO引入了两种新颖的基于规则的推理奖励：逐步推理准确性奖励（StepRAR）和逐步推理有效性奖励（StepRVR）。StepRAR通过一种软关键步骤匹配技术奖励包含必要中间推理步骤的推理路径，而StepRVR通过推理完整性和逻辑评估策略奖励那些遵循结构良好且逻辑一致的推理过程的推理路径。有了所提出的StepGRPO，我们推出了R1-VL，这是一个在逐步推理方面具有卓越能力的MLLMs系列。在8个基准测试上的广泛实验表明了我们方法的优越性。\n\n作者: 张静怡，黄嘉兴，姚焕瑾，刘舜钰，张熙坤，卢诗剑，陶大程\n\n链接: https://arxiv.org/pdf/2503.12937.pdf\n\n标题: 2025 [2503.12937] R1-VL: 通过逐步分组相对策略优化进行多模态大语言模型的推理学习",
+        "地址": "https://arxiv.org/pdf/2503.12937.pdf"
+    },
+    {
+        "名称": "2025 [2503.12605] Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey.pdf",
+        "作者": "Yaoting Wang, Shengqiong Wu, Yuecheng Zhang, William Wang, Ziwei Liu, Jiebo Luo, Hao Fei",
+        "摘要": "摘要：通过将类人逐步推理的链式思维（CoT）优势扩展到多模态背景中，多模态链式思维（MCoT）推理最近引起了广泛的研究关注，特别是在与多模态大语言模型（MLLMs）的整合方面。现有的MCoT研究设计了各种方法和创新的推理模式，以解决图像、视频、语音、音频、3D和结构化数据在不同模态中的独特挑战，并在机器人技术、医疗、自动驾驶和多模态生成等应用中取得了重大成功。然而，MCoT仍然存在独特的挑战和机遇，需进一步关注，以确保该领域的持续发展。不幸的是，目前缺乏该领域的最新综述。为弥补这一差距，我们提出了首个系统的MCoT推理综述，阐明了相关的基础概念和定义。我们提供了一个全面的分类法，并从不同的应用场景的多种角度对当前方法进行了深入分析。此外，我们还提供了对现有挑战和未来研究方向的见解，旨在推动多模态人工通用智能（AGI）的创新。",
+        "地址": "https://arxiv.org/pdf/2503.12605.pdf"
+    },
+    {
+        "名称": "2025 [2503.13435] WideRange4D: Enabling High-Quality 4D Reconstruction with Wide-Range Movements and Scenes.pdf",
+        "作者": "Ling Yang, Kaixin Zhu, Juanxi Tian, Bohan Zeng, Mingbao Lin, Hongjuan Pei, Wentao Zhang, Shuicheng Yan",
+        "摘要": "摘要：随着3D重建技术的快速发展，4D重建研究也在推进，现有的4D重建方法可以生成高质量的4D场景。但是，由于获取多视角视频数据的困难，目前的4D重建基准主要展示在有限场景内执行的动作，如跳舞。在实际场景中，许多场景涉及大范围的空间移动，这突显了现有4D重建数据集的局限性。此外，现有的4D重建方法依赖于变形场来估算3D物体的动态，但变形场在面对大范围的空间移动时表现不佳，这限制了实现高质量4D场景重建的能力。在本文中，我们专注于具有显著空间移动物体的4D场景重建，提出了一个新的4D重建基准WideRange4D。此基准包含丰富的具有大空间变化的4D场景数据，允许对4D生成方法的生成能力进行更全面的评估。此外，我们引入了一种新颖的4D重建方法Progress4D，它在各种复杂的4D场景重建任务中生成稳定且高质量的4D结果。我们在WideRange4D上进行了定量和定性对比实验，显示我们的Progress4D优于现有的最先进的4D重建方法。\n\n项目：此HTTPS链接\n\n来源：https://arxiv.org/pdf/2503.13435.pdf",
+        "地址": "https://arxiv.org/pdf/2503.13435.pdf"
+    },
+    {
+        "名称": "2025 [2503.13399] MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research.pdf",
+        "作者": "James Burgess, Jeffrey J Nirschl, Laura Bravo-Sánchez, Alejandro Lozano, Sanket Rajan Gupte, Jesus G. Galaz-Montoya, Yuhui Zhang, Yuchang Su, Disha Bhowmik, Zachary Coman, Sarina M. Hasan, Alexandra Johannesson, William D. Leineweber, Malvika G Nair, Ridhi Yarlagadda, Connor Zuraski, Wah Chiu, Sarah Cohen, Jan N. Hansen, Manuel D Leonetti, Chad Liu, Emma Lundberg, Serena Yeung-Levy",
+        "摘要": "摘要：科学研究需要对多模态数据进行复杂推理，这在生物学领域尤为突出。尽管在用于AI辅助研究的多模态大语言模型（MLLMs）方面取得了进展，现有的多模态推理基准测试只涉及大学水平的难度，而研究级的基准测试则更强调低层次感知，未能满足科学发现所需的复杂多模态推理。为填补这一空白，我们介绍了MicroVQA，这是一种视觉问答（VQA）基准测试，旨在评估研究工作流程中至关重要的三种推理能力：专家图像理解、假设生成和实验提议。MicroVQA包括由生物学专家整理的1042个多选题，涵盖各种显微镜技术，确保VQA样本代表真实的科学实践。在构建这一基准时，我们发现标准的多选题生成方法会导致语言捷径，因此设计了一个新的两阶段流程：一个优化的LLM提示将问答对结构构建为多选题，然后，一个基于代理的“RefineBot”对其进行更新以消除捷径。在最新的MLLMs基准测试中，最高性能达到53%；较小的LLM模型仅略微低于顶级模型，表明语言基础的推理难度低于多模态推理；并且通过科学文章调优后性能有所提升。对链式思维响应的专家分析显示，感知错误最频繁，其次是知识错误，然后是过度概括错误。这些见解突显了多模态科学推理中的挑战，表明MicroVQA是推进AI驱动生物医学研究的宝贵资源。MicroVQA可在此https URL获得，项目页面此https URL。",
+        "地址": "https://arxiv.org/pdf/2503.13399.pdf"
+    },
+    {
+        "名称": "2025 [2503.11751] reWordBench: Benchmarking and Improving the Robustness of Reward Models with Transformed Inputs.pdf",
+        "作者": "Zhaofeng Wu, Michihiro Yasunaga, Andrew Cohen, Yoon Kim, Asli Celikyilmaz, Marjan Ghazvininejad",
+        "摘要": "摘要：奖励模型已经成为现代自然语言处理（NLP）中的关键工具，不仅作为可扩展的文本评估器，还作为许多校准方法和推理算法中的必不可少的组成部分。然而，尽管最近的奖励模型在标准基准测试中提高了性能，但这可能部分归因于过拟合效应，这会干扰对它们真正能力的理解。在这项工作中，我们仔细审查了奖励模型的鲁棒性及其过拟合的程度。我们构建了**reWordBench**，系统地对奖励模型输入进行保持意义或排名不变的转换。我们表明，即使面对较小的输入转换，最先进的奖励模型也会遭受显著的性能下降，有时准确性甚至低于随机水平，这表明其脆弱性。为了提高奖励模型的鲁棒性，我们建议明确地训练它们对同义句赋予相似的分数，发现这种方法也提高了对其他不同类型转换的鲁棒性。例如，我们的鲁棒奖励模型将RewardBench中Chat Hard子集的这种性能下降减少了大约一半。此外，当用于校准时，我们的鲁棒奖励模型展示了更好的效用，产生了更高质量的输出，在高达59%的实例中胜过标准训练的奖励模型。\n\n翻译好的摘要：\n奖励模型已经成为现代NLP中的主要工具，不仅可以扩展文本评估，还作为许多对齐方法和推理时间算法的不可或缺的组成部分。然而，尽管最近的奖励模型在标准基准测试中提高了性能，这可能部分地是由于过拟合效应，这将混淆对其真正能力的理解。在这项工作中，我们仔细审视了奖励模型的鲁棒性及其过拟合的程度。我们构建了**reWordBench**，系统地以保持意义或排名的方式转换奖励模型输入。我们表明，即使是微小的输入转换，最先进的奖励模型也会遭受显著的性能下降，有时会显著下降到低于随机准确性，表明其脆弱性。为了提高奖励模型的鲁棒性，我们建议通过明确地训练它们为同义词组分配相似的分数，这一方法也提高了对其他不同类型转换的鲁棒性。例如，我们的鲁棒奖励模型将RewardBench中Chat Hard子集的降解减少了大约一半。此外，当在对齐中使用我们的鲁棒奖励模型时，它们展示了更好的效用，并产生了更高质量的输出，在高达59％的实例中战胜了标准训练的奖励模型。",
+        "地址": "https://arxiv.org/pdf/2503.11751.pdf"
+    },
+    {
+        "名称": "2025 [2503.11495] V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning.pdf",
+        "作者": "Zixu Cheng, Jian Hu, Ziquan Liu, Chenyang Si, Wei Li, Shaogang Gong",
+        "摘要": "摘要：人类在处理视频推理时，采用的是一种顺序的时空推理逻辑。我们首先识别相关的帧（“何时”），然后分析关键对象之间的空间关系（“何地”），最后利用这些关系进行推断（“何事”）。但是，视频大型语言模型（Video-LLMs）是否也可以在视频中“通过顺序的时空逻辑进行推理”呢？现有的视频大型语言模型评估基准主要集中在评估对象的存在性，忽视了关系推理。因此，很难衡量一个模型是否真正理解视频中的对象交互（动作/事件），或仅仅依赖于预训练的共现偏差生成答案。在这项工作中，我们提出了一个视频时空推理（V-STaR）基准来解决这些问题。其核心思想是将视频理解分解为一个逆向时空推理（RSTR）任务，同时评估对象的存在、事件发生的时间以及它们的位置，并捕捉潜在的推理链（CoT）逻辑。为了支持这一评估，我们构建了一个数据集，以引导视频大型语言模型的时空推理过程。该数据集包含由半自动化的GPT-4驱动的流水线生成的从粗到细的推理链问题，嵌入明确的推理链以模拟人类认知。我们对14个视频大型语言模型进行的实验显示，当前的视频大型语言模型在稳健且一致的时空推理需求上存在显著差距。\n\n翻译：The translation provided above is the Chinese summary of the given academic paper's abstract.",
+        "地址": "https://arxiv.org/pdf/2503.11495.pdf"
+    },
+    {
+        "名称": "2025 [2503.13082] Free-form language-based robotic reasoning and grasping.pdf",
+        "作者": "Runyu Jiao, Alice Fasoli, Francesco Giuliari, Matteo Bortolon, Sergio Povoli, Guofeng Mei, Yiming Wang, Fabio Poiesi",
+        "摘要": "摘要: 从拥挤的杂物箱中基于人类指令进行机器人抓取是一项具有挑战性的任务，因为它需要理解自由形式语言的细微差别和物体之间的空间关系。基于网络规模数据训练的视觉语言模型（VLMs），如 GPT-4o，已经展示了在文本和图像方面的卓越推理能力。但是它们真的能在零样本设置中用于这个任务吗？它们的局限性是什么？在本文中，我们通过基于自由形式语言的机器人抓取任务探讨这些研究问题，并提出了一种新方法，FreeGrasp，利用预训练的 VLMs 的世界知识来推理人类指令和物体空间安排。我们的方法将所有物体检测为关键点，并使用这些关键点在图像上进行标注，旨在促进 GPT-4o 的零样本空间推理。这使我们的方法能够确定请求的物体是否可以直接抓取，还是必须先抓取和移除其他物体。由于没有现有数据集专门为此任务设计，我们通过扩展 MetaGraspNetV2 数据集并添加人工注释的指令和真实抓取序列，介绍了一个合成数据集 FreeGraspData。我们利用 FreeGraspData 和配备抓手的机器人臂进行的真实世界验证进行了广泛的分析，展示了在抓取推理和执行方面的最新性能。项目网站: this https URL.",
+        "地址": "https://arxiv.org/pdf/2503.13082.pdf"
+    },
+    {
+        "名称": "2025 [2503.13444] VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning.pdf",
+        "作者": "Ye Liu, Kevin Qinghong Lin, Chang Wen Chen, Mike Zheng Shou",
+        "摘要": "摘要: 视频具有独特的时间维度，要求对其进行精确的时态理解，其中答案直接与可视的、可解释的证据相关联。尽管大规模语言模型在推理能力方面取得了重大突破，但多模态推理（尤其是视频领域）仍然未被充分探索。在这项工作中，我们介绍了一种新颖的视频语言代理模型VideoMind，旨在实现基于时间的精准视频理解。VideoMind包括两个关键创新: (i) 我们确定了视频时间推理的基本能力，并开发了基于角色的代理工作流程，包括一个用于协调不同角色的规划器、一个用于时间定位的基础器、一个评估时间区间准确性的验证器和用于问答的回答器。(ii) 为了高效整合这些不同的角色，我们提出了一种新颖的Chain-of-LoRA策略，通过轻量级的LoRA适配器实现无缝角色切换，避免了使用多个模型的开销，从而在效率和灵活性之间取得平衡。在14个公共基准上进行的广泛实验表明，我们的代理在各种视频理解任务中实现了最新的性能，包括3个基础视频问答任务、6个视频时间基础任务和5个通用视频问答任务，证明了其在推进视频代理和长形式时间推理方面的有效性。",
+        "地址": "https://arxiv.org/pdf/2503.13444.pdf"
+    },
+    {
+        "名称": "2025 [2503.11412] MTV-Inpaint: Multi-Task Long Video Inpainting.pdf",
+        "作者": "Shiyuan Yang, Zheng Gu, Liang Hou, Xin Tao, Pengfei Wan, Xiaodong Chen, Jing Liao",
+        "摘要": "摘要：视频修补涉及修改视频中的局部区域，确保空间和时间的一致性。大多数现有方法主要关注场景补全（即填补缺失区域），缺乏以可控方式在场景中插入新对象的能力。幸运的是，最近文本到视频（T2V）扩散模型的进展为文本引导的视频修补铺平了道路。然而，将T2V模型直接适应于修补在统一补全和插入任务、输入可控性以及处理长视频方面仍然有限，从而限制了它们的适用性和灵活性。为了应对这些挑战，我们提出了MTV-Inpaint，这是一个统一的多任务视频修补框架，能够处理传统的场景补全和新颖的对象插入任务。为了统一这些不同的任务，我们在T2V扩散U-Net中设计了一个双分支空间注意力机制，允许在单一框架内无缝集成场景补全和对象插入。除了文本指导，MTV-Inpaint通过我们提出的图像到视频（I2V）修补模式集成了各种图像修补模型，支持多模态控制。此外，我们提出了一个结合关键帧修补和介帧传播的两阶段管道，使MTV-Inpaint能够有效处理有数百帧的长视频。大量实验表明，MTV-Inpaint在场景补全和对象插入任务中均达到了最先进的性能。此外，它展示了在衍生应用中的多功能性，如多模态修补、对象编辑、移除、图像对象刷以及处理长视频的能力。项目页面：此https URL。\n\n作者：Shiyuan Yang, Zheng Gu, Liang Hou, Xin Tao, Pengfei Wan, Xiaodong Chen, Jing Liao",
+        "地址": "https://arxiv.org/pdf/2503.11412.pdf"
+    },
+    {
+        "名称": "2025 [2503.13070] Rewards Are Enough for Fast Photo-Realistic Text-to-image Generation.pdf",
+        "作者": "Yihong Luo, Tianyang Hu, Weijian Luo, Kenji Kawaguchi, Jing Tang",
+        "摘要": "摘要：生成的图像与复杂的文本提示和人类偏好对齐是人工智能生成内容（AIGC）中的一个核心挑战。随着奖励增强扩散蒸馏作为一种有前途的方法，提升了文本到图像模型的可控性和保真度，我们识别出一种基础范式转变：随着条件变得更加具体和奖励信号加强，奖励本身成为生成中的主导力量。相反，扩散损失作为一种过于昂贵的正则化形式。为了彻底验证我们的假设，我们引入了R0，一种通过正则化奖励最大化的新型条件生成方法。R0不依赖棘手的扩散蒸馏损失，而是提出了一种新的视角，将图像生成视为数据空间的优化问题，旨在搜索具有高组成奖励的有效图像。通过生成器参数化和适当的正则化技术的创新设计，我们在规模上训练了最先进的少步文本到图像生成模型。我们的结果挑战了扩散后训练和条件生成的传统智慧，表明在复杂条件下奖励起着主导作用。我们希望我们的发现能够促进在整个AIGC领域中，以人类为中心和以奖励为中心的生成范式的进一步研究。代码可在此 HTTPS URL 获取。",
+        "地址": "https://arxiv.org/pdf/2503.13070.pdf"
+    },
+    {
+        "名称": "2025 [2503.10719] Long-Video Audio Synthesis with Multi-Agent Collaboration.pdf",
+        "作者": "Yehang Zhang, Xinli Xu, Xiaojie Xu, Li Liu, Yingcong Chen",
+        "摘要": "摘要：视频转音频合成通过为视觉内容生成同步音频来显著增强观众沉浸感和叙事连贯性。然而，由于动态语义转换、时间错位以及缺少专用数据集，长篇内容的视频转音频配音仍然是一个未解决的挑战。尽管现有方法在短视频方面表现出色，但在长场景（如电影）中由于合成碎片化和跨场景一致性不足而失效。我们提出了LVAS-Agent，这是一种新颖的多智能体框架，通过协作角色专业化模拟专业配音工作流程。我们的方法将长视频合成分解为包括场景分割、脚本生成、声音设计和音频合成在内的四个步骤。核心创新包括用于场景/脚本修正的讨论-校正机制和用于时间-语义对齐的生成-检索循环。为了实现系统评估，我们引入了LVAS-Bench，这是首个包含207个涵盖各种场景的专业策划长视频的基准。实验表明，与基线方法相比，LVAS-Agent 在视听对齐方面表现优越。\n项目页面: https://arxiv.org/pdf/2503.10719.pdf",
+        "地址": "https://arxiv.org/pdf/2503.10719.pdf"
+    },
+    {
+        "名称": "2025 [2503.10704] Error Analyses of Auto-Regressive Video Diffusion Models: A Unified Framework.pdf",
+        "作者": "Jing Wang, Fengzhuo Zhang, Xiaoli Li, Vincent Y. F. Tan, Tianyu Pang, Chao Du, Aixin Sun, Zhuoran Yang",
+        "摘要": "摘要：多种自回归视频扩散模型（ARVDM）在生成逼真的长时视频方面取得了显著的成功。然而，这些模型的理论分析仍然很少。在这项工作中，我们为这些模型开发了理论基础，并利用我们的见解来提高现有模型的性能。我们首先开发了Meta-ARVDM，这是一个统一的ARVDM框架，涵盖了大多数现有方法。使用Meta-ARVDM，我们分析了Meta-ARVDM生成的视频与真实视频之间的KL散度。我们的分析揭示了ARVDM固有的两个重要现象——误差累积和内存瓶颈。通过推导信息论的不可能性结果，我们表明内存瓶颈现象是不可避免的。为了缓解内存瓶颈，我们设计了多种网络结构以明确使用更多的过去帧。通过压缩帧的数据，我们在缓解内存瓶颈和推理效率之间实现了显著改善的权衡。在DMLab和Minecraft上的实验结果验证了我们方法的有效性。我们的实验还展示了在不同方法之间的误差累积和内存瓶颈之间的帕累托前沿。\n\n作者：Jing Wang，Fengzhuo Zhang，Xiaoli Li，Vincent Y. F. Tan，Tianyu Pang，Chao Du，Aixin Sun，Zhuoran Yang",
+        "地址": "https://arxiv.org/pdf/2503.10704.pdf"
+    },
+    {
+        "名称": "2025 [2503.13369] Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions.pdf",
+        "作者": "Wan Ju Kang, Eunki Kim, Na Min An, Sangryul Kim, Haemin Choi, Ki Hoon Kwak, James Thorne",
+        "摘要": "摘要：通常，注释组和终端用户组之间的需求和视觉能力有所不同。为盲人和低视力（BLV）用户生成详细的图表描述就是一个具有挑战性的领域。视力正常的注释者可以轻松描述视觉内容，但现有研究表明，他们直接生成的描述成本高、容易产生偏差，并且在BLV标准下有所不足。在这项研究中，我们要求视力正常的个人评估由通过多次推理潜在监督引导的视觉语言模型（VLM）生成的图表描述，而不是自己生成。事实证明，这些评估对那些本身是BLV且教授视障学生的专业教育工作者非常有效和有用。我们发布了Sightation，这是一组涵盖5000个图表和137000个样本的图表描述数据集，旨在用于完成、偏好、检索、问答和推理训练目的，并展示了它们在各种下游任务中的微调潜力。",
+        "地址": "https://arxiv.org/pdf/2503.13369.pdf"
+    },
+    {
+        "名称": "2025 [2503.12964] Training Video Foundation Models with NVIDIA NeMo.pdf",
+        "作者": "Zeeshan Patel, Ethan He, Parth Mannan, Xiaowei Ren, Ryan Wolf, Niket Agarwal, Jacob Huffman, Zhuoyao Wang, Carl Wang, Jack Chang, Yan Bai, Tommy Huang, Linnan Wang, Sahil Jain, Shanmugam Ramasamy, Joseph Jennings, Ekaterina Sirazitdinova, Oleg Sudakov, Mingyuan Ma, Bobby Chen, Forrest Lin, Hao Wang, Vasanth Rao Naik Sabavat, Sriharsha Niverty, Rong Ou, Pallab Bhattacharya, David Page, Nima Tajbakhsh, Ashwath Aithal",
+        "摘要": "摘要：视频基础模型（VFMs）最近被用于模拟真实世界，以训练物理人工智能系统和开发创新的视觉体验。然而，训练大规模、高质量的VFMs以生成高质量视频具有显著的挑战。我们提出了一种可扩展的开源VFM训练管道，基于NVIDIA的NeMo，提供加速视频数据集管理、多模态数据加载、并行视频扩散模型训练和推理。我们还提供了全面的性能分析，突出展示了高效VFM训练和推理的最佳实践。",
+        "地址": "https://arxiv.org/pdf/2503.12964.pdf"
+    },
+    {
+        "名称": "2025 [2503.12530] Basic Category Usage in Vision Language Models.pdf",
+        "作者": "Hunter Sawyer, Jesse Roberts, Kyle Moore",
+        "摘要": "摘 要：心理学领域早已认识到人类在标记视觉刺激时使用的一种基本分类水平，这个术语是由Rosch在1976年提出的。已发现这种分类水平被最频繁地使用，具有更高的信息密度，并且有助于通过视觉语言任务中的启动效应。在这项研究中，我们调查了两个最近发布的开源视觉语言模型（VLMs）中的基本分类水平。本文展示了Llama 3.2 Vision Instruct (11B) 和Molmo 7B-D都偏好与人类行为一致的基本分类水平。此外，这些模型的偏好与人类细微行为如生物与非生物基本水平效应以及已确立的专家基本水平移位相一致，这进一步表明VLMs从所训练的人类数据中获取了认知分类行为。\n\n译者：Hunter Sawyer, Jesse Roberts, Kyle Moore\n\n链接：https://arxiv.org/pdf/2503.12530.pdf\n\n标题：2025 [2503.12530] 基本分类在视觉语言模型中的应用.pdf",
+        "地址": "https://arxiv.org/pdf/2503.12530.pdf"
+    },
+    {
+        "名称": "2025 [2503.12528] Investigating Human-Aligned Large Language Model Uncertainty.pdf",
+        "作者": "Kyle Moore, Jesse Roberts, Daryl Watson, Pamela Wisniewski",
+        "摘要": "摘要：近期的工作尝试量化大型语言模型的不确定性，以便于模型控制和调节用户信任。先前的研究主要集中在理论上有依据的或反映出模型平均外部行为的不确定性度量。在此项工作中，我们研究了各种不确定性度量，以确定与人类群体层面不确定性相关的度量。我们发现，贝叶斯度量和一种变体熵度量（top-k熵）往往会随着模型大小的变化与人类行为一致。我们还发现，一些较强的度量随着模型大小的增加而在人类相似性上有所下降，但通过多重线性回归，我们发现结合多种不确定性度量能够在减少对模型大小依赖性的同时，提供与人类一致的对齐度。\n\n作者：凯尔·摩尔，杰西·罗伯茨，达里尔·沃森，帕梅拉·维斯涅夫斯基\n\n链接：[2025 [2503.12528] Investigating Human-Aligned Large Language Model Uncertainty.pdf](https://arxiv.org/pdf/2503.12528.pdf)",
+        "地址": "https://arxiv.org/pdf/2503.12528.pdf"
+    },
+    {
+        "名称": "2025 [2503.12720] GenStereo: Towards Open-World Generation of Stereo Images and Unsupervised Matching.pdf",
+        "作者": "Feng Qiao, Zhexiao Xiong, Eric Xing, Nathan Jacobs",
+        "摘要": "摘要：立体影像是众多应用中的基础，包括扩展现实(XR)设备、自动驾驶和机器人技术。然而，由于双摄像头设置的精确校准要求和获得准确、密集视差图的复杂性，获得高质量的立体影像仍旧具有挑战性。现有的立体影像生成方法通常关注于视觉质量或几何匹配准确度，而不是两者兼顾。我们提出了GenStereo，一种基于扩散方法的技术，以弥合这一差距。该方法包括两个主要创新：（1）在视差感知坐标嵌入和扭曲输入图像上的扩散过程条件，使得立体对准比以往方法更为精确；（2）一种自适应融合机制，智能地将扩散生成的图像与扭曲图像结合，改善了真实感和视差一致性。通过在11个不同的立体数据集上进行广泛训练，GenStereo展示了强大的泛化能力。GenStereo在立体影像生成和无监督立体匹配任务中都达到了最先进的性能。我们的框架无需复杂的硬件设置，同时实现高质量的立体影像生成，对于现实世界的应用和无监督学习场景都具有重要价值。项目页面可通过这个网址访问。",
+        "地址": "https://arxiv.org/pdf/2503.12720.pdf"
+    },
+    {
+        "名称": "2025 [2503.08153] WISA: World Simulator Assistant for Physics-Aware Text-to-Video Generation.pdf",
+        "作者": "Jing Wang, Ao Ma, Ke Cao, Jun Zheng, Zhanjie Zhang, Jiasong Feng, Shanyuan Liu, Yuhang Ma, Bo Cheng, Dawei Leng, Yuhui Yin, Xiaodan Liang",
+        "摘要": "摘要：最近，在文本生成视频（T2V）领域的快速进展，如SoRA和Kling，展示了构建世界模拟器的巨大潜力。然而，目前的T2V模型在掌握抽象物理原理并生成符合物理规律的视频方面仍然困难重重。这一挑战主要源于抽象物理原理与生成模型之间缺乏明确的物理信息指导。为此，我们提出了世界模拟助手（WISA），这是一种将物理原理分解并融入T2V模型的有效框架。具体来说，WISA将物理原理分解为文字的物理描述、定性物理类别和定量物理属性。为了有效地将这些物理属性嵌入生成过程中，WISA采用了若干关键设计，包括物理专家混合注意（MoPA）和物理分类器，从而增强模型的物理感知能力。此外，大多数现有数据集的视频中的物理现象要么表现较弱，要么与多种同时发生的过程纠缠在一起，从而限制了它们作为学习明确物理原理的专门资源的适用性。我们提出了一个新的视频数据集WISA-32K，根据定性物理类别收集，共包含32,000个视频，涵盖了动力学、热力学和光学三个物理领域的17条物理定律。实验结果表明，WISA可以有效地增强T2V模型与现实物理定律的兼容性，在VideoPhy基准测试中取得了显著的改进。WISA和WISA-32K的视觉展示可在此链接中查看：https://arxiv.org/pdf/2503.08153.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.08153.pdf"
+    },
+    {
+        "名称": "2025 [2503.06269] Using Mechanistic Interpretability to Craft Adversarial Attacks against Large Language Models.pdf",
+        "作者": "Thomas Winninger, Boussad Addad, Katarzyna Kapusta",
+        "摘要": "摘要：传统的白盒方法在针对大型语言模型（LLMs）创建对抗扰动时，通常仅依赖于目标模型的梯度计算，而忽略了导致攻击成功或失败的内部机制。相比之下，分析这些内部机制的可解释性研究除了运行时干预外，缺乏实际应用价值。我们通过引入一种新的白盒方法来弥合这一差距，该方法利用机械解释技术来制作实际的对抗性输入。具体而言，我们首先识别接受子空间——一组不会触发模型拒绝机制的特征向量集，然后使用基于梯度的优化方法将嵌入从拒绝子空间重新引导到接受子空间，从而有效地实现越狱。这种针对性方法显著降低了计算成本，在包括Gemma2、Llama3.2和Qwen2.5在内的最先进模型上在几分钟甚至几秒钟内实现了80-95%的攻击成功率，而现有技术通常失败或需要数小时的计算。我们认为这种方法为攻击研究和防御开发开辟了一个新方向。此外，它展示了机械解释的实际应用，在其他方法效率较低的情况下，突显了其效用。代码和生成的数据集可在此链接获取：https://arxiv.org/pdf/2503.06269.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.06269.pdf"
+    }
+]
