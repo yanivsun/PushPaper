@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2503.16660] When Less is Enough: Adaptive Token Reduction for Efficient Image Representation.pdf",
+        "作者": "Eduard Allakhverdov, Elizaveta Goncharova, Andrey Kuznetsov",
+        "摘要": "摘要: 视觉编码器通常生成大量视觉标记，这些标记虽然提供了信息丰富的表征，但也显著增加了计算需求。这引发了一个问题，即所有生成的标记是否同样有价值，或者是否可以在不影响质量的前提下，将一些标记舍弃以降低计算成本。在本文中，我们介绍了一种基于特征利用率的新方法，认为价值较低的特征可以从价值较高的特征中重构。我们通过将自动编码器与Gumbel-Softmax选择机制集成，来实现这一概念，从而识别并保留最具信息量的视觉标记。为了验证我们的方法，我们比较了使用该方法选择的特征与随机选择的特征在LLaVA-NeXT模型中的表现。我们的研究发现，在基于OCR的任务中，超过50%的视觉上下文可以在性能损失最小的情况下被移除，而随机舍弃同等比例的特征会显著影响模型能力。此外，在一般域任务中，即使随机保留仅30%的标记，也能达到与使用全部视觉标记相当的性能。我们的结果强调了一种有前途的方向，即自适应且高效的多模态剪枝，实现可扩展的低开销推理而不牺牲性能。",
+        "地址": "https://arxiv.org/pdf/2503.16660.pdf"
+    },
+    {
+        "名称": "2025 [2503.16905] MAPS: A Multi-Agent Framework Based on Big Seven Personality and Socratic Guidance for Multimodal Scientific Problem Solving.pdf",
+        "作者": "Jian Zhang, Zhiyuan Wang, Zhangqi Wang, Xinyu Zhang, Fangzhi Xu, Qika Lin, Rui Mao, Erik Cambria, Jun Liu",
+        "摘要": "摘要：多模态科学问题（MSPs）涉及需要整合文本和图表等多种模态的复杂问题，这对人工智能提出了重大挑战。尽管在解决传统科学问题方面取得了一些进展，但在MSPs方面仍面临两个主要问题：多模态综合推理的挑战和缺乏反思及重新思考的能力。为了解决这些问题，我们引入了基于“大七人格”和苏格拉底指导的多代理框架（MAPS）。该框架采用七个不同的代理，利用反馈机制和苏格拉底方法来指导MSPs的解决。为解决第一个问题，我们提出了一个渐进的四代理解决策略，每个代理专注于问题解决过程的特定阶段。针对第二个问题，我们引入了一个Critic代理，受苏格拉底提问启发，旨在激发批判性思维和自主学习。我们在EMMA、Olympiad和MathVista数据集上进行了广泛的实验，取得了令人鼓舞的结果，在所有任务上比当前最先进的模型高出15.84%。同时，额外的分析实验也验证了模型的进展和泛化能力。",
+        "地址": "https://arxiv.org/pdf/2503.16905.pdf"
+    },
+    {
+        "名称": "2025 [2503.16874] MARS: A Multi-Agent Framework Incorporating Socratic Guidance for Automated Prompt Optimization.pdf",
+        "作者": "Jian Zhang, Zhangqi Wang, Haiping Zhu, Jun Liu, Qika Lin, Erik Cambria",
+        "摘要": "摘要：大型语言模型的基本问答格式涉及输入提示并接收响应，提示的质量直接影响响应的有效性。自动化提示优化（Automated Prompt Optimization, APO）旨在摆脱手动设计提示的认知偏见，并探索更广泛的提示设计空间。然而，现有的APO方法在固定模板的灵活性和提示空间中的低效搜索方面存在关键问题。为此，我们提出了一个结合苏格拉底指导的多智能体框架（MARS），利用多智能体融合技术进行自动规划，通过逐步的持续优化和评估来实现具体目标。MARS由七个具有不同功能的智能体组成，它们自主地使用规划器制定优化路径以确保灵活性。此外，它还采用教师-评论员-学生的苏格拉底对话模式来逐步优化提示，同时进行有效搜索。我们在各种数据集上进行了大量实验以验证我们方法的有效性，并进行了额外的分析实验以评估模型的进步和解释性。\n\n作者：张健，王章棋，朱海平，刘军，林奇卡，埃里克·坎布里亚\n\n网址：https://arxiv.org/pdf/2503.16874.pdf\n\n标题：MARS：一种结合苏格拉底指导的多智能体框架用于自动化提示优化",
+        "地址": "https://arxiv.org/pdf/2503.16874.pdf"
+    },
+    {
+        "名称": "2025 [2503.16408] RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints.pdf",
+        "作者": "Yiran Qin, Li Kang, Xiufeng Song, Zhenfei Yin, Xiaohong Liu, Xihui Liu, Ruimao Zhang, Lei Bai",
+        "摘要": "摘要: 设计有效的具身多智能体系统对于解决跨领域的复杂现实任务至关重要。由于多智能体具身系统的复杂性，现有方法无法自动生成此类系统的安全高效的训练数据。为此，我们提出了具身多智能体系统的组合约束概念，解决了具身智能体协作过程中出现的挑战。我们设计了各种适用于不同类型约束的接口，确保与物理世界的无缝互动。利用组合约束和专门设计的接口，我们开发了一个自动数据收集框架，并引入了第一个针对具身多智能体操控的基准测试——RoboFactory。基于RoboFactory基准测试，我们改进并评估了模仿学习的方法，并分析了其在不同难度代理任务中的表现。此外，我们探索了多智能体模仿学习的架构和训练策略，旨在构建安全高效的具身多智能体系统。",
+        "地址": "https://arxiv.org/pdf/2503.16408.pdf"
+    },
+    {
+        "名称": "2025 [2503.16430] Bridging Continuous and Discrete Tokens for Autoregressive Visual Generation.pdf",
+        "作者": "Yuqing Wang, Zhijie Lin, Yao Teng, Yuanzhi Zhu, Shuhuai Ren, Jiashi Feng, Xihui Liu",
+        "摘要": "摘要： 自回归视觉生成模型通常依赖于令牌化器将图像压缩成可以按顺序预测的令牌。然而，令牌表示存在一个基本困境：离散令牌使得使用标准交叉熵损失进行建模变得简单，但会导致信息丢失和令牌化器训练不稳定；连续令牌可以更好地保留视觉细节，但需要复杂的分布建模，使生成流程复杂化。在本文中，我们提出了TokenBridge，通过保持连续令牌的强表示能力，同时保留离散令牌的建模简便性来弥合这一差距。为实现这一目标，我们通过后训练量化将离散化与令牌化器训练过程分离，直接从连续表示中获取离散令牌。具体地，我们引入了一种维度量化策略，独立地离散化每个特征维度，并配以轻量级的自回归预测机制，有效地对产生的大令牌空间进行建模。大量实验证明，我们的方法在使用标准分类预测的同时，达到了与连续方法相当的重建和生成质量。该工作展示了弥合离散和连续范式能够有效利用两者的优点，为高质量视觉生成提供了一条有前途的方向。\n\n作者：王宇庆，林智杰，滕瑶，朱元志，任舒淮，冯佳时，刘兮汇\n\n来源：https://arxiv.org/pdf/2503.16430.pdf",
+        "地址": "https://arxiv.org/pdf/2503.16430.pdf"
+    },
+    {
+        "名称": "2025 [2503.17352] OpenVLThinker: An Early Exploration to Complex Vision-Language Reasoning via Iterative Self-Improvement.pdf",
+        "作者": "Yihe Deng, Hritik Bansal, Fan Yin, Nanyun Peng, Wei Wang, Kai-Wei Chang",
+        "摘要": "摘要：深度探测-R1展示的最新进展表明，通过强化学习（RL）和可验证的奖励，能够在大型语言模型（LLMs）中实现复杂的推理能力，包括自我验证和自我纠正等复杂行为，这显著提升了模型在诸如AIME等具有挑战性的任务上的表现。受到这些发现的启发，我们的研究探讨了类似的推理能力是否能被成功整合到大型视觉-语言模型（LVLMs）中，并评估其在具有挑战性的多模态推理任务中的影响。我们提出了一种方法，通过在轻量级训练数据上反复进行监督微调（SFT）并结合强化学习（RL）进一步提高模型的泛化能力。最初，通过从纯文本R1模型中提取推理能力，借助来自不同视觉数据集的高质量图像说明生成推理步骤。随后，迭代的RL训练进一步增强了推理技能，每轮经过RL改进的模型为下一轮生成经过改进的SFT数据集。这个迭代过程产生了OpenVLThinker，一个在MathVista、MathVerse和MathVision等具有挑战性的基准测试中表现出持续改进推理能力的LVLM，展示了我们策略在稳健的视觉-语言推理中的潜力。代码、模型和数据可以在这个https URL找到。",
+        "地址": "https://arxiv.org/pdf/2503.17352.pdf"
+    },
+    {
+        "名称": "2025 [2503.17126] Modifying Large Language Model Post-Training for Diverse Creative Writing.pdf",
+        "作者": "John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, Max Kreminski",
+        "摘要": "摘要：由于创意写作任务没有唯一正确答案，训练这些任务的大型语言模型（LLMs）应能够生成多样且有效的输出。然而，LLMs 后训练通常侧重于提高生成质量，而忽视了促进输出多样性。因此，在创意写作生成中，我们研究了促进输出多样性和质量的后训练方法。我们的核心思想是将偏差——即训练样本与同一提示下所有其他样本之间的差异程度——包含在训练目标中，以便从稀有的高质量实例中学习。通过将我们的方法应用于直接偏好优化（DPO）和赔率比偏好优化（ORPO），我们证明了在模型质量仅存在最小下降的情况下，可以促进训练模型的输出多样性。我们参数为8B的最佳模型能够达到与人工创建数据集相当的多样性，同时具有与我们测试的最佳指令微调模型（GPT-4o 和 DeepSeek-R1）相似的输出质量。我们通过人工评估、消融实验以及与现有的多样化方法 DivPO 比较来进一步验证我们的方法。",
+        "地址": "https://arxiv.org/pdf/2503.17126.pdf"
+    },
+    {
+        "名称": "2025 [2503.17032] TaoAvatar: Real-Time Lifelike Full-Body Talking Avatars for Augmented Reality via 3D Gaussian Splatting.pdf",
+        "作者": "Jianchuan Chen, Jingchuan Hu, Gaige Wang, Zhonghua Jiang, Tiansong Zhou, Zhiwen Chen, Chengfei Lv",
+        "摘要": "摘要: 现实的3D全身说话化身在增强现实（AR）中具有巨大的潜力，可应用于电子商务直播和全息通信等领域。尽管在使用三维高斯喷溅（3DGS）进行逼真化身创建方面取得了进展，但现有方法在全身说话任务中对面部表情和身体动作的细粒度控制上仍然存在困难。此外，它们通常缺乏足够的细节，并且无法在移动设备上实时运行。我们提出了TaoAvatar，这是一种高保真、轻量级、基于3DGS的全身说话化身，由多种信号驱动。我们的方法首先创建一个个性化的穿衣人体参数化模板，并绑定高斯以表示外观。然后，我们预训练一个基于StyleUnet的网络来处理复杂的依赖姿势的非刚性变形，这可以捕捉高频外观细节，但对移动设备来说资源需求过高。为了解决这一问题，我们使用蒸馏技术将非刚性变形“烘焙”到一个轻量级的基于MLP的网络中，并开发混合形态来补偿细节。广泛的实验表明，TaoAvatar在各种设备上实现了实时运行，并在如Apple Vision Pro等高清立体设备上保持每秒90帧的渲染质量，达到了最新技术水平。\n\n翻译作者: 陈建川, 胡京川, 王盖葛, 江中华, 周天松, 陈志文, 吕承飞",
+        "地址": "https://arxiv.org/pdf/2503.17032.pdf"
+    },
+    {
+        "名称": "2025 [2503.16549] MathFlow: Enhancing the Perceptual Flow of MLLMs for Visual Mathematical Problems.pdf",
+        "作者": "Felix Chen, Hangjie Yuan, Yunqiu Xu, Tao Feng, Jun Cen, Pengwei Liu, Zeying Huang, Yi Yang",
+        "摘要": "摘要：尽管在不同任务中表现出色，多模态大语言模型（MLLMs）在视觉数学问题解决中尚未充分展示其潜力，特别是在准确感知和解释图表方面。受人类典型过程的启发，我们假设，从图表中提取有意义信息的感知能力至关重要，因为这直接影响后续的推理过程。为了验证这一假设，我们开发了FlowVerse，一个综合基准，将在问题解决中使用的所有信息分为四个组件，然后将这些组件组合成六个问题版本进行评估。我们在FlowVerse上的初步结果显示，现有的MLLMs在提取关键信息和推理属性以及基于这些视觉输入进行复杂推理方面存在显著局限性。对此，我们引入了MathFlow，一个将感知和推理解耦成独立阶段的模块化问题解决流程，从而优化每个阶段。鉴于当前MLLMs中观察到的感知局限性，我们训练了MathFlow-P-7B作为专用的感知模型。实验结果表明，将MathFlow-P-7B与各种闭源和开源的推理模型集成时，性能显著提升。这证明了MathFlow流程的有效性及其与多种推理框架的兼容性。FlowVerse基准和代码可在此https URL获取。\n\n作者：Felix Chen, Hangjie Yuan, Yunqiu Xu, Tao Feng, Jun Cen, Pengwei Liu, Zeying Huang, Yi Yang\n\n评论：请参阅此https URL\n\n链接：https://arxiv.org/pdf/2503.16549.pdf\n\n标题：2025 [2503.16549] MathFlow: 增强MLLM视觉数学问题的感知流程",
+        "地址": "https://arxiv.org/pdf/2503.16549.pdf"
+    },
+    {
+        "名称": "2025 [2503.16983] Enabling Versatile Controls for Video Diffusion Models.pdf",
+        "作者": "Xu Zhang, Hao Zhou, Haoming Qin, Xiaobin Lu, Jiaxing Yan, Guanzhong Wang, Zeyu Chen, Yi Liu",
+        "摘要": "摘要：尽管文本到视频生成技术取得了实质性进展，精确和灵活地控制细粒度的时空属性仍然是视频生成研究中尚未解决的重大挑战。为了应对这些局限性，我们提出了VCtrl（也称为PP-VCtrl），这是一种新颖的框架，旨在以统一的方式实现对预训练视频扩散模型的细粒度控制。VCtrl通过一种通用的条件模块将用户指定的不同控制信号（例如Canny边缘、分割掩模和人体关键点）集成到预训练视频扩散模型中，该模块能够在不修改基础生成器的情况下统一编码多种类型的辅助信号。此外，我们设计了一个统一的控制信号编码管道和一种稀疏残差连接机制，以高效地整合控制表示。全面的实验和人工评估表明，VCtrl有效地增强了可控性和生成质量。源码和预训练模型是公开可用的，并使用PaddlePaddle框架实现，访问网址在本文链接处。",
+        "地址": "https://arxiv.org/pdf/2503.16983.pdf"
+    },
+    {
+        "名称": "2025 [2503.16025] Single Image Iterative Subject-driven Generation and Editing.pdf",
+        "作者": "Yair Shpitzer, Gal Chechik, Idan Schwartz",
+        "摘要": "摘要：个性化图像生成和编辑在我们只有很少的主体图像，甚至只有一张图像时特别具有挑战性。个性化的常见方法是概念学习，它可以相对快速地将主体整合到现有模型中，但当主体图像数量较少时，生成的图像质量往往会迅速下降。通过预训练编码器可以提高质量，但训练会将生成限制在训练分布内，并且耗时。如何在无需训练的情况下仅从单一图像实现个性化图像生成和编辑仍然是一个难题。在此，我们提出了SISO，这是一种基于优化与输入主体图像的相似度评分的新颖的无训练方法。具体来说，SISO通过迭代生成图像并基于与给定主体图像的相似度损失优化模型，直到达到令人满意的相似度水平，从而允许对任何图像生成器进行即插即用优化。我们使用了包含多种个人主体的多样化数据集在图像编辑和图像生成两个任务中评估了SISO，并展示了在图像质量、主体保真度和背景保留方面相对于现有方法的显著改进。\n\n作者：Yair Shpitzer, Gal Chechik, Idan Schwartz\n\n评论：项目页面在此 https URL\n\n链接：https://arxiv.org/pdf/2503.16025.pdf\n\n标题：《2025 [2503.16025] 基于单一图像的迭代主体驱动生成与编辑》",
+        "地址": "https://arxiv.org/pdf/2503.16025.pdf"
+    },
+    {
+        "名称": "2025 [2503.17287] FastCuRL: Curriculum Reinforcement Learning with Progressive Context Extension for Efficient Training R1-like Reasoning Models.pdf",
+        "作者": "Mingyang Song, Mao Zheng, Zheng Li, Wenjie Yang, Xuan Luo, Yue Pan, Feng Zhang",
+        "摘要": "以下是提取的摘要，并翻译为中文：\n\n原文摘要：\nIn this paper, we propose **FastCuRL**, a simple yet efficient **Cu**rriculum **R**einforcement **L**earning approach with context window extending strategy to accelerate the reinforcement learning training efficiency for R1-like reasoning models while enhancing their performance in tackling complex reasoning tasks with long chain-of-thought rationales, particularly with a 1.5B parameter language model. **FastCuRL** consists of two main procedures: length-aware training data segmentation and context window extension training. Specifically, the former first splits the original training data into three different levels by the input prompt length, and then the latter leverages segmented training datasets with a progressively increasing context window length to train the reasoning model. Experimental results demonstrate that **FastCuRL**-1.5B-Preview surpasses DeepScaleR-1.5B-Preview across all five datasets (including MATH 500, AIME 2024, AMC 2023, Minerva Math, and OlympiadBench) while only utilizing 50% of training steps. Furthermore, all training stages for FastCuRL-1.5B-Preview are completed using just a single node with 8 GPUs.\n\n中文翻译：\n在本文中，我们提出了一种简单而高效的课程强化学习方法**FastCuRL**，通过上下文窗口扩展策略来加速 R1 类推理模型的强化学习训练效率，同时提高其在处理具有长链推理逻辑的复杂推理任务中的性能，尤其是在拥有 15 亿参数的语言模型上。**FastCuRL** 包含两个主要步骤：长度感知的训练数据分割和上下文窗口扩展训练。具体来说，前者首先按输入提示长度将原始训练数据分为三个不同级别，然后后者利用分段的训练数据集以逐渐增加的上下文窗口长度来训练推理模型。实验结果表明，**FastCuRL**-1.5B-Preview 在所有五个数据集（包括 MATH 500, AIME 2024, AMC 2023, Minerva Math 和 OlympiadBench）上超越了 DeepScaleR-1.5B-Preview，同时仅使用了 50% 的训练步骤。此外，所有训练阶段都在只配备 8 块 GPU 的单节点上完成。",
+        "地址": "https://arxiv.org/pdf/2503.17287.pdf"
+    },
+    {
+        "名称": "2025 [2503.16867] ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering.pdf",
+        "作者": "Kaisi Guan, Zhengfeng Lai, Yuchong Sun, Peng Zhang, Wei Liu, Kieran Liu, Meng Cao, Ruihua Song",
+        "摘要": "摘要：在文本到视频生成（T2V）中，精确评估文本提示与生成视频之间的语义对齐仍然是一个挑战。现有的文本到视频对齐度量，例如CLIPScore，只生成粗粒度的分数，没有细粒度的对齐细节，无法与人类偏好对齐。为了解决这一限制，我们提出了ETVA，一种通过细粒度问题生成和回答进行文本到视频对齐评估的新方法。首先，多代理系统将提示解析为语义场景图以生成原子问题。然后，我们设计了一个知识增强的多阶段推理框架进行问题回答，其中辅助的LLM（大语言模型）首先检索相关的常识知识（如物理定律），然后视频LLM通过多阶段推理机制回答生成的问题。大量实验表明，ETVA达到了58.47的Spearman相关系数，显示出与人类判断的相关性远高于现有度量（仅为31.0）。我们还构建了专门设计用于文本到视频对齐评估的综合基准，包含2000个多样化的提示和12000个跨越10个类别的原子问题。通过对15个现有文本到视频模型的系统评估，我们确定了它们的关键能力和局限性，为下一代T2V生成铺平了道路。\n\n翻译者：Kaisi Guan, Zhengfeng Lai, Yuchong Sun, Peng Zhang, Wei Liu, Kieran Liu, Meng Cao, Ruihua Song",
+        "地址": "https://arxiv.org/pdf/2503.16867.pdf"
+    },
+    {
+        "名称": "2025 [2503.12821] From Head to Tail: Towards Balanced Representation in Large Vision-Language Models through Adaptive Data Calibration.pdf",
+        "作者": "Mingyang Song, Xiaoye Qu, Jiawei Zhou, Yu Cheng",
+        "摘要": "以下是该学术论文的摘要翻译：\n\n大规模视觉-语言模型（LVLMs）在结合视觉理解与语言生成方面取得了显著进展。尽管取得了这些成功，但LVLMs的训练数据仍存在长尾问题，数据分布极不均衡。之前的研究主要集中在经典的视觉语言模型架构（如CLIP或ViT）和特定任务（如识别和分类）。然而，对LVLM（如LLaVA）及更普遍任务（例如视觉问答和视觉推理）的探索仍不足。在本文中，我们首先对LVLMs中的长尾问题进行了深入分析，并确定了两个核心原因：头部概念的过度表示和尾部概念的不足表示。基于上述观察，我们提出了一种自适应数据优化框架（ADR），该框架包含两个阶段：数据重新平衡（DR）和数据合成（DS）。在DR阶段，我们基于实体分布自适应地重新平衡冗余数据，而在DS阶段，我们利用去噪扩散概率模型（DDPMs）和稀缺图像来补充未充分表示的部分。通过对11个基准的全面评估，我们提出的ADR有效减轻了训练数据中的长尾问题，提高了LLaVA 1.5的平均性能相对4.36％，而没有增加训练数据量。\n\n论文标题：从头部到尾部：通过自适应数据校准实现大规模视觉-语言模型的平衡表示\n\n作者：宋明阳、曲晓晔、周家伟、程宇\n\n评论：已被CVPR 2025接收\n\n链接：https://arxiv.org/pdf/2503.12821.pdf",
+        "地址": "https://arxiv.org/pdf/2503.12821.pdf"
+    },
+    {
+        "名称": "2025 [2503.17069] PVChat: Personalized Video Chat with One-Shot Learning.pdf",
+        "作者": "Yufei Shi, Weilong Yan, Gang Xu, Yumeng Li, Yuchen Li, Zhenxi Li, Fei Richard Yu, Ming Li, Si Yong Yeo",
+        "摘要": "摘要：视频大语言模型（ViLLMs）在一般视频理解方面表现出色，例如识别说话和进食等活动，但在身份感知理解方面存在困难，例如“威尔逊正在接受化疗”或“汤姆正在与萨拉讨论”，这限制了它们在智能医疗和智能家居环境中的应用。为了解决这一限制，我们提出了一种一次性学习框架PVChat，这是首个个性化ViLLM，能够从每个主体的单个视频中进行主体感知问答（QA）。我们的方法通过优化一种增强型ViLLM的头部混合（MoH）在合成增强的视频QA数据集上实现，利用渐进的图像到视频学习策略。具体而言，我们引入了一条自动增强管道，该管道合成身份保持的正样本，并从现有的视频语料库中检索困难的负样本，生成包含四种QA类型的多样化训练数据集：存在、外观、动作和位置查询。为了增强主体特定的学习，我们提出了一种ReLU路由MoH注意机制，以及两个新颖的目标：（1）平滑接近正则化，通过指数距离缩放实现渐进学习，和（2）头部激活增强，平衡注意力路由。最后，我们采用了一个两阶段的训练策略，从图像预训练过渡到视频微调，实现了从静态属性到动态表示的逐步学习过程。我们在涵盖医疗场景、电视剧、动漫和现实生活片段的多样化数据集上评估了PVChat，证明了其在学习单个视频后的个性化特征理解方面优于最先进的ViLLMs。\n\n作者：石宇飞, 闫伟龙, 许刚, 李郁盟, 李宇宸, 李震西, 俞斐, 李明, 杨巍雄\n链接：https://arxiv.org/pdf/2503.17069.pdf",
+        "地址": "https://arxiv.org/pdf/2503.17069.pdf"
+    },
+    {
+        "名称": "2025 [2503.16921] When Preferences Diverge: Aligning Diffusion Models with Minority-Aware Adaptive DPO.pdf",
+        "作者": "Lingfan Zhang, Chen Liu, Chengming Xu, Kai Hu, Donghao Luo, Chengjie Wang, Yanwei Fu, Yuan Yao",
+        "摘要": "**摘要：**近年来，图像生成领域取得了显著进展，特别是在将模型与普遍的人类偏好对齐的微调方法方面。本文探讨了偏好数据在扩散模型训练过程中的关键作用，尤其是在Diffusion-DPO及其后续改编中的应用。我们研究了图像生成中普遍人类偏好的复杂性，突显了这些偏好具有主观性以及偏好数据集中少数样本带来的挑战。通过初步实验，我们展示了少数样本的存在及其对模型性能的有害影响。我们提出了一种新方法——自适应DPO（Adaptive-DPO），它将少数实例感知度量纳入DPO目标中。这种度量包括注释者内部信心和注释者之间稳定性，用于区分多数样本和少数样本。我们引入了一种自适应DPO损失函数，通过两种方式改进了DPO损失：增强模型对多数标签的学习，同时减轻少数样本的负面影响。我们的实验表明，该方法有效处理了合成的少数数据和真实世界的偏好数据，为图像生成任务中更有效的训练方法铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2503.16921.pdf"
+    },
+    {
+        "名称": "2025 [2503.11572] Implicit Bias-Like Patterns in Reasoning Models.pdf",
+        "作者": "Messi H.J. Lee, Calvin K. Lai",
+        "摘要": "摘要：隐性偏见是指在知觉、判断和行为方面自动或自发的心理过程。先前研究在研究大型语言模型 (LLMs) 中的“隐性偏见”时，通常主要关注模型输出而不是模型处理，这与在人类中研究这种现象的方式有所不同。为了检验模型处理，我们提出了一种名为推理模型隐性联想测验 (RM-IAT) 的方法，用于研究推理模型中的类似隐性偏见模式：这些LLM通过逐步推理解决复杂任务。使用这一方法，我们发现推理模型在处理不符合联想的信息时比处理符合联想的信息需要更多的标记数。这些发现表明，人工智能系统在处理信息时存在类似于人类隐性偏见的模式。我们探讨了这些隐性偏见样式被应用于现实世界中的影响。\n\n作者：Messi H.J. Lee, Calvin K. Lai\n链接: https://arxiv.org/pdf/2503.11572.pdf\n标题：2025 [2503.11572] 推理模型中的隐性偏见类似模式",
+        "地址": "https://arxiv.org/pdf/2503.11572.pdf"
+    },
+    {
+        "名称": "2025 [2503.16423] GAEA: A Geolocation Aware Conversational Model.pdf",
+        "作者": "Ron Campos, Ashmal Vayani, Parth Parag Kulkarni, Rohit Gupta, Aritra Dutta, Mubarak Shah",
+        "摘要": "摘要: 图像地理定位是一个充满挑战的任务，传统上AI模型预测图像的精确GPS坐标，具有许多下游应用。然而，用户只能利用模型获取GPS坐标，模型缺乏对位置的理解以及与用户交流的能力。近年来，随着大型多模态模型（LMMs）的巨大进步，研究人员尝试通过LMMs进行图像地理定位。然而，问题仍未得到解决；在更专业的下游任务中，如地理定位，LMMs表现不佳。在这项工作中，我们提出通过引入一个对话模型GAEA来解决这一问题，该模型可以根据用户需要提供有关图像位置的信息。当前没有可用于训练此类模型的大规模数据集。因此，我们提出了GAEA-1.6M，一个包含80万张图像和大约160万对问答对的综合数据集，利用了OpenStreetMap（OSM）属性和地理环境线索。为定量评估，我们提出了一个多样化的基准测试GAEA-Bench，包括4000对图文对，以评估具有多样化问题类型的对话能力。我们考察了11个最先进的开源和专有LMMs，结果表明GAEA显著优于最佳的开源模型LLaVA-OneVision25.69%和最佳的专有模型GPT-4o8.28%。我们的数据集、模型和代码均已公开。\n\n论文标题: GAEA: A Geolocation Aware Conversational Model\n作者: Ron Campos, Ashmal Vayani, Parth Parag Kulkarni, Rohit Gupta, Aritra Dutta, Mubarak Shah\n评论: 本提交中使用的数据集和代码可在以下网址获取: [链接](https://arxiv.org/pdf/2503.16423.pdf)\n年份: 2025",
+        "地址": "https://arxiv.org/pdf/2503.16423.pdf"
+    },
+    {
+        "名称": "2025 [2503.17407] A Comprehensive Survey on Long Context Language Modeling.pdf",
+        "作者": "Jiaheng Liu, Dawei Zhu, Zhiqi Bai, Yancheng He, Huanxuan Liao, Haoran Que, Zekun Wang, Chenchen Zhang, Ge Zhang, Jiebin Zhang, Yuanxing Zhang, Zhuo Chen, Hangyu Guo, Shilong Li, Ziqiang Liu, Yong Shan, Yifan Song, Jiayi Tian, Wenhao Wu, Zhejian Zhou, Ruijie Zhu, Junlan Feng, Yang Gao, Shizhu He, Zhoujun Li, Tianyu Liu, Fanyu Meng, Wenbo Su, Yingshui Tan, Zili Wang, Jian Yang, Wei Ye, Bo Zheng, Wangchunshu Zhou, Wenhao Huang, Sujian Li, Zhaoxiang Zhang",
+        "摘要": "摘要：在自然语言处理领域，高效处理长文本一直是一个持续的追求。随着长文档、对话和其他文本数据的增加，开发能够有效处理和分析大规模输入的长上下文语言模型（LCLMs）变得至关重要。在本文中，我们对长上下文大语言模型的最新进展进行了全面综述。我们的调研围绕三个关键方面进行：如何获得高效的LCLMs，如何高效地训练和部署LCLMs，以及如何全面评估和分析LCLMs。在第一个方面，我们探讨了面向长上下文处理的数据策略、架构设计和工作流程方法。在第二个方面，我们详细审视了LCLM训练和推理所需的基础设施。在第三个方面，我们提出了长上下文理解和长文本生成的评估范式，并分析了LCLMs的行为以及机制的可解释性。除了这三个关键方面之外，我们还深入探讨了现有LCLMs的多种应用场景，并概述了未来的发展方向。本综述提供了关于长上下文大语言模型的最新文献回顾，希望成为研究人员和工程师的宝贵资源。关联的GitHub库收集了最新的论文和仓库，网址为：[this https URL]{\\color[RGB]{175,36,67}{LCLM-Horizon}}。",
+        "地址": "https://arxiv.org/pdf/2503.17407.pdf"
+    },
+    {
+        "名称": "2025 [2503.16282] Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model.pdf",
+        "作者": "Zhaochong An, Guolei Sun, Yun Liu, Runjia Li, Junlin Han, Ender Konukoglu, Serge Belongie",
+        "摘要": "摘要：\n广义少样本3D点云分割（GFS-PCS）在保留基础类分割的基础上，通过少量支持样本将模型适应到新类。现有的GFS-PCS方法通过与支持或查询特征交互来增强原型，但受限于少样本数据的稀疏知识。同 时，3D视觉语言模型（3D VLMs）在跨开放世界的新类上泛化，包含丰富但噪声较多的新类知识。在这项工作中，我们引入了一个GFS-PCS框架，结合了来自3D VLMs的稠密但噪声的伪标注和精确但稀疏的少样本，以最大化两者的优势，命名为GFS-VL。具体来说，我们提出了一种原型引导的伪标注选择方法，以过滤低质量区域，其后是一个自适应填充策略，结合伪标注上下文和少样本的知识，以自适应标注过滤且未标注的区域。此外，我们设计了一种新颖的基础混合策略，将少样本嵌入训练场景中，保留必要的上下文以改善新类学习。此外，鉴于当前GFS-PCS基准的多样性有限，我们引入了两个具有多样性新类的挑战性基准，用于全面的泛化评估。实验验证了我们框架在不同模型和数据集上的有效性。我们的方法和基准为在现实世界中推进GFS-PCS提供了坚实的基础。代码链接请见此处：https URL",
+        "地址": "https://arxiv.org/pdf/2503.16282.pdf"
+    },
+    {
+        "名称": "2025 [2503.14607] Can Large Vision Language Models Read Maps Like a Human?.pdf",
+        "作者": "Shuo Xing, Zezhou Sun, Shuangyu Xie, Kaiyuan Chen, Yanjia Huang, Yuping Wang, Jiachen Li, Dezhen Song, Zhengzhong Tu",
+        "摘要": "摘要：在本文中，我们介绍了MapBench，这是第一个专门为人类可读的、基于像素的户外导航设计的数据集，整理自复杂的路径查找场景。MapBench包含来自100个不同地图的1600多个像素空间地图路径查找问题。在MapBench中，LVLMs在给定地图图像和有始终标志查询的情况下生成基于语言的导航指示。对于每张地图，MapBench提供地图空间场景图（MSSG）作为索引数据结构，用于在自然语言之间转换并评估LVLM生成的结果。我们展示了MapBench在零样本提示和增链式思维（CoT）增强的推理框架下对最先进的LVLMs构成了显著挑战，这种框架将地图导航分解为连续的认知过程。我们对开源和闭源LVLMs的评估强调了MapBench提出的巨大难题，揭示了它们在空间推理和结构化决策能力方面的关键限制。我们在此网址发布了所有代码和数据集：https://arxiv.org/pdf/2503.14607.pdf。\n\nAuthors：邢硕、孙泽州、谢双玉、陈开元、黄艳嘉、王玉萍、李嘉辰、宋德真、涂正中。",
+        "地址": "https://arxiv.org/pdf/2503.14607.pdf"
+    },
+    {
+        "名称": "2025 [2503.17095] FFaceNeRF: Few-shot Face Editing in Neural Radiance Fields.pdf",
+        "作者": "Kwan Yun, Chaelin Kim, Hangyeul Shin, Junyong Noh",
+        "摘要": "摘要: 最近的使用掩模的3D人脸编辑方法通过利用神经辐射场(NeRF)生成了高质量的编辑图像。尽管其性能令人印象深刻，现有方法由于使用预训练的分割掩模，通常提供有限的用户控制。要使用具有期望布局的掩模，需要大量训练数据集，这收集起来具有挑战性。我们提出了FFaceNeRF，一种基于NeRF的人脸编辑技术，它可以克服由于使用固定掩模布局而导致的用户控制有限的问题。我们的方法使用几何适配器和特征注入，允许有效操控几何属性。此外，我们采用隐空间混合进行三平面数据增广，这使得仅需少量样本即可完成训练。这有助于快速适应期望的掩模布局，对于个性化医疗成像或创意人脸编辑等领域的应用至关重要。我们的对比评估表明，FFaceNeRF在灵活性、控制性和生成的图像质量方面超越现有基于掩模的人脸编辑方法，为定制化和高保真3D人脸编辑的未来进步铺平了道路。代码可以在{\\\\href{this https URL}{project-page}}获得。\n\n作者: Kwan Yun, Chaelin Kim, Hangyeul Shin, Junyong Noh\n\n备注: 论文将在CVPR2025会议上发表，共11页，包含14个图。\n\n论文网址: https://arxiv.org/pdf/2503.17095.pdf\n\n标题: 2025 [2503.17095] FFaceNeRF: 少样本神经辐射场人脸编辑技术.pdf",
+        "地址": "https://arxiv.org/pdf/2503.17095.pdf"
+    }
+]
