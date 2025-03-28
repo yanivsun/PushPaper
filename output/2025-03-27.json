@@ -1,0 +1,164 @@
+[
+    {
+        "名称": "2025 [2503.20215] Qwen2.5-Omni Technical Report.pdf",
+        "作者": "Jin Xu, Zhifang Guo, Jinzheng He, Hangrui Hu, Ting He, Shuai Bai, Keqin Chen, Jialin Wang, Yang Fan, Kai Dang, Bin Zhang, Xiong Wang, Yunfei Chu, Junyang Lin",
+        "摘要": "摘要：在本报告中，我们介绍了Qwen2.5-Omni，这是一种端到端的多模态模型，旨在感知多种模态，包括文本、图像、音频和视频，同时以流媒体方式生成文本和自然语音响应。为了实现多模态信息输入的流传输，音频和视觉编码器都采用分块处理方法。为了同步视频输入与音频的时间戳，我们将音频和视频按顺序交替排列，并提出了一种名为TMRoPE（时间对齐多模态RoPE）的新位置嵌入方法。为了同时生成文本和语音并避免两种模态之间的干扰，我们提出了Thinker-Talker架构。在该框架中，Thinker作为大型语言模型负责文本生成，而Talker是双轨自回归模型，直接利用Thinker的隐藏表征生成音频标记。Thinker和Talker模型都是以端到端方式设计进行训练和推理的。为了以流媒体方式解码音频标记，我们引入了滑动窗口DiT，限制感受域，旨在减少初始包延迟。Qwen2.5-Omni与同类大小的Qwen2.5-VL相当，并且优于Qwen2-Audio。此外，Qwen2.5-Omni在Omni-Bench等多模态基准测试中达到了最先进的性能。值得注意的是，Qwen2.5-Omni在端到端语音指令跟随性能上与其文本输入能力相当，这在MMLU和GSM8K等基准测试中得到了证实。至于语音生成，Qwen2.5-Omni的流媒体Talker在鲁棒性和自然性上优于大多数现有的流媒体和非流媒体替代方案。",
+        "地址": "https://arxiv.org/pdf/2503.20215.pdf"
+    },
+    {
+        "名称": "2025 [2503.19757] Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy.pdf",
+        "作者": "Zhi Hou, Tianyi Zhang, Yuwen Xiong, Haonan Duan, Hengjun Pu, Ronglei Tong, Chengyang Zhao, Xizhou Zhu, Yu Qiao, Jifeng Dai, Yuntao Chen",
+        "摘要": "摘要：尽管近年来在多样化机器人数据集上训练的视觉-语言-动作模型在有限域数据中的泛化能力表现出色，但它们依赖于紧凑的动作头来预测离散或连续动作，限制了对异构动作空间的适应性。我们提出了Dita，一个利用Transformer架构通过统一的多模态扩散过程直接去噪连续动作序列的可扩展框架。与先前通过浅层网络在融合嵌入上进行去噪的方法不同，Dita采用上下文调节，能够在去噪动作和历史观察的原始视觉标记之间实现细粒度配准。这个设计明确地建立动作增量和环境细微差别的模型。通过扩大扩散动作去噪器与Transformer的可扩展性，Dita有效地整合了跨多个视角、观察场景、任务和动作空间的跨主体数据集。这种协同作用增强了对各种变化的鲁棒性并促进了长远任务的成功执行。在广泛基准测试中，评估显示其具有最先进或可比的性能，特别是在仿真中。值得注意的是，Dita通过10次微调，仅使用第三人称摄像头输入，就能在现实世界中对环境变化和复杂的长远任务实现鲁棒的适应。该架构为通用机器人策略学习建立了一个多功能、轻量级且开源的基准。项目页面: this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.19757.pdf"
+    },
+    {
+        "名称": "2025 [2503.20314] Wan: Open and Advanced Large-Scale Video Generative Models.pdf",
+        "作者": "WanTeam: Ang Wang, Baole Ai, Bin Wen, Chaojie Mao, Chen-Wei Xie, Di Chen, Feiwu Yu, Haiming Zhao, Jianxiao Yang, Jianyuan Zeng, Jiayu Wang, Jingfeng Zhang, Jingren Zhou, Jinkai Wang, Jixuan Chen, Kai Zhu, Kang Zhao, Keyu Yan, Lianghua Huang, Mengyang Feng, Ningyi Zhang, Pandeng Li, Pingyu Wu, Ruihang Chu, Ruili Feng, Shiwei Zhang, Siyang Sun, Tao Fang, Tianxing Wang, Tianyi Gui, Tingyu Weng, Tong Shen, Wei Lin, Wei Wang, Wei Wang, Wenmeng Zhou, Wente Wang, Wenting Shen, Wenyuan Yu, Xianzhong Shi, Xiaoming Huang, Xin Xu, Yan Kou, Yangyu Lv, Yifei Li, Yijing Liu, Yiming Wang, Yingya Zhang, Yitong Huang, Yong Li, You Wu, Yu Liu, Yulin Pan, Yun Zheng, Yuntao Hong, Yupeng Shi, Yutong Feng, Zeyinzi Jiang, Zhen Han, Zhi-Fan Wu, Ziyu Liu",
+        "摘要": "摘要：这份报告介绍了Wan，一个旨在推进视频生成边界的全面且开放的视频基础模型套件。基于主流的扩散变压器范式，Wan通过一系列创新实现了生成能力的重大进步，包括我们新颖的VAE、可扩展的预训练策略、大规模的数据策划和自动化评估指标。这些贡献共同提升了模型的性能和多功能性。具体来说，Wan具有以下四个主要特点：\n\n1. **领先的性能**：Wan的14B模型在包含数十亿张图像和视频的海量数据集上训练，展示了视频生成相对于数据和模型规模的扩展规律。它在多个内部和外部基准上持续优于现有的开源模型以及最先进的商业解决方案，表现出明显且显著的性能优势。\n2. **多样性**：Wan提供了两个功能强大的模型，即1.3B和14B参数，分别以效率和效果为目标。它还涵盖多个下游应用，包括图像到视频、指令引导视频编辑和个人视频生成，涵盖多达八项任务。\n3. **消费级效率**：1.3B模型展示了卓越的资源效率，仅需8.19 GB VRAM，使其与各种消费级GPU兼容。\n4. **开放性**：我们开源了整个系列的Wan，包括源代码和所有模型，旨在促进视频生成社区的成长。这种开放性期望显著扩展视频制作在行业中的创造可能性，并为学术界提供高质量的视频基础模型。所有代码和模型可通过此https URL获取。\n\n作者：Wan团队：Ang Wang, Baole Ai, Bin Wen, Chaojie Mao, Chen-Wei Xie, Di Chen, Feiwu Yu, Haiming Zhao, Jianxiao Yang, Jianyuan Zeng, Jiayu Wang, Jingfeng Zhang, Jingren Zhou, Jinkai Wang, Jixuan Chen, Kai Zhu, Kang Zhao, Keyu Yan, Lianghua Huang, Mengyang Feng, Ningyi Zhang, Pandeng Li, Pingyu Wu, Ruihang Chu, Ruili Feng, Shiwei Zhang, Siyang Sun, Tao Fang, Tianxing Wang, Tianyi Gui, Tingyu Weng, Tong Shen, Wei Lin, Wei Wang, Wei Wang, Wenmeng Zhou, Wente Wang, Wenting Shen, Wenyuan Yu, Xianzhong Shi, Xiaoming Huang, Xin Xu, Yan Kou, Yangyu Lv, Yifei Li, Yijing Liu, Yiming Wang, Yingya Zhang, Yitong Huang, Yong Li, You Wu, Yu Liu, Yulin Pan, Yun Zheng, Yuntao Hong, Yupeng Shi, Yutong Feng, Zeyinzi Jiang, Zhen Han, Zhi-Fan Wu, Ziyu Liu\n\n评论：60页，33幅图\n\n网址：[https://arxiv.org/pdf/2503.20314.pdf](https://arxiv.org/pdf/2503.20314.pdf)\n\n标题：2025 [2503.20314] Wan：开放和先进的大规模视频生成模型",
+        "地址": "https://arxiv.org/pdf/2503.20314.pdf"
+    },
+    {
+        "名称": "2025 [2503.19990] LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?.pdf",
+        "作者": "Kexian Tang, Junyao Gao, Yanhong Zeng, Haodong Duan, Yanan Sun, Zhening Xing, Wenran Liu, Kaifeng Lyu, Kai Chen",
+        "摘要": "摘要：多步骤的空间推理涉及理解和推理跨越多个顺序步骤的空间关系，这对于解决复杂的现实世界应用（如机器人操作、自主导航和自动化组装）至关重要。为了评估当前的多模态大型语言模型（MLLMs）掌握这一基本能力的程度，我们引入了\\textbf{LEGO-Puzzles}，这是一个可扩展的基准，旨在通过基于乐高的任务评估MLLMs的\\textbf{空间理解}和\\textbf{顺序推理}。LEGO-Puzzles由1100个精心策划的视觉问答（VQA）样本组成，涵盖11个不同的任务，从基本的空间理解到复杂的多步骤推理。基于LEGO-Puzzles，我们对最先进的MLLMs进行了全面评估，并发现它们在空间推理能力方面存在显著局限性：即使是最强大的MLLMs也只能回答大约一半的测试案例，而人类参与者的准确率超过90%。除了VQA任务外，我们还评估了MLLMs在按照组装说明生成乐高图像的能力。我们的实验表明，只有Gemini-2.0-Flash和GPT-4o表现出有限的按说明操作的能力，而其他MLLMs要么复制输入图像，要么生成完全不相关的输出。总体而言，LEGO-Puzzles揭示了现有MLLMs在空间理解和顺序推理能力上的关键不足，并强调了多模态空间推理进一步发展的必要性。",
+        "地址": "https://arxiv.org/pdf/2503.19990.pdf"
+    },
+    {
+        "名称": "2025 [2503.20201] Open Deep Search: Democratizing Search with Open-source Reasoning Agents.pdf",
+        "作者": "Salaheddin Alzubi, Creston Brooks, Purva Chiniya, Edoardo Contente, Chiara von Gerlach, Lucas Irwin, Yihan Jiang, Arda Kaz, Windsor Nguyen, Sewoong Oh, Himanshu Tyagi, Pramod Viswanath",
+        "摘要": "摘要：我们介绍了开放深度搜索（Open Deep Search, 简称ODS），旨在弥合专有搜索AI解决方案（如Perplexity的Sonar推理专业版和OpenAI的GPT-4o搜索预览版）与其开源对应方案之间日益扩大的差距。ODS的主要创新是增强最新开源LLM（大规模语言模型）的推理能力，这些能力通过能够合理使用网络搜索工具来回答查询的推理代理实现。具体来说，ODS包含两个组件，这两个组件与用户选择的基础LLM协同工作：开放搜索工具（Open Search Tool）和开放推理代理（Open Reasoning Agent）。开放推理代理解释给定的任务，并通过组织一系列操作（包括调用工具）来完成任务，其中之一是开放搜索工具。开放搜索工具是一种新颖的网络搜索工具，其性能优于专有的对应工具。结合强大的开源推理LLM（如DeepSeek-R1），ODS几乎达到并有时甚至超越了两个基准测试上的现有最先进水平：SimpleQA和FRAMES。例如，在FRAMES评估基准测试中，ODS将最近发布的GPT-4o搜索预览版的最佳现有基准提高了9.7%的准确率。ODS是一个通用框架，可以无缝地为任何LLMs（例如在SimpleQA上达到82.4%，在FRAMES上达到30.1%的DeepSeek-R1）增强搜索和推理能力，以实现最先进的性能：在SimpleQA上达到88.3%，在FRAMES上达到75.3%。\n\n（翻译至此完毕）",
+        "地址": "https://arxiv.org/pdf/2503.20201.pdf"
+    },
+    {
+        "名称": "2025 [2503.20240] Unconditional Priors Matter! Improving Conditional Generation of Fine-Tuned Diffusion Models.pdf",
+        "作者": "Prin Phunyaphibarn, Phillip Y. Lee, Jaihoon Kim, Minhyuk Sung",
+        "摘要": "摘要：无分类指导（Classifier-Free Guidance, CFG）是一种在训练条件扩散模型中的基本技术。基于CFG的训练通常采用一个单一网络来学习条件和无条件噪声预测，并在条件化时使用较小的丢失率（dropout rate）。然而，我们观察到，在训练中有限带宽下的无条件噪声的联合学习导致了不好的无条件先验。更重要的是，这些糟糕的无条件噪声预测成为降低条件生成质量的一个关键原因。鉴于大多数基于CFG的条件模型是通过微调具有更好无条件生成的基础模型训练的，我们首先展示了简单地将CFG中的无条件噪声替换为基础模型预测的噪声可以显著提高条件生成质量。此外，我们还展示了可以使用与微调模型训练时不同的扩散模型进行无条件噪声替换。我们通过实验验证了我们的主张，这些实验包括针对图像和视频生成的一系列基于CFG的条件模型，如Zero-1-to-3、Versatile Diffusion、DiT、DynamiCrafter和InstructPix2Pix。\n\n作者：Prin Phunyaphibarn, Phillip Y. Lee, Jaihoon Kim, Minhyuk Sung\n\nURL：https://arxiv.org/pdf/2503.20240.pdf\n\n标题：无条件先验很重要！改善微调扩散模型的条件生成",
+        "地址": "https://arxiv.org/pdf/2503.20240.pdf"
+    },
+    {
+        "名称": "2025 [2503.19480] GenHancer: Imperfect Generative Models are Secretly Strong Vision-Centric Enhancers.pdf",
+        "作者": "Shijie Ma, Yuying Ge, Teng Wang, Yuxin Guo, Yixiao Ge, Ying Shan",
+        "摘要": "摘要：生成模型和判别模型之间的协同作用正受到越来越多的关注。尽管判别式的对比语言-图像预训练（CLIP）在高级语义上表现出色，但其在感知细粒度视觉细节方面却存在困难。通常，为了增强表示，生成模型将CLIP的视觉特征作为重建条件。然而，其背后的原理仍待深入研究。在这项工作中，我们通过实验证明，视觉上完美的生成并不总是最优的表示增强方式。关键在于有效提取生成模型中的细粒度知识，同时减轻无关信息的影响。为了探索关键因素，我们从三个方面进行了探讨：(1) 条件机制：我们发现即使是少量的局部token也会大大降低重建的难度，导致训练崩溃。因此，我们得出结论，使用全局视觉token作为条件是最有效的策略。(2) 去噪配置：我们观察到端到端训练会引入额外的信息。为了解决这个问题，我们提出了一种两阶段训练策略，以优先学习有用的视觉知识。此外，我们展示了轻量级去噪器可以带来显著的改进。(3) 生成范式：我们探索了连续和离散去噪器，结果令人满意，验证了我们方法的多样性。通过深入的探索，我们最终提出了一种有效的方法，即GenHancer，在MMVP-VLM基准上始终优于现有技术，例如在OpenAICLIP上提高了6.0%。增强后的CLIP可以进一步集成到多模态大型语言模型中，以获得更好的以视觉为中心的表现。所有模型和代码均已公开。\n\n翻译来源：https://arxiv.org/pdf/2503.19480.pdf",
+        "地址": "https://arxiv.org/pdf/2503.19480.pdf"
+    },
+    {
+        "名称": "2025 [2503.20020] Gemini Robotics: Bringing AI into the Physical World.pdf",
+        "作者": "Gemini Robotics Team, Saminda Abeyruwan, Joshua Ainslie, Jean-Baptiste Alayrac, Montserrat Gonzalez Arenas, Travis Armstrong, Ashwin Balakrishna, Robert Baruch, Maria Bauza, Michiel Blokzijl, Steven Bohez, Konstantinos Bousmalis, Anthony Brohan, Thomas Buschmann, Arunkumar Byravan, Serkan Cabi, Ken Caluwaerts, Federico Casarini, Oscar Chang, Jose Enrique Chen, Xi Chen, Hao-Tien Lewis Chiang, Krzysztof Choromanski, David D'Ambrosio, Sudeep Dasari, Todor Davchev, Coline Devin, Norman Di Palo, Tianli Ding, Adil Dostmohamed, Danny Driess, Yilun Du, Debidatta Dwibedi, Michael Elabd, Claudio Fantacci, Cody Fong, Erik Frey, Chuyuan Fu, Marissa Giustina, Keerthana Gopalakrishnan, Laura Graesser, Leonard Hasenclever, Nicolas Heess, Brandon Hernaez, Alexander Herzog, R. Alex Hofer, Jan Humplik, Atil Iscen, Mithun George Jacob, Deepali Jain, Ryan Julian, Dmitry Kalashnikov, M. Emre Karagozler, Stefani Karp, Chase Kew, Jerad Kirkland, Sean Kirmani, Yuheng Kuang, Thomas Lampe, Antoine Laurens, Isabel Leal, Alex X. Lee, Tsang-Wei Edward Lee, Jacky Liang, Yixin Lin, Sharath Maddineni, Anirudha Majumdar, Assaf Hurwitz Michaely, Robert Moreno, Michael Neunert, Francesco Nori, Carolina Parada, Emilio Parisotto, Peter Pastor, Acorn Pooley, Kanishka Rao, Krista Reymann, Dorsa Sadigh, Stefano Saliceti, Pannag Sanketi, Pierre Sermanet, Dhruv Shah, Mohit Sharma, Kathryn Shea, Charles Shu, Vikas Sindhwani, Sumeet Singh, Radu Soricut, Jost Tobias Springenberg, Rachel Sterneck, Razvan Surdulescu, Jie Tan, Jonathan Tompson, Vincent Vanhoucke, Jake Varley, Grace Vesom, Giulia Vezzani, Oriol Vinyals, Ayzaan Wahid, Stefan Welker\n\n\n        , Paul Wohlhart, Fei Xia, Ted Xiao, Annie Xie, Jinyu Xie, Peng Xu, Sichun Xu, Ying Xu, Zhuo Xu, Yuxiang Yang, Rui Yao, Sergey Yaroshenko, Wenhao Yu, Wentao Yuan, Jingwei Zhang, Tingnan Zhang, Allan Zhou, Yuxiang Zhou\n\n\n    et al. (18 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "以下是文章的中文翻译摘要：\n\n摘要：近期大型多模态模型的进展使得数字领域中出现了显著的通用能力，但将其应用于机器人等物理代理仍然是一个重大挑战。本报告介绍了一种全新的专为机器人设计的AI模型家族，基于Gemini 2.0 构建。我们展示了Gemini Robotics，一个先进的视觉-语言-动作（VLA）通用模型，能够直接控制机器人。Gemini Robotics能够执行平滑且反应迅速的动作，以应对广泛的复杂操作任务，同时对物体类型和位置变化具有鲁棒性，能够处理未见过的环境并遵循多样的开放词汇指令。我们展示了，通过额外的微调，Gemini Robotics可以专门化为新的能力，包括解决长远的高灵巧度任务，从少至100次演示中学习新的短期任务及适应全新的机器人形态。这成为可能是因为Gemini Robotics基于我们在此工作中介绍的第二个模型Gemini Robotics-ER模型，Gemini Robotics-ER（具身推理）将Gemini的多模态推理能力扩展到物理世界，具备增强的时空理解。这使得包括物体检测、指点、轨迹和抓取预测、多视角对应及3D边界框预测在内的与机器人相关的能力成为可能。我们展示了这种新颖组合如何支持多种机器人应用。我们还讨论并解决了与这种新型机器人基础模型相关的重要安全考虑。Gemini Robotics家族标志着开发通用机器人迈出了实质性的一步，使AI在物理世界中的潜力得到实现。\n\n来源：<https://arxiv.org/pdf/2503.20020.pdf>",
+        "地址": "https://arxiv.org/pdf/2503.20020.pdf"
+    },
+    {
+        "名称": "2025 [2503.19786] Gemma 3 Technical Report.pdf",
+        "作者": "Gemma Team: Aishwarya Kamath, Johan Ferret, Shreya Pathak, Nino Vieillard, Ramona Merhej, Sarah Perrin, Tatiana Matejovicova, Alexandre Ramé, Morgane Rivière, Louis Rouillard, Thomas Mesnard, Geoffrey Cideron, Jean-bastien Grill, Sabela Ramos, Edouard Yvinec, Michelle Casbon, Etienne Pot, Ivo Penchev, Gaël Liu, Francesco Visin, Kathleen Kenealy, Lucas Beyer, Xiaohai Zhai, Anton Tsitsulin, Robert Busa-Fekete, Alex Feng, Noveen Sachdeva, Benjamin Coleman, Yi Gao, Basil Mustafa, Iain Barr, Emilio Parisotto, David Tian, Matan Eyal, Colin Cherry, Jan-Thorsten Peter, Danila Sinopalnikov, Surya Bhupatiraju, Rishabh Agarwal, Mehran Kazemi, Dan Malkin, Ravin Kumar, David Vilar, Idan Brusilovsky, Jiaming Luo, Andreas Steiner, Abe Friesen, Abhanshu Sharma, Abheesht Sharma, Adi Mayrav Gilady, Adrian Goedeckemeyer, Alaa Saade, Alex Feng, Alexander Kolesnikov, Alexei Bendebury, Alvin Abdagic, Amit Vadi, András György, André Susano Pinto, Anil Das, Ankur Bapna, Antoine Miech, Antoine Yang, Antonia Paterson, Ashish Shenoy, Ayan Chakrabarti, Bilal Piot, Bo Wu, Bobak Shahriari, Bryce Petrini, Charlie Chen, Charline Le Lan, Christopher A. Choquette-Choo, CJ Carey, Cormac Brick, Daniel Deutsch, Danielle Eisenbud, Dee Cattle, Derek Cheng, Dimitris Paparas, Divyashree Shivakumar Sreepathihalli, Doug Reid, Dustin Tran, Dustin Zelle, Eric Noland, Erwin Huizenga, Eugene Kharitonov, Frederick Liu, Gagik Amirkhanyan, Glenn Cameron, Hadi Hashemi, Hanna Klimczak-Plucińska, Harman Singh, Harsh Mehta, Harshal Tushar Lehri, Hussein Hazimeh, Ian Ballantyne, Idan Szpektor, Ivan Nardini\n\n\n        , Jean Pouget-Abadie, Jetha Chan, Joe Stanton, John Wieting, Jonathan Lai, Jordi Orbay, Joseph Fernandez, Josh Newlan, Ju-yeong Ji, Jyotinder Singh, Kat Black, Kathy Yu, Kevin Hui, Kiran Vodrahalli, Klaus Greff, Linhai Qiu, Marcella Valentine, Marina Coelho, Marvin Ritter, Matt Hoffman, Matthew Watson, Mayank Chaturvedi, Michael Moynihan, Min Ma, Nabila Babar, Natasha Noy, Nathan Byrd, Nick Roy, Nikola Momchev, Nilay Chauhan, Noveen Sachdeva, Oskar Bunyan, Pankil Botarda, Paul Caron, Paul Kishan Rubenstein, Phil Culliton, Philipp Schmid, Pier Giuseppe Sessa, Pingmei Xu, Piotr Stanczyk, Pouya Tafti, Rakesh Shivanna, Renjie Wu, Renke Pan, Reza Rokni, Rob Willoughby, Rohith Vallu, Ryan Mullins, Sammy Jerome, Sara Smoot, Sertan Girgin, Shariq Iqbal, Shashir Reddy, Shruti Sheth, Siim Põder, Sijal Bhatnagar, Sindhu Raghuram Panyam, Sivan Eiger, Susan Zhang, Tianqi Liu, Trevor Yacovone, Tyler Liechty, Uday Kalra, Utku Evci, Vedant Misra, Vincent Roseberry, Vlad Feinberg, Vlad Kolesnikov, Woohyun Han, Woosuk Kwon, Xi Chen, Yinlam Chow, Yuvein Zhu, Zichuan Wei, Zoltan Egyed, Victor Cotruta, Minh Giang, Phoebe Kirk, Anand Rao, Kat Black, Nabila Babar, Jessica Lo, Erica Moreira, Luiz Gustavo Martins, Omar Sanseviero, Lucas Gonzalez, Zach Gleicher, Tris Warkentin, Vahab Mirrokni, Evan Senter, Eli Collins, Joelle Barral, Zoubin Ghahramani, Raia Hadsell, Yossi Matias, D. Sculley, Slav Petrov, Noah Fiedel, Noam Shazeer, Oriol Vinyals, Jeff Dean, Demis Hassabis, Koray Kavukcuoglu, Clement Farabet, Elena Buchatskaya, Jean-Baptiste Alayrac, Rohan Anil, Dmitry (Dima)Lepikhin, Sebastian Borgeaud, Olivier Bachem, Armand Joulin, Alek Andreev, Cassidy Hardin, Robert Dadashi, Léonard Hussenot\n\n\n    et al. (116 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们推出了Gemma 3，这是Gemma系列轻量级开源模型的一种多模态扩展，规模从1亿到270亿参数不等。这个版本引入了视觉理解能力、更广泛的语言覆盖范围以及至少128K标记的更长上下文。此外，我们改变了模型架构，以减少长上下文中容易爆炸的KV缓存内存。这是通过增加本地注意力层与全局注意力层的比例，并保持本地注意力跨度较短来实现的。Gemma 3模型通过蒸馏训练，与Gemma 2相比，预训练和指令微调的版本都表现优越。特别是，我们的新颖的后训练方法显著提高了数学、聊天、指令跟随和多语言能力，使Gemma3-4B-IT在基准测试中具有与Gemma2-27B-IT和Gemma3-27B-IT相媲美的竞争力。我们将所有模型公开发布给社区。\n\n",
+        "地址": "https://arxiv.org/pdf/2503.19786.pdf"
+    },
+    {
+        "名称": "2025 [2503.20672] BizGen: Advancing Article-level Visual Text Rendering for Infographics Generation.pdf",
+        "作者": "Yuyang Peng, Shishi Xiao, Keming Wu, Qisheng Liao, Bohan Chen, Kevin Lin, Danqing Huang, Ji Li, Yuhui Yuan",
+        "摘要": "摘要：近期，最先进的文本生成图像模型，如Flux和Ideogram 2.0，在句子级的可视化文本渲染方面取得了显著进展。本文聚焦于更具挑战性的文章级别的可视化文本渲染，并提出了一种基于用户提供的文章级描述性提示和超密布局，生成高质量商业内容（包括信息图和幻灯片）的新任务。基本的挑战有两个：显著较长的上下文长度和高质量商业内容数据的稀缺。\n\n与大多数以前关注有限数量的子区域和句子级提示的工作不同，确保商业内容中几十个甚至数百个子区域的超密布局的精确遵循要困难得多。我们做出了两个关键技术贡献：（i）构建了可扩展的高质量商业内容数据集，即Infographics-650K，通过实现分层检索增强的信息图生成方案，配置了超密布局和提示；以及（ii）布局引导的交叉注意力方案，将数十个区域级提示注入根据超密布局裁剪的区域潜在空间，在推理过程中利用布局条件CFG灵活地优化每个子区域。\n\n我们展示了我们的系统在BizEval提示集上的强大结果，相比之前的最先进系统Flux和SD3。此外，我们进行了详尽的消融实验，以验证每个组件的有效性。我们希望我们构建的Infographics-650K和BizEval能够鼓励更广泛的社区推进商业内容生成的进展。\n\n翻译：最近，最先进的文本生成图像模型，如Flux和Ideogram 2.0，在句子级可视化文本渲染方面取得了重大进展。本文聚焦于更具挑战性的文章级别视觉文本渲染，并提出了一项新任务，即基于用户提供的文章级描述性提示和超密布局生成高质量商业内容，包括信息图表和幻灯片。基本挑战有两个：显著更长的上下文长度和高质量商业内容数据的匮乏。\n\n与大多数关注有限子区域和句子级提示的以往工作不同，确保在商业内容中精确遵循几十个甚至数百个子区域的超密布局要困难得多。我们提出了两个关键技术贡献：（i）通过实现一个分层检索增强的信息图生成方案，构建了一个可扩展的高质量商业内容数据集Infographics-650K，配有超密布局和提示；（ii）一种布局引导的交叉注意方案，将数十个区域级提示注入到依据超密布局裁剪的区域潜在空间中，并在推理过程中利用布局条件CFG灵活优化每个子区域。\n\n我们展示了我们的系统在BizEval提示集上的强大结果，相比之前的最先进系统Flux和SD3。此外，我们进行了详尽的消融实验，以验证每个组件的有效性。我们希望我们构建的Infographics-650K和BizEval能够鼓励更广泛的社区推进商业内容生成的进展。",
+        "地址": "https://arxiv.org/pdf/2503.20672.pdf"
+    },
+    {
+        "名称": "2025 [2503.20757] MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search.pdf",
+        "作者": "Yunhai Hu, Yilun Zhao, Chen Zhao, Arman Cohan",
+        "摘要": "摘要: 我们介绍了MCTS-RAG，这是一种通过利用检索增强生成（RAG）提供相关上下文和蒙特卡罗树搜索（MCTS）优化推理路径的新方法，从而增强小型语言模型在知识密集型任务上的推理能力。MCTS-RAG通过迭代决策过程动态整合检索和推理。与标准RAG方法（通常独立于推理进行信息检索，因而集成知识效果欠佳）或传统的仅依赖于内部模型知识而无外部事实的MCTS推理不同，MCTS-RAG将结构化推理与自适应检索结合起来。这种集成方法增强了决策能力，减少了幻觉现象，并确保了事实准确性和响应一致性。我们在多个推理和知识密集型数据集（如ComplexWebQA, GPQA, FoolMeTwice）上的实验结果表明，该方法使小规模的语言模型能够通过有效放大推理时间计算量，达到与前沿大型语言模型（如GPT-4）相当的性能，树立了小规模模型推理的新标准。",
+        "地址": "https://arxiv.org/pdf/2503.20757.pdf"
+    },
+    {
+        "名称": "2025 [2503.19950] LogQuant: Log-Distributed 2-Bit Quantization of KV Cache with Superior Accuracy Preservation.pdf",
+        "作者": "Han Chen, Zicong Jiang, Zining Zhang, Bingsheng He, Pingyi Luo, Mian Lu, Yuqiang Chen",
+        "摘要": "摘要：我们介绍了LogQuant，这是一种突破性的用于大语言模型(LLM)推理中的KV缓存的2位量化技术，它在保持优异性能的同时，大幅节省了内存。先前的方法要么假设后来的标记更重要，要么试图基于先前的注意力模式预测重要标记。然而，这两种方法都可能导致性能瓶颈或频繁的误预测。LogQuant采用了一种不同的方法。通过应用基于对数的过滤机制，它在整个上下文中选择性地压缩KV缓存，实现了与现有方法相比在相同或甚至更少的内存占用下的更好性能。在基准测试中，它在不增加内存消耗的情况下，使吞吐量提高了25%，批量大小增加了60%。在诸如数学和代码完成等具有挑战性的任务中，LogQuant在相同压缩比下将准确性提高了40%到200%，超越了现有的可比方法。LogQuant可以无缝集成到流行的推理框架中，如Python的transformers库。实现代码可以在相关的网址中获得。\n\n摘要译文：\n我们介绍了LogQuant，这是一种突破性的用于大语言模型（LLM）推理中的2位KV缓存量化技术，在保持卓越性能的同时，大幅节省内存。之前的方法要么假设后续的token更重要，要么试图基于先前的注意力模式预测重要的token。然而，这两种方法都有可能导致性能瓶颈或频繁的错误预测。LogQuant采用了不同的方法。通过应用基于对数的过滤机制，它在整个上下文中选择性地压缩KV缓存，与现有方法相比，即使内存占用相同或更少，也能实现更好的性能。在基准测试中，它在不增加内存消耗的情况下，将吞吐量提高了25%，批大小提高了60%。对于数学和代码完成等具有挑战性的任务，LogQuant在相同压缩比下将准确性提高了40%到200%，超越了可比方法。LogQuant可以无缝集成到流行的推理框架中，比如Python的transformers库。实现代码可以在相关网址中获取。",
+        "地址": "https://arxiv.org/pdf/2503.19950.pdf"
+    },
+    {
+        "名称": "2025 [2503.20271] ViLBench: A Suite for Vision-Language Process Reward Modeling.pdf",
+        "作者": "Haoqin Tu, Weitao Feng, Hardy Chen, Hui Liu, Xianfeng Tang, Cihang Xie",
+        "摘要": "摘要: 过程监督奖励模型（PRMs）作为一种细粒度函数，提供详细的逐步反馈以帮助选择复杂任务的推理路径。尽管其具有优势，但PRMs的评估研究较少，尤其在多模态领域中。为了解决这个问题，本文在多个视觉-语言基准上将当前的视觉大语言模型（VLLMs）作为两类奖励模型进行基准测试：输出奖励模型（ORMs）和过程奖励模型（PRMs）。结果表明，无论ORM还是PRM都无法在所有任务中保持一致的优越表现，且较好的VLLMs不一定带来更好的奖励性能。为了进一步推进评估，本文引入了ViLBench，一个需要高强度过程奖励信号的视觉-语言基准。显著的是，OpenAI的具备思维链（CoT）的GPT-4o仅获得27.3%的准确率，表明当前VLLMs在此基准上的挑战。最后，我们初步展示了一条前景可观的途径以弥合通用VLLMs与奖励模型之间的差距：通过使用增强的树搜索算法收集了73.6K视觉-语言过程奖励数据，我们的3B模型在选择OpenAI o1的生成输出时，在ViLBench上的表现相比标准CoT平均提高了3.3%，相比未训练模型提高了最多2.5%。我们在这个https URL上发布了代码、模型和数据的实现。",
+        "地址": "https://arxiv.org/pdf/2503.20271.pdf"
+    },
+    {
+        "名称": "2025 [2503.19462] AccVideo: Accelerating Video Diffusion Model with Synthetic Dataset.pdf",
+        "作者": "Haiyu Zhang, Xinyuan Chen, Yaohui Wang, Xihui Liu, Yunhong Wang, Yu Qiao",
+        "摘要": "在视频生成领域，扩散模型已取得显著进展。然而，由于其迭代去噪的特性，生成视频需要大量的推理步骤，这既缓慢又计算成本高。在本文中，我们首先对现有扩散蒸馏方法所面临的挑战进行了详细分析，并提出了一种新颖的高效方法，即AccVideo，通过合成数据集来减少推理步骤，从而加速视频扩散模型。我们利用预训练的视频扩散模型生成多个有效的去噪轨迹作为我们的合成数据集，从而在蒸馏过程中避免使用无用的数据点。基于合成数据集，我们设计了一种基于轨迹的少步数引导方法，利用去噪轨迹中的关键数据点来学习从噪声到视频的映射，从而在较少步骤中生成视频。此外，由于合成数据集捕捉了每个扩散时间步的数据分布，我们引入了一种对抗训练策略，以使学生模型的输出分布与合成数据集对齐，从而提高视频质量。大量实验表明，与教师模型相比，我们的模型在生成速度上有8.5倍的提升，同时性能相当。与之前的加速方法相比，我们的方法能够生成质量和分辨率更高的视频，即5秒、720x1280、24fps。",
+        "地址": "https://arxiv.org/pdf/2503.19462.pdf"
+    },
+    {
+        "名称": "2025 [2503.19846] Attention IoU: Examining Biases in CelebA using Attention Maps.pdf",
+        "作者": "Aaron Serianni, Tyler Zhu, Olga Russakovsky, Vikram V. Ramaswamy",
+        "摘要": "摘要: 计算机视觉模型在各种数据集和任务中展示并放大了偏见。现有的量化分类模型偏见的方法主要关注数据集分布和子群体的模型表现，忽略了模型的内部工作机制。我们引入了Attention-IoU（交并比）指标及相关评分，利用注意力图揭示模型内部表示中的偏见，并识别可能导致偏见的图像特征。首先，我们在合成数据集Waterbirds上验证了Attention-IoU，证明该指标可以准确地衡量模型偏见。随后，我们分析了CelebA数据集，发现Attention-IoU揭示了超越准确性差异的相关性。通过研究带有保护属性“男性”的个体属性，我们考察了偏见在CelebA中特殊表示的方式。最后，通过对训练集的子样本化以改变属性相关性，我们展示了Attention-IoU揭示了数据集标签中不存在的潜在混杂变量。",
+        "地址": "https://arxiv.org/pdf/2503.19846.pdf"
+    },
+    {
+        "名称": "2025 [2503.20756] ADS-Edit: A Multimodal Knowledge Editing Dataset for Autonomous Driving Systems.pdf",
+        "作者": "Chenxi Wang, Jizhan Fang, Xiang Chen, Bozhong Tian, Ziwen Xu, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：最近在大型多模态模型（LMMs）方面的进展显示了在自动驾驶系统（ADS）中的应用前景。然而，由于交通知识的误解、复杂的道路条件以及车辆的多种状态，LMMs在ADS中的直接应用仍然面临挑战。为了解决这些挑战，我们提出了使用知识编辑技术，该技术能够在无需完全重新训练的情况下实现对模型行为的针对性修改。同时，我们介绍了ADS-Edit，这是一个专为自动驾驶系统设计的多模态知识编辑数据集，包括各种现实世界情景、多种数据类型以及全面的评估指标。我们进行了全面的实验，并得出了一些有趣的结论。我们希望我们的工作能推动知识编辑在自动驾驶领域的应用进步。代码和数据可在此网址获取：https://arxiv.org/pdf/2503.20756.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.20756.pdf"
+    },
+    {
+        "名称": "2025 [2503.20641] Unlocking Efficient Long-to-Short LLM Reasoning with Model Merging.pdf",
+        "作者": "Han Wu, Yuxuan Yao, Shuqi Liu, Zehua Liu, Xiaojin Fu, Xiongwei Han, Xing Li, Hui-Ling Zhen, Tao Zhong, Mingxuan Yuan",
+        "摘要": "摘要：大型语言模型（LLMs）从系统1推理到系统2推理的转变，在通过深思熟虑的迭代思维处理复杂任务方面取得了重要进展。然而，这种进步往往以牺牲效率为代价，因为模型倾向于过度思考，生成冗余的推理步骤而输出质量没有相应的提高。长短推理（L2S）成为解决这一挑战的一个有前景的解决方案，旨在平衡推理深度与实际效率。虽然现有的方法，如监督微调（SFT）、强化学习（RL）和提示工程，显示了潜力，但它们要么计算开销大要么不稳定。模型合并则提供了一种经济高效且稳健的替代方案，通过整合系统1模型的快速思考能力和系统2模型的条理性推理。在这项工作中，我们对L2S推理的模型合并进行了全面的实证研究，探索了多种方法，包括基于任务向量、SVD和激活信息的合并。我们的实验表明，模型合并可以在将平均响应长度减少多达55%的同时，保持或甚至提高基线性能。我们还通过广泛评估1.5B/7B/14B/32B模型，发现了模型规模与合并效率之间的强相关性。此外，我们调查了合并模型自我批判和自我纠正的能力，以及其根据任务复杂度调整响应长度的能力。我们的研究结果突显了模型合并作为L2S推理一种高效且有效的范式，提供了过度思考问题的实际解决方案，同时保持系统2推理的稳健性。这项工作可以在Github上找到。",
+        "地址": "https://arxiv.org/pdf/2503.20641.pdf"
+    },
+    {
+        "名称": "2025 [2503.20220] DINeMo: Learning Neural Mesh Models with no 3D Annotations.pdf",
+        "作者": "Weijie Guo, Guofeng Zhang, Wufei Ma, Alan Yuille",
+        "摘要": "摘要：类别级别的3D/6D姿态估计是全面理解3D场景的关键一步，可启用广泛的机器人和具身人工智能应用。最近的研究探索了从分析合成角度解决一系列2D和3D任务的神经网格模型。尽管这些方法在面对部分遮挡和域转移时增强了鲁棒性，但它们严重依赖于用于部分对比学习的3D注释，这限制了其适用类别并阻碍了效率的提升。在这项工作中，我们提出了DINeMo，一种利用来自大型视觉基础模型的伪对应关系进行训练的无3D注释新型神经网格模型。我们采用双向伪对应关系生成方法，该方法利用局部外观特征和全局上下文信息生成伪对应关系。在汽车数据集上的实验结果表明，我们的DINeMo在零样本和少样本3D姿态估计方面显著优于之前的方法，将与全监督方法的差距缩小了67.3%。当在训练中加入更多未标注图像时，我们的DINeMo也能够有效和高效地扩展，展示了其相对于依赖3D注释的监督学习方法的优势。我们的项目页面可在此HTTPS网址访问。",
+        "地址": "https://arxiv.org/pdf/2503.20220.pdf"
+    },
+    {
+        "名称": "2025 [2503.20198] Beyond Words: Advancing Long-Text Image Generation via Multimodal Autoregressive Models.pdf",
+        "作者": "Alex Jinpeng Wang, Linjie Li, Zhengyuan Yang, Lijuan Wang, Min Li",
+        "摘要": "摘要：近年来，自回归模型和扩散模型在生成具有简短场景文本的图像方面表现良好。然而，生成图像中的连贯长文本，例如幻灯片或文档中的段落，仍然是当前生成模型的一个主要挑战。我们提出了第一项专门针对长文本图像生成的研究，解决了现有文本到图像系统通常只能处理简短词组或单句的关键问题。通过对最先进的自回归生成模型的综合分析，我们确定图像tokenizer是影响文本生成质量的关键瓶颈。为了解决这一问题，我们引入了一种新颖的、专门针对文本的二进制tokenizer，旨在优化捕捉详细的场景文本特征。利用我们的tokenizer，我们开发了\\\\ModelName，一种多模态自回归模型，在生成高质量长文本图像方面表现出色，具有前所未有的保真度。我们的模型提供了强大的可控性，能够自定义文本属性，如字体风格、大小、颜色和对齐方式。大量实验表明，与SD3.5 Large~\\\\cite{sd3}和GPT4o~\\\\cite{gpt4o}结合DALL-E 3~\\\\cite{dalle3}相比，\\\\ModelName~在准确、一致和灵活地生成长文本方面显著优于它们。除其技术成就外，\\\\ModelName还为包含交错文档和PowerPoint生成等创新应用开辟了令人兴奋的机会，确立了长文本图像生成的新前沿。\n\n作者：Alex Jinpeng Wang, Linjie Li, Zhengyuan Yang, Lijuan Wang, Min Li\n\n链接：https://arxiv.org/pdf/2503.20198.pdf\n\n题目：2025 [2503.20198] Beyond Words: Advancing Long-Text Image Generation via Multimodal Autoregressive Models",
+        "地址": "https://arxiv.org/pdf/2503.20198.pdf"
+    },
+    {
+        "名称": "2025 [2503.17358] Image as an IMU: Estimating Camera Motion from a Single Motion-Blurred Image.pdf",
+        "作者": "Jerred Chen, Ronald Clark",
+        "摘要": "摘要（翻译为中文）：\n\n在许多机器人和VR/AR应用中，快速的相机运动会导致高水平的运动模糊，使现有的相机姿态估计方法失效。在这项工作中，我们提出了一个新的框架，将运动模糊作为运动估计的丰富线索，而不是将其视为不受欢迎的伪影。我们的方法通过直接从单个运动模糊图像中预测密集运动流场和单目深度图来工作。然后，我们在小运动假设下通过求解线性最小二乘问题恢复瞬时相机速度。本质上，我们的方法产生了一种类似于IMU的测量，能够鲁棒地捕捉快速且剧烈的相机运动。为了训练我们的模型，我们构建了一个大规模数据集，该数据集具有从ScanNet++v2派生的逼真的合成运动模糊，并通过在我们的全可微管道上端到端地训练真实数据来进一步优化我们的模型。在真实世界的基准测试中进行的广泛评估表明，我们的方法在角速度和平移速度估计方面达到了最先进的水平，优于当前的方法，如MASt3R和COLMAP。\n\n年份：2025\n作者：Jerred Chen, Ronald Clark\n注释：项目页面：this https URL\n链接：https://arxiv.org/pdf/2503.17358.pdf\n标题：2025 [2503.17358] 图像作为IMU：从单个运动模糊图像估计相机运动",
+        "地址": "https://arxiv.org/pdf/2503.17358.pdf"
+    },
+    {
+        "名称": "2025 [2503.16870] Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs.pdf",
+        "作者": "Anshumann, Mohd Abbas Zaidi, Akhil Kedia, Jinwoo Ahn, Taehwak Kwon, Kangwook Lee, Haejun Lee, Joohyung Lee",
+        "摘要": "摘要：知识蒸馏是一种高效的技术，可以通过预计算和缓存教师输出的logits有效地提取大型语言模型中的知识。然而，将其成功应用于预训练仍然鲜有探索。在这项工作中，我们证明了诸如缓存Top-K概率的稀疏知识蒸馏的天真方法虽然直观，但会为学生模型提供教师概率分布的偏差估计，导致性能和校准次优。我们提出了一种基于重要性抽样的方法\"随机抽样知识蒸馏\"，该方法提供无偏估计，在期望中保留梯度，并且需要存储显著更稀疏的logits。我们的方法可以在与基于交叉熵的训练相比开销较小(<10%)的情况下，显著加快学生模型的训练，同时在从300M到3B的各种模型尺寸中保持与完全蒸馏相当的竞争性能。\n\n作者：Anshumann, Mohd Abbas Zaidi, Akhil Kedia, Jinwoo Ahn, Taehwak Kwon, Kangwook Lee, Haejun Lee, Joohyung Lee\n\n备注：Anshumann, Mohd Abbas Zaidi 和 Akhil Kedia 贡献相同\n\n链接：https://arxiv.org/pdf/2503.16870.pdf\n\n标题：2025年 [2503.16870] 稀疏Logit抽样：加速LLMs中的知识蒸馏.pdf",
+        "地址": "https://arxiv.org/pdf/2503.16870.pdf"
+    },
+    {
+        "名称": "2025 [2503.19953] Self-Supervised Learning of Motion Concepts by Optimizing Counterfactuals.pdf",
+        "作者": "Stefan Stojanov, David Wendt, Seungwoo Kim, Rahul Venkatesh, Kevin Feigelis, Jiajun Wu, Daniel LK Yamins",
+        "摘要": "摘要: 估计视频中的运动是计算机视觉中的一个重要问题，具有许多后续的应用，包括可控视频生成和机器人技术。当前的解决方案主要是使用合成数据进行训练或需要调整特定情况的启发式算法，这固有地限制了这些模型在现实世界中的能力。尽管最近在大规模自监督视频学习方面取得了进展，但利用这些表示进行运动估计仍然相对较少探索。在这项工作中，我们开发了Opt-CWM，这是一种从预先训练的下一帧预测模型中进行流动和遮挡估计的自监督技术。Opt-CWM通过学习优化反事实探测器来从基本视频模型中提取运动信息，避免了固定启发式的需求，同时在不受限制的视频输入上进行训练。我们在实际视频的运动估计中实现了最先进的性能，而无需任何标记数据。",
+        "地址": "https://arxiv.org/pdf/2503.19953.pdf"
+    },
+    {
+        "名称": "2025 [2503.18929] Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training.pdf",
+        "作者": "Brian R. Bartoldson, Siddarth Venkatraman, James Diffenderfer, Moksh Jain, Tal Ben-Nun, Seanie Lee, Minsu Kim, Johan Obando-Ceron, Yoshua Bengio, Bhavya Kailkhura",
+        "摘要": "摘要: 增强学习 (RL) 是大型语言模型 (LLM) 训练后的关键组成部分。然而，现有用于训练后的策略算法本质上与经验回放缓冲区的使用不兼容，这些缓冲区可以通过分布式的非策略演员以可扩展的方式填充，以随着计算能力的增加增强探索。我们提出通过轨迹平衡与异步 (TBA) 来有效地获得回放缓冲区的这一益处，这是一个大规模可扩展的 LLM RL 系统。与现有方法不同，TBA 在搜索上使用了更大比例计算，持续生成非策略数据以供中心回放缓冲区使用。一个训练节点同时根据奖励或新近性从该缓冲区中抽样数据，使用轨迹平衡 (TB)，这是一个为 GFlowNets 引入的寻找多样性的 RL 目标来更新策略。TBA 提供了三个关键优势：（1）训练与搜索的解耦，加速训练墙钟时间 4 倍或更多；（2）通过大规模的非策略抽样改进多样性；（3）在稀疏奖励设置中进行可扩展搜索。在数学推理、偏好调整和自动化红队测试（多样且具有代表性的训练任务）方面，TBA 在速度和性能上均优于强基线。\n\n作者: Brian R. Bartoldson, Siddarth Venkatraman, James Diffenderfer, Moksh Jain, Tal Ben-Nun, Seanie Lee, Minsu Kim, Johan Obando-Ceron, Yoshua Bengio, Bhavya Kailkhura\n\n论文链接: [https://arxiv.org/pdf/2503.18929.pdf](https://arxiv.org/pdf/2503.18929.pdf)\n\n标题: 轨迹平衡与异步：分离探索与学习以实现快速、可扩展的 LLM 训练后处理",
+        "地址": "https://arxiv.org/pdf/2503.18929.pdf"
+    },
+    {
+        "名称": "2025 [2503.15893] UniHDSA: A Unified Relation Prediction Approach for Hierarchical Document Structure Analysis.pdf",
+        "作者": "Jiawei Wang, Kai Hu, Qiang Huo",
+        "摘要": "摘要：文档结构分析，又称文档布局分析，对于理解文档的物理布局和逻辑结构至关重要，并为信息检索、文档摘要、知识提取等任务提供支持。层次化文档结构分析（HDSA）特别旨在恢复使用层次化模式创建的文档中的层次结构。以往的研究主要有两种方法：一种是单独处理HDSA的特定子任务，如表格检测或阅读顺序预测；另一种是采用统一框架，使用多个分支或模块来处理不同任务。在这项工作中，我们提出了一种针对HDSA的统一关系预测方法，称为UniHDSA，它将各种HDSA子任务视为关系预测问题，并将关系预测标签整合到统一的标签空间中。这允许一个单一的关系预测模块同时处理多个任务，无论是在页面级别还是文档级别的结构分析。为了验证UniHDSA的有效性，我们开发了一个基于Transformer架构的多模态端到端系统。大量实验结果表明，我们的方法在层次化文档结构分析基准Comp-HRDoc上达到了最先进的性能，并在大规模文档布局分析数据集DocLayNet上获得了有竞争力的结果，有效地展示了我们方法在所有子任务上的优越性。Comp-HRDoc基准和UniHDSA的配置可以在此https URL上公开获取。\n\n翻译完成。\n\nNote: The translation keeps the technical details intact, ensuring that the essence and specificity of the original abstract are preserved while presenting it in Chinese.",
+        "地址": "https://arxiv.org/pdf/2503.15893.pdf"
+    },
+    {
+        "名称": "2025 [2503.10997] RONA: Pragmatically Diverse Image Captioning with Coherence Relations.pdf",
+        "作者": "Aashish Anantha Ramakrishnan, Aadarsh Anantha Ramakrishnan, Dongwon Lee",
+        "摘要": "摘要：写作助手（例如 Grammarly、Microsoft Copilot）传统上通过使用句法和语义变体来描述图像组件，从而生成各种图像标题。然而，人类编写的标题优先传达一个中心信息，并使用语用线索进行视觉描述。为了增强语用多样性，有必要探索其他方法将这些信息与视觉内容结合起来。为了解决这个问题，我们提出了一种新颖的多模式大语言模型（MLLM）提示策略，名为 RONA，它利用连贯关系作为变异轴。我们展示了 RONA 生成的标题在整体多样性和真实对齐方面优于多个领域的 MLLM 基准。我们的代码可在此网址获取：https://arxiv.org/pdf/2503.10997.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.10997.pdf"
+    },
+    {
+        "名称": "2025 [2503.20731] RecTable: Fast Modeling Tabular Data with Rectified Flow.pdf",
+        "作者": "Masane Fuchi, Tomohiro Takagi",
+        "摘要": "摘要：基于分数或扩散模型的高质量表格数据生成超越了基于GAN和VAE的模型。然而，这些方法需要大量的训练时间。本文介绍了RecTable，它采用了用于文本到图像生成和文本到视频生成的校正流建模。RecTable具有由几个叠加的门控线性单元块组成的简单架构。此外，我们的训练策略也很简单，结合了混合类型噪声分布和logit-normal时间步长分布。我们的实验表明，RecTable在与几种最先进的扩散和基于分数的模型相比时实现了竞争性性能，同时减少了所需的训练时间。我们的代码可在此HTTPS URL上获取。",
+        "地址": "https://arxiv.org/pdf/2503.20731.pdf"
+    },
+    {
+        "名称": "2025 [2503.17970] PathoHR: Breast Cancer Survival Prediction on High-Resolution Pathological Images.pdf",
+        "作者": "Yang Luo, Shiru Wang, Jun Liu, Jiaxuan Xiao, Rundong Xue, Zeyu Zhang, Hao Zhang, Yu Lu, Yang Zhao, Yutong Xie",
+        "摘要": "摘要：计算病理学中的乳腺癌生存预测由于肿瘤异质性而面临着巨大挑战。例如，病理图像中同一肿瘤的不同区域可能显示出不同的形态学和分子特征。这使得从全切片图像（WSI）中提取真正反映肿瘤侵袭潜力和可能生存结果的代表性特征变得困难。在本文中，我们提出了PathoHR，这是一种用于准确预测乳腺癌生存的新型流程，通过增强病理图像的任意大小来促进更有效的特征学习。我们的方法包括（1）集成一个即插即用的高分辨率视觉Transformer（ViT），以增强逐块WSI表示，使特征提取更加详细和全面，（2）系统评估多个高级相似度度量，用于比较WSI提取的特征，优化表示学习过程以更好地捕捉肿瘤特征，（3）证明通过增强的小图像块可以实现与原始大图像块相同或更优的预测准确性，同时显著降低计算开销。实验结果验证了PathoHR提供了一种将增强图像分辨率与优化特征学习相结合的潜在方法，以推动计算病理学的发展，提供了一个更准确和高效的乳腺癌生存预测的有希望的方向。代码将会在此https URL上提供。",
+        "地址": "https://arxiv.org/pdf/2503.17970.pdf"
+    }
+]
