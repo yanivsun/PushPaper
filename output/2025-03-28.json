@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2503.21776] Video-R1: Reinforcing Video Reasoning in MLLMs.pdf",
+        "作者": "Kaituo Feng, Kaixiong Gong, Bohao Li, Zonghao Guo, Yibing Wang, Tianshuo Peng, Benyou Wang, Xiangyu Yue",
+        "摘要": "摘要：受到DeepSeek-R1在通过基于规则的强化学习（RL）激发推理能力的成功启发，我们引入了Video-R1，作为系统探索在多模态大型语言模型（MLLMs）中激发视频推理的R1范式的首次尝试。然而，直接将GRPO算法的RL训练应用于视频推理面临两个主要挑战：(i) 缺乏视频推理的时间建模，以及(ii) 高质量视频推理数据的稀缺。为了解决这些问题，我们首先提出了T-GRPO算法，它鼓励模型利用视频中的时间信息进行推理。此外，我们在训练过程中不仅依赖视频数据，还纳入了高质量的图像推理数据。我们构建了两个数据集：用于SFT冷启动的Video-R1-COT-165k和用于RL训练的Video-R1-260k，这些数据集包含图像和视频数据。实验结果表明，Video-R1在视频推理基准测试（如VideoMMMU和VSI-Bench）以及一般视频基准（如MVBench和TempCompass等）上取得了显著的改进。值得注意的是，Video-R1-7B在视频空间推理基准VSI-Bench上达到了35.8%的准确率，超越了商业专有模型GPT-4o。所有代码、模型和数据均已发布。\n\n翻译为中文摘要：2025年，受到DeepSeek-R1通过基于规则的强化学习成功激发推理能力的启发，我们引入了Video-R1，首次系统地探索R1范式在多模态大型语言模型（MLLMs）中激发视频推理的应用。然而，直接将GRPO算法的强化学习训练应用于视频推理面临两个主要挑战：(i) 缺乏对视频推理的时间建模，(ii) 高质量视频推理数据稀缺。为了解决这些问题，我们提出了T-GRPO算法，鼓励模型在推理过程中利用视频的时间信息。此外，训练过程中不仅使用视频数据，亦纳入了高质量的图像推理数据。我们构建了两个数据集：用于SFT冷启动的Video-R1-COT-165k和用于RL训练的Video-R1-260k，这些数据集包含图像和视频数据。实验结果表明，Video-R1在视频推理基准测试（如VideoMMMU和VSI-Bench）以及其他视频基准（如MVBench和TempCompass等）上取得了显著提升。特别地，Video-R1-7B在视频空间推理基准VSI-Bench上达到了35.8%的准确率，超越了商业专有模型GPT-4o。所有代码、模型和数据均已经发布。",
+        "地址": "https://arxiv.org/pdf/2503.21776.pdf"
+    },
+    {
+        "名称": "2025 [2503.21620] UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning.pdf",
+        "作者": "Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Guanjing Xiong, Hongsheng Li",
+        "摘要": "摘要：最近的DeepSeek-R1展示了通过基于规则的奖励进行强化学习（RL），使大型语言模型（LLMs）具有推理能力。在此基础上，我们首次探索了基于规则的RL如何增强多模态大型语言模型（MLLMs）在图形用户界面（GUI）动作预测任务中的推理能力。为此，我们整理了一个小而高质量的数据集，包含136个具有挑战性的任务，涵盖了移动设备上五种常见的动作类型。我们还引入了统一的基于规则的动作奖励，能够通过基于策略的算法如Group Relative Policy Optimization（GRPO）进行模型优化。实验结果表明，我们提出的数据高效模型UI-R1-3B在域内（ID）和域外（OOD）任务上均取得了显著的改进。具体来说，在ID基准测试AndroidControl上，动作类型准确率提高了15%，而基础准确率提高了10.3%，相比于基础模型（即Qwen2.5-VL-3B）。在OOD GUI基准测试ScreenSpot-Pro上，我们的模型超过了基础模型6.0%，并且在与较大的模型（如通过监督微调（SFT）在76K数据上训练的OS-Atlas-7B）相比时取得了竞争力的表现。这些结果凸显出基于规则的强化学习在推进GUI理解和控制方面的潜力，为该领域未来的研究铺平了道路。\n\n作者：陆正熙，柴宇翔，郭雅轩，殷熙，刘梁，王浩，熊关景，李洪生\n\n链接：https://arxiv.org/pdf/2503.21620.pdf\n\n标题：2025 [2503.21620] UI-R1: 通过强化学习增强GUI代理的动作预测",
+        "地址": "https://arxiv.org/pdf/2503.21620.pdf"
+    },
+    {
+        "名称": "2025 [2503.21380] Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models.pdf",
+        "作者": "Haoxiang Sun, Yingqian Min, Zhipeng Chen, Wayne Xin Zhao, Zheng Liu, Zhongyuan Wang, Lei Fang, Ji-Rong Wen",
+        "摘要": "摘要：近年来，大型推理模型的快速发展导致现有评估数学推理的基准趋于饱和，突显出对于更具挑战性和严格评估框架的迫切需求。为了解决这一问题，我们引入了OlymMATH，这是一个新的奥林匹克水平的数学基准，专为严格测试大型语言模型（LLM）的复杂推理能力而设计。OlymMATH包含200道精心策划的问题，每个问题都经过人工验证，并提供中英文对照版本。这些问题系统地分为两个不同的难度级别：（1）作为数学推理评估基准的AIME级别问题（简单）；（2）设计用来挑战当前最先进模型极限的显著更难的问题（困难）。在我们的基准中，这些问题涵盖了四个核心数学领域，每个领域包括一个可验证的数值解，能够进行客观的、基于规则的评估。实证结果强调了OlymMATH所带来的巨大挑战，包括DeepSeek-R1和OpenAI的o3-mini在困难子集上的准确率明显有限。此外，该基准促进了数学推理能力的全面双语评估，这是主流数学推理基准中很大程度上未能解决的重要维度。我们在STILL项目发布了OlymMATH基准：见链接https://arxiv.org/pdf/2503.21380.pdf。",
+        "地址": "https://arxiv.org/pdf/2503.21380.pdf"
+    },
+    {
+        "名称": "2025 [2503.21755] VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness.pdf",
+        "作者": "Dian Zheng, Ziqi Huang, Hongbo Liu, Kai Zou, Yinan He, Fan Zhang, Yuanhan Zhang, Jingwen He, Wei-Shi Zheng, Yu Qiao, Ziwei Liu",
+        "摘要": "摘要：视频生成技术取得了显著进展，从生成不真实的输出发展到生成在视觉上令人信服且时间一致的视频。为了评估这些视频生成模型，已经开发了诸如VBench之类的基准，来评估它们的真实性，衡量每帧美学、时间一致性和基本提示遵循等因素。然而，这些方面主要代表表面上的真实性，关注视频在视觉上是否令人信服，而不是是否遵循现实世界的原理。尽管近期的模型在这些指标上的表现越来越好，但它们仍然难以生成不仅在视觉上合理而且在根本上真实的视频。要通过视频生成实现真正的“世界模型”，下一步是确保生成视频在内在上具有真实性，遵循物理规律、常识推理、解剖学正确性和构图完整性。实现这种真实水平对于AI辅助电影制作和模拟世界建模等应用至关重要。为弥补这一差距，我们引入了VBench-2.0，这是一个旨在自动评估视频生成模型内在真实性的下一代基准。VBench-2.0评估五个关键维度：人类保真度、可控性、创造力、物理学和常识，每个维度进一步细分为具体的能力。我们的评估框架针对个别维度整合了通用模型（如最先进的VLMs和LLMs）和专业模型，包括为视频生成提出的异常检测方法。我们进行了广泛的标注，以确保与人类判断一致。通过超越表面真实性向内在真实性迈进，VBench-2.0旨在为追求内在真实性的下一代视频生成模型设立新的标准。",
+        "地址": "https://arxiv.org/pdf/2503.21755.pdf"
+    },
+    {
+        "名称": "2025 [2503.21460] Large Language Model Agent: A Survey on Methodology, Applications and Challenges.pdf",
+        "作者": "Junyu Luo, Weizhi Zhang, Ye Yuan, Yusheng Zhao, Junwei Yang, Yiyang Gu, Bohan Wu, Binqi Chen, Ziyue Qiao, Qingqing Long, Rongcheng Tu, Xiao Luo, Wei Ju, Zhiping Xiao, Yifan Wang, Meng Xiao, Chenwu Liu, Jingyang Yuan, Shichang Zhang, Yiqiao Jin, Fan Zhang, Xian Wu, Hanqing Zhao, Dacheng Tao, Philip S. Yu, Ming Zhang",
+        "摘要": "摘要：智能代理时代已经来临，由大型语言模型的革命性进展所推动。具有目标驱动行为和动态适应能力的大型语言模型（LLM）代理，有可能成为通用人工智能的重要途径。本综述通过一种以方法论为中心的分类法系统地解构了LLM代理系统，联系了体系结构基础、协作机制和进化途径。我们通过揭示代理设计原则和它们在复杂环境中涌现行为之间的基本联系，统一了分散的研究线索。我们的工作提供了一个统一的架构视角，考察了代理是如何构建的、如何协作的以及它们随时间如何进化，同时也探讨了评估方法、工具应用、实际挑战和各种应用领域。通过调查这一快速发展的领域中的最新进展，我们为研究人员提供了一个结构化的分类法，以理解LLM代理，并确定了未来研究的有前景方向。\n\n论文来自：Junyu Luo, Weizhi Zhang, Ye Yuan, Yusheng Zhao, Junwei Yang, Yiyang Gu, Bohan Wu, Binqi Chen, Ziyue Qiao, Qingqing Long, Rongcheng Tu, Xiao Luo, Wei Ju, Zhiping Xiao, Yifan Wang, Meng Xiao, Chenwu Liu, Jingyang Yuan, Shichang Zhang, Yiqiao Jin, Fan Zhang, Xian Wu, Hanqing Zhao, Dacheng Tao, Philip S. Yu, Ming Zhang\n\n资源：329篇论文调查，资源链接请见此链接\n\n论文链接：https://arxiv.org/pdf/2503.21460.pdf\n\n标题：2025 [2503.21460] 大型语言模型代理：方法论、应用与挑战综述",
+        "地址": "https://arxiv.org/pdf/2503.21460.pdf"
+    },
+    {
+        "名称": "2025 [2503.21749] LeX-Art: Rethinking Text Generation via Scalable High-Quality Data Synthesis.pdf",
+        "作者": "Shitian Zhao, Qilong Wu, Xinyue Li, Bo Zhang, Ming Li, Qi Qin, Dongyang Liu, Kaipeng Zhang, Hongsheng Li, Yu Qiao, Peng Gao, Bin Fu, Zhen Li",
+        "摘要": "摘要：我们介绍了LeX-Art，这是一套高质量文本-图像合成的综合套件，系统地弥合了提示表达能力和文本渲染精度之间的差距。我们的方法遵循数据中心范式，基于Deepseek-R1构建高质量数据合成管道，以策划LeX-10K，一个包含10K高分辨率、审美精致的1024×1024图像的数据集。除了数据集构建外，我们还开发了LeX-Enhancer，一个强大的提示增强模型，并训练了两个文本到图像模型LeX-FLUX和LeX-Lumina，实现了最先进的文本渲染性能。为了系统地评估可视文本生成，我们引入了LeX-Bench，一个评估忠实度、美学和一致性的基准，辅以成对归一化编辑距离（PNED），这是一种新的强大文本准确性评估指标。实验表明显著的改进，其中LeX-Lumina在CreateBench上实现了79.81%的PNED增益，LeX-FLUX在颜色（+3.18%）、位置（+4.45%）和字体准确性（+3.81%）方面优于基线模型。我们的代码、模型、数据集和演示已公开。",
+        "地址": "https://arxiv.org/pdf/2503.21749.pdf"
+    },
+    {
+        "名称": "2025 [2503.21729] ReaRAG: Knowledge-guided Reasoning Enhances Factuality of Large Reasoning Models with Iterative Retrieval Augmented Generation.pdf",
+        "作者": "Zhicheng Lee, Shulin Cao, Jinxin Liu, Jiajie Zhang, Weichuan Liu, Xiaoyin Che, Lei Hou, Juanzi Li",
+        "摘要": "摘要：大规模推理模型（LRMs）表现出显著的推理能力，但主要依赖于参数化知识，限制了事实准确性。尽管最近的研究为基于强化学习（RL）的LRMs配备了检索功能，但它们存在过度思考且推理不够稳健的问题，从而降低了在问答（QA）任务中的有效性。为了解决这个问题，我们提出了一种事实性增强的推理模型ReaRAG，该模型在不需要过多迭代的情况下探索多样的查询。我们的解决方案包括一个新的数据构建框架，并对推理链的长度设定了上限。具体来说，我们首先利用LRM生成深思熟虑的思考，然后从预定义的动作空间（搜索和完成）中选择一个动作。对于搜索动作，将对RAG引擎执行查询，结果将作为观察返回，指导后续的推理步骤。这个过程一直迭代，直到选择完成动作为止。得益于ReaRAG强大的推理能力，我们的方法在多跳问答任务上优于现有基线。进一步的分析表明，它具有很强的反思能力，能够识别错误并优化其推理轨迹。我们的研究增强了LRMs的事实性，同时有效地整合了用于检索增强生成（RAG）的稳健推理。\n\n作者：Zhicheng Lee, Shulin Cao, Jinxin Liu, Jiajie Zhang, Weichuan Liu, Xiaoyin Che, Lei Hou, Juanzi Li\n\nURL：https://arxiv.org/pdf/2503.21729.pdf\n\n标题：2025 [2503.21729] ReaRAG: 知识引导的推理通过迭代检索增强生成提高大规模推理模型的事实性",
+        "地址": "https://arxiv.org/pdf/2503.21729.pdf"
+    },
+    {
+        "名称": "2025 [2503.21696] Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks.pdf",
+        "作者": "Wenqi Zhang, Mengna Wang, Gangao Liu, Xu Huixin, Yiwei Jiang, Yongliang Shen, Guiyang Hou, Zhe Zheng, Hang Zhang, Xin Li, Weiming Lu, Peng Li, Yueting Zhuang",
+        "摘要": "摘要：近来，深度思考模型在数学和编码任务上展示了卓越的推理能力。然而，它们在需要通过图像行动交替轨迹与环境进行持续互动的具体领域中的效果仍然基本未被探索。我们提出了Embodied Reasoner，一个将深度思考推理扩展到互动具体搜索任务的模型。与主要依赖逻辑推导的数学推理不同，具体情景需要空间理解、时序推理以及基于互动历史的持续自我反思。为了解决这些挑战，我们合成了包含9.3k连贯的观察-思考-行动轨迹，64k互动图像和90k多样化思考过程（分析、空间推理、反思、规划和验证）。我们开发了一个三阶段训练流程，通过模仿学习、自我探索（使用拒绝采样）和通过反思调优的自我修正逐步增强模型能力。评估显示，我们的模型显著优于那些先进的视觉推理模型，例如，它超过了OpenAI o1、o3-mini和Claude-3.7，分别高出+9%、24%和+13%。分析揭示，我们的模型表现出较少的重复搜索和逻辑不一致性，特别是在复杂长时间任务上具备优势。现实环境也显示了我们模型的优越性，同时表现出较少的重复搜索和逻辑不一致性。\n\n译者：文琦 张，梦娜 王，刚敖 刘，煦 惠鑫，毅伟 姜，永亮 沈，贵阳 侯，哲 郑，杭 张，新 丽，卫铭 鹿，鹏 黎，跃庭 庄\n评论：代码：this https URL 数据集：this https URL\n链接：https://arxiv.org/pdf/2503.21696.pdf\n标题：《2025 [2503.21696] Embodied-Reasoner：为具体互动任务协同视觉搜索、推理与行动》",
+        "地址": "https://arxiv.org/pdf/2503.21696.pdf"
+    },
+    {
+        "名称": "2025 [2503.21248] ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition.pdf",
+        "作者": "Yujie Liu, Zonglin Yang, Tong Xie, Jinjie Ni, Ben Gao, Yuqiang Li, Shixiang Tang, Wanli Ouyang, Erik Cambria, Dongzhan Zhou",
+        "摘要": "摘要: 大型语言模型 (LLMs) 在辅助科学研究方面展现了潜力，但由于缺乏专门的基准，其发现高质量研究假设的能力尚未评估。为了解决这一问题，我们引入了首个用于评估LLMs在科学发现方面表现的大规模基准，该基准包含几乎足够的科学发现子任务：灵感检索、假设构成和假设排序。我们开发了一个自动化框架，从12个学科的科学论文中提取关键组件——研究问题、背景调查、灵感和假设，并通过专家验证其准确性。为防止数据污染，我们专注于2024年发布的论文，以确保与LLM预训练数据的重叠最小。我们的评估表明，LLMs在检索灵感方面表现良好，这是一项分布外任务，表明其能够揭示新的知识关联。这使得LLMs成为“研究假设矿”，能够通过生成创新假设，以最少的人为干预促进自动化科学发现。",
+        "地址": "https://arxiv.org/pdf/2503.21248.pdf"
+    },
+    {
+        "名称": "2025 [2503.20990] FinAudio: A Benchmark for Audio Large Language Models in Financial Applications.pdf",
+        "作者": "Yupeng Cao, Haohang Li, Yangyang Yu, Shashidhar Reddy Javaji, Yueru He, Jimin Huang, Zining Zhu, Qianqian Xie, Xiao-yang Liu, Koduvayur Subbalakshmi, Meikang Qiu, Sophia Ananiadou, Jian-Yun Nie",
+        "摘要": "摘要: 音频大语言模型 (AudioLLMs) 引起了广泛关注，并在对话、音频理解和自动语音识别 (ASR) 等音频任务上显著提升了性能。尽管取得了这些进展，但在金融场景中缺乏评估 AudioLLMs 的基准，而财报会议电话和 CEO 演讲等音频数据是金融分析和投资决策的重要资源。在本文中，我们推出了 \\textsc{FinAudio}，这是第一个旨在评估 AudioLLMs 在金融领域能力的基准。我们首先根据金融领域的独特特征定义了三个任务：1) 短金融音频的 ASR，2) 长金融音频的 ASR，3) 长金融音频的总结。然后，我们分别策划了两个短音频和两个长音频数据集，并开发了一个新的金融音频总结数据集，组成了 \\textsc{FinAudio} 基准。接着，我们在 \\textsc{FinAudio} 上评估了七个流行的 AudioLLMs。我们的评估揭示了现有 AudioLLMs 在金融领域的局限性，并为改进 AudioLLMs 提供了见解。所有数据集和代码将公开发布。\n",
+        "地址": "https://arxiv.org/pdf/2503.20990.pdf"
+    },
+    {
+        "名称": "2025 [2503.21144] ChatAnyone: Stylized Real-time Portrait Video Generation with Hierarchical Motion Diffusion Model.pdf",
+        "作者": "Jinwei Qi, Chaonan Ji, Sheng Xu, Peng Zhang, Bang Zhang, Liefeng Bo",
+        "摘要": "摘要：实时互动视频聊天肖像因其在文本和语音聊天技术上的显著进展，而日益被认为是未来的发展趋势。然而，现有的方法主要集中于实时生成头部运动，但难以产生与这些头部动作同步的身体动作。此外，实现对讲话风格和面部表情细微变化的精细控制仍然是一个挑战。为了解决这些限制问题，我们提出了一个用于风格化实时肖像视频生成的新框架，使得从说话头部到上半身互动的表达更加丰富且灵活。我们的方法包括以下两个阶段。第一阶段涉及高效的分层运动扩散模型，基于音频输入，考虑显性和隐性运动表示，可以生成多样化的面部表情，并控制风格且在头部和身体动作之间实现同步。第二阶段旨在生成具有上半身动作（包括手势）的肖像视频。我们将显性手部控制信号注入生成器，以产生更详细的手部动作，并进一步进行面部细化，以增强肖像视频的整体现实感和表现力。此外，我们的方法支持在4090 GPU上以最高512x768分辨率和高达30fps的效率和连续生成上半身肖像视频，支持实时互动视频聊天。实验结果表明，我们的方法能够生成具有丰富表现力和自然上半身动作的肖像视频。",
+        "地址": "https://arxiv.org/pdf/2503.21144.pdf"
+    },
+    {
+        "名称": "2025 [2503.21758] Lumina-Image 2.0: A Unified and Efficient Image Generative Framework.pdf",
+        "作者": "Qi Qin, Le Zhuo, Yi Xin, Ruoyi Du, Zhen Li, Bin Fu, Yiting Lu, Jiakang Yuan, Xinyue Li, Dongyang Liu, Xiangyang Zhu, Manyuan Zhang, Will Beddow, Erwann Millon, Victor Perez, Wenhai Wang, Conghui He, Bo Zhang, Xiaohong Liu, Hongsheng Li, Yu Qiao, Chang Xu, Peng Gao",
+        "摘要": "摘要：我们介绍了Lumina-Image 2.0，这是一个先进的文本到图像生成框架，与之前的工作Lumina-Next相比取得了显著进展。Lumina-Image 2.0基于两个关键原则：(1) 统一性 - 它采用了一个统一架构（Unified Next-DiT），将文本和图像标记视为一个联合序列，从而实现了自然的跨模态交互，并允许无缝的任务扩展。此外，由于高质量的标题生成器可以提供语义上高度对齐的文本-图像训练对，我们引入了一个专门为T2I生成任务设计的统一标题生成系统Unified Captioner （UniCap）。UniCap 擅长生成全面准确的标题，加速收敛并增强提示的顺应性。(2) 效率性 - 为了提高我们提出模型的效率，我们开发了多阶段渐进训练策略，并引入了推理加速技术而不影响图像质量。在学术基准测试和公共文本到图像竞技场上的广泛评估显示，尽管Lumina-Image 2.0只有2.6B参数，但它仍表现出色，突显了其可扩展性和设计效率。我们已经在这个https URL上发布了我们的训练细节、代码和模型。",
+        "地址": "https://arxiv.org/pdf/2503.21758.pdf"
+    },
+    {
+        "名称": "2025 [2503.21774] Optimal Stepsize for Diffusion Sampling.pdf",
+        "作者": "Jianning Pei, Han Hu, Shuyang Gu",
+        "摘要": "摘要：扩散模型实现了显著的生成质量，但由于步长离散化不够优化，导致采样计算密集。尽管现有工作主要关注去噪方向的优化，我们着眼于步长调度的设计。本文提出了一种动态规划框架——最优步长蒸馏，通过从参考轨迹中提取理论上最优的调度。通过将步长优化重新表述为递归误差最小化，我们的方法通过利用最优子结构确保全局离散化界限。重要的是，提取的调度在架构、ODE求解器和噪声调度中表现出较强的鲁棒性。实验显示，在保持99.4%性能的同时，实现了10倍加速的文本到图像生成。我们的代码可以在此处的这个URL获得。\n\n作者：裴嘉宁、胡涵、顾书阳\n\n链接：https://arxiv.org/pdf/2503.21774.pdf\n\n标题：2025 [2503.21774] 最优步长扩散采样.pdf",
+        "地址": "https://arxiv.org/pdf/2503.21774.pdf"
+    },
+    {
+        "名称": "2025 [2503.21765] Exploring the Evolution of Physics Cognition in Video Generation: A Survey.pdf",
+        "作者": "Minghui Lin, Xiang Wang, Yishan Wang, Shu Wang, Fengqi Dai, Pengxiang Ding, Cunxiang Wang, Zhengrong Zuo, Nong Sang, Siteng Huang, Donglin Wang",
+        "摘要": "摘要：视频生成领域最近见证了显著的进展，特别是扩散模型的快速发展。然而，视频生成在物理认知方面的缺陷逐渐受到广泛关注——生成的内容常常违反基本的物理定律，陷入“视觉逼真但物理荒谬”的困境。研究人员开始日益重视视频生成的物理逼真性，并尝试将运动表示和物理知识等启发式的物理认知整合到生成系统中，以模拟现实世界的动态场景。鉴于该领域缺乏系统的综述，本调查旨在提供全面的架构设计及其应用总结，以填补这一空白。具体来说，我们从认知科学的角度出发，讨论和整理了视频生成领域中物理认知的演变过程，并提出了三级分类法：1）用于生成的基本图式感知，2）用于生成的物理知识的被动认知，3）用于世界模拟的主动认知，涵盖了最新的方法、经典范式和基准测试。随后，我们强调了该领域的固有关键挑战，并描绘了未来研究的潜在路径，旨在推动学术界和工业界前沿讨论的进展。通过结构化的综述和跨学科分析，本调查旨在为开发可解释、可控且物理一致的视频生成范式提供方向性指导，从而将生成模型从“视觉模仿”的阶段推进到“类似人类的物理理解”的新阶段。",
+        "地址": "https://arxiv.org/pdf/2503.21765.pdf"
+    },
+    {
+        "名称": "2025 [2503.21088] ZJUKLAB at SemEval-2025 Task 4: Unlearning via Model Merging.pdf",
+        "作者": "Haoming Xu, Shuxun Wang, Yanqiu Zhao, Yi Zhong, Ziyan Jiang, Ningyuan Zhao, Shumin Deng, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：这篇论文展示了ZJUKLAB团队为SemEval-2025任务4提交的作品，该任务为从大语言模型中去除敏感内容而设计。该任务目的是选择性地删除大语言模型中的敏感知识，避免过度遗忘和遗忘不足的问题。我们提出了一种利用模型合并（具体地说是TIES-Merging）的去学习系统，将两个专门模型结合成一个更平衡的去学习模型。我们的系统取得了具有竞争力的成绩，在26支队伍中排名第二，在线得分为0.944（任务总分）和0.487（整体总分）。在这篇论文中，我们还进行了本地实验，并对去学习过程进行了全面分析，考察了性能轨迹、损失动态和权重视角，并进行了几项补充实验，以了解我们方法的有效性。此外，我们分析了我们方法的不足及评估指标的不足，强调仅仅依靠MIA得分和基于ROUGE的指标不足以充分评价成功的去学习。最后，我们强调了需要更全面的评估方法和对未来研究中去学习目标的重新思考。代码可在此HTTPS URL获取。",
+        "地址": "https://arxiv.org/pdf/2503.21088.pdf"
+    },
+    {
+        "名称": "2025 [2503.20822] Synthetic Video Enhances Physical Fidelity in Video Synthesis.pdf",
+        "作者": "Qi Zhao, Xingyu Ni, Ziyu Wang, Feng Cheng, Ziyan Yang, Lu Jiang, Bohan Wang",
+        "摘要": "摘要：我们研究了如何通过利用从计算机图形学管线生成的合成视频来增强视频生成模型的物理真实性。这些渲染视频尊重现实世界的物理，保持了3D一致性，作为一种宝贵的资源，可潜在地提升视频生成模型的性能。为利用这一潜力，我们提出了一种方案，通过策划和整合合成数据，并引入一种方法将其物理真实感转移到模型上，显著减少了不希望的伪影。通过对三个强调物理一致性的代表性任务进行实验，我们证明了该方案在增强物理真实感方面的有效性。尽管我们的模型还缺乏对物理的深刻理解，但我们的工作首次实证展示了合成视频在视频合成中提升物理真实感的效用。\n\n'Qi Zhao, Xingyu Ni, Ziyu Wang, Feng Cheng, Ziyan Yang, Lu Jiang, Bohan Wang'",
+        "地址": "https://arxiv.org/pdf/2503.20822.pdf"
+    },
+    {
+        "名称": "2025 [2503.20776] Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields.pdf",
+        "作者": "Shijie Zhou, Hui Ren, Yijia Weng, Shuwang Zhang, Zhen Wang, Dejia Xu, Zhiwen Fan, Suya You, Zhangyang Wang, Leonidas Guibas, Achuta Kadambi",
+        "摘要": "摘要: 最近在2D和多模态模型方面的进展通过在大规模数据集上的训练取得了显著成功。然而，要将这些成就扩展到能够与复杂的3D/4D场景进行自由形式交互和高级语义操作仍存在挑战。这种困难源于大规模注释的3D/4D或多视图数据集的有限可用性，而这些数据集对于一般化的视觉和语言任务（如开放词汇量和基于提示的分割、语言引导编辑和视觉问答（VQA））至关重要。本文介绍了Feature4X，这是一个通用框架，设计用于通过使用单目视频输入（广泛存在于用户生成内容中）将任何2D视觉基础模型的功能扩展到4D领域。Feature4X中的“X”代表其多功能性，通过适应性、模型调控的4D特征场蒸馏实现任何任务。在我们的框架核心是一种动态优化策略，将多个模型能力统一到单一表示中。此外，据我们所知，Feature4X是第一个使用高斯溅射将视频基础模型（如SAM2、InternVideo2）的特征蒸馏并提升到显式4D特征场中的方法。我们的实验展示了新视角的任意分割、几何和外观场景编辑以及跨所有时间步骤的自由形式VQA，这些都通过反馈回路中的大型语言模型（LLMs）得以实现。这些进展通过提供可扩展的、具有上下文和时空感知的系统基础，能够进行沉浸式动态4D场景交互，从而拓宽了智能化人工智能应用的范围。",
+        "地址": "https://arxiv.org/pdf/2503.20776.pdf"
+    },
+    {
+        "名称": "2025 [2503.21780] Semantic Library Adaptation: LoRA Retrieval and Fusion for Open-Vocabulary Semantic Segmentation.pdf",
+        "作者": "Reza Qorbani, Gianluca Villani, Theodoros Panagiotakopoulos, Marc Botet Colomer, Linus Härenstam-Nielsen, Mattia Segu, Pier Luigi Dovesi, Jussi Karlgren, Daniel Cremers, Federico Tombari, Matteo Poggi",
+        "摘要": "摘要：开放词汇的语义分割模型通过使用文本查询来关联视觉和文本，从而为像素标注一个未定义类别的集合，在新数据集上提供多功能的性能。然而，训练和测试域之间的大幅度变化会降低其性能，要求在实际应用中进行微调。我们引入了语义库适配（SemLA），这是一种无需训练的测试时间域适配的新框架。SemLA利用一个用CLIP嵌入索引的基于LoRA的适配器库，根据在嵌入空间中与目标域的接近程度动态地合并最相关的适配器。这种方法在不额外训练的情况下，为每个特定输入构建一个特设模型。我们的方法具有高效扩展性，通过跟踪适配器贡献增强了可解释性，并且从本质上保护数据隐私，使其非常适合于敏感应用。在建立于10个标准数据集之上的20个域基准测试中的全面实验表明，SemLA在各种设置中的优越适应性和性能，为开放词汇语义分割的域适配确立了新的标准。",
+        "地址": "https://arxiv.org/pdf/2503.21780.pdf"
+    },
+    {
+        "名称": "2025 [2503.20578] LLPut: Investigating Large Language Models for Bug Report-Based Input Generation.pdf",
+        "作者": "Alif Al Hasan, Subarna Saha, Mia Mohammad Imran, Tarannum Shaila Zaman",
+        "摘要": "摘要（翻译为中文）：\n\n摘要：引发故障的输入在诊断和分析软件错误中起着至关重要的作用。错误报告通常包含这些输入，开发人员提取这些输入以便于调试。由于错误报告是用自然语言编写的，之前的研究已经利用各种自然语言处理 (NLP) 技术进行自动输入提取。随着大规模语言模型（LLMs）的出现，一个重要的研究问题随之而来：生成型LLMs在从错误报告中提取故障诱发输入的效果如何？在本文中，我们提出了LLPut，一种通过实证评估三种开源生成型LLMs（LLaMA、Qwen和Qwen-Coder）在从错误报告中提取相关输入的性能的技术。我们在一个包含206个错误报告的数据集上进行了实验评估，以评估这些模型的准确性和有效性。我们的研究结果提供了对生成型LLMs在自动化错误诊断中的能力和限制的见解。",
+        "地址": "https://arxiv.org/pdf/2503.20578.pdf"
+    },
+    {
+        "名称": "2025 [2503.20853] Unified Multimodal Discrete Diffusion.pdf",
+        "作者": "Alexander Swerdlow, Mihir Prabhudesai, Siddharth Gandhi, Deepak Pathak, Katerina Fragkiadaki",
+        "摘要": "摘要：多模态生成模型能够理解和生成多种模态的内容，目前主要由自回归（AR）方法主导，这些方法按顺序处理从左到右或从上到下的标记。这些模型联合处理图像、文本、视频和音频，以完成各种任务，如图像字幕生成、问答和图像生成。在这项工作中，我们探讨了离散扩散模型作为联合文本和图像领域的统一生成方案，并基于它们在文本生成中的最新成功。离散扩散模型相对于AR模型提供了几项优势，包括在生成样本的质量和多样性之间的控制得到改善、能够进行联合多模态补全（跨文本和图像领域），以及通过引导生成的较大可控性。利用这些优势，我们展示了第一个统一多模态离散扩散（UniDisc）模型，该模型能够联合理解和生成文本和图像以完成各种下游任务。我们将UniDisc与多模态AR模型进行比较，进行了扩展分析，并展示了UniDisc在性能和推理时间计算、增强的可控性、可编辑性、补全以及推理时间和生成质量之间的灵活权衡方面优于多模态AR模型。代码和附加可视化内容见项目网站。\n\n作者：Alexander Swerdlow, Mihir Prabhudesai, Siddharth Gandhi, Deepak Pathak, Katerina Fragkiadaki\n\n评论：项目网站: this https URL\n\n链接：https://arxiv.org/pdf/2503.20853.pdf\n\n标题: 2025 [2503.20853] 统一多模态离散扩散模型.pdf",
+        "地址": "https://arxiv.org/pdf/2503.20853.pdf"
+    },
+    {
+        "名称": "2025 [2503.21541] LOCATEdit: Graph Laplacian Optimized Cross Attention for Localized Text-Guided Image Editing.pdf",
+        "作者": "Achint Soni, Meet Soni, Sirisha Rambhatla",
+        "摘要": "以下是摘要的中文翻译：\n\n摘要：文本引导的图像编辑旨在根据自然语言指令修改图像的特定区域，同时保持整体结构和背景的真实性。现有方法使用的掩模来自扩散模型生成的交叉注意力图，以确定要修改的目标区域。然而，由于交叉注意机制侧重于语义相关性，它们难以保持图像的完整性。因此，这些方法通常缺乏空间一致性，导致编辑伪影和失真。在这项工作中，我们解决了这些限制并引入了LOCATEdit。该方法通过一种基于图的方式增强交叉注意力图，利用自注意力生成的补丁关系在图像区域保持平滑、一致的注意力，确保修改仅限于指定项，同时保留周围结构。LOCATEdit在PIE-Bench上的表现持续且显著地优于现有基准，展示了其在各种编辑任务中的最先进性能和有效性。代码可以在此https URL找到。\n\n文章信息：\n- 标题: 2025 [2503.21541] LOCATEdit: 图拉普拉斯优化的交叉注意力用于局部文本引导的图像编辑\n- 作者: Achint Soni, Meet Soni, Sirisha Rambhatla\n- 年份: 2025\n- 链接: [文章PDF](https://arxiv.org/pdf/2503.21541.pdf)\n",
+        "地址": "https://arxiv.org/pdf/2503.21541.pdf"
+    },
+    {
+        "名称": "2025 [2503.19904] Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better.pdf",
+        "作者": "Zihang Lai, Andrea Vedaldi",
+        "摘要": "摘要：时间一致性对于视频预测至关重要，以确保输出一致且无伪影。传统方法如时间注意力机制和3D卷积在处理显著对象运动时可能存在困难，并且可能无法捕捉动态场景中的长程时间依赖关系。为了解决这一问题，我们提出了Tracktention层，这是一种新颖的架构组件，通过使用点轨迹（即跨帧的对应点序列）显式整合运动信息。通过融入这些运动线索，Tracktention层能够增强时间对齐，有效处理复杂的对象运动，并保持一致的特征表示。我们的方法计算效率高，能够较少修改 seamlessly 地集成到现有模型中，如Vision Transformers。它可以用来将只有图像处理的模型升级为最新的视频模型，有时甚至超过那些原生为视频预测设计的模型。我们在视频深度预测和视频上色中展示了这一点，配备Tracktention层的模型展示出相对于基线模型显著提升的时间一致性。",
+        "地址": "https://arxiv.org/pdf/2503.19904.pdf"
+    }
+]
