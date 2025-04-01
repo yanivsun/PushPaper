@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2503.19693] AdaptiVocab: Enhancing LLM Efficiency in Focused Domains through Lightweight Vocabulary Adaptation.pdf",
+        "作者": "Itay Nakash, Nitay Calderon, Eyal Ben David, Elad Hoffer, Roi Reichart",
+        "摘要": "摘要: 大型语言模型（LLMs）由于其作为通用模型的多功能性而表现出令人印象深刻的适应性。然而，这种广泛的适用性带来了高计算开销，特别是在自回归解码中，每一步都需要前向传递。在特定领域的环境中，通用能力是没有必要的，可以用高效性来替代。在这项工作中，我们对领域适应采取了一种新的视角，通过将词汇适应到关注的特定领域，从而减少延迟和计算成本。我们介绍了AdaptiVocab，这是一种端到端的词汇适应方法，旨在提高LLM在低资源领域的效率。AdaptiVocab可以应用于任何分词器和架构，通过用基于领域特定n-gram的词替换标记来修改词汇，从而减少输入处理和输出生成所需的标记数量。AdaptiVocab通过用现有嵌入的指数加权组合初始化新的n-标记嵌入，并采用可以在单个GPU上高效执行的轻量级微调阶段。我们在三个小众领域对两个7B LLM进行了评估，评估了效率、生成质量和最终任务性能。我们的结果表明，AdaptiVocab在不影响性能的情况下将标记使用量减少了25%以上。\n\n作者: Itay Nakash, Nitay Calderon, Eyal Ben David, Elad Hoffer, Roi Reichart\n\n标题: 2025 [2503.19693] AdaptiVocab: 通过轻量级词汇适应提高集中领域中的LLM效率",
+        "地址": "https://arxiv.org/pdf/2503.19693.pdf"
+    },
+    {
+        "名称": "2025 [2503.22230] Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback.pdf",
+        "作者": "Wei Shen, Guanlin Liu, Zheng Wu, Ruofei Zhu, Qingping Yang, Chao Xin, Yu Yue, Lin Yan",
+        "摘要": "摘要：从人类反馈中进行强化学习 (RLHF) 对齐大型语言模型与人类偏好至关重要。虽然近期研究集中于算法改进，但对提示数据构建的重要性却被忽视了。本文通过探讨RLHF性能扩展中的数据驱动瓶颈，特别是奖励攻击和响应多样性减少，来弥补这一空缺。我们引入了一种结合推理任务验证器（RTV）和生成性奖励模型（GenRM）的混合奖励系统以减轻奖励攻击问题。我们还提出了一种新颖的提示选择方法预-PPO（Pre-PPO），以保持响应多样性并提高学习效果。此外，我们发现，在RLHF训练初期优先考虑数学和编码任务可以显著提升性能。通过对两个模型规模的实验验证了我们方法的有效性和可扩展性。结果表明，RTV对奖励攻击最具抵抗力，其次是带有真实数据的GenRM，再次是带有SFT最佳-N响应的GenRM。我们的策略能够快速捕捉微妙的任务特定区别，从而大幅提高整体RLHF性能。这项工作强调了慎重数据构建的重要性，并提供了克服RLHF性能障碍的实用方法。",
+        "地址": "https://arxiv.org/pdf/2503.22230.pdf"
+    },
+    {
+        "名称": "2025 [2503.22675] Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation.pdf",
+        "作者": "Jiakai Tang, Sunhao Dai, Teng Shi, Jun Xu, Xu Chen, Wen Chen, Wu Jian, Yuning Jiang",
+        "摘要": "以下是该论文的摘要翻译：\n\n摘要：序列推荐（SeqRec）旨在通过捕捉用户历史互动中的顺序模式来预测下一个项目，在许多实际的推荐系统中发挥着至关重要的作用。然而，现有方法主要采用直接的前向计算范式，其中序列编码器的最终隐藏状态作为用户表示。我们认为，由于此推理范式的计算深度有限，它难以建模用户偏好的复杂演变特性，并且缺乏对长尾项目的细致理解，导致性能欠佳。为了解决这一问题，我们提出了\\textbf{ReaRec}，这是推荐系统中的首个推理时间计算框架，通过隐式多步推理增强用户表示。具体来说，ReaRec自回归地将序列的最后隐藏状态输入到序列推荐器中，同时结合特殊的推理位置嵌入，以解耦原始的项目编码空间和多步推理空间。此外，我们引入了两种轻量级的基于推理的学习方法：集成推理学习（ERL）和渐进推理学习（PRL），以进一步有效利用ReaRec的推理潜力。在五个公开的真实世界数据集和不同的SeqRec架构上进行的大量实验展示了我们提出的ReaRec的通用性和有效性。尤其是，事后分析表明，ReaRec显著提升了多种序列推荐主干网络的性能上限约30%-50%。因此，我们相信这项工作可以为序列推荐中的推理时间计算开辟一个新且有前途的研究方向。",
+        "地址": "https://arxiv.org/pdf/2503.22675.pdf"
+    },
+    {
+        "名称": "2025 [2503.21614] A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond.pdf",
+        "作者": "Xiaoye Qu, Yafu Li, Zhaochen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng",
+        "摘要": "摘要：近期的大型推理模型（LRMs），如DeepSeek-R1和OpenAI o1，通过在推理过程中扩展链式推理（CoT）的长度，展示出显著的性能提升。然而，越来越多的关注点集中在它们产生过长推理轨迹的倾向，这些轨迹通常充满冗余内容（如重复的定义）、对简单问题的过度分析，以及对更难任务的多重推理路径的表面探索。这种效率低下给训练、推理和实际部署（如基于代理的系统）引入了重大挑战，在这些场景中，令牌经济性至关重要。在本综述中，我们全面回顾了旨在提高LRMs推理效率的近期努力，特别关注在这一新范式中出现的独特挑战。我们识别了常见的效率低下模式，审查了从预训练到推理的各个生命周期中提出的方法，并讨论了未来研究的潜在方向。为支持持续发展，我们还维护了一个实时GitHub库，用于跟踪该领域的最新进展。我们希望本综述能为进一步探索打下基础，并激发在这一快速发展的领域中的创新。",
+        "地址": "https://arxiv.org/pdf/2503.21614.pdf"
+    },
+    {
+        "名称": "2025 [2503.16081] OThink-MR1: Stimulating multimodal generalized reasoning capabilities via dynamic reinforcement learning.pdf",
+        "作者": "Zhiyuan Liu, Yuting Zhang, Feng Liu, Changwang Zhang, Ying Sun, Jun Wang",
+        "摘要": "摘要：多模态大型语言模型（MLLMs）因其处理不同类型输入数据并在各种应用中生成连贯且与情境相关的输出而受到广泛关注。尽管监督微调（SFT）一直是提升MLLM在特定任务优化能力的主要方法，但它往往无法促进关键的广泛推理能力。尽管强化学习（RL）在克服这些局限性方面展现出巨大潜力，但它面临两个显著挑战：（1）其在多模态任务中的广泛能力仍然未被充分探索；（2）其训练限制，包括恒定的Kullback-Leibler散度或固定策略，常导致次优瓶颈。为了解决这些挑战，我们提出了OThink-MR1，这是一种在多模态任务中具备深刻理解和推理能力的先进MLLM。具体而言，我们引入了一种具有动态Kullback-Leibler策略的群体相对策略优化（GRPO-D），显著提升了强化学习（RL）的性能。对于Qwen2-VL-2B-Instruct模型，GRPO-D在两个改编数据集上的同任务评估中，相较于SFT有超过5.72%的相对提升，相较于GRPO有超过13.59%的相对提升。此外，GRPO-D在跨任务泛化能力上表现出色，相较于SFT在跨任务评估中的平均相对提升超过61.63%。这些结果表明，使用GRPO-D在某一多模态任务上训练的MLLM可以有效转移到其他任务，突显了我们提出的OThink-MR1模型卓越的广泛推理能力。",
+        "地址": "https://arxiv.org/pdf/2503.16081.pdf"
+    },
+    {
+        "名称": "2025 [2503.22194] ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation.pdf",
+        "作者": "Yunhong Min, Daehyeon Choi, Kyeongmin Yeo, Jihyun Lee, Minhyuk Sung",
+        "摘要": "摘要：我们介绍了ORIGEN，这是第一个在多对象和不同类别中进行文本到图像生成的3D定向着陆零样本方法。尽管之前关于图像生成中空间着陆的工作主要集中在二维定位上，但它缺乏对3D定向的控制。为了解决这个问题，我们提出了一种基于奖励指导的采样方法，该方法使用预训练的判别模型进行3D定向估计，以及一步式文本到图像生成流模型。尽管基于梯度上升的优化是基于奖励指导的自然选择，但它在保持图像逼真度方面表现不佳。相反，我们采用了一种基于Langevin动力学的采样方法，该方法通过简单地注入随机噪声来扩展梯度上升——只需添加一行额外代码。此外，我们引入了一种基于奖励函数的自适应时间重缩放方法以加速收敛。我们的实验表明，ORIGEN在定量指标和用户研究中均优于基于训练和测试时间指导的方法。\n\n作者：闵允泓、崔大铉、余京民、李知贤、成敏赫",
+        "地址": "https://arxiv.org/pdf/2503.22194.pdf"
+    },
+    {
+        "名称": "2025 [2503.21332] ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on Feedback.pdf",
+        "作者": "Taewon Yun, Jihwan Oh, Hyangsuk Min, Yuho Lee, Jihwan Bang, Jason Cai, Hwanjun Song",
+        "摘要": "摘要：摘要： 在推广到多维度时，摘要改进面临挑战。在本文中，我们介绍了ReFeed，这是一个强大的摘要改进管道，通过对反馈进行反思性推理来增强多个维度。为此，我们发布了SumFeed-CoT，这是一个基于长链思维的大规模数据集，针对训练具有反思性推理的轻量级模型进行了优化。我们的实验揭示了维度数量、反馈曝光和推理策略如何影响改进性能，强调反思性推理和同时处理多重反馈对于减轻维度间的权衡是至关重要的。此外，ReFeed对噪声反馈和反馈顺序具有很强的鲁棒性。最后，我们的发现强调，创建具有适当目标和指南的数据是有效推理的基础支柱。我们将发布数据集和模型。",
+        "地址": "https://arxiv.org/pdf/2503.21332.pdf"
+    },
+    {
+        "名称": "2025 [2503.20785] Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency.pdf",
+        "作者": "Tianqi Liu, Zihao Huang, Zhaoxi Chen, Guangcong Wang, Shoukang Hu, Liao Shen, Huiqiang Sun, Zhiguo Cao, Wei Li, Ziwei Liu",
+        "摘要": "摘要: 我们提出了Free4D，这是一种无需调优的4D场景生成新框架，能够从单幅图像生成4D场景。现有方法要么专注于对象级生成，使得场景级生成不可行；要么依赖于大型多视角视频数据集进行昂贵的训练，由于4D场景数据的匮乏，泛化能力有限。相比之下，我们的关键见解是提取预训练的基础模型以形成一致的4D场景表示，这具有效率高和泛化能力强等优点。 1）为实现这一目标，我们首先利用图像到视频扩散模型对输入图像进行动画处理，接着进行4D几何结构初始化。 2）为将这个粗略结构转变为时空一致的多视角视频，我们设计了一种自适应引导机制，采用点引导的去噪策略确保空间一致性，并提出了一种新的潜在替换策略以保证时间连贯性。 3）为将这些生成的观察结果提升为一致的4D表示，我们提出了一种基于调制的优化方法，以在充分利用生成信息的同时减轻不一致性。所生成的4D表示能够进行实时、可控的渲染，标志着基于单幅图像的4D场景生成的一项重要进展。",
+        "地址": "https://arxiv.org/pdf/2503.20785.pdf"
+    },
+    {
+        "名称": "2025 [2503.20308] Perceptually Accurate 3D Talking Head Generation: New Definitions, Speech-Mesh Representation, and Evaluation Metrics.pdf",
+        "作者": "Lee Chae-Yeon, Oh Hyun-Bin, Han EunGi, Kim Sung-Bin, Suekyeong Nam, Tae-Hyun Oh",
+        "摘要": "摘要：最近在语音驱动的3D说话人头生成方面取得了显著进展，尤其是在唇同步方面。然而，现有模型在捕捉语音特征与相应唇部动作的感知对准方面仍存在挑战。在这项工作中，我们提出了三个标准——时间同步、唇部可读性和表现力——对实现感知上准确的唇部动作至关重要。基于我们假设存在一个理想的表示空间以满足这三个标准，我们引入了一种语音-网格同步表示，能够捕捉语音信号与3D面部网格之间的复杂对应关系。我们发现，所学习的表示表现出理想的特性，并将其作为感知损失插入现有模型中，以更好地使唇部动作与给定语音对齐。此外，我们利用这种表示作为感知指标，并引入了另外两个物理基础唇同步指标，以评估生成的3D说话人头在多大程度上符合这三个标准。实验表明，使用我们的感知损失训练3D说话人头生成模型，显著改善了感知准确唇同步的所有三个方面。代码和数据集可在此 https URL 获取。\n\n作者：李彩妍, 吳泫斌, 韓銀枝, 金成彬, 南修京, 泰炫吴\n\n评论：CVPR 2025。项目页面：此https URL",
+        "地址": "https://arxiv.org/pdf/2503.20308.pdf"
+    },
+    {
+        "名称": "2025 [2503.21821] PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving.pdf",
+        "作者": "Kaiyue Feng, Yilun Zhao, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan",
+        "摘要": "摘要：我们介绍了PHYSICS，这是一个用于大学水平物理问题解决的综合基准测试。它包含了1297个专家注释问题，覆盖六个核心领域：经典力学、量子力学、热力学与统计力学、电磁学、原子物理学和光学。每个问题都需要高级物理知识和数学推理。我们开发了一个稳健的自动评估系统，以进行精确和可靠的验证。我们对领先的基础模型的评估揭示了其显著的局限性。即使是最先进的模型o3-mini也仅实现了59.9％的准确度，这突显了解决高水平科学问题的重大挑战。通过全面的错误分析、多样的提示策略探索和基于检索增强生成（RAG）的知识增强，我们确定了改进的关键领域，为未来的进步奠定了基础。\n\n翻译：Kaiyue Feng, Yilun Zhao, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan",
+        "地址": "https://arxiv.org/pdf/2503.21821.pdf"
+    },
+    {
+        "名称": "2025 [2503.19108] Your ViT is Secretly an Image Segmentation Model.pdf",
+        "作者": "Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, Narges Norouzi, Giuseppe Averta, Bastian Leibe, Gijs Dubbelman, Daan de Geus",
+        "摘要": "摘要: 视觉转换器（Vision Transformers, ViTs）在各种计算机视觉任务中表现出色并具有良好的可扩展性。为了将单尺度的ViTs应用于图像分割，现有方法采用卷积适配器生成多尺度特征、像素解码器融合这些特征，以及使用融合特征进行预测的Transformer解码器。本文显示了这些特定任务组件引入的归纳偏置可以通过ViT本身来学习，只需足够大的模型和广泛的预训练。基于这些发现，我们提出了编码器专用的Mask Transformer（EoMT），它重新利用纯粹的ViT架构进行图像分割。通过大规模模型和预训练，EoMT可以获得与使用特定任务组件的最新模型相似的分割精度。同时，由于其架构的简单性，EoMT显著加快了预测速度，例如使用ViT-L时可快达4倍。在一系列模型尺寸中，EoMT展示了分割精度和预测速度之间的最佳平衡，表明计算资源更适合用于扩展ViT本身，而不是增加架构复杂性。\n\n代码: [链接](https://arxiv.org/pdf/2503.19108.pdf)",
+        "地址": "https://arxiv.org/pdf/2503.19108.pdf"
+    },
+    {
+        "名称": "2025 [2503.22268] Segment Any Motion in Videos.pdf",
+        "作者": "Nan Huang, Wenzhao Zheng, Chenfeng Xu, Kurt Keutzer, Shanghang Zhang, Angjoo Kanazawa, Qianqian Wang",
+        "摘要": "摘要：运动物体分割是实现视觉场景高级理解的关键任务，并具有众多的下游应用。人类可以轻松地在视频中分割运动物体。先前的工作很大程度上依赖光流来提供运动提示；然而，由于部分运动、复杂变形、运动模糊和背景干扰等挑战，这种方法往往会导致不完美的预测。我们提出了一种新颖的运动物体分割方法，该方法结合了远程轨迹运动提示与基于DINO的语义特征，并通过迭代提示策略利用SAM2进行像素级掩码密集化。我们的模型采用时空轨迹注意力和运动-语义解耦嵌入来优先考虑运动，同时整合语义支持。在各种数据集上的广泛测试表明，该方法在具有挑战性的场景和多物体的细粒度分割中表现出色，达到当前最先进的性能。我们的代码可以在此HTTPS URL获得。",
+        "地址": "https://arxiv.org/pdf/2503.22268.pdf"
+    },
+    {
+        "名称": "2025 [2503.22236] Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging.pdf",
+        "作者": "Chongjie Ye, Yushuang Wu, Ziteng Lu, Jiahao Chang, Xiaoyang Guo, Jiaqing Zhou, Hao Zhao, Xiaoguang Han",
+        "摘要": "摘要：随着对从二维图像生成高保真三维模型需求的增加，现有方法由于领域差距和RGB图像固有模糊性的限制，仍在准确再现细致几何细节方面面临重大挑战。为了解决这些问题，我们提出了Hi3DGen，这是一种通过法线桥接生成高保真三维几何的新框架。Hi3DGen由三个关键部分组成：(1)图像到法线估计器，通过噪声注入和双流训练解耦低频-高频图像模式，实现通用、稳定和清晰的估计；(2)法线到几何学习方法，使用法线正则化潜在扩散学习增强三维几何生成的保真度；(3)构建高质量数据集以支持训练的三维数据合成流程。大量实验证明了我们框架在生成丰富几何细节方面的有效性和优势，在保真度方面超越了最先进的方法。我们的工作通过利用法线贴图作为中间表示，为从图像生成高保真三维几何提供了新的方向。\n\n作者：叶崇杰，吴雨霜，卢梓藤，常佳豪，郭晓阳，周家庆，赵昊，韩晓光\n\n评论：查看这个https URL\n\n链接：https://arxiv.org/pdf/2503.22236.pdf\n\n标题：2025 [2503.22236] Hi3DGen: 通过法线桥接从图像生成高保真三维几何.pdf",
+        "地址": "https://arxiv.org/pdf/2503.22236.pdf"
+    },
+    {
+        "名称": "2025 [2503.22622] Zero4D: Training-Free 4D Video Generation From Single Video Using Off-the-Shelf Video Diffusion Model.pdf",
+        "作者": "Jangho Park, Taesung Kwon, Jong Chul Ye",
+        "摘要": "摘要: 近年来，多视图或4D视频生成已经成为一个重要的研究课题。然而，最近的4D生成方法仍然面临基本限制，因为它们主要依赖于使用多个视频扩散模型进行额外训练，或使用有限的现实世界4D数据和大量计算成本进行完整4D扩散模型的计算密集型训练。为了解决这些问题，我们提出了第一个无需训练的4D视频生成方法，该方法利用现成的视频扩散模型从单个输入视频生成多视图视频。我们的方法包括两个关键步骤：（1）通过将时空采样网格中的边缘帧指定为关键帧，我们首先使用视频扩散模型合成它们，并利用基于深度的变形技术进行引导。这种方法确保了生成帧的结构一致性，保持了空间和时间上的连贯性。（2）然后，我们使用视频扩散模型插值剩余帧，构建一个完全填充且时间连贯的采样网格，同时保持空间和时间的一致性。通过这种方法，我们沿着新的摄像机轨迹将单个视频扩展为多视图视频，同时保持时空一致性。我们的方法无需训练，完全利用现成的视频扩散模型，提供了一个实用且有效的多视图视频生成解决方案。",
+        "地址": "https://arxiv.org/pdf/2503.22622.pdf"
+    },
+    {
+        "名称": "2025 [2503.22329] A Refined Analysis of Massive Activations in LLMs.pdf",
+        "作者": "Louis Owen, Nilabhra Roy Chowdhury, Abhay Kumar, Fabian Güra",
+        "摘要": "摘要：受低精度训练和量化的相关性启发，大规模激活在大型语言模型（LLMs）中最近成为一个关注重点。然而，现有分析存在范围上的局限性，其在不同架构间的普适性尚不明确。本文通过对广泛LLMs（包括基于GLU和非GLU架构）的大规模激活进行分析，帮助弥合这些差距。我们的研究挑战了几个先前的假设，最重要的是：（1）并非所有大规模激活都是有害的，即抑制它们不会导致困惑度爆炸或下游任务性能崩溃；（2）提出的缓解策略如Attention KV偏倚是特定于模型的，在某些情况下无效。因此，我们研究了新的混合缓解策略；特别是将目标方差重新缩放（TVR）与Attention KV偏倚或动态Tanh（DyT）配对，成功地在我们研究的情景中平衡了大规模激活的缓解和下游模型性能的保持。我们的代码可在此处获得：this https URL。",
+        "地址": "https://arxiv.org/pdf/2503.22329.pdf"
+    },
+    {
+        "名称": "2025 [2503.17827] 4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding.pdf",
+        "作者": "Wenxuan Zhu, Bing Li, Cheng Zheng, Jinjie Mai, Jun Chen, Letian Jiang, Abdullah Hamdi, Sara Rojas Martinez, Chia-Wen Lin, Mohamed Elhoseiny, Bernard Ghanem",
+        "摘要": "摘要：多模态大型语言模型（MLLMs）在2D图像/视频理解方面展现了令人印象深刻的能力。然而，当前尚无公开的标准化基准来评估MLLMs在理解4D对象（随时间演变的3D对象）方面的能力。在本文中，我们引入了4D-Bench，这是首个用于评估MLLMs在4D对象理解能力的基准，涵盖了4D对象问答（4D object QA）和4D对象描述任务。4D-Bench提供了种类丰富的4D对象、高质量的标注，并要求多视角的时空理解，这与现有的基于2D图像/视频的基准有所不同。借助4D-Bench，我们评估了各种开源和闭源的MLLMs。4D对象描述实验结果表明，MLLMs的时间理解能力普遍较弱于其外观理解能力，值得注意的是，尽管开源模型在外观理解上接近闭源模型的表现，但在时间理解上表现差距较大。4D对象问答实验得出了令人惊讶的发现：即使是简单的单一对象视频，MLLMs的表现也不佳，最先进的GPT-4o仅达到了63%的准确率，而人类基准为91%。这些发现突显了在4D对象理解方面存在巨大的差距及其对MLLMs进一步发展的需求。",
+        "地址": "https://arxiv.org/pdf/2503.17827.pdf"
+    },
+    {
+        "名称": "2025 [2503.21732] SparseFlex: High-Resolution and Arbitrary-Topology 3D Shape Modeling.pdf",
+        "作者": "Xianglong He, Zi-Xin Zou, Chia-Hao Chen, Yuan-Chen Guo, Ding Liang, Chun Yuan, Wanli Ouyang, Yan-Pei Cao, Yangguang Li",
+        "摘要": "摘要：创建具有任意拓扑结构的高保真3D网格（包括开放表面和复杂内部）仍然是一个重大挑战。现有的隐式场方法通常需要进行代价高且损害细节的密封转换，而其他方法则在高分辨率下困难重重。本文介绍了SparseFlex，这是一种新颖的稀疏结构等值面表示法，该方法能够在最大 $1024^3$ 的分辨率下，直接从渲染损失中实现可微分网格重建。SparseFlex结合了Flexicubes的精确度和稀疏体素结构，重点计算表面附近区域，高效处理开放表面。最关键的是，我们引入了一种分幅感知的截面体素训练策略，仅在渲染过程中激活相关的体素，大幅减小内存消耗，从而实现高分辨率训练。这也首次允许仅通过渲染监督重建网格内部。在此基础上，我们通过训练一个变分自编码器（VAE）和一个校准流变换器，展示了一个完整的形状建模流水线，实现了高质量的3D形状生成。我们的实验显示，与现有方法相比，重建精度达到了最先进水平，Chamfer距离减少约82%，F-score增加约88%，并展示了具有任意拓扑结构的高分辨率、细致的3D形状生成。通过渲染损失实现高分辨率、可微分网格重建和生成，SparseFlex在3D形状表示和建模方面取得了显著进展。",
+        "地址": "https://arxiv.org/pdf/2503.21732.pdf"
+    },
+    {
+        "名称": "2025 [2503.21751] Reconstructing Humans with a Biomechanically Accurate Skeleton.pdf",
+        "作者": "Yan Xia, Xiaowei Zhou, Etienne Vouga, Qixing Huang, Georgios Pavlakos",
+        "摘要": "摘要：在本文中，我们介绍了一种使用生物力学精确骨骼模型从单张图像重建3D人体的方法。为了实现这一目标，我们训练了一个transformer，它将图像作为输入并估计模型参数。由于此任务缺乏训练数据，我们构建了一个管道来为单张图像生成伪真值模型参数，并实施一个训练过程以迭代地优化这些伪标签。与最先进的3D人体网格恢复方法相比，我们的模型在标准基准测试中表现相当，在极端3D姿势和视点情况下显著优于它们。此外，我们展示了先前的重建方法经常违反关节角度限制，导致不自然的旋转。相比之下，我们的方法利用了生物力学合理的自由度，从而产生更逼真的关节旋转估计。我们在多个人体姿势估计基准上验证了我们的方法。我们将在此给出代码、模型和数据：此https网址。\n\n翻译后的摘要：\n在本文中，我们介绍了一种使用生物力学精确骨骼模型从单张图像重建3D人体的方法。为了实现这一目标，我们训练了一个transformer，它将图像作为输入并估计模型参数。由于此任务缺乏训练数据，我们构建了一个管道来为单张图像生成伪真值模型参数，并实施一个训练过程以迭代地优化这些伪标签。与最先进的3D人体网格恢复方法相比，我们的模型在标准基准测试中表现相当，在极端3D姿势和视点情况下显著优于它们。此外，我们展示了先前的重建方法经常违反关节角度限制，导致不自然的旋转。相比之下，我们的方法利用了生物力学合理的自由度，从而产生更逼真的关节旋转估计。我们在多个人体姿势估计基准上验证了我们的方法。我们将在此给出代码、模型和数据：这个：https网址",
+        "地址": "https://arxiv.org/pdf/2503.21751.pdf"
+    },
+    {
+        "名称": "2025 [2503.18968] MedAgent-Pro: Towards Multi-modal Evidence-based Medical Diagnosis via Reasoning Agentic Workflow.pdf",
+        "作者": "Ziyue Wang, Junde Wu, Chang Han Low, Yueming Jin",
+        "摘要": "摘要:\n长期以来，开发可靠的AI系统以协助人类临床医生进行多模式医学诊断是研究人员的一个关键目标。最近，多模式大模型（MLLMs）在各个领域获得了显著关注和成功。凭借强大的推理能力和根据用户指令执行多种任务的能力，它们有很大潜力来增强医学诊断。然而，将MLLMs直接应用于医学领域仍然面临挑战。它们缺乏对视觉输入的详细感知，限制了其进行定量图像分析的能力，而后者对医学诊断至关重要。此外，MLLMs经常表现出幻觉和推理不一致，而临床诊断必须严格遵循既定标准。为了解决这些挑战，我们提出了MedAgent-Pro，一种基于证据推理的代理系统，旨在实现可靠、可解释和准确的医学诊断。这是通过分层工作流程来实现的：在任务层面，基于知识的推理生成遵循检索临床标准的特定疾病的可靠诊断计划。 而在案例层面，多个工具代理处理多模态输入，根据计划分析不同的指标，并基于定量和定性证据提供最终诊断。在2D和3D医学诊断任务上的综合实验验证了MedAgent-Pro的优越性和有效性，案例研究进一步强调了其可靠性和可解释性。代码可在此链接获取：https://arxiv.org/pdf/2503.18968.pdf。\n\n作者: 王子悦, 吴俊德, 低长翰, 金跃明",
+        "地址": "https://arxiv.org/pdf/2503.18968.pdf"
+    },
+    {
+        "名称": "2025 [2503.21851] On Large Multimodal Models as Open-World Image Classifiers.pdf",
+        "作者": "Alessandro Conti, Massimiliano Mancini, Enrico Fini, Yiming Wang, Paolo Rota, Elisa Ricci",
+        "摘要": "摘要：传统的图像分类需要预定义的语义类别列表。与此形成对比的是，大型多模态模型（LMMs）可以通过自然语言直接对图像进行分类（例如回答 \"图像中的主要物体是什么？\" 这一提示）。尽管具有这种显著的能力，但大多数现有关于LMM分类性能的研究在范围上令人惊讶地有限，通常假设一个具有预定义类别集合的封闭世界设置。在这项工作中，我们通过在真正的开放世界环境中全面评估LMM分类性能来填补这一空白。我们首先形式化任务并引入评估协议，定义了各种指标以评估预测类与真实类之间的对齐情况。然后，我们在10个基准测试中评估了13个模型，包括原型类、非原型类、细粒度类和非常细粒度类，展示了LMM在此任务中面临的挑战。基于所提出指标的进一步分析揭示了LMMs所犯错误的类型，突显了与粒度和细粒度能力相关的挑战，并展示了如何定制提示和推理来缓解这些问题。\n\n作者：Alessandro Conti, Massimiliano Mancini, Enrico Fini, Yiming Wang, Paolo Rota, Elisa Ricci\n评论：23页，13幅图，代码可以在此HTTPS URL获得\n\n链接：https://arxiv.org/pdf/2503.21851.pdf",
+        "地址": "https://arxiv.org/pdf/2503.21851.pdf"
+    },
+    {
+        "名称": "2025 [2503.21779] X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction.pdf",
+        "作者": "Weihao Yu, Yuanhao Cai, Ruyi Zha, Zhiwen Fan, Chenxin Li, Yixuan Yuan",
+        "摘要": "**摘要翻译：**  \n四维计算机断层扫描（4D CT）重建对于捕捉动态解剖变化至关重要，但传统的相位分箱工作流程面临固有限制。当前方法将时间分辨率离散化为固定的相位，并使用呼吸门控设备，这会引入运动不对齐并限制临床实用性。本文提出了一种新的框架X$^2$-Gaussian，通过结合动态辐射高斯分配和自监督呼吸运动学习，实现连续时间4D CT重建。我们的方法通过一个时空编码器-解码器架构对解剖动态建模，预测时变高斯变形，消除了相位离散化。为了消除对外部门控设备的依赖，我们引入了一种生理驱动的周期一致性损失，该损失通过可微优化直接从投影中学习患者特定的呼吸周期。广泛实验表明，该方法实现了最先进的性能，相较于传统方法，PSNR（峰值信噪比）提升了9.93 dB，相较于先前的高斯分配技术，提升了2.25 dB。通过统一连续运动建模与无硬件周期学习，X$^2$-Gaussian推进了用于动态临床成像的高保真度4D CT重建技术。",
+        "地址": "https://arxiv.org/pdf/2503.21779.pdf"
+    },
+    {
+        "名称": "2025 [2503.21544] SWI: Speaking with Intent in Large Language Models.pdf",
+        "作者": "Yuwei Yin, EunJeong Hwang, Giuseppe Carenini",
+        "摘要": "摘要：意图通常被清晰地制定和计划，作为推理和解决问题的认知框架。本文介绍了大语言模型（LLMs）中的“意图表达”（SWI）概念，其中明确生成的意图封装了模型的基本意图，并提供高级规划以指导后续分析和交流。通过模拟人类大脑中的深思熟虑和有目的的想法，假设SWI可以增强LLMs的推理能力和生成质量。在数学推理基准上的大量实验一致表明，与基线（即无明确意图的生成）相比，SWI具有优越性。此外，SWI优于答案触发提示方法“思维链”和“计划与解决”，并且在与强方法ARR（分析、检索和推理）的竞争中保持竞争力。此外，SWI在需要大量推理的问答（QA）和文本摘要基准上，固化了其有效性和广泛适用性，SWI为基线生成带来了一致的改进。在文本摘要中，SWI生成的摘要展现出更高的准确性、简洁性和事实正确性，虚构内容更少。此外，人类评估验证了由SWI产出的意图的连贯性、有效性和可解释性。这项概念验证研究为使用认知概念增强LLMs的推理能力创造了一条新的途径。",
+        "地址": "https://arxiv.org/pdf/2503.21544.pdf"
+    },
+    {
+        "名称": "2025 [2503.22625] Challenges and Paths Towards AI for Software Engineering.pdf",
+        "作者": "Alex Gu, Naman Jain, Wen-Ding Li, Manish Shetty, Yijia Shao, Ziyang Li, Diyi Yang, Kevin Ellis, Koushik Sen, Armando Solar-Lezama",
+        "摘要": "摘要: 软件工程中的人工智能近年来取得了显著进展，成为生成式人工智能中的一个重要成功案例。尽管如此，在自动化软件工程达到其全部潜力之前，仍有许多挑战需要解决。实现高水平的自动化应该是可能的，在这种水平上，人类可以专注于决策什么样的系统以及如何平衡难以取舍的权衡，而大部分常规开发工作都被自动化完成。要达到这种自动化水平，需要学术界和工业界在研究和工程上的大量努力。在本文中，我们旨在以三种方式讨论向这一目标取得的进展。首先，我们提供了一个结构化的分类法，用于在软件工程中进行人工智能的具体任务，强调了软件工程中除了代码生成和完成之外的许多其他任务。其次，我们概述了限制当前方法的几个关键瓶颈。最后，我们提供了一份主观看法的研究方向列表，旨在应对这些瓶颈，希望激发在这个快速成熟的领域中的未来研究。",
+        "地址": "https://arxiv.org/pdf/2503.22625.pdf"
+    }
+]
