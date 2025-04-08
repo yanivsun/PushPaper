@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2504.02605] Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving.pdf",
+        "作者": "Daoguang Zan, Zhirong Huang, Wei Liu, Hanwu Chen, Linhao Zhang, Shulin Xin, Lu Chen, Qi Liu, Xiaojian Zhong, Aoyan Li, Siyao Liu, Yongsheng Xiao, Liangqiang Chen, Yuyu Zhang, Jing Su, Tianyu Liu, Rui Long, Kai Shen, Liang Xiang",
+        "摘要": "摘要：解决问题的任务是修改代码库以生成解决给定问题的补丁。然而，现有的基准测试，例如SWE-bench，几乎完全集中于Python，使其不足以评估不同软件生态系统中大规模语言模型（LLM）。为此，我们引入了一个多语言问题解决基准测试，称为Multi-SWE-bench，涵盖Java、TypeScript、JavaScript、Go、Rust、C和C++。它包括总共1,632个高质量实例，这些实例由68名专家注解师从2,456个候选者中仔细注释，确保该基准测试能够提供准确且可靠的评估。基于Multi-SWE-bench，我们使用三种代表性方法（Agentless，SWE-agent和OpenHands）评估了一系列最先进的模型，并进行了详细的分析，提供了关键的实证见解。此外，我们推出了Multi-SWE-RL开源社区，旨在为解决问题的任务构建大规模的强化学习（RL）训练数据集。作为初次贡献，我们发布了一组覆盖七种编程语言的4,723个结构良好的实例，为该领域的RL研究奠定了坚实的基础。更重要的是，我们开源了整个数据生产管道及详细教程，鼓励开源社区不断贡献和扩大数据集。我们设想我们的Multi-SWE-bench和不断增长的Multi-SWE-RL社区将作为推进RL向其充分潜力发展的催化剂，使我们更接近AGI的黎明。",
+        "地址": "https://arxiv.org/pdf/2504.02605.pdf"
+    },
+    {
+        "名称": "2025 [2504.02807] MegaMath: Pushing the Limits of Open Math Corpora.pdf",
+        "作者": "Fan Zhou, Zengzhi Wang, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing",
+        "摘要": "摘要：数学推理是人类智慧的基石，也是大规模语言模型（LLMs）高级能力的关键基准。然而，研究界依然缺乏满足数学中心LLM预训练需求的开放、大规模、高质量语料库。我们提出了MegaMath，这是一个从各种数学专注资源中整理出来的开放数据集，经过如下实践操作：（1）重新审视网络数据：我们重新从Common Crawl中提取了数学文档，通过面向数学的HTML优化、基于fasttext的过滤和去重，以获取互联网上更高质量的数据。（2）召回数学相关代码数据：我们从大规模代码训练语料库Stack-V2中识别出高质量的数学相关代码，进一步增强了数据的多样性。（3）探索合成数据：我们从网络数据或代码数据中合成了QA式文本、数学相关代码以及交织的文本代码块。通过整合这些策略并通过广泛的消融实验验证其有效性，MegaMath提供了3710亿个令牌，成为现有开放数学预训练数据集中数量最多、质量最佳的数据集。\n\n翻译如下： \n数学推理是人类智能的基石，也是大规模语言模型（LLMs）高级能力的关键标准。然而，研究界还缺乏一个满足数学中心LLM预训练需求的开放、大规模、高质量语料库。我们提出了MegaMath，这是一个通过以下实践精选自各种数学专注资源的开放数据集：（1）重新审视网络数据：我们通过面向数学的HTML优化、基于fasttext的过滤和去重，从Common Crawl中重新提取数学文档，以获取互联网上更高质量的数据。（2）召回数学相关代码数据：我们从大型代码训练语料库Stack-V2中识别高质量数学相关代码，进一步增强了数据的多样性。（3）探索合成数据：我们从网络数据或代码数据中合成QA风格文本、数学相关代码和交织的文本代码块。通过整合这些策略，并通过广泛的消融实验验证其有效性，MegaMath提供了3710亿个令牌，是现有公开数学预训练数据集中数量最多、质量最佳的资料集。",
+        "地址": "https://arxiv.org/pdf/2504.02807.pdf"
+    },
+    {
+        "名称": "2025 [2504.03553] Agentic Knowledgeable Self-awareness.pdf",
+        "作者": "Shuofei Qiao, Zhisong Qiu, Baochang Ren, Xiaobin Wang, Xiangyuan Ru, Ningyu Zhang, Xiang Chen, Yong Jiang, Pengjun Xie, Fei Huang, Huajun Chen",
+        "摘要": "摘要：大型语言模型（LLMs）在各种代理规划任务中已经取得了相当大的表现。然而，传统的代理规划方法采用了“漫灌”方法，即不加区别地将黄金轨迹、外部反馈和领域知识注入代理模型。这种做法忽视了人类在决策过程中情景自我意识的基本认知原则——即根据情景需求动态评估并有策略地利用资源的能力。我们提出代理知识自我意识以解决这一问题，这是一种新范式，使基于LLM的代理能够自主调节知识的利用。具体而言，我们提出KnowSelf，这是一种数据中心方法，使代理可以像人类一样具备知识自我意识。具体而言，我们设计了一种启发式情景判断标准，用于标记代理自我探索轨迹上的特殊标记，以收集训练数据。通过两阶段训练过程，代理模型可以通过生成特定的特殊标记在不同情景之间切换，以最小的成本实现最佳规划效果。我们的实验表明，KnowSelf可以在不同任务和模型上，以最少的外部知识使用，超越各种强基线。代码可以在此处获取：https URL。\n\n作者：Shuofei Qiao, Zhisong Qiu, Baochang Ren, Xiaobin Wang, Xiangyuan Ru, Ningyu Zhang, Xiang Chen, Yong Jiang, Pengjun Xie, Fei Huang, Huajun Chen\n\n备注：工作正在进行中\n\n链接：https://arxiv.org/pdf/2504.03553.pdf\n\n标题：2025 [2504.03553] 代理知识自我意识.pdf",
+        "地址": "https://arxiv.org/pdf/2504.03553.pdf"
+    },
+    {
+        "名称": "2025 [2504.03561] SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement.pdf",
+        "作者": "Runnan Fang, Xiaobin Wang, Yuan Liang, Shuofei Qiao, Jialong Wu, Zekun Xi, Ningyu Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Huajun Chen",
+        "摘要": "摘要：在代理与其环境的交互过程中，代理通过规划和执行行动来扩展其能力。然而，基于大型语言模型（LLM）的代理在新环境中部署或需要在非传统的行动空间中导航时面临重大挑战。为使代理能够自主探索环境、优化工作流程并增强其对行动的理解，我们提出了SynWorld这一框架，该框架允许代理在行动空间内综合可能的场景，并通过多步行动调用执行蒙特卡洛树搜索（MCTS）探索，以有效地完善其在当前环境中的行动知识。我们的实验表明，SynWorld是在新环境中学习行动知识的一种有效且通用的方法。代码可以在此URL获取。\n\n摘要翻译：在代理与其环境的交互过程中，代理通过规划和执行行动来扩展其能力。然而，基于大型语言模型（LLM）的代理在新环境中部署或需要在非传统的行动空间中导航时面临重大挑战。为使代理能够自主探索环境、优化工作流程并增强其对行动的理解，我们提出了SynWorld这一框架，该框架允许代理在行动空间内综合可能的场景，并通过多步行动调用执行蒙特卡洛树搜索（MCTS）探索，以有效地完善其在当前环境中的行动知识。我们的实验表明，SynWorld 是在新环境中学习行动知识的一种有效且通用的方法。代码可以在此URL获取。\n\n翻译如下：在代理与其环境的交互过程中，代理通过规划和执行行动来扩展其能力。然而，基于大型语言模型（LLM）的代理在新的环境中部署或需要在非传统的动作空间中导航时，面临着重大挑战。为了使代理能够自主地探索环境、优化工作流程并增强其对行动的理解，我们提出了SynWorld框架，该框架允许代理在动作空间内合成可能的场景，并通过多步行动调用执行蒙特卡洛树搜索（MCTS）探索，以有效地完善其在当前环境中的行动知识。我们的实验表明，SynWorld 是一种在新环境中学习行动知识的有效且通用的方法。代码可在此链接获取。”",
+        "地址": "https://arxiv.org/pdf/2504.03561.pdf"
+    },
+    {
+        "名称": "2025 [2504.03641] MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models.pdf",
+        "作者": "Wulin Xie, Yi-Fan Zhang, Chaoyou Fu, Yang Shi, Bingyan Nie, Hongkai Chen, Zhang Zhang, Liang Wang, Tieniu Tan",
+        "摘要": "以下是该学术论文的摘要翻译：\n\n现有的多模态语言处理模型（MLLM）基准测试在评估统一多模态语言处理模型（U-MLLMs）时面临重大挑战，原因如下：1）缺乏传统任务的标准基准，导致比较不一致；2）缺少混合模态生成的基准，无法评估多模态推理能力。我们提出了一个全面的评估框架，旨在系统地评估U-MLLMs。我们的基准包含：\n\n1. 标准化的传统任务评估。我们从12个数据集中抽样，涵盖10个任务和30个子任务，确保跨研究的一致和公平比较。\n\n2. 统一任务评估。我们引入了五个测试多模态推理的新任务，包括图像编辑、带有图像生成的常识问答和几何推理。\n\n3. 综合模型基准测试。我们评估了包括Janus-Pro、EMU3、VILA-U和Gemini2-flash在内的12个领先的U-MLLMs，以及专门的理解（例如Claude-3.5-Sonnet）和生成模型（例如DALL-E-3）。\n\n我们的研究结果揭示了现有U-MLLMs的显著性能差距，强调了需要更强大的模型来有效处理混合模态任务。代码和评估数据可以在此https网址中找到。",
+        "地址": "https://arxiv.org/pdf/2504.03641.pdf"
+    },
+    {
+        "名称": "2025 [2504.03601] APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay.pdf",
+        "作者": "Akshara Prabhakar, Zuxin Liu, Weiran Yao, Jianguo Zhang, Ming Zhu, Shiyu Wang, Zhiwei Liu, Tulika Awalgaonkar, Haolin Chen, Thai Hoang, Juan Carlos Niebles, Shelby Heinecke, Huan Wang, Silvio Savarese, Caiming Xiong",
+        "摘要": "摘要: 训练能够进行多轮互动的有效AI代理需要高质量的数据，这些数据能够反映现实中人机互动的动态，而这样的数据通常稀缺且人工收集成本高昂。我们介绍了APIGen-MT，这是一个两阶段框架，能够生成可验证且多样化的多轮代理数据。在第一阶段，我们的代理管道利用一个由大型语言模型（LLM）评审员组成的委员会和迭代反馈回路，生成详细的任务蓝图和真实行动。这些蓝图然后通过模拟的人机互动转化为完整的互动轨迹。我们训练了一系列从1B到70B参数不等的模型家族——xLAM-2-fc-r系列。我们的模型在τ-bench和BFCL基准测试中表现优于前沿模型如GPT-4o和Claude 3.5，尤其是较小的模型在多轮设置中超过了较大的模型，同时在多次实验中保持了极高的一致性。全面的实验表明，我们经过验证的从蓝图到细节的方法产生了高质量的训练数据，使得开发更加可靠、高效和强大的代理成为可能。我们开源了收集到的合成数据和训练的xLAM-2-fc-r模型，以推动AI代理研究。模型可以在HuggingFace上的此网址获取，项目网站是此网址。\n\n作者: Akshara Prabhakar, Zuxin Liu, Weiran Yao, Jianguo Zhang, Ming Zhu, Shiyu Wang, Zhiwei Liu, Tulika Awalgaonkar, Haolin Chen, Thai Hoang, Juan Carlos Niebles, Shelby Heinecke, Huan Wang, Silvio Savarese, Caiming Xiong\n评论: 12页外加参考文献和附录\n网址: https://arxiv.org/pdf/2504.03601.pdf\n标题: 2025 [2504.03601] APIGen-MT: 基于模拟人机互动的多轮数据生成的代理管道",
+        "地址": "https://arxiv.org/pdf/2504.03601.pdf"
+    },
+    {
+        "名称": "2025 [2504.02949] VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning.pdf",
+        "作者": "Xianwei Zhuang, Yuxin Xie, Yufan Deng, Dongchao Yang, Liming Liang, Jinghan Ru, Yuguo Yin, Yuexian Zou",
+        "摘要": "摘要：在这项工作中，我们提出了VARGPT-v1.1，这是一个建立在我们之前框架VARGPT基础上的高级统一视觉自回归模型。该模型保留了用于视觉理解的下一个标记预测和用于图像合成的下一个规模生成的双重范式。具体来说，VARGPT-v1.1集成了：（1）一种结合迭代视觉指令调整和通过直接偏好优化（DPO）的强化学习的新型训练策略，（2）包含830万对视觉生成指令的扩展训练语料库，（3）使用Qwen2的升级语言模型主干，（4）增强的图像生成分辨率，以及（5）无需架构修改的图像编辑功能。这些进步使VARGPT-v1.1在多模态理解和文本到图像指令跟随任务中达到了最先进的性能，显著提高了理解和生成指标。值得注意的是，通过视觉指令调整，模型在保持其前身架构一致性的同时获得了图像编辑功能，揭示了统一视觉理解、生成和编辑的潜力。我们的研究表明，设计良好的统一视觉自回归模型可以有效采用来自大型语言模型（LLMs）的灵活训练策略，展现出有希望的可扩展性。代码库和模型权重在此https URL上公开提供。",
+        "地址": "https://arxiv.org/pdf/2504.02949.pdf"
+    },
+    {
+        "名称": "2025 [2503.24067] TransMamba: Flexibly Switching between Transformer and Mamba.pdf",
+        "作者": "Yixing Li, Ruobing Xie, Zhen Yang, Xingwu Sun, Shuaipeng Li, Weidong Han, Zhanhui Kang, Yu Cheng, Chengzhong Xu, Di Wang, Jie Jiang",
+        "摘要": "摘要: Transformer 是现代大型语言模型的基础，但其二次复杂度计算限制了长序列处理的效率。最近在 Mamba（一种具有线性复杂度的状态空间模型，SSM）上的进展提供了令人期待的效率提升，但在不稳定的上下文学习和多任务泛化方面存在问题。本文提出了一种新的框架 TransMamba，通过共享参数矩阵（如 QKV 和 CBx）将 Transformer 和 Mamba 统一起来，因而可以在不同的 token 长度和层次上动态切换注意力机制和 SSM 机制。我们设计了 Memory 转换器，通过将注意力输出转换为兼容 SSM 的状态来连接 Transformer 和 Mamba，确保在发生转换的 TransPoints 处信息流的无缝传递。为进一步优化，我们还全面探讨了 TransPoint 调度。我们进行了大量实验，表明 TransMamba 相较于基准模型在训练效率和性能上都取得了优异的成果，并验证了 Transformer 和 Mamba 范式之间更加深入的一致性，提供了一种用于下一代序列建模的可扩展解决方案。",
+        "地址": "https://arxiv.org/pdf/2503.24067.pdf"
+    },
+    {
+        "名称": "2025 [2503.22738] ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning.pdf",
+        "作者": "Zhaorun Chen, Mintong Kang, Bo Li",
+        "摘要": "摘要: 由基础模型驱动的自主代理已经在各种实际应用中得到了广泛应用。然而，它们仍然非常容易受到恶意指令和攻击，可能导致隐私泄露和经济损失等严重后果。更为关键的是，由于代理的复杂和动态特性，现有的大型语言模型(Large Language Models，LLMs)护栏并不适用。为了解决这些挑战，我们提出了ShieldAgent，这是首个设计用于通过逻辑推理强制其他受保护代理的操作轨迹遵守明确的安全政策的护栏代理。具体而言，ShieldAgent首先通过从政策文件中提取可验证规则并将其结构化为一组基于操作的概率规则电路来构建安全政策模型。给定受保护代理的操作轨迹，ShieldAgent会检索相关的规则电路并生成屏蔽计划，利用其全面的工具库和可执行代码进行形式验证。此外，鉴于代理缺乏护栏基准，我们引入了ShieldAgent-Bench，这是一个包含3000对与安全相关的代理指令和操作轨迹的数据集，这些数据是通过6个Web环境和7个风险类别中的SOTA攻击收集的。实验表明，ShieldAgent在ShieldAgent-Bench和三个现有基准测试中达到SOTA，平均比之前的方法高出11.3%，召回率达到90.1%。此外，ShieldAgent减少了64.7%的API查询并减少了58.2%的推理时间，展示了其在保护代理方面的高精度和高效性。",
+        "地址": "https://arxiv.org/pdf/2503.22738.pdf"
+    },
+    {
+        "名称": "2025 [2504.03011] Comprehensive Relighting: Generalizable and Consistent Monocular Human Relighting and Harmonization.pdf",
+        "作者": "Junying Wang, Jingyuan Liu, Xin Sun, Krishna Kumar Singh, Zhixin Shu, He Zhang, Jimei Yang, Nanxuan Zhao, Tuanfeng Y. Wang, Simon S. Chen, Ulrich Neumann, Jae Shin Yoon",
+        "摘要": "摘要：本文介绍了一种名为“Comprehensive Relighting”的全能方法，这是首个可以在任何场景下控制和协调任意人体部位照明的图像或视频的通用方法。由于缺乏数据集，现有的基于图像的重新照明模型只限于特定场景（例如面部或静态人物），构建这样一个通用模型极具挑战性。为了解决这个问题，我们重新利用了一个预训练的扩散模型作为通用图像先验，并在粗到细的框架中联合建模人物重新照明和背景协调。为了进一步增强重新照明的时间一致性，我们引入了一种无监督的时间照明模型，该模型从大量真实视频中学习照明周期一致性而无需任何真实标注。在推理阶段，我们的时间照明模块通过时空特征混合算法与扩散模型结合，无需额外训练；并且我们在后处理中应用了一种新的引导精炼方法，以保留输入图像中的高频细节。在实验中，Comprehensive Relighting 展现出强大的通用性和照明时间一致性，优于现有的基于图像的人物重新照明和协调方法。",
+        "地址": "https://arxiv.org/pdf/2504.03011.pdf"
+    },
+    {
+        "名称": "2025 [2504.03536] HumanDreamer-X: Photorealistic Single-image Human Avatars Reconstruction via Gaussian Restoration.pdf",
+        "作者": "Boyuan Wang, Runqi Ouyang, Xiaofeng Wang, Zheng Zhu, Guosheng Zhao, Chaojun Ni, Guan Huang, Lihong Liu, Xingang Wang",
+        "摘要": "摘要: 单图像人体重建是数字人建模应用的重要任务，但仍然是一个极具挑战性的任务。目前的方法依赖生成模型来合成多视图图像，以进行后续的3D重建和动画。然而，直接从单个人体图像生成多个视图会导致几何不一致性，从而导致重建模型中肢体碎片或模糊等问题。为了解决这些局限性，我们提出了HumanDreamer-X，这是一种新颖的框架，将多视图人体生成和重建整合到一个统一的管道中，显著提高了重建3D模型的几何一致性和视觉保真度。在该框架中，3D高斯喷射（3D Gaussian Splatting）作为显式3D表示形式，提供初始几何和外观优先权。在此基础上，HumanFixer经过训练来恢复3DGS渲染，保证了照片级真实感的结果。此外，我们深入研究了多视图人体生成中注意力机制的内在挑战，并提出了一种注意力调制策略，有效增强了多视图中的几何细节身份一致性。实验结果表明，我们的方法显著提高了生成和重建的PSNR质量指标，分别提高了16.45%和12.65%，达到25.62 dB的PSNR，同时还展示了在自然环境数据上的泛化能力和对各种人体重建骨干模型的适用性。\n\n作者: 王博远，欧阳润祺，王晓峰，朱正，赵国胜，倪超君，黄冠，刘立红，王兴钢",
+        "地址": "https://arxiv.org/pdf/2504.03536.pdf"
+    },
+    {
+        "名称": "2025 [2504.03600] MedSAM2: Segment Anything in 3D Medical Images and Videos.pdf",
+        "作者": "Jun Ma, Zongxin Yang, Sumin Kim, Bihui Chen, Mohammed Baharoon, Adibvafa Fallahpour, Reza Asakereh, Hongwei Lyu, Bo Wang",
+        "摘要": "摘要: 医学图像和视频分割对于精准医学至关重要。在2D图像领域中，特定任务或模态的模型以及通用模型的发展已经取得了显著进展。然而，对于3D图像和视频构建通用模型并进行综合用户研究的研究仍然有限。在此，我们提出了MedSAM2，一种用于3D图像和视频分割的可提示分割基础模型。该模型通过在一个包含超过455,000个3D图像掩码对和76,000个帧的庞大医疗数据集上微调Segment Anything Model 2开发而成，在广泛的器官、病变和成像模态中表现优于先前的模型。此外，我们实施了一种人机协作管道，以促进大规模数据集的创建，据我们所知，这是迄今为止最广泛的用户研究，涉及5,000个CT病变、3,984个肝脏MRI病变和251,550个超声心动图视频帧的标注，证明MedSAM2可以将人工成本减少超过85%。MedSAM2还集成到广泛使用的平台中，具有用户友好的界面，可用于本地和云部署，使其成为在研究和医疗环境中支持高效、可扩展和高质量分割的实用工具。",
+        "地址": "https://arxiv.org/pdf/2504.03600.pdf"
+    },
+    {
+        "名称": "2025 [2504.02402] EvMic: Event-based Non-contact sound recovery from effective spatial-temporal modeling.pdf",
+        "作者": "Hao Yin, Shi Guo, Xu Jia, Xudong XU, Lu Zhang, Si Liu, Dong Wang, Huchuan Lu, Tianfan Xue",
+        "摘要": "摘要：当声波撞击物体时，会引起振动，产生高频和微妙的视觉变化，可以用来恢复声音。早期的研究总是面临与采样率、带宽、视野和光路简易性相关的权衡。最近事件相机硬件的进步显示出其在视觉声恢复中的良好应用潜力，因为其在捕捉高频信号方面具有优越的能力。然而，现有的基于事件的振动恢复方法在声音恢复方面仍然不理想。在这项工作中，我们提出了一种新的非接触声音恢复管道，充分利用事件流的时空信息。我们首先使用一种新的模拟管道生成了一个大型训练集。然后，我们设计了一个网络，利用事件的稀疏性来捕捉空间信息，并使用Mamba来建模长期时间信息。最后，我们训练了一个空间聚合块，以聚合来自不同位置的信息，从而进一步提高信号质量。为了捕捉由声波引起的事件信号，我们还设计了一种使用激光矩阵增强梯度的成像系统，并收集了多个数据序列进行测试。对合成数据和真实世界数据的实验结果表明了我们方法的有效性。\n\n作者：尹昊，郭实，加旭，许旭东，张璐，刘丝，王栋，卢湖川，薛天凡\n\n链接：https://arxiv.org/pdf/2504.02402.pdf\n\n标题：2025 [2504.02402] EvMic：基于事件的有效时空建模非接触声音恢复\n\n评论：我们的项目主页：this https URL",
+        "地址": "https://arxiv.org/pdf/2504.02402.pdf"
+    },
+    {
+        "名称": "2025 [2503.24310] BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models.pdf",
+        "作者": "Alok Abhishek, Lisa Erickson, Tushar Bandopadhyay",
+        "摘要": "摘要：在这项研究中，我们介绍了BEATS，一个用于评估大型语言模型(LLMs)中偏见、伦理、公平性和真实性的新框架。基于BEATS框架，我们提出了一个LLMs偏见评估基准，涵盖29个不同的指标。这些指标包括人口学、认知和社会偏见，以及道德推理、群体公平性和与事实性相关的误导风险的测量。这些指标使我们能够定量评估LLM生成的回答在多大程度上可能会延续社会偏见，从而强化或扩大系统性的不公平。要在这个基准上获得高分，LLM必须在回答中表现出非常公平的行为，这使之成为负责任的AI评估的严格标准。我们基于实验证据的实证结果表明，领先行业模型生成的输出中有37.65%包含某种形式的偏见，这表明在关键决策系统中使用这些模型存在显著风险。BEATS框架和基准提供了一种可扩展且统计严谨的方法来基准测试LLMs，诊断偏见因素，并开发缓解策略。通过BEATS框架，我们的目标是推动更加社会责任和伦理对齐的AI模型的发展。",
+        "地址": "https://arxiv.org/pdf/2503.24310.pdf"
+    },
+    {
+        "名称": "2025 [2504.03597] Real-is-Sim: Bridging the Sim-to-Real Gap with a Dynamic Digital Twin for Real-World Robot Policy Evaluation.pdf",
+        "作者": "Jad Abou-Chakra, Lingfeng Sun, Krishan Rana, Brandon May, Karl Schmeckpeper, Maria Vittoria Minniti, Laura Herlant",
+        "摘要": "摘要：近年来，行为克隆技术的发展使机器人能够执行复杂的操作任务。然而，准确评估训练效果仍然具有挑战性，尤其是在实际应用中，因为行为克隆损失通常与实际任务成功率相关性较差。因此，研究人员不得不通过昂贵且耗时的实际评估来使用成功率指标，这使得优化策略和检测过拟合或欠拟合变得不切实际。为了解决这些问题，我们提出了real-is-sim，这是一个新型的行为克隆框架，贯穿整个策略开发流程（数据收集、训练和部署），并结合了动态的数字孪生（基于体现高斯模型）。通过持续对齐模拟世界和物理世界，可以在模拟器中提取状态并在真实世界中收集示例。模拟器可以通过任何视角渲染图像输入或从场景中的物体提取低级状态信息，从而实现灵活的状态表示。在训练过程中，可以在模拟器中以离线和高度并行的方式直接评估策略。最后，在部署过程中，策略在模拟器中运行，真实机器人直接跟踪模拟机器人关节，从而有效地将策略执行与真实硬件解耦，并缓解传统的域转换挑战。我们在PushT操作任务上验证了real-is-sim，展示了模拟器中的成功率与实际评估的强相关性。我们系统的视频可以在此网址找到。",
+        "地址": "https://arxiv.org/pdf/2504.03597.pdf"
+    },
+    {
+        "名称": "2025 [2504.02534] Delineate Anything: Resolution-Agnostic Field Boundary Delineation on Satellite Imagery.pdf",
+        "作者": "Mykola Lavreniuk, Nataliia Kussul, Andrii Shelestov, Bohdan Yailymov, Yevhenii Salii, Volodymyr Kuzin, Zoltan Szantoi",
+        "摘要": "摘要: 从卫星影像中准确描绘农业田地边界对于土地管理和作物监测至关重要。然而，由于数据集规模有限、分辨率差异以及多样的环境条件，现有方法面临诸多挑战。我们通过将任务重新表述为实例分割，并引入了大规模、多分辨率的数据集 FBIS-22M（Field Boundary Instance Segmentation - 22M）来解决这些问题。该数据集包含 672,909 张高分辨率卫星图像（分辨率从 0.25 米到 10 米不等）和 22,926,427 个独立田地的实例掩膜，显著缩小了农业数据集与其他计算机视觉领域数据集之间的差距。我们进一步提出了一种新的实例分割模型 Delineate Anything，并在新的 FBIS-22M 数据集上进行训练。我们提出的模型在现有方法的基础上取得了显著的进步，在 mAP@0.5 上提高了 88.5%，在 mAP@0.5:0.95 上提高了 103%，同时还表现出显著更快的推理速度和强劲的零样本泛化能力，适用于多种图像分辨率和未见过的地理区域。代码、预训练模型和 FBIS-22M 数据集可在此网址获取：https://arxiv.org/pdf/2504.02534.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.02534.pdf"
+    },
+    {
+        "名称": "2025 [2504.01328] Slow-Fast Architecture for Video Multi-Modal Large Language Models.pdf",
+        "作者": "Min Shi, Shihao Wang, Chieh-Yun Chen, Jitesh Jain, Kai Wang, Junjun Xiong, Guilin Liu, Zhiding Yu, Humphrey Shi",
+        "摘要": "摘要：在有限的计算预算下平衡时间分辨率和空间细节仍然是基于视频的多模态语言模型（MLLMs）的关键挑战。现有的方法通常在将视频表示输入到LLM之前使用预定义的规则进行压缩，导致不可逆的信息丢失，并且往往忽略输入指令。为解决这一问题，我们提出了一种新颖的慢-快架构，自然而然地绕开了这一权衡，使得能够在保持空间细节的同时使用更多的输入帧。受到人类在浏览视频时先快速浏览再专注于相关部分的启发，我们的慢-快设计采用了双令牌策略：1）\"快速\"视觉令牌——一组压缩视频特征——与文本嵌入一起输入LLM，提供快速概览； 2）\"慢速\"视觉令牌——未压缩的视频特征——通过特别设计的混合解码层由文本嵌入进行交叉注意，以线性复杂度指令感知地提取相关视觉细节。我们系统地探索以优化整体现及关键组件。实验表明，我们的模型显著优于仅注意力基线，将输入容量从16帧扩展到128帧，计算量仅增加3%，并在五个视频理解基准上的平均表现提升16%。我们的7B模型在同类大小模型中实现了最先进的性能。此外，我们的慢-快架构是一种即插即用的设计，可集成到其他视频MLLMs中以提高效率和可扩展性。",
+        "地址": "https://arxiv.org/pdf/2504.01328.pdf"
+    },
+    {
+        "名称": "2025 [2504.00396] SPF-Portrait: Towards Pure Portrait Customization with Semantic Pollution-Free Fine-tuning.pdf",
+        "作者": "Xiaole Xian, Zhichao Liao, Qingyu Li, Wenyu Qin, Pengfei Wan, Weicheng Xie, Long Zeng, Linlin Shen, Pingfa Feng",
+        "摘要": "摘要: 微调预训练的文本到图像（T2I）模型以定制肖像数据集是通过文本驱动肖像属性定制的主流方法。由于在微调过程中存在语义污染，现有的方法难以在定制目标属性的同时维持原始模型的行为并实现增量学习。为了解决这一问题，我们提出了SPF-Portrait，这是首个仅理解定制语义并在文本驱动的肖像定制中消除语义污染的工作。在SPF-Portrait中，我们提出了一条引入原始模型作为常规微调路径参考的双路径管道。通过对比学习，我们确保对目标属性的适应性，并有意地将其他不相关属性与原始肖像对齐。我们引入了一种新的语义感知精细控制图，该图表示目标语义的精确响应区域，以空间上指导对比路径之间的对齐过程。该对齐过程不仅有效地保持了原始模型的性能，同时避免了过度对齐。此外，我们提出了一种新的响应增强机制，以强化目标属性的性能，同时缓解直接跨模态监督所固有的表示差异。大量实验表明，SPF-Portrait达到了最先进的性能。项目网页：此链接URL。",
+        "地址": "https://arxiv.org/pdf/2504.00396.pdf"
+    }
+]
