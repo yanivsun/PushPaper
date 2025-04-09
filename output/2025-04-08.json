@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2504.05299] SmolVLM: Redefining small and efficient multimodal models.pdf",
+        "作者": "Andrés Marafioti, Orr Zohar, Miquel Farré, Merve Noyan, Elie Bakouch, Pedro Cuenca, Cyril Zakka, Loubna Ben Allal, Anton Lozhkov, Nouamane Tazi, Vaibhav Srivastav, Joshua Lochner, Hugo Larcher, Mathieu Morlon, Lewis Tunstall, Leandro von Werra, Thomas Wolf",
+        "摘要": "摘要：大型视觉-语言模型（Vision-Language Models, VLMs）能够提供出色的性能，但需要大量的计算资源，限制了其在移动和边缘设备上的部署。较小的VLMs通常仿效较大模型的设计选择，比如广泛的图像标记化，导致GPU内存使用效率低下，不利于设备上的实际应用。我们介绍了SmolVLM，这是专为资源高效推理优化的一系列紧凑型多模态模型。我们系统地探索了架构配置、标记化策略和数据管理，以优化低计算开销。通过这些，我们确认了在图像和视频任务上能显著提升性能的关键设计选择，并且占用的内存极少。我们体积最小的模型SmolVLM-256M在推理过程中使用不到1GB的GPU内存，并超越了大300倍的Idefics-80B模型，尽管两者开发时间差异达18个月。我们最大的模型参数量达2.2B，与消耗两倍GPU内存的最新VLMs媲美。SmolVLM模型不仅能处理静态图像，还表现在视频理解方面表现稳健。我们的结果强调，战略性的架构优化、积极且高效的标记化以及精心策划的训练数据显著增强了多模态性能，为实际、节能的部署提供了大大压缩的模型规模。\n\n作者：Andrés Marafioti, Orr Zohar, Miquel Farré, Merve Noyan, Elie Bakouch, Pedro Cuenca, Cyril Zakka, Loubna Ben Allal, Anton Lozhkov, Nouamane Tazi, Vaibhav Srivastav, Joshua Lochner, Hugo Larcher, Mathieu Morlon, Lewis Tunstall, Leandro von Werra, Thomas Wolf\n\n论文链接：[2025 [2504.05299] SmolVLM: Redefining small and efficient multimodal models.pdf](https://arxiv.org/pdf/2504.05299.pdf)",
+        "地址": "https://arxiv.org/pdf/2504.05299.pdf"
+    },
+    {
+        "名称": "2025 [2504.05298] One-Minute Video Generation with Test-Time Training.pdf",
+        "作者": "Karan Dalal, Daniel Koceja, Gashon Hussein, Jiarui Xu, Yue Zhao, Youjin Song, Shihao Han, Ka Chun Cheung, Jan Kautz, Carlos Guestrin, Tatsunori Hashimoto, Sanmi Koyejo, Yejin Choi, Yu Sun, Xiaolong Wang",
+        "摘要": "摘要：目前，变压器（Transformers）仍难以生成一分钟长的视频，因为自注意力层对于长时间上下文处理效率不高。Mamba层等替代方案则难以处理复杂的多场景故事，因为它们的隐藏状态表达能力不够强。我们实验了内含测试时训练（Test-Time Training, TTT）层的方案，其隐藏状态本身可以是神经网络，因此更加具表现力。将TTT层加入到预训练的变压器模型中，使其能够从文本脚本生成一分钟长的视频。为验证概念，我们整理了一个基于《猫和老鼠》动画片的数据集。与Mamba~2、Gated DeltaNet和滑动窗口注意力层等基线模型相比，TTT层生成的视频更加连贯，能够讲述复杂故事，在每个方法100个视频的人类评估中领先34个Elo点。尽管效果显著，结果中仍包含一些伪影，这可能是由于预训练的50亿参数模型能力有限所致。我们的方法在实现效率上也有待提高。由于资源限制，我们仅实验了一分钟的视频，但该方法可以扩展到更长的视频和更复杂的故事。示例视频、代码和注释可在此链接获取：this https URL\n\n作者：Karan Dalal, Daniel Koceja, Gashon Hussein, Jiarui Xu, Yue Zhao, Youjin Song, Shihao Han, Ka Chun Cheung, Jan Kautz, Carlos Guestrin, Tatsunori Hashimoto, Sanmi Koyejo, Yejin Choi, Yu Sun, Xiaolong Wang\n\n评论：CVPR 2025\n\n链接：https://arxiv.org/pdf/2504.05298.pdf\n\n标题：测试时训练生成的一分钟视频",
+        "地址": "https://arxiv.org/pdf/2504.05298.pdf"
+    },
+    {
+        "名称": "2025 [2504.04022] Rethinking Reflection in Pre-Training.pdf",
+        "作者": "Essential AI: Darsh J Shah, Peter Rushton, Somanshu Singla, Mohit Parmar, Kurt Smith, Yash Vanjani, Ashish Vaswani, Adarsh Chaluvaraju, Andrew Hojel, Andrew Ma, Anil Thomas, Anthony Polloreno, Ashish Tanwer, Burhan Drak Sibai, Divya S Mansingka, Divya Shivaprasad, Ishaan Shah, Karl Stratos, Khoi Nguyen, Michael Callahan, Michael Pust, Mrinal Iyer, Philip Monk, Platon Mazarakis, Ritvik Kapila, Saurabh Srivastava, Tim Romanski",
+        "摘要": "摘要：语言模型对其自身推理进行反思的能力在解决复杂问题时提供了关键优势。尽管最近的大部分研究集中在这种能力在强化学习期间如何发展，但我们展示了这种能力实际上在模型预训练期间就开始显现。为此，我们在思维链中引入了刻意错误，并测试模型是否能够通过识别和纠正这些错误来得出正确答案。通过跟踪不同预训练阶段的表现，我们观察到这种自我纠错能力在早期就开始出现，并随着时间逐步提高。例如，一个在4万亿个标记上进行预训练的OLMo2-7B模型在我们的六个自我反思任务中展示了自我纠错的能力。",
+        "地址": "https://arxiv.org/pdf/2504.04022.pdf"
+    },
+    {
+        "名称": "2025 [2504.05305] URECA: Unique Region Caption Anything.pdf",
+        "作者": "Sangbeom Lim, Junwan Kim, Heeji Yoon, Jaewoo Jung, Seungryong Kim",
+        "摘要": "摘要：区域级别的描述生成旨在为特定图像区域生成自然语言描述，同时突出其独特特征。然而，现有方法在多粒度上生成独特描述的能力有限，限制了其在实际应用中的适用性。为了解决详细区域理解的需求，我们引入了URECA数据集，这是一种为多粒度区域描述生成量身定制的大规模数据集。与以前主要关注显著物体的数据集不同，URECA数据集通过包含多样的物体、部件和背景元素，确保了区域和描述之间独特而一致的映射。其核心是一个阶段式数据策划流程，每个阶段逐步精炼区域选择和描述生成。通过在每个阶段利用多模态大语言模型（MLLMs），我们的流程生成了具备更高准确性和语义多样性的独特且具上下文基础的描述。在此数据集基础上，我们提出了URECA，这是一种新颖的描述生成模型，设计用于有效编码多粒度区域。URECA通过对现有MLLMs进行简单而关键的修改，保持诸如位置和形状等基本空间属性，实现了细粒度且语义丰富的区域描述。我们的方法引入了动态掩模建模和高分辨率掩模编码器，以增强描述的独特性。实验表明，URECA在URECA数据集上达到了最先进的性能，并且在现有的区域级别描述生成基准测试中表现良好。\n\n作者：Sangbeom Lim, Junwan Kim, Heeji Yoon, Jaewoo Jung, Seungryong Kim\n\n评论：项目页面：this https URL 代码：this https URL\n\n网址：https://arxiv.org/pdf/2504.05305.pdf\n\n标题：2025 [2504.05305] URECA: Unique Region Caption Anything.pdf",
+        "地址": "https://arxiv.org/pdf/2504.05305.pdf"
+    },
+    {
+        "名称": "2025 [2504.04718] T1: Tool-integrated Self-verification for Test-time Compute Scaling in Small Language Models.pdf",
+        "作者": "Minki Kang, Jongwon Jeong, Jaewoong Cho",
+        "摘要": "摘要：最近的研究表明，测试时计算扩展（compute scaling）能够有效地提升小型语言模型（sLMs）的性能。然而，以往的研究主要关注在测试时使用一个更大的模型作为验证器，而对sLMs的自我验证研究较少。在这项工作中，我们调查了sLMs在测试时扩展下能否可靠地自我验证其输出。我们发现，即使借助更大的验证器进行知识蒸馏，sLMs在需要记忆的验证任务（如数值计算和事实核查）上仍然表现不佳。为了解决这一局限，我们提出了工具集成自我验证（Tool-integrated self-verification, T1），将需要大量记忆的验证步骤委派给外部工具（如代码解释器）。理论分析表明，工具集成能够减少记忆需求，并改进测试时的性能扩展。在MATH基准测试上的实验表明，使用T1的Llama-3.2 1B模型在测试时扩展表现优于显著更大的Llama-3.1 8B模型。此外，T1能够有效泛化到数学（MATH500）和多领域知识密集型任务（MMLU-Pro）。我们的研究结果突显了工具集成在显著提升sLMs自我验证能力方面的潜力。\n\n翻译：最近的研究表明，测试时计算扩展能够有效地提升小型语言模型的性能。然而，以往的研究主要关注在测试时使用一个更大的模型作为验证器，而对小型语言模型的自我验证研究较少。在这项工作中，我们调查了小型语言模型在测试时扩展下能否可靠地自我验证其输出。我们发现，即使借助更大的验证器进行知识蒸馏，小型语言模型在需要记忆的验证任务（如数值计算和事实核查）上仍表现不佳。为了解决这一局限，我们提出了工具整合自我验证（T1），将需要大量记忆的验证步骤委派给外部工具（如代码解释器）。理论分析表明，工具整合能够减少记忆需求，并改进测试时的性能扩展。在MATH基准测试上的实验表明，使用T1的Llama-3.2 1B模型在测试时扩展表现优于显著更大的Llama-3.1 8B模型。此外，T1能够有效泛化到数学（MATH500）和多领域知识密集型任务（MMLU-Pro）。我们的研究结果凸显了工具整合在显著提升小型语言模型自我验证能力方面的潜力。",
+        "地址": "https://arxiv.org/pdf/2504.04718.pdf"
+    },
+    {
+        "名称": "2025 [2504.04823] Quantization Hurts Reasoning? An Empirical Study on Quantized Reasoning Models.pdf",
+        "作者": "Ruikang Liu, Yuxuan Sun, Manyi Zhang, Haoli Bai, Xianzhi Yu, Tiezheng Yu, Chun Yuan, Lu Hou",
+        "摘要": "这篇论文的摘要如下：\n\n摘要: 最近推理语言模型的进展展示了其在复杂任务中的卓越表现，但是其扩展的思维链推理过程增加了推断开销。尽管量化已被广泛采用以降低大规模语言模型的推断成本，但其对推理模型的影响仍然研究不足。在此研究中，我们首次系统性地研究了量化推理模型，评估了开源的DeepSeek-R1-Distilled Qwen和LLaMA系列（参数范围从1.5B到70B），以及QwQ-32B。我们的调查涵盖了权重、KV缓存和使用最先进算法在不同比特宽度下的激活量化，并在数学（AIME, MATH-500）、科学（GPQA）和编程（LiveCodeBench）推理基准测试中进行了广泛评估。我们的发现表明，尽管可以通过W8A8或W4A16量化实现无损量化，但较低的比特宽度会引入显著的准确性风险。我们进一步确定，模型大小、模型来源和任务难度是性能的关键决定因素。与预期相反，量化模型不会显示输出长度的增加。此外，策略性地扩大模型尺寸或推理步骤可以有效地提高性能。所有量化模型和代码将在https URL进行开源。\n\n论文的作者：Ruikang Liu、Yuxuan Sun、Manyi Zhang、Haoli Bai、Xianzhi Yu、Tiezheng Yu、Chun Yuan、Lu Hou\n\n论文标题：2025 [2504.04823] Quantization Hurts Reasoning? An Empirical Study on Quantized Reasoning Models\n\n论文地址：https://arxiv.org/pdf/2504.04823.pdf",
+        "地址": "https://arxiv.org/pdf/2504.04823.pdf"
+    },
+    {
+        "名称": "2025 [2504.02828] Concept Lancet: Image Editing with Compositional Representation Transplant.pdf",
+        "作者": "Jinqi Luo, Tianjiao Ding, Kwan Ho Ryan Chan, Hancheng Min, Chris Callison-Burch, René Vidal",
+        "摘要": "摘要：扩散模型被广泛应用于图像编辑任务。现有的编辑方法通常通过在文本嵌入或评分空间中策划编辑方向来设计表示操作程序。然而，这样的程序面临一个关键挑战：高估编辑强度会损害视觉一致性，而低估则无法完成编辑任务。值得注意的是，每个源图像可能需要不同的编辑强度，而通过反复试验来寻找合适的强度成本较高。为了解决这一挑战，我们提出了Concept Lancet（CoLan），一种用于扩散模型图像编辑的零样本即插即用框架。在推理时，我们在潜在（文本嵌入或扩散评分）空间中将源输入分解为所收集的视觉概念表示的稀疏线性组合。这使我们能够准确估计每个图像中概念的存在，从而指导编辑。根据编辑任务（替换/添加/删除），我们执行定制的概念移植过程，以施加相应的编辑方向。为了充分建模概念空间，我们策划了一个概念表示数据集CoLan-150K，其中包含对潜在字典的视觉术语和短语的多样化描述和场景。多项基于扩散的图像编辑基准实验表明，配备CoLan的方法在编辑效果和一致性保持方面达到了最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2504.02828.pdf"
+    },
+    {
+        "名称": "2025 [2504.05118] VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks.pdf",
+        "作者": "Yu Yue, Yufeng Yuan, Qiying Yu, Xiaochen Zuo, Ruofei Zhu, Wenyuan Xu, Jiaze Chen, Chengyi Wang, TianTian Fan, Zhengyin Du, Xiangpeng Wei, Xiangyu Yu, Gaohong Liu, Juncai Liu, Lingjun Liu, Haibin Lin, Zhiqi Lin, Bole Ma, Chi Zhang, Mofan Zhang, Wang Zhang, Hang Zhu, Ru Zhang, Xin Liu, Mingxuan Wang, Yonghui Wu, Lin Yan",
+        "摘要": "摘要：我们提出了VAPO，一种基于价值的强化学习框架，用于推理模型的增强型近端策略优化。这一新颖的框架专为价值导向的推理模型设计。在AIME 2024数据集上的基准测试中，基于Qwen 32B预训练模型的VAPO取得了60.4的最新记录。在相同实验设置下，VAPO不仅超过了先前报告的DeepSeek-R1-Zero-Qwen-32B和DAPO的结果超过10分。VAPO的训练过程因其稳定性和高效性而不同凡响，仅需5,000步便可达到最先进的性能。此外，多次独立运行过程中未发生任何训练崩溃，凸显了其可靠性。本研究通过基于价值的强化学习框架深入探讨了长链式思维（long-CoT）推理。我们发现了困扰基于价值的方法的三个关键挑战：价值模型偏差、异质序列长度的存在以及奖励信号的稀疏性。通过系统设计，VAPO提供了一种综合解决方案，有效地缓解了这些挑战，从而提升了长链式推理任务中的表现。\n\n作者：Yu Yue, Yufeng Yuan, Qiying Yu, Xiaochen Zuo, Ruofei Zhu, Wenyuan Xu, Jiaze Chen, Chengyi Wang, TianTian Fan, Zhengyin Du, Xiangpeng Wei, Xiangyu Yu, Gaohong Liu, Juncai Liu, Lingjun Liu, Haibin Lin, Zhiqi Lin, Bole Ma, Chi Zhang, Mofan Zhang, Wang Zhang, Hang Zhu, Ru Zhang, Xin Liu, Mingxuan Wang, Yonghui Wu, Lin Yan\n\n链接：https://arxiv.org/pdf/2504.05118.pdf\n\n标题：VAPO: 高效可靠的强化学习框架用于高级推理任务",
+        "地址": "https://arxiv.org/pdf/2504.05118.pdf"
+    },
+    {
+        "名称": "2025 [2504.05288] LiveVQA: Live Visual Knowledge Seeking.pdf",
+        "作者": "Mingyang Fu, Yuyang Peng, Benlin Liu, Yao Wan, Dongping Chen",
+        "摘要": "摘要: 我们介绍了LiveVQA，这是一个自动从互联网收集并生成VQA问题的最新视觉知识数据集。LiveVQA包含来自6个新闻网站、涵盖14个新闻类别的3,602个单跳和多跳视觉问题，具有高质量的图文一致性和真实信息。我们对包括GPT-4o、Gemma-3和Qwen-2.5-VL系列在内的15个MLLMs的评估表明，较强的模型整体表现更好，先进的视觉推理能力对解决复杂的多跳问题至关重要。尽管在文本问题上表现优秀，但即便是配备搜索引擎等工具的模型，在解决需要最新视觉知识的视觉问题时仍存在显著差距，这凸显了未来研究的重要领域。",
+        "地址": "https://arxiv.org/pdf/2504.05288.pdf"
+    },
+    {
+        "名称": "2025 [2504.05304] Gaussian Mixture Flow Matching Models.pdf",
+        "作者": "Hansheng Chen, Kai Zhang, Hao Tan, Zexiang Xu, Fujun Luan, Leonidas Guibas, Gordon Wetzstein, Sai Bi",
+        "摘要": "该论文提出了一种新的高斯混合流匹配（GMFlow）模型，以解决现有扩散模型和流匹配模型在少步采样中的离散化误差，以及分类器无关指导（CFG）下产生过饱和颜色的问题。GMFlow 通过预测动态高斯混合参数来捕捉多模态流速分布，并使用 KL 散度损失进行学习。实验表明，GMFlow 能很好地推广之前的扩散和流匹配模型，并开发出GM-SDE/ODE解算器，以实现精确的少步采样。此外，新提出的概率性指导方案能够缓解 CFG 的过饱和问题，显著提升图像生成质量。大量实验证明，GMFlow 在生成质量上稳定优于流匹配基线模型，在 ImageNet 256×256上仅需6步采样就达到0.942的精度。",
+        "地址": "https://arxiv.org/pdf/2504.05304.pdf"
+    },
+    {
+        "名称": "2025 [2504.04715] Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs.pdf",
+        "作者": "Will Cai, Tianneng Shi, Xuandong Zhao, Dawn Song",
+        "摘要": "摘要：大规模语言模型（LLMs）通过黑箱API访问的扩展引入了一个重要的信任挑战：用户根据广告宣传的模型能力（例如，大小、性能）支付服务费用，但提供者可能会秘密替换指定模型为更便宜、质量较低的替代品以降低运营成本。这种缺乏透明度的行为破坏了公平性，侵蚀了信任，并使可靠的基准测试变得复杂。由于黑箱性质，模型替换的检测往往仅限于输入输出查询，因此变得困难。本文对LLM API中的模型替换检测问题进行了形式化论述。我们系统地评估了现有的验证技术，包括基于输出的统计测试、基准评估和日志概率分析，在模型量化、随机替换和基准逃避等各种现实攻击场景下的表现。研究结果揭示了仅依赖文本输出的方法的局限性，尤其是在应对微妙或适应性攻击时。虽然在可用时，日志概率分析提供了更强的保障，但其可访问性通常有限。我们最后讨论了硬件技术解决方案，如可信执行环境（TEEs），作为实现可证明模型完整性的途径，并强调了在安全性、性能和供应商采纳率之间的权衡。代码可在此URL下载。\n\n标题：你得到的是你支付的吗？审计LLM API中的模型替换\n\n年份：2025\n\n作者：Will Cai, Tianneng Shi, Xuandong Zhao, Dawn Song\n\nURL：https://arxiv.org/pdf/2504.04715.pdf",
+        "地址": "https://arxiv.org/pdf/2504.04715.pdf"
+    },
+    {
+        "名称": "2025 [2504.03151] Why Reasoning Matters? A Survey of Advancements in Multimodal Reasoning (v1).pdf",
+        "作者": "Jing Bi, Susan Liang, Xiaofei Zhou, Pinxin Liu, Junjia Guo, Yunlong Tang, Luchuan Song, Chao Huang, Guangyu Sun, Jinxi He, Jiarui Wu, Shu Yang, Daoan Zhang, Chen Chen, Lianggong Bruce Wen, Zhang Liu, Jiebo Luo, Chenliang Xu",
+        "摘要": "摘要：推理是人类智慧的核心，使得在各种任务中能够进行结构化问题解决。近期大规模语言模型（LLMs）的进展极大地提升了它们在算术、常识和符号领域的推理能力。然而，将这些能力有效地扩展到多模态环境中——即模型必须整合视觉和文本输入的环境中——依然是一个重大挑战。多模态推理引入了复杂性，例如处理跨模态的冲突信息，这需要模型采用先进的解释策略。解决这些挑战不仅涉及复杂的算法，还需要健全的评估推理准确性和一致性的方法。本文提供了对文本和多模态LLMs中推理技术的简明而深刻的概述。通过全面而最新的比较，我们清晰地表述了核心推理挑战和机遇，强调了训练后优化和测试时推理的实用方法。我们的工作提供了宝贵的见解和指导，连接理论框架和实际应用，并为未来研究设定了明确的方向。",
+        "地址": "https://arxiv.org/pdf/2504.03151.pdf"
+    },
+    {
+        "名称": "2025 [2504.02882] DiaTool-DPO: Multi-Turn Direct Preference Optimization for Tool-Augmented Large Language Models.pdf",
+        "作者": "Sunghee Jung, Donghun Lee, Shinbok Lee, Gaeun Seo, Daniel Lee, Byeongil Ko, Junrae Cho, Kihyun Kim, Eunggyun Kim, Myeongcheol Shin",
+        "摘要": "摘要：工具增强的大型语言模型（TA-LLMs）在实际应用中表现出潜力，但在处理不完整查询和超范围请求时面临挑战。尽管现有方法主要依赖专家轨迹的监督微调，我们提出了一种新方法DiaTool-DPO，通过直接偏好优化（Direct Preference Optimization）增强TA-LLM的对话能力。我们将TA-LLM的交互建模为具有5个不同对话状态的马尔可夫决策过程，并根据状态转换轨迹将用户查询分为3种类型。我们自动构建了正确和错误对话流程的配对轨迹数据集，并引入了用于对话控制的专门目标损失。我们的全面评估显示，DiaTool-DPO在信息收集方面（94.8%）和工具调用拒绝方面（91%）接近GPT-4o的性能，相比基准（分别为44%和9.6%）有显著提升，同时保持核心功能。我们的方法为开发无需额外专家演示或人工标注即可处理多样化现实场景的TA-LLMs开辟了新可能性。",
+        "地址": "https://arxiv.org/pdf/2504.02882.pdf"
+    },
+    {
+        "名称": "2025 [2504.03193] Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation.pdf",
+        "作者": "Xin Zhang, Robby T. Tan",
+        "摘要": "摘要：视觉基础模型（VFMs）和视觉-语言模型（VLMs）因其强大的泛化能力在领域泛化语义分割（DGSS）中获得了关注。然而，现有的DGSS方法通常仅依赖于VFMs或VLMs中的一种，忽视了两者的互补优势。VFMs（如DINOv2）擅长捕捉细粒度特征，而VLMs（如CLIP）能提供稳健的文本对齐能力，但在粗粒度方面表现较弱。尽管两者具有互补优势，但通过注意机制有效地整合VFMs和VLMs具有挑战性，因为增加的贴片标记使长序列建模变得复杂。为了解决这个问题，我们提出了MFuser，这是一种基于Mamba的新型融合框架，可以在保持序列长度线性可扩展性的同时，有效结合VFMs和VLMs的优势。MFuser由两个关键组件组成：MVFuser，作为一个共同适配器，通过捕捉顺序和空间动态来联合微调两个模型；以及MTEnhancer，这是一种混合注意-Mamba模块，通过结合图像先验来优化文本嵌入。我们的方法在不增加显著计算开销的情况下，实现了精确的特征定位和强大的文本对齐。大量实验表明，MFuser显著优于最先进的DGSS方法，在从合成到真实和从真实到真实的基准测试中分别达到68.20 mIoU和71.87 mIoU。这些代码可在此HTTPS网址上获得。",
+        "地址": "https://arxiv.org/pdf/2504.03193.pdf"
+    },
+    {
+        "名称": "2025 [2504.03964] Clinical ModernBERT: An efficient and long context encoder for biomedical text.pdf",
+        "作者": "Simon A. Lee, Anthony Wu, Jeffrey N. Chiang",
+        "摘要": "摘要：我们介绍了Clinical ModernBERT，这是一种基于变压器的编码器，预训练于大规模生物医学文献、临床笔记和医学本体中，结合了PubMed摘要、MIMIC IV临床数据以及带有文本描述的医学代码。我们的模型在ModernBERT的基础上进行了改进，后者是当前最先进的自然语言文本编码器，具有旋转位置嵌入（RoPE）、闪存注意力和最长可达8192个标记的上下文长度等架构升级。Clinical ModernBERT在生成针对长上下文任务的语义丰富的表示方面表现出色。我们通过分析其预训练权重，并在全面的临床NLP基准测试套件上进行实证评估，验证了这一点。\n\n翻译：我们介绍了Clinical ModernBERT，这是一种基于Transformer的编码器，预训练于大规模的生物医学文献、临床笔记和医学本体中，结合了PubMed摘要、MIMIC IV临床数据以及带有文本描述的医学代码。我们的模型在ModernBERT的基础上进行了改进，ModernBERT是当前最先进的自然语言文本编码器，具有旋转位置嵌入（RoPE）、闪存注意力和最长可达8192个标记的上下文长度等架构升级。Clinical ModernBERT在生成针对长上下文任务的语义丰富的表示方面表现出色。我们通过分析其预训练的权重，并在全面的临床自然语言处理（NLP）基准测试套件上进行实证评估，验证了这一点。",
+        "地址": "https://arxiv.org/pdf/2504.03964.pdf"
+    },
+    {
+        "名称": "2025 [2504.02812] BOP Challenge 2024 on Model-Based and Model-Free 6D Object Pose Estimation.pdf",
+        "作者": "Van Nguyen Nguyen, Stephen Tyree, Andrew Guo, Mederic Fourmy, Anas Gouda, Taeyeop Lee, Sungphill Moon, Hyeontae Son, Lukas Ranftl, Jonathan Tremblay, Eric Brachmann, Bertram Drost, Vincent Lepetit, Carsten Rother, Stan Birchfield, Jiri Matas, Yann Labbe, Martin Sundermeyer, Tomas Hodan",
+        "摘要": "摘要：我们展示了BOP挑战赛2024的评估方法、数据集和结果，这是为了捕获6D对象姿态估计及相关任务的最新进展而组织的一系列公开竞赛的第六次竞赛。在2024年，我们的目标是将BOP从实验室环境转向现实世界场景。首先，我们引入了新的无模型任务，方法需要从提供的参考视频中获取对象，而没有3D对象模型。其次，我们定义了一项新的、更实际的6D对象检测任务，其中测试图像中可见对象的标识未作为输入提供。第三，我们推出了使用高分辨率传感器和AR/VR头显记录的新BOP-H3数据集，这些数据集非常接近日常场景。BOP-H3包括3D模型和入驻视频，支持基于模型和无模型的任务。参与者在七个挑战赛轨道上竞争，每个轨道通过任务、对象入驻设置和数据集组定义。值得注意的是，2024年基于模型的未见对象6D定位（FreeZeV2.1）方法的最佳精度比2023年最佳方法（GenFlow）高出22%，且尽管处理速度明显较慢（24.9秒对比2.7秒每图像），其精度也仅比2023年见过对象的最佳方法（GPose2023）落后4%。2024年一个更实际的方法是Co-op，每图像仅需0.8秒，比GenFlow快了25倍且更精确13%。在6D检测任务上，方法的排名与6D定位任务相似，但运行时间更长。在基于模型的未见对象2D检测中，2024年最佳方法（MUSE）相比2023年最佳方法（CNOS）有21%的相对提升。然而，未见对象2D检测的准确性仍然明显比见过对象的（GDet2023）低53%。在线评估系统保持开放，可在此网址查看：https://arxiv.org/pdf/2504.02812.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.02812.pdf"
+    },
+    {
+        "名称": "2025 [2504.03770] JailDAM: Jailbreak Detection with Adaptive Memory for Vision-Language Model.pdf",
+        "作者": "Yi Nian, Shenzhe Zhu, Yuehan Qin, Li Li, Ziyi Wang, Chaowei Xiao, Yue Zhao",
+        "摘要": "摘要: 多模态大语言模型（MLLMs）在视觉-语言任务中表现出色，但也存在生成有害内容，尤其是通过越狱攻击的重大风险。越狱攻击是指故意绕过模型的安全机制，导致生成不适当或不安全内容的操作。检测这些攻击对于确保MLLMs的负责任部署至关重要。现有的越狱检测方法面临三大挑战：(1) 许多依赖于模型的隐藏状态或梯度，限制了它们在仅内部工作可访问的白盒模型中的适用性；(2) 它们涉及高计算开销的不确定性分析，这限制了实时检测；(3) 它们需要完全标注的有害数据集，而这在实际环境中通常很少见。为了解决这些问题，我们引入了一种名为JAILDAM的测试时自适应框架。我们的方法利用基于内存的策略驱动不安全知识表示，消除了显式暴露于有害数据的需要。通过在测试时动态更新不安全知识，我们的框架提高了对未见越狱策略的泛化能力，同时保持了效率。在多个VLM越狱基准上的实验表明，JAILDAM在有害内容检测方面提供了最先进的性能，提升了准确性和速度。",
+        "地址": "https://arxiv.org/pdf/2504.03770.pdf"
+    },
+    {
+        "名称": "2025 [2504.03947] Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking.pdf",
+        "作者": "Chris Samarinas, Hamed Zamani",
+        "摘要": "摘要：我们展示了一种新颖的方法，结合知识蒸馏和强化学习优化，用于训练小型语言模型以处理推理密集的文档排序。现有方法通常依赖昂贵的人工标注或大型黑箱语言模型，我们的方法学则利用网络数据和教师大型语言模型自动生成高质量的带有相关性解释的训练示例。通过将文档排序构建为强化学习问题，并激励显式推理能力，我们训练了一个紧凑的3B参数语言模型，该模型在BRIGHT基准上达到了最先进的性能。我们的模型在排行榜上排名第三，使用的参数显著少于其他方法，性能超过了大20倍的模型。通过广泛的实验，我们证明了在推理过程中生成解释比直接预测相关性分数能使小型语言模型具备更为有效的推理能力。我们的方法具有自监督特性，为现代信息检索系统提供了一种可扩展且可解释的解决方案。\n\n翻译：\n我们展示了一种新颖的方法，用于训练小型语言模型处理推理密集的文档排序，结合了知识蒸馏和强化学习优化。现有的方法通常依赖昂贵的人工标注或大型黑箱语言模型，而我们的方法学则利用网络数据和教师大型语言模型自动生成高质量的带有相关性解释的训练示例。通过将文档排序作为强化学习问题进行构建，并激励显式推理能力，我们训练了一个紧凑的3B参数语言模型，其在BRIGHT基准上达到了最先进的性能。我们的模型在排行榜上排名第三，而使用的参数远少于其他方法，性能超过了规模大20倍的模型。通过广泛的实验，我们证明了在推理过程中生成解释而非直接预测相关性分数，可以使小型语言模型具备更有效的推理能力。我们的方法具有自监督的特点，为现代信息检索系统提供了一种可扩展且可解释的解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.03947.pdf"
+    },
+    {
+        "名称": "2025 [2504.04155] GlotEval: A Test Suite for Massively Multilingual Evaluation of Large Language Models.pdf",
+        "作者": "Hengyu Luo, Zihao Li, Joseph Attieh, Sawal Devkota, Ona de Gibert, Shaoxiong Ji, Peiqin Lin, Bhavani Sai Praneeth Varma Mantina, Ananda Sreenidhi, Raúl Vázquez, Mengjie Wang, Samea Yusofi, Jörg Tiedemann",
+        "摘要": "摘要：大语言模型（LLMs）正在全球范围内以前所未有的速度发展，越来越多的地区采用这些模型来处理它们的主要语言应用。在多样的语言环境中，特别是低资源语言环境中对这些模型进行评估，已经成为学术界和工业界的一个主要挑战。现有的评估框架过于集中于英语和少数高资源语言，从而忽视了LLMs在多语言和低资源场景中的实际性能。为了解决这个问题，我们引入了GlotEval，这是一种轻量级的框架，旨在进行大规模多语言评估。GlotEval支持七个关键任务（机器翻译、文本分类、摘要生成、开放式生成、阅读理解、序列标注以及内在评估），涵盖了数十至数百种语言。GlotEval突出了稳定的多语言基准测试、特定语言的提示模板以及非英语中心的机器翻译。这使得能够在多样的语言背景中精确诊断模型的优劣。一个多语言翻译的案例研究展示了GlotEval在多语言和特定语言评估方面的适用性。",
+        "地址": "https://arxiv.org/pdf/2504.04155.pdf"
+    },
+    {
+        "名称": "2025 [2504.04152] Rethinking Multilingual Continual Pretraining: Data Mixing for Adapting LLMs Across Languages and Resources.pdf",
+        "作者": "Zihao Li, Shaoxiong Ji, Hengyu Luo, Jörg Tiedemann",
+        "摘要": "摘要：大型语言模型（LLMs）在不同语言的表现上存在显著差异，主要有利于高资源语言，而边缘化了代表性不足的语言。持续预训练（CPT）作为一种解决这种不平衡的有前途的方法出现，但单语、双语和代码增强数据策略的相对有效性仍不明确。本研究系统地评估了36种CPT配置，涉及三种多语言基础模型，涵盖了30多种语言，这些语言根据资源水平被分类为无私、自利和停滞。我们的研究结果揭示了三个主要洞察：(1) 双语CPT改善了多语言分类，但在生成期间经常导致语言混杂问题。(2) 在CPT期间包括编程代码数据一致地提高了多语言分类准确性，特别是低资源语言受益显著，但引入了轻微降低生成质量的权衡。(3) 与之前的工作相反，我们观察到语言分类在跨语言迁移影响上存在显著偏差：无私语言通常对相关语言产生负面影响，自利语言表现出有条件和配置依赖的行为，而停滞语言在某些CPT条件下表现出令人惊讶的适应性。这些复杂的互动强调了多语言表示学习的复杂性，突显了对普适语言分类进行系统研究的重要性，以指导未来的多语言CPT策略。\n\n翻译中文摘要：大型语言模型（LLMs）在不同语言的表现上存在显著差异，主要有利于高资源语言，而边缘化了代表性不足的语言。持续预训练（CPT）作为一种解决这种不平衡的有前途的方法出现，但单语、双语和代码增强数据策略的相对有效性仍不明确。本研究系统地评估了36种CPT配置，涉及三种多语言基础模型，涵盖了30多种语言，这些语言根据资源水平被分类为无私、自利和停滞。我们的研究结果揭示了三个主要洞察：(1) 双语CPT改善了多语言分类，但在生成期间经常导致语言混杂问题。(2) 在CPT期间包括编程代码数据一致地提高了多语言分类准确性，特别是低资源语言受益显著，但引入了轻微降低生成质量的权衡。(3) 与之前的工作相反，我们观察到语言分类在跨语言迁移影响上存在显著偏差：无私语言通常对相关语言产生负面影响，自利语言表现出有条件和配置依赖的行为，而停滞语言在某些CPT条件下表现出令人惊讶的适应性。这些复杂的互动强调了多语言表示学习的复杂性，突显了对普适语言分类进行系统研究的重要性，以指导未来的多语言CPT策略。",
+        "地址": "https://arxiv.org/pdf/2504.04152.pdf"
+    },
+    {
+        "名称": "2025 [2504.03875] 3D Scene Understanding Through Local Random Access Sequence Modeling.pdf",
+        "作者": "Wanhee Lee, Klemen Kotar, Rahul Mysore Venkatesh, Jared Watrous, Honglin Chen, Khai Loong Aw, Daniel L. K. Yamins",
+        "摘要": "摘要：从单张图像理解3D场景是计算机视觉领域一个至关重要的问题，且在图形学、增强现实和机器人等众多下游应用中具有重要作用。尽管基于扩散的建模方法显示出了一定的前景，但它们在保持物体和场景一致性方面，尤其在复杂的现实场景中，常常面临困难。为了解决这些限制，我们提出了一种名为局部随机访问序列（Local Random Access Sequence, LRAS）建模的自回归生成方法，该方法利用局部块量化和随机顺序生成。通过利用光流作为3D场景编辑的中间表示，我们的实验表明LRAS在新视角合成和3D物体操控能力方面达到了最先进的水平。此外，我们展示了通过对序列设计进行简单修改，我们的框架可自然地扩展到自监督深度估计任务。LRAS在多个3D场景理解任务中表现出色，提供了一个统一且有效的框架，为构建新一代的3D视觉模型奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2504.03875.pdf"
+    },
+    {
+        "名称": "2025 [2504.03790] Sample, Don't Search: Rethinking Test-Time Alignment for Language Models.pdf",
+        "作者": "Gonçalo Faria, Noah A. Smith",
+        "摘要": "摘要：增加测试时间计算已成为提高语言模型性能的一种有前景方向，特别是在由于计算限制或私有模型权重而不切实际或不可能对模型进行微调的情况下。然而，现有使用奖励模型（RM）的测试时间搜索方法随着计算量的增加，其质量往往会下降，这是由于对本质上不完美的奖励代理的过度优化。我们介绍了一种新的测试时间对齐方法QAlign。当我们扩大测试时间计算时，QAlign会收敛到从每个单独提示的最优对齐分布中采样。通过采用最近在文本生成中的马尔可夫链蒙特卡洛方法的进展，我们的方法能够在不修改基础模型甚至不需要logit访问的情况下生成更好对齐的输出。我们在数学推理基准（GSM8K和GSM-Symbolic）上使用任务特定的RM，展示了QAlign在现有的测试时间计算方法如best-of-n和多数投票上的一致改进。此外，当应用于在Tulu 3偏好数据集上训练的更现实的RMs时，QAlign在多种数据集（GSM8K, MATH500, IFEval, MMLU-Redux和TruthfulQA）上优于直接偏好优化（DPO）、best-of-n、多数投票和加权多数投票。作为一种在测试时间使用额外计算来对齐语言模型且不出现退化的实用解决方案，我们的方法在无需进一步训练的情况下，扩展了从现成语言模型中可以获得的能力极限。",
+        "地址": "https://arxiv.org/pdf/2504.03790.pdf"
+    }
+]
