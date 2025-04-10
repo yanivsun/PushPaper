@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2504.06263] OmniSVG: A Unified Scalable Vector Graphics Generation Model.pdf",
+        "作者": "Yiying Yang, Wei Cheng, Sijin Chen, Xianfang Zeng, Jiaxu Zhang, Liao Wang, Gang Yu, Xingjun Ma, Yu-Gang Jiang",
+        "摘要": "摘要：可伸缩矢量图形（SVG）是一种重要的图像格式，由于其分辨率独立性和可编辑性，广泛应用于图形设计。生成高质量SVG的研究持续引起AIGC社区中设计师和研究人员的关注。然而，现有方法要么产生非结构化输出，计算成本高昂，要么局限于生成结构过于简化的单色图标。为了生成高质量和复杂的SVG，我们提出了OmniSVG，一种利用预训练视觉-语言模型（VLMs）的统一框架，用于端到端多模态SVG生成。通过将SVG指令和坐标参数化为离散符号，OmniSVG将结构逻辑与低级几何解耦，以实现高效训练，同时保持复杂SVG结构的表现力。为了进一步推进SVG合成的发展，我们引入了MMSVG-2M，一个包含两百万个详细注释SVG资产的多模态数据集，以及一个标准化的条件SVG生成任务评估协议。广泛的实验证明，OmniSVG优于现有方法，并展示了其集成到专业SVG设计工作流程中的潜力。",
+        "地址": "https://arxiv.org/pdf/2504.06263.pdf"
+    },
+    {
+        "名称": "2025 [2504.06261] Hogwild! Inference: Parallel LLM Generation via Concurrent Attention.pdf",
+        "作者": "Gleb Rodionov, Roman Garipov, Alina Shutova, George Yakushev, Vage Egiazarian, Anton Sinitsin, Denis Kuznedelev, Dan Alistarh",
+        "摘要": "摘要：大型语言模型（LLMs）通过高级推理、长篇内容生成和工具使用，已展示出处理日益复杂任务的能力。解决这些任务通常需要长时间推理计算。在人类解决问题的过程中，一个常见的加速工作策略是通过分工协作：将问题分解为子任务，并行探索不同策略等。最近的研究表明，LLMs也可以通过实施显式的协作框架，如投票机制或显式创建可以并行执行的独立子任务来进行并行操作。然而，每个协作框架可能并不适合所有类型的任务，限制了其适用性。在这项工作中，我们提出了一种不同的设计方法：并行运行LLM“工作者”，允许它们通过一个同步更新的注意缓存进行同步，并提示这些工作者决定如何最好地协作。我们的方法允许每个实例为当前问题制定自己的协作策略，同时在同步缓存中“看到”彼此的部分进展。我们通过Hogwild!推理实现了这一方法：一个并行LLM推理引擎，其中同一LLM的多个实例以相同的注意缓存并行运行，并能“即时”访问彼此生成的标记。Hogwild!推理利用旋转位置嵌入（RoPE），避免再次计算，同时改善并行硬件的使用效率。我们发现，具有现代推理能力的LLMs可以直接使用共享的键值缓存进行推理，无需额外的微调。",
+        "地址": "https://arxiv.org/pdf/2504.06261.pdf"
+    },
+    {
+        "名称": "2025 [2504.05599] Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought.pdf",
+        "作者": "Yi Peng, Chris, Xiaokun Wang, Yichen Wei, Jiangbo Pei, Weijie Qiu, Ai Jian, Yunzhuo Hao, Jiachun Pan, Tianyidan Xie, Li Ge, Rongxian Zhuang, Xuchen Song, Yang Liu, Yahui Zhou",
+        "摘要": "摘要: 我们介绍了Skywork R1V，这是一种多模态推理模型，通过高效的多模态迁移方法扩展了R1系列大型语言模型（LLM）到视觉模态。利用轻量级的视觉投射器，Skywork R1V实现了无缝的多模态适应，而无需重新训练基础语言模型或视觉编码器。为了增强视觉-文本对齐，我们提出了一种混合优化策略，将迭代监督微调（SFT）与群相对策略优化（GRPO）相结合，显著提高了跨模态集成效率。此外，我们引入了一种自适应长度的链式思维蒸馏方法用于推理数据生成。该方法动态优化推理链长度，从而提高了推理效率并防止过度推理。实证评估表明，Skywork R1V 仅使用38B参数便实现了具有竞争力的性能，在MMMU基准上获得69.0的分数，在MathVista上获得67.5分。同时，它在文本推理性能方面也保持了强劲表现，在AIME上获得72.0的高分，并在MATH500上获得94.0的高分。Skywork R1V模型权重已公开发布以促进开放性和可重复性。",
+        "地址": "https://arxiv.org/pdf/2504.05599.pdf"
+    },
+    {
+        "名称": "2025 [2504.05979] An Empirical Study of GPT-4o Image Generation Capabilities.pdf",
+        "作者": "Sixiang Chen, Jinbin Bai, Zhuoran Zhao, Tian Ye, Qingyu Shi, Donghao Zhou, Wenhao Chai, Xin Lin, Jianzong Wu, Chao Tang, Shilin Xu, Tao Zhang, Haobo Yuan, Yikang Zhou, Wei Chow, Linfeng Li, Xiangtai Li, Lei Zhu, Lu Qi",
+        "摘要": "摘要：图像生成领域快速演变，从早期基于生成对抗网络的方法到扩散模型，最近又到旨在融合理解和生成任务的统一生成架构。尽管最近的进展，特别是GPT-4o，已经展示了高保真多模态生成的可行性，但其架构设计仍然神秘且未公开。这引发了一个问题，即这些方法是否已成功地将图像和文本生成整合到一个统一的框架中。在这项工作中，我们对GPT-4o的图像生成能力进行了实证研究，并将其与领先的开源和商业模型进行了基准测试。我们的评估涵盖了四个主要类别，包括文本生成图像、图像生成图像、图像生成3D以及图像生成X，共涉及20多项任务。我们的分析突出了GPT-4o在各种设置下的优缺点，并将其置于生成建模的广泛演变中。通过这次调查，我们确定了未来统一生成模型的有前景的方向，强调了架构设计和数据扩展的作用。",
+        "地址": "https://arxiv.org/pdf/2504.05979.pdf"
+    },
+    {
+        "名称": "2025 [2504.05535] COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values.pdf",
+        "作者": "M-A-P Team, Siwei Wu, Jincheng Ren, Xinrun Du, Shuyue Guo, Xingwei Qu, Yiming Liang, Jie Liu, Yunwen Li, Tianyu Zheng, Boyu Feng, Huaqing Yuan, Zenith Wang, Jiaheng Liu, Wenhao Huang, Chenglin Cai, Haoran Que, Jian Yang, Yuelin Bai, Zekun Moore Wang, Zhouliang Yu, Qunshu Lin, Ding Pan, Yuchen Jiang, Tiannan Wang, Wangchunshu Zhou, Shenzhi Wang, Xingyuan Bu, Minghao Liu, Guoyin Wang, Ge Zhang, Chenghua Lin",
+        "摘要": "摘要：使大型语言模型（LLMs）与人类偏好对齐已经取得了显著的成功。然而，现有的中文偏好数据集存在规模小、领域覆盖窄和缺乏严格数据验证的问题。此外，依赖人工标注指令和回应标签大大限制了人类偏好数据集的可扩展性。为了解决这些挑战，我们设计了一个基于LLM的中文偏好数据集注释流程，无需人工干预。具体来说，我们爬取并仔细筛选了9.2万条高质量的中文查询，使用15个主流LLM生成并评分选择-拒绝回应对。在此基础上，我们引入了COIG-P（Chinese Open Instruction Generalist - Preference），这是一个高质量、大规模的中文偏好数据集，包含了1,009k对中文偏好对，覆盖了聊天、代码、数学、逻辑、小说和角色6个不同领域。在COIG-P的基础上，为了减少使用LLM评分的开销，我们训练了一个8B规模的中文奖励模型（CRM），并精心构建了中文奖励基准（CRBench）。基于AlignBench的评估结果显示，COIG-P显著优于其他中文偏好数据集，并且分别为Qwen2/2.5和Infinity-Instruct-3M-0625模型系列带来了2%到12%的显著性能提升。CRBench的结果表明，我们的CRM具有强大且稳健的评分能力。我们将其用于筛选COIG-P测试集中的选择-拒绝回应对，实验证明它在识别低质量样本方面与GPT-4o相当，同时保持了效率和成本效益。我们的代码和数据已经在该HTTPS URL上发布。",
+        "地址": "https://arxiv.org/pdf/2504.05535.pdf"
+    },
+    {
+        "名称": "2025 [2504.02160] Less-to-More Generalization: Unlocking More Controllability by In-Context Generation.pdf",
+        "作者": "Shaojin Wu, Mengqi Huang, Wenxu Wu, Yufeng Cheng, Fei Ding, Qian He",
+        "摘要": "摘要：尽管由于广泛的应用，基于主题驱动的生成在图像生成领域得到了广泛探索，但在数据可扩展性和主题可扩展性方面仍然面临挑战。针对第一个挑战，从策划单一主题数据集到多个主题并对其进行扩展特别困难。针对第二个挑战，最近的方法大多集中在单一主题生成上，使其在处理多主题场景时难以应用。在本研究中，我们提出了一种高一致性的数据合成管道来解决这一问题。该管道利用扩散变压器的上下文生成能力，生成高一致性多主体配对数据。此外，我们还介绍了UNO，它由渐进的跨模态对齐和通用旋转位置嵌入组成，是一个从文本到图像模型反复训练的多图像条件的主体到图像模型。大量实验表明，我们的方法在确保可控性的同时，可以在单主体和多主体驱动生成中实现高度一致性。\n\n翻译：虽然由于其广泛的应用，主题驱动的生成在图像生成领域得到了广泛的研究，但在数据的可扩展性和主题的可扩展性方面仍然存在挑战。对于第一个挑战，从策划单主題数据集到多个主题数据集并对其进行扩展是特别困难的。对于第二个挑战，最近的大多数方法都集中在单主题生成上，这使得在处理多主题场景时难以应用。在这项研究中，我们提出了一种高度一致的数据综合管道来应对这一挑战。该管道利用了扩散变压器的内在上下文生成能力，并生成了高度一致的多主题配对数据。此外，我们还介绍了UNO，它由渐进的跨模态对齐和通用旋转位置嵌入组成。UNO是一个从文本到图像模型逐步训练的多图像条件主体到图像模型。大量实验表明，我们的方法可以在确保可控性的同时，在单主体和多主体驱动生成中实现高度一致性。",
+        "地址": "https://arxiv.org/pdf/2504.02160.pdf"
+    },
+    {
+        "名称": "2025 [2504.06148] V-MAGE: A Game Evaluation Framework for Assessing Visual-Centric Capabilities in Multimodal Large Language Models.pdf",
+        "作者": "Xiangxi Zheng, Linjie Li, Zhengyuan Yang, Ping Yu, Alex Jinpeng Wang, Rui Yan, Yuan Yao, Lijuan Wang",
+        "摘要": "摘要：多模态大语言模型（MLLMs）的最新进展在各种多模态基准测试中均取得了显著的提升。然而，随着评估从静态数据集转向开放世界的动态环境，目前的基于游戏的基准测试仍然不足，因为它们缺乏以视觉为中心的任务，无法评估现实世界决策所需的多样化推理能力。为了解决这一问题，我们引入了视觉中心多能力游戏评估（V-MAGE），这是一个旨在评估MLLMs视觉推理能力的基于游戏的评估框架。V-MAGE包含五种不同的游戏，具有30多个手工设计的关卡，测试模型的核心视觉技能，如定位、轨迹追踪、时机把握和视觉记忆，以及诸如长期规划和审慎思考等高级推理能力。我们使用V-MAGE评估了领先的MLLMs，揭示了它们在视觉感知和推理方面的重大挑战。在所有游戏环境中，通过Elo评分比较，表现最好的MLLMs的表现与人类相比存在显著差距。我们的研究结果突出了模型的关键局限性，包括各种感知错误，并从以代理人为中心的角度提出了改进的潜在途径，例如改进代理策略和解决感知不准确问题。代码可在此HTTPS URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.06148.pdf"
+    },
+    {
+        "名称": "2025 [2504.02810] Generative Evaluation of Complex Reasoning in Large Language Models.pdf",
+        "作者": "Haowei Lin, Xiangyu Wang, Ruilin Yan, Baizhou Huang, Haotian Ye, Jianhua Zhu, Zihao Wang, James Zou, Jianzhu Ma, Yitao Liang",
+        "摘要": "摘要: 随着强大的大语言模型（LLMs）展示出超人的推理能力，一个关键问题出现了：LLMs是真正进行推理，还是仅仅从它们庞大的、从网络抓取的训练数据集中回忆答案？一旦公开发布的基准被纳入后续的LLM训练集中，它们不可避免地受到污染，无法作为可靠的评估。因此，我们引入了KUMO，这是一个专门设计用于评估LLM推理能力的生成性评估框架。KUMO将LLMs与符号引擎协同整合，以动态生成丰富的、多回合的推理任务，这些任务部分可观察且难度可调整。通过自动化管道，KUMO在开放领域内不断生成新任务，迫使模型展示真正的泛化能力，而非记忆。我们在由KUMO创建的100个领域内的5,000个任务上评估了23个最先进的LLMs，并将其推理能力与大学生进行了对比。我们的研究结果表明，许多LLMs在简单推理任务上表现超过大学水平，而在复杂推理挑战上，推理类LLMs达到了大学水平。此外，LLM在KUMO任务上的表现与新发布的真实世界推理基准的结果强烈相关，突显出KUMO作为一个稳健且持久的LLM推理能力评估工具的价值。\n\n作者: Haowei Lin, Xiangyu Wang, Ruilin Yan, Baizhou Huang, Haotian Ye, Jianhua Zhu, Zihao Wang, James Zou, Jianzhu Ma, Yitao Liang\n\n链接: https://arxiv.org/pdf/2504.02810.pdf\n\n标题: 2025 [2504.02810] 大型语言模型复杂推理的生成性评估",
+        "地址": "https://arxiv.org/pdf/2504.02810.pdf"
+    },
+    {
+        "名称": "2025 [2504.05594] Tuning-Free Image Editing with Fidelity and Editability via Unified Latent Diffusion Model.pdf",
+        "作者": "Qi Mao, Lan Chen, Yuchao Gu, Mike Zheng Shou, Ming-Hsuan Yang",
+        "摘要": "摘要：在文本驱动图像编辑(TIE)中，平衡保真度与可编辑性是至关重要的，失衡通常会导致过度编辑或编辑不足的问题。目前的现有方法通常依赖于注意力注入来保持结构，并利用预训练的文本到图像(T2I)模型的内在文本对齐能力来实现可编辑性，但它们缺乏明确和统一的机制来适当地平衡这两个目标。在这项工作中，我们介绍了一种无需调参的方法UnifyEdit，通过扩散潜在空间优化，实现了在统一框架内平衡保真度与可编辑性。与直接注意力注入不同，我们开发了两种基于注意力的约束：用于结构保真度的自注意力(SA)保持约束，以及用于增强文本对齐以提升可编辑性的交叉注意力(CA)对齐约束。然而，同时应用这两种约束会导致梯度冲突，其中一个约束的主导会导致过度编辑或编辑不足。为了解决这个问题，我们提出了一种自适应步长调度器，动态调整这些约束的影响，引导扩散潜在空间朝着最佳平衡前进。广泛的定量和定性实验验证了我们方法的有效性，展示了在各种编辑任务中在结构保真度和文本对齐方面实现稳健平衡的优越性，优于其他最先进的方法。源代码将会发布在此HTTPS链接。\n\n翻译后的摘要：\n在文本驱动图像编辑(TIE)中，平衡保真度与可编辑性至关重要，失衡通常会导致过度编辑或编辑不足。目前的现有方法通常依赖于注意力注入来保持结构，并利用预训练的文本到图像(T2I)模型的内在文本对齐能力来实现可编辑性，但它们缺乏明确和统一的机制来适当平衡这两个目标。在这项工作中，我们介绍了一种无需调参的方法UnifyEdit，通过扩散潜在空间优化，实现了在统一框架内平衡保真度与可编辑性。与直接注意力注入不同，我们开发了两种基于注意力的约束：用于结构保真度的自注意力(SA)保持约束，以及用于增强文本对齐以提升可编辑性的交叉注意力(CA)对齐约束。然而，...\n源代码将会发布在此HTTPS链接。",
+        "地址": "https://arxiv.org/pdf/2504.05594.pdf"
+    },
+    {
+        "名称": "2025 [2504.05897] HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference.pdf",
+        "作者": "Shuzhang Zhong, Yanfan Sun, Ling Liang, Runsheng Wang, Ru Huang, Meng Li",
+        "摘要": "摘要：专家混合(MoE)架构展示了显著的优势，因为它能够在不成比例增加计算量的情况下增加模型容量。然而，大型MoE模型的体积依然需要大量的内存，在资源受限的平台上通常需要进行专家卸载，进而带来显著的开销。混合CPU-GPU推理被提出来利用CPU计算以减少专家加载开销，但面临重要挑战：一方面，MoE模型的专家激活模式高度不稳定，使得现有工作的固定映射策略效率低下；另一方面，由于专家大小和结构多样、工作负载分布不均等原因，MoE混合CPU-GPU调度本质上非常复杂。为了解决这些挑战，本文提出了HybriMoE，一个通过新颖的CPU-GPU调度和缓存管理系统提高资源利用的混合CPU-GPU推理框架。HybriMoE引入了(i)一种动态的层内调度策略以平衡CPU和GPU之间的工作负载，(ii)影响驱动的层间预取算法，(iii)基于得分的缓存算法来缓解专家激活的不稳定性。我们在kTransformers框架之上实现了HybriMoE，并在三种广泛使用的基于MoE的大型语言模型(LLM)上进行了评估。实验结果表明，与最先进的混合MoE推理框架相比，HybriMoE在预填充阶段平均加速1.33倍，在解码阶段加速1.70倍。我们的代码可在此URL获取：https://arxiv.org/pdf/2504.05897.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.05897.pdf"
+    },
+    {
+        "名称": "2025 [2504.00043] CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation.pdf",
+        "作者": "Jixuan Leng, Chengsong Huang, Langlin Huang, Bill Yuchen Lin, William W. Cohen, Haohan Wang, Jiaxin Huang",
+        "摘要": "摘要：现有的大型语言模型（LLMs）和大型视觉-语言模型（LVLMs）的推理评估框架主要评估基于文本的推理或视觉-语言理解能力，文本和视觉约束之间的动态相互作用较少。为了解决这一局限性，我们引入了CrossWordBench，这一基准通过填字游戏（一项需要多模态遵循基于文本线索的语义约束和视觉网格结构的交叉约束的任务）来评估LLMs和LVLMs的推理能力。CrossWordBench利用可控的谜题生成框架，生成多种格式的谜题（文本和图像），并提供从直接解决谜题到互动模式的不同评估策略。我们对超过20种模型的广泛评估表明，推理LLMs通过有效利用交叉字母约束，显著优于非推理模型。我们进一步表明LVLMs在这一任务中表现困难，其谜题解决性能与网格解析准确性之间存在高度相关性。我们的研究结果提供了当前LLMs和LVLMs推理能力的局限性洞察，并提供了一种为未来评估创建多模态受约束任务的有效方法。\n\n作者：Jixuan Leng, Chengsong Huang, Langlin Huang, Bill Yuchen Lin, William W. Cohen, Haohan Wang, Jiaxin Huang\n\nURL: [2025 [2504.00043] CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation.pdf](https://arxiv.org/pdf/2504.00043.pdf)",
+        "地址": "https://arxiv.org/pdf/2504.00043.pdf"
+    },
+    {
+        "名称": "2025 [2503.20533] Accelerate Parallelizable Reasoning via Parallel Decoding within One Sequence.pdf",
+        "作者": "Yijiong Yu",
+        "摘要": "摘要：最近推理模型的进展通过采用详细和全面的推理过程显著提高了精度，特别是在数学推理等复杂任务中。然而，生成这些冗长的推理序列计算成本高且耗时。为了解决这一低效问题，我们利用某些任务内在的并行性来加速推理过程。具体来说，当存在多个并行推理分支时，我们使用一个专门的注意力掩码在每一步解码多个标记，在单个序列中处理它们，避免额外的内存使用。实验结果表明，我们的方法在解码时间上实现了100%以上的加速，同时保持了答案质量。",
+        "地址": "https://arxiv.org/pdf/2503.20533.pdf"
+    },
+    {
+        "名称": "2025 [2504.06232] HiFlow: Training-free High-Resolution Image Generation with Flow-Aligned Guidance.pdf",
+        "作者": "Jiazi Bu, Pengyang Ling, Yujie Zhou, Pan Zhang, Tong Wu, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang",
+        "摘要": "摘要: 文本到图像(T2I)扩散/流动模型因其在灵活的视觉创作方面的显著能力而备受关注。然而，由于高分辨率内容的稀缺性和复杂性，高分辨率图像的合成面临着巨大的挑战。为此，我们提出了HiFlow，这是一种无训练和模型无关的框架，可以释放预训练流动模型的分辨率潜力。具体来说，HiFlow 在高分辨率空间中建立了一个虚拟参考流，该参考流有效地捕捉了低分辨率流信息的特征，通过三个关键方面为高分辨率生成提供指导：低频一致性的初始化对齐、结构保留的方向对齐和细节保真度的加速对齐。通过利用这种流动对齐的指导，HiFlow显著提升了T2I模型的高分辨率图像合成质量，并展示了在其个性化变体中的多功能性。大量实验验证了HiFlow在实现优于现有最先进方法的高分辨率图像质量方面的优越性。",
+        "地址": "https://arxiv.org/pdf/2504.06232.pdf"
+    },
+    {
+        "名称": "2025 [2504.05520] Efficient Reinforcement Finetuning via Adaptive Curriculum Learning.pdf",
+        "作者": "Taiwei Shi, Yiyang Wu, Linxin Song, Tianyi Zhou, Jieyu Zhao",
+        "摘要": "2025年 论文标题: 通过自适应课程学习实现高效的强化微调\n\n摘要: 强化微调（RFT）在增强大型语言模型（LLMs）的数学推理能力方面展示了巨大潜力，但它通常样本效率低、计算成本高，需要大量的训练。在这项工作中，我们介绍了一种称为AdaRFT（自适应课程强化微调）的方法，通过自适应课程学习显著提高了RFT的效率和最终准确性。AdaRFT基于模型的最近奖励信号动态调整训练问题的难度，确保模型始终在挑战性但可解决的任务上进行训练。这种自适应抽样策略通过保持最佳难度范围加速学习，避免在过于简单或过于困难的问题上浪费计算资源。AdaRFT仅需对标准RFT算法（如Proximal Policy Optimization, PPO）进行轻量级扩展，而不需要修改奖励函数或模型架构。在包括AMC、AIME和IMO风格问题的竞赛级数学数据集上的实验表明，AdaRFT显著提高了训练效率和推理性能。我们在多个数据分布和模型规模上评估了AdaRFT，结果显示其将训练步数减少了多达2倍，并大幅提升了准确性，提供了一个更具可扩展性和有效性的RFT框架。\n\n作者：石太伟, 吴一杨, 宋霖欣, 周天逸, 赵洁瑜\n\n评论：18页，4个图表，2个表格\n\n链接：https://arxiv.org/pdf/2504.05520.pdf",
+        "地址": "https://arxiv.org/pdf/2504.05520.pdf"
+    },
+    {
+        "名称": "2025 [2504.06122] Leanabell-Prover: Posttraining Scaling in Formal Reasoning.pdf",
+        "作者": "Jingyuan Zhang, Qi Wang, Xingguang Ji, Yahui Liu, Yang Yue, Fuzheng Zhang, Di Zhang, Guorui Zhou, Kun Gai",
+        "摘要": "摘要：最近，通过大规模语言模型（LLMs）在自动定理证明（ATP）方面的进展，突显了使用Lean 4代码进行形式推理的潜力。然而，ATP尚未被Open AI O1/O3和Deepseek R1展示的最新后训练扩展革命性地颠覆。在这项工作中，我们研究了ATP的整个后训练过程，旨在使其与自然语言推理模型的突破保持一致。首先，我们使用一个混合数据集持续训练当前的ATP模型，其中包括大量的命题-证明对，并额外数据以模拟人类推理和假设改进的认知行为。接着，我们利用Lean 4编译器返回的结果奖励探索增强学习。通过我们设计的持续训练和增强学习过程，我们成功地改进了现有的形式证明器，包括DeepSeek-Prover-v1.5和Goedel-Prover，在全证明生成领域达到了最先进的性能。例如，我们在MiniF2F上获得了59.8%的通过率（pass@32）。这是一个正在进行的项目，我们将逐步更新我们的发现，发布我们的数据和训练细节。\n\n作者：张景元，王琦，季星光，刘亚辉，岳阳，张夫正，张迪，周国锐，盖坤\n\n注释：23页，6个图表\n\n网址： [https://arxiv.org/pdf/2504.06122.pdf](https://arxiv.org/pdf/2504.06122.pdf)\n\n标题：Leanabell-Prover: 后训练扩展在形式推理中的应用",
+        "地址": "https://arxiv.org/pdf/2504.06122.pdf"
+    },
+    {
+        "名称": "2025 [2504.02792] Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets.pdf",
+        "作者": "Chuning Zhu, Raymond Yu, Siyuan Feng, Benjamin Burchfiel, Paarth Shah, Abhishek Gupta",
+        "摘要": "摘要：仿效学习已成为构建通用机器人的一种有前景的方法。然而，由于依赖高质量的专家示范，扩展用于大型机器人基础模型的仿效学习仍然具有挑战性。与此同时，描绘各种环境和多样化行为的大量视频数据随处可见，这些数据提供了有关现实世界动态和代理-环境交互的丰富信息。然而，由于大多数当前方法所需的行动注释缺乏，直接利用这些数据进行仿效学习被证明是困难的。在这项工作中，我们提出了统一世界模型（UWM），这是一个能够同时利用视频和行动数据进行策略学习的框架。具体而言，UWM在统一的transformer架构中集成了行动扩散过程和视频扩散过程，其中独立的扩散时间步长控制每种模式。我们展示了通过简单控制每个扩散时间步长，UWM可以灵活地表示策略、前向动态、逆向动态和视频生成器。通过模拟和实际实验，我们表明：（1）UWM允许在具有动态和行动预测的大规模多任务机器人数据集上进行有效的预训练，产生比仿效学习更具普遍性和鲁棒性的策略，（2）UWM通过独立控制特定模式的扩散时间步长，自然地促进了从无行动视频数据中学习，进一步提高了微调策略的性能。我们的结果表明，UWM为利用大规模异质数据集进行可扩展机器人学习提供了一个有前途的步骤，并在仿效学习和世界建模这两种通常截然不同的范式之间提供了简单的统一。相关视频和代码可在该URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.02792.pdf"
+    },
+    {
+        "名称": "2025 [2504.03755] ProtoGCD: Unified and Unbiased Prototype Learning for Generalized Category Discovery.pdf",
+        "作者": "Shijie Ma, Fei Zhu, Xu-Yao Zhang, Cheng-Lin Liu",
+        "摘要": "摘要：广义类别发现（Generalized Category Discovery, GCD）是一个实用但未被充分研究的问题，它要求模型通过利用旧类别的有标签样本来自动聚类和发现新类别。其挑战在于未标记的数据既包含旧类别又包含新类别。早期利用具有参数分类器的伪标签方法分别处理旧类别和新类别，导致它们之间准确性不平衡。最近采用对比学习的方法忽略了潜在的正样本，并且与聚类目标脱节，导致偏差的表示和次优结果。为了解决这些问题，我们引入了一个统一且无偏的原型学习框架，即ProtoGCD，其中旧类别和新类别通过联合原型和统一学习目标进行建模，实现了旧类别和新类别之间的统一建模。具体来说，我们提出了一种双层自适应伪标签机制以减轻确认偏差，同时采用了两个正则化项共同帮助学习更合适的GCD表示。此外，出于实际考虑，我们设计了一个标准来估计新类别的数量。此外，我们将ProtoGCD扩展到检测未知异常，实现了任务级别的统一。全面的实验表明，ProtoGCD在通用和细粒度数据集上都达到了最新的性能水平。代码可在此HTTPS URL获得。\n\n作者：马世杰、朱飞、张旭尧、刘成林\n\n评论：已被IEEE TPAMI 2025接受\n\n链接：https://arxiv.org/pdf/2504.03755.pdf\n\n标题：ProtoGCD：广义类别发现的统一且无偏的原型学习框架",
+        "地址": "https://arxiv.org/pdf/2504.03755.pdf"
+    },
+    {
+        "名称": "2025 [2504.07079] SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills.pdf",
+        "作者": "Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su",
+        "摘要": "摘要: 为在复杂环境中生存和发展，人类通过环境探索、将经验层次抽象为可复用技能的过程，以及协作构建不断增长的技能库，进化出复杂的自我提升机制。尽管近期取得了一些进展，自动化网络代理仍然缺乏关键的自我提升能力，在程序知识抽象、技能改进和技能组合方面存在困难。在此工作中，我们介绍了SkillWeaver，这是一个以技能为中心的框架，使代理能够通过自主合成可重复使用的技能作为API来自我提升。面对新网站，代理自主发现技能，执行技能以进行练习，并将练习经验提炼为强健的API。迭代探索不断扩展轻量级、即插即用API的库，显著增强了代理的能力。在WebArena和真实网站上的实验表明，SkillWeaver的有效性分别达到了31.8%和39.8%的相对成功率提升。此外，由强代理合成的API通过可转移技能显著增强弱代理，在WebArena上提升了多达54.3%。这些结果表明，将多样的网页交互凝练为API是有效的，并且这些API可以在各种网络代理之间无缝共享。",
+        "地址": "https://arxiv.org/pdf/2504.07079.pdf"
+    }
+]
