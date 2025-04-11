@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2504.05741] DDT: Decoupled Diffusion Transformer.pdf",
+        "作者": "Shuai Wang, Zhi Tian, Weilin Huang, Limin Wang",
+        "摘要": "摘要: 虽然扩散变压器展示了卓越的生成质量，但需要更长的训练迭代和大量的推理步骤。在每个去噪步骤中，扩散变压器对噪声输入进行编码，以提取低频语义成分，然后使用相同的模块解码高频成分。这种方案产生了一个固有的优化难题：编码低频语义需要减少高频成分，从而在语义编码和高频解码之间产生张力。为了解决这一挑战，我们提出了一种新的解耦扩散变压器（DDT），其设计为专门的条件编码器用于语义提取，以及专门的速度解码器。我们的实验表明，随着模型大小的增加，更强大的编码器可以带来性能提升。在图像数据集ImageNet 256x256上，我们的DDT-XL/2达到了新的最先进性能，FID为1.31（相比于之前的扩散变压器，训练收敛速度快近4倍）。在ImageNet 512x512上，我们的DDT-XL/2达到了新的最先进FID，为1.28。此外，作为一个有益的副产品，我们的解耦架构通过在相邻去噪步骤之间共享自我条件，增强了推理速度。为了尽量减少性能下降，我们提出了一种新的统计动态规划方法来识别最优的共享策略。",
+        "地址": "https://arxiv.org/pdf/2504.05741.pdf"
+    },
+    {
+        "名称": "2025 [2504.07096] OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens.pdf",
+        "作者": "Jiacheng Liu, Taylor Blanton, Yanai Elazar, Sewon Min, YenSung Chen, Arnavi Chheda-Kothary, Huy Tran, Byron Bischoff, Eric Marsh, Michael Schmitz, Cassidy Trier, Aaron Sarnat, Jenna James, Jon Borchardt, Bailey Kuehl, Evie Cheng, Karen Farley, Sruthi Sreeram, Taira Anderson, David Albright, Carissa Schoenick, Luca Soldaini, Dirk Groeneveld, Rock Yuren Pang, Pang Wei Koh, Noah A. Smith, Sophie Lebrecht, Yejin Choi, Hannaneh Hajishirzi, Ali Farhadi, Jesse Dodge",
+        "摘要": "摘要：我们介绍了OLMoTrace，这是第一个能够实时追溯语言模型输出到其整个数万亿训练数据的系统。OLMoTrace通过对语言模型输出片段与训练文本语料库中的文档进行逐字匹配来实现追溯。借助扩展版的infini-gram (Liu等，2024)，我们的系统可以在几秒钟内返回追溯结果。OLMoTrace可以帮助用户通过训练数据的视角理解语言模型的行为。我们展示了它如何用于探索事实核查、幻觉现象和语言模型的创造力。OLMoTrace是公开可用且完全开源的。",
+        "地址": "https://arxiv.org/pdf/2504.07096.pdf"
+    },
+    {
+        "名称": "2025 [2504.07046] A Unified Agentic Framework for Evaluating Conditional Image Generation.pdf",
+        "作者": "Jifang Wang, Xue Yang, Longyue Wang, Zhenran Xu, Yiyu Wang, Yaowei Wang, Weihua Luo, Kaifu Zhang, Baotian Hu, Min Zhang",
+        "摘要": "摘要：条件图像生成因其个性化内容的能力而受到广泛关注。然而，该领域在开发任务无关、可靠且可解释的评估指标方面面临挑战。本文介绍了CIGEval，这是一种用于全面评估条件图像生成任务的统一代理框架。CIGEval利用大型多模态模型（LMMs）作为其核心，集成了多功能工具箱，并建立了细粒度评估框架。此外，我们合成了评估轨迹进行微调，使得较小的LMMs能够自主选择适当的工具，并根据工具的输出进行细致的分析。在七个主要的条件图像生成任务中的实验表明，CIGEval（GPT-4o版本）与人工评估的高相关性达到0.4625，几乎与评估者之间的相关性0.47相匹配。此外，当使用仅2.3K训练轨迹的7B开源LMMs实现时，CIGEval超越了之前基于GPT-4o的最新方法。针对GPT-4o图像生成的案例研究突显了CIGEval在识别主题一致性和控制指导方面问题的能力，表明其在自动化评估图像生成任务方面具有达到人工水平可靠性的巨大潜力。",
+        "地址": "https://arxiv.org/pdf/2504.07046.pdf"
+    },
+    {
+        "名称": "2025 [2504.06514] Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical Thinking Skill?.pdf",
+        "作者": "Chenrui Fan, Ming Li, Lichao Sun, Tianyi Zhou",
+        "摘要": "摘要: 我们发现，无论是通过强化学习还是监督学习训练的推理大模型(LLMs)，在面对缺少前提(简称MiP)的问题时，其回复长度显著增加，导致冗余且无效的思考。这种新引入的情境在很大程度上加剧了一般的过度思考问题，我们称之为MiP-过度思考。这种失败违背了“测试时间扩展定律”，但在我们策划的多个含MiP的数据集上广泛观察到，这表明廉价的过度思考有害且缺乏批判性思考。令人惊讶的是，未专门为推理训练的大模型在MiP情境下表现更好，生成的回复更短，能快速识别出问题的错位。这暗示当前推理LLMs的训练方案存在严重缺陷，未能充分鼓励高效思考，导致思维模式的滥用。为了进一步探讨这种失败背后的原因，我们对不同类型LLMs的推理长度、过度思考模式和批判性思考位置进行细致分析。此外，我们的扩展消融研究揭示，通过推理模型回应的蒸馏，过度思考具有传染性。这些结果增进了对过度思考的理解，并为缓解该问题提供了新的见解。",
+        "地址": "https://arxiv.org/pdf/2504.06514.pdf"
+    },
+    {
+        "名称": "2025 [2504.07083] GenDoP: Auto-regressive Camera Trajectory Generation as a Director of Photography.pdf",
+        "作者": "Mengchen Zhang, Tong Wu, Jing Tan, Ziwei Liu, Gordon Wetzstein, Dahua Lin",
+        "摘要": "摘要：在视频制作中，摄像机运动轨迹设计起着至关重要的作用，是传达导演意图和增强视觉叙事的基本工具。在电影摄影中，摄影导演精心设计摄像机的移动，以实现富有表现力和意图明确的构图。然而，现有的摄像机轨迹生成方法仍然有限：传统方法依赖于几何优化或手工设计的程序系统，而最近的基于学习的方法则往往继承了结构偏见或缺乏文本对齐，限制了创造性综合。在这项工作中，我们介绍了一种受到摄影导演专业启发的自回归模型来生成艺术性和表现力的摄像机轨迹。我们首先引入了DataDoP，这是一个大规模多模态数据集，包含29K段现实世界的镜头，具有自由移动的摄像机轨迹、深度图和详细的特定移动、场景交互和导演意图的描述。得益于这个全面和多样化的数据库，我们进一步训练了一种仅解码自回归变压器，用于基于文本指导和RGBD输入生成高质量、上下文感知的摄像机运动，命名为GenDoP。广泛的实验表明，与现有方法相比，GenDoP提供了更好的可控性、更精细的轨迹调整和更高的运动稳定性。我们相信我们的方法为基于学习的电影摄影建立了一个新的标准，开辟了相机控制和电影制作未来进步的道路。我们的项目网站：此URL。",
+        "地址": "https://arxiv.org/pdf/2504.07083.pdf"
+    },
+    {
+        "名称": "2025 [2504.04842] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis.pdf",
+        "作者": "Mengchao Wang, Qiang Wang, Fan Jiang, Yaqi Fan, Yunpeng Zhang, Yonggang Qi, Kun Zhao, Mu Xu",
+        "摘要": "摘要：从单一静态肖像生成逼真的可动画化头像仍然具有挑战性。现有的方法往往难以捕捉到微妙的面部表情、相关的全身动作以及动态背景。为了解决这些局限性，我们提出了一个新颖的框架，该框架利用预训练的视频扩散转换模型生成具有可控运动动态的高保真、连贯的谈话头像。我们工作的核心是一个双阶段的视听对齐策略。在第一阶段，我们采用片段级训练方案，通过对齐包括参考肖像、上下文对象和背景在内的整个场景的音频驱动动态来建立连贯的全局运动。在第二阶段，我们使用唇部追踪掩膜在帧级别上优化唇部运动，确保与音频信号的精确同步。为了在不影响运动灵活性的情况下保持身份一致性，我们用面部聚焦的交叉注意模块替换了常用的参考网络，有效地保持了视频中的面部一致性。此外，我们集成了一个运动强度调制模块，该模块明确控制表情和身体运动强度，使得对肖像运动的控制不限于唇部运动。广泛的实验结果表明，我们提出的方法在质量、真实感、连贯性、运动强度和身份保持方面实现了更高的水准。\n\n翻译后的摘要内容：从单一静态肖像生成逼真的可动画化头像仍然具有挑战性。现有的方法往往难以捕捉到微妙的面部表情、相关的全身动作以及动态背景。为了解决这些局限性，我们提出了一个新颖的框架，该框架利用预训练的视频扩散转换模型生成具有可控运动动态的高保真、连贯的谈话头像。我们工作的核心是一个双阶段的视听对齐策略。在第一阶段，我们采用片段级训练方案，通过对齐包括参考肖像、上下文对象和背景在内的整个场景的音频驱动动态来建立连贯的全局运动。在第二阶段，我们使用唇部追踪掩膜在帧级别上优化唇部运动，确保与音频信号的精确同步。为了在不影响运动灵活性的情况下保持身份一致性，我们用面部聚焦的交叉注意模块替换了常用的参考网络，有效地保持了视频中的面部一致性。此外，我们集成了一个运动强度调制模块，该模块明确控制表情和身体运动强度，使得对肖像运动的控制不限于唇部运动。广泛的实验结果表明，我们提出的方法在质量、真实感、连贯性、运动强度和身份保持方面实现了更高的水准。",
+        "地址": "https://arxiv.org/pdf/2504.04842.pdf"
+    },
+    {
+        "名称": "2025 [2504.07081] Self-Steering Language Models.pdf",
+        "作者": "Gabriel Grand, Joshua B. Tenenbaum, Vikash K. Mansinghka, Alexander K. Lew, Jacob Andreas",
+        "摘要": "摘要：虽然测试时推理使语言模型能够处理复杂任务，但在自然语言中进行搜索或规划可能会缓慢、成本高且易出错。不过，即使语言模型难以模仿解决问题所需的精确推理步骤，它们通常擅长描述问题的抽象结构--包括如何验证解决方案以及如何搜索它们。本文介绍了一种称为DisCIPL的方法，此方法使\"自引导\"语言模型成为可能，其中一个规划者模型生成特定任务的推理程序，由多个跟随者模型执行。我们的方法使语言模型能够编写递归搜索程序来指导推理，实现了新的可验证且高效的推理形式。当与较小的跟随者（例如Llama-3.2-1B）结合使用时，DisCIPL在具有挑战性的受限生成任务中，表现与更大的模型（如GPT-4o和o1）相当，有时甚至表现更好。通过将计划与执行分离，我们的工作开辟了一种高并行化蒙特卡洛推理策略的设计空间，优于标准的best-of-N采样，不需要微调，而且可以由现有的语言模型自动实现。",
+        "地址": "https://arxiv.org/pdf/2504.07081.pdf"
+    },
+    {
+        "名称": "2025 [2504.07086] A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility.pdf",
+        "作者": "Andreas Hochlehnert, Hardik Bhatnagar, Vishaal Udandarao, Samuel Albanie, Ameya Prabhu, Matthias Bethge",
+        "摘要": "摘要: 推理已成为语言模型（LM）的下一个主要前沿领域，学术界和工业实验室都取得了迅速进展。然而，这些进展往往超过了方法学的严谨性，许多评估依赖于缺乏透明性、鲁棒性或统计依据的基准实践。在这项工作中，我们进行了全面的实证研究，发现当前的数学推理基准对微妙的实现选择高度敏感——包括解码参数、随机种子、提示格式，甚至硬件和软件框架配置。最近研究报告的性能提升经常依赖于不清晰的比较或未报告的方差来源。为了解决这些问题，我们提出了一个标准化的评估框架，明确定义了最佳实践和报告标准。使用该框架，我们重新评估了近期的方法，发现强化学习（RL）方法仅带来适度的改进——远低于之前的声明——并且容易在小型基准（如AIME24）上过拟合。相比之下，监督微调（SFT）方法表现出一致的强泛化能力。为了促进可重复性，我们发布了所有代码、提示和模型输出，为推理基准建立了更严格的基础，为未来的工作奠定了坚实的基础。",
+        "地址": "https://arxiv.org/pdf/2504.07086.pdf"
+    },
+    {
+        "名称": "2025 [2504.07089] OmniCaptioner: One Captioner to Rule Them All.pdf",
+        "作者": "Yiting Lu, Jiakang Yuan, Zhen Li, Shitian Zhao, Qi Qin, Xinyue Li, Le Zhuo, Licheng Wen, Dongyang Liu, Yuewen Cao, Xiangchao Yan, Xin Li, Botian Shi, Tao Chen, Zhibo Chen, Lei Bai, Bo Zhang, Peng Gao",
+        "摘要": "摘要：我们提出了OmniCaptioner，这是一个多功能的视觉字幕框架，可以为各种视觉领域生成详细的文本描述。与之前仅限于特定图像类型（如自然图像或几何视觉）的方法不同，我们的框架为自然图像、视觉文本（如海报、用户界面、教科书）和结构化视觉（如文档、表格、图表）提供了统一的字幕解决方案。通过将低水平的像素信息转换为语义丰富的文本表示，我们的框架缩小了视觉和文本模态之间的鸿沟。我们的结果突出了三个主要优势：（i）通过长上下文模式字幕增强了大语言模型（LLM）的视觉推理能力，特别是DeepSeek-R1系列，可以在多模态场景中有效推理；（ii）改进了图像生成，详细的字幕提高了文本到图像生成和图像转换等任务；（iii）高效的监督微调（SFT），在更少的数据下实现更快的收敛。我们相信，OmniCaptioner的多功能性和适应性可以为弥合语言和视觉模态之间的差距提供新的视角。\n\n翻译：OmniCaptioner：一种多功能字幕生成框架，可以为各种视觉领域生成详细的文本描述。与之前的方法不同，它能为自然图像、视觉文本和结构化视觉提供统一的解决方案。通过将低级像素信息转化为语义丰富的文本表示，它缩短了视觉和文本模态之间的距离。它有三个主要优点：增强大语言模型（如DeepSeek-R1系列）的视觉推理能力；改进图像生成任务；并且能够高效地进行监督微调。",
+        "地址": "https://arxiv.org/pdf/2504.07089.pdf"
+    },
+    {
+        "名称": "2025 [2504.05541] Caption Anything in Video: Fine-grained Object-centric Captioning via Spatiotemporal Multimodal Prompting.pdf",
+        "作者": "Yunlong Tang, Jing Bi, Chao Huang, Susan Liang, Daiki Shimada, Hang Hua, Yunzhong Xiao, Yizhi Song, Pinxin Liu, Mingqian Feng, Junjia Guo, Zhuo Liu, Luchuan Song, Ali Vosoughi, Jinxi He, Liu He, Zeliang Zhang, Jiebo Luo, Chenliang Xu",
+        "摘要": "摘要：我们提出了一种名为CAT-V（Caption AnyThing in Video）的无训练框架，用于细粒度的以对象为中心的视频字幕生成，通过时间为用户选择的对象生成详细描述。CAT-V整合了三个关键组件：基于SAMURAI的分割器，用于跨帧的精确对象分割；由TRACE-Uni驱动的时间分析器，用于准确的事件边界检测和时间分析；以及使用InternVL-2.5的标题生成器，用于生成详细的以对象为中心的描述。通过时空视觉提示和思路链推理，我们的框架在无需额外训练数据的情况下生成对象属性、动作、状态、交互和环境上下文的详细、时间感知的描述。CAT-V通过各种视觉提示（点、边界框和不规则区域）支持灵活的用户交互，并通过在不同时间段跟踪对象状态和交互来保持时间敏感性。我们的方法解决了现有视频字幕生成方法的局限性，这些方法要么生成过于抽象的描述，要么缺乏对象级别的精度，使得细粒度、对象特定的描述在保持时间一致性和空间准确性的同时成为可能。本项目的GitHub仓库可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.05541.pdf"
+    },
+    {
+        "名称": "2025 [2504.04010] DiTaiListener: Controllable High Fidelity Listener Video Generation with Diffusion.pdf",
+        "作者": "Maksim Siniukov, Di Chang, Minh Tran, Hongkun Gong, Ashutosh Chaubey, Mohammad Soleymani",
+        "摘要": "摘要：生成用于长时间互动的自然和细腻的听者动作仍然是一个未解决的问题。现有方法通常依赖于面部行为生成的低维运动代码，然后进行真实感渲染，从而限制了视觉保真度和表现丰富性。为了解决这些问题，我们推出了DiTaiListener，它由具有多模态条件的视频扩散模型驱动。我们的方法首先通过DiTaiListener-Gen生成简短的听者响应片段，该片段基于说话者的语音和面部动作生成。然后通过DiTaiListener-Edit细化过渡帧，以实现无缝过渡。具体而言，DiTaiListener-Gen通过引入因果时序多模态适配器（CTM-Adapter）将扩散变压器（DiT）应用于听者头像生成任务，CTM-Adapter以因果方式将说话者的听觉和视觉线索整合进视频生成过程中，以确保时间一致的听者响应。在长视频生成中，我们引入了DiTaiListener-Edit，一个过渡细化的视频到视频扩散模型。这种模型将视频片段融合成平滑连续的视频，确保在合并DiTaiListener-Gen生成的短视频片段时面部表情和图像质量的时间一致性。在Benchmark数据集中，DiTaiListener在写实度（RealTalk中FID +73.8%）和运动表征（VICO中FD指标 +6.1%）方面实现了最先进的性能。用户研究证实了DiTaiListener的卓越性能，在反馈、多样性和流畅性方面，该模型明显优于竞争对手，成为用户的明显首选。\n\n作者：Maksim Siniukov, Di Chang, Minh Tran, Hongkun Gong, Ashutosh Chaubey, Mohammad Soleymani\n\n评论：项目页面：此HTTPS URL\n\n网址：https://arxiv.org/pdf/2504.04010.pdf",
+        "地址": "https://arxiv.org/pdf/2504.04010.pdf"
+    },
+    {
+        "名称": "2025 [2504.06958] VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning.pdf",
+        "作者": "Xinhao Li, Ziang Yan, Desen Meng, Lu Dong, Xiangyu Zeng, Yinan He, Yali Wang, Yu Qiao, Yi Wang, Limin Wang",
+        "摘要": "摘要：近年来，强化学习的进展显著提升了多模态大型语言模型（MLLMs）的推理能力。尽管诸如群组相对政策优化（GRPO）和基于规则的奖励机制在文本和图像领域展示了潜力，但它们在视频理解中的应用仍然有限。本文系统性地探讨了在视频MLLMs中应用GRPO进行强化微调（RFT），旨在增强时空感知能力的同时保持一般能力。我们的实验表明，RFT在任务特定的改进方面具有高度的数据效率。通过对有限样本的时空感知目标进行多任务RFT，我们开发了VideoChat-R1，这是一种强大的视频MLLM，在不牺牲聊天能力的情况下，在时空感知任务上达到了最先进的性能，同时表现出新兴的时空推理能力。与Qwen2.5-VL-7B相比，VideoChat-R1在诸如时间定位（+31.8）和物体跟踪（+31.2）等任务上性能提升了数倍。此外，它在诸如VideoMME（+0.9）、MVBench（+1.0）和感知测试（+0.9）等一般问答基准上也显著改进。我们的研究结果突显了RFT对视频MLLMs的专门任务增强的潜力。希望我们的工作能为未来视频MLLMs领域的强化学习研究提供宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2504.06958.pdf"
+    },
+    {
+        "名称": "2025 [2504.07092] Are We Done with Object-Centric Learning?.pdf",
+        "作者": "Alexander Rubinstein, Ameya Prabhu, Matthias Bethge, Seong Joon Oh",
+        "摘要": "摘要：目标导向学习（Object-centric learning, OCL）旨在学习仅编码单个对象的表示，而不受场景中其他对象或背景线索的影响。这种方法支持多种目标，包括分布外（OOD）泛化、高效样本组合和结构化环境建模。大多数研究集中在开发无监督机制，将对象分离到表示空间中的不同槽，在无监督对象发现中进行评估。然而，利用最近高效的分割模型，我们可以在像素空间中分离对象并独立编码。这样，在OOD对象发现基准上实现了出色的零样本性能，并且可以扩展到基础模型，处理可变数量的槽。因此，OCL方法获得目标导向表示的目标在很大程度上已经实现。尽管取得了这一进展，但仍有一个关键问题：在场景中分离对象的能力如何促进更广泛的OCL目标，例如OOD泛化？我们通过OCL的视角研究由虚假背景线索引起的OOD泛化挑战，提出了一个新的无需训练的探测方法，称为$\\\\textbf{应用掩模的目标分类（OCCAM）}$，表明基于分割的对象编码显著优于基于槽的OCL方法。然而，实际应用中仍存在挑战。我们为OCL社区提供了使用可扩展目标表示的工具箱，重点关注实际应用和基本问题，如理解人类认知中的对象感知。我们的代码可在$\\\\href{this https URL}{这里}$获取。",
+        "地址": "https://arxiv.org/pdf/2504.07092.pdf"
+    },
+    {
+        "名称": "2025 [2504.06719] Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding.pdf",
+        "作者": "Pedro Hermosilla, Christian Stippel, Leon Sick",
+        "摘要": "摘要：自监督学习通过使模型能够在大型未标注数据集上进行训练，从而提供与使用标签进行训练的模型类似的多功能现成特征，彻底改变了2D计算机视觉。然而，在3D场景理解中，自监督方法通常仅作为任务特定微调的权重初始化步骤使用，限制了其通用特征提取的实用性。本文针对这一缺点，提出了一种稳健的评估协议，专门用于评估3D场景理解中的自监督特征质量。我们的协议使用层次模型的多分辨率特征采样来创建丰富的点级表示，捕捉模型的语义能力，因此适合使用线性探测和近邻方法进行评估。此外，我们介绍了首个在仅使用现成特征进行线性探测设置时表现与监督模型相似的自监督模型。特别是，我们的模型是以一种基于Masked Scene Modeling目标的新颖自监督方法在3D领域中本地训练的，该方法自下而上重建被遮掩片段的深层特征，并专门针对层次3D模型进行调整。我们的实验不仅证明了我们的方法能够实现与监督模型相当的性能，而且在很大程度上超越了现有的自监督方法。模型和训练代码可以在我们的Github库中找到。\n\n作者：Pedro Hermosilla, Christian Stippel, Leon Sick\n\n评论：本文已被CVPR 2025接受\n\n链接：https://arxiv.org/pdf/2504.06719.pdf\n\n标题：Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding",
+        "地址": "https://arxiv.org/pdf/2504.06719.pdf"
+    },
+    {
+        "名称": "2025 [2504.05523] Pretraining Language Models for Diachronic Linguistic Change Discovery.pdf",
+        "作者": "Elisabeth Fittschen, Sabrina Li, Tom Lippincott, Leshem Choshen, Craig Messner",
+        "摘要": "摘要：大型语言模型（LLMs）已显示出作为科学发现工具的潜力。这引发了它们在人文学科，如历史语言学和文学研究中的应用兴趣。这些领域通常基于像类型或更严格的时间段来构建论点。尽管已进行了通过微调或模型编辑来限制推理到特定领域的努力，但我们认为唯一真正的保证是领域限制的预训练——这通常是一个数据和计算成本高昂的方案。我们展示了高效的预训练技术可以在规模过大而无法轻松手动检查但又对“典型”LLM方法来说太小的语料库上生成有用的模型。我们采用了一种新颖的日期归属流水线，以获得一个时间段分割的数据集，包含五个1000万字的切片。我们在这些语料段上训练两个相应的五模型组，分别是高效预训练和Llama3-8B参数高效微调。我们发现，预训练模型比微调的基准模型训练速度更快，并且它们更好地尊重了我们语料的历史划分。强调速度和精确性而非无历史全面性，使我们在目标领域提出了一些新颖的假设发现和测试方法。我们以历时语言学作为测试平台，展示了我们的方法能够检测到多种现象，包括大规模词汇变化、非词汇（语法和形态）变化以及词义的引入/过时。我们提供了一个现成可用的管道，只需最小的适应即可扩展我们的方法到其他目标领域。\n\n作者：Elisabeth Fittschen, Sabrina Li, Tom Lippincott, Leshem Choshen, Craig Messner\n\n链接：https://arxiv.org/pdf/2504.05523.pdf\n标题：2025 [2504.05523] 用于历时语言变化发现的语言模型预训练",
+        "地址": "https://arxiv.org/pdf/2504.05523.pdf"
+    },
+    {
+        "名称": "2025 [2504.06947] RuOpinionNE-2024: Extraction of Opinion Tuples from Russian News Texts.pdf",
+        "作者": "Natalia Loukachevitch, Natalia Tkachenko, Anna Lapanitsyna, Mikhail Tikhomirov, Nicolay Rusnachenko",
+        "摘要": "摘要：在本文中，介绍了在俄罗斯新闻文本中提取结构化意见的对话评估共享任务。竞赛的任务是为给定句子提取意见元组；这些元组由情感持有者、其目标、从持有者到目标的表达和情感组成。总共有超过100个提交参加了该任务。参与者主要在零样本、少样本和微调格式中尝试了大型语言模型。测试集上的最好结果是通过对大型语言模型进行微调获得的。我们还在一对和十对设置中比较了30个提示和11个拥有3-32亿参数的开源语言模型，找出了最佳的模型和提示。",
+        "地址": "https://arxiv.org/pdf/2504.06947.pdf"
+    },
+    {
+        "名称": "2025 [2504.03886] WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments.pdf",
+        "作者": "Jianhao Zheng, Zihan Zhu, Valentin Bieri, Marc Pollefeys, Songyou Peng, Iro Armeni",
+        "摘要": "摘要：我们提出了WildGS-SLAM，一种鲁棒且高效的单目RGB SLAM系统，通过利用不确定性感知几何映射来处理动态环境。与传统的假定静态场景的SLAM系统不同，我们的方法集成了深度和不确定性信息，从而在存在移动物体的情况下增强跟踪、映射和渲染性能。我们引入了一个由浅层多层感知器和DINOv2特征预测的不确定性地图来指导动态对象在跟踪和映射过程中的移除。不确定性地图增强了稠密捆绑调整和高斯地图优化，提高了重建精度。我们的系统在多个数据集上进行了评估，并展示了无伪影的视图合成。结果表明，WildGS-SLAM在动态环境中的性能优于最先进的方法。\n\n",
+        "地址": "https://arxiv.org/pdf/2504.03886.pdf"
+    },
+    {
+        "名称": "2025 [2504.05410] Fast Controlled Generation from Language Models with Adaptive Weighted Rejection Sampling.pdf",
+        "作者": "Benjamin Lipkin, Benjamin LeBrun, Jacob Hoover Vigly, João Loula, David R. MacIver, Li Du, Jason Eisner, Ryan Cotterell, Vikash Mansinghka, Timothy J. O'Donnell, Alexander K. Lew, Tim Vieira",
+        "摘要": "摘要（中文译文）：\n\n当前在生成满足某些约束条件的语言模型时，主要的方法是局部约束解码（LCD），即在每个时间步骤中逐步采样保证约束从不被违反的词元。通常，这通过词元掩码实现：遍历词汇表并排除不符合的词元。然而，这种方法存在两个重要问题：（i）对每个词元进行约束评估可能会极其昂贵——语言模型的词汇表通常超过100,000个词元。（ii）LCD基于局部信息采样词元，这可能会扭曲字符串的全局分布，甚至会走入死胡同。本文提出了一种新算法来解决这两个问题。首先，为避免在生成的每一步对整个词汇表进行约束评估，我们提出了一种自适应拒绝采样算法，这种算法通常需要数量级更少的约束评估。其次，我们展示了如何扩展该算法，以在额外成本极低的情况下产生低方差、无偏的重要性权重估计——这些估计可以在先前提出的序列蒙特卡罗算法中得出合理的结论，以纠正局部约束实施中的短视行为。通过在文本到SQL、分子合成、目标推断、模式匹配和JSON领域的广泛实证评估，我们表明该方法优于最先进的基线算法，支持更广泛的约束类型，同时改善运行时间和性能。额外的理论和实证分析显示，我们方法的运行效率是由其动态计算使用驱动的，随着非约束和约束语言模型之间的差异缩放，因此对于更优的模型，运行时间改进更大。",
+        "地址": "https://arxiv.org/pdf/2504.05410.pdf"
+    },
+    {
+        "名称": "2025 [2504.05287] RobustDexGrasp: Robust Dexterous Grasping of General Objects from Single-view Perception.pdf",
+        "作者": "Hui Zhang, Zijian Wu, Linyi Huang, Sammy Christen, Jie Song",
+        "摘要": "摘要：从单视图感知中稳健地抓取各种物体是灵巧机器人工作的基础。以往的工作通常依赖于完全可观察的物体、专家示范或静态抓取姿势，这限制了它们的泛化能力和对外部干扰的适应能力。在本文中，我们提出了一个基于强化学习的框架，该框架能够在零样本的条件下，从单视图感知中对各种未见过的物体进行动态灵巧抓取，同时对外界干扰执行适应性运动。我们利用了一种以手为中心的物体表示方法来提取形状特征，强调了与互动相关的局部形状，从而增强了对形状变化和不确定性的稳健性。为了使机器人在有限的观察条件下有效地适应干扰，我们提出了一种混合课程学习策略，首先利用模仿学习来提炼一项基于特权实时视觉触觉反馈训练的策略，然后逐渐转移到强化学习，在由于观测噪声和动态随机化引起的干扰下学习适应性运动。我们的实验展示了在抓取随机姿态的未知物体时强大的泛化能力，在247,786个模拟物体上的成功率达到97.0%，在512个真实物体上的成功率达到94.6%。我们还通过定量和定性评价展示了我们方法对各种干扰（包括未观测到的物体移动和外力）的稳健性。项目页面：此HTTPS链接。",
+        "地址": "https://arxiv.org/pdf/2504.05287.pdf"
+    }
+]
