@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2504.07491] Kimi-VL Technical Report.pdf",
+        "作者": "Kimi Team: Angang Du, Bohong Yin, Bowei Xing, Bowen Qu, Bowen Wang, Cheng Chen, Chenlin Zhang, Chenzhuang Du, Chu Wei, Congcong Wang, Dehao Zhang, Dikang Du, Dongliang Wang, Enming Yuan, Enzhe Lu, Fang Li, Flood Sung, Guangda Wei, Guokun Lai, Han Zhu, Hao Ding, Hao Hu, Hao Yang, Hao Zhang, Haoning Wu, Haotian Yao, Haoyu Lu, Heng Wang, Hongcheng Gao, Huabin Zheng, Jiaming Li, Jianlin Su, Jianzhou Wang, Jiaqi Deng, Jiezhong Qiu, Jin Xie, Jinhong Wang, Jingyuan Liu, Junjie Yan, Kun Ouyang, Liang Chen, Lin Sui, Longhui Yu, Mengfan Dong, Mengnan Dong, Nuo Xu, Pengyu Cheng, Qizheng Gu, Runjie Zhou, Shaowei Liu, Sihan Cao, Tao Yu, Tianhui Song, Tongtong Bai, Wei Song, Weiran He, Weixiao Huang, Weixin Xu, Xiaokun Yuan, Xingcheng Yao, Xingzhe Wu, Xinxing Zu, Xinyu Zhou, Xinyuan Wang, Y. Charles, Yan Zhong, Yang Li, Yangyang Hu, Yanru Chen, Yejie Wang, Yibo Liu, Yibo Miao, Yidao Qin, Yimin Chen, Yiping Bao, Yiqin Wang, Yongsheng Kang, Yuanxin Liu, Yulun Du, Yuxin Wu, Yuzhi Wang, Yuzi Yan, Zaida Zhou, Zhaowei Li, Zhejun Jiang, Zheng Zhang, Zhilin Yang, Zhiqi Huang, Zihao Huang, Zijia Zhao, Ziwei Chen",
+        "摘要": "摘要：我们介绍了Kimi-VL，这是一种高效的开源专家混合（MoE）视觉-语言模型（VLM），在提供高级多模态推理、长文本理解和强大代理能力的同时，其语言解码器仅激活了28亿个参数（Kimi-VL-A3B）。Kimi-VL在多个挑战领域表现出色：作为通用的VLM，Kimi-VL在多轮代理任务（如OSWorld）中表现优异，不逊于旗舰模型。此外，它在各种视觉语言任务中展现了非凡能力，包括大学水平的图像和视频理解、OCR、数学推理和多图像理解。在比较评估中，它有效竞争于先进的高效VLM，如GPT-4o-mini、Qwen2.5-VL-7B和Gemma-3-12B-IT，并在多个关键领域超越了GPT-4o。Kimi-VL还在处理长文本和清晰感知方面取得进展。通过128K扩展上下文窗口，Kimi-VL能够处理多种长输入，在LongVideoBench上获得64.5的高分，在MMLongBench-Doc上获得35.1分。其原生分辨率视觉编码器MoonViT使其能够看到和理解超高分辨率的视觉输入，在InfoVQA上取得83.2的成绩，在ScreenSpot-Pro上取得34.5的成绩，同时保持较低的常见任务计算成本。在Kimi-VL基础上，我们引入了一个先进的长时思维变体：Kimi-VL-Thinking。通过长链式思维（CoT）监督微调（SFT）和强化学习（RL）开发，该模型展示了强大的长视域推理能力。它在MMMU上取得了61.7的成绩，在MathVision上取得了36.8的成绩，在MathVista上取得了71.3的成绩，同时保持28亿激活LLM参数的紧凑性，为高效多模态思维模型设立了新标准。代码和模型在此https URL公开访问。",
+        "地址": "https://arxiv.org/pdf/2504.07491.pdf"
+    },
+    {
+        "名称": "2025 [2504.07956] VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning.pdf",
+        "作者": "Yukun Qi, Yiming Zhao, Yu Zeng, Xikun Bao, Wenxuan Huang, Lin Chen, Zehui Chen, Jie Zhao, Zhongang Qi, Feng Zhao",
+        "摘要": "在2025年，Chain-of-Thought (CoT)推理的发展显著提升了大型语言模型（LLMs）和大型视觉语言模型（LVLMs）的能力。然而，视频CoT推理的严格评估框架仍然缺失。目前的视频基准测试未能充分评估推理过程，并揭示失败是源于感知能力不足还是推理能力的不足。因此，我们引入了VCR-Bench，这是一个旨在全面评估LVLMs的视频链式推理能力的新基准。VCR-Bench包含859个视频，涵盖各种视频内容和时长，以及1034个高质量的问答对。每个问答对都人工注释了逐步的CoT推理过程，每个步骤都被标记其与感知或推理能力的关联。此外，我们设计了七个不同的任务维度，并提出了CoT分数，以基于逐步标记的CoT推理过程来评估整个CoT过程。对VCR-Bench的广泛实验突出了当前LVLMs的重大局限性。即使是表现最好的模型o1，仅实现了62.8%的CoT得分和56.7%的准确率，而大多数模型的得分低于40%。实验表明大多数模型在感知步骤上的得分低于推理步骤，揭示了LVLMs在处理复杂视频推理时的时空信息处理方面的关键瓶颈。CoT得分与准确率之间强烈的正相关性证实了我们评估框架的有效性，并突出CoT推理在解决复杂视频推理任务中的关键作用。我们希望VCR-Bench能成为一个标准化评估框架，并揭示复杂视频推理任务中的实际缺陷。",
+        "地址": "https://arxiv.org/pdf/2504.07956.pdf"
+    },
+    {
+        "名称": "2025 [2504.07960] VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning.pdf",
+        "作者": "Zhong-Yu Li, Ruoyi Du, Juncheng Yan, Le Zhuo, Zhen Li, Peng Gao, Zhanyu Ma, Ming-Ming Cheng",
+        "摘要": "摘要：最近在扩散模型方面的进展显著提升了各种图像生成任务。然而，目前的主流方法仍集中于构建特定任务的模型，在满足多种不同需求时效率有限。尽管通用模型试图解决这一限制，但它们面临着关键挑战，包括可推广的任务指令、适当的任务分布和统一的架构设计。为了解决这些挑战，我们提出了VisualCloze，一个通用的图像生成框架，支持广泛的域内任务、对看不见任务的泛化、多任务的统一以及反向生成。与依赖语言任务指令的方法不同，导致任务模糊和泛化能力弱，我们整合了视觉上下文学习，允许模型从视觉示范中识别任务。同时，视觉任务分布的固有稀疏性阻碍了跨任务可转移知识的学习。为此，我们引入了Graph200K，一个建立各种相关任务的图结构数据集，增强了任务密度和可转移知识。此外，我们发现我们的统一图像生成公式与图像填充共享一致的目标，使我们无需修改架构就能利用预训练填充模型的强生成先验。",
+        "地址": "https://arxiv.org/pdf/2504.07960.pdf"
+    },
+    {
+        "名称": "2025 [2504.07128] DeepSeek-R1 Thoughtology: Let's <think> about LLM Reasoning.pdf",
+        "作者": "Sara Vera Marjanović, Arkil Patel, Vaibhav Adlakha, Milad Aghajohari, Parishad BehnamGhader, Mehar Bhatia, Aditi Khandelwal, Austin Kraft, Benno Krojer, Xing Han Lù, Nicholas Meade, Dongchan Shin, Amirhossein Kazemnejad, Gaurav Kamath, Marius Mosbach, Karolina Stańczak, Siva Reddy",
+        "摘要": "摘要：大型推理模型如DeepSeek-R1标志着LLMs处理复杂问题方式的根本性转变。DeepSeek-R1并不是直接为给定输入生成答案，而是创建详细的多步骤推理链，在提供答案之前“思考”问题。该推理过程对用户公开，使研究模型推理行为和开启思想学领域成为可能。从DeepSeek-R1的基本推理构件的分类开始，我们对DeepSeek-R1进行了分析，研究了思维长度的影响和可控性、长或混乱语境的处理、文化和安全问题，以及DeepSeek-R1在类人语言处理和世界建模等认知现象中的地位。我们的研究结果呈现了一个细致入微的画面。值得注意的是，我们表明DeepSeek-R1有一个“甜蜜点”的推理，当推理时间过长时，模型性能会受损。此外，我们发现DeepSeek-R1有重复反刍已探索过的问题表述的倾向，阻碍了进一步的探索。我们还注意到，DeepSeek-R1相比于其非推理对应模型有较强的安全漏洞，这也可能危及与安全一致的LLMs。",
+        "地址": "https://arxiv.org/pdf/2504.07128.pdf"
+    },
+    {
+        "名称": "2025 [2504.07964] C3PO: Critical-Layer, Core-Expert, Collaborative Pathway Optimization for Test-Time Expert Re-Mixing.pdf",
+        "作者": "Zhongyang Li, Ziyue Li, Tianyi Zhou",
+        "摘要": "摘要: 混合专家(MoE)大语言模型(LLMs)存在严重的次优专家路径——我们的研究表明，从预训练中学习到的简单专家选择存在10-20%的准确率改进空间。基于这一观察，我们开发了一类新颖的测试时优化方法，以重新加权或“重新混合”针对每个测试样本的不同层的专家。由于测试样本的真实情况未知，我们提出通过参考样本集中“成功的邻居”定义的替代目标进行优化。我们引入了基于模式发现、核回归和相似参考样本/任务平均损失的三种替代方法和算法。为减少优化整个路径的成本，我们将算法仅应用于关键层的核心专家混合权重，这样既保持了相似的性能，又显著节省了计算成本。这形成了“关键层、核心专家、协作路径优化(C3PO)”。我们将C3PO应用于两个最近的MoE LLM，并在六个广泛使用的基准上进行了测试。结果显示C3PO在准确率上稳定地提升了基础模型7-15%，并且远远超越了广泛使用的测试时学习基准，例如上下文学习和提示/前缀微调。此外，C3PO使具有1-3B活跃参数的MoE LLM能够超越7-9B参数的LLM，从而提升了MoE在效率上的优势。我们深入的消融研究进一步就MoE测试时改进提供了新的见解。\n\n作者: 李中阳, 李子悦, 周天懿\n\n链接: [https://arxiv.org/pdf/2504.07964.pdf](https://arxiv.org/pdf/2504.07964.pdf)",
+        "地址": "https://arxiv.org/pdf/2504.07964.pdf"
+    },
+    {
+        "名称": "2025 [2504.07957] MM-IFEngine: Towards Multimodal Instruction Following.pdf",
+        "作者": "Shengyuan Ding, Shenxi Wu, Xiangyu Zhao, Yuhang Zang, Haodong Duan, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Dahua Lin, Jiaqi Wang",
+        "摘要": "摘要：指令跟随（IF）能力衡量多模态大语言模型（MLLMs）在理解用户指令并正确执行方面的表现。现有的多模态指令跟随训练数据稀缺，基准数据集简单且包含原子指令，评估策略对于要求严格输出约束的任务来说不够精确。为了解决这些问题，我们提出了MM-IFEngine，这是一种生成高质量图像-指令对的有效流程。我们的MM-IFEngine流程产生了大规模、多样且高质量的训练数据MM-IFInstruct-23k，适合监督微调（SFT），并延展为MM-IFDPO-23k以用于直接偏好优化（DPO）。此外，我们还引入了MM-IFEval，这是一项具有挑战性且多样化的多模态指令跟随基准，其中包括（1）输出响应的组合层约束和输入图像相关的感知层约束，及（2）综合评估流程，并结合了基于规则的评估和裁判模型。我们进行了SFT和DPO实验，结果表明，针对MM-IFInstruct-23k和MM-IFDPO-23k对MLLMs进行微调可以在各种IF基准上取得显著提升，如MM-IFEval（+10.2%）、MIA（+7.6%）和IFEval（+12.3%）。所有数据和评估代码将在此URL上发布。\n\n作者：Shengyuan Ding, Shenxi Wu, Xiangyu Zhao, Yuhang Zang, Haodong Duan, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Dahua Lin, Jiaqi Wang\n\nURL: https://arxiv.org/pdf/2504.07957.pdf \n\n标题：2025 [2504.07957] MM-IFEngine: Towards Multimodal Instruction Following",
+        "地址": "https://arxiv.org/pdf/2504.07957.pdf"
+    },
+    {
+        "名称": "2025 [2504.07943] HoloPart: Generative 3D Part Amodal Segmentation.pdf",
+        "作者": "Yunhan Yang, Yuan-Chen Guo, Yukun Huang, Zi-Xin Zou, Zhipeng Yu, Yangguang Li, Yan-Pei Cao, Xihui Liu",
+        "摘要": "摘要：3D 部件全模态分割——将 3D 形状分解为完整的、语义上有意义的部分，即使是被遮挡时——是 3D 内容创建和理解中的一个具有挑战性但至关重要的任务。现有的 3D 部件分割方法仅识别可见的表面片段，限制了它们的实用性。受 2D 全模态分割的启发，我们将这一新颖任务引入 3D 领域，并提出一种实用的、两阶段的方法，解决推测遮挡 3D 几何形状、保持整体形状一致性以及使用有限训练数据处理不同形状的关键挑战。首先，我们利用现有的 3D 部件分割获得初步的不完整部件分割。其次，我们引入了一种新型扩散模型 HoloPart，将这些分割补全为完整的 3D 部件。HoloPart 使用一种专门的架构，结合局部注意力捕捉细粒度的部件几何形状和全局形状上下文注意力，以确保整体形状一致性。我们基于 ABO 和 PartObjaverse-Tiny 数据集引入了新的基准，并证明 HoloPart 显著优于最先进的形状补全方法。通过将 HoloPart 与现有的分割技术结合，我们在 3D 部件全模态分割上取得了有希望的结果，为几何编辑、动画和材质分配等应用开辟了新途径。",
+        "地址": "https://arxiv.org/pdf/2504.07943.pdf"
+    },
+    {
+        "名称": "2025 [2504.07830] MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations.pdf",
+        "作者": "Genglin Liu, Salman Rahman, Elisa Kreiss, Marzyeh Ghassemi, Saadia Gabriel",
+        "摘要": "摘要: 我们提出了一个新颖的开源社交网络仿真框架MOSAIC，其中生成语言代理预测用户行为，例如点赞、分享和标记内容。该仿真结合了大型语言模型代理与定向社交图谱，以分析新兴的欺骗行为，并更好地理解用户如何确定网上社交内容的真实性。通过构建来自不同精细化角色的用户表示，我们的系统能够进行多代理仿真，从而大规模地模拟内容传播和参与动态。在此框架内，我们评估了三种不同的内容审核策略在模拟错误信息传播中的表现，发现它们不仅减缓了不实内容的传播，还增加了用户的参与度。此外，我们分析了仿真中的热门内容轨迹，并探索仿真代理对其社交互动的明示推理是否真正与其集体参与模式一致。我们开源了我们的仿真软件，以鼓励人工智能和社会科学领域的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2504.07830.pdf"
+    },
+    {
+        "名称": "2025 [2504.07951] Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models.pdf",
+        "作者": "Mustafa Shukor, Enrico Fini, Victor Guilherme Turrisi da Costa, Matthieu Cord, Joshua Susskind, Alaaeldin El-Nouby",
+        "摘要": "摘要：构建能够通过多模态信号有效感知世界的通用模型一直是一个长期目标。目前的方法涉及整合单独预训练的组件，例如将视觉编码器连接到大型语言模型（LLMs）并继续多模态训练。虽然这种方法表现出了显著的样本效率，但这种后期融合架构是否具备固有的优越性仍然是一个未解之谜。在本文中，我们重新审视了原生多模态模型（NMMs）的架构设计——那些从头开始在所有模态上训练的模型，并进行了广泛的扩展规律研究，涵盖了457个具有不同架构和训练组合的训练模型。我们的研究表明，与不依赖图像编码器的早期融合架构相比，后期融合架构没有固有优势。相反，早期融合在较低参数量下表现更强，训练更高效，部署更容易。受早期融合架构强大性能的启发，我们展示了将专家混合（Mixture of Experts, MoEs）纳入模型可以显著提升性能，因为它能够学习模态特定权重。",
+        "地址": "https://arxiv.org/pdf/2504.07951.pdf"
+    },
+    {
+        "名称": "2025 [2504.07934] SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement.pdf",
+        "作者": "Xiyao Wang, Zhengyuan Yang, Chao Feng, Hongjin Lu, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang",
+        "摘要": "该论文摘要如下：\n\n摘要：本文提出了一种有效的方法，通过显著减少训练样本数量来增强视觉推理，仅依赖于自我改进且无需知识蒸馏。我们的关键见解是强化微调（RFT）期间训练数据的难度至关重要。适当有挑战性的样本即使在数据集较小时也能显著提升推理能力。尽管这一点直观，但主要挑战在于准确量化样本难度以实现有效的数据筛选。为此，我们提出了一种新颖的方法，重新利用蒙特卡罗树搜索（MCTS）来实现这一目标。从我们精心挑选的70k开源训练样本开始, 我们引入了一种基于MCTS的选择方法，基于VLMs解决每个问题所需的迭代次数来量化样本难度。MCTS中的这种显式逐步推理迫使模型思考得更久，从而更好地识别真正具有挑战性的样本。我们筛选并保留了11k样本进行Qwen2.5-VL-7B-Instruct的RFT，最终得到我们的模型ThinkLite-VL。在八个基准测试中的评估结果表明，ThinkLite-VL在仅用11k训练样本且无知识蒸馏的情况下，将Qwen2.5-VL-7B-Instruct的平均性能提升了7%。这显著超越了所有现有的7B级推理VLMs，以及使用经典选择方法（如基于准确度的筛选）且与我们较为可比的基线。值得注意的是，ThinkLite-VL-7B在MathVista上的准确度达到了SoTA的75.1%，超越了Qwen2.5-VL-72B、GPT-4o和O1。我们的代码、数据和模型可在此HTTPS URL获取。\n\n论文信息：\n标题：SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement\n作者：王晰瑶, 杨正元, 冯超, 卢红津, 李林杰, 林中庆, 林凯文, 黄芙蓉, 王利娟\n年份：2025\n评论：21页, 5个图\n网址：https://arxiv.org/pdf/2504.07934.pdf",
+        "地址": "https://arxiv.org/pdf/2504.07934.pdf"
+    },
+    {
+        "名称": "2025 [2504.04974] Towards Visual Text Grounding of Multimodal Large Language Model.pdf",
+        "作者": "Ming Li, Ruiyi Zhang, Jian Chen, Jiuxiang Gu, Yufan Zhou, Franck Dernoncourt, Wanrong Zhu, Tianyi Zhou, Tong Sun",
+        "摘要": "摘要：尽管多模态大型语言模型（MLLMs）已有所发展，但它们在可视文本定位方面仍存在不可忽视的局限性，特别是在文本文字丰富的图像中，如文档图片。文档图片，如扫描表格和信息图，由于其复杂的布局和文本内容，突显出重大挑战。然而，目前的基准测试并未充分解决这些挑战，因为它们主要集中在自然图像上的视觉定位，而不是文本丰富的文档图像。因此，为了弥补这一差距，我们介绍了TRIG，这是一项新任务，带有新设计的指令数据集，用于在文档问答中建立基准和改进MLLMs的文本丰富图像定位能力。具体来说，我们提出了一个OCR-LLM-人类交互管道，创建了800个人工注释的问答对作为基准，以及基于四个不同数据集的90$合成数据的大规模训练集。对我们提出的基准上的各种MLLMs的综合评估表明，它们在文本丰富图像的定位能力方面存在重大局限。此外，我们提出了两种基于通用指令调优和即插即用高效嵌入的简单有效的TRIG方法。通过在我们的合成数据集上微调MLLMs，它们在空间推理和定位能力方面有了显著的提高。\n\n作者：Ming Li, Ruiyi Zhang, Jian Chen, Jiuxiang Gu, Yufan Zhou, Franck Dernoncourt, Wanrong Zhu, Tianyi Zhou, Tong Sun\n\n网址：https://arxiv.org/pdf/2504.04974.pdf\n\n标题：2025 [2504.04974] 向多模态大型语言模型的视觉文本定位迈进",
+        "地址": "https://arxiv.org/pdf/2504.04974.pdf"
+    },
+    {
+        "名称": "2025 [2504.07961] Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction.pdf",
+        "作者": "Zeren Jiang, Chuanxia Zheng, Iro Laina, Diane Larlus, Andrea Vedaldi",
+        "摘要": "摘要：我们引入了 Geo4D，一种将视频扩散模型重新用于单目动态场景的三维重构的方法。通过利用这些视频模型所捕获的强大动态先验，Geo4D 可以仅使用合成数据进行训练，同时能够在零样本的方式上很好地泛化到真实数据。Geo4D 预测了几种互补的几何模式，分别是点、深度和射线图。它在推理时使用了一种新的多模态对齐算法来对齐和融合这些模态，以及多个滑动窗口，从而获得长视频的鲁棒而精确的四维重构。针对多个基准的广泛实验表明，Geo4D 显著超越了最新的视频深度估计方法，包括最近旨在处理动态场景的方法如 MonST3R。",
+        "地址": "https://arxiv.org/pdf/2504.07961.pdf"
+    },
+    {
+        "名称": "2025 [2504.06801] MonoPlace3D: Learning 3D-Aware Object Placement for 3D Monocular Detection.pdf",
+        "作者": "Rishubh Parihar, Srinjay Sarkar, Sarthak Vora, Jogendra Kundu, R. Venkatesh Babu",
+        "摘要": "摘要：当前的单目三维检测器受到现实世界数据集多样性和规模有限的影响。尽管数据增强确实有效，但在户外环境中生成逼真的场景感知增强数据特别困难。目前，大多数合成数据生成方法通过改进渲染技术专注于逼真的对象外观。然而，我们表明，对象的位置和方式对于训练有效的单目三维检测器同样重要。关键障碍在于自动确定现实的对象放置参数——包括位置、尺寸和方向对齐，当将合成对象引入实际场景时。为了解决这个问题，我们引入了MonoPlace3D，一个考虑三维场景内容以创建逼真增强的创新系统。具体来说，给定一个背景场景，MonoPlace3D学习可能的三维边界框分布。随后，我们渲染逼真的对象，并根据从学习的分布中采样的位置放置这些对象。我们在两个标准数据集KITTI和NuScenes上的全面评估表明，MonoPlace3D显著提高了多个现有单目三维检测器的准确性，同时数据效率极高。",
+        "地址": "https://arxiv.org/pdf/2504.06801.pdf"
+    },
+    {
+        "名称": "2025 [2504.06752] Compass Control: Multi Object Orientation Control for Text-to-Image Generation.pdf",
+        "作者": "Rishubh Parihar, Vaibhav Agrawal, Sachidanand VS, R. Venkatesh Babu",
+        "摘要": "摘要: 现有的文本到图像扩散模型的控制方法虽然强大，但无法实现明确的以3D对象为中心的控制，例如对对象方向的精确控制。在这项工作中，我们解决了文本到图像扩散模型中多对象方向控制的问题。这使得每个对象的方向控制更加精确，从而生成多样的多对象场景。关键思路是用一组方向感知的“指南针”令牌来调整扩散模型，每个对象对应一个指南针令牌，以及文本令牌。一个轻量级的编码器网络根据对象方向预测这些指南针令牌。模型在一个合成数据集上训练，该数据集包含程序生成的场景，每个场景在简单背景上有一个或两个3D资产。然而，直接训练这个框架会导致方向控制不佳，并且对象之间会相互干扰。为了解决这个问题，我们在生成过程中进行干预，并将每个指南针令牌的交叉注意力图限制在其相应的对象区域内。训练后的模型能够精确控制 a) 训练中未见过的复杂对象的方向，以及 b) 超过两个对象的多对象场景，显示出强大的泛化能力。此外，当结合个性化方法时，我们的方法能够精确控制新对象在不同环境中的方向。我们的方法通过广泛的评估和用户研究，量化了其在方向控制和文本对齐方面达到的最先进水平。",
+        "地址": "https://arxiv.org/pdf/2504.06752.pdf"
+    },
+    {
+        "名称": "2025 [2504.05579] TAPNext: Tracking Any Point (TAP) as Next Token Prediction.pdf",
+        "作者": "Artem Zholus, Carl Doersch, Yi Yang, Skanda Koppula, Viorica Patraucean, Xu Owen He, Ignacio Rocco, Mehdi S. M. Sajjadi, Sarath Chandar, Ross Goroshin",
+        "摘要": "摘要：在视频中跟踪任意点（TAP）是一个具有挑战性的计算机视觉问题，已经在机器人技术、视频编辑和3D重建中展示了许多应用。现有的TAP方法严重依赖复杂的特定跟踪归纳偏差和启发式方法，限制了它们的通用性和扩展潜力。为了解决这些挑战，我们提出了TAPNext，这是一种将TAP视为顺序遮蔽令牌解码的新方法。我们的模型是因果性的，以纯在线方式进行跟踪，并去除了特定跟踪的归纳偏差。这使得TAPNext能够以最小的延迟运行，消除了许多现有最先进跟踪器所需的时间窗口。尽管其简单性，TAPNext在在线和离线跟踪器中都达到了新的最先进的跟踪性能。最后，我们提供证据表明，通过端到端训练，许多广泛使用的跟踪启发式方法在TAPNext中自然涌现。\n\n翻译为中文：\n摘要：在视频中跟踪任意点（TAP）是一个具有挑战性的计算机视觉问题，已经在机器人技术、视频编辑和3D重建中展示了许多应用。现有方法严重依赖复杂的特定跟踪归纳偏差和启发式方法，限制了它们的通用性和扩展潜力。为了解决这些挑战，我们提出了TAPNext，这是一种将TAP视为顺序掩码令牌解码的新方法。我们的模型是因果性的，以纯在线方式进行跟踪，并去除了特定跟踪的归纳偏差。这使得TAPNext能够以最小的延迟运行，消除了许多现有最先进跟踪器所需的时间窗口。尽管其简单性，TAPNext在在线和离线跟踪器中都达到了新的最先进的跟踪性能。最后，我们提供证据表明，许多广泛使用的跟踪启发式方法通过端到端训练在TAPNext中自然出现。",
+        "地址": "https://arxiv.org/pdf/2504.05579.pdf"
+    }
+]
