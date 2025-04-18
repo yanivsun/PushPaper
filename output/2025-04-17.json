@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2504.10514] ColorBench: Can VLMs See and Understand the Colorful World? A Comprehensive Benchmark for Color Perception, Reasoning, and Robustness.pdf",
+        "作者": "Yijun Liang, Ming Li, Chenrui Fan, Ziyue Li, Dang Nguyen, Kwesi Cobbina, Shweta Bhardwaj, Jiuhai Chen, Fuxiao Liu, Tianyi Zhou",
+        "摘要": "摘要：颜色在人类感知中起着重要作用，并且通常在视觉推理中提供关键信息。然而，目前尚不清楚视觉语言模型（VLMs）是否以及如何像人类一样感知、理解和利用颜色。本文介绍了ColorBench，这是一个创新的基准，旨在评估VLMs在颜色理解方面的能力，包括颜色感知、推理和稳健性。通过精心设计的一系列多样化测试场景，结合实际应用，ColorBench评估这些模型如何感知颜色、从基于颜色的线索中推断意义，并在不同的颜色转换下保持一致的性能。通过对32个采用不同语言模型和视觉编码器的VLMs的广泛评估，我们的论文揭示了一些未被发现的发现：（i）在ColorBench上，规模定律（模型越大越好）依然成立，而语言模型比视觉编码器起着更重要的作用。（ii）然而，不同模型之间的性能差距相对较小，表明现有的VLMs对颜色理解已被大大忽视。（iii）CoT推理提高了颜色理解的准确性和稳健性，尽管它们是视觉中心任务。（iv）VLMs确实在ColorBench上利用了颜色线索，但在某些任务中也可能误导模型。这些发现突显了当前VLMs的关键局限性，并强调了增强颜色理解的必要性。我们的ColorBench可以作为推动多模态AI对人类水平颜色理解研究的基础工具。",
+        "地址": "https://arxiv.org/pdf/2504.10514.pdf"
+    },
+    {
+        "名称": "2025 [2504.12285] BitNet b1.58 2B4T Technical Report.pdf",
+        "作者": "Shuming Ma, Hongyu Wang, Shaohan Huang, Xingxing Zhang, Ying Hu, Ting Song, Yan Xia, Furu Wei",
+        "摘要": "摘要: 我们引入了BitNet b1.58 2B4T，这是一种具有20亿参数规模的首个开源、原生1位大型语言模型(LLM)。该模型在包含4万亿个标记的语料库上进行训练，并在覆盖语言理解、数学推理、编程能力和对话能力的基准测试中进行了严格评估。我们的结果表明，BitNet b1.58 2B4T的性能与相似大小的领先开源全精度LLM相当，同时在计算效率方面表现出显著优势，包括大幅减少的内存占用、能量消耗和解码延迟。为了促进进一步研究和采用，该模型的权重通过Hugging Face发布，且提供了GPU和CPU架构的开源推理实现。",
+        "地址": "https://arxiv.org/pdf/2504.12285.pdf"
+    },
+    {
+        "名称": "2025 [2504.11536] ReTool: Reinforcement Learning for Strategic Tool Use in LLMs.pdf",
+        "作者": "Jiazhan Feng, Shijue Huang, Xingwei Qu, Ge Zhang, Yujia Qin, Baoquan Zhong, Chengquan Jiang, Jinxin Chi, Wanjun Zhong",
+        "摘要": "摘要：虽然利用强化学习（RL）训练的推理模型（如DeepSeek R1）在文本推理方面表现出色，但在需要结构化问题解决的场景中表现不佳，如几何推理、简明计算或复杂方程求解——在这些领域，计算工具（如代码解释器）显示出明显的优势。为了弥合这一差距，我们提出了ReTool，它通过工具整合学习增强长文本推理，包括两个关键特性：（1）在自然语言推理过程中动态嵌入实时代码执行，（2）一种自动化的RL范式，允许通过多回合实时代码执行进行策略推广，并教会模型在基于结果反馈时何时以及如何调用工具。ReTool采用系统性的训练框架，从合成数据生成冷启动数据开始，以生成代码增强的长文本推理迹线以微调基础模型。随后的RL训练利用任务结果作为奖励，迭代优化模型的工具使用策略，从而无需人类先验知识就能自主发现最佳工具调用模式。对具有挑战性的数学奥林匹克基准AIME的实验表明，ReTool具有优越性：我们的32B模型在400次训练步骤中达到67%的精度，优于文本基RL基线（40%精度，1080步骤）的效率和性能。值得注意的是，ReTool-32B在扩展设置中达到72.5%的精度，超过OpenAI的o1-preview 27.9%。进一步的分析发现了代码自我纠正等新兴行为，表明模型自主掌握了自适应工具使用的“顿悟时刻”。这些发现突显了结果驱动工具整合在推进复杂数学推理中的前景，并为混合神经符号系统提供了新的见解。\n\n作者：Jiazhan Feng, Shijue Huang, Xingwei Qu, Ge Zhang, Yujia Qin, Baoquan Zhong, Chengquan Jiang, Jinxin Chi, Wanjun Zhong\n\n评论：修正错误\n\nURL：https://arxiv.org/pdf/2504.11536.pdf\n\n标题：2025 [2504.11536] ReTool: Reinforcement Learning for Strategic Tool Use in LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2504.11536.pdf"
+    },
+    {
+        "名称": "2025 [2504.12240] Cobra: Efficient Line Art COlorization with BRoAder References.pdf",
+        "作者": "Junhao Zhuang, Lingen Li, Xuan Ju, Zhaoyang Zhang, Chun Yuan, Ying Shan",
+        "摘要": "摘要: 漫画制作行业需要基于参考的线条艺术上色，要求高准确性、高效率、上下文一致性和灵活控制。单张漫画页通常涉及多种人物、物品和背景，这使得上色过程复杂化。尽管扩散模型在图像生成方面取得了进展，但其在线条艺术上色中的应用仍然有限，面临处理大量参考图像、推理耗时以及灵活控制的挑战。我们研究了广泛的上下文图像指导在线条艺术上色质量上的必要性。为了解决这些挑战，我们引入了Cobra，一种高效且多功能的方法，支持颜色提示并使用200多张参考图像，同时保持低延迟。Cobra的核心是因果稀疏DiT架构，该架构利用专门设计的位置编码、因果稀疏注意力和键值缓存来有效地管理长上下文参考并确保颜色标识的一致性。结果表明，Cobra通过广泛的上下文参考实现了准确的线条艺术上色，显著提高了推理速度和交互性，从而满足了重要的行业需求。我们在项目页面上发布了我们的代码和模型：this https URL。",
+        "地址": "https://arxiv.org/pdf/2504.12240.pdf"
+    },
+    {
+        "名称": "2025 [2504.10326] AlayaDB: The Data Foundation for Efficient and Effective Long-context LLM Inference.pdf",
+        "作者": "Yangshen Deng, Zhengxin You, Long Xiang, Qilong Li, Peiqi Yuan, Zhaoyang Hong, Yitao Zheng, Wanting Li, Runzhong Li, Haotian Liu, Kyriakos Mouratidis, Man Lung Yiu, Huan Li, Qiaomu Shen, Rui Mao, Bo Tang",
+        "摘要": "摘要：AlayaDB是一种最前沿的向量数据库系统，原生架构旨在为大型语言模型(LLM)在AlayaDB AI上的高效和有效的长上下文推理提供支持。具体来说，它将KV缓存和注意力计算与LLM推理系统解耦，并将其封装到一个新颖的向量数据库系统中。对于Model as a Service(MaaS)提供商，AlayaDB消耗更少的硬件资源，并在拥有不同服务等级目标(SLO)的各种工作负载中提供更高的生成质量，与现有的替代解决方案（例如KV缓存解聚、基于检索的稀疏注意力）相比，具有优势。AlayaDB的核心在于它将LLM推理的注意力计算和缓存管理抽象为查询处理过程，并通过本地查询优化器优化性能。在这项工作中，我们通过(i) 来自我们行业合作伙伴的三个用例，和(ii) 在LLM推理基准上的广泛实验结果，展示了AlayaDB的有效性。\n\n作者: 邓杨深，尤正新，向龙，李启隆，袁培齐，洪兆阳，郑義涛，李望婷，李润中，刘昊天，Kyriakos Mouratidis，姚满龙，李焕，沈乔木，毛瑞，唐波\n\n注释: 14页，12个图，会议论文\n\n链接: [https://arxiv.org/pdf/2504.10326.pdf](https://arxiv.org/pdf/2504.10326.pdf)\n\n标题: AlayaDB: 高效和有效的长上下文LLM推理的数据基础",
+        "地址": "https://arxiv.org/pdf/2504.10326.pdf"
+    },
+    {
+        "名称": "2025 [2504.09081] SIFT-50M: A Large-Scale Multilingual Dataset for Speech Instruction Fine-Tuning.pdf",
+        "作者": "Prabhat Pandey, Rupak Vignesh Swaminathan, K V Vijay Girish, Arunasish Sen, Jian Xie, Grant P. Strimel, Andreas Schwarz",
+        "摘要": "摘要：我们介绍了SIFT（语音指令微调），这是一个包含5000万示例的数据集，旨在对语音-文本大型语言模型（LLMs）进行指令微调和预训练。SIFT-50M由公开的语音语料库构建，这些语料库共包含14000小时的语音，并利用了LLMs和现成的专家模型。该数据集涵盖五种语言，包含各种语音理解和可控语音生成指令。使用SIFT-50M，我们训练了SIFT-LLM，在指令遵循基准测试中优于现有的语音-文本LLMs，同时在基本语音任务中实现了有竞争力的表现。为了支持进一步的研究，我们还介绍了EvalSIFT，这是一个专门设计用于评估语音-文本LLMs指令遵循能力的基准数据集。",
+        "地址": "https://arxiv.org/pdf/2504.09081.pdf"
+    },
+    {
+        "名称": "2025 [2504.10483] REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers.pdf",
+        "作者": "Xingjian Leng, Jaskirat Singh, Yunzhong Hou, Zhenchang Xing, Saining Xie, Liang Zheng",
+        "摘要": "摘要: 在本文中，我们探讨了一个基本问题：“我们是否能以端到端的方式训练潜在扩散模型和变分自编码器（VAE）的分词器？” 传统的深度学习智慧表明，端到端训练在可能的情况下通常是可取的。然而，对于潜在扩散变压器模型，观察到使用标准扩散损失同时端到端训练VAE和扩散模型是无效的，甚至会导致最终性能的下降。我们展示了尽管扩散损失无效，但通过表示对齐（REPA）损失，可以解锁端到端训练——允许在训练过程中联合调整VAE和扩散模型。尽管方法简单，所提出的训练配方（REPA-E）表现出显著的性能；相较于REPA和初始训练配方，分别加速扩散模型训练超过17倍和45倍。有趣的是，我们观察到使用REPA-E的端到端调整也改进了VAE本身；导致潜在空间结构和下游生成性能的提高。就最终性能而言，我们的方法设定了新的最先进水平；在ImageNet 256 x 256上，实现了1.26和1.83的FID（分别在有无分类器自由引导情况下）。代码可在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2504.10483.pdf"
+    },
+    {
+        "名称": "2025 [2504.11468] SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models.pdf",
+        "作者": "Hardy Chen, Haoqin Tu, Fali Wang, Hui Liu, Xianfeng Tang, Xinya Du, Yuyin Zhou, Cihang Xie",
+        "摘要": "摘要：这项工作重新审视了用于训练大型视觉语言模型（LVLMs）的主流监督微调（SFT）然后强化学习（RL）范式，并揭示了一个关键发现：SFT通过模仿专家模型的“伪推理路径”可能显著削弱后续的RL。虽然这些路径可能类似于RL模型的本地推理路径，但它们通常涉及较长时间的犹豫、不太有信息性的步骤以及错误推理。为了系统地研究这一效应，我们引入了VLAA-Thinking，一个为支持LVLM推理而设计的新多模态数据集。这个数据集通过一个包括描述、推理蒸馏、答案重写和验证在内的六步流程构建，包含了高质量的、逐步的视觉推理轨迹用于SFT，以及来自同一数据源的更具挑战性的RL分割。使用这个数据集，我们进行了广泛的实验，比较了SFT、RL及其组合。结果表明，虽然SFT有助于模型学习推理格式，但它通常将对齐的模型锁定在模仿性、僵硬的推理模式中，阻碍了进一步的学习。相比之下，基于包含感知和认知信号的混合奖励模块的新颖群体相对策略优化（GRPO），我们的RL方法促进了更为真实、适应性的推理行为。值得注意的是，我们基于Qwen2.5VL 3B的模型VLAA-Thinker，在Open LMM推理排行榜（该网址）上在4B规模的LVLMs中获得了top-1表现，超过了之前的最佳状态1.8%。我们希望我们的发现能够为开发具备推理能力的LVLMs提供有价值的见解，并能够为该领域的未来研究提供信息。",
+        "地址": "https://arxiv.org/pdf/2504.11468.pdf"
+    },
+    {
+        "名称": "2025 [2504.12264] Towards Learning to Complete Anything in Lidar.pdf",
+        "作者": "Ayca Takmaz, Cristiano Saltori, Neehar Peri, Tim Meinhardt, Riccardo de Lutio, Laura Leal-Taixé, Aljoša Ošep",
+        "摘要": "摘要：我们提出了CAL（Complete Anything in Lidar）用于野外环境中的基于Lidar的形状补全。这与基于Lidar的语义/全景场景补全密切相关。然而，当代方法只能完成并识别现有Lidar数据集中标注的封闭词汇中的对象。与此不同的是，我们的零样本方法利用多模态传感器序列的时间上下文来挖掘观察到的对象的形状和语义特征。然后将这些特征提取到一个仅基于Lidar的实例级补全和识别模型中。尽管我们只挖掘了部分形状补全，但我们发现提取的模型通过数据集中的多次部分观察学习推断完整对象形状。我们展示了模型可以在语义和全景场景补全的标准基准上提示，定位对象为(模态)3D边界框，并识别超出固定类别词汇的对象。我们的项目页面是这个https URL。",
+        "地址": "https://arxiv.org/pdf/2504.12264.pdf"
+    },
+    {
+        "名称": "2025 [2504.11092] Vivid4D: Improving 4D Reconstruction from Monocular Video by Video Inpainting.pdf",
+        "作者": "Jiaxin Huang, Sheng Miao, BangBnag Yang, Yuewen Ma, Yiyi Liao",
+        "摘要": "摘要：重建从随意捕捉的单目视频中重建四维动态场景是有价值但非常具有挑战性的，因为每个时间戳只能从单一视角观察到。我们提出了Vivid4D，这是一种通过增强观察视图来改进四维单目视频合成的新方法——通过单输入生成多视角视频。与现有方法仅利用几何先验进行监督或使用生成先验同时忽略几何不同，我们整合了两者。此方法将视图增强重新表述为视频修复任务，其中观察到的视图基于单目深度先验被扭曲成新视点。为此，我们在带有合成生成遮罩的未定姿势网络视频上训练了一个视频修复模型，模拟了扭曲遮挡，确保缺失区域在空间和时间上的一致性完成。为进一步减少单目深度先验的不准确性，我们引入了迭代视图增强策略和鲁棒重建损失。实验表明，我们的方法有效地改进了单目四维场景的重建和完成。\n\n作者：黄佳鑫, 苗盛, 杨邦邦, 马月文, 廖依依\nURL: https://arxiv.org/pdf/2504.11092.pdf\n标题：2025 [2504.11092] Vivid4D: 改进通过视频修复进行单目视频四维重建.pdf",
+        "地址": "https://arxiv.org/pdf/2504.11092.pdf"
+    },
+    {
+        "名称": "2025 [2504.11952] Robust and Fine-Grained Detection of AI Generated Texts.pdf",
+        "作者": "Ram Mohan Rao Kadiyala, Siddartha Pullakhandam, Kanwal Mehreen, Drishti Sharma, Siddhant Gupta, Jebish Purbey, Ashay Srivastava, Subhasya TippaReddy, Arvind Reddy Bobbili, Suraj Telugara Chandrashekhar, Modabbir Adeeb, Srinadh Vura, Hamza Farooq",
+        "摘要": "摘要：理想的机器生成内容检测系统应能够在任何生成器上良好运行，因为随着越来越多先进的大规模语言模型(LLM)的诞生，每天都有新的挑战。现有系统通常难以准确识别较短文本中的人工智能生成内容。此外，并非所有文本完全由人类或LLM撰写，因此我们更多地关注部分情况，即人类-LLM共同撰写的文本。我们的论文引入了一组用于标记分类任务的模型，这些模型经过大量人类与机器共同撰写文本的训练，在未知领域的文本、未知生成器的文本、非母语作者的文本以及具有对抗性输入的文本上表现良好。我们还引入了一个包含超过240万篇此类文本的新的数据集，这些文本大多由多个流行的专有LLM共同撰写，涉及23种语言。我们还展示了各模型在不同领域和生成器文本上的性能的研究结果。其他发现包括与每种对抗方法的性能比较、输入文本长度对模型表现的影响以及生成文本与原始人类撰写文本的特征比较。\n\n作者：Ram Mohan Rao Kadiyala, Siddartha Pullakhandam, Kanwal Mehreen, Drishti Sharma, Siddhant Gupta, Jebish Purbey, Ashay Srivastava, Subhasya TippaReddy, Arvind Reddy Bobbili, Suraj Telugara Chandrashekhar, Modabbir Adeeb, Srinadh Vura, Hamza Farooq\n\n评论：ACL 2025年2月ARR提交\n\n网址：https://arxiv.org/pdf/2504.11952.pdf\n\n标题：2025 [2504.11952] 机器人生成文本的鲁棒性和细粒度检测",
+        "地址": "https://arxiv.org/pdf/2504.11952.pdf"
+    },
+    {
+        "名称": "2025 [2504.09566] Syzygy of Thoughts: Improving LLM CoT with the Minimal Free Resolution.pdf",
+        "作者": "Chenghao Li, Chaoning Zhang, Yi Lu, Jiaquan Zhang, Qigan Sun, Xudong Wang, Jiwei Wei, Guoqing Wang, Yang Yang, Heng Tao Shen",
+        "摘要": "以下是该论文摘要的中文翻译：\n\n\"摘要：链式思维（Chain-of-Thought, CoT）提示通过将问题分解为连续步骤，增强了大型语言模型（LLMs）的推理能力，模仿人类逻辑并减少错误。然而，具有大解空间和模糊约束的复杂任务通常超出了单一推理链的能力。受交换代数和代数几何中的最小自由分解（Minimal Free Resolution, MFR）启发，我们提出了思维同调（Syzygy of Thoughts, SoT）——一种通过引入辅助的、相互关联的推理路径来扩展CoT的全新框架。SoT捕捉到更深层次的逻辑依赖关系，使得问题解决更加稳健和结构化。MFR将一个模组分解为一系列最小秩的自由模组，提供了一种结构化的分析方法来处理复杂系统。该方法引入了“模组”、“Betti数”、“自由度”、“映射”、“完备性”和“最小性”的概念，能够在保留关键问题特征和减少推理长度的同时，系统地将原始复杂问题分解为逻辑完整的最小子问题。我们在各种数据集（如GSM8K、MATH）和模型（如GPT-4o-mini、Qwen2.5）上测试了SoT，达到了与主流CoT标准匹配或超越的推理准确性。此外，通过将采样过程与代数约束对齐，我们的方法提高了LLM推理时间的可扩展性，确保了透明推理和高性能。我们的代码将公开发布于此HTTPS链接。\"\n\n论文作者：Chenghao Li, Chaoning Zhang, Yi Lu, Jiaquan Zhang, Qigan Sun, Xudong Wang, Jiwei Wei, Guoqing Wang, Yang Yang, Heng Tao Shen",
+        "地址": "https://arxiv.org/pdf/2504.09566.pdf"
+    },
+    {
+        "名称": "2025 [2504.09048] BlockGaussian: Efficient Large-Scale Scene Novel View Synthesis via Adaptive Block-Based Gaussian Splatting.pdf",
+        "作者": "Yongchang Wu, Zipeng Qi, Zhenwei Shi, Zhengxia Zou",
+        "摘要": "摘要: 近年来，三维高斯点 (3DGS) 在新视角合成任务中展示了显著的潜力。尽管“分而治之”的模式已经能够实现大规模场景重建，但场景划分、优化和合并过程中仍存在重大挑战。本文介绍了一种新的框架 BlockGaussian，其结合了一种内容感知的场景划分策略和可视性感知的块优化方法，以实现高效且高质量的大规模场景重建。具体来说，我们的方法考虑了不同区域内容复杂度的变化，并在场景划分过程中平衡计算负载，实现高效的场景重建。为了解决独立块优化过程中监督失配的问题，我们在单个块优化过程中引入了辅助点来对齐真实监督，从而提高重建质量。此外，我们提出了一种伪视图几何约束，有效缓解了在块合并过程中由于空域浮点造成的渲染退化问题。在大规模场景上的大量实验表明，我们的方法在重建效率和渲染质量方面均达到了最先进的性能，在多个基准测试中优化速度提升了5倍，平均 PSNR 提高了1.21 dB。值得注意的是，BlockGaussian 显著减少了计算需求，使得在单个24GB VRAM设备上实现大规模场景重建成为可能。项目页面可在此 https URL 查看。",
+        "地址": "https://arxiv.org/pdf/2504.09048.pdf"
+    },
+    {
+        "名称": "2025 [2504.13128] FreshStack: Building Realistic Benchmarks for Evaluating Retrieval on Technical Documents.pdf",
+        "作者": "Nandan Thakur, Jimmy Lin, Sam Havens, Michael Carbin, Omar Khattab, Andrew Drozdov",
+        "摘要": "摘要: 我们介绍了 FreshStack，这是一种可重复使用的框架，用于从社区提出的问题和答案中自动构建信息检索 (IR) 评估基准。FreshStack 进行以下步骤：（1）从代码和技术文档中自动收集语料库，（2）从社区提出的问题和答案中生成要点，（3）在要点级别进行支持，使用混合检索技术和混合架构检索文档。我们使用 FreshStack 构建了五个关于快速增长、最新和小众主题的数据集，以确保任务具有足够的挑战性。在 FreshStack 上，现有的检索模型在不做调整的情况下应用时，在所有五个主题上表现显著低于最优方法，表明在改进 IR 质量方面有很大的提升空间。此外，我们还发现重排序器在两个主题上没有明显提高初始阶段的检索准确性。我们希望 FreshStack 能够促进未来构建真实、可扩展和无污染的 IR 和 RAG 评估基准的工作。FreshStack 数据集可在此 URL 获取：this https URL。\n\n年：2025\n作者：Nandan Thakur, Jimmy Lin, Sam Havens, Michael Carbin, Omar Khattab, Andrew Drozdov\n标题：2025 [2504.13128] FreshStack: 构建用于评估技术文档检索的真实基准",
+        "地址": "https://arxiv.org/pdf/2504.13128.pdf"
+    },
+    {
+        "名称": "2025 [2504.09702] MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?.pdf",
+        "作者": "Yunxiang Zhang, Muhammad Khalifa, Shitanshu Bhushan, Grant D Murphy, Lajanugen Logeswaran, Jaekyeom Kim, Moontae Lee, Honglak Lee, Lu Wang",
+        "摘要": "摘要：现有对大语言模型（LLM）代理在科学发现中的评估缺乏客观的基准和指标来评估其提出方法的可行性。为了解决这个问题，我们引入了MLRC-Bench，这是一个基准，用于量化语言代理解决具有挑战性机器学习研究竞赛的效果。我们的基准强调需要新方法的开放研究问题，这与最近的基准（如OpenAI的MLE-Bench (Chan et al., 2024)和METR的RE-Bench (Wijk et al., 2024)）不同，后者关注的是通过足够的工程努力基本可以解决的成熟研究任务。不同于先前的工作（如AI Scientist (Lu et al., 2024b)），采用LLM作为评审评估端到端代理流程，MLRC-Bench衡量提出和实施新研究方法的关键步骤，并通过新提出的严格协议和客观指标进行评估。我们精心挑选的7个竞赛任务揭示了LLM代理面临的重大挑战。即使是表现最好的被测试代理（在MLAB（Huang et al., 2024a）下的gemini-exp-1206）也只缩小了基线与顶级人类参与者得分之间的9.3%的差距。此外，我们的分析揭示了LLM评审的创新与其在尖端ML研究问题上的实际表现之间的不匹配。MLRC-Bench是一个动态基准，旨在通过新增的ML竞赛不断成长，鼓励对AI研究能力进行严格和客观的评估。",
+        "地址": "https://arxiv.org/pdf/2504.09702.pdf"
+    },
+    {
+        "名称": "2025 [2504.09346] \"It's not a representation of me\": Examining Accent Bias and Digital Exclusion in Synthetic AI Voice Services.pdf",
+        "作者": "Shira Michel, Sufi Kaur, Sarah Elizabeth Gillespie, Jeffrey Gleason, Christo Wilson, Avijit Ghosh",
+        "摘要": "摘要: 最近人工智能（AI）语音生成和声音克隆技术的进步产生了逼真的语音和准确的声音复制，但它们对跨不同口音和语言特征的社会技术系统的影响尚不完全清楚。本研究通过混合方法（使用调查和访谈）评估了两个合成AI语音服务（Speechify和ElevenLabs）的技术性能，并揭示了用户的亲身经历如何影响他们对这些语音技术中口音变化的看法。我们的研究结果显示，五种区域性英语口音的技术性能存在差异，并表明当前的语音生成技术可能无意中强化了语言特权和基于口音的歧视，可能会创造出新的数字排斥形式。总体而言，我们的研究通过提供可操作的见解，强调了包容性设计和监管的必要性，以确保开发人员、政策制定者和组织能够实现公平和社会责任的AI语音技术。\n",
+        "地址": "https://arxiv.org/pdf/2504.09346.pdf"
+    }
+]
