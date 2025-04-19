@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2504.13161] CLIMB: CLustering-based Iterative Data Mixture Bootstrapping for Language Model Pre-training.pdf",
+        "作者": "Shizhe Diao, Yu Yang, Yonggan Fu, Xin Dong, Dan Su, Markus Kliegl, Zijia Chen, Peter Belcak, Yoshi Suhara, Hongxu Yin, Mostofa Patwary, Yingyan (Celine)Lin, Jan Kautz, Pavlo Molchanov",
+        "摘要": "摘要：预训练数据集通常来自网络内容，缺乏固有的领域划分。例如，广泛使用的数据集如Common Crawl不包括明确的领域标签，而手动整理带标签的数据集（如The Pile）则需要大量劳动。因此，尽管优化预训练数据混合物对预训练性能有显著好处，但识别最佳预训练数据混合物仍然是一个具有挑战性的问题。为了解决这些问题，我们提出了基于聚类的迭代数据混合自举（CLIMB）自动化框架，该框架可以在预训练环境中发现、评估和完善数据混合物。具体来说，CLIMB在语义空间中嵌入并聚类大规模数据集，然后使用较小的代理模型和预测器迭代搜索最佳混合物。当在这个混合物上持续训练4000亿个标记时，我们的10亿参数模型比现有最先进的Llama-3.2-1B高出2.0%。此外，我们观察到，对特定领域（如社会科学）进行优化比随机采样提高了5%。最后，我们引入了ClimbLab，一个包含20个聚类的1.2万亿标记的过滤语料库，作为研究平台，并引入了ClimbMix，这是一个紧凑且强大的4000亿标记数据集，旨在以相等的标记预算实现高效预训练并提供卓越性能。我们分析了最终的数据混合物，阐明了最佳数据混合物的特征。我们的数据可以在此网址获取：此https URL。",
+        "地址": "https://arxiv.org/pdf/2504.13161.pdf"
+    },
+    {
+        "名称": "2025 [2504.13146] Antidistillation Sampling.pdf",
+        "作者": "Yash Savani, Asher Trockman, Zhili Feng, Avi Schwarzschild, Alexander Robey, Marc Finzi, J. Zico Kolter",
+        "摘要": "这是一篇2025年的学术论文，标题为《Antidistillation Sampling》，作者包括Yash Savani, Asher Trockman, Zhili Feng, Avi Schwarzschild, Alexander Robey, Marc Finzi, 和 J. Zico Kolter。摘要如下：\n\n前沿模型在生成扩展推理轨迹时无意中产生了丰富的标记序列，这些序列可以促进模型蒸馏。认识到这一漏洞，模型所有者可能会寻求一些抽样策略，在不影响模型表现的基础上，限制蒸馏的有效性。“反蒸馏抽样”正是提供了这种能力。通过战略性地修改模型的下一个标记概率分布，反蒸馏抽样破坏推理轨迹，使它们在蒸馏中显著减少有效性，同时保持模型的实际使用性。有关更多详细信息，请参阅这个链接：https://arxiv.org/pdf/2504.13146.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.13146.pdf"
+    },
+    {
+        "名称": "2025 [2504.13169] Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling.pdf",
+        "作者": "Tsung-Han Wu, Heekyung Lee, Jiaxin Ge, Joseph E. Gonzalez, Trevor Darrell, David M. Chan",
+        "摘要": "摘要: 视觉-语言模型（VLMs）在视觉理解方面表现出色，但经常会出现视觉幻觉问题，即生成不存在的物体、动作或概念的描述，这在安全关键应用中构成重大风险。现有的幻觉减轻方法通常遵循两种范式之一：生成调整，即修改解码行为以使文本与视觉输入对齐；以及事后验证，即外部模型评估并纠正输出。尽管有效，但生成调整方法通常依赖于启发式方法且缺乏纠正机制，而事后验证则较为复杂，通常需要多个模型并倾向于拒绝输出而不是优化。 在本研究中，我们介绍了REVERSE，一个将幻觉感知训练与即时自我验证相结合的统一框架。通过利用包含超过130万半合成样本的新幻觉验证数据集，以及一种新颖的推理时回顾重采样技术，我们的方法使得VLMs能够在生成期间检测幻觉并动态修正这些幻觉。我们的评估显示，REVERSE在减少幻觉方面实现了最先进的成果，在CHAIR-MSCOCO数据集上比现有最佳方法提高了12％，在HaloQuest数据集上提高了28％。我们的数据集、模型和代码可在此网址获得：this https URL。",
+        "地址": "https://arxiv.org/pdf/2504.13169.pdf"
+    },
+    {
+        "名称": "2025 [2504.12369] WORLDMEM: Long-term Consistent World Simulation with Memory.pdf",
+        "作者": "Zeqi Xiao, Yushi Lan, Yifan Zhou, Wenqi Ouyang, Shuai Yang, Yanhong Zeng, Xingang Pan",
+        "摘要": "摘要：由于能够模拟虚拟环境和预测行为后果，世界模拟越来越受欢迎。然而，有限的时间上下文窗口通常导致无法维持长期一致性，尤其是在保持3D空间一致性方面。在这项工作中，我们提出了WorldMem，一个通过包含存储记忆帧和状态（如姿势和时间戳）的记忆单元的记忆库来增强场景生成的框架。通过采用记忆注意机制有效地从这些记忆帧中提取与其状态相关的信息，我们的方法能够在显著的视角或时间间隙下准确重构先前观察到的场景。此外，通过将时间戳纳入状态，我们的框架不仅能够建模静态世界，还能够捕捉其随时间动态演变，从而实现在模拟世界中的感知和交互。在虚拟和现实场景中的大量实验验证了我们方法的有效性。\n\n作者：肖泽琦，兰雨石，周逸凡，欧阳文琦，杨帅，曾艳红，潘兴刚\n\n评论：项目页面在此https URL\n\n链接：https://arxiv.org/pdf/2504.12369.pdf\n\n标题：2025 [2504.12369] WORLDMEM: 使用记忆实现长期一致的世界模拟",
+        "地址": "https://arxiv.org/pdf/2504.12369.pdf"
+    },
+    {
+        "名称": "2025 [2504.12626] Packing Input Frame Context in Next-Frame Prediction Models for Video Generation.pdf",
+        "作者": "Lvmin Zhang, Maneesh Agrawala",
+        "摘要": "摘要：我们提出了一种神经网络结构，名为FramePack，用于训练视频生成中的下一帧（或下一帧部分）预测模型。FramePack通过压缩输入帧，使得变压器的上下文长度固定，不受视频长度影响。结果是我们能够使用视频扩散处理大量帧，计算瓶颈类似于图像扩散。这也使得训练视频批次大小显著增加（批次大小与图像扩散训练相当）。我们还提出了一种反漂移采样方法，通过提早确定的端点生成倒序时间的帧，以避免曝光偏差（迭代过程中错误累积）。最后，我们展示了现有的视频扩散模型可以通过FramePack进行微调，其视觉质量可能会有所提高，因为下一帧预测支持更加平衡的扩散调度器，减少了极端流动偏移时间步长。\n\n作者：Lvmin Zhang, Maneesh Agrawala\n\n备注：此 https URL\n\n链接：https://arxiv.org/pdf/2504.12626.pdf\n\n标题：2025 [2504.12626] 在视频生成中的下一帧预测模型中打包输入帧上下文",
+        "地址": "https://arxiv.org/pdf/2504.12626.pdf"
+    },
+    {
+        "名称": "2025 [2504.12322] A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis.pdf",
+        "作者": "Xin Gao, Qizhi Pei, Zinan Tang, Yu Li, Honglin Lin, Jiang Wu, Conghui He, Lijun Wu",
+        "摘要": "摘要：尽管数据合成和蒸馏是增强小型语言模型的有希望的策略，但当前方法严重依赖大型语言模型（LLMs），这些模型存在高计算成本、环境效率低下以及从单体架构继承的潜在偏见。相比之下，较小的LLMs更加易于访问和可持续，但其单个能力往往难以生成高质量、多样化和可靠的数据。受协作人类过程（如同行评审）的启发，我们提出了一个涉及多个小型LLMs的框架GRA，聚合了小型LLMs的专业角色，以迭代改进和质量控制通常由单个大型LLM实现。在这个协作框架中，多个小型LLMs承担不同角色——生成器、审稿人和裁决者——以模拟一个类似于同行评审的数据合成流程。生成器提出初步数据样本，审稿人评议其质量和多样性，裁决者解决冲突以最终确定输出。通过将合成过程分解为专业子任务，协作小型LLMs可以在数据级别上达到或超过大型LLMs的蒸馏效果。通过多个基准测试的实验，我们展示了GRA生成的数据匹配或超过单个大型LLM的输出质量（如Qwen-2.5-72B-Instruct）。我们的研究结果挑战了单一大型模型对于高质量数据合成的必要性，转而倡导小型代理的战略协调。我们的数据集、模型和代码已公开提供。\n\n作者：高鑫、裴奇志、唐子南、李宇、林鸿霖、吴江、何从辉、吴丽君\n\n网址：https://arxiv.org/pdf/2504.12322.pdf\n\n标题：2025 [2504.12322] 小型LLMs战略协调框架在数据合成中与大型LLMs匹敌.pdf",
+        "地址": "https://arxiv.org/pdf/2504.12322.pdf"
+    },
+    {
+        "名称": "2025 [2504.13122] VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference Optimization for Large Video Models.pdf",
+        "作者": "Haojian Huang, Haodong Chen, Shengqiong Wu, Meng Luo, Jinlan Fu, Xinya Du, Hanwang Zhang, Hao Fei",
+        "摘要": "摘要: 建立在大语言模型（LLMs）基础上的大型视频模型（LVMs）在视频理解方面表现出色，但通常会出现与人类直觉不一致和视频幻觉的问题。为了解决这些挑战，我们引入了VistaDPO，一种用于视频分层时空直接偏好优化的新框架。VistaDPO在三个分层级别上增强文本-视频偏好对齐：i）实例级别，对齐整体视频内容与响应；ii）时间级别，对齐视频时间语义与事件描述；iii）感知级别，对齐空间对象与语言标记。鉴于缺乏用于细粒度视频-语言偏好对齐的数据集，我们构建了VistaDPO-7k，一个包含7.2K个QA对的数据集，该数据集包含选定和拒绝的响应，以及时间戳、关键帧和边界框等时空注释信息。在视频幻觉、视频问答和字幕性能任务等基准测试上，大量实验表明，VistaDPO显著提高了现有LVMs的性能，有效缓解了视频-语言的误差对齐和幻觉问题。代码和数据可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.13122.pdf"
+    },
+    {
+        "名称": "2025 [2504.13181] Perception Encoder: The best visual embeddings are not at the output of the network.pdf",
+        "作者": "Daniel Bolya, Po-Yao Huang, Peize Sun, Jang Hyun Cho, Andrea Madotto, Chen Wei, Tengyu Ma, Jiale Zhi, Jathushan Rajasegaran, Hanoona Rasheed, Junke Wang, Marco Monteiro, Hu Xu, Shiyu Dong, Nikhila Ravi, Daniel Li, Piotr Dollár, Christoph Feichtenhofer",
+        "摘要": "摘要: 本文介绍了Perception Encoder（PE），这是一种通过简单的视觉-语言学习训练的最先进的图像和视频理解编码器。传统上，视觉编码器依赖于各种预训练目标，每个目标都针对具体的下游任务，如分类、字幕生成或定位。令人惊讶的是，在扩展我们精心调整的图像预训练方案并通过我们强大的视频数据引擎进行完善之后，我们发现仅使用对比视觉-语言训练就能为所有这些下游任务生成强大、通用的嵌入。唯一的问题是：这些嵌入隐藏在网络的中间层中。为了解决这个问题，我们引入了两种对齐方法，即多模态语言建模的语言对齐和密集预测的空间对齐。结合核心对比检查点，我们的PE模型家族在各种任务上都实现了最先进的性能，包括零样本图像和视频分类与检索；文档、图像和视频问答；以及诸如检测、深度估计和跟踪等空间任务。为了促进进一步研究，我们将发布我们的模型、代码以及一个新颖的合成和人为标注视频数据集。",
+        "地址": "https://arxiv.org/pdf/2504.13181.pdf"
+    },
+    {
+        "名称": "2025 [2504.13055] NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation.pdf",
+        "作者": "Xiangyan Liu, Jinjie Ni, Zijian Wu, Chao Du, Longxu Dou, Haonan Wang, Tianyu Pang, Michael Qizhe Shieh",
+        "摘要": "摘要：近年来，强化学习（RL）的进展加强了视觉-语言模型（VLMs）的推理能力。然而，在VLMs中提升策略探索以更有效地扩展测试时间计算仍未得到充分研究。此外，VLMs仍然难以处理不完美的视觉感知，这反过来又影响了随后的推理过程。为此，我们提出了NoisyRollout，这是一种简单而有效的RL方法，它混合了来自清晰和中度失真的图像的轨迹，以在视觉感知和随后的推理模式中引入有针对性的多样性。NoisyRollout无需额外的训练成本，通过引入一种面向视觉的归纳偏置来增强VLMs的探索能力。此外，NoisyRollout采用了一种噪音退火调度，在训练过程中逐步减弱失真的强度，确保在早期从噪音信号中受益，同时在后期阶段保持训练的稳定性和可扩展性。仅需使用2.1K训练样本，NoisyRollout就能在跨越推理和感知任务的5个出域基准测试中，在开源RL调优模型中达到最先进的性能，同时保持可比甚至更好的域内性能。\n\n翻译：摘要：近年来，强化学习（RL）的进展加强了视觉-语言模型（VLMs）的推理能力。然而，在VLMs中提升策略探索以更有效地扩展测试时间计算还未得到充分研究。此外，VLMs仍然难以处理不完美的视觉感知，而这又影响了随后的推理过程。为此，我们提出了NoisyRollout，这是一种简单而有效的RL方法，它混合了来自清晰和中度失真的图像的轨迹，以在视觉感知和随后的推理模式中引入有针对性的多样性。NoisyRollout无需额外训练成本，通过引入一种面向视觉的归纳偏置来增强VLMs的探索能力。此外，NoisyRollout采用了一种噪音退火调度，在训练过程中逐步减弱失真的强度，从而确保在早期从噪音信号中受益，同时在后期阶段保持训练的稳定性和可扩展性。仅需使用2.1K训练样本，NoisyRollout就能够在5个跨领域基准测试（包括推理和感知任务）中，在开源的RL调优模型中达到最先进的性能，同时保持可比的甚至更好的域内性能。",
+        "地址": "https://arxiv.org/pdf/2504.13055.pdf"
+    },
+    {
+        "名称": "2025 [2504.12364] DMM: Building a Versatile Image Generation Model via Distillation-Based Model Merging.pdf",
+        "作者": "Tianhui Song, Weixin Feng, Shuai Wang, Xubin Li, Tiezheng Ge, Bo Zheng, Limin Wang",
+        "摘要": "摘要: 文本到图像 (T2I) 生成模型的成功促进了许多模型检查点的大量出现，这些检查点是根据各种专业数据集从同一个基础模型微调出来的。这种压倒性的专业模型生产带来了高参数冗余和巨大存储成本的新挑战，因此需要开发有效的方法来将各种强大模型的能力整合和统一到一个模型中。模型合并中的常见做法是在参数空间中采用静态线性插值来实现样式混合。然而，它忽略了T2I生成任务的特性，即众多不同模型覆盖各种样式，这可能导致合并模型中的不兼容性和混乱。为了解决这个问题，我们引入了一种样式提示图像生成管道，可以在样式向量的控制下准确生成任意样式的图像。基于这种设计，我们提出了基于评分蒸馏的模型合并范式 (DMM)，将多个模型压缩成一个多功能的T2I模型。此外，我们重新思考并重新制定了T2I生成背景下的模型合并任务，提出了新的合并目标和评估协议。我们的实验表明，DMM可以紧凑地重组多个教师模型的知识，并实现可控的任意样式生成。",
+        "地址": "https://arxiv.org/pdf/2504.12364.pdf"
+    },
+    {
+        "名称": "2025 [2504.05506] ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering.pdf",
+        "作者": "Ahmed Masry, Mohammed Saidul Islam, Mahir Ahmed, Aayush Bajaj, Firoz Kabir, Aaryaman Kartha, Md Tahmid Rahman Laskar, Mizanur Rahman, Shadikur Rahman, Mehrad Shahmohammadi, Megh Thakkar, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty",
+        "摘要": "摘要：图表无处不在，人们常常使用它们来分析数据、回答问题和发现重要的见解。然而，使用图表进行复杂的分析任务需要大量的感知和认知努力。图表问答（Chart Question Answering，CQA）系统通过使模型能够理解和推理数据的可视化表示来自动化此过程。然而，现有的基准测试如ChartQA缺乏真实世界的多样性，并且在现代大型视觉语言模型（LVLMs）中展示出了性能饱和现象。为了应对这些局限性，我们推出了ChartQAPro，一个新的基准测试，其中包含了来自157个不同来源的1,341个图表，涵盖了各种图表类型，包括信息图表和仪表板，并包含了1948个不同类型的问题，例如多项选择题、对话题、假设题和无法回答的问题，以更好地反映真实世界的挑战。我们对21个模型的评估显示，LVLMs在ChartQAPro上的性能显著下降；例如，Claude Sonnet 3.5在ChartQA上的得分为90.5%，而在ChartQAPro上的得分仅为55.81%，这突显了图表推理的复杂性。我们通过详细的错误分析和消融研究支持我们的发现，识别出在图表理解和推理方面推进LVLMs的关键挑战和机遇。我们在此发布ChartQAPro（请访问该网址：https URL）。",
+        "地址": "https://arxiv.org/pdf/2504.05506.pdf"
+    },
+    {
+        "名称": "2025 [2504.13180] PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding.pdf",
+        "作者": "Jang Hyun Cho, Andrea Madotto, Effrosyni Mavroudi, Triantafyllos Afouras, Tushar Nagarajan, Muhammad Maaz, Yale Song, Tengyu Ma, Shuming Hu, Suyog Jain, Miguel Martin, Huiyu Wang, Hanoona Rasheed, Peize Sun, Po-Yao Huang, Daniel Bolya, Nikhila Ravi, Shashank Jain, Tammy Stark, Shane Moon, Babak Damavandi, Vivian Lee, Andrew Westbury, Salman Khan, Philipp Krähenbühl, Piotr Dollár, Lorenzo Torresani, Kristen Grauman, Christoph Feichtenhofer",
+        "摘要": "摘要: 视觉语言模型是计算机视觉研究的重要组成部分，然而许多表现优异的模型仍然是闭源的，隐藏了其数据、设计和训练方法。研究界对此的反应是使用从黑盒模型中提取的蒸馏数据来标记训练数据，尽管在基准测试中取得了较好的结果，但限制了科学进步的可测性。然而，在不了解教师模型和其数据来源的情况下，科学进步依然难以衡量。本文研究了在一个完全开放和可复现的框架下构建一个知觉语言模型（PLM），以实现图像和视频理解研究的透明化。我们分析了没有从专有模型蒸馏的标准训练流程，并探索了大规模合成数据，以识别数据中的关键缺口，特别是在详细视频理解方面。为填补这些空白，我们发布了280万个由人工标注的细粒度视频问答对和时空定位的视频字幕。此外，我们引入了PLM-VideoBench，一个用于评估视频理解任务的测试套件，特别关注视频的“是什么”、“在哪里”、“什么时候”和“如何”的推理能力。我们通过提供数据、训练方法、代码和模型，使我们的工作完全可复现。",
+        "地址": "https://arxiv.org/pdf/2504.13180.pdf"
+    },
+    {
+        "名称": "2025 [2504.12395] InstantCharacter: Personalize Any Characters with a Scalable Diffusion Transformer Framework.pdf",
+        "作者": "Jiale Tao, Yanbing Zhang, Qixun Wang, Yiji Cheng, Haofan Wang, Xu Bai, Zhengguang Zhou, Ruihuang Li, Linqing Wang, Chunyu Wang, Qin Lin, Qinglin Lu",
+        "摘要": "摘要：当前基于学习的角色定制方法主要依赖于U-Net架构，但它们在泛化能力和图像质量方面受到限制。同时，基于优化的方法需要针对特定对象进行微调，不可避免地降低了文本可控性。为了解决这些问题，我们提出了InstantCharacter，这是一个建立在基础扩散变压器上的可扩展角色定制框架。InstantCharacter具有三个基本优势：首先，它在开放领域的个性化方面取得了显著成就，能够生成各种角色外观、姿势和风格，同时保持高保真度效果。其次，该框架引入了一个可扩展的适配器，采用堆叠的变压器编码器，有效处理开放领域的角色特征，并与现代扩散变压器的潜在空间无缝交互。第三，为了有效训练框架，我们构建了一个包含千万级样本的大规模角色数据集。该数据集系统地组织成配对（多视角角色）和非配对（文本-图像组合）子集。双数据结构通过不同的学习路径实现了身份一致性和文本可编辑性的同时优化。定性实验表明，InstantCharacter在生成高保真、文本可控和角色一致的图像方面表现出色，为基于角色的图像生成树立了新的标杆。我们的源代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2504.12395.pdf"
+    },
+    {
+        "名称": "2025 [2504.13145] Exploring Expert Failures Improves LLM Agent Tuning.pdf",
+        "作者": "Li-Cheng Lan, Andrew Bai, Minhao Cheng, Ruochen Wang, Cho-Jui Hsieh, Tianyi Zhou",
+        "摘要": "摘要：大规模语言模型（LLMs）作为代理展示了巨大的潜力，尤其在需要多轮推理和交互的任务中表现出色。拒绝采样微调（RFT）已成为微调LLMs作为代理的有效方法：它首先模仿专家生成的成功轨迹，并通过对成功的自生成轨迹进行迭代微调来进一步提升代理技能。然而，由于专家（例如GPT-4）主要在较简单的子任务上成功，而RFT本质上偏向于较简单的场景，许多复杂的子任务仍未解决并持续处于分布外（OOD）。在调查这些具有挑战性的子任务时，我们发现先前失败的专家轨迹往往可以提供有价值的指导，例如计划和关键行动，这可以显著提高代理的探索效率和关键技能的获取。受这些观察结果的启发，我们提出了探索专家失败（EEF）方法，识别出失败专家轨迹中的有益行动并将其整合到训练数据集中。潜在有害的行动被精心排除，以防止污染模型的学习过程。通过利用专家失败中的有益行动，EEF成功解决了一些以前无法解决的子任务并提高了代理的调优性能。值得注意的是，我们的方法在WebShop中达到了62%的胜率，优于RFT（53.6%）和GPT-4（35.6%），据我们所知，首次在WebShop中超过0.81的分数，并在SciWorld中超过81分，创下新的技术水平。\n\n作者：Li-Cheng Lan, Andrew Bai, Minhao Cheng, Ruochen Wang, Cho-Jui Hsieh, Tianyi Zhou\n\nURL：https://arxiv.org/pdf/2504.13145.pdf\n\n标题：2025 [2504.13145] 探索专家失败改善LLM代理调优.pdf",
+        "地址": "https://arxiv.org/pdf/2504.13145.pdf"
+    },
+    {
+        "名称": "2025 [2504.13171] Sleep-time Compute: Beyond Inference Scaling at Test-time.pdf",
+        "作者": "Kevin Lin, Charlie Snell, Yu Wang, Charles Packer, Sarah Wooders, Ion Stoica, Joseph E. Gonzalez",
+        "摘要": "摘要: 测试时间计算扩展已成为使大型语言模型（LLMs）解决困难问题的关键因素，但伴随着高延迟和推理成本。我们引入了休眠时间计算，使模型能够在离线状态下思考在查询出现之前的上下文：通过预测用户可能提出的查询并预先计算有用的数据，可以显著减少测试时间的计算需求。为了证明我们方法的有效性，我们对两个推理任务进行了修改 - Stateful GSM-Symbolic 和 Stateful AIME。我们发现，休眠时间计算可以减少实现相同准确度所需的测试时间计算量大约5倍，并且通过扩展休眠时间计算，我们可以在Stateful GSM-Symbolic上进一步提高准确度高达13%，在Stateful AIME上提高高达18%。此外，我们引入了多查询GSM-Symbolic，将GSM-Symbolic扩展为每个上下文包含多个相关查询。通过使用多查询GSM-Symbolic并将休眠时间计算分摊到关于同一上下文的多个相关查询上，我们可以将每个查询的平均成本减少2.5倍。我们随后进行了额外的分析，以了解休眠时间计算最有效的情况，发现用户查询的可预测性与休眠时间计算的有效性密切相关。最后，我们对将休眠时间计算应用于一个现实的代理 SWE 任务进行了案例研究。",
+        "地址": "https://arxiv.org/pdf/2504.13171.pdf"
+    },
+    {
+        "名称": "2025 [2504.11651] 70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float.pdf",
+        "作者": "Tianyi Zhang, Yang Sui, Shaochen Zhong, Vipin Chaudhary, Xia Hu, Anshumali Shrivastava",
+        "摘要": "摘要：大规模语言模型（LLMs）的规模迅速增长，在资源受限的硬件上高效部署面临重大挑战。在本文中，我们介绍了一种名为Dynamic-Length Float (DFloat11)的无损压缩框架，它可以在保持输出与原始模型逐位一致的情况下，减少LLM的规模30%。DFloat11的设计灵感来自于LLMs中的BFloat16权重表示具有低熵，这表明现有存储格式存在显著的低效。通过应用熵编码，DFloat11根据频率为权重分配动态长度编码，实现在不丢失精度的情况下近乎信息最优的压缩。为了便于动态长度编码的高效推理，我们开发了一个自定义的GPU内核，用于快速在线解压缩。我们的设计包括：（i）将内存密集型查找表（LUTs）分解为适合GPU SRAM的紧凑LUTs，（ii）一个两阶段内核，通过轻量级辅助变量协调线程读/写位置，以及（iii）在变压器块级别进行解压缩以最小化延迟。最近模型（包括Llama-3.1、Qwen-2.5和Gemma-3）的实验验证了我们的假设，即DFloat11在保持逐位精确输出的同时实现大约30%的模型规模缩减。与将部分未压缩模型卸载到CPU以满足内存限制的潜在替代方案相比，DFloat11在生成token时实现了1.9-38.8倍更高的吞吐量。在固定的GPU内存预算下，DFloat11使得上下文长度比未压缩模型长5.3-13.17倍。值得注意的是，我们的方法使得Llama-3.1-405B（一个810GB的模型）在配备8个80GB GPU的单节点上实现无损推理。我们的代码和模型请访问此链接：https URL。",
+        "地址": "https://arxiv.org/pdf/2504.11651.pdf"
+    },
+    {
+        "名称": "2025 [2504.07959] CCMNet: Leveraging Calibrated Color Correction Matrices for Cross-Camera Color Constancy.pdf",
+        "作者": "Dongyoung Kim, Mahmoud Afifi, Dongyun Kim, Michael S. Brown, Seon Joo Kim",
+        "摘要": "摘要：计算颜色恒常性，或称白平衡，是相机影像信号处理器（ISP）中的一个关键模块，用于纠正由于场景光线引起的颜色偏移。由于这一操作在特定于相机的原始颜色空间中进行，因此白平衡算法必须适应不同的相机。本文介绍了一种基于学习的方法，能够在无需重新训练的情况下推广到新相机，实现跨相机颜色恒常性。我们的方法利用ISP中预校准的色彩校正矩阵（CCM），将相机的原始颜色空间映射到标准空间（例如CIE XYZ）。我们的方法使用这些CCM将预定义的照明颜色（即沿普朗克轨迹）转换到测试相机的原始空间。映射的光源被编码成一个紧凑的相机指纹嵌入（CFE），使网络能够适应未知相机。为防止在训练过程中由于相机和CCM数量有限而过拟合，我们提出了一种数据增强技术，能够在相机和它们的CCM之间进行插值。多个数据集和骨干网络的实验结果显示，我们的方法在实现跨相机颜色恒常性方面达到了最先进水平，同时保持了轻量化，并且仅依靠相机ISP中现成的数据。\n\n翻译：摘要：计算颜色恒常性，或称白平衡，是相机影像信号处理器（ISP）中的一个关键模块，用于纠正由场景光线引起的颜色偏移。由于这一操作发生在特定相机的原始颜色空间中，白平衡算法必须适应不同相机。本文介绍了一种基于学习的跨相机颜色恒常性方法，无需重新训练即可推广到新相机。我们的方法利用ISP中预校准的颜色校正矩阵（CCM）将相机的原始颜色空间映射到标准空间（例如CIE XYZ），并使用这些CCM将沿普朗克轨迹的预定义照明颜色转换到测试相机的原始空间。被映射的光源被编码为紧凑的相机指纹嵌入（CFE），使网络能够适应未知相机。为防止在训练中由于相机和CCM数量有限而过拟合，我们提出了一种数据增强技术，能够在相机及其CCM之间进行插值。多个数据集和骨干网络的实验结果表明，我们的方法在跨相机颜色恒常性方面达到了最先进水平，同时保持轻量化，并且仅依赖相机ISP中现成的数据。",
+        "地址": "https://arxiv.org/pdf/2504.07959.pdf"
+    },
+    {
+        "名称": "2025 [2504.12157] FocusedAD: Character-centric Movie Audio Description.pdf",
+        "作者": "Xiaojun Ye, Chun Wang, Yiren Song, Sheng Zhou, Liangcheng Li, Jiajun Bu",
+        "摘要": "摘要：电影音频解说（AD）旨在在无对白片段中叙述视觉内容，特别是为盲人和视障观众提供帮助。与一般视频字幕相比，音频解说需要情节相关的旁白，并明确提及角色名称，这对电影提出了独特的挑战。为了识别主要活动角色并关注与故事情节相关的区域，我们提出了一种新颖框架FocusedAD，它提供以角色为中心的电影音频解说。该框架包括：(i)角色感知模块（CPM）用于跟踪角色区域并将其与名称关联；(ii)动态先验模块（DPM）通过可学习的软提示注入先前音频解说和字幕中的上下文提示；(iii)聚焦字幕模块（FCM）生成丰富情节细节和命名角色的旁白。为克服角色识别的局限性，我们还引入了一个自动化流程来构建角色查询库。FocusedAD在多个基准测试中实现了最先进的性能，包括在MAD-eval-Named和我们新提出的Cinepile-AD数据集上取得了强劲的零样本结果。代码和数据将发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2504.12157.pdf"
+    },
+    {
+        "名称": "2025 [2504.13079] Retrieval-Augmented Generation with Conflicting Evidence.pdf",
+        "作者": "Han Wang, Archiki Prasad, Elias Stengel-Eskin, Mohit Bansal",
+        "摘要": "摘要：大型语言模型（LLM）代理正在越来越多地采用检索增强生成（RAG）技术来提高其响应的真实性。然而，在实际应用中，这些系统通常需要处理模糊的用户查询以及来自多个来源的潜在冲突信息，同时也要抑制来自噪音或无关文档的不准确信息。之前的研究通常各自为政，只考虑一个方面的问题，比如处理模糊性或对噪音和错误信息的鲁棒性。我们则同时考虑多个因素，提出了(i) RAMDocs（文档中的模糊性和错误信息检索），这是一个新数据集，模拟了包含模糊性、错误信息和噪音的复杂且真实的用户查询证据冲突场景；以及(ii) MADAM-RAG，这是一种多代理方法，其中LLM代理就一个答案的优劣进行多轮辩论，使得一个汇总器可以汇集对应于消除歧义实体的响应，同时剔除错误信息和噪音，从而共同处理多种冲突来源。我们通过闭源和开源模型在AmbigDocs（需要为模糊查询提供所有有效答案）上验证了MADAM-RAG的有效性，较强基线RAG的表现提升了最多11.40%；在FaithEval（需要抑制错误信息）上，我们使用Llama3.3-70B-Instruct提升了最多15.80%（绝对值）。此外，我们发现RAMDocs对现有的RAG基线提出了挑战（Llama3.3-70B-Instruct仅获得32.60的精确匹配分数）。尽管MADAM-RAG开始解决这些冲突因素，但我们的分析表明，尤其是在增加支持证据和错误信息的不平衡水平时，仍然存在显著差距。\n\n翻译：大型语言模型（LLM）代理正在越来越多地采用检索增强生成（RAG）来提高其回答的事实性。然而，在实际应用中，这些系统经常需要处理用户查询模糊性和来自多个来源的潜在冲突信息，同时还要抑制来自噪音或无关文档的错误信息。此前的工作通常孤立地研究并解决这些挑战，每次只考虑一个方面，例如处理模糊性或对噪音和错误信息的鲁棒性。而我们则同时考虑多个因素，提出了(i) RAMDocs（文档中的模糊性和错误信息检索），这是一个新数据集，模拟了包含模糊性、错误信息和噪音的复杂且真实的用户查询证据冲突场景；以及(ii) MADAM-RAG，这是一种多代理方法，LLM代理在多个回合中辩论答案的优劣，使得一个汇总器可以汇集对应于消除歧义实体的回答，同时过滤掉错误信息和噪音，从而共同处理多种冲突来源。我们通过使用闭源和开源模型在AmbigDocs（需要为模糊查询提供所有有效答案）上验证了MADAM-RAG的有效性，较强基线RAG的表现提高了最多11.40%；在FaithEval（需要抑制错误信息）上，我们使用Llama3.3-70B-Instruct提升了最多15.80%（绝对值）。此外，我们发现RAMDocs对现有的RAG基线提出了挑战（Llama3.3-70B-Instruct仅获得32.60的精确匹配得分）。尽管MADAM-RAG开始解决这些冲突因素，但我们的分析表明，尤其是在增加支持证据和错误信息的不平衡性水平时，仍然存在显著差距。",
+        "地址": "https://arxiv.org/pdf/2504.13079.pdf"
+    },
+    {
+        "名称": "2025 [2504.13143] $\\texttt{Complex-Edit}$: CoT-Like Instruction Generation for Complexity-Controllable Image Editing Benchmark.pdf",
+        "作者": "Siwei Yang, Mude Hui, Bingchen Zhao, Yuyin Zhou, Nataniel Ruiz, Cihang Xie",
+        "摘要": "摘要：我们介绍了一种名为 $\\\\texttt{Complex-Edit}$ 的综合评估基准，旨在系统地评估基于指令的图像编辑模型在不同复杂性指令下的表现。为了开发这一评估基准，我们利用 GPT-4o 自动大规模收集多样化的编辑指令。我们的方法遵循一个结构良好的 “Chain-of-Edit” 流水线：首先独立生成各个原子编辑任务，然后将它们整合形成连贯的复杂指令。此外，我们引入了一套指标来评估编辑性能的各个方面，并引入了基于 VLM 的自动评估流水线以支持大规模评估。我们的基准得出以下几个显著的见解：1) 开源模型相对于专有的封闭源模型表现显著欠佳，且随着指令复杂性增加，性能差距扩大；2) 指令复杂性的增加主要损害模型保留输入图像关键元素和保持整体美学质量的能力；3) 将复杂指令分解为一系列的原子步骤，并按步骤执行，会在多个指标上显著降低性能；4) 简单的 Best-of-N 选择策略改善了直接编辑和按步骤编辑的结果；5) 我们观察到所谓的 “合成数据之祸”：当合成数据用于模型训练时，随着编辑指令复杂性的增加，这些模型生成的编辑图像会越来越显得合成化 — 这种现象在最新的 GPT-4o 输出中也同样出现。\n\n作者：杨思伟、惠木德、赵秉臣、周玉瑛、Nataniel Ruiz、谢思杭\n\n评论：项目页面：此 https URL，数据集：此 https URL\n\n网址：https://arxiv.org/pdf/2504.13143.pdf\n\n标题：2025 [2504.13143] $\\\\texttt{Complex-Edit}$: 类似链式思维的复杂度可控图像编辑基准的指令生成.pdf",
+        "地址": "https://arxiv.org/pdf/2504.13143.pdf"
+    },
+    {
+        "名称": "2025 [2504.12782] Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts.pdf",
+        "作者": "Leyang Li, Shilin Lu, Yan Ren, Adams Wai-Kin Kong",
+        "摘要": "摘要：确保文本到图像模型的道德部署需要有效的技术来防止生成有害或不适当的内容。尽管概念抹除方法提供了一种有前景的解决方案，但现有的基于微调的方法存在显著的限制。无锚方法可能会破坏采样轨迹，导致视觉伪影，而基于锚的方法则依赖于启发式选择锚概念。为克服这些缺点，我们引入了一个称为ANT的微调框架，它自动引导去噪轨迹，以避免不必要的概念。ANT建立在一个关键洞察之上：在中晚期去噪阶段逆转无分类器引导的条件方向，使得在不牺牲早期结构完整性的前提下，实现精确的内容修改。这激发了一种轨迹感知目标，其在不依赖于启发式锚概念选择的情况下，保持早期得分函数场的完整性，进而将样本引导至自然图像流形。对于单一概念抹除，我们提出了一种增强型增广权重显著图，以精确识别对不需要的概念最关键的参数，从而实现更彻底高效的抹除。对于多概念抹除，我们的目标函数提供了一种灵活的即插即用解决方案，显著提升了性能。大量实验表明，ANT在单一和多概念抹除中均达到了最先进的水平，提供了高质量、安全的输出，而不影响生成保真度。代码可在此链接获得：https://arxiv.org/pdf/2504.12782.pdf",
+        "地址": "https://arxiv.org/pdf/2504.12782.pdf"
+    },
+    {
+        "名称": "2025 [2504.12563] MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation.pdf",
+        "作者": "Haris Riaz, Sourav Bhabesh, Vinayak Arannil, Miguel Ballesteros, Graham Horwood",
+        "摘要": "**摘要**（翻译为中文）：\n近年来，较小的语言模型如Phi-3.5和Phi-4依赖于使用更大的语言模型生成的合成数据。然而，关于如何利用合成数据来实现其他用途（例如，使大型语言模型适应特定领域）的问题依然存在。合成数据的一个主要局限是其多样性低，这会对改善其他模型的下游应用产生负面影响。为了解决这一问题，我们提出了MetaSynth，一种通过meta-prompting生成合成数据的方法，其中一个语言模型协调多个“专家”LLM代理协作生成数据。仅使用MetaSynth生成的2500万个合成数据标记，我们成功地将一个训练充分的LLM（Mistral-7B-v0.3）适应到金融和生物医学两个专业领域，同时在一般任务中保持了模型的能力。此外，我们使用七个自动化指标评估了合成数据的多样性，发现其接近LLM预训练语料库的多样性。\n持续使用MetaSynth对Mistral-7B-v0.3进行预训练明显优于基础LLM，在金融领域提高了高达4.08%，在生物医学领域提高了13.75%。使用模板提示生成的数据对同一模型进行训练时，即使模板包括先前的生成数据和不同上下文的真实数据示例，模型性能却有所下降。我们的研究发现表明，几百万个多样化的合成数据标记，无需混合任何真实数据，在使用MetaSynth时足以实现有效的领域适应。\n",
+        "地址": "https://arxiv.org/pdf/2504.12563.pdf"
+    },
+    {
+        "名称": "2025 [2504.09228] Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking.pdf",
+        "作者": "You Wu, Xucheng Wang, Xiangyang Yang, Mengyuan Liu, Dan Zeng, Hengzhou Ye, Shuiwang Li",
+        "摘要": "摘要：\n单流架构使用视觉变换器（ViT）骨干在实时无人机（UAV）跟踪中显示出很大的潜力。然而，来自建筑物和树木等障碍物的频繁遮挡暴露了一个主要缺点：这些模型通常缺乏有效处理遮挡的策略。需要新方法来增强单流 ViT 模型在空中跟踪中的遮挡恢复能力。在这项工作中，我们提出基于 ViT 的无障碍鲁棒表示（ORR）用于无人机跟踪，通过强制目标特征表示对随机屏蔽操作的恒定性，这是由空间 Cox 过程建模的。希望这种随机屏蔽可以近似模拟目标遮挡，从而使我们能够学习对无人机跟踪中目标遮挡具有鲁棒性的 ViT。该框架被称为 ORTrack。此外，为了促进实时应用，我们提出了一种自适应基于特征的知识蒸馏（AFKD）方法，以创建一个更紧凑的跟踪器，该跟踪器根据任务的难度自适应地模仿教师模型 ORTrack 的行为。这个学生模型被称为 ORTrack-D，在保持 ORTrack 性能的同时提供更高的效率。在多个基准上的大量实验验证了我们方法的有效性，展示了其最先进的性能。代码可在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2504.09228.pdf"
+    }
+]
