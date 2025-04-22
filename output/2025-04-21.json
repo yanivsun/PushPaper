@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2504.13837] Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?.pdf",
+        "作者": "Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song, Gao Huang",
+        "摘要": "摘要：带有可验证奖励的强化学习（RLVR）最近在增强大规模语言模型（LLM）的推理能力方面取得了显著成功，尤其是在数学和编程任务中。普遍认为，RLVR使得LLM能够持续自我改进，从而获得超过其基础模型能力的新推理能力。然而，在本研究中，我们通过测量较大值下的pass@k指标来仔细重新审视这一假设，以探索模型在广泛的模型系列和基准测试中的推理能力边界。令人惊讶的是，RL实际上并没有引发根本性的新推理模式。虽然经过RL训练的模型在较小的k值（例如，k=1）时比基础模型表现更好，但在较大k值时，基础模型可以达到与RL模型相当甚至更高的pass@k得分。RL训练模型生成的推理路径已包含在基础模型的采样分布中，这表明在RL训练模型中表现出的推理能力大多已由基础模型获得。进一步分析显示，RL训练通过将模型的输出分布偏向于更可能获得奖励的路径来提高性能，从而更有效地采样正确的响应。但这也导致了比基础模型更窄的推理能力边界。在通过RLVR训练的视觉推理任务中观察到了类似的结果。此外，我们发现蒸馏可以真正将新知识引入模型，区别于RLVR。这些发现强调了RLVR在提升LLM推理能力方面的一个关键限制，要求我们从根本上重新思考RL训练在推理LLM中的影响，并需要更好的范式。项目页面：该网址。",
+        "地址": "https://arxiv.org/pdf/2504.13837.pdf"
+    },
+    {
+        "名称": "2025 [2504.13835] MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space.pdf",
+        "作者": "Yicheng Chen, Yining Li, Kai Hu, Zerun Ma, Haochen Ye, Kai Chen",
+        "摘要": "摘要：\n数据质量和多样性是构建有效的指令调整数据集的关键。随着开源指令调整数据集的日益普及，从大量数据中自动选择高质量和多样化的子集变得有利。现有方法通常优先考虑实例质量，并使用启发式规则来保持多样性。然而，这种缺乏对整个集合的全面视图通常会导致次优结果。此外，启发式规则通常注重嵌入空间内的距离或聚类，这无法准确捕捉语义空间中复杂指令的意图。为弥补这一差距，我们提出了一种统一的方法来量化数据集的信息内容。该方法通过构建标签图来建模语义空间，并根据图中的信息分布量化多样性。基于这种测量，我们进一步引入了一种高效的采样方法，在语义空间中逐步选择数据样本以最大化信息增益（MIG）。在各种数据集和基础模型上的实验表明，MIG始终优于最新的方法。值得注意的是，使用MIG采样的5% Tulu3数据微调的模型在AlpacaEval上提升了5.73%，在Wildbench上提升了6.89%，其性能与在完整数据集上训练的官方SFT模型相当。",
+        "地址": "https://arxiv.org/pdf/2504.13835.pdf"
+    },
+    {
+        "名称": "2025 [2504.11544] NodeRAG: Structuring Graph-based RAG with Heterogeneous Nodes.pdf",
+        "作者": "Tianyang Xu, Haojie Zheng, Chengze Li, Haoxiang Chen, Yixin Liu, Ruoxi Chen, Lichao Sun",
+        "摘要": "摘要：基于检索增强生成（RAG）的技术使大型语言模型能够访问外部和私有语料库，从而在特定领域提供事实一致的响应。通过利用语料库的内在结构，基于图的RAG方法通过构建知识图谱指数并利用图的结构特性进一步丰富了这一过程。然而，当前的基于图的RAG方法很少强调图结构的设计。设计不当的图不仅会阻碍各种图算法的无缝集成，还会导致工作流程不一致和性能下降。为了进一步释放图在RAG中的潜力，我们提出了NodeRAG，这是一种图为中心的框架，引入了异构图结构，能够将基于图的方法无缝且全面地集成到RAG工作流程中。通过与LLM的能力紧密结合，该框架确保了一个完全一致且高效的端到端过程。通过大量实验，我们证明了NodeRAG在索引时间、查询时间和存储效率方面相对于以前的方法（包括GraphRAG和LightRAG）表现出性能优势，并在多跳基准和开放式一对一评估中以最少的检索令牌提供了更优越的问题回答性能。我们的GitHub库可以在这个网址上查看：https://arxiv.org/pdf/2504.11544.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.11544.pdf"
+    },
+    {
+        "名称": "2025 [2504.11833] Could Thinking Multilingually Empower LLM Reasoning?.pdf",
+        "作者": "Changjiang Gao, Xu Huang, Wenhao Zhu, Shujian Huang, Lei Li, Fei Yuan",
+        "摘要": "摘要：先前的研究表明，大型语言模型存在显著的“英语偏向”，即当任务以英语呈现时，它们通常表现更好。有趣的是，我们观察到在推理任务中使用某些其他语言比使用英语表现更好。然而，这一现象尚未得到充分研究。在本文中，我们探索了在推理任务中利用多语言性的上限，表明多语言推理相比仅使用英语推理具有明显（近10 Acc@$k$点）且稳健（对翻译质量和语言选择的变化有容忍度）的更高上限。除了分析上限背后的原因和实现这一上限的挑战，我们还发现常见的答案选择方法由于其局限性和偏见，无法实现这一上限。这些见解可能为未来的研究铺平道路，旨在充分利用多语言推理在大型语言模型中的潜力。\n\n作者：Changjiang Gao, Xu Huang, Wenhao Zhu, Shujian Huang, Lei Li, Fei Yuan\n\n链接：https://arxiv.org/pdf/2504.11833.pdf\n\n标题：2025 [2504.11833] 混合语言思维能否提升大型语言模型的推理能力？",
+        "地址": "https://arxiv.org/pdf/2504.11833.pdf"
+    },
+    {
+        "名称": "2025 [2504.13173] It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization.pdf",
+        "作者": "Ali Behrouz, Meisam Razaviyayn, Peilin Zhong, Vahab Mirrokni",
+        "摘要": "摘要：设计高效且有效的架构核心一直是增强基础模型能力的研究重点。受到人类认知现象——注意偏向（即优先处理某些事件或刺激的自然倾向）的启发，我们重新定义了神经网络架构，包括Transformers、Titans以及现代线性递归神经网络为学习键和值映射的关联记忆模块，使用的内部目标称为注意偏向。令人惊讶的是，我们发现大多数现有的序列模型利用了（1）点积相似度或（2）L2回归目标作为它们的注意偏向。超越这些目标，我们提出了一组替代的注意偏向配置及其有效近似，以稳定这些模型的训练过程。然后，我们重新解释了现代深度学习架构中的遗忘机制，将其视为一种保留正则化，为序列模型提供了一组新的遗忘门。基于这些见解，我们提出了Miras，一个设计深度学习架构的通用框架，基于以下四种选择：（i）关联记忆架构；（ii）注意偏向目标；（iii）保留门；（iv）记忆学习算法。我们提出了三个新的序列模型：Moneta、Yaad和Memora，它们超越了现有线性RNN的能力，同时保持了快速并行化的训练过程。我们的实验表明，在Miras中的不同设计选择产生了具有不同优势的模型。例如，某些Miras实例在语言建模、常识推理和高回忆任务等特殊任务中表现出色，甚至胜过了Transformers和其他现代线性递归模型。\n\n作者：Ali Behrouz, Meisam Razaviyayn, Peilin Zhong, Vahab Mirrokni\nURL：https://arxiv.org/pdf/2504.13173.pdf\n标题：2025 [2504.13173] 一切皆相连：测试时记忆化历程、注意偏向、保留和在线优化",
+        "地址": "https://arxiv.org/pdf/2504.13173.pdf"
+    },
+    {
+        "名称": "2025 [2504.10823] CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives.pdf",
+        "作者": "Ayoung Lee, Ryan Sungmo Kwon, Peter Railton, Lu Wang",
+        "摘要": "摘要：应对涉及冲突价值观的高风险困境对人类来说都是具有挑战性的，更不用说对人工智能了。然而，之前在评估大型语言模型（LLMs）在这种情境下推理能力的工作仅限于日常场景。为了解决这一差距，本研究首先推出了CLASH（基于角色视角的高风险情境LLM评估），这是一个精心策划的数据集，包含345个高影响力的困境以及3795个多样化价值观的个人视角。特别是，我们设计CLASH是为了支持研究价值观决策过程中关键方面，这在之前的工作中是缺失的，包括理解决策的矛盾心理和心理不适感以及捕捉角色视角中文化的时间转变。通过对10个开放和封闭的前沿模型进行基准测试，我们发现了几个关键结论：(1) 即使是最强大的模型，如GPT-4o和Claude-Sonnet，在识别决策应保持矛盾的情境中准确率也低于50%，而在明确情境中表现则明显更好。 (2) 尽管LLMs能合理预测由人类标记的心理不适感，但它们对涉及价值观转变的视角理解不充分，这表明LLMs需要在复杂价值观上进行推理。 (3) 我们的实验还揭示了LLMs的价值偏好与其向给定价值观引导的可操控性之间的显著相关性。 (4) 最后，LLMs在从第三方视角进行价值推理时表现出更大的可操控性，而不是第一人称设定，尽管某些价值观对第一人称框架独特受益。\n\n作者：李雅荣，权成模，彼得·雷尔顿，王璐\n\nURL链接: [https://arxiv.org/pdf/2504.10823.pdf](https://arxiv.org/pdf/2504.10823.pdf)\n\n标题: 2025 [2504.10823] CLASH: 从多角度评估语言模型对高风险困境的判断",
+        "地址": "https://arxiv.org/pdf/2504.10823.pdf"
+    },
+    {
+        "名称": "2025 [2504.13157] AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis.pdf",
+        "作者": "Khiem Vuong, Anurag Ghosh, Deva Ramanan, Srinivasa Narasimhan, Shubham Tulsiani",
+        "摘要": "摘要:我们研究了从地面和空中视角混合捕获的图像进行几何重建的任务。当前最先进的基于学习的方法无法处理空中-地面图像对之间的极端视角变化。我们的假设是缺乏高质量、共注册的空中-地面数据集用于训练是导致这一失败的关键原因。这样的数据很难组装，因为它难以以可扩展的方式重建。为了克服这一挑战，我们提出了一个可扩展框架，将来自3D城市整体网格（例如Google Earth）的伪合成渲染与来自地面众包图像（例如MegaDepth）的真实图像相结合。伪合成数据模拟了广泛的空中视角，而真实的众包图像帮助提高地面图像的视觉保真度，因为基于网格的渲染缺乏足够的细节，有效地弥合了真实图像与伪合成渲染之间的领域差距。使用这一混合数据集，我们微调了几个最先进的算法，并在现实世界中实现了显著的改进，零样本空中-地面任务。例如，我们观察到基线DUSt3R在相机旋转误差5度范围内定位不到5%的空中-地面对，而使用我们的数据进行微调后，准确率提高到近56%，解决了处理大视角变化的一个主要失败点。除了相机估计和场景重建之外，我们的数据集还提高了在具有挑战性的空中-地面场景中的新视角合成等下游任务的性能，展示了我们的方法在实际应用中的实际价值。\n\n作者: Khiem Vuong, Anurag Ghosh, Deva Ramanan, Srinivasa Narasimhan, Shubham Tulsiani\n评论: 已在CVPR 2025中出现。项目页面: this https URL\n链接: https://arxiv.org/pdf/2504.13157.pdf\n标题: 2025 [2504.13157] AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis.pdf",
+        "地址": "https://arxiv.org/pdf/2504.13157.pdf"
+    },
+    {
+        "名称": "2025 [2504.09621] Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images.pdf",
+        "作者": "Jiuchen Chen, Xinyu Yan, Qizhi Xu, Kaiqi Li",
+        "摘要": "摘要：全球上下文信息和局部细节特征对于去雾任务至关重要。深度学习模型在处理小尺寸、低分辨率图像时表现良好，但由于GPU内存限制，它们在处理大尺寸、高分辨率图像时会遇到困难。因此，模型通常会选择图像切片或下采样来折中。前者削弱了全局信息，而后者则丢失了高频细节。为了解决这些挑战，我们提出了DehazeXL，一种在主流GPU硬件上能够有效平衡全局上下文和局部特征提取的去雾方法，允许对大图像进行端到端建模。此外，为了评估全球上下文在去雾任务中的利用效率，我们设计了一种针对去雾任务特性的视觉归因方法。最后，鉴于大图像去雾缺乏基准数据集的现状，我们开发了一个超高分辨率去雾数据集（8KDehaze），用于支持模型训练和测试。该数据集包括10000对8192×8192像素的清晰和雾霾遥感图像。大量实验表明，DehazeXL在只需要21 GB内存的情况下，就能够推理分辨率高达10240×10240像素的图像，并在所有评价方法中取得最先进的结果。源码和实验数据集可在此URL获取。\n\n来源：https://arxiv.org/pdf/2504.09621.pdf",
+        "地址": "https://arxiv.org/pdf/2504.09621.pdf"
+    },
+    {
+        "名称": "2025 [2504.13828] Generative AI Act II: Test Time Scaling Drives Cognition Engineering.pdf",
+        "作者": "Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou, Fan Zhou, Xiangkun Hu, Jiahe Jin, Yanheng He, Yixin Ye, Yixiu Liu, Pengfei Liu",
+        "摘要": "摘要：第一代大型语言模型——也可以称为生成式人工智能的“第一幕”（2020-2023年）——通过大规模参数和数据扩展取得了显著成功，但在知识延迟、浅层推理和受限认知过程方面表现出基本的局限性。在这一时期，提示工程成为我们与人工智能的主要界面，通过自然语言实现对话级交流。我们现在见证了“第二幕”（2024年至今）的出现，在这一幕中，模型正在通过测试时间扩展技术从知识检索系统（在潜在空间中）过渡到思维构建引擎。这种新范式通过基于语言的思维与人工智能建立了心智级联系。在本文中，我们阐明了认知工程的概念基础，并解释了为什么这一时刻对其发展至关重要。我们通过全面的教程和优化的实现方法系统地分解了这些先进的方法，使每个从业者都能参与到人工智能的“第二幕”中。我们在GitHub仓库中提供了关于测试时间扩展的定期更新的论文集合：http: this https URL.",
+        "地址": "https://arxiv.org/pdf/2504.13828.pdf"
+    },
+    {
+        "名称": "2025 [2504.13626] Thought Manipulation: External Thought Can Be Efficient for Large Reasoning Models.pdf",
+        "作者": "Yule Liu, Jingyi Zheng, Zhen Sun, Zifan Peng, Wenhan Dong, Zeyang Sha, Shiwen Cui, Weiqiang Wang, Xinlei He",
+        "摘要": "摘要：最近在大型推理模型（LRM）方面的进展展示了扩展测试时计算规模以增强多任务推理能力的有效性。然而，LRM通常面临“过度思考”问题，即模型生成了大量冗余的推理步骤，同时性能提升有限。现有的工作依赖微调来减轻过度思考，这需要额外的数据、非常规的训练设置、潜在的安全失配风险以及较差的泛化能力。\n\n通过实证分析，我们揭示了LRM行为的重要特征，即在思考标记（<think> 和 </think>）之间放置由较小模型生成的外部思考路径（CoTs），可以有效地操控模型生成较少的推理步骤。基于这些见解，我们提出了一种简单而高效的流程，称为ThoughtMani，使LRM能够绕过不必要的中间步骤，显著减少计算成本。我们进行了大量实验以验证ThoughtMani的实用性和效率。例如，当应用于LiveBench/Code数据集上的QwQ-32B时，ThoughtMani在保持原有性能的同时，将输出令牌数量减少了约30%，而CoT生成器的开销很小。此外，我们发现ThoughtMani将安全对齐平均提高了10%。由于模型供应商通常同时提供不同大小的模型，ThoughtMani为构建更高效且更易于使用的LRM提供了一种有效的方法，适用于实际应用场景。",
+        "地址": "https://arxiv.org/pdf/2504.13626.pdf"
+    },
+    {
+        "名称": "2025 [2504.13072] HiScene: Creating Hierarchical 3D Scenes with Isometric View Generation.pdf",
+        "作者": "Wenqi Dong, Bangbang Yang, Zesong Yang, Yuan Li, Tao Hu, Hujun Bao, Yuewen Ma, Zhaopeng Cui",
+        "摘要": "摘要：场景级3D生成代表了多媒体和计算机图形学中的一个关键前沿领域，现有的方法要么遭遇对象类别有限的问题，要么缺乏互动应用中的编辑灵活性。在本文中，我们提出了HiScene，这是一种新颖的分层框架，连接了2D图像生成和3D对象生成之间的桥梁，并提供了具有组合身份和美学场景内容的高保真场景。我们的关键见解是将场景视为等距视图下的分层“对象”，其中房间作为一个复杂的对象可以进一步分解为可操控的项目。这种分层方法使我们能够生成与2D表示对齐且保持组合结构的3D内容。为了确保每个分解实例的完整性和空间对齐，我们开发了一种基于视频扩散的无边界补全技术，有效处理对象之间的遮挡和阴影，并引入形状先验注入以确保场景内的空间一致性。实验结果表明，我们的方法生成了更自然的对象排列和适合互动应用的完整对象实例，同时保持物理可行性并与用户输入对齐。\n\n作者：董文奇，杨邦邦，杨泽松，李圆，胡涛，鲍虎军，马越文，崔兆朋\n\n评论：项目网页：这个https URL\n\n网址：https://arxiv.org/pdf/2504.13072.pdf\n\n标题：2025 [2504.13072] HiScene：创建具有等距视图生成的分层3D场景.pdf",
+        "地址": "https://arxiv.org/pdf/2504.13072.pdf"
+    },
+    {
+        "名称": "2025 [2504.13816] Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations.pdf",
+        "作者": "Chenghao Xiao, Hou Pong Chan, Hao Zhang, Mahani Aljunied, Lidong Bing, Noura Al Moubayed, Yu Rong",
+        "摘要": "摘要：在理解大型语言模型（LLMs）的知识边界以防止幻觉方面，相关研究主要集中在英语上。在这项工作中，我们首次研究了LLMs在处理多种语言的已知和未知问题时，通过探测其内部表示来分析它们如何识别知识边界。我们的实证研究揭示了三个关键发现：1）不同语言中，LLMs对知识边界的感知主要编码在中间到中上层；2）知识边界感知的语言差异遵循线性结构，这促使我们提出了一种不需训练的方法，有效地跨语言转移知识边界感知能力，从而帮助降低低资源语言中的幻觉风险；3）对双语问题对的翻译进行微调，进一步增强了LLMs跨语言识别知识边界的能力。鉴于缺乏标准的跨语言知识边界分析测试集，我们构建了一个多语言评估套件，包括三种具有代表性的知识边界数据类型。我们的代码和数据集可在此链接公开获取：https://arxiv.org/pdf/2504.13816.pdf。\n\n作者：Chenghao Xiao, Hou Pong Chan, Hao Zhang, Mahani Aljunied, Lidong Bing, Noura Al Moubayed, Yu Rong",
+        "地址": "https://arxiv.org/pdf/2504.13816.pdf"
+    },
+    {
+        "名称": "2025 [2504.13359] Cost-of-Pass: An Economic Framework for Evaluating Language Models.pdf",
+        "作者": "Mehmet Hamza Erol, Batu El, Mirac Suzgun, Mert Yuksekgonul, James Zou",
+        "摘要": "摘要：在经济中广泛采用人工智能系统取决于它们产生的经济价值是否超过其推理成本。评估这种权衡需要既考虑性能又考虑成本的指标。我们提出了一个基于生产理论的评估语言模型的框架，通过结合准确性和推理成本来进行评估。我们引入了“通过成本”（cost-of-pass）的概念，即生成正确解答的预期货币成本。然后，我们定义了“前沿通过成本”（frontier cost-of-pass），即在可用模型或“人类专家”中可实现的最低通过成本，使用雇用专家的近似成本作为参考。\n\n我们的分析揭示了一些不同的经济见解。首先，轻量级模型对于基本的量化任务是最具成本效益的，大型模型对于知识密集型任务最有效，而推理模型尽管每个标记的成本较高，却适用于复杂的量化问题。其次，通过追踪过去一年的前沿通过成本，我们发现特别是在复杂量化任务上，成本大约每几个月就减少一半。第三，为了追踪推动这一进展的关键创新，我们检查了反事实前沿：不考虑特定模型类别的成本效益估计。我们发现，轻量级、大型和推理模型的创新分别在基本量化、知识密集和复杂量化任务上推进了前沿。\n\n最后，我们评估了常见推理技术如多数投票法和自我改进法所带来的成本降低，发现它们的边际准确性提升很少能证明其成本是合理的。我们的研究结果强调，模型层级的创新是成本效益提升的主要驱动力，而我们的经济框架为这一进展的衡量和部署提供了一个原则性工具。",
+        "地址": "https://arxiv.org/pdf/2504.13359.pdf"
+    },
+    {
+        "名称": "2025 [2504.12083] Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization.pdf",
+        "作者": "Pritam Sarkar, Ali Etemad",
+        "摘要": "摘要：尽管大型视频语言模型（LVLMs）近年来取得了显著进展，它们仍在细粒度时间理解方面存在困难，并且容易产生幻觉，甚至在简单的视频问答任务中也常犯简单的错误，这使得它们在现实应用中的安全可靠部署面临重大挑战。为了解决这些限制，我们提出了一个自我对齐框架，使LVLMs能够从自身错误中学习。我们提出的框架首先获得一套首选和非首选响应对的训练集，其中非首选响应是通过结合常见的错误模式生成的，这些错误模式通常由于时空理解不足、共现概念之间的虚假相关性以及过度依赖语言提示而忽略视觉模态等原因导致。为了促进LVLMs与构建的首选和非首选响应对的自我对齐，我们引入了Refined Regularized Preference Optimization（RRPO），这是一种新的偏好优化方法，利用子序列级别的精细奖励和逐词的KL正则化来解决直接偏好优化（DPO）的局限性。我们证明了RRPO在比DPO更精确的对齐和更稳定的训练中获得了成功。我们的实验和分析验证了我们的方法在不同的视频任务（包括视频幻觉、短视频和长视频理解以及细粒度时间推理）中的有效性。\n\n作者：Pritam Sarkar, Ali Etemad\n\n链接：https://arxiv.org/pdf/2504.12083.pdf\n\n标题：2025 [2504.12083] Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization.pdf",
+        "地址": "https://arxiv.org/pdf/2504.12083.pdf"
+    },
+    {
+        "名称": "2025 [2504.13677] Revisiting Uncertainty Quantification Evaluation in Language Models: Spurious Interactions with Response Length Bias Results.pdf",
+        "作者": "Andrea Santilli, Adam Golinski, Michael Kirchhof, Federico Danieli, Arno Blaas, Miao Xiong, Luca Zappella, Sinead Williamson",
+        "摘要": "摘要：对语言模型（LMs）中的不确定性量化（UQ）进行评估对于提高其安全性和可靠性至关重要。评估通常使用AUROC等性能指标来评估UQ方法（如负序列概率）与任务正确性函数（如ROUGE-L）的相关性。在本文中，我们展示了常用的正确性函数通过提高某些UQ方法的性能而使UQ评估存在偏差。我们评估了7种正确性函数——从基于词汇的指标和嵌入基的指标到使用大型语言模型作为裁判的方法——在4个数据集、4个模型和6种UQ方法上的表现。我们的分析显示，这些正确性函数的错误中存在的长度偏差，通过与UQ方法中的长度偏差互动，扭曲了UQ评价。我们识别出使用大型语言模型作为裁判的方法是长度偏差最小的选择之一，因此是减轻这些偏差的潜在解决方案。\n\n作者：Andrea Santilli，Adam Golinski，Michael Kirchhof，Federico Danieli，Arno Blaas，Miao Xiong，Luca Zappella，Sinead Williamson\n\n标题：重新审视语言模型中的不确定性量化评估：与响应长度偏差的虚假互动结果\n\n链接：https://arxiv.org/pdf/2504.13677.pdf",
+        "地址": "https://arxiv.org/pdf/2504.13677.pdf"
+    },
+    {
+        "名称": "2025 [2504.13519] Filter2Noise: Interpretable Self-Supervised Single-Image Denoising for Low-Dose CT with Attention-Guided Bilateral Filtering.pdf",
+        "作者": "Yipeng Sun, Linda-Sophie Schneider, Mingxuan Gu, Siyuan Mei, Chengze Ye, Fabian Wagner, Siming Bayer, Andreas Maier",
+        "摘要": "摘要: 有效去噪在低剂量 CT 中至关重要，以增强微小结构和低对比度病变，同时防止诊断错误。监督方法难以处理有限的配对数据集，自监督方法通常需要多个有噪声的图像，并依赖诸如 U-Net 之类的深层网络，难以提供去噪机制的深入见解。为了解决这些挑战，我们提出了一种可解释的自监督单图像去噪框架 -- Filter2Noise (F2N)。我们的方法引入了一种注意力引导双向滤波器，通过轻量级模块预测空间变化滤波参数，这些参数可以在训练后可视化并调整，以便在特定感兴趣区域进行用户控制的去噪。为了实现单图像训练，我们引入了一种新的下采样混洗策略并结合新的自监督损失函数，将 Noise2Noise 的概念扩展到单一图像，并解决了空间相关噪声问题。在 Mayo Clinic 2016 低剂量 CT 数据集上，F2N 比领先的自监督单图像方法 (ZS-N2N) 高出 4.59 dB PSNR，同时提高了透明度、用户控制和参数效率。这些特点提供了对需要精确和可解释噪声降低的医疗应用的关键优势。我们的代码在此 https URL 上展示。",
+        "地址": "https://arxiv.org/pdf/2504.13519.pdf"
+    }
+]
