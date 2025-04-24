@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2504.15120] Kuwain 1.5B: An Arabic SLM via Language Injection.pdf",
+        "作者": "Khalil Hennara, Sara Chrouf, Mohamed Motaism Hamed, Zeina Aldallal, Omar Hadid, Safwan AlModhayan",
+        "摘要": "摘要：增强现有模型的新知识是人工智能发展的关键方面。本文介绍了一种将新语言整合到大型语言模型（LLM）中的新方法。我们的方法成功地将以前未见过的目标语言整合到现有的LLM中，而不影响其原有知识。我们通过将阿拉伯语注入一个主要用英语训练的小型开源模型中，训练了一个名为Kuwain的小型模型，其参数为15亿。我们的方法在各种基准测试中显示了阿拉伯语性能的显著提升，平均提高了8%，同时以最少量的原始模型数据保留了模型的现有知识。这为在英语和阿拉伯语中训练综合模型提供了一种成本效益高的替代方案。结果突显了无需广泛再训练或资源密集型过程的高效、针对性的语言模型扩展的潜力。\n\n作者：Khalil Hennara, Sara Chrouf, Mohamed Motaism Hamed, Zeina Aldallal, Omar Hadid, Safwan AlModhayan\n\n标题：2025 [2504.15120] Kuwain 1.5B: 通过语言注入的阿拉伯语SLM",
+        "地址": "https://arxiv.org/pdf/2504.15120.pdf"
+    },
+    {
+        "名称": "2025 [2504.16084] TTRL: Test-Time Reinforcement Learning.pdf",
+        "作者": "Yuxin Zuo, Kaiyan Zhang, Shang Qu, Li Sheng, Xuekai Zhu, Biqing Qi, Youbang Sun, Ganqu Cui, Ning Ding, Bowen Zhou",
+        "摘要": "摘要: 本文研究了在没有明确标签的数据上进行大型语言模型(LLM)推理任务的强化学习(RL)。问题的核心挑战是在没有访问到真实信息的情况下进行推断的奖励估算。虽然这种设置看似难以实现，但我们发现测试时间缩放(TTS)中的一些常见做法，如多数投票，可以产生出乎意料地有效的奖励，适用于驱动RL训练。在这项工作中，我们引入了测试时间强化学习(TTRL)，这是一种利用RL在未标记数据上训练LLM的新方法。TTRL通过利用预训练模型中的先验，促进LLM的自我进化。我们的实验表明，TTRL在各种任务和模型中持续提高了性能。值得注意的是，TTRL使Qwen-2.5-Math-7B在AIME 2024测试中的pass@1性能提升了大约159%，仅使用未标记的测试数据。此外，虽然TTRL仅由Maj@N指标监督，但TTRL的表现始终超过初始模型的上限，并接近直接在带有真实标签的测试数据上训练的模型的性能。我们的实验结果验证了TTRL在各种任务中的普遍有效性，并突出了其在更广泛的任务和领域中的潜力。GitHub: this https URL",
+        "地址": "https://arxiv.org/pdf/2504.16084.pdf"
+    },
+    {
+        "名称": "2025 [2504.15521] The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks.pdf",
+        "作者": "Minghao Wu, Weixuan Wang, Sinuo Liu, Huifeng Yin, Xintong Wang, Yu Zhao, Chenyang Lyu, Longyue Wang, Weihua Luo, Kaifu Zhang",
+        "摘要": "摘要： 随着大型语言模型（LLMs）在语言能力方面的不断进步，稳健的多语言评估对于促进公平的技术进步变得至关重要。这篇立场论文审查了来自148个国家、在2021年至2024年间发布的2000多个多语言（非英语）基准，以评估多语言基准测试的过去、现在和未来实践。我们的研究发现，尽管投入了数千万美元的巨额资金，英语在这些基准中仍然显著过度代表。此外，大多数基准依赖于原始语言内容，而不是翻译内容，其中多数来自中国、印度、德国、英国和美国等高资源国家。此外，将基准性能与人类评判进行比较，显示出显著差异。STEM相关任务与人类评估呈现强相关性（0.70到0.85），而传统的自然语言处理任务（例如问答，如XQuAD）相关性较弱（0.11到0.30）。此外，将英文基准翻译成其他语言证明是不足够的，因为本地化基准与当地人类评判的对齐度显著高于翻译基准（0.68对比0.47）。这凸显出创建文化和语言上量身定制的基准而不仅仅依赖翻译的重要性。通过这一全面分析，我们强调了当前多语言评估实践中的六个主要局限，提出了相应的指导原则以进行有效的多语言基准测试，并概述了推动该领域进展的五个关键研究方向。最后，我们呼吁全球协作努力开发优先考虑现实世界应用的符合人类标准的基准。\n\n论文作者：吴明浩，王伟轩，刘思诺，尹汇峰，王欣彤，赵宇，吕晨阳，王龙跃，罗伟华，张开夫\n\n注释：进行中的工作；22页，8个图表，3个表格；\n\n链接：https://arxiv.org/pdf/2504.15521.pdf\n\n标题：从2000多个多语言基准中汲取的痛苦教训",
+        "地址": "https://arxiv.org/pdf/2504.15521.pdf"
+    },
+    {
+        "名称": "2025 [2504.16072] Describe Anything: Detailed Localized Image and Video Captioning.pdf",
+        "作者": "Long Lian, Yifan Ding, Yunhao Ge, Sifei Liu, Hanzi Mao, Boyi Li, Marco Pavone, Ming-Yu Liu, Trevor Darrell, Adam Yala, Yin Cui",
+        "摘要": "摘要：生成图像和视频中特定区域的详细且准确的描述仍然是视觉语言模型的一个基本挑战。我们介绍了Describe Anything Model (DAM)，一种为详细局部描述（DLC）设计的模型。DAM通过两个关键创新保留了局部细节和整体背景：一个焦点提示，确保目标区域的高分辨率编码，以及一个局部视觉主干，结合了精确定位及其更广泛的背景。为了应对高质量DLC数据的稀缺，我们提出了一种基于半监督学习（SSL）的数据管道（DLC-SDP）。DLC-SDP从现有的分割数据集开始，并通过SSL扩展到未标记的网络图像。我们介绍了DLC-Bench，一个设计用于在不依赖参考字幕的情况下评估DLC的基准。DAM在7个基准测试上设立了新的最先进的标准，这些基准测试包括关键词级、短语级和详细的多句局部图像和视频描述。\n\n作者：Long Lian, Yifan Ding, Yunhao Ge, Sifei Liu, Hanzi Mao, Boyi Li, Marco Pavone, Ming-Yu Liu, Trevor Darrell, Adam Yala, Yin Cui\n\n注释：项目页面：this https URL\n\n网址：https://arxiv.org/pdf/2504.16072.pdf\n\n标题：2025 [2504.16072] Describe Anything: Detailed Localized Image and Video Captioning.pdf",
+        "地址": "https://arxiv.org/pdf/2504.16072.pdf"
+    },
+    {
+        "名称": "2025 [2504.15466] Learning Adaptive Parallel Reasoning with Language Models.pdf",
+        "作者": "Jiayi Pan, Xiuyu Li, Long Lian, Charlie Snell, Yifei Zhou, Adam Yala, Trevor Darrell, Kurt Keutzer, Alane Suhr",
+        "摘要": "摘要：推断时间计算的扩展显著提升了语言模型的推理能力。然而，现有方法存在重大局限：串行的链式思维方法生成过长的输出，导致延迟增加和上下文窗口耗尽，而自一致性等并行方法则由于缺乏协调导致冗余计算和性能提升有限。为解决这些问题，我们提出了自适应并行推理（APR），一种新颖的推理框架，使语言模型能够端到端地协调串行和并行计算。APR通过使用spawn()和join()操作实现自适应的多线程推理，推广现有推理方法。我们的关键创新是端到端的强化学习策略，优化父子推理线程，以提高任务成功率，而无需预定义的推理结构。在Countdown推理任务上的实验显示，APR具有显著优势：（1）在相同上下文窗口内表现更佳（4k上下文时83.4% vs. 60.0%）；（2）计算规模增加时可更好扩展（20k总令牌时80.1% vs. 66.6%）；（3）在相同延迟下准确性提高（约5000ms时75.2% vs. 57.3%）。APR迈向了使语言模型通过自适应分配计算来自主优化其推理过程的一步。\n\n作者：Jiayi Pan, Xiuyu Li, Long Lian, Charlie Snell, Yifei Zhou, Adam Yala, Trevor Darrell, Kurt Keutzer, Alane Suhr\n\n评论：代码、模型和数据可以通过此https URL获取。前三位作者对这项工作做出了同等贡献\n\n链接：https://arxiv.org/pdf/2504.15466.pdf\n\n标题：2025 [2504.15466] 使用语言模型学习自适应并行推理.pdf",
+        "地址": "https://arxiv.org/pdf/2504.15466.pdf"
+    },
+    {
+        "名称": "2025 [2504.14538] BookWorld: From Novels to Interactive Agent Societies for Creative Story Generation.pdf",
+        "作者": "Yiting Ran, Xintao Wang, Tian Qiu, Jiaqing Liang, Yanghua Xiao, Deqing Yang",
+        "摘要": "摘要：最近大型语言模型（LLM）的进展使得通过多代理系统进行社会模拟成为可能。之前的工作主要集中于从头开始创建代理社会，赋予代理新的角色。然而，尽管在实际应用中有着重要价值，模拟既有的虚构世界和角色却仍然很少被探讨。在本文中，我们介绍了BookWorld，一个用于构建和模拟基于书籍的多代理社会的综合系统。BookWorld的设计涵盖了全面的现实世界复杂性，包括多样且动态的角色、虚构的世界观、地理限制和改变等。BookWorld支持多种应用，如故事生成、互动游戏和社会模拟，提供了扩展和探索受欢迎的虚构作品的新方法。通过广泛的实验，我们证明了BookWorld能生成具有创意的高质量故事，同时保持对原著的忠实度，超过了之前的方法，赢得了75.36%的胜率。本文代码可以在项目页面找到：this https URL。",
+        "地址": "https://arxiv.org/pdf/2504.14538.pdf"
+    },
+    {
+        "名称": "2025 [2504.15415] IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs.pdf",
+        "作者": "David Ma, Yuanxing Zhang, Jincheng Ren, Jarvis Guo, Yifan Yao, Zhenlin Wei, Zhenzhu Yang, Zhongyuan Peng, Boyu Feng, Jun Ma, Xiao Gu, Zhoufutu Wen, King Zhu, Yancheng He, Meng Cao, Shiwen Ni, Jiaheng Liu, Wenhao Huang, Ge Zhang, Xiaojie Jin",
+        "摘要": "摘要：现有的多模态大语言模型（MLLMs）评价框架主要聚焦于图像推理或一般的视频理解任务，忽略了图像上下文在视频理解中的重要作用。为弥补这一差距，我们提出了IV-Bench，这是第一个评估图像为基础的视频感知和推理的综合基准。IV-Bench包含967个视频，以及2,585个精心注释的图像-文本查询，覆盖13项任务（7项感知任务和6项推理任务）和5个代表性类别。对最先进的开源（例如InternVL2.5，Qwen2.5-VL）和闭源（例如GPT-4o，Gemini2-Flash和Gemini2-Pro）MLLMs的广泛评估表明，当前模型在图像基础的视图库感知和推理方面表现不佳，最高仅能达到28.9%的准确率。进一步分析揭示了影响IV-Bench模型性能的关键因素，包括推理模式、帧数和分辨率。此外，通过一种简单的数据合成方法，我们展示了IV-Bench面临的挑战不仅仅在于训练过程中数据格式的对齐。这些发现为未来的研究提供了宝贵的洞察。我们的代码和数据在这个https URL中发布。",
+        "地址": "https://arxiv.org/pdf/2504.15415.pdf"
+    },
+    {
+        "名称": "2025 [2504.14992] Efficient Pretraining Length Scaling.pdf",
+        "作者": "Bohong Wu, Shen Yan, Sijun Zhang, Jianqiao Lu, Yutao Zeng, Ya Wang, Xun Zhou",
+        "摘要": "摘要：近年来大型语言模型的进展证明了在后训练阶段进行长度缩放的有效性，但其在预训练阶段的潜力尚未得到充分探索。我们提出了并行隐藏解码 Transformer（\\textit{PHD}-Transformer），这是一种新颖的框架，可以在预训练期间实现高效的长度缩放，同时保持推理效率。 \\textit{PHD}-Transformer 通过一种创新的 KV 缓存管理策略实现了这一点，该策略区分了原始标记和隐藏解码标记。通过仅保留原始标记的 KV 缓存以处理长距离依赖关系，同时在使用后立即丢弃隐藏解码标记，我们的方法在实现有效的长度 scaling 的同时保持了与普通 Transformer 相同的 KV 缓存大小。为了进一步提升性能，我们引入了两个优化版本：\\textit{PHD-SWA} 采用滑动窗口注意力以保持局部依赖关系，而 \\textit{PHD-CSWA} 实现了逐块滑动窗口注意力，以消除预填充时间的线性增长。大量实验表明，在多个基准测试中取得了一致的改进。\n\n翻译：近年来大型语言模型的进展证明了在后训练阶段进行长度缩放的有效性，但其在预训练阶段的潜力尚未得到充分探索。我们提出了并行隐藏解码 Transformer（PHD-Transformer），这是一种新颖的框架，可以在预训练期间实现高效的长度缩放，同时保持推理效率。PHD-Transformer 通过一种创新的 KV 缓存管理策略实现了这一点，该策略区分了原始标记和隐藏解码标记。通过仅保留原始标记的 KV 缓存以处理长距离依赖关系，同时在使用后立即丢弃隐藏解码标记，我们的方法在实现有效的长度缩放的同时保持了与普通 Transformer 相同的 KV 缓存大小。为了进一步提升性能，我们引入了两个优化版本：PHD-SWA 采用滑动窗口注意力以保持局部依赖关系，而 PHD-CSWA 实现了逐块滑动窗口注意力，以消除预填充时间的线性增长。大量实验表明，在多个基准测试中取得了一致的改进。",
+        "地址": "https://arxiv.org/pdf/2504.14992.pdf"
+    },
+    {
+        "名称": "2025 [2504.13820] CheXWorld: Exploring Image World Modeling for Radiograph Representation Learning.pdf",
+        "作者": "Yang Yue, Yulin Wang, Chenxin Tao, Pan Liu, Shiji Song, Gao Huang",
+        "摘要": "摘要：人类能够开发内部世界模型，这些模型编码常识性知识，告诉他们世界的运作方式并预测他们行为的后果。最近的初步工作表明，这一概念已成为建立通用机器学习模型的一种有前途的方向，例如，用于视觉表示学习。在本文中，我们提出了CheXWorld，这是首个针对放射影像的自监督世界模型的尝试。具体来说，我们的工作开发了一个统一框架，同时模拟了合格放射科医生必需的三方面医学知识，包括1）描述局部组织细节特征的局部解剖结构（如结构、形状和纹理）；2）描述人体整体组织的整体解剖布局（如器官和骨骼的布局）；以及3）鼓励CheXWorld建模不同影像领域之间转换的领域变异（如由于不同医院、设备或患者采集的放射影像的不同清晰度、对比度和曝光度变化）。在实证上，我们设计了定性和定量分析，揭示了CheXWorld成功捕捉了这三方面医学知识。此外，在八个医学影像分类和分割基准上进行的迁移学习实验表明，CheXWorld显著优于现有的自监督学习方法和大规模医学基础模型。代码和预训练模型可在此链接获取：https://arxiv.org/pdf/2504.13820.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.13820.pdf"
+    },
+    {
+        "名称": "2025 [2504.13162] Personalized Text-to-Image Generation with Auto-Regressive Models.pdf",
+        "作者": "Kaiyue Sun, Xian Liu, Yao Teng, Xihui Liu",
+        "摘要": "摘要：个性化图像合成在文本到图像生成领域中已成为一个重要应用，可以创建在不同背景中包含特定主题的图像。尽管扩散模型在该领域占据主导地位，但在个性化图像生成方面，具有文本和图像建模统一结构的自回归模型依然未被充分探索。本文探讨了优化自回归模型用于个性化图像合成的潜力，利用其固有的多模态能力来执行此任务。我们提出了一种两阶段的训练策略，结合文本嵌入优化和转换层微调。我们在自回归模型上的实验表明，该方法在主题保真度和提示遵循方面与领先的基于扩散的个性化方法相当。结果突显了自回归模型在个性化图像生成中的有效性，为该领域未来的研究提供了新方向。",
+        "地址": "https://arxiv.org/pdf/2504.13162.pdf"
+    },
+    {
+        "名称": "2025 [2504.16030] LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale.pdf",
+        "作者": "Joya Chen, Ziyun Zeng, Yiqi Lin, Wei Li, Zejun Ma, Mike Zheng Shou",
+        "摘要": "摘要：最近的视频大模型（Video LLMs）常常依赖昂贵的人工标注或专有模型API（例如，GPT-4o）来生成训练数据，这限制了它们的大规模训练。在本文中，我们探索使用廉价的自动语音识别（ASR）转录来进行Video LLM的大规模训练。具体来说，我们提出了一种新颖的流训练方法，根据时间戳密集交织ASR词语和视频帧。与先前的视觉-语言表示研究相比，我们的方法自然适应ASR的流特性，从而使模型能够学习时间对齐的细粒度视觉-语言建模。为了支持训练算法，我们引入了一个数据生产管道来处理YouTube视频及其隐藏字幕（CC，与ASR相同），生成用于预训练的Live-CC-5M数据集和用于高质量监督微调（SFT）的Live-WhisperX-526K数据集。值得注意的是，即使没有SFT，单靠ASR预训练的LiveCC-7B-Base模型也展示了有竞争力的一般视频问答性能，并且表现出实时视频评论的新能力。为了评估这一点，我们精心设计了一个新的LiveSports-3K基准，使用LLM作为评判标准来衡量自由形式的评论。实验表明，我们最终的LiveCC-7B-Instruct模型在评论质量方面可以超过先进的72B模型（如Qwen2.5-VL-72B-Instruct, LLaVA-Video-72B），即使是在实时模式下运行。同时，它在VideoMME和OVOBench等流行视频问答基准上达到7B/8B量级的最新结果，展示了我们方法的广泛通用性。本文的所有资源均已发布于此链接。\n\n作者：Joya Chen, Ziyun Zeng, Yiqi Lin, Wei Li, Zejun Ma, Mike Zheng Shou\n\n评论：CVPR 2025。如有任何参考文献缺失，请联系 joyachen@u.this http URL\n\n链接：https://arxiv.org/pdf/2504.16030.pdf\n\n标题：2025 [2504.16030] LiveCC：大规模流式语音转录学习Video LLM",
+        "地址": "https://arxiv.org/pdf/2504.16030.pdf"
+    },
+    {
+        "名称": "2025 [2504.15681] Vidi: Large Multimodal Models for Video Understanding and Editing.pdf",
+        "作者": "Vidi Team, Celong Liu, Chia-Wen Kuo, Dawei Du, Fan Chen, Guang Chen, Jiamin Yuan, Lingxi Zhang, Lu Guo, Lusha Li, Longyin Wen, Qingyu Chen, Rachel Deng, Sijie Zhu, Stuart Siew, Tong Jin, Wei Lu, Wen Zhong, Xiaohui Shen, Xin Gu, Xing Mei, Xueqiong Qu",
+        "摘要": "摘要：人类自然地与他们有联系的人分享信息，而视频已经成为互联网上主要的沟通和表达媒介之一。为了支持高质量、大规模视频内容的制作，一个现代化的流程需要全面理解原始输入材料（例如，摄像机拍摄的未编辑素材）和编辑组件（例如，视觉效果）。在视频编辑场景中，模型必须处理多种模态（例如，视觉、音频、文本），并具备强大的背景知识和处理灵活输入长度（例如，长达一小时的原始视频）的能力，这对传统模型提出了显著挑战。在本报告中，我们介绍了Vidi，这是一系列用于广泛视频理解和编辑场景的大型多模态模型（LMMs）。首次发布的重点是时间检索，即识别输入视频中与给定文本查询相对应的时间范围，这在智能编辑中发挥着至关重要的作用。该模型能够处理长达一小时的视频，具备强大的时间理解能力，例如，检索特定查询的时间范围。为了支持在真实场景中的全面评估，我们还提出了VUE-TR基准测试，该测试引入了五个关键进展：1）视频时长：明显长于现有时间检索数据集，2）音频支持：包括基于音频的查询，3）查询格式：多样的查询长度/格式，4）注释质量：手动注释的真实时间范围，5）评估指标：优化的IoU指标，支持对多个时间范围的评估。显著的是，在时间检索任务中，Vidi显著优于领先的专有模型，如GPT-4o和Gemini，表明其在视频编辑场景中的卓越性。\n\n作者：Vidi团队，刘策龙，郭家文，杜大伟，陈凡，陈光，袁佳敏，张灵犀，郭璐，李露莎，文龙音，陈庆宇，邓瑞秋，朱思捷，徐常健，金彤，陆巍，钟文，沈晓辉，顾新，梅星，屈雪琼",
+        "地址": "https://arxiv.org/pdf/2504.15681.pdf"
+    },
+    {
+        "名称": "2025 [2504.16078] LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities.pdf",
+        "作者": "Thomas Schmied, Jörg Bornschein, Jordi Grau-Moya, Markus Wulfmeier, Razvan Pascanu",
+        "摘要": "摘要：大型语言模型（LLM）的成功引发了对各种代理应用的兴趣。一项关键假设是，LLM可以利用常识和连锁思维（Chain-of-Thought, CoT）推理，有效地探索并高效地解决复杂领域。然而，LLM代理被发现存在次优探索和知识-执行差距，即无法有效地利用模型中的知识。在这项工作中，我们系统地研究了LLM在决策场景中表现次优的原因。特别地，我们仔细检查了三种常见的失败模式：贪婪性、频率偏差以及知识-执行差距。我们提出通过在自生成的CoT理由上进行强化学习（RL）微调来缓解这些缺点。我们在多臂老虎机、情景老虎机和井字棋实验中表明，RL微调通过增加探索和缩小知识-执行差距来增强LLM的决策能力。最后，我们研究了经典的探索机制，如ε-贪婪，以及LLM特定的方法，如自我纠正和自我一致性，以便更有效地微调LLM以进行决策。\n\n作者：Thomas Schmied, Jörg Bornschein, Jordi Grau-Moya, Markus Wulfmeier, Razvan Pascanu\n\n标题：LLM是贪婪的代理：RL微调对决策能力的影响",
+        "地址": "https://arxiv.org/pdf/2504.16078.pdf"
+    },
+    {
+        "名称": "2025 [2504.15785] WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents.pdf",
+        "作者": "Siyu Zhou, Tianyi Zhou, Yijun Yang, Guodong Long, Deheng Ye, Jing Jiang, Chengqi Zhang",
+        "摘要": "摘要：我们能利用大型语言模型（LLMs）构建准确的世界模型吗？世界模型如何能使LLM代理受益？LLMs的先验知识和特定环境动态之间的差距通常会成为LLMs作为世界模型表现的瓶颈。为了弥补这一差距，我们提出了一种无训练的“世界对齐”，它学习补充LLMs的环境符号知识。这些符号知识涵盖动作规则，知识图谱和场景图，这些知识是由LLMs从探索轨迹中提取并编码成可执行代码，以调节LLM代理的策略。我们进一步提出了一种无强化学习（RL）、基于模型的代理“WALL-E 2.0”，通过模型预测控制（MPC）框架实现。不同于传统MPC需在运行时进行高昂的优化，我们采用LLM代理作为未来步骤动作高效的预见优化器，通过与神经符号世界模型互动实现。尽管LLM代理的强启发式方法使其成为MPC中的高效规划器，其计划动作的质量也得益于对对齐世界模型的准确预测。两者共同显著提高了在新环境中的学习效率。在火星（Minecraft类似）和ALFWorld（具身室内环境）的开放世界挑战中，WALL-E 2.0显著优于现有方法，例如在火星上成功率比基准提高16.1%-51.6%，分数至少提高61.7%。在ALFWorld中，仅用4次迭代后便达到了98%的成功率，创造了新纪录。",
+        "地址": "https://arxiv.org/pdf/2504.15785.pdf"
+    },
+    {
+        "名称": "2025 [2504.16080] From Reflection to Perfection: Scaling Inference-Time Optimization for Text-to-Image Diffusion Models via Reflection Tuning.pdf",
+        "作者": "Le Zhuo, Liangbing Zhao, Sayak Paul, Yue Liao, Renrui Zhang, Yi Xin, Peng Gao, Mohamed Elhoseiny, Hongsheng Li",
+        "摘要": "摘要: 近期的文本到图像扩散模型通过大规模扩展训练数据和模型参数，达到了令人印象深刻的视觉质量，但在处理复杂场景和细粒度细节时常常表现不佳。受大型语言模型中出现的自我反思能力的启发，我们提出了ReflectionFlow，这是一种推理时间框架，使扩散模型能够反复反思并优化其输出。ReflectionFlow引入了三种互补的推理时间扩展轴：(1) 噪声级别扩展以优化潜在初始化；(2) 提示级别扩展以实现精确的语义指导；(3) 最重要的是反思级别扩展，它明确提供可操作的反思，以反复评估和纠正先前生成的内容。为了促进反思级别扩展，我们构建了GenRef，一个包含100万个三元组的数据集，每个三元组包含一个反思、一幅有缺陷的图像和一幅增强的图像。利用这个数据集，我们通过在统一框架内联合建模多模态输入，有效地对最先进的扩散变压器FLUX.1-dev进行反思调优。实验结果表明，ReflectionFlow显著优于单纯的噪声级别扩展方法，提供了一种可扩展且计算效率高的解决方案，以实现更高质量的图像合成，适用于具有挑战性的任务。",
+        "地址": "https://arxiv.org/pdf/2504.16080.pdf"
+    },
+    {
+        "名称": "2025 [2504.14977] RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild.pdf",
+        "作者": "Jingkai Zhou, Yifan Wu, Shikai Li, Min Wei, Chao Fan, Weihua Chen, Wei Jiang, Fan Wang",
+        "摘要": "摘要：可控角色动画仍然是一个具有挑战性的问题，尤其是在处理罕见姿势、风格化角色、角色与物体的交互、复杂的光照和动态场景方面。为了应对这些问题，先前的工作主要集中在通过复杂的旁路网络注入姿势和外观指导，但通常难以推广到开放世界场景。在本文中，我们提出了一种新视角，即只要基础模型足够强大，使用简单的模型修改和灵活的微调策略可以在很大程度上解决上述挑战，向实现实际环境中的可控角色动画迈进一步。具体来说，我们介绍了基于Wan-2.1视频基础模型构建的RealisDance-DiT。我们的充分分析显示，广泛采用的参考网络设计对于大规模DiT模型来说并不是最佳选择。相反，我们证明，对基础模型架构进行最小的修改可以产生一种非常强的基线。我们进一步提出了低噪声预热和“大批次小迭代”的策略，以在微调过程中加速模型收敛，同时最大限度地保持基础模型的先验。此外，我们引入了一个新的测试数据集，该数据集捕捉了多样的现实世界挑战，补充了现有的基准数据集，如TikTok数据集和UBC时尚视频数据集，以全面评估所提出的方法。大量实验表明，RealisDance-DiT在很大程度上优于现有方法。",
+        "地址": "https://arxiv.org/pdf/2504.14977.pdf"
+    },
+    {
+        "名称": "2025 [2504.11703] Progent: Programmable Privilege Control for LLM Agents.pdf",
+        "作者": "Tianneng Shi, Jingxuan He, Zhun Wang, Linyu Wu, Hongwei Li, Wenbo Guo, Dawn Song",
+        "摘要": "摘要：大型语言模型代理（LLM agents）是一种新兴的人工智能系统形式，其中大型语言模型（LLMs）作为核心组件，利用多种工具完成用户分配的任务。尽管它们具有巨大潜力，但LLM代理也带来显著的安全风险。在与外部世界交互时，它们可能会遇到攻击者发出的恶意指令，导致危险行为的执行。解决这一问题的一个有前景的方法是执行最小特权原则：只允许完成任务所需的必要操作，同时阻止不必要的操作。然而，做到这一点具有挑战性，因为它需要涵盖各种代理场景，同时保持安全性和实用性。我们引入了Progent，首个用于LLM代理的特权控制机制。其核心是一种领域特定语言，用于灵活表达在代理执行期间应用的特权控制策略。这些策略在工具调用上提供了细粒度约束，决定何时允许工具调用，并指定如果不允许时的替代措施。这使代理开发人员和用户能够为其特定用例制定合适的策略，并确定性地执行它们以保证安全。得益于其模块化设计，集成Progent不会改变代理的内部结构，仅需对代理实现进行最小的改动，增强了其实用性和广泛采用的潜力。为了自动化政策编写，我们利用LLMs根据用户查询生成策略，然后动态更新以改善安全性和实用性。我们的广泛评估显示，在三个不同的场景或基准测试（AgentDojo、ASB和AgentPoison）中，它能够在保持高实用性的同时实现强健的安全性。此外，我们进行深度分析，展示其核心组件的有效性以及其自动政策生成对适应性攻击的抵抗力。\n\n作者：石天能, 何靖轩, 王准, 吴林宇, 李红伟, 郭文博, 宋黎明\n\n链接：https://arxiv.org/pdf/2504.11703.pdf\n\n标题：2025 [2504.11703] Progent: Programmable Privilege Control for LLM Agents.pdf",
+        "地址": "https://arxiv.org/pdf/2504.11703.pdf"
+    },
+    {
+        "名称": "2025 [2504.16082] MR. Video: \"MapReduce\" is the Principle for Long Video Understanding.pdf",
+        "作者": "Ziqi Pang, Yu-Xiong Wang",
+        "摘要": "摘要：我们提出了MR. Video，这是一种代理性的长视频理解框架，该框架展示了处理长视频的简单而有效的MapReduce原则：（1）映射：独立且密集地感知短视频片段，（2）归约：共同汇总所有片段的信息。与序列到序列的视觉语言模型（VLMs）相比，MR. Video在不受上下文长度限制的情况下对短视频进行详细感知。与通常依赖于顺序关键片段选择的现有视频代理相比，映射操作使得短视频片段的序列并行感知更简单且更具扩展性。其归约步骤允许更全面的上下文聚合和推理，超越了显式关键片段检索。该MapReduce原则适用于VLMs和视频代理，并且我们使用大语言模型（LLM）代理来验证其有效性。\n\n在实践中，MR. Video采用了两个MapReduce阶段：（A）字幕生成：为短视频片段生成字幕（映射），然后将重复的字符和对象标准化为共享名称（归约）；（B）分析：对于每个用户问题，分析来自单个短视频的相关信息（映射），并将其整合成最终答案（归约）。MR. Video在具有挑战性的LVBench上相比于最先进的VLMs和视频代理提升了超过10%的准确率。\n\n代码可在此链接下载：https://arxiv.org/pdf/2504.16082.pdf",
+        "地址": "https://arxiv.org/pdf/2504.16082.pdf"
+    },
+    {
+        "名称": "2025 [2504.15524] IPBench: Benchmarking the Knowledge of Large Language Models in Intellectual Property.pdf",
+        "作者": "Qiyao Wang, Guhong Chen, Hongbo Wang, Huaren Liu, Minghui Zhu, Zhifei Qin, Linwei Li, Yilin Yue, Shiqiang Wang, Jiayan Li, Yihang Wu, Ziqiang Liu, Longze Chen, Run Luo, Liyang Fan, Jiaming Li, Lei Zhang, Kan Xu, Hongfei Lin, Hamid Alinejad-Rokny, Shiwen Ni, Yuan Lin, Min Yang",
+        "摘要": "摘要：知识产权（IP）是一个融合技术和法律知识的独特领域，具有内在的复杂性和知识密集性。随着大型语言模型（LLMs）的不断进步，它们在处理知识产权任务方面显示出巨大的潜力，使得知识产权相关内容的分析、理解和生成更加高效。然而，现有的数据集和基准测试要么专注于专利，要么涵盖知识产权领域的有限方面，未能与现实情境保持一致。为弥补这一差距，我们引入了首个全面的知识产权任务分类法和一个大型、多样化的双语基准测试集IPBench，涵盖8种知识产权机制和20项任务。该基准测试旨在评估LLMs在现实世界知识产权应用中的理解和生成能力。我们对16个LLMs进行了基准测试，包括通用模型和领域特定模型，发现表现最好的模型仅达到75.8%的准确率，说明还有很大的改进空间。值得注意的是，开源的知识产权和法律导向模型远远落后于闭源的通用模型。我们公开发布了IPBench的所有数据和代码，并将继续更新，添加更多与知识产权相关的任务，以更好地反映知识产权领域的现实挑战。",
+        "地址": "https://arxiv.org/pdf/2504.15524.pdf"
+    },
+    {
+        "名称": "2025 [2504.15485] CAPTURe: Evaluating Spatial Reasoning in Vision Language Models via Occluded Object Counting.pdf",
+        "作者": "Atin Pothiraj, Elias Stengel-Eskin, Jaemin Cho, Mohit Bansal",
+        "摘要": "摘要: 识别和推理被遮挡（部分或完全隐藏）物体对理解视觉场景至关重要，因为遮挡在现实世界环境中经常发生，影响空间理解。为了测试模型推理多个被遮挡物体的能力，我们介绍了一项新的任务——通过未见区域的模式非模态计数（CAPTURe），它要求模型通过推断遮挡物后面的模式继续来计数按模式排列的物体。CAPTURe需要视觉模式识别和推理，使其成为评估视觉-语言模型（VLMs）是否理解被遮挡模式和具备空间理解技能的有用测试平台。通过要求模型推理被遮挡物体，CAPTURe还测试了VLMs形成世界模型的能力，以填补缺失信息。CAPTURe由两部分组成：（1）CAPTURe-real，包含手动筛选的真实物体模式图像；（2）CAPTURe-synthetic，一个带有生成图案图像的受控诊断。我们在CAPTURe上评估了四个强大的VLMs（GPT-4o、Intern-VL2、Molmo和Qwen2-VL），发现这些模型在计数被遮挡和未遮挡的模式时都表现不佳。重要的是，我们发现这些模型在有遮挡时表现更差，表明VLMs在推断未见空间关系方面也存在不足：即使是最强大的VLMs如GPT-4o在有遮挡时计数也失败。相反，我们发现人类在CAPTURe上的错误率非常低。我们还发现提供遮挡物位置的辅助信息会提高性能，强调了模型错误既来自处理遮挡的能力不足，也来自在图像中计数的难度。\n\n作者: Atin Pothiraj, Elias Stengel-Eskin, Jaemin Cho, Mohit Bansal\n\n评论: 代码和数据：this https URL\n\n链接: [链接](https://arxiv.org/pdf/2504.15485.pdf)\n\n标题: CAPTURe：通过遮挡物体计数评估视觉语言模型中的空间推理\n\n年份: 2025",
+        "地址": "https://arxiv.org/pdf/2504.15485.pdf"
+    },
+    {
+        "名称": "2025 [2504.14735] DiffVox: A Differentiable Model for Capturing and Analysing Professional Effects Distributions.pdf",
+        "作者": "Chin-Yun Yu, Marco A. Martínez-Ramírez, Junghyun Koo, Ben Hayes, Wei-Hsiang Liao, György Fazekas, Yuki Mitsufuji",
+        "摘要": "摘要：本研究介绍了一种新颖且可解释的模型DiffVox，用于在音乐制作中匹配人声效果。DiffVox，即“可微分人声效果”，融合了参数均衡、动态范围控制、延迟和混响，并采用有效的可微分实现，以便通过梯度优化进行参数估算。人声预设来自两个数据集，包括MedleyDB的70个曲目和一个私人收藏的365个曲目。参数相关性分析强调了效果与参数之间的强相关性，例如，高通滤波器和低架滤波器常常一起作用于低端，而延迟时间与延迟信号的强度相关。主成分分析揭示了与McAdams音色维度的连接，其中最重要的成分调节感知的宽敞度，而次要成分影响光谱亮度。统计测试确认了参数分布的非高斯性质，突显了人声效果空间的复杂性。这些关于参数分布的初步发现为未来人声效果建模和自动混音的研究奠定了基础。我们的源代码和数据集可通过此链接访问：https URL。",
+        "地址": "https://arxiv.org/pdf/2504.14735.pdf"
+    }
+]
