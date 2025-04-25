@@ -1,0 +1,104 @@
+[
+    {
+        "名称": "2025 [2504.15279] VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models.pdf",
+        "作者": "Weiye Xu, Jiahao Wang, Weiyun Wang, Zhe Chen, Wengang Zhou, Aijun Yang, Lewei Lu, Houqiang Li, Xiaohua Wang, Xizhou Zhu, Wenhai Wang, Jifeng Dai, Jinguo Zhu",
+        "摘要": "摘要: 视觉推理是人类智力的核心组成部分，也是高级多模态模型的关键能力。然而，目前对多模态大型语言模型（MLLMs）的推理评估通常依赖于文本描述，并允许基于语言的推理捷径，未能衡量真正以视觉为中心的推理。为了解决这一问题，我们引入了VisuLogic：一个包含六个类别（例如，定量变化、空间关系、属性比较）的1,000个经人工验证问题的基准测试。这些各种类型的问题可以从多个角度评估MLLMs的视觉推理能力。我们在这一基准上评估了领先的MLLMs，并分析了它们的结果以识别常见的失败模式。大多数模型的准确率低于30%——仅比25%的随机基线略高，远低于人类达到的51.4%，揭示了视觉推理方面的显著差距。此外，我们提供了一个补充的训练数据集和一个强化学习基线，以支持进一步的进展。",
+        "地址": "https://arxiv.org/pdf/2504.15279.pdf"
+    },
+    {
+        "名称": "2025 [2504.14509] DreamID: High-Fidelity and Fast diffusion-based Face Swapping via Triplet ID Group Learning.pdf",
+        "作者": "Fulong Ye, Miao Hua, Pengze Zhang, Xinghui Li, Qichao Sun, Songtao Zhao, Qian He, Xinglong Wu",
+        "摘要": "摘要：在本文中，我们介绍了DreamID，这是一种基于扩散的换脸模型，能够实现高水平的身份相似性、属性保留、图像质量以及快速推理速度。不同于通常依赖隐式监督且难以达到满意效果的换脸训练过程，DreamID通过构建三元组身份组数据建立了换脸的显式监督，显著增强了身份相似性和属性保留。扩散模型的迭代特性在利用高效的图像空间损失函数时带来了挑战，因为在训练过程中执行耗时的多步采样来获取生成的图像是不切实际的。为了解决这一问题，我们利用了加速的扩散模型SD Turbo，将推理步骤减少到一次迭代，从而实现了高效的像素级端到端训练，并显式使用三元组身份组监督。此外，我们提出了一种改进的基于扩散的模型架构，包含SwapNet、FaceNet和ID Adapter。这个强大的架构充分释放了三元组身份组显式监督的威力。最后，为了进一步扩展我们的方法，我们在训练过程中显式修改三元组身份组数据，以微调并保留特定属性，如眼镜和脸型。广泛的实验表明，DreamID在身份相似性、姿势和表情保留以及图像质量方面优于最先进的方法。总的来说，DreamID在0.6秒内实现了512*512分辨率的高质量换脸效果，并在复杂光照、大角度和遮挡等具有挑战性的场景中表现出色。",
+        "地址": "https://arxiv.org/pdf/2504.14509.pdf"
+    },
+    {
+        "名称": "2025 [2504.15431] Trillion 7B Technical Report.pdf",
+        "作者": "Sungjun Han, Juyoung Suk, Suyeong An, Hyungguk Kim, Kyuseok Kim, Wonsuk Yang, Seungtaek Choi, Jamin Shin (Trillion Labs)",
+        "摘要": "摘要：我们介绍了Trillion-7B，这是目前最令牌高效的以韩语为中心的多语言大模型（LLM）。我们创新的跨语言文档注意力（XLDA）机制使得从英语到韩语和日语等目标语言的知识转移变得高效且有效。结合优化的数据组合、语言特定的过滤和量身定制的分词器构建，Trillion-7B在多语言数据中仅使用其2万亿训练令牌的10%并仅需59,400小时的H100 GPU计算时间（花费148,000美元）就能完成训练，同时实现了具有竞争力的性能。涵盖四种语言的27项基准测试的全面评估显示了Trillion-7B在多语言环境中的强大表现和卓越的跨语言一致性。\n\n作者：韩成俊，宿柱英，安秀英，金炯旭，金奎锡，杨元锡，崔承泽，申斑民（Trillion实验室）\n\n备注：预览版\n\n链接：https://arxiv.org/pdf/2504.15431.pdf\n\n标题：2025 [2504.15431] Trillion 7B技术报告.pdf",
+        "地址": "https://arxiv.org/pdf/2504.15431.pdf"
+    },
+    {
+        "名称": "2025 [2504.15777] Tina: Tiny Reasoning Models via LoRA.pdf",
+        "作者": "Shangshang Wang, Julian Asilis, Ömer Faruk Akgül, Enes Burak Bilgin, Ollie Liu, Willie Neiswanger",
+        "摘要": "摘要（Abstract）：为了探讨在语言模型中以成本效益高的方式实现强大的推理能力，我们提出了 Tina，这是一组通过高成本效率实现的小型推理模型。值得注意的是，Tina 展示了通过在强化学习（RL）过程中对一个已经很小的 15 亿参数基础模型应用参数高效更新（使用低秩适应，LoRA），仅用最少的资源即可开发出显著的推理性能。这种极简方法产生的模型，其推理性能与基于相同基础模型的现有最先进（SOTA）RL 推理模型相竞争，有时甚至超越它们。尤其重要的是，这一点是以现有 SOTA 模型的极小部分计算后训练成本实现的。实际上，最佳的 Tina 模型在 AIME24 测试中实现了 43.33% 的 Pass@1 精度，推理性能提高超过 20%，后训练和评估成本仅为 9 美元（约为 260 倍的成本降低）。我们的研究揭示了通过 LoRA 进行高效 RL 推理的惊人效果，并在多个开源推理数据集和各种消融设置中验证了这一点，均使用单一、固定的一组超参数。此外，我们假设这种效果和效率源于 LoRA 快速使模型适应 RL 奖励的推理结构格式，同时在很大程度上保留了基础模型的潜在知识。为了服务于可访问性和开放研究，我们完全开源了所有代码、训练日志以及模型权重和检查点。\n\n翻译的中文摘要：\n为了探讨在语言模型中以成本效益高的方式实现强大的推理能力，我们提出了 Tina，这是一组通过高成本效率实现的小型推理模型。Tina 展示了通过在强化学习（RL）过程中对一个已经很小的 1.5 亿参数基础模型应用参数高效更新（使用低秩适应，LoRA），仅用最少的资源即可开发出显著的推理性能。这种极简方法产生的模型，其推理性能与基于相同基础模型的现有最先进（SOTA）RL 推理模型相竞争，有时甚至超越它们。尤其重要的是，这一点是以现有 SOTA 模型的极小部分计算后训练成本实现的。最佳的 Tina 模型在 AIME24 测试中实现了 43.33% 的 Pass@1 精度，推理性能提高超过 20%，后训练和评估成本仅为 9 美元（约为 260 倍的成本降低）。我们的研究揭示了通过 LoRA 进行高效 RL 推理的惊人效果，并在多个开源推理数据集和各种消融设置中验证了这一点，均使用单一固定的一组超参数。此外，我们假设这种效果和效率源于 LoRA 快速使模型适应 RL 奖励的推理结构格式，同时在很大程度上保留了基础模型的潜在知识。为了服务于可访问性和开放研究，我们完全开源了所有代码、训练日志以及模型权重和检查点。",
+        "地址": "https://arxiv.org/pdf/2504.15777.pdf"
+    },
+    {
+        "名称": "2025 [2504.16929] I-Con: A Unifying Framework for Representation Learning.pdf",
+        "作者": "Shaden Alshammari, John Hershey, Axel Feldmann, William T. Freeman, Mark Hamilton",
+        "摘要": "摘要：随着表示学习领域的发展，用于解决各类问题的各种损失函数层出不穷。我们提出了一个单一的信息论方程，能够概括现代机器学习中大量的损失函数。特别地，我们引入了一个框架，展示了几类广泛的机器学习方法实际上是在最小化两个条件分布间的综合KL散度：监督表示和学习表示。这个视角揭示了潜在的信息几何结构，该结构贯穿于聚类、谱方法、降维、对比学习和监督学习之中。这个框架使得我们能够通过结合文献中成功的技术开发新的损失函数。我们不仅展示了涉及23种不同方法的大量证明，还利用这些理论成果创建了最新的无监督图像分类器，在ImageNet-1K上的无监督分类任务中相比之前的最新成果提升了8%。我们还展示了I-Con可以用于推导出有原则的去偏方法，从而改进对比表示学习。\n\n作者：Shaden Alshammari, John Hershey, Axel Feldmann, William T. Freeman, Mark Hamilton\n\n评论：ICLR 2025；网站：此https URL。第十三届国际表示学习会议（ICLR 2025）论文集\n\n链接：https://arxiv.org/pdf/2504.16929.pdf\n\n标题：I-Con：一致表示学习框架（2025 [2504.16929]）",
+        "地址": "https://arxiv.org/pdf/2504.16929.pdf"
+    },
+    {
+        "名称": "2025 [2504.16074] PHYBench: Holistic Evaluation of Physical Perception and Reasoning in Large Language Models.pdf",
+        "作者": "Shi Qiu, Shaoyang Guo, Zhuo-Yang Song, Yunbo Sun, Zeyu Cai, Jiashen Wei, Tianyu Luo, Yixuan Yin, Haoxu Zhang, Yi Hu, Chenyang Wang, Chencheng Tang, Haoling Chang, Qi Liu, Ziheng Zhou, Tianyu Zhang, Jingtian Zhang, Zhangyi Liu, Minghao Li, Yuku Zhang, Boxuan Jing, Xianqi Yin, Yutong Ren, Zizhuo Fu, Weike Wang, Xudong Tian, Anqi Lv, Laifu Man, Jianxiang Li, Feiyu Tao, Qihua Sun, Zhou Liang, Yushu Mu, Zhongxuan Li, Jing-Jun Zhang, Shutao Zhang, Xiaotian Li, Xingqi Xia, Jiawei Lin, Zheyu Shen, Jiahang Chen, Qiuhao Xiong, Binran Wang, Fengyuan Wang, Ziyang Ni, Bohan Zhang, Fan Cui, Changkun Shao, Qing-Hong Cao, Ming-xing Luo, Muhan Zhang, Hua Xing Zhu",
+        "摘要": "摘要: 我们介绍了PHYBench，一个新颖的、高质量的基准测试，旨在评估大型语言模型 (LLMs) 在物理情境中的推理能力。PHYBench包含500个精心策划的物理问题，基于现实世界的物理场景，旨在评估模型理解和推理现实物理过程的能力。涵盖了力学、电磁学、热力学、光学、现代物理学和高级物理学，基准测试的难度范围从高中练习到本科问题和物理奥林匹克挑战。此外，我们提出了表达式编辑距离 (EED) 分数，这是一种基于数学表达式编辑距离的新颖评估指标，可有效捕捉模型推理过程和结果之间的差异，超越传统的二元评分方法。我们对各种LLMs进行了PHYBench测试，并将其性能与人类专家进行了对比。结果显示，即使是最先进的推理模型也显著落后于人类专家，突显了它们在复杂物理推理场景中需要改进的地方。我们的基准测试结果和数据集可在此https URL公开获取。",
+        "地址": "https://arxiv.org/pdf/2504.16074.pdf"
+    },
+    {
+        "名称": "2025 [2504.15843] Pre-DPO: Improving Data Utilization in Direct Preference Optimization Using a Guiding Reference Model.pdf",
+        "作者": "Junshu Pan, Wei Shen, Shulin Huang, Qiji Zhou, Yue Zhang",
+        "摘要": "摘要: 直接偏好优化（DPO）通过直接优化人类偏好简化了人类反馈强化学习（RLHF），无需显式奖励模型。在DPO训练过程中，参考模型充当数据权重调整器。然而，在DPO中常见的策略和参考模型相同初始化实践可能导致数据利用效率低下并限制性能表现。同时，简单偏好优化（SimPO）中缺乏参考模型降低了训练的鲁棒性，需更严格条件防止灾难性遗忘。在本研究中，我们提出了Pre-DPO，一种基于DPO的简便且有效的训练范式，通过利用指导性参考模型增强偏好优化性能。该参考模型为通过训练偏好数据可实现的最优策略状态提供预见，作为一种指导机制，自适应地对适合和不适合模型的样本分配高或低权重。在AlpacaEval 2.0和Arena-Hard v0.1基准上的广泛实验表明，Pre-DPO在不依赖外部模型或额外数据的情况下，一贯提升了DPO和SimPO的表现。\n\n作者: Pan Junshu, Shen Wei, Huang Shulin, Zhou Qiji, Zhang Yue\n\nURL: https://arxiv.org/pdf/2504.15843.pdf\n\n标题: Pre-DPO: 改善数据利用在直接偏好优化使用指导参考模型",
+        "地址": "https://arxiv.org/pdf/2504.15843.pdf"
+    },
+    {
+        "名称": "2025 [2504.16801] Decoupled Global-Local Alignment for Improving Compositional Understanding.pdf",
+        "作者": "Xiaoxing Hu, Kaicheng Yang, Jun Wang, Haoran Xu, Ziyong Feng, Yupei Wang",
+        "摘要": "摘要: 对比语言-图像预训练（CLIP）通过对齐图像和文本模态，在多个下游任务中取得了成功。然而，全局对比学习的性质限制了CLIP理解组合概念（如关系和属性）的能力。尽管最近的研究通过使用全局硬负样本来提升组合理解，但这些方法通过在嵌入空间中强行拉远文本负样本与图像的距离，显著削弱了模型固有的通用能力。为克服这一限制，我们引入了一个解耦的全局-局部对齐（DeGLA）框架，以改进组合理解，同时极大地减轻了通用能力的损失。为了优化模型固有能力的保留，我们在全局对齐过程中结合了自蒸馏机制，使学习的图像-文本编码器与来自指数移动平均的冻结教师模型对齐。在自蒸馏约束下，有效缓解了在微调过程中预训练知识的灾难性遗忘。为提高组合理解，我们首先利用大型语言模型（LLMs）的上下文学习能力构建了约200万个高质量的五类型负面标题。随后，我们提出了图像基础对比（IGC）损失和文本基础对比（TGC）损失，以增强视觉语言的组合性。广泛的实验结果表明了DeGLA框架的有效性。与之前的最先进方法相比，DeGLA在VALSE, SugarCrepe和ARO基准上取得了平均3.5%的提升。同时，在十一组数据集上的零样本分类任务中，获得了平均13.0%的性能提升。我们的代码将在此HTTPS URL发布。\n\n作者: 胡晓星，杨凯成，王俊，徐浩然，冯子勇，王宇培\n\n论文题目: 2025 [2504.16801] 用于改进组合理解的解耦全局-局部对齐",
+        "地址": "https://arxiv.org/pdf/2504.16801.pdf"
+    },
+    {
+        "名称": "2025 [2504.16915] DreamO: A Unified Framework for Image Customization.pdf",
+        "作者": "Chong Mou, Yanze Wu, Wenxu Wu, Zinan Guo, Pengze Zhang, Yufeng Cheng, Yiming Luo, Fei Ding, Shiwen Zhang, Xinghui Li, Mengtian Li, Songtao Zhao, Jian Zhang, Qian He, Xinglong Wu",
+        "摘要": "摘要：近期，关于图像定制（例如身份、主题、风格、背景等）的广泛研究展示了大规模生成模型的强大定制能力。然而，大多数方法是为特定任务设计的，限制了它们将不同类型条件结合的通用性。开发一个统一的图像定制框架仍然是一个开放的挑战。本文提出了DreamO，一个旨在支持广泛任务并促进多个条件无缝整合的图像定制框架。具体来说，DreamO利用扩散变换器（DiT）框架统一处理不同类型的输入。在训练过程中，我们构建了一个包含各种定制任务的大规模训练数据集，并引入了特征路由约束，以便精确查询参考图像中的相关信息。此外，我们设计了一种占位符策略，将特定的占位符与特定位置的条件关联起来，从而控制生成结果中条件的位置。此外，我们采用了由三个阶段组成的渐进式训练策略：初始阶段专注于简单任务并限定数据以建立基线一致性，全面训练阶段全面增强定制能力，以及最后的质量校准阶段校正低质量数据引入的质量偏差。大量实验表明，提出的DreamO能够高质量地执行各种图像定制任务，并灵活地整合不同类型的控制条件。",
+        "地址": "https://arxiv.org/pdf/2504.16915.pdf"
+    },
+    {
+        "名称": "2025 [2504.16891] AIMO-2 Winning Solution: Building State-of-the-Art Mathematical Reasoning Models with OpenMathReasoning dataset.pdf",
+        "作者": "Ivan Moshkov, Darragh Hanley, Ivan Sorokin, Shubham Toshniwal, Christof Henkel, Benedikt Schifferer, Wei Du, Igor Gitman",
+        "摘要": "摘要：本文介绍了我们在AI数学奥林匹克竞赛（AIMO-2）中获奖的方案。我们的顶尖数学推理模型构建方案依赖于三个关键支柱。首先，我们创建了一个包含54万道独特高质量数学题目的大规模数据集，这些题目包括奥林匹克水平的题目及其320万条详细推理的解答。其次，我们开发了一种新方法，通过迭代训练、生成和质量筛选，将代码执行与长推理模型集成，生成了170万条高质量的工具集成推理方案。第三，我们创建了一条流程来训练模型，从众多候选解答中选择最有前途的解答。我们展示了这种生成式解答选择（GenSelect）可以显著改进多数投票基线。结合这些想法，我们训练了一系列在数学推理基准测试中达到顶尖水平的模型。为了促进进一步研究，我们发布了代码、模型和完整的OpenMathReasoning数据集，使用商业许可。",
+        "地址": "https://arxiv.org/pdf/2504.16891.pdf"
+    },
+    {
+        "名称": "2025 [2504.15585] A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment.pdf",
+        "作者": "Kun Wang, Guibin Zhang, Zhenhong Zhou, Jiahao Wu, Miao Yu, Shiqian Zhao, Chenlong Yin, Jinhu Fu, Yibo Yan, Hanjun Luo, Liang Lin, Zhihao Xu, Haolang Lu, Xinye Cao, Xinyun Zhou, Weifei Jin, Fanci Meng, Junyuan Mao, Hao Wu, Minghe Wang, Fan Zhang, Junfeng Fang, Chengwei Liu, Yifan Zhang, Qiankun Li, Chongye Guo, Yalan Qin, Yi Ding, Donghai Hong, Jiaming Ji, Xinfeng Li, Yifan Jiang, Dongxia Wang, Yihao Huang, Yufei Guo, Jen-tse Huang, Yanwei Yue, Wenke Huang, Guancheng Wan, Tianlin Li, Lei Bai, Jie Zhang, Qing Guo, Jingyi Wang, Tianlong Chen, Joey Tianyi Zhou, Xiaojun Jia, Weisong Sun, Cong Wu, Jing Chen, Xuming Hu, Yiming Li, Xiao Wang, Ningyu Zhang, Luu Anh Tuan, Guowen Xu, Tianwei Zhang, Xingjun Ma, Xiang Wang, Bo An, Jun Sun, Mohit Bansal, Shirui Pan, Yuval Elovici, Bhavya Kailkhura, Bo Li, Yaodong Yang, Hongwei Li, Wenyuan Xu, Yizhou Sun, Wei Wang, Qing Li, Ke Tang, Yu-Gang Jiang, Felix Juefei-Xu, Hui Xiong, Xiaofeng Wang, Shuicheng Yan, Dacheng Tao, Philip S. Yu, Qingsong Wen, Yang Liu",
+        "摘要": "摘要：大型语言模型（LLMs）的卓越成功为学术界和工业界展示了通向人工通用智能的光明前景，因为它们在各种应用中的表现前所未有。随着LLMs在研究和商业领域不断受到重视，它们的安全性问题已成为研究人员、企业乃至国家的共同关注。目前，现有关于LLM安全性的调查主要集中在LLM生命周期的特定阶段，比如部署阶段或微调阶段，缺乏对LLM整个“生命周期”的全面理解。为了解决这一问题，本文首次引入了“全栈”安全的概念，系统地考虑LLM训练、部署和最终商业化过程中的安全问题。相比现有的LLM安全性调查，我们的工作展示了几个显著优势：（I）全面视角。我们将完整的LLM生命周期定义为包括数据准备、预训练、后训练、部署和最终商业化。据我们所知，这代表着首次涵盖LLM整个生命周期的安全性调查。（II）广泛的文献支持。我们的研究基于对800多篇论文的详尽回顾，确保了全面覆盖，并对安全性问题进行了系统组织，从而具备更全面的理解。（III）独特的见解。通过系统的文献分析，我们为每一章开发了可靠的路线图和视角。我们的工作确定了有前途的研究方向，包括数据生成的安全性、对齐技术、模型编辑和基于LLM的代理系统。这些见解为研究人员未来在该领域的工作提供了宝贵的指导。",
+        "地址": "https://arxiv.org/pdf/2504.15585.pdf"
+    },
+    {
+        "名称": "2025 [2504.11919] Rethinking the Generation of High-Quality CoT Data from the Perspective of LLM-Adaptive Question Difficulty Grading.pdf",
+        "作者": "Qianjin Yu, Keyu Wu, Zihan Chen, Chushu Zhang, Manlin Mei, Lingjun Huang, Fang Tan, Yongsheng Du, Kunlin Liu, Yurui Zhu",
+        "摘要": "摘要：最近，DeepSeek-R1（671B）（DeepSeek-AI等，2025）展示了其在复杂任务中出色的推理能力，并公开分享了其方法。这为激发小型大语言模型（LLMs）推理能力提供了潜在的高质量链式思维（CoT）数据。为了为不同的LLMs生成高质量的CoT数据，我们寻求一种高效的方法来生成具有LLM自适应问题难度级别的高质量CoT数据。首先，我们根据LLMs自身的推理能力对问题的难度进行评分，并构建一个LLM自适应问题数据库。其次，我们根据问题难度级别的分布从问题数据库中抽样，然后使用DeepSeek-R1（671B）（DeepSeek-AI等，2025）生成相应的高质量CoT数据及正确答案。由于构建了具有LLM自适应难度级别的CoT数据，我们显著减少了数据生成的成本，并提高了模型监督微调（SFT）的效率。最后，我们在复杂数学竞赛和代码生成任务领域验证了所提方法的有效性和通用性。值得注意的是，凭借仅2000条高质量数学CoT数据，我们的ZMath-32B在数学推理任务中超越了DeepSeek-Distill-32B。同样地，凭借仅2000条高质量代码CoT数据，我们的ZCode-32B在代码推理任务中超越了DeepSeek-Distill-32B。",
+        "地址": "https://arxiv.org/pdf/2504.11919.pdf"
+    },
+    {
+        "名称": "2025 [2504.15707] RePOPE: Impact of Annotation Errors on the POPE Benchmark.pdf",
+        "作者": "Yannic Neuhaus, Matthias Hein",
+        "摘要": "摘要：由于数据标注代价高昂，基准数据集通常结合来自已建立图像数据集的标签。在这项工作中，我们评估了MSCOCO中标签错误对常用的对象幻觉基准POPE的影响。我们重新注释了基准图像，并发现不同子集之间的注释错误存在不平衡。利用修订后的标签（我们称之为RePOPE）对多个模型进行评估，我们观察到模型排名发生了明显变化，突显了标签质量的重要性。代码和数据可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.15707.pdf"
+    },
+    {
+        "名称": "2025 [2504.10419] Unchecked and Overlooked: Addressing the Checkbox Blind Spot in Large Language Models with CheckboxQA.pdf",
+        "作者": "Michał Turski, Mateusz Chiliński, Łukasz Borchmann",
+        "摘要": "摘要：\n\n复选框在现实世界的文档处理过程中至关重要，复选框的存在或不存在直接影响数据提取和决策过程。然而，尽管大型视觉和语言模型在广泛任务中表现出色，但它们在解释可复选内容方面仍存在困难。这一挑战在某些行业中尤为突出，因为一个被忽略的复选框可能导致昂贵的监管或合同疏忽。为了填补这一空白，我们引入了CheckboxQA数据集，这是一种针对性资源，旨在评估和提高模型在复选框任务上的表现。该数据集揭示了当前模型的局限性，并作为改进文件理解系统的有价值工具，对法律科技和金融等行业应用具有重要意义。\n\n该数据集可公开获取，网址为：this https URL",
+        "地址": "https://arxiv.org/pdf/2504.10419.pdf"
+    },
+    {
+        "名称": "2025 [2504.15254] CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation.pdf",
+        "作者": "Anirudh Khatry, Robert Zhang, Jia Pan, Ziteng Wang, Qiaochu Chen, Greg Durrett, Isil Dillig",
+        "摘要": "摘要：C 到 Rust 的转译对于现代化传统 C 代码，同时增强安全性和与现代 Rust 生态系统的互操作性至关重要。然而，目前尚无数据集可用于评估系统是否能够将 C 转译为通过一组测试用例的安全 Rust 代码。我们引入了 CRUST-Bench，这是一组由 100 个 C 仓库组成的数据集，每个仓库都配有手动编写的安全 Rust 接口和用于验证转译正确性的测试用例。通过考虑整个仓库而不是独立的函数，CRUST-Bench 捕捉了跨多个文件依赖关系的复杂项目的转译挑战。提供的 Rust 接口提供了明确的规范，以确保遵循惯用的、内存安全的 Rust 模式，同时附带的测试用例强制执行功能正确性。我们评估了最先进的大型语言模型 (LLMs) 在此任务上的表现，发现生成安全和惯用的 Rust 代码对各种最先进的方法和技术仍然是一个具有挑战性的问题。我们还提供了 LLMs 在 C 到 Safe Rust 转译过程中通常会犯的错误的见解。表现最佳的模型 OpenAI o1 在单次设置中仅能解决 15 个任务。在 CRUST-Bench 上的改进将推动转译系统的发展，使其能够处理复杂场景，并帮助将传统代码库从 C 迁移到像 Rust 这样的确保内存安全的语言。你可以在此 https URL 找到数据集和代码。",
+        "地址": "https://arxiv.org/pdf/2504.15254.pdf"
+    },
+    {
+        "名称": "2025 [2504.16145] Progressive Language-guided Visual Learning for Multi-Task Visual Grounding.pdf",
+        "作者": "Jingchao Wang, Hong Wang, Wenlong Zhang, Kunhua Ji, Dingjiang Huang, Yefeng Zheng",
+        "摘要": "摘要：多任务视觉定位（MTVG）包括两个子任务，即指代表达理解（REC）和指代表达分割（RES）。现有的代表性方法通常遵循由三个核心程序组成的研究流程，包括分别进行视觉和语言模态的独立特征提取、跨模态交互模块以及针对不同子任务的独立预测头。尽管实现了显著的性能，这类研究方法有两个限制：1）语言内容没有充分注入整个视觉主干网络，以促进更有效的视觉特征提取，需要一个额外的跨模态交互模块；2）没有有效利用REC和RES任务之间的关系，帮助协同预测以获得更准确的输出。为了解决这些问题，本文提出了一种用于多任务视觉定位的渐进式语言引导视觉学习框架，简称PLVL，该框架不仅能细致挖掘视觉模态本身的固有特征表达，还能逐步注入语言信息，帮助学习与语言相关的视觉特征。这样我们的PLVL在完整引入语言指导的同时，不需要额外的跨模态融合模块。此外，我们分析得出，REC的定位中心在某种程度上有助于确定RES的待分割对象区域。受此研究启发，我们设计了一个多任务头来完成这两个子任务的协同预测。在几个基准数据集上进行的广泛实验充分证实，我们的PLVL在REC和RES任务中明显优于现有的代表方法。",
+        "地址": "https://arxiv.org/pdf/2504.16145.pdf"
+    },
+    {
+        "名称": "2025 [2504.13263] Causal-Copilot: An Autonomous Causal Analysis Agent.pdf",
+        "作者": "Xinyue Wang, Kun Zhou, Wenyi Wu, Har Simrat Singh, Fang Nan, Songyao Jin, Aryan Philip, Saloni Patnaik, Hou Zhu, Shivam Singh, Parjanya Prashant, Qian Shen, Biwei Huang",
+        "摘要": "摘要：因果分析在科学发现和可靠决策中发挥着基础性作用，但由于其概念和算法的复杂性，它在很大程度上对领域专家来说是难以接触的。这种因果方法与实际可用性之间的脱节带来了双重挑战：领域专家无法利用因果学习的最新进展，而因果研究人员缺乏广泛的实地部署来测试和完善他们的方法。为解决这一问题，我们引入了Causal-Copilot，一个在大型语言模型框架内实现专家级因果分析的自主代理。Causal-Copilot自动化了因果分析的完整流程，适用于表格数据和时间序列数据——包括因果发现、因果推理、算法选择、超参数优化、结果解释及生成可操作性见解。它支持通过自然语言进行互动完善，降低了非专业人员的使用门槛，同时保持方法的严格性。通过整合超过20种最先进的因果分析技术，我们的系统促进了一个良性循环——扩展领域专家对先进因果方法的访问，同时生成丰富的实际应用来指导和推进因果理论。实证评估表明，Causal-Copilot相比现有基准外表现出优越的性能，提供了一个可靠、可扩展且可扩展的解决方案，弥合了因果分析中理论复杂性与现实应用之间的差距。Causal-Copilot的在线互动演示可在该https网址上查看。",
+        "地址": "https://arxiv.org/pdf/2504.13263.pdf"
+    }
+]
