@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2504.17761] Step1X-Edit: A Practical Framework for General Image Editing.pdf",
+        "作者": "Shiyu Liu, Yucheng Han, Peng Xing, Fukun Yin, Rui Wang, Wei Cheng, Jiaqi Liao, Yingming Wang, Honghao Fu, Chunrui Han, Guopeng Li, Yuang Peng, Quan Sun, Jingwei Wu, Yan Cai, Zheng Ge, Ranchen Ming, Lei Xia, Xianfang Zeng, Yibo Zhu, Binxing Jiao, Xiangyu Zhang, Gang Yu, Daxin Jiang",
+        "摘要": "摘要: 近年来，图像编辑模型取得了显著而快速的发展。最近揭示的尖端多模态模型，如GPT-4o和Gemini2 Flash，展示了极有前景的图像编辑能力。这些模型表现出出色的能力，能够满足绝大多数由用户驱动的编辑需求，标志着图像处理领域的重大进步。然而，开源算法与这些闭源模型之间仍存在巨大差距。因此，在本文中，我们旨在发布一个最先进的图像编辑模型，称为Step1X-Edit，它可以提供与闭源模型如GPT-4o和Gemini2 Flash相当的性能。更具体地说，我们采用多模态LLM来处理参考图像和用户的编辑指令。提取了隐空间嵌入并与扩散图像解码器集成以获得目标图像。为了训练模型，我们构建了一条数据生成管线以生成高质量的数据集。为了评估，我们开发了GEdit-Bench，这是一个基于真实世界用户指令的新基准。在GEdit-Bench上的实验结果表明，Step1X-Edit比现有开源基线表现出显著的优势，并接近领先的专有模型的性能，从而对图像编辑领域做出了重要贡献。",
+        "地址": "https://arxiv.org/pdf/2504.17761.pdf"
+    },
+    {
+        "名称": "2025 [2504.17192] Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning.pdf",
+        "作者": "Minju Seo, Jinheon Baek, Seongyun Lee, Sung Ju Hwang",
+        "摘要": "摘要：尽管机器学习研究迅速发展，但相应的代码实现通常不可用，使得研究人员在重现结果和开发先前工作时变得缓慢且劳动密集。同时，最近的大型语言模型（LLMs）在理解科学文献和生成高质量代码方面表现出色。受此启发，我们推出了PaperCoder，这是一种多代理LLM框架，可将机器学习论文转化为功能性代码库。PaperCoder分三个阶段运行：规划阶段，它构建高层次的路线图，设计系统架构并绘制图表，识别文件依赖关系并生成配置文件；分析阶段，重点解释实施特定细节；生成阶段，生成模块化、依赖感知的代码。此外，每个阶段都通过一组专门的代理实例化，旨在在整个工作流程中有效协作。我们随后根据模型评估和人工评估（尤其是原论文作者评估，其中作者发布的代码库作为真实值）来评估PaperCoder在生成机器学习论文的代码实现方面的表现。我们的结果证明了PaperCoder在创建高质量、忠实实现方面的有效性。此外，它在最近发布的PaperBench基准测试中始终显示出优势，远远超过了强大的基线。\n\n作者：徐珉柱, 白珍宪, 李成允, 黄成柱\n\n链接：https://arxiv.org/pdf/2504.17192.pdf\n\n标题：Paper2Code: 从机器学习科学论文自动生成代码",
+        "地址": "https://arxiv.org/pdf/2504.17192.pdf"
+    },
+    {
+        "名称": "2025 [2504.17502] RefVNLI: Towards Scalable Evaluation of Subject-driven Text-to-image Generation.pdf",
+        "作者": "Aviv Slobodkin, Hagai Taitelbaum, Yonatan Bitton, Brian Gordon, Michal Sokolik, Nitzan Bitton Guetta, Almog Gueta, Royi Rassin, Itay Laish, Dani Lischinski, Idan Szpektor",
+        "摘要": "摘要：主题驱动的文本到图像（T2I）生成旨在生成与给定文本描述一致的图像，同时保留参考主体图像中的视觉特征。尽管在图像生成中增强个性化以及视频渲染中的一致角色表现等方面有广泛的下游应用，但由于缺乏可靠的自动评估，该领域进展有限。现有的方法要么仅评估任务的一个方面（即文本一致性或主体保留），要么与人类判断不一致，或者依赖昂贵的基于API的评估。为了解决这个问题，我们引入了RefVNLI，这是一种成本效益高的评估指标，它在单一预测中评估文本一致性和主体保留。该指标在一个源自视频推理基准和图像扰动的大规模数据集上进行训练，在多个基准和主体类别（例如，动物、物体）中，RefVNLI的表现优于或匹配现有基线，在文本对齐方面达到最高6.4点的提升，在主体一致性方面达到8.5点的提升。它在较少见的概念上也表现出色，与人类偏好的准确度一致性超过87%。\n\n作者：Aviv Slobodkin, Hagai Taitelbaum, Yonatan Bitton, Brian Gordon, Michal Sokolik, Nitzan Bitton Guetta, Almog Gueta, Royi Rassin, Itay Laish, Dani Lischinski, Idan Szpektor\n\n论文标题：RefVNLI: Towards Scalable Evaluation of Subject-driven Text-to-image Generation\n\n链接：https://arxiv.org/pdf/2504.17502.pdf",
+        "地址": "https://arxiv.org/pdf/2504.17502.pdf"
+    },
+    {
+        "名称": "2025 [2504.17432] Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs.pdf",
+        "作者": "Tiancheng Gu, Kaicheng Yang, Ziyong Feng, Xingjun Wang, Yanzhao Zhang, Dingkun Long, Yingda Chen, Weidong Cai, Jiankang Deng",
+        "摘要": "摘要：对比语言-图像预训练（CLIP）框架已成为多模态表示学习的广泛使用方法，特别是在图像-文本检索和聚类方面。然而，其效果受到三个关键限制的约束：(1) 文本标记截断，(2) 独立的图像-文本编码，(3) 由于词袋行为导致的组合性不足。尽管最新的多模态大语言模型（MLLMs）在泛化视觉-语言理解方面表现出显著进步，但它们在学习可转移的多模态表示方面的潜力仍有待开发。在这项工作中，我们提出了UniME（通用多模态嵌入），这是一个新颖的两阶段框架，利用MLLMs学习用于多种下游任务的判别表示。在第一阶段，我们从强大的基于LLM的教师模型中进行文本判别知识蒸馏，以增强MLLMs语言部分的嵌入能力。在第二阶段，我们引入了增强的难负样本指令微调，以进一步推进判别表示学习。具体来说，我们首先减轻了假负样本的污染，然后在每个批次内为每个实例采样多个难负样本，迫使模型关注具有挑战性的样本。这种方法不仅提高了判别能力，还增强了下游任务中的指令跟随能力。我们在MMEB基准和多个检索任务（包括短标题和长标题检索以及组合检索）上进行了大量实验，结果表明，UniME在所有任务中都实现了一致的性能提升，展示了卓越的判别和组合能力。",
+        "地址": "https://arxiv.org/pdf/2504.17432.pdf"
+    },
+    {
+        "名称": "2025 [2504.17207] Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation.pdf",
+        "作者": "Phillip Y. Lee, Jihyeon Je, Chanho Park, Mikaela Angelina Uy, Leonidas Guibas, Minhyuk Sung",
+        "摘要": "摘要：我们提出了一个通过心像模拟在视觉语言模型（VLMs）中进行视角认知推理的框架。视角转换，即从另一视角感知环境或情况的能力，是人类级别视觉理解的关键基准，对于与自主代理的环境交互和协作尤为重要。尽管在空间推理方面取得了进展，最近的研究表明现代VLMs在视角认知推理能力上仍然严重不足，并表现出强烈的自我中心解读偏向。为了缩小VLMs与人类感知之间的差距，我们关注心像的作用，即人类通过抽象表示来感知世界，从而促进视角的转换。有鉴于此，我们提出了一个名为抽象视角变化（APC）的框架，该框架有效利用了视觉基础模型，例如对象检测、分割和方位估计，来构建设景抽象并实现视角变换。我们在合成和实际图像基准上的实验表明，与各种VLMs相比，我们的框架在视角认知推理方面显著提高，进一步超越了微调空间推理模型和基于新视角合成的方法。\n\n翻译：我们提出了一种通过心理意象模拟来实现视觉语言模型中视角感知推理的框架。视角转换，即从另一种视角感知环境或情况的能力，是人类级别视觉理解的关键基准，这对于环境交互和与自主代理协作尤为重要。尽管在视觉语言模型的空间推理方面取得了进展，最新研究显示现代的视觉语言模型在视角感知推理能力上仍然严重不足，并表现出强烈的自我中心解读偏向。为了弥合视觉语言模型与人类感知之间的差距，我们重点研究了心理意象的作用，人类通过抽象的表示来感知世界，从而有助于视角的转换。受此启发，我们提出了一个名为抽象视角变化（APC）的框架，该框架有效利用了对象检测、分割和方位估计等基础视觉模型来构建设景抽象并实现视角转换。我们的实验表明，在合成和真实图像基准上，与各种视觉语言模型相比，我们的框架在视角感知推理方面显著提高，并进一步超越了经微调的空间推理模型和基于新视角合成的方法。",
+        "地址": "https://arxiv.org/pdf/2504.17207.pdf"
+    },
+    {
+        "名称": "2025 [2504.16511] QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining.pdf",
+        "作者": "Fengze Liu, Weidong Zhou, Binbin Liu, Zhimiao Yu, Yifan Zhang, Haobin Lin, Yifeng Yu, Xiaohuan Zhou, Taifeng Wang, Yong Cao",
+        "摘要": "摘要（翻译为中文）：\n\n摘要：质量和多样性是大规模语言模型（LLMs）训练数据的两个重要指标，对性能有积极影响。现有研究通常分开优化这些指标，通常先进行质量筛选，然后调整数据比例。然而，这些方法忽略了质量和多样性之间的固有权衡，需联合考虑。在给定固定训练配额的情况下，必须评估每个数据点的质量及其对整体数据集的补充效果。本文提出了一种统一的数据选择框架叫做QuaDMix，该框架自动优化用于LLM预训练的数据分布，同时平衡质量和多样性。具体来说，我们首先提出多种标准来衡量数据质量，并采用领域分类来区分数据点，从而衡量整体多样性。QuaDMix然后采用一个统一的参数化数据采样函数，根据这些质量和多样性相关标签确定每个数据点的采样概率。为加速寻找QuaDMix框架中的最佳参数，我们在较小模型上进行模拟实验并使用LightGBM进行参数搜索，借鉴了RegMix方法。我们在多种模型和数据集上的实验表明，QuaDMix在多个基准测试中平均性能提升了7.2%。这些结果优于质量和多样性的独立策略，突显了平衡数据质量和多样性的必要性和能力。",
+        "地址": "https://arxiv.org/pdf/2504.16511.pdf"
+    },
+    {
+        "名称": "2025 [2504.17789] Token-Shuffle: Towards High-Resolution Image Generation with Autoregressive Models.pdf",
+        "作者": "Xu Ma, Peize Sun, Haoyu Ma, Hao Tang, Chih-Yao Ma, Jialiang Wang, Kunpeng Li, Xiaoliang Dai, Yujun Shi, Xuan Ju, Yushi Hu, Artsiom Sanakoyeu, Felix Juefei-Xu, Ji Hou, Junjiao Tian, Tao Xu, Tingbo Hou, Yen-Cheng Liu, Zecheng He, Zijian He, Matt Feiszli, Peizhao Zhang, Peter Vajda, Sam Tsai, Yun Fu",
+        "摘要": "摘要： 自回归 (AR) 模型在语言生成中长期占据主导地位，正越来越多地应用于图像合成，但通常被认为不如基于扩散的模型具有竞争力。主要限制在于 AR 模型所需的大量图像标记，这限制了训练和推断效率及图像分辨率。为了解决这一问题，我们提出了 Token-Shuffle，这是一种新颖且简单的方法，可以减少 Transformer 中的图像标记数量。我们的关键见解是多模态大语言模型 (MLLM) 中视觉词汇的维度冗余，其中视觉编码器的低维视觉代码直接映射到高维语言词汇。利用这一点，我们考虑了两个关键操作：标记混洗（token-shuffle），将沿信道维度的空间局部标记合并以减少输入标记数量；标记反混洗（token-unshuffle），在 Transformer 块之后解开推断出的标记以恢复输出的空间排列。与文本提示联合训练，我们的策略不需要额外的预训练文本编码器，使 MLLMs 能够在统一的下一个标记预测方式下支持极高分辨率的图像合成，同时保持高效训练和推理。我们首次将 AR 文本到图像生成的分辨率提升到 2048x2048，并获得了令人满意的生成性能。在 GenAI 基准测试中，我们的 27亿参数模型在困难提示上的总体得分为 0.77，优于 AR 模型 LlamaGen 0.18 和扩散模型 LDM 0.15。大规模的人类评估也充分展示了我们在文本对齐、视觉缺陷和视觉外观方面的卓越图像生成能力。我们希望 Token-Shuffle 能成为 MLLMs 内高效高分辨率图像生成的基础设计。",
+        "地址": "https://arxiv.org/pdf/2504.17789.pdf"
+    },
+    {
+        "名称": "2025 [2504.17040] DyMU: Dynamic Merging and Virtual Unmerging for Efficient VLMs.pdf",
+        "作者": "Zhenhailong Wang, Senthil Purushwalkam, Caiming Xiong, Silvio Savarese, Heng Ji, Ran Xu",
+        "摘要": "摘要：我们提出了DyMU，这是一种高效且免训练的框架，通过动态减少视觉-语言模型（VLMs）的计算负担，同时保持高任务性能。我们的方法包括两个关键组件。首先，动态令牌合并（DToMe）通过基于图像复杂性合并相似的视觉令牌嵌入，解决了视觉变压器中固定长度输出的固有低效问题。其次，虚拟令牌拆分（VTU）通过高效地重建完整序列的注意力动态，模拟大语言模型（LLMs）所需的预期令牌序列，从而无需额外微调即可保持下游性能。与之前的方法不同，我们的方法根据图像内容动态调整令牌压缩，并且完全免训练，使其能够立即应用于大多数最先进的VLM架构。在图像和视频理解任务上的广泛实验表明，DyMU可以在保持与全长模型相当的性能的同时，将平均视觉令牌数量减少32%-85%，涵盖了各种VLM架构，包括最近流行的基于AnyRes的视觉编码器。此外，通过定性分析，我们展示了DToMe如何根据图像复杂性有效地调整令牌减少，并且与现有系统不同，为用户提供了更多的计算成本控制。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2504.17040.pdf"
+    },
+    {
+        "名称": "2025 [2504.16828] Process Reward Models That Think.pdf",
+        "作者": "Muhammad Khalifa, Rishabh Agarwal, Lajanugen Logeswaran, Jaekyeom Kim, Hao Peng, Moontae Lee, Honglak Lee, Lu Wang",
+        "摘要": "摘要：\n逐步验证器——也称为过程奖励模型（PRMs）——是测试时扩展的关键组成部分。PRMs 需要逐步监督，因此训练成本高。本文旨在构建高效的数据 PRMs，作为口头化的逐步奖励模型，通过生成验证思维链（CoT）来验证解决方案的每一步。我们提出了 ThinkPRM，这是一种在数量级上比判别PRMs所需过程标签少得多的低标签量 PRM。我们的方法利用长 CoT 模型的内在推理能力，并在仅使用PRM800K的1%的过程标签时，在多个具有挑战性的基准上优于LLM-as-a-Judge和判别验证器。具体来说，ThinkPRM 在 ProcessBench、MATH-500 和 AIME '24 的最佳 N 选择和奖励指导搜索方面击败了基准。在 GPQA-Diamond 和 LiveCodeBench 子集上的域外评估中，我们的 PRM 分别比在全 PRM800K 上训练的判别验证器高 8% 和 4.5%。最后，在相同的令牌预算下，ThinkPRM 比 LLM-as-a-Judge 更有效地扩展验证计算量，在 ProcessBench 的一个子集上超出其 7.2%。我们的研究突显了生成式长 CoT PRMs 的价值，这些模型能够在验证时扩展计算量，而训练所需的监督最少。我们的代码、数据和模型将发布在此 https URL。",
+        "地址": "https://arxiv.org/pdf/2504.16828.pdf"
+    },
+    {
+        "名称": "2025 [2504.16921] IberBench: LLM Evaluation on Iberian Languages.pdf",
+        "作者": "José Ángel González, Ian Borrego Obrador, Álvaro Romo Herrero, Areg Mikael Sarvazyan, Mara Chinea-Ríos, Angelo Basile, Marc Franco-Salvador",
+        "摘要": "摘要：大型语言模型（LLMs）仍然难以进行全面评估，特别是对于英语以外的语言，因高质量数据有限。现有的基准和排行榜主要集中在英语上，仅有少数涉及其他语言。这些基准在几个关键方面存在不足：忽视语言变化的多样性，优先考虑基本自然语言处理（NLP）能力而非工业相关任务，且评估方式是静态的。考虑到这些因素，我们提出了IberBench，这是一个全面且可扩展的基准，旨在评估LLM在基础和工业相关NLP任务上的表现，涵盖伊比利亚半岛及伊比利亚美洲的语言。IberBench整合了评估活动和近期基准中的101个数据集，覆盖情感和情绪分析、毒性检测以及摘要等22个任务类别。该基准解决了当前评估实践中的关键限制，如缺乏语言多样性和静态评估，通过专家委员会主持的持续更新和社区驱动的模型及数据集提交。我们评估了23个参数在1亿到140亿之间的LLMs，提供了对其优缺点的实证见解。我们的研究结果表明：（i）LLMs在工业相关任务上的表现不如基础任务；（ii）加利西亚语和巴斯克语的平均表现较低；（iii）某些任务的结果接近随机；（iv）在其他任务中，LLMs的表现高于随机但低于共享任务系统。IberBench为整个评估流程，包括数据集标准化和托管、LLMs的增量评估及公开可访问的排行榜提供开源实现。",
+        "地址": "https://arxiv.org/pdf/2504.16921.pdf"
+    },
+    {
+        "名称": "2025 [2504.16064] Boosting Generative Image Modeling via Joint Image-Feature Synthesis.pdf",
+        "作者": "Theodoros Kouzelis, Efstathios Karypidis, Ioannis Kakogeorgiou, Spyros Gidaris, Nikos Komodakis",
+        "摘要": "摘要:潜在扩散模型（LDMs）主导了高质量图像生成，但将表示学习与生成建模集成仍然是一个挑战。我们介绍了一种新颖的生成图像建模框架，通过利用扩散模型联合建模低级图像潜变量（来自变分自编码器）和高级语义特征（来自预训练的自监督编码器，如DINO），无缝弥合这一差距。我们的潜在-语义扩散方法学习从纯噪声生成连贯的图像-特征对，显著提升了生成质量和训练效率，同时只需对标准扩散变压器架构进行最小的修改。通过消除对复杂提炼目标的需求，我们的统一设计简化了训练，并解锁了一个强大的新推理策略：表示指导，利用学习到的语义来引导和优化图像生成。在条件和无条件设置中进行评估，我们的方法在图像质量和训练收敛速度方面提供了显著改进，确立了表示感知生成建模的新方向。",
+        "地址": "https://arxiv.org/pdf/2504.16064.pdf"
+    },
+    {
+        "名称": "2025 [2504.17414] 3DV-TON: Textured 3D-Guided Consistent Video Try-on via Diffusion Models.pdf",
+        "作者": "Min Wei, Chaohui Yu, Jingkai Zhou, Fan Wang",
+        "摘要": "摘要: 视频试穿通过替换视频中的衣物来实现目标服装的展示。现有方法在处理复杂的服装图案和多样的身体姿势时，难以生成高质量和时间一致性强的结果。我们提出了3DV-TON，这是一种基于扩散的新颖框架，用于生成高保真和时间一致的视频试穿结果。我们的方法利用生成的可动画纹理3D网格作为显式的帧级指导，缓解了模型过分关注外观保真度而牺牲运动一致性的问题。这是通过使服装纹理在整个视频序列中的一致运动能够直接参照来实现的。该方法包括一个自适应流程，用于生成动态的3D指导：（1）选择一个关键帧进行初始2D图像试穿，然后（2）重建和动画化一个与原始视频姿势同步的纹理3D网格。我们进一步引入一种健壮的矩形掩码策略，成功缓解了在动态人类和服装运动过程中泄漏衣物信息造成的伪影传播问题。为了推动视频试穿研究，我们引入了HR-VVT，这是一个包含130个视频的高分辨率基准数据集，涵盖了多种衣物类型和情景。定量和定性结果表明，我们的方法在现有方法之上具有更优越的性能。项目页面链接为此 [https URL](https://arxiv.org/pdf/2504.17414.pdf)\n\n作者: 魏敏，俞超辉，周景凯，王凡",
+        "地址": "https://arxiv.org/pdf/2504.17414.pdf"
+    },
+    {
+        "名称": "2025 [2504.17343] TimeChat-Online: 80% Visual Tokens are Naturally Redundant in Streaming Videos.pdf",
+        "作者": "Linli Yao, Yicheng Li, Yuancheng Wei, Lei Li, Shuhuai Ren, Yuanxin Liu, Kun Ouyang, Lean Wang, Shicheng Li, Sida Li, Lingpeng Kong, Qi Liu, Yuanxing Zhang, Xu Sun",
+        "摘要": "摘要：在线视频平台，尤其是直播服务的迅速增长，催生了实时视频理解系统的迫切需求。这些系统必须处理连续的视频流并即时响应用户查询，从而对现有的视频大型语言模型（VideoLLMs）提出了独特挑战。尽管现有的VideoLLMs在处理完整视频方面表现出色，但由于无法有效处理密集冗余的帧，在流媒体场景中面临显著限制。我们介绍了TimeChat-Online，这是一种革新性的在线VideoLLM，旨在实现实时视频互动。其核心是我们创新的差异令牌丢弃（DTD）模块，解决了流视频中的视觉冗余这一基本挑战。DTD受到人类视觉感知中的变化盲现象的启发，在过滤帧间静态冗余内容的同时保留有意义的时间变化。令人瞩目的是，我们的实验显示DTD在保证StreamingBench上98%的表现的同时，减少了82.8%的视频令牌，揭示了在流视频中超过80%的视觉内容在无需语言指导的情况下自然是冗余的。为实现无缝的实时互动，我们推出了TimeChat-Online-139K，这是一个综合性的流视频数据集，包含多种互动模式，包括回溯追踪、当前感知和未来响应场景。TimeChat-Online独特的主动响应能力，通过DTD持续监测视频场景转换自然实现，与传统方法区分开来。我们广泛的评估显示，TimeChat-Online在流媒体基准测试（StreamingBench和OvOBench）上表现优异，并在长视频任务（如Video-MME和MLVU）上保持竞争力。",
+        "地址": "https://arxiv.org/pdf/2504.17343.pdf"
+    },
+    {
+        "名称": "2025 [2504.17069] Distilling semantically aware orders for autoregressive image generation.pdf",
+        "作者": "Rishav Pramanik, Antoine Poupon, Juan A. Rodriguez, Masih Aminbeidokhti, David Vazquez, Christopher Pal, Zhaozheng Yin, Marco Pedersoli",
+        "摘要": "摘要：自回归基于块的图像生成近期在图像质量和可拓展性方面显示出了竞争力。它也可以轻松地集成到视觉-语言模型中并进行扩展。然而，自回归模型需要为块生成定义顺序。虽然基于文本生成的顺序对于词语的生成顺序而言是自然的，对于图像生成则不存在固有的生成顺序。传统上，自回归图像生成模型采用光栅扫描顺序（从左上角到右下角）。在本文中，我们认为这种顺序是次优的，因为它未能尊重图像内容的因果关系：例如，当以日落的视觉描述为条件时，自回归模型可能会先生成云朵，而云朵的颜色应取决于太阳的颜色，而不是反过来。在本文中，我们首先通过训练模型以任何给定顺序生成块，在生成过程中推断每个块的内容和位置（顺序）。其次，我们使用这些提取的顺序微调该任何给定顺序模型，以生成更高质量的图像。通过我们的实验，我们在两个数据集上展示了这种新的生成方法比传统的光栅扫描方法生成了更好的图像，训练成本相似且无需额外的注释。\n\n作者：Rishav Pramanik, Antoine Poupon, Juan A. Rodriguez, Masih Aminbeidokhti, David Vazquez, Christopher Pal, Zhaozheng Yin, Marco Pedersoli\n\n标题：2025 [2504.17069] 提炼语义感知顺序以进行自回归图像生成",
+        "地址": "https://arxiv.org/pdf/2504.17069.pdf"
+    },
+    {
+        "名称": "2025 [2504.15921] ViSMaP: Unsupervised Hour-long Video Summarisation by Meta-Prompting.pdf",
+        "作者": "Jian Hu, Dimitrios Korkinof, Shaogang Gong, Mariano Beguerisse-Diaz",
+        "摘要": "摘要：我们介绍了ViSMap：通过元提示进行无监督视频摘要，这是一种无需监督即可对长达一个小时的视频进行摘要的系统。大多数现有的视频理解模型在对预分段事件的短视频处理上表现良好，但在摘要更长的视频（其相关事件分布稀疏且未预分段）时表现不佳。此外，长视频理解通常依赖于需要大量注释的有监督分层训练，这不仅费用高昂，速度缓慢且容易产生不一致性。通过ViSMaP，我们弥合了短视频（有大量注释数据）和长视频（注释数据稀缺）之间的差距。我们依靠大型语言模型（LLMs）使用短视频的片段描述创建长视频的优化伪摘要。这些伪摘要被用作生成长视频摘要的模型的训练数据，从而无需对长视频进行昂贵的注释。具体来说，我们采用了一种元提示策略，迭代生成和改进长视频的伪摘要。该策略利用从监督短视频模型中获得的短片段描述来指导摘要。每次迭代使用三个LLMs按顺序工作：一个从片段描述生成伪摘要，另一个评估伪摘要，第三个优化生成器的提示。因为伪摘要的质量高度依赖于生成器的提示，并且在视频之间有很大差异，所以这种迭代是必要的。我们在多个数据集上广泛评估了我们的摘要；结果显示，ViSMaP在不牺牲性能的前提下，在不同领域中实现了与完全监督的最先进模型相当的性能。代码将在发布时公布。\n\n作者：Jian Hu, Dimitrios Korkinof, Shaogang Gong, Mariano Beguerisse-Diaz\n\n链接： [https://arxiv.org/pdf/2504.15921.pdf](https://arxiv.org/pdf/2504.15921.pdf)",
+        "地址": "https://arxiv.org/pdf/2504.15921.pdf"
+    },
+    {
+        "名称": "2025 [2504.17601] Interpretable non-linear dimensionality reduction using gaussian weighted linear transformation.pdf",
+        "作者": "Erik Bergh",
+        "摘要": "摘要: 降维技术是分析和可视化高维数据的基础。现有的方法如t-SNE和PCA在表现力和可解释性之间存在权衡。本文介绍了一种新方法，通过结合线性方法的可解释性和非线性变换的表达能力来弥合这一差距。所提出的算法通过将每个加权的高斯函数进行线性变换，构建高维和低维空间之间的非线性映射。这种架构在启用复杂非线性变换的同时保留了线性方法的可解释性优势，因为每个变换都可以独立分析。最终模型提供了强大的降维功能和对变换空间的透明见解。介绍了用于解释学习变换的技术，包括识别被压制的维度以及如何扩展和收缩空间。这些工具使实践者能够理解算法在降维过程中如何保留和修改几何关系。为了确保该算法的实用性，强调了用户友好软件包的创建，促进其在学术界和工业界的采用。",
+        "地址": "https://arxiv.org/pdf/2504.17601.pdf"
+    },
+    {
+        "名称": "2025 [2504.17788] Dynamic Camera Poses and Where to Find Them.pdf",
+        "作者": "Chris Rockwell, Joseph Tung, Tsung-Yi Lin, Ming-Yu Liu, David F. Fouhey, Chen-Hsuan Lin",
+        "摘要": "摘要: 在大规模动态互联网视频上注释相机姿态对推进逼真视频生成和模拟等领域至关重要。然而，收集这样的数据集是困难的，因为大多数互联网视频不适合姿态估计。此外，即使对于最先进的方法来说，注释动态互联网视频也存在显著挑战。在本文中，我们介绍了DynPose-100K，一个大规模的动态互联网视频数据集，并为其注释了相机姿态。我们的收集流程采用了一套精心结合的特定任务和通用模型来进行过滤。对于姿态估计，我们结合了最新的点跟踪、动态遮罩和从运动结构方法，以实现对现有最先进方法的改进。我们的分析和实验表明，DynPose-100K不仅在规模上是大规模的，而且在多个关键属性上具有多样性，为各种后续应用的进步带来了新的可能性。",
+        "地址": "https://arxiv.org/pdf/2504.17788.pdf"
+    },
+    {
+        "名称": "2025 [2504.17670] DiMeR: Disentangled Mesh Reconstruction Model.pdf",
+        "作者": "Lutao Jiang, Jiantao Lin, Kanghao Chen, Wenhang Ge, Xin Yang, Yifan Jiang, Yuanhuiyi Lyu, Xu Zheng, Yingcong Chen",
+        "摘要": "摘要：随着大规模三维数据集的出现，前馈三维生成模型，如大重建模型（LRM），受到了极大的关注并取得了显著的成功。然而，我们观察到RGB图像常常导致冲突的训练目标，并且缺乏几何重建所需的必要清晰度。在本文中，我们重新审视与网格重建相关的归纳偏差，并提出DiMeR，这是一种新颖的解耦双流前馈模型，用于稀疏视图网格重建。其关键理念是将输入和框架解耦为几何部分和纹理部分，从而根据奥卡姆剃刀原理降低每部分的训练难度。鉴于法线图与几何严格一致并能准确捕捉表面变化，我们利用法线图作为几何分支的唯一输入，以减少网络输入和输出之间的复杂性。此外，我们改进了网格提取算法，引入3D真实值监督。对于纹理分支，我们使用RGB图像作为输入以获取纹理网格。总体而言，DiMeR在各种任务中表现出强大的能力，包括稀疏视图重建、单图像到三维重建以及文本到三维重建。众多实验表明，DiMeR在GSO和OmniObject3D数据集上的Chamfer距离方面，显著优于之前的方法，达到超过30%的提升。\n\n翻译成中文的摘要如上。",
+        "地址": "https://arxiv.org/pdf/2504.17670.pdf"
+    }
+]
