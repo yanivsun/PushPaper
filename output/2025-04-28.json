@@ -1,0 +1,74 @@
+[
+    {
+        "名称": "2025 [2504.15376] Towards Understanding Camera Motions in Any Video.pdf",
+        "作者": "Zhiqiu Lin, Siyuan Cen, Daniel Jiang, Jay Karhade, Hewei Wang, Chancharik Mitra, Tiffany Ling, Yuhan Huang, Sifan Liu, Mingyu Chen, Rushikesh Zawar, Xue Bai, Yilun Du, Chuang Gan, Deva Ramanan",
+        "摘要": "摘要: 我们发布了CameraBench，这是一个旨在评估和改进相机运动理解的大规模数据集和基准。CameraBench由约3,000个多样的互联网视频组成，通过专家进行严格的多阶段质量控制进行标注。我们的贡献之一是与电影摄影师合作设计的相机运动基本元素分类法。例如，我们发现一些运动，如“跟随”（或跟踪），需要理解场景内容如移动的主体。我们进行了一项大规模的人类研究，以量化人类标注性能，结果显示，领域专业知识和基于教程的培训可以显著提高准确性。例如，初学者可能会把变焦（内参变化）与前进平移（外参变化）混淆，但可以通过训练加以区分。使用CameraBench，我们评估了结构从运动（SfM）和视频语言模型（VLM），发现SfM模型难以捕捉到依赖于场景内容的语义基本元素，而VLM则难以捕捉到需要精确估计轨迹的几何基本元素。随后，我们在CameraBench上微调了一个生成型VLM，以实现两者的最佳效果，并展示了其应用，包括运动增强字幕、视频问答和视频文本检索。我们希望我们的分类法、基准和教程将推动未来努力，最终目标是在任何视频中理解相机运动。",
+        "地址": "https://arxiv.org/pdf/2504.15376.pdf"
+    },
+    {
+        "名称": "2025 [2504.16656] Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning.pdf",
+        "作者": "Chris, Yichen Wei, Yi Peng, Xiaokun Wang, Weijie Qiu, Wei Shen, Tianyidan Xie, Jiangbo Pei, Jianhao Zhang, Yunzhuo Hao, Xuchen Song, Yang Liu, Yahui Zhou",
+        "摘要": "摘要：我们介绍了Skywork R1V2，这是一款下一代多模态推理模型，它相比其前身Skywork R1V取得了重大进展。R1V2的核心是引入了一种混合强化学习范式，该范式结合了混合偏好优化（MPO）和群体相对策略优化（GRPO），通过协调奖励模型指导和基于规则的策略，解决了在复杂推理能力和广泛泛化能力之间长期存在的平衡问题。为了进一步提高训练效率，我们引入了选择性样本缓冲（SSB）机制，该机制通过在优化过程中优先处理高价值样本，有效地解决了GRPO中固有的“优势消失”困境。值得注意的是，我们观察到过多的强化信号会引发视觉幻觉的现象，我们在整个训练过程中通过校准奖励阈值对这种现象进行了系统监控和缓解。实验证明了R1V2的卓越能力，其在OlympiadBench、AIME2024、LiveCodeBench和MMMU上的成绩分别为62.6、78.9、63.6和73.6，这些结果表明R1V2相较于现有开源模型具有明显的优越性，并展示了在缩小与顶级专有系统（包括Gemini 2.5和OpenAI-o4-mini）性能差距方面的重大进展。为了促进开放性和可重复性，Skywork R1V2的模型权重已被公开发布。\n\n链接：https://arxiv.org/pdf/2504.16656.pdf",
+        "地址": "https://arxiv.org/pdf/2504.16656.pdf"
+    },
+    {
+        "名称": "2025 [2504.18415] BitNet v2: Native 4-bit Activations with Hadamard Transformation for 1-bit LLMs.pdf",
+        "作者": "Hongyu Wang, Shuming Ma, Furu Wei",
+        "摘要": "摘要：高效部署1-bit大语言模型（LLMs）因激活值异常而受到阻碍，这使得量化到低位宽变得复杂。我们介绍了BitNet v2，这是一种新的框架，可为1-bit LLMs实现原生的4-bit激活量化。为了解决注意力和前馈网络激活中的异常值问题，我们提出了H-BitLinear模块，该模块在激活量化之前应用在线Hadamard变换。这一变换将陡峭的激活分布平滑成更高斯形态的分布，适合低比特表示。实验表明，自零开始以8-bit激活训练的BitNet v2匹配BitNet b1.58的性能。关键的是，BitNet v2在原生4-bit激活训练时实现了最小的性能下降，大大减少了批量推理的内存占用和计算成本。",
+        "地址": "https://arxiv.org/pdf/2504.18415.pdf"
+    },
+    {
+        "名称": "2025 [2504.17821] VideoVista-CulturalLingo: 360$^\\circ$ Horizons-Bridging Cultures, Languages, and Domains in Video Comprehension.pdf",
+        "作者": "Xinyu Chen, Yunxin Li, Haoyuan Shi, Baotian Hu, Wenhan Luo, Yaowei Wang, Min Zhang",
+        "摘要": "摘要：评估多模态人工智能系统的视频理解能力可以有效衡量其理解和推理能力。大多数视频评估基准限于单一语言，通常是英语，并且主要展示源自西方文化背景的视频。本文提出了VideoVista-CulturalLingo，这是第一个旨在弥合视频理解中的文化、语言和领域差距的视频评估基准。我们的工作在以下方面与现有基准不同：1）文化多样性，涵盖来自中国、北美和欧洲的文化；2）多语言性，问题以中文和英文提出，这两种语言是全球使用最广泛的语言之一；3）广泛的领域，视频来源于数百个由人类创作的领域。VideoVista-CulturalLingo包含1,389个视频和3,134个问答对，我们评估了24个近期的开源或专有视频大型模型。从实验结果中，我们观察到：1）现有模型在以中文为中心的问题上表现逊色于以西方为中心的问题，尤其是与中国历史相关的问题；2）当前开源模型在时间理解上仍然存在局限性，尤其是在事件定位任务中，最高得分仅为45.2%；3）主流模型在通用科学问题上表现出色，而开源模型在数学问题上表现较弱。\n\n作者：Xinyu Chen, Yunxin Li, Haoyuan Shi, Baotian Hu, Wenhan Luo, Yaowei Wang, Min Zhang\n\n网址：https://arxiv.org/pdf/2504.17821.pdf",
+        "地址": "https://arxiv.org/pdf/2504.17821.pdf"
+    },
+    {
+        "名称": "2025 [2504.16427] Can Large Language Models Help Multimodal Language Analysis? MMLA: A Comprehensive Benchmark.pdf",
+        "作者": "Hanlei Zhang, Zhuohang Li, Yeshuang Zhu, Hua Xu, Peiwu Wang, Haige Zhu, Jie Zhou, Jinchao Zhang",
+        "摘要": "摘要: 多模态语言分析是一个快速发展的领域，它利用多种模态来增强对人类对话中高层次语义的理解。尽管这一领域具有重要意义，但很少有研究探讨多模态大型语言模型（MLLMs）理解认知层次语义的能力。在本文中，我们介绍了MMLA，这是一个专门为解决这一空白而设计的综合基准。MMLA包含了来自舞台场景和现实场景的超过61K多模态话语，涵盖多模态语义的六个核心维度：意图、情感、对话行为、情绪、讲话风格和沟通行为。我们使用零样本推理、监督微调和指令微调三种方法评估了LLMs和MLLMs的八个主流分支。大量实验表明，即使是微调后的模型也仅能达到约60%到70%的准确率，这突显了当前MLLMs在理解复杂人类语言上的局限性。我们相信MMLA将作为探索大型语言模型在多模态语言分析中潜力的坚实基础，并为推进这一领域提供宝贵资源。数据集和代码已在此HTTPS URL上开源。",
+        "地址": "https://arxiv.org/pdf/2504.16427.pdf"
+    },
+    {
+        "名称": "2025 [2504.17816] Subject-driven Video Generation via Disentangled Identity and Motion.pdf",
+        "作者": "Daneul Kim, Jingxu Zhang, Wonjoon Jin, Sunghyun Cho, Qi Dai, Jaesik Park, Chong Luo",
+        "摘要": "摘要: 我们提出了一种针对个体的定制化视频生成模型，通过在零样本条件下将个体特定的学习与时间动态解耦而实现训练，无需额外调优。传统的无需调优的视频定制方法通常依赖于大型的标注视频数据集，这不仅计算成本高且需要大量的标注。与这种方法相反，我们引入了直接基于图像定制数据集进行视频定制模型训练的方法，将视频定制分为两个部分：(1) 通过图像定制数据集进行身份注入；(2) 通过图像到视频的训练方法使用一小部分未标注的视频保持时间建模。此外，我们在图像到视频微调过程中采用随机图像标记丢弃和随机图像初始化，以减轻复制粘贴问题。为了进一步增强学习，我们在个体特定特征和时间特征的联合优化过程中引入随机切换，减轻灾难性遗忘。我们的方法在零样本条件下表现出强一致性和可扩展性，优于现有的视频定制模型，展示了我们框架的有效性。",
+        "地址": "https://arxiv.org/pdf/2504.17816.pdf"
+    },
+    {
+        "名称": "2025 [2504.17768] The Sparse Frontier: Sparse Attention Trade-offs in Transformer LLMs.pdf",
+        "作者": "Piotr Nawrot, Robert Li, Renjie Huang, Sebastian Ruder, Kelly Marchisio, Edoardo M. Ponti",
+        "摘要": "摘要：稀疏注意力为扩展Transformer大型语言模型（LLM）的长上下文能力提供了一种有前途的策略，但其可行性、效率-准确性权衡以及系统的扩展研究仍未被探讨。为了解决这一差距，我们在各种长序列任务（包括依赖于自然语言且易于评估的新任务）上，对不同模型规模、序列长度和稀疏水平的无训练稀疏注意力方法进行了仔细比较。基于我们的实验，我们报告了一系列关键发现：（1）等FLOPS分析显示，对于非常长的序列，大而高度稀疏的模型优于小而密集的模型。（2）在保证准确性方面，可在解码期间达到的稀疏水平高于预填充阶段，并且在前者中与模型大小相关。（3）没有任何一种策略能够在所有任务和阶段中表现最好，不同的稀疏单元或预算适应性在不同情境中需要不同的策略。甚至适度的稀疏水平也经常导致至少一个任务上的显著性能下降，这表明稀疏注意力并不是通用的解决方案。（4）我们介绍并验证了专门针对稀疏注意力的新扩展定律，提供了我们的发现可能在实验范围之外成立的证据。通过这些见解，我们表明稀疏注意力是增强Transformer LLM处理更长序列能力的关键工具，但需要仔细评估性能敏感应用的权衡。\n\n翻译作者：Piotr Nawrot，Robert Li，Renjie Huang，Sebastian Ruder，Kelly Marchisio，Edoardo M. Ponti\n\n论文网址：https://arxiv.org/pdf/2504.17768.pdf\n\n论文标题：2025 [2504.17768] 稀疏前沿：Transformer LLMs中的稀疏注意力权衡\n\n",
+        "地址": "https://arxiv.org/pdf/2504.17768.pdf"
+    },
+    {
+        "名称": "2025 [2504.18425] Kimi-Audio Technical Report.pdf",
+        "作者": "KimiTeam, Ding Ding, Zeqian Ju, Yichong Leng, Songxiang Liu, Tong Liu, Zeyu Shang, Kai Shen, Wei Song, Xu Tan, Heyi Tang, Zhengtao Wang, Chu Wei, Yifei Xin, Xinran Xu, Jianwei Yu, Yutao Zhang, Xinyu Zhou, Y. Charles, Jun Chen, Yanru Chen, Yulun Du, Weiran He, Zhenxing Hu, Guokun Lai, Qingcheng Li, Yangyang Liu, Weidong Sun, Jianzhou Wang, Yuzhi Wang, Yuefeng Wu, Yuxin Wu, Dongchao Yang, Hao Yang, Ying Yang, Zhilin Yang, Aoxiong Yin, Ruibin Yuan, Yutong Zhang, Zaida Zhou",
+        "摘要": "摘要：我们介绍了Kimi-Audio，这是一个开源的音频基础模型，在音频理解、生成和对话方面表现出色。我们详细介绍了构建Kimi-Audio的实践，包括模型架构、数据管理、训练方案、推理部署和评估。具体来说，我们利用了12.5Hz音频分词器，设计了一种新颖的基于LLM的架构，以连续特征作为输入，离散标记作为输出，并开发了基于流匹配的分块流式去标记器。我们策划了一个包括超过1300万小时音频数据的预训练数据集，涵盖了包括语音、声音和音乐在内的广泛模态，并建立了一个构建高质量多样化后训练数据的管道。Kimi-Audio从预训练的LLM初始化，通过精心设计的任务在音频和文本数据上进行持续预训练，然后微调以支持各种与音频相关的任务。广泛的评估表明，Kimi-Audio在包括语音识别、音频理解、音频问答和语音对话等一系列音频基准上实现了最先进的性能。我们在这个 https URL 中发布了代码、模型检查点以及评估工具包。",
+        "地址": "https://arxiv.org/pdf/2504.18425.pdf"
+    },
+    {
+        "名称": "2025 [2504.15716] DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models.pdf",
+        "作者": "Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
+        "摘要": "摘要：在金融领域，有效推理仍然是大型语言模型（LLMs）的核心挑战，因为任务通常需要领域特定的知识、精确的数值计算以及严格遵守合规规则。我们提出了DianJin-R1，一种通过推理增强监督和强化学习设计的框架，以解决这些挑战。我们的方法核心是DianJin-R1-Data，一个从CFLUE、FinQA和专有合规语料库（Chinese Compliance Check, CCC）构建的高质量数据集，结合了多样的金融推理场景和验证注释。我们的模型DianJin-R1-7B和DianJin-R1-32B在Qwen2.5-7B-Instruct和Qwen2.5-32B-Instruct的基础上进行微调，使用生成推理步骤和最终答案的结构化格式。为了进一步改进推理质量，我们应用了组相对策略优化（GRPO），这是一种强化学习方法，包含双重奖励信号：一个鼓励结构化输出，另一个奖励答案正确性。我们在五个基准上评估了我们的模型：三个金融数据集（CFLUE、FinQA和CCC）以及两个通用推理基准（MATH-500和GPQA-Diamond）。实验结果表明，DianJin-R1模型在复杂金融任务上始终优于其非推理对应模型。此外，在真实世界的CCC数据集上，我们的单通道推理模型的表现相当于或甚至优于需要显著更多计算成本的多智能体系统。这些发现表明，通过结构化监督和奖励对齐学习，DianJin-R1在增强金融推理方面的有效性，提供了一个可扩展且实用的现实应用解决方案。\n\n翻译成中文：\n\n在金融领域，有效推理仍然是大型语言模型（LLMs）的核心挑战，因为任务通常需要领域特定的知识、精确的数值计算以及严格遵守合规规则。我们提出了DianJin-R1，一种通过推理增强监督和强化学习设计的框架，以解决这些挑战。我们的方法核心是DianJin-R1-Data，一个从CFLUE、FinQA和专有合规语料库（Chinese Compliance Check, CCC）构建的高质量数据集，结合了多样的金融推理场景和验证注释。我们的模型DianJin-R1-7B和DianJin-R1-32B在Qwen2.5-7B-Instruct和Qwen2.5-32B-Instruct的基础上进行微调，使用生成推理步骤和最终答案的结构化格式。为了进一步改进推理质量，我们应用了组相对策略优化（GRPO），这是一种强化学习方法，包含双重奖励信号：一个鼓励结构化输出，另一个奖励答案正确性。我们在五个基准上评估了我们的模型：三个金融数据集（CFLUE、FinQA和CCC）以及两个通用推理基准（MATH-500和GPQA-Diamond）。实验结果表明，DianJin-R1模型在复杂金融任务上始终优于其非推理对应模型。此外，在真实世界的CCC数据集上，我们的单通道推理模型的表现相当于或甚至优于需要显著更多计算成本的多智能体系统。这些发现表明，通过结构化监督和奖励对齐学习，DianJin-R1在增强金融推理方面的有效性，提供了一个可扩展且实用的现实应用解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.15716.pdf"
+    },
+    {
+        "名称": "2025 [2504.12080] DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.pdf",
+        "作者": "Mengshi Qi, Pengfei Zhu, Xiangtai Li, Xiaoyang Bi, Lu Qi, Huadong Ma, Ming-Hsuan Yang",
+        "摘要": "摘要： 给定一个带标注的实例，情境分割（in-context segmentation）旨在分割相应的对象。这种设置在少样本学习中被称为一次性分割，探索了分割模型的泛化能力，已应用于包括场景理解和图像/视频编辑在内的各种视觉任务。虽然近期的Segment Anything模型在交互式分割中取得了最先进的成果，但这些方法并不能直接应用于情境分割。在这项工作中，我们提出了基于提示调优的双一致性SAM（DC-SAM）方法，以适应SAM和SAM2在图像和视频中的情境分割。我们的关键见解是通过提供高质量的视觉提示来增强SAM提示编码器在分割中的特征。在生成掩码先验时，我们融合了SAM特征，以更好地对齐提示编码器。然后，我们在融合特征和初始视觉提示上设计了一个循环一致的交叉注意。接下来，通过在提示编码器中使用区分性的正负提示，提供了一个双分支设计。此外，我们设计了一种简单的掩码片段训练策略，以将我们提出的双一致性方法应用到掩码片段中。尽管提出的DC-SAM主要为图像设计，但随着SAM2的支持，它可以无缝扩展到视频领域。鉴于视频领域情境分割的缺失，我们手动从现有的视频分割数据集中精心策划并构建了第一个基准，命名为情境视频对象分割（IC-VOS），以更好地评估模型的情境能力。大量实验证明，我们的方法在COCO-20i上达到了55.5（+1.4）mIoU，在PASCAL-5i上达到了73.0（+1.1）mIoU，并且在所提出的IC-VOS基准上达到了71.52的J&F得分。我们的源代码和基准可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2504.12080.pdf"
+    },
+    {
+        "名称": "2025 [2504.18225] Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family.pdf",
+        "作者": "Pierre-Carl Langlais, Pavel Chizhov, Mattia Nee, Carlos Rosas Hinostroza, Matthieu Delsart, Irène Girard, Othman Hicheur, Anastasia Stasenko, Ivan P. Yamshchikov",
+        "摘要": "摘要：我们介绍了一代新的小型推理模型，用于检索增强生成（RAG）、搜索和资源总结。Pleias-RAG-350m 和 Pleias-RAG-1B 在一个大型合成数据集上进行了中期训练，该数据集模拟了从Common Corpus获取多种多语言开放资源的过程。这些模型本地支持引用和基础引文，并重新整合了RAG工作流的多种功能，如查询路由、查询重构和资源再排序。在标准化的RAG基准（如HotPotQA、2wiki）上，Pleias-RAG-350m 和 Pleias-RAG-1B 优于4亿参数以下的SLM，并与常见的大型模型（包括 Qwen-2.5-7B, Llama-3.1-8B 和 Gemma-3-4B）具有竞争力。到目前为止，它们是唯一在主要欧洲语言中保持一致的RAG表现并确保系统参考引用的SLM。由于它们的体积小且易于在受限基础设施上部署，加之设计上具备较高的真实性，这些模型为生成式AI解锁了一系列新的使用场景。\n\n作者：Pierre-Carl Langlais, Pavel Chizhov, Mattia Nee, Carlos Rosas Hinostroza, Matthieu Delsart, Irène Girard, Othman Hicheur, Anastasia Stasenko, Ivan P. Yamshchikov\n\n链接：https://arxiv.org/pdf/2504.18225.pdf\n\n标题：即使是小型推理模型也应该引用其来源：介绍Pleias-RAG模型系列",
+        "地址": "https://arxiv.org/pdf/2504.18225.pdf"
+    },
+    {
+        "名称": "2025 [2504.17025] Optimizing LLMs for Italian: Reducing Token Fertility and Enhancing Efficiency Through Vocabulary Adaptation.pdf",
+        "作者": "Luca Moroni, Giovanni Puccetti, Pere-Lluis Huguet Cabot, Andrei Stefan Bejgu, Edoardo Barba, Alessio Miaschi, Felice Dell'Orletta, Andrea Esuli, Roberto Navigli",
+        "摘要": "摘要: 预训练的大型语言模型（LLMs）的数量正在稳步增加，但其中大多数主要是针对英语设计的。尽管最先进的LLMs可以处理其他语言，但由于语言污染或某种程度上的多语言预训练数据，它们并未针对非英语语言进行优化，导致编码效率低（高令牌“繁殖率”）和推理速度较慢。在这项工作中，我们全面比较了各种针对意大利语优化英语LLMs的词汇适应技术，并提出了语义对齐词汇适应（SAVA），这是一种利用神经映射进行词汇替代的新方法。SAVA在多个下游任务中实现了有竞争力的性能，增强了基础对齐策略。我们调整了两个LLMs：Mistral-7b-v0.1，将令牌繁殖率降低了25%，以及Llama-3.1-8B，优化了词汇并将参数数量减少了10亿。我们展示了这些模型在词汇适应之后，可以通过针对目标语言相对有限的持续训练阶段恢复其性能。最后，我们在各种多选择和生成任务上测试了适应后的模型的能力。",
+        "地址": "https://arxiv.org/pdf/2504.17025.pdf"
+    }
+]
