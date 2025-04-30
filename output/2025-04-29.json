@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2504.19724] RepText: Rendering Visual Text via Replicating.pdf",
+        "作者": "Haofan Wang, Yujia Xu, Yimeng Li, Junchen Li, Chaowei Zhang, Jing Wang, Kejia Yang, Zhibo Chen",
+        "摘要": "摘要: 尽管当代的文本到图像生成模型在生成视觉上令人愉悦的图像方面取得了显著突破，但其生成精确和灵活的排版元素（尤其是非拉丁字母）的能力仍然受到限制。为了解决这些限制，我们从一个简单的假设开始，即对文本的理解是文本渲染的充分条件，而不是必要条件。在此基础上，我们提出了RepText，旨在使预训练的单语文本到图像生成模型能够准确地渲染，或者更确切地说，复制用户指定字体的多语言视觉文本，而无需真正理解这些文本。具体而言，我们采用了ControlNet的设置，并额外集成了语言无关的字形和渲染文本的位置，以实现可生成和谐视觉文本，允许用户根据需要定制文本内容、字体和位置。为了提高准确性，我们在扩散损失基础上使用了文本感知损失。此外，为了稳定渲染过程，在推理阶段，我们直接用噪声字形潜在空间初始化，而不是随机初始化，并采用区域掩码将特征注入仅限于文本区域，以避免背景失真。我们进行了广泛的实验，以验证我们的RepText相对于现有工作的有效性，我们的方法优于现有的开源方法，并达到了与原生多语言闭源模型相当的结果。为公平起见，我们还详尽地讨论了其局限性。",
+        "地址": "https://arxiv.org/pdf/2504.19724.pdf"
+    },
+    {
+        "名称": "2025 [2504.18919] Clinical knowledge in LLMs does not translate to human interactions.pdf",
+        "作者": "Andrew M. Bean, Rebecca Payne, Guy Parsons, Hannah Rose Kirk, Juan Ciro, Rafael Mosquera, Sara Hincapié Monsalve, Aruna S. Ekanayaka, Lionel Tarassenko, Luc Rocher, Adam Mahdi",
+        "摘要": "摘要：全球医疗服务提供者正在探索使用大型语言模型（LLMs）为公众提供医疗建议。尽管LLMs在医学执照考试中取得了几近完美的成绩，但这并不一定意味着其在现实环境中的表现也同样准确。我们在一项有1,298名参与者的对照研究中测试了LLMs是否能帮助公众识别潜在病症并选择行动方案（处理）。参与者被随机分配接受来自LLM（GPT-4o, Llama 3, Command R+）的帮助或他们选择的来源（控制组）。单独测试时，LLMs能够准确完成场景，在94.9%的案例中正确识别病症，平均在56.3%的案例中正确选择处理方案。然而，使用同样LLM的参与者仅在少于34.5%的案例中识别病症，少于44.2%的案例中选择处理方案，表现并不优于控制组。我们发现用户互动是LLMs在医疗建议部署中的一个挑战。目前的医学知识标准基准测试和模拟患者互动并不能预测我们在人类参与者中所发现的失败情况。未来，我们建议在公共医疗部署之前通过系统的人类用户测试来评估互动能力。",
+        "地址": "https://arxiv.org/pdf/2504.18919.pdf"
+    },
+    {
+        "名称": "2025 [2504.19838] LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects.pdf",
+        "作者": "Guangyi Liu, Pengxiang Zhao, Liang Liu, Yaxuan Guo, Han Xiao, Weifeng Lin, Yuxiang Chai, Yue Han, Shuai Ren, Hao Wang, Xiaoyu Liang, Wenhao Wang, Tianze Wu, Linghao Li, Hao Wang, Guanjing Xiong, Yong Liu, Hongsheng Li",
+        "摘要": "摘要: 随着大型语言模型（LLMs）的迅速兴起，电话自动化经历了变革性变化。本文系统回顾了由LLM驱动的电话GUI代理，重点介绍了其从基于脚本的自动化到智能自适应系统的演变。我们首先对关键挑战进行背景介绍，包括（i）有限的通用性，（ii）高维护成本，以及（iii）弱的意图理解，并展示了LLMs如何通过高级语言理解、多模态感知和稳健的决策来解决这些问题。随后，我们提出一个分类法，涵盖基础代理框架（单代理、多代理、计划-执行）、建模方法（提示工程、基于训练）及关键数据集和基准。此外，我们详细说明了特定任务的架构、监督微调和强化学习策略，这些策略桥接了用户意图和GUI操作。最后，我们讨论了数据集多样性、设备端部署效率、用户中心适应性和安全问题等未解决的挑战，并提供了对这一快速发展的领域的前瞻性见解。通过提供结构化概述并确定紧迫的研究空白，本文为研究人员和实践者提供了设计可扩展、用户友好型电话GUI代理的权威参考。",
+        "地址": "https://arxiv.org/pdf/2504.19838.pdf"
+    },
+    {
+        "名称": "2025 [2504.19093] CipherBank: Exploring the Boundary of LLM Reasoning Capabilities through Cryptography Challenges.pdf",
+        "作者": "Yu Li, Qizhi Pei, Mengyuan Sun, Honglin Lin, Chenlin Ming, Xin Gao, Jiang Wu, Conghui He, Lijun Wu",
+        "摘要": "摘要：大型语言模型（LLMs）展现了非凡的能力，尤其是在推理方面的最新进展，如o1和o3，推动了人工智能的边界。尽管在数学和编码方面取得了显著成就，但在需要密码学专业知识的领域中，LLMs的推理能力仍未得到充分探索。在本文中，我们引入了CipherBank，一个综合性基准，旨在评估LLMs在密码解密任务中的推理能力。CipherBank包括2,358个精心设计的问题，涵盖262个独特明文，横跨5个领域和14个子领域，重点关注需要加密的隐私敏感和现实世界场景。从密码学的角度来看，CipherBank包含3大类加密方法，涉及9种不同的算法，从经典密码到定制的加密技术。我们在CipherBank上评估了最先进的LLMs，例如GPT-4o、DeepSeek-V3，以及最先进的推理模型如o1和DeepSeek-R1。我们的结果揭示了通用聊天LLMs和专注推理LLMs之间在推理能力上的显著差距，以及当前专注推理模型在应用于经典密码解密任务时的表现，突显了这些模型在理解和处理加密数据方面面临的挑战。通过详细分析和错误调查，我们提供了若干关键观察，这些观察揭示了LLMs在密码推理中的局限性和潜在改进领域。这些发现强调了LLMs推理能力不断进步的必要性。",
+        "地址": "https://arxiv.org/pdf/2504.19093.pdf"
+    },
+    {
+        "名称": "2025 [2504.19162] SPC: Evolving Self-Play Critic via Adversarial Games for LLM Reasoning.pdf",
+        "作者": "Jiaqi Chen, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong",
+        "摘要": "摘要：评估大型语言模型（LLM）推理，例如链式思维，每一步的可靠性仍然具有挑战性，因为很难并且成本高昂获得高质量的步骤级监督。在本文中，我们介绍了自我对弈评论者（SPC），这是一种新颖的方法，其中评论模型通过对抗性自我对弈游戏来进化其评估推理步骤的能力，消除了手动步骤级标注的需要。SPC涉及微调两个基础模型的副本来分别扮演两个角色，即一个故意产生难以检测的错误步骤的“狡猾生成器”和一个分析推理步骤正确性的“评论者”。这两个模型参与对抗性游戏，其中生成器旨在欺骗评论者，而评论者模型则努力识别生成器的错误。通过基于游戏结果的强化学习，这些模型逐步改进；每场对抗中的赢家获得正奖励，输家获得负奖励，推动持续的自我演化。在三个推理过程基准（ProcessBench，PRM800K，DeltaBench）上的实验表明，我们的SPC逐渐提高了其错误检测能力（例如，ProcessBench上的准确性从70.8%提高到77.7%），并且超越了强基线，包括蒸馏的R1模型。此外，将SPC应用于指导各种LLM的测试时搜索显著提高了它们在MATH500和AIME2024上的数学推理性能，超过了最新的过程奖励模型。\n\n作者：Jiaqi Chen, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong\n\n评论：项目：this https URL\n\n链接：https://arxiv.org/pdf/2504.19162.pdf\n\n标题：2025 [2504.19162] SPC: 通过对抗性游戏进化自我对弈评论者以进行LLM推理.pdf",
+        "地址": "https://arxiv.org/pdf/2504.19162.pdf"
+    },
+    {
+        "名称": "2025 [2504.16083] MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention.pdf",
+        "作者": "Yucheng Li, Huiqiang Jiang, Chengruidong Zhang, Qianhui Wu, Xufang Luo, Surin Ahn, Amir H. Abdi, Dongsheng Li, Jianfeng Gao, Yuqing Yang, Lili Qiu",
+        "摘要": "摘要：将长上下文能力与视觉理解相结合，极大地激发了视觉语言模型（VLMs）的潜力。然而，在预填充阶段的二次方注意力复杂度仍然是实际部署的一个重大障碍。为克服这一限制，我们引入了MMInference（多模态百万标记推理），这是一种动态稀疏注意力方法，可以加速长上下文多模态输入的预填充阶段。首先，我们的分析表明，视频输入的时间和空间局部性导致了一个独特的稀疏模式，即网格模式。同时，不同模态的VLMs表现出显著不同的稀疏分布。我们介绍了一种基于排列的方法，以利用独特的网格模式并处理模态边界问题。通过离线搜索每个头的最优稀疏模式，MMInference根据输入动态构建稀疏分布。我们还提供了优化的GPU内核，以实现高效的稀疏计算。值得注意的是，MMInference可以无缝集成到现有的VLM流水线中，无需任何模型修改或微调。在包括视频问答、标题生成、VisionNIAH 和混合模态NIAH在内的多模态基准测试中，使用最先进的长上下文VLMs（LongVila、LlavaVideo、VideoChat-Flash、Qwen2.5-VL）的实验表明，MMInference在保持准确性的同时，加速了预填充阶段多达8.3倍，处理1M标记。我们的代码可在此HTTPS URL处获得。",
+        "地址": "https://arxiv.org/pdf/2504.16083.pdf"
+    },
+    {
+        "名称": "2025 [2504.18589] Benchmarking Multimodal Mathematical Reasoning with Explicit Visual Dependency.pdf",
+        "作者": "Zhikai Wang, Jiashuo Sun, Wenqi Zhang, Zhiqiang Hu, Xin Li, Fan Wang, Deli Zhao",
+        "摘要": "摘要：最近在大型视觉-语言模型（LVLMs）方面的进展显著提高了它们整合视觉和语言信息的能力，在物体识别、图像描述和视觉问答等任务上达到了接近人类的水平。然而，当前的基准测试通常侧重于知识中心的评估，衡量领域特定的专业知识，往往忽视了对基本数学元素和视觉概念推理的核心能力的评估。我们发现，在评估依赖显性视觉依赖性的基础数学问题上存在空白，这些问题需要模型在整合常识知识的同时，辨别、整合和推理多张图片，这对更广泛的AGI能力推进至关重要。为解决这一问题，我们引入了VCBENCH，这是一个针对具有显性视觉依赖性的多模态数学推理的综合基准。VCBENCH包含来自六个认知领域的1720个问题，共有6697张图片（每个问题平均3.9张），以确保多图推理。我们在VCBENCH上评估了26个最先进的LVLMs，显示出显著的性能差异，即使是最顶级的模型也无法超过50%的准确率。我们的研究结果突显了在视觉-数学整合中的持续挑战，并提出了未来LVLM发展的方向。\n\n作者：Zhikai Wang, Jiashuo Sun, Wenqi Zhang, Zhiqiang Hu, Xin Li, Fan Wang, Deli Zhao\n评论：主页：此HTTPS URL\n链接：https://arxiv.org/pdf/2504.18589.pdf\n标题：2025 [2504.18589] 基准评估具有显性视觉依赖性的多模态数学推理.pdf",
+        "地址": "https://arxiv.org/pdf/2504.18589.pdf"
+    },
+    {
+        "名称": "2025 [2504.17258] Group Downsampling with Equivariant Anti-aliasing.pdf",
+        "作者": "Md Ashiqur Rahman, Raymond A. Yeh",
+        "摘要": "摘要：下采样层是CNN结构中的关键构建块，有助于增加感受野以学习高级特征，减少模型的内存/计算量。在这项工作中，我们研究均匀下采样层在群等变架构（例如G-CNNs）中的推广。我们的目标是在一般有限群上反走样下采样信号（特征图）。这包括以下几个方面：（a）给定一个有限群和下采样率，我们提出一种算法来形成一个合适的子群选择。（b）给定一个群和一个子群，我们研究了带限性的概念并提出如何进行反走样。值得注意的是，我们的方法推广了基于经典采样理论的下采样概念。当信号在循环群（即周期性）上时，我们的方法恢复了理想低通滤波器的标准下采样，随后是子采样操作。最后，我们在图像分类任务上进行了实验，结果表明，当将提议的下采样操作合并到G等变网络中时，它提高了准确性，更好地保持等变性，并减少了模型大小。\n\n附加信息：\n- 作者：Md Ashiqur Rahman, Raymond A. Yeh\n- 论文标题：2025 [2504.17258] Group Downsampling with Equivariant Anti-aliasing\n- 访问链接：https://arxiv.org/pdf/2504.17258.pdf",
+        "地址": "https://arxiv.org/pdf/2504.17258.pdf"
+    },
+    {
+        "名称": "2025 [2504.15780] TrustGeoGen: Scalable and Formal-Verified Data Engine for Trustworthy Multi-modal Geometric Problem Solving.pdf",
+        "作者": "Daocheng Fu, Zijun Chen, Renqiu Xia, Qi Liu, Yuan Feng, Hongbin Zhou, Renrui Zhang, Shiyang Feng, Peng Gao, Junchi Yan, Botian Shi, Bo Zhang, Yu Qiao",
+        "摘要": "摘要：数学几何问题的求解（GPS）通常需要有效整合多模态信息和可验证的逻辑一致性。尽管大语言模型在通用问题求解方面发展迅速，但在方法论和基准方面仍未解决，特别是现有的合成GPS基准由于LLM的幻觉，往往不具备自我验证功能，且含有噪声和自相矛盾的信息。本文提出了一种可扩展的数据引擎TrustGeoGen，用于生成问题并进行形式验证，以提供一个有原则的基准。我们认为这为GPS方法的进一步发展奠定了基础。该引擎通过四个关键创新合成几何数据：1）多模态对齐生成图形、文本描述和分步解决方案；2）确保符合法规推理路径的形式验证；3）一种自举机制，通过递归状态生成实现复杂性升级；4）我们设计的GeoExplore系列算法同时生成多解变体和自反射回溯痕迹。通过形式逻辑验证，TrustGeoGen生成了具有保证模态完整性的GeoTrust-200K数据集，以及GeoTrust-test测试集。实验表明，当前最先进的模型在GeoTrust-test上仅达到49.17%的准确率，证明了其评估的严格性。关键的是，在GeoTrust上训练的模型在GeoQA上实现了OOD泛化，相对于由OpenAI-o1标注的伪标签显著减少了逻辑不一致性。我们的代码可在此URL获取。\n\n链接：https://arxiv.org/pdf/2504.15780.pdf。",
+        "地址": "https://arxiv.org/pdf/2504.15780.pdf"
+    },
+    {
+        "名称": "2025 [2504.19395] ICL CIPHERS: Quantifying \"Learning'' in In-Context Learning via Substitution Ciphers.pdf",
+        "作者": "Zhouxiang Fang, Aayush Mishra, Muhan Gao, Anqi Liu, Daniel Khashabi",
+        "摘要": "摘要: 最近的研究表明，In-Context Learning (ICL) 在执行任务时有两种模式，即任务检索（从预训练中记住学习到的模式）和任务学习（通过示范在推理时进行“学习”）。然而，分离这两种模式仍然是一个具有挑战性的目标。我们引入了ICL CIPHERS，一类基于经典密码学中的替换密码而来的任务重构方法。在这种方法中，In-context 输入中的一些子集符号被其他（无关的）符号替代，使得英语句子对人眼来说不太容易理解。然而，按照设计，这种替换有一个潜在的固定模式，使其具有可逆性。这种双射（可逆）的密码确保任务在某种抽象意义上仍然是一个定义明确的任务，尽管进行了转化。一个有趣的问题是，LLMs是否能够通过双射映射解决ICL CIPHERS，这需要解码潜在的密码。我们展示了LLMs在解决具有双射映射的ICL CIPHERS方面比解决不可逆的基准具有更好的表现，为量化ICL中的“学习”提供了一种新方法。虽然这种差距较小，但在四个数据集和六个模型中表现一致。最后，我们检查了LLMs的内部表示，并发现了它们能够解码被加密输入的证据。",
+        "地址": "https://arxiv.org/pdf/2504.19395.pdf"
+    },
+    {
+        "名称": "2025 [2504.19144] ChiseLLM: Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development.pdf",
+        "作者": "Bowei Wang, Jiaran Gao, Yelai Feng, Renzhi Chen, Shanshan Li, Lei Wang",
+        "摘要": "摘要：特定领域架构（DSA）的日益增长的需求推动了敏捷硬件开发方法学（AHDM）的发展。硬件构造语言（HCL）如Chisel提供了高级抽象特性，使其成为基于HCL的AHDM的理想语言。尽管大型语言模型（LLMs）在代码生成任务中表现出色，但它们在Chisel生成方面仍面临语法正确性和设计多样性方面的挑战。最近的推理模型通过测试时扩展技术显著增强了代码生成能力。然而，我们发现未经领域适应的推理模型无法为Chisel代码生成任务带来实质性收益。本文提出了ChiseLLM，这是一种包含数据处理和转换、提示引导的推理轨迹合成以及领域适应模型训练的解决方案。我们从公共RTL代码资源中构建了高质量的数据集，并通过提示增强方法引导模型采用结构化的思维模式。实验表明，我们的ChiseLLM-7B和ChiseLLM-32B模型在语法正确率上分别比基准模型提高了18.85%和26.32%，在设计多样性能力上比基线推理模型增加了47.58%。我们的数据集和模型是公开的，为基于HCL的AHDM提供了高性能、成本效益高的模型，并为未来的研究提供了有效的基准。Github 仓库: this https URL",
+        "地址": "https://arxiv.org/pdf/2504.19144.pdf"
+    },
+    {
+        "名称": "2025 [2504.19413] Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory.pdf",
+        "作者": "Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, Deshraj Yadav",
+        "摘要": "摘要：大型语言模型(LLMs)在生成上下文连贯的回复方面表现出显著的能力，但其固定的上下文窗口在保持长时间的多会话对话一致性方面提出了根本性的挑战。我们介绍了Mem0，这是一种可扩展的内存中心架构，通过动态提取、整合和检索正在进行的对话中显著的信息来解决这个问题。在此基础上，我们进一步提出了一种增强的变体，利用基于图的内存表示来捕捉对话元素之间复杂的关系结构。通过对LOCOMO基准的全面评估，我们系统地将我们的方法与六种基线类别进行了比较：(i)已建立的内存增强系统，(ii)具有不同块大小和k值的检索增强生成(RAG)，(iii)处理整个对话历史的全上下文方法，(iv)开源内存解决方案，(v)专有模型系统，(vi)专门的内存管理平台。实证结果表明，我们的方法在单跳、时间、多跳和开放领域四个问题类别上，始终优于所有现有的内存系统。特别是，Mem0在LLM-as-a-Judge指标上相对于OpenAI实现了26%的相对改进，而具有图内存的Mem0的整体得分比基础配置高约2%。除了精度提升，我们还显著减少了与全上下文方法相比的计算开销。特别是，Mem0达到了91%的p95延迟降低，并节省了超过90%的代币成本，在先进推理能力与实际部署限制之间提供了一个令人信服的平衡。我们的研究结果突显了结构化、持久化的内存机制在长期对话连贯性中的关键作用，为更可靠和高效的LLM驱动AI代理铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2504.19413.pdf"
+    },
+    {
+        "名称": "2025 [2504.19062] Versatile Framework for Song Generation with Prompt-based Control.pdf",
+        "作者": "Yu Zhang, Wenxiang Guo, Changhao Pan, Zhiyuan Zhu, Ruiqi Li, Jingyu Lu, Rongjie Huang, Ruiyuan Zhang, Zhiqing Hong, Ziyue Jiang, Zhou Zhao",
+        "摘要": "摘要：歌曲生成旨在基于各种提示生成可控的高质量歌曲。然而，现有方法难以通过提示控制生成对齐良好的人声和伴奏，并且在支持各种任务方面表现不足。为了解决这些问题，我们引入了VersBand，一种多任务歌曲生成框架，用于基于提示控制合成高质量、对齐良好的歌曲。VersBand包含以下主要模型：1) VocalBand，一个解耦模型，利用流匹配方法生成歌唱风格、音高和mel频谱图，实现快速且高质量的人声生成并具备风格控制。2) AccompBand，一个基于流的Transformer模型，整合了Band-MOE，选择合适的专家以提升质量、对齐度和控制。这一模型允许生成与人声对齐的可控高质量伴奏。3) 两个生成模型，LyricBand用于歌词，MelodyBand用于旋律，贡献于综合的多任务歌曲生成系统，使基于多重提示的广泛控制成为可能。实验结果表明，VersBand在多个歌曲生成任务中，通过客观和主观指标表现在多个基线模型之上。音频样本可在此https URL获得。\n\n作者：张宇，郭文祥，潘长浩，朱志远，李睿奇，卢靖宇，黄荣杰，张瑞元，洪志清，姜紫月，赵洲",
+        "地址": "https://arxiv.org/pdf/2504.19062.pdf"
+    },
+    {
+        "名称": "2025 [2504.19854] NORA: A Small Open-Sourced Generalist Vision Language Action Model for Embodied Tasks.pdf",
+        "作者": "Chia-Yu Hung, Qi Sun, Pengfei Hong, Amir Zadeh, Chuan Li, U-Xuan Tan, Navonil Majumder, Soujanya Poria",
+        "摘要": "摘要：现有的视觉语言动作（VLA）模型在零样本场景中表现出色，展示了令人印象深刻的任务执行和推理能力。然而，由于视觉编码的限制，这些模型在执行诸如抓取物体等任务时可能会失败。此外，由于这些模型通常超过7B参数，其高计算开销也是一个普遍问题。尽管这些模型在推理和任务计划上表现优异，但它们的巨大计算开销使得它们在需要速度和效率的实时机器人环境中不切实际。为了解决现有VLA模型的局限性，我们提出了NORA，一个3B参数的模型，旨在减少计算开销，同时保持强大的任务性能。NORA采用Qwen-2.5-VL-3B多模态模型作为其基础，利用其卓越的视觉语义理解来增强视觉推理和动作定位。此外，我们的模型在970k个真实世界的机器人示范上进行了训练，并配备了FAST+分词器以生成高效的动作序列。实验结果表明，NORA优于现有的大规模VLA模型，在显著降低计算开销的同时实现了更好的任务性能，使其成为实时机器人自主性更实际的解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.19854.pdf"
+    }
+]
