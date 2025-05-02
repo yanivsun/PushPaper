@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2504.21635] Sadeed: Advancing Arabic Diacritization Through Small Language Model.pdf",
+        "作者": "Zeina Aldallal, Sara Chrouf, Khalil Hennara, Mohamed Motaism Hamed, Muhammad Hreden, Safwan AlModhayan",
+        "摘要": "摘要：阿拉伯文本的元音标注在自然语言处理领域中仍然是一个持续的挑战，原因在于该语言的形态丰富性。在本文中，我们介绍了Sadeed，这是一种基于从Kuwain 1.5B（Hennara等，2025）适配的解码器语言模型的创新方法。Kuwain 1.5B是一个原本在多样的阿拉伯语语料库上训练的紧凑模型。Sadeed通过在精心策划的高质量元音注释数据集上进行微调而开发，这些数据集是通过严格的数据清理和标准化流程构建的。尽管使用了适度的计算资源，但Sadeed取得了与大型专有语言模型相竞争的结果，并且在相似领域训练的传统模型中表现出色。此外，我们还强调了当前阿拉伯语元音标注基准测试中的主要局限性。为了解决这些问题，我们引入了SadeedDiac-25，这是一个新的基准，旨在实现对不同文本体裁和复杂性水平的更加公平和全面的评估。Sadeed和SadeedDiac-25共同为推进阿拉伯语自然语言处理应用（包括机器翻译、文本转语音和语言学习工具）提供了坚实的基础。\n\n翻译：",
+        "地址": "https://arxiv.org/pdf/2504.21635.pdf"
+    },
+    {
+        "名称": "2025 [2504.21776] WebThinker: Empowering Large Reasoning Models with Deep Research Capability.pdf",
+        "作者": "Xiaoxi Li, Jiajie Jin, Guanting Dong, Hongjin Qian, Yutao Zhu, Yongkang Wu, Ji-Rong Wen, Zhicheng Dou",
+        "摘要": "摘要：大型推理模型（LRMs），例如OpenAI-o1和DeepSeek-R1，展示了令人印象深刻的长程推理能力。然而，它们对静态内部知识的依赖限制了它们在复杂的、知识密集型任务上的表现，并且阻碍了它们在需要综合多种网络信息的研究报告生成中的能力。为了解决这个问题，我们提出了\\textbf{WebThinker}，一个赋能LRMs能够在推理过程中自主搜索网络、浏览网页和撰写研究报告的深度研究代理。WebThinker集成了一个\\textbf{深度网络探索器}模块，使LRMs在遇到知识空白时能够动态地搜索、浏览和提取网页信息。它还采用了一种\\textbf{自主思考-搜索-草拟策略}，允许模型在实时中无缝地交替进行推理、信息收集和报告撰写。为了进一步增强研究工具的利用，我们介绍了一种通过迭代在线直接偏好优化（DPO）的\\textbf{基于强化学习的训练策略}。在复杂推理基准（GPQA、GAIA、WebWalkerQA、HLE）和科学报告生成任务（Glaive）上的大量实验表明，WebThinker显著优于现有方法和强有力的专有系统。我们的方法增强了LRM在复杂场景中的可靠性和适用性，为更强大和多功能的深度研究系统铺平了道路。代码可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.21776.pdf"
+    },
+    {
+        "名称": "2025 [2504.21850] COMPACT: COMPositional Atomic-to-Complex Visual Capability Tuning.pdf",
+        "作者": "Xindi Wu, Hee Seung Hwang, Polina Kirichenko, Olga Russakovsky",
+        "摘要": "摘要：多模态大语言模型（MLLMs）在简单的视觉语言任务中表现优异，但在需要多种能力的复杂任务中表现不佳，例如同时识别物体、计数和理解其空间关系。这可能部分因为视觉指令微调（VIT），作为MLLMs关键的训练步骤，传统上只关注扩展数据量，而不是训练样本的组合复杂性。我们提出了COMPACT（组合原子到复杂视觉能力微调），生成一个显式控制训练样本组合复杂性的训练数据集。COMPACT的数据使MLLMs能够通过组合原子能力来更高效地学习复杂能力。在所有基准测试中，COMPACT在使用不到10%数据预算的情况下，达到了与LLaVA-665k VIT相当的性能，并且在若干方面超越了它，特别是在涉及复杂多能力任务的情况下。例如，在需要四种或更多原子能力的特别复杂问题中，COMPACT在MMStar上实现了83.3%的显著改进，在MM-Vet上实现了94.0%的改进。COMPACT提供了一种可扩展、数据高效的视觉组合微调方案，以改进复杂的视觉语言任务。",
+        "地址": "https://arxiv.org/pdf/2504.21850.pdf"
+    },
+    {
+        "名称": "2025 [2504.21233] Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math.pdf",
+        "作者": "Haoran Xu, Baolin Peng, Hany Awadalla, Dongdong Chen, Yen-Chun Chen, Mei Gao, Young Jin Kim, Yunsheng Li, Liliang Ren, Yelong Shen, Shuohang Wang, Weijian Xu, Jianfeng Gao, Weizhu Chen",
+        "摘要": "摘要：连锁思维（CoT）通过训练大型语言模型（LLMs）显式生成中间推理步骤，显著增强了其形式推理能力。尽管LLMs能从这种技术中获益，但由于其模型容量有限，提高小型语言模型（SLMs）的推理能力仍然具有挑战性。最近，Deepseek-R1的研究表明，通过蒸馏LLMs生成的合成数据，可以显著提高SLM的推理能力。然而，详细的建模方法并未披露。在这项工作中，我们提出了一种系统的SLM训练方法，包括四个步骤：（1）在多样化蒸馏长CoT数据上进行大规模中期训练，（2）在高质量长CoT数据上进行监督微调，（3）利用精心策划的偏好数据集进行Rollout DPO，（4）通过可验证奖励进行强化学习（RL）。我们将该方法应用于Phi-4-Mini，一个紧凑的38亿参数模型。结果表明，Phi-4-Mini-Reasoning模型在数学推理任务上超越了更大的推理模型，例如在Math-500上分别比DeepSeek-R1-Distill-Qwen-7B高3.2分和比DeepSeek-R1-Distill-Llama-8B高7.7分。我们的结果验证了，精心设计的训练方法加上大规模高质量的CoT数据，即使在资源受限的小型模型中也能释放出强大的推理能力。\n\n翻译作者：徐浩然，彭宝林，哈尼·阿瓦达拉，陈东东，陈燕春，高梅，金永镇，李云生，任立良，沈越龙，王硕航，徐伟健，高剑峰，陈维珠",
+        "地址": "https://arxiv.org/pdf/2504.21233.pdf"
+    },
+    {
+        "名称": "2025 [2504.20708] Beyond the Last Answer: Your Reasoning Trace Uncovers More than You Think.pdf",
+        "作者": "Hasan Abed Al Kader Hammoud, Hani Itani, Bernard Ghanem",
+        "摘要": "摘要：大型语言模型（LLMs）通过逐步推理来解决复杂问题。标准的评估方法涉及生成完整的推理轨迹并评估其结论所给出的最终答案是否正确。在本文中，我们质疑对最终答案的依赖，并提出以下两个问题：最终答案是否能可靠地代表模型的最佳结论？替代的推理路径是否会产生不同的结果？为了回答这些问题，我们分析了中间推理步骤，称之为“子思维”（subthought），并基于我们的发现提出了一种方法。我们的方法涉及根据语言线索将推理轨迹分割为连续的子思维。我们首先提示模型从每个中间子思维的终点生成继续推理的内容。我们从每个完备的延续推理中提取一个潜在答案。我们发现，通过选择最频繁出现的答案（模态）来汇总这些答案，往往比仅凭原始完整推理轨迹得出的答案具有显著更高的准确性。分析从不同子思维得出的答案的一致性揭示了与模型信心和正确性相关的特征，表明有可能识别出不太可靠的答案。我们在各种大型语言模型和具有挑战性的数学推理数据集（AIME2024和AIME2025）上的实验显示出一致的准确性改进，分别达到了13%和10%的增益。具体执行可参见：该网址。\n\n翻译作者：哈桑·阿贝德·阿尔·卡德尔·哈穆德、哈尼·伊塔尼、伯纳德·加内姆\n\n评论：预印本",
+        "地址": "https://arxiv.org/pdf/2504.20708.pdf"
+    },
+    {
+        "名称": "2025 [2504.21318] Phi-4-reasoning Technical Report.pdf",
+        "作者": "Marah Abdin, Sahaj Agarwal, Ahmed Awadallah, Vidhisha Balachandran, Harkirat Behl, Lingjiao Chen, Gustavo de Rosa, Suriya Gunasekar, Mojan Javaheripi, Neel Joshi, Piero Kauffmann, Yash Lara, Caio César Teodoro Mendes, Arindam Mitra, Besmira Nushi, Dimitris Papailiopoulos, Olli Saarikivi, Shital Shah, Vaishnavi Shrivastava, Vibhav Vineet, Yue Wu, Safoora Yousefi, Guoqing Zheng",
+        "摘要": "摘要: 我们介绍了Phi-4-reasoning，这是一个拥有140亿参数的推理模型，在复杂推理任务中表现出色。通过对Phi-4进行监督微调，该模型在精心挑选的“可教”提示（这些提示具有恰到好处的复杂性和多样性）和利用o3-mini生成的推理演示上进行训练，Phi-4-reasoning生成了详细的推理链，这些链条有效利用了推理时的计算资源。我们进一步开发了Phi-4-reasoning-plus，这是一种通过短暂的基于结果的强化学习阶段增强的变体，通过生成更长的推理过程来提供更高的性能。在广泛的推理任务中，这两个模型均明显优于规模更大的开源模型，如DeepSeek-R1-Distill-Llama-70B模型，并接近完整的DeepSeek-R1模型的表现水平。我们全面的评估涵盖数学和科学推理、编码、算法问题解决、规划和空间理解等基准。有趣的是，我们还观察到改进对通用任务基准也有非平凡的迁移。在本报告中，我们深入探讨了我们的训练数据、训练方法和评估。我们展示了精心挑选数据进行监督微调（SFT）对推理语言模型的好处，并且通过强化学习（RL）可以进一步放大这种好处。最后，我们的评估指出了改进评估推理模型的性能和鲁棒性的方法。",
+        "地址": "https://arxiv.org/pdf/2504.21318.pdf"
+    },
+    {
+        "名称": "2025 [2504.20966] Softpick: No Attention Sink, No Massive Activations with Rectified Softmax.pdf",
+        "作者": "Zayd M. K. Zuhri, Erland Hilman Fuadi, Alham Fikri Aji",
+        "摘要": "摘要（翻译为中文）：\n\n我们介绍了softpick，这是一种用于transformer注意力机制的经过校正的不求和为一的替代softmax的方法，能够消除注意力消耗和大规模激活。我们对340M参数模型的实验表明，在标准基准测试中，softpick在性能上与softmax持平，同时实现了0%的消耗率。softpick transformer产生的隐藏状态的峰度显著降低（340对比33,510），并创建稀疏注意力图（稀疏度为46.97%）。使用softpick的模型在量化时始终优于softmax，尤其是在较低比特精度下优势更为显著。我们的分析和讨论显示，softpick有潜力为量化、低精度训练、稀疏优化、剪枝和可解释性开辟新的可能性。我们的代码可在此HTTPS URL获取。",
+        "地址": "https://arxiv.org/pdf/2504.20966.pdf"
+    },
+    {
+        "名称": "2025 [2504.19720] Taming the Titans: A Survey of Efficient LLM Inference Serving.pdf",
+        "作者": "Ranran Zhen, Juntao Li, Yixin Ji, Zhenlin Yang, Tong Liu, Qingrong Xia, Xinyu Duan, Zhefeng Wang, Baoxing Huai, Min Zhang",
+        "摘要": "摘要: 用于生成式 AI 的大型语言模型（LLMs）取得了显著进展，发展成为在各个领域和应用中广泛采用的复杂多功能工具。然而，其庞大的参数数量带来的巨大内存开销以及注意力机制的高计算需求，在实现 LLM 推理服务的低延迟和高吞吐量方面带来了重大挑战。近年来，受开创性研究推动，该领域取得了重大进展。本文提供了对这些方法的全面调查，涵盖了基本的实例级方法、深入的集群级策略、新兴场景方向以及其他杂项但重要的领域。在实例级别，我们回顾了模型放置、请求调度、解码长度预测、存储管理和分解范式。在集群级别，我们探讨了 GPU 集群部署、多实例负载均衡和云服务解决方案。对于新兴场景，我们围绕特定任务、模块和辅助方法进行讨论。为了确保整体概览，我们还强调了几个利基但至关重要的领域。最后，我们概述了进一步推进 LLM 推理服务领域的潜在研究方向。",
+        "地址": "https://arxiv.org/pdf/2504.19720.pdf"
+    },
+    {
+        "名称": "2025 [2504.21039] Llama-3.1-FoundationAI-SecurityLLM-Base-8B Technical Report.pdf",
+        "作者": "Paul Kassianik, Baturay Saglam, Alexander Chen, Blaine Nelson, Anu Vellore, Massimo Aufiero, Fraser Burch, Dhruv Kedia, Avi Zohary, Sajana Weerawardhena, Aman Priyanshu, Adam Swanda, Amy Chang, Hyrum Anderson, Kojin Oshiba, Omar Santos, Yaron Singer, Amin Karbasi",
+        "摘要": "摘要：随着基于变压器的大型语言模型（LLM）日益渗透社会，它们在软件工程、创意写作和数字艺术等领域已经带来了革命性变化。然而，由于缺乏专业训练数据和表示网络安全特定知识的复杂性，这些模型在网络安全领域的应用仍然有限。为了解决这些问题，我们提出了Foundation-Sec-8B，这是一种基于Llama 3.1架构并通过继续预训练在精心策划的网络安全语料库上的网络安全专注的LLM。我们在既有和新的网络安全基准上评估了Foundation-Sec-8B，显示它在某些网络安全特定任务中与Llama 3.1-70B和GPT-4o-mini相匹配。通过向公众发布我们的模型，我们旨在加速AI驱动工具在公共和私人网络安全环境中的发展和采用。\n\n翻译：随着基于变压器的大型语言模型（LLM）日益渗透社会，它们在软件工程、创意写作和数字艺术等领域已经带来了革命性变化。然而，由于缺乏专业训练数据和表示网络安全特定知识的复杂性，这些模型在网络安全领域的应用仍然有限。为了解决这些问题，我们提出了Foundation-Sec-8B，这是一种基于Llama 3.1架构并通过继续预训练在精心策划的网络安全语料库上的网络安全专注的LLM。我们在既有和新的网络安全基准上评估了Foundation-Sec-8B，显示它在某些网络安全特定任务中与Llama 3.1-70B和GPT-4o-mini相匹配。通过向公众发布我们的模型，我们旨在加速AI驱动工具在公共和私人网络安全环境中的发展和采用。",
+        "地址": "https://arxiv.org/pdf/2504.21039.pdf"
+    },
+    {
+        "名称": "2025 [2505.00551] 100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models.pdf",
+        "作者": "Chong Zhang, Yue Deng, Xiang Lin, Bin Wang, Dianwen Ng, Hai Ye, Xingxuan Li, Yao Xiao, Zhanfeng Mo, Qi Zhang, Lidong Bing",
+        "摘要": "摘要：最近，推理语言模型（RLMs）的发展代表了大型语言模型的一种新颖演进。特别是最近发布的DeepSeek-R1引发了广泛的社会影响，并激发了研究社区对探索语言模型的显性推理范式的热情。然而，DeepSeek尚未完全开源已发布模型的实现细节，包括DeepSeek-R1-Zero、DeepSeek-R1以及精简的小模型。因此，许多复制研究涌现，旨在通过类似的训练程序和完全开源的数据资源再现DeepSeek-R1取得的强劲表现。这些研究探索了监督微调（SFT）和从可验证奖励中进行强化学习（RLVR）的可行策略，专注于数据准备和方法设计，提出了各种有价值的见解。在本报告中，我们总结了最近的复制研究，以启发未来的研究。我们主要关注SFT和RLVR这两个主要方向，介绍当前复制研究的数据构建、方法设计和训练过程的细节。此外，我们总结了这些研究报告的实现细节和实验结果中的关键发现，希望能启发未来的研究。我们还讨论了增强RLMs的其他技术，强调了扩展这些模型应用范围的潜力，并讨论了开发中的挑战。通过这次调查，我们旨在帮助RLM的研究人员和开发人员及时了解最新进展，并寻求新思路以进一步增强RLM。",
+        "地址": "https://arxiv.org/pdf/2505.00551.pdf"
+    },
+    {
+        "名称": "2025 [2504.19056] Generative AI for Character Animation: A Comprehensive Survey of Techniques, Applications, and Future Directions.pdf",
+        "作者": "Mohammad Mahdi Abootorabi, Omid Ghahroodi, Pardis Sadat Zahraei, Hossein Behzadasl, Alireza Mirrokni, Mobina Salimipanah, Arash Rasouli, Bahar Behzadipour, Sara Azarnoush, Benyamin Maleki, Erfan Sadraiye, Kiarash Kiani Feriz, Mahdi Teymouri Nahad, Ali Moghadasi, Abolfazl Eshagh Abianeh, Nizi Nazar, Hamid R. Rabiee, Mahdieh Soleymani Baghshah, Meisam Ahmadi, Ehsaneddin Asgari",
+        "摘要": "摘要：生成式人工智能正在重塑艺术、游戏，尤其是动画领域。最近在基础模型和扩散模型方面的突破减少了制作动画内容的时间和成本。角色是动画的核心组件，涵盖了动作、情感、手势和面部表情。近年来，该领域的进展速度和广度使得保持一个连贯的视角变得困难，从而激发了对综合性综述的需求。与早期将头像、手势或面部动画单独处理的概述不同，本次调查提供了一个关于角色动画主要生成式人工智能应用的全面视角。我们首先考察面部动画、表情渲染、图像合成、头像创建、手势建模、动作合成、对象生成和纹理合成的最新进展。我们重点介绍了各个领域的领先研究、实际部署、常用数据集和新兴趋势。为了支持新人，我们还提供了综合背景部分，介绍了基础模型和评估指标，为读者进入该领域提供所需的知识。我们讨论了开放性挑战并绘制了未来研究方向图，为推动基于AI的角色动画技术提供了路线图。这篇综述旨在作为研究人员和开发人员进入生成式AI动画领域或相关领域的资源。资源可在以下网址获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2504.19056.pdf"
+    },
+    {
+        "名称": "2025 [2504.21855] ReVision: High-Quality, Low-Cost Video Generation with Explicit 3D Physics Modeling for Complex Motion and Interaction.pdf",
+        "作者": "Qihao Liu, Ju He, Qihang Yu, Liang-Chieh Chen, Alan Yuille",
+        "摘要": "摘要：近年来，视频生成技术取得了显著的进展。然而，在生成复杂的动作和交互方面仍然存在挑战。为了解决这些挑战，我们推出了ReVision，一个即插即用的框架，明确地将参数化的三维物理知识整合到预训练的条件视频生成模型中，显著增强了其生成高质量且包含复杂动作和交互视频的能力。具体来说，ReVision包括三个阶段。首先，使用视频扩散模型生成粗略的视频。接下来，我们从粗略视频中提取一组二维和三维特征，以构建以三维物体为中心的表示，并通过我们提出的参数化物理先验模型对其进行精炼，生成精准的三维动作序列。最后，将精炼后的动作序列作为额外的条件输入回同一视频扩散模型，从而能够生成动作一致性的视频，即使在涉及复杂动作和交互的场景中也是如此。我们在稳定视频扩散上的验证表明，ReVision显著提高了运动真实性和连贯性。值得注意的是，尽管其仅有15亿个参数，但在复杂视频生成方面，ReVision的表现甚至大幅超过了拥有超过130亿参数的最先进视频生成模型。我们的结果表明，通过结合三维物理知识，即使是相对较小的视频扩散模型也能够以更高的真实感和可控性生成复杂的动作和交互，提供了一种生成物理上合理视频的有前景的解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.21855.pdf"
+    },
+    {
+        "名称": "2025 [2504.18904] RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning.pdf",
+        "作者": "Haoran Geng, Feishi Wang, Songlin Wei, Yuyang Li, Bangjun Wang, Boshi An, Charlie Tianyue Cheng, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Yue Wang, Jitendra Malik, Pieter Abbeel",
+        "摘要": "摘要：数据扩展和标准化评估基准推动了自然语言处理和计算机视觉的显著进步。然而，机器人学在数据扩展和建立评估协议方面面临独特挑战。收集现实世界数据资源密集且效率低下，而在现实环境中进行基准测试仍然非常复杂。合成数据和模拟提供了有前景的替代方案，但现有的努力通常在数据质量、多样性和基准标准化方面表现不佳。为了解决这些挑战，我们引入了RoboVerse，这是一种综合框架，包括模拟平台、合成数据集和统一基准。我们的模拟平台支持多种模拟器和机器人表现形式，实现不同环境间的无缝转换。合成数据集通过多种方法构建，具有高保真物理和照片级真实感渲染。此外，我们提出了模仿学习和强化学习的统一基准，能够在不同泛化水平上进行评估。模拟平台的核心是MetaSim,这个基础架构将不同的模拟环境抽象为通用界面。它将现有模拟环境重构为与模拟器无关的配置系统，以及对齐不同模拟器功能的API，例如启动模拟环境、加载初始状态资产、步进物理引擎等。这种抽象确保了互操作性和可扩展性。综合实验表明，RoboVerse提高了模仿学习、强化学习、世界模型学习和从模拟到现实的转移性能。这些结果验证了我们数据集和基准的可靠性，确立了RoboVerse作为推进机器人学习的强大解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.18904.pdf"
+    },
+    {
+        "名称": "2025 [2504.21336] UniBiomed: A Universal Foundation Model for Grounded Biomedical Image Interpretation.pdf",
+        "作者": "Linshan Wu, Yuxiang Nie, Sunan He, Jiaxin Zhuang, Hao Chen",
+        "摘要": "摘要：多模态生物医学图像的解释为生物医学图像分析开辟了新的机会。传统的人工智能方法通常依赖于分离的训练，即用于临床文本生成的大型语言模型（LLMs）和用于目标提取的分割模型，这导致了在实际部署中的不灵活性以及未能利用整体的生物医学信息。为此，我们介绍了UniBiomed，这是第一个用于生物医学图像解释的通用基础模型。UniBiomed基于多模态大型语言模型（MLLM）和“分割任何模型”（SAM）的新集成，能够有效地统一临床文本的生成和相应生物医学对象的分割，从而进行有依据的解释。通过这种方式，UniBiomed能够处理包括十种不同生物医学成像模式在内的广泛生物医学任务。为了开发UniBiomed，我们编制了一个大规模数据集，包括超过2700万个图像、注释和文本描述的三重数据，涵盖了十种成像模态。对84个内部和外部数据集的广泛验证表明，UniBiomed在分割、疾病识别、区域感知诊断、视觉问答和报告生成方面达到了最先进的性能。此外，与以前依赖于临床专家预诊图像并手动制作精确文本或视觉提示的模型不同，UniBiomed可以提供自动化和端到端的生物医学图像分析解释。这代表了临床工作流程中的一种新的范式转换，将显著提高诊断效率。总之，UniBiomed代表了生物医学人工智能的一项新的突破，为更准确和高效的生物医学图像分析解锁了强大的解释能力。",
+        "地址": "https://arxiv.org/pdf/2504.21336.pdf"
+    },
+    {
+        "名称": "2025 [2504.19043] Selecting Optimal Candidate Profiles in Adversarial Environments Using Conjoint Analysis and Machine Learning.pdf",
+        "作者": "Connor T. Jerzak, Priyanshi Chandra, Rishi Hazra",
+        "摘要": "摘要：结合分析法是一种因子实验设计的应用，是社会科学研究中用于研究多维偏好的常用工具。在政治分析的背景下，此类实验要求受访者在两个具有随机选择特征的假设政治候选人之间进行选择，这些特征可能包括党派立场、政策立场、性别和种族。我们关注识别最佳候选人特征组合的问题。由于唯一特征组合的数量远远超过典型结合实验中的总观察数，因此无法准确确定最佳特征组合。为应对这一识别挑战，我们推导出一种最优随机干预方法，该方法代表各种属性的概率分布，旨在实现最有利的平均结果。我们首先考虑一个政党优化其候选人选择的环境。然后转向更现实的情况，即两个政党同时并反对地优化各自的候选人选择。我们将提出的方法应用于一个关于美国总统投票选择的现有候选人选择结合实验。我们发现，与非对抗方法相比，在对抗体制下预期结果落在历史选举结果范围内，相比于从非对抗方法推导的策略，该方法建议的最佳策略更可能与实际观察到的候选人匹配。这些发现表明，将对抗动态纳入结合分析可能会为实验中的社会科学数据提供独特的见解。",
+        "地址": "https://arxiv.org/pdf/2504.19043.pdf"
+    }
+]
