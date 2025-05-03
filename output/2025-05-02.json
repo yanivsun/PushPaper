@@ -1,0 +1,74 @@
+[
+    {
+        "名称": "2025 [2504.21853] A Survey of Interactive Generative Video.pdf",
+        "作者": "Jiwen Yu, Yiran Qin, Haoxuan Che, Quande Liu, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai, Hao Chen, Xihui Liu",
+        "摘要": "摘要：交互式生成视频（IGV）在应对各个领域对高质量互动视频内容日益增长的需求时，已经成为一项至关重要的技术。在本文中，我们将IGV定义为一种结合生成能力以制作多样化高质量视频内容与带互动特性的技术，使用户能够通过控制信号和响应式反馈进行互动。我们调查了当前IGV应用的现状，重点关注三个主要领域：1）游戏，IGV在其中实现了虚拟世界的无限探索；2）具身AI，IGV作为一种物理感知环境合成器，用于训练在动态变化场景中进行多模态交互的代理系统；3）自动驾驶，IGV提供了闭环仿真能力，用于安全关键的测试和验证。为了指导未来的发展，我们提出了一个综合框架，将理想的IGV系统分解为五个基本模块：生成、控制、记忆、动态和智能。此外，我们系统地分析了实现每个组件理想化IGV系统的技术挑战和未来方向，例如实现实时生成、支持开放域控制、保持长期连贯性、模拟准确物理效果以及整合因果推理。我们相信，这种系统分析将促进未来IGV领域的研究和开发，最终推动该技术向更复杂和更实用的应用方向发展。",
+        "地址": "https://arxiv.org/pdf/2504.21853.pdf"
+    },
+    {
+        "名称": "2025 [2505.00662] DeepCritic: Deliberate Critique with Large Language Models.pdf",
+        "作者": "Wenkai Yang, Jingwen Chen, Yankai Lin, Ji-Rong Wen",
+        "摘要": "摘要：随着大型语言模型（LLMs）的迅速发展，对其输出提供准确反馈和可扩展监控变得越来越迫切和关键。利用LLMs作为批判模型以实现自动监督是一种有前景的解决方案。在这项工作中，我们专注于研究和增强LLMs的数学批判能力。当前的LLM批评者在每个步骤上的批评过于浅显和肤浅，导致判断准确性较低，并且在为LLM生成器纠正错误提供足够反馈方面存在困难。为了解决这个问题，我们提出了一个新颖且有效的双阶段框架，用于开发能够在数学解题的每个推理步骤上进行深思熟虑批判的LLM批评者。在第一阶段，我们利用Qwen2.5-72B-Instruct生成4.5K长篇批评作为监督微调的种子数据。每个种子批评包括多角度验证的逐步深思熟虑批评以及对每个推理步骤初始批评的深入批评。然后，我们在微调模型上进行强化学习，使用来自PRM800K的现有人类标注数据或通过基于蒙特卡洛采样的正确性估计自动注释的数据，以进一步激发其批判能力。我们基于Qwen2.5-7B-Instruct开发的批评模型不仅在各种错误识别基准上显著优于现有的LLM批评者（包括同规模的DeepSeek-R1-distill模型和GPT-4o），而且通过更详细的反馈更有效地帮助LLM生成器改进错误步骤。\n\n作者：Wenkai Yang, Jingwen Chen, Yankai Lin, Ji-Rong Wen\n\n备注：工作正在进行中。数据和模型可在此HTTPS URL获取\n\n网址：[https://arxiv.org/pdf/2505.00662.pdf](https://arxiv.org/pdf/2505.00662.pdf)\n\n标题：2025 [2505.00662] DeepCritic: 大型语言模型的深思熟虑批判",
+        "地址": "https://arxiv.org/pdf/2505.00662.pdf"
+    },
+    {
+        "名称": "2025 [2505.00703] T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT.pdf",
+        "作者": "Dongzhi Jiang, Ziyu Guo, Renrui Zhang, Zhuofan Zong, Hao Li, Le Zhuo, Shilin Yan, Pheng-Ann Heng, Hongsheng Li",
+        "摘要": "摘要：最近在大型语言模型上的进展展示了链式思维（CoT）和强化学习（RL）如何提高性能。然而，将这些推理策略应用到视觉生成领域仍然在很大程度上是未探索的。在这篇论文中，我们提出了T2I-R1，这是一种新颖的增强推理文本到图像生成模型，通过双重水平的CoT推理过程和RL驱动。具体而言，我们识别了两种可用于增强生成不同阶段的CoT：1）用于提示高层次规划的语义级CoT，2）用于在逐块生成时进行底层像素处理的符号级CoT。为了更好地协调这两个级别的CoT，我们引入了带有生成奖励集合的BiCoT-GRPO，它在同一训练步骤内无缝优化两个生成CoT。通过将我们的推理策略应用于基线模型Janus-Pro，我们在T2I-CompBench上实现了13%的性能提升，在WISE基准上实现了19%的性能提升，甚至超过了当前最先进的模型FLUX。代码可在以下网址获取：this https URL。\n\n作者：江东智、郭子雨、张人瑞、宗卓凡、李昊、卓乐、严士林、彭安恒、李宏生\n\n评论：项目页面：this https URL\n\n网址：https://arxiv.org/pdf/2505.00703.pdf\n\n标题：T2I-R1:通过协作语义级和符号级CoT强化图像生成",
+        "地址": "https://arxiv.org/pdf/2505.00703.pdf"
+    },
+    {
+        "名称": "2025 [2505.00234] Self-Generated In-Context Examples Improve LLM Agents for Sequential Decision-Making Tasks.pdf",
+        "作者": "Vishnu Sarukkai, Zhiqiang Xie, Kayvon Fatahalian",
+        "摘要": "摘要：许多改进大规模语言模型（LLM）代理用于连续决策任务的方法依赖于任务特定的知识工程，例如提示调优、精心挑选的上下文示例或定制的观察和动作空间。使用这些方法，代理的性能随着投入的知识工程的质量或数量而提高。我们调查了LLM代理如何通过从自己在类似任务中的成功经验中进行上下文学习来自动提高其表现。我们专注于构建和优化一个自生成示例的数据库，而不是依赖于任务特定的知识工程。我们展示了即使在训练任务中简单地积累成功的路径也能提升三个基准测试的测试性能：ALFWorld（从73%提升到89%）、Wordcraft（从55%提升到64%）和InterCode-SQL（从75%提升到79%）——与初始代理在每个任务上允许尝试两到三次所达到的性能相匹配。然后，我们介绍了两种扩展方法：（1）通过基于种群的训练进行数据库级选择，以识别高性能示例集合，以及（2）基于特定示例的选择，根据其作为上下文示例的实际效用保留个别路径。这些扩展进一步提高了性能，在ALFWorld上达到了91%——与采用任务特定组件和提示的更复杂方法相匹配。我们的结果表明，自动化路径数据库构建提供了一个引人注目的替代方案，替代了劳动密集型的知识工程。",
+        "地址": "https://arxiv.org/pdf/2505.00234.pdf"
+    },
+    {
+        "名称": "2025 [2505.00497] KeySync: A Robust Approach for Leakage-free Lip Synchronization in High Resolution.pdf",
+        "作者": "Antoni Bigata, Rodrigo Mira, Stella Bounareli, Michał Stypułkowski, Konstantinos Vougioukas, Stavros Petridis, Maja Pantic",
+        "摘要": "摘要: 唇同步任务是将现有视频中的唇部动作与新输入音频对齐，通常被视为一个较为简单的音频驱动面部动画变体。然而，除了面临生成交谈头像的常见问题（如时间一致性）之外，唇同步还面临着诸如输入视频中的表情泄漏和面部遮挡等显著新挑战，这些问题会严重影响自动配音等实际应用，但在现有研究中常被忽视。为了解决这些问题，我们提出了KeySync，一个成功解决时间一致性问题的两阶段框架，同时结合了精心设计的遮罩策略来解决泄漏和遮挡问题。我们展示了KeySync在唇部重建和跨同步方面达到了最新的研究水平，提高了视觉质量并根据我们创新的泄漏度量LipLeak减少了表情泄漏。此外，我们证明了新的遮罩方法在处理遮挡方面的有效性，并通过多次消融研究验证了我们的架构选择。代码和模型权重可以在此https URL找到。\n\n作者: Antoni Bigata, Rodrigo Mira, Stella Bounareli, Michał Stypułkowski, Konstantinos Vougioukas, Stavros Petridis, Maja Pantic\n\n标题: KeySync: 一种高分辨率免泄漏唇同步的鲁棒方法",
+        "地址": "https://arxiv.org/pdf/2505.00497.pdf"
+    },
+    {
+        "名称": "2025 [2504.20605] TF1-EN-3M: Three Million Synthetic Moral Fables for Training Small, Open Language Models.pdf",
+        "作者": "Mihai Nadas, Laura Diosan, Andrei Piscoran, Andreea Tomescu",
+        "摘要": "摘要：道德故事是传递价值观的久经考验的载体，然而现代自然语言处理领域缺乏一个结合连贯叙事与明确道德教训的大规模结构化语料库。我们通过TF1-EN-3M填补这一空缺，这是第一个由不超过8B参数的调校模型生成的三百万英语寓言开放数据集。每个故事都遵循一个六槽框架（角色 -> 特质 -> 环境 -> 冲突 -> 解决 -> 道德），通过组合提示引擎生成，保证了流派的忠实性，同时涵盖了广泛的主题空间。\n一个混合评估流程结合了(i)一个基于GPT的评论员，评分标准包括语法、创造力、道德清晰度和模板遵循性，以及(ii)无参考的多样性和可读性指标。在十个开源权重候选人中，一个8B参数的Llama-3变体提供了最佳的质量速度权衡，能够在单个消费级GPU上（<24GB VRAM）以大约13.5美分的成本生成1,000个高评分寓言。\n我们发布了数据集、生成代码、评估脚本和全部元数据，并采用宽松的许可，确保准确的可重复性和成本基准。TF1-EN-3M开启了在指令遵循、叙事智能、价值对齐和适合儿童的教育AI方面的研究途径，证明了大规模道德讲故事不再需要专有巨型模型。",
+        "地址": "https://arxiv.org/pdf/2504.20605.pdf"
+    },
+    {
+        "名称": "2025 [2504.19394] LLMs for Engineering: Teaching Models to Design High Powered Rockets.pdf",
+        "作者": "Toby Simonds",
+        "摘要": "摘要：大语言模型（LLMs）已经改变了软件工程领域，但其在物理工程领域的应用仍然未被充分探索。本文通过RocketBench评估了LLMs在高功率火箭设计中的能力，这是一个将LLMs与高保真火箭模拟连接的基准测试。我们在两个越来越复杂的设计任务中测试了模型：目标高度优化和精确着陆挑战。我们的研究发现，尽管最先进的LLMs展示了强大的基础工程知识，但它们在获得模拟结果后难以迭代其设计，最终表现低于人类水平。然而，当结合强化学习（RL）后，我们展示了一个拥有70亿参数的模型超过了最先进的基础模型和人类专家。该研究表明，RL训练的LLMs可以作为复杂工程优化的有效工具，可能会改变除软件开发之外的工程领域。",
+        "地址": "https://arxiv.org/pdf/2504.19394.pdf"
+    },
+    {
+        "名称": "2025 [2504.21659] AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization.pdf",
+        "作者": "Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen",
+        "摘要": "摘要: 最近，长链推理模型在复杂推理任务上表现出色，但往往会产生大量的推理开销，使得效率成为一个关键问题。我们的实证分析表明，使用长链推理的好处因问题而异：有些问题需要精细推理，而另一些问题则没有改善，甚至精度下降。这促使我们提出适应性的推理策略，根据输入量身定制推理深度。然而，以前的工作主要是通过减少冗长推理路径中的冗余，限制了对长链推理范式之外的更高效策略的探索。为了解决这一问题，我们提出了一种新的两阶段框架，用于自适应和高效推理。首先，我们通过合并长链和短链推理模型构建一个混合推理模型，以实现多样化的推理风格。其次，我们应用双层偏好训练，引导模型选择合适的推理风格（群体级），并在每个风格群体中偏好简明且正确的推理（实例级）。实验表明，与其他基准方法相比，我们的方法显著减少了推理成本，同时保持了性能。尤其是在五个数学数据集上的实验中，推理的平均长度减少了50%以上，这突显了自适应策略在优化大语言模型推理效率方面的潜力。我们的代码即将在这个网址发布。",
+        "地址": "https://arxiv.org/pdf/2504.21659.pdf"
+    },
+    {
+        "名称": "2025 [2504.18983] MediAug: Exploring Visual Augmentation in Medical Imaging.pdf",
+        "作者": "Xuyin Qi, Zeyu Zhang, Canxuan Gang, Hao Zhang, Lei Zhang, Zhiwei Zhang, Yang Zhao",
+        "摘要": "摘要：数据增强在医学成像中对于提高分类准确性、病变检测和器官分割在有限数据情况下至关重要。然而，两个重要的挑战仍然存在。第一，自然照片和医学图像之间明显的领域差异可能会扭曲关键的疾病特征。第二，医学成像中的增强研究是零散的，并且仅限于单任务或单架构，使得高级混合策略的优点不明确。为了解决这些挑战，我们提出了一个统一的评估框架，整合了六种基于混合的数据增强方法，结合卷积和变压器骨干网络，应用于脑肿瘤MRI和眼疾病眼底图像数据集。我们的贡献有三方面：(1) 我们介绍了MediAug，一个用于医学成像中高级数据增强的全面且可重复的基准。(2) 我们系统地评估了MixUp、YOCO、CropMix、CutMix、AugMix和SnapMix与ResNet-50和ViT-B骨干网络。(3) 通过广泛的实验，我们证明MixUp在脑肿瘤分类任务中对ResNet-50带来了最大的改进，准确率为79.19%，而SnapMix对ViT-B带来了最大的改进，准确率为99.44%；而在眼疾病分类任务中，YOCO对ResNet-50带来了最大的改进，准确率为91.60%，而CutMix对ViT-B带来了最大的改进，准确率为97.94%。代码将会在该链接处提供。",
+        "地址": "https://arxiv.org/pdf/2504.18983.pdf"
+    },
+    {
+        "名称": "2025 [2505.00534] A Robust Deep Networks based Multi-Object MultiCamera Tracking System for City Scale Traffic.pdf",
+        "作者": "Muhammad Imran Zaman, Usama Ijaz Bajwa, Gulshan Saleem, Rana Hammad Raza",
+        "摘要": "摘要: 随着网络摄像机数量的持续增加，视觉传感器在智能交通系统（ITS）中的交通监控、管理和优化方面变得越来越重要。然而，在城市规模的城市交通场景中，跨多台不重叠摄像机进行手动对象跟踪和匹配提出了重大挑战。这些挑战包括处理不同的车辆属性、遮挡、光照变化、阴影和不同的视频分辨率。为了解决这些问题，我们提出了一个高效且成本效益高的基于深度学习的多对象多摄像机跟踪（MO-MCT）框架。该框架利用Mask R-CNN进行对象检测，并采用非极大值抑制（NMS）从重叠检测中选择目标对象。迁移学习被用于重新识别，使得能够跨多个摄像机关联并生成车辆轨迹。此外，我们利用适当的损失函数和距离度量来处理遮挡、光照和阴影挑战。最终的解决方案识别模块使用ResNet-152进行特征提取，并结合Deep SORT进行车辆跟踪。该框架在包含46个摄像机的第5届AI城市挑战赛数据集（Track 3）上进行了评估，其中40个摄像机流用于模型训练和验证，其余六个用于模型测试。该框架实现了具有竞争力的成绩，IDF1分数为0.8289，精度和召回率分别为0.9026和0.8527，展示了其在稳健和准确车辆跟踪方面的有效性。",
+        "地址": "https://arxiv.org/pdf/2505.00534.pdf"
+    },
+    {
+        "名称": "2025 [2504.20406] Skill Discovery for Software Scripting Automation via Offline Simulations with LLMs.pdf",
+        "作者": "Paiheng Xu, Gang Wu, Xiang Chen, Tong Yu, Chang Xiao, Franck Dernoncourt, Tianyi Zhou, Wei Ai, Viswanathan Swaminathan",
+        "摘要": "摘要：脚本接口使用户能够自动化任务和自定义软件工作流程，但创建脚本通常需要编程专业知识和熟悉特定的API，这对许多用户来说是一个障碍。虽然大型语言模型（LLMs）可以从自然语言查询生成代码，但由于未经验证代码的存在、安全风险、响应时间较长和计算成本较高，运行时代码生成具有严重的局限性。为弥补这一差距，我们提出了一个离线模拟框架，通过利用LLMs和公开可用的脚本指南，精心策划一个软件特定技能集，即一组经过验证的脚本。我们的框架包括两个组成部分：（1）任务创建，使用自上而下的功能指导和自下而上的API协同探索生成有用的任务；（2）技能生成与试验，基于执行反馈改进和验证脚本。为了有效地导航广泛的API领域，我们引入了一种基于图神经网络（GNN）的链路预测模型，以捕捉API协同作用，从而生成涉及未充分利用的API的技能，并扩大技能集的多样性。对Adobe Illustrator的实验表明，与传统的运行时代码生成相比，我们的框架显著提高了自动化成功率，减少了响应时间，并节省了运行时令牌成本。这是首次尝试将软件脚本接口用作LLM系统的测试平台，突出了在受控环境中利用执行反馈的优势，并为在专门软件领域对齐AI能力与用户需求提供了宝贵见解。",
+        "地址": "https://arxiv.org/pdf/2504.20406.pdf"
+    },
+    {
+        "名称": "2025 [2504.18715] Spatial Speech Translation: Translating Across Space With Binaural Hearables.pdf",
+        "作者": "Tuochao Chen, Qirui Wang, Runlin He, Shyam Gollakota",
+        "摘要": "摘要：想象一下，在一个拥挤的空间里，人们说着不同的语言，而你戴着的听觉设备能将这些声音实时翻译成你的母语，同时保留每个说话者的空间提示。我们介绍了空间语音翻译，这是一种用于听觉设备的新概念，可以翻译佩戴者环境中的说话者，同时在双耳输出中保持每个说话者的方向和独特的声音特征。为实现这一目标，我们克服了盲源分离、定位、实时表达性翻译和双耳渲染等技术挑战，以在Apple M2芯片上实现实时推理。此外，我们的原型双耳耳机与现有模型相比在存在干扰的情况下表现更好，在语言翻译之间实现了高达22.01的BLEU分数。用户研究进一步证实了该系统在以前未见过的真实混响环境中有效地进行空间翻译语音的能力。这项工作标志着在语音翻译中整合空间感知的第一步。\n\n作者：陈拓超，王其锐，何润霖，Shyam Gollakota\n\n评论：已被CHI 2025接受\n\n网址：https://arxiv.org/pdf/2504.18715.pdf\n\n标题：2025 [2504.18715] 空间语音翻译：通过双耳听觉设备跨越空间进行翻译",
+        "地址": "https://arxiv.org/pdf/2504.18715.pdf"
+    }
+]
