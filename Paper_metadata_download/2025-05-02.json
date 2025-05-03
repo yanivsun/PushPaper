@@ -1,0 +1,1047 @@
+[
+    {
+        "paper": {
+            "id": "2504.21853",
+            "authors": [
+                {
+                    "_id": "681441e64d6a681c7c840b1f",
+                    "name": "Jiwen Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b20",
+                    "name": "Yiran Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b21",
+                    "name": "Haoxuan Che",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b22",
+                    "name": "Quande Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b23",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b24",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b25",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b26",
+                    "name": "Kun Gai",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b27",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b28",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/Y9dvfNIIrOJ4rCzwIB6XI.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/5kPNXDj9LIsgShhFz5WSg.jpeg"
+            ],
+            "publishedAt": "2025-04-30T17:59:02.000Z",
+            "submittedOnDailyAt": "2025-05-02T02:29:37.187Z",
+            "title": "A Survey of Interactive Generative Video",
+            "submittedOnDailyBy": {
+                "_id": "64105a6d14215c0775dfdd14",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64105a6d14215c0775dfdd14/-VX-cUYOLjHIg7QnWhRGG.jpeg",
+                "isPro": false,
+                "fullname": "Jiwen Yu",
+                "user": "VictorYuki",
+                "type": "user"
+            },
+            "summary": "Interactive Generative Video (IGV) has emerged as a crucial technology in\nresponse to the growing demand for high-quality, interactive video content\nacross various domains. In this paper, we define IGV as a technology that\ncombines generative capabilities to produce diverse high-quality video content\nwith interactive features that enable user engagement through control signals\nand responsive feedback. We survey the current landscape of IGV applications,\nfocusing on three major domains: 1) gaming, where IGV enables infinite\nexploration in virtual worlds; 2) embodied AI, where IGV serves as a\nphysics-aware environment synthesizer for training agents in multimodal\ninteraction with dynamically evolving scenes; and 3) autonomous driving, where\nIGV provides closed-loop simulation capabilities for safety-critical testing\nand validation. To guide future development, we propose a comprehensive\nframework that decomposes an ideal IGV system into five essential modules:\nGeneration, Control, Memory, Dynamics, and Intelligence. Furthermore, we\nsystematically analyze the technical challenges and future directions in\nrealizing each component for an ideal IGV system, such as achieving real-time\ngeneration, enabling open-domain control, maintaining long-term coherence,\nsimulating accurate physics, and integrating causal reasoning. We believe that\nthis systematic analysis will facilitate future research and development in the\nfield of IGV, ultimately advancing the technology toward more sophisticated and\npractical applications.",
+            "upvotes": 31,
+            "discussionId": "681441e84d6a681c7c840bae",
+            "ai_keywords": [
+                "generative capabilities",
+                "interactive features",
+                "control signals",
+                "responsive feedback",
+                "virtual worlds",
+                "physics-aware environment synthesizer",
+                "multimodal interaction",
+                "dynamically evolving scenes",
+                "closed-loop simulation",
+                "safety-critical testing",
+                "validation",
+                "real-time generation",
+                "open-domain control",
+                "long-term coherence",
+                "accurate physics",
+                "causal reasoning"
+            ]
+        },
+        "publishedAt": "2025-04-30T13:59:02.000Z",
+        "title": "A Survey of Interactive Generative Video",
+        "summary": "Interactive Generative Video (IGV) has emerged as a crucial technology in\nresponse to the growing demand for high-quality, interactive video content\nacross various domains. In this paper, we define IGV as a technology that\ncombines generative capabilities to produce diverse high-quality video content\nwith interactive features that enable user engagement through control signals\nand responsive feedback. We survey the current landscape of IGV applications,\nfocusing on three major domains: 1) gaming, where IGV enables infinite\nexploration in virtual worlds; 2) embodied AI, where IGV serves as a\nphysics-aware environment synthesizer for training agents in multimodal\ninteraction with dynamically evolving scenes; and 3) autonomous driving, where\nIGV provides closed-loop simulation capabilities for safety-critical testing\nand validation. To guide future development, we propose a comprehensive\nframework that decomposes an ideal IGV system into five essential modules:\nGeneration, Control, Memory, Dynamics, and Intelligence. Furthermore, we\nsystematically analyze the technical challenges and future directions in\nrealizing each component for an ideal IGV system, such as achieving real-time\ngeneration, enabling open-domain control, maintaining long-term coherence,\nsimulating accurate physics, and integrating causal reasoning. We believe that\nthis systematic analysis will facilitate future research and development in the\nfield of IGV, ultimately advancing the technology toward more sophisticated and\npractical applications.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/Y9dvfNIIrOJ4rCzwIB6XI.jpeg",
+            "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/5kPNXDj9LIsgShhFz5WSg.jpeg"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.21853.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "64105a6d14215c0775dfdd14",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64105a6d14215c0775dfdd14/-VX-cUYOLjHIg7QnWhRGG.jpeg",
+            "fullname": "Jiwen Yu",
+            "name": "VictorYuki",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 5
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2505.00662",
+            "authors": [
+                {
+                    "_id": "68142e4a551709da9244e8d1",
+                    "user": {
+                        "_id": "64b7df742f5a966b973e25f7",
+                        "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+                        "isPro": false,
+                        "fullname": "Wenkai Yang",
+                        "user": "Keven16",
+                        "type": "user"
+                    },
+                    "name": "Wenkai Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-02T06:34:18.531Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d2",
+                    "name": "Jingwen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d3",
+                    "name": "Yankai Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d4",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T17:03:17.000Z",
+            "submittedOnDailyAt": "2025-05-02T01:12:33.949Z",
+            "title": "DeepCritic: Deliberate Critique with Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "64b7df742f5a966b973e25f7",
+                "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+                "isPro": false,
+                "fullname": "Wenkai Yang",
+                "user": "Keven16",
+                "type": "user"
+            },
+            "summary": "As Large Language Models (LLMs) are rapidly evolving, providing accurate\nfeedback and scalable oversight on their outputs becomes an urgent and critical\nproblem. Leveraging LLMs as critique models to achieve automated supervision is\na promising solution. In this work, we focus on studying and enhancing the math\ncritique ability of LLMs. Current LLM critics provide critiques that are too\nshallow and superficial on each step, leading to low judgment accuracy and\nstruggling to offer sufficient feedback for the LLM generator to correct\nmistakes. To tackle this issue, we propose a novel and effective two-stage\nframework to develop LLM critics that are capable of deliberately critiquing on\neach reasoning step of math solutions. In the first stage, we utilize\nQwen2.5-72B-Instruct to generate 4.5K long-form critiques as seed data for\nsupervised fine-tuning. Each seed critique consists of deliberate step-wise\ncritiques that includes multi-perspective verifications as well as in-depth\ncritiques of initial critiques for each reasoning step. Then, we perform\nreinforcement learning on the fine-tuned model with either existing\nhuman-labeled data from PRM800K or our automatically annotated data obtained\nvia Monte Carlo sampling-based correctness estimation, to further incentivize\nits critique ability. Our developed critique model built on Qwen2.5-7B-Instruct\nnot only significantly outperforms existing LLM critics (including the\nsame-sized DeepSeek-R1-distill models and GPT-4o) on various error\nidentification benchmarks, but also more effectively helps the LLM generator\nrefine erroneous steps through more detailed feedback.",
+            "upvotes": 27,
+            "discussionId": "68142e4b551709da9244e8f8",
+            "ai_keywords": [
+                "LLMs (Large Language Models)",
+                "critique models",
+                "automated supervision",
+                "math critique ability",
+                "supervised fine-tuning",
+                "Qwen2.5-72B-Instruct",
+                "seed data",
+                "deliberate step-wise critiques",
+                "multi-perspective verifications",
+                "reinforcement learning",
+                "PRM800K",
+                "Monte Carlo sampling-based correctness estimation",
+                "Qwen2.5-7B-Instruct",
+                "DeepSeek-R1-distill models",
+                "GPT-4o",
+                "error identification benchmarks"
+            ]
+        },
+        "publishedAt": "2025-05-01T13:03:17.000Z",
+        "title": "DeepCritic: Deliberate Critique with Large Language Models",
+        "summary": "As Large Language Models (LLMs) are rapidly evolving, providing accurate\nfeedback and scalable oversight on their outputs becomes an urgent and critical\nproblem. Leveraging LLMs as critique models to achieve automated supervision is\na promising solution. In this work, we focus on studying and enhancing the math\ncritique ability of LLMs. Current LLM critics provide critiques that are too\nshallow and superficial on each step, leading to low judgment accuracy and\nstruggling to offer sufficient feedback for the LLM generator to correct\nmistakes. To tackle this issue, we propose a novel and effective two-stage\nframework to develop LLM critics that are capable of deliberately critiquing on\neach reasoning step of math solutions. In the first stage, we utilize\nQwen2.5-72B-Instruct to generate 4.5K long-form critiques as seed data for\nsupervised fine-tuning. Each seed critique consists of deliberate step-wise\ncritiques that includes multi-perspective verifications as well as in-depth\ncritiques of initial critiques for each reasoning step. Then, we perform\nreinforcement learning on the fine-tuned model with either existing\nhuman-labeled data from PRM800K or our automatically annotated data obtained\nvia Monte Carlo sampling-based correctness estimation, to further incentivize\nits critique ability. Our developed critique model built on Qwen2.5-7B-Instruct\nnot only significantly outperforms existing LLM critics (including the\nsame-sized DeepSeek-R1-distill models and GPT-4o) on various error\nidentification benchmarks, but also more effectively helps the LLM generator\nrefine erroneous steps through more detailed feedback.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.00662.png",
+        "numComments": 6,
+        "submittedBy": {
+            "_id": "64b7df742f5a966b973e25f7",
+            "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+            "fullname": "Wenkai Yang",
+            "name": "Keven16",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2505.00703",
+            "authors": [
+                {
+                    "_id": "681428debcdf962d03da2797",
+                    "name": "Dongzhi Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da2798",
+                    "name": "Ziyu Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da2799",
+                    "name": "Renrui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279a",
+                    "name": "Zhuofan Zong",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279b",
+                    "name": "Hao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279c",
+                    "name": "Le Zhuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279d",
+                    "name": "Shilin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279e",
+                    "name": "Pheng-Ann Heng",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279f",
+                    "name": "Hongsheng Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T17:59:46.000Z",
+            "submittedOnDailyAt": "2025-05-02T00:38:40.412Z",
+            "title": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level\n  and Token-level CoT",
+            "submittedOnDailyBy": {
+                "_id": "6349214f8146350b3a4c5cdf",
+                "avatarUrl": "/avatars/cfd24caac9a87efb528d0f4c375932bc.svg",
+                "isPro": false,
+                "fullname": "Dongzhi Jiang",
+                "user": "CaraJ",
+                "type": "user"
+            },
+            "summary": "Recent advancements in large language models have demonstrated how\nchain-of-thought (CoT) and reinforcement learning (RL) can improve performance.\nHowever, applying such reasoning strategies to the visual generation domain\nremains largely unexplored. In this paper, we present T2I-R1, a novel\nreasoning-enhanced text-to-image generation model, powered by RL with a\nbi-level CoT reasoning process. Specifically, we identify two levels of CoT\nthat can be utilized to enhance different stages of generation: (1) the\nsemantic-level CoT for high-level planning of the prompt and (2) the\ntoken-level CoT for low-level pixel processing during patch-by-patch\ngeneration. To better coordinate these two levels of CoT, we introduce\nBiCoT-GRPO with an ensemble of generation rewards, which seamlessly optimizes\nboth generation CoTs within the same training step. By applying our reasoning\nstrategies to the baseline model, Janus-Pro, we achieve superior performance\nwith 13% improvement on T2I-CompBench and 19% improvement on the WISE\nbenchmark, even surpassing the state-of-the-art model FLUX.1. Code is available\nat: https://github.com/CaraJ7/T2I-R1",
+            "upvotes": 19,
+            "discussionId": "681428dfbcdf962d03da281c",
+            "githubRepo": "https://github.com/CaraJ7/T2I-R1",
+            "ai_keywords": [
+                "chain-of-thought (CoT)",
+                "reinforcement learning (RL)",
+                "text-to-image generation model",
+                "bi-level CoT reasoning process",
+                "semantic-level CoT",
+                "token-level CoT",
+                "BiCoT-GRPO",
+                "generation rewards",
+                "Janus-Pro",
+                "T2I-CompBench",
+                "WISE benchmark",
+                "FLUX"
+            ]
+        },
+        "publishedAt": "2025-05-01T13:59:46.000Z",
+        "title": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level\n  and Token-level CoT",
+        "summary": "Recent advancements in large language models have demonstrated how\nchain-of-thought (CoT) and reinforcement learning (RL) can improve performance.\nHowever, applying such reasoning strategies to the visual generation domain\nremains largely unexplored. In this paper, we present T2I-R1, a novel\nreasoning-enhanced text-to-image generation model, powered by RL with a\nbi-level CoT reasoning process. Specifically, we identify two levels of CoT\nthat can be utilized to enhance different stages of generation: (1) the\nsemantic-level CoT for high-level planning of the prompt and (2) the\ntoken-level CoT for low-level pixel processing during patch-by-patch\ngeneration. To better coordinate these two levels of CoT, we introduce\nBiCoT-GRPO with an ensemble of generation rewards, which seamlessly optimizes\nboth generation CoTs within the same training step. By applying our reasoning\nstrategies to the baseline model, Janus-Pro, we achieve superior performance\nwith 13% improvement on T2I-CompBench and 19% improvement on the WISE\nbenchmark, even surpassing the state-of-the-art model FLUX.1. Code is available\nat: https://github.com/CaraJ7/T2I-R1",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.00703.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6349214f8146350b3a4c5cdf",
+            "avatarUrl": "/avatars/cfd24caac9a87efb528d0f4c375932bc.svg",
+            "fullname": "Dongzhi Jiang",
+            "name": "CaraJ",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 9
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2505.00234",
+            "authors": [
+                {
+                    "_id": "6814efeca3a0d78663350246",
+                    "name": "Vishnu Sarukkai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6814efeca3a0d78663350247",
+                    "name": "Zhiqiang Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6814efeca3a0d78663350248",
+                    "name": "Kayvon Fatahalian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T00:48:12.000Z",
+            "submittedOnDailyAt": "2025-05-02T14:48:14.326Z",
+            "title": "Self-Generated In-Context Examples Improve LLM Agents for Sequential\n  Decision-Making Tasks",
+            "submittedOnDailyBy": {
+                "_id": "63051ebaacc17ce4ad347b24",
+                "avatarUrl": "/avatars/d6537b41f9275b90b5080713f273558c.svg",
+                "isPro": false,
+                "fullname": "Vishnu Sarukkai",
+                "user": "vsanimator",
+                "type": "user"
+            },
+            "summary": "Many methods for improving Large Language Model (LLM) agents for sequential\ndecision-making tasks depend on task-specific knowledge engineering--such as\nprompt tuning, curated in-context examples, or customized observation and\naction spaces. Using these approaches, agent performance improves with the\nquality or amount of knowledge engineering invested. Instead, we investigate\nhow LLM agents can automatically improve their performance by learning\nin-context from their own successful experiences on similar tasks. Rather than\nrelying on task-specific knowledge engineering, we focus on constructing and\nrefining a database of self-generated examples. We demonstrate that even a\nnaive accumulation of successful trajectories across training tasks boosts test\nperformance on three benchmarks: ALFWorld (73% to 89%), Wordcraft (55% to 64%),\nand InterCode-SQL (75% to 79%)--matching the performance the initial agent\nachieves if allowed two to three attempts per task. We then introduce two\nextensions: (1) database-level selection through population-based training to\nidentify high-performing example collections, and (2) exemplar-level selection\nthat retains individual trajectories based on their empirical utility as\nin-context examples. These extensions further enhance performance, achieving\n91% on ALFWorld--matching more complex approaches that employ task-specific\ncomponents and prompts. Our results demonstrate that automatic trajectory\ndatabase construction offers a compelling alternative to labor-intensive\nknowledge engineering.",
+            "upvotes": 7,
+            "discussionId": "6814efeca3a0d7866335027c",
+            "ai_keywords": [
+                "Large Language Model (LLM)",
+                "sequential decision-making",
+                "prompt tuning",
+                "in-context examples",
+                "observation and action spaces",
+                "in-context learning",
+                "self-generated examples",
+                "successful trajectories",
+                "ALFWorld",
+                "Wordcraft",
+                "InterCode-SQL",
+                "high-performing example collections",
+                "exemplar-level selection",
+                "empirical utility",
+                "database-level selection",
+                "population-based training",
+                "trajectory database construction"
+            ]
+        },
+        "publishedAt": "2025-04-30T20:48:12.000Z",
+        "title": "Self-Generated In-Context Examples Improve LLM Agents for Sequential\n  Decision-Making Tasks",
+        "summary": "Many methods for improving Large Language Model (LLM) agents for sequential\ndecision-making tasks depend on task-specific knowledge engineering--such as\nprompt tuning, curated in-context examples, or customized observation and\naction spaces. Using these approaches, agent performance improves with the\nquality or amount of knowledge engineering invested. Instead, we investigate\nhow LLM agents can automatically improve their performance by learning\nin-context from their own successful experiences on similar tasks. Rather than\nrelying on task-specific knowledge engineering, we focus on constructing and\nrefining a database of self-generated examples. We demonstrate that even a\nnaive accumulation of successful trajectories across training tasks boosts test\nperformance on three benchmarks: ALFWorld (73% to 89%), Wordcraft (55% to 64%),\nand InterCode-SQL (75% to 79%)--matching the performance the initial agent\nachieves if allowed two to three attempts per task. We then introduce two\nextensions: (1) database-level selection through population-based training to\nidentify high-performing example collections, and (2) exemplar-level selection\nthat retains individual trajectories based on their empirical utility as\nin-context examples. These extensions further enhance performance, achieving\n91% on ALFWorld--matching more complex approaches that employ task-specific\ncomponents and prompts. Our results demonstrate that automatic trajectory\ndatabase construction offers a compelling alternative to labor-intensive\nknowledge engineering.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.00234.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "63051ebaacc17ce4ad347b24",
+            "avatarUrl": "/avatars/d6537b41f9275b90b5080713f273558c.svg",
+            "fullname": "Vishnu Sarukkai",
+            "name": "vsanimator",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2505.00497",
+            "authors": [
+                {
+                    "_id": "68147d4d687b82a9b6308cfd",
+                    "name": "Antoni Bigata",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308cfe",
+                    "name": "Rodrigo Mira",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308cff",
+                    "name": "Stella Bounareli",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d00",
+                    "name": "Michał Stypułkowski",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d01",
+                    "name": "Konstantinos Vougioukas",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d02",
+                    "name": "Stavros Petridis",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d03",
+                    "name": "Maja Pantic",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/640777812e309e65452491dd/4ao3SssNM8wCiTo5amAxn.mp4"
+            ],
+            "publishedAt": "2025-05-01T12:56:17.000Z",
+            "submittedOnDailyAt": "2025-05-02T06:38:20.471Z",
+            "title": "KeySync: A Robust Approach for Leakage-free Lip Synchronization in High\n  Resolution",
+            "submittedOnDailyBy": {
+                "_id": "640777812e309e65452491dd",
+                "avatarUrl": "/avatars/01b927675e78f212408168522f65fe36.svg",
+                "isPro": true,
+                "fullname": "Antoni Bigata",
+                "user": "toninio19",
+                "type": "user"
+            },
+            "summary": "Lip synchronization, known as the task of aligning lip movements in an\nexisting video with new input audio, is typically framed as a simpler variant\nof audio-driven facial animation. However, as well as suffering from the usual\nissues in talking head generation (e.g., temporal consistency), lip\nsynchronization presents significant new challenges such as expression leakage\nfrom the input video and facial occlusions, which can severely impact\nreal-world applications like automated dubbing, but are often neglected in\nexisting works. To address these shortcomings, we present KeySync, a two-stage\nframework that succeeds in solving the issue of temporal consistency, while\nalso incorporating solutions for leakage and occlusions using a carefully\ndesigned masking strategy. We show that KeySync achieves state-of-the-art\nresults in lip reconstruction and cross-synchronization, improving visual\nquality and reducing expression leakage according to LipLeak, our novel leakage\nmetric. Furthermore, we demonstrate the effectiveness of our new masking\napproach in handling occlusions and validate our architectural choices through\nseveral ablation studies. Code and model weights can be found at\nhttps://antonibigata.github.io/KeySync.",
+            "upvotes": 6,
+            "discussionId": "68147d53687b82a9b6308e59",
+            "projectPage": "https://antonibigata.github.io/KeySync/",
+            "githubRepo": "https://github.com/antonibigata/keysync",
+            "ai_keywords": [
+                "KeySync",
+                "lip synchronization",
+                "audio-driven facial animation",
+                "talking head generation",
+                "temporal consistency",
+                "expression leakage",
+                "facial occlusions",
+                "automated dubbing",
+                "lip reconstruction",
+                "cross-synchronization",
+                "visual quality",
+                "LipLeak",
+                "masking strategy",
+                "ablation studies"
+            ]
+        },
+        "publishedAt": "2025-05-01T08:56:17.000Z",
+        "title": "KeySync: A Robust Approach for Leakage-free Lip Synchronization in High\n  Resolution",
+        "summary": "Lip synchronization, known as the task of aligning lip movements in an\nexisting video with new input audio, is typically framed as a simpler variant\nof audio-driven facial animation. However, as well as suffering from the usual\nissues in talking head generation (e.g., temporal consistency), lip\nsynchronization presents significant new challenges such as expression leakage\nfrom the input video and facial occlusions, which can severely impact\nreal-world applications like automated dubbing, but are often neglected in\nexisting works. To address these shortcomings, we present KeySync, a two-stage\nframework that succeeds in solving the issue of temporal consistency, while\nalso incorporating solutions for leakage and occlusions using a carefully\ndesigned masking strategy. We show that KeySync achieves state-of-the-art\nresults in lip reconstruction and cross-synchronization, improving visual\nquality and reducing expression leakage according to LipLeak, our novel leakage\nmetric. Furthermore, we demonstrate the effectiveness of our new masking\napproach in handling occlusions and validate our architectural choices through\nseveral ablation studies. Code and model weights can be found at\nhttps://antonibigata.github.io/KeySync.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/640777812e309e65452491dd/4ao3SssNM8wCiTo5amAxn.mp4"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.00497.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "640777812e309e65452491dd",
+            "avatarUrl": "/avatars/01b927675e78f212408168522f65fe36.svg",
+            "fullname": "Antoni Bigata",
+            "name": "toninio19",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2504.20605",
+            "authors": [
+                {
+                    "_id": "68131e73f0f2a4d8b2d4b06a",
+                    "user": {
+                        "_id": "642bcb8ae5b6823cde9301bd",
+                        "avatarUrl": "/avatars/cddd29afbdbc2fbea90612567090147b.svg",
+                        "isPro": false,
+                        "fullname": "Mihai Dan Nadăș",
+                        "user": "mihainadas",
+                        "type": "user"
+                    },
+                    "name": "Mihai Nadas",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-02T06:34:48.889Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68131e73f0f2a4d8b2d4b06b",
+                    "name": "Laura Diosan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68131e73f0f2a4d8b2d4b06c",
+                    "user": {
+                        "_id": "67b2344d0ce2aaa57c8c9997",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b2344d0ce2aaa57c8c9997/LSMjuQNjRsUllUQyt9vNo.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrei Piscoran",
+                        "user": "andreiPiscoran",
+                        "type": "user"
+                    },
+                    "name": "Andrei Piscoran",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-01T07:11:31.916Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68131e73f0f2a4d8b2d4b06d",
+                    "user": {
+                        "_id": "677e4393ef848c5a5352d082",
+                        "avatarUrl": "/avatars/bcb60ead58969601e2911053550fec62.svg",
+                        "isPro": false,
+                        "fullname": "Andreea Tomescu",
+                        "user": "andreeatomescu",
+                        "type": "user"
+                    },
+                    "name": "Andreea Tomescu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-01T07:10:43.780Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-29T10:15:28.000Z",
+            "submittedOnDailyAt": "2025-05-02T06:22:34.343Z",
+            "title": "TF1-EN-3M: Three Million Synthetic Moral Fables for Training Small, Open\n  Language Models",
+            "submittedOnDailyBy": {
+                "_id": "642bcb8ae5b6823cde9301bd",
+                "avatarUrl": "/avatars/cddd29afbdbc2fbea90612567090147b.svg",
+                "isPro": false,
+                "fullname": "Mihai Dan Nadăș",
+                "user": "mihainadas",
+                "type": "user"
+            },
+            "summary": "Moral stories are a time-tested vehicle for transmitting values, yet modern\nNLP lacks a large, structured corpus that couples coherent narratives with\nexplicit ethical lessons. We close this gap with TF1-EN-3M, the first open\ndataset of three million English-language fables generated exclusively by\ninstruction-tuned models no larger than 8B parameters. Each story follows a\nsix-slot scaffold (character -> trait -> setting -> conflict -> resolution ->\nmoral), produced through a combinatorial prompt engine that guarantees genre\nfidelity while covering a broad thematic space.\n  A hybrid evaluation pipeline blends (i) a GPT-based critic that scores\ngrammar, creativity, moral clarity, and template adherence with (ii)\nreference-free diversity and readability metrics. Among ten open-weight\ncandidates, an 8B-parameter Llama-3 variant delivers the best quality-speed\ntrade-off, producing high-scoring fables on a single consumer GPU (<24 GB VRAM)\nat approximately 13.5 cents per 1,000 fables.\n  We release the dataset, generation code, evaluation scripts, and full\nmetadata under a permissive license, enabling exact reproducibility and cost\nbenchmarking. TF1-EN-3M opens avenues for research in instruction following,\nnarrative intelligence, value alignment, and child-friendly educational AI,\ndemonstrating that large-scale moral storytelling no longer requires\nproprietary giant models.",
+            "upvotes": 4,
+            "discussionId": "68131e73f0f2a4d8b2d4b087",
+            "githubRepo": "https://github.com/klusai/tinyfabulist",
+            "ai_keywords": [
+                "instruction-tuned models",
+                "combinatorial prompt engine",
+                "GPT-based critic",
+                "template adherence",
+                "reference-free diversity",
+                "Llama-3 variant",
+                "computational efficiency",
+                "permissive license",
+                "child-friendly educational AI",
+                "moral storytelling"
+            ]
+        },
+        "publishedAt": "2025-04-29T06:15:28.000Z",
+        "title": "TF1-EN-3M: Three Million Synthetic Moral Fables for Training Small, Open\n  Language Models",
+        "summary": "Moral stories are a time-tested vehicle for transmitting values, yet modern\nNLP lacks a large, structured corpus that couples coherent narratives with\nexplicit ethical lessons. We close this gap with TF1-EN-3M, the first open\ndataset of three million English-language fables generated exclusively by\ninstruction-tuned models no larger than 8B parameters. Each story follows a\nsix-slot scaffold (character -> trait -> setting -> conflict -> resolution ->\nmoral), produced through a combinatorial prompt engine that guarantees genre\nfidelity while covering a broad thematic space.\n  A hybrid evaluation pipeline blends (i) a GPT-based critic that scores\ngrammar, creativity, moral clarity, and template adherence with (ii)\nreference-free diversity and readability metrics. Among ten open-weight\ncandidates, an 8B-parameter Llama-3 variant delivers the best quality-speed\ntrade-off, producing high-scoring fables on a single consumer GPU (<24 GB VRAM)\nat approximately 13.5 cents per 1,000 fables.\n  We release the dataset, generation code, evaluation scripts, and full\nmetadata under a permissive license, enabling exact reproducibility and cost\nbenchmarking. TF1-EN-3M opens avenues for research in instruction following,\nnarrative intelligence, value alignment, and child-friendly educational AI,\ndemonstrating that large-scale moral storytelling no longer requires\nproprietary giant models.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.20605.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "642bcb8ae5b6823cde9301bd",
+            "avatarUrl": "/avatars/cddd29afbdbc2fbea90612567090147b.svg",
+            "fullname": "Mihai Dan Nadăș",
+            "name": "mihainadas",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2504.19394",
+            "authors": [
+                {
+                    "_id": "6814b0279488d28ae012b071",
+                    "name": "Toby Simonds",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-27T23:59:39.000Z",
+            "submittedOnDailyAt": "2025-05-02T10:15:05.451Z",
+            "title": "LLMs for Engineering: Teaching Models to Design High Powered Rockets",
+            "submittedOnDailyBy": {
+                "_id": "649e1f4d2ccae3ea1f2b6a7f",
+                "avatarUrl": "/avatars/04657fb53bde660dafb743da4273325f.svg",
+                "isPro": false,
+                "fullname": "Toby Simonds",
+                "user": "TamasSimonds",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have transformed software engineering, but their\napplication to physical engineering domains remains underexplored. This paper\nevaluates LLMs' capabilities in high-powered rocketry design through\nRocketBench, a benchmark connecting LLMs to high-fidelity rocket simulations.\nWe test models on two increasingly complex design tasks: target altitude\noptimization and precision landing challenges. Our findings reveal that while\nstate-of-the-art LLMs demonstrate strong baseline engineering knowledge, they\nstruggle to iterate on their designs when given simulation results and\nultimately plateau below human performance levels. However, when enhanced with\nreinforcement learning (RL), we show that a 7B parameter model outperforms both\nSoTA foundation models and human experts. This research demonstrates that\nRL-trained LLMs can serve as effective tools for complex engineering\noptimization, potentially transforming engineering domains beyond software\ndevelopment.",
+            "upvotes": 4,
+            "discussionId": "6814b0289488d28ae012b0a0",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "RocketBench",
+                "high-fidelity rocket simulations",
+                "target altitude optimization",
+                "precision landing challenges",
+                "reinforcement learning (RL)",
+                "7B parameter model",
+                "state-of-the-art (SoTA) foundation models"
+            ]
+        },
+        "publishedAt": "2025-04-27T19:59:39.000Z",
+        "title": "LLMs for Engineering: Teaching Models to Design High Powered Rockets",
+        "summary": "Large Language Models (LLMs) have transformed software engineering, but their\napplication to physical engineering domains remains underexplored. This paper\nevaluates LLMs' capabilities in high-powered rocketry design through\nRocketBench, a benchmark connecting LLMs to high-fidelity rocket simulations.\nWe test models on two increasingly complex design tasks: target altitude\noptimization and precision landing challenges. Our findings reveal that while\nstate-of-the-art LLMs demonstrate strong baseline engineering knowledge, they\nstruggle to iterate on their designs when given simulation results and\nultimately plateau below human performance levels. However, when enhanced with\nreinforcement learning (RL), we show that a 7B parameter model outperforms both\nSoTA foundation models and human experts. This research demonstrates that\nRL-trained LLMs can serve as effective tools for complex engineering\noptimization, potentially transforming engineering domains beyond software\ndevelopment.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.19394.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "649e1f4d2ccae3ea1f2b6a7f",
+            "avatarUrl": "/avatars/04657fb53bde660dafb743da4273325f.svg",
+            "fullname": "Toby Simonds",
+            "name": "TamasSimonds",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 0
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2504.21659",
+            "authors": [
+                {
+                    "_id": "68142de6111ccf18a993c890",
+                    "name": "Haotian Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c891",
+                    "name": "Haiying He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c892",
+                    "name": "Yibo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c893",
+                    "name": "Jinluan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c894",
+                    "name": "Rui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c895",
+                    "name": "Naiqiang Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c896",
+                    "name": "Xiaochun Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c897",
+                    "name": "Dacheng Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c898",
+                    "name": "Li Shen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T14:01:45.000Z",
+            "submittedOnDailyAt": "2025-05-02T01:01:49.479Z",
+            "title": "AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning\n  Optimization",
+            "submittedOnDailyBy": {
+                "_id": "632ab8f5a968c34257da5c52",
+                "avatarUrl": "/avatars/59df09e6c9e1e633170514d950ad7981.svg",
+                "isPro": false,
+                "fullname": "Haotian Luo",
+                "user": "LordNoah",
+                "type": "user"
+            },
+            "summary": "Recently, long-thought reasoning models achieve strong performance on complex\nreasoning tasks, but often incur substantial inference overhead, making\nefficiency a critical concern. Our empirical analysis reveals that the benefit\nof using Long-CoT varies across problems: while some problems require elaborate\nreasoning, others show no improvement, or even degraded accuracy. This\nmotivates adaptive reasoning strategies that tailor reasoning depth to the\ninput. However, prior work primarily reduces redundancy within long reasoning\npaths, limiting exploration of more efficient strategies beyond the Long-CoT\nparadigm. To address this, we propose a novel two-stage framework for adaptive\nand efficient reasoning. First, we construct a hybrid reasoning model by\nmerging long and short CoT models to enable diverse reasoning styles. Second,\nwe apply bi-level preference training to guide the model to select suitable\nreasoning styles (group-level), and prefer concise and correct reasoning within\neach style group (instance-level). Experiments demonstrate that our method\nsignificantly reduces inference costs compared to other baseline approaches,\nwhile maintaining performance. Notably, on five mathematical datasets, the\naverage length of reasoning is reduced by more than 50%, highlighting the\npotential of adaptive strategies to optimize reasoning efficiency in large\nlanguage models. Our code is coming soon at https://github.com/StarDewXXX/AdaR1",
+            "upvotes": 3,
+            "discussionId": "68142de7111ccf18a993c8ba",
+            "ai_keywords": [
+                "CoT models",
+                "Long-CoT",
+                "hybrid reasoning model",
+                "bi-level preference training",
+                "adaptive reasoning strategies"
+            ]
+        },
+        "publishedAt": "2025-04-30T10:01:45.000Z",
+        "title": "AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning\n  Optimization",
+        "summary": "Recently, long-thought reasoning models achieve strong performance on complex\nreasoning tasks, but often incur substantial inference overhead, making\nefficiency a critical concern. Our empirical analysis reveals that the benefit\nof using Long-CoT varies across problems: while some problems require elaborate\nreasoning, others show no improvement, or even degraded accuracy. This\nmotivates adaptive reasoning strategies that tailor reasoning depth to the\ninput. However, prior work primarily reduces redundancy within long reasoning\npaths, limiting exploration of more efficient strategies beyond the Long-CoT\nparadigm. To address this, we propose a novel two-stage framework for adaptive\nand efficient reasoning. First, we construct a hybrid reasoning model by\nmerging long and short CoT models to enable diverse reasoning styles. Second,\nwe apply bi-level preference training to guide the model to select suitable\nreasoning styles (group-level), and prefer concise and correct reasoning within\neach style group (instance-level). Experiments demonstrate that our method\nsignificantly reduces inference costs compared to other baseline approaches,\nwhile maintaining performance. Notably, on five mathematical datasets, the\naverage length of reasoning is reduced by more than 50%, highlighting the\npotential of adaptive strategies to optimize reasoning efficiency in large\nlanguage models. Our code is coming soon at https://github.com/StarDewXXX/AdaR1",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.21659.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "632ab8f5a968c34257da5c52",
+            "avatarUrl": "/avatars/59df09e6c9e1e633170514d950ad7981.svg",
+            "fullname": "Haotian Luo",
+            "name": "LordNoah",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2504.18983",
+            "authors": [
+                {
+                    "_id": "681470d72175e5e7ca0ea002",
+                    "name": "Xuyin Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea003",
+                    "name": "Zeyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea004",
+                    "name": "Canxuan Gang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea005",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea006",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea007",
+                    "name": "Zhiwei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681470d72175e5e7ca0ea008",
+                    "name": "Yang Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-26T17:56:56.000Z",
+            "submittedOnDailyAt": "2025-05-02T05:44:53.105Z",
+            "title": "MediAug: Exploring Visual Augmentation in Medical Imaging",
+            "submittedOnDailyBy": {
+                "_id": "64ec877bb93654d4ca5c92e9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/GvHk_KSdE9Rhnk_o-NaZX.jpeg",
+                "isPro": false,
+                "fullname": "Zeyu Zhang",
+                "user": "SteveZeyuZhang",
+                "type": "user"
+            },
+            "summary": "Data augmentation is essential in medical imaging for improving\nclassification accuracy, lesion detection, and organ segmentation under limited\ndata conditions. However, two significant challenges remain. First, a\npronounced domain gap between natural photographs and medical images can\ndistort critical disease features. Second, augmentation studies in medical\nimaging are fragmented and limited to single tasks or architectures, leaving\nthe benefits of advanced mix-based strategies unclear. To address these\nchallenges, we propose a unified evaluation framework with six mix-based\naugmentation methods integrated with both convolutional and transformer\nbackbones on brain tumour MRI and eye disease fundus datasets. Our\ncontributions are threefold. (1) We introduce MediAug, a comprehensive and\nreproducible benchmark for advanced data augmentation in medical imaging. (2)\nWe systematically evaluate MixUp, YOCO, CropMix, CutMix, AugMix, and SnapMix\nwith ResNet-50 and ViT-B backbones. (3) We demonstrate through extensive\nexperiments that MixUp yields the greatest improvement on the brain tumor\nclassification task for ResNet-50 with 79.19% accuracy and SnapMix yields the\ngreatest improvement for ViT-B with 99.44% accuracy, and that YOCO yields the\ngreatest improvement on the eye disease classification task for ResNet-50 with\n91.60% accuracy and CutMix yields the greatest improvement for ViT-B with\n97.94% accuracy. Code will be available at\nhttps://github.com/AIGeeksGroup/MediAug.",
+            "upvotes": 3,
+            "discussionId": "681470d92175e5e7ca0ea065",
+            "ai_keywords": [
+                "MediAug",
+                "MixUp",
+                "YOCO",
+                "CropMix",
+                "CutMix",
+                "AugMix",
+                "SnapMix",
+                "ResNet-50",
+                "ViT-B",
+                "brain tumour MRI",
+                "eye disease fundus datasets",
+                "domain gap",
+                "lesion detection",
+                "organ segmentation",
+                "classification accuracy"
+            ]
+        },
+        "publishedAt": "2025-04-26T13:56:56.000Z",
+        "title": "MediAug: Exploring Visual Augmentation in Medical Imaging",
+        "summary": "Data augmentation is essential in medical imaging for improving\nclassification accuracy, lesion detection, and organ segmentation under limited\ndata conditions. However, two significant challenges remain. First, a\npronounced domain gap between natural photographs and medical images can\ndistort critical disease features. Second, augmentation studies in medical\nimaging are fragmented and limited to single tasks or architectures, leaving\nthe benefits of advanced mix-based strategies unclear. To address these\nchallenges, we propose a unified evaluation framework with six mix-based\naugmentation methods integrated with both convolutional and transformer\nbackbones on brain tumour MRI and eye disease fundus datasets. Our\ncontributions are threefold. (1) We introduce MediAug, a comprehensive and\nreproducible benchmark for advanced data augmentation in medical imaging. (2)\nWe systematically evaluate MixUp, YOCO, CropMix, CutMix, AugMix, and SnapMix\nwith ResNet-50 and ViT-B backbones. (3) We demonstrate through extensive\nexperiments that MixUp yields the greatest improvement on the brain tumor\nclassification task for ResNet-50 with 79.19% accuracy and SnapMix yields the\ngreatest improvement for ViT-B with 99.44% accuracy, and that YOCO yields the\ngreatest improvement on the eye disease classification task for ResNet-50 with\n91.60% accuracy and CutMix yields the greatest improvement for ViT-B with\n97.94% accuracy. Code will be available at\nhttps://github.com/AIGeeksGroup/MediAug.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.18983.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "64ec877bb93654d4ca5c92e9",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/GvHk_KSdE9Rhnk_o-NaZX.jpeg",
+            "fullname": "Zeyu Zhang",
+            "name": "SteveZeyuZhang",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 4
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2505.00534",
+            "authors": [
+                {
+                    "_id": "6814701ddf384f8f283f91b6",
+                    "name": "Muhammad Imran Zaman",
+                    "hidden": false
+                },
+                {
+                    "_id": "6814701ddf384f8f283f91b7",
+                    "name": "Usama Ijaz Bajwa",
+                    "hidden": false
+                },
+                {
+                    "_id": "6814701ddf384f8f283f91b8",
+                    "name": "Gulshan Saleem",
+                    "hidden": false
+                },
+                {
+                    "_id": "6814701ddf384f8f283f91b9",
+                    "name": "Rana Hammad Raza",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T14:00:25.000Z",
+            "submittedOnDailyAt": "2025-05-02T12:36:26.818Z",
+            "title": "A Robust Deep Networks based Multi-Object MultiCamera Tracking System\n  for City Scale Traffic",
+            "submittedOnDailyBy": {
+                "_id": "659d5355d09adee457236d53",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/y1W6Co4jIYB95Cx6Tjrsd.jpeg",
+                "isPro": true,
+                "fullname": "Muhammad Imran Zaman",
+                "user": "ImranzamanML",
+                "type": "user"
+            },
+            "summary": "Vision sensors are becoming more important in Intelligent Transportation\nSystems (ITS) for traffic monitoring, management, and optimization as the\nnumber of network cameras continues to rise. However, manual object tracking\nand matching across multiple non-overlapping cameras pose significant\nchallenges in city-scale urban traffic scenarios. These challenges include\nhandling diverse vehicle attributes, occlusions, illumination variations,\nshadows, and varying video resolutions. To address these issues, we propose an\nefficient and cost-effective deep learning-based framework for Multi-Object\nMulti-Camera Tracking (MO-MCT). The proposed framework utilizes Mask R-CNN for\nobject detection and employs Non-Maximum Suppression (NMS) to select target\nobjects from overlapping detections. Transfer learning is employed for\nre-identification, enabling the association and generation of vehicle tracklets\nacross multiple cameras. Moreover, we leverage appropriate loss functions and\ndistance measures to handle occlusion, illumination, and shadow challenges. The\nfinal solution identification module performs feature extraction using\nResNet-152 coupled with Deep SORT based vehicle tracking. The proposed\nframework is evaluated on the 5th AI City Challenge dataset (Track 3),\ncomprising 46 camera feeds. Among these 46 camera streams, 40 are used for\nmodel training and validation, while the remaining six are utilized for model\ntesting. The proposed framework achieves competitive performance with an IDF1\nscore of 0.8289, and precision and recall scores of 0.9026 and 0.8527\nrespectively, demonstrating its effectiveness in robust and accurate vehicle\ntracking.",
+            "upvotes": 1,
+            "discussionId": "6814701edf384f8f283f91cf",
+            "ai_keywords": [
+                "Mask R-CNN",
+                "Non-Maximum Suppression (NMS)",
+                "transfer learning",
+                "ResNet-152",
+                "Deep SORT"
+            ]
+        },
+        "publishedAt": "2025-05-01T10:00:25.000Z",
+        "title": "A Robust Deep Networks based Multi-Object MultiCamera Tracking System\n  for City Scale Traffic",
+        "summary": "Vision sensors are becoming more important in Intelligent Transportation\nSystems (ITS) for traffic monitoring, management, and optimization as the\nnumber of network cameras continues to rise. However, manual object tracking\nand matching across multiple non-overlapping cameras pose significant\nchallenges in city-scale urban traffic scenarios. These challenges include\nhandling diverse vehicle attributes, occlusions, illumination variations,\nshadows, and varying video resolutions. To address these issues, we propose an\nefficient and cost-effective deep learning-based framework for Multi-Object\nMulti-Camera Tracking (MO-MCT). The proposed framework utilizes Mask R-CNN for\nobject detection and employs Non-Maximum Suppression (NMS) to select target\nobjects from overlapping detections. Transfer learning is employed for\nre-identification, enabling the association and generation of vehicle tracklets\nacross multiple cameras. Moreover, we leverage appropriate loss functions and\ndistance measures to handle occlusion, illumination, and shadow challenges. The\nfinal solution identification module performs feature extraction using\nResNet-152 coupled with Deep SORT based vehicle tracking. The proposed\nframework is evaluated on the 5th AI City Challenge dataset (Track 3),\ncomprising 46 camera feeds. Among these 46 camera streams, 40 are used for\nmodel training and validation, while the remaining six are utilized for model\ntesting. The proposed framework achieves competitive performance with an IDF1\nscore of 0.8289, and precision and recall scores of 0.9026 and 0.8527\nrespectively, demonstrating its effectiveness in robust and accurate vehicle\ntracking.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2505.00534.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "659d5355d09adee457236d53",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/y1W6Co4jIYB95Cx6Tjrsd.jpeg",
+            "fullname": "Muhammad Imran Zaman",
+            "name": "ImranzamanML",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 59
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2504.20406",
+            "authors": [
+                {
+                    "_id": "681561d98a46db172ad08f35",
+                    "name": "Paiheng Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f36",
+                    "name": "Gang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f37",
+                    "name": "Xiang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f38",
+                    "name": "Tong Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f39",
+                    "name": "Chang Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f3a",
+                    "name": "Franck Dernoncourt",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f3b",
+                    "name": "Tianyi Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f3c",
+                    "name": "Wei Ai",
+                    "hidden": false
+                },
+                {
+                    "_id": "681561d98a46db172ad08f3d",
+                    "name": "Viswanathan Swaminathan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-29T04:03:37.000Z",
+            "submittedOnDailyAt": "2025-05-02T22:52:56.685Z",
+            "title": "Skill Discovery for Software Scripting Automation via Offline\n  Simulations with LLMs",
+            "submittedOnDailyBy": {
+                "_id": "62c5947524171688a9feb992",
+                "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+                "isPro": false,
+                "fullname": "Franck Dernoncourt",
+                "user": "Franck-Dernoncourt",
+                "type": "user"
+            },
+            "summary": "Scripting interfaces enable users to automate tasks and customize software\nworkflows, but creating scripts traditionally requires programming expertise\nand familiarity with specific APIs, posing barriers for many users. While Large\nLanguage Models (LLMs) can generate code from natural language queries, runtime\ncode generation is severely limited due to unverified code, security risks,\nlonger response times, and higher computational costs. To bridge the gap, we\npropose an offline simulation framework to curate a software-specific skillset,\na collection of verified scripts, by exploiting LLMs and publicly available\nscripting guides. Our framework comprises two components: (1) task creation,\nusing top-down functionality guidance and bottom-up API synergy exploration to\ngenerate helpful tasks; and (2) skill generation with trials, refining and\nvalidating scripts based on execution feedback. To efficiently navigate the\nextensive API landscape, we introduce a Graph Neural Network (GNN)-based link\nprediction model to capture API synergy, enabling the generation of skills\ninvolving underutilized APIs and expanding the skillset's diversity.\nExperiments with Adobe Illustrator demonstrate that our framework significantly\nimproves automation success rates, reduces response time, and saves runtime\ntoken costs compared to traditional runtime code generation. This is the first\nattempt to use software scripting interfaces as a testbed for LLM-based\nsystems, highlighting the advantages of leveraging execution feedback in a\ncontrolled environment and offering valuable insights into aligning AI\ncapabilities with user needs in specialized software domains.",
+            "upvotes": 1,
+            "discussionId": "681561da8a46db172ad08f89",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "runtime code generation",
+                "software-specific skillset",
+                "verified scripts",
+                "API synergy exploration",
+                "Graph Neural Network (GNN)",
+                "link prediction model",
+                "automation success rates",
+                "response time",
+                "runtime token costs"
+            ]
+        },
+        "publishedAt": "2025-04-29T00:03:37.000Z",
+        "title": "Skill Discovery for Software Scripting Automation via Offline\n  Simulations with LLMs",
+        "summary": "Scripting interfaces enable users to automate tasks and customize software\nworkflows, but creating scripts traditionally requires programming expertise\nand familiarity with specific APIs, posing barriers for many users. While Large\nLanguage Models (LLMs) can generate code from natural language queries, runtime\ncode generation is severely limited due to unverified code, security risks,\nlonger response times, and higher computational costs. To bridge the gap, we\npropose an offline simulation framework to curate a software-specific skillset,\na collection of verified scripts, by exploiting LLMs and publicly available\nscripting guides. Our framework comprises two components: (1) task creation,\nusing top-down functionality guidance and bottom-up API synergy exploration to\ngenerate helpful tasks; and (2) skill generation with trials, refining and\nvalidating scripts based on execution feedback. To efficiently navigate the\nextensive API landscape, we introduce a Graph Neural Network (GNN)-based link\nprediction model to capture API synergy, enabling the generation of skills\ninvolving underutilized APIs and expanding the skillset's diversity.\nExperiments with Adobe Illustrator demonstrate that our framework significantly\nimproves automation success rates, reduces response time, and saves runtime\ntoken costs compared to traditional runtime code generation. This is the first\nattempt to use software scripting interfaces as a testbed for LLM-based\nsystems, highlighting the advantages of leveraging execution feedback in a\ncontrolled environment and offering valuable insights into aligning AI\ncapabilities with user needs in specialized software domains.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.20406.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "62c5947524171688a9feb992",
+            "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+            "fullname": "Franck Dernoncourt",
+            "name": "Franck-Dernoncourt",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 9
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2504.18715",
+            "authors": [
+                {
+                    "_id": "68151b71df379a1f7e1ce0ef",
+                    "name": "Tuochao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68151b71df379a1f7e1ce0f0",
+                    "name": "Qirui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68151b71df379a1f7e1ce0f1",
+                    "name": "Runlin He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68151b71df379a1f7e1ce0f2",
+                    "name": "Shyam Gollakota",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65a9d16f3b9e1f0f307c96c3/5T0o-R6pUkouOVWz91NED.mp4"
+            ],
+            "publishedAt": "2025-04-25T21:58:56.000Z",
+            "submittedOnDailyAt": "2025-05-02T18:00:28.473Z",
+            "title": "Spatial Speech Translation: Translating Across Space With Binaural\n  Hearables",
+            "submittedOnDailyBy": {
+                "_id": "65a9d16f3b9e1f0f307c96c3",
+                "avatarUrl": "/avatars/882a0746a0adb2d7befe563f7fbc6321.svg",
+                "isPro": false,
+                "fullname": "Tuochao Chen",
+                "user": "tuochao",
+                "type": "user"
+            },
+            "summary": "Imagine being in a crowded space where people speak a different language and\nhaving hearables that transform the auditory space into your native language,\nwhile preserving the spatial cues for all speakers. We introduce spatial speech\ntranslation, a novel concept for hearables that translate speakers in the\nwearer's environment, while maintaining the direction and unique voice\ncharacteristics of each speaker in the binaural output. To achieve this, we\ntackle several technical challenges spanning blind source separation,\nlocalization, real-time expressive translation, and binaural rendering to\npreserve the speaker directions in the translated audio, while achieving\nreal-time inference on the Apple M2 silicon. Our proof-of-concept evaluation\nwith a prototype binaural headset shows that, unlike existing models, which\nfail in the presence of interference, we achieve a BLEU score of up to 22.01\nwhen translating between languages, despite strong interference from other\nspeakers in the environment. User studies further confirm the system's\neffectiveness in spatially rendering the translated speech in previously unseen\nreal-world reverberant environments. Taking a step back, this work marks the\nfirst step towards integrating spatial perception into speech translation.",
+            "upvotes": 1,
+            "discussionId": "68151b74df379a1f7e1ce18d",
+            "ai_keywords": [
+                "spatial speech translation",
+                "blind source separation",
+                "localization",
+                "real-time expressive translation",
+                "binaural rendering",
+                "BLEU score",
+                "binaural headset",
+                "reverberant environments"
+            ]
+        },
+        "publishedAt": "2025-04-25T17:58:56.000Z",
+        "title": "Spatial Speech Translation: Translating Across Space With Binaural\n  Hearables",
+        "summary": "Imagine being in a crowded space where people speak a different language and\nhaving hearables that transform the auditory space into your native language,\nwhile preserving the spatial cues for all speakers. We introduce spatial speech\ntranslation, a novel concept for hearables that translate speakers in the\nwearer's environment, while maintaining the direction and unique voice\ncharacteristics of each speaker in the binaural output. To achieve this, we\ntackle several technical challenges spanning blind source separation,\nlocalization, real-time expressive translation, and binaural rendering to\npreserve the speaker directions in the translated audio, while achieving\nreal-time inference on the Apple M2 silicon. Our proof-of-concept evaluation\nwith a prototype binaural headset shows that, unlike existing models, which\nfail in the presence of interference, we achieve a BLEU score of up to 22.01\nwhen translating between languages, despite strong interference from other\nspeakers in the environment. User studies further confirm the system's\neffectiveness in spatially rendering the translated speech in previously unseen\nreal-world reverberant environments. Taking a step back, this work marks the\nfirst step towards integrating spatial perception into speech translation.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/65a9d16f3b9e1f0f307c96c3/5T0o-R6pUkouOVWz91NED.mp4"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2504.18715.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "65a9d16f3b9e1f0f307c96c3",
+            "avatarUrl": "/avatars/882a0746a0adb2d7befe563f7fbc6321.svg",
+            "fullname": "Tuochao Chen",
+            "name": "tuochao",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    }
+]
