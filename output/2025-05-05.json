@@ -1,0 +1,56 @@
+[
+    {
+        "名称": "2025 [2504.20438] PixelHacker: Image Inpainting with Structural and Semantic Consistency.pdf",
+        "作者": "Ziyang Xu, Kangsheng Duan, Xiaolei Shen, Zhifeng Ding, Wenyu Liu, Xiaohu Ruan, Xiaoxin Chen, Xinggang Wang",
+        "摘要": "摘要: 图像修复是图像编辑和图像生成之间的一个基础研究领域。最近的先进方法探索了新的注意力机制、轻量级架构和上下文感知建模，并展示了令人印象深刻的性能。然而，它们通常在处理复杂结构（例如纹理、形状、空间关系）和语义（例如颜色一致性、对象修复和逻辑正确性）时表现不佳，导致出现伪影和不适当的生成。为了解决这个挑战，我们设计了一种简单但有效的修复范式，称为潜在类别引导，并进一步提出了一种基于扩散的模型，命名为PixelHacker。具体来说，我们首先通过注释前景和背景（分别有116种和21种类别的潜力）构建了一个包含1400万图像-掩码对的大型数据集。然后，我们通过两个固定大小的嵌入分别对潜在的前景和背景表示进行编码，并通过线性注意力在去噪过程中间歇性地注入这些特征。最后，通过在我们的数据集上进行预训练并在开源基准上进行微调，我们获得了PixelHacker。大量实验证明，PixelHacker在各种数据集（Places2、CelebA-HQ和FFHQ）上全面超越了最先进的方法，并在结构和语义上表现出显着的一致性。项目页面在这个 https URL。\n",
+        "地址": "https://arxiv.org/pdf/2504.20438.pdf"
+    },
+    {
+        "名称": "2025 [2505.01079] Improving Editability in Image Generation with Layer-wise Memory.pdf",
+        "作者": "Daneul Kim, Jaeah Lee, Jaesik Park",
+        "摘要": "摘要：大多数现实世界中的图像编辑任务需要多个连续的编辑步骤来达到期望的效果。目前的编辑方法主要设计用于单一对象的修改，在连续编辑方面存在困难，尤其是难以在保持之前编辑内容的同时，自然地将新对象融入现有内容。这些限制显著阻碍了复杂的编辑场景，其中需要在保留其上下文关系的同时修改多个对象。我们通过两个关键提议来解决这一基本挑战：允许粗略的掩码输入以保留现有内容，同时自然地整合新元素，并支持在多次修改中的一致性编辑。我们的框架通过分层记忆来实现这一点，分层记忆存储先前编辑的潜在表示和提示嵌入。我们提出了背景一致性指导，利用记忆的潜在表示保持场景的一致性，以及跨注意力中确保自然适应现有内容的多查询解耦。为了评估我们的方法，我们提出了一个新的基准数据集，包含语义对齐指标和交互式编辑场景。通过全面的实验，我们展示了在迭代图像编辑任务中优越的性能，仅需粗略掩码的最低用户操作就能在多个编辑步骤中保持高质量的结果。\n\n译者：Daneul Kim，Jaeah Lee，Jaesik Park\n注释：CVPR 2025。项目页面：此https URL\n链接：https://arxiv.org/pdf/2505.01079.pdf\n标题： 2025 [2505.01079] 基于分层记忆提升图像生成中的可编辑性.pdf",
+        "地址": "https://arxiv.org/pdf/2505.01079.pdf"
+    },
+    {
+        "名称": "2025 [2504.21117] Beyond One-Size-Fits-All: Inversion Learning for Highly Effective NLG Evaluation Prompts.pdf",
+        "作者": "Hanhua Hong, Chenghao Xiao, Yang Wang, Yiqi Liu, Wenge Rong, Chenghua Lin",
+        "摘要": "摘要: 评估自然语言生成（NLG）系统是一个具有挑战性的任务，因为有效的输出结果多种多样。尽管人工评估是黄金标准，但它存在不一致性、缺乏标准化和人口统计学偏见等问题，导致可重复性受限。基于大规模语言模型（LLM）的评估提供了一种可扩展的替代方法，但对提示设计极为敏感，微小的变化可能导致显著的差异。在这项工作中，我们提出了一种逆转学习方法，该方法从模型输出反向学习有效映射回输入指令，能够自动生成高效的、模型特定的评估提示。我们的方法只需一个评估样本，且无需耗时的人工提示设计，从而提高了效率和鲁棒性。我们的工作为实现更鲁棒和高效的 LLM 基于的评估开辟了新方向。\n\n翻译: 评估自然语言生成（NLG）系统是一个具有挑战性的任务，因为有效的输出多种多样。尽管人工评估是公认的标准，但它存在不一致性、缺乏标准化和人口统计学偏见，这限制了其可重复性。基于大规模语言模型（LLM）的评估提供了一种可扩展的替代方案，但提示设计的细微变化会导致显著差异。本文提出一种逆转学习方法，该方法可以从模型输出中学习出有效的反向映射回输入指令，从而自动生成高度有效、针对模型特定的评估提示。该方法仅需一个评估样本，且无需耗时的人工提示设计，从而提高了效率和鲁棒性。我们的工作为实现更鲁棒和高效的 LLM 评估提供了新的方向。",
+        "地址": "https://arxiv.org/pdf/2504.21117.pdf"
+    },
+    {
+        "名称": "2025 [2505.00949] Llama-Nemotron: Efficient Reasoning Models.pdf",
+        "作者": "Akhiad Bercovich, Itay Levy, Izik Golan, Mohammad Dabbah, Ran El-Yaniv, Omri Puny, Ido Galil, Zach Moshe, Tomer Ronen, Najeeb Nabwani, Ido Shahaf, Oren Tropp, Ehud Karpas, Ran Zilberstein, Jiaqi Zeng, Soumye Singhal, Alexander Bukharin, Yian Zhang, Tugrul Konuk, Gerald Shen, Ameya Sunil Mahabaleshwarkar, Bilal Kartal, Yoshi Suhara, Olivier Delalleau, Zijia Chen, Zhilin Wang, David Mosallanezhad, Adi Renduchintala, Haifeng Qian, Dima Rekesh, Fei Jia, Somshubra Majumdar, Vahid Noroozi, Wasi Uddin Ahmad, Sean Narenthiran, Aleksander Ficek, Mehrzad Samadi, Jocelyn Huang, Siddhartha Jain, Igor Gitman, Ivan Moshkov, Wei Du, Shubham Toshniwal, George Armstrong, Branislav Kisacanin, Matvei Novikov, Daria Gitman, Evelina Bakhturina, Jane Polak Scowcroft, John Kamalu, Dan Su, Kezhi Kong, Markus Kliegl, Rabeeh Karimi, Ying Lin, Sanjeev Satheesh, Jupinder Parmar, Pritam Gundecha, Brandon Norick, Joseph Jennings, Shrimai Prabhumoye, Syeda Nahida Akter, Mostofa Patwary, Abhinav Khattar, Deepak Narayanan, Roger Waleffe, Jimmy Zhang, Bor-Yiing Su, Guyue Huang, Terry Kong, Parth Chadha, Sahil Jain, Christine Harvey, Elad Segal, Jining Huang, Sergey Kashirsky, Robert McQueen, Izzy Putterman, George Lam, Arun Venkatesan, Sherry Wu, Vinh Nguyen, Manoj Kilaru, Andrew Wang, Anna Warno, Abhilash Somasamudramath, Sandip Bhaskar, Maka Dong, Nave Assaf, Shahar Mor, Omer Ullman Argov, Scot Junkin, Oleksandr Romanenko, Pedro Larroy, Monika Katariya, Marco Rovinelli, Viji Balas, Nicholas Edelman, Anahita Bhiwandiwalla, Muthu Subramaniam\n\n\n        , Smita Ithape, Karthik Ramamoorthy, Yuting Wu, Suguna Varshini Velury, Omri Almog, Joyjit Daw, Denys Fridman, Erick Galinkin, Michael Evans, Katherine Luna, Leon Derczynski, Nikki Pope, Eileen Long, Seth Schneider, Guillermo Siman, Tomasz Grzegorzek, Pablo Ribalta, Monika Katariya, Joey Conway, Trisha Saar, Ann Guan, Krzysztof Pawelec, Shyamala Prayaga, Oleksii Kuchaiev, Boris Ginsburg, Oluwatobi Olabiyi, Kari Briski, Jonathan Cohen, Bryan Catanzaro, Jonah Alben, Yonatan Geifman, Eric Chung\n\n\n    et al. (32 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们介绍了Llama-Nemotron系列模型，这是一个开放的异质推理模型家族，具有卓越的推理能力、高效的推理速率以及企业使用的开放许可证。该系列分为三种规格——Nano (8B)、Super (49B) 和 Ultra (253B)，在性能上可以与最先进的推理模型（如DeepSeek-R1）相媲美，同时提供了更优越的推理吞吐量和内存效率。在本报告中，我们讨论了这些模型的训练程序，包括使用Llama 3模型进行神经架构搜索以加速推理、知识蒸馏和持续预训练，随后是由两个主要部分组成的以推理为重点的后训练阶段：监督微调和大规模强化学习。Llama-Nemotron模型是首个支持动态推理开关的开源模型，允许用户在推理过程中在标准聊天模式和推理模式之间切换。为了进一步支持开放研究和促进模型开发，我们提供了以下资源：1. 在商业许可宽松的NVIDIA Open Model License Agreement下发布了Llama-Nemotron推理模型——LN-Nano，LN-Super和LN-Ultra。2. 发布了完整的后训练数据集：Llama-Nemotron-Post-Training-Dataset。3. 同时发布了我们的训练代码库：NeMo，NeMo-Aligner和Megatron-LM。\n\n链接：https://arxiv.org/pdf/2505.00949.pdf",
+        "地址": "https://arxiv.org/pdf/2505.00949.pdf"
+    },
+    {
+        "名称": "2025 [2505.00174] Real-World Gaps in AI Governance Research.pdf",
+        "作者": "Ilan Strauss, Isobel Moure, Tim O'Reilly, Sruly Rosenblat",
+        "摘要": "摘要：基于2020年1月至2025年3月期间的9439篇生成式AI论文中的1178篇安全和可靠性论文，我们比较了主要AI公司（Anthropic、Google DeepMind、Meta、Microsoft和OpenAI）和AI大学（卡内基梅隆大学、麻省理工学院、纽约大学、斯坦福大学、加州大学伯克利分校和华盛顿大学）的研究成果。我们发现企业AI研究越来越集中在部署前领域，即模型对齐和测试评估，而对部署阶段问题（如模型偏见）的关注减少。在高风险部署领域（包括医疗、金融、虚假信息、说服性和成瘾性特征、幻觉和版权）存在显著的研究空白。如果对已部署AI的可观测性得不到改善，企业集中的增长可能会加深知识缺口。我们建议扩大外部研究人员对部署数据的访问权限，并系统地观测市场中AI行为的可观察性。",
+        "地址": "https://arxiv.org/pdf/2505.00174.pdf"
+    },
+    {
+        "名称": "2025 [2505.00023] CORG: Generating Answers from Complex, Interrelated Contexts.pdf",
+        "作者": "Hyunji Lee, Franck Dernoncourt, Trung Bui, Seunghyun Yoon",
+        "摘要": "摘要：在真实世界的语料库中，知识经常在不同文档中重复出现，但由于命名不明确、信息过时或错误等原因，往往存在不一致性，导致上下文之间存在复杂的相互关系。以往的研究表明，语言模型在应对这些复杂性时存在困难，通常侧重于单一因素。我们将这些关系分为四种类型：分散型、模糊型、反事实型和重复型。我们的分析显示，没有一种方法能够同时有效地应对所有这些关系。因此，我们引入了上下文组织器（CORG），这是一个将多个上下文组织到独立处理组中的框架。该设计使模型能够高效地找到所有相关答案，同时确保消除歧义。CORG由三个关键组件组成：图构造器、重排序器和聚合器。我们的结果表明，CORG在性能和效率之间实现了有效的平衡，其表现优于现有的分组方法，并且在效果上与更计算密集的单一上下文方法相当。",
+        "地址": "https://arxiv.org/pdf/2505.00023.pdf"
+    },
+    {
+        "名称": "2025 [2505.00562] TeLoGraF: Temporal Logic Planning via Graph-encoded Flow Matching.pdf",
+        "作者": "Yue Meng, Chuchu Fan",
+        "摘要": "摘要：学习在信号时序逻辑（STL）规范下解决复杂任务对于许多现实世界的应用至关重要。然而，由于缺乏多样的STL数据集和有效提取时序逻辑信息的编码器，以前的大多数工作只考虑固定或参数化的STL规范。在本文中，我们提出了TeLoGraF（Temporal Logic Graph-encoded Flow），即时序逻辑图编码流，它利用图神经网络（GNN）编码器和流匹配来学习一般STL规范的解决方案。我们确定了四种常用的STL模板，并收集了总共20万个带有配对演示的规格。我们在五个模拟环境中进行了广泛的实验，范围从简单的二维空间动力学模型到高维7自由度的Franka Panda机器人手臂和蚂蚁四足导航。结果表明，我们的方法在STL满意率上优于其他基线方法。与经典的STL规划算法相比，我们的方法在推理上快10-100倍，并且可以适用于任何系统动力学。此外，我们展示了我们的图编码方法在解决复杂STL以及对分布外的STL规范的鲁棒性方面的能力。代码可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2505.00562.pdf"
+    },
+    {
+        "名称": "2025 [2504.20859] X-Cross: Dynamic Integration of Language Models for Cross-Domain Sequential Recommendation.pdf",
+        "作者": "Guy Hadad, Haggai Roitman, Yotam Eshel, Bracha Shapira, Lior Rokach",
+        "摘要": "摘要：随着新产品的日益涌现，推荐系统需要快速适应可能出现的新领域，而无需进行大量的重新训练。本研究提出了“X-Cross”——一种新颖的跨领域顺序推荐模型，通过集成多个特定领域的语言模型来推荐新领域的产品；每个模型都通过低秩适配器（LoRA）进行微调。针对一个推荐提示，X-Cross逐层动态优化每个源语言模型的表示，整合来自所有其他模型的知识。这些优化后的表示从一层传递到下一层，利用每个领域适配器的激活，确保保留领域特定的细微差别，同时在跨领域间实现适应性。使用亚马逊数据集进行顺序推荐，X-Cross在只使用25％额外参数的情况下，实现了与通过LoRA微调的模型相当的性能。在跨领域任务中，例如从玩具领域适应到工具、电子或运动领域，X-Cross表现出强劲的性能，同时所需的微调数据比LoRA少约50%-75%。此外，与其他跨领域基线相比，X-Cross在准确性上显著提升。总体而言，X-Cross实现了可扩展且适应性强的跨领域推荐，减少了计算开销，为数据受限的环境提供了高效的解决方案。",
+        "地址": "https://arxiv.org/pdf/2504.20859.pdf"
+    },
+    {
+        "名称": "2025 [2505.01490] WorldGenBench: A World-Knowledge-Integrated Benchmark for Reasoning-Driven Text-to-Image Generation.pdf",
+        "作者": "Daoan Zhang, Che Jiang, Ruoshi Xu, Biaoxiang Chen, Zijian Jin, Yutian Lu, Jianguo Zhang, Liang Yong, Jiebo Luo, Shengda Luo",
+        "摘要": "摘要：近期在文本生成图像（T2I）领域的进展取得了令人印象深刻的成果，但现有模型在处理需要丰富世界知识和隐含推理的提示时仍然存在困难，而这对于在现实世界场景中生成语义准确、连贯且上下文适当的图像至关重要。为了解决这一问题，我们引入了\\\\textbf{WorldGenBench}，这是一个旨在系统评估T2I模型的世界知识基础和隐含推理能力的基准，涵盖了人文和自然领域。我们提出了\\\\textbf{Knowledge Checklist Score}，这是一种结构化指标，用于衡量生成的图像在多大程度上满足关键语义期望。对21种最新模型的实验表明，尽管扩散模型在开源方法中领先，但专有的自回归模型如GPT-4o表现出更强的推理和知识整合能力。我们的研究结果突显了下一代T2I系统中对更深层理解和推理能力的需求。项目页面：\\\\href{this https URL}{this https URL}",
+        "地址": "https://arxiv.org/pdf/2505.01490.pdf"
+    }
+]
