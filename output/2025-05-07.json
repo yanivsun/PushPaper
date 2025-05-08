@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2505.03318] Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning.pdf",
+        "作者": "Yibin Wang, Zhimin Li, Yuhang Zang, Chunyu Wang, Qinglin Lu, Cheng Jin, Jiaqi Wang",
+        "摘要": "摘要：在多模态奖励模型（RMs）领域的最新进展显示出在提供奖励信号以使视觉模型符合人类偏好方面的显著前景。然而，当前的RMs一般局限于提供直接响应或进行浅层推理过程，深度有限，常常导致奖励信号不准确。我们认为，将显性的长推理链（CoT）纳入奖励推理过程可以显著增强其可靠性和稳健性。此外，我们相信，一旦RMs内化CoT推理，其直接响应的准确性也可以通过隐性推理能力得到提高。为此，本文提出了UnifiedReward-Think，这是第一个基于统一多模态CoT的奖励模型，能够在视觉理解和生成奖励任务中进行多维度、逐步的长链推理。具体而言，我们采用了一种探索驱动的强化微调方法，以引发和激励模型潜在的复杂推理能力：(1) 我们首先使用少量的图像生成偏好数据来提炼GPT-4o的推理过程，随后用于模型的冷启动，以学习CoT推理的格式和结构。(2) 随后，通过利用模型的先验知识和泛化能力，我们准备了大规模的统一多模态偏好数据，以引发模型在各种视觉任务中的推理过程。在这一阶段，保留正确推理输出进行拒绝采样以优化模型(3) ，而对最终错误预测样本进行基于群体相对策略优化（GRPO）的强化微调，使模型能够探索多样的推理路径，并优化正确和稳健的解决方案。广泛的跨各种视觉奖励任务的实验结果表明，我们模型的优越性。",
+        "地址": "https://arxiv.org/pdf/2505.03318.pdf"
+    },
+    {
+        "名称": "2025 [2505.03335] Absolute Zero: Reinforced Self-play Reasoning with Zero Data.pdf",
+        "作者": "Andrew Zhao, Yiran Wu, Yang Yue, Tong Wu, Quentin Xu, Yang Yue, Matthieu Lin, Shenzhi Wang, Qingyun Wu, Zilong Zheng, Gao Huang",
+        "摘要": "摘要： 通过可验证的奖励进行强化学习（RLVR）已显示出通过直接从基于结果的奖励中学习来增强大型语言模型的推理能力。在零设置下操作的最新RLVR工作避免了在推理过程中的监督，但仍依赖于手动整理的问题和答案集合进行训练。高质量的人工生产例子的稀缺提出了依赖人类监督的长期可扩展性问题，这一挑战在语言模型预训练领域已经显现。此外，在一个假设的未来，人工智能超过人类智能时，人类提供的任务对超级智能系统的学习潜力可能有限。为了解决这些问题，我们提出了一种新的RLVR范式，称为绝对零（Absolute Zero），其中一个单一模型学习提出最大化自身学习进展的任务，并通过解决这些任务来改进推理，而不依赖任何外部数据。在这种范式下，我们引入了Absolute Zero Reasoner（AZR），一个通过使用代码执行器来验证提出的代码推理任务和验证答案，自我进化训练课程和推理能力的系统，作为一个统一的可验证奖励源来指导开放但有依据的学习。尽管完全没有外部数据进行训练，AZR在编码和数学推理任务上实现了整体SOTA表现，超越了依赖成千上万域内人工整理例子的现有零设置模型。此外，我们证明AZR可以有效地应用于不同模型规模，并兼容各种模型类别。",
+        "地址": "https://arxiv.org/pdf/2505.03335.pdf"
+    },
+    {
+        "名称": "2025 [2505.03005] RADLADS: Rapid Attention Distillation to Linear Attention Decoders at Scale.pdf",
+        "作者": "Daniel Goldstein, Eric Alcaide, Janna Lu, Eugene Cheah",
+        "摘要": "摘要: 我们介绍了大规模快速注意力蒸馏到线性注意力解码器（RADLADS），这是一种将softmax注意力变压器快速转换为线性注意力解码器模型的协议，并提供了两种新的RWKV变体架构和从流行的Qwen2.5开源模型转换而来的尺寸为7B、32B和72B的模型。我们的转换过程仅需要350-700M个标记，少于原始教师模型用于训练的标记数量的0.005%。转换为我们72B线性注意力模型的成本在现今价格下不到2000美元，但推理时的质量仍然接近原始变压器。这些模型在其规模的标准基准测试中实现了最先进的下游性能。我们在HuggingFace上根据Apache 2.0许可证发布了所有模型，除我们的72B模型外，这些模型还受Qwen许可协议的约束。",
+        "地址": "https://arxiv.org/pdf/2505.03005.pdf"
+    },
+    {
+        "名称": "2025 [2505.03730] FlexiAct: Towards Flexible Action Control in Heterogeneous Scenarios.pdf",
+        "作者": "Shiyi Zhang, Junhao Zhuang, Zhaoyang Zhang, Ying Shan, Yansong Tang",
+        "摘要": "摘要: 动作定制涉及生成视频，其中主体执行由输入控制信号指示的动作。现有方法使用姿态引导或全局运动定制，但受限于对空间结构（如布局、骨架和视点一致性）的严格约束，降低了在不同主体和场景中的适应性。为克服这些限制，我们提出了FlexiAct，它将参考视频中的动作转移到任意目标图像上。与现有方法不同，FlexiAct允许参考视频中的主体与目标图像在布局、视点和骨架结构上存在差异，同时保持身份一致性。实现这一目标需要精确的动作控制、空间结构适应和一致性保持。为此，我们引入了RefAdapter，这是一种轻量级的图像条件适配器，擅长空间适应和一致性保持，在平衡外观一致性和结构灵活性方面超越了现有方法。此外，我们的观察表明，去噪过程在不同时间步对运动（低频）和外观细节（高频）表现出不同程度的关注。因此，我们提出了FAE（频率感知动作提取），与依赖于独立时空架构的现有方法不同，它在去噪过程中直接实现动作提取。实验表明，我们的方法能够有效地将动作转移到具有不同布局、骨架和视点的主体上。我们发布了代码和模型权重，以支持进一步研究。\n\n原文链接：https://arxiv.org/pdf/2505.03730.pdf",
+        "地址": "https://arxiv.org/pdf/2505.03730.pdf"
+    },
+    {
+        "名称": "2025 [2505.02922] RetroInfer: A Vector-Storage Approach for Scalable Long-Context LLM Inference.pdf",
+        "作者": "Yaoqi Chen, Jinkai Zhang, Baotong Lu, Qianxi Zhang, Chengruidong Zhang, Jingjia Luo, Di Liu, Huiqiang Jiang, Qi Chen, Jing Liu, Bailu Ding, Xiao Yan, Jiawei Jiang, Chen Chen, Mingxing Zhang, Yuqing Yang, Fan Yang, Mao Yang",
+        "摘要": "摘要: 大型语言模型（LLMs）的上下文长度不断增加，因GPU内存和带宽限制而给高效推理带来了重大挑战。本文介绍了一种新系统RetroInfer，该系统重新定义了键值（KV）缓存为一种向量存储系统，利用内在的注意力稀疏性来加速长上下文LLM推理。其核心部件是wave索引，一种注意力感知的向量索引，通过三方注意力近似、精度限定的注意力估计和分段聚类等技术，能够高效且精确地检索关键标记。辅助部分是wave缓冲器，它协调KV缓存的放置，并在GPU和CPU之间重叠执行计算和数据传输，以保持高吞吐量。与之前基于稀疏性的方法在标记选择和硬件协调方面的困难不同，RetroInfer在不损害模型精度的前提下提供了稳健的性能。在长上下文基准测试中，实验结果显示，在GPU内存限制内，相比全注意力机制，速度提升可达到4.5倍；当KV缓存扩展至CPU内存时，相比稀疏注意力基线，速度提升最高可达10.5倍，同时保持了全注意力级别的精度。\n\n---\n\n注：在保留文献真实性和完整度的基础上进行翻译。",
+        "地址": "https://arxiv.org/pdf/2505.02922.pdf"
+    },
+    {
+        "名称": "2025 [2505.02214] An Empirical Study of Qwen3 Quantization.pdf",
+        "作者": "Xingyu Zheng, Yuye Li, Haoran Chu, Yue Feng, Xudong Ma, Jie Luo, Jinyang Guo, Haotong Qin, Michele Magno, Xianglong Liu",
+        "摘要": "该论文的摘要如下：\n\n摘要：Qwen系列成为领先的开源大语言模型（LLMs）家族，在自然语言理解任务中表现出显著的能力。随着Qwen3的最新发布，它在多种基准上表现出卓越的性能，对在资源受限环境中高效部署这些模型的兴趣日益浓厚。低位量化提供了一种前景广阔的解决方案，但其对Qwen3性能的影响仍未被充分探索。本研究系统评估了Qwen3在各种量化设置下的鲁棒性，旨在揭示压缩这种最先进模型的机会和挑战。我们严格评估了五种现有的经典后训练量化技术在Qwen3上的应用，覆盖了从1位到8位的量化位宽，并在多个数据集上评估其有效性。我们的研究结果表明，虽然Qwen3在中等位宽下保持竞争性能，但在超低精度下的语言任务中表现出显著退化，突显了LLM压缩中的持续障碍。这些结果强调需要进一步研究以减轻极端量化场景下的性能损失。我们预计这一实证分析将为改进针对Qwen3和未来LLM的量化方法提供可行的见解，从而在不损失准确性的前提下提高其实用性。我们的项目发布在此https URL和此https URL。\n\n年份：2025\n作者：郑星宇, 李宇业, 褚浩然, 冯越, 马旭东, 罗捷, 郭金阳, 秦浩桐, Michele Magno, 刘向龙\n链接：https://arxiv.org/pdf/2505.02214.pdf\n标题：2025 [2505.02214] Qwen3量化的实证研究.pdf",
+        "地址": "https://arxiv.org/pdf/2505.02214.pdf"
+    },
+    {
+        "名称": "2025 [2505.02872] Decoding Open-Ended Information Seeking Goals from Eye Movements in Reading.pdf",
+        "作者": "Cfir Avraham Hadar, Omer Shubi, Yoav Meiri, Yevgeni Berzak",
+        "摘要": "摘要：当阅读时，我们常常会对文本中特定信息感兴趣。例如，您可能会因为对阅读中眼动的LLMs（大型语言模型）、实验设计感到好奇，或者只关心“这是否有效”而阅读这篇论文。更广泛地说，在日常生活中，人们会带着许多指导其阅读行为的文本特定目标读书。在这项工作中，我们首次探讨了是否可以从阅读中的眼动中自动解码出开放式阅读目标。为了解决这一问题，我们引入了目标分类和目标重建任务及评估框架，并使用包含数百个文本特定信息搜索任务的大规模英语阅读眼动数据。我们开发并比较了几种结合眼动和文本的区分性和生成性多模态LLMs，用于目标分类和目标重建。我们的实验在这两项任务中均显示了相当的成功，表明LLMs可以从眼动中提取关于读者文本特定目标的宝贵信息。",
+        "地址": "https://arxiv.org/pdf/2505.02872.pdf"
+    },
+    {
+        "名称": "2025 [2505.03735] Multi-Agent System for Comprehensive Soccer Understanding.pdf",
+        "作者": "Jiayuan Rao, Zifeng Li, Haoning Wu, Ya Zhang, Yanfeng Wang, Weidi Xie",
+        "摘要": "摘要：人工智能驱动的足球理解最近取得了快速进展，但现有研究主要集中在孤立或狭窄的任务上。为弥补这一差距，我们提出了一个全面的框架来实现整体的足球理解。具体而言，我们在本文中做出了以下贡献：(i) 我们构建了 SoccerWiki，这是首个大规模多模态足球知识库，整合了关于球员、球队、裁判和场馆的丰富领域知识，以实现知识驱动的推理；(ii) 我们提出了 SoccerBench，这是最大且最全面的足球专项基准测试，包含约1万组跨越13个不同理解任务的标准化多模态（文本、图像、视频）多选问答对，这些问答对通过自动化管道和人工验证进行筛选；(iii) 我们引入了 SoccerAgent，这是一种新型的多智能体系统，通过协作推理分解复杂的足球问题，利用来自 SoccerWiki 的领域专业知识并实现了出色的表现；(iv) 大量的评估和消融实验在 SoccerBench 上对最先进的多模态大模型进行了基准测试，突出展示了我们提出的智能体系统的优势。所有数据和代码均可在此网址公开获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2505.03735.pdf"
+    },
+    {
+        "名称": "2025 [2505.03368] Geospatial Mechanistic Interpretability of Large Language Models.pdf",
+        "作者": "Stef De Sabbata, Stefano Mizzaro, Kevin Roitero",
+        "摘要": "摘要：大型语言模型（LLMs）在各种自然语言处理任务中展现了前所未有的能力。它们处理和生成可行文本和代码的能力使其在许多领域中变得无处不在，尽管它们作为知识库和“推理”工具的部署仍是一个正在进行的研究领域。在地理学中，越来越多的文献集中于评估LLMs的地理知识及其执行空间推理的能力。然而，关于这些模型的内部功能，特别是它们如何处理地理信息，仍知之甚少。在本章节中，我们建立了一个新的框架，研究地理空间机制解释性——使用空间分析来逆向工程LLMs如何处理地理信息。我们的目的是推进对这些复杂模型在处理地理信息时生成的内部表示的理解——如果这种措辞没有过度拟人化的话，可以称之为“LLMs如何看待地理信息”。我们首先概述了在揭示LLMs内部结构中探测方法的使用。然后我们介绍了机制解释性的领域，讨论了叠加假设和稀疏自编码器在将LLMs的多义内部表示解开为更具解释性、单义特征中的作用。在我们的实验中，我们使用空间自相关性来展示地名特征如何显示与其地理位置相关的空间模式，因此可以进行地理空间解释，从而提供对这些模型如何处理地理信息的见解。最后，我们讨论了我们的框架如何有助于塑造地理学中基础模型的研究和使用。",
+        "地址": "https://arxiv.org/pdf/2505.03368.pdf"
+    },
+    {
+        "名称": "2025 [2504.21650] HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation.pdf",
+        "作者": "Haiyang Zhou, Wangbo Yu, Jiawen Guan, Xinhua Cheng, Yonghong Tian, Li Yuan",
+        "摘要": "2025年，摘要: 扩散模型的快速进步有望彻底改变VR和AR技术的应用，这些技术通常需要场景级别的4D资产来提升用户体验。然而，现有的扩散模型主要集中于建模静态3D场景或对象级动态，限制了它们提供真正身临其境体验的能力。为了解决这个问题，我们提出了HoloTime框架，它集成了视频扩散模型，可以从单个提示语或参考图像生成全景视频，并通过360度4D场景重建方法，将生成的全景视频无缝转换为4D资产，使用户能够体验完全沉浸的4D体验。具体而言，为了驯服视频扩散模型生成高保真的全景视频，我们推出了360World数据集，这是第一个适用于下游4D场景重建任务的全景视频综合集合。利用这个精心策划的数据集，我们提出了全景动画器，这是一种两阶段的图像到视频扩散模型，可以将全景图像转换为高质量的全景视频。随后，我们介绍了全景时空重建方法，它利用时空深度估计方法将生成的全景视频转化为4D点云，优化整体4D高斯喷溅表示，以重建空间和时间上连贯的4D场景。为了验证我们方法的有效性，我们进行了与现有方法的比较分析，结果显示我们的方法在全景视频生成和4D场景重建方面具有优势。这表明我们的方法能够创建更具吸引力和逼真的沉浸式环境，从而增强VR和AR应用中的用户体验。\n\n作者: 周海洋，余望波，管佳文，程新华，田永宏，袁立\n\n备注: 项目主页: this https URL\n\n链接: https://arxiv.org/pdf/2504.21650.pdf\n\n标题: 2025 [2504.21650] HoloTime: 驯服视频扩散模型以生成全景4D场景",
+        "地址": "https://arxiv.org/pdf/2504.21650.pdf"
+    },
+    {
+        "名称": "2025 [2505.03739] VITA-Audio: Fast Interleaved Cross-Modal Token Generation for Efficient Large Speech-Language Model.pdf",
+        "作者": "Zuwei Long, Yunhang Shen, Chaoyou Fu, Heting Gao, Lijiang Li, Peixian Chen, Mengdan Zhang, Hang Shao, Jian Li, Jinlong Peng, Haoyu Cao, Ke Li, Rongrong Ji, Xing Sun",
+        "摘要": "摘要：随着自然人机交互需求的不断增长，基于语音的系统受到越来越多的关注，因为语音是日常交流中最常见的形式之一。然而，现有的语音模型在流媒体环境下生成第一个音频令牌时仍然存在高延迟，这成为部署的一个显著瓶颈。为了应对这一问题，我们提出了VITA-Audio，一种具备快速音频-文本令牌生成的端到端大型语音模型。具体来说，我们引入了一个轻量级多跨模态令牌预测（MCTP）模块，该模块能够在单次模型前向传递中有效生成多个音频令牌，这不仅加速了推理过程，还显著减少了流媒体场景中生成第一个音频的延迟。此外，我们探索了一种四阶段渐进训练策略，以在最小化语音质量损失的情况下实现模型加速。据我们所知，VITA-Audio是第一个能够在首次前向传递中生成音频输出的多模态大型语言模型，能够以极低延迟实现实时对话能力。VITA-Audio完全可重现，并且仅在开源数据上进行训练。实验结果表明，我们的模型在7B参数规模下，实现了3~5倍的推理加速，并且在自动语音识别（ASR）、文本转语音（TTS）和口语问答（SQA）任务的多个基准测试中显著优于同类模型规模的开源模型。",
+        "地址": "https://arxiv.org/pdf/2505.03739.pdf"
+    },
+    {
+        "名称": "2025 [2505.03164] InfoVids: Reimagining the Viewer Experience with Alternative Visualization-Presenter Relationships.pdf",
+        "作者": "Ji Won Chung, Tongyu Zhou, Ivy Chen, Kevin Hsu, Ryan A. Rossi, Alexa Siu, Shunan Guo, Franck Dernoncourt, James Tompkin, Jeff Huang",
+        "摘要": "摘要：\n传统的数据展示通常将演示者和可视化分离到两个不同的空间——三维世界和二维屏幕——强调以可视化为中心的故事。为了创造更以人为本的观看体验，我们通过我们的InfoVids建立了可视化和演示者之间更平等的关系。这些受信息图启发的信息视频旨在重新定义呈现者和可视化之间的关系。在设计InfoVids时，我们探讨了布局、形式和交互的使用如何影响观众体验。我们在9个指标中，与30名参与者将InfoVids与其基本的二维“幻灯片”版本进行比较，并从自传的角度提供实际的、长期的见解。我们的混合方法分析显示，这种范式减少了观众注意力的分散，将重点从可视化转移到演示者身上，并为观众带来了更互动、自然和令人感兴趣的全身数据表演。最终，InfoVids帮助观众重新想象了演示者和可视化之间的传统动态。\n\n翻译为中文：\n传统的数据展示通常将演示者和可视化分离到两个不同的空间——三维世界和二维屏幕——强调以可视化为中心的故事。为了创造更以人为本的观看体验，我们通过我们的InfoVids建立了可视化和演示者之间更平等的关系。这些受信息图启发的信息视频旨在重新定义呈现者和可视化之间的关系。在设计InfoVids时，我们探讨了布局、形式和交互的使用如何影响观众体验。我们在9个指标中，与30名参与者将InfoVids与其基本的二维“幻灯片”版本进行比较，并从自传的角度提供实际的、长期的见解。我们的混合方法分析显示，这种范式减少了观众注意力的分散，将重点从可视化转移到演示者身上，并为观众带来了更互动、自然和令人感兴趣的全身数据表演。最终，InfoVids帮助观众重新想象了演示者和可视化之间的传统动态。",
+        "地址": "https://arxiv.org/pdf/2505.03164.pdf"
+    },
+    {
+        "名称": "2025 [2504.21798] SWE-smith: Scaling Data for Software Engineering Agents.pdf",
+        "作者": "John Yang, Kilian Leret, Carlos E. Jimenez, Alexander Wettig, Kabir Khandpur, Yanzhe Zhang, Binyuan Hui, Ofir Press, Ludwig Schmidt, Diyi Yang",
+        "摘要": "摘要:尽管在软件工程的语言模型（LMs）方面取得了近期进展，收集训练数据仍然是一个显著的痛点。现有的数据集规模较小，来自11个或更少的GitHub仓库的训练实例最多为1,000个。整理这些数据集的程序通常复杂，需耗费数百小时的人力；伴随的执行环境也占用了数TB的存储空间，限制了其可扩展性和可用性。为了解决这个痛点，我们引入了SWE-smith，这是一个大规模生成软件工程训练数据的新颖流程。对于任何Python代码库，SWE-smith会构建相应的执行环境，然后自动生成100到1,000个破坏代码库中现有测试的任务实例。使用SWE-smith，我们创建了一个包含50k实例的数据集，这些实例来自128个GitHub仓库，比所有以前的工作大了一个数量级。我们训练了SWE-agent-LM-32B，在SWE-bench Verified基准测试中达到了40.2%的Pass@1解决率，这是开源模型中的最先进水平。我们开源了SWE-smith（收集程序、任务实例、轨迹、模型），以降低LM系统在自动化软件工程研究中的入门门槛。所有资源可在此：https URL中获得。\n\nJohn Yang, Kilian Leret, Carlos E. Jimenez, Alexander Wettig, Kabir Khandpur, Yanzhe Zhang, Binyuan Hui, Ofir Press, Ludwig Schmidt, Diyi Yang",
+        "地址": "https://arxiv.org/pdf/2504.21798.pdf"
+    },
+    {
+        "名称": "2025 [2505.03052] Teaching Models to Understand (but not Generate) High-risk Data.pdf",
+        "作者": "Ryan Wang, Matthew Finlayson, Luca Soldaini, Swabha Swayamdipta, Robin Jia",
+        "摘要": "**论文摘要（翻译）：**\n语言模型的开发者通常会从预训练数据中剔除高风险内容，例如有毒或受版权保护的文本，以防止模型生成类似的输出。然而，完全删除这些数据会限制模型识别和适当响应有害或敏感内容的能力。在本文中，我们引入了一种新的预训练范式——选择性损失理解但不生成（SLUNG）。通过这种方法，模型可以学习理解高风险数据而不学习生成它。SLUNG并没有均匀地应用下一个词预测损失，而是有选择性地避免激励生成高风险词，同时确保这些词仍然在模型的上下文窗口内。当模型学习预测跟随高风险词的低风险词时，它被迫理解高风险内容。通过实验，我们展示了SLUNG在不增加模型生成高风险内容（例如，模型回复中的毒性）的情况下，一致地提高了模型对高风险数据的理解（例如，识别有毒内容的能力）。总体而言，我们的SLUNG范式使模型能够受益于那些否则将被过滤掉的高风险文本。",
+        "地址": "https://arxiv.org/pdf/2505.03052.pdf"
+    },
+    {
+        "名称": "2025 [2505.02311] Invoke Interfaces Only When Needed: Adaptive Invocation for Large Language Models in Question Answering.pdf",
+        "作者": "Jihao Zhao, Chunlai Zhou, Biao Qin",
+        "摘要": "摘要：大、小语言模型（LMs）的协作范式有效平衡了性能和成本，但其关键挑战在于精确定位小型语言模型出现幻觉的调用时刻。先前的优化工作主要集中在与LMs推理过程分离的后处理技术上，导致高计算成本并且效果有限。在本文中，我们提出了一种名为AttenHScore的实用调用评估指标，该指标能够计算小型语言模型在生成过程中的幻觉累积和传播，不断放大潜在的推理错误。通过动态调整检测阈值，我们实现了大型语言模型更为准确的实时调用。此外，考虑到小型语言模型的有限推理能力，我们利用不确定性感知的知识重组，帮助模型更好地从不同的文本片段中捕捉关键信息。广泛的实验表明，我们的AttenHScore在多个QA数据集上，在增强实时幻觉检测能力方面超越了大多数基线模型，特别是在处理复杂查询时。此外，我们的策略消除了额外模型训练的需要，并展示了适应各种基于transformer的LMs的灵活性。\n\n翻译者：Jihao Zhao, Chunlai Zhou, Biao Qin\n链接：https://arxiv.org/pdf/2505.02311.pdf\n标题：仅在需要时调用接口：大型语言模型在问答中的自适应调用\n\n（文摘年份：2025）",
+        "地址": "https://arxiv.org/pdf/2505.02311.pdf"
+    },
+    {
+        "名称": "2025 [2504.18373] Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant.pdf",
+        "作者": "Lei Shen, Xiaoyu Shen",
+        "摘要": "摘要:\n近年来，由大型语言模型（LLMs）驱动的多智能体框架迅速发展。尽管取得了这一进展，但仍然缺乏专门用于评估其性能的基准数据集。为弥补这一空缺，我们引入了Auto-SLURP，一个旨在评估基于LLM的多智能体框架在智能个人助理语境下表现的基准数据集。Auto-SLURP在原始SLURP数据集的基础上进行扩展，该数据集最初是为自然语言理解任务开发的，通过重新标注数据并集成模拟服务器和外部服务，Auto-SLURP建立了一个涵盖语言理解、任务执行和响应生成的全面端到端评估管道。我们的实验表明，Auto-SLURP对当前最先进的框架提出了重大挑战，强调了真正可靠和智能的多智能体个人助理仍是一个有待解决的问题。数据集和相关代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2504.18373.pdf"
+    },
+    {
+        "名称": "2025 [2505.02836] Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation.pdf",
+        "作者": "Lu Ling, Chen-Hsuan Lin, Tsung-Yi Lin, Yifan Ding, Yu Zeng, Yichen Sheng, Yunhao Ge, Ming-Yu Liu, Aniket Bera, Zhaoshuo Li",
+        "摘要": "该论文摘要如下：\n合成交互式3D场景对游戏、虚拟现实和具身人工智能至关重要。然而，现有方法面临若干挑战。基于学习的方法依赖小规模的室内数据集，限制了场景的多样性和布局的复杂性。虽然大型语言模型（LLMs）可以利用多样的文本领域知识，但它们在空间真实感方面表现不佳，往往产生不自然的物体放置，无法遵循常识。我们的关键见解是，视觉感知可以通过提供实际的空间指导来弥补LLM的不足。为此，我们提出了Scenethesis，一个无需训练的代理框架，它将基于LLM的场景规划与视觉引导的布局优化相结合。给定一个文本提示，Scenethesis首先使用LLM起草一个粗略的布局。然后，视觉模块通过生成图像指导和提取场景结构来进行优化，以捕捉物体之间的关系。接着，优化模块迭代地强制执行准确的姿态对齐和物理合理性，防止物体穿透和不稳定等伪影。最后，评判模块验证空间一致性。全面的实验表明，Scenethesis生成了多样、真实且物理上可行的3D交互场景，具有在虚拟内容创建、模拟环境和具身人工智能研究中的重要价值。\n\n论文标题：《Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation》\n\n作者：Lu Ling, Chen-Hsuan Lin, Tsung-Yi Lin, Yifan Ding, Yu Zeng, Yichen Sheng, Yunhao Ge, Ming-Yu Liu, Aniket Bera, Zhaoshuo Li\n\n发布时间：2025年\n\n链接：https://arxiv.org/pdf/2505.02836.pdf",
+        "地址": "https://arxiv.org/pdf/2505.02836.pdf"
+    },
+    {
+        "名称": "2025 [2505.00212] Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems.pdf",
+        "作者": "Shaokun Zhang, Ming Yin, Jieyu Zhang, Jiale Liu, Zhiguang Han, Jingyang Zhang, Beibin Li, Chi Wang, Huazheng Wang, Yiran Chen, Qingyun Wu",
+        "摘要": "摘要：在大型语言模型(LLM)多代理系统中进行失败归因——识别导致任务失败的代理和步骤——为系统调试提供了关键线索，但这一领域仍未受到充分研究且非常费力。在本文中，我们提出并制定了一个新的研究领域：LLM多代理系统的自动失败归因。为支持这一倡议，我们引入了Who&When数据集，该数据集包括来自127个LLM多代理系统的广泛失败日志，并附有将失败与特定代理和决定性错误步骤联系起来的细粒度注释。利用Who&When数据集，我们开发并评估了三种自动失败归因方法，汇总了它们的优缺点。最佳方法在识别失败责任代理方面的准确率为53.5%，但在定位失败步骤方面只有14.2%，有些方法的表现甚至低于随机水平。即使是当前最先进的推理模型，如OpenAI o1和DeepSeek R1，也未能达到实用性。这些结果突显了任务的复杂性以及该领域需要进一步研究的必要性。代码和数据集可以在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2505.00212.pdf"
+    },
+    {
+        "名称": "2025 [2505.04110] Alpha Excel Benchmark.pdf",
+        "作者": "David Noever, Forrest McKee",
+        "摘要": "这项研究提出了一个新的基准，用于通过来自金融建模世界杯 (FMWC) Excel 比赛的挑战来评估大型语言模型（LLMs）。我们介绍了一种方法，将现有的 113 个 FMWC 挑战转换为可编程评估的 JSON 格式，并使用该数据集比较了几个领先的 LLMs 的表现。我们的研究发现，在不同的挑战类别中，模型的表现存在显著差异，具体表现为在模式识别任务中表现较好，但在复杂的数值推理任务中表现较差。该基准提供了一个标准化框架，用于评估 LLM 在现实商业任务中的能力，而不是抽象的学术问题。通过将每日使用 Microsoft Excel 的 15 亿人作为评估标准，这项研究为 AI 基准测试领域做出了贡献，弥合了学术 AI 基准和实际商业应用之间的差距。",
+        "地址": "https://arxiv.org/pdf/2505.04110.pdf"
+    }
+]
