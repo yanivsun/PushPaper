@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2505.02567] Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities.pdf",
+        "作者": "Xinjie Zhang, Jintao Guo, Shanshan Zhao, Minghao Fu, Lunhao Duan, Guo-Hua Wang, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang",
+        "摘要": "摘要: 近年来，多模态理解模型和图像生成模型都取得了显著进展。尽管它们各自取得了成功，这两个领域却独立发展，形成了不同的架构范式：在多模态理解方面，自回归架构占据了主导地位，而扩散模型则成为图像生成的基石。最近，开发将这些任务整合到一起的统一框架的兴趣越来越大。GPT-4o的新功能的出现体现了这一趋势，显示了统一的潜力。然而，这两个领域之间的架构差异带来了重大挑战。为了清晰概述当前统一尝试的努力，我们提供了一份全面综述，以指导未来的研究。首先，我们介绍了多模态理解和文本到图像生成模型的基础概念和最新进展。接着，我们回顾了现有的统一模型，将它们分为三种主要的架构范式：基于扩散的、自回归的，以及融合自回归和扩散机制的混合方法。对于每种类别，我们分析了相关工作引入的结构设计和创新。此外，我们整理了为统一模型定制的数据集和基准测试，提供了未来探索的资源。最后，我们讨论了这一新兴领域面临的关键挑战，包括标记化策略、跨模态注意力和数据问题。由于该领域仍处于早期阶段，我们预计会有快速进展，并将定期更新这项综述。我们的目标是激励进一步研究，并为社区提供有价值的参考。 这篇综述相关的参考文献可在Github上获取。",
+        "地址": "https://arxiv.org/pdf/2505.02567.pdf"
+    },
+    {
+        "名称": "2025 [2505.04588] ZeroSearch: Incentivize the Search Capability of LLMs without Searching.pdf",
+        "作者": "Hao Sun, Zile Qiao, Jiayan Guo, Xuanbo Fan, Yingyan Hou, Yong Jiang, Pengjun Xie, Fei Huang, Yan Zhang",
+        "摘要": "摘要：有效的信息搜索对于增强大型语言模型（LLMs）的推理和生成能力至关重要。最近的研究探索了利用强化学习（RL）通过与现实环境中的实时搜索引擎进行交互来改进LLMs的搜索能力。尽管这些方法显示出了有希望的结果，但它们面临两个主要挑战：（1）文档质量不可控：搜索引擎返回的文档质量往往不可预测，这会在训练过程中引入噪声和不稳定性。（2）高昂的API成本：RL训练需要频繁的运行，可能涉及数十万次搜索请求，导致API费用上升，严重限制了可扩展性。为了解决这些问题，我们引入了ZeroSearch，这是一种在不与真正的搜索引擎交互的情况下激励LLMs搜索能力的强化学习框架。我们的方法首先进行轻量级的监督微调，使LLM转变为一个能够在响应查询时生成相关和噪声文档的检索模块。在RL训练期间，我们采用一种基于课程的策略，逐步减少生成文档的质量，通过暴露模型于越来越具有挑战性的检索场景，逐步引发模型的推理能力。大量实验表明，ZeroSearch可以有效地激励使用3B LLM作为检索模块的搜索能力。令人瞩目的是，一个7B的检索模块可以实现与真正的搜索引擎相当的性能，而一个14B的检索模块甚至超越了它。此外，它能够很好地泛化到各种参数规模的基础和指令调优模型，并且与各种RL算法兼容。\n\n翻译：有效的信息搜索对提高大型语言模型的推理和生成能力至关重要。最新的研究通过在真实环境中与实时搜索引擎交互，探索了使用强化学习改进大型语言模型搜索能力的方法。虽然这些方法展示了良好的效果，但面临两个主要挑战：（1）不可控的文档质量：搜索引擎返回的文档质量往往不可预测，导致训练过程中出现噪音和不稳定性。（2）高昂的API成本：强化学习训练需要频繁滚动，可能涉及几十万次搜索请求，导致巨额API费用，严重限制了可扩展性。为了应对这些挑战，我们提出了ZeroSearch，一种在不与真实搜索引擎交互的情况下激励大型语言模型搜索能力的强化学习框架。我们的方法首先进行轻量级监督微调，将大型语言模型转化为一种检索模块，能够对查询生成相关和噪声文档。在强化学习训练过程中，我们采用基于课程的滚动策略，逐步降低生成文档的质量，通过逐渐暴露在越来越具有挑战性的检索场景中来引发模型的推理能力。大量实验表明，ZeroSearch有效激励了3B大型语言模型作为检索模块的搜索能力。令人瞩目的是，7B检索模块实现了与真实搜索引擎相当的性能，而14B检索模块甚至超越了真实搜索引擎。此外，该方法能够很好地适用于各种参数规模的基础和指令调优模型，并且与多种强化学习算法兼容。",
+        "地址": "https://arxiv.org/pdf/2505.04588.pdf"
+    },
+    {
+        "名称": "2025 [2505.03821] Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models.pdf",
+        "作者": "Gracjan Góral, Alicja Ziarko, Piotr Miłoś, Michał Nauman, Maciej Wołczyk, Michał Kosiński",
+        "摘要": "摘要：我们研究了视觉语言模型（VLMs）在视觉透视能力方面的表现，使用了一组受人类测试启发的新颖视觉任务。我们的方法利用经过精心控制的场景，其中一个类人微型人物与一个对象配对。通过系统地改变空间配置（例如对象相对类人微型人物的位置和类人微型人物的方向），并使用俯视视角和表面视角，我们创建了144个独特的视觉任务。每个视觉任务都配有一系列7个诊断问题，旨在评估视觉认知的三个层次：场景理解、空间推理和视觉透视能力。我们对包括GPT-4-Turbo、GPT-4o、Llama-3.2-11B-Vision-Instruct和Claude Sonnet变体在内的几种最先进的模型进行了评估，结果表明虽然它们在场景理解方面表现出色，但在空间推理方面的表现显著下降，而在透视能力方面的表现则进一步恶化。我们的分析表明，存在表层对象识别与复杂视觉任务所需的更深层空间和透视推理之间的差距，指出在未来的VLM发展中需要整合明确的几何表示和定制的训练协议。\n\n作者：Gracjan Góral、Alicja Ziarko、Piotr Miłoś、Michał Nauman、Maciej Wołczyk、Michał Kosiński\n\n评论：数据集：this https URL\n\n链接：https://arxiv.org/pdf/2505.03821.pdf\n\n标题：2025 [2505.03821] 超越识别：评估视觉语言模型中的视觉透视能力",
+        "地址": "https://arxiv.org/pdf/2505.03821.pdf"
+    },
+    {
+        "名称": "2025 [2505.00358] R&B: Domain Regrouping and Data Mixture Balancing for Efficient Foundation Model Training.pdf",
+        "作者": "Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, Nicholas Roberts, Frederic Sala",
+        "摘要": "摘要: 数据混合策略成功地减少了训练语言模型的成本。尽管前景广阔，这些方法存在两个缺陷。首先，它们依赖于预定的数据域（例如，数据来源、任务类型），这些预定数据域可能无法捕捉到关键的语义细微差别，从而影响性能。其次，这些方法随着域的数量增加而以计算上不可行的方式扩展。我们通过R&B框架解决了这些挑战，该框架基于语义相似性重新划分训练数据 (再分组) 以创建更细粒度的域，并通过利用在训练过程中获得的域梯度诱导的Gram矩阵高效地优化数据组成 (平衡)。与之前的工作不同，它消除了获得损失或梯度等评估信息所需的额外计算需求。我们在标准规则条件下分析了该技术，并提供了理论见解，以证明R&B相对于非自适应混合方法的有效性。在五个从自然语言到推理和多模态任务的多样数据集上，我们实证证明了R&B的有效性。在仅增加0.01%计算开销的情况下，R&B能够匹配或超过最先进的数据混合策略的性能。\n\n作者：Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, Nicholas Roberts, Frederic Sala",
+        "地址": "https://arxiv.org/pdf/2505.00358.pdf"
+    },
+    {
+        "名称": "2025 [2505.04512] HunyuanCustom: A Multimodal-Driven Architecture for Customized Video Generation.pdf",
+        "作者": "Teng Hu, Zhentao Yu, Zhengguang Zhou, Sen Liang, Yuan Zhou, Qin Lin, Qinglin Lu",
+        "摘要": "摘要：定制化视频生成旨在根据灵活的用户定义条件生成具有特定主题的视频，但现有方法往往难以保持身份一致性且输入方式有限。本文提出了一种多模态定制化视频生成框架HunyuanCustom，该框架在支持图像、音频、视频和文本条件的同时，强调主体一致性。我们的模型基于HunyuanVideo，首先通过引入基于LLaVA的文本-图像融合模块以增强多模态理解，并通过利用时间串联来增强跨帧身份特征的图像ID增强模块，解决了图像-文本条件生成任务。为了实现音频和视频条件的生成，我们进一步提出了模态特定的条件注入机制：一个通过空间交叉注意力实现层次对齐的AudioNet模块，以及一个通过基于patchify的特征对齐网络集成潜在压缩条件视频的驱动注入模块。在单主体和多主体场景的大量实验表明，HunyuanCustom在ID一致性、现实感和文本-视频对齐方面显著优于最先进的开源和闭源方法。此外，我们验证了其在下游任务中的鲁棒性，包括音频和视频驱动的定制化视频生成。我们的结果突显了多模态调控和身份保持策略在可控视频生成中的有效性。所有代码和模型可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2505.04512.pdf"
+    },
+    {
+        "名称": "2025 [2505.04622] PrimitiveAnything: Human-Crafted 3D Primitive Assembly Generation with Auto-Regressive Transformer.pdf",
+        "作者": "Jingwen Ye, Yuze He, Yanning Zhou, Yiqin Zhu, Kaiwen Xiao, Yong-Jin Liu, Wei Yang, Xiao Han",
+        "摘要": "摘要：形状原语抽象化将复杂的三维形状分解为简单的几何元素，在人类视觉认知中起着至关重要的作用，并在计算机视觉和图形学中具有广泛的应用。尽管近期在三维内容生成方面取得了显著进展，现有的原语抽象化方法要么依赖于具有有限语义理解的几何优化，要么从小规模、特定类别的数据集中学习，难以跨各种形状类别进行泛化。我们提出了PrimitiveAnything，这是一个将形状原语抽象化重新表述为原语装配生成任务的新框架。PrimitiveAnything包括一个形状条件的原语转换器，用于自回归生成，以及一个无歧义参数化方案来以统一方式表示多种类型的原语。所提出的框架直接从大规模的人类手工抽象中学习原语装配的过程，使其能够捕捉人类如何将复杂形状分解为原语元素。通过广泛的实验，我们证明PrimitiveAnything能够生成高质量的原语装配，更好地与人类感知对齐，同时在各种形状类别中保持几何保真度。它有利于各种三维应用，并显示出在游戏中启用基于原语的用户生成内容的潜力。\n\n项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2505.04622.pdf"
+    },
+    {
+        "名称": "2025 [2505.04364] Benchmarking LLMs' Swarm intelligence.pdf",
+        "作者": "Kai Ruan, Mowen Huang, Ji-Rong Wen, Hao Sun",
+        "摘要": "摘要：大型语言模型（LLMs）在复杂推理方面显示出潜力，但在严格约束下（如自然群体的有限局部感知和通信特征）作为多智能体系统（MAS）中的智能体进行自动协调的能力，尤其是群体智能的细微差别，仍未得到充分探索。现有基准测试往往不能完全捕捉智能体在不完整时空信息下进行去中心化协调时所面临的独特挑战。为填补这一空白，我们引入了SwarmBench，一种新颖的基准测试，用于系统评估LLMs作为去中心化智能体的群体智能能力。SwarmBench在一个可配置的二维网格环境中设有五个基础MAS协调任务，迫使智能体主要依赖局部感官输入（k x k视野）和局部通信。我们提出了协调效果的衡量标准，并分析了群体动态的生成。在几项任务中对几个领先的LLMs进行零样本设定评估，发现任务间表现差异显著，突显了局部信息约束带来的困难。尽管某些协调行为得以体现，但结果表明在这些去中心化场景下，LLMs在制定计划和形成策略方面存在局限性。评估LLMs在类似群群体条件下的表现对于实现它们在未来去中心化系统中的潜力至关重要。我们将SwarmBench作为一个开放且可扩展的工具包发布——它构建在具有定义机械特性的可定制和可扩展物理系统之上，提供环境、提示、评估脚本和生成的综合实验数据集，旨在促进基于LLM的MAS协调研究的可重复性以及体现MAS的理论基础。我们的代码库可在此HTTPS URL获取。",
+        "地址": "https://arxiv.org/pdf/2505.04364.pdf"
+    },
+    {
+        "名称": "2025 [2505.04528] Beyond Theorem Proving: Formulation, Framework and Benchmark for Formal Problem-Solving.pdf",
+        "作者": "Qi Liu, Xinhao Zheng, Renqiu Xia, Xingzhi Qi, Qinxiang Cao, Junchi Yan",
+        "摘要": "摘要：问题解决作为一个看似不言而喻的任务，一直是科学和工程的重要组成部分。然而，目前依然缺少对问题解决的普遍且具体的表述。随着基于人工智能的解决问题的代理的发展，对过程级可验证性的需求迅速增加，但还未得到充分探索。为填补这些空白，我们提出了一个将问题解决公式化为确定性马尔可夫决策过程的原则性表述；一个新颖的框架FPS（正式问题解决），其利用现有的FTP（形式化定理证明）环境进行过程验证的问题解决；以及D-FPS（演绎FPS），将解决和答案验证解耦以更好地符合人类需求。框架的表达性、正确性和完整性得到证明。我们构建了三个问题解决基准：FormalMath500，一个MATH500基准子集的形式化；MiniF2F-Solving和PutnamBench-Solving，FTP基准MiniF2F和PutnamBench的适应性版本。为了实现可信、可解释和符合人类需求的评估，我们提出了RPE（限制命题等价），一种通过形式验证来确定答案正确性的符号方法。我们评估了四个流行的FTP模型和两种提示方法作为基线，解决了最多23.77%的FormalMath500，27.47%的MiniF2F-Solving，和0.31%的PutnamBench-Solving。\n\n作者：刘奇，郑心昊，夏仁秋，齐星志，曹钦祥，严骏驰\n\n评论：42页，3张图\n\nURL：https://arxiv.org/pdf/2505.04528.pdf\n\n标题：超越定理证明：正式问题解决的表述、框架与基准",
+        "地址": "https://arxiv.org/pdf/2505.04528.pdf"
+    },
+    {
+        "名称": "2025 [2505.04606] OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution.pdf",
+        "作者": "Lianghong Guo, Wei Tao, Runhan Jiang, Yanlin Wang, Jiachi Chen, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng",
+        "摘要": "摘要: GitHub 问题解决任务旨在自动解决存储库中报告的问题。随着大型语言模型（LLMs）的进步，这一任务受到了越来越多的关注，并提出了一些基准来评估 LLM 的问题解决能力。然而，现有基准存在三个主要局限。首先，目前的基准仅关注单一编程语言，限制了对跨不同语言存储库问题的评估。其次，这些基准通常仅涵盖狭窄的领域范围，可能无法代表现实世界问题的多样性。第三，现有基准仅依赖于问题描述中的文本信息，忽视了如图像等多模态信息。在本文中，我们提出了 OmniGIRL，这是一个多语言、多模态和多领域的 GitHub 问题解决基准。OmniGIRL 包含 959 个任务实例，这些实例收集自四种编程语言（即 Python、JavaScript、TypeScript 和 Java）和八个不同领域的存储库。我们的评估表明，当前的 LLM 在 OmniGIRL 上表现有限。值得注意的是，表现最好的模型 GPT-4o 仅解决了 8.6% 的问题。此外，我们发现当前 LLM 在解决需要理解图像的问题时表现挣扎。最佳表现由 Claude-3.5-Sonnet 达成，其仅解决了包含图像信息的 10.5% 的问题。最后，我们分析了当前 LLM 在 OmniGIRL 上失败的原因，并为未来的改进提供了见解。\n\n评论: 将出现在 ISSTA'25\n\n网址: [https://arxiv.org/pdf/2505.04606.pdf](https://arxiv.org/pdf/2505.04606.pdf)\n\n标题: 2025 [2505.04606] OmniGIRL: 用于 GitHub 问题解决的多语言和多模态基准研究\n\n作者: Lianghong Guo, Wei Tao, Runhan Jiang, Yanlin Wang, Jiachi Chen, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng",
+        "地址": "https://arxiv.org/pdf/2505.04606.pdf"
+    },
+    {
+        "名称": "2025 [2505.03912] OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic Manipulation.pdf",
+        "作者": "Can Cui, Pengxiang Ding, Wenxuan Song, Shuanghao Bai, Xinyang Tong, Zirui Ge, Runze Suo, Wanqi Zhou, Yang Liu, Bofang Jia, Han Zhao, Siteng Huang, Donglin Wang",
+        "摘要": "摘要：双系统VLA（视觉-语言-动作）架构在具身智能研究中成为热点话题，但目前缺乏足够的开源工作以进行进一步的性能分析和优化。为了解决这个问题，本文将总结并比较现有双系统架构的结构设计，对其核心设计要素进行系统的实证评估。最终，它将提供一个低成本开源模型供进一步探索。当然，本项目将继续更新更多实验结论和性能改进的开源模型供大家选择。项目页面：此 https URL。",
+        "地址": "https://arxiv.org/pdf/2505.03912.pdf"
+    },
+    {
+        "名称": "2025 [2505.04601] OpenVision: A Fully-Open, Cost-Effective Family of Advanced Vision Encoders for Multimodal Learning.pdf",
+        "作者": "Xianhang Li, Yanqing Liu, Haoqin Tu, Hongru Zhu, Cihang Xie",
+        "摘要": "摘要：OpenAI 于 2021 年初发布的 CLIP 长期以来一直是构建多模态基础模型的首选视觉编码器。尽管最近一些替代品如 SigLIP 开始挑战这种现状，但据我们所知，这些替代品都不是完全开放的：它们的训练数据仍然是专有的，或者它们的训练方法没有公开。本文通过 OpenVision 填补了这一空白，OpenVision 是一个完全开放、成本效益高的视觉编码器家族，在集成到类似 LLaVA 的多模态框架中时，其性能可以匹敌或超越 OpenAI 的 CLIP。OpenVision 构建在现有的研究成果之上——如用于训练框架的 CLIPS 和用于训练数据的 Recap-DataComp-1B，同时揭示了多种提高编码器质量的关键见解，并展示了在推进多模态模型方面的实际收益。通过发布参数范围从 5.9M 到 632.1M 的视觉编码器，OpenVision 为从业者在构建多模态模型时提供了容量与效率之间的灵活权衡：较大的模型提供了增强的多模态性能，而较小的版本实现了轻量级、适应边缘部署的多模态应用。",
+        "地址": "https://arxiv.org/pdf/2505.04601.pdf"
+    },
+    {
+        "名称": "2025 [2505.03570] OSUniverse: Benchmark for Multimodal GUI-navigation AI Agents.pdf",
+        "作者": "Mariya Davydova, Daniel Jeffries, Patrick Barker, Arturo Márquez Flores, Sinéad Ryan",
+        "摘要": "在这篇论文中，我们介绍了OSUniverse，这是一个面向高级图形用户界面(GUI)-导航AI代理的复杂、多模态桌面任务基准，重点在于易用性、可扩展性、测试用例的全面覆盖以及自动化验证。我们将任务按复杂度划分，从基本的精确点击到需要代理具备灵敏度、精确度和清晰思维的多步骤、多应用测试。在这里介绍的基准版本一中，我们对基准测试用例的复杂度进行了校准，以确保在发布日期，最先进(SOTA)的代理结果不超过50%，而普通白领工作人员可以完美无误地完成所有这些任务。虽然基准可以手动评分，但我们还引入了一种平均错误率小于2%的自动化验证机制。因此，这个基准为在短期和中期内全面自动化衡量GUI-导航AI代理的进展、能力和效果提供了坚实的基础。基准的源代码可在此HTTPS链接找到。",
+        "地址": "https://arxiv.org/pdf/2505.03570.pdf"
+    },
+    {
+        "名称": "2025 [2505.03418] Knowledge Augmented Complex Problem Solving with Large Language Models: A Survey.pdf",
+        "作者": "Da Zheng, Lun Du, Junwei Su, Yuchen Tian, Yuqi Zhu, Jintian Zhang, Lanning Wei, Ningyu Zhang, Huajun Chen",
+        "摘要": "摘要: 问题解决是人类进步的基本驱动力之一。随着人工智能的进步，大型语言模型（LLMs）已经成为可以在各种领域解决复杂问题的强大工具。与传统的计算系统不同，LLMs结合了原始计算能力和对人类推理的近似，使它们能够生成解决方案，做出推论，甚至利用外部计算工具。然而，将LLMs应用于现实世界的问题解决面临着重大的挑战，包括多步骤推理、领域知识整合以及结果验证。本综述探讨了LLMs在复杂问题解决中的能力和局限性，研究了包括链式思维（CoT）推理、知识增强以及各种基于LLMs和基于工具的验证技术。我们还强调了在各种领域中的领域特定挑战，如软件工程、数学推理和证明、数据分析和建模、科学研究。本文进一步讨论了当前LLM解决方案的基本局限性，以及从多步骤推理、领域知识整合和结果验证的角度来看，基于LLM的复杂问题解决的未来方向。",
+        "地址": "https://arxiv.org/pdf/2505.03418.pdf"
+    },
+    {
+        "名称": "2025 [2505.04253] LLM-Independent Adaptive RAG: Let the Question Speak for Itself.pdf",
+        "作者": "Maria Marina, Nikolay Ivanov, Sergey Pletenev, Mikhail Salnikov, Daria Galimzianova, Nikita Krayko, Vasily Konovalov, Alexander Panchenko, Viktor Moskvoretskii",
+        "摘要": "摘要：大型语言模型（LLMs）容易出现幻觉现象，检索增强生成（RAG）可以帮助缓解这一问题，但代价高昂且存在误导信息的风险。自适应检索旨在仅在必要时进行检索，但现有方法依赖于基于LLM的不确定性估计，仍然效率低且不切实际。在这项研究中，我们介绍了基于外部信息的轻量级、独立于LLM的自适应检索方法。我们研究了27个特征，分为7组及其混合组合。我们在6个QA数据集上评估了这些方法，评估了QA的性能和效率。结果表明，我们的方法在实现显著效率提升的同时，匹配了复杂的基于LLM的方法的性能，展示了外部信息在自适应检索中的潜力。",
+        "地址": "https://arxiv.org/pdf/2505.04253.pdf"
+    },
+    {
+        "名称": "2025 [2505.03538] RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT.pdf",
+        "作者": "Chuyu Zhao, Hao Huang, Jiashuo Guo, Ziyu Shen, Zhongwei Zhou, Jie Liu, Zekuan Yu",
+        "摘要": "摘要：半监督学习已成为从CBCT扫描中进行三维牙齿分割的有力方法，标注数据有限。但是，现有方法在监督训练期间在结构上模糊或错误标记区域的纠正监督有限，以及在无标签数据上由于不可靠的伪标签导致的性能下降这两大挑战仍然存在。为了解决这些问题，我们提出了区域感知指导学习（RAIL），一种双组双学生的半监督框架。每组包含两个由共享教师网络引导的学生模型。通过在两组之间交替训练，RAIL促进了组间知识转移和协同区域感知指导，同时减少了对任何单一模型特征的过拟合。特别是，RAIL引入了两种指导机制。分歧重点监督（DFS）控制器通过仅在学生输出与真实值和最佳学生分歧的区域指导预测来改善监督学习，从而重点在结构上模糊或错误标记的区域进行监督。在无监督阶段，信心感知学习（CAL）调节器在模型置信度高的区域强化一致性，同时减少训练中低置信度预测的影响。这有助于防止我们的模型学习不稳定模式，并提高伪标签的整体可靠性。在四个CBCT牙齿分割数据集上的广泛实验显示，在有限标注下，RAIL超过了最先进的方法。我们的代码将在该网址提供。",
+        "地址": "https://arxiv.org/pdf/2505.03538.pdf"
+    },
+    {
+        "名称": "2025 [2505.03105] Cognitio Emergens: Agency, Dimensions, and Dynamics in Human-AI Knowledge Co-Creation.pdf",
+        "作者": "Xule Lin",
+        "摘要": "摘要：科学知识创造正在发生根本性转变，人类和人工智能系统从工具用户关系发展成共同演化的认知伙伴关系。当AlphaFold革新了蛋白质结构预测时，研究人员描述了与一个重新塑造他们对基本关系的概念的认知伙伴的互动。本文介绍了Cognitio Emergens (CE)框架，这个框架解决了现有模型在关注静态角色或狭窄指标时的关键局限性，而这些模型未能捕捉到科学理解如何通过人类和AI的递归互动随着时间的推移而出现。CE整合了三个组件来解决这些局限性：代理配置描述权威如何在人类和AI之间分配（指示性、贡献性、伙伴关系），伙伴关系在配置之间动态振荡而不是线性进展；认知维度捕捉通过发现、整合和投影轴线的协作而出现的六种特定能力，创建独特的“能力签名”以指导发展；以及伙伴关系动力学识别塑造这些关系如何演变的力量，特别是研究人员在正式认可的知识上失去解释控制的认知疏离风险。借鉴自发生理论、社会系统理论和组织模块化，CE揭示了知识共同创造如何通过角色、价值观和组织结构的持续协商而出现。通过重新概念化人类与AI的科学合作为根本上的共同演化，CE提供了一种平衡的视角，既不过分庆贺也不过分担忧AI的发展角色，相反，提供了培养伙伴关系的概念工具，以在保持有意义的人类参与的同时，实现变革性的科学突破。",
+        "地址": "https://arxiv.org/pdf/2505.03105.pdf"
+    },
+    {
+        "名称": "2025 [2505.02820] AutoLibra: Agent Metric Induction from Open-Ended Feedback.pdf",
+        "作者": "Hao Zhu, Phil Cuvin, Xinkai Yu, Charlotte Ka Yee Yan, Jason Zhang, Diyi Yang",
+        "摘要": "摘要：智能体通常通过任务成功率指标进行评估和优化，这些指标是粗略的，依赖于专家的人工设计，并不能奖励中间的涌现行为。我们提出了AutoLibra，这是一个智能体评估框架，能够将开放式人类反馈（例如“如果你发现按钮被禁用了，不要再点击它”或“该智能体自主性太强，自行决定该做什么”）转换为用于评估智能体轨迹中细粒度行为的指标。AutoLibra通过将反馈落实到智能体行为中，将相似的正面和负面行为进行聚类，并创建具有明确定义和具体示例的具体指标，这些指标可用于提示LLM-as-a-Judge作为评估者。我们进一步提出了两个元指标来评估一组（诱导）指标与开放反馈的对齐情况：“覆盖率”和“冗余度”。通过优化这些元指标，我们在实验中展示了AutoLibra能够诱导出比之前智能体评估基准中提出的更具体的智能体评估指标，并发现新的指标来分析智能体。我们还展示了AutoLibra在智能体改进中的两个应用：首先，我们展示了AutoLibra诱导的指标在广泛的文本游戏任务中作为比任务成功率更好的提示工程目标，将智能体性能提升了平均20%；其次，我们展示了AutoLibra可以迭代选择高质量的微调数据用于网页导航智能体。我们的结果表明，AutoLibra是一种强大、与任务无关的工具，可用于评估和改进语言智能体。\n\n[原文由 Hao Zhu, Phil Cuvin, Xinkai Yu, Charlotte Ka Yee Yan, Jason Zhang, Diyi Yang 撰写]",
+        "地址": "https://arxiv.org/pdf/2505.02820.pdf"
+    },
+    {
+        "名称": "2025 [2505.02393] Uncertainty-Weighted Image-Event Multimodal Fusion for Video Anomaly Detection.pdf",
+        "作者": "Sungheon Jeong, Jihong Park, Mohsen Imani",
+        "摘要": "摘要中文翻译：大多数现有的视频异常检测器仅依赖于RGB帧，这缺乏捕捉突然或短暂运动线索所需的时间分辨率，而这些线索是异常事件的关键指标。为了解决这一限制，我们提出了用于视频异常检测的图像事件融合方法（IEF-VAD），该框架直接从RGB视频中合成事件表示，并通过一种有原则的、考虑不确定性的过程将其与图像特征融合。系统(i) 使用Student's-t似然分布对重尾传感器噪声建模，通过拉普拉斯近似导出值级别逆方差权重；(ii) 应用卡尔曼风格的逐帧更新，以随时间平衡模态；(iii) 迭代地优化融合的潜在状态，消除残余的跨模态噪声。无需任何专用事件传感器或逐帧标签，IEF-VAD在多个真实世界的异常检测基准上设定了新的技术水平。这些发现强调了合成事件表示在突出RGB帧中常常被低估的运动线索方面的效用，使得在各种应用中无需专用事件传感器即可实现准确而稳健的视频理解。代码和模型可以在以下网址获取：https://arxiv.org/pdf/2505.02393.pdf。",
+        "地址": "https://arxiv.org/pdf/2505.02393.pdf"
+    },
+    {
+        "名称": "2025 [2505.01449] COSMOS: Predictable and Cost-Effective Adaptation of LLMs.pdf",
+        "作者": "Jiayu Wang, Aws Albarghouthi, Frederic Sala",
+        "摘要": "摘要: 大型语言模型（LLMs）在众多任务中通过使用多种自适应策略实现了显著的性能。然而，在资源有限的情况下，优化选择模型和自适应策略具有挑战性，通常需要大量的实验。我们研究是否可以在不进行昂贵试验的情况下准确预测性能和成本。我们将LLM的策略选择问题形式化并引入COSMOS，一个统一的预测框架，该框架能够以最低成本高效估计自适应结果。我们通过一对强大的预测器实例化并研究了我们的框架的能力：嵌入增强的轻量级代理模型用于预测微调性能，以及用于预测基于检索的上下文学习的低样本缩放定律。通过在八个具有代表性的基准上进行广泛评估，COSMOS在减少计算成本的同时实现了高预测精度，平均减少了92.72%的计算成本，在资源密集型场景中最高可达98.71%。我们的结果表明，高效预测自适应结果不仅是可行的，而且可以在保持性能标准的同时大幅减少LLM部署的计算开销。",
+        "地址": "https://arxiv.org/pdf/2505.01449.pdf"
+    }
+]
