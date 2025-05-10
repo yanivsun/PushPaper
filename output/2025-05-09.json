@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2505.04921] Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models.pdf",
+        "作者": "Yunxin Li, Zhenyu Liu, Zitao Li, Xuanyu Zhang, Zhenran Xu, Xinyu Chen, Haoyuan Shi, Shenyuan Jiang, Xintong Wang, Jifang Wang, Shouzheng Huang, Xinping Zhao, Borui Jiang, Lanqing Hong, Longyue Wang, Zhuotao Tian, Baoxing Huai, Wenhan Luo, Weihua Luo, Zheng Zhang, Baotian Hu, Min Zhang",
+        "摘要": "摘要：推理是智能的核心，影响决策、推导结论及跨领域泛化的能力。在人工智能中，随着系统在开放的、不确定的和多模态环境中运行，推理变得至关重要，以实现稳健和自适应的行为。大规模多模态推理模型（LMRMs）作为一个有前途的范式，通过整合文本、图像、音频和视频等多种模态，支持复杂的推理能力，旨在实现全面的感知、精确的理解和深度的推理。随着研究的进展，多模态推理已迅速从模块化、感知驱动的管道发展到统一的、语言中心的框架，提供了更连贯的跨模态理解。尽管指令调整和强化学习已经改善了模型的推理能力，但在全模态泛化、推理深度和代理行为方面仍存在显著挑战。为了解决这些问题，我们对多模态推理研究进行了全面、结构化的综述，围绕一个四阶段的发展路线图进行组织，这反映了该领域设计理念的变化和新兴的能力。首先，我们回顾了基于任务特定模块的早期工作，推理在表示、对齐和融合的各个阶段隐式嵌入。接下来，我们考察了统一推理到多模态LLMs的最近方法，进步如多模态思维链（MCoT）和多模态强化学习使推理链更加丰富和结构化。最后，基于OpenAI O3和O4-mini的挑战性基准和实验案例得出的实证见解，我们讨论了原生大规模多模态推理模型（N-LMRMs）的概念方向，旨在支持可扩展的、代理性和自适应的推理和复杂现实环境中的规划。\n\n翻译后中文摘要：推理是智能的核心，影响决策、推导结论及跨领域泛化的能力。在人工智能中，随着系统在开放的、不确定的和多模态环境中运行，推理变得至关重要，以实现稳健和自适应的行为。大规模多模态推理模型（LMRMs）作为一个有前途的范式，通过整合文本、图像、音频和视频等多种模态，支持复杂的推理能力，旨在实现全面的感知、精确的理解和深度的推理。随着研究的进展，多模态推理已迅速从模块化、感知驱动的管道发展到统一的、语言中心的框架，提供了更连贯的跨模态理解。尽管指令调整和强化学习已经改善了模型的推理能力，但在全模态泛化、推理深度和代理行为方面仍存在显著挑战。为了解决这些问题，我们对多模态推理研究进行了全面、结构化的综述，围绕一个四阶段的发展路线图组织，该路线图反映了该领域设计理念的变化和新兴的能力。首先，我们回顾了基于任务特定模块的早期工作，推理在表示、对齐和融合的各个阶段隐式嵌入。接下来，我们考察了将推理统一到多模态LLMs的最近方法，诸如多模态思维链（MCoT）和多模态强化学习等进步使推理链更加丰富和结构化。最后，我们根据OpenAI O3和O4-mini的挑战性基准和实验案例得出的实证见解，讨论了原生大规模多模态推理模型（N-LMRMs）的概念方向，旨在支持可扩展的代理性和自适应的推理和复杂现实环境中的规划。",
+        "地址": "https://arxiv.org/pdf/2505.04921.pdf"
+    },
+    {
+        "名称": "2025 [2505.04620] On Path to Multimodal Generalist: General-Level and General-Bench.pdf",
+        "作者": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Weiming Wu, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang",
+        "摘要": "摘要：多模态大语言模型（MLLM）正在经历快速增长，这一趋势得益于先进的大语言模型（LLM）能力。与早期的专家系统不同，现有的MLLM正在向多模态通才范式发展。这些模型最初仅限于理解多种模态，但现已进步到不仅可以跨模态理解，还可以进行生成。其能力已从粗粒度的多模态理解扩展到细粒度，并从支持有限的模态扩展到任意模态。尽管已有许多基准测试用于评估MLLM，但一个关键问题仍然存在：我们能否简单地认为在各项任务上表现更好就意味着MLLM能力更强，从而使我们更接近人类水平的AI？我们认为答案并不那么简单。本文提出了一个新的评价框架General-Level，该框架定义了五个等级的MLLM性能和普遍性，提供了一种比较MLLM并衡量现有系统向更强大的多模态通才进展的方法，最终实现AGI。框架的核心是协同作用的概念，它衡量模型在理解和生成以及多种模态之间是否保持一致的能力。为了支持这一评价，我们提出了General-Bench，涵盖了更广泛的技能、模态、格式和能力，包括700多个任务和325,800个实例。对100多种现有最先进的MLLM的评价结果揭示了通才的能力排名，突出了实现真正AI的挑战。我们期望这个项目能够为下一代多模态基础模型的未来研究铺平道路，提供一个坚实的基础设施，加速AGI的实现。项目页面：该网址。",
+        "地址": "https://arxiv.org/pdf/2505.04620.pdf"
+    },
+    {
+        "名称": "2025 [2505.05470] Flow-GRPO: Training Flow Matching Models via Online RL.pdf",
+        "作者": "Jie Liu, Gongye Liu, Jiajun Liang, Yangguang Li, Jiaheng Liu, Xintao Wang, Pengfei Wan, Di Zhang, Wanli Ouyang",
+        "摘要": "摘要：我们提出了Flow-GRPO，这是首次将在线强化学习（RL）集成到流匹配模型中的方法。我们的方法采用了两个关键策略：（1）ODE到SDE转换，将确定性常微分方程（ODE）转换为在所有时间步长上与原始模型的边际分布相匹配的等效随机微分方程（SDE），从而实现RL探索的统计采样；（2）去噪减少策略，在保留原始推理时间步长的同时减少训练去噪步骤，显著提高采样效率而不降低性能。实验证明，Flow-GRPO在多个文本到图像任务中效果显著。对于复杂组合，RL调整后的SD3.5几乎完美地生成了物体数量、空间关系和细粒度属性，使GenEval准确率从63%提升到95%。在文本渲染任务中，其准确率从59%提高到92%，显著增强了文本生成能力。Flow-GRPO在人类偏好对齐方面也取得了显著进展。值得注意的是，几乎没有出现奖励欺骗现象，即奖励的增加并未以图像质量或多样性的代价为代价，在我们的实验中二者均保持稳定。",
+        "地址": "https://arxiv.org/pdf/2505.05470.pdf"
+    },
+    {
+        "名称": "2025 [2505.05315] Scalable Chain of Thoughts via Elastic Reasoning.pdf",
+        "作者": "Yuhui Xu, Hanze Dong, Lei Wang, Doyen Sahoo, Junnan Li, Caiming Xiong",
+        "摘要": "摘要：大型推理模型（LRMs）通过生成扩展的思维链(CoT)在复杂任务上取得了显著进展。然而，它们不受控的输出长度对现实世界中的部署构成了重大挑战，因为推理时间在tokens数量、延迟或计算资源上有严格限制。我们提出了一种新的框架，即弹性推理，将推理明确分为思考和解决两个阶段，并为其分配独立的预算。在测试阶段，弹性推理优先保证解决部分的完整性，在资源紧张的情况下显著提高了可靠性。为了训练对截断思维具有鲁棒性的模型，我们引入了一种轻量级的预算约束展开策略，集成在GRPO中，教会模型在思考过程被打断时自适应推理，并在不额外训练的情况下有效推广到未见过的预算约束。数学（AIME, MATH500）和编程（LiveCodeBench, Codeforces）基准的实证结果表明，弹性推理在严格的预算约束下表现出鲁棒性，同时训练成本显著低于基线方法。更为显著的是，我们的方法即使在无限制的设置下也能产生更简洁和高效的推理。弹性推理为可控大规模推理这一紧迫挑战提供了一种有原则且实用的解决方案。",
+        "地址": "https://arxiv.org/pdf/2505.05315.pdf"
+    },
+    {
+        "名称": "2025 [2505.02847] Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition in Large Language Models.pdf",
+        "作者": "Bang Zhang, Ruotian Ma, Qingxuan Jiang, Peisong Wang, Jiaqi Chen, Zheng Xie, Xingyu Chen, Yue Wang, Fanghua Ye, Jian Li, Yifan Yang, Zhaopeng Tu, Xiaolong Li",
+        "摘要": "摘要：评估大型语言模型(LLM)理解人类而非仅仅文本的能力仍然是一个开放的挑战。为了缩小这一差距，我们引入了\"Sentient Agent as a Judge (SAGE)\"，这是一个自动评估框架，用于衡量LLM的高级社会认知能力。SAGE实例化了一个在交互过程中模拟人类情感变化和内心想法的感知代理，为测试模型在多回合对话中的表现提供了更现实的评估。在每个回合中，代理会推理(i)它的情感如何变化，(ii)它的感受如何，(iii)它该如何回复，从而生成一个数值化的情感轨迹和可解释的内心想法。对100个支持对话场景的实验表明，最终的感知情感得分与Barrett-Lennard关系量表(BLRI)评分和话语级别的共情指标强烈相关，验证了心理学的真实性。我们还建立了一个公共感知排行榜，涵盖了18个商业和开源模型，揭示了前沿系统(GPT-4o-Latest，Gemini2.5-Pro)和早期基线之间的显著差距(高达4倍)，这些差距在传统排行榜(例如Arena)中没有反映出来。因此，SAGE提供了一个有原则的、可扩展的和可解释的工具，用于跟踪朝着真正有同理心和社会能力的语言代理进展。",
+        "地址": "https://arxiv.org/pdf/2505.02847.pdf"
+    },
+    {
+        "名称": "2025 [2505.05474] 3D Scene Generation: A Survey.pdf",
+        "作者": "Beichen Wen, Haozhe Xie, Zhaoxi Chen, Fangzhou Hong, Ziwei Liu",
+        "摘要": "摘要: 3D场景生成旨在合成具有空间结构、语义意义和照片真实感的环境，以用于沉浸式媒体、机器人、自动驾驶和具身智能等应用。早期基于程序规则的方法提供了可扩展性，但多样性有限。最近在深度生成模型（如GANs、扩散模型）和3D表示（如NeRF、3D高斯）方面的进展使得学习现实世界场景分布成为可能，提升了保真度、多样性和视图一致性。扩散模型等近期进展通过将生成重新定义为图像或视频合成问题，弥合了3D场景合成和照片真实感之间的差距。本综述系统地概述了最先进的方法，将它们分为四个范式: 程序生成、基于神经网络的3D生成、基于图像的生成和基于视频的生成。我们分析了它们的技术基础、权衡和代表性结果，并回顾了常用的数据集、评估协议和下游应用。最后，我们讨论了生成能力、3D表示、数据和注释以及评估的关键挑战，概述了包括更高保真度、物理感知和交互生成以及统一感知生成模型等有前景的方向。这篇综述组织了关于3D场景生成的最新进展，并突出展示了生成人工智能、3D视觉和具身智能交叉点上的有希望的方向。为了追踪持续的发展，我们维护了一个实时更新的项目页面：这个 https链接。",
+        "地址": "https://arxiv.org/pdf/2505.05474.pdf"
+    },
+    {
+        "名称": "2025 [2505.05071] FG-CLIP: Fine-Grained Visual and Textual Alignment.pdf",
+        "作者": "Chunyu Xie, Bin Wang, Fanjing Kong, Jincheng Li, Dawei Liang, Gengshen Zhang, Dawei Leng, Yuhui Yin",
+        "摘要": "摘要：对比语言图像预训练(CLIP)在图像文本检索和零样本分类等多模态任务中表现出色，但由于其专注于粗粒度的简短标题而在细粒度理解方面表现不佳。为了解决这一问题，我们提出了细粒度CLIP(FG-CLIP)，通过三个关键创新来增强细粒度理解。首先，我们利用大型多模态模型生成了16亿个长标题-图像对，以捕捉全局语义细节。其次，构建了一个高质量数据集，包括1200万张图像和4000万个与详细标题对齐的区域特定边界框，以确保精确、丰富的上下文表示。第三，纳入了1000万个难区分的细粒度负样本，以提高模型区分微妙语义差异的能力。针对这些数据，设计了相应的训练方法。大量实验表明，FG-CLIP在各种下游任务中均优于原始CLIP和其他最新方法，包括细粒度理解、开放词汇物体检测、图像文本检索和一般多模态基准测试。这些结果突显了FG-CLIP在捕捉细粒度图像细节和提高整体模型性能上的有效性。相关数据、代码和模型可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2505.05071.pdf"
+    },
+    {
+        "名称": "2025 [2505.05469] Generating Physically Stable and Buildable LEGO Designs from Text.pdf",
+        "作者": "Ava Pun, Kangle Deng, Ruixuan Liu, Deva Ramanan, Changliu Liu, Jun-Yan Zhu",
+        "摘要": "摘要: 我们介绍了LegoGPT，这是第一个能够通过文本提示生成物理稳定的乐高积木模型的方法。为实现这一目标，我们构建了一个大规模的物理稳定乐高设计数据集及其相关标题，并训练了一种自回归大规模语言模型，通过预测下一个积木来添加积木。为提高结果设计的稳定性，我们在自回归推理过程中采用了高效的有效性检查和物理感知回滚技术，通过物理定律和组装约束修剪不可行的令牌预测。实验证明LegoGPT可以生成稳定、多样、美观的乐高设计，并与输入的文本提示高度一致。我们还开发了一种基于文本的乐高纹理方法来生成彩色和纹理设计。我们展示了我们的设计可以人工组装，也能由机械臂自动组装。我们还发布了包含超过47,000个乐高结构及详细标题的新数据集StableText2Lego，代码和模型可以通过项目网站获取。\n\n作者: Ava Pun, Kangle Deng, Ruixuan Liu, Deva Ramanan, Changliu Liu, Jun-Yan Zhu\n\n项目页面: this https URL\n\n论文网址: https://arxiv.org/pdf/2505.05469.pdf\n\n标题: 2025 [2505.05469] 根据文本生成物理稳定和可组装的乐高设计",
+        "地址": "https://arxiv.org/pdf/2505.05469.pdf"
+    },
+    {
+        "名称": "2025 [2505.05327] ICon: In-Context Contribution for Automatic Data Selection.pdf",
+        "作者": "Yixin Yang, Qingxiu Dong, Linli Yao, Fangwei Zhu, Zhifang Sui",
+        "摘要": "摘要：为指令微调选择数据对于提高大型语言模型(LLMs)的性能和降低训练成本至关重要。然而，现有的自动选择方法要么依赖计算量大的基于梯度的测量，要么依赖人为设计的启发式方法，这可能无法充分利用数据的内在属性。在本文中，我们提出了一种无梯度的新方法——基于上下文学习的贡献度测量（ICon），该方法利用上下文学习（ICL）的隐式微调特性来测量样本贡献，而无需进行梯度计算或人工指标开发。ICon提供了一种计算效率高的替代方案，减少了基于梯度的方法的计算负担，并减少了启发式方法中的人为归纳偏差。ICon包括三个组件，通过在ICL下评估性能变化来识别高贡献数据。通过在三个LLMs的十二个基准测试和五个成对评估集上的广泛实验，证明了ICon的有效性。值得注意的是，在LLaMA3.1-8B上，基于ICon选择的15%数据进行训练的模型，其表现比使用全部数据的模型提高了5.42个百分点，并且超过了广泛使用的选择方法的最佳表现2.06个百分点。我们进一步分析了ICon所选择的高贡献样本，这些样本显示出任务多样性和适当的难度，而不仅仅是最难的那些。\n\n作者：杨一新, 董清秀, 姚琳丽, 朱方伟, 隋志方\n\n链接：https://arxiv.org/pdf/2505.05327.pdf\n\n标题：2025 [2505.05327] ICon: 基于上下文贡献的自动数据选择",
+        "地址": "https://arxiv.org/pdf/2505.05327.pdf"
+    },
+    {
+        "名称": "2025 [2505.05467] StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant.pdf",
+        "作者": "Haibo Wang, Bo Feng, Zhengfeng Lai, Mingze Xu, Shiyu Li, Weifeng Ge, Afshin Dehghan, Meng Cao, Ping Huang",
+        "摘要": "摘要: 我们提出了StreamBridge，一个简单而有效的框架，可以无缝地将离线的视频大语言模型(LLMs)转变为流媒体模型。它解决了将现有模型适应到在线场景的两个基本挑战：(1)有限的多轮实时理解能力，以及(2)缺乏主动响应机制。具体来说，StreamBridge结合了(1)一个与轮次衰减压缩策略相结合的存储缓冲区，以支持长上下文的多轮交互，以及(2)一个可轻松集成到现有视频-LLMs中的分离式轻量激活模型，使持续的主动响应成为可能。为了进一步支持StreamBridge，我们构建了Stream-IT，一个专门用于流媒体视频理解的大规模数据集，包含交织的视频-文本序列和各种指令格式。大量实验表明，StreamBridge显著提高了离线视频-LLMs在各种任务中的流媒体理解能力，甚至超越了GPT-4o和Gemini 1.5 Pro等专有模型。同时，它在标准视频理解基准测试中也取得了竞争力或优越的表现。\n",
+        "地址": "https://arxiv.org/pdf/2505.05467.pdf"
+    },
+    {
+        "名称": "2025 [2505.03981] X-Reasoner: Towards Generalizable Reasoning Across Modalities and Domains.pdf",
+        "作者": "Qianchu Liu, Sheng Zhang, Guanghui Qin, Timothy Ossowski, Yu Gu, Ying Jin, Sid Kiblawi, Sam Preston, Mu Wei, Paul Vozila, Tristan Naumann, Hoifung Poon",
+        "摘要": "摘要：近期，一些专有模型（如o3）开始展示出强大的多模态推理能力。然而，大多数现有的开源研究主要集中在训练仅限文本的推理模型，其评估范围主要限于数学和通用领域任务。因此，如何有效地将推理能力扩展到超出文本输入和通用领域仍不明确。本文探讨了一个基本的研究问题：推理能力是否可以跨模态和领域进行泛化？我们的研究结果支持肯定的答案：基于通用领域文本的后训练可以实现这种强大的泛化推理。利用这一发现，我们引入了X-Reasoner，这是一种仅基于通用领域文本进行后训练的视觉-语言模型，用于广泛推理，采用两阶段方法：初始的监督微调阶段，结合蒸馏的长链思维过程，接着进行强化学习，使用可验证的奖励。实验表明，X-Reasoner成功地将推理能力转移到多模态和域外环境中，在各种通用和医学基准上，超越了现有的最先进模型（图1）。此外，我们发现，通过在特定领域的仅文本数据上继续训练，可以进一步增强X-Reasoner在专门领域的性能。基于此，我们介绍了X-Reasoner-Med，一种医学专用变体，在众多仅文本和多模态医学基准上实现了新的最先进水平。\n\n翻译团队：Qianchu Liu、Sheng Zhang、Guanghui Qin、Timothy Ossowski、Yu Gu、Ying Jin、Sid Kiblawi、Sam Preston、Mu Wei、Paul Vozila、Tristan Naumann、Hoifung Poon\n\n论文链接：https://arxiv.org/pdf/2505.03981.pdf\n\n标题：2025 [2505.03981] X-Reasoner：面向跨模态和领域的通用推理。",
+        "地址": "https://arxiv.org/pdf/2505.03981.pdf"
+    },
+    {
+        "名称": "2025 [2505.03422] LiftFeat: 3D Geometry-Aware Local Feature Matching.pdf",
+        "作者": "Yepeng Liu, Wenpeng Lai, Zhou Zhao, Yuxuan Xiong, Jinchi Zhu, Jun Cheng, Yongchao Xu",
+        "摘要": "摘要：鲁棒且高效的局部特征匹配在SLAM和机器人视觉定位等应用中起着至关重要的作用。尽管取得了重大进展，但在光照变化剧烈、纹理较少或图案重复的场景中，提取鲁棒且有辨别力的视觉特征仍然非常具有挑战性。本文提出了一种新的轻量级网络，称为LiftFeat，通过聚合3D几何特征来提升原始描述符的鲁棒性。具体来说，我们首先采用一个预训练的单目深度估计模型生成伪表面法线标签，监督3D几何特征在预测的表面法线方面的提取。然后，我们设计了一个3D几何感知特征提升模块，将表面法线特征与原始二维描述符特征融合。在极端条件下，集成这样的3D几何特征增强了二维特征描述的辨别能力。在相对姿态估计、单应性估计和视觉定位任务上的大量实验结果表明，我们的LiftFeat优于一些轻量级的最新方法。代码将在以下网址发布：this https URL。\n\n作者：Yepeng Liu, Wenpeng Lai, Zhou Zhao, Yuxuan Xiong, Jinchi Zhu, Jun Cheng, Yongchao Xu\n\n备注：已被ICRA 2025接受\n\n链接：https://arxiv.org/pdf/2505.03422.pdf\n\n标题：LiftFeat: 3D Geometry-Aware Local Feature Matching",
+        "地址": "https://arxiv.org/pdf/2505.03422.pdf"
+    },
+    {
+        "名称": "2025 [2505.05408] Crosslingual Reasoning through Test-Time Scaling.pdf",
+        "作者": "Zheng-Xin Yong, M. Farid Adilazuarda, Jonibek Mansurov, Ruochen Zhang, Niklas Muennighoff, Carsten Eickhoff, Genta Indra Winata, Julia Kreutzer, Stephen H. Bach, Alham Fikri Aji",
+        "摘要": "摘要：\n\n大型语言模型的推理能力主要针对英语进行了研究，即使预训练模型是多语言的。本文研究了使用长的思维链（CoTs）进行英语推理微调在多大程度上能跨语言推广。首先，我们发现增加英语推理语言模型（RLM）的推理计算能力可以提高多语言数学推理能力，包括低资源语言，表现超过了规模是其两倍的模型。其次，我们发现尽管以英语为中心的RLM的CoTs自然主要是英语，但它们在处理引用的非英语输入时会一致地遵循“引用和思考”模式。第三，我们发现了一种有效的策略来控制长CoT推理的语言，并观察到模型在高资源语言中进行推理时表现更好且更高效。最后，我们观察到领域外推理泛化性能较差，特别是从STEM到文化常识知识的推理，即使是英语也是如此。总体而言，我们展示了跨语言英语推理测试时扩展的潜力，研究了其机制并概述了其局限性。我们得出结论，实践者应让以英语为中心的RLM在高资源语言中进行推理，同时需要进一步研究以改善低资源语言和领域外上下文中的推理能力。\n\n链接：https://arxiv.org/pdf/2505.05408.pdf",
+        "地址": "https://arxiv.org/pdf/2505.05408.pdf"
+    },
+    {
+        "名称": "2025 [2505.05288] PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes.pdf",
+        "作者": "Ahmed Abdelreheem, Filippo Aleotti, Jamie Watson, Zawar Qureshi, Abdelrahman Eldesokey, Peter Wonka, Gabriel Brostow, Sara Vicente, Guillermo Garcia-Hernando",
+        "摘要": "摘要：我们介绍了一项新任务——在真实3D场景中进行语言引导的对象放置。我们的模型由一个3D场景的点云、一个3D资产和一个大致描述3D资产应该放置位置的文本提示组成。此任务旨在找到一个有效的3D资产放置位置，并遵循提示要求。与3D场景中的其他语言引导定位任务（如基础建设）相比，这个任务具有特定挑战：它是模糊的，因为有多个有效的解决方案，并且它需要推理3D几何关系和空闲空间。我们通过提出一个新的基准和评估协议来开创这个任务。我们还引入了一个新的数据集用于在这个任务上训练3D语言模型，并提出了第一个非平凡的基线方法。我们相信这个具有挑战性的任务和我们的新基准可以成为用于评估和比较通用3D语言模型的一部分基准套件。\n\n作者：Ahmed Abdelreheem, Filippo Aleotti, Jamie Watson, Zawar Qureshi, Abdelrahman Eldesokey, Peter Wonka, Gabriel Brostow, Sara Vicente, Guillermo Garcia-Hernando\n\n评论：技术报告。项目页面：这个https URL\n\n网址：https://arxiv.org/pdf/2505.05288.pdf\n\n标题：2025 [2505.05288] PlaceIt3D：在真实3D场景中的语言引导对象放置",
+        "地址": "https://arxiv.org/pdf/2505.05288.pdf"
+    },
+    {
+        "名称": "2025 [2505.05064] WaterDrum: Watermarking for Data-centric Unlearning Metric.pdf",
+        "作者": "Xinyang Lu, Xinyuan Niu, Gregory Kang Ruey Lau, Bui Thi Cam Nhung, Rachael Hwee Ling Sim, Fanyu Wen, Chuan-Sheng Foo, See-Kiong Ng, Bryan Kian Hsiang Low",
+        "摘要": "摘要：大语言模型（LLM）的遗忘在真实应用中是至关重要的，因为需要高效地移除一些用户的私密、版权或有害数据的影响。然而，现有的基于模型效用的遗忘指标在实际环境中可能无法准确评估遗忘的程度，例如(a)遗忘集和保留集具有语义相似的内容，(b)从头开始对保留集重新训练模型是不切实际的，和/或(c)模型所有者可以在不直接对LLM执行遗忘操作的情况下改善遗忘指标。本文提出了首个针对LLM的数据驱动遗忘指标，称为WaterDrum，该指标利用了鲁棒的文本水印技术来克服这些限制。我们还引入了新的LLM遗忘基准数据集，这些数据集包含不同程度的相似数据点，并且可以使用WaterDrum来严格评估遗忘算法。我们的代码可在此https URL获得，我们的新基准数据集在此https URL发布。",
+        "地址": "https://arxiv.org/pdf/2505.05064.pdf"
+    },
+    {
+        "名称": "2025 [2505.04842] Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers.pdf",
+        "作者": "Kusha Sareen, Morgane M Moss, Alessandro Sordoni, Rishabh Agarwal, Arian Hosseini",
+        "摘要": "摘要：现有的用于微调大型语言模型（LLM）推理者的强化学习方法，例如GRPO或离散PPO，放弃了已学习的价值函数，转而使用经验估算的回报。这妨碍了依赖价值函数进行验证的测试时间计算扩展。在这项工作中，我们提出了RL$^V$，它通过联合训练LLM作为推理者和生成验证器使用RL生成的数据，增强任何“无价值”RL方法，增加验证能力而不会带来显著的开销。实验证实，RL$^V$通过并行采样将数学准确性提升超过20%，并使测试时间计算扩展效率增加8-32倍，相比于基础RL方法。RL$^V$还表现出强大的泛化能力，适用于从简单到复杂以及领域外任务的泛化。此外，RL$^V$在联合扩展并行和顺序测试时间计算时，与长推理R1模型相比，性能提升1.2-1.6倍。\n\n作者：Kusha Sareen, Morgane M Moss, Alessandro Sordoni, Rishabh Agarwal, Arian Hosseini\n\n链接：https://arxiv.org/pdf/2505.04842.pdf\n\n标题: 2025 [2505.04842] 回归RL的价值：通过统一LLM推理者与验证器获得更好的测试时间扩展",
+        "地址": "https://arxiv.org/pdf/2505.04842.pdf"
+    },
+    {
+        "名称": "2025 [2504.19314] BrowseComp-ZH: Benchmarking Web Browsing Ability of Large Language Models in Chinese.pdf",
+        "作者": "Peilin Zhou, Bruce Leon, Xiang Ying, Can Zhang, Yifan Shao, Qichen Ye, Dading Chong, Zhiling Jin, Chenxuan Xie, Meng Cao, Yuxin Gu, Sixin Hong, Jing Ren, Jian Chen, Chao Liu, Yining Hua",
+        "摘要": "2025年，随着大型语言模型（LLMs）逐渐成为使用工具的代理，实时浏览网络的能力已经成为衡量其推理和搜索能力的关键标准。现有的浏览基准，如BrowseComp，主要关注英语，并且忽视了其他主要信息生态系统（尤其是中文）所面临的语言、基础设施和审查相关的复杂性。为了解决这一问题，我们推出了BrowseComp-ZH，这是一款高难度基准，专门用于全面评估LLM代理在中文网络上的表现。BrowseComp-ZH由跨越11个不同领域的289个多跳问题组成。每个问题都是从一个简短、客观和易于验证的答案（例如日期、数字或专有名词）反向设计的。我们应用了两阶段的质量控制协议，以确保问题的高难度和答案的独特性。我们在提出的BrowseComp-ZH上对20多个最先进的语言模型和代理搜索系统进行了基准测试。尽管它们具有强大的对话和检索能力，但大多数模型仍然表现不佳：许多模型的准确率低于10%，只有少数超过20%。即使是表现最好的系统，OpenAI的DeepResearch，也仅达到42.9%。这些结果表明BrowseComp-ZH的巨大挑战性，在这里，成功不仅需要有效的检索策略，还需要复杂的推理和信息整合能力——这是当前模型仍然难以掌握的能力。我们的数据集、构建指南和基准测试结果可以在以下链接公开获取：https URL.",
+        "地址": "https://arxiv.org/pdf/2504.19314.pdf"
+    },
+    {
+        "名称": "2025 [2505.04769] Vision-Language-Action Models: Concepts, Progress, Applications and Challenges.pdf",
+        "作者": "Ranjan Sapkota, Yang Cao, Konstantinos I. Roumeliotis, Manoj Karkee",
+        "摘要": "摘要:\n视觉-语言-行动（VLA）模型标志着人工智能领域的变革性进步，旨在将感知、自然语言理解和体现的行动统一到单一计算框架中。这篇基础性综述全面综述了视觉-语言-行动模型的最新进展，系统地组织在五个构建这个快速发展的领域的主题支柱下。我们首先确立了VLA系统的概念基础，追溯其从跨模式学习架构到紧密集成视觉-语言模型（VLMs）、行动规划器和分层控制器的一般化代理的演变。我们的方法采用了严格的文献综述框架，涵盖了过去三年中发表的80多种VLA模型。关键进展领域包括架构创新、参数高效的训练策略和实时推理加速。我们探讨了不同的应用领域，如人形机器人、自动驾驶汽车、医疗和工业机器人、精准农业和增强现实导航。综述还讨论了在实时控制、多模式行动表示、系统可扩展性、未见任务的泛化和伦理部署风险等主要挑战。我们提出了包括代理AI适应、跨体现泛化和统一神经-符号规划在内的针对性解决方案。在前瞻性讨论中，我们勾画出一个未来路线图，其中VLA模型、VLMs和代理AI将融合起来，为社会对齐、自适应和通用体现代理提供动力。这项工作作为推进智能、现实世界机器人技术和通用人工智能的基础参考。\n\n翻译：Ranjan Sapkota, Yang Cao, Konstantinos I. Roumeliotis, Manoj Karkee\n评论: 36页，18个图，4个表。\n网址: https://arxiv.org/pdf/2505.04769.pdf\n标题: 2025 [2505.04769] 视觉-语言-行动模型：概念、进展、应用和挑战.pdf",
+        "地址": "https://arxiv.org/pdf/2505.04769.pdf"
+    },
+    {
+        "名称": "2025 [2505.02363] SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning.pdf",
+        "作者": "Tianjian Li, Daniel Khashabi",
+        "摘要": "摘要：将语言模型与人类偏好对齐依赖于成对偏好数据集。虽然一些研究表明，在偏好学习中，在线策略数据始终优于离线策略数据，但其他研究则显示，在线策略数据的优势可能取决于任务，这突显了系统探索它们相互作用的必要性。在本研究中，我们表明在线策略数据和离线策略数据在偏好优化中提供了互补的优势：在线策略数据在推理任务（如数学和编码）中特别有效，而离线策略数据在开放性任务（如创意写作和个人推荐）中表现更好。基于这些发现，我们介绍了SIMPLEMIX，这种方法通过简单混合这两种数据源来结合在线策略和离线策略偏好学习的互补优势。我们在各种任务和基准测试中的实证结果表明，SIMPLEMIX显著提高了语言模型的对齐程度。具体来说，SIMPLEMIX在Alpaca Eval 2.0上的平均表现比在线策略DPO和离线策略DPO提高了6.03%。此外，它比之前在结合在线策略和离线策略数据方面更复杂的方法（如HyPO和DPO-Mix-P）平均优出3.05%。\n\n作者：Tianjian Li, Daniel Khashabi\n\n评论：将出现在ICML 2025\n\nURL：https://arxiv.org/pdf/2505.02363.pdf\n\n标题：2025 [2505.02363] SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning.pdf",
+        "地址": "https://arxiv.org/pdf/2505.02363.pdf"
+    },
+    {
+        "名称": "2025 [2505.04955] Chain-of-Thought Tokens are Computer Program Variables.pdf",
+        "作者": "Fangwei Zhu, Peiyi Wang, Zhifang Sui",
+        "摘要": "摘要：链式思维（CoT）要求大型语言模型（LLM）在到达最终答案之前生成中间步骤，并且已被证明能够有效地帮助LLM解决复杂的推理任务。然而，CoT的内部机制仍然大多不清楚。在本文中，我们实证研究了LLM中CoT标记在两个组合任务中的作用：多位数乘法和动态规划。虽然CoT对于解决这些问题至关重要，但我们发现，仅保留存储中间结果的标记可以实现相当的性能。此外，我们观察到，以另一种潜在形式存储中间结果不会影响模型性能。我们还随机干预了CoT中的一些值，注意到后续CoT标记和最终答案会相应发生变化。这些发现表明，CoT标记可能像计算机程序中的变量一样工作，但具有潜在的缺点，如意想不到的捷径和标记之间的计算复杂性限制。代码和数据可在这个URL处获得。",
+        "地址": "https://arxiv.org/pdf/2505.04955.pdf"
+    }
+]
