@@ -1,0 +1,50 @@
+[
+    {
+        "名称": "2025 [2505.02550] Bielik v3 Small: Technical Report.pdf",
+        "作者": "Krzysztof Ociepa, Łukasz Flis, Remigiusz Kinas, Krzysztof Wróbel, Adrian Gwoździej",
+        "摘要": "摘要: 我们介绍了Bielik v3，这是一系列针对波兰语言处理优化的参数高效生成文本模型（1.5B和4.5B）。这些模型展示了较小且优化良好的架构可以在性能上与更大的模型相媲美，同时需要显著更少的计算资源。我们的方法结合了几个关键创新点：定制的波兰分词器（APT4），显著提高了分词效率；加权指令交叉熵损失，用于平衡不同指令类型的学习；根据训练进度动态调整的自适应学习率。这些模型基于精心精选的语料库（包含2920亿个标记，遍及3030万份文档）进行训练，在多个基准测试中表现出色，包括Open PL LLM排行榜、复杂波兰文本理解基准测试、波兰EQ-Bench以及波兰医疗排行榜。4.5B参数模型取得了与其大小2-3倍的模型相竞争的结果，而1.5B模型尽管体积极小，但仍表现出色。这些进展为参数高效语言建模在较少被代表的语言中设立了新的基准，使资源受限的应用能够更容易获得高质量的波兰语言AI。",
+        "地址": "https://arxiv.org/pdf/2505.02550.pdf"
+    },
+    {
+        "名称": "2025 [2505.02410] Bielik 11B v2 Technical Report.pdf",
+        "作者": "Krzysztof Ociepa, Łukasz Flis, Krzysztof Wróbel, Adrian Gwoździej, Remigiusz Kinas",
+        "摘要": "摘要：我们介绍了Bielik 11B v2，一种为波兰语文本处理优化的最先进语言模型。该模型基于Mistral 7B v0.2架构，并通过深度扩展扩大到11B参数，展示了在波兰语基准测试中卓越的性能，同时保持了强大的跨语言能力。我们引入了两个关键技术创新：加权指令交叉熵损失，通过为训练实例分配基于质量的权重来优化不同指令类型的学习，和自适应学习率，基于上下文长度动态调整。跨多个基准的综合评估表明，Bielik 11B v2在许多任务上超过了包括参数多2-6倍的大型模型，并且在从语言理解到复杂推理的任务上显著超越了其他专门的波兰语语言模型。该模型的参数效率和广泛的量化选项使其能够在各种硬件配置中部署，推进了波兰语人工智能能力，并为资源高效的次代表语言建模设立了新的基准。",
+        "地址": "https://arxiv.org/pdf/2505.02410.pdf"
+    },
+    {
+        "名称": "2025 [2505.06111] UniVLA: Learning to Act Anywhere with Task-centric Latent Actions.pdf",
+        "作者": "Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao, Guanghui Ren, Maoqing Yao, Ping Luo, Hongyang Li",
+        "摘要": "以下是根据提供材料提取的摘要并翻译成中文：\n\n摘要：通用机器人在各种环境中应该表现出色。然而，大多数现有的方法严重依赖于扩展带动作注释的数据来增强其能力。因此，它们通常受限于单一的物理规范，难以跨不同的化身和环境学习可迁移的知识。为了应对这些限制，我们提出了UniVLA，一种新的用于学习跨化身视觉-语言-动作（VLA）策略的框架。我们的主要创新是从视频中通过潜在动作模型导出以任务为中心的动作表示。这使我们能够利用跨越广泛化身和视角的大量数据。为了减轻与任务无关的动态的影响，我们纳入了语言指令，并在DINO特征空间中建立了潜在动作模型。从互联网上规模的视频中学习，通用策略可以通过高效的潜在动作解码部署到各种机器人上。我们在多个操作和导航基准测试以及真实机器人部署中获得了最先进的结果。UniVLA在预训练计算不到1/20和下游数据不超过1/10的情况下，取得了优于OpenVLA的性能。在包含人类视频在内的异构数据被纳入训练流程后，持续观察到性能提升。这些结果突显了UniVLA在促进可扩展和高效的机器人策略学习方面的潜力。\n\n作者：Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao, Guanghui Ren, Maoqing Yao, Ping Luo, Hongyang Li\n\n评论：已被RSS 2025接受。代码可在此HTTPS URL获得\n\n链接：https://arxiv.org/pdf/2505.06111.pdf\n\n标题：UniVLA：通过以任务为中心的潜在行动在任何地方行动学习",
+        "地址": "https://arxiv.org/pdf/2505.06111.pdf"
+    },
+    {
+        "名称": "2025 [2505.05026] G-FOCUS: Towards a Robust Method for Assessing UI Design Persuasiveness.pdf",
+        "作者": "Jaehyun Jeon, Jang Han Yoon, Min Soo Kim, Sumin Shim, Yejin Choi, Hanbin Kim, Youngjae Yu",
+        "摘要": "摘要：UI设计效果的评估不仅限于美学方面，还包括对用户行为的影响，这是设计说服力的核心原则。A/B测试是确定哪种UI变化能驱动更高用户参与度的主要方法，但它成本高且耗时。虽然近年来的视觉语言模型（VLMs）能够进行自动化UI分析，但当前的方法集中于孤立的设计属性，而不是比较说服力—优化用户交互的关键因素。为了解决这一问题，我们介绍了WiserUI-Bench，这是一个针对配对UI设计说服力评估任务的基准，包含300对真实UI图像，并附有A/B测试结果和专家推理。此外，我们提出了G-FOCUS，这是一种新颖的推理策略，通过减少位置偏见和提高评估准确性来增强基于VLM的说服力评估。实验结果表明，在配对UI评估的一致性和准确性方面，G-FOCUS优于现有的推理策略。通过促进VLM驱动的UI说服力评估，我们的工作提供了一种补充A/B测试的方法，推动了可扩展UI偏好建模和设计优化的进展。代码和数据将公开发布。",
+        "地址": "https://arxiv.org/pdf/2505.05026.pdf"
+    },
+    {
+        "名称": "2025 [2505.02686] Sailing AI by the Stars: A Survey of Learning from Rewards in Post-Training and Test-Time Scaling of Large Language Models.pdf",
+        "作者": "Xiaobao Wu",
+        "摘要": "摘要：最近，大型语言模型（LLMs）的发展已从预训练扩展转向后训练和测试时间扩展。在这些发展中，一个关键的统一范式已经出现：从奖励中学习，其中奖励信号作为指导星，引导LLM的行为。它支持了一系列流行的技术，如在RLHF、DPO和GRPO中的强化学习、奖励引导的解码和事后校正。重要的是，这种范式实现了从静态数据的被动学习到动态反馈的主动学习的转变。这赋予了LLM对齐的偏好和深度推理能力。在这篇综述中，我们全面概述了从奖励中学习的范式。我们在训练、推理和推理后阶段对该范式下的策略进行了分类和分析。我们进一步讨论了奖励模型的基准和主要应用。最后，我们强调了挑战和未来方向。我们在此URL上维护了一篇论文集。\n\n网址：https://arxiv.org/pdf/2505.02686.pdf",
+        "地址": "https://arxiv.org/pdf/2505.02686.pdf"
+    },
+    {
+        "名称": "2025 [2505.06046] Healthy LLMs? Benchmarking LLM Knowledge of UK Government Public Health Information.pdf",
+        "作者": "Joshua Harris, Fan Grayson, Felix Feldman, Timothy Laurence, Toby Nonnenmacher, Oliver Higgins, Leo Loman, Selina Patel, Thomas Finnie, Samuel Collins, Michael Borowitz",
+        "摘要": "摘要：随着大型语言模型（LLMs）变得广泛可用，详细了解它们在特定领域内的知识对于现实世界的成功应用变得必要。这在公共卫生领域尤为重要，因为未能检索到相关、准确和最新的信息可能对英国居民产生重大影响。然而，目前对于LLM在了解英国政府公共卫生信息方面知之甚少。为了解决这个问题，本文介绍了一个新的基准测试PubHealthBench，该基准包含超过8000个多项选择问题和自由形式回答的公共卫生查询问题，用于评估LLM。这些问题是通过自动化流程创建的。我们还发布了一组从中提取的作为PubHealthBench源文本的英国政府公共卫生指导文件。在对24种LLM进行评估后，我们发现最新的私有LLM（GPT-4.5、GPT-4.1和o1）在多项选择问题设定中具有高度的知识，达到了>90%的正确率，并在使用搜索引擎的情况下表现优于人类。然而，在自由形式设定中，我们看到模型的表现较低，没有任何模型得分超过75%。因此，尽管现有最先进的LLM有望成为越来越准确的公共卫生信息来源，但在提供公共卫生主题的自由形式回答时，可能仍然需要额外的保障措施或工具。",
+        "地址": "https://arxiv.org/pdf/2505.06046.pdf"
+    },
+    {
+        "名称": "2025 [2505.05621] A Preliminary Study for GPT-4o on Image Restoration.pdf",
+        "作者": "Hao Yang, Yan Yang, Ruikun Zhang, Liyuan Pan",
+        "摘要": "摘要：OpenAI的GPT-4o模型在其自回归架构中整合了多模态输入和输出，在图像生成方面表现出前所未有的性能。在这项工作中，我们研究了其对图像修复领域的潜在影响。我们首次对不同修复任务中的GPT-4o进行系统评估。实验表明，尽管GPT-4o的修复输出在视觉上令人满意，但与真实图像相比，它们常在像素级结构保真度上存在问题。常见问题包括图像比例变化、对象位置和数量的偏移，以及URL地址的变更。通过对去雾、去雨和低光增强作为代表性案例研究，我们展示了GPT-4o的输出可以作为强大的视觉先验，大大提高现有去雾网络的性能。本文提供了实用指南和基本框架，促进GPT-4o在未来图像修复流程中的整合。我们希望对GPT-4o图像修复的研究能加速图像生成领域的创新。为支持进一步研究，我们将发布包括10多个广泛使用的图像修复数据集的GPT-4o修复图片。",
+        "地址": "https://arxiv.org/pdf/2505.05621.pdf"
+    },
+    {
+        "名称": "2025 [2504.21467] Multiview Point Cloud Registration via Optimization in an Autoencoder Latent Space.pdf",
+        "作者": "Luc Vedrenne, Sylvain Faisan, Denis Fortun",
+        "摘要": "摘要: 点云刚性配准是3D计算机视觉中的一个基本问题。在多视角情况下，我们旨在找到一组6D位姿来对齐一组对象。基于配对配准的方法依赖于随后的同步算法，这使得它们在视图数量上具有较差的可扩展性。生成方法克服了这一限制，但基于高斯混合模型并使用期望最大化算法。因此，它们不适合处理大变换。此外，大多数现有方法无法处理高水平的退化。在本文中，我们介绍了POLAR（POint cloud LAtent Registration），这是一种多视图配准方法，能够有效处理大量视图，同时对高水平退化和大初始角度具有鲁棒性。为实现这一目标，我们将配准问题转移到预训练自动编码器的潜在空间，设计了一个考虑退化的损失函数，并开发了高效的多起点优化策略。我们提出的方法在合成和真实数据上显著优于现有的最新方法。POLAR可在此URL获取，也可以作为独立包安装，命令为pip install polaregistration。",
+        "地址": "https://arxiv.org/pdf/2504.21467.pdf"
+    }
+]
