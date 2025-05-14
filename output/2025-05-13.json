@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2505.07062] Seed1.5-VL Technical Report.pdf",
+        "作者": "Dong Guo, Faming Wu, Feida Zhu, Fuxing Leng, Guang Shi, Haobin Chen, Haoqi Fan, Jian Wang, Jianyu Jiang, Jiawei Wang, Jingji Chen, Jingjia Huang, Kang Lei, Liping Yuan, Lishu Luo, Pengfei Liu, Qinghao Ye, Rui Qian, Shen Yan, Shixiong Zhao, Shuai Peng, Shuangye Li, Sihang Yuan, Sijin Wu, Tianheng Cheng, Weiwei Liu, Wenqian Wang, Xianhan Zeng, Xiao Liu, Xiaobo Qin, Xiaohan Ding, Xiaojun Xiao, Xiaoying Zhang, Xuanwei Zhang, Xuehan Xiong, Yanghua Peng, Yangrui Chen, Yanwei Li, Yanxu Hu, Yi Lin, Yiyuan Hu, Yiyuan Zhang, Youbin Wu, Yu Li, Yudong Liu, Yue Ling, Yujia Qin, Zanbo Wang, Zhiwu He, Aoxue Zhang, Bairen Yi, Bencheng Liao, Can Huang, Can Zhang, Chaorui Deng, Chaoyi Deng, Cheng Lin, Cheng Yuan, Chenggang Li, Chenhui Gou, Chenwei Lou, Chengzhi Wei, Chundian Liu, Chunyuan Li, Deyao Zhu, Donghong Zhong, Feng Li, Feng Zhang, Gang Wu, Guodong Li, Guohong Xiao, Haibin Lin, Haihua Yang, Haoming Wang, Heng Ji, Hongxiang Hao, Hui Shen, Huixia Li, Jiahao Li, Jialong Wu, Jianhua Zhu, Jianpeng Jiao, Jiashi Feng, Jiaze Chen, Jianhui Duan, Jihao Liu, Jin Zeng, Jingqun Tang, Jingyu Sun, Joya Chen, Jun Long, Junda Feng, Junfeng Zhan, Junjie Fang, Junting Lu, Kai Hua, Kai Liu, Kai Shen, Kaiyuan Zhang, Ke Shen\n\n\n        , Ke Wang, Keyu Pan, Kun Zhang, Kunchang Li, Lanxin Li, Lei Li, Lei Shi, Li Han, Liang Xiang, Liangqiang Chen, Lin Chen, Lin Li, Lin Yan, Liying Chi, Longxiang Liu, Mengfei Du, Mingxuan Wang, Ningxin Pan, Peibin Chen, Pengfei Chen, Pengfei Wu, Qingqing Yuan, Qingyao Shuai, Qiuyan Tao, Renjie Zheng, Renrui Zhang, Ru Zhang, Rui Wang, Rui Yang, Rui Zhao, Shaoqiang Xu, Shihao Liang, Shipeng Yan, Shu Zhong, Shuaishuai Cao, Shuangzhi Wu, Shufan Liu, Shuhan Chang, Songhua Cai, Tenglong Ao, Tianhao Yang, Tingting Zhang, Wanjun Zhong, Wei Jia, Wei Weng, Weihao Yu, Wenhao Huang, Wenjia Zhu, Wenli Yang, Wenzhi Wang, Xiang Long, XiangRui Yin, Xiao Li, Xiaolei Zhu, Xiaoying Jia, Xijin Zhang, Xin Liu, Xinchen Zhang, Xinyu Yang, Xiongcai Luo, Xiuli Chen, Xuantong Zhong, Xuefeng Xiao, Xujing Li, Yan Wu, Yawei Wen, Yifan Du, Yihao Zhang, Yining Ye, Yonghui Wu, Yu Liu, Yu Yue, Yufeng Zhou, Yufeng Yuan, Yuhang Xu, Yuhong Yang, Yun Zhang, Yunhao Fang, Yuntao Li, Yurui Ren, Yuwen Xiong, Zehua Hong, Zehua Wang, Zewei Sun, Zeyu Wang, Zhao Cai, Zhaoyue Zha, Zhecheng An, Zhehui Zhao, Zhengzhuo Xu, Zhipeng Chen, Zhiyong Wu, Zhuofan Zheng, Zihao Wang, Zilong Huang, Ziyu Zhu, Zuquan Song\n\n\n    et al. (97 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要: 我们推出了 Seed1.5-VL，这是一种视觉-语言基础模型，旨在推动通用多模态理解和推理的发展。Seed1.5-VL由一个拥有532M参数的视觉编码器和一个拥有20B活跃参数的专家混合（MoE）大型语言模型（LLM)组成。尽管其架构相对紧凑，但在广泛的公共视觉语言模型（VLM）基准测试和内部评估套件中表现优异，在60个公共基准测试中实现了38项最先进的性能。此外，在代理中心任务（如GUI控制和游戏）中，Seed1.5-VL超越了包括OpenAI CUA和Claude 3.7在内的领先多模态系统。除了视觉和视频理解，它还展示了强大的推理能力，使其在如视觉谜题等多模态推理挑战中表现尤为有效。我们相信这些能力将赋予广泛的任务应用。在本报告中，我们主要全面回顾了在模型设计、数据构建和各阶段训练中构建Seed1.5-VL的经验，希望这份报告能够激发进一步研究。Seed1.5-VL现已可以通过此URL访问（火山引擎模型ID: doubao-1-5-thinking-vision-pro-250428）。",
+        "地址": "https://arxiv.org/pdf/2505.07062.pdf"
+    },
+    {
+        "名称": "2025 [2505.07608] MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining.pdf",
+        "作者": "Xiaomi LLM-Core Team: Bingquan Xia, Bowen Shen, Cici, Dawei Zhu, Di Zhang, Gang Wang, Hailin Zhang, Huaqiu Liu, Jiebao Xiao, Jinhao Dong, Liang Zhao, Peidian Li, Peng Wang, Shihua Yu, Shimao Chen, Weikun Wang, Wenhan Ma, Xiangwei Deng, Yi Huang, Yifan Song, Zihan Jiang, Bowen Ye, Can Cai, Chenhong He, Dong Zhang, Duo Zhang, Guoan Wang, Hao Tian, Haochen Zhao, Heng Qu, Hongshen Xu, Jun Shi, Kainan Bao, QingKai Fang, Kang Zhou, Kangyang Zhou, Lei Li, Menghang Zhu, Nuo Chen, Qiantong Wang, Shaohui Liu, Shicheng Li, Shuhao Gu, Shuhuai Ren, Shuo Liu, Sirui Deng, Weiji Zhuang, Weiwei Lv, Wenyu Yang, Xin Zhang, Xing Yong, Xing Zhang, Xingchen Song, Xinzhe Xu, Xu Wang, Yihan Yan, Yu Tu, Yuanyuan Tian, Yudong Wang, Yue Yu, Zhenru Lin, Zhichao Song, Zihao Yue",
+        "摘要": "摘要: 我们介绍了 MiMo-7B，这是一个为推理任务而生的大型语言模型，在预训练和后训练阶段都进行了优化。在预训练过程中，我们增强了数据预处理流程，并采用了三阶段数据混合策略以增强基础模型的推理潜力。MiMo-7B-Base 在25万亿个标记上进行了预训练，通过额外的多标记预测目标提高了性能和加快了推理速度。在后训练阶段，我们针对130K个可验证的数学和编程问题策划了一个数据集，通过整合测试难度驱动的代码奖励方案来缓解稀疏奖励问题，并采用战略数据重采样来稳定训练。广泛的评估显示，MiMo-7B-Base 具有卓越的推理潜力，甚至超过了许多更大的32B模型。最终的RL调整模型 MiMo-7B-RL 在数学、代码和一般推理任务中达到了优异的性能，超过了OpenAI的o1-mini模型。模型检查点可在此链接获取：https://arxiv.org/pdf/2505.07608.pdf。",
+        "地址": "https://arxiv.org/pdf/2505.07608.pdf"
+    },
+    {
+        "名称": "2025 [2505.07747] Step1X-3D: Towards High-Fidelity and Controllable Generation of Textured 3D Assets.pdf",
+        "作者": "Weiyu Li, Xuanyang Zhang, Zheng Sun, Di Qi, Hao Li, Wei Cheng, Weiwei Cai, Shihao Wu, Jiarui Liu, Zihao Wang, Xiao Chen, Feipeng Tian, Jianxiong Pan, Zeming Li, Gang Yu, Xiangyu Zhang, Daxin Jiang, Ping Tan",
+        "摘要": "摘要：尽管生成式人工智能在文本、图像、音频和视频领域取得了显著进展，3D生成仍然相对不发达，原因在于数据稀缺、算法限制和生态系统碎片化等基本挑战。为此，我们提出了Step1X-3D，这是一个开放框架，通过以下方式解决这些挑战：（1）严格的数据整理管道，处理超过500万个资产，创建了具有标准几何和纹理属性的200万个高质量数据集；（2）结合混合VAE-DiT几何生成器和基于扩散的纹理合成模块的双阶段3D原生架构；（3）全面开源发布模型、训练代码和适配模块。对于几何生成，混合VAE-DiT组件通过采用基于感知器的潜在编码和锐边采样来生成TSDF表示，以保留细节。扩散基纹理合成模块则通过几何条件和潜在空间同步确保跨视图一致性。基准测试结果显示出超过现有开源方法的最先进性能，同时实现了与专有解决方案中竞争的质量。值得注意的是，该框架独特地支持将2D控制技术（例如LoRA）直接转移到3D合成，通过同时提高数据质量、算法保真度和可重复性，Step1X-3D旨在建立可控3D资产生成开放研究的新标准。",
+        "地址": "https://arxiv.org/pdf/2505.07747.pdf"
+    },
+    {
+        "名称": "2025 [2505.07787] Learning from Peers in Reasoning Models.pdf",
+        "作者": "Tongxu Luo, Wenyu Du, Jiaxi Bi, Stephen Chung, Zhengyang Tang, Hao Yang, Min Zhang, Benyou Wang",
+        "摘要": "摘要：大型推理模型（LRMs）即使在推理路径中犯错也有自我纠正的能力。然而，我们的研究表明，当推理过程以短小但糟糕的开头开始时，模型很难恢复。我们将这种现象称为“前缀主导陷阱”。受心理学研究启发，即同伴互动可以促进自我纠正，而不对已经准确的个体产生负面影响，我们提出了**同伴学习**（LeaP）来解决这一现象。具体来说，每个推理路径总结其中间推理并通过路由机制与其他路径共享，从而在推理过程中引入同伴的见解。然而，我们观察到较小的模型有时无法有效地遵循总结和反思的指令。为了解决这一问题，我们将这些模型微调为我们的**LeaP-T**模型系列。在AIME 2024、AIME 2025、AIMO 2025和GPQA Diamond上的实验表明，LeaP 提供了显著的改进。例如，LeaP 的QwQ-32B平均得分比基准高出近5个绝对点，并在三个数学基准上平均高出DeepSeek-R1-671B 3.3个点。值得注意的是，我们微调的LeaP-T-7B在AIME 2024上的表现与DeepSeek-R1-Distill-Qwen-14B相当。深入分析表明，LeaP通过及时的同伴见解具有强大的错误纠正能力，表现出强大的误差容忍度并能处理不同难度的任务。LeaP通过在推理过程中实现LRMs的协作，标志着一个里程碑。我们的代码、数据集和模型可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2505.07787.pdf"
+    },
+    {
+        "名称": "2025 [2505.07447] Unified Continuous Generative Models.pdf",
+        "作者": "Peng Sun, Yi Jiang, Tao Lin",
+        "摘要": "摘要：\n近年来，连续生成模型取得了显著进展，包括像扩散和流匹配这样的多步方法（通常需要8-1000采样步骤）以及一致性模型等少步方法（通常需要1-8步）。然而，现有的研究通常将这些方法视为不同的范式，导致训练和采样方法的分离。我们引入了一个统一框架来训练、采样和分析这些模型。我们的实现，统一连续生成模型训练器和采样器（UCGM-{T,S}），达到了最先进的性能。例如，在使用675M扩散变压器的ImageNet 256x256上，UCGM-T训练一个多步模型在20步中达到1.30 FID，而一个少步模型在仅仅2步中达到1.42 FID。此外，将UCGM-S应用于一个预训练模型（之前在250步中达到1.26 FID）可以在仅40步中将性能提高到1.06 FID。代码可以在此网址获得：this https URL。",
+        "地址": "https://arxiv.org/pdf/2505.07447.pdf"
+    },
+    {
+        "名称": "2025 [2505.06548] REFINE-AF: A Task-Agnostic Framework to Align Language Models via Self-Generated Instructions using Reinforcement Learning from Automated Feedback.pdf",
+        "作者": "Aniruddha Roy, Pretam Ray, Abhilash Nandy, Somak Aditya, Pawan Goyal",
+        "摘要": "摘要：基于指令的大型语言模型（LLMs）已在众多少样本或零样本自然语言处理（NLP）任务中证明了其有效性。然而，创建人工标注的指令数据既耗时又昂贵，而且数据的数量和任务多样性通常有限。以往的研究尝试提出能够从模型本身半自动且与任务无关地生成指令的框架，以应对这一挑战。许多研究依赖于诸如GPT-3.5（175B）这样的基于大规模API的模型，这类模型不仅昂贵，而且查询次数有限。本文探讨了使用半自动化框架的三种开源小型LLMs的性能，包括LLaMA 2-7B、LLama 2-13B和Mistral 7B，从而减少了生成指令数据集以微调LLMs所需的人力干预、努力和成本。此外，我们证明了将基于强化学习（RL）的训练算法引入该LLMs框架可以进一步提升效果。我们对数据集的评估表明，与之前的方法相比，这些基于RL的框架在63-66%的任务中实现了显著提升。\n\n作者：Aniruddha Roy, Pretam Ray, Abhilash Nandy, Somak Aditya, Pawan Goyal\n\n注释：11页\n\n链接：https://arxiv.org/pdf/2505.06548.pdf\n\n标题：2025 [2505.06548] REFINE-AF: 一种使用从自动反馈自生成指令的强化学习对齐语言模型的任务无关框架",
+        "地址": "https://arxiv.org/pdf/2505.06548.pdf"
+    },
+    {
+        "名称": "2025 [2505.07818] DanceGRPO: Unleashing GRPO on Visual Generation.pdf",
+        "作者": "Zeyue Xue, Jie Wu, Yu Gao, Fangyuan Kong, Lingting Zhu, Mengzhao Chen, Zhiheng Liu, Wei Liu, Qiushan Guo, Weilin Huang, Ping Luo",
+        "摘要": "摘要：近期在生成模型（特别是扩散模型和校正流模型）方面的突破革新了视觉内容的创作，然而使模型输出与人类偏好对齐仍是一项关键挑战。现有基于强化学习（RL）的视觉生成方法面临重要的局限性：与现代常微分方程（ODEs）采样范式不兼容、大规模训练中的不稳定性以及视频生成的验证缺失。本文介绍了DanceGRPO，这是第一个将群体相对政策优化（GRPO）适配于视觉生成范式的统一框架，允许在两个生成范式（扩散模型和校正流）、三项任务（文本到图像、文本到视频、图像到视频）、四个基础模型（稳定扩散、HunyuanVideo、FLUX、SkyReel-I2V）和五个奖励模型（图像/视频美学、文本图像对齐、视频运动质量和二进制奖励）中使用统一的RL算法。据我们所知，DanceGRPO是第一个能够在多种生成范式、任务、基础模型和奖励模型中无缝适应的基于强化学习的统一框架。DanceGRPO展示出一致且显著的改进，基准测试如HPS-v2.1、CLIP Score、VideoAlign和GenEval中的性能最高提升了181%。值得注意的是，DanceGRPO不仅能够稳定复杂视频生成中的政策优化，还能使生成性政策更好地捕捉去噪轨迹以缩放最佳N次推理，并从稀疏的二进制反馈中学习。我们的结果确立了DanceGRPO作为横跨人类反馈强化学习（RLHF）任务的一个稳健且多功能的解决方案，并提供了协调强化学习与视觉合成的新见解。代码将发布。\n\n作者：薛泽越，吴杰，高玉，孔芳远，朱灵婷，陈梦钊，刘志恒，刘伟，郭秋杉，黄卫林，罗平\n\n评论：项目页面：该https URL\n\n网址：https://arxiv.org/pdf/2505.07818.pdf\n\n标题：[2505.07818] DanceGRPO: 在视觉生成中释放GRPO.pdf",
+        "地址": "https://arxiv.org/pdf/2505.07818.pdf"
+    },
+    {
+        "名称": "2025 [2505.07293] AttentionInfluence: Adopting Attention Head Influence for Weak-to-Strong Pretraining Data Selection.pdf",
+        "作者": "Kai Hua, Steven Wu, Ge Zhang, Ke Shen",
+        "摘要": "摘要：近年来，为了提升大规模语言模型（LLM）的复杂推理能力，收集与推理密切相关的预训练数据越来越受到关注。现有方法通常依赖监督分类器来识别这些数据，需由人类或LLM进行标注，往往引入领域特定的偏见。鉴于注意力头对于上下文推理至关重要，我们提出AttentionInfluence，一种无需监督信号的简单高效的训练自由方法。我们的方法通过简单的注意力头屏蔽操作，使一个小型预训练语言模型能够成为强大的数据选择器。具体而言，我们识别出检索头，并计算屏蔽这些头时的损失差异。我们将AttentionInfluence应用到一个拥有1.3B参数的稠密模型上，对包含241B标记的SmolLM语料库进行数据选择，并将SmolLM语料库与所选的子集（包括73B标记）混合，使用1T训练标记和WSD学习率调度预训练一个拥有7B参数的稠密模型。我们的实验结果显示，在多个知识密集和推理重度的基准测试（即MMLU、MMLU-Pro、AGIEval-en、GSM8K和HumanEval）中取得了显著的改进，范围从1.4pp到3.5pp不等。这展示了有效的弱到强的缩放特性，小模型提升了大模型的最终性能，提供了一条令人期待且可扩展的推理中心数据选择路径。",
+        "地址": "https://arxiv.org/pdf/2505.07293.pdf"
+    },
+    {
+        "名称": "2025 [2505.07263] Skywork-VL Reward: An Effective Reward Model for Multimodal Understanding and Reasoning.pdf",
+        "作者": "Xiaokun Wang, Chris, Jiangbo Pei, Wei Shen, Yi Peng, Yunzhuo Hao, Weijie Qiu, Ai Jian, Tianyidan Xie, Xuchen Song, Yang Liu, Yahui Zhou",
+        "摘要": "摘要：我们提出了Skywork-VL Reward，这是一种多模态奖励模型，能够为多模态理解和推理任务提供奖励信号。我们的技术方法包括两个关键组成部分：首先，我们构建了一个大规模的多模态偏好数据集，涵盖了广泛的任务和场景，从标准视觉语言模型（VLMs）和先进的VLM推理器中收集响应。其次，我们设计了一种基于Qwen2.5-VL-7B-Instruct的奖励模型架构，集成了一个奖励头，并在成对偏好数据上应用成对排序损失进行多阶段微调。实验评估表明，Skywork-VL Reward在多模态VL-RewardBench上达到了最先进的结果，并在纯文本RewardBench基准上表现出竞争力。此外，基于我们的Skywork-VL Reward构建的偏好数据对于训练混合偏好优化（MPO）非常有效，从而显著提升了多模态推理能力。我们的结果强调了Skywork-VL Reward作为多用途、可靠的多模态对齐奖励模型的重要进展。我们的模型已公开发布，以促进透明度和可重复性。\n\n作者：Xiaokun Wang, Chris, Jiangbo Pei, Wei Shen, Yi Peng, Yunzhuo Hao, Weijie Qiu, Ai Jian, Tianyidan Xie, Xuchen Song, Yang Liu, Yahui Zhou\n\n链接：https://arxiv.org/pdf/2505.07263.pdf\n\n标题：Skywork-VL Reward: An Effective Reward Model for Multimodal Understanding and Reasoning",
+        "地址": "https://arxiv.org/pdf/2505.07263.pdf"
+    },
+    {
+        "名称": "2025 [2505.03733] WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch.pdf",
+        "作者": "Zimu Lu, Yunqiao Yang, Houxing Ren, Haotian Hou, Han Xiao, Ke Wang, Weikang Shi, Aojun Zhou, Mingjie Zhan, Hongsheng Li",
+        "摘要": "摘要: 基于大语言模型（LLM）的代理在生成和管理复杂代码库方面展示了巨大潜力。在本文中，我们介绍了WebGen-Bench，这是一个新颖的基准，旨在衡量基于LLM的代理从头创建多文件网站代码库的能力。它包含了由人类标注者和GPT-4o共同创建的多样化的网站生成指令，这些指令涵盖了三个主要类别和十三个次级类别，几乎涵盖了所有重要类型的Web应用程序。为了评估生成网站的质量，我们使用GPT-4o生成针对每个指令中描述的功能的测试用例，然后手动筛选、调整和组织这些测试用例以确保准确性，最终得到647个测试用例。每个测试用例指定了在网站上执行的操作以及操作后的预期结果。为了自动化测试并提高可重复性，我们采用了一个强大的网络导航代理对生成的网站进行测试，以确定观察到的响应是否与预期结果一致。我们使用多个专有和开源的LLM作为引擎，评估了three high-performance code-agent frameworks：this http URL, OpenHands 和 Aider. 其中表现最佳的组合this http URL由DeepSeek-R1驱动，在测试用例上仅达到了27.8%的准确率，这突显了我们的基准测试的难度。此外，我们构建了WebGen-Instruct，一个包含6,667条网站生成指令的训练集。通过在this http URL的一部分训练集生成的轨迹上训练Qwen2.5-Coder-32B-Instruct，达到了38.2%的准确率，超过了最好的专有模型的表现。",
+        "地址": "https://arxiv.org/pdf/2505.03733.pdf"
+    },
+    {
+        "名称": "2025 [2505.07796] Learning Dynamics in Continual Pre-Training for Large Language Models.pdf",
+        "作者": "Xingjin Wang, Howe Tissue, Lu Wang, Linjing Li, Daniel Dajun Zeng",
+        "摘要": "摘要：持续预训练（CPT）已经成为将强大的基础模型应用于特定下游任务的一种流行且有效的方法。在这项工作中，我们探讨了大型语言模型在整个CPT过程中的学习动态。我们特别关注总体性能和下游领域性能在每个训练步骤中如何演变，领域性能通过验证损失来衡量。我们观察到CPT损失曲线基本上表征了从一个曲线到另一个隐藏曲线的转变，并且可以通过解耦分布转变和学习率退火的影响来描述。我们推导了一个CPT缩放法则，结合了这两个因素，使得能够在任何（持续）训练步骤和CPT中的学习率计划（LRS）下预测损失。我们的公式全面了解了CPT中的几个关键因素，包括损失潜力、最大学习率、训练步骤、重放比率等。此外，我们的方法可以适用于根据不同的CPT目标自定义训练超参数，比如平衡总体和领域特定性能。大量实验证明我们的缩放法则在各种CPT数据集和训练超参数设置下成立。\n\n作者：王兴进、Howe Tissue、王露、李林静、曾大君\n评论：ICML2025会议录用（聚光灯）\n链接：https://arxiv.org/pdf/2505.07796.pdf\n标题：2025 [2505.07796] 持续预训练中大型语言模型的学习动态",
+        "地址": "https://arxiv.org/pdf/2505.07796.pdf"
+    },
+    {
+        "名称": "2025 [2505.07596] Reinforced Internal-External Knowledge Synergistic Reasoning for Efficient Adaptive Search Agent.pdf",
+        "作者": "Ziyang Huang, Xiaowei Yuan, Yiming Ju, Jun Zhao, Kang Liu",
+        "摘要": "摘要: 检索增强生成 (RAG) 是减少大型语言模型 (LLM) 中幻觉的常用策略。尽管强化学习 (RL) 可以使LLMs通过激活检索能力来充当搜索代理，但现有的模型往往未能充分利用其内部知识。这可能导致重复检索、潜在有害的知识冲突以及推理延迟的增加。为了应对这些限制，迫切需要一种高效且适应性强的搜索代理，能够 discern 最佳检索时机并协同整合参数（内部）和检索（外部）知识。本文介绍了强化的内部-外部知识协同推理代理（IKEA），它可以识别自身的知识边界并优先利用内部知识，只有在内部知识不足时才求助外部搜索。这是通过一种新颖的知识边界感知奖励函数和知识边界感知训练数据集实现的，这些都是针对内部-外部知识协同的RL而设计的，激励模型提供准确答案，减少不必要的检索，并在自身知识不足时鼓励适当的外部搜索。通过多个知识推理任务的评估表明，IKEA显著优于基线方法，显著减少检索频率，并表现出强大的泛化能力。",
+        "地址": "https://arxiv.org/pdf/2505.07596.pdf"
+    },
+    {
+        "名称": "2025 [2505.06176] MonetGPT: Solving Puzzles Enhances MLLMs' Image Retouching Skills.pdf",
+        "作者": "Niladri Shekhar Dutt, Duygu Ceylan, Niloy J. Mitra",
+        "摘要": "摘要：修图是原始照片后期操作中的一项重要任务。通过文本或笔触引导生成编辑，为用户提供了一种新工具，但在不可接受和不可预测的方式下很容易改变原始对象的身份。相比之下，尽管传统的程序编辑（如Gimp、Lightroom等常见的照片编辑工具支持）较为保守，但仍然受到专业人士的青睐。不幸的是，专业级别的高质量修图涉及许多单独的程序编辑操作，对于大多数新手来说，这是一项具有挑战性的规划。在本文中，我们探讨了是否可以教授多模态大语言模型（MLLM）批评原始照片，提出适当的修复建议，最后使用一组预先创作的程序图像操作来实现这些建议。我们展示了通过训练MLLM解决专门设计的视觉难题，使其首先了解底层的图像处理操作。随后，这样的操作感知MLLM能够同时规划和提出编辑序列。为了便于训练，给定一组专家编辑的照片，我们通过程序操纵专家编辑来合成推理数据集，再将预训练的LLM与视觉调整接地来合成推理以进行微调。所提议的修图操作通过设计是用户可理解的，保留对象的细节和分辨率，并且可以选择性地被覆盖。我们在各种测试示例上评估了我们的设置，展示了在可解释性和身份保留方面相对于现有的生成和其他程序替代方案的优势。代码、数据、模型和补充结果可以通过我们的项目网站获得。\n\n翻译：\n摘要：修图是原始照片后期处理中的一项重要任务。通过文本或笔触引导的生成编辑为用户提供了一种新工具，但在不可接受和不可预测的方式下很容易改变原始对象的身份。相比之下，尽管传统的程序编辑（如Gimp、Lightroom等常见的照片编辑工具支持）较为保守，但仍然受到专业人士的青睐。不幸的是，专业级别的高质量修图涉及许多单独的程序编辑操作，对于大多数新手来说，这是一项具有挑战性的规划。在本文中，我们探讨了是否可以教授多模态大语言模型（MLLM）批评原始照片，提出适当的修复建议，并最终使用一组预先创作的程序图像操作来实现这些建议。我们展示了通过训练MLLM解决专门设计的视觉难题，使其首先了解底层的图像处理操作。随后，这样的操作感知MLLM能够同时规划和提出编辑序列。为了便于训练，给定一组专家编辑的照片，我们通过程序操纵专家编辑来合成推理数据集，再将预训练的LLM与视觉调整结合来合成推理以进行微调。所提议的修图操作通过设计是用户可以理解的，保留对象的细节和分辨率，并且可以选择性地被覆盖。我们在各种测试示例上评估了我们的设置，展示了在可解释性和身份保留方面相对于现有的生成和其他程序替代方案的优势。代码、数据、模型和补充结果可以通过我们的项目网站获得。",
+        "地址": "https://arxiv.org/pdf/2505.06176.pdf"
+    },
+    {
+        "名称": "2025 [2505.07819] H$^{\\mathbf{3}}$DP: Triply-Hierarchical Diffusion Policy for Visuomotor Learning.pdf",
+        "作者": "Yiyang Lu, Yufeng Tian, Zhecheng Yuan, Xianbang Wang, Pu Hua, Zhengrong Xue, Huazhe Xu",
+        "摘要": "摘要：在机器人操作中，视运动策略学习取得了显著进展，近期的方法主要依赖生成模型来建模动作分布。然而，这些方法往往忽视了视觉感知与动作预测之间的关键耦合关系。在这项工作中，我们提出了 **三重层次扩散策略(H$^{3}$DP)**，一种新颖的视运动学习框架，明确地结合层次结构以加强视觉特征与动作生成之间的整合。H$^{3}$DP包含三个层次： (1) 基于深度信息组织RGB-D观测的深度感知输入分层；(2) 编码不同层次语义特征的多尺度视觉表示；(3) 将由粗到细动作生成与相应视觉特征对齐的层次条件扩散过程。广泛的实验表明，H$^{3}$DP在44个模拟任务中相对于基线平均相对提升27.5%，并在4个具有挑战性的双手实际操作任务中取得了卓越表现。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2505.07819.pdf"
+    },
+    {
+        "名称": "2025 [2505.07260] UMoE: Unifying Attention and FFN with Shared Experts.pdf",
+        "作者": "Yuanhang Yang, Chaozheng Wang, Jing Li",
+        "摘要": "摘要：稀疏专家混合（MoE）架构已经成为扩展Transformer模型的一种有前途的方法。虽然最初的工作主要将MoE纳入前馈网络（FFN）层，最近的研究探索了将MoE范式扩展到注意力层以提升模型性能。然而，现有基于注意力的MoE层需要专门的实现，并且与基于FFN的同类相比表现不佳。在本文中，我们旨在通过引入注意力机制的新重构来统一注意力和FFN层中的MoE设计，揭示注意力模块中的基础FFN结构。我们提出的架构UMoE，通过基于注意力的MoE层实现了卓越的性能，同时实现了FFN和注意力组件之间的高效参数共享。\n\n作者：杨远航，王超政，李静\n\n链接：https://arxiv.org/pdf/2505.07260.pdf\n\n标题：UMoE：用共享专家统一注意力和FFN",
+        "地址": "https://arxiv.org/pdf/2505.07260.pdf"
+    },
+    {
+        "名称": "2025 [2505.00612] Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation.pdf",
+        "作者": "D. Sculley, Will Cukierski, Phil Culliton, Sohier Dane, Maggie Demkin, Ryan Holbrook, Addison Howard, Paul Mooney, Walter Reade, Megan Risdal, Nate Keating",
+        "摘要": "摘要：在本文中，我们观察到生成式人工智能的实证评估处于危机时刻，因为传统的机器学习评估和基准测试策略不足以满足评估现代生成式人工智能模型和系统的需求。这有许多原因，包括这些模型通常具有几乎无限的输入和输出空间，通常没有明确定义的真值目标，并且通常表现出强烈的反馈循环和基于先前模型输出的上下文依赖预测。除了这些关键问题之外，我们认为泄漏和污染问题实际上是生成式人工智能评估中最重要和最难解决的问题。有趣的是，AI竞赛领域已经开发了有效的措施和实践，以对抗竞赛环境中不良行为者的作弊行为。这使得AI竞赛成为一个特别有价值（但未得到充分利用）的资源。现在是该领域将AI竞赛视为生成式人工智能评估中实证严格性黄金标准的时候，并据此利用和收集其结果。",
+        "地址": "https://arxiv.org/pdf/2505.00612.pdf"
+    },
+    {
+        "名称": "2025 [2505.07812] Continuous Visual Autoregressive Generation via Score Maximization.pdf",
+        "作者": "Chenze Shao, Fandong Meng, Jie Zhou",
+        "摘要": "摘要: 常规观点认为，自回归模型用于处理离散数据。应用于视觉数据等连续模式时，视觉自回归建模（Visual AutoRegressive, VAR）通常采用量化方法将数据转换为离散空间，这可能引入显著的信息损失。为解决这个问题，我们提出了一个连续自回归（Continuous VAR）框架，能够在不进行矢量量化的情况下直接进行视觉自回归生成。其理论基础是严格合理评分规则，这些规则提供了强大的统计工具，能够评估生成模型对真实分布的逼近程度。在这个框架中，我们需要做的就是选择一个严格合理的评分，并将其设定为优化的训练目标。我们主要探索了一类基于能量得分的训练目标，它是无似然的，因此克服了在连续空间中进行概率预测的困难。先前在连续自回归生成方面的努力，如GIVT和扩散损失，也可以使用其他严格合理的评分从我们的框架中推导出来。源代码：this https URL。\n\n翻译: 常规观点认为，自回归模型用于处理离散数据。应用于视觉数据等连续模式时，视觉自回归建模（VAR）通常采用量化方法将数据转换为离散空间，这可能引入显著的信息损失。为解决这个问题，我们提出了一个连续自回归（Continuous VAR）框架，能够在不进行矢量量化的情况下直接进行视觉自回归生成。其理论基础是严格合理评分规则，这些规则提供了强大的统计工具，能够评估生成模型对真实分布的逼近程度。在这个框架中，我们需要做的就是选择一个严格合理的评分，并将其设定为优化的训练目标。我们主要探索了一类基于能量得分的训练目标，它是无似然的，因此克服了在连续空间中进行概率预测的困难。先前在连续自回归生成方面的努力，如GIVT和扩散损失，也可以使用其他严格合理的评分从我们的框架中推导出来。源代码：this https URL。\n\n作者: Shao 陈泽, Meng 范东, Zhou 杰\n注释: ICML 2025\n链接: https://arxiv.org/pdf/2505.07812.pdf\n标题: 2025 [2505.07812] 通过分数最大化进行连续视觉自回归生成",
+        "地址": "https://arxiv.org/pdf/2505.07812.pdf"
+    },
+    {
+        "名称": "2025 [2505.07793] Overflow Prevention Enhances Long-Context Recurrent LLMs.pdf",
+        "作者": "Assaf Ben-Kish, Itamar Zimerman, M. Jehanzeb Mirza, James Glass, Leonid Karlinsky, Raja Giryes",
+        "摘要": "这是论文的摘要翻译：\n\n摘要：近年来，大型语言模型（LLMs）的发展趋势是建立递归的次二次模型来提高长上下文处理的效率。我们研究了当前领先的大型长上下文模型，着重考察它们的固定大小的递归记忆是如何影响其性能的。实验表明，即使这些模型经过训练以处理更长的上下文，它们对长上下文的利用仍然不足。具体来说，我们展示了一种基于块的推理方法，这种方法只识别和处理输入中最相关的部分，可以缓解递归记忆故障，并对许多长上下文任务有效：在LongBench上，我们的方法使Falcon3-Mamba-Inst-7B的整体性能提高了14%，Falcon-Mamba-Inst-7B提高了28%，RecurrentGemma-IT-9B提高了50%，RWKV6-Finch-7B提高了51%。令人惊讶的是，这种简单的方法在具有挑战性的LongBench v2基准测试中也达到了最先进的结果，与等效大小的Transformers表现出竞争力。此外，我们的研究结果引发了关于递归模型是否真正利用长程依赖关系的疑问，因为我们的单块策略即使在需要跨上下文关系的任务中也表现出了更强的性能。",
+        "地址": "https://arxiv.org/pdf/2505.07793.pdf"
+    },
+    {
+        "名称": "2025 [2505.06324] Document Attribution: Examining Citation Relationships using Large Language Models.pdf",
+        "作者": "Vipula Rawte, Ryan A. Rossi, Franck Dernoncourt, Nedim Lipka",
+        "摘要": "摘要：随着大型语言模型（LLMs）越来越多地应用于文档相关任务，如文档摘要、问答和信息提取，用户需求侧重于从提供的文档中检索信息，而不是依赖模型的参数化知识，确保这些系统的可信度和可解释性已成为重中之重。解决这一挑战的核心方法是归因，它涉及将生成的输出追溯到其源文档。然而，鉴于LLMs可能产生不准确或不精确的响应，评估这些引用的可靠性至关重要。为了解决这个问题，我们提出了两种技术：(1) 将归因作为一个简单的文本蕴涵任务来处理的零样本方法。我们使用flan-ul2的方法在AttributionBench的数据集上，比最佳基线分别提高了0.27%和2.4%。(2) 我们还探讨了注意力机制在增强归因过程中的作用。使用较小的LLM flan-t5-small，各层的F1分数几乎全部超过基线，除了第4层和第8至第11层。\n\n作者：Vipula Rawte, Ryan A. Rossi, Franck Dernoncourt, Nedim Lipka\n\n链接：https://arxiv.org/pdf/2505.06324.pdf\n\n标题：2025 [2505.06324] 文档归因：使用大型语言模型检查引用关系.pdf",
+        "地址": "https://arxiv.org/pdf/2505.06324.pdf"
+    },
+    {
+        "名称": "2025 [2505.07291] INTELLECT-2: A Reasoning Model Trained Through Globally Decentralized Reinforcement Learning.pdf",
+        "作者": "Prime Intellect Team, Sami Jaghouar, Justus Mattern, Jack Min Ong, Jannik Straube, Manveer Basra, Aaron Pazdera, Kushal Thaman, Matthew Di Ferrante, Felix Gabriel, Fares Obeid, Kemal Erdem, Michael Keiblinger, Johannes Hagemann",
+        "摘要": "摘要：\n我们介绍了INTELLECT-2，这是首个通过全球分布式强化学习（RL）训练的32亿参数语言模型。与传统的集中化训练方法不同，INTELLECT-2通过完全异步的RL在动态的异构许可计算贡献者群体中训练推理模型。\n为了支持这种独特的基础设施训练运行，我们从零构建了各种组件：我们推出了PRIME-RL，这是我们专为分布式异步强化学习设计的训练框架，基于诸如TOPLOC这样的新颖组件，它验证来自不受信任推理工人的回报结果，以及SHARDCAST，它高效地将策略权重从训练节点广播至推理工人。\n除了基础设施组件之外，我们还提出了对标准GRPO训练方法和数据过滤技术的修改，这对于实现训练稳定性并确保我们的模型成功学习其训练目标至关重要，从而在32B参数范围内超越了最先进的推理模型QwQ-32B。\n我们开源了INTELLECT-2以及所有的代码和数据，希望能够鼓励和支持在去中心化训练领域的更多开放研究。",
+        "地址": "https://arxiv.org/pdf/2505.07291.pdf"
+    },
+    {
+        "名称": "2025 [2505.07233] DynamicRAG: Leveraging Outputs of Large Language Model as Feedback for Dynamic Reranking in Retrieval-Augmented Generation.pdf",
+        "作者": "Jiashuo Sun, Xianrui Zhong, Sizhe Zhou, Jiawei Han",
+        "摘要": "摘要：检索增强生成（RAG）系统将大型语言模型（LLM）与外部知识检索相结合，使其在知识密集型任务中非常有效。这些系统中一个关键但常常未被深入探讨的组件是重排序器，它通过改进检索得到的文档来提高生成质量和可解释性。选择最优文档数量（k）的挑战仍未解决：数量太少可能遗漏关键信息，而数量太多则会引入噪音和低效率。尽管最近的研究已经探讨了基于LLM的重排序器，它们主要利用模型内部知识而忽略了LLM可以提供的丰富监督信号，例如将响应质量作为优化重排序决策的反馈。在本文中，我们提出了DynamicRAG，一种新颖的RAG框架，重排序器根据查询动态调整检索文档的顺序和数量。我们将重排序器建模为一个通过强化学习（RL）优化的代理，通过LLM输出质量派生奖励。在七个知识密集型数据集上，DynamicRAG表现优异，达到了最新的研究水平。模型、数据和代码可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2505.07233.pdf"
+    },
+    {
+        "名称": "2025 [2505.04918] Physics-Assisted and Topology-Informed Deep Learning for Weather Prediction.pdf",
+        "作者": "Jiaqi Zheng, Qing Ling, Yerong Feng",
+        "摘要": "摘要: 尽管深度学习模型在天气预测方面展示了显著的潜力，但大多数模型忽视了天气演变的物理学或地球表面的拓扑结构。针对这些缺陷，我们开发了PASSAT，这是一种新颖的结合物理辅助和拓扑信息的天气预测深度学习模型。PASSAT将天气演变归因于两个关键因素：（i）可以通过平流方程和Navier-Stokes方程来表征的平流过程；（ii）地球与大气的相互作用，这既难以建模又无法计算。PASSAT不仅考虑到地球表面的拓扑结构，而不仅仅将其视为一个平面。在这些考量下，PASSAT在球面流形上数值求解平流方程和Navier-Stokes方程，利用球面图神经网络来捕捉地球与大气的相互作用，并生成对求解平流方程至关重要的初始速度场，这些都来自于同一个球面图神经网络。在$5.625^\\circ$分辨率的ERA5数据集上，PASSAT的表现优于最先进的基于深度学习的天气预测模型和操作性的数值天气预报模型IFS T42。代码和检查点可在https URL获取。",
+        "地址": "https://arxiv.org/pdf/2505.04918.pdf"
+    },
+    {
+        "名称": "2025 [2505.04066] LLAMAPIE: Proactive In-Ear Conversation Assistants.pdf",
+        "作者": "Tuochao Chen, Nicholas Batchelder, Alisa Liu, Noah Smith, Shyamnath Gollakota",
+        "摘要": "摘要：我们介绍了LlamaPIE，这是第一个实时主动助理，旨在通过耳机设备提供简洁、隐秘的指导，增强人类对话。与传统语言模型需要用户明确调用不同，这款助理在后台运行，预测用户需求而不会打断对话。我们解决了几项挑战，包括何时响应、编写简洁的响应以增强对话、利用用户知识提供上下文感知帮助以及实时、设备端处理。为实现这一目标，我们构建了一个半合成对话数据集，并提出了两模型流水线：一个较小的模型决定何时响应，较大的模型生成响应。我们在真实世界数据集上评估了我们的方法，证明了其在提供有帮助且不显眼的帮助方面的有效性。用户研究显示，我们的助理在Apple Silicon M2硬件上实现，与无帮助和反应模型相比，显现出对主动助理的强烈偏好，突显了LlamaPie在现场对话中增强互动潜力。",
+        "地址": "https://arxiv.org/pdf/2505.04066.pdf"
+    },
+    {
+        "名称": "2025 [2505.07086] Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design.pdf",
+        "作者": "Tong Chen, Yinuo Zhang, Sophia Tang, Pranam Chatterjee",
+        "摘要": "摘要: 设计符合多种（通常是相互冲突的）功能和生物物理标准的生物序列仍然是生物分子工程领域的核心挑战。尽管离散流匹配模型最近在高维序列空间中的高效采样方面展现了前景，但现有方法仅解决单一目标或需要连续嵌入，这可能会扭曲离散分布。我们提出了多目标导向离散流匹配（MOG-DFM），这是一种通用框架，用于引导任何预训练的离散时间流匹配生成器实现多个标量目标的帕累托高效权衡。在每个抽样步骤中，MOG-DFM计算候选转换的混合排名方向评分，并应用自适应超锥滤波器以确保持续的多目标进展。我们还训练了两个无条件离散流匹配模型：用于多样化肽生成的PepDFM和用于功能增强子DNA生成的EnhancerDFM，作为MOG-DFM的基础生成模型。我们展示了MOG-DFM在生成优化五个属性（溶血性、抗污性、溶解度、半衰期和结合亲和力）的肽结合剂以及设计具有特定增强子类别和DNA形状的DNA序列方面的有效性。总的来说，MOG-DFM证明是一种强大的多属性指导的生物分子序列设计工具。",
+        "地址": "https://arxiv.org/pdf/2505.07086.pdf"
+    }
+]
