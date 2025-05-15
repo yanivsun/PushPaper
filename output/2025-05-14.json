@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2505.07916] MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder.pdf",
+        "作者": "Bowen Zhang, Congchao Guo, Geng Yang, Hang Yu, Haozhe Zhang, Heidi Lei, Jialong Mai, Junjie Yan, Kaiyue Yang, Mingqi Yang, Peikai Huang, Ruiyang Jin, Sitan Jiang, Weihua Cheng, Yawei Li, Yichen Xiao, Yiying Zhou, Yongmao Zhang, Yuan Lu, Yucen He",
+        "摘要": "2025年 [2505.07916] MiniMax-Speech: 具有可学习说话人编码器的内在零样本文本到语音技术\n\n摘要：我们介绍了MiniMax-Speech，这是一种基于自回归Transformer的高质量文本到语音（TTS）模型。其关键创新在于我们提出的可学习说话人编码器，它能够从参考音频中提取音色特征，而无需参考音频的转录。这使得MiniMax-Speech能够以零样本的方式生成与参考音频音色一致的高度表达性语音，同时也支持高相似度的单次语音克隆。此外，通过提出的Flow-VAE，合成音频的总体质量得到了提升。我们的模型支持32种语言，并在多种客观和主观评估指标上表现出色。特别是，它在客观语音克隆指标（词错误率和说话人相似性）上达到了最先进（SOTA）的水准，并在公开的TTS Arena排行榜上名列前茅。MiniMax-Speech的另一个关键优势是其坚固且解耦的说话人编码器表示，这使其在不修改基础模型的情况下具有高度扩展性，支持多种应用，例如：通过LoRA实现任意语音情感控制；通过直接从文本描述合成音色特征来进行文本到语音（T2V）；通过额外数据微调音色特征来实现专业语音克隆（PVC）。我们鼓励读者访问这个https URL查看更多示例。",
+        "地址": "https://arxiv.org/pdf/2505.07916.pdf"
+    },
+    {
+        "名称": "2025 [2505.07591] A Multi-Dimensional Constraint Framework for Evaluating and Improving Instruction Following in Large Language Models.pdf",
+        "作者": "Junjie Ye, Caishuang Huang, Zhuohan Chen, Wenjie Fu, Chenyuan Yang, Leyi Yang, Yilong Wu, Peng Wang, Meng Zhou, Xiaolong Yang, Tao Gui, Qi Zhang, Zhongchao Shi, Jianping Fan, Xuanjing Huang",
+        "摘要": "{\n    'year': '2025',\n    'abstract': \"摘要: 指令遵循评估大型语言模型（LLM）生成符合用户定义约束的输出的能力。然而，现有的基准测试通常依赖于模板化的约束提示，缺乏真实世界使用的多样性，并限制了细粒度的性能评估。为填补这一空白，我们提出了一个多维度约束框架，包含三个约束模式、四个约束类别和四个难度级别。基于此框架，我们开发了一个自动化指令生成管道，执行约束扩展、冲突检测和指令重写，生成了1200个代码可验证的指令遵循测试示例。我们评估了七个模型家族中的19个LLM，并发现不同约束形式的性能存在显著差异。例如，平均性能从第一级的77.67%下降到第四级的32.96%。此外，我们通过使用该方法生成强化学习的数据，展示了其实用性，在不降整体表现的情况下，在指令遵循方面取得了显著的提升。深入分析表明，这些提升主要来源于模型注意力模块参数的修改，这些修改增强了对约束的识别与遵循。代码和数据可在此网址获得：https://arxiv.org/pdf/2505.07591.pdf。\",\n    'authors': '叶俊杰, 黄才爽, 陈卓晗, 傅文杰, 杨晨源, 杨乐仪, 吴怡龙, 王鹏, 周蒙, 杨晓龙, 桂韬, 张奇, 史忠超, 范建平, 黄萱菁',\n    'comment': '',\n    'url': 'https://arxiv.org/pdf/2505.07591.pdf',\n    'title': '2025 [2505.07591] 一个用于评估和改进大型语言模型指令遵循的多维度约束框架.pdf'\n}",
+        "地址": "https://arxiv.org/pdf/2505.07591.pdf"
+    },
+    {
+        "名称": "2025 [2505.08175] Fast Text-to-Audio Generation with Adversarial Post-Training.pdf",
+        "作者": "Zachary Novack, Zach Evans, Zack Zukowski, Josiah Taylor, CJ Carr, Julian Parker, Adnan Al-Sinan, Gian Marco Iodice, Julian McAuley, Taylor Berg-Kirkpatrick, Jordi Pons",
+        "摘要": "摘要：尽管文本到音频系统的性能不断提高，但推断时间仍然较慢，从而使其延迟在许多创意应用中显得不切实际。我们提出了对抗相对对比（ARC）后训练，这是第一个用于扩散/流模型的非蒸馏基础的对抗加速算法。尽管过去的对抗后训练方法难以与昂贵的蒸馏方法竞争，但ARC后训练是一种简单的程序，它（1）将最近的相对对抗公式扩展到扩散/流后训练，并且（2）结合了一种新的对比鉴别目标，以鼓励更好的提示遵循。我们将ARC后训练与Stable Audio Open的一些优化结合起来，构建了一个能够在H100上生成约12秒44.1kHz立体声音频，耗时约75毫秒，并且在移动边缘设备上生成约7秒音频的模型，这是目前我们所知最快的文本音频生成模型。\n\n作者：Zachary Novack, Zach Evans, Zack Zukowski, Josiah Taylor, CJ Carr, Julian Parker, Adnan Al-Sinan, Gian Marco Iodice, Julian McAuley, Taylor Berg-Kirkpatrick, Jordi Pons\n\n链接：https://arxiv.org/pdf/2505.08175.pdf\n\n标题：2025 [2505.08175] 对抗后训练用于快速文本音频生成",
+        "地址": "https://arxiv.org/pdf/2505.08175.pdf"
+    },
+    {
+        "名称": "2025 [2505.07215] Measuring General Intelligence with Generated Games.pdf",
+        "作者": "Vivek Verma, David Huang, William Chen, Dan Klein, Nicholas Tomlin",
+        "摘要": "摘要：我们提出了gg-bench，这是一个设计用来评估语言模型的一般推理能力的游戏环境集合。不像大多数静态基准，gg-bench 是一个数据生成过程，可以按需生成新的评估实例。具体来说，gg-bench 是通过以下方式合成生成的：(1)使用大语言模型（LLM）生成新颖游戏的自然语言描述，(2)使用 LLM 将每个游戏实现为一个 Gym 环境中的代码，以及 (3)通过自我对弈训练强化学习（RL）代理。我们通过提示模型游戏描述、当前棋盘状态和有效动作列表，之后让模型输出它们希望采取的动作，以它们对这些 RL 代理的胜率来评估语言模型。gg-bench 具有挑战性：最先进的 LLM，如 GPT-4o 和 Claude 3.7 Sonnet，通过情境学习在 gg-bench 上的胜率为 7-9%，而推理模型如 o1, o3-mini 和 DeepSeek-R1 的平均胜率为 31-36%。我们发布了生成的游戏、数据生成过程和评估代码，以支持未来的建模工作和我们的基准的扩展。",
+        "地址": "https://arxiv.org/pdf/2505.07215.pdf"
+    },
+    {
+        "名称": "2025 [2505.05464] Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging.pdf",
+        "作者": "Shiqi Chen, Jinghan Zhang, Tongyao Zhu, Wei Liu, Siyang Gao, Miao Xiong, Manling Li, Junxian He",
+        "摘要": "摘要：视觉-语言模型（Vision-Language Models, VLMs）将视觉感知与大型语言模型（Large Language Models, LLMs）的一般功能（如推理）相结合。然而，这两种能力如何结合并起作用的机制尚不完全理解。在这项工作中，我们通过模型合并来探索感知和推理的组合，这种合并连接了不同模型的参数。与之前通常专注于同类模型合并的工作不同，我们提出跨模态合并模型，使得可以将LLMs的推理能力融入VLMs中。通过大量实验，我们展示了模型合并是一种在无训练情况下将推理能力从LLMs转移到VLMs的成功方法。此外，我们利用合并模型理解感知和推理的内部机制以及合并对它的影响。我们发现感知能力主要编码在模型的早期层中，而推理主要由中后期层促进。合并后，我们观察到所有层都开始对推理起作用，而感知能力在各层的分布基本保持不变。这些观察结果揭示了模型合并作为多模态整合和解释工具的潜力。\n\n作者：陈世奇，张静涵，朱童耀，刘伟，高思洋，熊淼，李漫玲，何俊贤\n\n评论：ICML 2025。我们的代码可在此URL公开获取\n\nURL：https://arxiv.org/pdf/2505.05464.pdf\n\n标题：2025 [2505.05464] 为视觉带来推理：通过模型合并理解感知和推理",
+        "地址": "https://arxiv.org/pdf/2505.05464.pdf"
+    },
+    {
+        "名称": "2025 [2505.08638] TRAIL: Trace Reasoning and Agentic Issue Localization.pdf",
+        "作者": "Darshan Deshpande, Varun Gangal, Hersh Mehta, Jitin Krishnan, Anand Kannappan, Rebecca Qian",
+        "摘要": "摘要：代理工作流在不同领域中的日益普及带来了可扩展和系统评估这些系统生成的复杂痕迹的紧迫需求。当前的评估方法依赖于人工、特定领域的人类分析长篇工作流痕迹，这种方法无法随着代理输出的复杂性和数量的增长而扩展。在这些环境中的错误分析由于外部工具输出与语言模型推理的交织而变得更加复杂，使其比传统的软件调试更具挑战性。在这项工作中，我们（1）阐述了对代理工作流痕迹进行鲁棒和动态评估方法的需求，（2）介绍了在代理系统中遇到的错误类型的正式分类法，以及（3）提出了一组基于该分类法并以既定代理基准为基础构建的148个由人类标注的巨大痕迹数据集（TRAIL）。为了确保生态有效性，我们从单一和多代理系统中精心挑选出痕迹，重点关注软件工程和开放世界信息检索等现实世界应用。我们的评估显示，现代长上下文语言模型在痕迹调试上表现不佳，最佳的Gemini-2.5-pro模型在TRAIL上仅得分11%。我们公开了数据集和代码，以支持和加速未来在代理工作流可扩展评估方面的研究。",
+        "地址": "https://arxiv.org/pdf/2505.08638.pdf"
+    },
+    {
+        "名称": "2025 [2505.08311] AM-Thinking-v1: Advancing the Frontier of Reasoning at 32B Scale.pdf",
+        "作者": "Yunjie Ji, Xiaoyu Tian, Sitong Zhao, Haotian Wang, Shuaiting Chen, Yiping Peng, Han Zhao, Xiangang Li",
+        "摘要": "摘要：我们介绍了 AM-Thinking-v1，一款32B致密语言模型，推进了推理的前沿，体现了开源创新的协作精神。AM-Thinking-v1的表现优于DeepSeek-R1，并与领先的专家混合(MoE)模型如Qwen3-235B-A22B和Seed1.5-Thinking相媲美，在AIME 2024上获得85.3分，AIME 2025上获得74.4分，LiveCodeBench上获得70.3分，展示了同类规模开源模型中的数学和编码能力。AM-Thinking-v1完全基于开源的Qwen2.5-32B基础模型，并利用公开可用的查询，借助精心设计的后训练流程——结合监督微调和强化学习——提供了卓越的推理能力。这项工作表明，开源社区在32B规模上可以实现高性能，这是部署和微调的实际最佳规模。通过在顶级性能和现实可用性之间找到平衡点，我们希望AM-Thinking-v1能激发更多合作努力，以利用中等规模模型，在推动推理边界的同时，始终保持创新的可及性。我们已经在\\\\href{this https URL}{Hugging Face}上开源了我们的模型。",
+        "地址": "https://arxiv.org/pdf/2505.08311.pdf"
+    },
+    {
+        "名称": "2025 [2505.08751] Aya Vision: Advancing the Frontier of Multilingual Multimodality.pdf",
+        "作者": "Saurabh Dash, Yiyang Nan, John Dang, Arash Ahmadian, Shivalika Singh, Madeline Smith, Bharat Venkitesh, Vlad Shmyhlo, Viraat Aryabumi, Walter Beller-Morales, Jeremy Pekmez, Jason Ozuzu, Pierre Richemond, Acyr Locatelli, Nick Frosst, Phil Blunsom, Aidan Gomez, Ivan Zhang, Marzieh Fadaee, Manoj Govindassamy, Sudip Roy, Matthias Gallé, Beyza Ermis, Ahmet Üstün, Sara Hooker",
+        "摘要": "摘要：\n构建多模态语言模型具有根本性的挑战：它需要对齐视觉和语言模态、策划高质量的指导数据，并在引入视觉后避免现有纯文本能力的退化。在多语言环境中，这些困难会进一步放大，因多模态数据在不同语言中的需求加剧了现有的数据稀缺，机器翻译经常扭曲含义，并且灾难性遗忘更为严重。为了解决上述挑战，我们引入了涵盖数据和建模的新技术。首先，我们开发了一个合成注释框架，该框架策划高质量、多样性的多语言多模态指令数据，使得Aya Vision模型能够在多种语言中对多模态输入生成自然、人类偏好的响应。除此之外，我们提出了一种跨模态模型融合技巧，能够减轻灾难性遗忘，有效保留纯文本能力，同时增强多模态生成性能。Aya-Vision-8B在与强大的多模态模型（如Qwen-2.5-VL-7B、Pixtral-12B，甚至规模更大的Llama-3.2-90B-Vision）相比时，表现出最佳的性能。我们进一步扩展了这一方法，Aya-Vision-32B的表现优于规模大两倍以上的模型，如Molmo-72B和LLaMA-3.2-90B-Vision。我们的工作推进了多语言在多模态前沿的进展，并提供了在交付极高性能的同时有效降低计算需求的技术见解。",
+        "地址": "https://arxiv.org/pdf/2505.08751.pdf"
+    },
+    {
+        "名称": "2025 [2505.08727] Memorization-Compression Cycles Improve Generalization.pdf",
+        "作者": "Fangyuan Yu",
+        "摘要": "摘要：我们从理论上证明，泛化不仅可以通过数据扩展来改善，还可以通过压缩内部表征来实现。为了使这一见解可操作化，我们引入了信息瓶颈语言建模(IBLM)目标，将语言模型重新构架为一个约束优化问题：在优化预测性能的前提下最小化表征熵。实验证明，在大规模语言模型（LLM）预训练过程中，存在着一种记忆-压缩循环，这可以通过交叉熵和基于矩阵的熵(MBE)之间的正负梯度对齐的振荡来证实，这反映了IBLM所规定的预测-压缩权衡，也类似于生物界中清醒学习与睡眠巩固交替进行的现象。受这一观察启发，我们提出了门控相变（GAPT）训练算法，该算法在记忆和压缩阶段之间自适应切换。在GPT-2的FineWeb数据集预训练中，GAPT将MBE减少了50%，交叉熵提高了4.8%。在一个预训练算术乘法任务中，GAPT提高了35%的OOD泛化性能。在一个模拟灾难性遗忘的设置中，GAPT通过压缩和分离表征减少干扰，分离度提高了97%，与睡眠巩固的功能作用类似。",
+        "地址": "https://arxiv.org/pdf/2505.08727.pdf"
+    },
+    {
+        "名称": "2025 [2505.08665] SkillFormer: Unified Multi-View Video Understanding for Proficiency Estimation.pdf",
+        "作者": "Edoardo Bianchi, Antonio Liotta",
+        "摘要": "摘要: 评估人类在复杂活动中的技能水平是一个具有挑战性的问题，应用于体育、康复和训练领域。在这项工作中，我们提出了SkillFormer，这是一种参数高效的架构，用于从主观和客观视频中统一的多视角熟练度评估。SkillFormer基于TimeSformer骨干网络，介绍了CrossViewFusion模块，该模块通过多头交叉注意力、可学习门控和自适应自校准来融合视角特定特征。我们利用低秩适配技术来微调少量参数，显著降低训练成本。事实上，在EgoExo4D数据集上评估时，SkillFormer在多视角设置中实现了最先进的准确性，同时在计算效率方面表现出色，使用的参数数量减少了4.5倍，所需训练时期减少了3.75倍，比之前的基线模型好得多。它在多个结构化任务中表现出色，证实了多视角集成在细粒度技能评估中的价值。",
+        "地址": "https://arxiv.org/pdf/2505.08665.pdf"
+    },
+    {
+        "名称": "2025 [2504.21475] Advancing Arabic Reverse Dictionary Systems: A Transformer-Based Approach with Dataset Construction Guidelines.pdf",
+        "作者": "Serry Sibaee, Samar Ahmed, Abdullah Al Harbi, Omer Nacar, Adel Ammar, Yasser Habashi, Wadii Boulila",
+        "摘要": "摘要：本研究通过开发一个有效的阿拉伯语反向词典（RD）系统，填补了阿拉伯语自然语言处理的关键空白。该系统能够根据描述或含义查找单词。我们提出了一种新的基于transformer的半编码器神经网络架构，其层数呈几何递减，达到了阿拉伯语RD任务的最先进效果。我们的方法包括一个全面的数据集构建过程，并建立了阿拉伯语词典定义的正式质量标准。各种预训练模型的实验表明，阿拉伯语特定模型显著优于通用多语言嵌入，其中ARBERTv2获得了最佳排名分数（0.0644）。此外，我们提供了一个反向词典任务的正式抽象，以增强理论理解，并开发了一个模块化、可扩展的Python库（RDTL），具有可配置的训练管道。我们对数据集质量的分析揭示了改进阿拉伯语定义构建的重要见解，提出了构建高质量反向词典资源的八个具体标准。此项研究对阿拉伯语计算语言学有重大贡献，并为阿拉伯语学习、学术写作和专业交流提供了宝贵的工具。",
+        "地址": "https://arxiv.org/pdf/2504.21475.pdf"
+    },
+    {
+        "名称": "2025 [2505.08712] NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance.pdf",
+        "作者": "Wenzhe Cai, Jiaqi Peng, Yuqiang Yang, Yujian Zhang, Meng Wei, Hanqing Wang, Yilun Chen, Tai Wang, Jiangmiao Pang",
+        "摘要": "摘要: 在动态开放环境中学习导航对于机器人来说是一项重要且具有挑战性的技能。大多数之前的方法依赖于精确的定位和建图，或者从昂贵的真实世界示范中学习。本文提出了一种名为Navigation Diffusion Policy (NavDP) 的端到端框架，该框架完全在模拟中训练，可以零样本迁移到各种真实世界环境中的不同形式。NavDP网络的关键成分在于扩散基础的轨迹生成和用于轨迹选择的评价函数，这些功能仅依赖于从共享策略变压器中编码的局部观察标记。鉴于模拟中的全球环境特权信息，我们扩大了高质量示范的规模，用于训练扩散策略，并结合对比负样本制定了评价值函数目标。我们的示范生成方法每天每个GPU约可生成2,500条轨迹，比真实世界数据收集效率高20倍，最终形成了一个包含363.2公里轨迹跨越1244个场景的大规模导航数据集。使用该模拟数据集进行训练，NavDP在四足、轮式和类人机器人在多样的室内和室外环境中表现出色，达到了最新的性能，并展现出持续稳定的泛化能力。此外，我们还尝试了使用高斯喷溅在域内进行真实到模拟的微调，以进一步弥合模拟与现实的差距。实验表明，添加这样的真实到模拟数据可以使成功率提高30%，而不会影响其泛化能力。",
+        "地址": "https://arxiv.org/pdf/2505.08712.pdf"
+    },
+    {
+        "名称": "2025 [2505.08445] Optimizing Retrieval-Augmented Generation: Analysis of Hyperparameter Impact on Performance and Efficiency.pdf",
+        "作者": "Adel Ammar, Anis Koubaa, Omer Nacar, Wadii Boulila",
+        "摘要": "摘要：大语言模型尽管在任务性能方面表现出色，但常常会产生幻觉或依赖于过时的知识。检索增强生成（RAG）通过与外部搜索相结合来解决这些问题。我们分析了超参数如何影响RAG系统的速度和质量，涵盖了Chroma和Faiss向量存储、分块策略、交叉编码器重新排序和温度设置，并评估了六个指标：真实性、答案正确性、答案相关性、上下文精度、上下文召回率和答案相似性。结果表明，Chroma处理查询速度快13%，而Faiss则提供更高的检索精度，显示了速度和准确性之间的明确权衡。使用小窗口和最小重叠的固定长度分块方法优于语义分段，并且仍然是最快的选择。重新排序在检索质量上有温和的提升，但运行时间大约增加了5倍，因此它的实用性取决于延迟约束。最终，我们使用校正性RAG工作流程重新评估了顶级配置，结果表明，当模型能够迭代地请求额外的证据时，它们的优势依然存在。我们获得了接近完美的上下文精度（99%），这表明RAG系统可以通过正确的超参数组合实现极高的检索准确性，这对那些检索质量直接影响下游任务性能的应用有重要意义，例如医疗保健中的临床决策支持。\n\n作者：Adel Ammar, Anis Koubaa, Omer Nacar, Wadii Boulila\n\n网址：https://arxiv.org/pdf/2505.08445.pdf\n\n标题：2025 [2505.08445] 优化检索增强生成：超参数对性能和效率影响的分析",
+        "地址": "https://arxiv.org/pdf/2505.08445.pdf"
+    },
+    {
+        "名称": "2025 [2505.07416] ViMRHP: A Vietnamese Benchmark Dataset for Multimodal Review Helpfulness Prediction via Human-AI Collaborative Annotation.pdf",
+        "作者": "Truc Mai-Thanh Nguyen, Dat Minh Nguyen, Son T. Luu, Kiet Van Nguyen",
+        "摘要": "摘要：多模式评论有用性预测（MRHP）是推荐系统中一项重要任务，特别是在电子商务平台中。确定用户生成的评论的有用性可以提升用户体验，并改进消费者决策。然而，现有的数据集主要集中在英语和印尼语，缺乏语言多样性，尤其是对于越南语等资源匮乏的语言。在本文中，我们介绍了ViMRHP（越南语多模式评论有用性预测），这是一个用于MRHP任务的大规模越南语基准数据集。该数据集涵盖了四个领域，包括2千种产品和46千条评论。同时，大规模数据集的建立需要大量时间和成本。为了优化标注过程，我们利用人工智能帮助标注者构建ViMRHP数据集。在人工智能的协助下，标注时间从每个任务90到120秒减少到20到40秒，同时保持数据质量，并将总体成本降低约65%。然而，人工智能生成的标注在复杂标注任务中仍存在局限性，我们通过详细性能分析进一步研究了这一点。在ViMRHP上的实验中， 我们评估了基于人工检查与人工智能生成标注的基线模型，以衡量其质量差异。ViMRHP数据集可通过此URL公开获取。\n\n网址：https://arxiv.org/pdf/2505.07416.pdf",
+        "地址": "https://arxiv.org/pdf/2505.07416.pdf"
+    },
+    {
+        "名称": "2025 [2505.09027] Tests as Prompt: A Test-Driven-Development Benchmark for LLM Code Generation.pdf",
+        "作者": "Yi Cui",
+        "摘要": "摘要：我们引入了WebApp1K，这是一种新的基准，用于评估在测试驱动开发（TDD）任务中大型语言模型（LLMs）的表现，其中测试用例既作为提示也作为代码生成的验证。与传统方法依赖自然语言提示不同，我们的基准着重于LLMs从测试用例直接解释和实现功能的能力，反映了真实世界的软件开发实践。该基准包含20个应用领域的1000个不同挑战，评估LLMs在上下文长度和多特性复杂性限制下生成简洁、功能性代码的能力。我们的研究发现，遵循指令和上下文学习是TDD成功的关键能力，超过了一般编码能力或预训练知识的重要性。通过对19个前沿模型的全面评估，我们揭示了性能瓶颈，如长提示中的指令丢失，并提供了涉及多种根本原因的详细错误分析。这项工作强调了特定于TDD基准的实用价值，并为在严格、应用驱动的编码场景中提升LLM能力奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2505.09027.pdf"
+    }
+]
