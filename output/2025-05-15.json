@@ -1,0 +1,104 @@
+[
+    {
+        "名称": "2025 [2505.09568] BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset.pdf",
+        "作者": "Jiuhai Chen, Zhiyang Xu, Xichen Pan, Yushi Hu, Can Qin, Tom Goldstein, Lifu Huang, Tianyi Zhou, Saining Xie, Silvio Savarese, Le Xue, Caiming Xiong, Ran Xu",
+        "摘要": "摘要：图像理解和生成的统一在多模态模型的最新研究中引起了越来越多的关注。尽管对图像理解的设计选择进行了广泛研究，但对于包含图像生成的统一框架的最佳模型架构和训练方法仍未深入探索。受自回归和扩散模型在高质量生成和可扩展性方面的强大潜力的启发，我们对它们在统一多模态环境中的使用进行了全面研究，重点是图像表示、建模目标和训练策略。在这些研究的基础上，我们介绍了一种新方法，该方法使用扩散变压器生成语义丰富的CLIP图像特征，这与传统的VAE表示形成对比。这种设计不仅提高了训练效率，还改善了生成质量。此外，我们证明了统一模型的顺序预训练策略——首先进行图像理解训练，然后进行图像生成训练——通过在保持图像理解能力的同时发展出强大的图像生成能力，提供了实际优势。最后，我们精心整理了一个高质量的指令调优数据集BLIP3o-60k，通过向GPT-4o展示包含各种场景、对象、人体姿势等的多样化字幕来生成图像。基于我们的创新模型设计、训练方法和数据集，我们开发了BLIP3-o，这是一套最先进的统一多模态模型。BLIP3-o在大多数图像理解和生成任务的流行基准测试中都取得了卓越的表现。为了促进未来的研究，我们完全开源了我们的模型，包括代码、模型权重、训练脚本以及预训练和指令调优数据集。",
+        "地址": "https://arxiv.org/pdf/2505.09568.pdf"
+    },
+    {
+        "名称": "2025 [2505.04410] DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception.pdf",
+        "作者": "Junjie Wang, Bin Chen, Yulin Li, Bin Kang, Yichi Chen, Zhuotao Tian",
+        "摘要": "摘要: 密集视觉预测任务由于依赖预定义类别而受到限制，在视觉概念不固定的现实场景中，其适用性受到了限制。虽然诸如CLIP的视觉语言模型（VLMs）在开放词汇任务中显示出潜力，但其直接应用于密集预测通常会由于局部特征表征的限制导致表现不佳。在这项工作中，我们观察到CLIP的图像标记难以有效地汇聚空间或语义相关区域的信息，从而导致特征缺乏局部辨识度和空间一致性。为了解决这一问题，我们提出了DeCLIP，一种新颖的框架，通过解耦自注意模块分别获得“内容”和“上下文”特征来增强CLIP。“内容”特征与图像裁剪表示对齐，以提高局部辨识度，而“上下文”特征在视觉基础模型（如DINO）的指导下学习保留空间相关性。大量实验表明，DeCLIP在包括对象检测和语义分割在内的多个开放词汇密集预测任务中显著优于现有方法。代码可在该网址获取（https://arxiv.org/pdf/2505.04410.pdf）。\n\n作者: 王俊杰, 陈斌, 李郁林, 康斌, 陈亦驰, 田卓涛",
+        "地址": "https://arxiv.org/pdf/2505.04410.pdf"
+    },
+    {
+        "名称": "2025 [2505.09343] Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures.pdf",
+        "作者": "Chenggang Zhao, Chengqi Deng, Chong Ruan, Damai Dai, Huazuo Gao, Jiashi Li, Liyue Zhang, Panpan Huang, Shangyan Zhou, Shirong Ma, Wenfeng Liang, Ying He, Yuqing Wang, Yuxuan Liu, Y.X. Wei",
+        "摘要": "摘要：大规模语言模型（LLMs）的快速扩展揭示了当前硬件架构的关键限制，包括内存容量、计算效率和互连带宽的约束。使用2048个NVIDIA H800 GPU训练的DeepSeek-V3展示了硬件感知模型共同设计如何有效地解决这些挑战，实现低成本的大规模训练和推理。本文深入分析了DeepSeek-V3/R1模型架构及其AI基础设施，重点介绍了关键创新，如增强内存效率的多头潜在注意力（MLA）、优化计算通信权衡的专家混合（MoE）架构、释放硬件能力的FP8混合精度训练以及最小化集群级网络开销的多平面网络拓扑。基于DeepSeek-V3开发期间遇到的硬件瓶颈，我们与学术界和产业界同行进行了广泛讨论，探讨了未来硬件的发展方向，包括精确的低精度计算单元、扩展与扩展的融合以及低延迟通信结构的创新。这些见解强调了硬件和模型共同设计在满足AI工作负载的不断增长需求中的关键作用，为下一代AI系统的创新提供了实用的蓝图。",
+        "地址": "https://arxiv.org/pdf/2505.09343.pdf"
+    },
+    {
+        "名称": "2025 [2505.09358] Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis.pdf",
+        "作者": "Bingxin Ke, Kevin Qu, Tianfu Wang, Nando Metzger, Shengyu Huang, Bo Li, Anton Obukhov, Konrad Schindler",
+        "摘要": "摘要：过去十年中深度学习在计算机视觉领域的成功依赖于大型标注数据集和强大的预训练模型。在数据稀缺的环境中，这些预训练模型的质量对有效的迁移学习至关重要。图像分类和自监督学习传统上是预训练卷积神经网络（CNN）和基于 transformer 的架构的主要方法。近年来，特别是利用在潜在空间中进行去噪扩散的文本到图像生成模型的兴起，引入了一类新的基础模型，这些模型在大量带标签的图像数据集上进行训练。这些模型生成真实的未见内容图像的能力表明它们对视觉世界有深刻的理解。在这项工作中，我们提出了 Marigold，这是一组条件生成模型以及一个微调协议，该协议从预训练的潜在扩散模型（例如 Stable Diffusion）中提取知识，并将其适应于密集图像分析任务，包括单目深度估计、表面法向量预测和内在分解。Marigold 仅需对预训练的潜在扩散模型的架构进行最小修改，使用单个 GPU 在几天内通过小型合成数据集进行训练，并展示了最先进的即刻通用性。",
+        "地址": "https://arxiv.org/pdf/2505.09358.pdf"
+    },
+    {
+        "名称": "2025 [2505.08787] UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations.pdf",
+        "作者": "Hanjung Kim, Jaehyun Kang, Hyolim Kang, Meedeum Cho, Seon Joo Kim, Youngwoon Lee",
+        "摘要": "摘要：\n模仿是人类的一种基本学习机制，使个体能够通过观察和模仿专家来学习新任务。然而，由于在人类和机器人之间，无论是在视觉外观还是在物理能力上都存在固有的差异，因此将这种能力应用于机器人仍然面临重大挑战。虽然以前的方法使用具有共享场景和任务的跨化身数据集来弥合这一差距，但在人类和机器人之间大规模收集这种对齐数据并不是一件容易的事情。本文提出了一种新颖的框架UniSkill，它从大规模跨化身视频数据中学习与化身无关的技能表示，没有任何标签，使得从人类视频提示中提取的技能能够有效地转移到仅在机器人数据上训练的机器人策略中。我们在仿真和现实环境中的实验表明，我们的跨化身技能可以成功指导机器人选择适当的动作，即使是面对未见过的视频提示。项目网站见：https URL。",
+        "地址": "https://arxiv.org/pdf/2505.08787.pdf"
+    },
+    {
+        "名称": "2025 [2505.10557] MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning.pdf",
+        "作者": "Ke Wang, Junting Pan, Linda Wei, Aojun Zhou, Weikang Shi, Zimu Lu, Han Xiao, Yunqiao Yang, Houxing Ren, Mingjie Zhan, Hongsheng Li",
+        "摘要": "摘要：自然语言图像说明数据集，广泛用于训练大型多模态模型，主要侧重于自然场景，而忽略了解决问题所需的数学图形的复杂细节，这阻碍了当前LMMs在多模态数学推理方面的进步。为此，我们提出利用代码作为跨模态对齐的监督，因为代码固有地编码了生成对应图形所需的所有信息，从而在两种模态之间建立精确的连接。具体而言，我们采用“模型-内环”方法共同开发了我们的图像到代码模型和数据集，得到了图像到代码模型FigCodifier和当前最大的图像-代码数据集ImgCode-8.6M。此外，我们利用FigCodifier合成新颖的数学图形，并构建了高质量的多模态数学指令微调数据集MM-MathInstruct-3M。最后，我们推出了MathCoder-VL，先使用ImgCode-8.6M进行跨模态对齐训练，随后在MM-MathInstruct-3M上进行多模态数学问题解决微调。我们的模型在所有六个指标上均实现了新的开源SOTA，尤其是在MathVista几何问题解决子集上，分别比GPT-4o和Claude 3.5 Sonnet提高了8.9%和9.2%。数据集和模型将会在该链接发布。\n\n翻译为中文。",
+        "地址": "https://arxiv.org/pdf/2505.10557.pdf"
+    },
+    {
+        "名称": "2025 [2505.07849] SweRank: Software Issue Localization with Code Ranking.pdf",
+        "作者": "Revanth Gangi Reddy, Tarun Suresh, JaeHyeok Doo, Ye Liu, Xuan Phi Nguyen, Yingbo Zhou, Semih Yavuz, Caiming Xiong, Heng Ji, Shafiq Joty",
+        "摘要": "摘要：软件问题定位，即识别与自然语言问题描述（如错误报告、功能请求）相关的精确代码位置（文件、类或函数），是软件开发中一个关键但耗时的方面。尽管近期基于大型语言模型（LLM的代理方法表现出了一定的前景，但由于复杂的多步骤推理和依赖闭源LLM，它们往往会导致显著的延迟和成本。传统的代码排序模型，通常优化用于查询到代码或代码到代码的检索，却难以处理问题定位查询的冗长和故障描述特性。为弥合这一差距，我们推出了SweRank，一种高效且有效的检索和重新排序框架，用于软件问题定位。为了促进训练，我们构建了SweLoc，这是一个从公共GitHub库中整理的大规模数据集，包含了与相应代码修改配对的真实世界问题描述。针对SWE-Bench-Lite和LocBench的实证结果表明，SweRank实现了最先进的性能，超过了之前的排序模型和使用Claude-3.5等闭源LLM的高成本代理系统。此外，我们展示了SweLoc在增强现有的各种用于问题定位的检索和重新排序模型方面的效用，确立了该数据集作为社区宝贵资源的地位。",
+        "地址": "https://arxiv.org/pdf/2505.07849.pdf"
+    },
+    {
+        "名称": "2025 [2502.12894] CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image.pdf",
+        "作者": "Kaixin Yao, Longwen Zhang, Xinhao Yan, Yan Zeng, Qixuan Zhang, Wei Yang, Lan Xu, Jiayuan Gu, Jingyi Yu",
+        "摘要": "摘要：从单个RGB图像中恢复高质量3D场景在计算机图形学中是一项具有挑战性的任务。目前的方法常常在特定领域中受到限制，或生成低质量的对象。为了解决这些问题，我们提出了CAST（单个RGB图像的组件对齐3D场景重构），一种新颖的3D场景重构和恢复方法。CAST首先从输入图像中提取对象级2D分割和相对深度信息，然后使用基于GPT的模型分析对象间的空间关系。这使得理解场景中对象间的关系成为可能，确保了更一致的重构。随后，CAST使用一个具有遮挡感知的大规模3D生成模型独立生成每个对象的完整几何形状，通过MAE和点云条件减轻遮挡和部分对象信息的影响，确保与源图像的几何和纹理准确对齐。为了将每个对象对准场景，对准生成模型计算必要的变换，允许生成的网格准确地放置并集成到场景的点云中。最后，CAST包含一个物理感知校正步骤，利用细粒度关系图生成约束图。该图指导对象姿势的优化，确保物理一致性和空间连贯性。通过利用签名距离场（SDF），该模型有效解决了遮挡、物体穿透和悬浮物体等问题，确保生成的场景准确反映现实世界的物理交互。CAST可以在机器人领域中发挥作用，促进高效的真实到仿真工作流程，并为机器人系统提供真实、可扩展的仿真环境。",
+        "地址": "https://arxiv.org/pdf/2502.12894.pdf"
+    },
+    {
+        "名称": "2025 [2505.09558] WavReward: Spoken Dialogue Models With Generalist Reward Evaluators.pdf",
+        "作者": "Shengpeng Ji, Tianle Liang, Yangzhuo Li, Jialong Zuo, Minghui Fang, Jinzheng He, Yifu Chen, Zhengqing Liu, Ziyue Jiang, Xize Cheng, Siqi Zheng, Jin Xu, Junyang Lin, Zhou Zhao",
+        "摘要": "摘要: 端到端的语音对话模型（如GPT-4o-audio）最近在语音领域引起了广泛关注。然而，语音对话模型的对话性能评估却在很大程度上被忽视了。这主要是因为智能聊天机器人传达了大量的非文本信息，无法通过类似ChatGPT这样的基于文本的语言模型轻易测量。为了填补这一空白，我们提出了WavReward，一种基于音频语言模型的奖励反馈模型，可以评估语音输入的语音对话系统的智商（IQ）和情商（EQ）。具体来说：1）基于音频语言模型，WavReward在训练后引入了深度推理过程和非线性奖励机制。通过利用强化学习算法的多样本反馈，我们构建了一个专门针对语音对话模型的评估器。2）我们引入了ChatReward-30K，一个用于训练WavReward的偏好数据集。ChatReward-30K包含语音对话模型的理解和生成方面。这些场景涵盖了各种任务，如基于文本的聊天、指令聊天的九个声学属性和隐式聊天。WavReward在多个语音对话场景中表现优于以往的最先进的评估模型，在客观准确性上从55.1%显著提升到91.5%。在主观A/B测试中，WavReward也以83%的优势领先。全面的消融研究证实了WavReward每个组件的必要性。所有数据和代码将在论文被接受后公开发布。",
+        "地址": "https://arxiv.org/pdf/2505.09558.pdf"
+    },
+    {
+        "名称": "2025 [2505.09608] LightLab: Controlling Light Sources in Images with Diffusion Models.pdf",
+        "作者": "Nadav Magar, Amir Hertz, Eric Tabellion, Yael Pritch, Alex Rav-Acha, Ariel Shamir, Yedid Hoshen",
+        "摘要": "摘要: 我们提出了一种简单而有效的基于扩散的方法，用于在图像中对光源进行细粒度的参数控制。现有的重光照方法要么依赖于多个输入视图以在推理时执行逆渲染，要么无法提供对光变化的显式控制。我们的方法在一小组真实的原始照片对上微调扩散模型，并通过大规模合成渲染图像来引发其光照逼真先验。我们利用光线的线性特性来合成图像对，描述目标光源或环境照明的受控光变化。利用这些数据和适当的微调方案，我们训练了一种模型，用于精确的光照变化，并能显式控制光强和颜色。最后，我们展示了我们的方法如何实现引人注目的光编辑效果，并在用户偏好上优于现有方法。",
+        "地址": "https://arxiv.org/pdf/2505.09608.pdf"
+    },
+    {
+        "名称": "2025 [2505.09439] Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?.pdf",
+        "作者": "Andrew Rouditchenko, Saurabhchand Bhati, Edson Araujo, Samuel Thomas, Hilde Kuehne, Rogerio Feris, James Glass",
+        "摘要": "摘要: 我们提出了Omni-R1，它通过强化学习方法GRPO在音频问答数据集上微调了最近的多模态LLM，Qwen2.5-Omni。这在最新的MMAU基准上达到了新的最先进的性能。Omni-R1在声音、音乐、语音和总体平均类别上均获得了最高的准确率，无论是在Test-mini还是Test-full分割上。为了了解性能的提升，我们测试了有音频和无音频的模型，发现GRPO带来的大部分性能提升可以归因于更好的基于文本的推理。我们还惊讶地发现，在仅有文本的数据集上进行微调也有效地提高了基于音频的表现。",
+        "地址": "https://arxiv.org/pdf/2505.09439.pdf"
+    },
+    {
+        "名称": "2025 [2505.08455] VCRBench: Exploring Long-form Causal Reasoning Capabilities of Large Video Language Models.pdf",
+        "作者": "Pritam Sarkar, Ali Etemad",
+        "摘要": "摘要：尽管视频理解在最近有所进展，大型视频语言模型（LVLMs）在视频基础上的因果推理能力尚未得到充分探索，主要原因是缺乏相关的专门基准来评估在可视化和目标驱动环境中的因果推理能力。为弥补这一空白，我们引入了一个新的基准名为视频长篇因果推理(VCRBench)。我们使用简单日常活动的程序性视频创建了VCRBench，这些步骤被故意打乱，每个片段捕捉一个关键的因果事件，以测试LVLMs是否可以识别、推理并正确排序完成特定目标所需的事件。此外，该基准被精心设计以防止LVLMs利用多项选择或二元问答格式中的语言捷径，同时避免了评估开放式问答的挑战。我们对现有最先进的LVLMs在VCRBench上的评估表明，这些模型在基于视频的长篇因果推理方面表现困难，主要原因是它们难以直接从视觉观察中建模长距离因果关联。作为一种简单的使这种能力成为可能的方法，我们提出了识别-推理分解（RRD），一种将视频基础的因果推理分解为视频识别和因果推理两个子任务的模块化方法。我们在VCRBench上的实验表明RRD显著提高了VCRBench的准确性，增幅高达25.2%。最后，我们的深入分析揭示了一些有趣的见解，例如LVLMs主要依赖语言知识来完成复杂的基于视频的长篇因果推理解任务。\n\n翻译为中文：尽管视频理解在最近有所进展，大型视频语言模型（LVLMs）在视频基础上的因果推理能力尚未得到充分探索，主要原因是缺乏相关的专门基准来评估在可视化和目标驱动环境中的因果推理能力。为弥补这一空白，我们引入了一个新的基准名为视频长篇因果推理(VCRBench)。我们使用简单日常活动的程序性视频创建了VCRBench，这些步骤被故意打乱，每个片段捕捉一个关键的因果事件，以测试LVLMs是否可以识别、推理并正确排序完成特定目标所需的事件。此外，该基准被精心设计以防止LVLMs利用多项选择或二元问答格式中的语言捷径，同时避免了评估开放式问答的挑战。我们对现有最先进的LVLMs在VCRBench上的评估表明，这些模型在基于视频的长篇因果推理方面表现困难，主要原因是它们难以直接从视觉观察中建模长距离因果关联。作为一种简单的使这种能力成为可能的方法，我们提出了识别-推理分解（RRD），一种将视频基础的因果推理分解为视频识别和因果推理两个子任务的模块化方法。我们在VCRBench上的实验表明RRD显著提高了VCRBench的准确性，增幅高达25.2%。最后，我们的深入分析揭示了一些有趣的见解，例如LVLMs主要依赖语言知识来完成复杂的基于视频的长篇因果推理解任务。",
+        "地址": "https://arxiv.org/pdf/2505.08455.pdf"
+    },
+    {
+        "名称": "2025 [2505.04793] DetReIDX: A Stress-Test Dataset for Real-World UAV-Based Person Recognition.pdf",
+        "作者": "Kailash A. Hambarde, Nzakiese Mbongo, Pavan Kumar MP, Satish Mekewad, Carolina Fernandes, Gökhan Silahtaroğlu, Alice Nithya, Pawan Wasnik, MD. Rashidunnabi, Pranita Samale, Hugo Proença",
+        "摘要": "摘要：人重识别（ReID）技术在受控的地面条件下表现相对良好，但在部署于具有挑战性的现实环境中时却失效了。这显然是由于极端的数据变异因素，如分辨率、视角变换、尺度变化、遮挡以及因更换衣物或拍摄时间的不同而导致的外观变化。此外，公开可用的数据集未能现实地包含此类程度的变异，限制了该技术的进展。本文介绍了DetReIDX，这是一个大规模的空地人物数据集，专门设计用于在真实世界条件下对ReID进行压力测试。DetReIDX是一个多会话数据集，包括来自三个大洲七所大学校园收集的509个身份超过1300万个边界框，拍摄高度在5.8到120米之间。更重要的是，作为一个关键新颖点，DetReIDX的采集对象在不同天的至少两个会话中被记录，衣物、光照和位置都有变化，使得其适合实际评估长期人物重识别。此外，数据还包含16种软生物特征属性和多任务标签，用于检测、跟踪、ReID和动作识别。为了提供DetReIDX有用性的实证证据，我们考虑了人类检测和ReID的特定任务，当暴露于DetReIDX的条件下，现有的顶尖方法表现严重下降(检测精度下降高达80%, Rank-1 ReID下降超过70%)。数据集、注释和官方评估协议可在此HTTPS网址公开获取。",
+        "地址": "https://arxiv.org/pdf/2505.04793.pdf"
+    },
+    {
+        "名称": "2025 [2505.08910] Behind Maya: Building a Multilingual Vision Language Model.pdf",
+        "作者": "Nahid Alam, Karthik Reddy Kanjula, Surya Guthikonda, Timothy Chung, Bala Krishna S Vegesna, Abhipsha Das, Anthony Susevski, Ryan Sze-Yin Chan, S M Iftekhar Uddin, Shayekh Bin Islam, Roshan Santhosh, Snegha A, Drishti Sharma, Chen Liu, Isha Chaturvedi, Genta Indra Winata, Ashvanth.S, Snehanshu Mukherjee, Alham Fikri Aji",
+        "摘要": "摘要：近年来，我们看到了大规模视觉语言模型（VLMs）的迅速发展。它们在学术基准测试上表现出了令人印象深刻的结果，主要是在广泛使用的语言中，但在低资源语言和多样化的文化背景中表现欠佳。为了解决这些局限性，我们引入了Maya，一个开源的多语言VLM。我们的贡献是：1）一个基于LLaVA预训练数据集的八种语言的多语言图像-文本预训练数据集；以及2）一个支持这些语言的多语言图像-文本模型，在视觉语言任务中增强文化和语言理解。代码可在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2505.08910.pdf"
+    },
+    {
+        "名称": "2025 [2505.08084] Visually Interpretable Subtask Reasoning for Visual Question Answering.pdf",
+        "作者": "Yu Cheng, Arushi Goel, Hakan Bilen",
+        "摘要": "摘要：回答像“哪种红色家具可以用来坐？”这样复杂的视觉问题需要多步骤推理，包括物体识别、属性筛选和关系理解。近期的工作通过将任务分解为子任务程序来改进多模态大语言模型（MLLM）的可解释性，但由于缺乏对目标数据的良好适应性，这些方法既计算昂贵又缺乏准确性。为了解决这个问题，我们介绍了VISTAR（可视化可解释子任务感知推理模型），一个通过在MLLM中生成文本和视觉解释来增强可解释性和推理能力的子任务驱动训练框架。VISTAR不依赖于外部模型，而是微调MLLMs以生成结构化的“思维子任务”（逐步推理序列）。在两个基准测试上的实验表明，VISTAR在保持可解释性的同时一致地提高了推理准确性。我们的代码和数据集将在此HTTPS URL提供。\n\n作者：余成, Arushi Goel, Hakan Bilen\n\n标题：2025 [2505.08084] 面向视觉问答的可视化可解释子任务推理\n\nURL: https://arxiv.org/pdf/2505.08084.pdf",
+        "地址": "https://arxiv.org/pdf/2505.08084.pdf"
+    },
+    {
+        "名称": "2025 [2505.06356] Understanding and Mitigating Toxicity in Image-Text Pretraining Datasets: A Case Study on LLaVA.pdf",
+        "作者": "Karthik Reddy Kanjula, Surya Guthikonda, Nahid Alam, Shayekh Bin Islam",
+        "摘要": "摘要：预训练数据集是多模态模型发展的基础，但它们往往从其来源的大规模网络语料库中带有固有的偏见和有害内容。本文探讨了LLaVA图像-文本预训练数据集中毒性内容的普遍性，并研究了有害内容在不同模态中的体现方式。我们对常见的毒性类别进行了全面分析，并提出了有针对性的缓解策略，最终创建了一个经过改进的毒性缓解数据集。该数据集移除了LLaVA预训练数据集中7,531对有毒的图像-文本对。我们还提供了实现强大毒性检测流程的指南。我们的研究结果强调了积极识别和过滤有毒内容（如仇恨言论、露骨图像和针对性的骚扰）以构建更负责任和公平的多模态系统的必要性。这一经过毒性缓解的数据集是开源的，并可供进一步研究使用。\n\n论文标题：理解和缓解图像-文本预训练数据集中的毒性：LLaVA案例研究\n作者：Karthik Reddy Kanjula, Surya Guthikonda, Nahid Alam, Shayekh Bin Islam\n发表信息：已在ReGenAI CVPR2025 Workshop以口头报告形式接受\n网址：https://arxiv.org/pdf/2505.06356.pdf",
+        "地址": "https://arxiv.org/pdf/2505.06356.pdf"
+    },
+    {
+        "名称": "2025 [2505.05587] Steepest Descent Density Control for Compact 3D Gaussian Splatting.pdf",
+        "作者": "Peihao Wang, Yuehao Wang, Dilin Wang, Sreyas Mohan, Zhiwen Fan, Lemeng Wu, Ruisi Cai, Yu-Ying Yeh, Zhangyang Wang, Qiang Liu, Rakesh Ranjan",
+        "摘要": "摘要: 3D高斯散点(3DGS)作为一种强大的技术，已经在实时、高分辨率的新视图合成中得到广泛应用。通过将场景表示为高斯基元的混合体，3DGS利用GPU光栅化管线实现高效渲染和重建。为了优化场景覆盖并捕捉精细细节，3DGS采用了一种密化算法来生成额外的点。然而，这一过程通常会导致冗余点云，从而造成过量的内存使用、性能下降和大量的存储需求，这对资源受限的设备部署构成了重大挑战。为了解决这一限制，我们提出了一个理论框架，用于揭示和改善3DGS中的密度控制。我们的分析表明，分裂对于逃离鞍点至关重要。通过优化理论方法，我们建立了密化的必要条件，确定了最少数量的子高斯点，找到了最佳参数更新方向，并提供了规范化子高斯不透明度的解析解。在这些见解的基础上，我们引入了SteepGS，结合最陡密度控制，通过一种原则性策略，在保持紧凑点云的同时尽量减少损失。SteepGS在不影响渲染质量的情况下，实现了高斯点减少约50％，显著提高了效率和可扩展性。\n\n来源: CVPR 2025\n论文链接: [https://arxiv.org/pdf/2505.05587.pdf]\n作者: Peihao Wang, Yuehao Wang, Dilin Wang, Sreyas Mohan, Zhiwen Fan, Lemeng Wu, Ruisi Cai, Yu-Ying Yeh, Zhangyang Wang, Qiang Liu, Rakesh Ranjan",
+        "地址": "https://arxiv.org/pdf/2505.05587.pdf"
+    }
+]
