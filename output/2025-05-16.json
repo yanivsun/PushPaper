@@ -1,0 +1,164 @@
+[
+    {
+        "名称": "2025 [2505.10554] Beyond 'Aha!': Toward Systematic Meta-Abilities Alignment in Large Reasoning Models.pdf",
+        "作者": "Zhiyuan Hu, Yibo Wang, Hanze Dong, Yuhui Xu, Amrita Saha, Caiming Xiong, Bryan Hooi, Junnan Li",
+        "摘要": "摘要：大型推理模型（LRMs）已经具备了进行长链推理的潜在能力。之前的研究表明，以结果为基础的强化学习（RL）能偶然引发高级推理行为，如自我纠正、回溯和验证现象，这些现象通常被称为模型的\"顿悟时刻\"。然而，这些新兴行为的时机和一致性仍然是不可预测和不可控的，限制了LRMs推理能力的可扩展性和可靠性。为了解决这些限制，我们超越了对提示和偶然\"顿悟时刻\"的依赖。相反，我们通过自动生成的、自我验证的任务，明确地将模型对齐到三个元能力：演绎、归纳和溯因。我们通过三阶段管道：个体对齐、参数空间合并和领域特定的强化学习，提高了相对于指令调整基线超过10%的性能。此外，领域特定的RL从对齐的检查点出发，在数学、编码和科学基准测试中平均额外提升2%的性能表现，表明明确的元能力对齐提供了一个可扩展且可靠的推理基础。代码可在以下网址获取: https://arxiv.org/pdf/2505.10554.pdf",
+        "地址": "https://arxiv.org/pdf/2505.10554.pdf"
+    },
+    {
+        "名称": "2025 [2505.09666] System Prompt Optimization with Meta-Learning.pdf",
+        "作者": "Yumin Choi, Jinheon Baek, Sung Ju Hwang",
+        "摘要": "摘要：大语言模型（LLMs）展示了卓越的能力，优化输入提示在最大化其性能中起到了关键作用。然而，尽管LLM提示包括与任务无关的系统提示和与任务相关的用户提示，现有的提示优化工作主要集中在针对个别查询或任务的用户提示上，很少涉及一旦优化后可跨不同任务和领域应用的系统提示。有鉴于此，我们提出了新的双层系统提示优化问题，其目标是设计对各种用户提示具有鲁棒性的系统提示，并能迁移到未见过的任务中。为解决此问题，我们提出了一个元学习框架，通过在多个数据集上的各种用户提示中优化系统提示，同时以迭代方式更新用户提示以确保两者之间的协同作用。我们在涵盖5个不同领域的14个未见数据集上进行了实验，结果表明我们的方法生成的系统提示能有效泛化到各种用户提示。此外，我们的研究结果显示，优化后的系统提示即使面对未见的任务也能快速适应，在测试时用户提示需要更少的优化步骤，同时实现性能提升。\n\n作者：崔由珉，白振献，黄成柱\n\n链接：https://arxiv.org/pdf/2505.09666.pdf\n\n标题：2025 [2505.09666] 通过元学习进行系统提示优化",
+        "地址": "https://arxiv.org/pdf/2505.09666.pdf"
+    },
+    {
+        "名称": "2025 [2505.09723] EnerVerse-AC: Envisioning Embodied Environments with Action Condition.pdf",
+        "作者": "Yuxin Jiang, Shengcong Chen, Siyuan Huang, Liliang Chen, Pengfei Zhou, Yue Liao, Xindong He, Chiming Liu, Hongsheng Li, Maoqing Yao, Guanghui Ren",
+        "摘要": "摘要: 机器人模仿学习已从解决静态任务发展到应对动态交互场景，但由于需要与动态环境进行实时交互，测试和评估仍然昂贵且具有挑战性。我们提出了EnerVerse-AC (EVAC)，这是一种基于动作的世界模型，能够根据智能体预测的动作生成未来的视觉观察，从而实现逼真且可控的机器人推理。基于之前的架构，EVAC引入了多层次的动作条件机制和射线图编码，用于生成动态多视角图像，同时扩展了具有多样化失败轨迹的训练数据以提高泛化能力。作为数据引擎和评估器，EVAC将人类收集的轨迹扩展为多样化的数据集，并为策略测试生成逼真的、基于动作的视频观察，消除了对物理机器人或复杂仿真的需求。该方法在保持机器人操作评估高保真度的同时，显著降低了成本。大量实验验证了我们方法的有效性。代码、检查点和数据集可以在此：<this https URL 找到。",
+        "地址": "https://arxiv.org/pdf/2505.09723.pdf"
+    },
+    {
+        "名称": "2025 [2505.10475] Parallel Scaling Law for Language Models.pdf",
+        "作者": "Mouxiang Chen, Binyuan Hui, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Jianling Sun, Junyang Lin, Zhongxin Liu",
+        "摘要": "摘要: 普遍认为，扩展语言模型需要显著的空间或时间成本，增加参数（参数扩展）或输出标记（推理时间扩展）。我们引入了第三种推理效率更高的扩展范式：在训练和推理时增加模型的并行计算。我们对输入应用P种多样且可学习的变换，在模型的前向传递中并行执行，并动态聚合P种输出。这种方法，即并行扩展（ParScale），通过重用现有参数扩展并行计算，可应用于任何模型结构、优化过程、数据或任务。我们从理论上提出了一种新的扩展规律，并通过大规模预训练验证了它，结果显示具有P个并行流的模型类似于参数扩展O(log P)，同时显示出更优越的推理效率。例如，相较于实现相同性能提升的参数扩展，ParScale内存增加最多可减少22倍，延迟增加最多可减少6倍。它还可以通过在少量标记上进行后训练将现成的预训练模型转化为并行扩展模型，进一步降低训练预算。我们发现的新扩展规律有助于在低资源场景中部署更强大的模型，并为计算在机器学习中的角色提供了另类视角。",
+        "地址": "https://arxiv.org/pdf/2505.10475.pdf"
+    },
+    {
+        "名称": "2025 [2505.10185] The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a Reasoning Model will Think.pdf",
+        "作者": "Seongyun Lee, Seungone Kim, Minju Seo, Yongrae Jo, Dongyoung Go, Hyeonbin Hwang, Jinho Park, Xiang Yue, Sean Welleck, Graham Neubig, Moontae Lee, Minjoon Seo",
+        "摘要": "摘要：长的思维链（CoT）是有效利用现代大型语言模型的基本要素，但我们对这些能力背后的推理策略的理解仍然有限。虽然一些先前的工作试图使用预定义的策略类型来分类CoT，但这些方法受制于人类的直觉，无法捕捉到模型行为的全部多样性。在这项工作中，我们引入了CoT百科全书，这是一种自下而上的分析和引导模型推理的框架。我们的方法自动从模型生成的CoT中提取多样的推理标准，将它们嵌入到语义空间中，聚类成代表性类别，并得出对比评估标准来解释推理行为。人工评估显示，这一框架比现有方法能产生更具解释性和全面的分析。此外，我们证明了这种理解可以带来性能提升：我们能预测模型可能使用哪种策略并引导其采用更有效的替代方案。最后，我们提供了一些实践见解，例如训练数据格式（例如，自由形式与多项选择）对推理行为的影响远大于数据领域，这强调了格式感知模型设计的重要性。",
+        "地址": "https://arxiv.org/pdf/2505.10185.pdf"
+    },
+    {
+        "名称": "2025 [2505.09694] EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied World Models.pdf",
+        "作者": "Hu Yue, Siyuan Huang, Yue Liao, Shengcong Chen, Pengfei Zhou, Liliang Chen, Maoqing Yao, Guanghui Ren",
+        "摘要": "摘要：近年来，创意AI的进步使得能够根据语言指令合成高保真图像和视频。在这些发展的基础上，文本到视频扩散模型已演变为能够根据语言命令生成物理上合理场景的具身世界模型（EWMs），有效地在具身AI应用中连接了视觉和动作。本文解决了在评估EWMs时超越一般感知指标的关键挑战，以确保生成的行为在物理上是合理且动作一致的。我们提出了具身世界模型基准（EWMBench），这是一个专门的框架，用于根据视觉场景一致性、运动正确性和语义对齐三个关键方面来评估EWMs。我们的方法利用了精心策划的数据集，涵盖了多样化的场景和运动模式，以及综合的多维度评估工具包，以评估和比较候选模型。提出的基准不仅识别了现有视频生成模型在满足具身任务特有要求方面的局限性，还提供了宝贵的见解来指导该领域未来的进步。数据集和评估工具公开在此链接（https URL）处提供。",
+        "地址": "https://arxiv.org/pdf/2505.09694.pdf"
+    },
+    {
+        "名称": "2025 [2505.10562] End-to-End Vision Tokenizer Tuning.pdf",
+        "作者": "Wenxuan Wang, Fan Zhang, Yufeng Cui, Haiwen Diao, Zhuoyan Luo, Huchuan Lu, Jing Liu, Xinlong Wang",
+        "摘要": "摘要：现有的视觉标记化方法将视觉标记器的优化与下游训练隔离开来，隐含假设视觉标记可以在各种任务（如图像生成和视觉问答）中很好地泛化。为低级重建而优化的视觉标记器对需要各种表示和语义的下游任务是不敏感的。这种解耦的模式引入了一个关键的不对齐：视觉标记化的损失可能成为目标任务的表示瓶颈。例如，在给定图像中对文字进行标记时出现错误，会导致在识别或生成时的结果较差。为了解决这个问题，我们提出了ETT，一种端到端的视觉标记器调优方法，使视觉标记化与目标自回归任务之间可以进行联合优化。与之前只使用冻结的视觉标记器离散索引的自回归模型不同，ETT利用标记器码书的视觉嵌入，并通过重建和标题目标对视觉标记器进行端到端的优化。ETT可以无缝集成到现有的训练流水线中，所需的架构修改极小。我们的ETT易于实现和集成，无需调整所使用的大型语言模型的原始码书或架构。大量实验表明，我们提出的端到端视觉标记器调优解锁了显著的性能提升，即相比冻结标记器基线在多模态理解和视觉生成任务上有2-6%的提升，同时保持了原有的重建能力。我们希望这种非常简单且强大的方法能够在图像生成和理解之外，赋能多模态基础模型。",
+        "地址": "https://arxiv.org/pdf/2505.10562.pdf"
+    },
+    {
+        "名称": "2025 [2505.10527] WorldPM: Scaling Human Preference Modeling.pdf",
+        "作者": "Binghai Wang, Runji Lin, Keming Lu, Le Yu, Zhenru Zhang, Fei Huang, Chujie Zheng, Kai Dang, Yang Fan, Xingzhang Ren, An Yang, Binyuan Hui, Dayiheng Liu, Tao Gui, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang, Bowen Yu, Jingren Zhou, Junyang Lin",
+        "摘要": "2025年 [2505.10527] WorldPM: 扩展人类偏好建模.pdf\n摘要: 受语言模型中的缩放法则启发，这些法则表明测试损失随着模型和数据集大小以幂律扩展，我们发现类似的法则也存在于偏好建模中。我们提出了World Preference Modeling（WorldPM）来强调这种扩展潜力，其中World Preference体现了人类偏好的统一表示。在本文中，我们从覆盖不同用户社区的公共论坛收集偏好数据，并针对从1.5B到72B参数的模型，使用1500万规模的数据进行广泛的训练。我们观察到不同评估指标的不同模式：(1) 对抗性指标（识别欺骗性特征的能力）随着训练数据和基础模型规模的增加而一致扩展；(2) 客观性指标（具有明确答案的客观知识）在较大的语言模型中显示出突发行为，突显了WorldPM的扩展潜力；(3) 主观性指标（来自少数人类或AI的主观偏好）未显示扩展趋势。进一步的实验验证了WorldPM作为偏好微调基础的有效性。通过对7个基准测试的20个子任务进行评估，我们发现WorldPM普遍提高了不同规模（7K、100K和800K样本）的人类偏好数据集的泛化性能，在许多关键子任务上性能提升超过5%。将WorldPM整合到我们内部的RLHF（强化学习奖励塑造）管道中，我们在内部和公共评估集上都观察到了显著的改进，在内部评估中取得了4%到8%的显著提升。",
+        "地址": "https://arxiv.org/pdf/2505.10527.pdf"
+    },
+    {
+        "名称": "2025 [2505.07782] MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering.pdf",
+        "作者": "Rushi Qiang, Yuchen Zhuang, Yinghao Li, Dingu Sagar V K, Rongzhi Zhang, Changhao Li, Ian Shu-Hei Wong, Sherry Yang, Percy Liang, Chao Zhang, Bo Dai",
+        "摘要": "摘要: 我们引入了MLE-Dojo，这是一个类似于Gym的框架，用于系统性地强化学习、评估和改进在迭代机器学习工程（MLE）工作流中的自主大型语言模型（LLM）代理。与主要依赖于静态数据集或单次评估的现有基准不同，MLE-Dojo 提供了一个互动环境，使代理能够通过结构化的反馈循环反复试验、调试和完善解决方案。MLE-Dojo基于200多个真实的Kaggle挑战，涵盖了各种开放式MLE任务，这些任务经过精心挑选，以反映现实的工程情景，如数据处理、架构搜索、超参数调整和代码调试。其全可执行环境通过有监督的微调和强化学习支持全面的代理训练，促进迭代实验、现实数据采样和实时结果验证。对八个前沿LLM的广泛评估表明，虽然当前模型在实现有意义的迭代改进方面取得了进展，但在自主生成长期解决方案和有效解决复杂错误方面仍存在显著限制。此外，MLE-Dojo的灵活和可扩展的架构无缝集成了各种数据源、工具和评估协议，独特地支持基于模型的代理调优，并促进互操作性、可扩展性和可重复性。我们将开源我们的框架和基准，以促进以社区驱动的创新，迈向下一代MLE代理。",
+        "地址": "https://arxiv.org/pdf/2505.07782.pdf"
+    },
+    {
+        "名称": "2025 [2505.06027] Unilogit: Robust Machine Unlearning for LLMs Using Uniform-Target Self-Distillation.pdf",
+        "作者": "Stefan Vasilev, Christian Herold, Baohao Liao, Seyyed Hadi Hashemi, Shahram Khadivi, Christof Monz",
+        "摘要": "摘要: 本论文介绍了 Unilogit，这是一种用于大型语言模型中机器遗忘的创新型自蒸馏方法。Unilogit 解决了在保持整体模型效用的同时选择性遗忘特定信息的难题，这是遵循 GDPR 等数据隐私法规的关键任务。与依赖静态超参数或初始模型输出的之前方法不同，Unilogit 动态调整目标 logits，以实现目标代币的统一概率，利用当前模型的输出来生成更准确的自蒸馏目标。该方法不仅消除了额外超参数的需求，还增强了模型逼近黄金目标的能力。公共基准测试和内部电子商务数据集上的广泛实验表明，Unilogit 在平衡遗忘和保留目标方面表现优异，超过了NPO和UnDIAL等最先进的方法。我们的分析进一步揭示了 Unilogit 在各种场景中的鲁棒性，突出了其在实现高效机器遗忘方面的实际适用性和有效性。",
+        "地址": "https://arxiv.org/pdf/2505.06027.pdf"
+    },
+    {
+        "名称": "2025 [2505.10320] J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning.pdf",
+        "作者": "Chenxi Whitehouse, Tianlu Wang, Ping Yu, Xian Li, Jason Weston, Ilia Kulikov, Swarnadeep Saha",
+        "摘要": "摘要：人工智能的发展受到评估质量的限制，而强大的“作为裁判的LLM”模型被证明是核心解决方案。通过更强的链式推理提高判断能力，促使人们需要找到训练这些模型进行思考的最佳方法。在这项工作中，我们介绍了J1，这是一种训练此类模型的强化学习方法。我们的方法将可验证和不可验证的提示转换为具有可验证奖励的判断任务，这些奖励鼓励思考并减少判断偏差。特别是，我们的方法在训练8B或70B规模的模型时，表现优于其他所有现有模型，包括从DeepSeek-R1提取的模型。J1在某些基准测试中甚至优于o1-mini，甚至优于R1，尽管训练体积较小。我们提供了配对与单点J1模型、离线与在线训练方法、奖励策略、种子提示、思维长度和内容变化之间的比较和消融分析。我们发现我们的模型通过学习列出评估标准、与自生成的参考答案进行比较以及重新评估模型响应的正确性来做出更好的判断。\n\n作者：Chenxi Whitehouse, Tianlu Wang, Ping Yu, Xian Li, Jason Weston, Ilia Kulikov, Swarnadeep Saha\n\n备注：10页，8个表，11个图\n\n链接：https://arxiv.org/pdf/2505.10320.pdf\n\n标题：J1：通过强化学习奖励“作为裁判的LLM”进行思考",
+        "地址": "https://arxiv.org/pdf/2505.10320.pdf"
+    },
+    {
+        "名称": "2025 [2505.09990] PointArena: Probing Multimodal Grounding Through Language-Guided Pointing.pdf",
+        "作者": "Long Cheng, Jiafei Duan, Yi Ru Wang, Haoquan Fang, Boyang Li, Yushan Huang, Elvis Wang, Ainaz Eftekhar, Jason Lee, Wentao Yuan, Rose Hendrix, Noah A. Smith, Fei Xia, Dieter Fox, Ranjay Krishna",
+        "摘要": "摘要：指向是一种将语言与视觉背景联系起来的基本且直观的机制，广泛应用于机器人技术、辅助技术和互动人工智能系统。尽管最近的多模态模型已经开始支持指向功能，但现有的基准测试通常只关注参考性物体定位任务。我们介绍了PointArena，一个用于评估多模态指向在各种推理场景中的平台。PointArena由三个部分组成：（1）Point-Bench，一个包含大约1,000个指向任务的精选数据集，涵盖五个推理类别；（2）Point-Battle，一个互动的网页竞技场，用于盲目、成对比较模型，已收集了超过4,500个匿名投票；（3）Point-Act，一个让用户在实际环境中直接评估多模态模型指向能力的真实机器人操控系统。我们对最先进的开源和专有多模态模型进行了广泛评估。结果表明，Molmo-72B模型始终表现优异，尽管专有模型越来越显示出相当的性能。此外，我们发现专门针对指向任务进行的监督训练显著提高了模型表现。在我们的多阶段评估过程中，我们还观察到强相关性，强调了精确指向能力在使多模态模型有效地将抽象推理与具体的真实世界行动联系起来方面的重要作用。项目页面：https this URL\n\n翻译后的中文摘要：指向是一种将语言与视觉背景联系起来的基本且直观的机制，广泛应用于机器人技术、辅助技术和互动人工智能系统。尽管最近的多模态模型已经开始支持指向功能，但现有的基准测试通常只关注参考性物体定位任务。我们介绍了PointArena，一个用于评估多模态指向在各种推理场景中的平台。PointArena由三个部分组成：（1）Point-Bench，一个包含大约1,000个指向任务的精选数据集，涵盖五个推理类别；（2）Point-Battle，一个互动的网页竞技场，用于盲目、成对比较模型，已收集了超过4,500个匿名投票；（3）Point-Act，一个让用户在实际环境中直接评估多模态模型指向能力的真实机器人操控系统。我们对最先进的开源和专有多模态模型进行了广泛评估。结果表明，Molmo-72B模型始终表现优异，尽管专有模型越来越显示出相当的性能。此外，我们发现专门针对指向任务进行的监督训练显著提高了模型表现。在我们的多阶段评估过程中，我们还观察到强相关性，强调了精确指向能力在使多模态模型有效地将抽象推理与具体的真实世界行动联系起来方面的重要作用。项目页面：https this URL",
+        "地址": "https://arxiv.org/pdf/2505.09990.pdf"
+    },
+    {
+        "名称": "2025 [2505.10565] Depth Anything with Any Prior.pdf",
+        "作者": "Zehan Wang, Siyu Chen, Lihe Yang, Jialei Wang, Ziang Zhang, Hengshuang Zhao, Zhou Zhao",
+        "摘要": "摘要：本文提出了一种名为Prior Depth Anything的框架，该框架结合了深度测量中的不完整但精确的度量信息与深度预测中的相对但完整的几何结构，生成准确、密集和详细的任何场景的度量深度图。为此，我们设计了一个由粗到细的流程，以逐步整合这两种互补的深度资源。首先，我们引入像素级度量对齐和距离感知加权，通过显式使用深度预测来预填充各种度量先验，有效缩小了先验模式之间的域差距，提高了在不同场景中的泛化能力。其次，我们开发了一种条件单目深度估计（MDE）模型，以细化深度先验的内在噪声。通过对归一化的预填充先验和预测进行条件处理，该模型进一步隐式融合了这两种互补的深度资源。我们的模型在7个真实世界数据集上的深度补全、超分辨率和修复任务中展示了令人印象深刻的零样本泛化性能，匹配甚至超越了以往的特定任务方法。更重要的是，它在具有挑战性的、未见过的混合先验上表现良好，并通过切换预测模型实现测试时改进，提供了灵活的准确性和效率折衷，同时随着MDE模型的进步不断演进。\n\n作者：王泽瀚、陈思宇、杨立鹤、王嘉雷、张子昂、赵恒双、赵洲\n\n评论：主页：此https URL\n\n网址：https://arxiv.org/pdf/2505.10565.pdf\n\n标题：2025 [2505.10565] Depth Anything with Any Prior.pdf",
+        "地址": "https://arxiv.org/pdf/2505.10565.pdf"
+    },
+    {
+        "名称": "2025 [2505.10558] Style Customization of Text-to-Vector Generation with Image Diffusion Priors.pdf",
+        "作者": "Peiying Zhang, Nanxuan Zhao, Jing Liao",
+        "摘要": "摘要: 可缩放矢量图形 (SVG) 因其分辨率无关性和层次结构良好而受到设计师的青睐。尽管现有的文本到矢量 (T2V) 生成方法可以根据文本提示创建 SVG，但它们往往忽略了实际应用中的一个重要需求：样式定制，这对于生成具有一致视觉外观和一致美感的矢量图形集至关重要。扩展现有的 T2V 方法以实现样式定制面临一些挑战。基于优化的 T2V 模型可以利用文本到图像 (T2I) 模型的先验知识进行定制，但难以维持结构的规则性。另一方面，前馈 T2V 模型可以确保结构规则性，但由于 SVG 训练数据有限，它们在区分内容和样式时遇到困难。\n为了解决这些挑战，我们提出了一种用于 SVG 生成的两阶段新型样式定制管道，利用了前馈 T2V 模型和 T2I 图像先验模型的优势。在第一阶段，我们训练了一个具有路径级表示的 T2V 扩散模型，以确保 SVG 的结构规则性，同时保持多样化的表达能力。在第二阶段，我们通过蒸馏定制的 T2I 模型来定制 T2V 扩散模型的不同样式。通过整合这些技术，我们的管道可以基于文本提示以高效的前馈方式生成具有定制样式的高质量和多样化的 SVG。我们的方法的有效性已通过广泛的实验得到了验证。项目页面为此 https URL。",
+        "地址": "https://arxiv.org/pdf/2505.10558.pdf"
+    },
+    {
+        "名称": "2025 [2505.09738] Achieving Tokenizer Flexibility in Language Models through Heuristic Adaptation and Supertoken Learning.pdf",
+        "作者": "Shaurya Sharthak, Vinayak Pahalwan, Adithya Kamath, Adarsh Shirawalmath",
+        "摘要": "摘要：预训练语言模型（LLMs）通常受到其固定的标记化方案的限制，导致在多语言或专业应用中的效率低下和性能限制。这种标记器锁定带来了重大挑战。克服这一问题的标准方法通常需要高昂的计算资源。虽然使用启发式初始化的标记器替换旨在减少这种负担，但现有方法通常需要进行详尽的残差微调，且可能无法完全保留语义细微差别或充分解决潜在的压缩效率低下问题。我们的框架引入了两个创新：首先，Tokenadapt，这是一种与模型无关的标记器移植方法；其次，新的多词超级标记预标记学习，以增强压缩能力并减少碎片化。Tokenadapt通过一种结合两种方法的混合启发式方法初始化新的唯一标记嵌入：一种基于使用旧标记器的子词分解的局部估计，以及利用原始词汇表中前k个语义相似标记的全局估计。这种方法旨在保留语义，同时显著减少重新训练需求。实证调查验证了这两项贡献：移植启发式方法成功地初始化了唯一标记，明显优于传统基线和包括Transtokenizer和ReTok在内的复杂方法，而我们的超级标记实现了显著的压缩增益。我们的零样本困惑度结果表明，TokenAdapt混合初始化在不同基模型和新训练的目标标记器中，相比ReTok和TransTokenizer基线持续产生较低的困惑度比率。TokenAdapt通常显著降低了总体困惑度比率，相比ReTok至少提高了两倍的综合评分。\n\n作者：Shaurya Sharthak, Vinayak Pahalwan, Adithya Kamath, Adarsh Shirawalmath\n\n链接：https://arxiv.org/pdf/2505.09738.pdf\n\n标题：2025年 [2505.09738] 通过启发式适应和超级标记学习实现语言模型的标记器灵活性",
+        "地址": "https://arxiv.org/pdf/2505.09738.pdf"
+    },
+    {
+        "名称": "2025 [2505.08617] OpenThinkIMG: Learning to Think with Images via Visual Tool Reinforcement Learning.pdf",
+        "作者": "Zhaochen Su, Linjie Li, Mingyang Song, Yunzhuo Hao, Zhengyuan Yang, Jun Zhang, Guanjie Chen, Jiawei Gu, Juntao Li, Xiaoye Qu, Yu Cheng",
+        "摘要": "摘要：尽管人类能够灵活地利用互动视觉认知解决复杂问题，使大型视觉语言模型（LVLMs）学会类似的适应性行为仍具有挑战性。当前标准化基础设施的缺乏是一个显著的障碍，它阻碍了集成各种工具、生成丰富的交互数据和有效训练稳健代理。为了解决这些问题，我们推出了OpenThinkIMG，这是第一个开源的、全面的端到端框架，用于工具增强的LVLMs。它具有标准化的视觉工具接口、可扩展的轨迹生成用于策略初始化和灵活的训练环境。此外，考虑到静态示范的监督微调（SFT）在动态工具调用方面提供有限的策略泛化，我们提出了一个新颖的强化学习（RL）框架V-ToolRL，以训练LVLMs学习适应性策略来调用外部视觉工具。V-ToolRL使LVLMs能够通过直接优化任务成功率并利用工具交互反馈自主发现最佳工具使用策略。我们在复杂的图表推理任务上实证验证了V-ToolRL。我们基于Qwen2-VL-2B训练的RL代理显著优于使用SFT初始化的同行（+28.83分），并且胜过已经建立的监督工具学习基准如Taco和CogCom（平均+12.7分）。值得注意的是，它也超过了著名的闭源模型如GPT-4.1（+8.68准确度分）。我们希望OpenThinkIMG能作为推进动态、工具增强视觉推理的基础框架，帮助社区开发能够真正“用图像思考”的AI代理。\n\n作者：Zhaochen Su, Linjie Li, Mingyang Song, Yunzhuo Hao, Zhengyuan Yang, Jun Zhang, Guanjie Chen, Jiawei Gu, Juntao Li, Xiaoye Qu, Yu Cheng\n\n评论：进行中的工作\n\n网址：https://arxiv.org/pdf/2505.08617.pdf\n\n标题：2025 [2505.08617] OpenThinkIMG: 通过视觉工具强化学习学会用图像思考",
+        "地址": "https://arxiv.org/pdf/2505.08617.pdf"
+    },
+    {
+        "名称": "2025 [2505.08581] ReSurgSAM2: Referring Segment Anything in Surgical Video via Credible Long-term Tracking.pdf",
+        "作者": "Haofeng Liu, Mingqi Gao, Xuxiao Luo, Ziyue Wang, Guanyi Qin, Junde Wu, Yueming Jin",
+        "摘要": "摘要:手术场景分割是计算机辅助手术中的关键技术，对于提高手术质量和患者疗效至关重要。最近，引用手术分割因其为外科医生提供的交互式体验而备受关注，可以帮助他们分割目标对象。然而，现有方法由于低效率和短期跟踪的限制，难以在复杂的现实手术场景中应用。在本文中，我们提出了ReSurgSAM2，一个两阶段的手术引用分割框架，利用Segment Anything Model 2进行文本引用的目标检测，随后通过可靠的初始帧识别和多样性驱动的长期记忆进行跟踪。在检测阶段，我们提出了一种跨模态时空Mamba，以生成精确的检测和分割结果。基于这些结果，我们可靠的初始帧选择策略能够识别后续跟踪所需的可靠帧。在选择初始帧后，我们的方法过渡到跟踪阶段，整合了一个多样性驱动的记忆机制，保持可靠且多样化的记忆库，确保一致的长期跟踪。大量实验表明，与现有方法相比，ReSurgSAM2在准确性和效率上有显著提升，实时运行速度达到61.2帧每秒。我们的代码和数据集将在此https URL提供。",
+        "地址": "https://arxiv.org/pdf/2505.08581.pdf"
+    },
+    {
+        "名称": "2025 [2505.10167] QuXAI: Explainers for Hybrid Quantum Machine Learning Models.pdf",
+        "作者": "Saikat Barua, Mostafizur Rahman, Shehenaz Khaled, Md Jafor Sadek, Rafiul Islam, Shahnewaz Siddique",
+        "摘要": "摘要：混合量子-经典机器学习（HQML）模型的出现为计算智能开启了新的前景，但其根本复杂性常常导致“黑箱”行为，破坏了其应用中的透明度和可靠性。尽管量子系统的可解释人工智能（XAI）仍处于初期阶段，但在为量子特征编码后进行经典学习的HQML架构设计强大的全局和局部可解释性方法方面存在显著的研究缺口。这一缺口正是本文研究的重点，介绍了一种基于Q-MEDLEY的框架QuXAI，它解释了在这些混合系统中特征重要性。我们的模型包含了量子特征映射的HQML模型的创建，使用了Q-MEDLEY，它结合了基于特征的推断，保留了量子转换阶段并可视化结果属性。我们的结果表明，Q-MEDLEY细化了HQML模型中有影响的经典部分，并将其噪声分离开来，同时在经典验证设置中与既定的XAI技术表现相当。消融研究更显著地揭示了Q-MEDLEY中所使用的复合结构的优点。这项工作的意义至关重要，因为它提供了一条改善HQML模型可解释性和可靠性的途径，从而提高信心，使得能够以更安全和更负责任的方式使用量子增强的AI技术。",
+        "地址": "https://arxiv.org/pdf/2505.10167.pdf"
+    },
+    {
+        "名称": "2025 [2505.10566] 3D-Fixup: Advancing Photo Editing with 3D Priors.pdf",
+        "作者": "Yen-Chi Cheng, Krishna Kumar Singh, Jae Shin Yoon, Alex Schwing, Liangyan Gui, Matheus Gadelha, Paul Guerrero, Nanxuan Zhao",
+        "摘要": "2025年[2505.10566] 3D-Fixup: 利用3D先验推进照片编辑\n\n摘要: 尽管在通过扩散模型建模图像先验方面取得了显著进展，但三维感知图像编辑仍然具有挑战性，部分原因是对象仅通过单个图像来指定。为了解决这一挑战，我们提出了3D-Fixup，这是一种通过学习所得的3D先验来指导2D图像编辑的新框架。该框架支持诸如对象平移和3D旋转等复杂的编辑情境。为实现这一目标，我们采用了一种基于训练的方法，利用扩散模型的生成能力。由于视频数据自然地编码了现实世界的物理动态，我们将视频数据用于生成训练数据对，即源帧和目标帧。我们不仅依赖单个训练模型来推断源帧与目标帧之间的转换，还结合了来自图像到3D模型的3D引导，通过明确地将2D信息投射到3D空间来弥合这一具有挑战性的任务。我们设计了一个数据生成管道，以确保在整个训练过程中提供高质量的3D引导。结果表明，通过整合这些3D先验，3D-Fixup能够有效支持复杂的、身份一致的3D感知编辑，获得高质量的结果，并在现实图像处理应用中推进了扩散模型的应用。代码可在此网址获取。\n\n作者: Yen-Chi Cheng, Krishna Kumar Singh, Jae Shin Yoon, Alex Schwing, Liangyan Gui, Matheus Gadelha, Paul Guerrero, Nanxuan Zhao\n\n评论: SIGGRAPH 2025. 项目页面: 此 https URL\n\n网址: https://arxiv.org/pdf/2505.10566.pdf",
+        "地址": "https://arxiv.org/pdf/2505.10566.pdf"
+    },
+    {
+        "名称": "2025 [2505.10046] Exploring the Deep Fusion of Large Language Models and Diffusion Transformers for Text-to-Image Synthesis.pdf",
+        "作者": "Bingda Tang, Boyang Zheng, Xichen Pan, Sayak Paul, Saining Xie",
+        "摘要": "这篇论文没有描述一种新的方法；相反，它对一个重要但尚未充分研究的设计空间进行了全面探索，该设计空间与文本到图像合成的最新进展有关——具体来说，是大语言模型(LLMs)和扩散变压器(DiTs)在多模态生成中的深度融合。以前的研究主要集中在整体系统性能上，而不是与替代方法的详细比较，并且关键的设计细节和训练配方往往没有披露。这些缺口给这种方法的实际潜力带来了不确定性。为了填补这些空白，我们对文本到图像生成进行了实证研究，进行了与已建立基准的对照比较，分析了重要的设计选择，并提供了一个清晰的、可复制的大规模训练配方。我们希望这项工作为未来的多模态生成研究提供有意义的数据点和实用的指导方针。",
+        "地址": "https://arxiv.org/pdf/2505.10046.pdf"
+    },
+    {
+        "名称": "2025 [2505.09926] AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection.pdf",
+        "作者": "Bin-Bin Gao, Yue Zhu, Jiangtao Yan, Yuezhi Cai, Weixi Zhang, Meng Wang, Jun Liu, Yong Liu, Lei Wang, Chengjie Wang",
+        "摘要": "摘要：\n通用视觉异常检测旨在在没有额外微调的情况下从新的或未见过的视觉领域中识别异常，这在开放场景中是至关重要的。最近的研究表明，像CLIP这样的预训练视觉-语言模型即使只有零或少量正常图像，也表现出很强的泛化能力。然而，现有的方法在设计提示模板、复杂的标记交互或者需要额外的微调方面存在困难，导致灵活性有限。在这项工作中，我们提出了一种简单但有效的方法，称为AdaptCLIP，其基于两个关键见解。首先，应交替而非联合学习自适应视觉和文本表征。其次，在查询和正常图像提示之间的比较学习应结合上下文特征和对齐残余特征，而不仅仅依赖残余特征。AdaptCLIP将CLIP模型视为基础服务，仅在其输入或输出端添加三个简单的适配器：视觉适配器、文本适配器和提示查询适配器。AdaptCLIP在域间支持零/少量样本泛化，并且一旦在基本数据集上训练完成，在目标域上无需训练即能运行。AdaptCLIP在来自工业和医疗领域的12个异常检测基准上达到了最先进的性能，显著超越了现有的竞争方法。我们将公开AdaptCLIP的代码和模型。\n\n作者：\n高彬彬, 朱悦, 严江涛, 蔡月之, 张伟西, 王猛, 刘俊, 刘勇, 王雷, 王成杰\n\n评论：\n27页，15张图，22个表格\n\n链接：\nhttps://arxiv.org/pdf/2505.09926.pdf\n\n标题：\nAdaptCLIP：适应CLIP进行通用视觉异常检测",
+        "地址": "https://arxiv.org/pdf/2505.09926.pdf"
+    },
+    {
+        "名称": "2025 [2505.09265] MetaUAS: Universal Anomaly Segmentation with One-Prompt Meta-Learning.pdf",
+        "作者": "Bin-Bin Gao",
+        "摘要": "摘要：\n零样本和少样本视觉异常分割依赖于强大的视觉-语言模型，这些模型使用手动设计的文本提示来检测未见过的异常。然而，视觉表示本质上与语言独立。在本文中，我们探讨了纯视觉基础模型作为广泛使用的视觉-语言模型替代方案的潜力，用于通用视觉异常分割。我们提出了一种将异常分割统一为变化分割的新范式。该范式使我们能够利用大规模的合成图像对，这些图像对展示了从现有图像数据集中派生的对象级和局部区域变化，它们独立于目标异常数据集。我们提出了一种用于通用异常分割的单提示元学习框架（MetaUAS），该框架在此合成数据集上训练，然后很好地泛化以分割现实世界中任何新颖或未见过的视觉异常。为处理提示图像和查询图像之间的几何变化，我们提出了一种软特征对齐模块，该模块在配对图像变化感知和单图像语义分割之间架起了桥梁。这是第一个使用纯视觉模型在不依赖特殊异常检测数据集和预训练的视觉-语言模型的情况下实现通用异常分割的工作。我们的方法仅需一个正常图像提示即可有效且高效地分割任何异常，并且无需语言指导即可进行训练。我们的MetaUAS显著优于之前的零样本、少样本甚至全样本异常分割方法。代码和预训练模型可在此网址获取。\n\nTitle: MetaUAS: Universal Anomaly Segmentation with One-Prompt Meta-Learning\nAuthors: Bin-Bin Gao\nYear: 2025\nComments: Accepted by NeurIPS 2024\nURL: https://arxiv.org/pdf/2505.09265.pdf",
+        "地址": "https://arxiv.org/pdf/2505.09265.pdf"
+    },
+    {
+        "名称": "2025 [2505.09264] Learning to Detect Multi-class Anomalies with Just One Normal Image Prompt.pdf",
+        "作者": "Bin-Bin Gao",
+        "摘要": "摘要：使用自注意力变压器的无监督重建网络在多类（统一）异常检测中，通过单个模型实现了最先进的性能。然而，这些自注意力重建模型主要操作在目标特征上，这可能由于与上下文的一致性过高，导致正常和异常特征都被完美重建，从而无法检测异常。此外，由于在低空间分辨率的潜在空间中进行重建，这些模型通常会产生不准确的异常分割。为了使重建模型在多类异常检测中享受高效性，同时提高其泛化能力，我们提出了一种简单而有效的方法，只用一个正常图像提示（OneNIP）来重建正常特征并恢复异常特征。与之前的工作相比，OneNIP首次允许通过一个正常图像提示来重建或恢复异常，大幅提升了统一异常检测性能。此外，我们提出了一种监督精炼器，利用真实的正常图像和合成的异常图像来回归重建误差，这显著提高了像素级的异常分割性能。在三个工业异常检测基准（MVTec、BTAD和VisA）上，OneNIP都优于之前的方法。代码和预训练模型可以在此网址获取。\n\n备注：本文已被ECCV 2024接收。\n链接：https://arxiv.org/pdf/2505.09264.pdf\n作者：Bin-Bin Gao\n标题：2025 [2505.09264] 学习用一个正常图像提示检测多类异常",
+        "地址": "https://arxiv.org/pdf/2505.09264.pdf"
+    },
+    {
+        "名称": "2025 [2505.09263] Few-Shot Anomaly-Driven Generation for Anomaly Classification and Segmentation.pdf",
+        "作者": "Guan Gui, Bin-Bin Gao, Jun Liu, Chengjie Wang, Yunsheng Wu",
+        "摘要": "摘要: 异常检测是一项具有实际意义且充满挑战的任务，因为工业检测中异常样本稀缺。现有的一些异常检测方法通过噪声或外部数据合成异常样本来解决这个问题。然而，合成样本与真实世界异常样本之间存在很大的语义差距，导致异常检测效果较差。为了解决这个问题，我们提出了一种小样本异常驱动生成（AnoGen）方法，它通过指导扩散模型用少量真实异常生成逼真且多样的异常，从而有助于训练异常检测模型。具体来说，我们的工作分为三个阶段。在第一阶段，我们基于少量给定的真实异常学习异常分布，并将学习到的知识注入嵌入向量中。在第二阶段，我们使用嵌入向量和给定的边界框来指导扩散模型在特定对象（或纹理）上生成逼真且多样的异常样本。在最后阶段，我们提出了一种弱监督异常检测方法，利用生成的异常样本训练一个更强大的模型。我们的方法基于DRAEM和DesTSeg作为基础模型，并在常用的工业异常检测数据集MVTec上进行了实验。实验表明，我们生成的异常样本有效地同时提高了模型在异常分类和分割任务中的性能，例如，DRAEM和DesTSeg在分割任务中的AU-PR指标分别提升了5.8%和1.5%。代码和生成的异常数据可在此https网址中获取。",
+        "地址": "https://arxiv.org/pdf/2505.09263.pdf"
+    },
+    {
+        "名称": "2025 [2505.10468] AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenge.pdf",
+        "作者": "Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee",
+        "摘要": "摘要：本研究对AI代理（AI Agents）与代理性AI（Agentic AI）进行了批判性区分，提供了一个结构化的概念分类、应用映射和挑战分析，以澄清它们不同的设计理念和能力。我们首先概述了搜索策略和基础定义，描述了AI代理作为由大型语言模型（LLMs）和大型图像模型（LIMs）驱动的模块化系统，用于狭窄的、特定任务的自动化。生成式AI被定位为先驱，AI代理通过工具集成、提示工程和推理增强技术不断进步。相比之下，代理性AI系统代表了一种范式转变，标志着多代理协作、动态任务分解、持久记忆和协调自治。通过对架构演变、操作机制、交互方式和自治水平的顺序评估，我们对两种范式进行了比较分析。客户支持、日程安排和数据总结等应用领域与在研究自动化、机器人协调和医疗决策支持中的代理性AI部署进行了对比。我们还进一步探讨了每个范式中的独特挑战，包括幻觉、脆弱性、突现行为和协调失败，并提出了针对性的解决方案，如ReAct循环、RAG、协调层和因果建模。本文旨在为开发可靠、可扩展和可解释的AI代理和代理性AI驱动系统提供一个明确的路线图。\n\n全文链接：https://arxiv.org/pdf/2505.10468.pdf\n作者：Ranjan Sapkota、Konstantinos I. Roumeliotis、Manoj Karkee",
+        "地址": "https://arxiv.org/pdf/2505.10468.pdf"
+    },
+    {
+        "名称": "2025 [2505.09601] Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware.pdf",
+        "作者": "Justin Yu, Letian Fu, Huang Huang, Karim El-Refai, Rares Andrei Ambrus, Richard Cheng, Muhammad Zubair Irshad, Ken Goldberg",
+        "摘要": "摘要: 扩展机器人学习需要大量而多样化的数据集。然而，目前流行的数据收集范式——人工远程操作——仍然昂贵且受人工努力和物理机器人访问的限制。我们介绍了Real2Render2Real (R2R2R)，这是一种生成机器人训练数据的新方法，不依赖于对象动态模拟或机器人硬件的远程操作。输入是一个由智能手机捕获的一个或多个对象的扫描和单个人类演示的视频。R2R2R通过重建详细的3D对象几何和外观，并跟踪6自由度的对象运动，渲染数千个具有高视觉保真度的与机器人无关的演示。R2R2R使用3D高斯喷溅(3DGS)来实现灵活的资产生成和轨迹合成，用于刚性和关节对象，将这些表示转换为网格，以保持与可扩展渲染引擎（如IsaacLab）的兼容性，但关闭了碰撞建模。由R2R2R生成的机器人演示数据直接与操作机器人本体状态和图像观察的模型集成，例如视觉语言行动模型(VLA)和模仿学习策略。物理实验表明，基于单个人类演示的R2R2R数据训练的模型可与基于150个人工远程操作演示的模型表现相媲美。项目页面：这https URL\n\n翻译：摘要: 扩展机器人学习需要大量而多样化的数据集。然而，目前流行的数据收集范式——人工远程操作——仍然昂贵且受人工努力和物理机器人访问的限制。我们介绍了Real2Render2Real (R2R2R)，这是一种生成机器人训练数据的新方法，不依赖于对象动态模拟或机器人硬件的远程操作。输入是一个由智能手机捕获的一个或多个对象的扫描和单个人类演示的视频。R2R2R通过重建详细的3D对象几何和外观，并跟踪6自由度的对象运动，渲染数千个具有高视觉保真度的与机器人无关的演示。R2R2R使用3D高斯喷溅(3DGS)来实现灵活的资产生成和轨迹合成，用于刚性和关节对象，将这些表示转换为网格，以保持与可扩展渲染引擎（如IsaacLab）的兼容性，但关闭了碰撞建模。由R2R2R生成的机器人演示数据直接与操作机器人本体状态和图像观察的模型集成，例如视觉语言行动模型(VLA)和模仿学习策略。物理实验表明，基于单个人类演示的R2R2R数据训练的模型可与基于150个人工远程操作演示的模型表现相媲美。项目页面：这https URL",
+        "地址": "https://arxiv.org/pdf/2505.09601.pdf"
+    },
+    {
+        "名称": "2025 [2505.07096] X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real.pdf",
+        "作者": "Prithwish Dan, Kushal Kedia, Angela Chao, Edward Weiyi Duan, Maximus Adrian Pace, Wei-Chiu Ma, Sanjiban Choudhury",
+        "摘要": "摘要：人类视频为训练机器人操作策略提供了可扩展的方法，但缺乏标准模仿学习算法所需的动作标签。现有的跨体模拟方法试图将人体动作映射到机器人动作，但当这种体态差异显著时往往会失败。我们提出了X-Sim，这是一种通过实际到模拟再到实际框架，使用物体运动作为密集且可转移的信号来学习机器人策略的方法。X-Sim从重建RGBD人类视频的逼真模拟开始，跟踪物体轨迹以定义以物体为中心的奖励。这些奖励被用来在模拟中训练强化学习（RL）策略。学习到的策略然后通过合成回放渲染的不同视角和光照下的图像条件扩散策略进行蒸馏。为了转移到现实世界，X-Sim引入了一种在线域适应技术，在部署期间对齐现实和模拟的观察。重要的是，X-Sim不需要任何机器人远程操作数据。我们在2个环境中的5个操作任务上对其进行评估，结果表明：(1)在任务进展上平均比手动跟踪和实际到模拟的基线提高了30%，(2)在数据收集时间上比行为克隆节省了十倍时间，(3)能在新的相机视角和测试时的改变中实现泛化。代码和视频可以在此https URL上找到。",
+        "地址": "https://arxiv.org/pdf/2505.07096.pdf"
+    }
+]
