@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2505.09388] Qwen3 Technical Report.pdf",
+        "作者": "An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, Chujie Zheng, Dayiheng Liu, Fan Zhou, Fei Huang, Feng Hu, Hao Ge, Haoran Wei, Huan Lin, Jialong Tang, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jing Zhou, Jingren Zhou, Junyang Lin, Kai Dang, Keqin Bao, Kexin Yang, Le Yu, Lianghao Deng, Mei Li, Mingfeng Xue, Mingze Li, Pei Zhang, Peng Wang, Qin Zhu, Rui Men, Ruize Gao, Shixuan Liu, Shuang Luo, Tianhao Li, Tianyi Tang, Wenbiao Yin, Xingzhang Ren, Xinyu Wang, Xinyu Zhang, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yinger Zhang, Yu Wan, Yuqiong Liu, Zekun Wang, Zeyu Cui, Zhenru Zhang, Zhipeng Zhou, Zihan Qiu",
+        "摘要": "摘要：在这项工作中，我们介绍了Qwen3，这是Qwen模型家族的最新版本。Qwen3包括一系列大语言模型（LLMs），旨在提升性能、效率和多语言能力。Qwen3系列包含密集架构和专家混合（Mixture-of-Expert, MoE）架构的模型，参数规模从6亿到2350亿不等。Qwen3的一个关键创新是将思考模式（用于复杂的多步推理）和非思考模式（用于快速的、基于上下文的响应）集成到一个统一的框架中。这消除了在不同模型之间切换的需求，如聊天优化模型（如GPT-4o）和专用推理模型（如QwQ-32B），并根据用户查询或聊天模板实现动态模式切换。同时，Qwen3引入了一个思考预算机制，允许用户在推理过程中自适应地分配计算资源，从而根据任务复杂度在延迟和性能之间取得平衡。此外，通过利用旗舰模型的知识，我们显著减少了构建小规模模型所需的计算资源，同时确保其高竞争力。实证评估表明，Qwen3在代码生成、数学推理、代理任务等各种基准测试中取得了最先进的成果，与更大的MoE模型和专有模型相比具有竞争力。与其前身Qwen2.5相比，Qwen3将多语言支持从29种扩展到119种语言和方言，通过改进的跨语言理解和生成能力增强了全球可访问性。为了促进可重复性和社区驱动的研究与开发，所有Qwen3模型都可以在Apache 2.0许可下公开访问。",
+        "地址": "https://arxiv.org/pdf/2505.09388.pdf"
+    },
+    {
+        "名称": "2025 [2505.11049] GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning.pdf",
+        "作者": "Yue Liu, Shengfang Zhai, Mingzhe Du, Yulin Chen, Tri Cao, Hongcheng Gao, Cheng Wang, Xinfeng Li, Kun Wang, Junfeng Fang, Jiaheng Zhang, Bryan Hooi",
+        "摘要": "摘要：为了增强VLMs的安全性，本文介绍了一种新颖的基于推理的VLM保护模型，称为GuardReasoner-VL。核心理念是通过在线强化学习（RL）激励保护模型在做出调节决策之前进行深思熟虑的推理。首先，我们构建了GuardReasoner-VLTrain，一个包含123K样本和631K推理步骤的推理语料库，涵盖文本、图像和文本-图像输入。在此基础上，我们通过SFT冷启动模型的推理能力。此外，我们通过在线RL进一步增强有关调节的推理。具体来说，为了增强样本的多样性和难度，我们进行拒绝采样，然后通过所提出的安全感知数据连接进行数据增强。此外，我们使用动态裁剪参数以鼓励在早期阶段探索并在后期阶段开发。为了平衡性能和令牌效率，我们设计了一个长度感知安全奖励，集成了准确性、格式和令牌成本。广泛的实验证明了我们模型的优越性。值得注意的是，它平均在F1评分上超过了亚军19.27%。我们发布了GuardReasoner-VL的数据、代码和模型（3B/7B）在这个https URL。\n\n来源：https://arxiv.org/pdf/2505.11049.pdf\n标题：2025 [2505.11049] GuardReasoner-VL: 通过强化推理保护VLMs\n作者：刘跃，翟盛昉，杜明哲，陈禹林，曹三，戈洪城，王城，李新峰，王昆，方俊峰，张佳衡，Bryan Hooi",
+        "地址": "https://arxiv.org/pdf/2505.11049.pdf"
+    },
+    {
+        "名称": "2025 [2505.10610] MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly.pdf",
+        "作者": "Zhaowei Wang, Wenhao Yu, Xiyu Ren, Jipeng Zhang, Yu Zhao, Rohit Saxena, Liang Cheng, Ginny Wong, Simon See, Pasquale Minervini, Yangqiu Song, Mark Steedman",
+        "摘要": "摘要: 大型视觉语言模型中上下文窗口的快速扩展催生了长上下文视觉语言模型（LCVLMs），这些模型能够在一次前向传递中处理数百张夹杂文本标记的图像。在这项工作中，我们介绍了MMLongBench，这是第一个涵盖多样化长上下文视觉语言任务的基准，用于有效全面地评估LCVLMs。MMLongBench由13,331个示例组成，涵盖了五种不同类别的下游任务，例如视觉RAG和多次ICL。它还提供了广泛的图像类型，包括各种自然和合成图像。为了评估模型对不同输入长度的鲁棒性，所有示例通过一种结合视觉补丁和文本标记的跨模态标记方案以五个标准化输入长度（8K-128K标记）交付。通过对46个闭源和开源LCVLMs进行全面基准测试，我们对现有模型的视觉语言长上下文能力进行了全面分析。我们的结果表明：(i) 单个任务的性能对整体长上下文能力的预测作用较弱；(ii) 闭源和开源模型在长上下文视觉语言任务中均面临挑战，表明未来有较大的改进空间；(iii) 推理能力较强的模型往往表现出更好的长上下文性能。通过提供广泛的任务覆盖、多样的图像类型和严格的长度控制，MMLongBench为诊断和推进下一代LCVLMs提供了缺失的基础。\n\n来源: Zhaowei Wang, Wenhao Yu, Xiyu Ren, Jipeng Zhang, Yu Zhao, Rohit Saxena, Liang Cheng, Ginny Wong, Simon See, Pasquale Minervini, Yangqiu Song, Mark Steedman. Work in progress. https://arxiv.org/pdf/2505.10610.pdf",
+        "地址": "https://arxiv.org/pdf/2505.10610.pdf"
+    },
+    {
+        "名称": "2025 [2505.11409] Visual Planning: Let's Think Only with Images.pdf",
+        "作者": "Yi Xu, Chengzu Li, Han Zhou, Xingchen Wan, Caiqi Zhang, Anna Korhonen, Ivan Vulić",
+        "摘要": "以下是从学术论文中提取的信息摘要以及翻译：\n\n摘要：近期大规模语言模型（LLM）及其多模态扩展（MLLM）的进展极大地增强了机器在不同任务中的推理能力。然而，即使在存在视觉信息时，这些模型主要依赖纯文本作为表达和构建推理的媒介。本文认为，在涉及空间和几何信息的任务中，语言可能并非总是最自然或最有效的推理模态。基于此动机，我们提出了一种新的范式——视觉规划，通过纯视觉表示实现规划，而无需依赖文本。在这一范式中，规划通过视觉领域中逐步推理的图像序列来执行，类似于人类绘制或想象未来行动。我们引入了一种新颖的强化学习框架，通过强化学习进行视觉规划（VPRL），利用GRPO对大型视觉模型进行训练后优化，显著改进了一些代表性视觉导航任务中的规划能力，如FrozenLake、Maze和MiniBehavior。我们的视觉规划范式在所有仅依赖文本空间推理的规划变体中表现最佳。我们的研究结果确立了视觉规划作为一种可行且有前途的替代语言推理的方法，为受益于直观图像推理的任务开辟了新途径。\n\n作者：Yi Xu, Chengzu Li, Han Zhou, Xingchen Wan, Caiqi Zhang, Anna Korhonen, Ivan Vulić\n\n评论：10页, 6个图, 1个表（包括参考文献和附录共26页, 12个图, 8个表）\n\n链接：https://arxiv.org/pdf/2505.11409.pdf\n\n标题：2025 [2505.11409] 视觉规划：让我们只用图像思考",
+        "地址": "https://arxiv.org/pdf/2505.11409.pdf"
+    },
+    {
+        "名称": "2025 [2505.11107] Group Think: Multiple Concurrent Reasoning Agents Collaborating at Token Level Granularity.pdf",
+        "作者": "Chan-Jan Hsu, Davide Buffelli, Jamie McGowan, Feng-Ting Liao, Yi-Chang Chen, Sattar Vakili, Da-shan Shiu",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）的进展展示了通过自生成的思维链进行推理的强大能力。多个推理代理可以合作提升联合推理质量超过个体结果。然而，这些代理通常以轮流互动的方式进行，牺牲了低延迟以提高质量。在本文中，我们提出了Group Think——一个充当多个同时进行的推理代理或思考者的单一LLM。通过共享彼此部分生成进度的可见性，Group Think引入了一种新的并发推理范式，其中多个推理轨迹在令牌级动态相互适应。例如，一个推理线程可能在检测到另一个线程更适合继续时在句中调整其生成。这种细粒度、令牌级协作使Group Think能够减少重复推理并提高质量，同时实现显著较低的延迟。此外，其并发性质允许有效利用空闲计算资源，使其特别适用于边缘推理，在那里非常小的批处理大小经常未能充分利用本地GPU。我们提出了一种简单且通用的修改，使任何现有LLM能够在本地GPU上执行Group Think。我们还提出了一种评估策略来基准推理延迟，并通过开源LLMs实证展示延迟改进，这些LLMs未经过显式训练用于Group Think。我们希望这项工作为未来LLMs展示更复杂和更高效的协作行为以获得更高质量生成铺平道路。",
+        "地址": "https://arxiv.org/pdf/2505.11107.pdf"
+    },
+    {
+        "名称": "2025 [2505.07675] Simple Semi-supervised Knowledge Distillation from Vision-Language Models via $\\mathbf{\\texttt{D}}$ual-$\\mathbf{\\texttt{H}}$ead $\\mathbf{\\texttt{O}}$ptimization.pdf",
+        "作者": "Seongjae Kang, Dong Bok Lee, Hyungjoon Jang, Sung Ju Hwang",
+        "摘要": "摘要：视觉语言模型（VLMs）通过利用丰富的文本信息和最少的标注数据，在各类任务中取得了显著成功。然而，部署如此大型的模型仍然具有挑战性，特别是在资源受限的环境中。知识蒸馏（KD）为解决这一问题提供了一种成熟的方法；然而，最近的从VLMs进行的KD方法通常涉及多阶段训练或额外的调优，增加了计算开销和优化复杂性。在本文中，我们提出了双头优化（DHO）——一种简单但有效的KD框架，该框架在半监督环境中将知识从VLMs转移到紧凑、任务特定的模型中。具体而言，我们引入了独立从标注数据和教师预测中学习的双预测头，且建议在推理过程中线性结合它们的输出。我们观察到DHO减轻了监督和蒛馏信号之间的梯度冲突，实现了比单头KD基线更有效的特征学习。结果表明，大量实验显示DHO在多个领域和细粒度数据集上均稳定超越基线。值得注意的是，在ImageNet数据集上，它实现了最先进的性能，在使用1%和10%的标注数据时分别将准确性提高了3%和0.1%，同时使用更少的参数。\n\n—— 作者：Seongjae Kang, Dong Bok Lee, Hyungjoon Jang, Sung Ju Hwang\n\n评论：41页，19张图片，预印本\n\n链接：[https://arxiv.org/pdf/2505.07675.pdf](https://arxiv.org/pdf/2505.07675.pdf)\n\n标题：2025 [2505.07675] 使用双头优化进行视觉语言模型的简单半监督知识蒸馏",
+        "地址": "https://arxiv.org/pdf/2505.07675.pdf"
+    },
+    {
+        "名称": "2025 [2505.11427] Mergenetic: a Simple Evolutionary Model Merging Library.pdf",
+        "作者": "Adrian Robert Minut, Tommaso Mencattini, Andrea Santilli, Donato Crisostomi, Emanuele Rodolà",
+        "摘要": "摘要：模型合并允许将现有模型的能力结合到一个新的模型中——事后进行，无需额外的训练。由于其低成本以及支持消费者GPU上合并的库的可用性，这种方法变得越来越流行。最近的研究表明，将合并与进化算法配对可以提高性能，但目前没有框架支持在语言模型中灵活地实验这些策略。我们介绍了一种开源库Mergenetic用于进化模型合并。Mergenetic能够轻松组合合并方法和进化算法，同时引入轻量级的适应度估计算法来降低评估成本。我们描述了其设计，并展示了Mergenetic使用普通硬件在各个任务和语言上产生了有竞争力的结果。",
+        "地址": "https://arxiv.org/pdf/2505.11427.pdf"
+    },
+    {
+        "名称": "2025 [2505.10518] Multi-Token Prediction Needs Registers.pdf",
+        "作者": "Anastasios Gerontopoulos, Spyros Gidaris, Nikos Komodakis",
+        "摘要": "摘要: 多标记预测作为一种提高语言模型预训练效果的有前途的目标已经出现，但其优势在其他设置中如微调中未得到一致泛化。在本文中，我们提出了MuToR，这是一种简单而有效的多标记预测方法，它将可学习的寄存器标记交错插入输入序列中，每个寄存器负责预测未来目标。与现有方法相比，MuToR 提供了几个关键优势：它只引入了可忽略的额外参数，不需要任何架构改变--确保与现成的预训练语言模型兼容--并且与下一个标记的预训练目标保持一致，使其特别适合监督微调。此外，它自然支持可扩展的预测范围。我们在语言和视觉领域的具有挑战性的生成任务上，展示了MuToR在各种用例中的有效性和多功能性，包括监督微调、参数高效微调（PEFT）和预训练。我们的代码将在以下网址提供：this https URL.",
+        "地址": "https://arxiv.org/pdf/2505.10518.pdf"
+    },
+    {
+        "名称": "2025 [2505.10962] MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation.pdf",
+        "作者": "Zhenwen Liang, Linfeng Song, Yang Li, Tao Yang, Feng Zhang, Haitao Mi, Dong Yu",
+        "摘要": "摘要：在形式语言中的自动定理证明（ATP）仍然是人工智能领域中的一个艰巨挑战，这需要严格的逻辑推理和导航广阔的搜索空间。尽管大型语言模型（LLMs）表现出有希望的性能，现有的步进求证系统往往由于偏倚的搜索指导而导致效率低下和次优的证明策略。本文介绍了多视角搜索求证器（MPS-Prover），这是一个新型的步进ATP系统，旨在克服这些限制。MPS-Prover包括两个关键创新：一个非常有效的后训练数据策划策略，能够在不牺牲性能的情况下修剪大约40%的冗余训练数据，以及一个多视角树搜索机制，该搜索机制结合学习的评价模型和精心设计的启发式规则，以多样化战术选择，防止陷入无效状态，并增强搜索的稳健性。广泛的评估表明，MPS-Prover在多个具有挑战性的基准测试（包括miniF2F和ProofNet）上实现了最先进的性能，优于现有的7B参数模型。此外，我们的分析表明，MPS-Prover生成的证明比现有的步进和整体证明方法显著更短且更多样化，突显其效率和效果。我们的工作提高了基于LLM的形式推理的能力，并为开发更强大的定理证明器提供了一个稳健的框架和全面的分析。\n\n作者：梁振文，宋林峰，李杨，杨涛，张峰，米海涛，于东\n\n备注：进行中的工作\n\n链接：https://arxiv.org/pdf/2505.10962.pdf\n\n标题：2025 [2505.10962] MPS-Prover: 通过多视角搜索和数据策划推进步进定理证明",
+        "地址": "https://arxiv.org/pdf/2505.10962.pdf"
+    },
+    {
+        "名称": "2025 [2505.11140] Scaling Reasoning can Improve Factuality in Large Language Models.pdf",
+        "作者": "Mike Zhang, Johannes Bjerva, Russa Biswas",
+        "摘要": "摘要：最近对大型语言模型（LLM）推理能力的研究表明，通过在推理过程中利用较长的思考过程和额外的计算资源，可以显著提高模型在数学推理任务中的表现（Muennighoff 等，2025）。然而，尚不确定较长的推理链是否在数学以外的上下文中固有地提高了事实准确性。在这项工作中，我们在复杂的开放域问答（QA）场景中全面检验LLM推理。我们首先从先进的大规模推理模型（QwQ-32B 和 DeepSeek-R1-671B）中提炼出推理轨迹，然后对从较小的指令调优变体到基于Qwen2.5的大型架构的各种模型进行微调。为了丰富推理轨迹，我们在推理轨迹中引入了来自知识图谱的路径形式的事实信息。我们的实验设置包含四种基线方法和六种不同的指令调优模型，这些模型在一个包含超过22.6K问题的基准上进行了评估。总体而言，我们进行了168次实验，并分析了约170万个推理轨迹。我们的研究结果表明，在单次运行中，较小的推理模型在事实准确性方面较其原始指令调优版本有显著的提升。此外，我们的分析表明，增加测试时间计算和标记预算一致地将事实准确性提高了2-8%，进一步确认了测试时间扩展对于提高开放域QA任务中推理准确性的有效性。我们发布了所有实验结果以供进一步研究。\n\n来源：https://arxiv.org/pdf/2505.11140.pdf",
+        "地址": "https://arxiv.org/pdf/2505.11140.pdf"
+    },
+    {
+        "名称": "2025 [2505.11011] Humans expect rationality and cooperation from LLM opponents in strategic games.pdf",
+        "作者": "Darija Barak, Miguel Costa-Gomes",
+        "摘要": "摘要： 随着大型语言模型（LLMs）融入我们的社会和经济互动中，我们需要深入了解在人类与LLM对手在战略环境中互动时，人类的反应。我们呈现了首个通过金钱激励的受控实验室实验结果，该实验研究了多人p-美丽竞赛中，人类在与其他人类和LLM对战时行为的差异。我们使用主体内设计来比较个体层面的行为。我们发现，在这种环境中，当人类受试者与LLM对战时，比与其他人类对战时选择显著更低的数字，这主要是由于“零”纳什均衡选择的增加。这种变化主要由具有高战略推理能力的受试者驱动。选择“零”纳什均衡的受试者通过诉诸其对LLM推理能力的认知以及意料之外的合作倾向来解释其策略。我们的研究结果为同时选择游戏中的多人类-LLM互动提供了基础性见解，揭示了受试者行为和对LLM与之对战时游戏表现的信念的不均匀性，并对混合人类-LLM系统中的机制设计提出了重要含义。\n\n翻译: 随着大型语言模型（LLMs）融入我们的社会和经济互动中，我们需要深入了解在人类与LLM对手在战略环境中互动时，人类的反应。我们呈现了首个通过金钱激励的受控实验室实验结果，该实验研究了多人p-美丽竞赛中，人类在与其他人类和LLM对战时行为的差异。我们使用主体内设计来比较个体层面的行为。我们发现，在这种环境中，当人类受试者与LLM对战时，比与其他人类对战时选择显著更低的数字，这主要是由于“零”纳什均衡选择的增加。这种变化主要由具有高战略推理能力的受试者驱动。选择“零”纳什均衡的受试者通过诉诸其对LLM推理能力的认知以及意料之外的合作倾向来解释其策略。我们的研究结果为同时选择游戏中的多人类-LLM互动提供了基础性见解，揭示了受试者行为和对LLM与之对战时游戏表现的信念的不均匀性，并对混合人类-LLM系统中的机制设计提出了重要含义。",
+        "地址": "https://arxiv.org/pdf/2505.11011.pdf"
+    },
+    {
+        "名称": "2025 [2505.10852] MatTools: Benchmarking Large Language Models for Materials Science Tools.pdf",
+        "作者": "Siyu Liu, Jiamin Xu, Beilin Ye, Bo Hu, David J. Srolovitz, Tongqi Wen",
+        "摘要": "摘要：大型语言模型（LLMs）越来越多地应用于材料科学问题，包括文献理解、属性预测、材料发现和合金设计。与此同时，已经开发出广泛的基于物理的计算方法，可以计算材料的属性。在此，我们提出了一个基准应用，通过生成代码并基于这些物理基础的计算材料科学工具包安全执行代码，评估LLMs回答材料科学问题的能力。MatTools基于两个互补的组件：材料模拟工具问答（QA）基准和现实世界工具使用基准。我们设计了一种自动化方法，高效收集现实世界的材料科学工具使用示例。QA基准源自pymatgen（Python Materials Genomics）代码库和文档，包含69,225个QA对，评估LLM理解材料科学工具的能力。现实世界基准包含49个任务（138个子任务），需要生成用于材料属性计算的功能性Python代码。我们对各种LLM的评估得出了三大关键见解：（1）通才优于专才；（2）人工智能了解人工智能；（3）简单更好。MatTools提供了一个标准化框架，用于评估和改进LLM在材料科学工具应用方面的能力，促进更有效的人工智能系统在材料科学和一般科学研究中的发展。",
+        "地址": "https://arxiv.org/pdf/2505.10852.pdf"
+    },
+    {
+        "名称": "2025 [2505.11480] Improving Assembly Code Performance with Large Language Models via Reinforcement Learning.pdf",
+        "作者": "Anjiang Wei, Tarun Suresh, Huanmi Tan, Yinglun Xu, Gagandeep Singh, Ke Wang, Alex Aiken",
+        "摘要": "摘要：大型语言模型（LLMs）在各种编程任务中表现出色，但它们在代码优化方面的潜力仍未被充分探索。本文研究了LLMs是否能够优化汇编代码的性能，通过对执行的细粒度控制实现高层语言中难以表达的改进。我们提出了一个强化学习框架，使用近端策略优化（PPO）训练LLMs，指导的奖励函数考虑了通过测试用例验证的功能正确性和相对于业界标准编译器gcc -O3的执行性能。为了支持这项研究，我们引入了一个包含8,072个实际程序的基准。我们的模型Qwen2.5-Coder-7B-PPO达到了96.0%的测试通过率，相比gcc -O3基准平均提速1.47倍，超过了评估的其他20个模型，包括Claude-3.7-sonnet。这些结果表明，通过强化学习可以释放LLMs在汇编代码性能优化方面的潜力，成为有效的优化工具。\n\n链接：https://arxiv.org/pdf/2505.11480.pdf\n\n作者：Anjiang Wei, Tarun Suresh, Huanmi Tan, Yinglun Xu, Gagandeep Singh, Ke Wang, Alex Aiken\n\n标题：通过强化学习使用大型语言模型提高汇编代码性能",
+        "地址": "https://arxiv.org/pdf/2505.11480.pdf"
+    },
+    {
+        "名称": "2025 [2505.11152] Learning Dense Hand Contact Estimation from Imbalanced Data.pdf",
+        "作者": "Daniel Sungho Jung, Kyoung Mu Lee",
+        "摘要": "以下是该论文的摘要及其中文翻译：\n\n摘要：手在人与世界的互动中起着至关重要的作用，理解手与世界的接触可以促进对其功能的全面理解。最近，越来越多的手部互动数据集涵盖了与物体、其他手、场景和身体的互动。尽管任务的重要性和高质量数据的增加，如何有效地学习密集的手部接触估计仍然很少被探索。学习密集手部接触估计有两个主要挑战。首先，手部接触数据集中存在类别不平衡问题，其中大多数样本未接触。其次，手部接触数据集包含空间不平衡问题，大多数手部接触发生在手指尖上，导致在其他手部区域的接触泛化性存在挑战。为了解决这些问题，我们提出了一个框架，从不平衡数据中学习密集手部接触估计 (HACO)。为了解决类别不平衡问题，我们引入了平衡接触采样，通过构建和从多个采样组中抽样，公平地代表接触和非接触样本的多样接触统计数据。此外，为了解决空间不平衡问题，我们提出了顶点级类别平衡 (VCB) 损失，通过基于数据集中每个顶点的接触频率分别重新加权每个顶点的损失贡献，来结合空间上变化的接触分布。结果是，我们能够有效地学习从大规模手部接触数据中预测密集手部接触估计，而不受类别和空间不平衡问题的影响。代码将会发布。\n\n作者：Daniel Sungho Jung, Kyoung Mu Lee\n\n评论：项目页面: 该网址\n\n链接：https://arxiv.org/pdf/2505.11152.pdf\n\n标题：2025 [2505.11152] 从不平衡数据中学习密集手部接触估计.pdf",
+        "地址": "https://arxiv.org/pdf/2505.11152.pdf"
+    },
+    {
+        "名称": "2025 [2505.10769] Unifying Segment Anything in Microscopy with Multimodal Large Language Model.pdf",
+        "作者": "Manyu Li, Ruian He, Zixian Zhang, Weimin Tan, Bo Yan",
+        "摘要": "摘要：在生物医学图像中准确分割感兴趣区域对图像分析具有重要价值。目前，尽管一些基础模型在生物医学分割任务中在某些数据集上表现出色，但在未见过的域数据上通常表现欠佳。这一缺陷主要归因于分割前缺乏视觉-语言知识。多模态大型语言模型（MLLMs）在多模态任务中展现出卓越的理解和推理能力，这启发我们利用MLLMs注入视觉-语言知识（VLK），从而使视觉模型在跨域数据集上展示出更强的泛化能力。在本文中，我们提出使用MLLMs来引导SAM学习显微镜跨域数据，统一显微镜中的任意分割，命名为uLLSAM。具体而言，我们提出视觉-语言语义对齐（VLSA）模块，将VLK注入任意分割模型（SAM）。我们发现当SAM接收全局VLK提示后，其性能显著提高，但在边界轮廓感知方面仍有不足。因此，我们进一步提出语义边界正则化（SBR）来提示SAM。我们的方法在9个域内显微镜数据集上实现了Dice系数7.71%和SA12.10%的性能提升，达到了最先进的性能。我们的方法在10个域外数据集上也实现了Dice系数6.79%和SA10.08%的性能提升，展示了强大的泛化能力。代码可在此https URL获取。\n\n链接：https://arxiv.org/pdf/2505.10769.pdf",
+        "地址": "https://arxiv.org/pdf/2505.10769.pdf"
+    },
+    {
+        "名称": "2025 [2505.10496] CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs.pdf",
+        "作者": "Raman Dutt, Pedro Sanchez, Yongchen Yao, Steven McDonagh, Sotirios A. Tsaftaris, Timothy Hospedales",
+        "摘要": "摘要：我们介绍了CheXGenBench，这是一个严格且多方面的评估框架，用于生成合成胸部X光片，并同时评估最新文本到图像生成模型在真实度、隐私风险和临床实用性方面的表现。尽管生成AI在生成真实世界图像方面取得了快速进展，但医学领域的评估受到方法不一致、架构比较过时以及评估标准脱节的阻碍，这些问题很少涉及合成样本的实际临床价值。CheXGenBench通过标准化的数据分区和统一的评估协议克服了这些局限，评估协议包含了20多项定量指标，系统地分析了11种领先的文本到图像架构在生成质量、潜在隐私漏洞和下游临床适用性方面的表现。我们的研究结果揭示了现有评估协议中的关键低效之处，特别是在评估生成真实度方面，导致了不一致和无用的比较。我们的框架为医学AI社区建立了一个标准化的基准，能够进行客观和可重复的比较，同时促进现有和未来生成模型的无缝集成。此外，我们发布了一个高质量的合成数据集SynthCheX-75K，其中包含由我们的基准中表现最好的模型（Sana 0.6B）生成的75000张X光片，以支持在这一关键领域的进一步研究。通过CheXGenBench，我们建立了新的行业标准，并在此HTTPS URL发布了我们的框架、模型和SynthCheX-75K数据集。",
+        "地址": "https://arxiv.org/pdf/2505.10496.pdf"
+    },
+    {
+        "名称": "2025 [2505.09924] From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models.pdf",
+        "作者": "Yidan Wang, Yubing Ren, Yanan Cao, Binxing Fang",
+        "摘要": "摘要: 随着大型语言模型（LLMs）的兴起，人们对人工智能生成文本滥用的担忧日益增加，使得水印技术成为一种有前途的解决方案。主流的LLM水印方案分为两类：基于logits的方法和基于采样的方法。然而，当前的方案在鲁棒性、文本质量和安全性之间存在权衡。为此，我们结合了基于logits和基于采样的方案，利用它们各自的优势来实现协同作用。在本文中，我们提出了一个多功能的共生水印框架，包含串行、并行和混合三种策略。混合框架通过自适应地利用token熵和语义熵嵌入水印，优化了可检测性、鲁棒性、文本质量和安全性之间的平衡。此外，我们通过对各种数据集和模型的全面实验验证了我们的方法。实验结果表明，我们的方法优于现有的基线，并达到了最先进的（SOTA）性能。我们相信这个框架为各种水印范式提供了新的见解。我们的代码可在此处获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2505.09924.pdf"
+    },
+    {
+        "名称": "2025 [2505.11493] GIE-Bench: Towards Grounded Evaluation for Text-Guided Image Editing.pdf",
+        "作者": "Yusu Qian, Jiasen Lu, Tsu-Jui Fu, Xinze Wang, Chen Chen, Yinfei Yang, Wenze Hu, Zhe Gan",
+        "摘要": "摘要：使用自然语言指令编辑图像已成为修改视觉内容一种自然且富有表现力的方式；然而，评估此类模型的性能仍然具有挑战性。现有的评估方法通常依赖于图像-文本相似性度量，如CLIP，但精度不足。在这项工作中，我们引入了一个新基准，旨在通过两个关键维度以更为扎实的方式评估文本引导的图像编辑模型：（i）功能正确性，通过自动生成的多项选择题来评估预期更改是否成功应用；以及（ii）图像内容保留，使用物体感知掩模技术和保留评分确保未目标区域的图像保持视觉一致性。该基准包括跨越20个多样化内容类别的超过1000个高质量编辑示例，每个示例注有详细的编辑说明、评估问题和空间对象掩模。我们进行了一项大规模研究，将最新的文本引导图像编辑领域的旗舰模型GPT-Image-1与几种最先进的编辑模型进行比较，并用人类评分验证了我们的自动度量。结果显示，GPT-Image-1在指令遵循准确性方面领先，但经常过度修改无关图像区域，突显了当前模型行为中的一个关键权衡。GIE-Bench提供了一个可扩展、可复现的框架，用于推进更准确的文本引导图像编辑评估。",
+        "地址": "https://arxiv.org/pdf/2505.11493.pdf"
+    },
+    {
+        "名称": "2025 [2505.05678] InstanceGen: Image Generation with Instance-level Instructions.pdf",
+        "作者": "Etai Sella, Yanir Kleiman, Hadar Averbuch-Elor",
+        "摘要": "摘要：尽管生成模型的能力迅速进步，但预训练的文本到图像模型在捕捉由多对象和实例级属性构成的复杂提示所传达的语义时仍然存在困难。因此，我们看到越来越多的兴趣在于整合额外的结构约束，通常以粗略的边界框形式，以在这种具有挑战性的情况下更好地指导生成过程。在这项工作中，我们更进一步提出了结构引导的想法，观察到当代图像生成模型能够直接提供合理的细粒度结构初始化。我们提出了一种将这种基于图像的结构引导与基于大型语言模型的实例级指令结合起来的技术，从而生成符合文本提示所有部分的输出图像，包括对象数量、实例级属性和实例之间的空间关系。\n\n作者：以泰·塞拉，亚尼尔·克莱曼，哈达尔·阿维布赫-埃洛尔\n\n评论：已被SIGGRAPH 2025接收。项目页面：该 https URL\n\n链接: https://arxiv.org/pdf/2505.05678.pdf\n\n标题：2025 [2505.05678] InstanceGen: 基于实例级指令的图像生成",
+        "地址": "https://arxiv.org/pdf/2505.05678.pdf"
+    },
+    {
+        "名称": "2025 [2505.11315] Improving Inference-Time Optimisation for Vocal Effects Style Transfer with a Gaussian Prior.pdf",
+        "作者": "Chin-Yun Yu, Marco A. Martínez-Ramírez, Junghyun Koo, Wei-Hsiang Liao, Yuki Mitsufuji, György Fazekas",
+        "摘要": "以下是该学术论文的摘要及其中文翻译：\n\n摘要: 带有推理时间优化的风格转换 (ST-ITO) 是一种将参考音频的应用效果转换到原始音频轨道的最新方法。它优化效果参数以最小化处理音频和参考音频的风格嵌入之间的距离。然而，该方法对所有可能的配置一视同仁，完全依赖于嵌入空间，这可能导致不切实际或有偏差的结果。我们通过在参数空间引入从人声预设数据集 DiffVox 派生的高斯先验来解决这一问题。由此产生的优化相当于最大后验估计。在 MedleyDB 数据集上进行的人声效果转换评估显示，与基准方法（包括盲音频效果估计器、最近邻方法和未校准的 ST-ITO）相比，各项指标均显著提高。所提出的校准将参数均方误差减少了高达33％，并更好地匹配了参考风格。与16名参与者的主观评估进一步证实了我们方法的优越性，特别是在数据有限的情况下。这项工作展示了如何在推理时间中结合先验知识来增强音频效果转换，为更有效和逼真的音频处理系统铺平了道路。\n\n作者: Chin-Yun Yu, Marco A. Martínez-Ramírez, Junghyun Koo, Wei-Hsiang Liao, Yuki Mitsufuji, György Fazekas\n\n评论: 提交给 WASPAA 2025\n\n链接: [点击这里阅读论文](https://arxiv.org/pdf/2505.11315.pdf)\n\n标题: 改善带有高斯先验的推理时间优化用于人声音效风格转换",
+        "地址": "https://arxiv.org/pdf/2505.11315.pdf"
+    }
+]
