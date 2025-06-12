@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2506.06751] Geopolitical biases in LLMs: what are the \"good\" and the \"bad\" countries according to contemporary language models.pdf",
+        "作者": "Mikhail Salnikov, Dmitrii Korzh, Ivan Lazichny, Elvir Karimov, Artyom Iudin, Ivan Oseledets, Oleg Y. Rogov, Alexander Panchenko, Natalia Loukachevitch, Elena Tutubalina",
+        "摘要": "摘要：本文通过分析语言模型（LLMs）对具有不同国家视角（美国、英国、苏联和中国）的历史事件的解读，评估了其地缘政治偏见。我们引入了一个包含中立事件描述和来自不同国家的对比观点的新数据集。研究发现，语言模型存在显著的地缘政治偏见，倾向于支持特定的国家叙述。此外，简单的去偏提示对减少这些偏见的效果有限。对参与者标签进行操控的实验显示模型对归因的敏感性，有时会放大偏见或识别出不一致之处，尤其是在标签交换的情况下。此项研究揭示了LLMs中的国家叙述偏见，质疑简单去偏方法的有效性，并为未来的地缘政治偏见研究提供了框架和数据集。",
+        "地址": "https://arxiv.org/pdf/2506.06751.pdf"
+    },
+    {
+        "名称": "2025 [2506.09040] Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better.pdf",
+        "作者": "Dianyi Wang, Wei Song, Yikun Wang, Siyuan Wang, Kaicheng Yu, Zhongyu Wei, Jiaqi Wang",
+        "摘要": "摘要: 典型的大型视觉-语言模型（LVLMs）仅在文本序列上应用自回归监督，而未完全将视觉模态纳入学习过程。这导致了三个主要限制：(1) 无法利用没有配套字幕的图像，(2) 字幕可能会遗漏关键视觉细节，(3) 某些以视觉为中心的内容无法通过文本充分传达。因此，当前的LVLMs通常优先考虑视觉到语言的对齐，而可能忽略了细粒度的视觉信息。尽管一些先前的工作已经探索了自回归图像生成，但是有效利用自回归视觉监督来增强图像理解仍是一个未解决的挑战。在本文中，我们介绍了自回归语义视觉重建（ASVR），该方法能够在统一的自回归框架内联合学习视觉和文本模态。我们展示了自回归地重建图像的原始视觉外观不会增强，甚至可能损害多模态理解。相比之下，自回归地重建图像的语义表示则一致地提高了理解能力。值得注意的是，我们发现即使模型在输入时获得了连续的图像特征，它们也能有效地重建离散的语义标记，从而在各种多模态理解基准上获得稳定和一致的提升。我们的方法在不同的数据规模（556k-2M）和LLM主干类型上都表现出显著的性能提升。具体来说，ASVR在14个多模态基准上的平均得分中提升了LLaVA-1.5的表现5%。代码可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2506.09040.pdf"
+    },
+    {
+        "名称": "2025 [2506.08672] RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling.pdf",
+        "作者": "Yang Liu, Jiaqi Li, Zilong Zheng",
+        "摘要": "摘要：基于规则的推理被认为是推理中的基本问题之一，而在实际应用中的规则格式、类型和复杂性方面的偏差则带来了严峻的挑战。最近的研究表明，大型推理模型（LRMs）具有显著的推理能力，并且通过强化学习（RL）可以显著提升其性能。然而，小型推理模型（SRMs）是否能够在不同任务和领域中有效地学习基于规则的推理并具备稳健的泛化能力仍然是一个未解的问题。为了解决这一问题，我们引入了强化基于规则的推理方法，即RuleReasoner，这是一种通过广泛收集的任务和一种新颖的领域感知动态采样方法来进行基于规则推理的简单而有效的方法。具体来说，RuleReasoner通过基于历史奖励更新不同领域的采样权重来重新采样每个训练批次。这促进了领域扩展和RL的灵活在线学习进度，从而不再需要现有方法中使用的预先人工设计的混合训练方案。在分布内（ID）和分布外（OOD）基准测试中的实证评估表明，RuleReasoner比前沿的LRMs有显著的性能提升（在八个ID任务上平均提升$\\\\Delta$4.1%点，在三个OOD任务上平均提升$\\\\Delta$10.4%点，相较于OpenAI-o1）。值得注意的是，与之前的动态采样方法相比，我们的方法还表现出更高的计算效率。\n\n译者：杨刘、李家奇、郑子龙\n评论：22页，10个图表，8个表格\n链接：https://arxiv.org/pdf/2506.08672.pdf\n标题：RuleReasoner：通过领域感知动态采样进行的强化基于规则的推理",
+        "地址": "https://arxiv.org/pdf/2506.08672.pdf"
+    },
+    {
+        "名称": "2025 [2506.07927] Solving Inequality Proofs with Large Language Models.pdf",
+        "作者": "Jiayi Sheng, Luna Lyu, Jikai Jin, Tony Xia, Alex Gu, James Zou, Pan Lu",
+        "摘要": "摘要：不等式证明在各种科学和数学领域中至关重要，它测试了高级推理技能，如发现紧致界限和战略性定理应用。这使其成为大型语言模型（LLMs）的一个独特而严峻的前沿，提供了超越一般数学问题解决的见解。现有数据集通常稀缺、合成或严格形式化，阻碍了这一领域的进展。我们提出了一种非正式但可验证的任务形式，重新定义了不等式证明，将其转化为两个可自动检查的子任务：界限估计和关系预测。在此基础上，我们发布了IneqMath，这是一个由专家编制的奥林匹克级不等式数据集，包含测试集和训练语料库，附有逐步解决方案和定理注释。我们还开发了一种新的LLM-as-judge评估框架，结合终答案裁判和四个逐步裁判，旨在检测常见的推理缺陷。对IneqMath上29个领先LLM的系统评估揭示了一个惊人的现实：甚至像o1这样的顶级模型在逐步审查下的整体准确率不到10%，与仅考虑最终答案等价性时的准确率相比下降了最多65.5%。这一差异暴露了脆弱的演绎链条以及当前LLM在找到答案与构建严格证明之间的关键差距。扩大模型规模和增加测试时间计算对整体证明正确性仅有有限的提升。相反，我们的研究结果强调了一些有前途的研究方向，如基于定理的推理和自我优化。代码和数据可在此https网址获得。",
+        "地址": "https://arxiv.org/pdf/2506.07927.pdf"
+    },
+    {
+        "名称": "2025 [2506.08009] Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion.pdf",
+        "作者": "Xun Huang, Zhengqi Li, Guande He, Mingyuan Zhou, Eli Shechtman",
+        "摘要": "摘要：我们引入了Self Forcing，一种新颖的自回归视频扩散模型训练范式。它解决了长期存在的暴露偏差问题，即模型在生成过程中必须基于自身不完美输出进行序列生成，而不是基于真实上下文进行训练。与之前基于真实上下文帧对未来帧进行去噪的方法不同，Self Forcing通过在训练期间进行关键值（KV）缓存的自回归展开，使每一帧的生成基于之前自生成的输出。这种策略通过视频级别的整体损失对整个生成序列的质量进行直接评估，而不仅仅依赖传统的帧级目标来进行监督。为了保证训练效率，我们使用了少步骤扩散模型以及随机梯度截断策略，有效平衡计算成本和性能。我们还引入了滚动KV缓存机制，实现高效的自回归视频外推。大量实验表明，我们的方法能够在单个GPU上实现实时流媒体视频生成，延迟低于一秒，同时在生成质量上匹配甚至超越显著更慢且非因果的扩散模型。 项目网站：this http URL\n\n作者：黄洵、李铮琪、何冠德、周明元、Eli Shechtman\n\n评论：项目网站：this http URL\n\n网址：https://arxiv.org/pdf/2506.08009.pdf\n\n标题：2025 [2506.08009] Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion.pdf",
+        "地址": "https://arxiv.org/pdf/2506.08009.pdf"
+    },
+    {
+        "名称": "2025 [2506.08002] Aligning Text, Images, and 3D Structure Token-by-Token.pdf",
+        "作者": "Aadarsh Sahoo, Vansh Tibrewal, Georgia Gkioxari",
+        "摘要": "摘要：为了帮助设计师构建和编辑3D环境以及机器人在三维空间内导航和互动，能够理解3D世界的机器是至关重要的。受语言和图像建模进展的启发，我们研究了自回归模型在新模态上的潜力：结构化3D场景。为此，我们提出了一个统一的大型语言模型框架，该框架对语言、图像和3D场景进行对齐，并提供了一份详细的“手册”，概述了实现最佳训练和性能关键设计选择，解决了与数据表示、模态特定目标等相关的关键问题。我们在四个核心3D任务——渲染、识别、指令跟随和问答以及四个3D数据集（合成和真实世界）上评估性能。我们通过量化形状编码丰富我们的3D模态，将我们的方法扩展到重建复杂的3D对象形状，并展示了我们模型在真实世界3D对象识别任务中的有效性。\n\n项目网页：https://arxiv.org/pdf/2506.08002.pdf",
+        "地址": "https://arxiv.org/pdf/2506.08002.pdf"
+    },
+    {
+        "名称": "2025 [2506.04614] Look Before You Leap: A GUI-Critic-R1 Model for Pre-Operative Error Diagnosis in GUI Automation.pdf",
+        "作者": "Yuyang Wanyan, Xi Zhang, Haiyang Xu, Haowei Liu, Junyang Wang, Jiabo Ye, Yutong Kou, Ming Yan, Fei Huang, Xiaoshan Yang, Weiming Dong, Changsheng Xu",
+        "摘要": "摘要：近年来，多模态大语言模型（MLLMs）被广泛应用于多模态推理任务，包括图形用户界面（GUI）自动化。与一般离线多模态任务不同，GUI自动化在在线交互环境中执行，需要基于环境的实时状态逐步决策。这一任务对每一步决策错误的容忍度较低，因为任何失误都可能累积中断过程并导致不可逆的结果，如删除或支付。为了解决这些问题，我们引入了一种术前批判机制，通过对行动的潜在结果和正确性进行推理，在实际执行之前提供有效反馈。具体来说，我们提出了一种建议感知梯度相对策略优化（S-GRPO）策略，构建我们的术前批判模型GUI-Critic-R1，结合一种新颖的建议奖励，以增强模型反馈的可靠性。此外，我们开发了一种基于推理自举的数据收集管道，创建了GUI-Critic-Train和GUI-Critic-Test，填补了现有GUI批判数据的空白。在GUI-Critic-Test上进行的静态实验涉及移动和网络领域，显示我们的GUI-Critic-R1在批判准确性方面相比现有MLLMs具有显著优势。GUI自动化基准上的动态评估进一步突出了我们模型的有效性和优越性，成功率和操作效率有所提升。",
+        "地址": "https://arxiv.org/pdf/2506.04614.pdf"
+    },
+    {
+        "名称": "2025 [2506.07177] Frame Guidance: Training-Free Guidance for Frame-Level Control in Video Diffusion Models.pdf",
+        "作者": "Sangwon Jang, Taekyung Ki, Jaehyeong Jo, Jaehong Yoon, Soo Ye Kim, Zhe Lin, Sung Ju Hwang",
+        "摘要": "摘要：扩散模型的发展显著提高了视频质量，引起了人们对细粒度可控性的关注。然而，许多现有方法依赖于为特定任务微调大型视频模型，随着模型规模持续增长，这变得越来越不切实际。在这项工作中，我们介绍了帧引导，一种基于帧级信号（如关键帧、风格参考图像、草图或深度图）的训练无关引导，用于可控视频生成。为了实现实用的训练无关引导，我们提出了一种简单的潜在处理方法，大大减少了内存使用，并采用了一种设计用于全局一致视频生成的新型潜在优化策略。帧引导能够在无需训练的情况下，有效控制各种任务，包括关键帧引导、风格化和循环，并且兼容任何视频模型。实验结果表明，帧引导可以为广泛的任务和输入信号生成高质量的受控视频。\n\n作者：Sangwon Jang, Taekyung Ki, Jaehyeong Jo, Jaehong Yoon, Soo Ye Kim, Zhe Lin, Sung Ju Hwang\n\n评论：项目页面：该https URL\n\n链接：https://arxiv.org/pdf/2506.07177.pdf\n\n标题：2025 [2506.07177] 帧引导：视频扩散模型中帧级控制的训练无关引导.pdf",
+        "地址": "https://arxiv.org/pdf/2506.07177.pdf"
+    },
+    {
+        "名称": "2025 [2506.08279] Seeing Voices: Generating A-Roll Video from Audio with Mirage.pdf",
+        "作者": "Aditi Sundararaman, Amogh Adishesha, Andrew Jaegle, Dan Bigioi, Hyoung-Kyu Song, Jon Kyl, Justin Mao, Kevin Lan, Mojtaba Komeili, ShahRukh Athar, Sheila Babayan, Stanislau Beliasau, William Buchwalter",
+        "摘要": "摘要: 从专业电影制作到用户生成内容，创作者和消费者早已认识到视频的力量取决于声音（视频的音轨）和图像（视频的图像序列）的和谐整合。目前的视频生成方法要么忽略声音，专注于通用但无声的图像序列生成，要么同时处理视觉和音频元素，但专注于受限的应用领域，如重新配音。我们介绍了Mirage，一个音频到视频的基础模型，擅长从给定的音频输入生成逼真且富有表现力的输出图像。在与现有的语音合成方法（文本到语音，或TTS）结合时，Mirage会生成引人入胜的多模态视频。当用包含讲话的音频对经过音视频素材（A-roll）训练的Mirage进行条件处理时，Mirage生成的人物视频能够令人相信地再现输入音频中隐含的表演。我们的核心技术贡献在于一种训练基于自注意力机制的音频到视频生成模型的统一方法，无论是从零开始还是使用现有权重。这种方法使Mirage作为音频到视频生成的一种方法保持通用性，同时其输出的主观质量优于那些结合了特定于音频的架构或特定于人、语音或图像或音频捕捉细节的损失组件的方法。我们鼓励读者亲自观看和聆听Mirage的结果（参见论文和评论中的链接）。\n\n作者: Aditi Sundararaman, Amogh Adishesha, Andrew Jaegle, Dan Bigioi, Hyoung-Kyu Song, Jon Kyl, Justin Mao, Kevin Lan, Mojtaba Komeili, ShahRukh Athar, Sheila Babayan, Stanislau Beliasau, William Buchwalter\n\n评论: 技术报告网站：this http URL，产品网站：this http URL\n\n链接: https://arxiv.org/pdf/2506.08279.pdf\n\n标题: 《2025 [2506.08279] 看到声音：用Mirage从音频生成A-Roll视频》",
+        "地址": "https://arxiv.org/pdf/2506.08279.pdf"
+    },
+    {
+        "名称": "2025 [2506.07045] Interpretable and Reliable Detection of AI-Generated Images via Grounded Reasoning in MLLMs.pdf",
+        "作者": "Yikun Ji, Hong Yan, Jun Lan, Huijia Zhu, Weiqiang Wang, Qi Fan, Liqing Zhang, Jianfu Zhang",
+        "摘要": "摘要: 图像生成技术的快速进步加剧了对可解释且鲁棒的检测方法的需求。虽然现有方法通常能达到较高的准确性，但它们通常作为黑箱操作，未能提供人类可理解的依据。多模态大型语言模型（MLLMs）虽然最初并非用于伪造检测，但其展现出强大的分析和推理能力。在适当微调后，MLLMs能够有效识别AI生成的图像并提供有意义的解释。然而，现有MLLMs仍然存在幻觉问题，常常无法将视觉解释与图像内容和人类推理对齐。为弥合此差距，我们构建了一个包含边界框和描述性标题的AI生成图像数据集，突出合成特征，建立了人类对齐的视觉-文本基础推理。随后，我们通过多阶段优化策略微调MLLMs，逐步平衡准确检测、视觉定位和连贯文本解释的目标。最终模型在检测AI生成图像和定位视觉缺陷方面表现出色，显著超越了基线方法。",
+        "地址": "https://arxiv.org/pdf/2506.07045.pdf"
+    },
+    {
+        "名称": "2025 [2506.05167] ECoRAG: Evidentiality-guided Compression for Long Context RAG.pdf",
+        "作者": "Yeonseok Jeong, Jinsu Kim, Dohyeon Lee, Seung-won Hwang",
+        "摘要": "摘要：大型语言模型（LLMs）在利用外部文档通过检索增强生成（RAG）进行开放域问答（ODQA）方面显示出显著的性能。为了减少长时间上下文中的RAG开销，必须进行上下文压缩。然而，先前的压缩方法并未专注于过滤掉非证据性信息，这限制了基于LLM的RAG的性能。因此，我们提出了基于证据指导的RAG框架，简称ECoRAG。ECoRAG通过基于证据性压缩检索到的文档来提高LLM性能，确保答案生成是否得到正确证据的支持。作为附加步骤，ECoRAG反映压缩内容是否提供了足够的证据，若没有，则继续检索直到足够。实验表明，ECoRAG在ODQA任务中提高了LLM性能，优于现有的压缩方法。此外，ECoRAG非常具有成本效益，因为它不仅减少了延迟，还通过仅保留生成正确答案所需的信息来最小化令牌使用。代码可在此https URL获取。\n\n作者：Yeonseok Jeong, Jinsu Kim, Dohyeon Lee, Seung-won Hwang\n标题：《ECoRAG：证据指导的长上下文RAG压缩》\n链接：https://arxiv.org/pdf/2506.05167.pdf",
+        "地址": "https://arxiv.org/pdf/2506.05167.pdf"
+    },
+    {
+        "名称": "2025 [2506.07932] Squeeze3D: Your 3D Generation Model is Secretly an Extreme Neural Compressor.pdf",
+        "作者": "Rishit Dagli, Yushi Guan, Sankeerth Durvasula, Mohammadreza Mofayezi, Nandita Vijaykumar",
+        "摘要": "摘要：我们提出了Squeeze3D，这是一种新颖的框架，利用现有预训练3D生成模型学习到的隐含先验知识，以极高的压缩比压缩3D数据。我们的方法通过可训练的映射网络弥合预训练编码器和预训练生成模型之间的潜在空间。任何表示为网格、点云或辐射场的3D模型首先由预训练编码器编码，然后转化（即压缩）为高度紧凑的潜在代码。这个潜在代码可有效用作网格或点云的极度压缩表示。一个映射网络将压缩的潜在代码转化到强大的生成模型的潜在空间，然后条件化地重建原始3D模型（即解压缩）。Squeeze3D完全在生成的合成数据上训练，不需要任何3D数据集。Squeeze3D架构可灵活地与现有的预训练3D编码器和现有生成模型一起使用。它可以灵活地支持不同的格式，包括网格、点云和辐射场。我们的实验表明，Squeeze3D在保持视觉质量与许多现有方法相当的同时，达到了对纹理网格最大2187倍、点云最大55倍和辐射场最大619倍的压缩比。由于不涉及训练特定对象网络以压缩对象，Squeeze3D仅产生很小的压缩和解压缩延迟。",
+        "地址": "https://arxiv.org/pdf/2506.07932.pdf"
+    },
+    {
+        "名称": "2025 [2506.08500] DRAGged into Conflicts: Detecting and Addressing Conflicting Sources in Search-Augmented LLMs.pdf",
+        "作者": "Arie Cattan, Alon Jacovi, Ori Ram, Jonathan Herzig, Roee Aharoni, Sasha Goldshtein, Eran Ofek, Idan Szpektor, Avi Caciularu",
+        "摘要": "摘要：检索增强生成（Retrieval Augmented Generation, RAG）是一种常用的方法，用于为大型语言模型（LLMs）提供相关和最新的信息。然而，检索到的来源经常包含相互矛盾的信息，而如何解决这些矛盾尚不明确。在这项工作中，我们首先提出了一种新的知识冲突类型分类法，并针对每种类型提出了理想的模型行为。然后，我们介绍了CONFLICTS，这是一个在现实RAG环境中包含冲突类型专家注释的高质量基准。CONFLICTS是第一个能够跟踪模型如何解决广泛知识冲突进展的基准。我们在这个基准上进行了大量实验，结果表明LLMs在解决来源之间的冲突时常常表现不佳。尽管提示LLMs明确推理检索到的文档中的潜在冲突显著提高了其响应的质量和适宜性，但未来研究仍有很大的改进空间。",
+        "地址": "https://arxiv.org/pdf/2506.08500.pdf"
+    },
+    {
+        "名称": "2025 [2506.08887] DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval.pdf",
+        "作者": "Leqi Shen, Guoqiang Gong, Tianxiang Hao, Tao He, Yifeng Zhang, Pengzhang Liu, Sicheng Zhao, Jungong Han, Guiguang Ding",
+        "摘要": "摘要：图文预训练模型CLIP在视频-文本检索方面的参数高效适应是一个重要的研究领域。尽管CLIP专注于图像级别的视觉-语言匹配，但视频-文本检索需要在视频级别上进行全面理解。从图像级别到视频级别的转变中，出现了视觉、语言和对齐三大关键差异。然而，现有方法主要关注视觉，忽略了语言和对齐。在本文中，我们提出了视觉、语言和对齐差异减少方法（DiscoVLA），同时解决这三种差异。具体来说，我们引入了图像-视频特征融合，以整合图像级别和视频级别特征，有效解决视觉和语言差异。此外，我们生成伪图像标题以学习细粒度的图像级别对齐。为了减小对齐差异，我们提出了图像-视频对齐蒸馏方法，利用图像级别对齐知识来增强视频级别对齐。大量实验证明了我们DiscoVLA的方法优越性。特别是在使用CLIP（ViT-B/16）的MSRVTT数据集上，DiscoVLA相较于之前的方法在R@1上提高了1.5%，最终得分达到50.5% R@1。代码可在此链接获取。\n\n该研究由Leqi Shen、Guoqiang Gong、Tianxiang Hao、Tao He、Yifeng Zhang、Pengzhang Liu、Sicheng Zhao、Jungong Han和Guiguang Ding完成。该论文已被接受发表在CVPR 2025。\n\nURL: [https://arxiv.org/pdf/2506.08887.pdf](https://arxiv.org/pdf/2506.08887.pdf)",
+        "地址": "https://arxiv.org/pdf/2506.08887.pdf"
+    },
+    {
+        "名称": "2025 [2506.08300] Institutional Books 1.0: A 242B token dataset from Harvard Library's collections, refined for accuracy and usability.pdf",
+        "作者": "Matteo Cargnelutti, Catherine Brobston, John Hess, Jack Cushman, Kristi Mukk, Aristana Scourtas, Kyle Courtney, Greg Leppert, Amanda Watson, Martha Whitehead, Jonathan Zittrain",
+        "摘要": "摘要：大型语言模型（LLMs）使用数据学习世界，以生成有意义的关联和预测。因此，用于训练这些模型或在推理时支持其工作的数据集的性质、规模、质量和多样性直接影响其质量。不同质量的LLMs的迅速发展和采用，突出了公开可用的高质量训练数据的稀缺，并揭示了在可持续实践与明确的来源链条中管理这些数据集的迫切需求。为此，本技术报告介绍了Institutional Books 1.0，这是一个最初通过哈佛图书馆参与Google Books项目（始于2006年）数字化的大型公共领域书籍集合。我们与哈佛图书馆合作，提取、分析和处理这些卷册，形成了一个广泛记录的历史文本数据集。该分析涵盖了哈佛图书馆作为该项目一部分扫描的整个收藏，总共包括1,075,899卷，编写于250多种不同语言，总计约2500亿词元。在初次发布中，已公开提供扫描识别文字（原始和后处理）以及元数据（书目、来源和生成）包含在公共领域内的983,004卷或2420亿词元。报告描述了此项目的目标和方法以及我们所做分析的结果，旨在使这一历史收藏对人类和机器更易于过滤、阅读和使用。",
+        "地址": "https://arxiv.org/pdf/2506.08300.pdf"
+    },
+    {
+        "名称": "2025 [2506.07976] Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction.pdf",
+        "作者": "Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar",
+        "摘要": "摘要：当前测试时间缩放的范式依赖于在产生响应之前生成长的推理轨迹（“更多思考”）。在需要交互的代理问题中，这可以通过在实际行动之前生成思考轨迹来完成。然而，这一过程不允许代理从环境中获取新信息或随着时间的推移调整其行为。在这项工作中，我们提议扩大测试时间交互，这是一种未开发的测试时间缩放维度，它增加了代理的交互范围，使其能够在单次展开中运行丰富行为，如探索、回溯和动态重新规划。为了证明这一缩放维度的潜力，我们研究了web代理领域。我们首先证明，即使无需训练的基于提示的交互缩放也能非平凡地提高web基准测试的任务成功率。在此基础上，我们引入了TTI（Test-Time Interaction），一种基于课程的在线强化学习（RL）方法，通过自适应调整其展开长度来训练代理。使用Gemma 3 12B模型，TTI在WebVoyager和WebArena基准测试中产生了最先进的开源、开放数据web代理。我们进一步证明了TTI使代理能够自适应地平衡探索和利用。我们的研究结果确立了交互缩放作为每步计算缩放的强大互补轴，提供了训练自适应代理的新途径。",
+        "地址": "https://arxiv.org/pdf/2506.07976.pdf"
+    },
+    {
+        "名称": "2025 [2506.05928] MoA: Heterogeneous Mixture of Adapters for Parameter-Efficient Fine-Tuning of Large Language Models.pdf",
+        "作者": "Jie Cao, Tianwei Lin, Hongyang He, Rolan Yan, Wenqiao Zhang, Juncheng Li, Dongping Zhang, Siliang Tang, Yueting Zhuang",
+        "摘要": "摘要：最近的研究整合了低秩适应（LoRA）和专家混合（Mixture-of-Experts, MoE），进一步提升了参数高效微调（PEFT）方法在大型语言模型（LLM）应用中的表现。现有的方法采用同质的MoE-LoRA架构，这些架构由具有相似或相同结构和能力的LoRA专家组成。然而，这些方法常常遭遇表示塌陷和专家负载不均，负面影响了LLM的潜力。为了解决这些问题，我们提出了一种异质的Adapter混合（Mixture-of-Adapters, MoA）方法。该方法动态整合具有不同结构的PEFT适配器专家，利用其互补的表示能力促进专家专长，从而增强预训练知识向下游任务的有效转移。MoA支持两种变体：（i）软MoA通过对所有专家输出进行加权融合实现细粒度整合；（ii）稀疏MoA根据专家贡献进行选择性激活，且性能下降几乎可以忽略不计。实验结果表明，异质MoA在表现和参数效率方面均优于同质MoE-LoRA方法。我们的项目可通过这个https URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.05928.pdf"
+    },
+    {
+        "名称": "2025 [2506.05700] RKEFino1: A Regulation Knowledge-Enhanced Large Language Model.pdf",
+        "作者": "Yan Wang, Yueru He, Ruoyu Xiang, Jeff Zhao",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）的进展为金融应用带来了巨大潜力，但在数字监管报告（DRR）中引入了关键的准确性和合规性挑战。为了解决这些问题，我们提出了RKEFino1，这是一种基于Fino1的法规知识增强型金融推理模型，通过XBRL、CDM和MOF的领域知识进行微调。我们设计了两个QA任务——基于知识和数学推理，并引入了一项新的覆盖句子和表格中的金融实体的数值命名实体识别（NER）任务。实验结果表明，RKEFino1在合规性关键的金融任务中具有效能和泛化能力。我们已经在Hugging Face上发布了我们的模型。",
+        "地址": "https://arxiv.org/pdf/2506.05700.pdf"
+    },
+    {
+        "名称": "2025 [2506.07047] Mathesis: Towards Formal Theorem Proving from Natural Languages.pdf",
+        "作者": "Yu Xuejun, Jianyuan Zhong, Zijin Feng, Pengyi Zhai, Roozbeh Yousefzadeh, Wei Chong Ng, Haoxiong Liu, Ziyi Shou, Jing Xiong, Yudong Zhou, Claudia Beth Ong, Austen Jeremy Sugiarto, Yaoxi Zhang, Wai Ming Tai, Huan Cao, Dongcai Lu, Jiacheng Sun, Qiang Xu, Shen Xin, Zhenguo Li",
+        "摘要": "摘要：最近在大型语言模型方面的进展表明在形式推理方面具有强大的前景。然而，大多数基于LLM的定理证明系统长期以来受限于需要专家编写的形式陈述作为输入，限制了其对用自然语言表达的实际问题的适用性。我们通过Mathesis解决了这一差距，这是第一个处理非正式问题陈述的端到端定理证明管道。它贡献了Mathesis-Autoformalizer，这是第一个使用强化学习来增强自然语言问题形式化能力的自动形式化器，辅助我们新颖的LeanScorer框架进行细致的形式化质量评估。它还提出了Mathesis-Prover，从形式化陈述中生成形式证明。为了评估端到端形式定理证明的实际应用性，我们引入了Gaokao-Formal，这是中国全国高考的488个复杂问题的基准。我们的方法经过精心设计，对各个组成部分进行了详细研究。实验表明Mathesis的有效性，自动形式化器在Gaokao-Formal上的通过率比最好的基线高出22%。整个系统超越了其他模型组合，在MiniF2F上达到64%的准确率，pass@32，并在Gaokao-Formal上达到最新的18%的准确率。",
+        "地址": "https://arxiv.org/pdf/2506.07047.pdf"
+    },
+    {
+        "名称": "2025 [2506.04688] MMRefine: Unveiling the Obstacles to Robust Refinement in Multimodal Large Language Models.pdf",
+        "作者": "Gio Paik, Geewook Kim, Jinbae Im",
+        "摘要": "摘要：本文介绍了MMRefine，这是一个多模态改进基准，用于评估多模态大语言模型 (MLLMs) 的错误改进能力。随着推理过程中的推理增强成为重点，MMRefine 提供了一个框架，评估 MLLMs 在六个不同场景中检测和纠正错误的能力，而不仅仅是比较改进前后的最终准确性。此外，该基准通过将错误分类为六种错误类型来分析改进性能。对各种开源和封闭的 MLLM 进行的实验揭示了限制改进性能的瓶颈和因素，强调了在有效推理增强方面的改进领域。我们的代码和数据集在此 https URL 上公开提供。\n\n翻译：该论文介绍了MMRefine，这是一个多模态改进基准，用于评估多模态大语言模型 (MLLMs) 的错误改进能力。随着推理过程中的推理增强成为重点，MMRefine 提供了一个框架，评估 MLLMs 在六个不同场景中检测和纠正错误的能力，而不仅仅是比较改进前后的最终准确性。此外，该基准通过将错误分类为六种错误类型来分析改进性能。对各种开源和封闭的 MLLM 进行的实验揭示了限制改进性能的瓶颈和因素，强调了在有效推理增强方面的改进领域。我们的代码和数据集在此 https URL 上公开提供。",
+        "地址": "https://arxiv.org/pdf/2506.04688.pdf"
+    },
+    {
+        "名称": "2025 [2506.04020] QQSUM: A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Question Answering.pdf",
+        "作者": "An Quang Tang, Xiuzhen Zhang, Minh Ngoc Dinh, Zhuang Li",
+        "摘要": "摘要：基于评论的产品问答（PQA）允许电子商务平台通过利用用户评论的见解自动解答客户查询。然而，现有的PQA系统生成的答案仅具有单一视角，未能捕捉客户意见的多样性。在本文中，我们介绍了一项新任务——定量查询聚焦摘要（QQSUM），其旨在将多样化的客户意见总结为具有代表性的关键点（KPs）并量化它们的普及性，以有效回答用户查询。虽然检索增强生成（RAG）在PQA方面表现出潜力，但其生成的答案仍未能完全捕捉观点的多样性。为了应对这一挑战，我们的模型QQSUM-RAG扩展了RAG，采用少量学习联合训练一个面向KP的检索器和一个KP摘要生成器，使得基于KP的摘要能够捕捉多样化和具有代表性的意见。实验结果表明，QQSUM-RAG在文本质量和意见量化准确性方面均优于最新的RAG基线。我们的源代码可在此URL获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2506.04020.pdf"
+    }
+]
