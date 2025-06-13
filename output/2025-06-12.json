@@ -1,0 +1,170 @@
+[
+    {
+        "名称": "2025 [2506.06395] Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models.pdf",
+        "作者": "Pengyi Li, Matvey Skripkin, Alexander Zubrey, Andrey Kuznetsov, Ivan Oseledets",
+        "摘要": "摘要：大型语言模型（LLMs）在推理方面表现出色，但训练后仍然需要进一步调整其行为以匹配任务目标。现有的强化学习（RL）方法通常依赖于昂贵的人力注释或外部奖励模型。我们提出了自信强化学习（RLSC），它利用模型自身的信心作为奖励信号——无需标签、偏好模型或奖励工程。应用于Qwen2.5-Math-7B的每个问题仅用16个样本和10或20个训练步骤，RLSC在AIME2024上提高准确性+13.4%，在MATH500上提高+21.2%，在Minerva Math上提高+21.7%，在Olympiadbench上提高+20.8%，在AMC23上提高+9.7%。RLSC提供了一种简单、可扩展的推理模型训练后方法，仅需要少量样本和未标注监督。\n\n翻译为中文：大型语言模型（LLMs）擅长推理，但训练后依然需要调整其行为以达到任务目标。现有的强化学习（RL）方法通常依赖昂贵的人工标注或外部奖励模型。我们提出了通过自信进行强化学习（RLSC），其使用模型自身的信心作为奖励信号，无需标签、偏好模型或奖励工程。应用于Qwen2.5-Math-7B，每个问题仅使用16个样本，训练步数为10或20，RLSC在AIME2024上将准确性提升了13.4%，在MATH500上提升了21.2%，在Minerva Math上提升了21.7%，在Olympiadbench上提升了20.8%，在AMC23上提升了9.7%。RLSC提供了一种简单且可扩展的模型训练后方法，仅需少量样本和无标签监督。",
+        "地址": "https://arxiv.org/pdf/2506.06395.pdf"
+    },
+    {
+        "名称": "2025 [2506.09113] Seedance 1.0: Exploring the Boundaries of Video Generation Models.pdf",
+        "作者": "Yu Gao, Haoyuan Guo, Tuyen Hoang, Weilin Huang, Lu Jiang, Fangyuan Kong, Huixia Li, Jiashi Li, Liang Li, Xiaojie Li, Xunsong Li, Yifu Li, Shanchuan Lin, Zhijie Lin, Jiawei Liu, Shu Liu, Xiaonan Nie, Zhiwu Qing, Yuxi Ren, Li Sun, Zhi Tian, Rui Wang, Sen Wang, Guoqiang Wei, Guohong Wu, Jie Wu, Ruiqi Xia, Fei Xiao, Xuefeng Xiao, Jiangqiao Yan, Ceyuan Yang, Jianchao Yang, Runkai Yang, Tao Yang, Yihang Yang, Zilyu Ye, Xuejiao Zeng, Yan Zeng, Heng Zhang, Yang Zhao, Xiaozheng Zheng, Peihao Zhu, Jiaxin Zou, Feilong Zuo",
+        "摘要": "摘要：在扩散建模领域取得的显著突破推动了视频生成技术的快速进步，然而当前的基础模型在同时平衡提示遵循性、运动合理性和视觉质量方面仍面临关键挑战。在本报告中，我们介绍了Seedance 1.0，这是一种高性能和推理高效的视频基础生成模型，它集成了几项核心技术改进：(i) 多源数据策展，增强了精确和有意义的视频字幕，使得在各种场景下能够进行全面学习；(ii) 高效的架构设计与提出的训练范式，能够本地支持多镜头生成并共同学习文本到视频和图像到视频任务；(iii) 精心优化的后训练方法，利用细粒度的监督微调和特定视频的强化学习人类反馈（RLHF），通过多维奖励机制实现全面性能提升；(iv) 通过多阶段蒸馏策略和系统级优化，实现~10倍推理加速。Seedance 1.0能够在41.4秒内（NVIDIA-L20）生成一个1080p分辨率的5秒视频。与最先进的视频生成模型相比，Seedance 1.0在生成出高质量和快速视频方面表现出色，具有卓越的时空流畅性和结构稳定性，在复杂多主题上下文中准确遵循指令，具有本地多镜头叙事连贯性和一致的主题表示。\n\n评论：Seedance 1.0 技术报告\n\n链接：https://arxiv.org/pdf/2506.09113.pdf",
+        "地址": "https://arxiv.org/pdf/2506.09113.pdf"
+    },
+    {
+        "名称": "2025 [2506.09350] Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation.pdf",
+        "作者": "Shanchuan Lin, Ceyuan Yang, Hao He, Jianwen Jiang, Yuxi Ren, Xin Xia, Yang Zhao, Xuefeng Xiao, Lu Jiang",
+        "摘要": "摘要：现有的大规模视频生成模型计算密集，阻碍了其在实时和交互应用中的采用。在这项工作中，我们提出了自回归对抗后训练（AAPT），将预训练的潜视频扩散模型转化为实时的交互式视频生成器。我们的模型每次使用单个神经函数评估（1NFE）自回归生成一个潜在帧。模型可以实时将结果流式传输给用户，并接收交互响应作为控制生成下一个潜在帧。与现有方法不同，我们的方法探索了对抗训练作为一种有效的自回归生成范式。这不仅允许我们设计更高效的单步生成架构，同时充分利用KV缓存，还能够以学生强制方式训练模型，有效减少长视频生成过程中错误累积。我们的实验表明，我们的8B模型在单个H100上以736x416分辨率实现了24fps的实时流式视频生成，或在8xH100上以1280x720分辨率实现持续一分钟（1440帧）的生成。请访问我们的研究网站查看详细信息。\n\n论文链接：https://arxiv.org/pdf/2506.09350.pdf\n\n论文标题：2025 [2506.09350] 自回归对抗后训练用于实时交互视频生成",
+        "地址": "https://arxiv.org/pdf/2506.09350.pdf"
+    },
+    {
+        "名称": "2025 [2506.09991] Multiverse: Your Language Models Secretly Decide How to Parallelize and Merge Generation.pdf",
+        "作者": "Xinyu Yang, Yuwei An, Hongyi Liu, Tianqi Chen, Beidi Chen",
+        "摘要": "摘要：自回归大型语言模型 (AR-LLMs) 在序列生成中经常表现出隐含的并行性。受此启发，我们引入了Multiverse，一种新的生成模型，能够原生并行生成。Multiverse内化了MapReduce范式，通过三个阶段自动生成：(i) 自适应任务分解的Map阶段，(ii) 并行子任务执行的Process阶段，(iii) 无损结果综合的Reduce阶段。接下来，我们构建了一个真实世界的Multiverse推理模型，进行数据、算法和系统的共同设计，实现从前沿AR-LLMs的快速无缝转换。从顺序推理链开始，我们通过自动化LLM辅助管道，将其转换为结构化训练数据，创建了Multiverse 1K，避免了昂贵的人工注释。在算法方面，我们设计了Multiverse Attention，以分离并行推理步骤，同时保持与因果注意力的兼容性，以实现高效训练。在系统方面，我们实现了Multiverse Engine，以启用并行推理。它具有一个专用调度器，可由模型直接触发，在顺序生成和并行生成之间动态切换。在使用1000个示例进行3小时微调后，我们的Multiverse-32B成为唯一开源的非自回归模型，其性能与同规模的领先AR-LLMs相当，AIME24和25得分分别为54%和46%。此外，我们的预算控制实验表明，Multiverse-32B表现出优越的扩展性，在相同上下文长度下平均表现优于AR-LLMs 1.87%。这种扩展进一步带来了实际效率增益，在不同批量大小下实现了高达2倍的加速。我们已经开源了整个Multiverse生态系统，包括数据、模型权重、引擎、支持工具以及完整的数据策划提示和详细的训练和评估配方。",
+        "地址": "https://arxiv.org/pdf/2506.09991.pdf"
+    },
+    {
+        "名称": "2025 [2506.09790] ComfyUI-R1: Exploring Reasoning Models for Workflow Generation.pdf",
+        "作者": "Zhenran Xu, Yiyu Wang, Xue Yang, Longyue Wang, Weihua Luo, Kaifu Zhang, Baotian Hu, Min Zhang",
+        "摘要": "摘要: 人工智能生成的内容已经从单一模型发展到模块化工作流程，特别是在像ComfyUI这样的平台上，允许创造性流程的定制。然而，制作有效的工作流程需要专家来协调众多专业组件，对用户来说有很大的学习难度。为了应对这一挑战，我们引入了ComfyUI-R1，这是一种用于自动化工作流程生成的大型推理模型。在我们精心策划的4000个工作流程数据集的基础上，我们构建了长链式思维（CoT）推理数据，包括节点选择、工作流程规划和代码级工作流程表示。ComfyUI-R1通过两个阶段框架进行训练：（1）CoT微调用于冷启动，使模型适应ComfyUI领域；（2）通过精细的规则-度量混合奖励指导的强化学习，激励推理能力，确保格式有效性、结构完整性和节点级的准确性。实验表明，我们的7B参数模型实现了97%格式有效率，以及高通过率、节点级和图级F1分数，显著超过使用闭源领先模型（如GPT-4o和Claude系列）的之前的最先进方法。进一步分析强调了推理过程的关键作用和工作流程转化为代码的优势。定性比较显示我们在合成具有多样节点的复杂工作流程方面的优势，强调了长链式思维推理在AI艺术创作中的潜力。",
+        "地址": "https://arxiv.org/pdf/2506.09790.pdf"
+    },
+    {
+        "名称": "2025 [2506.09995] PlayerOne: Egocentric World Simulator.pdf",
+        "作者": "Yuanpeng Tu, Hao Luo, Xi Chen, Xiang Bai, Fan Wang, Hengshuang Zhao",
+        "摘要": "摘要：我们介绍了PlayerOne，这是第一个以自我为中心的现实世界模拟器，能够在生动动态的环境中进行沉浸和无限制的探索。通过用户提供的自我视角图像，PlayerOne可以准确构建相应的世界，并生成严格与用户通过外置摄像头捕捉到的真实场景人类运动相对应的自我视角视频。PlayerOne通过一个从粗到精的流程进行训练，首先在大规模自我视角视频文本对上进行预训练，以实现粗略层面的自我视角理解；然后在从自我视角-外部视角视频数据集中提取的同步运动视频数据上进行微调，我们的自动构造流程用于完成这一过程。此外，考虑到不同组件的重要性，我们设计了一种部分解耦运动注入方案，实现了对部分级运动的精确控制。此外，我们还设计了一个联合重建框架，逐步对4D场景和视频帧进行建模，确保长视频生成中的场景一致性。实验结果表明，它在精确控制变化的人类运动和世界一致性建模多样化场景方面具有很强的泛化能力。它标志着进入自我视角现实世界模拟的首次尝试，可以为社区探索世界建模及其多种应用的新前沿铺平道路。",
+        "地址": "https://arxiv.org/pdf/2506.09995.pdf"
+    },
+    {
+        "名称": "2025 [2506.08570] Auto-Regressive vs Flow-Matching: a Comparative Study of Modeling Paradigms for Text-to-Music Generation.pdf",
+        "作者": "Or Tal, Felix Kreuk, Yossi Adi",
+        "摘要": "摘要：近年来，文本到音乐生成领域取得了显著进展，使得模型能够合成高质量的音乐片段、完整的作曲，甚至响应细粒度控制信号，例如和弦进行。最先进（SOTA）的系统在许多方面存在显著差异，如训练数据集、建模范式和架构选择。这种多样性使得评估模型的公平性变得复杂，并难以确定哪些设计选择对性能影响最大。虽然数据、架构等因素也很重要，但本研究专注于建模范式。我们进行了系统的实证分析，以隔离其影响，提供相关权衡和新兴行为的见解，指导未来的文本到音乐生成系统。具体来说，我们比较了两种最常见的建模范式：自回归解码和条件流匹配。通过使用相同的数据集、训练配置和相似的主干架构从头开始训练所有模型，我们进行了控制比较。性能评估包括多个方面，如生成质量、推理配置的鲁棒性、可扩展性、文本和时间对齐条件的遵守情况，以及音频修补形式的编辑能力。这项比较研究揭示了每种范式的独特优势和局限性，提供了可行的见解，以便在不断发展的文本到音乐生成领域指导未来的架构和训练决策。音频示例可在此链接获取：https://arxiv.org/pdf/2506.08570.pdf",
+        "地址": "https://arxiv.org/pdf/2506.08570.pdf"
+    },
+    {
+        "名称": "2025 [2506.08889] SeerAttention-R: Sparse Attention Adaptation for Long Reasoning.pdf",
+        "作者": "Yizhao Gao, Shuming Guo, Shijie Cao, Yuqing Xia, Yu Cheng, Lei Wang, Lingxiao Ma, Yutao Sun, Tianzhu Ye, Li Dong, Hayden Kwok-Hay So, Yu Hua, Ting Cao, Fan Yang, Mao Yang",
+        "摘要": "摘要：我们介绍了SeerAttention-R，这是一种专门为长推理模型解码量身定制的稀疏注意力框架。从SeerAttention扩展而来，SeerAttention-R通过自蒸馏门机制保留了学习注意力稀疏性的设计，同时移除了查询池以适应自回归解码。通过轻量级的插件门控，SeerAttention-R灵活且可以轻松集成到现有的预训练模型中，而不需要修改原始参数。我们展示了SeerAttention-R在仅0.4B标记中训练，保持了接近无损的推理准确性，并在AIME基准测试中以4K标记预算和大稀疏注意力块大小（64/128）下运行。使用TileLang，我们开发了一个高度优化的稀疏解码内核，在H100 GPU上以90%的稀疏度实现接近理论的最高9倍加速，相对于FlashAttention-3。代码可在此URL获得：this https URL.",
+        "地址": "https://arxiv.org/pdf/2506.08889.pdf"
+    },
+    {
+        "名称": "2025 [2506.09003] SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner.pdf",
+        "作者": "Lei Zhang, Jiaxi Yang, Min Yang, Jian Yang, Mouxiang Chen, Jiajun Zhang, Zeyu Cui, Binyuan Hui, Junyang Lin",
+        "摘要": "摘要: 我们介绍了一种新颖的数据合成框架 **SWE-Flow**，它基于测试驱动开发（TDD）。与依赖人工提交问题的现有软件工程数据不同，**SWE-Flow** 直接从单元测试中自动推断增量开发步骤，这些测试本质上封装了高级需求。**SWE-Flow** 的核心是构建运行时依赖图（RDG），该图精确地捕捉函数交互，从而生成结构化的逐步开发计划。在每一步中，**SWE-Flow** 会生成部分代码库，相应的单元测试和必要的代码修改，从而产生完全可验证的 TDD 任务。通过这种方法，我们从现实世界的 GitHub 项目中生成了 16,061 个训练实例和 2,020 个测试实例，并创建了 **SWE-Flow-Eval** 基准。我们的实验表明，在这个数据集上微调开放模型显著提高了基于 TDD 的编码性能。为了促进进一步的研究，我们在 [Github](this https URL) 上发布了所有代码、数据集、模型和 Docker 镜像。",
+        "地址": "https://arxiv.org/pdf/2506.09003.pdf"
+    },
+    {
+        "名称": "2025 [2506.09984] InterActHuman: Multi-Concept Human Animation with Layout-Aligned Audio Conditions.pdf",
+        "作者": "Zhenzhi Wang, Jiaqi Yang, Jianwen Jiang, Chao Liang, Gaojie Lin, Zerong Zheng, Ceyuan Yang, Dahua Lin",
+        "摘要": "摘要：近年来，具备文本、图像和音频等丰富多模态条件的端到端人物动画取得了显著进展。然而，大多数现有方法只能对单一主体进行动画处理，并以总体的方式注入条件，忽略了多个概念可能出现在同一视频中并且存在丰富的人际互动和人与物体互动的情景。这种总体假设阻碍了对包括人物和物体在内的多个概念的精确控制，从而限制了应用。在本研究中，我们摒弃单实体假设，并引入了一种新框架，强制将模态条件与每个身份的时空足迹进行强有力的区域特定绑定。给定多个概念的参考图像，我们的方法可以通过利用掩码预测器来匹配去噪视频和每个参考外观之间的外观提示，自动推断布局信息。此外，我们将局部音频条件注入其对应区域，以确保布局对齐的模态匹配。该设计可以生成高质量的可控多概念人物视频。经验结果和消融研究验证了相较于隐式方法和其他现有方法，我们的显式布局控制对于多模态条件的有效性。\n\n评论：简短提示：通过显式布局对齐条件注入，从参考图像和音频对生成多人物对话视频的首个方法。详情请参阅项目页面上的URL。\n\n链接：https://arxiv.org/pdf/2506.09984.pdf\n\n标题：InterActHuman: 多概念人物动画与布局对齐的音频条件",
+        "地址": "https://arxiv.org/pdf/2506.09984.pdf"
+    },
+    {
+        "名称": "2025 [2506.09501] Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning.pdf",
+        "作者": "Jiayi Yuan, Hao Li, Xinheng Ding, Wenya Xie, Yu-Jhe Li, Wentian Zhao, Kun Wan, Jing Shi, Xia Hu, Zirui Liu",
+        "摘要": "摘要：大型语言模型（LLMs）现已成为各个领域中不可或缺的一部分，并表现出令人印象深刻的性能。然而，进展依赖于基准得分的准确性和可复现性。我们证明了LLM性能的可复现性是脆弱的：更改系统配置如评估批量大小、GPU数量和GPU版本可以引起生成响应的显著差异。这一问题在推理模型中尤为明显，早期符号的细微舍入差异可能导致不同的思维链，最终影响准确性。例如，在使用bfloat16精度和贪婪解码的情况下，一个像DeepSeek-R1-Distill-Qwen-7B这样的推理模型由于GPU数量、种类和评估批量大小的差异，其准确性可能有高达9%的变化，响应长度可能相差9000个符号。我们追踪到这种可变性的根本原因是有限数值精度下浮点运算的非结合性。这项工作首次系统性地调查了数值精度如何影响LLM推理的可复现性。通过在各种硬件、软件和精度设置下进行精心控制的实验，我们量化了模型输出分歧的时间和原因。我们的分析表明，浮点精度在可复现性中至关重要，但在评估实践中却常被忽视。受此启发，我们开发了一个轻量级的推理管道，称为LayerCast，该管道将权重存储在16位精度中，但所有计算都以FP32进行，平衡了内存效率和数值稳定性。代码可以在这个网址获取。",
+        "地址": "https://arxiv.org/pdf/2506.09501.pdf"
+    },
+    {
+        "名称": "2025 [2506.05309] Time to Talk: LLM Agents for Asynchronous Group Communication in Mafia Games.pdf",
+        "作者": "Niv Eckhaus, Uri Berger, Gabriel Stanovsky",
+        "摘要": "摘要：LLMs（大规模语言模型）主要用于同步通信中，人类用户和模型交替进行交流。相比之下，许多现实世界的设置本质上是异步的。例如，在群聊、在线团队会议或社交游戏中，没有固有的轮流发言概念；因此，决定何时发言是参与者决策的重要部分。在这项工作中，我们开发了一个自适应异步LLM代理，该代理除了确定说什么外，还决定何时说。为了评估我们的代理，我们收集了一套独特的在线Mafia游戏数据集，包括人类参与者和我们的异步代理。总体而言，我们的代理在游戏表现以及与其他人类玩家的融合能力方面，与人类玩家表现相当。我们的分析表明，代理在决定何时发言时的行为与人类模式高度相似，尽管在消息内容上存在差异。我们公开了所有数据和代码，以支持并鼓励进一步研究更真实的LLM代理异步通信。这项工作为将LLMs整合到现实的人类群体环境中铺平了道路，从团队讨论中的辅助到需要应对复杂社会动态的教育和专业环境。\n\n作者：Niv Eckhaus, Uri Berger, Gabriel Stanovsky\n\n网址：https://arxiv.org/pdf/2506.05309.pdf\n\n标题：2025 [2506.05309] Time to Talk: LLM Agents for Asynchronous Group Communication in Mafia Games.pdf",
+        "地址": "https://arxiv.org/pdf/2506.05309.pdf"
+    },
+    {
+        "名称": "2025 [2506.09937] SAFE: Multitask Failure Detection for Vision-Language-Action Models.pdf",
+        "作者": "Qiao Gu, Yuanliang Ju, Shengxiang Sun, Igor Gilitschenski, Haruki Nishimura, Masha Itkina, Florian Shkurti",
+        "摘要": "摘要：尽管视觉-语言-行为模型（VLAs）在各种操作任务中展示了有希望的机器人行为，但当它们被直接应用于新任务时，成功率有限。为了使这些策略能够安全地与环境互动，我们需要一种故障检测器，当机器人发生故障时能够及时发出警报，使得机器人可以停止、回退或请求帮助。然而，现有的故障检测器仅在一个或几个特定任务上进行训练和测试，而VLAs需要检测器能够泛化并检测到在未知任务和新环境中的故障。本文提出了多任务故障检测问题，并提出了SAFE，一种用于通用机器人策略（如VLAs）的故障检测器。我们分析了VLA的特征空间，发现VLAs拥有关于任务成功和失败的足够高层次知识，这些知识在不同任务中是通用的。基于这一见解，我们设计了SAFE，从VLA的内部特征中学习并预测表示任务失败可能性的单一标量。SAFE在成功和失败的滚动演示上进行训练，并在未见过的任务上进行评估。SAFE与不同的策略架构兼容。我们在OpenVLA、π_0和π_0-FAST上进行了广泛的模拟和现实环境测试。我们将SAFE与多种基线进行比较，表明SAFE实现了最先进的故障检测性能，并通过保守预测在准确性和检测时间之间达到了最佳平衡。更多的定性结果可以在此https URL中找到。",
+        "地址": "https://arxiv.org/pdf/2506.09937.pdf"
+    },
+    {
+        "名称": "2025 [2506.09736] Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning.pdf",
+        "作者": "Yuting Li, Lai Wei, Kaipeng Zheng, Jingyuan Huang, Linghe Kong, Lichao Sun, Weiran Huang",
+        "摘要": "摘要：尽管多模态大型语言模型（MLLMs）快速发展，但它们在很大程度上忽视了视觉处理的重要性。在一个简单但揭示性的实验中，我们有趣地发现，当提供图像描述时，仅使用语言的模型可以达到与消耗原始视觉输入的MLLMs相当甚至更好的性能。这表明当前的MLLMs可能生成准确的视觉描述，但在推理过程中未能有效地整合这些描述。基于此，我们提出了一个简单的视觉扰动框架，在不需要算法修改或额外训练数据的情况下增强感知鲁棒性。我们的方法引入了三种有针对性的扰动：干扰物拼接、保持显著性混合和随机旋转，这些可以轻松集成到现有的后训练管道中，包括SFT、DPO和GRPO。通过在多个数据集上的广泛实验，我们证明了数学推理性能的一致提升，其增益相当于通过算法变化获得的。此外，通过使用视觉扰动来训练Qwen2.5-VL-7B，我们在开源7B RL微调模型中实现了具有竞争力的性能。通过全面的消融研究，我们分析了不同扰动策略的有效性，揭示了每种扰动类型对视觉推理不同方面的独特贡献。我们的研究结果强调了视觉扰动在多模态数学推理中的关键作用：更好的推理始于更好的视觉。我们的代码可在此https URL获取。\n\nAuthors: Yuting Li, Lai Wei, Kaipeng Zheng, Jingyuan Huang, Linghe Kong, Lichao Sun, Weiran Huang",
+        "地址": "https://arxiv.org/pdf/2506.09736.pdf"
+    },
+    {
+        "名称": "2025 [2506.08008] Hidden in plain sight: VLMs overlook their visual representations.pdf",
+        "作者": "Stephanie Fu, Tyler Bonnen, Devin Guillory, Trevor Darrell",
+        "摘要": "摘要：语言提供了一种自然界面，可以指定和评估视觉任务的性能。为了实现这一可能性，视觉语言模型（VLMs）必须成功整合视觉和语言信息。我们的工作比较了VLMs与其视觉编码器的直接读取，以了解其在这些模态之间的整合能力。在一系列以视觉为中心的基准（例如深度估计，对应关系）中，我们发现VLMs的性能显著低于其视觉编码器，几乎降至随机表现。我们通过一系列分析研究了这些结果，主要包括：1）视觉表示的退化，2）任务提示的脆弱性，3）语言模型在解决任务中的角色。我们发现，在执行这些以视觉为中心的任务时，瓶颈在于第三类；VLMs没有有效使用整个模型中容易获取的视觉信息，并且它们继承了LLM中存在的语言先验。我们的工作有助于诊断开源VLMs的故障模式，并提出了一系列对未来VLMs视觉理解研究有用的评估方法。",
+        "地址": "https://arxiv.org/pdf/2506.08008.pdf"
+    },
+    {
+        "名称": "2025 [2506.09278] UFM: A Simple Path towards Unified Dense Correspondence with Flow.pdf",
+        "作者": "Yuchen Zhang, Nikhil Keetha, Chenwei Lyu, Bhuvan Jhamb, Yutian Chen, Yuheng Qiu, Jay Karhade, Shreyas Jha, Yaoyu Hu, Deva Ramanan, Sebastian Scherer, Wenshan Wang",
+        "摘要": "摘要：密集图像对应在许多应用中至关重要，例如视觉里程计、三维重建、对象关联和重新识别。历史上，虽然密集对应的共同目标是匹配两张图像之间的内容，但宽基线场景和光流估计通常是分开处理的。在本文中，我们开发了一种统一流与匹配模型（UFM），该模型在源图像和目标图像中共同可见的像素上的统一数据上进行训练。UFM使用简单、通用的变压器架构直接回归(u,v)流。相比于先前工作中的典型粗到细成本卷，UFM更容易训练，并且在处理大流方面更加准确。与最先进的流方法（Unimatch）相比，UFM准确率提高了28%，错误率降低了62%，并且比密集宽基线匹配器（RoMa）快6.7倍。UFM是第一个证明统一训练可以在两域中超越专业方法的模型。这一结果使快速、通用的对应成为可能，并为多模态、长距离和实时对应任务开辟了新的方向。",
+        "地址": "https://arxiv.org/pdf/2506.09278.pdf"
+    },
+    {
+        "名称": "2025 [2506.09229] Cross-Frame Representation Alignment for Fine-Tuning Video Diffusion Models.pdf",
+        "作者": "Sungwon Hwang, Hyojin Jang, Kinam Kim, Minho Park, Jaegul choo",
+        "摘要": "摘要：微调视频扩散模型（VDMs）以生成反映训练数据特定属性的视频面临显著挑战，尽管其在实践中具有重要性，但仍然未被充分探索。同时，最近的工作如表示对齐（REPA）在通过将内部隐藏状态与外部预训练视觉特征对齐或同化，提高基于DiT的图像扩散模型的收敛性和质量方面显示了希望，表明其在VDM微调中的潜力。在这项工作中，我们首先提出了REPA在VDMs中的直接改编，并通过实验证明虽然在收敛方面有效，但在保持各帧之间的语义一致性方面表现不佳。为了解决这一限制，我们引入了跨帧表示对齐（CREPA），这是一种新颖的正则化技术，将一帧的隐藏状态与邻近帧的外部特征对齐。在包括CogVideoX-5B和Hunyuan Video在内的大规模VDMs上的实证评估表明，CREPA在使用LoRA等参数高效方法进行微调时，提高了视觉保真度和跨帧语义一致性。我们进一步在具有不同属性的各种数据集上验证了CREPA，证实了其广泛适用性。项目页面：此https URL\n\n翻译：微调视频扩散模型（VDMs）以生成反映训练数据特定属性的视频面临显著挑战，尽管其在实践中具有重要性，但仍然未被充分探索。同时，最近的工作如表示对齐（REPA）在通过将内部隐藏状态与外部预训练视觉特征对齐或同化，提高基于DiT的图像扩散模型的收敛性和质量方面显示了希望，表明其在VDM微调中的潜力。在这项工作中，我们首先提出了REPA在VDMs中的直接改编，并通过实验证明虽然在收敛方面有效，但在保持各帧之间的语义一致性方面表现不佳。为了解决这一限制，我们引入了跨帧表示对齐（CREPA），这是一种新颖的正则化技术，将一帧的隐藏状态与邻近帧的外部特征对齐。在包括CogVideoX-5B和Hunyuan Video在内的大规模VDMs上的实证评估表明，CREPA在使用LoRA等参数高效方法进行微调时，提高了视觉保真度和跨帧语义一致性。我们进一步在具有不同属性的各种数据集上验证了CREPA，证实了其广泛适用性。项目页面：此https URL",
+        "地址": "https://arxiv.org/pdf/2506.09229.pdf"
+    },
+    {
+        "名称": "2025 [2506.09669] Query-Level Uncertainty in Large Language Models.pdf",
+        "作者": "Lihu Chen, Gaël Varoquaux",
+        "摘要": "摘要：大型语言模型需了解其知识范围，识别已知和未知查询的机制。这种意识可以帮助模型进行自适应推理，例如调用RAG（检索增强生成），进行深入思考或采用弃权机制，这对高效和可信的AI发展有益。在本文中，我们提出了一种通过查询级不确定性检测知识边界的方法，旨在确定模型是否能够在不生成任何标记的情况下解决给定查询。为此，我们介绍了一种名为内在信心的新颖且无需训练的方法，该方法利用跨层和标记的自我评估。事实问答和数学推理任务的实证结果表明，我们的内在信心方法能够优于几个基准。此外，我们展示了所提出的方法可以用于高效的RAG和模型级联，能够在保持性能的同时降低推理成本。",
+        "地址": "https://arxiv.org/pdf/2506.09669.pdf"
+    },
+    {
+        "名称": "2025 [2506.08900] MIRAGE: Multimodal foundation model and benchmark for comprehensive retinal OCT image analysis.pdf",
+        "作者": "José Morano, Botond Fazekas, Emese Sükei, Ronald Fecso, Taha Emre, Markus Gumpinger, Georg Faustmann, Marzieh Oghbaie, Ursula Schmidt-Erfurth, Hrvoje Bogunović",
+        "摘要": "摘要：人工智能 (AI) 已成为辅助临床医生分析眼科图像（如光学相干断层扫描 (OCT)）的基本工具。然而，开发 AI 模型通常需要大量标注，而且现有模型在独立、未知数据上的表现往往不佳。基础模型 (FM) 是在大量未标注数据集上训练的大型 AI 模型，显示出克服这些挑战的潜力。然而，可用于眼科的基础模型 (FM) 缺乏广泛验证，特别是在分割任务上，并且只关注一种成像模式。在此背景下，我们提出了 MIRAGE，这是一种用于分析 OCT 和扫描激光检眼镜 (SLO) 图像的新颖的多模式基础模型 (FM)。此外，我们提出了一个包含 OCT/SLO 分类和分割任务的新评估基准。与通用和专业基础模型 (FM) 以及分割方法的比较表明，MIRAGE 在两种任务中都表现出优越性，突显其作为开发稳健 AI 系统用于视网膜 OCT 图像分析的适用性。 MIRAGE 和评估基准都是公开可用的：https URL。",
+        "地址": "https://arxiv.org/pdf/2506.08900.pdf"
+    },
+    {
+        "名称": "2025 [2506.08001] Reparameterized LLM Training via Orthogonal Equivalence Transformation.pdf",
+        "作者": "Zeju Qiu, Simon Buchholz, Tim Z. Xiao, Maximilian Dax, Bernhard Schölkopf, Weiyang Liu",
+        "摘要": "摘要：虽然大型语言模型（LLMs）推动了人工智能的迅速发展，但有效且可靠地训练这些大型模型仍然是该领域最重要的挑战之一。为了解决这一挑战，我们提出了POET，一种新颖的重新参数化训练算法，使用正交等效变换来优化神经元。具体来说，POET通过两个可学习的正交矩阵和一个固定的随机权重矩阵对每个神经元进行重新参数化。由于证明了权重矩阵谱特性的保留，POET能够稳健地优化目标函数并提高泛化能力。我们进一步开发了高效的近似方法，使POET在训练大规模神经网络时灵活且可扩展。大量实验验证了POET在训练大型语言模型中的有效性和可扩展性。",
+        "地址": "https://arxiv.org/pdf/2506.08001.pdf"
+    },
+    {
+        "名称": "2025 [2506.09980] Efficient Part-level 3D Object Generation via Dual Volume Packing.pdf",
+        "作者": "Jiaxiang Tang, Ruijie Lu, Zhaoshuo Li, Zekun Hao, Xuan Li, Fangyin Wei, Shuran Song, Gang Zeng, Ming-Yu Liu, Tsung-Yi Lin",
+        "摘要": "摘要：最近3D对象生成方面的进展极大地提高了质量和效率。然而，大多数现有方法生成一个所有部分融合在一起的单一网格，这限制了编辑或操控各个部分的能力。一个关键挑战是不同的对象可能有不同数量的部分。为了解决这个问题，我们提出了一个新的端到端框架用于部件级3D对象生成。给定单一输入图像，我们的方法生成具有任意数量完整且语义有意义部分的高质量3D对象。我们介绍了一种双体积打包策略，将所有部分组织成两个互补的体积，从而创造出完整和交错的部分，并最终组装成整个对象。实验表明，我们的模型在质量、多样性和泛化方面比以前基于图像的部件级生成方法取得了更好的成绩。",
+        "地址": "https://arxiv.org/pdf/2506.09980.pdf"
+    },
+    {
+        "名称": "2025 [2506.09958] Kvasir-VQA-x1: A Multimodal Dataset for Medical Reasoning and Robust MedVQA in Gastrointestinal Endoscopy.pdf",
+        "作者": "Sushant Gautam, Michael A. Riegler, Pål Halvorsen",
+        "摘要": "摘要：医学视觉问答（MedVQA）是一个有前途的领域，用于开发临床决策支持系统。然而，进展常常受到可用数据集的限制，这些数据集在临床复杂性和视觉多样性方面可能有所欠缺。为了解决这些不足，我们引入了Kvasir-VQA-x1，一个用于胃肠道（GI）内窥镜的大规模新数据集。我们的工作在原始Kvasir-VQA的基础上显著扩展，加入了159,549个新问答对，旨在测试更深层次的临床推理。我们使用大型语言模型开发了一种系统性的方法来生成这些问题，并按复杂程度进行分层，以更好地评估模型的推理能力。为了确保我们的数据集能够让模型为实际临床场景做好准备，我们还引入了模仿常见成像伪影的各种视觉增强技术。该数据集结构支持两个主要评估轨道：一个用于标准VQA性能评估，另一个用于测试模型在这些视觉扰动下的鲁棒性。通过提供一个更具挑战性和临床相关的基准，Kvasir-VQA-x1旨在加速开发更可靠和有效的多模态AI系统，以在临床环境中使用。该数据集完全可访问并遵循FAIR数据原则，使其成为更广泛研究社区的宝贵资源。代码和数据：此https网址和此https网址。\n\n作者：Sushant Gautam, Michael A. Riegler, Pål Halvorsen\n\n标题：2025 [2506.09958] Kvasir-VQA-x1：用于胃肠道内窥镜中的医学推理和稳健MedVQA的多模态数据集\n\n网址：https://arxiv.org/pdf/2506.09958.pdf",
+        "地址": "https://arxiv.org/pdf/2506.09958.pdf"
+    },
+    {
+        "名称": "2025 [2506.09007] Branched Schrödinger Bridge Matching.pdf",
+        "作者": "Sophia Tang, Yinuo Zhang, Alexander Tong, Pranam Chatterjee",
+        "摘要": "摘要：预测初始分布和目标分布之间的中间轨迹是生成建模中的一个核心问题。现有的方法，如流动匹配和薛定谔桥匹配，通过建模单一随机路径有效地学习两个分布之间的映射。然而，这些方法本质上仅限于单峰过渡，无法捕捉从共同起源到多个不同结果的分支或分歧演变。为了解决这一问题，我们引入了分支薛定谔桥匹配（BranchSBM），这是一种新颖的框架，用于学习分支薛定谔桥。BranchSBM参数化多个时间依赖的速度场和增长过程，从而能够表示在多个终端分布中的人口水平分歧。我们证明BranchSBM不仅更加富有表现力，而且对于涉及多路径表面导航、从同质祖细胞状态建模细胞命运分叉以及模拟细胞对扰动产生分歧响应的任务至关重要。",
+        "地址": "https://arxiv.org/pdf/2506.09007.pdf"
+    },
+    {
+        "名称": "2025 [2506.06020] When to Trust Context: Self-Reflective Debates for Context Reliability.pdf",
+        "作者": "Zeqi Zhou, Fang Wu, Shayan Talaei, Haokai Zhao, Cheng Meixin, Tinson Xu, Amin Saberi, Yejin Choi",
+        "摘要": "摘要: 大型语言模型经常在其参数知识与上下文输入之间遇到冲突，常导致事实上的不一致或幻觉。我们提出了上下文可靠性的自我反思辩论（SR-DCR），这是一个轻量级框架，它结合了基于词元的自信心和不对称的多代理辩论来裁定这些冲突。一个评论者被剥夺上下文，挑战一个从给定段落中争论的捍卫者；一个评审模型评估辩论并确定上下文的可靠性。通过将裁定结果与模型的自信心结合来选择最终答案。在ClashEval基准上的实验表明，SR-DCR在保持可靠输入的准确性的同时，一贯增强了对误导性上下文的稳健性，比传统辩论和仅自信基线算法表现更优，并具有最小的计算开销。代码可在这个网址获取。",
+        "地址": "https://arxiv.org/pdf/2506.06020.pdf"
+    },
+    {
+        "名称": "2025 [2506.05412] Can Vision Language Models Infer Human Gaze Direction? A Controlled Study.pdf",
+        "作者": "Zory Zhang, Pinyuan Feng, Bingyang Wang, Tianwei Zhao, Suyang Yu, Qingying Gao, Hokin Deng, Ziqiao Ma, Yijiang Li, Dezhi Luo",
+        "摘要": "摘要：眼睛参考推理——推断其他人正在看的东西的能力——是理论推理的关键组成部分，它是自然人类与人工智能交互的基础。在一项受控研究中，我们利用拍摄的具有操控难度和变化性的照片，对111个视觉语言模型（VLMs）进行了评估，比较了它们与65名人类参与者的表现，并使用混合效应模型分析了行为。我们发现，111个VLM中有94个未能比随机猜测做得更好，而人类则达到了近乎完美的准确性。VLMs甚至几乎采用每个选择进行的频率是相等的。难道它们是在随机猜测吗？尽管大多数VLMs表现不佳，当我们仔细观察表现超过随机表现的前五名VLM时，我们发现它们的表现随着任务难度的增加而下降，但在不同提示和场景对象之间仅略有变化。这些行为特征不能通过将它们视为随机猜测者来解释。相反，它们可能使用了一种启发式和猜测的组合，使得其表现受任务难度影响但对感知变化具有稳健性。这表明，VLMs在缺乏眼睛推理能力的情况下，还无法成为能够自然与人类互动的技术，但仍然具有潜力。\n\n译者：张卓、冯品原、王兵阳、赵天伟、余苏颖、高庆英、邓浩钦、马子乔、李怡江、罗德志\n\n评论：预印本正在审稿中。项目页面在此 https URL。\n\n网址：https://arxiv.org/pdf/2506.05412.pdf\n\n标题：2025 [2506.05412] 视觉语言模型能推断人类的注视方向吗？一项受控研究.pdf",
+        "地址": "https://arxiv.org/pdf/2506.05412.pdf"
+    },
+    {
+        "名称": "2025 [2506.10209] TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games.pdf",
+        "作者": "Prakamya Mishra, Jiang Liu, Jialian Wu, Xiaodong Yu, Zicheng Liu, Emad Barsoum",
+        "摘要": "摘要：大型推理模型（LRMs）已经展示了其在多种任务上令人印象深刻的推理能力，包括奥林匹克水平的数学问题，表明其复杂的推理能力。然而，尽管许多推理基准测试集中在STEM领域，LRMs在更广泛任务领域中的正确推理能力仍然未被充分探索。在这项工作中，我们介绍了TTT-Bench，一种通过四种双人井字棋风格游戏评估LRMs基本战略、空间和逻辑推理能力的新基准。这些游戏对于人类来说是轻而易举的，但它们需要推理对手的意图以及游戏板上的空间配置以确保获胜。我们提出了一种简单但可扩展的程序化方法来生成TTT-Bench的可验证双人游戏问题。我们评估了一组多样化的最先进LRMs，发现那些在困难数学问题上表现出色的模型往往在这些简单的推理游戏中失败。进一步测试显示，我们评估的推理模型在TTT-Bench上的平均得分比MATH 500和AIME 2024分别低41%和5%，较大的模型通过更短的推理轨迹表现出较高的性能，其中大多数模型在简单和新的TTT-Bench任务上的长期战略推理情况中挣扎。\n\n翻译：大型推理模型（LRMs）已经展示了其在广泛任务上令人印象深刻的推理能力，包括奥林匹克级别的数学问题，表明其复杂的推理能力。虽然许多推理基准测试集中在STEM领域，但LRMs在更广泛任务领域的正确推理能力仍未被充分探索。在这项工作中，我们引入了TTT-Bench，一个通过四种双人井字棋风格游戏来评估LRMs基本战略、空间和逻辑推理能力的新基准。我们提出了一种简单但可扩展的程序化方法来生成TTT-Bench的可验证双人游戏问题。尽管这些游戏对人类来说是轻而易举的，但它们需要推理对手的意图以及游戏板的空间配置以确保获胜。我们评估了一组多样化的最先进LRMs，并发现那些在高难度数学问题上表现出色的模型，在这些简单推理游戏中常常失败。进一步测试表明，我们评估的推理模型在TTT-Bench上的平均得分比MATH 500和AIME 2024分别低41%和5%，较大型模型通过更短的推理轨迹表现出更高的性能，其中大多数模型在简单和新的TTT-Bench任务上的长期战略推理情况中表现不佳。",
+        "地址": "https://arxiv.org/pdf/2506.10209.pdf"
+    },
+    {
+        "名称": "2025 [2506.09820] CoRT: Code-integrated Reasoning within Thinking.pdf",
+        "作者": "Chengpeng Li, Zhengyang Tang, Ziniu Li, Mingfeng Xue, Keqin Bao, Tian Ding, Ruoyu Sun, Benyou Wang, Xiang Wang, Junyang Lin, Dayiheng Liu",
+        "摘要": "摘要：大型推理模型（LRMs）如o1和DeepSeek-R1在具有长链推理（CoT）的自然语言推理方面展示了显著进展，但在处理复杂数学运算时仍然效率低下或不准确。通过计算工具（例如计算库和符号求解器）解决这些限制是有前途的，但它引入了一个技术挑战：代码解释器（CI）带来了模型内部文本表示之外的外部知识，因此直接结合效率不高。本文介绍了一种用于在训练后框架中有效利用CI的方法CoRT。作为第一步，我们通过Hint-Engineering综合代码集成推理数据来解决数据稀缺问题，该方法在适当位置战略性地插入不同的提示以优化LRM-CI交互。我们手动创建了30个高质量样本，并对从1.5B到32B参数的模型进行了有监督的微调、拒绝微调和强化学习的训练。实验结果表明，Hint-Engineering模型在五个具有挑战性的数学推理数据集上分别在DeepSeek-R1-Distill-Qwen-32B和DeepSeek-R1-Distill-Qwen-1.5B上取得了绝对改进4%和8%。此外，与自然语言模型相比，Hint-Engineering模型在32B模型中使用的tokens减少约30%，在1.5B模型中减少约50%。模型和代码可在此链接https URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.09820.pdf"
+    },
+    {
+        "名称": "2025 [2506.09420] A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy.pdf",
+        "作者": "Henry Peng Zou, Wei-Chieh Huang, Yaozu Wu, Chunyu Miao, Dongyuan Li, Aiwei Liu, Yue Zhou, Yankai Chen, Weizhi Zhang, Yangning Li, Liancheng Fang, Renhe Jiang, Philip S. Yu",
+        "摘要": "摘要：最近大型语言模型（LLMs）的改进使得许多研究人员集中精力构建完全自主的人工智能代理。本立场论文质疑这种方法是否是正确的前进方向，因为这些自主系统在可靠性、透明度和理解人类实际需求方面仍存在问题。我们提出一种不同的方法：基于LLM的人机系统（LLM-HAS），其中AI与人类协作而非取代他们。通过让人类参与提供指导、回答问题并保持控制，这些系统可以更加可信和适应性强。通过观察医疗、金融和软件开发的例子，我们展示了人机团队如何比单独工作的AI更好地处理复杂任务。我们还讨论了构建这些协作系统的挑战并提供实际解决方案。本文认为，AI的进步不应该以系统独立性为衡量标准，而应以其与人类协作的效果为标准。AI的最有前景的未来不在于取代人类角色的系统，而在于通过有意义的合作来增强人类能力的系统。",
+        "地址": "https://arxiv.org/pdf/2506.09420.pdf"
+    }
+]
