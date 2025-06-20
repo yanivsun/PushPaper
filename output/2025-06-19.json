@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2506.15675] Sekai: A Video Dataset towards World Exploration.pdf",
+        "作者": "Zhen Li, Chuanhao Li, Xiaofeng Mao, Shaoheng Lin, Ming Li, Shitian Zhao, Zhaopan Xu, Xinyue Li, Yukang Feng, Jianwen Sun, Zizhen Li, Fanrui Zhang, Jiaxin Ai, Zhixiang Wang, Yuwei Wu, Tong He, Jiangmiao Pang, Yu Qiao, Yunde Jia, Kaipeng Zhang",
+        "摘要": "摘要: 视频生成技术取得了显著进展，有望成为互动世界探索的基础。然而，现有的视频生成数据集不适合用于世界探索训练，因为它们存在一些局限性：地点有限、持续时间短、场景静态以及缺乏探索和世界的注释。在本文中，我们介绍了Sekai（在日语中意为“世界”），一个高质量的第一人称视角全球视频数据集，具备丰富的世界探索注释。它包括来自全球100多个国家和地区超过750个城市的超过5000小时的步行或无人机视角（FPV和UVA）视频。我们开发了一个高效且有效的工具箱，用于收集、预处理和注释视频，包括位置、场景、天气、人群密度、字幕以及摄像机轨迹。实验表明了该数据集的质量。此外，我们使用一个子集训练了一个互动视频世界探索模型，命名为YUME（在日语中意为“梦想”）。我们相信Sekai将有利于视频生成和世界探索领域，并激发出有价值的应用。\n\n作者: Zhen Li, Chuanhao Li, Xiaofeng Mao, Shaoheng Lin, Ming Li, Shitian Zhao, Zhaopan Xu, Xinyue Li, Yukang Feng, Jianwen Sun, Zizhen Li, Fanrui Zhang, Jiaxin Ai, Zhixiang Wang, Yuwei Wu, Tong He, Jiangmiao Pang, Yu Qiao, Yunde Jia, Kaipeng Zhang\n\n注释: 12页, 6个图\n\n网址: https://arxiv.org/pdf/2506.15675.pdf\n\n标题: 2025 [2506.15675] Sekai: A Video Dataset towards World Exploration.pdf",
+        "地址": "https://arxiv.org/pdf/2506.15675.pdf"
+    },
+    {
+        "名称": "2025 [2506.15211] ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs.pdf",
+        "作者": "Feng He, Zijun Chen, Xinnian Liang, Tingting Ma, Yunqi Qiu, Shuangzhi Wu, Junchi Yan",
+        "摘要": "摘要：最近在使用长链思维（Long CoT）推理训练的大型推理模型（LRMs）中，实现了显著的跨域泛化能力。然而，支持这种转移的基本机制仍然不甚明了。我们假设跨域泛化源自共享的抽象推理原型——这些基本的推理模式捕捉了跨域问题的本质。这些原型可以最大限度地减少表示的细微差别，揭示了看似不同的问题实际上根植于共同的推理基础。基于这个假设，我们提出了ProtoReasoning，一个通过利用可扩展且可验证的原型表示（用于逻辑推理的Prolog和用于规划的PDDL）来增强LLMs推理能力的框架。ProtoReasoning的特点包括：(1)一个自动化的原型构建管道，将问题转换为相应的原型表示；(2)一个全面的验证系统，通过Prolog/PDDL解释器提供可靠的反馈；(3)在原型空间内任意合成问题的可扩展性，同时确保正确性。广泛实验表明，ProtoReasoning在逻辑推理（Enigmata-Eval）方面比基准模型提高了4.7%，在规划任务上提高了6.3%，在一般推理（MMLU）上提高了4.0%，在数学（AIME24）上提高了1.0%。值得注意的是，我们的消融研究证实了在原型空间中的学习相比仅在自然语言表示上训练显示出更好的对结构相似问题的泛化能力，从而验证了我们的假设，即推理原型是大规模语言模型中泛化推理的基础。",
+        "地址": "https://arxiv.org/pdf/2506.15211.pdf"
+    },
+    {
+        "名称": "2025 [2506.15681] GenRecal: Generation after Recalibration from Large to Small Vision-Language Models.pdf",
+        "作者": "Byung-Kwan Lee, Ryo Hachiuma, Yong Man Ro, Yu-Chiang Frank Wang, Yueh-Hua Wu",
+        "摘要": "摘要: 最近视觉-语言模型（VLMs）的进展利用了大型语言模型（LLMs），在性能上已达到与闭源系统如GPT-4V相当的水平。然而，由于这些模型的巨大计算需求，在实际场景中，尤其是在资源受限的设备上部署这些模型仍然具有挑战性。这引发了将大型VLMs中的知识提取到更小、更高效的对等模型中的兴趣。一个关键挑战在于VLM架构的多样性，这些架构基于不同的LLMs，并使用不同的标记类型——在词汇量、标记拆分和标记索引排序方面各有不同。为了应对特定VLM类型的限制，我们提出了重新校准后的生成（GenRecal），这是一个用于VLMs的新颖通用蒸馏框架。GenRecal包含一个重新校准器，可以在异构VLMs之间对齐和调整特征表示，从而实现不同类型VLMs之间的有效知识转移。通过在多个具有挑战性的基准上的广泛实验，我们证明了GenRecal显著提高了基线性能，最终超过了大规模的开放源和闭源VLMs。\n\n翻译: 最近视觉-语言模型（VLMs）的进展利用了大型语言模型（LLMs），在性能上已达到与闭源系统如GPT-4V相当的水平。然而，由于这些模型的巨大计算需求，在实际场景中，尤其是在资源受限的设备上部署这些模型仍然具有挑战性。这引发了将大型VLMs中的知识提取到更小、更高效的对等模型中的兴趣。一个关键挑战在于VLM架构的多样性，这些架构基于不同的LLMs，并使用不同的标记类型——在词汇量、标记拆分和标记索引排序方面各有不同。为了应对特定VLM类型的限制，我们提出了重新校准后的生成（GenRecal），这是一个用于VLMs的新颖通用蒸馏框架。GenRecal包含一个重新校准器，可以在异构VLMs之间对齐和调整特征表示，从而实现不同类型VLMs之间的有效知识转移。通过在多个具有挑战性的基准上的广泛实验，我们证明了GenRecal显著提高了基线性能，最终超过了大规模的开放源和闭源VLMs。",
+        "地址": "https://arxiv.org/pdf/2506.15681.pdf"
+    },
+    {
+        "名称": "2025 [2506.15677] Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence.pdf",
+        "作者": "Yining Hong, Rui Sun, Bingxuan Li, Xingcheng Yao, Maxine Wu, Alexander Chien, Da Yin, Ying Nian Wu, Zhecan James Wang, Kai-Wei Chang",
+        "摘要": "摘要：当前的AI代理大多数是孤立的——它们或是检索并推理从在线获取的大量数字信息和知识，或是通过体现的感知、计划和行动与物理世界互动，但很少两者兼而有之。这种分离限制了它们解决需要整合物理和数字智能的任务的能力，比如根据在线食谱做饭、使用动态地图数据导航或利用网络知识解释现实世界的地标。我们引入了体现的网络代理（Embodied Web Agents），这是一种流畅地桥接体现和网络规模推理的AI代理的新范式。为实现这一概念，我们首先开发了体现的网络代理任务环境，这是一种紧密集成现实3D室内和室外环境与功能性网络界面的统一模拟平台。在这个平台的基础上，我们构建并发布了体现的网络代理基准（Embodied Web Agents Benchmark），其中包括多样化的任务套件，如烹饪、导航、购物、旅游和地理定位——所有这些都需要在物理和数字领域进行协调推理，以系统地评估跨领域的智能。实验结果显示，当前最先进的AI系统在性能上与人类能力仍存在显著差距，这在体现认知和网络规模知识访问的交汇处确立了挑战和机遇。所有数据集、代码和网站均在我们的项目页面上公开。",
+        "地址": "https://arxiv.org/pdf/2506.15677.pdf"
+    },
+    {
+        "名称": "2025 [2506.13414] BUT System for the MLC-SLM Challenge.pdf",
+        "作者": "Alexander Polok, Jiangyu Han, Dominik Klement, Samuele Cornell, Jan Černocký, Lukáš Burget",
+        "摘要": "摘要:我们展示了一个双说话人自动语音识别(ASR)系统，该系统结合了 DiCoW —— 受话者分离条件的 Whisper 变体 —— 和 DiariZen，一个基于 Pyannote 构建的话者分离流水线。我们首先在不进行任何微调的情况下评估了这两个系统在跨领域 (OOD) 多语种场景中的表现。在这种场景下，DiariZen 一直表现优于基线 Pyannote 话者分离模型，显示出强大的泛化能力。尽管 DiCoW 在英文数据上进行了目标说话人 ASR 微调，但它仍保持了良好的多语种性能，表明编码器修改保留了 Whisper 的多语种能力。接着，我们在 MLC-SLM 挑战数据上对 DiCoW 和 DiariZen 进行了微调。微调后的 DiariZen 继续优于微调后的 Pyannote 基线，而 DiCoW 通过领域适应进一步提升了性能。我们的最终系统实现了 16.75% 的微平均 tcpWER/CER，并在 MLC-SLM 挑战的任务 2 中排名第二。最后，我们发现训练数据中存在一些标注不一致的问题 —— 例如缺失的语音片段和错误的静音注释 —— 这些问题可能会阻碍话者分离微调。我们提出了一些简单的缓解策略，以解决这些问题并提高系统的鲁棒性。",
+        "地址": "https://arxiv.org/pdf/2506.13414.pdf"
+    },
+    {
+        "名称": "2025 [2506.15569] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification.pdf",
+        "作者": "Chengye Wang, Yifei Shen, Zexi Kuang, Arman Cohan, Yilun Zhao",
+        "摘要": "摘要: 我们介绍了SciVer，这是第一个专门设计用于评估基础模型在多模态科学背景中验证主张能力的基准。SciVer包括了1,113篇科学论文中的3,000个专家注释示例，涵盖了四个子集，每个子集代表一种在多模态科学主张验证中的常见推理类型。为了实现细粒度评估，每个示例都包含专家注释的支持证据。我们评估了21个最先进的多模态基础模型的性能，包括o4-mini、Gemini-2.5-Flash、Llama-3.2-Vision和Qwen2.5-VL。我们的实验揭示了这些模型与人类专家在SciVer上的表现之间存在显著差距。通过对检索增强生成（RAG）的深入分析和人类进行的错误评估，我们识别了当前开源模型的关键限制，并提供了推进模型对多模态科学文献任务的理解和推理的关键洞见。",
+        "地址": "https://arxiv.org/pdf/2506.15569.pdf"
+    },
+    {
+        "名称": "2025 [2506.15068] Semantically-Aware Rewards for Open-Ended R1 Training in Free-Form Generation.pdf",
+        "作者": "Zongxia Li, Yapei Chang, Yuhang Zhou, Xiyang Wu, Zichao Liang, Yoo Yeon Sung, Jordan Lee Boyd-Graber",
+        "摘要": "摘要：评估开放式长篇生成是一个挑战，因为很难定义清楚什么是好的输出和坏的输出。现有的方法常常会忽略关键方面，如连贯性、风格或相关性，或者因为预训练数据而产生偏差，使得开放式长篇评估成为一个未被充分探索的问题。为解决这一差距，我们提出了PrefBERT，一种用于评估GRPO中的开放式长篇生成的评分模型，并通过对好的和坏的输出提供不同的奖励来指导其训练。PrefBERT基于两个包含不同长篇风格和Likert评分质量的回应评估数据集进行训练，比传统指标ROUGE-L和BERTScore提供更好的语义奖励反馈。通过全面评估，包括LLM作为评审、人类评分和定性分析，我们证明经过多句和段落长度回应训练的PrefBERT，在各种长篇内容中仍然可靠，并且与GRPO需要的可验证奖励高度一致。人类评估确认使用PrefBERT作为奖励信号来训练策略模型产生的回应比使用传统指标训练的响应更符合人类偏好。我们的代码可通过此URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.15068.pdf"
+    },
+    {
+        "名称": "2025 [2506.15461] All is Not Lost: LLM Recovery without Checkpoints.pdf",
+        "作者": "Nikolay Blagoev, Oğuzhan Ersoy, Lydia Yiyu Chen",
+        "摘要": "摘要：在分散和弱计算节点（例如多个临时实例）上训练大型语言模型（LLMs）可以降低训练成本，并实现模型的民主化。这里不可避免的挑战是由于节点失效和操作调度策略导致的节点波动，进而导致模型某一部分丢失。传统的故障恢复方法通常是使用检查点，即周期性地将整个模型的副本发送到额外的存储空间，或进行冗余计算。然而，这些方法即使在非故障情况下也会产生显著的通信和/或计算开销，并且在大模型环境下扩展性差。在本文中，我们提出了一种高效的恢复方法CheckFree，其中失败的阶段通过最接近的相邻阶段的加权平均进行替代。与现有技术相比，CheckFree不需要额外的计算或存储。然而，由于平均相邻阶段的特性，它只能恢复中间阶段的故障。我们进一步扩展该方法为CheckFree+，通过乱序流水线执行来容忍首尾阶段的崩溃。由于乱序流水线的处理，首尾阶段的行为被其相邻阶段模仿，这使得CheckFree+能够通过简单地从紧邻阶段复制权重来恢复它们。为了能够恢复（去）嵌入层，CheckFree+将这些层复制到相邻阶段，从而只需要相对较小的存储开销。我们在模型大小从124M到1.5B的LLaMa模型上，针对不同的故障频率对我们的方法进行了广泛评估。在低和中等故障率（5-10%）的情况下，CheckFree和CheckFree+在墙钟时间收敛性方面比检查点和冗余计算方法分别提高了超过12％。我们的代码可在以下网址获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2506.15461.pdf"
+    },
+    {
+        "名称": "2025 [2506.15672] SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence.pdf",
+        "作者": "Yao Zhang, Chenyang Lin, Shijie Tang, Haokun Chen, Shijie Zhou, Yunpu Ma, Volker Tresp",
+        "摘要": "摘要：大型语言模型的快速进展推动了代理系统在决策、协调和任务执行方面的发展。然而，现有的代理系统生成框架缺乏完全自主性，无法从零开始生成代理，自我优化代理功能以及协作，限制了可适应性和可扩展性。我们提出了SwarmAgentic，一个用于完全自动化生成代理系统的框架，通过语言驱动的探索从零开始构建代理系统，并将代理功能和协作作为相互依存的组件联合优化。为了实现系统级结构的高效搜索，SwarmAgentic维持了一个候选系统的种群，并通过反馈指导的更新对其进行进化，灵感来自粒子群优化（PSO）。我们在涉及高级规划、系统级协调和创造性推理的六个现实世界的开放性和探索性任务中评估了我们的方法。在仅提供任务描述和目标函数的情况下，SwarmAgentic在TravelPlanner基准测试中表现优于所有基线，实现了相对于ADAS +261.8%的相对改进，突出了完全自动化在结构上不受限任务中的有效性。这个框架标志着向可扩展的自主代理系统设计迈出了重要一步，将群体智能与完全自动化的多代理生成结合在一起。我们的代码在这个网址公开发布。",
+        "地址": "https://arxiv.org/pdf/2506.15672.pdf"
+    },
+    {
+        "名称": "2025 [2506.15050] Truncated Proximal Policy Optimization.pdf",
+        "作者": "Tiantian Fan, Lingjun Liu, Yu Yue, Jiaze Chen, Chengyi Wang, Qiying Yu, Chi Zhang, Zhiqi Lin, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Bole Ma, Mofan Zhang, Gaohong Liu, Ru Zhang, Haotian Zhou, Cong Xie, Ruidong Zhu, Zhi Zhang, Xin Liu, Mingxuan Wang, Lin Yan, Yonghui Wu",
+        "摘要": "最近，在测试过程中缩放的大型语言模型（LLMs）展示了出色的推理能力，通过生成较长的思维链（CoT）在科学和专业任务中表现优异。作为发展这些推理模型的关键组成部分，强化学习（RL），以近端策略优化（PPO）及其变体为代表，通过试错来实现模型的学习。然而，由于PPO固有的基于策略特性，加上响应长度的增加，其训练过程可能是耗时的。在这项工作中，我们提出了截断近端策略优化（T-PPO），这是PPO的一种新颖扩展，通过简化策略更新和长度受限响应生成来提高训练效率。T-PPO缓解了硬件利用率低的问题，这是完全同步的长生成过程的固有缺陷，在这些过程中，资源在等待完整展开期间常常闲置。我们的贡献有两方面。首先，我们提出了扩展广义优势估计（EGAE），它可以基于不完整的响应进行优势估计，同时保持策略学习的完整性。其次，我们设计了一种计算优化的机制，允许独立优化策略和价值模型。通过选择性地过滤提示和截断的标记，这一机制减少了冗余计算，加速了训练过程，而不牺牲收敛性能。我们在AIME 2024上使用一个32B的基础模型展示了T-PPO的有效性和效率。实验结果表明，T-PPO将推理LLMs的训练效率提高了多达2.5倍，并且在性能上超越了现有的竞争对手。",
+        "地址": "https://arxiv.org/pdf/2506.15050.pdf"
+    },
+    {
+        "名称": "2025 [2506.14842] PictSure: Pretraining Embeddings Matters for In-Context Learning Image Classifiers.pdf",
+        "作者": "Lukas Schiesser, Cornelius Wolff, Sophie Haas, Simon Pukrop",
+        "摘要": "摘要：在数据稀缺领域中，构建图像分类模型依然是个复杂的任务，因为收集大规模标记数据集是不切实际的。上下文学习（ICL）已成为少样本图像分类（FSIC）的一个有前途的范例，使模型能够在不进行基于梯度的适应的情况下在不同领域中泛化。然而，之前的研究在很大程度上忽视了基于ICL的FSIC流程中的一个关键部分：图像嵌入的作用。在这项工作中，我们提出了PictSure，一个将嵌入模型--其架构、预训练和训练动态--置于分析核心的ICL框架。我们系统地研究了不同视觉编码器类型、预训练目标和微调策略对下游FSIC性能的影响。我们的实验表明，训练的成功和域外性能在很大程度上取决于嵌入模型的预训练方式。因此，PictSure在显著不同于训练分布的域外基准测试中优于现有的基于ICL的FSIC模型，同时在域内任务中保持了相当的结果。代码可以在此https URL找到。",
+        "地址": "https://arxiv.org/pdf/2506.14842.pdf"
+    },
+    {
+        "名称": "2025 [2506.14824] FedNano: Toward Lightweight Federated Tuning for Pretrained Multimodal Large Language Models.pdf",
+        "作者": "Yao Zhang, Hewei Gao, Haokun Chen, Weiguo Li, Yunpu Ma, Volker Tresp",
+        "摘要": "摘要：多模态大型语言模型（MLLMs）在多模态推理和跨模态检索等任务中表现出色，但由于分布式多模态数据和严格的隐私要求，在现实场景中部署面临着挑战。联邦学习（FL）通过在不集中数据的情况下实现协作模型训练，提供了一种解决方案。然而，实现用于MLLMs的FL面临着巨大的挑战，包括高计算需求、有限的客户端容量、大量通信成本，以及异质的客户端数据。现有的FL方法假设在客户端部署完整的模型，这一假设在大规模MLLMs的情况下由于其庞大的规模和通信需求而失效。为了解决这些限制，我们提出了FedNano，这是第一个集中LLM于服务器，同时引入NanoEdge的FL框架，NanoEdge是一个轻量级的用于客户端特定适应的模块。NanoEdge采用了模态特定的编码器、连接器和可训练的NanoAdapters，进行低秩适应。此设计无需在客户端部署LLM，减少客户端存储需求95%，并将通信开销限制在模型参数的0.01%。通过仅传输紧凑的NanoAdapter更新，FedNano处理异质客户端数据和资源限制，同时保护隐私。实验表明，FedNano优于先前的FL基准，弥合MLLM规模与FL可行性之间的差距，启用可扩展的、去中心化的多模态AI系统。",
+        "地址": "https://arxiv.org/pdf/2506.14824.pdf"
+    },
+    {
+        "名称": "2025 [2506.06279] CoMemo: LVLMs Need Image Context with Image Memory.pdf",
+        "作者": "Shi Liu, Weijie Su, Xizhou Zhu, Wenhai Wang, Jifeng Dai",
+        "摘要": "摘要：近期基于大型语言模型（LLM）的大型视觉-语言模型（LVLM）的进展，确立了将视觉特征与LLM表示对齐作为主要范式。然而，继承的LLM架构设计在多模态处理方面存在次优特性。首先，LVLM在注意力分配上表现出双峰分布，导致随着上下文的扩展逐渐忽略中间视觉内容。其次，传统的位置信息编码方案在处理动态高分辨率图像时，无法保持关键的二维结构关系。为了解决这些限制，我们提出了CoMemo——一种结合了上下文图像路径和图像记忆路径的双路径架构，用于视觉处理，有效缓解视觉信息忽视问题。此外，我们引入了一种新颖的位置信息编码机制RoPE-DHR，它采用基于缩略图的位置信息聚合，在处理长序列时保持二维空间意识，同时减少远距离衰退。在长上下文理解、多图像推理和视觉问答等七项基准测试中，CoMemo的表现优于传统的LVLM架构。项目页面可访问此链接： https://arxiv.org/pdf/2506.06279.pdf",
+        "地址": "https://arxiv.org/pdf/2506.06279.pdf"
+    },
+    {
+        "名称": "2025 [2506.14435] MoTE: Mixture of Ternary Experts for Memory-efficient Large Multimodal Models.pdf",
+        "作者": "Hongyu Wang, Jiayu Xu, Ruiping Wang, Yan Feng, Yitao Zhai, Peng Pei, Xunliang Cai, Xilin Chen",
+        "摘要": "摘要：大规模多模态专家混合（MoEs）在模型性能提升方面效果显著，同时保持了固定的活跃参数数量。然而，以往的研究在稀疏上采样过程中主要使用全精度专家。虽然它们在终端任务上表现出色，但大量专家引入了较高的内存占用，对边缘设备的部署带来了重大挑战。在这项研究中，我们提出了MoTE，这是一种可扩展且内存高效的方法，通过从稠密检查点训练三值专家混合模型。相较于训练少量的高精度专家，我们提出在上采样过程中训练更多的低精度专家。具体来说，我们使用预训练的FFN作为共享专家，并训练参数在{-1, 0, 1}范围内的三值路由专家。大量实验表明，我们的方法在模型规模上具有很好的扩展趋势。MoTE在内存占用更低的情况下，实现了与全精度基准模型MoE-LLaVA相当的性能。此外，我们的方法与后训练量化方法兼容，并在内存限制降低时优势进一步扩大。在相同的3.4GB专家内存占用下，结合后训练量化，MoTE在终端任务上的平均准确率比MoE-LLaVA高出4.3%，展示了其在内存受限设备上的有效性和潜力。",
+        "地址": "https://arxiv.org/pdf/2506.14435.pdf"
+    },
+    {
+        "名称": "2025 [2506.14315] ImmerseGen: Agent-Guided Immersive World Generation with Alpha-Textured Proxies.pdf",
+        "作者": "Jinyan Yuan, Bangbang Yang, Keke Wang, Panwang Pan, Lin Ma, Xuehai Zhang, Xiao Liu, Zhaopeng Cui, Yuewen Ma",
+        "摘要": "摘要: 自动创建3D场景以实现沉浸式虚拟现实（VR）体验一直是数十年来的重要研究重点。然而，现有方法往往依赖于高多边形网格建模及其后的简化处理或大规模3D高斯建模，导致复杂的流程或有限的视觉真实感。在本文中，我们展示了达成引人注目的沉浸式体验并不需要如此详尽的建模过程。我们介绍了ImmerseGen，这是一种新颖的、由代理指导的紧凑且照片现实感的世界建模框架。ImmerseGen将场景表示为轻量几何代理（即简化地形和广告牌网格）的分层组合，并通过合成RGBA纹理到这些代理上来生成照片般的外观。具体而言，我们提出了地形条件纹理化以用户为中心的基础世界合成，并对中景和前景风景进行RGBA素材纹理化。这种重新表述提供了多个优势：(i) 它通过使代理指导生成模型生成与场景无缝集成的连贯纹理，简化了建模过程；(ii) 它通过直接在代理上合成照片真实纹理，避免了复杂的几何创建和简化，并在不降低视觉质量的情况下保留了其真实感；(iii) 它使得紧凑的表示适合在移动VR头戴设备上进行实时渲染。为了从文本提示自动创建场景，我们引入了基于视觉语言模型（VLM）的建模代理，并通过语义网格分析来增强其空间推理和精确画作放置。ImmerseGen进一步通过动态效果和环境音效丰富场景，以支持多感官沉浸。场景生成和现场VR展示的实验表明，ImmerseGen在照片真实感、空间一致性和渲染效率方面优于现有方法。项目网页：this https URL.\n\n作者: 袁锦焱、杨棒棒、王科科、潘旺、马琳、张学海、刘啸、崔兆鹏、马月文\n\n评论: 项目网页：this https URL\n\n论文链接: https://arxiv.org/pdf/2506.14315.pdf\n\n标题: 2025 [2506.14315] ImmerseGen: Agent-Guided Immersive World Generation with Alpha-Textured Proxies.pdf",
+        "地址": "https://arxiv.org/pdf/2506.14315.pdf"
+    },
+    {
+        "名称": "2025 [2506.14866] OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents.pdf",
+        "作者": "Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko",
+        "摘要": "摘要: 计算机使用代理是一种基于大型语言模型(LLM)的代理，可以通过处理屏幕截图或辅助功能树，直接与图形用户界面进行交互。尽管这些系统正日益受到欢迎，但它们的安全性问题却被大大忽视，然而评估和理解其潜在的有害行为对于广泛采用至关重要。为了解决这一问题，我们引入了OS-Harm，这是一个用于衡量计算机使用代理安全性的新基准。OS-Harm基于 OSWorld 环境，旨在测试模型在三种危害类别中的表现：用户故意滥用、提示注入攻击以及模型行为不当。为了涵盖这些情况，我们创建了150个任务，涵盖多种类型的安全违规（骚扰、版权侵犯、虚假信息、数据外泄等），并要求代理与各种操作系统应用程序（如电子邮件客户端、代码编辑器、浏览器等）进行交互。此外，我们提出了一个自动评判系统，以评估代理的准确性和安全性，并且与人工注释高度一致（F1 分数分别为0.76和0.79）。我们基于一系列前沿模型（如 o4-mini、Claude 3.7 Sonnet、Gemini 2.5 Pro）评估了计算机使用代理的安全性，并提供了相关的见解。特别是，所有模型都倾向于直接响应许多故意滥用查询，在静态提示注入方面相对脆弱，并且偶尔会执行不安全的操作。OS-Harm基准测试可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2506.14866.pdf"
+    },
+    {
+        "名称": "2025 [2506.11110] AssertBench: A Benchmark for Evaluating Self-Assertion in Large Language Models.pdf",
+        "作者": "Jaeho Lee, Atharv Chowdhary",
+        "摘要": "摘要：最近的基准测试探讨了大型语言模型（LLMs）在事实一致性和修辞稳健性方面的表现。然而，对于真实陈述的方向性框架如何影响模型一致性，这是LLM用户常见的情况，仍存在知识空白。AssertBench通过从FEVEROUS，事实验证数据集中采样支持证据的事实来解决这一问题。对于每个（有证据支持的）事实，我们构建两个框架提示：一个是用户声称该陈述在事实上是正确的，另一个是用户声称其是不正确的。然后我们记录模型的同意和推理。期望的结果是模型能够自我断言，在两种框架下保持一致的事实评估，而不是改变其评估以配合用户。AssertBench通过根据模型在中性呈现时对相同声明的准确性来分层结果，将由框架引起的变异性与模型的基础事实知识分离开来。通过这样做，这个基准测试旨在衡量LLM在面对用户对同一事实的相互矛盾的断言时“坚持己见”的能力。完整的源代码可以在此URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.11110.pdf"
+    },
+    {
+        "名称": "2025 [2506.14770] GMT: General Motion Tracking for Humanoid Whole-Body Control.pdf",
+        "作者": "Zixuan Chen, Mazeyu Ji, Xuxin Cheng, Xuanbin Peng, Xue Bin Peng, Xiaolong Wang",
+        "摘要": "摘要: 在现实世界中跟踪全身运动的能力是构建通用人形机器人的一种有用方法。然而，由于运动的时间和运动学多样性、策略的能力以及上下身体协调的困难，实现这一目标具有挑战性。为了解决这些问题，我们提出了GMT，一种通用且可扩展的运动跟踪框架，能训练出一个统一的策略使人形机器人在现实世界中跟踪多样化的运动。GMT基于两个核心组件：自适应采样策略和运动专家混合（MoE）架构。自适应采样在训练过程中自动平衡简易和困难的运动。MoE保证了运动流形不同区域的更好专门化。通过在模拟和现实世界中的广泛实验，我们展示了GMT的有效性，利用统一的通用策略在大范围的运动中实现了最先进的性能。视频和其他信息可以在此https URL找到。",
+        "地址": "https://arxiv.org/pdf/2506.14770.pdf"
+    },
+    {
+        "名称": "2025 [2506.15682] Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model.pdf",
+        "作者": "Anirud Aggarwal, Abhinav Shrivastava, Matthew Gwilliam",
+        "摘要": "摘要: 基于扩散的图像生成模型在生成高质量的合成内容方面表现出色，但推理过程缓慢且计算昂贵。先前的工作尝试通过在扩散变形金刚推理步骤中缓存和重用特征来缓解这个问题。然而，这些方法通常依赖于固定的启发式方法，导致加速有限或在不同架构间泛化能力较差。我们提出了进化缓存以加速扩散模型（ECAD），是一种遗传算法，可以学习每个模型的、高效的缓存计划，形成帕累托前沿，只需使用少量校准提示。ECAD不需要修改网络参数或参考图像，提供显著的推理加速，支持对质量-延迟权衡的细粒度控制，并能无缝适应不同的扩散模型。值得注意的是，ECAD学习的计划可以有效泛化到校准期间未见的分辨率和模型变体。我们在PixArt-alpha、PixArt-Sigma和this http URL上使用多种指标（FID、CLIP、Image Reward）在不同基准测试（COCO、MJHQ-30k、PartiPrompts）中评估ECAD，展示了比以前方法的一贯改进。在PixArt-alpha上，ECAD识别出比之前最先进方法好4.47 COCO FID的计划，同时将推理加速从2.35x提高到2.58x。我们的结果确立了ECAD作为扩散推理加速的可扩展且可泛化的方法。我们的项目网站在this https URL，我们的代码可在this https URL获取。",
+        "地址": "https://arxiv.org/pdf/2506.15682.pdf"
+    }
+]
