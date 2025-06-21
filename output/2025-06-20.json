@@ -1,0 +1,38 @@
+[
+    {
+        "名称": "2025 [2506.14965] Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective.pdf",
+        "作者": "Zhoujun Cheng, Shibo Hao, Tianyang Liu, Fan Zhou, Yutao Xie, Feng Yao, Yuexin Bian, Yonghao Zhuang, Nilabjo Dey, Yuheng Zha, Yi Gu, Kun Zhou, Yuqi Wang, Yuan Li, Richard Fan, Jianshu She, Chengqian Gao, Abulhair Saparov, Haonan Li, Taylor W. Killian, Mikhail Yurochkin, Zhengzhong Liu, Eric P. Xing, Zhiting Hu",
+        "摘要": "摘要: 强化学习（RL）已成为一种有前途的方法来改善大语言模型（LLM）的推理，但大多数开放的努力都集中在数学和代码上，限制了我们对其更广泛的适用性的一般性推理的理解。一个关键的挑战在于缺乏可靠的、可扩展的RL奖励信号，涵盖多种推理领域。我们引入了Guru，一个精选的RL推理语料库，包含92K的可验证示例，跨越六个推理领域，包括数学、代码、科学、逻辑、仿真和表格数据，每个示例均通过领域特定的奖励设计、去重和过滤确保RL训练的可靠性和有效性。基于Guru，我们系统地重新审视了RL在LLM推理中的既有发现，并观察到各领域之间的显著差异。例如，虽然先前的工作表明RL主要是从预训练模型中引发现有知识，我们的结果揭示了更细致的模式：在预训练期间频繁出现的领域（数学、代码、科学）容易从跨领域 RL 训练中受益，而在预训练中曝光有限的领域（逻辑、仿真和表格数据）需要在域内训练才能实现显著的性能提升，表明RL可能促进真正的技能获取。最后，我们提出了Guru-7B和Guru-32B，这两个模型在使用公开数据进行RL训练的开放模型中达到最先进的性能，在我们的六个推理领域的17项任务评估套件上分别超过最佳基线7.9%和6.7%。我们还展示了我们的模型有效提高了其基础模型的Pass@k性能，特别是在预训练数据中不太可能出现的复杂任务上。我们发布数据、模型、训练和评估代码，以促进通用推理，网址为：此https URL。",
+        "地址": "https://arxiv.org/pdf/2506.14965.pdf"
+    },
+    {
+        "名称": "2025 [2506.09827] EmoNet-Voice: A Fine-Grained, Expert-Verified Benchmark for Speech Emotion Detection.pdf",
+        "作者": "Christoph Schuhmann, Robert Kaczmarczyk, Gollam Rabby, Felix Friedrich, Maurice Kraus, Kourosh Nadi, Huu Nguyen, Kristian Kersting, Sören Auer",
+        "摘要": "摘要：文本转语音和音频生成模型的进步需要强大的基准来评估人工智能系统的情感理解能力。目前的语音情感识别（SER）数据集通常在情感细化、隐私问题或依赖表演方面存在局限性。本文介绍了EmoNet-Voice，一种用于语音情感检测的新资源，其中包括EmoNet-Voice Big，一个大规模的预训练数据集（涵盖超过4500小时的语音，11个声音，40种情感和4种语言），以及EmoNet-Voice Bench，一个由人类专家注释的新的基准数据集。EmoNet-Voice旨在对40种情感类别及其不同强度级别的微细化谱进行评估。利用最先进的语音生成技术，我们精心设计了模拟演员表演特定情感场景的合成音频片段。关键在于我们进行了严格的验证，由心理学专家分配感知强度标签。这种合成且隐私保护的方法允许包括现有数据集中通常缺失的敏感情感状态。最后，我们介绍了同情洞察语音模型，在语音情感识别方面设定了与人类专家高度一致的新标准。我们对现有模型领域的评估显示了一些有价值的发现，例如高唤起情感（如愤怒）比低唤起状态（如集中）更容易检测。",
+        "地址": "https://arxiv.org/pdf/2506.09827.pdf"
+    },
+    {
+        "名称": "2025 [2506.15564] Show-o2: Improved Native Unified Multimodal Models.pdf",
+        "作者": "Jinheng Xie, Zhenheng Yang, Mike Zheng Shou",
+        "摘要": "摘要: 本文介绍了改进的原生统一多模态模型，即Show-o2，它们利用自回归建模和流量匹配。在三维因果变分自编码器空间的基础上，通过空间（-时间）融合的双路径构建统一的视觉表示，实现了图像和视频模态的可扩展性，同时确保了高效的多模态理解和生成。基于语言模型，自回归建模和流量匹配分别应用于语言头和流量头，以促进文本标记预测和图像/视频生成。设计了两阶段训练方案，以有效学习并扩展到更大的模型。所得的Show-o2模型展示了在各种模态（包括文本、图像和视频）上的广泛多模态理解和生成任务处理的多功能性。代码和模型发布在此网址：https://arxiv.org/pdf/2506.15564.pdf。",
+        "地址": "https://arxiv.org/pdf/2506.15564.pdf"
+    },
+    {
+        "名称": "2025 [2506.15154] SonicVerse: Multi-Task Learning for Music Feature-Informed Captioning.pdf",
+        "作者": "Anuradha Chopra, Abhinaba Roy, Dorien Herremans",
+        "摘要": "摘要: 详细的标题能够准确反映音乐作品的特征，丰富音乐数据库并推动音乐人工智能的研究。本文介绍了一种多任务音乐标题生成模型SonicVerse，该模型将标题生成与辅助音乐特征检测任务（如调性检测、声乐检测等）结合起来，从而直接捕捉低级声学细节和高级音乐属性。其关键贡献在于基于投影的架构，该架构将音频输入转换为语言标记，同时通过专门的辅助头检测音乐特征。这些头的输出也被投影到语言标记中，以增强标题生成输入。该框架不仅为短音乐片段生成丰富的描述性标题，还通过使用大型语言模型串联输出，直接生成详细的时间相关描述，以用于更长的音乐片段。为了训练模型，我们使用MIRFLEX（一种模块化音乐特征提取器）对MusicBench数据集进行了音乐特征注释，从而得到配对的音频、标题和音乐特征数据。实验结果表明，以这种方式融入特征提高了生成标题的质量和细节。",
+        "地址": "https://arxiv.org/pdf/2506.15154.pdf"
+    },
+    {
+        "名称": "2025 [2506.14837] Improved Iterative Refinement for Chart-to-Code Generation via Structured Instruction.pdf",
+        "作者": "Chengzhi Xu, Yuyang Wang, Lai Wei, Lichao Sun, Weiran Huang",
+        "摘要": "摘要：近年来，多模态大型语言模型（MLLMs）由于其强大的视觉理解能力受到了越来越多的研究关注。尽管它们在各种视觉任务上取得了令人印象深刻的成果，但在图表生成代码这一任务上的表现仍不理想。该任务要求MLLMs生成能够重现给定图表的可执行代码，不仅需要精确的视觉理解，还需将视觉元素准确地翻译为结构化代码。直接让MLLMs执行这项复杂任务常常会得到不尽如人意的结果。为了解决这一挑战，我们提出了{ChartIR}，这是一种基于结构化指令的迭代优化方法。首先，我们将任务区分为视觉理解和代码翻译两部分。为了完成视觉理解部分，我们设计了两种结构化指令：描述和差异。描述指令捕捉参考图表的视觉元素，而差异指令则描述参考图表和生成图表之间的差异。这些指令有效地将视觉特征转化为语言表述，从而促进随后的代码翻译过程。其次，我们将整体图表生成流程分解为两个阶段：初步代码生成和迭代优化，从而逐步增强最终输出。实验结果表明，与其他方法相比，我们的方法在开源模型Qwen2-VL和闭源模型GPT-4o上均表现出色。\n\n作者：Chengzhi Xu, Yuyang Wang, Lai Wei, Lichao Sun, Weiran Huang\n\nURL：https://arxiv.org/pdf/2506.14837.pdf\n\n标题：改进的迭代优化方法通过结构化指令进行图表到代码生成",
+        "地址": "https://arxiv.org/pdf/2506.14837.pdf"
+    },
+    {
+        "名称": "2025 [2506.15455] RE-IMAGINE: Symbolic Benchmark Synthesis for Reasoning Evaluation.pdf",
+        "作者": "Xinnuo Xu, Rachel Lawrence, Kshitij Dubey, Atharva Pandey, Risa Ueno, Fabian Falck, Aditya V. Nori, Rahul Sharma, Amit Sharma, Javier Gonzalez",
+        "摘要": "摘要：最近的大型语言模型（LLMs）在推理基准测试中报告了高准确率。然而，目前尚不清楚这些结果是否源自真正的推理能力，或仅是训练集的统计记忆。本文受因果阶梯理论（Pearl, 2009）及其三个层次（关联、干预和反事实）的启发，介绍了RE-IMAGINE框架，用于表征LLMs推理能力的层次结构，并通过自动化管道生成不同层次的题目变化。通过改变中间符号表示中的问题，RE-IMAGINE可以生成大量仅靠记忆无法解决的问题。此外，该框架通用，适用于数学、代码和逻辑等推理领域。我们在四个广泛使用的基准测试上展示了我们的框架，以评估多个LLMs家族，并观察到当模型面对变式问题时性能下降。这些评估结果表明模型在过去的表现中存在对统计记忆的依赖，并为进一步研究瞄准推理层次的技能打开了大门。",
+        "地址": "https://arxiv.org/pdf/2506.15455.pdf"
+    }
+]
