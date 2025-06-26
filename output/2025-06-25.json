@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2506.19851] AnimaX: Animating the Inanimate in 3D with Joint Video-Pose Diffusion Models.pdf",
+        "作者": "Zehuan Huang, Haoran Feng, Yangtian Sun, Yuanchen Guo, Yanpei Cao, Lu Sheng",
+        "摘要": "摘要：我们提出了AnimaX，一种前馈3D动画框架，将视频扩散模型的运动先验与基于骨骼的动画的可控结构相结合。传统的动作合成方法要么受限于固定的骨骼拓扑结构，要么需要在高维变形空间中进行昂贵的优化。相比之下，AnimaX有效地将基于视频的运动知识转移到3D领域，支持带有任意骨骼的多样化关节网格。我们的方法将3D运动表示为多视图、多帧2D姿势图，并通过模板渲染和文本运动提示，实现联合视频姿势扩散。我们引入了共享位置编码和模态感知嵌入，以确保视频和姿势序列之间的时空对齐，有效地将视频先验转移到运动生成任务中。生成的多视图姿势序列通过三角测量转化为3D关节位置，再通过逆运动学转换为网格动画。我们在一个包含160,000个绑定序列的新编数据集上进行了训练，AnimaX在VBench上实现了在泛化性、运动保真度和效率方面的最新成果，提供了一个类别无关的3D动画可扩展解决方案。项目页面：\\\\href{this https URL}{this https URL}。",
+        "地址": "https://arxiv.org/pdf/2506.19851.pdf"
+    },
+    {
+        "名称": "2025 [2506.18701] Matrix-Game: Interactive World Foundation Model.pdf",
+        "作者": "Yifan Zhang, Chunli Peng, Boyang Wang, Puyi Wang, Qingcheng Zhu, Fei Kang, Biao Jiang, Zedong Gao, Eric Li, Yang Liu, Yahui Zhou",
+        "摘要": "摘要: 我们介绍了Matrix-Game，一种用于可控游戏世界生成的交互式世界基础模型。Matrix-Game通过两阶段管道进行训练，首先进行大规模无标签预训练以理解环境，随后进行动作标签训练以生成交互视频。为此，我们编制了Matrix-Game-MC，一个综合性的Minecraft数据集，包含超过2700小时的无标签游戏视频剪辑和超过1000小时的高质量标签剪辑，并附有细粒度键盘和鼠标动作注释。我们的模型采用可控的图像到世界生成范式，以参考图像、运动上下文和用户动作为条件。Matrix-Game拥有超过170亿个参数，能够精确控制角色动作和摄像机移动，同时保持较高的视觉质量和时间一致性。为评估性能，我们开发了GameWorld Score，这是一个统一的基准，用于衡量Minecraft世界生成的视觉质量、时间质量、动作可控性和物理规则理解。大量实验表明，Matrix-Game在所有指标上均持续优于先前的开源Minecraft世界模型（包括Oasis和MineWorld），在可控性和物理一致性方面尤为显著。双盲人为评估进一步证实了Matrix-Game的优越性，强调了其在各种游戏场景中生成感知真实且精确可控视频的能力。为了促进未来有关交互式图像到世界生成的研究，我们将开源Matrix-Game模型权重和GameWorld Score基准。",
+        "地址": "https://arxiv.org/pdf/2506.18701.pdf"
+    },
+    {
+        "名称": "2025 [2506.19290] Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs.pdf",
+        "作者": "Liang Zeng, Yongcong Li, Yuzhen Xiao, Changshi Li, Chris Yuhao Liu, Rui Yan, Tianwen Wei, Jujie He, Xuchen Song, Yang Liu, Yahui Zhou",
+        "摘要": "摘要：软件工程（SWE）最近成为下一代大型语言模型（LLM）代理的重要测试平台，在两大关键维度上要求具备固有能力：持续的迭代问题解决（例如，超过50轮交互）和长上下文依赖解决（例如，超过32k个tokens）。然而，SWE中的数据编排过程仍然是出了名的耗时，因为它严重依赖于手动注释进行代码文件过滤以及设置专用运行时环境以执行和验证单元测试。因此，大多数现有的数据集都仅限于几千个从GitHub获取的实例。为此，我们提出了一种增量式的自动数据编排管道，系统地扩大SWE数据集的数量和多样性。我们的数据集包含10,169个来自2,531个不同GitHub存储库的实际Python任务实例，每个实例都附带自然语言指定的任务和用于自动化单元测试验证的专用运行环境映像。我们从提出的SWE数据集中精心编排了超过8,000个成功运行时验证的训练轨迹。在这些轨迹上微调Skywork-SWE模型时，我们发现了一个显著的数据扩展现象：训练后的模型在LLMs中的软件工程能力随着数据量的增加而继续提高，没有显示饱和迹象。值得注意的是，我们的Skywork-SWE模型在SWE-bench验证基准上达到了38.0%的pass@1准确率，未使用验证器或多次回滚，建立了基于OpenHands代理框架的Qwen2.5-Coder-32B模型的新一代最佳状态（SOTA）。此外，随着测试时间扩展技术的引入，性能进一步提高到47.0%的准确率，超越了之前亚32B参数模型的SOTA结果。我们发布了Skywork-SWE-32B模型检查点，以加速未来研究。",
+        "地址": "https://arxiv.org/pdf/2506.19290.pdf"
+    },
+    {
+        "名称": "2025 [2506.16141] GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning.pdf",
+        "作者": "Yi Chen, Yuying Ge, Rui Wang, Yixiao Ge, Junhao Cheng, Ying Shan, Xihui Liu",
+        "摘要": "摘要：近期的强化学习方法（例如结果监督的GRPO）在大型语言模型（LLMs）的链式思考（Chain-of-Thought）推理中取得了进展，但它们在多模态大型语言模型（MLLMs）中的适应性尚未得到探索。为了解决MLLM后期训练方法缺乏严格评估的问题，我们引入了SEED-Bench-R1，这是一项包含复杂真实世界视频的基准测试，要求均衡的感知和推理能力。它提供了一个大型训练集并评估在三个逐步升级的挑战（同分布、跨环境和跨环境任务场景）中的泛化能力。使用SEED-Bench-R1，我们发现标准的GRPO尽管提高了答案准确性，却常常降低了推理步骤与答案之间的逻辑连贯性，仅有57.9%的一致率。这是由于奖励信号仅关注最终答案，鼓励捷径，而严格的KL惩罚限制了这一http URL地址。为了解决这个问题，我们提出了GRPO-CARE，一种关注一致性的RL框架，在没有明确监督的情况下优化答案正确性和推理连贯性。GRPO-CARE引入了一个两层奖励机制：（1）基础奖励用于答案正确性，（2）自适应一致性奖励，通过将模型的推理与答案的可能性（通过一个慢速演化的参考模型）相比较来计算。该双重机制放大了既正确又逻辑一致的推理路径的奖励。用这种自适应奖励替代KL惩罚后，GRPO-CARE在SEED-Bench-R1上优于标准GRPO，在最高难度评估水平上提高了6.7%的性能，并在一致性上提升了24.5%。它还显示出强大的可移植性，提高了模型在各种视频理解基准测试中的表现。我们的工作提供了一个系统设计的基准测试和一个通用的后期训练框架，推动了更多可解释和稳健的MLLMs的发展。\n\n翻译成中文：近期的强化学习方法，如结果监督的GRPO，在大型语言模型的链式思考推理中取得了进展，但其在多模态大型语言模型中的适应性尚未被探索。为解决MLLM后期训练方法缺乏严格评估的问题，我们引入了SEED-Bench-R1，这是一项基准测试，包含复杂真实世界视频，要求均衡的感知和推理能力。它提供大量训练集并评估在三个逐步升级的挑战（同分布、跨环境和跨环境任务场景）中的泛化能力。使用SEED-Bench-R1，我们发现标准的GRPO虽然提高了答案准确性，却常常降低推理步骤与答案之间的逻辑一致性，仅有57.9%的一致率。这是因为奖励信号仅关注最终答案，鼓励捷径，并且严格的KL惩罚限制了这一http URL地址。为解决这一问题，我们提出GRPO-CARE，一种关注一致性的强化学习框架，在无明确监督的情况下优化答案正确性和推理一致性。GRPO-CARE引入两层奖励机制：基础奖励用于答案正确性，自适应一致性奖励通过将模型的推理与答案的可能性（通过一个慢速演化的参考模型）进行比较来计算。这一双重机制增强了既正确又逻辑一致的推理路径的奖励。用这种自适应奖励替代KL惩罚后，GRPO-CARE在SEED-Bench-R1上的表现优于标准GRPO，在最高难度评估中提升了6.7%的性能，并在一致性上提升了24.5%。它还展现出强大的迁移能力，提高了模型在各种视频理解基准测试中的表现。我们的工作提供了一个系统设计的基准测试和一个通用的后期训练框架，推动了更多可解释和稳健的多模态大型语言模型的发展。",
+        "地址": "https://arxiv.org/pdf/2506.16141.pdf"
+    },
+    {
+        "名称": "2025 [2506.19848] ScaleCap: Inference-Time Scalable Image Captioning via Dual-Modality Debiasing.pdf",
+        "作者": "Long Xing, Qidong Huang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Jinsong Li, Shuangrui Ding, Weiming Zhang, Nenghai Yu, Jiaqi Wang, Feng Wu, Dahua Lin",
+        "摘要": "摘要：本文提出了ScaleCap，这是一种在推理时可扩展的图像描述策略，用于生成全面且详细的图像描述。高质量图像描述的主要挑战在于LVLMs（大规模视觉语言模型）的固有偏见：多模态偏见导致描述粒度不平衡，对某些元素进行详细描述，而对其他元素仅略有提及；语言偏见导致不存在物体的幻觉描述。为了解决这些问题，我们提出了一种可扩展的去偏见描述策略，通过增加推理预算不断丰富和校准描述。具体而言，我们提出了两个新颖的组件：启发式问答和对比句子评价。前者基于图像生成内容特定的问题并回答这些问题，以逐步向描述中注入相关信息。后者采用句子级离线对比解码，有效识别并消除由语言偏见引起的幻觉。随着推理成本的增加，ScaleCap提出了更多的启发式问题，以逐步捕捉更多的视觉细节，生成更准确、平衡和信息丰富的描述。大量模态对齐实验证明了ScaleCap的有效性。使用ScaleCap对450K张图像进行标注并用于LVLM预训练，在11个广泛使用的基准测试中一致表现出性能提升。此外，ScaleCap还展示了在两个额外任务中生成描述的丰富性和真实性：在视觉问答任务中用描述替换图片，以及从描述中重建图像以评估语义覆盖范围。代码可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2506.19848.pdf"
+    },
+    {
+        "名称": "2025 [2506.17612] JarvisArt: Liberating Human Artistic Creativity via an Intelligent Photo Retouching Agent.pdf",
+        "作者": "Yunlong Lin, Zixu Lin, Kunjie Lin, Jinbin Bai, Panwang Pan, Chenxin Li, Haoyu Chen, Zhongdao Wang, Xinghao Ding, Wenbo Li, Shuicheng Yan",
+        "摘要": "摘要：照片修饰已成为当代视觉叙事的重要组成部分，使用户能够捕捉美学并表达创意。尽管诸如Adobe Lightroom这样的专业工具提供强大的功能，但它们需要大量的专业知识和手动操作。相比之下，现有的基于AI的解决方案提供自动化，但通常调整能力有限且泛化性差，无法满足多样化和个性化的编辑需求。为弥补这一差距，我们引入了JarvisArt，这是一种多模态大型语言模型（MLLM）驱动的智能代理，它理解用户意图，模仿专业艺术家的推理过程，并智能协调Lightroom中的200多种修饰工具。JarvisArt经历了两阶段的训练过程：最初的链式思维监督微调以建立基本的推理和工具使用技能，随后通过相对群体政策优化修饰（GRPO-R）进一步增强其决策和工具熟练度。我们还提出了代理到Lightroom协议以促进与Lightroom的无缝集成。为了评估性能，我们开发了MMArt-Bench，一个由真实用户编辑构建的新基准。JarvisArt展示了用户友好的交互性、优越的泛化性和对全局和局部调整的细致控制，为智能照片修饰开辟了新的道路。值得注意的是，它在内容保真度方面在MMArt-Bench上平均像素级指标提高了60%，同时保持了与GPT-4o相当的指令遵循能力。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2506.17612.pdf"
+    },
+    {
+        "名称": "2025 [2506.19467] Can Large Language Models Capture Human Annotator Disagreements?.pdf",
+        "作者": "Jingwei Ni, Yu Fan, Vilém Zouhar, Donya Rooein, Alexander Hoyle, Mrinmaya Sachan, Markus Leippold, Dirk Hovy, Elliott Ash",
+        "摘要": "摘要：人工注释变异（即注释分歧）在自然语言处理（NLP）中很常见，通常反映了任务的主观性和样本的模糊性。尽管大型语言模型（LLMs）越来越多地用于自动注释以减少人为工作，但其评估通常集中在预测多数票通过的“真实标签”上。然而，这些模型是否也能捕捉到有意义的人工注释变异仍不明确。我们的工作通过广泛评估LLMs在不访问重复人工标签的情况下预测注释分歧的能力来解决这一差距。我们的结果显示，LLMs在建模分歧方面存在困难，这在基于多数标签的评估中可能被忽视。值得注意的是，尽管RLVR风格（基于可验证奖励的强化学习）的推理通常能提升LLMs的表现，但却降低了预测分歧的表现。我们的发现强调了在分歧建模中评估和改进LLM注释器的关键需求。代码和数据见此https URL。",
+        "地址": "https://arxiv.org/pdf/2506.19467.pdf"
+    },
+    {
+        "名称": "2025 [2506.18951] SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications.pdf",
+        "作者": "Jinyang Li, Xiaolong Li, Ge Qu, Per Jacobsson, Bowen Qin, Binyuan Hui, Shuzheng Si, Nan Huo, Xiaohan Xu, Yue Zhang, Ziwei Tang, Yuanshuai Li, Florensia Widjaja, Xintong Zhu, Feige Zhou, Yongfeng Huang, Yannis Papakonstantinou, Fatma Ozcan, Chenhao Ma, Reynold Cheng",
+        "摘要": "摘要: 复杂的 SQL 问题解决依然是现实世界数据库应用中的一个显著瓶颈。现有的大型语言模型（LLMs）虽然擅长文本到 SQL 的翻译，但在更具挑战性的 SQL 问题调试任务上尚未得到严格评估。为了解决这一差距，我们引入了 BIRD-CRITIC，这是一个新的 SQL 问题调试基准，包含530个 PostgreSQL 任务（BIRD-CRITIC-PG）和570个多方言任务（BIRD-CRITIC-Multi），这些任务从真实用户问题中提炼出来，并在新的环境中重现，以便进行严格评估。基线评估突显了任务的复杂性，领先的推理模型 O3-Mini 在 BIRD-CRITIC-PG 上仅获得 38.87%的成功率，在 BIRD-CRITIC-Multi 上则为 33.33%。同时，提升为数据库任务开发开源模型对于支持本地开发并保障数据隐私至关重要。因此，我们提出了 Six-Gym (Sql-fIX-Gym)，这是一个用于提升开源模型 SQL 问题调试能力的训练环境。该环境采用 SQL-Rewind 策略，通过从验证过的 SQL 中反向工程问题自动生成可执行的问题-解决方案数据集。然而，流行的基于轨迹的微调方法并未探索大量监督信号。我们进一步提出了 f-Plan Boosting，从 SQL 解决方案中提取高级调试计划，使教师 LLMs 能够生成 73.7% 的更成功的训练轨迹。我们将这些组件集成到一个开源代理中，Bird-Fixer。基于 Qwen-2.5-Coder-14B，Bird-Fixer 在 BIRD-CRITIC-PG 和 BIRD-CRITIC-Multi 上分别取得了 38.11% 和 29.65% 的成功率，超越了领先的专有模型，如 Claude-3.7-Sonnet 和 GPT-4.1，标志着在普及复杂 SQL 调试能力上的重要一步。排行榜和源代码可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2506.18951.pdf"
+    },
+    {
+        "名称": "2025 [2506.19850] Unified Vision-Language-Action Model.pdf",
+        "作者": "Yuqi Wang, Xinghang Li, Wenxuan Wang, Junbo Zhang, Yingyan Li, Yuntao Chen, Xinlong Wang, Zhaoxiang Zhang",
+        "摘要": "摘要：视觉-语言-行动模型（VLAs）因其在推进机器人操控方面的潜力而引起了广泛关注。然而，以往的方法主要依赖视觉-语言模型（VLMs）的通用理解能力来产生行动信号，往往忽略了视觉观察中嵌入的丰富的时间和因果结构。在本文中，我们提出了UniVLA，这是一种统一且原生的多模态VLA模型，可以自回归地将视觉、语言和行动信号建模为离散的符号序列。这种配方允许灵活的多模态任务学习，特别是从大规模视频数据中学习。通过在后训练阶段整合世界建模，UniVLA从视频中捕捉因果动态，促进了向下游策略学习的有效转移——尤其是针对长时间任务。我们的方法在几个广泛使用的模拟基准上设定了新的最先进结果，包括CALVIN、LIBERO和Simplenv-Bridge，显著超越了以往的方法。例如，UniVLA在LIBERO基准上达到了95.5%的平均成功率，超越了pi0-FAST的85.5%。我们进一步展示了其在现实世界ALOHA操控和自动驾驶中的广泛适用性。\n\n年份：2025\n作者：Yuqi Wang, Xinghang Li, Wenxuan Wang, Junbo Zhang, Yingyan Li, Yuntao Chen, Xinlong Wang, Zhaoxiang Zhang\n评论：技术报告\n链接：https://arxiv.org/pdf/2506.19850.pdf\n标题：2025 [2506.19850] 统一视觉-语言-行动模型.pdf",
+        "地址": "https://arxiv.org/pdf/2506.19850.pdf"
+    },
+    {
+        "名称": "2025 [2506.19713] Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales.pdf",
+        "作者": "Seyedmorteza Sadat, Tobias Vontobel, Farnood Salehi, Romann M. Weber",
+        "摘要": "摘要：无分类器指导（CFG）已成为现代条件扩散模型的重要组成部分。虽然在实践中非常有效，但CFG通过其增强质量、细节和提示对齐的潜在机制尚未完全被理解。我们从频域分析的角度提出了对CFG的新见解，展示了低频和高频在生成质量上有着不同的影响。具体来说，低频指导控制全局结构和条件对齐，而高频指导主要增强视觉逼真度。然而，在标准CFG中，对于所有频率采用统一尺度会导致过饱和和高尺度下的多样性降低以及低尺度下的视觉质量下降。基于这些洞察，我们提出了频率解耦指导（FDG），这是一种将CFG分解为低频和高频成分并对每个成分应用不同指导强度的有效方法。FDG通过设计在低指导尺度下提高图像质量并避免高CFG尺度的缺点。通过对多个数据集和模型的广泛实验，我们证明了FDG在保持多样性的同时一致地提高样本保真度，从而比CFG改善了FID和召回率，确立了我们的方法作为标准无分类器指导的即插即用替代方案。",
+        "地址": "https://arxiv.org/pdf/2506.19713.pdf"
+    },
+    {
+        "名称": "2025 [2506.18945] Chain-of-Experts: Unlocking the Communication Power of Mixture-of-Experts Models.pdf",
+        "作者": "Zihan Wang, Rui Pan, Jiarui Yao, Robert Csordas, Linjie Li, Lu Yin, Jiajun Wu, Tong Zhang, Manling Li, Shiwei Liu",
+        "摘要": "摘要：我们提出了Chain-of-Experts (CoE)，这是一个新的专家混合（Mixture-of-Experts, MoE）架构，在每一层中引入了专家之间的顺序交流。与传统的MoE模型中专家独立并行操作不同，CoE在层内通过一连串专家迭代地处理令牌。为了支持跨迭代的动态专家选择，CoE在每一迭代步骤中使用一个专门的路由器。这种设计允许令牌在每次迭代期间重新评估并选择不同的专家，而不是静态分配。因此，CoE引入了一种灵活的路由机制，增加了专家组合的多样性，并丰富了模型的表示能力。CoE在固定计算情况下表现出改进的性能：在数学推理任务中，与标准的MoE相比，其验证损失从1.20减少到1.12。除了性能之外，CoE还提供了一种新的扩展轴：通过专家迭代来增加深度，这补充了传统的宽度/深度扩展。例如，使用2倍迭代匹配3倍专家选择（宽度）的性能，同时与其他扩展策略相比，减少了17.6-42%的内存使用。我们的分析揭示了CoE的优势来源于其迭代残差结构和通过迭代路由增强的专家专门化，这共同解锁了更具表现力的表示能力。代码可在此https URL获得。\n\n翻译作者：王子涵, 潘睿, 姚佳睿, 罗伯特·乔达斯, 李林杰, 尹璐, 吴嘉俊, 张彤, 李曼玲, 刘世伟",
+        "地址": "https://arxiv.org/pdf/2506.18945.pdf"
+    },
+    {
+        "名称": "2025 [2506.19838] SimpleGVR: A Simple Baseline for Latent-Cascaded Video Super-Resolution.pdf",
+        "作者": "Liangbin Xie, Yu Li, Shian Du, Menghan Xia, Xintao Wang, Fanghua Yu, Ziyan Chen, Pengfei Wan, Jiantao Zhou, Chao Dong",
+        "摘要": "2025年 [2506.19838] SimpleGVR：一种简单的隐式级联视频超分辨率基线\n\n摘要：潜在扩散模型已经成为高效视频生成的领先范式。然而，随着用户期望转向更高分辨率的输出，仅依赖潜在计算变得不足。一种有前途的方法是将过程分成两个阶段：语义内容生成和细节合成。前者在较低分辨率下使用计算密集的基础模型，而后者利用轻量级的级联视频超分辨率（VSR）模型来实现高分辨率输出。在这项工作中，我们重点研究了目前尚未深入探索的级联VSR模型的关键设计原则。首先，我们提出了两种退化策略，以生成更好地模拟基础模型输出特征的训练对，确保VSR模型与其上游生成器的对齐。其次，通过系统分析时间步采样策略和低分辨率（LR）输入上的噪声增强效果，我们提供了VSR模型行为的关键见解。这些发现直接影响了我们的架构和训练创新。最后，我们引入交替时间单位和稀疏局部注意机制以实现高效训练和推理，大幅减少计算开销。广泛的实验证明了我们框架相对于现有方法的优越性，消融研究确认了每个设计选择的有效性。我们的工作建立了一个简单而有效的级联视频超分辨率生成基线，提供实用的见解以指导未来高效级联合成系统的进步。\n\n作者：谢亮斌，李宇，都世安，夏孟涵，王鑫涛，余芳华，陈子炎，万鹏飞，周建韬，董超\n\n评论：项目网页可通过此https URL访问\n\n链接：https://arxiv.org/pdf/2506.19838.pdf",
+        "地址": "https://arxiv.org/pdf/2506.19838.pdf"
+    },
+    {
+        "名称": "2025 [2506.19767] SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning.pdf",
+        "作者": "Yuqian Fu, Tinghong Chen, Jiajun Chai, Xihuai Wang, Songjun Tu, Guojun Yin, Wei Lin, Qichao Zhang, Yuanheng Zhu, Dongbin Zhao",
+        "摘要": "摘要: 大型语言模型（LLMs）在推理任务中取得了显著进展，但监督微调（SFT）和强化学习（RL）的最佳集成仍然是一个根本性挑战。通过对token分布、学习动态和基于熵的集成机制的全面分析，我们揭示了这些范式之间的关键差异：SFT对LLM政策分布进行了粗粒度全局变化，而RL则执行细粒度选择性优化，熵是训练有效性的关键指标。在这些观察的基础上，我们提出了监督强化微调（SRFT），一种通过熵感知权重机制统一两种微调范式的单阶段方法。我们的方法同时应用SFT和RL，直接使用演示和自探索卷展进行LLM优化，而不是通过两阶段顺序方法。广泛的实验表明，SRFT在五个数学推理基准上平均准确率达到59.1%，比零RL方法高出9.0%，在三个分布外基准上高出10.9%。\n\n来源: https://arxiv.org/pdf/2506.19767.pdf",
+        "地址": "https://arxiv.org/pdf/2506.19767.pdf"
+    },
+    {
+        "名称": "2025 [2506.18843] USAD: Universal Speech and Audio Representation via Distillation.pdf",
+        "作者": "Heng-Jui Chang, Saurabhchand Bhati, James Glass, Alexander H. Liu",
+        "摘要": "摘要: 自监督学习（SSL）已经在音频表示领域取得了革命性进展，但模型通常仍然是特定领域的，集中于语音或非语音任务。在这项工作中，我们提出了通用语音和音频蒸馏（USAD），这是一种音频表示学习的统一方法，将语音、声音和音乐等不同类型的音频整合到一个模型中。USAD通过从特定领域的SSL模型进行高效的层层蒸馏，在一个全面的音频数据集上训练学生模型。USAD在各种基准测试和数据集上表现竞争力，包括帧级和实例级语音处理任务、音频标记和声音分类，使用单一编码器在SUPERB和HEAR基准测试中实现了接近最先进的结果。",
+        "地址": "https://arxiv.org/pdf/2506.18843.pdf"
+    },
+    {
+        "名称": "2025 [2506.14012] Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text.pdf",
+        "作者": "Amr Mohamed, Yang Zhang, Michalis Vazirgiannis, Guokan Shang",
+        "摘要": "摘要: 代码转换（CSW）是指在单一话语中交替使用两种或多种语言的行为。这种现象在多语言社区中广泛存在，在在线内容中也越来越普遍，用户在日常交流中自然地混合语言。因此，现今大型语言模型（LLM），作为内容处理与生成的核心，经常会遇到代码转换输入。鉴于它们的广泛使用，了解LLM如何处理和推理此类混合语言文本是至关重要的。本文通过生成代码转换的已建立推理和理解基准变体，系统评估LLM在代码转换下的理解能力。虽然当外来词汇干扰了英文文本时会显现出性能下降—即使在语言约束下—将英文嵌入其他语言通常会改善理解。尽管提示会带来混合结果，微调则提供了一种更稳定的路径来减轻性能下降。",
+        "地址": "https://arxiv.org/pdf/2506.14012.pdf"
+    },
+    {
+        "名称": "2025 [2506.19794] Why Do Open-Source LLMs Struggle with Data Analysis? A Systematic Empirical Study.pdf",
+        "作者": "Yuqi Zhu, Yi Zhong, Jintian Zhang, Ziheng Zhang, Shuofei Qiao, Yujie Luo, Lun Du, Da Zheng, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）在自动化数据分析任务方面具有巨大的潜力，但开源模型在这些需要大量推理的场景中面临显著限制。在这项工作中，我们探讨了增强开源LLMs数据分析能力的策略。通过策划一个包含多样化、现实场景的种子数据集，我们从数据理解、代码生成和战略规划三个维度评估模型。我们的分析揭示了三个主要发现：（1）战略规划质量是决定模型性能的主要因素；（2）交互设计和任务复杂性显著影响推理能力；（3）在实现最佳性能方面，数据质量比多样性影响更大。我们利用这些见解开发了一种数据合成方法，显著提升了开源LLMs的分析推理能力。",
+        "地址": "https://arxiv.org/pdf/2506.19794.pdf"
+    },
+    {
+        "名称": "2025 [2506.19839] Improving Progressive Generation with Decomposable Flow Matching.pdf",
+        "作者": "Moayed Haji-Ali, Willi Menapace, Ivan Skorokhodov, Arpit Sahni, Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin",
+        "摘要": "摘要：生成高维视觉模态是一个计算密集型任务。一种常见的解决方案是渐进生成，在这种方法中，输出以由粗到细的光谱自回归方式合成。虽然扩散模型得益于去噪的由粗到细特性，但很少采用明确的多阶段架构。这些架构增加了整体方法的复杂性，引入了对自定义扩散公式、依赖于分解的阶段转换、专用采样器或模型级联的需求。我们的贡献是可分解流匹配（Decomposable Flow Matching，DFM），这是一种简单而有效的渐进生成视觉媒体框架。DFM在用户定义的多尺度表示（如拉普拉斯金字塔）的每一级上独立应用流匹配。我们的实验表明，我们的方法在图像和视频的视觉质量上都有所提升，与之前的多阶段框架相比有优越的表现。在Imagenet-1k 512px数据集上，DFM在相同的训练计算下，相较于基础架构提高了35.2%的FDD得分，相较于表现最好的基线提高了26.4%。当应用于大模型（如FLUX）的微调时，DFM表现出更快的收敛速度到训练分布。重要的是，所有这些优点都通过单一模型、架构的简化和对现有训练管道的最低修改来实现。",
+        "地址": "https://arxiv.org/pdf/2506.19839.pdf"
+    },
+    {
+        "名称": "2025 [2506.19830] Scaling Speculative Decoding with Lookahead Reasoning.pdf",
+        "作者": "Yichao Fu, Rui Ge, Zelei Shao, Zhijie Deng, Hao Zhang",
+        "摘要": "摘要：推理模型通过生成长链的思维过程表现出色，但解码生成的成千上万个令牌非常缓慢。令牌级推测解码（SD）可以提供帮助，但其好处是有限的，因为整个 $\\gamma$ 令牌猜测正确的几率随着 $\\gamma$ 的增长呈指数下降。这意味着为更长的令牌草稿分配更多计算资源面临算法天花板——速度提升只是适度且与硬件无关。我们通过前瞻性推理提高了这一天花板，利用了第二层步骤级的并行性。我们的关键见解是推理模型逐步生成，每一步只需要语义上正确，而不是精确匹配令牌。在前瞻性推理中，一个轻量级草稿模型提出几个未来步骤；目标模型在一个批处理过程中展开每个提案，并且验证器保留语义正确的步骤，同时让目标模型重新生成失败的步骤。令牌级 SD 仍在每个推理步骤中运行，因此两层并行性相乘。我们从理论和实证上表明，前瞻性推理提升了 SD 的峰值速度。在 GSM8K、AIME 和其他基准中，前瞻性推理将 SD 的速度提升从 1.4 倍提高到 2.1 倍，同时保持了答案质量，并且其速度提升随着 GPU 吞吐量的增加表现更好。我们的代码可在此 URL 获取。",
+        "地址": "https://arxiv.org/pdf/2506.19830.pdf"
+    },
+    {
+        "名称": "2025 [2506.19807] KnowRL: Exploring Knowledgeable Reinforcement Learning for Factuality.pdf",
+        "作者": "Baochang Ren, Shuofei Qiao, Wenhao Yu, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：大型语言模型（LLMs），特别是慢思考模型，经常表现出严重的幻觉现象，由于在推理过程中无法准确识别知识边界而生成错误内容。虽然强化学习（RL）可以增强复杂的推理能力，但其结果导向的奖励机制通常缺乏对思考过程的事实监督，进一步加剧了幻觉问题。为了解决慢思考模型中的高幻觉，我们提出了知识增强强化学习，KnowRL。KnowRL通过将基于知识验证的事实奖励整合到RL训练过程中，引导模型进行基于事实的慢思考，帮助它们识别其知识边界。这种在RL训练过程中的有针对性的事实输入使得模型能够学习和内化基于事实的推理策略。通过直接奖励推理步骤中的事实遵循，KnowRL促进了更可靠的思考过程。三个幻觉评估数据集和两个推理评估数据集的实验结果表明，KnowRL在有效减少慢思考模型中的幻觉现象的同时，保持了其原有的强推理能力。我们的代码可以在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2506.19807.pdf"
+    },
+    {
+        "名称": "2025 [2506.16095] Intelligent Operation and Maintenance and Prediction Model Optimization for Improving Wind Power Generation Efficiency.pdf",
+        "作者": "Xun Liu, Xiaobin Wu, Jiaqi He, Rajan Das Gupta",
+        "摘要": "摘要：本研究探讨了预测性维护模型的有效性，以及智能运行和维护（O&M）系统在提高风力发电效率方面的优化。通过定性研究，结构化访谈了五位拥有丰富涡轮机操作经验的风电场工程师和维护经理。使用主题分析揭示了预测性维护模型虽然有效减少了停机时间，能够识别重大故障，但在检测较小的、逐渐发生的故障时往往有难度。主要挑战包括误报、传感器故障以及新模型与旧涡轮系统集成的困难。诸如数字孪生、SCADA系统和状态监测等先进技术显著提升了涡轮机的维护实践。然而，这些技术仍需要改进，尤其在人工智能的优化和实时数据集成方面。研究结果强调了持续开发的必要性，以全面优化风力涡轮机性能，支持可再生能源的广泛采用。",
+        "地址": "https://arxiv.org/pdf/2506.16095.pdf"
+    },
+    {
+        "名称": "2025 [2506.19847] Orthogonal Finetuning Made Scalable.pdf",
+        "作者": "Zeju Qiu, Weiyang Liu, Adrian Weller, Bernhard Schölkopf",
+        "摘要": "摘要: 正交微调（OFT）提供了高效的参数适应能力，同时防止灾难性的遗忘，但其高运行时间和记忆需求限制了实际部署。我们发现OFT的核心计算瓶颈在于其以权重为中心的实现，这依赖于高复杂度的矩阵矩阵乘法。为了解决这个问题，我们提出了OFTv2，一种以输入为中心的重新表述，使用矩阵向量乘法（即无矩阵计算），将计算成本降低到二次复杂度。我们进一步引入了Cayley-Neumann参数化，一种高效的正交参数化，通过截断Neumann级数来近似Cayley变换中的矩阵求逆。这些修改使得OFTv2在训练速度上提高了最多10倍，GPU内存使用减少了3倍，同时不影响性能。此外，我们扩展了OFTv2以支持量化基础模型的微调，并显示出其在训练稳定性、效率和内存使用上优于流行的QLoRA。",
+        "地址": "https://arxiv.org/pdf/2506.19847.pdf"
+    },
+    {
+        "名称": "2025 [2506.19433] Mem4Nav: Boosting Vision-and-Language Navigation in Urban Environments with a Hierarchical Spatial-Cognition Long-Short Memory System.pdf",
+        "作者": "Lixuan He, Haoyu Dong, Zhenxing Chen, Yangcheng Yu, Jie Feng, Yong Li",
+        "摘要": "摘要：在大规模城市环境中进行视觉和语言导航（VLN）需要具身智能体在复杂场景中将语言指令进行落地并在长时间范围内回忆相关经验。之前的模块化流程提供了可解释性但缺乏统一的记忆系统，而端到端的（M）LLM智能体虽然在融合视觉和语言方面表现出色，但仍受到固定上下文窗口和隐式空间推理的限制。我们介绍了Mem4Nav，一种层次化的空间认知长短期记忆系统，可以增强任何VLN骨干网络。Mem4Nav通过一个稀疏八叉树进行细粒度体素索引，并结合语义拓扑图以实现高层次地标连接，将二者存储在可训练的记忆标记中，并通过可逆Transformer嵌入。长期记忆（LTM）在八叉树和图节点上压缩并保留历史观察，而短期记忆（STM）则以相对坐标缓存最近的多模态输入，用于实时障碍物避免和局部规划。在每一步中，STM检索会锐减动态上下文，当需要更深入的历史时，LTM标记将无损地解码以重建过去的嵌入。在Touchdown和Map2Seq上对三种骨干网络（模块化、使用基于提示的LLM的最先进的VLN和使用跨步注意MLLM的最先进的VLN）的评估中，Mem4Nav在任务完成率上提高了7-13个百分点，SPD减少充分，且nDTW改善超过10个百分点。消融实验确认了层次化地图和双重记忆模块的不可或缺性。我们的代码通过此https网址开源。\n\n来源：https://arxiv.org/pdf/2506.19433.pdf\n标题：2025 [2506.19433] Mem4Nav: Boosting Vision-and-Language Navigation in Urban Environments with a Hierarchical Spatial-Cognition Long-Short Memory System\n作者：Lixuan He, Haoyu Dong, Zhenxing Chen, Yangcheng Yu, Jie Feng, Yong Li",
+        "地址": "https://arxiv.org/pdf/2506.19433.pdf"
+    },
+    {
+        "名称": "2025 [2506.20670] MMSearch-R1: Incentivizing LMMs to Search.pdf",
+        "作者": "Jinming Wu, Zihao Deng, Wei Li, Yiding Liu, Bo You, Bo Li, Zejun Ma, Ziwei Liu",
+        "摘要": "摘要: 在现实世界场景中，部署大型多模态模型（LMMs）的鲁棒性需要访问外部知识源，鉴于现实世界信息的复杂性和动态性。现有的方法如检索增强型生成（RAG）和提示工程搜索代理依赖于刚性管道，常导致低效或过度的搜索行为。我们提出了MMSearch-R1，这是第一个端到端强化学习框架，使LMMs能够在现实互联网环境中按需进行多轮搜索。我们的框架集成了图像和文本搜索工具，使模型能够根据结果导向的奖励和搜索惩罚进行合理搜索。为了支持训练，我们通过半自动化管道收集了一个多模态搜索VQA数据集，涵盖了多种视觉和文本知识需求，并整理了一个搜索平衡子集，其中包括需要和不需要搜索的样本，这对于形成高效和按需搜索行为至关重要。在知识密集型和信息寻求VQA任务上的广泛实验表明，我们的模型不仅在同等模型规模下表现优于基于RAG的基线模型，而且在减少搜索调用超过30%的情况下，匹配了更大规模的基于RAG的模型的表现。我们进一步分析了关键的实证发现，提供了推进多模态搜索研究的可操作见解。\n\n作者: 武锦明，邓子豪，李伟，刘一丁，游波，李波，马泽俊，刘子为\n",
+        "地址": "https://arxiv.org/pdf/2506.20670.pdf"
+    }
+]
