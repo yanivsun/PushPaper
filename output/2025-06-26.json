@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2506.18095] ShareGPT-4o-Image: Aligning Multimodal Models with GPT-4o-Level Image Generation.pdf",
+        "作者": "Junying Chen, Zhenyang Cai, Pengcheng Chen, Shunian Chen, Ke Ji, Xidong Wang, Yunjin Yang, Benyou Wang",
+        "摘要": "摘要：最近在多模态生成模型方面的进展已经实现了与指令对齐的照片级图像生成，然而像GPT-4o-Image这样的领先系统仍然是专有的并且不可访问。为了普及这些能力，我们推出了ShareGPT-4o-Image，这是首个包含45K文本到图像和46K文本与图像到图像数据的数据集，所有数据都是使用GPT-4o的图像生成能力合成的，用于提炼其先进的图像生成能力。利用这个数据集，我们开发了Janus-4o，一个能同时进行文本到图像和文本与图像到图像生成的多模态大语言模型。Janus-4o不仅显著改善了其前身Janus-Pro的文本到图像生成能力，还新支持了文本与图像到图像的生成。值得注意的是，它仅使用91K合成样本和8台A800-GPU机器6小时的训练，就在文本与图像到图像生成方面从零开始取得了令人印象深刻的表现。我们希望ShareGPT-4o-Image和Janus-4o的发布能够促进照片级、与指令对齐的图像生成的开放研究。",
+        "地址": "https://arxiv.org/pdf/2506.18095.pdf"
+    },
+    {
+        "名称": "2025 [2506.19103] Inverse-and-Edit: Effective and Fast Image Editing by Cycle Consistency Models.pdf",
+        "作者": "Ilia Beletskii, Andrey Kuznetsov, Aibek Alanov",
+        "摘要": "摘要：最近在使用扩散模型进行图像编辑方面取得了令人印象深刻的成果，提供了对生成过程的细粒度控制。然而，由于这些方法的迭代性质，它们计算密集。尽管蒸馏扩散模型能够更快地推理，其编辑能力仍然有限，主要是由于反演质量差。高保真反演和重建对于精确的图像编辑至关重要，因为它们保留了源图像的结构和语义完整性。在这项工作中，我们提出了一种新颖的框架，利用一致性模型增强图像反演，仅需四步即可实现高质量编辑。我们的方法引入了循环一致性优化策略，显著提高了重建精度，并使编辑性与内容保留之间实现可控的权衡。我们在各种图像编辑任务和数据集上实现了最先进的性能，证明我们的方法在效率上远远超过完整步骤的扩散模型，同时在性能上也能匹敌甚至超越它们。我们的方法代码已在GitHub上开放。",
+        "地址": "https://arxiv.org/pdf/2506.19103.pdf"
+    },
+    {
+        "名称": "2025 [2506.19697] Outlier-Safe Pre-Training for Robust 4-Bit Quantization of Large Language Models.pdf",
+        "作者": "Jungwoo Park, Taewhoo Lee, Chanwoong Yoon, Hyeon Hwang, Jaewoo Kang",
+        "摘要": "摘要: 大型语言模型中的极端激活异常严重影响量化性能，阻碍了高效的设备部署。虽然通道级操作和自适应梯度缩放被认为是导致该问题的原因，但实际解决依然具有挑战性。我们介绍了Outlier-Safe Pre-Training (OSP)，这是一种主动预防异常生成的实用指南，而非依赖事后的补救措施。OSP结合了三项重要创新：(1) Muon优化器，能够消除特权基并保持训练效率；(2) Single-Scale RMSNorm，防止通道级放大；(3) 可学习嵌入投影，将源自嵌入矩阵的激活幅度重新分配。我们通过在1万亿个标记上训练一个参数为1.4B的模型验证了OSP，这是第一个在生产规模上训练且没有异常的LLM。在激进的4-bit量化下，OSP模型在10个基准测试中获得了35.7的平均分（相比之下，Adam训练的模型得分为26.5），训练开销仅为2%。值得注意的是，OSP模型的超额尖度几乎为零（0.04），而标准模型则极端高（1818.56），从根本上改变了LLM的量化行为。我们的研究表明，异常并非大型语言模型的固有特征，而是训练策略的结果，为更高效的LLM部署铺平了道路。源代码和预训练检查点可在此链接中找到。",
+        "地址": "https://arxiv.org/pdf/2506.19697.pdf"
+    },
+    {
+        "名称": "2025 [2506.20512] OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling.pdf",
+        "作者": "Zengzhi Wang, Fan Zhou, Xuefeng Li, Pengfei Liu",
+        "摘要": "摘要：在使用强化学习（RL）进行后训练时，不同的基础语言模型家族（如Llama和Qwen）表现出不同的行为，特别是在推理密集型任务上。什么使得基础语言模型适合强化学习？对这个问题的深入了解对于开发下一代可扩展RL的基础模型至关重要。在这项工作中，我们探讨了中期训练策略如何影响RL动态，重点研究两种代表性的模型家族：Qwen和Llama。我们的研究发现：（1）高质量的数学语料库，如MegaMath-Web-Pro，显著提高了基础模型和RL的性能，而现有的替代方案（例如FineMath-4plus）则未能做到这一点；（2）进一步添加QA风格的数据，特别是长链条思维（CoT）推理示例，增强了RL效果，并且指令数据进一步解锁了这一效果；（3）虽然长链条思维提高了推理深度，但也可以导致模型响应的冗长和RL训练的不稳定，强调了数据格式的重要性；（4）中期训练的扩展一致导致更强的下游RL性能。基于这些见解，我们介绍了一个两阶段的中期训练策略，稳定后衰减，其中基础模型首先在200B个标记上以恒定学习率进行训练，然后在三个CoT聚焦分支上的20B个标记上进行学习率衰减。这产生了OctoThinker，一个表现出强RL兼容性的模型家族，并缩小了与更适合RL的模型家族（即Qwen）的性能差距。我们希望我们的工作能帮助塑造RL时代的基础模型预训练策略。为了支持进一步研究，我们发布了我们的开源模型以及一个精心策划的数学推理密集型语料库，超过700亿标记（即MegaMath-Web-Pro-Max）。",
+        "地址": "https://arxiv.org/pdf/2506.20512.pdf"
+    },
+    {
+        "名称": "2025 [2506.16012] DualTHOR: A Dual-Arm Humanoid Simulation Platform for Contingency-Aware Planning.pdf",
+        "作者": "Boyu Li, Siyuan He, Hang Xu, Haoqi Yuan, Yu Zang, Liwei Hu, Junpeng Yue, Zhenxiong Jiang, Pengbo Hu, Börje F. Karlsson, Yehui Tang, Zongqing Lu",
+        "摘要": "摘要: 发展能够在现实场景中执行复杂交互任务的物理代理仍然是体现AI中的一个基本挑战。尽管仿真平台的最新进展极大地提升了训练体现式视觉语言模型（VLMs）的任务多样性，但大多数平台依赖于简化的机器人形态，并绕过低级执行的随机本质，这限制了它们向现实世界机器人的迁移能力。为了解决这些问题，我们提出了一个基于物理的仿真平台DualTHOR，用于复杂的双臂类人机器人，基础是扩展版的AI2-THOR。我们的模拟器包括现实世界的机器人资产、双臂合作任务套件和类人机器人的逆运动学求解器。我们还引入了一种应急机制，通过基于物理的低级执行来涵盖潜在的失败，从而缩小与现实世界场景的差距。我们的模拟器能够更全面地评估VLMs在家庭环境中的鲁棒性和泛化能力。广泛评估显示，当前的VLMs在双臂协调方面表现不佳，并且在具有应急情况的现实环境中表现出有限的鲁棒性，突出强调了使用我们的模拟器来开发更有能力的VLMs以执行体现任务的重要性。代码可在该网址：https URL 获取。",
+        "地址": "https://arxiv.org/pdf/2506.16012.pdf"
+    },
+    {
+        "名称": "2025 [2506.18088] RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation.pdf",
+        "作者": "Tianxing Chen, Zanxin Chen, Baijun Chen, Zijian Cai, Yibin Liu, Qiwei Liang, Zixuan Li, Xianliang Lin, Yiheng Ge, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, Qiangyu Chen, Kailun Su, Tianling Xu, Guodong Liu, Mengkang Hu, Huan-ang Gao, Kaixuan Wang, Zhixuan Liang, Yusen Qin, Xiaokang Yang, Ping Luo, Yao Mu",
+        "摘要": "摘要：基于仿真的数据合成已经成为增强现实世界机器人操作的强大范式。然而，现有的合成数据集在强健的双手操作方面仍然不足，主要面临两个挑战：（1）缺乏一种高效且可扩展的数据生成方法来应对新任务，（2）过于简化的仿真环境未能捕捉到现实世界的复杂性。我们提出RoboTwin 2.0，一个可扩展的仿真框架，它能够自动、大规模生成多样且现实的数据，并为双臂操作提供统一的评估协议。我们首先构建了RoboTwin-OD，一个包含731个实例、147个类别的大规模对象库，每个对象都注有语义和操作相关标签。在此基础上，我们开发了一个专家数据合成管道，该管道结合多模态大语言模型（MLLMs）与仿真循环优化以自动生成任务级执行代码。为改善仿真到现实的转移，RoboTwin 2.0在五个轴线上引入了结构化域随机化：杂乱、照明、背景、桌面高度和语言指令，从而增强数据的多样性和策略的鲁棒性。我们在五种机器人模式的50个双臂任务中实例化了这个框架，并预收集了超过100,000个域随机化的专家轨迹。实证结果显示代码生成成功率提升10.9%，并在新颖的现实场景中有效泛化。一个在我们的数据集上微调的VLA模型在未见场景的现实任务中实现了367%的相对提升（42.0%对比9.0%），而仅在我们的合成数据上训练的零样本模型实现了228%的相对增益，突显了在没有现实监督下的强大泛化能力。我们发布了数据生成器、基准测试、数据集以及代码，以支持在强健的双手操作方面的可扩展研究。",
+        "地址": "https://arxiv.org/pdf/2506.18088.pdf"
+    },
+    {
+        "名称": "2025 [2506.18315] Use Property-Based Testing to Bridge LLM Code Generation and Validation.pdf",
+        "作者": "Lehan He, Zeren Chen, Zhe Zhang, Jing Shao, Xiang Gao, Lu Sheng",
+        "摘要": "摘要: 大型语言模型（LLMs）在代码生成方面表现出色，但确保其输出在复杂编程任务中功能正确仍是一个持续的挑战。虽然传统的测试驱动开发（TDD）为代码改进提供了一条途径，但其在LLMs上的效果常常因高质量测试用例的匮乏或自动测试生成的缺陷，包括偏颇的测试或不准确的输出预测而受到阻碍，可能会误导改正过程。本文介绍了Property-Generated Solver，这是一种利用基于属性的测试（PBT）来验证高层次程序属性或不变量的新框架，而不是依赖具体的输入输出示例。这些属性通常比直接预测全面的测试答案更容易定义和验证，打破了测试可能与其验证的代码共同存在缺陷的“自欺欺人循环”。Property-Generated Solver采用两个协作的基于LLM的代理：一个生成器负责代码生成和迭代改进，另一个测试器管理PBT生命周期并从属性违规中构建语义丰富的反馈。产生的全面且可操作的反馈随后指导生成器进行改进工作。通过在这一迭代闭环范式中建立PBT作为核心验证引擎，Property-Generated Solver为引导LLMs生成更正确和通用的代码提供了强大的机制。对多个代码生成基准进行的大量实验结果表明，Property-Generated Solver实现了显著的pass@1改进，相对已建立的TDD方法获得了23.1%到37.3%的相对增益。",
+        "地址": "https://arxiv.org/pdf/2506.18315.pdf"
+    },
+    {
+        "名称": "2025 [2506.20544] When Life Gives You Samples: The Benefits of Scaling up Inference Compute for Multilingual LLMs.pdf",
+        "作者": "Ammar Khairi, Daniel D'souza, Ye Shen, Julia Kreutzer, Sara Hooker",
+        "摘要": "摘要：最近大型语言模型（LLMs）的进展将关注点转移到了扩展推理时间计算上，以改善性能而无需重新训练模型。一种常见的方法是并行采样多个输出，并选择其中一个作为最终输出。然而，迄今为止的工作主要集中在英语和数学及代码等少数领域。相比之下，我们更感兴趣的是跨开放式任务、正式可验证任务以及跨语言的泛化技术。在这项工作中，我们研究了如何在多语言、多任务环境中稳健地扩展推理时间计算以应对开放式生成任务。我们的研究发现，基于温度变化的采样策略和选择策略必须适应不同领域和多样化的语言设置。我们评估了现有选择方法，发现英语中有效的策略往往无法泛化到其他语言。我们提出了专门针对多语言和多任务推理场景的新颖采样和选择策略，并证明这些策略在语言和任务方面取得了显著的提升。特别是，我们的综合采样和选择方法使得8B模型在m-ArenaHard-v2.0任务上相比于Gemini等专有模型取得了平均+6.8的胜率提升。在更大规模下，采用我们方法的Command-A（111B模型）在同一基准上通过五次采样比单次解码胜率提高了+9.0，在极小成本下取得了显著提升。我们的结果强调了需要基于语言和任务的推理时间计算方法，旨在为代表性不足的语言提供性能改进的公平性。\n\n作者：Ammar Khairi, Daniel D'souza, Ye Shen, Julia Kreutzer, Sara Hooker\n\n链接：https://arxiv.org/pdf/2506.20544.pdf\n\n标题：《当生活给你样本时：扩展推理计算对多语言LLMs的好处》",
+        "地址": "https://arxiv.org/pdf/2506.20544.pdf"
+    },
+    {
+        "名称": "2025 [2506.20452] HiWave: Training-Free High-Resolution Image Generation via Wavelet-Based Diffusion Sampling.pdf",
+        "作者": "Tobias Vontobel, Seyedmorteza Sadat, Farnood Salehi, Romann M. Weber",
+        "摘要": "摘要: 扩散模型已成为图像合成的主要方法，展示了卓越的写实性和多样性。然而，在高分辨率下训练扩散模型仍然具有计算上的挑战性，而现有的零样本生成技术在合成超出训练分辨率的图像时通常会产生伪影，包括对象重复和空间不一致现象。在本文中，我们介绍了HiWave，这是一种无需训练的零样本方法，在使用预训练扩散模型进行超高分辨率图像合成时，显著增强了视觉逼真度和结构一致性。我们的方法采用两阶段流程：首先从预训练模型生成基础图像，然后进行逐块DDIM反演步骤和一种新的基于小波的细节增强模块。具体来说，我们首先利用反演方法从基础图像中导出保持全局一致性的初始噪声向量。随后在采样过程中，我们的小波域细节增强器保留了基础图像中的低频成分以确保结构一致性，同时有选择地引导高频成分以丰富细节和纹理。使用稳定扩散XL进行的大量评估表明，HiWave有效缓解了以前方法中常见的视觉伪影问题，实现了卓越的感知质量。一项用户研究证实了HiWave的性能，在超过80%的比较中，它被偏好于最先进的替代方案，突显了其在无需重新训练或架构修改的情况下生成高质量、超高分辨率图像的有效性。",
+        "地址": "https://arxiv.org/pdf/2506.20452.pdf"
+    },
+    {
+        "名称": "2025 [2506.20495] ReCode: Updating Code API Knowledge with Reinforcement Learning.pdf",
+        "作者": "Haoze Wu, Yunzhi Yao, Wenhao Yu, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）展现了出色的代码生成能力，但在适应外部库API的频繁更新时表现不佳。这个关键的限制源于它们依赖于训练数据中过时的API知识，即使有当前文档也难以在动态环境中生成可靠代码。为了解决这个问题，我们提出了ReCode（基于规则的代码更新强化学习），一个模仿人类程序员适应API变化的新框架。具体而言，我们构建了一个包含约2000个数据项的数据集，用于训练LLMs根据更新的信息执行版本迁移。然后，我们引入了一个修改的字符串相似性度量，用于代码评估作为强化学习的奖励。我们的实验表明，在动态API场景中，ReCode显著提高了LLMs代码生成的性能，尤其是在未见过的CodeUpdateArena任务上。重要的是，与监督微调相比，ReCode对LLMs的一般代码生成能力影响较小。我们在各种LLMs和强化学习算法（GRPO和DAPO）上应用ReCode，均实现了一致的改进。值得注意的是，经过训练后，Qwen2.5-Coder-7B的表现优于一个32B参数的代码指令微调模型和具有相同架构的推理模型。代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.20495.pdf"
+    },
+    {
+        "名称": "2025 [2506.18674] Is There a Case for Conversation Optimized Tokenizers in Large Language Models?.pdf",
+        "作者": "Raquel Ferrando, Javier Conde, Gonzalo Martínez, Pedro Reviriego",
+        "摘要": "摘要：大型语言模型（LLMs）的计算和能源成本因模型规模的不断扩大和数亿用户的广泛采用而呈指数级增长。LLM 的单位成本是一个标记（token）的计算。因此，标记器在模型的效率中起着重要作用，它们经过精心优化以最大限度地减少训练语料库中文本的标记数量。LLMs的最流行应用之一是与用户互动的聊天机器人。一个关键观察是，对于这些聊天机器人，重要的是标记器在用户文本输入和聊天机器人响应中的性能。那些用户输入和响应很可能与训练语料库中的文本不同。因此，一个立即出现的问题是，优化聊天机器人对话的标记器是否具有潜在的好处。在本文中，这一想法通过使用一个公开的聊天机器人对话语料库来重新设计其词汇，并评估其在该领域的性能，从而对不同的标记器进行了探索。结果表明，对话优化标记器在聊天机器人对话中一致地减少了标记数量，这可以在节约5%到10%的能源方面取得显著效果，同时对原始训练语料库的标记效率几乎没有影响，甚至略有积极影响。\n\n作者：Raquel Ferrando, Javier Conde, Gonzalo Martínez, Pedro Reviriego\n\nURL：https://arxiv.org/pdf/2506.18674.pdf\n\n标题：2025 [2506.18674] 是否有必要在大型语言模型中优化对话标记器？",
+        "地址": "https://arxiv.org/pdf/2506.18674.pdf"
+    },
+    {
+        "名称": "2025 [2506.20480] GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching.pdf",
+        "作者": "Guinan Su, Li Shen, Lu Yin, Shiwei Liu, Yanwu Yang, Jonas Geiping",
+        "摘要": "摘要：大型语言模型（LLMs）在语言理解和生成方面展现了卓越的能力。然而，这种令人印象深刻的能力通常伴随着巨大的模型规模，给部署和推理带来了重大挑战。尽管通过结构化剪枝模型参数在部署时减少计算成本是一种有前途的方法，但当前方法主要关注单一模型的剪枝。在这项工作中，我们开发了一种通过战略性地结合或合并来自不同微调模型变体的层来压缩模型的新策略，通过聚合在不同微调中突显的能力来保留原始模型的能力。我们将这些大型语言模型的最佳定制化称为零阶优化问题，采用支持三种不同操作的搜索空间：(1) 层移除，(2) 从不同候选模型中选择层，和 (3) 层合并。我们的实验表明，这种方法能够实现有竞争力的模型剪枝，例如对于Llama2-13B模型系列，我们的压缩模型在去除约25%的参数的情况下，保留了原始性能的约97.3%，显著优于之前的最新方法。代码可在此链接下载。\n\n作者：Guinan Su, Li Shen, Lu Yin, Shiwei Liu, Yanwu Yang, Jonas Geiping\n\n标题：GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching\n\n链接：https://arxiv.org/pdf/2506.20480.pdf\n",
+        "地址": "https://arxiv.org/pdf/2506.20480.pdf"
+    },
+    {
+        "名称": "2025 [2506.20331] Biomed-Enriched: A Biomedical Dataset Enriched with LLMs for Pretraining and Extracting Rare and Hidden Content.pdf",
+        "作者": "Rian Touchent, Nathan Godey, Eric de la Clergerie",
+        "摘要": "摘要：我们介绍了Biomed-Enriched，这是一种通过两个阶段的注释过程从PubMed构建的生物医学文本数据集。在第一阶段，大型语言模型注释了来自PubMed科学文章的40万个段落，赋予它们类型（综述、研究、临床案例、其他）、领域（临床、生物医学、其他）和教育质量评分。教育质量评分（评分1到5）评估段落对大学水平学习的有用性。然后，这些注释被用来微调一个小型语言模型，该模型将标签传播到整个PMC-OA语料库。生成的元数据使我们能够提取精炼的子集，包括200万段临床案例段落，其中超过45万段高质量段落来自具有商业使用许可证的文章，并通过质量过滤和领域上采样构建若干变体。由于隐私约束，医院记录无法公开分享，临床文本通常难以访问。因此，我们的数据集提供了一种可替代的大规模开放获取的PubMed临床案例集合，成为生物医学和临床NLP的重要资源。与OLMo2的初步持续预训练实验表明，这些精心策划的子集能够实现有针对性的改进，其中临床上采样在MMLU ProfMed上提升了约5%的性能，教育质量过滤则改进了MedQA和MedMCQA约1%。这些技术的组合导致更快的收敛，使用三分之一的训练标记达到相同的性能，表明更高效和有效的生物医学预训练策略的潜力。\n\n作者：Rian Touchent, Nathan Godey, Eric de la Clergerie\n\n评论：数据集链接：此HTTPS URL\n\n网址：https://arxiv.org/pdf/2506.20331.pdf\n\n标题：2025 [2506.20331] Biomed-Enriched：通过LLMs进行预训练和提取稀有与隐藏内容的生物医学数据集.pdf",
+        "地址": "https://arxiv.org/pdf/2506.20331.pdf"
+    },
+    {
+        "名称": "2025 [2506.20920] FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language.pdf",
+        "作者": "Guilherme Penedo, Hynek Kydlíček, Vinko Sabolčec, Bettina Messmer, Negar Foroutan, Amir Hossein Kargaran, Colin Raffel, Martin Jaggi, Leandro Von Werra, Thomas Wolf",
+        "摘要": "摘要: 预训练最先进的大型语言模型(LLMs)需要大量干净且多样化的文本数据。尽管近年来高质量英语预训练数据集的开放开发取得了显著进展，训练高性能的多语言LLMs仍然是一个挑战，主要因为难以针对大量语言定制过滤和去重管道。在这项工作中，我们介绍了一种基于FineWeb的新预训练数据集策划管道，可以自动适应任何语言。我们在一组包含九种不同语言的数据集上对管道设计选择进行了广泛的消融实验，并通过一种基于可衡量标准的新选择过程选择了一组有意义和信息丰富的评估任务来指导。最终，我们证明了我们的管道可用于创建非英语语料库，并产生比之前数据集更高效的模型。此外，我们介绍了一种简单而有原则的方法，重新平衡数据集，既考虑重复计数，又考虑质量，从而提供了额外的性能提升。最后，我们使用近100个Common Crawl快照将我们的管道扩展到超过1000种语言，生成了新的FineWeb2，一个20TB（50亿文档）的多语言数据集，并发布了我们的管道、训练和评估代码库。",
+        "地址": "https://arxiv.org/pdf/2506.20920.pdf"
+    },
+    {
+        "名称": "2025 [2506.19502] MATE: LLM-Powered Multi-Agent Translation Environment for Accessibility Applications.pdf",
+        "作者": "Aleksandr Algazinov, Matt Laing, Paul Laban",
+        "摘要": "摘要：在当今社会，包容性依然是一个关键问题，因为许多技术并未完全支持用户的各种需求。现有的多代理系统（MAS）由于封闭源设计而缺乏定制，常常无法为有需要的用户提供全面的帮助。因此，残障人士在尝试与数字环境互动时经常遇到重大障碍。我们介绍了MATE，一个多模态可用性MAS，可根据用户的需求进行模态转换。该系统旨在帮助残障人士确保数据能够转换为可理解的格式。例如，如果用户视力不佳并接收到图像，系统会将图像转换为音频描述。MATE可以应用于广泛的领域、行业和区域，如医疗保健，并能成为各类用户群体的有用助手。系统支持多种模型，从LLM API调用到使用定制机器学习（ML）分类器。这种灵活性确保系统能够适应各种需求，并与多种硬件兼容。由于系统预计在本地运行，它确保了敏感信息的隐私和安全。此外，该框架可以有效地与机构技术（例如，数字医疗服务）集成以提供实时用户帮助。此外，我们介绍了ModCon-Task-Identifier模型，它能够从用户输入中准确提取模态转换任务。许多实验表明，ModCon-Task-Identifier在我们的定制数据上始终优于其他LLM和统计模型。我们的代码和数据可以在这个https URL公开获取。",
+        "地址": "https://arxiv.org/pdf/2506.19502.pdf"
+    },
+    {
+        "名称": "2025 [2506.18403] The Debugging Decay Index: Rethinking Debugging Strategies for Code LLMs.pdf",
+        "作者": "Muntasir Adnan, Carlos C. N. Kuhn",
+        "摘要": "摘要：AI调试的有效性遵循可预测的指数衰减模式；尽管迭代调试是实际代码生成系统的关键能力，大多数模型在仅仅进行2-3次尝试后失去60-80%的调试能力。我们引入了调试衰减指数（DDI），这是一个数学框架，用于量化调试何时变得无效并预测干预点。我们提出的策略性重新开始方法在调试过程中从开发转向探索，展示了及时干预可以拯救调试的有效性。DDI揭示了当前AI调试中的一个根本性限制，并提供了优化迭代代码生成策略的第一个量化框架。\n\n作者：Muntasir Adnan, Carlos C. N. Kuhn\n\n链接：https://arxiv.org/pdf/2506.18403.pdf\n\n标题：“调试衰减指数：重新思考代码LLM的调试策略”",
+        "地址": "https://arxiv.org/pdf/2506.18403.pdf"
+    },
+    {
+        "名称": "2025 [2506.19143] Thought Anchors: Which LLM Reasoning Steps Matter?.pdf",
+        "作者": "Paul C. Bogdan, Uzay Macar, Neel Nanda, Arthur Conmy",
+        "摘要": "摘要：最近，推理大型语言模型在许多领域取得了最先进的性能。然而，它们的长形式思维链推理带来了可解释性挑战，因为每个生成的标记依赖于所有先前的标记，使得计算更难以分解。我们认为，在句子级别分析推理轨迹是理解推理过程的一种有前途的方法。我们提出了三种互补的归因方法：（1）一种黑箱方法，通过比较模型生成该句子或具有不同含义的句子时的100次轮次最终答案，来衡量每个句子的反事实重要性；（2）一种白箱方法，通过聚合句子对之间的注意模式，识别通过“接收者”注意头接收来自所有未来句子不成比例注意的“广播”句子；（3）一种因果归因方法，通过抑制对一个句子的注意力并测量对每个未来句子标记的影响来衡量句子之间的逻辑联系。每种方法都提供了思维锚存在的证据，这是具有超出重要性并不成比例地影响后续推理过程的推理步骤。这些思维锚通常是计划或回溯句子。我们提供了一个开源工具（此http URL）来可视化我们方法的输出，并展示了一项个案研究，显示了跨方法的一致性模式，这些模式描绘了模型如何执行多步推理。方法之间的一致性证明了句子级别分析在深入理解推理模型方面的潜力。\n\n来源: https://arxiv.org/pdf/2506.19143.pdf",
+        "地址": "https://arxiv.org/pdf/2506.19143.pdf"
+    },
+    {
+        "名称": "2025 [2506.18899] FilMaster: Bridging Cinematic Principles and Generative AI for Automated Film Generation.pdf",
+        "作者": "Kaiyi Huang, Yukun Huang, Xintao Wang, Zinan Lin, Xuefei Ning, Pengfei Wan, Di Zhang, Yu Wang, Xihui Liu",
+        "摘要": "摘要：AI驱动的内容创作在电影制作中展现了潜力。然而，现有的电影生成系统难以实施电影的原则，因此无法生成专业质量的电影，特别是缺乏多样化的摄影语言和电影节奏。这导致视觉模板化和叙事缺乏吸引力。为了解决这些问题，我们介绍了FilMaster，一个集成真实世界电影原理的端到端AI系统，用于生成专业级电影，提供可编辑的、符合行业标准的输出。FilMaster基于两个关键原则构建：(1) 从大量真实世界电影数据中学习电影摄影；(2) 模仿面向观众的专业后期制作工作流程。受这些原则的启发，FilMaster包括两个阶段：参考引导生成阶段将用户输入转化为视频片段，生成后期制作阶段通过协调视觉和听觉元素将原始素材转化为视听输出，形成电影节奏。我们的生成阶段强调多镜头协同RAG摄像语言设计模块，通过从44万个电影片段的大量语料库中检索参考片段，引导AI生成专业摄像语言。我们的后期制作阶段通过设计面向观众的电影节奏控制模块，包括粗剪和精剪过程，模拟观众反馈信息，有效整合视听元素以实现引人入胜的内容。该系统由生成性AI模型（如(M)LLMs和视频生成模型）提供支持。此外，我们引入了FilmEval，一个用于评估AI生成电影的综合基准。大量实验表明，FilMaster在摄像语言设计和电影节奏控制方面表现优越，推动了生成性AI在专业电影制作中的发展。",
+        "地址": "https://arxiv.org/pdf/2506.18899.pdf"
+    }
+]
