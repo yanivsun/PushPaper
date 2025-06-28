@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2506.20670] MMSearch-R1: Incentivizing LMMs to Search.pdf",
+        "作者": "Jinming Wu, Zihao Deng, Wei Li, Yiding Liu, Bo You, Bo Li, Zejun Ma, Ziwei Liu",
+        "摘要": "摘要：在现实世界场景中，强健部署大型多模态模型（LMMs）需要访问外部知识来源，因为现实世界的信息具有复杂性和动态特征。现有的方法如检索增强生成（RAG）和提示工程搜索代理依赖于固定的流程，通常导致搜索行为低效或过度。我们提出了MMSearch-R1，这是第一个端到端的强化学习框架，使LMMs能够在真实的互联网环境中执行按需的多轮搜索。我们的框架整合了图像和文本搜索工具，并允许模型根据基于结果的奖励和搜索惩罚来推理何时以及如何调用它们。为支持训练，我们通过半自动化流程收集了一个多模态搜索VQA数据集，涵盖了多样的视觉和文本知识需求，并策划了一个平衡的搜索子集，其中包括需要搜索和不需要搜索的样本，这对于塑造高效的按需搜索行为至关重要。在涉及知识密集和信息寻求的VQA任务上的广泛实验表明，我们的模型不仅在相同模型大小上优于基于RAG的基线，还在减少搜索调用次数超过30%的情况下，匹配了更大型的基于RAG的模型的表现。我们进一步分析了关键的实证结果，提供了推动多模态搜索研究的可操作性见解。\n\n作者：Jinming Wu, Zihao Deng, Wei Li, Yiding Liu, Bo You, Bo Li, Zejun Ma, Ziwei Liu\n\n注释：代码参见此URL\n\n链接：https://arxiv.org/pdf/2506.20670.pdf",
+        "地址": "https://arxiv.org/pdf/2506.20670.pdf"
+    },
+    {
+        "名称": "2025 [2506.21520] MADrive: Memory-Augmented Driving Scene Modeling.pdf",
+        "作者": "Polina Karpikova, Daniil Selikhanovych, Kirill Struminsky, Ruslan Musaev, Maria Golitsyna, Dmitry Baranchuk",
+        "摘要": "摘要：最近在场景重建方面的进展推动了使用3D高斯分布模型对自动驾驶（AD）环境进行高度真实的建模。然而，生成的重建仍然与原始观察结果紧密相关，难以支持显著改变或新颖驾驶场景的照片级真实合成。本研究引入了MADrive，这是一种记忆增强的重建框架，旨在通过从大型外部记忆库中检索视觉得相似的3D资产并替换观察到的车辆来扩展现有场景重建方法的能力。具体地，我们发布了MAD-Cars，这是一个精心制作的数据集，包含约70,000个360°的野外拍摄汽车视频，并展示了一个检索模块，该模块在记忆库中找到最相似的汽车实例，从视频中重建相应的3D资产，并通过方向对齐和重新照明将它们集成到目标场景中。结果替换提供了车辆在场景中的完整多视图表示，如我们实验所示，实现了显著改变配置的照片级真实合成。项目页面：这 https URL",
+        "地址": "https://arxiv.org/pdf/2506.21520.pdf"
+    },
+    {
+        "名称": "2025 [2506.21506] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge.pdf",
+        "作者": "Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su",
+        "摘要": "摘要：代理搜索，例如深度研究系统，利用大型语言模型自主浏览网页，综合信息，并返回全面的引用支持答案，代表了用户与大规模信息交互方式的重大变革。虽然这种方式承诺了更高的效率和认知卸载，但代理搜索的日益复杂性和开放性的特点超过了现有的评估基准和方法，这些方法主要假设较短的搜索范围和静态答案。本文中，我们介绍了Mind2Web 2，这是一个包含130个真实、高质量、长时间任务的基准，任务需要实时网页浏览和广泛的信息综合，构建过程耗费了超过1000小时的人力劳动。为了解决评估时间变化和复杂答案的挑战，我们提出了一种新颖的“代理作为裁判”框架。我们的方法基于树状结构的评分标准来自动评估答案的正确性和来源归属。我们对九个前沿代理搜索系统和人类表现进行了全面评估，并进行了详细的错误分析，以为未来发展提供见解。表现最佳的系统是OpenAI深度研究，它能在花费一半时间的情况下达到人类表现的50-70%，显示出巨大潜力。总而言之，Mind2Web 2为开发和评估下一代代理搜索系统提供了坚实的基础。",
+        "地址": "https://arxiv.org/pdf/2506.21506.pdf"
+    },
+    {
+        "名称": "2025 [2506.20911] FaSTA$^*$: Fast-Slow Toolpath Agent with Subroutine Mining for Efficient Multi-turn Image Editing.pdf",
+        "作者": "Advait Gupta, Rishie Raj, Dang Nguyen, Tianyi Zhou",
+        "摘要": "摘要：我们开发了一种高效的神经符号代理，用于处理复杂的多轮图像编辑任务，例如“检测图像中的长椅并将其重新着色为粉红色。同时，移除猫以获得更清晰的视野，并将墙壁重新着色为黄色。”该代理结合了大型语言模型 (LLMs) 的快速高级子任务规划，以及每个子任务的准确工具使用和局部 A$^*$ 搜索，以找到成本效益的工具路径——即 AI 工具的调用序列。为了节省在类似子任务上进行 A$^*$ 的成本，我们通过 LLMs 对之前成功的工具路径进行归纳推理，不断提取/优化常用子程序，并将其作为新工具在自适应的快慢规划中复用，其中首先探索高级子程序，只有在失败时才激活低级别的 A$^*$ 搜索。这些可重用的符号子程序大大节省了在应用于类似图像类似类型子任务上的探索成本，从而产生了类似人类的快慢工具路径代理“FaSTA$^*$”：首先由 LLMs 尝试快速子任务规划随后进行基于规则的子程序选择，预计涵盖大多数任务，而慢速 A$^*$ 搜索仅在新颖且具有挑战性的子任务中被触发。通过与最近的图像编辑方法进行比较，我们证明 FaSTA$^*$ 在计算效率上明显更高，同时在成功率方面保持了与最新基线的竞争力。",
+        "地址": "https://arxiv.org/pdf/2506.20911.pdf"
+    },
+    {
+        "名称": "2025 [2506.21539] WorldVLA: Towards Autoregressive Action World Model.pdf",
+        "作者": "Jun Cen, Chaohui Yu, Hangjie Yuan, Yuming Jiang, Siteng Huang, Jiayan Guo, Xin Li, Yibing Song, Hao Luo, Fan Wang, Deli Zhao, Hao Chen",
+        "摘要": "摘要: 我们介绍了WorldVLA，一个将动作和图像理解与生成统一起来的自回归动作世界模型。WorldVLA在一个框架内整合了视觉-语言-动作（VLA）模型和世界模型。世界模型通过利用动作和图像理解来预测未来的图像，目的是学习环境的基本物理特性从而改进动作生成。同时，动作模型基于图像观测生成后续动作，辅助视觉理解，进而帮助世界模型的视觉生成。我们证明了WorldVLA优于独立动作和世界模型，突出显示了世界模型和动作模型之间的相互增强。此外，我们发现当以自回归方式生成动作序列时，动作模型的表现会恶化。这一现象可以归因于模型在动作预测方面的泛化能力有限，导致早期动作错误传播至后续动作。为了解决这个问题，我们提出了一种注意力掩码策略，在生成当前动作时有选择地掩盖先前动作，这在动作块生成任务中表现出显著的性能改进。\n\n作者: Jun Cen, Chaohui Yu, Hangjie Yuan, Yuming Jiang, Siteng Huang, Jiayan Guo, Xin Li, Yibing Song, Hao Luo, Fan Wang, Deli Zhao, Hao Chen\n\n注释: 代码: https://arxiv.org/pdf/2506.21539.pdf",
+        "地址": "https://arxiv.org/pdf/2506.21539.pdf"
+    },
+    {
+        "名称": "2025 [2506.21551] Where to find Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test.pdf",
+        "作者": "Ziyue Li, Chenrui Fan, Tianyi Zhou",
+        "摘要": "2025年 [2506.21551] 在大型语言模型预训练中哪里可以找到 Grokking？无需测试即可监测从记忆到泛化的转变. \n\n摘要:\nGrokking，即在训练损失收敛后测试性能仍不断提高，最近在神经网络训练中被发现，这使得模型的泛化机制和其他新兴能力（如推理）变得神秘。尽管之前的研究通常在少数几个玩具或高度特定的任务上训练小模型数千个周期，但我们首次在一次性预训练的一个7B大型语言模型（LLM），即OLMoE的检查点上开展了Grokking研究。我们计算了训练损失，并评估了在多种基准任务上的泛化能力，包括数学推理、代码生成和常识/特定领域知识检索任务。\n\n我们的研究首次验证了在大型基础模型的预训练中Grokking仍然发生，尽管不同数据可能异步进入Grokking阶段。我们进一步通过调查LLM的内部动态揭示了Grokking的“泛化的出现”。具体而言，我们发现训练样本的路径（即跨层的专家选择）从随机、实例特定演变为在样本之间更有结构且可共享。在Grokking过程中，尽管损失已收敛，但样本路径的复杂性减少。这些现象表明了从记忆到泛化的转换，为延迟泛化提供了一种机制解释。在本研究中，我们开发了两种新的指标来量化路径距离和单一路径的复杂性。我们展示了这些指标预测不同下游任务泛化改进的能力。它们高效、易于计算且仅依赖于训练数据。因此，这些指标在预训练中具有实际价值，使我们能够在无需微调和测试的情况下监测泛化性能。从理论上讲，我们展示了更有结构的路径降低了模型复杂性并改善了泛化界限。",
+        "地址": "https://arxiv.org/pdf/2506.21551.pdf"
+    },
+    {
+        "名称": "2025 [2506.21547] SAM4D: Segment Anything in Camera and LiDAR Streams.pdf",
+        "作者": "Jianyun Xu, Song Wang, Ziqian Ni, Chunyong Hu, Sheng Yang, Jianke Zhu, Qiang Li",
+        "摘要": "摘要: 我们提出了 SAM4D，这是一种多模态和时间基础模型，旨在实现在相机和 LiDAR 流中的可提示分割。引入了统一多模态位置编码（UMPE），在共享的 3D 空间中对齐相机和 LiDAR 特征，从而实现无缝的跨模态提示和交互。另外，我们提出了运动感知的跨模态记忆注意机制（MCMA），通过利用自我运动补偿来增强时间一致性和长时间特征检索，确保在动态变化的自动驾驶场景中的鲁棒分割。为避免标注瓶颈，我们开发了一种多模态自动数据引擎，该引擎结合了基于 VFM 的视频掩模、小物体的时空 4D 重建和跨模式掩模融合。该框架生成与相机-LiDAR 对齐的伪标签，其速度比人工标注快数个数量级，同时在点云表示中保留了由 VFM 派生的语义保真度。我们在构建的 Waymo-4DSeg 数据集上进行了广泛的实验，结果表明了 SAM4D 所提方法强大的跨模态分割能力和数据注释的巨大潜力。",
+        "地址": "https://arxiv.org/pdf/2506.21547.pdf"
+    },
+    {
+        "名称": "2025 [2506.16655] Arch-Router: Aligning LLM Routing with Human Preferences.pdf",
+        "作者": "Co Tran, Salman Paracha, Adil Hafeez, Shuguang Chen",
+        "摘要": "摘要: 随着大型语言模型 (LLM) 的快速普及——每个模型都针对不同的优势、风格或延迟/成本配置进行了优化——路由已成为实现不同模型使用的必要技术。然而，现有的 LLM 路由方法在两个关键方面存在局限：它们使用的基准评估往往无法捕捉由主观评估标准驱动的人类偏好，并且通常只能从有限的模型池中选择。在这项工作中，我们提出了一个偏好对齐路由框架，通过将查询与用户定义的领域（例如旅游）或操作类型（例如图像编辑）匹配来指导模型选择——提供了一种在路由决策中编码偏好的实用机制。具体来说，我们引入了 \\textbf{Arch-Router}，一个紧凑的 15 亿参数模型，学习将查询映射到领域-操作偏好以进行模型路由决策。我们的方法还支持无缝添加新模型进行路由，而无需重新训练或进行架构修改。对会话数据集的实验表明，我们的方法在将查询与人类偏好匹配方面实现了最先进的结果，优于顶级专有模型。我们的方法捕捉了主观评估标准，使路由决策更加透明和灵活。我们的模型可以在以下网址获取: \\texttt{this https URL}.\n",
+        "地址": "https://arxiv.org/pdf/2506.16655.pdf"
+    },
+    {
+        "名称": "2025 [2506.21552] Whole-Body Conditioned Egocentric Video Prediction.pdf",
+        "作者": "Yutong Bai, Danny Tran, Amir Bar, Yann LeCun, Trevor Darrell, Jitendra Malik",
+        "摘要": "摘要：我们通过给定过去的视频和由相对3D身体姿态表示的动作，训练模型预测自我中心视频（PEVA）。通过基于由身体关节层次结构组织的运动姿态轨迹进行条件处理，我们的模型学习如何从第一人称视角模拟物理人类动作如何形塑环境。我们在Nymeria，一个大规模现实世界自我中心视频和身体姿态捕获数据集上训练了一个自回归条件扩散变压器。我们进一步设计了一个分层评估协议，通过包含越来越具挑战性的任务来实现对模型的具体预测和控制能力的全面分析。我们的工作代表了从人类视角进行视频预测来解决复杂现实世界环境和具体代理行为建模挑战的初步尝试。",
+        "地址": "https://arxiv.org/pdf/2506.21552.pdf"
+    },
+    {
+        "名称": "2025 [2506.20430] An Agentic System for Rare Disease Diagnosis with Traceable Reasoning.pdf",
+        "作者": "Weike Zhao, Chaoyi Wu, Yanjie Fan, Xiaoman Zhang, Pengcheng Qiu, Yuze Sun, Xiao Zhou, Yanfeng Wang, Ya Zhang, Yongguo Yu, Kun Sun, Weidi Xie",
+        "摘要": "摘要：罕见疾病共同影响全球超过3亿人，但及时、准确的诊断仍然是一个普遍的挑战。这主要是由于其临床异质性、低个体患病率以及大多数临床医生对罕见疾病的有限熟悉程度。在这里，我们介绍了DeepRare，这是第一个由大语言模型（LLM）驱动的罕见疾病诊断代理系统，能够处理异构的临床输入。该系统生成罕见疾病的排序诊断假设，每个假设都伴随着一个透明的链条推理，将中间分析步骤与可验证的医学证据联系起来。DeepRare包括三个关键组件：一个带有长期记忆模块的中央主机；负责特定领域分析任务的专门代理服务器，集成了超过40种专门工具和网络规模的最新医学知识来源，确保获取最先进的临床信息。这种模块化和可扩展的设计能够进行复杂的诊断推理，同时保持可追溯性和适应性。我们在八个数据集上评估了DeepRare。该系统在2919种疾病中表现出卓越的诊断性能，达到1013种疾病的100％准确率。在基于HPO的评估中，DeepRare显著优于其他15种方法，如传统的生物信息学诊断工具、LLMs和其他代理系统，平均Recall@1得分为57.18％，大幅超过第二佳方法（Reasoning LLM）23.79个百分点。在多模式输入场景中，DeepRare在109例中达到70.60％的Recall@1，而Exomiser为53.20％。临床专家对推理链的手动验证达到了95.40％的认可度。此外，DeepRare系统已实现为用户友好的网页应用程序。",
+        "地址": "https://arxiv.org/pdf/2506.20430.pdf"
+    },
+    {
+        "名称": "2025 [2506.20936] PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling.pdf",
+        "作者": "Hao Zhang, Haolan Xu, Chun Feng, Varun Jampani, Narendra Ahuja",
+        "摘要": "摘要（中文翻译）：\n\n皮肤绑定和骨骼绑定是动画、关节物体重建、运动迁移和四维生成中的基本组成部分。现有方法主要依赖于线性混合皮肤绑定（LBS），因为其简单且可微分。然而，LBS会引入体积损失和不自然的变形等伪影，并且无法模拟弹性材料（如软组织、毛发和柔性附属物，如象鼻、耳朵和脂肪组织）。在这项工作中，我们提出了PhysRig：一种可微分的基于物理的皮肤绑定和骨骼绑定框架，通过将刚性骨骼嵌入到体积表示（例如四面体网格）中，由动画骨骼驱动的可变形软体结构来克服这些限制。我们的方法利用连续介质力学，并将对象离散化为嵌入在欧拉背景网格中的粒子，以确保对材料属性和骨骼运动的可微性。此外，我们引入了材料原型，显著减少了学习空间，同时保持了高度表达性。为了评估我们的框架，我们使用来自Objaverse、The Amazing Animals Zoo和MixaMo的网格，构建了一个涵盖多种对象类别和运动模式的综合性合成数据集。我们的方法始终优于传统的基于LBS的方法，生成更真实且物理上更合理的结果。此外，我们展示了我们的框架在姿势迁移任务中的适用性，强调了其对于关节物体建模的多功能性。\n\n作者：Hao Zhang, Haolan Xu, Chun Feng, Varun Jampani, Narendra Ahuja\n\n备注：已被ICCV 2025接受\n\nURL：https://arxiv.org/pdf/2506.20936.pdf\n\n标题：2025 [2506.20936] PhysRig: 基于物理的可微分皮肤绑定和骨骼绑定框架，用于真实的关节物体建模.pdf",
+        "地址": "https://arxiv.org/pdf/2506.20936.pdf"
+    },
+    {
+        "名称": "2025 [2506.21272] FairyGen: Storied Cartoon Video from a Single Child-Drawn Character.pdf",
+        "作者": "Jiayi Zheng, Xiaodong Cun",
+        "摘要": "摘要: 我们提出了FairyGen，这是一种能够从单个儿童画生成故事驱动卡通视频的自动系统，同时忠实地保留其独特的艺术风格。与以前主要关注角色一致性和基本运动的叙事方法不同，FairyGen明确地将角色建模与风格化背景生成分开，并结合电影镜头设计以支持富有表现力和连贯的叙事。给定一个单一角色的草图，我们首先使用MLLM生成一个具有镜头级描述的结构化故事板，这些描述指定了环境设置、角色动作和相机视角。为了确保视觉一致性，我们引入了一种风格传播适配器，该适配器捕捉角色的视觉风格并将其应用于背景，忠实地保留角色的完整视觉身份，同时合成风格一致的场景。一个镜头设计模块进一步通过基于故事板的框架裁剪和多视图合成来增强视觉多样性和电影质量。为了动画故事，我们重建了角色的3D代理，以导出物理上合理的运动序列，然后使用这些序列微调基于MMDiT的图像到视频扩散模型。我们进一步提出了一个两阶段运动定制适配器：第一阶段从时间上无序的帧中学习外观特征，分离身份和运动；第二阶段使用冻结身份权重的时间步移策略来建模时间动态。一旦训练完成，FairyGen可以直接渲染与故事板一致的多样且连贯的视频场景。大量实验证明，我们的系统生成的动画在风格上忠实、叙事结构上自然，突出了其个性化和引人入胜的故事动画潜力。代码将在此https URL上公开。",
+        "地址": "https://arxiv.org/pdf/2506.21272.pdf"
+    },
+    {
+        "名称": "2025 [2506.21103] Learning to Skip the Middle Layers of Transformers.pdf",
+        "作者": "Tim Lawson, Laurence Aitchison",
+        "摘要": "摘要: 条件计算是一种使Transformers更高效的流行策略。现有方法通常针对单个模块（例如，多专家层）或独立地跳过层。然而，解释研究表明，Transformers的中间层表现出更大的冗余，且早期层将信息聚合到标记位置。基于这些见解，我们提出了一种新的架构，该架构从中间向外动态跳过可变数量的层。特别地，一种学习到的门控机制根据输入决定是否绕过一对称的中央块范围，并且门控注意机制防止后续的标记关注被跳过的标记位置。残差范数通过“夹心”或“层间范数”方案进行控制，门控稀疏性通过自适应正则化损失进行控制。我们的目标是减小“较简单”标记的计算需求，并可能促进多级表示层次结构的出现，但在研究的规模下，我们的方法在验证交叉熵和估计的FLOPs之间的权衡中，相较于具有较少层的密集基准没有实现改进。我们在此发布我们的代码：https://arxiv.org/pdf/2506.21103.pdf。",
+        "地址": "https://arxiv.org/pdf/2506.21103.pdf"
+    },
+    {
+        "名称": "2025 [2506.21263] DiLoCoX: A Low-Communication Large-Scale Training Framework for Decentralized Cluster.pdf",
+        "作者": "Ji Qi, WenPeng Zhu, Li Li, Ming Wu, YingJun Wu, Wu He, Xun Gao, Jason Zeng, Michael Heinrich",
+        "摘要": "摘要：基础模型特别是大型语言模型（LLMs）的分布式训练需要大量通信。因此，这些模型的训练高度依赖于具有快速且可靠互连的集中式集群。那么，我们能否在慢速网络上进行训练，从而在处理超越1000亿参数的模型时释放去中心化集群的力量？本文中，我们提出了DiLoCoX，一种低通信的大规模去中心化集群训练框架。它结合了流水线并行、双优化器策略、通信与本地训练的一步延迟重叠以及自适应梯度压缩方案。这种组合显著提高了参数规模与模型预训练速度。我们通过对收敛性的理论分析证明了一步延迟重叠通信与本地训练的益处，以及自适应梯度压缩方案的优势。实证上， 我们展示了DiLoCoX能够在1Gbps网络上预训练一个107B基础模型。相比于原生的AllReduce， DiLoCoX在分布式训练中可以实现357倍的速度提升，同时保持模型收敛性损耗可以忽略不计。据我们所知，这是第一个成功应用于超过1000亿参数模型的去中心化训练框架。",
+        "地址": "https://arxiv.org/pdf/2506.21263.pdf"
+    },
+    {
+        "名称": "2025 [2506.20703] Generative Blocks World: Moving Things Around in Pictures.pdf",
+        "作者": "Vaibhav Vavilala, Seemandhar Jain, Rahul Vasanth, D.A. Forsyth, Anand Bhattad",
+        "摘要": "摘要：我们描述了生成块世界（Generative Blocks World），该方法通过操控简单的几何抽象在生成图像的场景中进行交互。我们的方法将场景表示为凸3D原语的组合，同一个场景可以用不同数量的原语表示，从而允许编辑器移动整个结构或细小的细节。一旦场景几何被编辑，图像将通过基于流的方法生成，该方法以深度和纹理提示为条件。我们的纹理提示考虑了修改后的3D原语，超越了现有键值缓存技术提供的纹理一致性。这些纹理提示(a)允许精确的对象和相机移动，并且(b)在很大程度上保留了所描绘对象的身份。定量和定性实验表明，我们的方法在视觉保真度、可编辑性和组合泛化方面优于以往的工作。",
+        "地址": "https://arxiv.org/pdf/2506.20703.pdf"
+    },
+    {
+        "名称": "2025 [2506.18729] MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners.pdf",
+        "作者": "Fang-Duo Tsai, Shih-Lun Wu, Weijaw Lee, Sheng-Ping Yang, Bo-Rui Chen, Hao-Chung Cheng, Yi-Hsuan Yang",
+        "摘要": "摘要：我们提出了MuseControlLite，这是一种轻量级机制，旨在通过多种时变音乐属性和参考音频信号，对文本到音乐生成模型进行精确调优。关键发现是，在文本条件调控器中很少使用的位置嵌入，对于当关注条件是时间函数时至关重要。以旋律控制为例，我们的实验表明，只需将旋转位置嵌入添加到解耦的交叉注意层中，就可以将控制精度从56.6%提高到61.1%，同时所需的可训练参数比最先进的微调机制少6.75倍，使用相同的Stable Audio Open的预训练扩散Transformer模型。我们评估了各种形式的音乐属性控制、音频修补和音频扩展，展示出相比MusicGen-Large和Stable Audio Open ControlNet在显著更低的微调成本下，只有8500万个可训练参数的情况下，可控性得到了改善。源代码、模型检查点和演示示例可在此网址获取。\n\n评论：被第42届国际机器学习会议（ICML 2025）接受。\n\n作者：Fang-Duo Tsai, Shih-Lun Wu, Weijaw Lee, Sheng-Ping Yang, Bo-Rui Chen, Hao-Chung Cheng, Yi-Hsuan Yang\n\n网址：https://arxiv.org/pdf/2506.18729.pdf\n\n标题：2025 [2506.18729] MuseControlLite: 轻量级条件器的多功能音乐生成",
+        "地址": "https://arxiv.org/pdf/2506.18729.pdf"
+    },
+    {
+        "名称": "2025 [2506.17533] DuaShepherd: Integrating Stepwise Correctness and Potential Rewards for Mathematical Reasoning.pdf",
+        "作者": "Yuanhao Wu, Juntong Song, Hanning Zhang, Tong Zhang, Cheng Niu",
+        "摘要": "摘要：在本文中，我们提出了DuaShepherd，这是一种新的奖励建模框架，它结合了两种互补的奖励信号：正确性和潜力，以增强大型语言模型（LLMs）的数学推理能力。虽然基于正确性的信号强调识别逐步错误，基于潜力的信号则关注达到正确最终答案的可能性。我们开发了一个自动化管道来构建包含这两种信号的大规模奖励建模数据集。我们探索了一个统一的多头结构，在多任务设置中训练两个奖励模型，证明并行学习正确性和潜力的好处。通过将这两种信号结合成复合概率，我们的模型在多个基准测试中实现了持续的性能改进。对MATH500和ProcessBench的实证评估证实，这种组合奖励显著优于仅在单一奖励类型上训练的模型，在可比资源约束下实现了最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2506.17533.pdf"
+    },
+    {
+        "名称": "2025 [2506.15196] HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges.pdf",
+        "作者": "Xianliang Yang, Ling Zhang, Haolong Qian, Lei Song, Jiang Bian",
+        "摘要": "摘要：启发式算法在解决组合优化（CO）问题中发挥着重要作用，然而传统设计过于依赖人工专业知识，难以在不同实例间进行泛化。我们提出了一种两阶段超启发式框架 \\textbf{HeurAgenix}，其通过大型语言模型（LLMs）首先进化启发式方法，然后自动选择其中最优者。在启发式进化阶段，HeurAgenix利用LLM比较初始启发式方案与高质量方案，并提取可重复使用的进化策略。在问题求解过程中，它通过LLM的感知能力动态选择每个问题状态最有前途的启发式方法。为实现灵活性，该选择器可以是最新的LLM或是具有较低推理成本的微调轻量级模型。为缓解CO复杂性导致的可靠监督稀缺问题，我们通过双重奖励机制微调轻量级启发式选择器，该机制共同利用选择偏好和状态感知信号，从而在存在噪声注释的情况下实现稳健选择。在经典基准上的广泛实验表明，HeurAgenix不仅优于现有的基于LLM的超启发式方法，还能匹敌或超过专门的解算器。代码可在此链接获取：https://arxiv.org/pdf/2506.15196.pdf。\n\n作者：杨先亮，张玲，钱浩龙，宋磊，边疆\n\n备注：27页，9个图\n\n标题：2025 [2506.15196] HeurAgenix: 利用LLMs解决复杂组合优化挑战.pdf",
+        "地址": "https://arxiv.org/pdf/2506.15196.pdf"
+    }
+]
