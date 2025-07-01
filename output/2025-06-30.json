@@ -1,0 +1,152 @@
+[
+    {
+        "名称": "2025 [2506.17450] BlenderFusion: 3D-Grounded Visual Editing and Generative Compositing.pdf",
+        "作者": "Jiacheng Chen, Ramin Mehran, Xuhui Jia, Saining Xie, Sanghyun Woo",
+        "摘要": "摘要：我们提出了BlenderFusion，一种生成性视觉合成框架，通过重新组合对象、摄像机和背景来合成新的场景。它遵循分层-编辑-合成的流程：（i）对视觉输入进行分割并转换成可编辑的3D实体（分层），（ii）在Blender中利用3D基础控制对其进行编辑（编辑），以及（iii）使用生成性合成器将它们融合成一个连贯的场景（合成）。我们的生成性合成器扩展了一个预训练的扩散模型以并行处理原始（源）和编辑过的（目标）场景。通过两种关键训练策略对视频帧进行微调：（i）源遮罩，允许灵活的修改，如背景替换；（ii）模拟对象抖动，促进对对象和摄像机的独立控制。BlenderFusion在复杂的综合场景编辑任务中显著优于以前的方法。\n\n作者：Jiacheng Chen, Ramin Mehran, Xuhui Jia, Saining Xie, Sanghyun Woo\n\n评论：项目页：https URL\n\n链接：https://arxiv.org/pdf/2506.17450.pdf\n\n标题：BlenderFusion: 3D基础视觉编辑和生成合成",
+        "地址": "https://arxiv.org/pdf/2506.17450.pdf"
+    },
+    {
+        "名称": "2025 [2506.21862] LLaVA-Scissor: Token Compression with Semantic Connected Components for Video LLMs.pdf",
+        "作者": "Boyuan Sun, Jiaxing Zhao, Xihan Wei, Qibin Hou",
+        "摘要": "摘要：在本文中，我们提出了LLaVA-Scissor，一种无需训练的视频多模态大型语言模型的令牌压缩策略。先前的方法大多尝试基于注意力分数压缩令牌，但未能有效捕捉所有语义区域，且常导致令牌冗余。我们采用不同的方法，利用语义连接组件（Semantic Connected Components，SCC）方法，使令牌分配到令牌集中不同的语义区域，确保全面的语义覆盖。结果是一个两步空间-时间令牌压缩策略，在空间和时间领域均使用SCC。这一策略可以通过一组不重叠的语义令牌表示整个视频，有效地压缩令牌。我们在多种视频理解基准上对LLaVA-Scissor的令牌压缩能力进行了广泛评估，包括视频问答、长视频理解和综合多选题基准。实验结果表明，所提出的LLaVA-Scissor在各类视频理解基准上性能优于其他令牌压缩方法，尤其在低令牌保留率情况下表现尤为优越。项目页面：此https URL。",
+        "地址": "https://arxiv.org/pdf/2506.21862.pdf"
+    },
+    {
+        "名称": "2025 [2506.21416] XVerse: Consistent Multi-Subject Control of Identity and Semantic Attributes via DiT Modulation.pdf",
+        "作者": "Bowen Chen, Mengyi Zhao, Haomiao Sun, Li Chen, Xu Wang, Kang Du, Xinglong Wu",
+        "摘要": "摘要：在文本到图像生成中，实现对主体身份和语义属性（姿态、风格、照明等）的细粒度控制，特别是针对多个主体控制，往往会削弱Diffusion Transformers（DiTs）的可编辑性和一致性。许多方法会引入伪影或遭受属性纠缠问题。为克服这些挑战，我们提出了一种新型的多主体控制生成模型XVerse。通过将参考图像转化为令牌特定文本流调制的偏移，XVerse允许对特定主体进行精确且独立的控制，而不破坏图像潜在变量或特征。因此，XVerse提供了高保真、可编辑的多主体图像合成，并能稳健地控制单个主体特性和语义属性。这一进步显著提升了个性化和复杂场景生成能力。",
+        "地址": "https://arxiv.org/pdf/2506.21416.pdf"
+    },
+    {
+        "名称": "2025 [2506.21356] ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models.pdf",
+        "作者": "Hongbo Liu, Jingwen He, Yi Jin, Dian Zheng, Yuhao Dong, Fan Zhang, Ziqi Huang, Yinan He, Yangguang Li, Weichao Chen, Yu Qiao, Wanli Ouyang, Shengjie Zhao, Ziwei Liu",
+        "摘要": "2025年 [2506.21356] ShotBench: 专家级视觉语言模型的电影理解.pdf\n\n摘要：电影摄影作为电影的基本视觉语言，对于传达叙事、情感和美学质量至关重要。虽然近期的视觉语言模型（VLMs）展示出强大的通用视觉理解能力，但它们在理解单个镜头中包含的细腻电影语法方面的能力尚未得到充分探索，也缺乏稳健的评估。这一关键差距限制了精细的视觉理解以及AI辅助视频生成的精确度。为了解决这一问题，我们引入了ShotBench，一个专门为电影语言理解设计的综合基准。它包含了来自超过200部著名（主要是奥斯卡提名）电影中精心策划的3.5k多对专家标注的问答对，涵盖了电影摄影的八个关键维度。我们对24个领先的视觉语言模型在ShotBench上的评估显示了它们的显著局限性：即使表现最好的模型平均准确率还不到60%，特别是在处理精细视觉线索和复杂空间推理方面。为了推动该领域的进步，我们构建了ShotQA，一个由约70k对电影问答组成的大规模多模态数据集。利用ShotQA，我们通过监督微调和组相对策略优化发展了ShotVL。ShotVL在ShotBench上显著优于所有现有的开源和专有模型，建立了新的最先进的性能水平。我们开源了我们的模型、数据和代码，以促进AI驱动的电影理解和生成领域的快速进步。",
+        "地址": "https://arxiv.org/pdf/2506.21356.pdf"
+    },
+    {
+        "名称": "2025 [2506.20279] From Ideal to Real: Unified and Data-Efficient Dense Prediction for Real-World Scenarios.pdf",
+        "作者": "Changliang Xia, Chengyou Jia, Zhuohang Dang, Minnan Luo",
+        "摘要": "摘要: 密集预测任务在计算机视觉中具有重要意义，旨在为输入图像学习逐像素的注释标签。尽管这一领域已取得进展，但现有方法主要集中于理想化条件，对现实场景的泛化能力有限，并面临现实数据稀缺的挑战。为系统地研究这一问题，我们首先介绍了DenseWorld，这是一个涵盖25个密集预测任务的基准，涉及紧迫的现实应用，具有统一的任务评估标准。然后，我们提出了DenseDiT，它充分利用生成模型的视觉先验，通过统一策略执行多种现实场景下的密集预测任务。DenseDiT结合了参数重用机制和两个轻量分支，自适应地整合多尺度上下文，用不到0.1%的额外参数进行工作。在DenseWorld的评估中，现有的一般和专用基线显示出显著的性能下降，突显了它们在现实泛化上的局限性。相反，DenseDiT在使用不到基线0.01%训练数据的情况下取得了优异的结果，强调了其在现实部署中的实际价值。我们的数据、检查点和代码可在此链接获取：https://arxiv.org/pdf/2506.20279.pdf",
+        "地址": "https://arxiv.org/pdf/2506.20279.pdf"
+    },
+    {
+        "名称": "2025 [2506.21628] Ark: An Open-source Python-based Framework for Robot Learning.pdf",
+        "作者": "Magnus Dierking, Christopher E. Mower, Sarthak Das, Huang Helong, Jiacheng Qiu, Cody Reading, Wei Chen, Huidong Liang, Huang Guowei, Jan Peters, Quan Xingyue, Jun Wang, Haitham Bou-Ammar",
+        "摘要": "摘要：尽管DARPA的城市和机器人挑战赛以及首个人形机器人踢拳锦标赛在硬件方面取得了显著进展，但商用自动化仍然落后于机器学习的发展。软件是一个主要瓶颈：当前的机器人堆栈要求陡峭的学习曲线、底层C/C++专业知识、分散的工具和复杂的硬件集成，与推动现代AI的Python为中心、文档齐全的生态系统形成鲜明对比。我们介绍了ARK，一个旨在弥合这一差距的开源Python优先机器人框架。ARK提供了一个类似Gym的环境接口，使用户能够收集数据、预处理数据并使用最新的模仿学习算法（如ACT、Diffusion Policy）训练策略，同时无缝切换高保真模拟和物理机器人。轻量级的客户-服务器架构提供网络发布-订阅通信，选择性C/C++绑定在需要时确保实时性能。ARK配备了可重用的控制、SLAM、运动规划、系统识别和可视化模块，以及原生ROS互操作性。全面的文档和案例研究（从操作到移动导航）展示了快速原型设计、轻松的硬件交换以及与主流机器学习工作流程相媲美的端到端管道。通过将机器人和AI实践统一在一个共同的Python框架下，ARK降低了入门门槛，加速了自主机器人的研究和商业部署。",
+        "地址": "https://arxiv.org/pdf/2506.21628.pdf"
+    },
+    {
+        "名称": "2025 [2505.21411] Pangu Pro MoE: Mixture of Grouped Experts for Efficient Sparsity.pdf",
+        "作者": "Yehui Tang, Xiaosong Li, Fangcheng Liu, Wei Guo, Hang Zhou, Yaoyuan Wang, Kai Han, Xianzhi Yu, Jinpeng Li, Hui Zang, Fei Mi, Xiaojun Meng, Zhicheng Liu, Hanting Chen, Binfan Zheng, Can Chen, Youliang Yan, Ruiming Tang, Peifeng Qin, Xinghao Chen, Dacheng Tao, Yunhe Wang (and Other Contributors)",
+        "摘要": "摘要：大规模语言模型中的专家混合（Mixture of Experts, MoE）的出现承诺以较低的执行成本实现更多的模型参数和更大的学习能力，因为每个输入标记仅激活一小部分参数。然而，通常观察到一些专家比其他专家更频繁地被激活，导致在并行运行专家时系统效率低下。因此，我们引入了专家分组混合（Mixture of Grouped Experts, MoGE），该方法在选择过程中对专家进行分组，并在自然上比MoE更好地平衡专家的工作负载。它限制标记在每个预定义专家组内激活相同数量的专家。当模型执行分布在多个设备上时，这种架构设计确保了设备间负载平衡，显著提高了吞吐量，尤其是在推理阶段。此外，我们在Ascend NPU上构建了基于MoGE的稀疏模型Pangu Pro MoE，该模型总参数量为720亿，其中每个标记激活160亿。通过广泛的系统模拟研究，Pangu Pro MoE的配置针对Ascend 300I Duo和800I A2进行了优化。我们的实验表明，MoGE确实导致了专家负载的更好平衡以及在Ascend NPU上更有效的模型训练和推理执行。Pangu Pro MoE的推理性能达到每卡1148个标记/秒，通过推测加速进一步提高到每卡1528个标记/秒，优于可比较的32B和72B密集模型。此外，我们在Ascend 300I Duo实现了卓越的推理成本效益比。我们的研究表明，Ascend NPU能够大规模并行训练Pangu Pro MoE，使其成为总参数少于1000亿的领先模型，优于GLM-Z1-32B和Qwen3-32B等知名开源模型。",
+        "地址": "https://arxiv.org/pdf/2505.21411.pdf"
+    },
+    {
+        "名称": "2025 [2506.21656] Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs.pdf",
+        "作者": "Yifan Shen, Yuanzhe Liu, Jingyuan Zhu, Xu Cao, Xiaofeng Zhang, Yixiao He, Wenming Ye, James Matthew Rehg, Ismini Lourentzou",
+        "摘要": "摘要: 目前的视觉-语言模型 (VLMs) 在细粒度的空间推理方面表现不佳，尤其是在需要多步逻辑和精确空间对齐的情况下。在本文中，我们介绍了 SpatialReasoner-R1，一种为解决这些限制而设计的视觉-语言推理模型。为了构建高质量的空间推理监督，我们设计了一种多模型蒙特卡洛树搜索 (M3CTS) 方法，生成多样且逻辑一致的长链式思维推理轨迹（LongCoT）。此外，我们提出了细粒度直接偏好优化 (fDPO)，其通过空间奖励机制引导，评估候选答案的视觉一致性、空间定位和逻辑连贯性，为描述性定位和逻辑推理引入段落特定的偏好细度。实验结果表明，在空间质量任务上，fDPO 比标准 DPO 提高了平均 4.1%，在空间数量任务上提高了 9.0%。使用 fDPO 训练的 SpatialReasoner-R1 在 SPATIALRGPT-Bench 上创下了新的性能记录，平均准确性比最强基准提高了 9.8%，同时在一般视觉-语言任务中保持了竞争力。",
+        "地址": "https://arxiv.org/pdf/2506.21656.pdf"
+    },
+    {
+        "名称": "2025 [2506.22434] MiCo: Multi-image Contrast for Reinforcement Visual Reasoning.pdf",
+        "作者": "Xi Chen, Mingkang Zhu, Shaoteng Liu, Xiaoyang Wu, Xiaogang Xu, Yu Liu, Xiang Bai, Hengshuang Zhao",
+        "摘要": "摘要：此项研究探讨了使思维链（Chain-of-Thought, CoT）推理成为可能，从而在多张图像之间链接视觉线索。一个直接的解决方案是为视觉语言模型（VLMs）适配基于规则的强化学习。然而，这些方法通常依赖于手工整理的问答对，在处理图像中的细致视觉细节和复杂逻辑时尤其具有挑战性。受自监督视觉表示学习的启发，我们观察到图像包含内在的约束，可作为监督。基于这一见解，我们构建了一组图片三连体，包括两张同一图像的增强视图和第三张相似但不同的图像。在训练期间，模型被提示生成一个比较图像的推理过程（即判断是否相同或不同）。然后，我们通过基于规则的强化学习来优化模型。由于高视觉相似度和增强存在，模型必须关注微小的视觉变化并进行逻辑推理才能成功。实验显示，尽管仅在视觉比较任务上进行训练，所学推理能力能够有效泛化到各种问题上。在不依赖任何人工标注的问答对的情况下，我们的方法在多图像推理基准测试上取得了显著改进，并在一般视觉任务上表现出强劲的性能。",
+        "地址": "https://arxiv.org/pdf/2506.22434.pdf"
+    },
+    {
+        "名称": "2025 [2506.22432] Shape-for-Motion: Precise and Consistent Video Editing with 3D Proxy.pdf",
+        "作者": "Yuhao Liu, Tengfei Wang, Fang Liu, Zhenwei Wang, Rynson W.H. Lau",
+        "摘要": "摘要：近期深度生成建模的进展为视频合成解锁了前所未有的机会。然而，在现实应用中，用户通常希望以准确和一致的控制来实现其创意编辑意图。尽管现有方法已经取得了一些进展，但确保细粒度的用户意图对齐仍然是一个未解决的难题。在这项工作中，我们提出了Shape-for-Motion，一个新颖的框架，它通过引入3D代理来实现精确和一致的视频编辑。Shape-for-Motion通过将输入视频中的目标对象转换为时间一致的网格（即3D代理），使得编辑可以直接在代理上进行，然后推断回视频帧。为简化编辑过程，我们设计了一种新颖的双传播策略，使用户在单帧的3D网格上进行编辑，然后自动传播到其他帧的3D网格。不同帧的3D网格进一步投影到2D空间，以生成编辑后的几何和纹理渲染，这些渲染作为输入提供给解耦的视频扩散模型，用于生成编辑结果。我们的框架支持跨视频帧的各种精确和物理一致的操作，包括姿势编辑、旋转、缩放、平移、纹理修改和对象组成。我们的方法标志着向高质量、可控视频编辑工作流程迈出的关键一步。大量实验展示了我们方法的优越性和有效性。项目页面：这个URL。",
+        "地址": "https://arxiv.org/pdf/2506.22432.pdf"
+    },
+    {
+        "名称": "2025 [2506.21876] Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation.pdf",
+        "作者": "Qiyue Gao, Xinyu Pi, Kevin Liu, Junrong Chen, Ruolan Yang, Xinqi Huang, Xinyu Fang, Lu Sun, Gautham Kishore, Bo Ai, Stone Tao, Mengyang Liu, Jiaxi Yang, Chao-Jung Lai, Chuanyang Jin, Jiannan Xiang, Benhao Huang, Zeming Chen, David Danks, Hao Su, Tianmin Shu, Ziqiao Ma, Lianhui Qin, Zhiting Hu",
+        "摘要": "以下是论文《2025 [2506.21876] Vision-Language模型是否具有内部世界模型? 致力于原子评估》的摘要翻译：\n\n摘要：内部世界模型（WM）使代理能够理解世界的状态并预测转换，成为高级审议推理的基础。最近的大规模视觉语言模型（VLM），如OpenAI o3、GPT-4o和Gemini，展示了作为通用WM的潜力。尽管最新研究已经评估并展示了这些模型在视觉理解等特定能力上的局限性，但对其基本WM能力的系统评估仍然缺乏。借鉴比较心理学和认知科学，我们提出了一个两阶段框架，评估感知（视觉、空间、时间、定量和运动）和预测（机制模拟、传递推理、组合推理），以提供对VLM作为WM的原子评估。根据这一框架，我们推出了WM-ABench，一个包含23个细粒度评估维度的大规模基准测试，涵盖6个多样化的模拟环境，并进行了受控反事实模拟。在对15个最新商用和开源VLM进行660次实验后，我们发现这些模型在基本世界建模能力上存在显著限制。例如，几乎所有模型在区分运动轨迹时表现出了接近随机的准确性。此外，它们缺乏解耦理解——例如，一些模型倾向于相信蓝色物体运动速度快于绿色物体。更多丰富的结果和分析揭示了VLM与人类水平世界建模之间的显著差距。",
+        "地址": "https://arxiv.org/pdf/2506.21876.pdf"
+    },
+    {
+        "名称": "2025 [2506.22419] The Automated LLM Speedrunning Benchmark: Reproducing NanoGPT Improvements.pdf",
+        "作者": "Bingchen Zhao, Despoina Magka, Minqi Jiang, Xian Li, Roberta Raileanu, Tatiana Shavrina, Jean-Christophe Gagnon-Audet, Kelvin Niu, Shagun Sodhani, Michael Shvartsman, Andrei Lupu, Alisia Lupidi, Edan Toledo, Karen Hambardzumyan, Martin Josifoski, Thomas Foster, Lucia Cipolina-Kun, Abhishek Charnalia, Derek Dunfield, Alexander H. Miller, Oisin Mac Aodha, Jakob Foerster, Yoram Bachrach",
+        "摘要": "摘要： 大语言模型（LLM）的快速进展有望促进科学进步，实现这一目标的关键能力是复现现有的工作。为了评估AI代理在一个活跃研究领域中复现结果的能力，我们引入了自动LLM竞速基准，利用研究社区在NanoGPT竞速中的贡献，这是一个训练GPT-2模型最短时间的比赛。每个19个竞速任务为代理提供了之前的记录训练脚本，选择性地配对三种提示格式之一，从伪代码到类似论文的描述新记录改进的形式。设计上记录可以快速执行，竞速改进包括多种代码级别的变化，从高级算法进步到硬件感知优化。这些特性使基准既具有可访问性又真实地反映了改进LLM训练这一前沿问题。我们发现，即使给出详细提示，最近的推理LLM结合最先进的脚手架也难以重新实现我们基准中已知的创新。因此，我们的基准提供了一个简单、未饱和的衡量LLM自动化科学复现能力的方法，这对自主研究代理来说是一项必要（但不充分）的技能。",
+        "地址": "https://arxiv.org/pdf/2506.22419.pdf"
+    },
+    {
+        "名称": "2025 [2506.21355] SMMILE: An Expert-Driven Benchmark for Multimodal Medical In-Context Learning.pdf",
+        "作者": "Melanie Rieff, Maya Varma, Ossian Rabow, Subathra Adithan, Julie Kim, Ken Chang, Hannah Lee, Nidhi Rohatgi, Christian Bluethgen, Mohamed S. Muneer, Jean-Benoit Delbrouck, Michael Moor",
+        "摘要": "摘要：尽管多模态上下文学习（ICL）在医学等领域具有显著潜力，但其研究仍未充分开展。临床医生经常面对多种多样的专业任务，需要从有限的例子中进行适应，例如从少数相关的既往病例中汲取见解或考虑有限的鉴别诊断集。虽然多模态大型语言模型（MLLMs）在医学视觉问答（VQA）方面已取得进展，但其从上下文中学习多模态任务的能力仍不为人知。我们介绍了SMMILE，这是第一个由专家驱动的医学任务多模态ICL基准。由11位医学专家策划了问题，每个问题包括一个多模态查询和多模态上下文示例作为任务演示。SMMILE涵盖了111个问题（517个问题-图像-答案三元组），涉及6个医学专业和13种成像方式。我们进一步介绍了SMMILE++，这是一个包含1038个排列问题的增强版本。对15个MLLMs的全面评估表明，大多数模型在医学任务中的多模态ICL能力表现中等到差。在开放式评估中，ICL仅比零样本在SMMILE上平均提高8%，在SMMILE++上平均提高9.4%。我们发现与上下文无关的示例会显著影响性能：即使是一个噪声或无关示例也会将性能降低最多9.5%。此外，示例排序表现出一个新近性偏差，即将最相关的示例放在最后可以使性能提高高达71%。我们的研究结果强调了当前MLLMs在从上下文中学习多模态医学任务时的关键局限性和偏差。\n\n来源：https://arxiv.org/pdf/2506.21355.pdf",
+        "地址": "https://arxiv.org/pdf/2506.21355.pdf"
+    },
+    {
+        "名称": "2025 [2506.21458] Spatial Mental Modeling from Limited Views.pdf",
+        "作者": "Baiqiao Yin, Qineng Wang, Pingyue Zhang, Jianshu Zhang, Kangrui Wang, Zihan Wang, Jieyu Zhang, Keshigeyan Chandrasegaran, Han Liu, Ranjay Krishna, Saining Xie, Manling Li, Jiajun Wu, Li Fei-Fei",
+        "摘要": "摘要：视觉语言模型（VLMs）能像人类一样从少量视角想象出整体场景吗？人类会形成空间心理模型，即未见空间的内部表征，以推理布局、透视和运动。我们的新MindCube基准测试包含3268张图像和21154个问题，揭示了VLMs在这方面的显著差距，现有VLMs表现几乎随机。利用MindCube，我们系统评估了VLMs通过表示位置（认知地图）、方向（透视）和动态（\"假如\"运动的心理模拟）建立稳健空间心理模型的能力。然后我们探索了三种方法来帮助VLMs接近空间心理模型，包括未见中间视图、自然语言推理链和认知地图。显著的改进来自一种协同方法“映射-然后-推理”，该方法联合训练模型先生成认知地图，然后在其基础上推理。通过训练模型在这些内部地图上进行推理，我们将准确率从37.8%提升到60.8%（+23.0%）。加入强化学习后，性能进一步提升至70.7%（+32.9%）。我们的关键见解是，空间心理模型的这种支架，通过有弹性的推理过程主动构建和利用内部结构化空间表征，显著提高了对不可见空间的理解。",
+        "地址": "https://arxiv.org/pdf/2506.21458.pdf"
+    },
+    {
+        "名称": "2025 [2506.17859] In-Context Learning Strategies Emerge Rationally.pdf",
+        "作者": "Daniel Wurgaft, Ekdeep Singh Lubana, Core Francisco Park, Hidenori Tanaka, Gautam Reddy, Noah D. Goodman",
+        "摘要": "摘要: 最近对上下文中学习（ICL）的分析工作已经识别出一组广泛的策略，这些策略描述了模型在不同实验条件下的行为。我们旨在统一这些研究结果，并探讨为什么模型首先学会这些不同的策略。具体来说，我们从一个观察开始，即当训练用于学习任务的混合时（如文献中常见的），模型为执行ICL而学习的策略可以通过一组贝叶斯预测器捕获：一个记忆预测器，假设在看到的任务集合上有一个离散先验，和一个泛化预测器，其中先验匹配基础任务分布。采用规范分析的视角，将学习者的行为解释为在给定计算约束下数据的最佳适应，我们开发了一个分层贝叶斯框架，该框架在整个培训过程中几乎完美地预测了Transformer的下一个标记预测——无需假定访问其权重。在此框架下，预训练被视为更新不同策略的后验概率的过程，推理时间行为被视为这些策略预测的后验加权平均值。我们的框架借鉴了关于神经网络学习动态的常见假设，这些假设明确了候选策略之间的损失和复杂性之间的权衡：除了解释数据的效果之外，模型偏向于实施策略的偏好由其复杂性决定。这有助于解释众所周知的ICL现象，同时提供新的预测: 例如，我们显示了从泛化到记忆过渡的时间尺度超线性趋势随着任务多样性增加。总体而言，我们的工作推进了一个基于策略损失和复杂性权衡的ICL解释和预测账户。\n\n你可以通过以下链接查看详细文档: https://arxiv.org/pdf/2506.17859.pdf",
+        "地址": "https://arxiv.org/pdf/2506.17859.pdf"
+    },
+    {
+        "名称": "2025 [2506.21594] Gazal-R1: Achieving State-of-the-Art Medical Reasoning with Parameter-Efficient Two-Stage Training.pdf",
+        "作者": "Ahmed M. Adly, Mostafa Samy, Amr Fawzy",
+        "摘要": "摘要：本文介绍了Gazal-R1，一种拥有320亿参数的语言模型，该模型在医疗推理方面实现了最先进的性能，并为临床决策提供透明的、逐步解释的支持。基于Qwen3 32B构建，我们的模型证明了通过战略性训练，中等规模的模型可以在特定领域中显著超越更大规模的对手。我们开发了一种新颖的两阶段训练流程：首先，在精心策划的107,033个合成医疗推理示例数据集上进行有监督微调，利用包括权重分解低秩适配（DoRA）和秩稳定LoRA（rsLoRA）等高级参数高效技术来教授结构化临床思维；其次，使用群体相对政策优化（GRPO）和复杂的多组件奖励系统进行强化学习，以提升准确性、格式遵从性和推理质量。Gazal-R1在各类医疗基准测试中表现出色，MedQA得分87.1%，MMLU Pro（医疗）得分81.6%，PubMedQA得分79.6%，超越了规模高达12倍的模型。除去强劲的实证结果外，本研究还详细讨论了训练具有推理能力模型在特定领域中的挑战，包括奖励黑客问题、训练不稳定性以及事实回忆与详细推理之间的根本矛盾。我们的方法为开发具有高能力的、领域特定的语言模型提供了一个可复现的框架，平衡了性能、效率和可解释性。",
+        "地址": "https://arxiv.org/pdf/2506.21594.pdf"
+    },
+    {
+        "名称": "2025 [2506.19741] Noise Consistency Training: A Native Approach for One-Step Generator in Learning Additional Controls.pdf",
+        "作者": "Yihong Luo, Shuchen Xue, Tianyang Hu, Jing Tang",
+        "摘要": "摘要：高效且可控的高质量内容生成仍然是人工智能生成内容（AIGC）的核心挑战。虽然通过扩散蒸馏技术实现的一步生成器提供了出色的生成质量和计算效率，但适应新的控制条件（例如结构约束、语义指南或外部输入）仍然是一个重大挑战。传统的方法通常需要对基础模型进行计算昂贵的修改和随后进行扩散蒸馏。本文介绍了一种称为噪声一致性训练（NCT）的新型轻量级方法，可以直接将新的控制信号集成到预训练的一步生成器中，而无需访问原始训练图像或重新训练基础扩散模型。NCT通过引入适配器模块，并在生成器的噪声空间中采用噪声一致性损失进行操作。这种损失通过在条件依赖程度不同的噪声之间对齐适配模型的生成行为，隐式地指导其遵循新的控制。从理论上讲，这种训练目标可以理解为最小化适配生成器和由新条件诱导的条件分布之间的分布距离。NCT是模块化的、数据高效的且易于部署，仅依赖于预训练的一步生成器和控制信号模型。广泛的实验表明，NCT在单次前向传递中实现了最先进的可控生成，超过了现有的多步和基于蒸馏的方法，在生成质量和计算效率上均有优胜表现。代码可在此链接下载。",
+        "地址": "https://arxiv.org/pdf/2506.19741.pdf"
+    },
+    {
+        "名称": "2025 [2506.18330] Confucius3-Math: A Lightweight High-Performance Reasoning LLM for Chinese K-12 Mathematics Learning.pdf",
+        "作者": "Lixin Wu, Na Cai, Qiao Cheng, Jiachen Wang, Yitao Duan",
+        "摘要": "摘要翻译：\n我们介绍了Confucius3-Math，这是一款开源的大型语言模型，拥有140亿个参数，（1）能够高效地运行在单个消费级GPU上；（2）在一系列数学推理任务中实现了SOTA（最先进技术）的性能，超过了许多规模更大的模型。特别地，作为我们利用AI增强教育和知识传播的使命的一部分，Confucius3-Math专门致力于为中国K-12学生和教育工作者提供数学学习支持。通过大规模强化学习（RL）的后训练构建，Confucius3-Math与国家课程标准保持一致，并以低成本擅长解决主流的中国K-12数学问题。在这份报告中，我们分享了开发配方、遇到的挑战以及我们为克服这些挑战而开发的技术。特别地，我们介绍了三项技术创新：目标熵正则化、最近样本恢复和策略特定的难度加权。这些创新包括一种新的熵正则化方法、一种新颖的数据调度策略以及一种改进的组相对优势估计器。总体上，它们显著稳定了RL训练，提高了数据效率，并提升了性能。我们的工作展示了在特定领域以低成本构建强推理模型的可行性。我们在此分享我们的模型和代码。",
+        "地址": "https://arxiv.org/pdf/2506.18330.pdf"
+    },
+    {
+        "名称": "2025 [2506.22760] Jan-nano Technical Report.pdf",
+        "作者": "Alan Dao (Gia Tuan Dao), Dinh Bach Vu",
+        "摘要": "摘要: 大多数语言模型面临一个基本的权衡，即强大的功能需要大量的计算资源。我们通过Jan-nano打破了这一限制，它是一个4B参数的语言模型，通过激进的专业化重新定义了效率：它不是试图知道所有事物，而是掌握了即时找到任何东西的艺术。使用我们新颖的多阶段RLVR系统，完全消除了对下一个标记预测训练（SFT）的依赖，从Qwen3-4B微调后的Jan-nano在消费者硬件上运行，并通过MCP集成在SimpleQA基准测试中达到了83.2%。拥有128K的上下文长度，Jan-nano证明智能不在于规模，而在于策略。",
+        "地址": "https://arxiv.org/pdf/2506.22760.pdf"
+    },
+    {
+        "名称": "2025 [2506.21718] Performance Prediction for Large Systems via Text-to-Text Regression.pdf",
+        "作者": "Yash Akhauri, Bryan Lewandowski, Cheng-Hsi Lin, Adrian N. Reyes, Grant C. Forbes, Arissa Wongpanich, Bangding Yang, Mohamed S. Abdelfattah, Sagi Perel, Xingyou Song",
+        "摘要": "摘要：在许多行业中，预测大型系统的指标结果是一个基本问题，主要依赖于传统的表格回归方法。然而，当面对诸如配置文件或系统日志等复杂的系统数据时，这些方法往往难以奏效，因为特征工程通常不可行。我们提出了一种通用且可扩展的替代方法：文本到文本回归。为了预测 Borg（谷歌的大规模计算集群调度系统）上的资源效率，一个从零开始随机初始化训练的6000万参数的编码器-解码器模型在整个集群上实现了接近完美的0.99（平均0.9）的排名相关性，并且比表格方法低100倍的均方误差（MSE）。该模型还能够在仅500个少样本例子的情况下轻松适应新任务，并捕捉复杂结果分布的密度。消融研究强调了使用编码器、增加序列长度以及模型内在不确定性量化的重要性。这些发现为现实世界结果的通用模拟器铺平了道路。\n\n翻译完毕。",
+        "地址": "https://arxiv.org/pdf/2506.21718.pdf"
+    },
+    {
+        "名称": "2025 [2506.22149] RetFiner: A Vision-Language Refinement Scheme for Retinal Foundation Models.pdf",
+        "作者": "Ronald Fecso, José Morano, Ursula Schmidt-Erfurth, Hrvoje Bogunović",
+        "摘要": "摘要: 成像技术（如光学相干断层扫描 (OCT)）的兴起和深度学习 (DL) 的进步使临床医生和研究人员能够简化视网膜疾病分期。一种流行的深度学习方法是自监督学习 (SSL)，在这种方法中，模型从大量未标记数据中学习，从而避免昂贵的注释。自监督学习的应用使得基础模型 (FMs) 的开发成为可能，这些大型模型可以用于各种下游任务。然而，现有的针对OCT的基础模型仅在图像数据上训练，缺乏对图像的全面且稳健的语义理解，这在其下游性能（尤其是复杂任务）中得以体现，因此需要监督微调（这可能是不可行的）以更好地适应具体的应用和人群。为了解决这一问题，我们提出了RetFiner，这是一种自监督视觉-语言优化方案，可以改进现有基础模型的表示，并实现其高效且直接地适应特定人群以改善下游性能。我们的方法使用一组多样化的训练目标，利用文本数据中丰富的监督信号。我们在视网膜基础模型RETFound、UrFound和VisionFM上测试了RetFiner，在七个高度多样化的OCT分类任务中表现出显著的线性探测性能提升，平均比基线分别增加5.8、3.9和2.1个百分点。我们的代码和模型权重在此https URL公开。\n\n['Ronald Fecso, José Morano, Ursula Schmidt-Erfurth, Hrvoje Bogunović', 评论: '2025年MICCAI会议接受展示', URL: 'https://arxiv.org/pdf/2506.22149.pdf', 标题: '2025 [2506.22149] RetFiner: 视网膜基础模型的视觉-语言优化方案.pdf']",
+        "地址": "https://arxiv.org/pdf/2506.22149.pdf"
+    },
+    {
+        "名称": "2025 [2506.21476] Global and Local Entailment Learning for Natural World Imagery.pdf",
+        "作者": "Srikumar Sastry, Aayush Dhakal, Eric Xing, Subash Khanal, Nathan Jacobs",
+        "摘要": "摘要：在视觉-语言模型中学习数据的分层结构是一个重要挑战。之前的工作尝试通过蕴涵学习来解决这一挑战。然而，这些方法未能明确地对蕴涵的传递特性进行建模，而传递特性确立了表示空间中的秩序和语义之间的关系。在这项工作中，我们介绍了径向跨模态嵌入（RCME），一个能够明确地对传递性强制蕴涵进行建模的框架。我们提出的框架对视觉-语言模型内概念的偏序进行优化。利用我们的框架，我们开发了一种能够表示生命树层次结构的分层视觉-语言基础模型。我们在分层物种分类和分层检索任务上的实验表明，我们的模型在表现上比现有的最先进模型有显著提升。我们开源了代码和模型，网址为https://arxiv.org/pdf/2506.21476.pdf。",
+        "地址": "https://arxiv.org/pdf/2506.21476.pdf"
+    },
+    {
+        "名称": "2025 [2506.19592] Adaptive Domain Modeling with Language Models: A Multi-Agent Approach to Task Planning.pdf",
+        "作者": "Harisankar Babu, Philipp Schillinger, Tamim Asfour",
+        "摘要": "摘要：我们介绍了TAPAS（基于任务的自适应和规划系统），这是一个多代理框架，将大型语言模型（LLMs）与符号规划相结合，以解决复杂任务而无需手动定义环境模型。TAPAS采用专门的基于LLM的代理，这些代理通过结构化的工具调用机制协同生成和调整领域模型、初始状态和目标规范。通过这种基于工具的交互，下游代理可以请求上游代理进行修改，从而在不手动重新定义领域的情况下适应新的属性和约束。一个基于ReAct（理性+行动）风格的执行代理，结合自然语言计划翻译，弥合了动态生成计划与现实世界机器人能力之间的鸿沟。TAPAS在基准规划领域和VirtualHome模拟现实世界环境中表现出强劲的性能。",
+        "地址": "https://arxiv.org/pdf/2506.19592.pdf"
+    },
+    {
+        "名称": "2025 [2506.15882] Fractional Reasoning via Latent Steering Vectors Improves Inference Time Compute.pdf",
+        "作者": "Sheng Liu, Tianlang Chen, Pan Lu, Haotian Ye, Yizheng Chen, Lei Xing, James Zou",
+        "摘要": "摘要: 测试时间计算已成为提高大型语言模型（LLMs）性能的强大范例，生成多个输出或优化个别链条可以显著提升答案准确性。然而，现有方法如Best-of-N、多数投票和自我反思通常在输入上均匀地应用推理，忽略了不同问题可能需要不同深度的推理。在这项工作中，我们提出了分数推理，一种无需训练且与模型无关的框架，能够在推理时连续控制推理强度，超越固定指令提示的限制。我们的方法通过提取与较深层次推理相关的潜在引导矢量并以可调节的缩放因子重新应用它，使模型能够根据每个输入的复杂性调整其推理过程。这支持了测试时间缩放的两种关键模式：（1）在广度策略（例如Best-of-N、多数投票）中提高输出质量，以及（2）在深度策略（例如自我反思）中增强个别推理链的正确性。在GSM8K、MATH500和GPQA上的实验表明，分数推理在各种推理任务和模型上能持续改善性能。",
+        "地址": "https://arxiv.org/pdf/2506.15882.pdf"
+    },
+    {
+        "名称": "2025 [2506.22049] GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling.pdf",
+        "作者": "Tianhao Chen, Xin Xu, Zijing Liu, Pengxiang Li, Xinyuan Song, Ajay Kumar Jaiswal, Fan Zhang, Jishan Hu, Yang Wang, Hao Chen, Shizhe Diao, Shiwei Liu, Yu Li, Yin Lu, Can Yang",
+        "摘要": "摘要：现代大型语言模型，如LLaMA、Qwen和DeepSeek系列，主要采用预层归一化（Pre-LN）Transformer架构。虽然在预训练期间稳定并且可以扩展到大尺寸模型，但Pre-LN在各层之间的激活方差呈指数增长，导致残差路径对子层输出的影响占据主导地位，限制了较深层的学习能力。为了解决这一问题，我们提出了梯度保持激活缩放（GPAS），这是一个可以与现有方法结合使用的简单技术。GPAS通过缩小中间激活来工作，同时保持其梯度不变。这样可以保留激活中的信息，避免与梯度缩减相关的梯度消失问题。对从71M到1B的各种模型尺寸进行的大量实验表明，GPAS能够实现一致的性能提升。除了增强Pre-LN Transformers之外，GPAS还显示出改善其他架构如Sandwich-LN和DeepNorm的潜力，展示了其在改进广泛设置中的训练动态方面的多功能性和潜力。",
+        "地址": "https://arxiv.org/pdf/2506.22049.pdf"
+    }
+]
