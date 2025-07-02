@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2506.23044] Ovis-U1 Technical Report.pdf",
+        "作者": "Guo-Hua Wang, Shanshan Zhao, Xinjie Zhang, Liangfu Cao, Pengxin Zhan, Lunhao Duan, Shiyin Lu, Minghao Fu, Xiaohao Chen, Jianshan Zhao, Yang Li, Qing-Guo Chen",
+        "摘要": "摘要：在本报告中，我们介绍了Ovis-U1，一个拥有30亿参数的统一模型，集成了多模态理解、文本生成图像以及图像编辑功能。基于Ovis系列的基础，Ovis-U1结合了基于扩散的视觉解码器与双向令牌优化器，使其图像生成任务能够与领先的模型GPT-4o相媲美。与一些先前使用冻结的MLLM进行生成任务的模型不同，Ovis-U1采用了全新的统一训练方法，从语言模型开始训练。与只针对理解或生成任务训练相比，统一训练表现更佳，展示了整合这两项任务所取得的提升。Ovis-U1在OpenCompass多模态学术基准测试上获得了69.6分，超过了最近的先进模型如Ristretto-3B和SAIL-VL-1.5-2B。在文本生成图像任务中，其在DPG-Bench和GenEval基准测试中的得分分别为83.72和0.89。在图像编辑任务中，其在ImgEdit-Bench和GEdit-Bench-EN基准测试中的得分分别为4.00和6.42。作为Ovis统一模型系列的初始版本，Ovis-U1推动了多模态理解、生成和编辑的边界。",
+        "地址": "https://arxiv.org/pdf/2506.23044.pdf"
+    },
+    {
+        "名称": "2025 [2506.24119] SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning.pdf",
+        "作者": "Bo Liu, Leon Guertler, Simon Yu, Zichen Liu, Penghui Qi, Daniel Balcells, Mickel Liu, Cheston Tan, Weiyan Shi, Min Lin, Wee Sun Lee, Natasha Jaques",
+        "摘要": "摘要：最近在强化学习方面的进展表明，通过在具有可验证奖励的任务上训练，语言模型可以发展出复杂的推理能力，但这些方法依赖于人工整理的问题-答案对和特定领域的奖励设计。我们介绍了SPIRAL，这是一种自我对弈框架，其中模型通过在多轮、零和游戏中与不断改进的自身版本对弈来学习，从而消除了对人工监督的需求。通过自我对弈，SPIRAL生成了一种无限的、逐步增加难度的课程，因为模型必须不断适应更强的对手。为了支持大规模的自我对弈训练，我们实现了一个完全在线的、多轮的、多代理强化学习系统，并提出了角色条件优势估计（RAE）来稳定多代理训练。使用SPIRAL进行零和游戏的自我对弈产生了广泛转移的推理能力。单独在Kuhn Poker上训练Qwen3-4B-Base模型，实现了数学能力提高8.6%和一般推理能力提高8.4%，超过了在25,000条专家游戏轨迹上的监督学习训练（SFT）。分析显示，这种转移通过三种认知模式发生：系统分解、期望值计算和逐案分析。多游戏训练（井字棋、Kuhn Poker、简单谈判）进一步增强了性能，因为每个游戏都发展了不同的推理强项。将SPIRAL应用于强推理模型（DeepSeek-R1-Distill-Qwen-7B）仍然可以带来平均2.0%的提高。这些结果表明，零和游戏自然发展了可转移的推理能力，突显了自主推理发展的一个有前途的方向。\n\n摘要翻译：\n最近在强化学习方面取得的进展显示，通过在具有可验证奖励的任务上训练，语言模型可以发展出复杂的推理能力，但这些方法依赖于人工策划的问题和答案对以及特定领域的奖励工程。我们引入了SPIRAL，一种自我对抗框架，模型通过对抗不断改进的自身版本参与多回合、零和游戏来学习，从而不再需要人工监督。通过自我对抗，SPIRAL生成了一个逐步增加挑战难度的无限课程，因为模型必须不断适应更强大的对手。为在大规模上实现这种自对抗训练，我们实现了一种完全在线的、多回合、多代理强化学习系统，并提出了角色条件优势估计（RAE）来稳定多代理训练。使用SPIRAL，零和游戏的自对抗产生的推理能力可以广泛转移。单在库恩扑克上训练Qwen3-4B-Base模型即可在数学和一般推理上分别获得8.6%和8.4%的提升，超过在25,000条专家游戏轨迹上进行的监督学习训练（SFT）。分析显示，这种转移通过三种认知模式发生：系统性分解、期望值计算和逐个案例分析。多游戏训练（井字棋、库恩扑克、简单谈判）进一步增强了性能，因为每个游戏都培养了不同的推理强项。将SPIRAL应用于一个强推理模型（DeepSeek-R1-Distill-Qwen-7B）仍能带来平均2.0%的提升。这些结果表明零和游戏自然发展了可转移的推理能力，突显了自主推理发展的一个有前途的方向。",
+        "地址": "https://arxiv.org/pdf/2506.24119.pdf"
+    },
+    {
+        "名称": "2025 [2506.23858] VMoBA: Mixture-of-Block Attention for Video Diffusion Models.pdf",
+        "作者": "Jianzong Wu, Liang Hou, Haotian Yang, Xin Tao, Ye Tian, Pengfei Wan, Di Zhang, Yunhai Tong",
+        "摘要": "摘要：全注意力机制的二次复杂度对于旨在生成长时间、高分辨率视频的视频扩散模型（VDMs）而言构成了显著的瓶颈。尽管已提出了多种稀疏注意力方法，但许多方法设计为免训练的推理加速器，或在原生训练时未能最佳地捕捉视频数据固有的时空特性。本文介绍了视频块混合注意力（VMoBA），这是一种专门为VDMs调整的新型稀疏注意力机制。基于对预训练视频变压器内部注意力模式的深入分析，揭示了强烈的时空局部性、不同的查询重要性以及特定头的集中度，VMoBA通过三个关键修改增强了原始MoBA框架：（1）分层递归块划分方案（1D-2D-3D），以动态适应不同的时空注意力模式并提高效率；（2）全局块选择，以优先处理整个注意力头中最显著的查询-键块交互；（3）基于阈值的块选择，根据累积相似性动态确定关注的块数量。广泛的实验表明，VMoBA显著加速了VDMs在长序列上的训练，实现了2.92倍FLOPs和1.48倍延迟加速，同时在生成质量上与全注意力相当或更优。此外，VMoBA在免训练推理方面表现出竞争力，为高分辨率视频生成提供了2.40倍FLOPs和1.35倍延迟加速。\n\n作者：Jianzong Wu, Liang Hou, Haotian Yang, Xin Tao, Ye Tian, Pengfei Wan, Di Zhang, Yunhai Tong\n\n备注：代码可以在该网址https URL找到\n\n网址：https://arxiv.org/pdf/2506.23858.pdf",
+        "地址": "https://arxiv.org/pdf/2506.23858.pdf"
+    },
+    {
+        "名称": "2025 [2506.24123] Calligrapher: Freestyle Text Image Customization.pdf",
+        "作者": "Yue Ma, Qingyan Bai, Hao Ouyang, Ka Leong Cheng, Qiuyu Wang, Hongyu Liu, Zichen Liu, Haofan Wang, Jingye Chen, Yujun Shen, Qifeng Chen",
+        "摘要": "摘要：我们介绍了Calligrapher，一个新颖的基于扩散的框架，它创新地将先进的文本定制与艺术字体设计相结合，用于数字书法和设计应用。针对字体定制中的精确风格控制和数据依赖性挑战，我们的框架包含了三个关键技术贡献。首先，我们开发了一种自蒸馏机制，该机制利用预训练的文本到图像生成模型本身以及大型语言模型自动构建一个以风格为中心的字体基准。其次，我们通过可训练的风格编码器引入了局部风格注入框架，该编码器包括Qformer和线性层，从参考图像中提取稳健的风格特征。还采用了一种上下文生成机制，将参考图像直接嵌入到去噪过程中，进一步增强目标风格的精细对齐。针对不同字体和设计背景的广泛定量和定性评估证实了Calligrapher对复杂风格细节和精确字形定位的准确再现。通过自动生成高质量、视觉一致的字体设计，Calligrapher超越了传统模型，赋能数字艺术、品牌设计和上下文字体设计中的创意实践者。\n\n作者：马跃，白青研，欧阳浩，程家龙，王秋雨，刘洪宇，刘子辰，王浩帆，陈敬业，沈禹君，陈启锋\n\n评论：项目页面：this https URL 代码：this https URL\n\n网址：https://arxiv.org/pdf/2506.24123.pdf\n\n标题：2025 [2506.24123] Calligrapher: Freestyle Text Image Customization.pdf",
+        "地址": "https://arxiv.org/pdf/2506.24123.pdf"
+    },
+    {
+        "名称": "2025 [2506.22832] Listener-Rewarded Thinking in VLMs for Image Preferences.pdf",
+        "作者": "Alexander Gambashidze, Li Pengyi, Matvey Skripkin, Andrey Galichin, Anton Gusarov, Konstantin Sobolev, Andrey Kuznetsov, Ivan Oseledets",
+        "摘要": "摘要：为了使文本生成图像和文本生成视频模型与人类意图一致，训练鲁棒且具备广泛适应性的奖励模型以反映人类视觉偏好至关重要。然而，当前的奖励模型常常无法广泛地适应，监督微调也容易导致记忆化，需要复杂的标注流程。尽管强化学习（RL），特别是群体相对策略优化（GRPO），可以提高广泛适应性，我们发现一个关键的失败模式：当模型的推理轨迹与独立冻结的视觉语言模型（“听者”）对同一输出的评估结果相矛盾时，推理准确度显著下降。为了解决这一问题，我们提出了一种听者增强的GRPO框架。在该框架中，“听者”重新评估推理者的思维过程，提供密集校准的置信分数，以构建RL奖励信号。这不仅鼓励推理者回答正确，还鼓励其产生能说服独立模型的解释。我们的听者形态奖励机制在ImageReward基准测试中达到了最佳准确度（67.4%），显著提高了在大规模人类偏好数据集（120万票，较原始推理者提高最多6%）上的分布外（OOD）表现，并减少了与强GRPO和SFT基准相比的推理矛盾。这些结果表明，基于听者的奖励提供了一条数据高效且可扩展的路径，将视觉语言模型与细腻的人工偏好进行对齐。我们将在此处发布我们的推理模型：这个HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2506.22832.pdf"
+    },
+    {
+        "名称": "2025 [2506.17930] Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective.pdf",
+        "作者": "Jianyu Wang, Zhiqiang Hu, Lidong Bing",
+        "摘要": "摘要：我们提出了一种新颖的提示设计范式，这一范式挑战了大语言模型(LLM)提示中的传统智慧。尽管传统智慧优先考虑精心设计的指令和示例以用于上下文学习(ICL)，但我们表明，将随机示例剪裁成看似前后不连贯的“乱码”可以显著提高在不同任务中的表现。值得注意的是，“乱码”总是能匹配或超越最先进的自动提示优化技术，无论LLM校准如何，都能取得显著的收益。然而，发现一个有效的剪裁策略并非易事，因为现有的归因方法和提示压缩算法无法提供稳健的结果，更不用说人的直觉了。因此，我们提出了一个自我发现的提示优化框架，PromptQuine，这是一种演化搜索框架，仅使用少量数据就能自动搜索剪裁策略。就像自然界中响应资源限制而出现的共生和自组织等复杂现象一样，我们的框架通过仅利用上下文中存在的标记进化并完善了非传统但高度有效的提示。我们展示了它在分类、多选题回答、生成和数学推理任务中的有效性，同时实现了不错的运行效率。我们希望我们的发现能够指导关于上下文学习的机制研究，并发出行动号召，为更有效的LLM提示开辟更开放的搜索算法道路。\n\n评论：ICML 2025，代码将在此网址发布：https://arxiv.org/pdf/2506.17930.pdf\n\n作者：王简宇，胡志强，冰立东\n\n标题：2025 [2506.17930] 演化的上下文提示：一种开放式自我复制的视角",
+        "地址": "https://arxiv.org/pdf/2506.17930.pdf"
+    },
+    {
+        "名称": "2025 [2506.23151] MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation.pdf",
+        "作者": "Vladislav Bargatin, Egor Chistov, Alexander Yakovenko, Dmitriy Vatolin",
+        "摘要": "摘要: 最近在光流估计方面的进展为了优先提高准确性，付出的是GPU内存消耗增加的代价，尤其是针对高分辨率（FullHD）输入。我们介绍了MEMFOF，一种内存高效的多帧光流方法，该方法在多帧估计和GPU内存使用之间找到了理想的平衡。值得注意的是，MEMFOF在运行时对1080p输入仅需要2.09GB GPU内存，训练时需要28.5GB内存，这使得我们的方法能够在无需裁剪或降采样的情况下，以原生1080p分辨率进行训练。我们系统性地重新审视了RAFT类架构的设计选择，结合减少的相关卷积与高分辨率训练协议以及多帧估计，在多个基准测试中实现了最先进的性能，并大幅降低了内存开销。我们的方法在准确性和运行时效率上都优于更多资源密集型的替代方案，验证了其在高分辨率光流估计中的稳健性。在提交时，我们的方法在Spring基准测试中以3.289的1像素（1px）异常率排名第一，在Sintel（clean）上以0.963的终点误差（EPE）领先，并在KITTI-2015上以2.94%的Fl-all错误率取得最佳成绩。代码可通过此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2506.23151.pdf"
+    },
+    {
+        "名称": "2025 [2506.23542] Consistent Time-of-Flight Depth Denoising via Graph-Informed Geometric Attention.pdf",
+        "作者": "Weida Wang, Changyong He, Jin Zeng, Di Qiu",
+        "摘要": "摘要：通过ToF（飞行时间）传感器捕获的深度图像容易受到噪声的影响，需要进行去噪处理以确保后续应用的可靠性。先前的工作要么集中于单帧处理，要么在多帧处理时忽视了帧间对应像素的深度变化，导致时间上的不一致和空间的模糊性。在本文中，我们提出了一种利用运动不变图融合的新型ToF深度去噪网络，以同时增强时间稳定性和空间清晰度。具体来说，尽管帧间深度会发生变化，图结构仍然表现出时间上的自相似性，从而启用跨帧几何注意力进行图融合。然后，通过在融合图上结合图像平滑先验和来自ToF噪声分布的数据保真项，我们制定了一个最大后验问题用于ToF去噪。最后，解决方案被展开为迭代过滤器，其权重是从基于图的几何注意力中自适应学习的，从而生成一个高性能且可解释的网络。实验结果表明，所提出的方案在合成的DVToF数据集上在准确性和一致性方面实现了最先进的性能，并在真实的Kinect v2数据集上表现出强大的泛化能力。源代码将在此网址发布：\\\\href{this https URL}{this https URL}。",
+        "地址": "https://arxiv.org/pdf/2506.23542.pdf"
+    },
+    {
+        "名称": "2025 [2506.16500] SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity.pdf",
+        "作者": "Samir Khaki, Xiuyu Li, Junxian Guo, Ligeng Zhu, Chenfeng Xu, Konstantinos N. Plataniotis, Amir Yazdanbakhsh, Kurt Keutzer, Song Han, Zhijian Liu",
+        "摘要": "摘要：微调LLM既计算密集又占用大量内存。虽然像QLoRA和DoRA这样的参数高效微调方法减少了可训练参数的数量并降低了内存使用，但它们并未减少计算成本。在某些情况下，它们可能甚至使微调变慢。本文提出了一种通过上下文稀疏性加速LLM微调的方法——SparseLoRA。我们提出了一种轻量级、无需训练的SVD稀疏性估计器，该估计器可以动态选择一个稀疏子集的权重用于损失和梯度计算。此外，我们系统分析和解决了层、token和训练步骤的敏感性问题。我们的实验结果表明，SparseLoRA在保持各种下游任务（包括常识和算术推理、代码生成和指令遵循）的准确性的同时，将计算成本减少了最多2.2倍，并测得最多1.6倍的加速。",
+        "地址": "https://arxiv.org/pdf/2506.16500.pdf"
+    },
+    {
+        "名称": "2025 [2506.17417] Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in Inference-time Scaling?.pdf",
+        "作者": "Mingyuan Wu, Meitang Li, Jingcheng Yang, Jize Jiang, Kaizhuo Yan, Zhaoheng Li, Minjia Zhang, Klara Nahrstedt",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）的推理计算技术（如解码时标度和自我改进）显著增强了推理能力，而无需依赖外部知识。这一成功的关键驱动因素是自我纠错和自我验证行为的出现，这些行为通常通过强化学习（RL）引发。在本文中，我们研究了这些推理计算技术是否能有效扩展到视觉语言模型（VLMs），尤其是那些通过RL训练的模型。我们发现，尽管诸如多数投票和最佳选择等解码策略与自我验证均能改善VLM的推理性能，但依赖生成的方法（如前者）相比于依赖验证的方法（如后者）实现了显著更高的增益。此外，与RL调整的模型相关的自我纠正行为（如“顿悟时刻”）并未带来可测量的收益。我们通过在推理时间标度框架内的大量实验展示了一个关键根源：RL训练的VLM仍缺乏跨视觉和文本模态的可靠自我验证能力。\n\n翻译：摘要：近年来，大型语言模型（LLMs）的推理计算技术（如解码时标度和自我改进）显著增强了推理能力，而无需依赖外部知识。这一成功的关键驱动因素是自我纠错和自我验证行为的出现，这些行为通常通过强化学习（RL）引发。在本文中，我们研究了这些推理计算技术是否能有效扩展到视觉语言模型（VLMs），尤其是那些通过RL训练的模型。我们发现，虽然诸如多数投票和最佳选择等解码策略与自我验证均能改善VLM的推理性能，但依赖生成的方法（如前者）相比于依赖验证的方法（如后者）实现了显著更高的增益。此外，与RL调整的模型相关的自我纠正行为（如“顿悟时刻”）并未带来可测量的收益。我们通过在推理时间标度框架内的大量实验展示了一个关键根源：RL训练的VLM仍缺乏跨视觉和文本模态的可靠自我验证能力。",
+        "地址": "https://arxiv.org/pdf/2506.17417.pdf"
+    },
+    {
+        "名称": "2025 [2506.22992] MARBLE: A Hard Benchmark for Multimodal Spatial Reasoning and Planning.pdf",
+        "作者": "Yulun Jiang, Yekun Chai, Maria Brbić, Michael Moor",
+        "摘要": "摘要：处理来自多个模态的信息并逐步进行推理仍然是推进人工智能的关键挑战。然而，现有的推理基准侧重于仅文本推理，或采用可以通过直接从非文本模态检索信息来回答的多模态问题。因此，在多模态领域中，复杂推理仍然理解不充分。在此，我们提出了MARBLE，一个具有挑战性的多模态推理基准，旨在仔细审查多模态语言模型（MLLMs）在逐步细致推理通过复杂多模态问题和环境的能力。MARBLE由两个极具挑战性的任务M-Portal和M-Cube组成，这些任务要求在空间、视觉和物理约束下制定和理解多步骤计划。我们发现当前的MLLMs在MARBLE上的表现很差——所有12个先进模型在M-Portal上取得接近随机的表现，在M-Cube上的准确率为0%。只有在简化子任务中一些模型表现优于随机基线，表明现有MLLMs在复杂推理方面仍然存在挑战。此外，我们展示了感知仍然是瓶颈，MLLMs偶尔无法从视觉输入中提取信息。通过揭示MLLMs的局限性，我们希望MARBLE能推动下一代具有跨多模态推理步骤的推理和计划能力的模型的发展。",
+        "地址": "https://arxiv.org/pdf/2506.22992.pdf"
+    },
+    {
+        "名称": "2025 [2506.22598] RExBench: Can coding agents autonomously implement AI research extensions?.pdf",
+        "作者": "Nicholas Edwards, Yukyung Lee, Yujun (Audrey)Mao, Yulu Qin, Sebastian Schuster, Najoung Kim",
+        "摘要": "摘要: 基于大型语言模型（LLMs）的代理在自主执行复杂的软件工程任务方面表现出了前景。此外，在开发能够执行机器学习和自然科学研究流程部分的代理方面也取得了进展。我们认为，研究扩展及其实施是此类系统的关键能力，并引入了RExBench以支持这种能力的评估。RExBench 是一个基准测试，由12个现实研究实验实施任务组成，旨在调查以前未实施过的研究假设。每个任务都作为现有研究论文和代码库的扩展设置，并附有领域专家编写的说明。RExBench 对数据污染具有鲁棒性，并支持自动评估基础设施，通过执行代理输出来确定是否满足成功标准。我们使用该基准测试来评估使用三个不同框架（aider、Claude Code 和 OpenHands）实现的九个LLM代理。我们发现评估的所有代理在自主实现大多数扩展任务方面均失败。尽管在人类编写额外提示的情况下成功率有所提高，但在这种设置下的最佳性能仍低于40%。这表明当前的代理仍然无法在没有大量人类指导的情况下处理现实的研究扩展任务。",
+        "地址": "https://arxiv.org/pdf/2506.22598.pdf"
+    },
+    {
+        "名称": "2025 [2506.23219] UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding.pdf",
+        "作者": "Jie Feng, Shengyuan Wang, Tianhui Liu, Yanxin Xi, Yong Li",
+        "摘要": "摘要：城市研究涉及广泛的场景和任务，这些任务需要理解多模态数据。当前的方法通常关注特定的数据类型，缺乏一个统一的框架来全面处理这些数据。近年来，多模态大型语言模型（MLLMs）的成功为克服这一限制提供了有希望的机会。在这篇论文中，我们介绍了$\\\\textit{UrbanLLaVA}$，一种多模态大型语言模型，设计用于同时处理四种类型的数据，并在不同的城市任务中相比于一般的MLLM表现出色。在$\\\\textit{UrbanLLaVA}$中，我们首先策划了一个多样化的城市说明数据集，涵盖了从局部视角到全球视角的单模态和跨模态城市数据。此外，我们提出了一个多阶段训练框架，将空间推理增强与领域知识学习分隔开来，从而提高了$\\\\textit{UrbanLLaVA}$在各种城市任务中的兼容性和下游性能。最后，我们还扩展了现有的城市研究基准，以评估MLLM在广泛城市任务中的性能。来自三个城市的实验结果表明，$\\\\textit{UrbanLLaVA}$在单模态任务和复杂的跨模态任务中均优于开源和专有的MLLM，并在不同城市间表现出强大的泛化能力。源代码和数据通过此https URL向研究社区开放获取。",
+        "地址": "https://arxiv.org/pdf/2506.23219.pdf"
+    },
+    {
+        "名称": "2025 [2506.23394] Teaching a Language Model to Speak the Language of Tools.pdf",
+        "作者": "Simeon Emanuilov",
+        "摘要": "摘要：通过函数调用实现外部工具集成对于实际的语言模型应用至关重要，但是大多数多语言模型在非英语语言中缺乏可靠的工具使用能力。即使是最先进的多语言模型也常常在何时使用工具和生成函数调用所需的结构化输出方面表现困难，且在低资源语言中显示出语言混淆。本文提出了一种方法，通过使用保加利亚语作为案例研究，改编现有语言模型以实现任何目标语言中的稳健工具使用。该方法涉及对BgGPT模型系列（2.6B、9B、27B参数）在包含10,035个函数调用示例的新双语数据集上进行持续训练，旨在支持诸如MCP（模型上下文协议）之类的标准化协议。本研究介绍了TUCAN（工具使用能力助手导航器），在函数调用准确率方面比基础模型提高了多达28.75%，同时在保加利亚语基准测试中验证了其核心语言理解能力的保持。除了准确性的提高外，TUCAN模型还展示了生产就绪的响应格式，具有干净、可解析的函数调用，与基础模型产生的冗长且不一致的输出形成鲜明对比。模型、评估框架和数据集已发布，以便其他语言的复制。这项工作展示了超越以英语为中心系统的工具增强能力的实际方法。",
+        "地址": "https://arxiv.org/pdf/2506.23394.pdf"
+    },
+    {
+        "名称": "2025 [2506.21448] ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing.pdf",
+        "作者": "Huadai Liu, Jialei Wang, Kaicheng Luo, Wen Wang, Qian Chen, Zhou Zhao, Wei Xue",
+        "摘要": "摘要：尽管端到端的视频到音频生成技术有了很大的改进，但要生成真实捕捉视觉内容细微差别的高保真音频仍具有挑战性。正如创意产业中的专业人员一样，这种生成需要对视觉动态、声学环境和时间关系等项目进行复杂推理。我们提出了ThinkSound，一个利用思维链（Chain-of-Thought, CoT）推理的新框架，使得视频的逐步、交互式音频生成和编辑成为可能。我们的方法将过程分解为三个互补的阶段：基础音像生成，创建语义连贯的声景；通过精确的用户交互进行互动的对象中心细化；以及通过自然语言指令指导的有针对性的编辑。在每个阶段，一个多模态的大型语言模型生成上下文相关的CoT推理，并指导一个统一的音频基础模型。此外，我们引入了AudioCoT，一个具有结构化推理注释的综合数据集，建立了视觉内容、文本描述和声音合成之间的联系。实验表明，ThinkSound在视频到音频生成方面，在音频指标和CoT指标上均达到了最先进的性能，并在分布外Movie Gen Audio基准测试中表现出色。演示页面可通过此网址访问。",
+        "地址": "https://arxiv.org/pdf/2506.21448.pdf"
+    },
+    {
+        "名称": "2025 [2506.23135] RoboScape: Physics-informed Embodied World Model.pdf",
+        "作者": "Yu Shang, Xin Zhang, Yinzhou Tang, Lei Jin, Chen Gao, Wei Wu, Yong Li",
+        "摘要": "摘要: 世界模型已经成为体现智能的不可或缺的工具，作为能够生成真实机器人视频的强大模拟器，并解决关键的数据稀缺问题。然而，目前体现智能的世界模型在物理认知方面表现有限，特别是在3D几何和运动动力学建模方面，导致在接触密集的机器人场景中生成的视频不够真实。在本文中，我们提出了RoboScape，一个统一的物理信息化世界模型，在一个集成框架中联合学习RGB视频生成和物理知识。我们引入了两个关键的物理信息化联合训练任务：时间深度预测，用于增强视频渲染中的3D几何一致性，和关键点动力学学习，它隐含地编码了物理属性（例如，物体形状和材料特性），同时改进了复杂运动建模。大量实验表明，RoboScape在各种机器人场景中生成的视频在视觉保真度和物理合理性方面表现优越。我们通过下游应用（包括使用生成的数据进行机器人策略训练和评估策略）进一步验证了其实用性。我们的工作为构建有效的物理信息化世界模型以推进体现智能研究提供了新的见解。代码可在此链接获取：this https URL.",
+        "地址": "https://arxiv.org/pdf/2506.23135.pdf"
+    },
+    {
+        "名称": "2025 [2506.22694] VOCABTRIM: Vocabulary Pruning for Efficient Speculative Decoding in LLMs.pdf",
+        "作者": "Raghavv Goel, Sudhanshu Agrawal, Mukul Gagrani, Junyoung Park, Yifan Zao, He Zhang, Tian Liu, Yiping Yang, Xin Yuan, Jiuyan Lu, Chris Lott, Mingu Lee",
+        "摘要": "摘要：在本文中，我们介绍了一种简单的无需训练的技术，以改进基于起草器的预测性解码（SpD）方法的性能，该方法在起草过程中结合了语言建模头（LM头）。基于起草器的预测性解码利用一个或多个较小的语言模型（即起草器或起草模型）来采样包含多个标记的草稿序列或树，随后由基础大型语言模型（LLM）进行验证，并接受其中一部分作为其有效生成。通常认为预测性解码需要目标模型和起草模型之间的词汇表一对一映射，因此很自然地共享它们之间的词汇表，甚至像EAGLE或Medusa一样共享LM头。我们首先确定这种草稿标记采样方案在起草时固有地包含不必要的推理开销，特别是对于一些具有非常大词汇表的目标LLMs。然后，我们提出了一种简单的技术，VocabTrim，以减少起草开销，从而在内存受限环境中提高生成速度。VocabTrim重构了起草器LM头，仅包含从目标模型的词汇表中最常采样的一组有限标记。虽然在起草时限制词汇表略微降低了接受率，但它显著减少了内存受限过程中的起草延迟，这通常发生在边缘设备上，从而导致更高的内存受限加速（MBSU）。我们展示了我们的方法可以提高Llama-3模型在Spec-Bench上的内存受限加速，仅在Llama-3.2-3B-Instruct上提升了16%。\n\n评论：7页，4个图，5个表，已被ICML 2025关于基础模型高效系统研讨会接受。\n\n作者：Raghavv Goel, Sudhanshu Agrawal, Mukul Gagrani, Junyoung Park, Yifan Zao, He Zhang, Tian Liu, Yiping Yang, Xin Yuan, Jiuyan Lu, Chris Lott, Mingu Lee\n\n链接：https://arxiv.org/pdf/2506.22694.pdf\n\n标题：2025 [2506.22694] VOCABTRIM：LLMs中高效预测性解码的词汇修剪",
+        "地址": "https://arxiv.org/pdf/2506.22694.pdf"
+    },
+    {
+        "名称": "2025 [2506.17080] Tower+: Bridging Generality and Translation Specialization in Multilingual LLMs.pdf",
+        "作者": "Ricardo Rei, Nuno M. Guerreiro, José Pombal, João Alves, Pedro Teixeirinha, Amin Farajian, André F. T. Martins",
+        "摘要": "摘要: 微调预训练的大型语言模型（LLMs）已被证明是在特定任务（如机器翻译）中达到最先进性能的有效策略。然而，这种适应过程通常意味着要牺牲通用功能，例如对话推理和指令执行，从而阻碍了系统在需要多种技能的实际应用中的效用。在本文中，我们介绍了Tower+，这是一个旨在跨越翻译和多语言通用文本功能提供强大性能的模型套件。我们通过引入一种建立在Tower（Alves等人，2024）基础上的新颖训练方法，在翻译专业化和多语言通用能力之间实现了帕累托前沿。这个训练方法包括持续预训练、监督微调、偏好优化和具有可验证奖励的强化学习。在训练的每个阶段，我们精心生成和策划数据，以增强翻译以及涉及代码生成、数学问题解决和指令执行的通用任务的性能。我们开发了多个规模的模型：2B、9B和72B。我们的小型模型经常超过较大的通用开放权重和专有LLMs（如Llama 3.3 70B，GPT-4o）。我们最大的模型在高资源语言的翻译表现以及多语言Arena Hard评估和IF-MT（我们引入以评估翻译和指令执行的新基准）中提供了最佳的翻译性能。我们的研究结果表明，在优化特定商业领域（如翻译和本地化）时，仍有可能在通用能力上与前沿模型竞争。",
+        "地址": "https://arxiv.org/pdf/2506.17080.pdf"
+    },
+    {
+        "名称": "2025 [2506.22753] Degradation-Modeled Multipath Diffusion for Tunable Metalens Photography.pdf",
+        "作者": "Jianing Zhang, Jiayi Zhu, Feiyu Ji, Xiaokang Yang, Xiaoyun Yuan",
+        "摘要": "摘要：金属透镜在超紧凑计算成像方面具有重大潜力，但由于复杂的光学退化和计算恢复困难而面临挑战。现有的方法通常依赖于精确的光学校准或大量配对数据集，这对于现实世界的成像系统来说并非易事。此外，推理过程缺乏控制往往会导致不希望的幻觉伪影。我们引入了退化建模的多路径扩散技术，用于可调金属透镜摄影，利用预训练模型中的强大自然图像先验，而不是大型数据集。我们的框架使用正、中性和负提示路径来平衡高频细节生成、结构保真度以及金属透镜特定退化的抑制，同时进行伪数据增强。一个可调解码器可以实现保真度与感知质量之间的受控权衡。此外，一个空间变化的退化感知注意力（SVDA）模块自适应地建模复杂的光学和传感器引起的退化。最后，我们设计并建造了一款用于现实世界验证的毫米级MetaCamera。大量结果表明，我们的方法优于最先进的方法，实现了高保真和清晰的图像重建。",
+        "地址": "https://arxiv.org/pdf/2506.22753.pdf"
+    }
+]
