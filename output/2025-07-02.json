@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2507.01006] GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning.pdf",
+        "作者": "GLM-V Team: Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Jiazheng Xu, Jiali Chen, Jing Chen, Jinhao Chen, Jinghao Lin, Jinjiang Wang, Junjie Chen, Leqi Lei, Letian Gong, Leyi Pan, Mingzhi Zhang, Qinkai Zheng, Sheng Yang, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Shangqin Tu, Shengbiao Meng, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Wenkai Li, Wei Jia, Xin Lyu, Xuancheng Huang, Yanling Wang, Yadong Xue, Yanfeng Wang, Yifan An, Yifan Du, Yiming Shi, Yiheng Huang, Yilin Niu, Yuan Wang, Yuanchang Yue, Yuchen Li, Yutao Zhang, Yuxuan Zhang, Zhanxiao Du, Zhenyu Hou, Zhao Xue, Zhengxiao Du, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang",
+        "摘要": "摘要：我们提出了GLM-4.1V-Thinking，这是一种为推动通用多模态理解与推理而设计的视觉语言模型（VLM）。在本报告中，我们分享了在开发以推理为中心的训练框架中的主要发现。我们首先通过大规模预训练开发了一个具有显著潜力的视觉基础模型，这无疑为最终性能设定了上限。然后，我们提出了基于课程采样的强化学习（RLCS）方法，以释放模型的全部潜力，从而在包括STEM问题解决、视频理解、内容识别、编码、定位、基于GUI的代理和长文档理解在内的各种任务中实现全面的能力提升。我们开源了GLM-4.1V-9B-Thinking，该模型在同等规模的模型中表现出最先进的性能。在对28个公开基准的全面评估中，我们的模型在几乎所有任务上都优于Qwen2.5-VL-7B，并且在18个基准上的表现与明显更大的Qwen2.5-VL-72B相当或更优。值得注意的是，GLM-4.1V-9B-Thinking在包括长文档理解和STEM推理在内的具有挑战性的任务中，相对于闭源模型如GPT-4o，展示出了竞争力或更优的性能，进一步突显其强大的能力。在https URL上发布了代码、模型和更多信息。\n\n关键字：视觉语言模型，多模态理解，推理，强化学习，课程采样\n\n作者: GLM-V团队: Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Jiazheng Xu, Jiali Chen, Jing Chen, Jinhao Chen, Jinghao Lin, Jinjiang Wang, Junjie Chen, Leqi Lei, Letian Gong, Leyi Pan, Mingzhi Zhang, Qinkai Zheng, Sheng Yang, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Shangqin Tu, Shengbiao Meng, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Wenkai Li, Wei Jia, Xin Lyu, Xuancheng Huang, Yanling Wang, Yadong Xue, Yanfeng Wang, Yifan An, Yifan Du, Yiming Shi, Yiheng Huang, Yilin Niu, Yuan Wang, Yuanchang Yue, Yuchen Li, Yutao Zhang, Yuxuan Zhang, Zhanxiao Du, Zhenyu Hou, Zhao Xue, Zhengxiao Du, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang\n\n标题: 2025 [2507.01006] GLM-4.1V-Thinking: 基于可扩展强化学习的多功能多模态推理",
+        "地址": "https://arxiv.org/pdf/2507.01006.pdf"
+    },
+    {
+        "名称": "2025 [2507.01001] SciArena: An Open Evaluation Platform for Foundation Models in Scientific Literature Tasks.pdf",
+        "作者": "Yilun Zhao, Kaiyan Zhang, Tiansheng Hu, Sihong Wu, Ronan Le Bras, Taira Anderson, Jonathan Bragg, Joseph Chee Chang, Jesse Dodge, Matt Latzke, Yixin Liu, Charles McGrady, Xiangru Tang, Zihang Wang, Chen Zhao, Hannaneh Hajishirzi, Doug Downey, Arman Cohan",
+        "摘要": "摘要: 我们介绍了SciArena，一个用于评估科学文献任务基础模型的开放协作平台。与传统的科学文献理解和合成基准不同，SciArena直接与研究社区互动，采用Chatbot Arena评价方法，通过社区投票对模型进行比较。通过利用集体智慧，SciArena在需要基于文献的长篇响应的开放式科学任务中提供社区驱动的模型性能评估。该平台目前支持23个开源和专有基础模型，已收集了来自不同科学领域的可信研究人员的超过13000票。我们分析了迄今为止收集的数据，确认提交的问题是多样的，与实际文献需求一致，参与研究人员在评估中展示了强自洽性和标注者间一致性。我们讨论了基于模型排名排行榜的结果和见解。为了进一步推动在文献任务中构建基于模型的自动评估系统的研究，我们发布了SciArena-Eval，这是一个基于我们收集的偏好数据的元评估基准。该基准通过比较模型对答案质量的成对评估与人工投票来衡量模型判断准确性。我们的实验突出了该基准的挑战，并强调了对更可靠的自动评估方法的需求。",
+        "地址": "https://arxiv.org/pdf/2507.01001.pdf"
+    },
+    {
+        "名称": "2025 [2507.00432] Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning.pdf",
+        "作者": "Maggie Huan, Yuetai Li, Tuney Zheng, Xiaoyu Xu, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue",
+        "摘要": "摘要: 数学推理已成为大型语言模型（LLMs）进步的典范，新模型在 MATH 和 AIME 等基准测试中迅速超越人类表现。但随着数学排行榜的周周提升，值得问的是：这些进步是否反映了更广泛的问题解决能力，还是仅仅是狭隘的过拟合？为了解答这个问题，我们在广泛的任务套件上评估了超过20个开放权重的推理调优模型，包括数学、科学问答、代理计划、编码和标准指令遵循。我们惊讶地发现，大多数在数学方面成功的模型未能将其优势转移到其他领域。为了严格研究这一现象，我们在Qwen3-14B模型上进行了使用仅数学数据但不同调优方法的控制实验。我们发现，强化学习（RL）调优的模型在各领域之间具有良好的泛化性能，而监督微调（SFT）调优的模型则常常忘记一般能力。潜在空间表示和令牌空间分布变化分析揭示，SFT引起了显著的表示和输出漂移，而RL则保留了一般领域结构。我们的结果表明，必须重新思考标准后训练方案，特别是依赖于SFT提炼数据来推进推理模型的发展。\n\n作者: Maggie Huan, Yuetai Li, Tuney Zheng, Xiaoyu Xu, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue\n\nURL: https://arxiv.org/pdf/2507.00432.pdf\n\n标题: 2025 [2507.00432] 数学推理是否能提高大型语言模型的总体能力？解析LLM推理的可转移性。",
+        "地址": "https://arxiv.org/pdf/2507.00432.pdf"
+    },
+    {
+        "名称": "2025 [2506.23115] MoCa: Modality-aware Continual Pre-training Makes Better Bidirectional Multimodal Embeddings.pdf",
+        "作者": "Haonan Chen, Hong Liu, Yuping Luo, Liang Wang, Nan Yang, Furu Wei, Zhicheng Dou",
+        "摘要": "摘要：多模态嵌入模型，基于因果视觉语言模型（VLMs），在各种任务中表现出潜力。然而，目前的方法存在三个主要局限性：在VLM骨干中使用因果注意力对于嵌入任务来说是次优的；由于依赖高质量标注的数据进行对比学习而导致的可扩展性问题；训练目标和数据的有限多样性。为了解决这些问题，我们提出了MoCa，一个用于将预训练VLM转化为有效的双向多模态嵌入模型的两阶段框架。第一阶段，模态感知的持续预训练，引入了一个联合重建目标，能够同时对交织的文本和图像输入进行去噪，从而增强双向上下文感知推理。第二阶段，异质对比微调，利用多样且语义丰富的多模态数据而不仅仅是简单的图像-标题对来增强泛化和对齐。我们的方法通过持续预训练引入双向注意力，利用联合重建目标有效扩展至大量未标注的数据，并利用多样的多模态数据来增强表示的鲁棒性，从而解决了上述局限性。实验表明，MoCa在MMEB和ViDoRe-v2基准测试中表现出稳定的性能提升，取得了新的最先进结果，并在MMEB中展示了随着模型大小和训练数据的强可扩展性。",
+        "地址": "https://arxiv.org/pdf/2506.23115.pdf"
+    },
+    {
+        "名称": "2025 [2506.19852] Radial Attention: $O(n\\log n)$ Sparse Attention with Energy Decay for Long Video Generation.pdf",
+        "作者": "Xingyang Li, Muyang Li, Tianle Cai, Haocheng Xi, Shuo Yang, Yujun Lin, Lvmin Zhang, Songlin Yang, Jinbo Hu, Kelly Peng, Maneesh Agrawala, Ion Stoica, Kurt Keutzer, Song Han",
+        "摘要": "摘要：最近扩散模型的进步使高质量的视频生成成为可能，但额外的时间维度显著增加了计算成本，使得长视频的训练和推理成本高昂。在本文中，我们识别出了一种现象，我们称之为视频扩散模型中的时空能量衰减：随着令牌之间空间和时间距离的增加，后softmax注意力分数逐渐减小，这类似于信号或波在自然中的空间和时间上的物理衰减。受此启发，我们提出了径向注意力，一种具有O(n log n)复杂度的可扩展稀疏注意力机制，将能量衰减转换为指数衰减的计算密度，这比标准的O(n^2)稠密注意力效率更高，比线性注意力更具表现力。具体来说，径向注意力采用了一个简单的静态注意力掩码，其中每个令牌关注空间上相邻的令牌，并随时间距离的增加注意窗口大小缩小。此外，它允许预训练的视频扩散模型通过高效的LoRA微调扩展其生成长度。大量实验表明，径向注意力在Wan2.1-14B、HunyuanVideo和Mochi 1上保持了视频质量，相较原始稠密注意力实现了最多1.9倍的加速。通过最少的调整，它使视频生成长度最多延长4倍，同时相比直接微调减少训练成本至多4.4倍，并相较稠密注意力推理加速至多3.7倍。\n\n作者：李星阳、李慕阳、蔡天乐、习浩城、杨硕、林玉君、张吕敏、杨松林、胡金波、彭凯利、阿格拉瓦拉、斯托伊卡、凯泽尔、韩松\n\n评论：代码：此https网址\n\n链接：https://arxiv.org/pdf/2506.19852.pdf\n\n标题：径向注意力：用于长视频生成的O(n log n)能量衰减稀疏注意力机制（2025 [2506.19852] Radial Attention: O(n log n) Sparse Attention with Energy Decay for Long Video Generation）\n",
+        "地址": "https://arxiv.org/pdf/2506.19852.pdf"
+    },
+    {
+        "名称": "2025 [2506.20639] DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation.pdf",
+        "作者": "Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang",
+        "摘要": "摘要：扩散大型语言模型（dLLM）是自回归（AR）模型的有力替代品，因为它们的去噪模型可以对整个序列操作。dLLM的全局规划和迭代优化特点对于代码生成尤其重要。然而，目前用于代码生成的dLLM训练和推理机制仍然未被充分探索。为了揭示dLLM的解码行为并释放其在编码方面的潜力，我们系统地研究了它们的去噪过程和强化学习（RL）方法。我们在1300亿代码标记上训练了一个7B参数的dLLM，**DiffuCoder**。通过这个模型作为测试平台，我们分析了其解码行为，揭示了与AR模型的不同之处：（1）dLLM可以决定自己的生成因果性而不依赖于半AR解码；（2）提高采样温度不仅使标记选择多样化，还使生成顺序多样化。这种多样性为RL扩展创造了丰富的搜索空间。为了减少标记对数似然估计的方差并保持训练效率，我们提出了**coupled-GRPO**，一种新颖的采样方案，利用训练中互补的掩码噪声进行完成。在实验中，coupled-GRPO显著提高了DiffuCoder在代码生成基准上的表现（在EvalPlus上提高了4.4%），减少了解码过程中对AR偏见的依赖。我们的工作深入了解了dLLM生成的机制，并提供了一种有效的扩散原生RL训练框架。\n",
+        "地址": "https://arxiv.org/pdf/2506.20639.pdf"
+    },
+    {
+        "名称": "2025 [2506.21277] HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context.pdf",
+        "作者": "Qize Yang, Shimin Yao, Weixuan Chen, Shenghao Fu, Detao Bai, Jiaxing Zhao, Boyuan Sun, Bowen Yin, Xihan Wei, Jingren Zhou",
+        "摘要": "摘要：随着多模态大型语言模型的快速发展，深入理解和解释人类意图已成为一种关键能力，需详细、慎重的推理。在最近的研究中，增强学习（RL）展现了提升大型语言模型（LLMs）推理能力的潜力。然而，将RL适应于多模态数据和格式的挑战仍未得到充分解决。本文中我们识别了现有多模态推理模型中的两个问题：全局上下文理解不足和捷径问题。上下文理解不足发生在模型误解多模态上下文，导致错误答案。捷径问题则是模型忽略多模态输入中的重要线索，直接回答查询而未考虑多模态信息。为解决这些问题，我们强调模型需要在多模态输入的全局上下文内进行清晰的推理理解。这种全局上下文理解可以有效防止模型忽略重要的多模态线索，保证彻底的推理过程。为了确保准确解释多模态上下文信息，我们实施了一种由大型语言模型判定的上下文奖励，同时有格式和准确性奖励。此外，为提升复杂推理能力，我们使用LLM评估逻辑奖励，确定推理过程是否成功整合了多模态信息和逻辑方法。我们还引入了一个推理全模态基准，IntentBench，旨在评估模型理解复杂人类意图和情感的能力。我们的提出的方法在多个全模态基准上展现了相比其他开源全模态模型的先进性能。\n\n作者：杨启泽，姚世敏，陈威轩，傅胜浩，白德涛，赵家兴，孙泊元，尹博文，卫熙瀚，周竞人\n\n链接：https://arxiv.org/pdf/2506.21277.pdf\n\n标题：2025 [2506.21277] HumanOmniV2: 从理解到具有上下文的全模态推理",
+        "地址": "https://arxiv.org/pdf/2506.21277.pdf"
+    },
+    {
+        "名称": "2025 [2507.00951] Thinking Beyond Tokens: From Brain-Inspired Intelligence to Cognitive Foundations for Artificial General Intelligence and its Societal Impact.pdf",
+        "作者": "Rizwan Qureshi, Ranjan Sapkota, Abbas Shah, Amgad Muneer, Anas Zafar, Ashmal Vayani, Maged Shoman, Abdelrahman B. M. Eldaly, Kai Zhang, Ferhat Sadak, Shaina Raza, Xinqi Fan, Ravid Shwartz-Ziv, Hong Yan, Vinjia Jain, Aman Chadha, Manoj Karkee, Jia Wu, Philip Torr, Seyedali Mirjalili",
+        "摘要": "摘要: 机器能否真正像人类一样在各领域进行思考、推理和行动？这个持久的问题继续塑造着人工通用智能（AGI）的追求。尽管诸如GPT-4.5、DeepSeek、Claude 3.5 Sonnet、Phi-4和Grok 3等模型展现了多模态流畅性和部分推理能力，这些系统仍然由于依赖于基于token的预测和缺乏基础性的代理行为而受到根本限制。本文提供了跨学科的AGI发展综述，涵盖人工智能、认知神经科学、心理学、生成模型和基于代理的系统。我们分析了通用智能的架构和认知基础，强调了模块化推理、持久记忆以及多代理协调的角色。尤其是，我们强调了Agentic RAG框架的兴起，这些框架结合了检索、规划和动态工具使用，使行为更具适应性。我们讨论了泛化策略，包括信息压缩、测试时适应和无训练方法，作为实现灵活、领域无关智能的关键路径。视觉语言模型（VLMs）不仅被重新审视为感知模块，而且作为体识理解和协作任务完成的演变界面。我们还认为，真正的智能并非仅仅源于规模，而是来自记忆和推理的整合：模块化、互动和自我改进组件的协同，其中压缩使适应行为成为可能。借助神经符号系统、强化学习和认知支架的进展，我们探讨了最近的架构如何开始弥合统计学习和目标导向认知之间的差距。最后，我们指出了通向AGI的关键科学、技术和伦理挑战。\n\n作者: Rizwan Qureshi, Ranjan Sapkota, Abbas Shah, Amgad Muneer, Anas Zafar, Ashmal Vayani, Maged Shoman, Abdelrahman B. M. Eldaly, Kai Zhang, Ferhat Sadak, Shaina Raza, Xinqi Fan, Ravid Shwartz-Ziv, Hong Yan, Vinjia Jain, Aman Chadha, Manoj Karkee, Jia Wu, Philip Torr, Seyedali Mirjalili\n\n链接: https://arxiv.org/pdf/2507.00951.pdf\n\n标题: 2025 [2507.00951] 超越Token的思考：从脑启发的智能到人工通用智能及其社会影响的认知基础",
+        "地址": "https://arxiv.org/pdf/2507.00951.pdf"
+    },
+    {
+        "名称": "2025 [2507.00339] Training for X-Ray Vision: Amodal Segmentation, Amodal Content Completion, and View-Invariant Object Representation from Multi-Camera Video.pdf",
+        "作者": "Alexander Moore, Amar Saini, Kylie Cancilla, Doug Poland, Carmen Carrano",
+        "摘要": "摘要：模态分割和模态内容完成需要使用对象先验知识来估计在复杂场景中被遮挡的对象的掩膜和特征。迄今为止，还没有数据提供对象上下文的额外维度：多个相机共享同一场景视图的可能性。我们介绍MOVi-MC-AC：多对象视频与多摄像头和模态内容，这是迄今为止最大的模态分割数据集和首个模态内容数据集。模拟的多摄像头视频展示了常见家庭物品的杂乱场景。MOVi-MC-AC通过向计算机视觉深度学习领域引入两个新贡献，促进了对象检测、跟踪和分割的相关研究。多个摄像头（MC）设置中，对象可以在不同独特相机视角之间识别和跟踪，这在合成和真实视频中都很少见。我们通过提供在单个场景中多个相机之间的一致对象ID检测和分割，以及每个相机特有的特征和运动模式，为合成视频引入了一种新复杂度。模态内容（AC）是一种恢复性任务，其中模型通过遮挡预测目标对象的外观。在模态分割文献中，一些数据集已经发布，包括模态检测、跟踪和分割标签。而其他方法依赖于缓慢的剪切和粘贴方案生成模态内容伪标签，但它们没有考虑存在于模态掩膜中的自然遮挡。MOVi-MC-AC提供了约580万个对象实例的标签，刷新了模态数据集文献中的最高记录，同时也是第一个提供真实模态内容的数据集。完整数据集可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2507.00339.pdf"
+    },
+    {
+        "名称": "2025 [2506.21545] Data Efficacy for Language Model Training.pdf",
+        "作者": "Yalun Dai, Yangyu Huang, Xin Zhang, Wenshan Wu, Chong Li, Wenhui Lu, Shijie Cao, Li Dong, Scarlett Li",
+        "摘要": "摘要: 数据是训练语言模型 (LM) 的基础。近年来的研究致力于数据效率，旨在通过选择最小或最佳的训练数据子集来最大化性能。数据过滤、采样和选择等技术在这一领域发挥着重要作用。作为补充，我们定义了数据效能，其侧重于通过优化训练数据的组织来最大化性能，这方面相对未被深入研究。本文介绍了一种考虑LM训练中数据效能的一般范式 DELT，强调了训练数据组织的重要性。DELT 包含三个组成部分：数据评分、数据选择和数据排序。在这些组成部分中，我们设计了一个新的数据评分实例——可学习性-质量评分（LQS），它从梯度一致性的角度同时考虑了每个数据样本的可学习性和质量。我们还设计了一个新的数据排序实例——折叠排序（FO），解决了模型遗忘和数据分布偏差等问题。全面的实验验证了 LM 训练中的数据效能，结果表明：首先，所提出的 DELT 的各种实例在不增加数据规模和模型大小的情况下提高了 LM 的性能；其次，在这些实例中，我们提出的 LQS 数据评分和 FO 数据排序的组合实现了最显著的改进；最后，结合数据选择可以同时实现数据效能和数据效率。因此，我们相信数据效能是 LM 训练中的一个有前景的基础领域。",
+        "地址": "https://arxiv.org/pdf/2506.21545.pdf"
+    },
+    {
+        "名称": "2025 [2506.23009] MusiXQA: Advancing Visual Music Understanding in Multimodal Large Language Models.pdf",
+        "作者": "Jian Chen, Wenye Ma, Penghang Liu, Wei Wang, Tengwei Song, Ming Li, Chenguang Wang, Ruiyi Zhang, Changyou Chen",
+        "摘要": "摘要: 多模态大型语言模型（MLLMs）在自然图像、富文本文档和图形设计的视觉推理能力上取得了显著成就。然而，它们解释乐谱的能力仍未得到充分探索。为了缩小这一差距，我们介绍了MusiXQA，这是首个评估和提升MLLMs在乐谱理解方面的综合数据集。MusiXQA提供了通过MusiXTeX生成的高质量合成乐谱，具有涵盖音符音高和时值、和弦、谱号、调号/拍号以及文本的结构化注释，能够支持各种视觉问答任务。通过广泛评估，我们揭示了当前最先进的MLLMs在这个领域的显著局限性。除了基准测试外，我们还开发了Phi-3-MusiX，这是一款在我们的数据集上进行微调的MLLM，在性能上显著优于基于GPT的方法。所提出的数据集和模型为未来在乐谱理解方面的MLLMs的进步奠定了基础。在接收后代码、数据和模型将会公开。",
+        "地址": "https://arxiv.org/pdf/2506.23009.pdf"
+    },
+    {
+        "名称": "2025 [2507.00162] FreeLong++: Training-Free Long Video Generation via Multi-band SpectralFusion.pdf",
+        "作者": "Yu Lu, Yi Yang",
+        "摘要": "摘要：视频生成模型的最新进展已经能够从文本提示生成高质量短视频。然而，将这些模型扩展到更长的视频仍然是一个重大挑战，主要是由于时间一致性和视觉保真度的下降。我们初步观察表明，将短视频生成模型简单地应用于较长的序列会导致明显的质量下降。进一步分析发现，高频分量随着视频长度的增加而越来越变形，我们称这一问题为高频畸变。为了解决这一问题，我们提出了FreeLong，一个在去噪过程中平衡长视频特征频率分布的无训练框架。FreeLong通过混合捕捉整个视频整体语义的全局低频特征和从短时窗中提取的局部高频特征来保存细节。在此基础上，FreeLong++将FreeLong的双分支设计扩展到多分支架构，每个分支在不同的时间尺度上运行。通过排列从全局到局部的多个窗口大小，FreeLong++实现了从低到高频率的多带频率融合，确保了较长视频序列中的语义连续性和细粒度运动动态。在无需额外训练的情况下，FreeLong++可以插入现有的视频生成模型（如Wan2.1和LTX-Video），生成具有显著改善的时间一致性和视觉保真度的长视频。我们证明了我们的方法在长视频生成任务（如本机长度的4倍和8倍）上优于以前的方法。它还支持具有平滑场景过渡的连贯多提示视频生成，并使用长深度或姿势序列实现可控视频生成。",
+        "地址": "https://arxiv.org/pdf/2507.00162.pdf"
+    },
+    {
+        "名称": "2025 [2506.23329] IR3D-Bench: Evaluating Vision-Language Model Scene Understanding as Agentic Inverse Rendering.pdf",
+        "作者": "Parker Liu, Chenxin Li, Zhengxin Li, Yipeng Wu, Wuyang Li, Zhiqin Yang, Zhenyuan Zhang, Yunlong Lin, Sirui Han, Brandon Y. Feng",
+        "摘要": "摘要:\n视觉-语言模型（VLMs）在描述性任务中表现出色，但它们是否真的能从视觉观察中理解场景仍然不确定。我们提出了IR3D-Bench，这个基准通过主动创作而不是被动识别来挑战VLMs以展示理解。基于分析-综合范式，IR3D-Bench任务要求视觉-语言代理（VLAs）主动使用编程和渲染工具来重建输入图像的底层三维结构，通过工具使用实现代理的反向渲染。这种“通过创作理解”的方法探索了VLAs的工具使用生成能力，超越了传统场景理解基准测量的描述性或对话能力。我们提供了一套综合指标来评估几何精度、空间关系、外观属性和整体合理性。初步实验中由各种最先进的VLMs驱动的代理反向渲染突出了当前的局限，特别是在视觉精度方面，而不是基本的工具使用。IR3D-Bench，包括数据和评估协议，已经发布，以促进系统研究和开发工具使用的VLAs，以便通过创作实现真正的场景理解。\n\n翻译为中文：\n摘要：视觉语言模型（VLMs）擅长描述性任务，但它们能否真正通过视觉观察来理解场景仍然不确定。我们引入IR3D-Bench，这是一个基准，挑战VLMs通过主动创作而不是被动识别来展示对场景的理解。IR3D-Bench任务要求视觉语言代理（VLAs）主动使用编程和渲染工具重新创建输入图像的基础3D结构，通过工具使用来实现代理的逆向渲染。这种“通过创作来理解”的方法探索了VLAs使用工具进行生成的能力，超越了传统场景理解基准测量的描述或对话能力。我们提供了一套全面的指标来评估几何精度、空间关系、外观属性和整体合理性。各种最先进的VLMs支持的代理逆向渲染的初步实验突出了当前的局限，特别是在视觉精度而不是基本工具使用方面。IR3D-Bench，包括数据和评估协议，已发布以促进系统研究和开发使用工具的VLAs朝着通过创作真正理解场景的方向发展。",
+        "地址": "https://arxiv.org/pdf/2506.23329.pdf"
+    },
+    {
+        "名称": "2025 [2506.22960] Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images.pdf",
+        "作者": "Shreyas Dixit, Ashhar Aziz, Shashwat Bajpai, Vasu Sharma, Aman Chadha, Vinija Jain, Amitava Das",
+        "摘要": "摘要：欧洲联盟执法机构的报告预测，到2026年，网上内容有可能有高达90%为人工合成生成，引起政策制定者的关注。他们警告称“生成式人工智能可能成为政治虚假信息的倍增力量。生成文本、图像、视频和音频的组合效果可能超过任何单一模态的影响力。”对此，加利福尼亚州的AB 3211法案要求对人工智能生成的图像、视频和音频进行水印标记。然而，关于不可见水印技术容易被篡改的担忧仍然存在，并且存在恶意行为者完全绕过这些技术的可能性。基于生成式人工智能的去水印攻击，尤其是新提出的视觉释义攻击，已经表明能够完全去除水印，从而产生原始图像的释义。本文介绍了PECCAVI，这是一种抵御视觉释义攻击且无失真的图像水印技术。在视觉释义攻击中，图像被修改但保留其核心语义区域，称为非熔点（NMPs）。PECCAVI策略性地在这些NMPs中嵌入水印，并采用多通道频域水印技术。此外，它还结合了噪声抛光，以对抗定位NMPs的逆向工程努力，破坏嵌入水印，从而增强耐久性。PECCAVI与模型无关。所有相关资源和代码将开源。\n\n作者：Shreyas Dixit, Ashhar Aziz, Shashwat Bajpai, Vasu Sharma, Aman Chadha, Vinija Jain, Amitava Das\n\n链接：https://arxiv.org/pdf/2506.22960.pdf\n\n标题：2025 [2506.22960] Peccavi: AI生成图像的视觉释义攻击安全且无失真的图像水印技术",
+        "地址": "https://arxiv.org/pdf/2506.22960.pdf"
+    },
+    {
+        "名称": "2025 [2507.00606] Mixture of Reasonings: Teach Large Language Models to Reason with Adaptive Strategies.pdf",
+        "作者": "Tao Xiong, Xavier Hu, Wenyan Fan, Shengyu Zhang",
+        "摘要": "摘要: 大型语言模型 (LLMs) 通过链式思维 (CoT) 和树式思维 (ToT) 等高级提示技术在复杂任务中表现出色，但它们对手工制作的任务特定提示的依赖限制了适应性和效率。我们提出了推理混合 (MoR)，一种嵌入多样化推理策略的训练框架，用于自主、任务适应型推理，无需外部提示工程。MoR有两个阶段：思维生成，利用模型如GPT-4o创建推理链模板，以及SFT数据集构建，将模板与基准数据集配对进行监督实验。实验表明MoR显著提升性能，使用CoT提示的MoR150达到0.730（提升2.2%），相比基线提升13.5%的为0.734。MoR消除了任务特定提示的需要，提供了一个在不同任务中进行强大的推理能力的可推广解决方案。",
+        "地址": "https://arxiv.org/pdf/2507.00606.pdf"
+    },
+    {
+        "名称": "2025 [2506.24019] Ella: Embodied Social Agents with Lifelong Memory.pdf",
+        "作者": "Hongxin Zhang, Zheyuan Zhang, Zeyuan Wang, Zunzhe Zhang, Lixing Fang, Qinhong Zhou, Chuang Gan",
+        "摘要": "摘要: 我们介绍了Ella，一个具备终身学习能力的具身社会代理体，它能够在一个3D开放世界的社区中生活，其中代理体通过日常视觉观察和社会互动积累经验和获取知识。Ella能力的核心是一个结构化的长期多模态记忆系统，该系统能够有效地存储、更新和检索信息。它包括一个以名称为中心的语义记忆，用于组织获取的知识，以及一个时空情景记忆，用于捕捉多模态体验。通过将这种终身记忆系统与基础模型结合，Ella能够检索决策所需的相关信息，计划日常活动，建立社会关系，并在与其他智能生命体共存时自主进化。我们在一个动态的3D开放世界中进行了能力导向的评估，其中15个代理体进行为期数天的社交活动，并通过一套前所未见的控制评估进行评估。实验结果表明，Ella能够很好地影响、领导和与其他代理体合作以实现目标，展示了其通过观察和社会互动有效学习的能力。我们的研究发现强调了将结构化记忆系统与基础模型结合在一起以推动具身智能发展的变革潜力。\n\n更多视频资料可以在此：https URL.",
+        "地址": "https://arxiv.org/pdf/2506.24019.pdf"
+    },
+    {
+        "名称": "2025 [2507.00476] FreNBRDF: A Frequency-Rectified Neural Material Representation.pdf",
+        "作者": "Chenliang Zhou, Zheyuan Hu, Cengiz Oztireli",
+        "摘要": "摘要: 准确的材料建模对于实现照片级真实感渲染是至关重要的，它弥合了计算机生成图像与真实世界照片之间的差距。虽然传统方法依赖于制表的BRDF（双向反射分布函数）数据，但最近的工作已经转向隐式神经表示，这为一系列任务提供了紧凑而灵活的框架。然而，它们在频域中的行为仍然知之甚少。为了解决这一问题，我们引入了FreNBRDF，一种频率校正的神经材料表示。通过利用球谐函数，我们将频域考虑因素整合到神经BRDF建模中。我们提出了一种新颖的频率校正损失，该损失继承自对神经材料的频率分析，并将其纳入一个可普遍化和自适应的重建和编辑管道中。这个框架增强了保真度、适应性和效率。广泛的实验表明，FreNBRDF在材料外观重建和编辑的准确性和鲁棒性方面优于最先进的基准，实现了更有结构性和可解释性的后续任务和应用。\n\n作者: 周辰良, 胡哲远, Cengiz Oztireli\n\n链接: https://arxiv.org/pdf/2507.00476.pdf\n\n标题: 2025 [2507.00476] FreNBRDF: A Frequency-Rectified Neural Material Representation.pdf",
+        "地址": "https://arxiv.org/pdf/2507.00476.pdf"
+    },
+    {
+        "名称": "2025 [2506.22973] Confident Splatting: Confidence-Based Compression of 3D Gaussian Splatting via Learnable Beta Distributions.pdf",
+        "作者": "AmirHossein Naghi Razlighi, Elaheh Badali Golezani, Shohreh Kasaei",
+        "摘要": "摘要：3D高斯点阵技术能够实现高质量的实时渲染，但通常会生成数以百万计的点阵，导致存储和计算开销过大。我们提出了一种基于可学习置信度评分的新型有损压缩方法，该评分以Beta分布建模。每个点阵的置信度通过基于重构感知的损失进行优化，从而在保留视觉保真度的同时修剪低置信度点阵。所提出的方法与架构无关，可以应用于任何高斯点阵变体。此外，平均置信度值作为评估场景质量的新指标。大量实验表明，与之前的工作相比，在压缩和保真度之间实现了有利的权衡。我们的代码和数据公开可用。",
+        "地址": "https://arxiv.org/pdf/2506.22973.pdf"
+    }
+]
