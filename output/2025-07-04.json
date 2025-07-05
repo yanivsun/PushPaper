@@ -1,0 +1,104 @@
+[
+    {
+        "名称": "2025 [2507.02592] WebSailor: Navigating Super-human Reasoning for Web Agent.pdf",
+        "作者": "Kuan Li, Zhongwang Zhang, Huifeng Yin, Liwen Zhang, Litu Ou, Jialong Wu, Wenbiao Yin, Baixuan Li, Zhengwei Tao, Xinyu Wang, Weizhou Shen, Junkai Zhang, Dingchu Zhang, Xixi Wu, Yong Jiang, Ming Yan, Pengjun Xie, Fei Huang, Jingren Zhou",
+        "摘要": "摘要：超越人类认知极限是大型语言模型（LLM）训练的关键前沿领域。像DeepResearch这样的专有代理系统在极其复杂的信息获取基准测试（如BrowseComp）上表现出超人的能力，这在以前是无法实现的。我们认为，他们的成功依赖于一种开源模型所缺乏的复杂推理模式：在广泛的信息背景中系统减少极端不确定性的能力。基于这一见解，我们引入了WebSailor，一种完整的后训练方法，旨在灌输这一关键能力。我们的方法包括通过结构化采样和信息模糊化来生成新颖的高不确定性任务、基于RFT的冷启动以及一种高效的代理强化学习（RL）训练算法：重复采样策略优化（DUPO）。借助这一集成管道，WebSailor在复杂信息获取任务中显著优于所有开源代理，匹敌专有代理的性能，缩小了能力差距。",
+        "地址": "https://arxiv.org/pdf/2507.02592.pdf"
+    },
+    {
+        "名称": "2025 [2507.02813] LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion.pdf",
+        "作者": "Fangfu Liu, Hao Li, Jiawei Chi, Hanyang Wang, Minghui Yang, Fudong Wang, Yueqi Duan",
+        "摘要": "摘要：从二维图像中恢复具有开放词汇场景理解的三维结构是一个基本且艰巨的任务。最近的开发已经通过嵌入语言信息进行每场景优化实现了这一目标。然而，当前方法严重依赖于校准的密集视图重建模式，在视图有限时易遭受严重的渲染伪影和不合理的语义合成。在本文中，我们介绍了一种新颖的生成框架，命名为LangScene-X，用于统一和生成三维一致的多模态信息，以进行重建和理解。通过生成更多一致的新观察的能力，我们可以从仅有稀疏视图中构建可推广的嵌入语言的三维场景。具体来说，我们首先训练了一个TriMap视频扩散模型，该模型能够通过渐进知识整合从稀疏输入生成外观（RGB）、几何（法线）和语义（分割图）。此外，我们提出了一个语言量化压缩器（LQC），在大规模图像数据集上进行训练，以高效编码语言嵌入，使得跨场景泛化无需每场景重新训练。最后，我们通过将语言信息对齐到三维场景的表面上重建语言表面场，支持开放式语言查询。广泛的真实数据实验表明，我们的LangScene-X在质量和泛化性方面优于现有的最先进方法。\n\n项目页面：此 https URL。",
+        "地址": "https://arxiv.org/pdf/2507.02813.pdf"
+    },
+    {
+        "名称": "2025 [2507.02321] Heeding the Inner Voice: Aligning ControlNet Training via Intermediate Features Feedback.pdf",
+        "作者": "Nina Konovalova, Maxim Nikolaev, Andrey Kuznetsov, Aibek Alanov",
+        "摘要": "摘要: 尽管文本生成图像扩散模型取得了显著进展，但对生成输出的精确空间控制仍然具有挑战性。ControlNet通过引入一个辅助调控模块解决了这一问题，而ControlNet++通过对最终去噪步骤应用循环一致性损失进一步优化了对齐。然而，这种方法忽略了中间生成阶段，限制了其效果。我们提出了InnerControl，一种在所有扩散步骤中强制空间一致性的训练策略。我们的方法训练轻量级卷积探测器，从每一步去噪过程中的中间UNet特征重建输入控制信号（例如边缘、深度）。这些探测器能够有效地从高度噪声的潜变量中提取信号，使得训练中可以使用伪真实控制信号。通过最小化整个扩散过程中的预测条件与目标条件之间的差异，我们的对齐损失提高了控制的精度和生成质量。结合ControlNet++等已有技术，InnerControl在多种调控方法（例如边缘、深度）中达到了最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2507.02321.pdf"
+    },
+    {
+        "名称": "2025 [2507.02025] IntFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction.pdf",
+        "作者": "The IntFold Team: Leon Qiao, Wayne Bai, He Yan, Gary Liu, Nova Xi, Xiang Zhang",
+        "摘要": "摘要：我们介绍了IntFold，一种可控的基础模型，用于普遍和专门的生物分子结构预测。IntFold展示了与最先进的AlphaFold3相当的预测准确度，同时使用了优越的定制注意力内核。除了标准结构预测之外，IntFold还可以通过使用个别适配器预测别构状态、约束结构和结合亲和力。此外，我们引入了一种新的置信头来估算对接质量，为抗体-抗原复合物等具有挑战性的目标提供更细致的评估。最后，我们分享了在这个计算密集型模型训练过程中获得的见解。",
+        "地址": "https://arxiv.org/pdf/2507.02025.pdf"
+    },
+    {
+        "名称": "2025 [2507.01352] Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy.pdf",
+        "作者": "Chris Yuhao Liu, Liang Zeng, Yuzhen Xiao, Jujie He, Jiacai Liu, Chaojie Wang, Rui Yan, Wei Shen, Fuxiang Zhang, Jiacheng Xu, Yang Liu, Yahui Zhou",
+        "摘要": "摘要：尽管奖励模型（RMs）在人类反馈强化学习（RLHF）中发挥着至关重要的作用，但目前最先进的开放奖励模型在大多数现有评估基准上表现较差，未能捕捉到人类偏好的细微和复杂光谱。即使采用先进的训练技术，表现也没有显著改善。我们假设这种脆弱性主要源于偏好数据集的局限性，通常范围狭窄、标签合成或缺乏严格的质量控制。为了解决这些挑战，我们提出了一个包含4000万对偏好数据的大规模偏好数据集，名为SynPref-40M。为实现规模化数据整理，我们设计了一个人类与AI协同的两阶段流程，利用人类注释质量和AI可扩展性的互补优势。在这个流程中，人类提供验证过的注释，而大型语言模型则根据人类指导进行自动整理。基于这一偏好混合进行训练，我们推出了Skywork-Reward-V2，一组包含8个奖励模型，参数范围从0.6B到8B，训练数据来自SynPref-40M中精心整理的2600万对偏好数据。我们证明了Skywork-Reward-V2在广泛的能力范围内具有通用性，包括与人类偏好的一致性、客观正确性、安全性、抗风格偏见和最佳N级扩展性，在七大主要奖励模型基准上实现了最先进的表现。消融研究证实了我们方法的有效性不仅来自数据规模，还来自高质量的整理。Skywork-Reward-V2系列代表了开放奖励模型的重大进展，突显了现有偏好数据集未开发的潜力，并展示了人类与AI协同整理如何能够显著提高数据质量。\n\n作者：Chris Yuhao Liu, Liang Zeng, Yuzhen Xiao, Jujie He, Jiacai Liu, Chaojie Wang, Rui Yan, Wei Shen, Fuxiang Zhang, Jiacheng Xu, Yang Liu, Yahui Zhou\n链接：https://arxiv.org/pdf/2507.01352.pdf\n标题：2025 [2507.01352] Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy.pdf",
+        "地址": "https://arxiv.org/pdf/2507.01352.pdf"
+    },
+    {
+        "名称": "2025 [2506.23918] Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers.pdf",
+        "作者": "Zhaochen Su, Peng Xia, Hangyu Guo, Zhenhua Liu, Yan Ma, Xiaoye Qu, Jiaqi Liu, Yanshu Li, Kaide Zeng, Zhengyuan Yang, Linjie Li, Yu Cheng, Heng Ji, Junxian He, Yi R. Fung",
+        "摘要": "摘要: 最近在多模态推理方面的进展显著受到文本链式思维（CoT）的推动，这是一种模型在语言内进行推理的范式。然而，这种以文本为中心的方法将视觉视为静态的初始背景，导致了丰富的感知数据和离散符号思维之间的“语义鸿沟”。人类认知常常超越语言，利用视觉作为动态的心智素描板。类似的演变现在正在人工智能中展开，标志着从仅仅思考图像的模型到真正能够通过图像进行思考的根本范式转变。这种新兴范式的特征是模型将视觉信息作为思维过程中的中间步骤，从而将视觉从被动输入转变为动态的、可操作的认知工作空间。在这项调查中，我们绘制了智能沿着日益增加的认知自主性的演变轨迹，该轨迹分为三个关键阶段：从外部工具探索、通过编程操控到内在想象。为了构建这一快速发展的领域，我们的调查做出了四个关键贡献。（1）我们确立了通过图像思考这一范式的基本原则及其三个阶段框架。（2）我们对代表这一路线图每个阶段的核心方法进行了全面回顾。（3）我们分析了评估基准和变革性应用的关键领域。（4）我们识别了重大的挑战并概述了未来有前景的方向。通过提供这段结构化的概述，我们旨在为未来更强大且与人类对齐的多模态人工智能研究提供清晰的路线图。",
+        "地址": "https://arxiv.org/pdf/2506.23918.pdf"
+    },
+    {
+        "名称": "2025 [2507.02754] Fast and Simplex: 2-Simplicial Attention in Triton.pdf",
+        "作者": "Aurko Roy, Timothy Chou, Sai Surya Duvvuri, Sijia Chen, Jiecao Yu, Xiaodong Wang, Manzil Zaheer, Rohan Anil",
+        "摘要": "摘要: 最近的研究表明，训练损失随着模型大小和语料数量的增加呈幂律关系，并且为了实现计算最优化模型，需要同时增加模型大小和语料数量。然而，这些缩放规律假设数据供应是无限的，并且主要适用于计算受限的情况。随着现代大型语言模型越来越依赖于海量的互联网规模数据集，假设它们是计算受限的变得越来越不符合现实。这一转变突出了需要优先考虑语料效率的架构。在这项工作中，我们研究了使用2-单纯形Transformer，这是一种通过有效的Triton内核实现将标准点积注意力推广到三线性函数的架构。我们证明了2-单纯形Transformer相比标准Transformer具有更好的语料效率：在固定的语料预算下，类似大小的模型在涉及数学、编码、推理和逻辑的任务上表现优于其点积对应模型。我们通过展示与点积注意力相比，2-单纯形注意力在知识和推理任务中的缩放规律指数变化来量化这些收益。\n\n翻译为中文。",
+        "地址": "https://arxiv.org/pdf/2507.02754.pdf"
+    },
+    {
+        "名称": "2025 [2507.02652] Decoupled Planning and Execution: A Hierarchical Reasoning Framework for Deep Search.pdf",
+        "作者": "Jiajie Jin, Xiaoxi Li, Guanting Dong, Yuyao Zhang, Yutao Zhu, Yang Zhao, Hongjin Qian, Zhicheng Dou",
+        "摘要": "摘要：现实世界的搜索场景中的复杂信息需求需要在不同来源之间进行深度推理和知识综合，这对于传统的检索增强生成（RAG）管道来说是一个巨大的挑战。当前基于推理的方法存在一个根本限制：它们使用单一模型来处理高层次规划和详细执行，导致推理低效和可扩展性有限。在本文中，我们介绍了一个层次框架HiRA，它将战略规划和专业执行分开。我们的方法将复杂的搜索任务分解为专注的子任务，将每个子任务分配给配备有外部工具和推理能力的领域特定代理，并通过一个结构化的整合机制协调结果。这样的分离防止了执行细节干扰高层次推理，同时使系统能够利用不同类型信息处理的专业知识。在四个复杂的跨模态深度搜索基准上的实验表明，HiRA显著优于最先进的RAG和基于代理的系统。我们的结果表明，无论是答案质量还是系统效率都得到了提高，突显了分离规划和执行对于多步信息搜索任务的有效性。我们的代码已在此https URL提供。\n\n作者：金佳杰、李晓希、董冠廷、张雨尧、朱雨涛、赵阳、钱鸿瑾、窦志成\n\n评论：9页\n\n链接：[https://arxiv.org/pdf/2507.02652.pdf](https://arxiv.org/pdf/2507.02652.pdf)\n\n标题：2025 [2507.02652] 分离规划和执行：深度搜索的层次推理框架",
+        "地址": "https://arxiv.org/pdf/2507.02652.pdf"
+    },
+    {
+        "名称": "2025 [2507.02726] Bourbaki: Self-Generated and Goal-Conditioned MDPs for Theorem Proving.pdf",
+        "作者": "Matthieu Zimmer, Xiaotong Ji, Rasul Tutunov, Anthony Bordg, Jun Wang, Haitham Bou Ammar",
+        "摘要": "摘要：推理对于大型语言模型（LLMs）来说仍然是一个具有挑战性的任务，特别是在自动定理证明（ATP）的逻辑约束环境中，由于稀疏的奖励和大规模的证明。这些挑战在像PutnamBench这样的基准测试中尤为明显，该基准包含需要复杂的多步推理的大学水平问题。为了解决这个问题，我们引入了自生成目标条件马尔可夫决策过程（sG-MDPs），这是一个新的框架，其中代理根据不断变化的证明状态生成并追求其子目标。鉴于这种更结构化的目标生成，问题变得更适合搜索。然后我们应用类似蒙特卡洛树搜索（MCTS）的算法来解决sG-MDP，把我们的方法实例化在Bourbaki（7B）中，这是一个模块化系统，可以组合多个7B LLM用于子目标生成和策略合成。在PutnamBench上，Bourbaki（7B）解决了26个问题，以这种规模的模型实现了新的最先进成果。\n\n作者：Matthieu Zimmer, Xiaotong Ji, Rasul Tutunov, Anthony Bordg, Jun Wang, Haitham Bou Ammar\n\nURL: https://arxiv.org/pdf/2507.02726.pdf\n\n标题: 2025 [2507.02726] Bourbaki: Self-Generated and Goal-Conditioned MDPs for Theorem Proving.pdf",
+        "地址": "https://arxiv.org/pdf/2507.02726.pdf"
+    },
+    {
+        "名称": "2025 [2507.02694] Can LLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation on AI Research Papers.pdf",
+        "作者": "Zhijian Xu, Yilun Zhao, Manasi Patwardhan, Lovekesh Vig, Arman Cohan",
+        "摘要": "摘要：同行评审是科学研究的基础，但越来越多的出版物加剧了这一需要专业知识的过程的挑战。虽然大型语言模型（LLM）在各种科学任务中展示出潜力，但它们在协助同行评审，尤其是识别论文局限性方面的潜力尚未得到充分研究。我们首先提出了一个全面的科学研究局限性类型分类法，重点关注人工智能领域。在该分类法的指导下，我们研究了局限性，并提出了LimitGen，这是第一个全面评估LLM支持早期反馈并补充人工同行评审能力的基准。我们的基准包括两个子集：LimitGen-Syn，一个通过对高质量论文进行控制扰动精心创建的合成数据集，以及LimitGen-Human，一个真实的人类编写的局限性集合。为了提高LLM系统识别局限性的能力，我们增加了文献检索，这对于基于先前科学发现来识别局限性至关重要。我们的方法增强了LLM系统在研究论文中生成局限性的能力，使其能够提供更具体和建设性的反馈。",
+        "地址": "https://arxiv.org/pdf/2507.02694.pdf"
+    },
+    {
+        "名称": "2025 [2507.02778] Self-Correction Bench: Revealing and Addressing the Self-Correction Blind Spot in LLMs.pdf",
+        "作者": "Ken Tsui",
+        "摘要": "摘要：虽然大型语言模型（LLMs）已经具有变革性，但它们仍然会犯错误，并且可能会探索无效的推理路径。自我修正对于一个值得信赖的LLM，尤其是自回归LLM，是一项重要能力。尽管LLMs可以识别用户输入中的错误，但它们表现出系统性的“自我修正盲点”——未能纠正其自身输出中的相同错误。为了系统地研究这一现象，我们引入了自我修正基准，这是一种通过在三个复杂度级别进行受控错误注入来衡量这一现象的系统框架。测试了14个模型后，我们发现平均盲点率为64.5%。我们发现多个证据表明这种限制与训练数据的组成有关：人类训练示范主要显示无错误的响应，而不是错误修正序列，这与通过结果反馈学习错误修正的强化学习（RL）训练模型不同。值得注意的是，简单地附加“等待”一词，盲点率降低了89.3%，这表明这种能力存在但需要被激活。我们的研究突出了当前LLMs的一个关键限制，并为提高其可靠性和可信度提供了潜在途径。",
+        "地址": "https://arxiv.org/pdf/2507.02778.pdf"
+    },
+    {
+        "名称": "2025 [2507.02092] Energy-Based Transformers are Scalable Learners and Thinkers.pdf",
+        "作者": "Alexi Gladstone, Ganesh Nanduru, Md Mofijul Islam, Peixuan Han, Hyeonjeong Ha, Aman Chadha, Yilun Du, Heng Ji, Jundong Li, Tariq Iqbal",
+        "摘要": "摘要: 类似于人类系统2思维的推理时间计算技术最近因其能够改善模型性能而变得流行。然而，大多数现有方法存在若干限制：它们是特定模态（例如仅适用于文本）、特定问题（例如可验证领域如数学和编码），或需要除无监督预训练之外的额外监督/训练（例如验证器或可验证奖励）。在本文中，我们探讨了\"是否有可能将这些系统2思维方法进行泛化，并开发仅通过无监督学习来学习思考的模型？\"有趣的是，我们发现答案是肯定的，方法是学习明确验证输入与候选预测之间的兼容性，然后将预测问题重新构架为相对于此验证器的优化问题。具体来说，我们训练了一种新的能量基变压器（EBTs）——一种新的能量基模型（EBMs）——它能为每个输入和候选预测对分配一个能量值，通过基于梯度下降的能量最小化直到收敛来实现预测。在离散（文本）和连续（视觉）模态中，我们发现EBTs在训练期间比主流的Transformer++方法扩展更快，在数据、批量大小、参数、FLOPs和深度方面提升了高达35%的扩展率。在推理期间，EBTs通过系统2思维相比Transformer++在语言任务上提升了29%的性能，且EBTs在图像去噪任务上使用更少的前向传递比扩散变压器表现更好。此外，我们发现EBTs在大多数下游任务上比现有模型取得了更好结果，尽管预训练性能相同甚至更差，这表明EBTs比现有方法泛化能力更强。因此，EBTs是扩展模型学习和思考能力的一个有前途的新范式。",
+        "地址": "https://arxiv.org/pdf/2507.02092.pdf"
+    },
+    {
+        "名称": "2025 [2507.01663] AsyncFlow: An Asynchronous Streaming RL Framework for Efficient LLM Post-Training.pdf",
+        "作者": "Zhenyu Han, Ansheng You, Haibo Wang, Kui Luo, Guang Yang, Wenqi Shi, Menglong Chen, Sicheng Zhang, Zeshun Lan, Chunshi Deng, Huazhong Ji, Wenjie Liu, Yu Huang, Yixiang Zhang, Chenyi Pan, Jing Wang, Xin Huang, Chunsheng Li, Jianping Wu",
+        "摘要": "摘要: 强化学习（RL）在大型语言模型（LLM）的后训练阶段已成为一种关键技术。传统的任务并置的RL框架存在显著的可扩展性瓶颈，而任务分离的RL框架在复杂的数据流、资源闲置和工作负载不平衡方面面临挑战。此外，现有的大多数框架与LLM的训练或推理引擎紧密耦合，难以支持自定义设计的引擎。为了解决这些挑战，我们提出了AsyncFlow，这是一种用于高效后训练的异步流式RL框架。具体来说，我们引入了一个分布式数据存储和传输模块，以完全流式的方式提供统一的数据管理和细粒度的调度能力。这个架构本质上促进了RL任务之间的自动管道重叠和动态负载均衡。此外，我们提出了一种基于生产者-消费者的异步工作流程，通过在陈旧门限内战略性地推迟参数更新过程，来最大限度地减少计算闲置情况。最后，AsyncFlow的核心能力在架构上与底层训练和推理引擎解耦，并通过面向服务的用户接口封装，提供模块化和可定制的用户体验。大量实验表明，与最先进的基线相比，吞吐量平均提高了1.59倍。这项工作中提出的架构为下一代RL训练系统设计提供了可操作的见解。",
+        "地址": "https://arxiv.org/pdf/2507.01663.pdf"
+    },
+    {
+        "名称": "2025 [2507.01004] ZeCO: Zero Communication Overhead Sequence Parallelism for Linear Attention.pdf",
+        "作者": "Yuhong Chou, Zehao Liu, Ruijie Zhu, Xinyi Wan, Tianjian Li, Congying Chu, Qian Liu, Jibin Wu, Zejun Ma",
+        "摘要": "摘要:线性注意机制通过提供线性计算复杂性，为大规模语言模型（LLMs）带来了显著优势，使其能够高效处理超长序列（例如，1M上下文）。然而，现有的序列并行（SP）方法在将这些工作负载分布到设备上时，由于大量的通信开销成为主要瓶颈。在本文中，我们介绍了适用于线性注意模型的零通信开销序列并行（ZeCO），这是一种新型的SP方法，旨在克服这些限制，并在长序列训练中实现端到端的近线性可扩展性。例如，使用ZeCO在64个设备上训练一个具有1M序列长度的模型所需时间与在单个设备上训练16k序列长度的大约相同。ZeCO的核心在于All-Scan，这是一种新的集体通信原语。All-Scan为每个SP等级提供精确的初始运算状态，同时保持最小的通信负担，有效地消除通信开销。从理论上，我们证明了ZeCO的最优化，表明它只引入了可以忽略的时间和空间开销。在实验中，我们比较了不同序列并行策略的通信成本，并证明All-Scan在SP场景中实现了最快的通信。具体地，在256个GPU上以8M序列长度进行测试时，ZeCO相比当前最先进的（SOTA）SP方法实现了60%的加速。我们相信ZeCO为高效训练下一代LLMs提供了一条明确路径，使其能够处理以前难以处理的序列长度。",
+        "地址": "https://arxiv.org/pdf/2507.01004.pdf"
+    },
+    {
+        "名称": "2025 [2506.22813] Selecting and Merging: Towards Adaptable and Scalable Named Entity Recognition with Large Language Models.pdf",
+        "作者": "Zhuojun Ding, Wei Wei, Chenghao Fan",
+        "摘要": "摘要： 监督微调（Supervised fine-tuning, SFT）广泛用于使大型语言模型（Large Language Models, LLMs）与信息提取（Information Extraction, IE）任务（如命名实体识别，NER）对齐。然而，注释此类细粒度标签和训练特定领域的模型成本高昂。现有的研究通常在多个领域训练统一的模型，但这种方法缺乏适应性和可扩展性，因为并非所有训练数据都对目标领域有益，扩展训练好的模型仍然具有挑战性。我们提出了SaM框架，该框架在推理时动态选择和合并专家模型。具体来说，对于一个目标领域，我们基于（i）与目标领域的领域相似性和（ii）在抽样实例上的表现，分别选择在现有领域预训练的领域特定专家。然后，将这些专家合并以创建针对目标领域优化的任务特定模型。通过动态合并对目标领域有利的专家，我们改善了在各种领域中的泛化性，而无需额外的训练。此外，专家模型可以方便地添加或移除，具有很好的可扩展性。多个基准测试上的广泛实验表明，我们的框架比统一模型平均高出10%的效果。我们进一步提供了框架潜在改进、实践经验和扩展的见解。\n\n作者：丁卓君, 魏巍, 范成浩\n\n链接：https://arxiv.org/pdf/2506.22813.pdf\n\n标题：2025 [2506.22813] 选择和合并：使用大型语言模型实现适应性和可扩展的命名实体识别",
+        "地址": "https://arxiv.org/pdf/2506.22813.pdf"
+    },
+    {
+        "名称": "2025 [2506.23121] CRISP-SAM2: SAM2 with Cross-Modal Interaction and Semantic Prompting for Multi-Organ Segmentation.pdf",
+        "作者": "Xinlei Yu, Chanmiao Wang, Hui Jin, Ahmed Elazab, Gangyong Jia, Xiang Wan, Changqing Zou, Ruiquan Ge",
+        "摘要": "摘要：多器官医学分割是医学图像处理中的一个关键组成部分，对于医生准确诊断和制定有效治疗计划至关重要。尽管在这一领域取得了显著进展，当前的多器官分割模型往往存在细节不准确、依赖几何提示和空间信息丢失的问题。为了解决这些挑战，我们提出了一种新模型CRISP-SAM2，该模型基于SAM2，并结合了跨模态交互和语义提示。该模型通过器官的文本描述来指导多器官医学分割。我们的方法首先利用逐步交叉注意交互机制将视觉和文本输入转换为跨模态上下文化语义，然后将这些语义注入图像编码器，以增强对视觉信息的细节理解。为消除对几何提示的依赖，我们采用语义提示策略，替换原有的提示编码器，以增强对复杂目标的感知。此外，还应用了相似度排序的自我更新记忆策略和掩膜优化过程，以进一步适应医学成像并增强局部细节。对七个公共数据集进行的比较实验表明，CRISP-SAM2优于现有模型。广泛的分析也证明了我们方法的有效性，从而确认了其出色的性能，特别是在解决前述局限性方面。我们的代码可在以下网址获取：this https URL\\\\this http URL。",
+        "地址": "https://arxiv.org/pdf/2506.23121.pdf"
+    },
+    {
+        "名称": "2025 [2506.21546] HalluSegBench: Counterfactual Visual Reasoning for Segmentation Hallucination Evaluation.pdf",
+        "作者": "Xinzhuo Li, Adheesh Juvekar, Xingyou Liu, Muntasir Wahed, Kiet A. Nguyen, Ismini Lourentzou",
+        "摘要": "摘要: 近年来，视觉-语言分割领域的进展显著提升了基础视觉理解能力。然而，这些模型常常会产生幻觉，即对图像内容中未真实存在的目标生成分割掩码或错误地标记无关区域。现有的分割幻觉评估协议主要聚焦于标签或文本幻觉，而不操控视觉上下文，从而限制了其诊断关键失败的能力。为此，我们引入了HalluSegBench，这是首个专门设计用于通过因果视觉推理评估视觉定位中幻觉的基准。我们的基准包含一个由1340个反事实实例对组成的新颖数据集，涵盖了281个独特的目标类别，以及一组新引入的度量标准，这些标准可在视觉一致的场景编辑下量化幻觉敏感性。在HalluSegBench上对最先进的视觉-语言分割模型进行实验表明，视觉驱动的幻觉显著多于标签驱动的幻觉，模型往往持续存在错误分割，这凸显了使用反事实推理来诊断定位真实性的必要性。",
+        "地址": "https://arxiv.org/pdf/2506.21546.pdf"
+    }
+]
