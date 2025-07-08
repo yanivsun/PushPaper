@@ -1,0 +1,26 @@
+[
+    {
+        "名称": "2025 [2507.01955] How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks.pdf",
+        "作者": "Rahul Ramachandran, Ali Garjani, Roman Bachmann, Andrei Atanov, Oğuzhan Fatih Kar, Amir Zamir",
+        "摘要": "摘要：多模态基础模型（例如GPT-4o）最近取得了显著进展，但这些模型在理解视觉方面的具体表现仍不明确。本文对流行的多模态基础模型（GPT-4o、o4-mini、Gemini 1.5 Pro和Gemini 2.0 Flash、Claude 3.5 Sonnet、Qwen2-VL、Llama 3.2）在标准计算机视觉任务（语义分割、物体检测、图像分类、深度和表面法线预测）中的表现进行了基准测试，使用了已建立的数据集（例如COCO、ImageNet及其变种等）。进行这些测试的主要挑战是：1）大多数模型训练用于输出文本，无法自然表达多种领域，如分割或3D几何，2）许多领先的模型是专有的，仅能通过API访问，即无法获取其权重进行调整。我们通过提示链将标准视觉任务转化为等效的文本提示和API兼容任务，创建了标准化的基准测试框架。我们观察到：1）这些模型在任何任务上都无法接近最先进的专业模型的表现，但2）它们是值得尊重的通才，这令人惊讶，因为它们主要训练在图像-文本任务上。3）它们在语义任务上的表现明显优于几何任务。4）尽管提示链技术会影响性能，但较好的模型对提示变化的敏感性较低。5）GPT-4o在非推理模型中表现最佳，在6个任务中占据4个任务的首位。6）推理模型，例如o3，在几何任务中表现有所改善。7）对具有本地图像生成能力的模型（如最新的GPT-4o）的初步分析表明，它们表现出诸如幻觉和空间错位等怪癖。",
+        "地址": "https://arxiv.org/pdf/2507.01955.pdf"
+    },
+    {
+        "名称": "2025 [2507.02608] Lost in Latent Space: An Empirical Study of Latent Diffusion Models for Physics Emulation.pdf",
+        "作者": "François Rozet, Ruben Ohana, Michael McCabe, Gilles Louppe, François Lanusse, Shirley Ho",
+        "摘要": "摘要：扩散模型在推理时的高计算成本阻碍了其作为快速物理模拟器的使用。在图像和视频生成背景下，这一计算缺陷已经通过在自动编码器的潜在空间中生成而不是像素空间中生成得到了解决。在这项工作中，我们研究了是否可以有效地将类似策略应用于动态系统的模拟以及其成本。我们发现潜在空间模拟的准确性对广泛的压缩率（高达1000倍）表现出令人惊讶的鲁棒性。我们还展示了基于扩散的模拟器比非生成模拟器更准确，并通过更大的多样性来补偿其预测中的不确定性。最后，我们讨论了从架构到优化器的实际设计选择，这对于训练潜在空间模拟器至关重要。\n\n作者：François Rozet, Ruben Ohana, Michael McCabe, Gilles Louppe, François Lanusse, Shirley Ho\n\nURL: https://arxiv.org/pdf/2507.02608.pdf\n\n标题：2025年 [2507.02608] 迷失在潜在空间：潜在扩散模型用于物理模拟的实证研究",
+        "地址": "https://arxiv.org/pdf/2507.02608.pdf"
+    },
+    {
+        "名称": "2025 [2507.01853] Eka-Eval : A Comprehensive Evaluation Framework for Large Language Models in Indian Languages.pdf",
+        "作者": "Samridhi Raj Sinha, Rajvee Sheth, Abhishek Upperwal, Mayank Singh",
+        "摘要": "摘要：大型语言模型（LLMs）的快速进展加剧了对评估框架的需求，这些框架需要满足语言多样化地区（如印度）的要求，并超越以英语为中心的基准测试。我们介绍了EKA-EVAL，一个统一的评估框架，整合了超过35个基准测试（包括10个印度基准测试），涵盖了九个主要评估类别。该框架比现有的印度语言评估工具提供更广泛的覆盖，拥有通过模块化架构提供的11个核心功能，与Hugging Face和专有模型无缝集成，并且即插即用。作为第一个用于扩展、多语种LLM基准测试的端到端套件，该框架结合了广泛的基准测试、模块化工作流程，以及对低资源印度语言的专门支持，使得能够在各个领域对LLM能力进行包容性评估。我们进行了广泛的比较，针对五个现有基准，结果显示EKA-EVAL在五个类别中的四个类别中获得了最高的参与者评级。该框架是开源的，并且公开可用。网址：https://arxiv.org/pdf/2507.01853.pdf",
+        "地址": "https://arxiv.org/pdf/2507.01853.pdf"
+    },
+    {
+        "名称": "2025 [2507.00769] LitBench: A Benchmark and Dataset for Reliable Evaluation of Creative Writing.pdf",
+        "作者": "Daniel Fein, Sebastian Russo, Violet Xiang, Kabir Jolly, Rafael Rafailov, Nick Haber",
+        "摘要": "摘要: 对由大型语言模型（LLMs）生成的创意写作进行评估仍然具有挑战性，因为开放式叙述缺乏明确的参考答案。由于缺乏高效的自动评估方法，现成的语言模型作为零样本评估工具被使用，但在这种情况下它们的可靠性尚不清楚。为了实现对创意写作的稳健评估，我们引入了LitBench，这是第一个标准化的创意写作验证基准和配对数据集，其中包括一个由Reddit上人类标记的故事比较组成的2,480个去偏测试集和一个包含43,827对人类偏好标签的训练语料库。利用LitBench，我们（i）对零样本LLM评审进行基准测试，（ii）训练Bradley Terry和生成奖赏模型，以及（iii）进行在线人类研究，以验证奖赏模型在新生成的LLM故事中的排序结果。我们的基准确定了Claude-3.7-Sonnet为最强的现成评审工具，与人类偏好达到73%的一致性；在训练奖赏模型中，Bradley-Terry和生成奖赏模型均达到了78%的准确率，超过了所有现成评审工具。在线人类研究进一步确认训练奖赏模型在新生成LLM故事中的排序结果与人类偏好一致。我们在提供的链接中发布了LitBench和奖赏模型，为可靠的自动评估和优化创意写作系统提供了经过验证的资源。\n\n来源：https://arxiv.org/pdf/2507.00769.pdf",
+        "地址": "https://arxiv.org/pdf/2507.00769.pdf"
+    }
+]
