@@ -1,0 +1,164 @@
+[
+    {
+        "名称": "2025 [2507.03724] MemOS: A Memory OS for AI System.pdf",
+        "作者": "Zhiyu Li, Shichao Song, Chenyang Xi, Hanyu Wang, Chen Tang, Simin Niu, Ding Chen, Jiawei Yang, Chunyu Li, Qingchen Yu, Jihao Zhao, Yezhaohui Wang, Peng Liu, Zehao Lin, Pengyuan Wang, Jiahao Huo, Tianyi Chen, Kai Chen, Kehang Li, Zhen Tao, Junpeng Ren, Huayi Lai, Hao Wu, Bo Tang, Zhenren Wang, Zhaoxin Fan, Ningyu Zhang, Linfeng Zhang, Junchi Yan, Mingchuan Yang, Tong Xu, Wei Xu, Huajun Chen, Haofeng Wang, Hongkang Yang, Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong",
+        "摘要": "摘要：大型语言模型（LLMs）已成为人工通用智能（AGI）的重要基础设施，但其缺乏明确的内存管理系统阻碍了长时间上下文推理、持续个性化以及知识更新的发展。这些模型主要依赖于静态参数和短暂的上下文状态，限制了它们跟踪用户偏好或在长时间内更新知识的能力。虽然检索增强生成（RAG）通过纯文本引入外部知识，但它仍然是无状态的解决方案，没有生命周期控制或与持久存储的集成。我们的工作从内存层次结构的角度建模了LLMs的训练和推理成本，表明在参数内存和外部检索之间引入显性内存层可以通过外部化特定知识大幅降低这些成本。除了计算效率之外，LLMs还面临着信息随时间和上下文分散所带来的更广泛挑战，需要能够管理跨不同时段和来源的异质知识的系统。为了解决这个挑战，我们提出了MemOS，一个将内存作为可管理系统资源的内存操作系统。它统一了纯文本、基于激活和参数级内存的表示、调度和演化，提供了成本有效的存储和检索。MemOS的基本单位——MemCube——封装了内存内容和诸如来源和版本控制的元数据。MemCube可以随时间进行组合、迁移和融合，支持记忆类型之间的灵活转换，并将检索与基于参数的学习衔接起来。MemOS建立了一个内存中心的系统框架，为LLMs带来了可控性、可塑性和可演化性，为持续学习和个性化建模奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2507.03724.pdf"
+    },
+    {
+        "名称": "2025 [2507.00994] Should We Still Pretrain Encoders with Masked Language Modeling?.pdf",
+        "作者": "Hippolyte Gisserot-Boukhlef, Nicolas Boizard, Manuel Faysse, Duarte M. Alves, Emmanuel Malherbe, André F. T. Martins, Céline Hudelot, Pierre Colombo",
+        "摘要": "摘要：学习高质量的文本表示对于广泛的自然语言处理任务至关重要。尽管编码器预训练传统上依赖于掩码语言模型（MLM），近期证据表明，使用因果语言模型（CLM）预训练的解码器模型可以有效地重新用作编码器，并且在文本表示基准上常常超过传统编码器。然而，这些提升是否反映了CLM目标内在的优势，还是由于模型和数据规模等混杂因素仍不清楚。在本论文中，我们通过一系列大规模、精心控制的预训练消融实验来解决这个问题，共训练了38个模型，参数范围从2.1亿到10亿，并进行了超过15,000次微调和评估运行。我们发现，虽然使用MLM训练在文本表示任务上通常表现更好，但CLM训练的模型在数据效率更高并表现出更好的微调稳定性。基于这些发现，我们通过实验表明，一种先应用CLM然后再应用MLM的双相训练策略，在固定的计算训练预算下可以实现最优性能。此外，我们证明了当从现成的预训练CLM模型初始化时，这一策略变得更具吸引力，减少了训练顶级编码器模型所需的计算负担。我们在该网址https URL发布了所有项目工件，以促进进一步的研究。",
+        "地址": "https://arxiv.org/pdf/2507.00994.pdf"
+    },
+    {
+        "名称": "2025 [2507.05163] 4DSloMo: 4D Reconstruction for High Speed Scene with Asynchronous Capture.pdf",
+        "作者": "Yutian Chen, Shi Guo, Tianshuo Yang, Lihe Ding, Xiuyuan Yu, Jinwei Gu, Tianfan Xue",
+        "摘要": "摘要：利用多视角视频重建快速动态场景对于高速运动分析和逼真的4D重建至关重要。然而，绝大多数4D捕捉系统的帧速率都低于30FPS(每秒帧数)，直接从低FPS输入中进行的高速运动4D重建可能会导致不理想的结果。在这项工作中，我们提出了一种仅使用低FPS相机的高速4D捕捉系统，通过新颖的捕捉和处理模块。在捕捉方面，我们提出了一种异步捕捉方案，通过错开相机的启动时间来提高有效帧速率。通过分组相机并利用25FPS的基础帧速率，我们的方法实现了等效100-200FPS的帧速率，而无需专门的高速相机。在处理方面，我们还提出了一种新颖的生成模型来修复4D稀疏视图重建引起的伪影，因为异步会减少每个时间戳的视点数量。具体地，我们建议训练一个基于视频扩散的伪影修复模型，用于稀疏4D重建，细化缺失的细节，保持时间一致性，并提高整体重建质量。实验结果表明，与同步捕捉相比，我们的方法显著增强了高速4D重建效果。",
+        "地址": "https://arxiv.org/pdf/2507.05163.pdf"
+    },
+    {
+        "名称": "2025 [2507.04447] DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge.pdf",
+        "作者": "Wenyao Zhang, Hongsi Liu, Zekun Qi, Yunnan Wang, XinQiang Yu, Jiazhao Zhang, Runpei Dong, Jiawei He, He Wang, Zhizheng Zhang, Li Yi, Wenjun Zeng, Xin Jin",
+        "摘要": "摘要：视觉-语言-动作（VLA）模型的最新进展显示出在将图像生成与动作预测结合方面的潜力，以提高机器人操作的泛化和推理能力。然而，现有方法局限于具有挑战性的基于图像的预测，这种预测存在冗余信息，并且缺乏全面且关键的世界知识，包括动态信息、空间信息和语义信息。为了应对这些局限性，我们提出了DreamVLA，这是一种新颖的VLA框架，集成了全面的世界知识预测，以实现逆动力学建模，从而为操控任务建立一个感知-预测-行动循环。具体而言，DreamVLA引入了一个动态区域指导的世界知识预测，结合空间和语义线索，这些线索为动作计划提供了简洁而全面的表示。这一设计与人类在行动前首先形成抽象的多模态推理链的方式一致。为了减轻在训练过程中动态信息、空间信息和语义信息之间的干扰，我们采用了一种分块结构化注意机制，以屏蔽它们之间的相互注意，防止信息泄漏，保持每个表示的干净和解耦。此外，为了模拟未来动作的条件分布，我们采用了一种基于扩散的变压器，它从共享的潜在特征中解耦动作表示。在真实世界和模拟环境中的大量实验表明，DreamVLA在真实机器人任务中达到了76.7%的成功率，在CALVIN ABC-D基准测试中达到了4.44的平均长度。",
+        "地址": "https://arxiv.org/pdf/2507.04447.pdf"
+    },
+    {
+        "名称": "2025 [2507.05197] Pre-Trained Policy Discriminators are General Reward Models.pdf",
+        "作者": "Shihan Dou, Shichun Liu, Yuming Yang, Yicheng Zou, Yunhua Zhou, Shuhao Xing, Chenhao Huang, Qiming Ge, Demin Song, Haijun Lv, Songyang Gao, Chengqi Lv, Enyu Zhou, Honglin Guo, Zhiheng Xi, Wenwei Zhang, Qipeng Guo, Qi Zhang, Xipeng Qiu, Xuanjing Huang, Tao Gui, Kai Chen",
+        "摘要": "摘要：我们通过将奖励建模表述为一种策略判别器提供了一个新颖的视角，该判别器量化两个策略之间的差异以生成奖励信号，从而引导训练策略朝着具有期望行为的目标策略发展。基于这一概念性见解，我们提出了一种可扩展的预训练方法，称为策略判别学习（POLAR），该方法训练一个奖励模型（RM）以区分相同的策略并判别不同的策略。与依赖于绝对偏好的传统奖励建模方法不同，POLAR捕捉一个策略与任意目标策略之间的相对差异，这是一种可扩展的、高级优化目标，适用于建模通用的排序关系。利用POLAR预训练范式，我们展示了一系列参数规模从1.8B到7B的奖励模型。实证结果表明，POLAR显著优于传统的非预训练方法，极大地提升了RM性能。例如，POLAR-7B在STEM任务中的偏好准确率从54.8%提高到81.0%，在创意写作任务中从57.9%提高到85.5%，相比最先进基准有显著提升。POLAR还在使用强化微调（RFT）的RLHF中显示出强大的泛化能力，提供可靠的奖励信号，并显著提升了策略性能——在20个基准上将LLaMa3.1-8B从平均47.36%提高到56.33%，Qwen2.5-32B从64.49%提高到70.47%。此外，扩展实验揭示了计算量与性能之间的明显幂律关系，线性相关系数接近0.99。令人印象深刻的性能、强大的泛化和扩展特性表明，POLAR是开发通用且强大的奖励模型的一个有前途的方向。",
+        "地址": "https://arxiv.org/pdf/2507.05197.pdf"
+    },
+    {
+        "名称": "2025 [2507.03483] BMMR: A Large-Scale Bilingual Multimodal Multi-Discipline Reasoning Dataset.pdf",
+        "作者": "Zhiheng Xi, Guanyu Li, Yutao Fan, Honglin Guo, Yufang Liu, Xiaoran Fan, Jiaqi Liu, Jingchao Ding, Wangmeng Zuo, Zhenfei Yin, Lei Bai, Tao Ji, Tao Gui, Qi Zhang, Philip Torr, Xuanjing Huang",
+        "摘要": "摘要: 在本文中，我们介绍了BMMR，一个大规模双语、多模态、多学科推理数据集，供社区开发和评估大型多模态模型（LMMs）。BMMR包含110k大学水平的问题，覆盖联合国教科文组织定义的300个学科，形式多样，包括选择题、填空和开放式问答，来源于纸质和数字媒体，如书籍、考试和测验。所有数据都通过人际循环和可扩展的框架进行精心编选和过滤，每个实例都配有高质量的推理路径。数据集分为两部分：BMMR-Eval包含20,458个高质量实例，用于全面评估LMMs在中文和英文多学科知识和推理能力；BMMR-Train包含88,991个实例，支持进一步的研究和开发，扩展当前对数学推理的关注到各种学科和领域。此外，我们提出了基于过程的多学科验证器（即BMMR-Verifier），以准确和细粒度评估推理路径。对24个模型的广泛实验结果显示：(i)即使是先进的模型（如o3和Gemini-2.5-Pro）在BMMR-Eval上仍有很大提升空间；(ii)推理模型表现出学科偏见，仅在特定学科上优于LMMs；(iii)开源模型仍落后于专有模型；(iv)在BMMR-Train上进行微调缩小了这一差距。此外，我们使用BMMR-Verifier进行推理链分析和其他深入研究，揭示了LMMs目前在多学科推理中面临的挑战。我们将发布这些数据，希望我们的工作能为社区提供见解和贡献。",
+        "地址": "https://arxiv.org/pdf/2507.03483.pdf"
+    },
+    {
+        "名称": "2025 [2507.06229] Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving.pdf",
+        "作者": "Xiangru Tang, Tianrui Qin, Tianhao Peng, Ziyang Zhou, Daniel Shao, Tingting Du, Xinming Wei, Peng Xia, Fang Wu, He Zhu, Ge Zhang, Jiaheng Liu, Xingyao Wang, Sirui Hong, Chenglin Wu, Hao Cheng, Chi Wang, Wangchunshu Zhou",
+        "摘要": "摘要:随着语言代理处理越来越复杂的任务，他们在有效的错误纠正和跨领域经验重用方面遇到了困难。我们介绍了Agent KB，一个层次化的经验框架，通过新颖的推理-检索-改进管道来实现复杂的代理问题解决。Agent KB解决了一个核心限制：传统上代理不能从彼此的经验中学习。通过捕获高级策略和详细的执行日志，Agent KB创建了一个共享知识库，使跨代理的知识转移成为可能。在GAIA基准测试中，Agent KB将成功率提高了多达16.28个百分点。在最具挑战性的任务中，Claude-3的成功率从38.46%提高到57.69%，而GPT-4在中级任务中的成功率从53.49%提高到73.26%。在SWE-bench代码修复任务中，Agent KB使Claude-3的成功率从41.33%提高到53.33%。我们的结果表明，Agent KB提供了一个模块化的、与框架无关的基础设施，使代理能够从过去的经验中学习，并将成功的策略推广到新的任务中。\n\n链接: [点击打开](https://arxiv.org/pdf/2507.06229.pdf)\n\n作者: Xiangru Tang, Tianrui Qin, Tianhao Peng, Ziyang Zhou, Daniel Shao, Tingting Du, Xinming Wei, Peng Xia, Fang Wu, He Zhu, Ge Zhang, Jiaheng Liu, Xingyao Wang, Sirui Hong, Chenglin Wu, Hao Cheng, Chi Wang, Wangchunshu Zhou",
+        "地址": "https://arxiv.org/pdf/2507.06229.pdf"
+    },
+    {
+        "名称": "2025 [2507.02029] RoboBrain 2.0 Technical Report.pdf",
+        "作者": "BAAI RoboBrain Team, Mingyu Cao, Huajie Tan, Yuheng Ji, Minglan Lin, Zhiyu Li, Zhou Cao, Pengwei Wang, Enshen Zhou, Yi Han, Yingbo Tang, Xiangqi Xu, Wei Guo, Yaoxu Lyu, Yijie Xu, Jiayu Shi, Mengfei Du, Cheng Chi, Mengdi Zhao, Xiaoshuai Hao, Junkai Zhao, Xiaojie Zhang, Sh/anyu Rong, Huaihai Lyu, Zhengliang Cai, Yankai Fu, Ning Chen, Bolun Zhang, Lingfeng Zhang, Shuyi Zhang, Xi Feng, Songjing Wang, Xiaodan Liu, Yance Jiao, Mengsi Lyu, Zhuo Chen, Chenrui He, Yulong Ao, Xue Sun, Zheqi He, Jingshu Zheng, Xi Yang, Donghai Shi, Kunchang Xie, Bochao Zhang, Shaokai Nie, Chunlei Men, Yonghua Lin, Zhongyuan Wang, Tiejun Huang, Shanghang Zhang",
+        "摘要": "摘要: 我们介绍了RoboBrain 2.0，这是我们最新一代的具身视觉-语言基础模型，旨在统一物理环境中复杂具身任务的感知、推理和计划。它有两种变体：轻量级7B模型和全规模32B模型，具有异构架构，包括一个视觉编码器和一个语言模型。尽管其规模紧凑，RoboBrain 2.0在广泛的具身推理任务中表现出色。在空间和时间基准上，32B变体实现了领先的结果，超越了此前的开源和专有模型。特别是，它支持关键的现实世界具身AI能力，包括空间理解（例如，利用预测、空间指称、轨迹预测）和时间决策（例如，闭环交互、多代理长期规划和场景图更新）。本文详细介绍了模型架构、数据构建、多阶段训练策略、基础设施和实际应用。我们希望RoboBrain 2.0能够推进具身AI研究，并作为构建通用具身代理商的实际一步。代码、检查点和基准可在该URL找到。",
+        "地址": "https://arxiv.org/pdf/2507.02029.pdf"
+    },
+    {
+        "名称": "2025 [2507.03253] RefineX: Learning to Refine Pre-training Data at Scale from Expert-Guided Programs.pdf",
+        "作者": "Baolong Bi, Shenghua Liu, Xingzhang Ren, Dayiheng Liu, Junyang Lin, Yiwei Wang, Lingrui Mei, Junfeng Fang, Jiafeng Guo, Xueqi Cheng",
+        "摘要": "摘要：大型语言模型（LLM）的基础能力受到其预训练语料库质量的深刻影响。然而，在大规模提升数据质量仍是一项重大挑战，主要由于细化有效性与处理效率之间的权衡。尽管基于规则的过滤仍是主流范例，但它通常在文档层面操作，缺乏细化文档中具体内容所需的粒度。受ProX等新兴工作的启发，我们提出了RefineX，一种通过程序编辑任务进行大规模、精细化预训练数据细化的新框架。RefineX在可靠地保留原始文本的多样性和自然性的同时，实现了高效和细粒度的数据细化。RefineX的核心优势在于将高质量的、专家指导的端到端细化结果提炼为最小的基于编辑的删除程序。这一高精度提炼管道用于训练一个高效且可靠的细化模型，该模型可以系统地改善语料库中的每个实例。我们在多个模型规模下从零开始预训练中评估RefineX，发现它在各种下游任务中持续优于在原始、过滤或替代细化数据上训练的模型。在750M模型上，RefineX在轻评估任务中平均带来2.6%-7.2%的提升，并使用显著更少的训练token实现了可比的性能。进一步分析表明，RefineX以高效率和精确性可靠地提升文本质量，优于如端到端生成和ProX-C等先前的方法。这些结果将RefineX定位为优化现代LLM管道预训练数据的可扩展、有效和可靠的解决方案。",
+        "地址": "https://arxiv.org/pdf/2507.03253.pdf"
+    },
+    {
+        "名称": "2025 [2507.04009] Easy Dataset: A Unified and Extensible Framework for Synthesizing LLM Fine-Tuning Data from Unstructured Documents.pdf",
+        "作者": "Ziyang Miao, Qiyu Sun, Jingyuan Wang, Yuchen Gong, Yaowei Zheng, Shiqi Li, Richong Zhang",
+        "摘要": "摘要: 大型语言模型（LLMs）在通用任务上表现出色，但由于高质量领域数据的稀缺，将其适应于特定领域仍然具有挑战性。现有的数据合成工具通常难以有效地从异质文档中提取可靠的微调数据。为了解决这一限制，我们提出了Easy Dataset，这是一个通过直观图形用户界面（GUI）从非结构化文档中合成微调数据的统一框架。具体而言，Easy Dataset允许用户轻松配置文本提取模型和分块策略，将原始文档转换为连贯的文本块。然后它利用基于角色的提示方法，使用公开可用的LLMs生成多样化的问答对。在整个操作流程中，一个人机互动的可视化界面促进了中间输出的审查和改进，以确保数据质量。在一个金融问答任务上的实验表明，在合成数据集上微调的LLMs显著提高了特定领域的性能，同时保留了通用知识。源码和可安装包可在此HTTPS URL获得，并在GitHub上获得了超过9,000颗星。",
+        "地址": "https://arxiv.org/pdf/2507.04009.pdf"
+    },
+    {
+        "名称": "2025 [2507.03745] StreamDiT: Real-Time Streaming Text-to-Video Generation.pdf",
+        "作者": "Akio Kodaira, Tingbo Hou, Ji Hou, Masayoshi Tomizuka, Yue Zhao",
+        "摘要": "摘要: 最近，通过将基于变压器的扩散模型扩展到数十亿参数，文本到视频(T2V)生成领域取得了巨大进展，可以生成高质量的视频。然而，现有模型通常只能离线生成短片，限制了它们在交互和实时应用中的使用。这篇论文提出了StreamDiT，一种流式视频生成模型，用以应对这些挑战。StreamDiT的训练基于流匹配，通过添加移动缓冲区来实现。我们设计了一种缓冲帧的不同分区方案混合训练，以提高内容一致性和视觉质量。StreamDiT的建模基于具有变化时间嵌入和窗口注意的adaLN DiT。为了实践该方法，我们训练了一个4B参数的StreamDiT模型。此外，我们提出了一种专门针对StreamDiT的多步蒸馏方法。在选定的分区方案的每个段进行采样蒸馏。蒸馏后,函数评估总数(NFEs)减少到缓冲区中的块数。最终，我们的蒸馏模型在一块GPU上实现了16 FPS的实时性能，可以生成512p分辨率的视频流。我们通过定量指标和人工评价评估了我们的方法。我们的模型支持实时应用，例如流生成、交互生成和视频到视频。我们在项目网站中提供了视频结果和更多实例：this https URL\n\nauthors: Akio Kodaira, Tingbo Hou, Ji Hou, Masayoshi Tomizuka, Yue Zhao",
+        "地址": "https://arxiv.org/pdf/2507.03745.pdf"
+    },
+    {
+        "名称": "2025 [2507.02659] OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding.pdf",
+        "作者": "Ramchalam Kinattinkara Ramakrishnan, Zhaocong Yuan, Shaojie Zhuo, Chen Feng, Yicheng Lin, Chenzheng Su, Xiaopeng Zhang",
+        "摘要": "摘要：推测解码通常需要一个小且高效的草稿模型，该模型可以是预训练的或离线提炼到特定的目标模型系列，例如Llama或Qwen模型。然而，在在线部署设置中，有两个主要挑战：1）使用与草稿模型不兼容的目标模型；2）期望随着使用和时间提高延迟性能。在这项工作中，我们提出了OmniDraft，一个统一的框架，它使单一草稿模型能够与任何目标模型配合使用，并根据用户数据动态调整。我们引入了一个与n-gram缓存结合的混合蒸馏微调，以解决草稿和目标模型之间的跨词汇不匹配问题；并通过利用自适应草拟技术进一步提高解码速度。OmniDraft特别适用于模型成本、效率和用户定制是主要争议点的设备端大型语言模型应用。这进一步强调了解决上述挑战的必要性，并激励了“一个草稿适用于所有”的范式。我们展示了OmniDraft框架在数学推理、编程和文本生成任务上的在线学习能力。值得注意的是，OmniDraft使单一的Llama-68M模型能够与包括Vicuna-7B、Qwen2-7B和Llama3-8B模型在内的各种目标模型配对进行推测解码；并且额外提供了高达1.5-2倍的提速。\n\n翻译作者：Ramchalam Kinattinkara Ramakrishnan, Zhaocong Yuan, Shaojie Zhuo, Chen Feng, Yicheng Lin, Chenzheng Su, Xiaopeng Zhang\n评论：\n链接：https://arxiv.org/pdf/2507.02659.pdf\n标题：2025 [2507.02659] OmniDraft: 跨词汇表的在线自适应草稿模型用于设备端推测解码",
+        "地址": "https://arxiv.org/pdf/2507.02659.pdf"
+    },
+    {
+        "名称": "2025 [2507.05108] Reviving Cultural Heritage: A Novel Approach for Comprehensive Historical Document Restoration.pdf",
+        "作者": "Yuyi Zhang, Peirong Zhang, Zhenhua Yang, Pengyu Yan, Yongxin Shi, Pengwei Liu, Fengjun Guo, Lianwen Jin",
+        "摘要": "摘要：历史文献作为一种无价的文化遗产，随着时间的推移，通过撕裂、水蚀和氧化等因素，经历了显著的退化。现有的历史文献修复（HDR）方法主要集中于单一模态或有限尺寸的修复，未能满足实际需求。为了填补这一空白，我们提出了一个全页HDR数据集（FPHDR）和一种新型的自动HDR解决方案（AutoHDR）。具体来说，FPHDR包括1,633个真实和6,543个合成图像，包含字符级和行级位置，以及不同损坏等级的字符注释。AutoHDR通过三阶段方法模拟历史学家的修复工作流程：OCR辅助损坏定位、视觉-语言上下文文本预测和修补自回归外观修复。AutoHDR的模块化架构实现了无缝的人机协作，允许在每个修复阶段进行灵活干预和优化。实验表明，AutoHDR在HDR方面表现出色。当处理严重损坏的文档时，我们的方法将OCR精度从46.83%提高到84.05%，通过人机协作进一步提升到94.25%。我们相信这项工作在自动历史文献修复方面是一个显著的进步，对文化遗产保护做出了重大贡献。模型和数据集可在此HTTPS URL中获取。",
+        "地址": "https://arxiv.org/pdf/2507.05108.pdf"
+    },
+    {
+        "名称": "2025 [2507.05257] Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions.pdf",
+        "作者": "Yuanzhe Hu, Yu Wang, Julian McAuley",
+        "摘要": "摘要: 最近对大型语言模型（LLM）代理的评估基准主要集中在推理、规划和执行能力方面，而另一个关键部分——记忆，包括代理如何记忆、更新和检索长期信息——由于缺乏基准，未得到充分评估。我们将拥有记忆机制的代理称为记忆代理。在本文中，我们确定了记忆代理的四个核心能力：准确检索、测试时学习、长程理解和冲突解决。现有的数据集要么依赖有限的上下文长度，要么针对静态的长上下文设置，如基于书籍的问答，这些都未能反映记忆代理的交互式、多轮信息逐步累积的特性。此外，现有的基准没有涵盖所有四个能力。因此，我们介绍了MemoryAgentBench，这是一套专门为记忆代理设计的新基准。我们的基准结合了重新构建的现有数据集和新构建的数据集，涵盖上述四种记忆能力，为评估记忆质量提供了系统且具有挑战性的测试平台。我们评估了一系列记忆代理，从简单的基于上下文和检索增强生成（RAG）系统到具有外部记忆模块和工具集成的高级代理。实验证明现有方法未能掌握所有四项能力，凸显了进一步研究综合记忆机制对LLM代理的重要性。\n\n作者: Yuanzhe Hu, Yu Wang, Julian McAuley\n评论: 23页，Y. Hu和Y. Wang贡献相同\n链接: https://arxiv.org/pdf/2507.05257.pdf\n标题: 2025 [2507.05257] 通过增量多轮交互评估LLM代理中的记忆",
+        "地址": "https://arxiv.org/pdf/2507.05257.pdf"
+    },
+    {
+        "名称": "2025 [2507.03683] On the rankability of visual embeddings.pdf",
+        "作者": "Ankit Sonthalia, Arnas Uselis, Seong Joon Oh",
+        "摘要": "摘要: 我们研究视觉嵌入模型是否能够沿线性方向捕捉连续的、有序的属性，这些方向我们称之为\"排名轴\"。我们定义一个模型对于某个属性是\"可排名的\"，如果将嵌入投射到这样的轴上能够保留属性的顺序。在7个流行编码器和9个具有年龄、人群计数、头部姿态、美学和新颖性等属性的数据集上，我们发现许多嵌入本质上是可排名的。令人惊讶的是，少量样本，甚至仅仅是两个极端示例，通常足以恢复有意义的排名轴，而无需全面监督。这些发现为在向量数据库中进行图像排名开辟了新的应用，并激励进一步研究可排名嵌入的结构和学习。我们的代码可在此网址获得。",
+        "地址": "https://arxiv.org/pdf/2507.03683.pdf"
+    },
+    {
+        "名称": "2025 [2507.04952] ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation.pdf",
+        "作者": "Chenchen Zhang, Yuhang Li, Can Xu, Jiaheng Liu, Ao Liu, Shihui Hu, Dengpeng Wu, Guanhua Huang, Kejiao Li, Qi Yi, Ruibin Xiong, Haotian Zhu, Yuanxing Zhang, Yuhao Jiang, Yue Zhang, Zenan Xu, Bohui Zhai, Guoxiang He, Hebin Li, Jie Zhao, Le Zhang, Lingyun Tan, Pengyu Guo, Xianshu Pang, Yang Ruan, Zhifeng Zhang, Zhonghu Wang, Ziyan Xu, Zuopu Yin, Wiggin Zhou, Chayse Zhou, Fengzong Lian",
+        "摘要": "摘要: 大型语言模型（LLMs）的生成能力正在迅速从静态代码扩展到动态、交互式的视觉工件。然而，这一进展却受到一个关键评估缺口的瓶颈：现有基准测试集中于算法的正确性，而忽视了定义现代用户体验的视觉保真度和交互完整性。为弥补这一差距，我们引入了ArtifactsBench，一个新的基准测试和范例，用于自动、多模态评估视觉代码生成。我们的框架通过程序化渲染每个生成的工件并通过时间截图捕捉其动态行为。然后，这些视觉证据与源代码一起由一个多模态LLM（MLLM）作为评审进行评估，并通过精细的、每任务的检查表严格指导，以确保全面和可重复的评分。我们构建了一个包含1,825个多样化任务的新基准，并评估了超过30个领先的LLM。我们的自动化评估在排名与WebDev Arena（一种网页开发领域的人工偏好金标准）的一致性上达到了惊人的94.4%，在与人类专家的配对一致性上超过90%。这使ArtifactsBench成为首个能够可靠地大规模自动评估人类感知质量的框架。我们的分析提供了当前技术状态的高分辨率地图，揭示了通用模型往往优于特定领域模型。我们开源了ArtifactsBench，包括基准测试、评估工具和基准结果，以提供一个可扩展和准确的工具，加速用户中心生成模型的开发。\n\n翻译后的摘要:",
+        "地址": "https://arxiv.org/pdf/2507.04952.pdf"
+    },
+    {
+        "名称": "2025 [2506.21884] UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields.pdf",
+        "作者": "Fabian Perez, Sara Rojas, Carlos Hinojosa, Hoover Rueda-Chacón, Bernard Ghanem",
+        "摘要": "摘要:基于神经辐射场（NeRF）的分割方法关注对象语义，仅依赖于RGB数据，缺乏内在材料属性。这一限制阻碍了准确的材料感知，而准确感知对于机器人技术、增强现实、模拟和其他应用至关重要。我们提出了UnMix-NeRF框架，将光谱解混合集成到NeRF中，实现联合高光谱的新视角合成和无监督材料分割。我们的方法通过漫反射和镜面反射成分来模拟光谱反射率，其中全球端元的学习词典代表纯材料特征，按点丰度捕捉其分布。对于材料分割，我们使用沿着学习端元的光谱特征预测，允许无监督的材料聚类。此外，UnMix-NeRF通过修改学习端元词典以实现灵活的基于材料的外观操纵，从而实现场景编辑。大量实验验证了我们的方法，展示了优于现有方法的光谱重构和材料分割。项目页面：www.this.URL。",
+        "地址": "https://arxiv.org/pdf/2506.21884.pdf"
+    },
+    {
+        "名称": "2025 [2507.04590] VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents.pdf",
+        "作者": "Rui Meng, Ziyan Jiang, Ye Liu, Mingyi Su, Xinyi Yang, Yuepeng Fu, Can Qin, Zeyuan Chen, Ran Xu, Caiming Xiong, Yingbo Zhou, Wenhu Chen, Semih Yavuz",
+        "摘要": "摘要：多模态嵌入模型在语义相似性、信息检索和不同模态的聚类等下游任务中非常重要。然而，现有的多模态嵌入如VLM2Vec、E5-V、GME主要集中在自然图像上，对其他视觉形式如视频和视觉文档的支持有限。这限制了它们在包括AI代理、多模态搜索和推荐以及基于检索的生成（RAG）等实际场景中的适用性。为了解决这一问题，我们提出了VLM2Vec-V2，一个用于不同视觉形式嵌入学习的统一框架。首先，我们引入了MMEB-V2，一个扩展MMEB的综合基准，增加了五种新任务类型：视觉文件检索、视频检索、时间定位、视频分类和视频问答 - 涵盖文本、图像、视频和视觉文件输入。接着，我们训练了VLM2Vec-V2，一个支持文本、图像、视频和视觉文件输入的通用嵌入模型。大量实验表明，VLM2Vec-V2不仅在新引入的视频和文件检索任务上表现优异，而且在原始图像基准测试上也优于之前的基线模型。通过广泛的评估，我们的研究提供了对各种多模态嵌入模型的泛化能力的见解，并突出了统一嵌入学习的有效策略，为研究和实际环境中的更具可扩展性和适应性的表示学习奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2507.04590.pdf"
+    },
+    {
+        "名称": "2025 [2507.04036] PresentAgent: Multimodal Agent for Presentation Video Generation.pdf",
+        "作者": "Jingwei Shi, Zeyu Zhang, Biao Wu, Yanjie Liang, Meng Fang, Ling Chen, Yang Zhao",
+        "摘要": "摘要： 我们提出了PresentAgent，一种多模态代理，用于将长篇文档转化为叙述式演示视频。现有的方法仅限于生成静态幻灯片或文本摘要，而我们的方法通过生产完全同步的视觉和语音内容，突破了这些限制，模仿了人类式演示。为了实现这种整合，PresentAgent采用一个模块化管道，系统地分割输入文档，计划和渲染幻灯片风格的视觉帧，利用大语言模型和文本转语音模型生成上下文叙述，并以精确的音视频对齐无缝组合成最终的视频。鉴于评估这种多模态输出的复杂性，我们引入了PresentEval，一个由视觉语言模型驱动的统一评估框架，通过基于提示的评估全面对视频在内容真实度、视觉清晰度和观众理解力三个关键维度进行评分。我们在一个精选的30对文档-演示视频数据集上进行的实验验证表明，PresentAgent在所有评估指标上接近人类水平质量。这些结果突显了可控多模态代理在将静态文本材料转化为动态、有效且可访问的演示形式方面的巨大潜力。代码将在这个https网址提供。",
+        "地址": "https://arxiv.org/pdf/2507.04036.pdf"
+    },
+    {
+        "名称": "2025 [2507.03607] VLAI: A RoBERTa-Based Model for Automated Vulnerability Severity Classification.pdf",
+        "作者": "Cédric Bonhomme, Alexandre Dulaunoy",
+        "摘要": "摘要：本论文介绍了VLAI，这是一种基于Transformer的模型，可以直接从文本描述中预测软件漏洞严重程度级别。VLAI基于RoBERTa构建，在超过600,000个实际漏洞上进行微调，在预测严重性类别上达到了超过82％的准确率，从而可以在手动CVSS评分之前实现更快和更一致的分类。该模型和数据集是开源的，并集成到漏洞查找服务中。",
+        "地址": "https://arxiv.org/pdf/2507.03607.pdf"
+    },
+    {
+        "名称": "2025 [2507.05259] Beyond Simple Edits: X-Planner for Complex Instruction-Based Image Editing.pdf",
+        "作者": "Chun-Hsiao Yeh, Yilin Wang, Nanxuan Zhao, Richard Zhang, Yuheng Li, Yi Ma, Krishna Kumar Singh",
+        "摘要": "摘要：近年来基于扩散的图像编辑方法在文本指导任务上取得了显著进展，但在解释复杂、间接的指令时经常遇到困难。此外，目前的模型通常存在身份保存差、编辑意外或过度依赖手动遮罩的问题。为了解决这些挑战，我们介绍了X-Planner，一种基于多模态大型语言模型（MLLM）的规划系统，能够有效地将用户意图与编辑模型能力连接起来。X-Planner采用链式思维推理，系统地将复杂指令分解为更简单、清晰的子指令。对于每个子指令，X-Planner会自动生成精确的编辑类型和分割遮罩，消除了手动干预，确保编辑的局部性和身份保存。此外，我们提出了一种新颖的自动化管道，用于生成大规模数据来训练X-Planner，在现有基准和我们新引入的复杂编辑基准上均达到了最先进的结果。",
+        "地址": "https://arxiv.org/pdf/2507.05259.pdf"
+    },
+    {
+        "名称": "2025 [2507.04642] R1-RE: Cross-Domain Relationship Extraction with RLVR.pdf",
+        "作者": "Runpeng Dai, Tong Zheng, Run Yang, Hongtu Zhu",
+        "摘要": "摘要：关系抽取（RE）是自然语言处理中的核心任务。传统方法通常将RE作为一个监督学习问题来处理，直接将上下文映射到标签，这种方法常常在域外（OOD）泛化方面表现不佳。受到人工标注工作流程的启发，我们将RE重新定义为一个由标注指南引导的推理任务，并引入了R1-RE，这是首个用于RE任务的具备可验证奖励的强化学习（RLVR）框架。我们的方法唤起了小型语言模型在标注任务中的推理能力，大大提高了OOD的鲁棒性。我们在公共Sem-2010数据集和私有MDKG数据集上评估了我们的方法。R1-RE-7B模型达到了约70%的平均OOD准确率，表现与领先的专有模型如GPT-4o相当。此外，我们的全面分析提供了关于RLVR范式下RE任务训练动态和新兴推理行为的新见解。\n\n作者：戴润鹏，郑桐，杨润，朱洪图\n\n评论：14页，7张图\n\n链接：https://arxiv.org/pdf/2507.04642.pdf\n\n标题：2025 [2507.04642] R1-RE：跨域关系抽取与RLVR.pdf",
+        "地址": "https://arxiv.org/pdf/2507.04642.pdf"
+    },
+    {
+        "名称": "2025 [2507.03033] Preserving Privacy, Increasing Accessibility, and Reducing Cost: An On-Device Artificial Intelligence Model for Medical Transcription and Note Generation.pdf",
+        "作者": "Johnson Thomas, Ayush Mudgal, Wendao Liu, Nisten Tahiraj, Zeeshaan Mohammed, Dhruv Diddi",
+        "摘要": "摘要：背景：临床文档记录对于医疗提供者来说是一个重要负担，医生每日需花费长达2小时在行政任务上。最新的大型语言模型（LLMs）提供了有前景的解决方案，但隐私问题和计算需求限制了其在医疗环境中的应用。目标：开发并评估一种隐私保护、设备本地的医学转录系统，该系统使用微调的Llama 3.2 1B模型，能够从医学转录生成结构化的医学笔记，同时完全在浏览器内保持数据主权。方法：我们使用LoRA进行参数高效微调（PEFT），通过1500对合成的医学转录到结构化笔记对来微调Llama 3.2 1B模型。模型在两个数据集上进行评估：100个内分泌学转录和140个修改后的ACI基准案例。评估采用了统计指标（ROUGE、BERTScore、BLEURT）和LLM作为评估者的多项临床质量维度。结果：微调后的OnDevice模型相比基础模型展示了显著提升。在ACI基准测试中，ROUGE-1得分从0.346增加到0.496，而BERTScore F1从0.832提升至0.866。临床质量评估显示重大幻觉减少（从85例减少至35例），事实正确性提升（在5分制上从2.81提高到3.54）。在内部评估数据集上也观察到了类似的改进，整体得分从3.13提高到4.43（增幅41.5%）。结论：微调紧凑的LLMs用于医学转录可以产生临床上显著的改进，同时实现完全设备本地的浏览器部署。这种方法解决了AI在医疗领域应用的关键障碍：隐私保护、成本降低和资源有限环境中的可及性。",
+        "地址": "https://arxiv.org/pdf/2507.03033.pdf"
+    },
+    {
+        "名称": "2025 [2507.03336] Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky.pdf",
+        "作者": "Ashutosh Hathidara, Julien Yu, Sebastian Schreiber",
+        "摘要": "摘要: 大型语言模型（LLMs）越来越多地被用来调用企业API，但在近似重复工具竞争同一用户意图时，或者必要参数未明确说明时，通常会失败。我们介绍了DiaFORGE（对话框架用于有机响应生成与评估），这是一个以消除歧义为中心的三阶段流程，（i）生成以角色驱动的多轮对话，助手必须在高度相似的工具之间作出区分，（ii）对3B-70B参数的开源模型进行带推理迹的监督微调，以及（iii）通过一个动态套件评估实际应用的准备情况，这个套件重新部署每个模型在一个实时代理循环中并报告端到端目标完成情况以及传统的静态指标。在我们的动态基准DiaBENCH上，以DiaFORGE训练的模型在工具调用成功率上相对于GPT-4o提高了27个百分点，相对于Claude-3.5-Sonnet提高了49个百分点，均在优化提示下进行了测试。为了进一步推动研究，我们发布了一个包含5000个生产级企业API规范以及严格验证的、以消除歧义为中心的对话的开放语料库，提供了一个构建可靠的企业级工具调用代理的实用蓝图。\n\n作者: Ashutosh Hathidara, Julien Yu, Sebastian Schreiber\nURL: https://arxiv.org/pdf/2507.03336.pdf\n标题: 2025[2507.03336] 消歧微调使企业工具调用LLMs更现实且风险更小.pdf",
+        "地址": "https://arxiv.org/pdf/2507.03336.pdf"
+    },
+    {
+        "名称": "2025 [2507.04562] Evaluating LLMs on Real-World Forecasting Against Human Superforecasters.pdf",
+        "作者": "Janna Lu",
+        "摘要": "摘要：大型语言模型 (LLMs) 在各种任务中展现了卓越的能力，但其预测未来事件的能力仍未得到充分研究。一年前，大型语言模型在准确性上难以接近人类群体的水平。我评估了最先进的 LLMs 在 Metaculus 平台上 464 个预测问题上的表现，并将其与人类超级预测者进行比较。前沿模型在 Brier 评分上表面上超过了普通人群，但仍显著低于超级预测者群体。",
+        "地址": "https://arxiv.org/pdf/2507.04562.pdf"
+    },
+    {
+        "名称": "2025 [2507.04376] MOD-X: A Modular Open Decentralized eXchange Framework proposal for Heterogeneous Interoperable Artificial Intelligence Agents.pdf",
+        "作者": "Georgios Ioannides, Christos Constantinou, Vinija Jain, Aman Chadha, Aaron Elkins",
+        "摘要": "摘要：随着人工智能系统从单一模型演变为专业代理的生态系统，对标准化通信协议的需求变得越来越关键。本文介绍了MOD-X（模块化开放去中心化交换），这是一种用于代理互操作性的创新架构框架提案，旨在解决现有协议的关键限制。与当前方法不同，MOD-X提出了一种具有通用消息总线、完善的状态管理、翻译能力和基于区块链的安全机制的分层架构。我们介绍了MOD-X的架构，并将其与现有协议进行比较，通过一个实例演示了它如何实现异构专业代理之间的集成（代理具有不同的架构、供应商、能力和知识表示，包括基于规则的系统、神经网络、符号推理引擎以及具有代理包装的遗留软件）。MOD-X的关键创新包括发布-订阅通信模型、语义能力发现以及动态工作流程编排——提供了一个将理论形式与实践实施相结合的框架。该架构解决了对真正去中心化的、可互操作的代理生态系统日益增长的需求，这些生态系统可以在无需中央协调的情况下有效扩展。",
+        "地址": "https://arxiv.org/pdf/2507.04376.pdf"
+    },
+    {
+        "名称": "2025 [2507.04285] SeqTex: Generate Mesh Textures in Video Sequence.pdf",
+        "作者": "Ze Yuan (1), Xin Yu (1), Yangtian Sun (1), Yuan-Chen Guo (2), Yan-Pei Cao (2), Ding Liang (2), Xiaojuan Qi (1) ((1) HKU, (2) VAST)",
+        "摘要": "摘要: 训练原生的3D纹理生成模型仍然是一个基础但具有挑战性的问题，主要是因为大规模高质量的3D纹理数据集的匮乏。这种稀缺性阻碍了模型在现实场景中的泛化能力。为了解决这一问题，大多数现有方法通过微调基础图像生成模型来利用其学习到的视觉先验。然而，这些方法通常只生成多视图图像，并依赖后处理来生产UV纹理贴图——这是现代图形管道中的基本表示形式。这种两阶段管道通常存在误差累积和3D表面空间不一致的问题。本文介绍了SeqTex，这是一种新颖的端到端框架，利用预训练视频基础模型中编码的视觉知识，直接生成完整的UV纹理贴图。不同于以往单独建模UV纹理分布的方法，SeqTex将任务重新表述为序列生成问题，使模型能够学习多视图渲染和UV纹理的联合分布。该设计有效地将一致的图像空间先验从视频基础模型转移到UV域。为了进一步提升性能，我们提出了几个架构创新：一个解耦的多视图和UV分支设计，几何信息引导的注意力机制用于跨领域特征对齐，以及自适应的令牌分辨率以在保持计算效率的同时保留精细纹理细节。这些组件结合起来允许SeqTex充分利用预训练视频先验，并在不需要后处理的情况下合成高保真度UV纹理贴图。大量实验表明，SeqTex在图像条件和文本条件的3D纹理生成任务上均达到了最先进的性能，具备优越的3D一致性、纹理-几何对齐和真实世界的泛化能力。",
+        "地址": "https://arxiv.org/pdf/2507.04285.pdf"
+    }
+]
