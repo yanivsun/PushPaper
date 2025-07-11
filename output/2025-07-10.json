@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2507.07105] 4KAgent: Agentic Any Image to 4K Super-Resolution.pdf",
+        "作者": "Yushen Zuo, Qi Zheng, Mingyang Wu, Xinrui Jiang, Renjie Li, Jian Wang, Yide Zhang, Gengchen Mai, Lihong V. Wang, James Zou, Xiaoyu Wang, Ming-Hsuan Yang, Zhengzhong Tu",
+        "摘要": "摘要: 我们呈现了4KAgent，这是一个统一的代理超分辨率通用系统，设计用于将任何图像普遍提升至4K分辨率（如果迭代应用，甚至更高）。我们的系统可以将严重退化的极低分辨率图像，例如高度失真输入的256x256，转变为晶莹剔透、逼真的4K输出。4KAgent包括三个核心组件：（1）Profilling，一个基于定制用例定制4KAgent管道的模块；（2）感知代理，利用视觉语言模型与图像质量评估专家分析输入图像并制定量身定制的恢复计划；（3）恢复代理，执行计划，遵循递归执行-反思范式，通过质量驱动的专家混合策略选择每一步的最佳输出。此外，4KAgent嵌入了专门的面部恢复管道，显著增强了肖像和自拍照片的面部细节。我们在涵盖26个多样基准的11个不同任务类别中严格评估了4KAgent，在广泛的成像领域设定了新的最先进水平。我们的评估涵盖自然图像、肖像照片、AI生成内容、卫星图像、荧光显微镜和医学成像，如眼底检查、超声波和X射线，在感知（例如，NIQE，MUSIQ）和保真度（例如，PSNR）指标方面表现出优越性能。通过建立低级视觉任务的新型代理范式，我们旨在催化各研究社区内视觉中心自主代理的广泛兴趣和创新。我们将发布所有代码、模型和结果。",
+        "地址": "https://arxiv.org/pdf/2507.07105.pdf"
+    },
+    {
+        "名称": "2025 [2507.07095] Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data.pdf",
+        "作者": "Ke Fan, Shunlin Lu, Minyue Dai, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang",
+        "摘要": "摘要：根据文本描述生成多样化和自然的人体动作序列是计算机视觉、图形学和机器人学领域内一个基本且具有挑战性的研究方向。尽管该领域已经取得了显著的进展，当前的方法通常在零样本泛化能力方面面临挑战，主要原因是训练数据集的规模有限。此外，缺乏全面的评估框架阻碍了该任务的进步，因为无法识别改进方向。在这项工作中，我们旨在推动文本到动作生成进入一个新时代，即实现零样本泛化能力。为此，首先，我们开发了一个高效的注释流水线并引入了MotionMillion——迄今为止最大的人体动作数据集，包含超过2000小时和200万个高质量动作序列。此外，我们提出了MotionMillion-Eval，这是最全面的零样本动作生成评估基准。利用可扩展架构，我们将模型扩展到70亿参数，并在MotionMillion-Eval上验证其性能。我们的结果证明了模型强大的泛化能力，可以应对域外和复杂的组成动作，标志着零样本人体动作生成的重大进步。代码可以在此https URL上获得。",
+        "地址": "https://arxiv.org/pdf/2507.07095.pdf"
+    },
+    {
+        "名称": "2025 [2507.06448] Perception-Aware Policy Optimization for Multimodal Reasoning.pdf",
+        "作者": "Zhenhailong Wang, Xuehang Guo, Sofia Stoica, Haiyang Xu, Hongru Wang, Hyeonjeong Ha, Xiusi Chen, Yangyi Chen, Ming Yan, Fei Huang, Heng Ji",
+        "摘要": "以下是对所提供学术论文材料的摘要提取，并翻译为中文：\n\n摘要：具备可验证奖励的强化学习（RLVR）已经证明是一种赋予大规模语言模型（LLMs）稳健的多步推理能力的高效策略。然而，其设计和优化仍然专注于纯文本领域，当应用于多模态推理任务时表现不佳。特别是，我们观察到当前多模态推理任务中的主要错误来源于对视觉输入的感知。为了解决这一瓶颈，我们提出了感知感知策略优化（PAPO），这是对GRPO的一种简单而有效的扩展，鼓励模型在学习推理的同时学习感知，完全依靠内部监督信号。值得注意的是，PAPO 不依赖额外的数据管理、外部奖励模型或专有模型。具体而言，我们在GRPO目标中引入了隐式感知损失，以KL散度项的形式，尽管简单，但在各种多模态基准测试中整体性能显著提高了4.4%。在高度依赖视觉的任务中，改进更为显著，接近8.0%。我们还观察到感知错误显著减少了30.5%，表明PAPO提高了感知能力。我们对PAPO进行了全面分析，发现并缓解了一种独特的损失攻击问题，通过双熵损失进行严格分析和处理。总体而言，我们的工作将感知感知监督更深入地整合到RLVR学习目标中，并为一种新的鼓励视觉基础推理的RL框架奠定了基础。项目页面: 此 https URL。",
+        "地址": "https://arxiv.org/pdf/2507.06448.pdf"
+    },
+    {
+        "名称": "2025 [2507.07957] MIRIX: Multi-Agent Memory System for LLM-Based Agents.pdf",
+        "作者": "Yu Wang, Xi Chen",
+        "摘要": "摘要: 尽管AI代理的记忆能力正日益受到关注，但现有的解决方案仍存在根本性的局限性。大多数依赖于平坦、范围狭窄的记忆组件，限制了其随时间推移个性化、抽象和可靠地回忆用户特定信息的能力。为此，我们引入了MIRIX，这是一种模块化的多代理记忆系统，通过解决该领域最关键的挑战：使语言模型真正记住，从而重新定义AI记忆的未来。与之前的方法不同，MIRIX超越文本，拥抱丰富的视觉和多模态体验，使记忆在真实场景中真正实用。MIRIX由六种独特且精心结构化的记忆类型组成：核心、情景、语义、程序、资源记忆和知识库，并结合一个动态控制和协调更新与检索的多代理框架。此设计使代理能够持久、推理并准确检索各种长期用户数据。我们在两个苛刻的环境中验证了MIRIX。首先在ScreenshotVQA上，这是一项具有挑战性的多模态基准测试，包括每个序列近20,000张高分辨率计算机截图，需深度上下文理解，且无现有记忆系统可应用，MIRIX在提高存储准确度的同时减少了99.9%的存储需求。其次在LOCOMO上，这是一项长篇对话基准测试，具有单模态文本输入，MIRIX达到了85.4%的最先进表现，远超现有基准。这些结果表明，MIRIX为记忆强化的LLM代理设立了新的性能标准。为了让用户体验我们的记忆系统，我们提供了一个由MIRIX驱动的打包应用程序，它实时监控屏幕，构建个性化记忆库，并提供直观可视化和安全的本地存储以确保隐私。",
+        "地址": "https://arxiv.org/pdf/2507.07957.pdf"
+    },
+    {
+        "名称": "2025 [2507.06920] Rethinking Verification for LLM Code Generation: From Generation to Testing.pdf",
+        "作者": "Zihan Ma, Taolin Zhang, Maosong Cao, Junnan Liu, Wenwei Zhang, Minnan Luo, Songyang Zhang, Kai Chen",
+        "摘要": "摘要: 大型语言模型(LLMs)最近在代码生成评估基准如HumanEval和LiveCodeBench中取得显著成功。然而，详细研究发现这些评估套件通常仅包含数量有限的同质测试用例，导致细微的错误未被检测到。这不仅人为地夸大了测量性能，还削弱了在使用可验证奖励(RLVR)的强化学习框架中准确奖励估计的能力。为了解决这些关键缺陷，我们通过提出多维度指标系统地研究了测试用例生成(TCG)任务，以严格量化测试套件的全面性。此外，我们引入了一种人类-LLM协作方法(SAGA)，利用人类编程专长与LLM推理能力，旨在显著提升生成测试用例的覆盖率和质量。我们还开发了一个TCGBench以促进TCG任务的研究。实验表明SAGA在TCGBench上实现了90.62%的检测率和32.58%的验证准确率。SAGA生成的代码生成评估基准的验证准确率(Verifier Acc)比LiveCodeBench-v6高10.78%。这些结果证明了我们提出方法的有效性。我们希望这项工作能为可靠的LLM代码评估建立一个可扩展的基础，进一步推进代码生成中的RLVR，并为自动化对抗测试综合和自适应基准集成铺平道路。\n\n作者: 马子瀚, 张淘林, 曹茂松, 刘俊楠, 张文伟, 罗旻楠, 张松杨, 陈凯\n\n链接: https://arxiv.org/pdf/2507.06920.pdf\n\n标题: 2025 [2507.06920] 重新思考LLM代码生成的验证: 从生成到测试.pdf",
+        "地址": "https://arxiv.org/pdf/2507.06920.pdf"
+    },
+    {
+        "名称": "2025 [2507.06457] A Systematic Analysis of Hybrid Linear Attention.pdf",
+        "作者": "Dustin Wang, Rui-Jie Zhu, Steven Abreu, Yong Shan, Taylor Kergan, Yuqi Pan, Yuhong Chou, Zheng Li, Ge Zhang, Wenhao Huang, Jason Eshraghian",
+        "摘要": "摘要: Transformer在处理长序列时面临着二次复杂度和内存问题，因此采用使用固定大小隐藏状态的线性注意力机制。然而，线性模型通常在回忆性能方面表现有限，这导致了结合线性和全注意力层的混合架构的出现。尽管对混合架构进行了广泛研究，但对线性注意力组件的选择却没有深入探讨。我们系统地评估了各种线性注意力模型 - 从向量递归到高级门控机制 - 独立使用和混合使用。为了进行这项全面的分析，我们训练并开源了72个模型：包括36个340M参数（20B tokens）和36个1.3B参数（100B tokens）模型，涵盖了六种线性注意力变体以及五种混合比率。在标准语言建模和回忆任务中的基准测试显示，性能优越的独立线性模型在混合架构中不一定表现出色。尽管语言建模在不同的线性到全注意力比率中表现稳定，但随着全注意力层增加，回忆显著改善，特别是在低于3:1的比率下。我们的研究强调了选择性门控、层次递归和受控遗忘对于有效混合模型的重要性。我们推荐HGRN-2或GatedDeltaNet等架构，其线性到全注意力比率在3:1到6:1之间，可有效达到Transformer级别的回忆性能。我们的模型在提供的网址上开源。",
+        "地址": "https://arxiv.org/pdf/2507.06457.pdf"
+    },
+    {
+        "名称": "2025 [2507.07017] First Return, Entropy-Eliciting Explore.pdf",
+        "作者": "Tianyu Zheng, Tianshun Xing, Qingshui Gu, Taoran Liang, Xingwei Qu, Xin Zhou, Yizhi Li, Zhoufutu Wen, Chenghua Lin, Wenhao Huang, Qian Liu, Ge Zhang, Zejun Ma",
+        "摘要": "摘要: 基于可验证奖励的强化学习 (RLVR) 提高了大型语言模型 (LLMs) 的推理能力，但在不稳定的探索方面存在困难。我们提出了 FR3E (First Return, Entropy-Eliciting Explore)，一个结构化的探索框架，它识别推理轨迹中高不确定性决策点，并执行有针对性的展开操作，以构建语义上有依据的中间反馈。我们的方法在不依赖于密集监督的情况下提供有针对性的指导。在数学推理基准 (AIME24) 上的实验证明，FR3E 促进了更稳定的训练，产生更长且更连贯的响应，并增加了完全正确轨迹的比例。这些结果突显了该框架在通过更稳健和结构化的探索来改进 LLM 推理方面的有效性。",
+        "地址": "https://arxiv.org/pdf/2507.07017.pdf"
+    },
+    {
+        "名称": "2025 [2507.05687] AutoTriton: Automatic Triton Programming with Reinforcement Learning in LLMs.pdf",
+        "作者": "Shangzhan Li, Zefan Wang, Ye He, Yuxuan Li, Qi Shi, Jianling Li, Yonggang Hu, Wanxiang Che, Xu Han, Zhiyuan Liu, Maosong Sun",
+        "摘要": "摘要：深度学习中的核开发需要在硬件上优化计算单元，同时平衡内存管理、并行性和通过广泛的经验调整进行硬件特定优化。尽管像Triton这样的领域专用语言通过抽象低级细节简化了GPU编程，开发人员仍需通过迭代实验手动调整关键参数，如块大小和内存访问模式，从而造成了实现最优性能和广泛应用的重大障碍。在这项工作中，我们引入了AutoTriton，这是一款由强化学习（RL）驱动的专门用于Triton编程的模型。AutoTriton进行监督微调（SFT），通过高质量的数据收集管道配备了基本的Triton编程知识，并通过群体相对策略优化（GRPO）算法进行RL，结合基于规则的奖励和基于执行的奖励来进一步提高Triton编程能力。对TritonBench和KernelBench的五个评估渠道进行的实验表明，我们的8B模型AutoTriton达到了与主流大模型相媲美的性能，包括Claude-4-Sonnet和DeepSeek-R1-0528。进一步的实验分析展示了AutoTriton各个模块的关键作用，包括SFT阶段、RL阶段和奖励设计策略。这些发现强调了RL在自动生成高性能内核方面的前景，并且由于高性能内核是AI系统的核心组件，这一突破为构建更高效的AI系统奠定了重要基础。模型和代码将在此URL处提供。\n\n作者：Shangzhan Li, Zefan Wang, Ye He, Yuxuan Li, Qi Shi, Jianling Li, Yonggang Hu, Wanxiang Che, Xu Han, Zhiyuan Liu, Maosong Sun\n\n链接：https://arxiv.org/pdf/2507.05687.pdf\n\n标题：2025 [2507.05687] AutoTriton: Automatic Triton Programming with Reinforcement Learning in LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2507.05687.pdf"
+    },
+    {
+        "名称": "2025 [2507.06804] Towards Solving More Challenging IMO Problems via Decoupled Reasoning and Proving.pdf",
+        "作者": "Zhenwen Liang, Linfeng Song, Yang Li, Tao Yang, Feng Zhang, Haitao Mi, Dong Yu",
+        "摘要": "摘要: 在形式语言中进行自动定理证明(ATP)是人工智能的基础性挑战。虽然大型语言模型(LLM)已经取得了显著进展，但它们强大的非正式推理能力与其较弱的正式证明性能之间仍存在显著差距。最近的研究表明，在PutnamBench这样的基准测试中，非正式准确率超过80%，而正式成功率却低于8%。我们认为这一差距的存在是因为现有最先进的证明系统通过紧密结合推理和证明，以无意中惩罚深层次推理而偏向浅层次策略为代价进行训练。为了弥合这一根本差距，我们提出了一个新颖的框架，将高层次推理与低层次证明生成分离开来。我们的方法利用两个不同的专业模型：一个强大的通用推理器来生成多样化的、战略性的子目标引理，以及一个高效的证明器来严格验证这些引理。这种模块化设计释放了模型的全部推理潜力，并绕过了端到端训练的陷阱。我们在一组挑战性的2000年后IMO问题上评估了我们的方法，这是一组之前没有公开源代码证明器报告成功的问题。我们的分离框架成功解决了其中的5个问题，展示了在自动解决极具挑战性的数学问题上迈出的重要一步。为了促进未来的研究，我们发布了我们生成和验证的广泛IMO问题的完整数据集，可在此https URL上获得。\n\n作者: 凌振文, 宋林峰, 李洋, 杨涛, 张峰, 米海涛, 俞东\n备注: 进展中的工作\n地址: https://arxiv.org/pdf/2507.06804.pdf\n标题: 2025 [2507.06804] 通过分离推理和证明来解决更具挑战性的IMO问题",
+        "地址": "https://arxiv.org/pdf/2507.06804.pdf"
+    },
+    {
+        "名称": "2025 [2506.24044] A Survey on Vision-Language-Action Models for Autonomous Driving.pdf",
+        "作者": "Sicong Jiang, Zilin Huang, Kangan Qian, Ziang Luo, Tianze Zhu, Yang Zhong, Yihong Tang, Menglin Kong, Yunlong Wang, Siwen Jiao, Hao Ye, Zihao Sheng, Xin Zhao, Tuopu Wen, Zheng Fu, Sikai Chen, Kun Jiang, Diange Yang, Seongjin Choi, Lijun Sun",
+        "摘要": "摘要：多模态大型语言模型（MLLM）的快速进展为视觉-语言-行动（VLA）范式铺平了道路，该范式将视觉感知、自然语言理解和控制集成于单一策略中。自动驾驶领域的研究人员正在将这些方法积极应用于车辆领域。这些模型有望让自动驾驶车辆能够解读高级指令、理解复杂交通场景并自主决策。然而，相关文献仍然零散且快速扩展。本综述首次提供了关于自动驾驶领域中视觉-语言-行动（VLA4AD）的全面概述。我们（i）形式化了最近工作中共享的架构构建模块，（ii）追溯了从早期解释器到以推理为中心的VLA模型的发展轨迹，（iii）根据VLA在自动驾驶领域的进展比较了20多种代表性模型。我们还整合了现有的数据集和基准，强调了联合测量驾驶安全性、准确性和解释质量的协议。最后，我们详细讨论了鲁棒性、实时效率和形式验证等开放性挑战，并概述了VLA4AD的未来发展方向。本综述为推进可解释的社会化自动驾驶车辆提供了简明而完整的参考。GitHub仓库地址为 \\\\href{this https URL}{SicongJiang/Awesome-VLA4AD}。",
+        "地址": "https://arxiv.org/pdf/2506.24044.pdf"
+    },
+    {
+        "名称": "2025 [2507.06853] DiffSpectra: Molecular Structure Elucidation from Spectra using Diffusion Models.pdf",
+        "作者": "Liang Wang, Yu Rong, Tingyang Xu, Zhenyi Zhong, Zhiyuan Liu, Pengju Wang, Deli Zhao, Qiang Liu, Shu Wu, Liang Wang",
+        "摘要": "摘要: 分子结构从光谱中解析是化学中的一个基础问题，对化合物鉴定、合成和药物开发有深远影响。传统方法高度依赖专家解释，缺乏可扩展性。开创性的机器学习方法引入了基于检索的策略，但它们对有限库的依赖限制了对新颖分子的泛化。生成模型提供了一个有前途的替代方案，然而大多数采用自回归的SMILES架构，忽略了3D几何结构，难以整合多样的光谱模式。在这项工作中，我们提出了DiffSpectra，一个通过扩散模型直接从多模态光谱数据中推断出2D和3D分子结构的生成框架。DiffSpectra将结构解析表述为一个条件生成过程。其去噪网络由Diffusion Molecule Transformer参数化，这是一个集成拓扑和几何信息的SE(3)等变架构。条件由SpecFormer提供，后者是一个基于变压器的光谱编码器，捕获了来自多模态光谱的光谱内和光谱间依赖关系。大量实验表明，DiffSpectra在结构解析中实现了高精度，通过抽样以16.01%的top-1准确率和96.86%的top-20准确率恢复了精确结构。模型显著受益于3D几何建模、SpecFormer预训练和多模态条件。这些结果突显了光谱条件扩散建模在解决分子结构解析挑战中的有效性。据我们所知，DiffSpectra是第一个统一多模态光谱推理和联合2D/3D生成建模以新颖方式解析分子结构的框架。",
+        "地址": "https://arxiv.org/pdf/2507.06853.pdf"
+    },
+    {
+        "名称": "2025 [2507.06607] Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation.pdf",
+        "作者": "Liliang Ren, Congcong Chen, Haoran Xu, Young Jin Kim, Adam Atkinson, Zheng Zhan, Jiankai Sun, Baolin Peng, Liyuan Liu, Shuohang Wang, Hao Cheng, Jianfeng Gao, Weizhu Chen, Yelong Shen",
+        "摘要": "摘要：\n语言建模的最新进展显示了状态空间模型（SSM）在高效序列建模方面的有效性。尽管诸如Samba和解码器-解码器架构YOCO等混合架构在性能上优于Transformer，但先前的研究尚未探讨SSM层之间表示共享的效率潜力。在本文中，我们提出了门控记忆单元（GMU），这是一种简单但有效的跨层记忆共享机制。我们将其应用于创建SambaY，这是一种混合解码器架构，在跨解码器中包含GMU，以共享来自基于Samba的自解码器的内存读取状态。SambaY显著提高了解码效率，保持线性预填充时间复杂度，并提升长上下文性能，同时消除显式位置编码的需求。通过广泛的扩展实验，我们证明了我们的模型在与强YOCO基准相比时表现出显著较低的不可约损失，表明在大规模计算环境下具有卓越的性能可扩展性。我们最大的模型结合差分注意力，Phi4-mini-Flash-Reasoning，在无需强化学习的情况下，在Math500、AIME24/25和GPQA Diamond等推理任务上表现显著优于Phi4-mini-Reasoning，并在vLLM推理框架下以高达10倍的解码吞吐量处理2K长度的输入和32K生成长度。我们在开源数据上发布我们的训练代码库。",
+        "地址": "https://arxiv.org/pdf/2507.06607.pdf"
+    },
+    {
+        "名称": "2025 [2507.06485] Video-RTS: Rethinking Reinforcement Learning and Test-Time Scaling for Efficient and Enhanced Video Reasoning.pdf",
+        "作者": "Ziyang Wang, Jaehong Yoon, Shoubin Yu, Md Mohaiminul Islam, Gedas Bertasius, Mohit Bansal",
+        "摘要": "摘要：尽管在使用大型语言模型（LLMs）进行强化学习（RL）基础的视频推理方面取得了进展，但数据收集和微调仍然是重大的挑战。这些方法通常依赖于大规模的有监督微调（SFT），需要大量的视频数据和长时间的连锁思维（CoT）注释，使其代价高且难以扩展。为了解决这个问题，我们提出了Video-RTS，这是一种新的方法，通过结合数据高效的RL和视频自适应测试时间缩放（TTS）策略，大幅提高数据效率和视频推理能力。基于关于RL样本数据缩放的观察，我们跳过资源密集的SFT步骤，采用以输出为基础的奖励的高效纯RL训练，不需要额外的注释或大量的微调。此外，为了更有效地利用计算资源，我们引入了一种稀疏到密集的视频TTS策略，通过基于输出一致性逐步加入帧来改进推理。我们在多个视频推理基准上验证了我们的方法，表明Video-RTS在仅使用3.6%的训练样本情况下，在准确性方面超过现有的视频推理模型，平均提高了2.4%。例如，Video-RTS在最近的具有挑战性的视频推理基准Video-Holmes上实现了4.2%的提高，在MMVU上提高了2.6%。值得注意的是，我们的纯RL训练和自适应视频TTS提供了互补的优势，使Video-RTS具备了强大的推理性能。",
+        "地址": "https://arxiv.org/pdf/2507.06485.pdf"
+    },
+    {
+        "名称": "2025 [2507.06167] Skywork-R1V3 Technical Report.pdf",
+        "作者": "Wei Shen, Jiangbo Pei, Yi Peng, Xuchen Song, Yang Liu, Jian Peng, Haofeng Sun, Yunzhuo Hao, Peiyu Wang, Jianhao Zhang, Yahui Zhou",
+        "摘要": "摘要：我们介绍了Skywork-R1V3，一个先进的开源视觉语言模型（VLM），开创了一种新的视觉推理方法。其关键创新在于有效地将纯文本大语言模型（LLM）的推理技能转移到视觉任务上。Skywork-R1V3的强大性能主要来自我们精心设计的后训练强化学习（RL）框架，该框架有效地激活和增强了模型的推理能力，而无需额外的继续预训练。通过这个框架，我们进一步揭示了连接模块在实现多模态推理模型强大的跨模态对齐中的基本作用。此外，我们引入了一个独特的推理能力指标，即关键推理词的熵，在RL训练期间对检查点选择非常有效。Skywork-R1V3在MMMU上取得了最先进的成绩，从64.3%显著提升至76.0%，这一性能与初级人类能力相当。值得注意的是，我们基于RL的后训练方法甚至使参数量为38亿的模型能够媲美顶级的闭源VLMs。该实现成功地将数学推理转移到其他主题相关的推理任务上。我们还包括对课程学习和强化微调策略的分析，以及关于多模态推理的更广泛讨论。Skywork-R1V3代表了多模态推理的重大飞跃，展示了强大的RL引擎在提升开源VLM能力方面的潜力。",
+        "地址": "https://arxiv.org/pdf/2507.06167.pdf"
+    },
+    {
+        "名称": "2025 [2507.05455] ModelCitizens: Representing Community Voices in Online Safety.pdf",
+        "作者": "Ashima Suvarna, Christina Chance, Karolina Naranjo, Hamid Palangi, Sophie Hao, Thomas Hartvigsen, Saadia Gabriel",
+        "摘要": "以下是摘要的中文翻译：\n\n摘要：自动毒性语言检测对创建安全、包容的在线空间至关重要。然而，这是一个高度主观的任务，对毒性语言的感知受社区规范和生活经验的影响。现有的毒性检测模型通常基于将不同注释者的观点合并为单一的真实情况的注释，这抹去了重要的特定情境下的毒性概念，如被重新认领的语言。为了解决这一问题，我们引入了MODELCITIZENS，这是一个包含6800条社交媒体帖子和40000个毒性注释的数据集，涵盖了不同的身份群体。为了捕捉对话情境在毒性中的作用，我们用LLM生成的对话场景增强了MODELCITIZENS的数据。现有的最先进的毒性检测工具（如OpenAI Moderation API，GPT-o4-mini）在MODELCITIZENS上的表现不佳，在经过情境增强的帖子上表现进一步恶化。最后，我们发布了LLAMACITIZEN-8B和GEMMACITIZEN-12B，这些基于LLaMA和Gemma的模型经过MODELCITIZENS的微调，在同类测试中比GPT-o4-mini表现高出5.5%。我们的研究结果凸显了社区知情注释和建模对于包容性内容管理的重要性。数据、模型和代码可在此URL获得。",
+        "地址": "https://arxiv.org/pdf/2507.05455.pdf"
+    },
+    {
+        "名称": "2025 [2507.07024] FlexOlmo: Open Language Models for Flexible Data Use.pdf",
+        "作者": "Weijia Shi, Akshita Bhagia, Kevin Farhat, Niklas Muennighoff, Pete Walsh, Jacob Morrison, Dustin Schwenk, Shayne Longpre, Jake Poznanski, Allyson Ettinger, Daogao Liu, Margaret Li, Dirk Groeneveld, Mike Lewis, Wen-tau Yih, Luca Soldaini, Kyle Lo, Noah A. Smith, Luke Zettlemoyer, Pang Wei Koh, Hannaneh Hajishirzi, Ali Farhadi, Sewon Min",
+        "摘要": "摘要：我们介绍了FlexOlmo，这是一类新的语言模型（LM）。它支持（1）分布式训练，不需要数据共享，其中不同的模型参数在独立的闭合数据集上训练，以及（2）数据灵活推理，这些参数及其关联数据可以灵活包含或排除在模型推理中，无需进一步训练。FlexOlmo采用一种专家混合（MoE）架构，每个专家在闭合数据集上独立训练，之后通过新的领域信息路由集成，无需联合训练。FlexOlmo在我们整理的FlexMix语料库上训练，该语料库包括公开可用的数据集以及七个领域特定集，代表封闭集的现实近似值。我们在包含多达370亿参数（其中200亿是活动状态）及31项各异的下游任务中评估了模型。我们展示了一般专家在公共数据上训练后可以有效地与其他数据所有者独立训练的专家结合，实现了平均41%的相对提升，同时允许用户根据数据许可或权限要求选择不使用某些数据。我们的方法平均超越了之前的模型合并方法10.1%，并且在使用相同训练FLOPs的情况下，优于在没有数据限制的标准MoE。总的来说，这项研究为敏感或受保护数据受规管行业的数据所有者和研究人员提供了一个解决方案。FlexOlmo使得在尊重数据所有者偏好的同时，通过保持数据本地，在推理过程支持细粒度的数据访问控制，从而从闭合数据中受益。\n\n翻译：Abstract: 我们介绍FlexOlmo，这是一类新的语言模型（LM）。它支持（1）分布式训练，不需要数据共享，其中不同的模型参数在独立的闭合数据集上训练，以及（2）数据灵活推理，这些参数及其关联数据可以灵活包含或排除在模型推理中，无需进一步训练。FlexOlmo采用一种专家混合（MoE）架构，每个专家在闭合数据集上独立训练，之后通过新的领域信息路由集成，无需联合训练。FlexOlmo在我们整理的FlexMix语料库上训练，该语料库包括公开可用的数据集以及七个领域特定集，代表封闭集的现实近似值。我们在包含多达370亿参数（其中200亿是活动状态）及31项各异的下游任务中评估了模型。我们展示了一般专家在公共数据上训练后可以有效地与其他数据所有者独立训练的专家结合，实现了平均41%的相对提升，同时允许用户根据数据许可或权限要求选择不使用某些数据。我们的方法平均超越了之前的模型合并方法10.1%，并且在使用相同训练FLOPs的情况下，优于在没有数据限制的标准MoE。总的来说，这项研究为敏感或受保护数据受规管行业的数据所有者和研究人员提供了一个解决方案。FlexOlmo使得在尊重数据所有者偏好的同时，通过保持数据本地，在推理过程支持细粒度的数据访问控制，从而从闭合数据中受益。",
+        "地址": "https://arxiv.org/pdf/2507.07024.pdf"
+    },
+    {
+        "名称": "2025 [2507.06415] PERK: Long-Context Reasoning as Parameter-Efficient Test-Time Learning.pdf",
+        "作者": "Zeming Chen, Angelika Romanou, Gail Weiss, Antoine Bosselut",
+        "摘要": "摘要：长上下文推理需要在大量嘈杂的输入上下文中准确识别相关信息。以前的研究表明，使用测试时学习将上下文直接编码到模型参数中可以有效地启用对嘈杂信息的推理。然而，启用测试时学习的元学习方法占用内存非常多，阻止了它们在长上下文设置中的应用。在这项工作中，我们提出了PERK（Parameter Efficient Reasoning over Knowledge），一种可扩展的方法，通过在测试时对轻量级模型适配器进行梯度更新来学习编码长输入上下文。具体而言，PERK在元训练阶段采用两个嵌套的优化循环。内循环将上下文快速编码到低阶适配器（LoRA）中，后者作为基础模型的参数高效存储模块。同时，外循环学习使用更新后的适配器准确回忆并推理编码长上下文中的相关信息。我们在几个长上下文推理任务上的评估表明，PERK显著优于标准的基于提示的长上下文基线，实现了更小模型（GPT-2）的平均绝对性能提升高达90%和我们评估的最大模型Qwen-2.5-0.5B高达27%的性能提升。总体而言，PERK对推理复杂性、长度外推以及上下文中相关信息的位置更为鲁棒。最后，我们展示了虽然PERK在训练过程中占用内存较多，但在推理时它比基于提示的长上下文推理更高效地扩展。",
+        "地址": "https://arxiv.org/pdf/2507.06415.pdf"
+    },
+    {
+        "名称": "2025 [2507.06260] Evaluating the Critical Risks of Amazon's Nova Premier under the Frontier Model Safety Framework.pdf",
+        "作者": "Satyapriya Krishna, Ninareh Mehrabi, Abhinav Mohanty, Matteo Memelli, Vincent Ponzo, Payal Motwani, Rahul Gupta",
+        "摘要": "摘要：Nova Premier是亚马逊最强大的多模态基础模型和模型蒸馏教师。它能够处理文本、图像和视频，具有一百万标记的上下文窗口，可以在一个提示中分析大型代码库、400页文档和90分钟视频。我们首次对Nova Premier的关键风险概况进行了全面评估，采用“前沿模型安全框架”。评估针对三个高风险领域——化学、生物、辐射和核（CBRN）、攻击性网络行动以及自动化AI研发，并结合自动化基准测试、专家红队测试和提升研究，以确定该模型是否超出发布阈值。我们总结了方法并报告了核心发现。根据这次评估，我们发现Nova Premier按照2025年巴黎AI安全峰会上承诺的标准安全发布。我们将继续增强我们的安全评估和缓解管道，以应对前沿模型相关的新风险和能力。",
+        "地址": "https://arxiv.org/pdf/2507.06260.pdf"
+    },
+    {
+        "名称": "2025 [2505.10251] SRT-H: A Hierarchical Framework for Autonomous Surgery via Language Conditioned Imitation Learning.pdf",
+        "作者": "Ji Woong Kim, Juo-Tung Chen, Pascal Hansen, Lucy X. Shi, Antony Goldenberg, Samuel Schmidgall, Paul Maria Scheikl, Anton Deguet, Brandon M. White, De Ru Tsai, Richard Cha, Jeffrey Jopling, Chelsea Finn, Axel Krieger",
+        "摘要": "摘要：自主手术的研究主要集中在受控环境中简单任务的自动化。然而，实际的外科应用需要在长时间内进行灵巧的操作，并适应人体组织的内在变化性。这些挑战难以通过现有的基于逻辑的方法或传统的端到端学习方法来解决。为了解决这一问题，我们提出了一个用于执行灵巧且长时间手术步骤的分层框架。我们的方法利用了一个高层次的政策进行任务规划和一个低层次的政策生成机器人轨迹。高层次的规划器在语言空间中进行规划，生成任务级别或校正指令，以引导机器人完成长时间的步骤并纠正低层次政策的错误。我们通过离体胆囊切除术实验验证了我们的框架，这是一种常见的微创手术，并进行了消融研究以评估系统的关键组件。我们的方法在八个未见过的离体胆囊上实现了100%的成功率，完全自主操作，无需人工干预。这项工作展示了在手术过程中实现步骤级别的自主性，标志着 autonomous surgical systems 临床应用的一个重要里程碑。",
+        "地址": "https://arxiv.org/pdf/2505.10251.pdf"
+    },
+    {
+        "名称": "2025 [2507.07106] Towards Multimodal Understanding via Stable Diffusion as a Task-Aware Feature Extractor.pdf",
+        "作者": "Vatsal Agarwal, Matthew Gwilliam, Gefen Kohavi, Eshan Verma, Daniel Ulbricht, Abhinav Shrivastava",
+        "摘要": "摘要: 近期在多模态大型语言模型（MLLMs）方面的进展使得基于图像的问题回答能力成为可能。然而，一个主要的限制是使用CLIP作为视觉编码器；虽然它可以捕捉粗略的全局信息，但往往会错过与输入查询相关的细粒度细节。为了解决这些缺点，本研究探讨了预训练的文本到图像扩散模型是否可以作为指令感知的视觉编码器。通过对其内部表示的分析，我们发现扩散特征不仅在语义上非常丰富，还可以编码强图像文本对齐。此外，我们发现可以利用文本条件使模型聚焦于与输入问题相关的区域。然后我们研究如何将这些特征与大型语言模型对齐，并揭示一个泄漏现象，即LLM可以无意间恢复来自原始扩散提示的信息。我们分析了这种泄漏的原因并提出了一种缓解策略。基于这些见解，我们探索了一种简单的融合策略，利用CLIP和条件扩散特征。我们在一般VQA和专门的MLLM基准测试中评估了我们的方法，证明了扩散模型在视觉理解方面的潜力，特别是在需要空间和组合推理的以视觉为中心的任务中。我们的项目页面可以在此网址找到。",
+        "地址": "https://arxiv.org/pdf/2507.07106.pdf"
+    },
+    {
+        "名称": "2025 [2507.05980] RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages.pdf",
+        "作者": "Gabriel Chua, Leanne Tan, Ziyu Ge, Roy Ka-Wei Lee",
+        "摘要": "摘要: 大型语言模型（LLMs）及其安全分类器在低资源语言上的表现通常较差，原因在于训练数据和评估基准有限。本文介绍了RabakBench，一个新的多语言安全基准，该基准本地化于新加坡独特的语言环境，涵盖Singlish（新加坡式英语）、中文、马来语和泰米尔语。RabakBench通过可扩展的三阶段管道构建：(i) 生成 - 通过增强真实的Singlish网络内容并使用LLM驱动的红队技术生成对抗性示例；(ii) 标注 - 使用多数投票的LLM标签器与人工判断一致进行半自动的多标签安全标注；(iii) 翻译 - 高保真翻译，在不同语言之间保留语言细微差别和毒性。最终数据集包含超过5,000个安全标注的示例，涵盖四种语言和六个细化的安全类别及严重程度等级。对11个流行的开源和闭源护栏分类器的评估显示出显著的绩效下降。RabakBench不仅能够在东南亚多语言环境中实现稳健的安全评估，还提供了一个可复现的框架，用于在低资源环境中构建本地化安全数据集。基准数据集，包括人工验证的翻译和评估代码，均公开提供。\n\n作者: Gabriel Chua, Leanne Tan, Ziyu Ge, Roy Ka-Wei Lee\n论文链接: https://arxiv.org/pdf/2507.05980.pdf\n标题: RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages",
+        "地址": "https://arxiv.org/pdf/2507.05980.pdf"
+    },
+    {
+        "名称": "2025 [2507.01702] AdamMeme: Adaptively Probe the Reasoning Capacity of Multimodal Large Language Models on Harmfulness.pdf",
+        "作者": "Zixin Chen, Hongzhan Lin, Kaixin Li, Ziyang Luo, Zhen Ye, Guang Chen, Zhiyong Huang, Jing Ma",
+        "摘要": "摘要: \n在社交媒体时代，多模态表情包的泛滥要求多模态大语言模型（mLLMs）有效理解表情包的有害性。现有的评估mLLMs理解有害表情包的基准依赖于使用静态数据集的基于准确性的、模型无关的评估。这些基准在提供最新和全面评估方面能力有限，因为在线表情包动态演变。为了解决这个问题，我们提出了AdamMeme，一个灵活的、基于代理的评估框架，可以自适应地探测mLLMs在解读表情包有害性方面的推理能力。通过多代理协作，AdamMeme通过逐步更新表情包数据，以挑战样本提供全面评估，进而揭示mLLMs解读有害性方面的特定限制。大量实验表明，我们的框架系统地揭示了不同目标mLLMs的表现差异，提供了对模型特定弱点的深入细致分析。我们的代码可以在此 https URL 获得。\n\n作者: Zixin Chen, Hongzhan Lin, Kaixin Li, Ziyang Luo, Zhen Ye, Guang Chen, Zhiyong Huang, Jing Ma\n\n评论: ACL 2025\n\nURL: https://arxiv.org/pdf/2507.01702.pdf\n\n标题: 2025 [2507.01702] AdamMeme: 适应性地探测多模态大语言模型的有害性推理能力",
+        "地址": "https://arxiv.org/pdf/2507.01702.pdf"
+    }
+]
