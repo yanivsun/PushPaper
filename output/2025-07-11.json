@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2507.07966] Scaling RL to Long Videos.pdf",
+        "作者": "Yukang Chen, Wei Huang, Baifeng Shi, Qinghao Hu, Hanrong Ye, Ligeng Zhu, Zhijian Liu, Pavlo Molchanov, Jan Kautz, Xiaojuan Qi, Sifei Liu, Hongxu Yin, Yao Lu, Song Han",
+        "摘要": "摘要：\n我们介绍了一个完整的框架，通过利用强化学习扩展视觉语言模型（VLMs）在长视频中的推理能力。我们通过整合三个关键组件来解决长视频推理的独特挑战：（1）一个大规模数据集LongVideo-Reason，包含52,000个长视频问答对，具有跨运动、游戏和视频博客等不同领域的高质量推理注释；（2）一个两阶段训练管道，通过链式思维监督微调（CoT-SFT）和强化学习（RL）扩展VLMs；以及（3）一个名为多模态强化序列并行（MR-SP）的长视频RL训练基础设施，它结合了序列并行和专为长视频定制的基于vLLM的引擎，使用缓存的视频嵌入进行高效展开和预填充。在实验中，LongVILA-R1-7B在长视频问答基准测试如VideoMME方面表现出色。它还优于Video-R1-7B，甚至在时间推理、目标和意图推理、空间推理和情节推理方面与Gemini-1.5-Pro相当在我们的LongVideo-Reason-eval基准测试中。值得注意的是，我们的MR-SP系统在长视频RL训练方面实现了高达2.1倍的加速。随着输入视频帧数的扩展，LongVILA-R1表现出持续的性能提升。LongVILA-R1标志着在VLMs中迈向长视频推理的坚实一步。此外，我们公开了支持各种模态（视频、文本和音频）、各种模型（VILA和Qwen系列）甚至图像和视频生成模型的RL训练系统。它在单个A100节点（8个GPU）上支持长达1小时的视频（例如，3600帧/约256k个标记）的RL训练。\n\n著者：\n陈宇康，黄伟，石百峰，胡青浩，叶汉荣，朱鲤耿，刘志坚，保罗·莫尔查诺夫，简·考茨，齐小娟，刘嗣飞，殷宏旭，卢尧，韩松\n\n评论：\n代码和模型可以在此https URL获得\n\n链接：\nhttps://arxiv.org/pdf/2507.07966.pdf\n\n标题：\n2025 [2507.07966] 扩展RL到长视频.pdf",
+        "地址": "https://arxiv.org/pdf/2507.07966.pdf"
+    },
+    {
+        "名称": "2025 [2507.05964] T-LoRA: Single Image Diffusion Model Customization Without Overfitting.pdf",
+        "作者": "Vera Soboleva, Aibek Alanov, Andrey Kuznetsov, Konstantin Sobolev",
+        "摘要": "摘要：尽管扩散模型微调提供了一种强大的方法来定制预训练模型以生成特定对象，但当训练样本有限时，它经常遇到过拟合问题，影响了模型的泛化能力和输出多样性。本文探讨了使用单一概念图像来调整扩散模型这一具有挑战性但最具影响力的任务，因为单图像定制具有最显著的实际潜力。我们引入了T-LoRA，一种专为扩散模型个性化设计的时步依赖低秩适应框架。在我们的研究中，我们发现较高的扩散时步比较低的时步更容易过拟合，需要一种时步敏感的微调策略。T-LoRA包含两个关键创新：(1)一种动态微调策略，根据扩散时步调整低秩更新，(2)一种权重参数化技术，通过正交初始化确保适配器组件之间的独立性。大量实验表明，T-LoRA及其各个组成部分优于标准的LoRA和其他扩散模型个性化技术。它们在概念保真度和文本对齐之间实现了更好的平衡，突出表明了T-LoRA在数据有限和资源受限的场景中的潜力。代码可以在这个HTTPS URL上获得。",
+        "地址": "https://arxiv.org/pdf/2507.05964.pdf"
+    },
+    {
+        "名称": "2025 [2507.07999] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology.pdf",
+        "作者": "Haochen Wang, Xiangtai Li, Zilong Huang, Anran Wang, Jiacong Wang, Tao Zhang, Jiani Zheng, Sule Bai, Zijian Kang, Jiashi Feng, Zhuochen Wang, Zhaoxiang Zhang",
+        "摘要": "摘要：像OpenAI-o3这样的模型通过动态引用视觉区域，首创了基于视觉的推理，就像人类“用图像思考”一样。然而，目前没有基准可以全面评估这些能力。为填补这一空白，我们提出了TreeBench（可追踪证据评估基准），这是一个基于三个原则的诊断性基准：（1）在复杂场景中对微妙目标的集中视觉感知，（2）通过边框评估可追踪的证据，（3）测试对象交互和空间层次关系的二阶推理，超越简单对象定位。我们优先选择密集对象的图像，初步从SA-1B中抽取1000张高质量图像，并邀请八位LMM专家手动标注每张图像的问题、候选选项和答案。经过三个阶段的质量控制，TreeBench包括405个具有挑战性的视觉问答对，即使是最先进的模型在此基准测试中也难以达到60%的准确率，例如OpenAI-o3得分仅为54.87。此外，我们引入了TreeVGR（可追踪证据增强视觉推理），这是一种通过强化学习联合监督定位和推理的训练模式，使得准确定位和可解释的推理路径成为可能。从Qwen2.5-VL-7B初始化后，它提高了V* Bench（+16.8），MME-RealWorld（+12.6），和TreeBench（+13.4）的表现，证明了可追踪性是推进基于视觉的推理的关键。代码可在此网址获取。\n\n作者：Haochen Wang, Xiangtai Li, Zilong Huang, Anran Wang, Jiacong Wang, Tao Zhang, Jiani Zheng, Sule Bai, Zijian Kang, Jiashi Feng, Zhuochen Wang, Zhaoxiang Zhang\n\n网址：https://arxiv.org/pdf/2507.07999.pdf\n\n标题：2025 [2507.07999] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Methodology.pdf",
+        "地址": "https://arxiv.org/pdf/2507.07999.pdf"
+    },
+    {
+        "名称": "2025 [2507.07984] OST-Bench: Evaluating the Capabilities of MLLMs in Online Spatio-temporal Scene Understanding.pdf",
+        "作者": "JingLi Lin, Chenming Zhu, Runsen Xu, Xiaohan Mao, Xihui Liu, Tai Wang, Jiangmiao Pang",
+        "摘要": "摘要：近来在多模态大型语言模型（MLLMs）方面的进展显示出了在整合视觉和语言进行复杂推理方面的显著能力。虽然大多数现有基准评估模型是在离线设置下进行的，即使用一组固定的预录制输入，我们引入了OST-Bench（一个专门设计用来从主动探索场景的代理的角度评估在线时空理解的基准）。在线方面强调了处理和推理增量式获取的观察结果的必要性，而时空方面需要将当前的视觉输入与历史记忆相结合，以支持动态的空间推理。OST-Bench更好地反映了现实世界中具身感知的挑战。基于高效的数据收集管道，OST-Bench包含了从ScanNet，Matterport3D和ARKitScenes收集的1400个场景和1万个问答对。我们在OST-Bench上评估了几个领先的MLLMs、发现它们在需要复杂时空推理的任务上表现不佳。在在线设置下，随着探索范围的扩大和记忆的增长，它们的准确性下降。通过进一步的实验分析，我们确定了各模型之间的常见错误模式，并发现复杂的基于线索的空间推理需求和长期记忆检索需求会在两个不同的轴线上显著降低模型性能，突出必须解决的核心挑战以改善在线具身推理。为了促进该领域的进一步研究和发展，我们提供了我们的代码、数据集和基准测评。我们的项目页面是：此https URL。\n\n",
+        "地址": "https://arxiv.org/pdf/2507.07984.pdf"
+    },
+    {
+        "名称": "2025 [2507.07990] Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs.pdf",
+        "作者": "Jeongseok Hyun, Sukjun Hwang, Su Ho Han, Taeoh Kim, Inwoong Lee, Dongyoon Wee, Joon-Young Lee, Seon Joo Kim, Minho Shim",
+        "摘要": "摘要：视频大语言模型（LLMs）通过利用大量时空标记实现强大的视频理解，但在标记数量方面存在计算扩展的二次方问题。为了解决这个问题，我们提出了一种无训练时空标记合并方法，名为STTM。我们的关键洞察是利用视频数据中的局部空间和时间冗余，这在之前的工作中被忽视了。STTM首先通过四叉树结构上的粗到细搜索将每帧转化为多粒度空间标记，然后在时间维度上执行定向成对合并。这种分解合并方法在六个视频问答基准上优于现有的标记减少方法。值得注意的是，在50%的标记预算下，STTM实现了2倍的加速，准确率仅下降0.5%；在30%的预算下，实现了3倍的加速，准确率仅下降2%。此外，STTM与查询无关，允许在同一视频的不同问题之间重用KV缓存。项目页面可在此https URL获得。\n\n作者：Jeongseok Hyun, Sukjun Hwang, Su Ho Han, Taeoh Kim, Inwoong Lee, Dongyoon Wee, Joon-Young Lee, Seon Joo Kim, Minho Shim",
+        "地址": "https://arxiv.org/pdf/2507.07990.pdf"
+    },
+    {
+        "名称": "2025 [2507.07998] PyVision: Agentic Vision with Dynamic Tooling.pdf",
+        "作者": "Shitian Zhao, Haoquan Zhang, Shaoheng Lin, Ming Li, Qilong Wu, Kaipeng Zhang, Chen Wei",
+        "摘要": "摘要：\n近年来，大型语言模型（LLMs）作为能够进行规划、推理和动态调用外部工具的代理系统被广泛部署。然而，在视觉推理方面，先前的方法仍然主要限于预定义的工作流程和静态工具集。在本报告中，我们提出了PyVision，这是一个交互式的多轮框架，使多模态（MLLMs）可以自主生成、执行和改进基于Python的工具，以满足任务需求，从而实现灵活且可解释的问题解决。我们构建了PyVision创建工具的分类法，并分析了它们在各种基准测试中的使用情况。从定量上看，PyVision实现了稳定的性能提升，使GPT-4.1在V*上的表现提升了7.8%，并使Claude-4.0-Sonnet在VLMsAreBlind-mini上的表现提升了31.1%。这些结果表明了一个更广泛的转变：动态工具不仅允许模型使用工具，还允许模型发明工具，向更具代理性的视觉推理迈进。",
+        "地址": "https://arxiv.org/pdf/2507.07998.pdf"
+    },
+    {
+        "名称": "2025 [2507.07982] Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling.pdf",
+        "作者": "Haoyu Wu, Diankun Wu, Tianyu He, Junliang Guo, Yang Ye, Yueqi Duan, Jiang Bian",
+        "摘要": "摘要: 视频本质上是动态三维世界的二维投影。然而，我们的分析表明，仅对原始视频数据进行训练的视频扩散模型往往无法在其学习的表示中捕捉到有意义的几何感知结构。为弥合视频扩散模型与物理世界三维本质之间的差距，我们提出了几何强制，一种简单而有效的方法，鼓励视频扩散模型内化潜在的三维表示。我们的关键见解是通过将模型的中间表示与预训练的几何基础模型的特征对齐，引导其朝向几何感知结构。为此，我们引入了两种互补的对齐目标：角度对齐，通过余弦相似性强制方向一致性；尺度对齐，通过回归未归一化的几何特征来保留与尺度相关的信息。我们在基于相机视角和基于动作的视频生成任务上评估了几何强制。实验结果表明，我们的方法在视觉质量和三维一致性方面显著优于基准方法。",
+        "地址": "https://arxiv.org/pdf/2507.07982.pdf"
+    },
+    {
+        "名称": "2025 [2507.07136] LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS.pdf",
+        "作者": "Wanhua Li, Yujie Zhao, Minghan Qin, Yang Liu, Yuanhao Cai, Chuang Gan, Hanspeter Pfister",
+        "摘要": "摘要: 本文介绍了LangSplatV2，它在476.2帧每秒（FPS）下实现了高维特征喷溅，并在384.6 FPS下实现了高分辨率图像的3D开放式文本查询，分别提供了42倍和47倍的加速，同时提高了查询准确性。LangSplat将2D CLIP语言特征嵌入到3D中，显著提高速度并通过SAM语义学习精确的3D语言场。在复杂场景中需要语言交互的应用中，这样的3D语言场进步至关重要。然而，即使使用先进的A100 GPU，LangSplat尚未达到实时推理性能（8.2 FPS），极大限制了其更广泛的应用。在本文中，我们首先对LangSplat进行了详细的时间分析，确定了重量级解码器是主要的速度瓶颈。我们的解决方案LangSplatV2假定每个高斯在全局词典中作为稀疏码，导致学习一个完全消除重量级解码器需求的3D稀疏系数量场。通过利用这种稀疏性，我们进一步提出了一种高效的稀疏系数量喷溅方法，并进行了CUDA优化，以高质量渲染高维特征图，同时仅产生超低维特征喷溅的时间成本。我们的实验结果表明，LangSplatV2不仅在查询准确性上达到了更好或具有竞争力的水平，而且速度显著更快。代码和演示可在我们的项目页面上获取：此https网址。\n\n作者: 李万华，赵宇杰，秦明翰，刘阳，蔡元浩，甘聪，汉斯彼得·菲斯特\n\n评论: 项目页面：此https网址\n\n网址: https://arxiv.org/pdf/2507.07136.pdf\n\n标题: 2025 [2507.07136] LangSplatV2: 高维3D语言高斯喷溅，450+ FPS",
+        "地址": "https://arxiv.org/pdf/2507.07136.pdf"
+    },
+    {
+        "名称": "2025 [2507.07202] A Survey on Long-Video Storytelling Generation: Architectures, Consistency, and Cinematic Quality.pdf",
+        "作者": "Mohamed Elmoghany, Ryan Rossi, Seunghyun Yoon, Subhojyoti Mukherjee, Eslam Bakr, Puneet Mathur, Gang Wu, Viet Dac Lai, Nedim Lipka, Ruiyi Zhang, Varun Manjunatha, Chien Nguyen, Daksh Dangi, Abel Salinas, Mohammad Taesiri, Hongjie Chen, Xiaolei Huang, Joe Barrow, Nesreen Ahmed, Hoda Eldardiry, Namyong Park, Yu Wang, Jaemin Cho, Anh Totti Nguyen, Zhengzhong Tu, Thien Nguyen, Dinesh Manocha, Mohamed Elhoseiny, Franck Dernoncourt",
+        "摘要": "摘要: 尽管视频生成模型已经取得了显著进展，现有的最先进方法仅能生成持续5至16秒的视频，通常被标记为“长篇视频”。此外，超过16秒的视频难以在整个叙事过程中保持一致的角色外观和场景布局。特别是多主体长视频仍然无法保持角色一致性和运动连贯性。一些方法虽然可以生成长达150秒的视频，但它们往往存在帧冗余和时间多样性低的问题。最近的研究尝试生成包含多个角色、叙事连贯性和高保真细节的长篇视频。我们全面研究了32篇关于视频生成的论文，识别出能够稳定产生这些品质的关键架构组件和训练策略。我们还构建了现有方法的全面新分类法，并呈现了按架构设计和性能特征分类的对比表。\n\n论文链接：https://arxiv.org/pdf/2507.07202.pdf\n作者：Mohamed Elmoghany, Ryan Rossi, Seunghyun Yoon, Subhojyoti Mukherjee, Eslam Bakr, Puneet Mathur, Gang Wu, Viet Dac Lai, Nedim Lipka, Ruiyi Zhang, Varun Manjunatha, Chien Nguyen, Daksh Dangi, Abel Salinas, Mohammad Taesiri, Hongjie Chen, Xiaolei Huang, Joe Barrow, Nesreen Ahmed, Hoda Eldardiry, Namyong Park, Yu Wang, Jaemin Cho, Anh Totti Nguyen, Zhengzhong Tu, Thien Nguyen, Dinesh Manocha, Mohamed Elhoseiny, Franck Dernoncourt",
+        "地址": "https://arxiv.org/pdf/2507.07202.pdf"
+    },
+    {
+        "名称": "2025 [2507.07996] Skip a Layer or Loop it? Test-Time Depth Adaptation of Pretrained LLMs.pdf",
+        "作者": "Ziyue Li, Yang Li, Tianyi Zhou",
+        "摘要": "摘要: 预训练神经网络能否在不进行微调的情况下调整其架构以适应不同的输入？对简单任务我们是否需要所有层，而对于挑战性任务它们是否足够？我们发现，预训练的大型语言模型(LLM)的各层可以作为独立模块进行操作，以为每个测试样本构建一个更好甚至更浅的定制模型。具体来说，可以跳过/裁剪预训练模型中的每一层或将其多次重复作为递归神经网络(RNN)，并与其他层以任意顺序堆叠，生成每个样本的链层架构(CoLa)。这种组合空间大大扩展了现有关于循环/递归预训练模型模块、层裁剪或提前退出网络的研究范围。我们开发了一种蒙特卡洛树搜索(MCTS)协议，以探索和识别来自数学和常识推理基准的每个样本的最佳CoLa。与固定深度的静态模型相比，CoLa允许捷径路径（快速思维）、同一层的重复（慢速思维）和两者结合，为不同输入提供更灵活和动态的架构。我们对MCTS优化的CoLa进行了广泛分析，得出两个关键发现：（1）对于>75%的样本，原LLM正确预测的样本中，我们可以找到更短的CoLa，表明在提高推理效率方面存在大量空间；（2）对于原本预测错误的样本中，有>60%的样本我们可以识别出能够正确预测的CoLa，表明在性能提升方面存在大量空间。我们的研究结果强调了在不同样本推理中使用固定架构的预训练LLM的不足，并开辟了测试时深度适应泛化能力的新途径。\n\n作者: 李子悦、李洋、周天一\n\n评论: 9页，7图\n\n链接: [https://arxiv.org/pdf/2507.07996.pdf](https://arxiv.org/pdf/2507.07996.pdf)\n\n标题: 2025 [2507.07996] Skip a Layer or Loop it? Test-Time Depth Adaptation of Pretrained LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2507.07996.pdf"
+    },
+    {
+        "名称": "2025 [2507.06543] Token Bottleneck: One Token to Remember Dynamics.pdf",
+        "作者": "Taekyung Kim, Dongyoon Han, Byeongho Heo, Jeongeun Park, Sangdoo Yun",
+        "摘要": "摘要: \n从动态场景中提取紧凑且时间感知的视觉表示对于成功执行视觉跟踪和机器人操作等序列场景理解任务至关重要。本文介绍了 Token Bottleneck (ToBo)，一种简单且直观的自监督学习管道，该管道将场景压缩到瓶颈标记中，并使用最少的补丁作为提示预测后续场景。ToBo 管道通过在压缩步骤中保守地将参考场景编码到一个紧凑的瓶颈标记中，促进序列场景表示的学习。在扩展步骤中，我们通过使用瓶颈标记以及少量目标补丁作为提示来预测目标场景，指导模型捕捉时间动态。该设计鼓励视觉主干嵌入时间依赖性，从而能够理解跨场景的动态转换。在包括视频标签传播和机器人在模拟环境中的操作在内的各种序列任务中进行的广泛实验表明，ToBo 相对于基线的优越性。此外，在物理机器人上部署我们预训练的模型证实了其在现实环境中的稳健性和有效性。我们进一步验证了ToBo在不同模型规模上的可扩展性。",
+        "地址": "https://arxiv.org/pdf/2507.06543.pdf"
+    },
+    {
+        "名称": "2025 [2507.07484] Machine Bullshit: Characterizing the Emergent Disregard for Truth in Large Language Models.pdf",
+        "作者": "Kaiqu Liang, Haimin Hu, Xuandong Zhao, Dawn Song, Thomas L. Griffiths, Jaime Fernández Fisac",
+        "摘要": "摘要：哲学家哈里·弗兰克福特将“胡说八道”概念化为不顾及其真实性的陈述。虽然之前的研究探索了大型语言模型（LLM）的幻觉和谄媚行为，我们提出了机器胡说八道作为一个总体概念框架，可以让研究人员描述LLM中出现的真实性丧失现象，并揭示其潜在机制。我们介绍了胡说八道指数，这是一种量化LLM对真理冷漠的新指标，并提出了一个补充分类法来分析四种定性形式的胡说八道：空洞修辞、狡辩、模棱两可的话和未经证实的声明。我们在Marketplace数据集、Political Neutrality数据集以及我们新开发的BullshitEval基准（包括多个AI助手的2400个场景）上进行了实证评估，专门用于评估机器胡说八道。我们的结果表明，通过人类反馈的强化学习（RLHF）进行模型微调显著加剧了胡说八道，推理时的思维链提示显著放大了特定形式的胡说八道，特别是空洞修辞和狡辩。此外，我们观察到政治背景中普遍存在机器胡说八道，以模棱两可的话为主要策略。我们的发现突出了AI一致性中的系统性挑战，并提供了有关更真实LLM行为的新见解。",
+        "地址": "https://arxiv.org/pdf/2507.07484.pdf"
+    },
+    {
+        "名称": "2025 [2507.07955] Dynamic Chunking for End-to-End Hierarchical Sequence Modeling.pdf",
+        "作者": "Sukjun Hwang, Brandon Wang, Albert Gu",
+        "摘要": "摘要：尽管近年来语言模型（LMs）取得了令人难以置信的进步，这主要得益于从专门为特定任务设计的专业模型转向基于强大架构（如Transformer）的通用模型，这些模型从原始数据中学习所有内容，但预处理步骤如分词仍然是真正的端到端基础模型的障碍。我们引入了一系列新的技术，这些技术启用了动态分块机制，它能够自动学习内容和上下文相关的分割策略，并与模型的其余部分共同学习。将其纳入显式分层网络（H-Net）中，可以用一个完全端到端学习的单一模型取代（隐含分层的）分词-LM-去分词管道。在计算和数据匹配的情况下，一级分层在字节级别运行的H-Net模型优于在BPE标记上运行的强大Transformer语言模型。通过对分层进行多次迭代进一步提高了其性能，通过建模多个抽象层次，展示了显著更好的数据扩展能力，并且匹配了一个两倍大小的基于标记的Transformer。预训练的H-Net在字符级别展示了显著增强的鲁棒性，并能够在没有任何启发或显式监督的情况下学习有意义的依赖数据的分块策略。最后，H-Net在分词管道上的改进在分词启发较弱的语言和模式（如中文、代码或DNA序列）中进一步增加（相比基线模型数据效率提高了近4倍），展示了从未处理数据中更好地学习和扩展的真正端到端模型的潜力。",
+        "地址": "https://arxiv.org/pdf/2507.07955.pdf"
+    },
+    {
+        "名称": "2025 [2507.07574] Beyond the Linear Separability Ceiling.pdf",
+        "作者": "Enrico Vompa, Tanel Tammet, Mohit Vaishnav",
+        "摘要": "摘要： 大多数最先进的视觉-语言模型（VLMs）在抽象推理任务上似乎受限于其视觉嵌入的线性可分离性。本文通过引入线性可分离性上限（LSC），即简单线性分类器在VLM视觉嵌入上的表现，探讨了这种“线性推理瓶颈”。我们发现这种瓶颈广泛存在，问题不在于感知能力差，而在于语言模型的推理路径失败。我们证明了这是一个可解决的对齐问题。然而，所需的干预是任务依赖的：对于语义概念，激活现有路径即可，而复杂关系推理则需要调整核心模型权重。通过使用后缀调优作为方法控制，我们发现了VLM中强大的潜在推理路径的有力证据。然而，对于需要更深层次适应的复杂关系任务，显式提高表示质量会导致模型在新提示格式上失败，尽管其嵌入保持良好分离。最终，本文为VLM分析提供了一个新的视角，表明强大的推理能力是目标对齐的问题，而不仅仅是改进表示学习的问题。",
+        "地址": "https://arxiv.org/pdf/2507.07574.pdf"
+    },
+    {
+        "名称": "2025 [2507.07867] Re-Bottleneck: Latent Re-Structuring for Neural Audio Autoencoders.pdf",
+        "作者": "Dimitrios Bralios, Jonah Casebeer, Paris Smaragdis",
+        "摘要": "摘要：神经音频编解码器和自动编码器已经成为用于音频压缩、传输、特征提取和潜在空间生成的多功能模型。然而，一个主要的局限性是大多数模型训练时都追求最大化重构保真度，往往忽略了在各种下游应用中实现最佳性能所需的特定潜在结构。我们提出了一种简单的后处理框架，通过修改预训练自动编码器的瓶颈来解决这一问题。我们的方法引入了“重新瓶颈”，一种仅通过潜在空间损失进行训练的内部瓶颈，以建立用户定义的结构。我们在三个实验中展示了该框架的有效性。首先，我们在不牺牲重构质量的情况下对潜在通道进行排序。其次，我们将潜在空间与语义嵌入对齐，分析其对下游扩散建模的影响。第三，我们引入等变性，确保对输入波形的过滤操作与潜在空间中的特定变换直接对应。最终，我们的重新瓶颈框架提供了一种灵活高效的方式来定制神经音频模型的表示，使其能够以最少的额外训练无缝满足不同应用的多种需求。\n\n作者：Dimitrios Bralios, Jonah Casebeer, Paris Smaragdis\n\n评论：已被IEEE MLSP 2025接受\n\n网址：https://arxiv.org/pdf/2507.07867.pdf\n\n标题：2025 [2507.07867] Re-Bottleneck: Latent Re-Structuring for Neural Audio Autoencoders.pdf",
+        "地址": "https://arxiv.org/pdf/2507.07867.pdf"
+    },
+    {
+        "名称": "2025 [2507.07129] Growing Transformers: Modular Composition and Layer-wise Expansion on a Frozen Substrate.pdf",
+        "作者": "A. Bochkov",
+        "摘要": "摘要:当前扩展大语言模型(LLMs)的主流范式涉及单体的、端到端训练，这是一种缺乏灵活性的资源密集型过程。本文探索了一种替代的建设性模型开发方法，基于不可训练的、确定性的输入嵌入。在先前的研究中，我们确立了使用从Unicode字形的视觉结构派生的冻结嵌入，可以在Transformers中产生高级语义推理。在这项研究中，我们证明了这种固定的表示基质充当了一个通用的\"对接端口\"，启用了两种强大且高效的扩展范式：无缝模块化组合和渐进式逐层增长。\n\n首先，我们展示了在不同数据集（例如俄文和中文文本）上训练的专业模型可以在训练后融合到一个更强大的专家混合模型（MoE）中，而无需任何架构修改。这是通过简单平均它们的输出logit来实现的。生成的MoE模型在推理基准测试（如MMLU）上表现出立即的性能提升，超过了它的组成专家模型且没有灾难性遗忘问题。其次，我们介绍了一种逐层建设性训练方法，通过逐步堆叠和训练一层一层的方式\"增长\"深度Transformer。该方法展示了稳定的收敛性和模型深度与复杂推理能力的出现（例如SQuAD所需的能力）之间的明显关联。\n\n我们的研究结果表明，从单体优化向更具生物或建设性的人工智能发展模式的范式转变，复杂性是通过增量构建和自由组合模块来实现的。这为资源高效扩展、持续学习以及构建强大AI系统的更加民主化生态系统开辟了新的途径。我们发布了所有的代码和模型以促进进一步的研究。",
+        "地址": "https://arxiv.org/pdf/2507.07129.pdf"
+    },
+    {
+        "名称": "2025 [2507.05241] SciMaster: Towards General-Purpose Scientific AI Agents, Part I. X-Master as Foundation: Can We Lead on Humanity's Last Exam?.pdf",
+        "作者": "Jingyi Chai, Shuo Tang, Rui Ye, Yuwen Du, Xinyu Zhu, Mengcheng Zhou, Yanfeng Wang, Weinan E, Yuzhi Zhang, Linfeng Zhang, Siheng Chen",
+        "摘要": "摘要：人工智能代理的快速进展引发了利用它们加速科学发现的长期愿望。实现这一目标需要深入理解人类知识的前沿。作为对科学AI代理评估的极具挑战性的试金石，《人类最后考试》(HLE)提供了这一平台。在本研究中，我们旨在构建通用代理的基础架构，并通过在HLE上的领先表现验证其能力。为此，我们引入了X-Master，一种在推理过程中通过灵活与外部工具交互，以模拟人类研究者的工具增强型推理代理。该代理以代码为交互语言的概念为指导，可以灵活利用内置Python库和我们定制的工具来增强推理。我们进一步通过X-Masters扩展其能力，这是一种散布和叠加的代理工作流，系统性地增强推理的广度和深度。我们的开源解决方案X-Masters在HLE上创下了32.1%的最新状态记录，超过了OpenAI(26.6%)和Google的Deep Research(26.9%)，成为第一个突破30%门槛的系统。这项工作使我们对复杂任务解决有了更深的理解，并积累了可供未来进步参考的宝贵经验，指导后续模型训练。",
+        "地址": "https://arxiv.org/pdf/2507.05241.pdf"
+    },
+    {
+        "名称": "2025 [2507.04886] Emergent Semantics Beyond Token Embeddings: Transformer LMs with Frozen Visual Unicode Representations.pdf",
+        "作者": "A. Bochkov",
+        "摘要": "摘要：理解大型语言模型（LLMs）中语义表示的位置对于解释性和架构创新至关重要。主流范式认为可训练的输入嵌入是基础的“意义向量”。本文挑战了这一观点。我们构建了Transformer模型，其中嵌入层完全冻结，向量不是从数据中得出，而是从Unicode字形的视觉结构中得出。这些非语义、预先计算的视觉嵌入在整个训练过程中保持固定。我们的方法兼容任何分词器，包括我们引入的新型Unicode中心分词器，以确保覆盖所有文本。尽管缺乏可训练的、语义初始化的嵌入，我们的模型依然收敛，生成连贯的文本，并且在MMLU推理基准测试中，关键地超过了具有可训练嵌入的相同架构模型。我们将其归因于传统模型中的“表示干扰”，嵌入层负担着学习结构和语义特征的任务。我们的结果表明，高级语义并非内在于输入嵌入，而是变换器的组合架构和数据规模的涌现属性。这重新定义了嵌入的角色，从含义容器变为结构原语。我们发布了所有代码和模型以促进进一步研究。",
+        "地址": "https://arxiv.org/pdf/2507.04886.pdf"
+    }
+]
