@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2507.10532] Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination.pdf",
+        "作者": "Mingqi Wu, Zhihao Zhang, Qiaole Dong, Zhiheng Xi, Jun Zhao, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Yanwei Fu, Qin Liu, Songyang Zhang, Qi Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）的推理能力一直是研究的重点。最近的研究通过使用强化学习（RL）进一步增强了这些能力，许多新方法声称在没有或极少外部监督的情况下取得了显著改善。令人惊讶的是，有些研究甚至表明随机或错误的奖励信号可以增强推理性能。然而，这些突破主要是在Qwen2.5模型系列上报道，并在诸如MATH-500、AMC和AIME等知名基准上进行评估，而在其他模型如Llama上未能实现类似的改进，这需要进一步的调查。我们的分析表明，尽管Qwen2.5在数学推理性能方面表现强劲，其在大规模网络语料库上的预训练使其在知名基准中易受数据污染。因此，从这些基准得出的结果可能不可靠。为了解决这一问题，我们引入了一个生成器，它可以生成任意长度和难度的完全合成算术问题，从而产生一个我们称之为RandomCalculation的干净数据集。使用这些无泄漏的数据集，我们证明只有准确的奖励信号才能一致地提高性能，而嘈杂或错误的信号则不能。我们倡导在未被污染的基准上以及在不同模型系列中评估RL方法，以确保可信的结论。",
+        "地址": "https://arxiv.org/pdf/2507.10532.pdf"
+    },
+    {
+        "名称": "2025 [2507.09862] SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation.pdf",
+        "作者": "Youliang Zhang, Zhaoyang Li, Duomin Wang, Jiahe Zhang, Deyu Zhou, Zixin Yin, Xili Dai, Gang Yu, Xiu Li",
+        "摘要": "摘要：大型模型的迅速发展促进了数字人领域的重要突破。这些先进的方法为头像驱动和渲染提供了高保真解决方案，使学术界聚焦于下一个主要挑战：视听双人互动虚拟人。为促进该领域研究，我们呈现了SpeakerVid-5M数据集，这是首个用于视听双人互动虚拟人生成的大规模、高质量的数据集。SpeakerVid-5M包含超过8,743小时、超过520万个视频片段的人物肖像，覆盖单人讲话、单人聆听和双人对话等各种尺度和互动类型。该数据集按互动类型和数据质量进行结构化分类。首先，根据互动场景分为四类（对话分支、单人分支、聆听分支和多回合分支）。其次，分层为大规模预训练子集和用于监督微调（SFT）的高质量精选子集。这种双重结构适用于广泛的二维虚拟人任务。此外，我们提供了基于自回归（AR）的视频聊天基线，训练于此数据，并配有专门的度量指标和测试数据，作为未来工作的基准VidChatBench。数据集和相关数据处理代码将公开发布。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2507.09862.pdf"
+    },
+    {
+        "名称": "2025 [2507.10524] Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.pdf",
+        "作者": "Sangmin Bae, Yujin Kim, Reza Bayat, Sungnyun Kim, Jiyoun Ha, Tal Schuster, Adam Fisch, Hrayr Harutyunyan, Ziwei Ji, Aaron Courville, Se-Young Yun",
+        "摘要": "摘要: 扩展语言模型可以解锁令人印象深刻的能力，但随之而来的计算和内存需求使训练和部署变得昂贵。现有的高效性努力通常针对参数共享或自适应计算，尚未解决如何同时实现这两者的问题。我们介绍了递归混合模型（Mixture-of-Recursions, MoR），这是一个在单一递归变压器中结合了两种高效性途径的统一框架。MoR在递归步骤中重复使用共享的层堆以实现参数效率，同时轻量级路由器通过动态分配不同的递归深度给单个token，使其能够进行自适应的token级处理。这允许MoR仅在给定递归深度的活跃token间进行二次注意力计算，从而通过选择性缓存其键值对进一步提高内存访问效率。除了这些核心机制，我们还提出了一种键值共享的变体，它从第一次递归中重用键值对，专门设计用于减少预填充延迟和内存占用。在从135M到1.7B参数的模型规模中，MoR形成了一个新的帕累托前沿：在相同的训练FLOPs和较小的模型规模下，它显著降低了验证困惑度，并提高了少样本精度，同时与普通和现有递归基线相比，提供了更高的吞吐量。这些收益表明，MoR是在不产生大型模型成本的情况下实现大型模型质量的有效途径。",
+        "地址": "https://arxiv.org/pdf/2507.10524.pdf"
+    },
+    {
+        "名称": "2025 [2507.10548] EmbRACE-3K: Embodied Reasoning and Action in Complex Environments.pdf",
+        "作者": "Mingxian Lin, Wei Huang, Yitang Li, Chengjie Jiang, Kui Wu, Fangwei Zhong, Shengju Qian, Xin Wang, Xiaojuan Qi",
+        "摘要": "2025年 论文题目：EmbRACE-3K：复杂环境中的具身推理与行动\n\n摘要：最近的高级视觉-语言模型（VLMs）在被动的、离线的图像和视频理解任务中表现出强大的性能。然而，它们在具身场景中的有效性——需要在线互动和主动场景理解——仍然有限。在这种情况下，代理从第一人称视角感知环境，每个行动动态地形塑后续的观察。即使是最先进的模型如GPT-4o、Claude 3.5 Sonnet和Gemini 2.5 Pro在开放环境互动中也表现出明确的局限性，特别是在空间推理和长时间规划方面。为了填补这一空白，我们引入了EmRACE-3K，一个包含超过3000个语言指导任务的数据集，这些任务位于使用Unreal Engine和UnrealCV-Zoo框架构建的多样、真实感极强的环境中。任务包括广泛的具身挑战，如导航、物体操作和多阶段目标执行。每个任务展开为一个多步骤的轨迹，结合以第一人称视觉观察、高级指令、基础行动以及每一步中以自然语言表达代理意图的理由。使用EmRACE-3K，我们建立了一个基准，以评估VLMs在具身推理方面的能力，涵盖三个关键维度：探索、动态空间-语义推理和多阶段目标执行。在零样本设置中，所有模型的成功率均低于20%，这凸显了我们的基准所带来的挑战以及当前VLMs在互动环境中的限制。为了展示EmRACE-3K的实用性，我们进一步使用监督学习接着强化学习的方法微调了Qwen2.5-VL-7B。这种方法在所有三类挑战中都取得了显著的改进，突显了该数据集在发展具身推理能力方面的有效性。\n\n作者：林明贤，黄伟，李逸堂，江成杰，吴魁，钟方威，钱胜菊，王鑫，齐晓娟\n\n评论：项目页面：访问此URL https://arxiv.org/pdf/2507.10548.pdf",
+        "地址": "https://arxiv.org/pdf/2507.10548.pdf"
+    },
+    {
+        "名称": "2025 [2507.10541] REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once.pdf",
+        "作者": "Zhuoshi Pan, Qizhi Pei, Yu Li, Qiyao Sun, Zinan Tang, H. Vicky Zhao, Conghui He, Lijun Wu",
+        "摘要": "摘要：近年来，大型推理模型（Large Reasoning Models, LRMs）在特定任务基准测试中取得了显著进展，但它们的评估方法仍然局限于孤立的问题解决范式。现有的基准测试主要通过顺序测试来评估单一问题的推理能力，导致关键局限：（1）易受数据污染且挑战性较低（例如，DeepSeek-R1在MATH500上达到97.0%），迫使大量人工努力创建新问题，（2）无法在多上下文压力下评估模型，这是实际应用的关键要求。为了解决这一问题，我们提出了REST（通过同时测试进行推理评估），这是一个同时暴露LRM多个问题的压力测试框架。除了基本推理，REST还评估了几个尚未充分测试的能力：上下文优先级分配、问题间干扰抵抗和动态认知负载管理。我们的评估揭示了一些显著的发现：即使是最新的模型，如DeepSeek-R1，在压力测试下也表现出明显的性能下降。至关重要的是，REST表现出比现有基准测试更强的区分能力，揭示了在单问题评估中表现相似的模型之间显著的性能差异。一些关键见解从我们的分析中得出：（1）“过度思考陷阱”是导致性能下降的一个重要因素；（2）使用\"long2short\"技术训练的模型在REST中保持了更多的单问题性能准确性，优于标准训练的模型。这些结果确立了REST作为一种成本效益高、更适应未来的评估范式，更好地反映了实际推理需求，同时减少了对持续人工注释的依赖。代码和结果见此链接。\n\n作者: Pan Zhuoshi，Pei Qizhi，Li Yu，Sun Qiyao，Tang Zinan，H. Vicky Zhao，He Conghui，Wu Lijun\n\n评论：REST（通过同时测试进行推理评估），一个同时暴露LRM多个问题的压力测试框架\n\n链接：https://arxiv.org/pdf/2507.10541.pdf\n\n标题：REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once",
+        "地址": "https://arxiv.org/pdf/2507.10541.pdf"
+    },
+    {
+        "名称": "2025 [2507.04404] LayerCake: Token-Aware Contrastive Decoding within Large Language Model Layers.pdf",
+        "作者": "Jingze Zhu, Yongliang Wu, Wenbo Zhu, Jiawang Cao, Yanqiang Zheng, Jiawei Chen, Xu Yang, Bernt Schiele, Jonas Fischer, Xinting Hu",
+        "摘要": "摘要：大型语言模型（LLMs）在自然语言理解和生成方面表现出色，但仍容易出现事实性错误，限制了其在知识密集任务中的可靠性。虽然解码时策略提供了一种无需训练的高效解决方案，但现有方法通常将词汇层级和层级信号孤立对待，忽视了它们之间的联合动态。在这项工作中，我们引入了一种基于词汇感知的层级本地对照解码方法，将特定词汇类型与其最具影响力的变压器层对齐，以改善事实生成。通过实证注意力分析，我们发现了两个关键模式：标点符号在早期层接受显著关注，而概念词汇在中间层主导语义推理。通过在各自深度上选择性抑制对这些词汇类型的注意力，我们实现了受控的事实退化，并产生对照信号以指导最终的事实解码。我们的方法无需额外训练或模型修改，实验表明我们的方法持续改善了多个大型语言模型和各种基准中的事实性。\n\n作者：朱京泽, 吴永亮, 朱文博, 曹家旺, 郑艳强, 陈嘉伟, 杨旭, Bernt Schiele, Jonas Fischer, 胡欣婷\n\n网址：https://arxiv.org/pdf/2507.04404.pdf\n\n标题：2025 [2507.04404] LayerCake: Token-Aware Contrastive Decoding within Large Language Model Layers.pdf",
+        "地址": "https://arxiv.org/pdf/2507.04404.pdf"
+    },
+    {
+        "名称": "2025 [2507.09104] CompassJudger-2: Towards Generalist Judge Model via Verifiable Rewards.pdf",
+        "作者": "Taolin Zhang, Maosong Cao, Alexander Lam, Songyang Zhang, Kai Chen",
+        "摘要": "摘要：近年来，作为评估大型语言模型的LLM-as-judge的角色越来越受到关注。然而，当前的评估模型存在专业性狭窄和稳健性不足的问题，限制了它们进行全面评估的能力。在这项工作中，我们提出了CompassJudger-2，这是一种新的通用评估模型，通过任务驱动的多领域数据整理策略来克服这些限制。我们的方法核心是使用可验证的奖励监督评估任务，通过拒绝采样来引导内在的批判性推理，培养稳健且可泛化的评估能力。我们引入了一种通过边距策略梯度损失来提高性能的改进学习目标。在实验中，CompassJudger-2在多个评估和奖励基准上取得了卓越的成果，我们的7B模型在评估准确性方面与DeepSeek-V3和Qwen3-235B-A22B等显著更大的模型表现出竞争力。此外，我们提出了JudgerBenchV2，这是一个全面的基准测试，用于评估跨领域评估准确性和排名一致性，以标准化评估模型的评估。这些贡献提升了稳健、可扩展的LLM评估，并建立了新的性能和评估标准。\n\n作者：Taolin Zhang, Maosong Cao, Alexander Lam, Songyang Zhang, Kai Chen\n\nURL链接：https://arxiv.org/pdf/2507.09104.pdf\n\n标题：2025 [2507.09104] CompassJudger-2: Towards Generalist Judge Model via Verifiable Rewards.pdf",
+        "地址": "https://arxiv.org/pdf/2507.09104.pdf"
+    },
+    {
+        "名称": "2025 [2507.10065] MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second.pdf",
+        "作者": "Chenguo Lin, Yuchen Lin, Panwang Pan, Yifan Yu, Honglei Yan, Katerina Fragkiadaki, Yadong Mu",
+        "摘要": "摘要：我们介绍了MoVieS，一个能够在一秒钟内从单目视频合成4D动态新视图的创新前馈模型。MoVieS使用与像素对齐的高斯基元网格来表示动态3D场景，并明确监督其随时间变化的运动。这首次实现了外观、几何和运动的统一建模，并在单一学习框架内实现了视图合成、重建和3D点跟踪。通过将新视图合成与动态几何重建相结合，MoVieS能够在多样化数据集上进行大规模训练，且对任务特定监督的依赖性最小。因此，它还自然地支持一系列零样本应用，例如场景流估计和移动对象分割。大量实验验证了MoVieS在多个任务上的有效性和效率，既能实现有竞争力的性能，同时提供了数个数量级的速度提升。\n\n作者：林晨果，林玉晨，潘攀旺，余一凡，严红雷，卡特里娜·弗拉吉亚达基，穆亚东\n\n评论：项目页面：https://arxiv.org/pdf/2507.10065.pdf\n\n标题：2025 [2507.10065] MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second.pdf",
+        "地址": "https://arxiv.org/pdf/2507.10065.pdf"
+    },
+    {
+        "名称": "2025 [2507.08396] Subject-Consistent and Pose-Diverse Text-to-Image Generation.pdf",
+        "作者": "Zhanxin Gao, Beier Zhu, Liang Yao, Jian Yang, Ying Tai",
+        "摘要": "摘要：主体一致生成（SCG）旨在通过文本生成图像（T2I）模型在不同场景中保持一致的主体身份，这是一个挑战。现有的无训练SCG方法常常以牺牲布局和姿势多样性为代价来实现一致性，从而阻碍了有表现力的视觉叙述。为了解决这一限制，我们提出了一种称为CoDi的主体一致和姿势多样的T2I框架，它可以在保持主体一致性的同时实现多样的姿势和布局。受扩散的渐进特征启发，粗略结构在早期出现，精细细节在后期被完善，CoDi采用了两阶段策略：身份传输（IT）和身份优化（IR）。IT在早期去噪步骤中操作，使用最优传输将身份特征以姿势感知的方式传送到每个目标图像中。这促进了主体一致性，同时保留了姿势多样性。IR在后期去噪步骤中应用，选择最显著的身份特征进一步优化主体细节。在主体一致性、姿势多样性和提示保真度方面的大量定性和定量结果表明，CoDi在所有指标上均实现了更好的视觉感知和更强的性能。代码发布在这个https URL。",
+        "地址": "https://arxiv.org/pdf/2507.08396.pdf"
+    },
+    {
+        "名称": "2025 [2507.08924] From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation.pdf",
+        "作者": "Seokhee Hong, Sunkyoung Kim, Guijin Son, Soyeon Kim, Yeonjung Hong, Jinsik Lee",
+        "摘要": "摘要：大型语言模型（LLMs）的发展需要不仅涵盖学术领域，还需要包括工业领域的强大基准，以有效评估其在现实场景中的适用性。在本论文中，我们介绍了两个韩国专家级基准。KMMLU-Redux 从现有的 KMMLU 重新构建，包含来自韩国国家技术资格考试的问题，并去除了关键错误以提高可靠性。KMMLU-Pro 基于韩国国家专业执照考试，反映了韩国的专业知识。我们的实验表明，这些基准全面代表了韩国的工业知识。我们公开发布了我们的数据集。",
+        "地址": "https://arxiv.org/pdf/2507.08924.pdf"
+    },
+    {
+        "名称": "2025 [2507.04218] DreamPoster: A Unified Framework for Image-Conditioned Generative Poster Design.pdf",
+        "作者": "Xiwei Hu, Haokun Chen, Zhongqi Qi, Hui Zhang, Dexiang Hong, Jie Shao, Xinglong Wu",
+        "摘要": "摘要: 我们介绍了DreamPoster，这是一种文本到图像生成框架，它可以智能地从用户提供的图像和文本提示中合成高质量的海报，同时保持内容的真实性，并支持灵活的分辨率和布局输出。具体来说，DreamPoster建立在我们的T2I模型Seedream3.0之上，能够统一处理不同的海报生成类型。对于数据集构建，我们提出了一种系统的数据注释流程，精确标注海报图像中的文本内容和排版层次信息，同时采用全面的方法来构建成对的数据集，包括源材料（例如原始图形/文本）及其对应的最终海报输出。此外，我们实施了一种渐进的训练策略，使模型能够层次化地获取多任务生成能力，同时保持高质量生成效果。在我们的测试基准上，DreamPoster表现出优越性，达到了88.55%的高可用率，相比GPT-4o的47.56%和SeedEdit3.0的25.96%。DreamPoster将在Jimeng和其他字节跳动应用中上线。",
+        "地址": "https://arxiv.org/pdf/2507.04218.pdf"
+    },
+    {
+        "名称": "2025 [2507.08267] A Practical Two-Stage Recipe for Mathematical LLMs: Maximizing Accuracy with SFT and Efficiency with Reinforcement Learning.pdf",
+        "作者": "Hiroshi Yoshihara, Taiki Yamaguchi, Yuichi Inoue",
+        "摘要": "摘要：提高大型语言模型（LLMs）的数学推理能力是推动人工智能能力发展的关键挑战。尽管监督微调（SFT）和强化学习（RL）是主要的训练范式，但结合它们以最大化准确性和效率的系统方法仍 largely unexplored。本论文介绍了一种实用且有效的训练方案，该方案战略性地将扩展的SFT与在线推理的RL（GRPO）结合起来。我们认为，这些方法起着互补而非竞争的作用：首先通过延长SFT阶段将模型的准确性推至极限，然后通过GRPO阶段显着提高token效率，同时保持这一巅峰表现。我们的实验表明，延长SFT至多达10个时期对于性能突破至关重要，并且GRPO在这一框架中的主要作用是优化解决方案的长度。我们通过在严格无泄露的 AI 数学奥林匹克（AIMO）中在超过2200支队伍中获得较高排名，严格验证了我们的方案的有效性。这项工作为社区提供了一条经过实战测试的蓝图，用于开发既非常准确又实际高效的数学推理器。为了确保完全可重复性并支持未来研究，我们将开源我们整个框架，包括所有代码、模型检查点和训练配置。\n\n翻译：\n摘要：提高大型语言模型（LLMs）的数学推理能力是推动人工智能能力发展的关键挑战。尽管监督微调（SFT）和强化学习（RL）是主要的训练范式，但将它们系统地结合以最大化准确性和效率的方法仍然很大程度上未被探索。本文介绍了一种实用且有效的训练方案，该方案战略性地将扩展的SFT与来自在线推理的RL（GRPO）结合。我们主张这些方法起着相辅相成而非竞争的作用：首先延长SFT阶段将模型的准确性推至极限，之后通过GRPO阶段显著提高token效率，同时保持这一巅峰性能。我们的实验表明，延长SFT长达10个周期是性能突破的关键，而GRPO在该框架中的主要作用是优化解决方案长度。通过在严格无泄露的AI数学奥林匹克（AIMO）中，在超越2200支队伍的比赛中取得高排名，我们严格验证了该方案的有效性。本研究为开发既准确又高效的数学推理模型提供了一个实战验证的蓝图。为了确保完整的可重复性并支持未来的研究，我们将开源整个框架，包括所有代码、模型检查点和训练配置。",
+        "地址": "https://arxiv.org/pdf/2507.08267.pdf"
+    },
+    {
+        "名称": "2025 [2507.09074] Favicon Trojans: Executable Steganography Via Ico Alpha Channel Exploitation.pdf",
+        "作者": "David Noever, Forrest McKee",
+        "摘要": "摘要：本文提出了一种利用ICO图像文件的alpha透明度层在网络浏览器中嵌入和传递自解压JavaScript有效载荷的新方法。通过定位非透明alpha层图像值的最低有效位(LSB)，所提出的方法成功地在不影响视觉效果的情况下将压缩JavaScript代码隐藏在网页图标图像中。全球网络流量每天加载294亿个网页图标，消耗0.9 PB的网络带宽。概念验证实施表明，一个64x64 ICO图像可以嵌入最多512字节未压缩代码，或使用轻量级双重压缩时达到0.8 KB。在页面加载时，浏览器作为标准行为的一部分获取网页图标，使嵌入的加载脚本能够使用原生JavaScript API和画布像素访问在内存中完全提取和执行有效载荷。这创建了一个不需要额外网络或用户请求的两阶段隐蔽通道。在桌面和移动环境中的多个浏览器进行的测试确认了嵌入脚本的成功且无声的执行。我们评估了威胁模型，将其与通过网页图标躲避检测的多态网络钓鱼攻击联系起来，并分析了内容安全策略和防病毒扫描程序的规避。我们将九个示例MITRE ATT&CK框架目标映射到单行JavaScript，以在ICO文件中任意执行现有的隐藏分析和净化防御措施，突出检测或中和alpha通道攻击的限制。结果表明，这是一种隐蔽且可重复使用的攻击面，模糊了静态图像和可执行内容之间的传统界限。由于现代浏览器在开发人员未能加载ICO文件时报告无声错误，这个攻击面提供了一个有趣的例子，说明所需的网页行为反而会妥协安全性。\n\n作者：David Noever, Forrest McKee\n\n网址：https://arxiv.org/pdf/2507.09074.pdf\n\n标题：2025 [2507.09074] 网页图标木马：通过ICO Alpha通道利用实现可执行隐写术.pdf",
+        "地址": "https://arxiv.org/pdf/2507.09074.pdf"
+    },
+    {
+        "名称": "2025 [2507.11137] Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking.pdf",
+        "作者": "Yuan Yao, Jin Song, Jian Jin",
+        "摘要": "摘要：作为珍贵的数字资产，深度神经网络需要坚固的所有权保护，神经网络水印（NNW）成为一个有前景的解决方案。在各种NNW方法中，基于权重的方法因其简单性和实用性受到青睐；然而，它们仍然容易受到伪造和覆盖攻击。为了解决这些挑战，我们提出了NeuralMark，这是一种围绕哈希水印滤波器构建的稳健方法。具体而言，我们利用哈希函数从密钥生成不可逆的二进制水印，然后用作滤波器来选择嵌入的模型参数。该设计巧妙地将嵌入参数与哈希水印结合，提供了对伪造和覆盖攻击的有力防御。此外，平均池化也被纳入以抵抗微调和剪枝攻击。它可以无缝集成到各种神经网络架构中，确保广泛的适用性。理论上，我们分析了其安全边界。实证上，我们在13种不同的卷积和变压器架构中验证了其在五个图像分类任务和一个文本生成任务中的有效性和稳健性。源码可在此HTTPS URL获得。",
+        "地址": "https://arxiv.org/pdf/2507.11137.pdf"
+    },
+    {
+        "名称": "2025 [2507.09751] Sound and Complete Neuro-symbolic Reasoning with LLM-Grounded Interpretations.pdf",
+        "作者": "Bradley P. Allen, Prateek Chhikara, Thomas Macaulay Ferguson, Filip Ilievski, Paul Groth",
+        "摘要": "摘要: 大型语言模型（LLMs）在自然语言理解和生成方面表现出色，但它们在生成的输出中存在逻辑一致性问题。如何在形式推理中利用LLMs的广泛覆盖参数知识，同时克服其不一致性？我们提出了一种方法，将LLM直接集成到对抗一致逻辑形式语义的解释函数中。我们通过使用几个短期事实性基准创建的数据集评估该函数，提供了该方法可行性的实验证据。与先前的工作不同，我们的方法提供了一个理论框架用于神经符号推理，该框架利用LLM的知识，同时保持底层逻辑的完善性和完整性属性。\n\n",
+        "地址": "https://arxiv.org/pdf/2507.09751.pdf"
+    }
+]
