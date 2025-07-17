@@ -1,0 +1,1438 @@
+[
+    {
+        "paper": {
+            "id": "2507.07104",
+            "authors": [
+                {
+                    "_id": "686f95e9706a6ea4654189ff",
+                    "user": {
+                        "_id": "66e0b013733965882099cc37",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66e0b013733965882099cc37/CkTK2kV2v-TfdYiwsW6Tx.jpeg",
+                        "isPro": true,
+                        "fullname": "Tiezheng Zhang",
+                        "user": "PatZhang11",
+                        "type": "user"
+                    },
+                    "name": "Tiezheng Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:03:27.231Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a00",
+                    "name": "Yitong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a01",
+                    "name": "Yu-cheng Chou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a02",
+                    "name": "Jieneng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a03",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a04",
+                    "name": "Chen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a05",
+                    "user": {
+                        "_id": "64b5ba6060274cbb296d6288",
+                        "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                        "isPro": true,
+                        "fullname": "Junfei Xiao",
+                        "user": "lambertxiao",
+                        "type": "user"
+                    },
+                    "name": "Junfei Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:03:25.003Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-09T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-07-16T04:05:40.175Z",
+            "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation\n  from Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "64b5ba6060274cbb296d6288",
+                "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                "isPro": true,
+                "fullname": "Junfei Xiao",
+                "user": "lambertxiao",
+                "type": "user"
+            },
+            "summary": "Building state-of-the-art Vision-Language Models (VLMs) with strong\ncaptioning capabilities typically necessitates training on billions of\nhigh-quality image-text pairs, requiring millions of GPU hours. This paper\nintroduces the Vision-Language-Vision (VLV) auto-encoder framework, which\nstrategically leverages key pretrained components: a vision encoder, the\ndecoder of a Text-to-Image (T2I) diffusion model, and subsequently, a Large\nLanguage Model (LLM). Specifically, we establish an information bottleneck by\nregularizing the language representation space, achieved through freezing the\npretrained T2I diffusion decoder. Our VLV pipeline effectively distills\nknowledge from the text-conditioned diffusion model using continuous\nembeddings, demonstrating comprehensive semantic understanding via high-quality\nreconstructions. Furthermore, by fine-tuning a pretrained LLM to decode the\nintermediate language representations into detailed descriptions, we construct\na state-of-the-art (SoTA) captioner comparable to leading models like GPT-4o\nand Gemini 2.0 Flash. Our method demonstrates exceptional cost-efficiency and\nsignificantly reduces data requirements; by primarily utilizing single-modal\nimages for training and maximizing the utility of existing pretrained models\n(image encoder, T2I diffusion model, and LLM), it circumvents the need for\nmassive paired image-text datasets, keeping the total training expenditure\nunder $1,000 USD.",
+            "upvotes": 32,
+            "discussionId": "686f95e9706a6ea465418a06",
+            "projectPage": "https://lambert-x.github.io/Vision-Language-Vision/",
+            "githubRepo": "https://github.com/Tiezheng11/Vision-Language-Vision",
+            "ai_summary": "The VLV auto-encoder framework uses pretrained vision and text models to create a cost-effective and data-efficient captioning system.",
+            "ai_keywords": [
+                "Vision-Language Models",
+                "VLV auto-encoder",
+                "vision encoder",
+                "Text-to-Image diffusion model",
+                "Large Language Model",
+                "information bottleneck",
+                "continuous embeddings",
+                "semantic understanding",
+                "captioning",
+                "fine-tuning",
+                "GPT-4o",
+                "Gemini 2.0 Flash"
+            ],
+            "githubStars": 29
+        },
+        "publishedAt": "2025-07-09T13:59:04.000Z",
+        "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation\n  from Diffusion Models",
+        "summary": "Building state-of-the-art Vision-Language Models (VLMs) with strong\ncaptioning capabilities typically necessitates training on billions of\nhigh-quality image-text pairs, requiring millions of GPU hours. This paper\nintroduces the Vision-Language-Vision (VLV) auto-encoder framework, which\nstrategically leverages key pretrained components: a vision encoder, the\ndecoder of a Text-to-Image (T2I) diffusion model, and subsequently, a Large\nLanguage Model (LLM). Specifically, we establish an information bottleneck by\nregularizing the language representation space, achieved through freezing the\npretrained T2I diffusion decoder. Our VLV pipeline effectively distills\nknowledge from the text-conditioned diffusion model using continuous\nembeddings, demonstrating comprehensive semantic understanding via high-quality\nreconstructions. Furthermore, by fine-tuning a pretrained LLM to decode the\nintermediate language representations into detailed descriptions, we construct\na state-of-the-art (SoTA) captioner comparable to leading models like GPT-4o\nand Gemini 2.0 Flash. Our method demonstrates exceptional cost-efficiency and\nsignificantly reduces data requirements; by primarily utilizing single-modal\nimages for training and maximizing the utility of existing pretrained models\n(image encoder, T2I diffusion model, and LLM), it circumvents the need for\nmassive paired image-text datasets, keeping the total training expenditure\nunder $1,000 USD.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07104.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "64b5ba6060274cbb296d6288",
+            "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+            "fullname": "Junfei Xiao",
+            "name": "lambertxiao",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 7
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.11407",
+            "authors": [
+                {
+                    "_id": "68774564257d4f04353707dc",
+                    "name": "LG AI Research",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707de",
+                    "name": "Kyunghoon Bae",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707df",
+                    "name": "Eunbi Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e0",
+                    "name": "Kibong Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e1",
+                    "name": "Stanley Jungkyu Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e2",
+                    "name": "Yemuk Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e3",
+                    "name": "Kyubeen Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e4",
+                    "name": "Seokhee Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e5",
+                    "name": "Junwon Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e6",
+                    "name": "Taewan Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e7",
+                    "user": {
+                        "_id": "64bf77338e051085ba405d66",
+                        "avatarUrl": "/avatars/dd8b1f976c67c8b592f7d1e88573fa8b.svg",
+                        "isPro": false,
+                        "fullname": "Joonwon",
+                        "user": "lainshower",
+                        "type": "user"
+                    },
+                    "name": "Joonwon Jang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:16:04.357Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e8",
+                    "user": {
+                        "_id": "6578953c1e4ac8627fb0fca9",
+                        "avatarUrl": "/avatars/e64a4c288424c38f3af0c299ff35fa93.svg",
+                        "isPro": false,
+                        "fullname": "jeon",
+                        "user": "gywlssww",
+                        "type": "user"
+                    },
+                    "name": "Hyojin Jeon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:02.499Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e9",
+                    "name": "Kijeong Jeon",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ea",
+                    "name": "Gerrard Jeongwon Jo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707eb",
+                    "name": "Hyunjik Jo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ec",
+                    "name": "Jiyeon Jung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ed",
+                    "name": "Euisoon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ee",
+                    "name": "Hyosang Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ef",
+                    "name": "Jihoon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f0",
+                    "name": "Joonkee Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f1",
+                    "name": "Seonghwan Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f2",
+                    "name": "Soyeon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f3",
+                    "user": {
+                        "_id": "628efeff6d8dcc7ab5263881",
+                        "avatarUrl": "/avatars/1e894ccd7ba206a755b0b9af9f22ead1.svg",
+                        "isPro": false,
+                        "fullname": "Sunkyoung Kim",
+                        "user": "Sunkyoung",
+                        "type": "user"
+                    },
+                    "name": "Sunkyoung Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:06.683Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f4",
+                    "user": {
+                        "_id": "660260cf1737e5cd4a826550",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660260cf1737e5cd4a826550/AlSfoM2WtqPjLtYR6x7Wf.jpeg",
+                        "isPro": false,
+                        "fullname": "Yireun Kim",
+                        "user": "yireun",
+                        "type": "user"
+                    },
+                    "name": "Yireun Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:08.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f5",
+                    "name": "Yongil Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f6",
+                    "name": "Youchul Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f7",
+                    "name": "Edward Hwayoung Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f8",
+                    "name": "Gwangho Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f9",
+                    "name": "Haeju Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fa",
+                    "name": "Honglak Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fb",
+                    "name": "Jinsik Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fc",
+                    "user": {
+                        "_id": "6241349b9d7bad9474ed254a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6241349b9d7bad9474ed254a/b09yztloFKapHBFPlhkQD.jpeg",
+                        "isPro": false,
+                        "fullname": "Kyungmin Lee",
+                        "user": "lkm2835",
+                        "type": "user"
+                    },
+                    "name": "Kyungmin Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:04.788Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fd",
+                    "name": "Sangha Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fe",
+                    "name": "Young Min Paik",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ff",
+                    "name": "Yongmin Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370800",
+                    "name": "Youngyong Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370801",
+                    "name": "Sanghyun Seo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370802",
+                    "name": "Sihoon Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370803",
+                    "name": "Heuiyeen Yeen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370804",
+                    "name": "Sihyuk Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370805",
+                    "name": "Hyeongu Yun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-15T15:24:51.000Z",
+            "submittedOnDailyAt": "2025-07-16T07:04:54.982Z",
+            "title": "EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and\n  Reasoning Modes",
+            "submittedOnDailyBy": {
+                "_id": "660260cf1737e5cd4a826550",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660260cf1737e5cd4a826550/AlSfoM2WtqPjLtYR6x7Wf.jpeg",
+                "isPro": false,
+                "fullname": "Yireun Kim",
+                "user": "yireun",
+                "type": "user"
+            },
+            "summary": "This technical report introduces EXAONE 4.0, which integrates a Non-reasoning\nmode and a Reasoning mode to achieve both the excellent usability of EXAONE 3.5\nand the advanced reasoning abilities of EXAONE Deep. To pave the way for the\nagentic AI era, EXAONE 4.0 incorporates essential features such as agentic tool\nuse, and its multilingual capabilities are extended to support Spanish in\naddition to English and Korean. The EXAONE 4.0 model series consists of two\nsizes: a mid-size 32B model optimized for high performance, and a small-size\n1.2B model designed for on-device applications. The EXAONE 4.0 demonstrates\nsuperior performance compared to open-weight models in its class and remains\ncompetitive even against frontier-class models. The models are publicly\navailable for research purposes and can be easily downloaded via\nhttps://huggingface.co/LGAI-EXAONE.",
+            "upvotes": 23,
+            "discussionId": "68774564257d4f0435370806",
+            "ai_summary": "EXAONE 4.0 integrates non-reasoning and reasoning modes, supports multilingualism, and offers models optimized for high performance and on-device use, demonstrating superior performance compared to open-weight models.",
+            "ai_keywords": [
+                "Non-reasoning mode",
+                "Reasoning mode",
+                "agentic tool use",
+                "multilingual capabilities",
+                "mid-size model",
+                "small-size model",
+                "high performance",
+                "on-device applications",
+                "open-weight models",
+                "frontier-class models"
+            ]
+        },
+        "publishedAt": "2025-07-15T11:24:51.000Z",
+        "title": "EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and\n  Reasoning Modes",
+        "summary": "This technical report introduces EXAONE 4.0, which integrates a Non-reasoning\nmode and a Reasoning mode to achieve both the excellent usability of EXAONE 3.5\nand the advanced reasoning abilities of EXAONE Deep. To pave the way for the\nagentic AI era, EXAONE 4.0 incorporates essential features such as agentic tool\nuse, and its multilingual capabilities are extended to support Spanish in\naddition to English and Korean. The EXAONE 4.0 model series consists of two\nsizes: a mid-size 32B model optimized for high performance, and a small-size\n1.2B model designed for on-device applications. The EXAONE 4.0 demonstrates\nsuperior performance compared to open-weight models in its class and remains\ncompetitive even against frontier-class models. The models are publicly\navailable for research purposes and can be easily downloaded via\nhttps://huggingface.co/LGAI-EXAONE.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.11407.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "660260cf1737e5cd4a826550",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660260cf1737e5cd4a826550/AlSfoM2WtqPjLtYR6x7Wf.jpeg",
+            "fullname": "Yireun Kim",
+            "name": "yireun",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 4
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.09404",
+            "authors": [
+                {
+                    "_id": "68774155257d4f04353707d3",
+                    "name": "Mustafa Shukor",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d4",
+                    "name": "Louis Bethune",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d5",
+                    "name": "Dan Busbridge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d6",
+                    "name": "David Grangier",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d7",
+                    "name": "Enrico Fini",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d8",
+                    "name": "Alaaeldin El-Nouby",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d9",
+                    "name": "Pierre Ablin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-12T21:16:08.000Z",
+            "submittedOnDailyAt": "2025-07-16T04:39:10.654Z",
+            "title": "Scaling Laws for Optimal Data Mixtures",
+            "submittedOnDailyBy": {
+                "_id": "62bdeedd01dc22b4d22a371e",
+                "avatarUrl": "/avatars/3cc0643feb53bf2e895ec12c275d5483.svg",
+                "isPro": false,
+                "fullname": "Mustafa Shukor",
+                "user": "mshukor",
+                "type": "user"
+            },
+            "summary": "Large foundation models are typically trained on data from multiple domains,\nwith the data mixture--the proportion of each domain used--playing a critical\nrole in model performance. The standard approach to selecting this mixture\nrelies on trial and error, which becomes impractical for large-scale\npretraining. We propose a systematic method to determine the optimal data\nmixture for any target domain using scaling laws. Our approach accurately\npredicts the loss of a model of size N trained with D tokens and a specific\ndomain weight vector h. We validate the universality of these scaling laws by\ndemonstrating their predictive power in three distinct and large-scale\nsettings: large language model (LLM), native multimodal model (NMM), and large\nvision models (LVM) pretraining. We further show that these scaling laws can\nextrapolate to new data mixtures and across scales: their parameters can be\naccurately estimated using a few small-scale training runs, and used to\nestimate the performance at larger scales and unseen domain weights. The\nscaling laws allow to derive the optimal domain weights for any target domain\nunder a given training budget (N,D), providing a principled alternative to\ncostly trial-and-error methods.",
+            "upvotes": 17,
+            "discussionId": "68774156257d4f04353707da",
+            "ai_summary": "Scaling laws predict optimal data mixtures for large foundation models, improving performance across different domains and scales.",
+            "ai_keywords": [
+                "scaling laws",
+                "large language model",
+                "native multimodal model",
+                "large vision models",
+                "domain weights",
+                "parameter estimation",
+                "performance prediction",
+                "training budget"
+            ]
+        },
+        "publishedAt": "2025-07-12T17:16:08.000Z",
+        "title": "Scaling Laws for Optimal Data Mixtures",
+        "summary": "Large foundation models are typically trained on data from multiple domains,\nwith the data mixture--the proportion of each domain used--playing a critical\nrole in model performance. The standard approach to selecting this mixture\nrelies on trial and error, which becomes impractical for large-scale\npretraining. We propose a systematic method to determine the optimal data\nmixture for any target domain using scaling laws. Our approach accurately\npredicts the loss of a model of size N trained with D tokens and a specific\ndomain weight vector h. We validate the universality of these scaling laws by\ndemonstrating their predictive power in three distinct and large-scale\nsettings: large language model (LLM), native multimodal model (NMM), and large\nvision models (LVM) pretraining. We further show that these scaling laws can\nextrapolate to new data mixtures and across scales: their parameters can be\naccurately estimated using a few small-scale training runs, and used to\nestimate the performance at larger scales and unseen domain weights. The\nscaling laws allow to derive the optimal domain weights for any target domain\nunder a given training budget (N,D), providing a principled alternative to\ncostly trial-and-error methods.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.09404.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "62bdeedd01dc22b4d22a371e",
+            "avatarUrl": "/avatars/3cc0643feb53bf2e895ec12c275d5483.svg",
+            "fullname": "Mustafa Shukor",
+            "name": "mshukor",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 60
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2507.10787",
+            "authors": [
+                {
+                    "_id": "68771a98257d4f04353707b2",
+                    "user": {
+                        "_id": "62f662bcc58915315c4eccea",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                        "isPro": true,
+                        "fullname": "Yilun Zhao",
+                        "user": "yilunzhao",
+                        "type": "user"
+                    },
+                    "name": "Yilun Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:45.442Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b3",
+                    "name": "Chengye Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b4",
+                    "name": "Chuhan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b5",
+                    "name": "Arman Cohan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-14T20:35:25.000Z",
+            "submittedOnDailyAt": "2025-07-16T01:51:11.312Z",
+            "title": "Can Multimodal Foundation Models Understand Schematic Diagrams? An\n  Empirical Study on Information-Seeking QA over Scientific Papers",
+            "submittedOnDailyBy": {
+                "_id": "62f662bcc58915315c4eccea",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                "isPro": true,
+                "fullname": "Yilun Zhao",
+                "user": "yilunzhao",
+                "type": "user"
+            },
+            "summary": "This paper introduces MISS-QA, the first benchmark specifically designed to\nevaluate the ability of models to interpret schematic diagrams within\nscientific literature. MISS-QA comprises 1,500 expert-annotated examples over\n465 scientific papers. In this benchmark, models are tasked with interpreting\nschematic diagrams that illustrate research overviews and answering\ncorresponding information-seeking questions based on the broader context of the\npaper. We assess the performance of 18 frontier multimodal foundation models,\nincluding o4-mini, Gemini-2.5-Flash, and Qwen2.5-VL. We reveal a significant\nperformance gap between these models and human experts on MISS-QA. Our analysis\nof model performance on unanswerable questions and our detailed error analysis\nfurther highlight the strengths and limitations of current models, offering key\ninsights to enhance models in comprehending multimodal scientific literature.",
+            "upvotes": 9,
+            "discussionId": "68771a98257d4f04353707b6",
+            "githubRepo": "https://github.com/yilunzhao/MISS-QA",
+            "ai_summary": "A benchmark evaluates multimodal models' ability to interpret scientific schematic diagrams and answer related questions, revealing performance gaps and insights for improvement.",
+            "ai_keywords": [
+                "multimodal foundation models",
+                "schematic diagrams",
+                "scientific literature",
+                "information-seeking questions",
+                "error analysis"
+            ],
+            "githubStars": 2
+        },
+        "publishedAt": "2025-07-14T16:35:25.000Z",
+        "title": "Can Multimodal Foundation Models Understand Schematic Diagrams? An\n  Empirical Study on Information-Seeking QA over Scientific Papers",
+        "summary": "This paper introduces MISS-QA, the first benchmark specifically designed to\nevaluate the ability of models to interpret schematic diagrams within\nscientific literature. MISS-QA comprises 1,500 expert-annotated examples over\n465 scientific papers. In this benchmark, models are tasked with interpreting\nschematic diagrams that illustrate research overviews and answering\ncorresponding information-seeking questions based on the broader context of the\npaper. We assess the performance of 18 frontier multimodal foundation models,\nincluding o4-mini, Gemini-2.5-Flash, and Qwen2.5-VL. We reveal a significant\nperformance gap between these models and human experts on MISS-QA. Our analysis\nof model performance on unanswerable questions and our detailed error analysis\nfurther highlight the strengths and limitations of current models, offering key\ninsights to enhance models in comprehending multimodal scientific literature.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.10787.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "62f662bcc58915315c4eccea",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+            "fullname": "Yilun Zhao",
+            "name": "yilunzhao",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 14
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.09075",
+            "authors": [
+                {
+                    "_id": "687731d0257d4f04353707be",
+                    "name": "Wasi Uddin Ahmad",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707bf",
+                    "user": {
+                        "_id": "6254f8e5d21e4cc386b881ad",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649899774659-6254f8e5d21e4cc386b881ad.jpeg",
+                        "isPro": false,
+                        "fullname": "Somshubra Majumdar",
+                        "user": "smajumdar94",
+                        "type": "user"
+                    },
+                    "name": "Somshubra Majumdar",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:41.697Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c0",
+                    "name": "Aleksander Ficek",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c1",
+                    "name": "Sean Narenthiran",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c2",
+                    "name": "Mehrzad Samadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c3",
+                    "name": "Jocelyn Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c4",
+                    "name": "Siddhartha Jain",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c5",
+                    "name": "Vahid Noroozi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c6",
+                    "name": "Boris Ginsburg",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-11T23:35:54.000Z",
+            "submittedOnDailyAt": "2025-07-16T03:31:02.680Z",
+            "title": "OpenCodeReasoning-II: A Simple Test Time Scaling Approach via\n  Self-Critique",
+            "submittedOnDailyBy": {
+                "_id": "6254f8e5d21e4cc386b881ad",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649899774659-6254f8e5d21e4cc386b881ad.jpeg",
+                "isPro": false,
+                "fullname": "Somshubra Majumdar",
+                "user": "smajumdar94",
+                "type": "user"
+            },
+            "summary": "Recent advancements in reasoning-based Large Language Models (LLMs),\nparticularly their potential through test-time scaling, have created\nsignificant opportunities for distillation in code generation and critique.\nHowever, progress in both areas fundamentally depends on large-scale,\nhigh-quality datasets. In this work, we introduce OpenCodeReasoning-II, a\ndataset consists of 2.5M question-solution-critique triples (approx. 35K unique\nprogramming questions), making it nearly twice the size of the previous largest\npublicly available code reasoning dataset. In this work, we employ a two-stage\nsupervised fine-tuning strategy. The first stage focuses on fine-tuning for\ncode generation, while the second stage involves the joint training of models\nfor both code generation and critique. Our resulting finetuned Qwen2.5-Instruct\nmodels achieve performance in code generation that either exceeds or equals the\nbest prior open-weight distilled models. Notably, the integration of our code\ngeneration and critique models leads to significant improvements in competitive\ncoding performance. Furthermore, we present an extension of the LiveCodeBench\nbenchmark to specifically support the C++ programming language, thereby\nfacilitating more comprehensive LLM evaluation using this benchmark.",
+            "upvotes": 4,
+            "discussionId": "687731d0257d4f04353707c7"
+        },
+        "publishedAt": "2025-07-11T19:35:54.000Z",
+        "title": "OpenCodeReasoning-II: A Simple Test Time Scaling Approach via\n  Self-Critique",
+        "summary": "Recent advancements in reasoning-based Large Language Models (LLMs),\nparticularly their potential through test-time scaling, have created\nsignificant opportunities for distillation in code generation and critique.\nHowever, progress in both areas fundamentally depends on large-scale,\nhigh-quality datasets. In this work, we introduce OpenCodeReasoning-II, a\ndataset consists of 2.5M question-solution-critique triples (approx. 35K unique\nprogramming questions), making it nearly twice the size of the previous largest\npublicly available code reasoning dataset. In this work, we employ a two-stage\nsupervised fine-tuning strategy. The first stage focuses on fine-tuning for\ncode generation, while the second stage involves the joint training of models\nfor both code generation and critique. Our resulting finetuned Qwen2.5-Instruct\nmodels achieve performance in code generation that either exceeds or equals the\nbest prior open-weight distilled models. Notably, the integration of our code\ngeneration and critique models leads to significant improvements in competitive\ncoding performance. Furthermore, we present an extension of the LiveCodeBench\nbenchmark to specifically support the C++ programming language, thereby\nfacilitating more comprehensive LLM evaluation using this benchmark.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.09075.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6254f8e5d21e4cc386b881ad",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649899774659-6254f8e5d21e4cc386b881ad.jpeg",
+            "fullname": "Somshubra Majumdar",
+            "name": "smajumdar94",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 27
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.08616",
+            "authors": [
+                {
+                    "_id": "687764e0ff8f47a7f86442ad",
+                    "name": "Florian Grötschla",
+                    "hidden": false
+                },
+                {
+                    "_id": "687764e0ff8f47a7f86442ae",
+                    "name": "Luis Müller",
+                    "hidden": false
+                },
+                {
+                    "_id": "687764e0ff8f47a7f86442af",
+                    "name": "Jan Tönshoff",
+                    "hidden": false
+                },
+                {
+                    "_id": "687764e0ff8f47a7f86442b0",
+                    "name": "Mikhail Galkin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687764e0ff8f47a7f86442b1",
+                    "name": "Bryan Perozzi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-11T14:13:22.000Z",
+            "submittedOnDailyAt": "2025-07-16T07:08:39.797Z",
+            "title": "AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs",
+            "submittedOnDailyBy": {
+                "_id": "63c09599dd793d5a62890e7d",
+                "avatarUrl": "/avatars/fed51ddd492b98e7cd4c3d1f82998635.svg",
+                "isPro": false,
+                "fullname": "Michael Galkin",
+                "user": "mgalkin",
+                "type": "user"
+            },
+            "summary": "Large-language models (LLMs) have demonstrated powerful problem-solving\ncapabilities, in particular when organized in multi-agent systems. However, the\nadvent of such systems also raises several questions on the ability of a\ncomplex network of agents to effectively self-organize and collaborate. While\nmeasuring performance on standard reasoning benchmarks indicates how well\nmulti-agent systems can solve reasoning tasks, it is unclear whether these\nsystems are able to leverage their topology effectively. Here, we propose\nAgentsNet, a new benchmark for multi-agent reasoning. By drawing inspiration\nfrom classical problems in distributed systems and graph theory, AgentsNet\nmeasures the ability of multi-agent systems to collaboratively form strategies\nfor problem-solving, self-organization, and effective communication given a\nnetwork topology. We evaluate a variety of baseline methods on AgentsNet\nincluding homogeneous networks of agents which first have to agree on basic\nprotocols for organization and communication. We find that some frontier LLMs\nare already demonstrating strong performance for small networks but begin to\nfall off once the size of the network scales. While existing multi-agent\nbenchmarks cover at most 2-5 agents, AgentsNet is practically unlimited in size\nand can scale with new generations of LLMs. As such, we also probe frontier\nmodels in a setup with up to 100 agents.",
+            "upvotes": 3,
+            "discussionId": "687764e0ff8f47a7f86442b2",
+            "projectPage": "https://agentsnet.graphben.ch/",
+            "githubRepo": "https://github.com/floriangroetschla/AgentsNet",
+            "ai_summary": "AgentsNet is a new benchmark for evaluating multi-agent systems' ability to self-organize, communicate, and solve problems collaboratively across varying network sizes.",
+            "ai_keywords": [
+                "multi-agent systems",
+                "AgentsNet",
+                "distributed systems",
+                "graph theory",
+                "self-organization",
+                "communication",
+                "network topology",
+                "homogeneous networks",
+                "protocols",
+                "LLMs"
+            ],
+            "githubStars": 6
+        },
+        "publishedAt": "2025-07-11T10:13:22.000Z",
+        "title": "AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs",
+        "summary": "Large-language models (LLMs) have demonstrated powerful problem-solving\ncapabilities, in particular when organized in multi-agent systems. However, the\nadvent of such systems also raises several questions on the ability of a\ncomplex network of agents to effectively self-organize and collaborate. While\nmeasuring performance on standard reasoning benchmarks indicates how well\nmulti-agent systems can solve reasoning tasks, it is unclear whether these\nsystems are able to leverage their topology effectively. Here, we propose\nAgentsNet, a new benchmark for multi-agent reasoning. By drawing inspiration\nfrom classical problems in distributed systems and graph theory, AgentsNet\nmeasures the ability of multi-agent systems to collaboratively form strategies\nfor problem-solving, self-organization, and effective communication given a\nnetwork topology. We evaluate a variety of baseline methods on AgentsNet\nincluding homogeneous networks of agents which first have to agree on basic\nprotocols for organization and communication. We find that some frontier LLMs\nare already demonstrating strong performance for small networks but begin to\nfall off once the size of the network scales. While existing multi-agent\nbenchmarks cover at most 2-5 agents, AgentsNet is practically unlimited in size\nand can scale with new generations of LLMs. As such, we also probe frontier\nmodels in a setup with up to 100 agents.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08616.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "63c09599dd793d5a62890e7d",
+            "avatarUrl": "/avatars/fed51ddd492b98e7cd4c3d1f82998635.svg",
+            "fullname": "Michael Galkin",
+            "name": "mgalkin",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 13
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2507.08333",
+            "authors": [
+                {
+                    "_id": "687796c5ff8f47a7f86442e9",
+                    "user": {
+                        "_id": "66f8662bce69a58cb5d7ccb3",
+                        "avatarUrl": "/avatars/1ecccb3636bb749e169c7dda533a6d51.svg",
+                        "isPro": false,
+                        "fullname": "Tali Dror",
+                        "user": "TaliDror",
+                        "type": "user"
+                    },
+                    "name": "Tali Dror",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:05:44.585Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442ea",
+                    "name": "Iftach Shoham",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442eb",
+                    "name": "Moshe Buchris",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442ec",
+                    "name": "Oren Gal",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442ed",
+                    "name": "Haim Permuter",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442ee",
+                    "name": "Gilad Katz",
+                    "hidden": false
+                },
+                {
+                    "_id": "687796c5ff8f47a7f86442ef",
+                    "name": "Eliya Nachmani",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66f8662bce69a58cb5d7ccb3/8RaCgYptWIvZuSpWeHnaB.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/66f8662bce69a58cb5d7ccb3/WiafFWyhgPQsQOeaT9Tnj.png"
+            ],
+            "publishedAt": "2025-07-11T06:25:49.000Z",
+            "submittedOnDailyAt": "2025-07-16T15:13:39.092Z",
+            "title": "Token-based Audio Inpainting via Discrete Diffusion",
+            "submittedOnDailyBy": {
+                "_id": "66f8662bce69a58cb5d7ccb3",
+                "avatarUrl": "/avatars/1ecccb3636bb749e169c7dda533a6d51.svg",
+                "isPro": false,
+                "fullname": "Tali Dror",
+                "user": "TaliDror",
+                "type": "user"
+            },
+            "summary": "Audio inpainting refers to the task of reconstructing missing segments in\ncorrupted audio recordings. While prior approaches-including waveform and\nspectrogram-based diffusion models-have shown promising results for short gaps,\nthey often degrade in quality when gaps exceed 100 milliseconds (ms). In this\nwork, we introduce a novel inpainting method based on discrete diffusion\nmodeling, which operates over tokenized audio representations produced by a\npre-trained audio tokenizer. Our approach models the generative process\ndirectly in the discrete latent space, enabling stable and semantically\ncoherent reconstruction of missing audio. We evaluate the method on the\nMusicNet dataset using both objective and perceptual metrics across gap\ndurations up to 300 ms. We further evaluated our approach on the MTG dataset,\nextending the gap duration to 500 ms. Experimental results demonstrate that our\nmethod achieves competitive or superior performance compared to existing\nbaselines, particularly for longer gaps, offering a robust solution for\nrestoring degraded musical recordings. Audio examples of our proposed method\ncan be found at https://iftach21.github.io/",
+            "upvotes": 3,
+            "discussionId": "687796c5ff8f47a7f86442f0",
+            "ai_summary": "A discrete diffusion model for audio inpainting using tokenized audio representations achieves competitive performance for reconstructing long gaps in corrupted audio recordings.",
+            "ai_keywords": [
+                "discrete diffusion modeling",
+                "tokenized audio representations",
+                "pre-trained audio tokenizer",
+                "latent space",
+                "MusicNet dataset",
+                "MTG dataset",
+                "audio inpainting",
+                "generative process",
+                "semantically coherent reconstruction"
+            ]
+        },
+        "publishedAt": "2025-07-11T02:25:49.000Z",
+        "title": "Token-based Audio Inpainting via Discrete Diffusion",
+        "summary": "Audio inpainting refers to the task of reconstructing missing segments in\ncorrupted audio recordings. While prior approaches-including waveform and\nspectrogram-based diffusion models-have shown promising results for short gaps,\nthey often degrade in quality when gaps exceed 100 milliseconds (ms). In this\nwork, we introduce a novel inpainting method based on discrete diffusion\nmodeling, which operates over tokenized audio representations produced by a\npre-trained audio tokenizer. Our approach models the generative process\ndirectly in the discrete latent space, enabling stable and semantically\ncoherent reconstruction of missing audio. We evaluate the method on the\nMusicNet dataset using both objective and perceptual metrics across gap\ndurations up to 300 ms. We further evaluated our approach on the MTG dataset,\nextending the gap duration to 500 ms. Experimental results demonstrate that our\nmethod achieves competitive or superior performance compared to existing\nbaselines, particularly for longer gaps, offering a robust solution for\nrestoring degraded musical recordings. Audio examples of our proposed method\ncan be found at https://iftach21.github.io/",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/66f8662bce69a58cb5d7ccb3/8RaCgYptWIvZuSpWeHnaB.png",
+            "https://cdn-uploads.huggingface.co/production/uploads/66f8662bce69a58cb5d7ccb3/WiafFWyhgPQsQOeaT9Tnj.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.08333.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "66f8662bce69a58cb5d7ccb3",
+            "avatarUrl": "/avatars/1ecccb3636bb749e169c7dda533a6d51.svg",
+            "fullname": "Tali Dror",
+            "name": "TaliDror",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.09411",
+            "authors": [
+                {
+                    "_id": "68771a0b257d4f04353707a9",
+                    "user": {
+                        "_id": "6159f88235226e98eaa28b39",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1633286253722-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Md Ajwad Akil",
+                        "user": "Ajwad",
+                        "type": "user"
+                    },
+                    "name": "Md Ajwad Akil",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:48.362Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707aa",
+                    "name": "Adrian Shuai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707ab",
+                    "name": "Imtiaz Karim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707ac",
+                    "name": "Arun Iyengar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707ad",
+                    "name": "Ashish Kundu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707ae",
+                    "name": "Vinny Parla",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a0b257d4f04353707af",
+                    "name": "Elisa Bertino",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-12T22:11:10.000Z",
+            "submittedOnDailyAt": "2025-07-16T01:54:43.633Z",
+            "title": "LLMalMorph: On The Feasibility of Generating Variant Malware using\n  Large-Language-Models",
+            "submittedOnDailyBy": {
+                "_id": "6159f88235226e98eaa28b39",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1633286253722-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Md Ajwad Akil",
+                "user": "Ajwad",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have transformed software development and\nautomated code generation. Motivated by these advancements, this paper explores\nthe feasibility of LLMs in modifying malware source code to generate variants.\nWe introduce LLMalMorph, a semi-automated framework that leverages semantical\nand syntactical code comprehension by LLMs to generate new malware variants.\nLLMalMorph extracts function-level information from the malware source code and\nemploys custom-engineered prompts coupled with strategically defined code\ntransformations to guide the LLM in generating variants without\nresource-intensive fine-tuning. To evaluate LLMalMorph, we collected 10 diverse\nWindows malware samples of varying types, complexity and functionality and\ngenerated 618 variants. Our thorough experiments demonstrate that it is\npossible to reduce the detection rates of antivirus engines of these malware\nvariants to some extent while preserving malware functionalities. In addition,\ndespite not optimizing against any Machine Learning (ML)-based malware\ndetectors, several variants also achieved notable attack success rates against\nan ML-based malware classifier. We also discuss the limitations of current LLM\ncapabilities in generating malware variants from source code and assess where\nthis emerging technology stands in the broader context of malware variant\ngeneration.",
+            "upvotes": 2,
+            "discussionId": "68771a0c257d4f04353707b0",
+            "ai_summary": "A semi-automated framework uses Large Language Models to generate malware variants, demonstrating reduced detection rates and notable attack success against ML classifiers.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMalMorph",
+                "semantical code comprehension",
+                "syntactical code comprehension",
+                "function-level information",
+                "custom-engineered prompts",
+                "code transformations",
+                "antivirus engines",
+                "ML-based malware detectors",
+                "malware variant generation"
+            ]
+        },
+        "publishedAt": "2025-07-12T18:11:10.000Z",
+        "title": "LLMalMorph: On The Feasibility of Generating Variant Malware using\n  Large-Language-Models",
+        "summary": "Large Language Models (LLMs) have transformed software development and\nautomated code generation. Motivated by these advancements, this paper explores\nthe feasibility of LLMs in modifying malware source code to generate variants.\nWe introduce LLMalMorph, a semi-automated framework that leverages semantical\nand syntactical code comprehension by LLMs to generate new malware variants.\nLLMalMorph extracts function-level information from the malware source code and\nemploys custom-engineered prompts coupled with strategically defined code\ntransformations to guide the LLM in generating variants without\nresource-intensive fine-tuning. To evaluate LLMalMorph, we collected 10 diverse\nWindows malware samples of varying types, complexity and functionality and\ngenerated 618 variants. Our thorough experiments demonstrate that it is\npossible to reduce the detection rates of antivirus engines of these malware\nvariants to some extent while preserving malware functionalities. In addition,\ndespite not optimizing against any Machine Learning (ML)-based malware\ndetectors, several variants also achieved notable attack success rates against\nan ML-based malware classifier. We also discuss the limitations of current LLM\ncapabilities in generating malware variants from source code and assess where\nthis emerging technology stands in the broader context of malware variant\ngeneration.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.09411.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6159f88235226e98eaa28b39",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1633286253722-noauth.jpeg",
+            "fullname": "Md Ajwad Akil",
+            "name": "Ajwad",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.11336",
+            "authors": [
+                {
+                    "_id": "6877a06dff8f47a7f8644304",
+                    "user": {
+                        "_id": "6667047b8fdab121b5a32306",
+                        "avatarUrl": "/avatars/35fce0470a67ea07bd99a28196ee2cd0.svg",
+                        "isPro": false,
+                        "fullname": "peiran wu",
+                        "user": "peiranW",
+                        "type": "user"
+                    },
+                    "name": "Peiran Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:05:41.669Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877a06dff8f47a7f8644305",
+                    "name": "Yunze Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877a06dff8f47a7f8644306",
+                    "name": "Zhengdong Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877a06dff8f47a7f8644307",
+                    "name": "Enmin Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877a06dff8f47a7f8644308",
+                    "name": "Shawn Shen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-15T14:08:29.000Z",
+            "submittedOnDailyAt": "2025-07-16T13:40:21.676Z",
+            "title": "UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New\n  Benchmarks",
+            "submittedOnDailyBy": {
+                "_id": "6667047b8fdab121b5a32306",
+                "avatarUrl": "/avatars/35fce0470a67ea07bd99a28196ee2cd0.svg",
+                "isPro": false,
+                "fullname": "peiran wu",
+                "user": "peiranW",
+                "type": "user"
+            },
+            "summary": "Real-world user-generated videos, especially on platforms like TikTok, often\nfeature rich and intertwined audio visual content. However, existing video\ncaptioning benchmarks and models remain predominantly visual centric,\noverlooking the crucial role of audio in conveying scene dynamics, speaker\nintent, and narrative context. This lack of omni datasets and lightweight,\ncapable models hampers progress in fine grained, multimodal video\nunderstanding. To address these challenges, we introduce UGC-VideoCap, a new\nbenchmark and model framework specifically designed for detailed omnimodal\ncaptioning of short form user-generated videos. Unlike prior datasets,\nUGC-VideoCap emphasizes balanced integration of audio and visual modalities,\nfeaturing 1000 TikTok videos annotated through a structured three stage\nhuman-in-the-loop pipeline covering audio only, visual only, and joint audio\nvisual semantics. The benchmark also includes 4000 carefully crafted QA pairs\nprobing both unimodal and cross modal understanding. Alongside the dataset, we\npropose UGC-VideoCaptioner(3B), a 3B parameter captioning model distilled from\nGemini 2.5 Flash. Using a novel two-stage training strategy supervised fine\ntuning followed by Group Relative Policy Optimization (GRPO), our approach\nenables efficient adaptation from limited data while maintaining competitive\nperformance. Together, our benchmark and model offer a high-quality foundation\nand a data-efficient solution for advancing omnimodal video captioning in\nunconstrained real-world UGC settings.",
+            "upvotes": 1,
+            "discussionId": "6877a06dff8f47a7f8644309",
+            "projectPage": "https://memories.ai/",
+            "githubRepo": "https://github.com/WPR001/UGC_VideoCaptioner",
+            "ai_summary": "UGC-VideoCap introduces a new benchmark and model for detailed omnimodal captioning of user-generated videos, emphasizing audio-visual integration and using a novel training strategy.",
+            "ai_keywords": [
+                "UGC-VideoCap",
+                "UGC-VideoCaptioner(3B)",
+                "Gemini 2.5 Flash",
+                "Group Relative Policy Optimization (GRPO)",
+                "multimodal captioning",
+                "human-in-the-loop pipeline",
+                "audio-visual semantics",
+                "QA pairs",
+                "two-stage training strategy",
+                "supervised fine tuning"
+            ],
+            "githubStars": 1
+        },
+        "publishedAt": "2025-07-15T10:08:29.000Z",
+        "title": "UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New\n  Benchmarks",
+        "summary": "Real-world user-generated videos, especially on platforms like TikTok, often\nfeature rich and intertwined audio visual content. However, existing video\ncaptioning benchmarks and models remain predominantly visual centric,\noverlooking the crucial role of audio in conveying scene dynamics, speaker\nintent, and narrative context. This lack of omni datasets and lightweight,\ncapable models hampers progress in fine grained, multimodal video\nunderstanding. To address these challenges, we introduce UGC-VideoCap, a new\nbenchmark and model framework specifically designed for detailed omnimodal\ncaptioning of short form user-generated videos. Unlike prior datasets,\nUGC-VideoCap emphasizes balanced integration of audio and visual modalities,\nfeaturing 1000 TikTok videos annotated through a structured three stage\nhuman-in-the-loop pipeline covering audio only, visual only, and joint audio\nvisual semantics. The benchmark also includes 4000 carefully crafted QA pairs\nprobing both unimodal and cross modal understanding. Alongside the dataset, we\npropose UGC-VideoCaptioner(3B), a 3B parameter captioning model distilled from\nGemini 2.5 Flash. Using a novel two-stage training strategy supervised fine\ntuning followed by Group Relative Policy Optimization (GRPO), our approach\nenables efficient adaptation from limited data while maintaining competitive\nperformance. Together, our benchmark and model offer a high-quality foundation\nand a data-efficient solution for advancing omnimodal video captioning in\nunconstrained real-world UGC settings.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.11336.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6667047b8fdab121b5a32306",
+            "avatarUrl": "/avatars/35fce0470a67ea07bd99a28196ee2cd0.svg",
+            "fullname": "peiran wu",
+            "name": "peiranW",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.07186",
+            "authors": [
+                {
+                    "_id": "68708a2ac8391850d609787d",
+                    "user": {
+                        "_id": "610c1e1a423fe7d80928aefd",
+                        "avatarUrl": "/avatars/8591584d678cf7fddace01e223953a63.svg",
+                        "isPro": true,
+                        "fullname": "Itay Itzhak",
+                        "user": "itay1itzhak",
+                        "type": "user"
+                    },
+                    "name": "Itay Itzhak",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:57.996Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708a2ac8391850d609787e",
+                    "name": "Yonatan Belinkov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708a2ac8391850d609787f",
+                    "name": "Gabriel Stanovsky",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-09T18:01:14.000Z",
+            "submittedOnDailyAt": "2025-07-16T06:16:00.646Z",
+            "title": "Planted in Pretraining, Swayed by Finetuning: A Case Study on the\n  Origins of Cognitive Biases in LLMs",
+            "submittedOnDailyBy": {
+                "_id": "610c1e1a423fe7d80928aefd",
+                "avatarUrl": "/avatars/8591584d678cf7fddace01e223953a63.svg",
+                "isPro": true,
+                "fullname": "Itay Itzhak",
+                "user": "itay1itzhak",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) exhibit cognitive biases -- systematic\ntendencies of irrational decision-making, similar to those seen in humans.\nPrior work has found that these biases vary across models and can be amplified\nby instruction tuning. However, it remains unclear if these differences in\nbiases stem from pretraining, finetuning, or even random noise due to training\nstochasticity. We propose a two-step causal experimental approach to\ndisentangle these factors. First, we finetune models multiple times using\ndifferent random seeds to study how training randomness affects over 30\ncognitive biases. Second, we introduce cross-tuning -- swapping\ninstruction datasets between models to isolate bias sources. This swap uses\ndatasets that led to different bias patterns, directly testing whether biases\nare dataset-dependent. Our findings reveal that while training randomness\nintroduces some variability, biases are mainly shaped by pretraining: models\nwith the same pretrained backbone exhibit more similar bias patterns than those\nsharing only finetuning data. These insights suggest that understanding biases\nin finetuned models requires considering their pretraining origins beyond\nfinetuning effects. This perspective can guide future efforts to develop\nprincipled strategies for evaluating and mitigating bias in LLMs.",
+            "upvotes": 1,
+            "discussionId": "68708a2bc8391850d6097880",
+            "ai_summary": "Research identifies pretraining as the primary source of cognitive biases in large language models, distinguishing its influence from finetuning and training randomness.",
+            "ai_keywords": [
+                "large language models",
+                "cognitive biases",
+                "instruction tuning",
+                "pretraining",
+                "finetuning",
+                "training randomness",
+                "cross-tuning",
+                "dataset-dependent biases"
+            ]
+        },
+        "publishedAt": "2025-07-09T14:01:14.000Z",
+        "title": "Planted in Pretraining, Swayed by Finetuning: A Case Study on the\n  Origins of Cognitive Biases in LLMs",
+        "summary": "Large language models (LLMs) exhibit cognitive biases -- systematic\ntendencies of irrational decision-making, similar to those seen in humans.\nPrior work has found that these biases vary across models and can be amplified\nby instruction tuning. However, it remains unclear if these differences in\nbiases stem from pretraining, finetuning, or even random noise due to training\nstochasticity. We propose a two-step causal experimental approach to\ndisentangle these factors. First, we finetune models multiple times using\ndifferent random seeds to study how training randomness affects over 30\ncognitive biases. Second, we introduce cross-tuning -- swapping\ninstruction datasets between models to isolate bias sources. This swap uses\ndatasets that led to different bias patterns, directly testing whether biases\nare dataset-dependent. Our findings reveal that while training randomness\nintroduces some variability, biases are mainly shaped by pretraining: models\nwith the same pretrained backbone exhibit more similar bias patterns than those\nsharing only finetuning data. These insights suggest that understanding biases\nin finetuned models requires considering their pretraining origins beyond\nfinetuning effects. This perspective can guide future efforts to develop\nprincipled strategies for evaluating and mitigating bias in LLMs.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.07186.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "610c1e1a423fe7d80928aefd",
+            "avatarUrl": "/avatars/8591584d678cf7fddace01e223953a63.svg",
+            "fullname": "Itay Itzhak",
+            "name": "itay1itzhak",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.10571",
+            "authors": [
+                {
+                    "_id": "6877b026ff8f47a7f8644314",
+                    "name": "Konstantinos I. Roumeliotis",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877b026ff8f47a7f8644315",
+                    "user": {
+                        "_id": "67ddd80896ac367438d400a6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+                        "isPro": false,
+                        "fullname": "Ranjan Sapkota",
+                        "user": "RanjanSapkota",
+                        "type": "user"
+                    },
+                    "name": "Ranjan Sapkota",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:05:10.193Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877b026ff8f47a7f8644316",
+                    "name": "Manoj Karkee",
+                    "hidden": false
+                },
+                {
+                    "_id": "6877b026ff8f47a7f8644317",
+                    "name": "Nikolaos D. Tselikas",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/MyondAL_DIafKlhKCOUto.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/18WwgWN7zIUZNkkyv6oWH.png"
+            ],
+            "publishedAt": "2025-07-09T16:39:29.000Z",
+            "submittedOnDailyAt": "2025-07-16T12:39:29.837Z",
+            "title": "Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification\n  System with Trust-Aware Orchestration and RAG-Based Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "67ddd80896ac367438d400a6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+                "isPro": false,
+                "fullname": "Ranjan Sapkota",
+                "user": "RanjanSapkota",
+                "type": "user"
+            },
+            "summary": "Modern Artificial Intelligence (AI) increasingly relies on multi-agent\narchitectures that blend visual and language understanding. Yet, a pressing\nchallenge remains: How can we trust these agents especially in zero-shot\nsettings with no fine-tuning? We introduce a novel modular Agentic AI visual\nclassification framework that integrates generalist multimodal agents with a\nnon-visual reasoning orchestrator and a Retrieval-Augmented Generation (RAG)\nmodule. Applied to apple leaf disease diagnosis, we benchmark three\nconfigurations: (I) zero-shot with confidence-based orchestration, (II)\nfine-tuned agents with improved performance, and (III) trust-calibrated\norchestration enhanced by CLIP-based image retrieval and re-evaluation loops.\nUsing confidence calibration metrics (ECE, OCR, CCC), the orchestrator\nmodulates trust across agents. Our results demonstrate a 77.94\\% accuracy\nimprovement in the zero-shot setting using trust-aware orchestration and RAG,\nachieving 85.63\\% overall. GPT-4o showed better calibration, while Qwen-2.5-VL\ndisplayed overconfidence. Furthermore, image-RAG grounded predictions with\nvisually similar cases, enabling correction of agent overconfidence via\niterative re-evaluation. The proposed system separates perception (vision\nagents) from meta-reasoning (orchestrator), enabling scalable and interpretable\nmulti-agent AI. This blueprint is extensible to diagnostics, biology, and other\ntrust-critical domains. All models, prompts, results, and system components\nincluding the complete software source code are openly released to support\nreproducibility, transparency, and community benchmarking at Github:\nhttps://github.com/Applied-AI-Research-Lab/Orchestrator-Agent-Trust",
+            "upvotes": 1,
+            "discussionId": "6877b027ff8f47a7f8644318",
+            "projectPage": "https://github.com/Applied-AI-Research-Lab/Orchestrator-Agent-Trust",
+            "ai_summary": "A modular Agentic AI framework integrates multimodal agents with a reasoning orchestrator and RAG module to improve trust and accuracy in zero-shot visual classification tasks like apple leaf disease diagnosis.",
+            "ai_keywords": [
+                "multi-agent architectures",
+                "visual classification",
+                "zero-shot settings",
+                "generalist multimodal agents",
+                "non-visual reasoning orchestrator",
+                "Retrieval-Augmented Generation (RAG)",
+                "confidence-based orchestration",
+                "trust-calibrated orchestration",
+                "CLIP-based image retrieval",
+                "confidence calibration metrics (ECE",
+                "OCR",
+                "CCC)",
+                "trust-aware orchestration",
+                "image-RAG",
+                "iterative re-evaluation",
+                "perception",
+                "meta-reasoning",
+                "scalable multi-agent AI"
+            ]
+        },
+        "publishedAt": "2025-07-09T12:39:29.000Z",
+        "title": "Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification\n  System with Trust-Aware Orchestration and RAG-Based Reasoning",
+        "summary": "Modern Artificial Intelligence (AI) increasingly relies on multi-agent\narchitectures that blend visual and language understanding. Yet, a pressing\nchallenge remains: How can we trust these agents especially in zero-shot\nsettings with no fine-tuning? We introduce a novel modular Agentic AI visual\nclassification framework that integrates generalist multimodal agents with a\nnon-visual reasoning orchestrator and a Retrieval-Augmented Generation (RAG)\nmodule. Applied to apple leaf disease diagnosis, we benchmark three\nconfigurations: (I) zero-shot with confidence-based orchestration, (II)\nfine-tuned agents with improved performance, and (III) trust-calibrated\norchestration enhanced by CLIP-based image retrieval and re-evaluation loops.\nUsing confidence calibration metrics (ECE, OCR, CCC), the orchestrator\nmodulates trust across agents. Our results demonstrate a 77.94\\% accuracy\nimprovement in the zero-shot setting using trust-aware orchestration and RAG,\nachieving 85.63\\% overall. GPT-4o showed better calibration, while Qwen-2.5-VL\ndisplayed overconfidence. Furthermore, image-RAG grounded predictions with\nvisually similar cases, enabling correction of agent overconfidence via\niterative re-evaluation. The proposed system separates perception (vision\nagents) from meta-reasoning (orchestrator), enabling scalable and interpretable\nmulti-agent AI. This blueprint is extensible to diagnostics, biology, and other\ntrust-critical domains. All models, prompts, results, and system components\nincluding the complete software source code are openly released to support\nreproducibility, transparency, and community benchmarking at Github:\nhttps://github.com/Applied-AI-Research-Lab/Orchestrator-Agent-Trust",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/MyondAL_DIafKlhKCOUto.png",
+            "https://cdn-uploads.huggingface.co/production/uploads/67ddd80896ac367438d400a6/18WwgWN7zIUZNkkyv6oWH.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.10571.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "67ddd80896ac367438d400a6",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C1NY6Nv5i0erwLnzCrTUM.png",
+            "fullname": "Ranjan Sapkota",
+            "name": "RanjanSapkota",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2507.09082",
+            "authors": [
+                {
+                    "_id": "687829c0001546c83aa4f91b",
+                    "name": "Seungwoo Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f91c",
+                    "name": "Khai Loong Aw",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f91d",
+                    "name": "Klemen Kotar",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f91e",
+                    "name": "Cristobal Eyzaguirre",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f91f",
+                    "name": "Wanhee Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f920",
+                    "name": "Yunong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f921",
+                    "name": "Jared Watrous",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f922",
+                    "name": "Stefan Stojanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f923",
+                    "name": "Juan Carlos Niebles",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f924",
+                    "name": "Jiajun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687829c0001546c83aa4f925",
+                    "name": "Daniel L. K. Yamins",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-11T23:59:38.000Z",
+            "submittedOnDailyAt": "2025-07-16T21:26:52.463Z",
+            "title": "Taming generative video models for zero-shot optical flow extraction",
+            "submittedOnDailyBy": {
+                "_id": "6876bd84da0a8020fe37880b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/E3nTXyneLmVlOqFDyRkin.png",
+                "isPro": false,
+                "fullname": "Seungwoo (Simon) Kim",
+                "user": "SeKim12",
+                "type": "user"
+            },
+            "summary": "Extracting optical flow from videos remains a core computer vision problem.\nMotivated by the success of large general-purpose models, we ask whether frozen\nself-supervised video models trained only for future frame prediction can be\nprompted, without fine-tuning, to output flow. Prior work reading out depth or\nillumination from video generators required fine-tuning, which is impractical\nfor flow where labels are scarce and synthetic datasets suffer from a\nsim-to-real gap. Inspired by the Counterfactual World Model (CWM) paradigm,\nwhich can obtain point-wise correspondences by injecting a small tracer\nperturbation into a next-frame predictor and tracking its propagation, we\nextend this idea to generative video models. We explore several popular\narchitectures and find that successful zero-shot flow extraction in this manner\nis aided by three model properties: (1) distributional prediction of future\nframes (avoiding blurry or noisy outputs); (2) factorized latents that treat\neach spatio-temporal patch independently; and (3) random-access decoding that\ncan condition on any subset of future pixels. These properties are uniquely\npresent in the recent Local Random Access Sequence (LRAS) architecture.\nBuilding on LRAS, we propose KL-tracing: a novel test-time procedure that\ninjects a localized perturbation into the first frame, rolls out the model one\nstep, and computes the Kullback-Leibler divergence between perturbed and\nunperturbed predictive distributions. Without any flow-specific fine-tuning,\nour method outperforms state-of-the-art models on real-world TAP-Vid DAVIS\ndataset (16.6% relative improvement for endpoint error) and synthetic TAP-Vid\nKubric (4.7% relative improvement). Our results indicate that counterfactual\nprompting of controllable generative video models is a scalable and effective\nalternative to supervised or photometric-loss approaches for high-quality flow.",
+            "upvotes": 0,
+            "discussionId": "687829c0001546c83aa4f926",
+            "projectPage": "https://neuroailab.github.io/projects/kl_tracing/",
+            "githubRepo": "https://github.com/neuroailab/kl_tracing",
+            "ai_summary": "Counterfactual prompting of generative video models, using KL-tracing, extracts optical flow without fine-tuning, outperforming state-of-the-art methods on real and synthetic datasets.",
+            "ai_keywords": [
+                "self-supervised video models",
+                "future frame prediction",
+                "Counterfactual World Model (CWM)",
+                "point-wise correspondences",
+                "tracer perturbation",
+                "generative video models",
+                "distributional prediction",
+                "factorized latents",
+                "random-access decoding",
+                "Local Random Access Sequence (LRAS)",
+                "KL-tracing",
+                "Kullback-Leibler divergence",
+                "optical flow",
+                "TAP-Vid DAVIS",
+                "TAP-Vid Kubric",
+                "endpoint error"
+            ],
+            "githubStars": 2
+        },
+        "publishedAt": "2025-07-11T19:59:38.000Z",
+        "title": "Taming generative video models for zero-shot optical flow extraction",
+        "summary": "Extracting optical flow from videos remains a core computer vision problem.\nMotivated by the success of large general-purpose models, we ask whether frozen\nself-supervised video models trained only for future frame prediction can be\nprompted, without fine-tuning, to output flow. Prior work reading out depth or\nillumination from video generators required fine-tuning, which is impractical\nfor flow where labels are scarce and synthetic datasets suffer from a\nsim-to-real gap. Inspired by the Counterfactual World Model (CWM) paradigm,\nwhich can obtain point-wise correspondences by injecting a small tracer\nperturbation into a next-frame predictor and tracking its propagation, we\nextend this idea to generative video models. We explore several popular\narchitectures and find that successful zero-shot flow extraction in this manner\nis aided by three model properties: (1) distributional prediction of future\nframes (avoiding blurry or noisy outputs); (2) factorized latents that treat\neach spatio-temporal patch independently; and (3) random-access decoding that\ncan condition on any subset of future pixels. These properties are uniquely\npresent in the recent Local Random Access Sequence (LRAS) architecture.\nBuilding on LRAS, we propose KL-tracing: a novel test-time procedure that\ninjects a localized perturbation into the first frame, rolls out the model one\nstep, and computes the Kullback-Leibler divergence between perturbed and\nunperturbed predictive distributions. Without any flow-specific fine-tuning,\nour method outperforms state-of-the-art models on real-world TAP-Vid DAVIS\ndataset (16.6% relative improvement for endpoint error) and synthetic TAP-Vid\nKubric (4.7% relative improvement). Our results indicate that counterfactual\nprompting of controllable generative video models is a scalable and effective\nalternative to supervised or photometric-loss approaches for high-quality flow.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.09082.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6876bd84da0a8020fe37880b",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/E3nTXyneLmVlOqFDyRkin.png",
+            "fullname": "Seungwoo (Simon) Kim",
+            "name": "SeKim12",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2507.04127",
+            "authors": [
+                {
+                    "_id": "68780165ff8f47a7f8644396",
+                    "name": "Costas Mavromatis",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f8644397",
+                    "name": "Soji Adeshina",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f8644398",
+                    "name": "Vassilis N. Ioannidis",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f8644399",
+                    "name": "Zhen Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f864439a",
+                    "name": "Qi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f864439b",
+                    "name": "Ian Robinson",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f864439c",
+                    "name": "Bryan Thompson",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f864439d",
+                    "name": "Huzefa Rangwala",
+                    "hidden": false
+                },
+                {
+                    "_id": "68780165ff8f47a7f864439e",
+                    "name": "George Karypis",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-05T18:47:14.000Z",
+            "submittedOnDailyAt": "2025-07-16T18:22:31.899Z",
+            "title": "BYOKG-RAG: Multi-Strategy Graph Retrieval for Knowledge Graph Question\n  Answering",
+            "submittedOnDailyBy": {
+                "_id": "65d4eb3c3140f03e085e5eac",
+                "avatarUrl": "/avatars/9074d2102a12c47a45f3d213061cd35e.svg",
+                "isPro": false,
+                "fullname": "Costas Mavromatis",
+                "user": "cmavro",
+                "type": "user"
+            },
+            "summary": "Knowledge graph question answering (KGQA) presents significant challenges due\nto the structural and semantic variations across input graphs. Existing works\nrely on Large Language Model (LLM) agents for graph traversal and retrieval; an\napproach that is sensitive to traversal initialization, as it is prone to\nentity linking errors and may not generalize well to custom (\"bring-your-own\")\nKGs. We introduce BYOKG-RAG, a framework that enhances KGQA by synergistically\ncombining LLMs with specialized graph retrieval tools. In BYOKG-RAG, LLMs\ngenerate critical graph artifacts (question entities, candidate answers,\nreasoning paths, and OpenCypher queries), and graph tools link these artifacts\nto the KG and retrieve relevant graph context. The retrieved context enables\nthe LLM to iteratively refine its graph linking and retrieval, before final\nanswer generation. By retrieving context from different graph tools, BYOKG-RAG\noffers a more general and robust solution for QA over custom KGs. Through\nexperiments on five benchmarks spanning diverse KG types, we demonstrate that\nBYOKG-RAG outperforms the second-best graph retrieval method by 4.5% points\nwhile showing better generalization to custom KGs. BYOKG-RAG framework is\nopen-sourced at https://github.com/awslabs/graphrag-toolkit.",
+            "upvotes": 0,
+            "discussionId": "68780166ff8f47a7f864439f",
+            "ai_summary": "BYOKG-RAG combines LLMs with specialized graph retrieval tools to enhance KGQA, improving generalization and performance over custom knowledge graphs.",
+            "ai_keywords": [
+                "Large Language Model (LLM)",
+                "graph traversal",
+                "entity linking",
+                "BYOKG-RAG",
+                "graph retrieval tools",
+                "question entities",
+                "candidate answers",
+                "reasoning paths",
+                "OpenCypher queries",
+                "graph linking",
+                "graph context",
+                "iterative refinement",
+                "custom KGs",
+                "generalization"
+            ]
+        },
+        "publishedAt": "2025-07-05T14:47:14.000Z",
+        "title": "BYOKG-RAG: Multi-Strategy Graph Retrieval for Knowledge Graph Question\n  Answering",
+        "summary": "Knowledge graph question answering (KGQA) presents significant challenges due\nto the structural and semantic variations across input graphs. Existing works\nrely on Large Language Model (LLM) agents for graph traversal and retrieval; an\napproach that is sensitive to traversal initialization, as it is prone to\nentity linking errors and may not generalize well to custom (\"bring-your-own\")\nKGs. We introduce BYOKG-RAG, a framework that enhances KGQA by synergistically\ncombining LLMs with specialized graph retrieval tools. In BYOKG-RAG, LLMs\ngenerate critical graph artifacts (question entities, candidate answers,\nreasoning paths, and OpenCypher queries), and graph tools link these artifacts\nto the KG and retrieve relevant graph context. The retrieved context enables\nthe LLM to iteratively refine its graph linking and retrieval, before final\nanswer generation. By retrieving context from different graph tools, BYOKG-RAG\noffers a more general and robust solution for QA over custom KGs. Through\nexperiments on five benchmarks spanning diverse KG types, we demonstrate that\nBYOKG-RAG outperforms the second-best graph retrieval method by 4.5% points\nwhile showing better generalization to custom KGs. BYOKG-RAG framework is\nopen-sourced at https://github.com/awslabs/graphrag-toolkit.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.04127.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "65d4eb3c3140f03e085e5eac",
+            "avatarUrl": "/avatars/9074d2102a12c47a45f3d213061cd35e.svg",
+            "fullname": "Costas Mavromatis",
+            "name": "cmavro",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    }
+]
