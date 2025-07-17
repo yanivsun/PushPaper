@@ -1,0 +1,80 @@
+[
+    {
+        "名称": "2025 [2507.07104] Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation from Diffusion Models.pdf",
+        "作者": "Tiezheng Zhang, Yitong Li, Yu-cheng Chou, Jieneng Chen, Alan Yuille, Chen Wei, Junfei Xiao",
+        "摘要": "摘要：构建具有强生成能力的最先进视觉-语言模型（VLMs）通常需要在数十亿个高质量图像-文本对上进行训练，并需要数百万GPU小时。本论文介绍了一种视觉-语言-视觉（VLV）自动编码框架，策略性地利用关键的预训练组件：视觉编码器、文本到图像（T2I）扩散模型的解码器，以及一个大型语言模型（LLM）。具体来说，我们通过冻结预训练的T2I扩散解码器来建立信息瓶颈，通过正则化语言表示空间来实现。我们的VLV流水线有效地利用连续嵌入从文本条件扩散模型中提取知识，通过高质量重建展示了全面的语义理解。此外，通过微调预训练的LLM以将中间语言表示解码为详细描述，我们构建了一个与领先模型（如GPT-4o和Gemini 2.0 Flash）可媲美的最先进生成器。我们的方法表现出卓越的成本效益，并显著减少了数据需求；主要通过使用单模态图像进行训练并最大化现有预训练模型（图像编码器、T2I扩散模型和LLM）的实用性，绕过了大量配对图像-文本数据集的需求，将总训练开支控制在1000美元以下。\n\n作者：张铁铮，李译同，周宇铖，陈杰能，Alan Yuille，魏晨，肖俊飞\n\n项目页面：this https URL\n\n论文链接：https://arxiv.org/pdf/2507.07104.pdf\n\n标题：2025 [2507.07104] 视觉-语言-视觉自动编码器：从扩散模型中扩展知识蒸馏",
+        "地址": "https://arxiv.org/pdf/2507.07104.pdf"
+    },
+    {
+        "名称": "2025 [2507.11407] EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and Reasoning Modes.pdf",
+        "作者": "LG AI Research: Kyunghoon Bae, Eunbi Choi, Kibong Choi, Stanley Jungkyu Choi, Yemuk Choi, Kyubeen Han, Seokhee Hong, Junwon Hwang, Taewan Hwang, Joonwon Jang, Hyojin Jeon, Kijeong Jeon, Gerrard Jeongwon Jo, Hyunjik Jo, Jiyeon Jung, Euisoon Kim, Hyosang Kim, Jihoon Kim, Joonkee Kim, Seonghwan Kim, Soyeon Kim, Sunkyoung Kim, Yireun Kim, Yongil Kim, Youchul Kim, Edward Hwayoung Lee, Gwangho Lee, Haeju Lee, Honglak Lee, Jinsik Lee, Kyungmin Lee, Sangha Park, Young Min Paik, Yongmin Park, Youngyong Park, Sanghyun Seo, Sihoon Yang, Heuiyeen Yeen, Sihyuk Yi, Hyeongu Yun",
+        "摘要": "摘要：本技术报告介绍了EXAONE 4.0，它整合了无推理模式和推理模式，既实现了EXAONE 3.5的优良可用性，又具备EXAONE Deep的高级推理能力。为了迎接代理人工智能时代，EXAONE 4.0引入了代理工具使用等基本特性，并将其多语言能力扩展至支持西班牙语、英语和韩语。EXAONE 4.0模型系列包含两种型号：性能优化的中型32B模型和为设备应用设计的小型1.2B模型。EXAONE 4.0在同类公开权重模型中表现突出，甚至在面对前沿级模型时也具有竞争力。这些模型公开用于研究目的，可以通过该网址 https 下载。\n\n发布时间：2025年\n作者：LG AI研究：裴京勋、崔恩比、崔基峰、斯坦利·郑圭、崔艺穆、韩奎斌、洪锡熙、黄俊远、黄太完、张俊元、全孝珍、全基政、杰拉德·郑元祖、赵贤直、郑智鼟、金彗烇、金基信、金志贤、金俊基、金成焕、金素妍、金宣庆、金艺伦、金龙一、金裕澈、李华永、李光浩、李慧宙、李弘乐、李镇植、李京民、朴尚夏、白荣敏、朴永民、朴永勇、徐尚铉、杨时勋、殷希贤、李时赫、尹亨玖\n评论：技术报告，30页\n网址：https://arxiv.org/pdf/2507.11407.pdf\n标题：2025 [2507.11407] EXAONE 4.0：整合无推理与推理模式的统一大语言模型",
+        "地址": "https://arxiv.org/pdf/2507.11407.pdf"
+    },
+    {
+        "名称": "2025 [2507.09404] Scaling Laws for Optimal Data Mixtures.pdf",
+        "作者": "Mustafa Shukor, Louis Bethune, Dan Busbridge, David Grangier, Enrico Fini, Alaaeldin El-Nouby, Pierre Ablin",
+        "摘要": "摘要：大型基础模型通常在来自多个领域的数据上进行训练，其中数据混合——每个领域使用的比例——在模型性能中起着关键作用。选择这种混合物的标准方法依赖于反复试验，这对于大规模预训练来说变得不切实际。我们提出了一种系统方法，利用缩放定律为任何目标领域确定最佳数据混合物。我们的方法准确预测了大小为$N$、用$D$个标记训练并具有特定领域权重向量$h$的模型损失。我们通过在三种不同的大规模设置中展示其预测能力来验证这些缩放定律的普遍性：大型语言模型（LLM）、原生多模态模型（NMM）和大型视觉模型（LVM）预训练。我们进一步表明这些缩放定律可以外推到新的数据混合物和跨规模：其参数可以通过少量小规模训练运行准确估计，并用于估计在较大规模和未知领域权重下的性能。缩放定律允许在给定的训练预算（$N$、$D$）下导出任何目标领域的最佳领域权重，为昂贵的反复试验方法提供了一个有原则的替代方案。",
+        "地址": "https://arxiv.org/pdf/2507.09404.pdf"
+    },
+    {
+        "名称": "2025 [2507.10787] Can Multimodal Foundation Models Understand Schematic Diagrams? An Empirical Study on Information-Seeking QA over Scientific Papers.pdf",
+        "作者": "Yilun Zhao, Chengye Wang, Chuhan Li, Arman Cohan",
+        "摘要": "摘要：本文介绍了MISS-QA，这是第一个专门为评估模型在科学文献中解释示意图能力而设计的基准测试。MISS-QA包含了465篇科学论文中的1500个专家注释示例。在这个基准测试中，模型的任务是解释示意图，这些示意图概述了研究，并基于论文的更广泛背景回答相应的信息检索问题。我们评估了包括o4-mini、Gemini-2.5-Flash和Qwen2.5-VL在内的18个前沿多模态基础模型的性能。我们揭示了这些模型与人类专家在MISS-QA上的显著表现差距。我们对无法回答的问题的模型表现和详细错误分析进一步强调了当前模型的优缺点，提供了提升模型理解多模态科学文献的关键见解。",
+        "地址": "https://arxiv.org/pdf/2507.10787.pdf"
+    },
+    {
+        "名称": "2025 [2507.09075] OpenCodeReasoning-II: A Simple Test Time Scaling Approach via Self-Critique.pdf",
+        "作者": "Wasi Uddin Ahmad, Somshubra Majumdar, Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Jocelyn Huang, Siddhartha Jain, Vahid Noroozi, Boris Ginsburg",
+        "摘要": "摘要: 最近在基于推理的大型语言模型（LLMs）方面取得的进展，特别是通过测试时间扩展的潜力，为代码生成和评论中的蒸馏创造了重大机会。然而，这两个领域的进展根本上依赖于大规模、高质量的数据集。在这项工作中，我们引入了OpenCodeReasoning-II数据集，该数据集包含250万的问题-解决方案-评论三元组（大约3.5万个独特的编程问题），使其几乎是先前最大的公开代码推理数据集的两倍。在这项工作中，我们采用了两阶段的监督微调策略。第一阶段侧重于代码生成的微调，而第二阶段则涉及模型联合训练以同时进行代码生成和评论。我们最终微调的Qwen2.5-Instruct模型在代码生成方面的性能超过或等于之前最优的公开权重蒸馏模型。值得注意的是，集成我们的代码生成和评论模型显著提高了竞争性编程性能。此外，我们提出了LiveCodeBench基准的扩展，以特别支持C++编程语言，从而通过该基准促进更全面的LLM评估。\n\n作者: Wasi Uddin Ahmad, Somshubra Majumdar, Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Jocelyn Huang, Siddhartha Jain, Vahid Noroozi, Boris Ginsburg\n\n评论: 工作进行中\n\n链接: https://arxiv.org/pdf/2507.09075.pdf\n\n标题: 2025 [2507.09075] OpenCodeReasoning-II: 一种通过自我评审的简易测试时间扩展方法",
+        "地址": "https://arxiv.org/pdf/2507.09075.pdf"
+    },
+    {
+        "名称": "2025 [2507.08616] AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs.pdf",
+        "作者": "Florian Grötschla, Luis Müller, Jan Tönshoff, Mikhail Galkin, Bryan Perozzi",
+        "摘要": "摘要：大型语言模型（LLMs）在多智能体系统中展示了强大的问题解决能力。然而，这些系统的出现也引发了关于复杂智能体网络能否有效自组织和协作的问题。尽管测量标准推理基准的性能可以表明多智能体系统解决推理任务的能力，但这些系统是否能够有效利用其拓扑结构仍不明确。在此，我们提出了AgentsNet，一种用于多智能体推理的新基准。通过借鉴分布式系统和图论中的经典问题，AgentsNet衡量多智能体系统在给定网络拓扑的情况下，协同制定解决问题、自组织和有效沟通策略的能力。我们在AgentsNet上评估了各种基线方法，包括首先必须就基本组织和通信协议达成一致的同质智能体网络。我们发现，一些前沿的LLMs在小型网络上已经表现出强劲的性能，但一旦网络规模扩大，性能开始下降。现有的多智能体基准最多涵盖2-5个智能体，而AgentsNet在规模上几乎不受限制，可以随着新一代LLMs的出现而扩展。因此，我们还在多达100个智能体的设置中探测了前沿模型。\n\n翻译作者：Florian Grötschla、Luis Müller、Jan Tönshoff、Mikhail Galkin、Bryan Perozzi\n\n评论：预印本\n\n链接：https://arxiv.org/pdf/2507.08616.pdf\n\n标题：2025 [2507.08616] AgentsNet：多智能体LLM中的协调和协作推理",
+        "地址": "https://arxiv.org/pdf/2507.08616.pdf"
+    },
+    {
+        "名称": "2025 [2507.08333] Token-based Audio Inpainting via Discrete Diffusion.pdf",
+        "作者": "Tali Dror, Iftach Shoham, Moshe Buchris, Oren Gal, Haim Permuter, Gilad Katz, Eliya Nachmani",
+        "摘要": "摘要: 音频修复是指重建受损音频记录中缺失的片段。虽然之前的方法，包括基于波形和频谱的扩散模型，在处理短缺口时表现出良好的效果，但当缺口超过100毫秒(ms)时，质量常常会下降。本文提出了一种新颖的音频修复方法，该方法基于离散扩散建模，通过预训练音频分词器生成的音频表示进行操作。我们的方法直接在离散潜在空间中建模生成过程，从而能够稳定且语义一致地重建缺失音频。我们在MusicNet数据集上评估了该方法，使用客观和感知指标对多达300毫秒的缺口进行了测试。我们进一步在MTG数据集上扩展了缺口时长至500毫秒。实验结果表明，与现有基准方法相比，我们的方法在处理较长缺口时表现出竞争力或优越的性能，为恢复降质的音乐记录提供了强有力的解决方案。我们提出方法的音频示例可在此https URL找到。",
+        "地址": "https://arxiv.org/pdf/2507.08333.pdf"
+    },
+    {
+        "名称": "2025 [2507.09411] LLMalMorph: On The Feasibility of Generating Variant Malware using Large-Language-Models.pdf",
+        "作者": "Md Ajwad Akil, Adrian Shuai Li, Imtiaz Karim, Arun Iyengar, Ashish Kundu, Vinny Parla, Elisa Bertino",
+        "摘要": "摘要: 大型语言模型（LLMs）已经改变了软件开发和自动代码生成。受这些进展的推动，本文探讨了LLMs在修改恶意软件源代码以生成变种的可行性。我们介绍了LLMalMorph，一种采用LLMs进行语义和语法代码理解来生成新的恶意软件变种的半自动框架。LLMalMorph从恶意软件源代码中提取函数级信息，并利用定制设计的提示和策略性定义的代码变换，指导LLM生成变种而无需资源密集的微调。为了评估LLMalMorph，我们收集了10种类型，复杂性和功能各异的Windows恶意软件样本，并生成了618种变种。我们的详尽实验表明，可以在一定程度上降低这些恶意软件变种的杀毒引擎检测率，同时保留恶意软件功能。此外，尽管没有针对任何基于机器学习（ML）的恶意软件检测器进行优化，几个变种也成功对抗了一个基于ML的恶意软件分类器。我们还讨论了当前LLM从源代码生成恶意软件变种的能力的局限性，并评估了这一新兴技术在更广泛的恶意软件变种生成背景中的地位。",
+        "地址": "https://arxiv.org/pdf/2507.09411.pdf"
+    },
+    {
+        "名称": "2025 [2507.11336] UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks.pdf",
+        "作者": "Peiran Wu, Yunze Liu, Zhengdong Zhu, Enmin Zhou, Shawn Shen",
+        "摘要": "摘要：现实世界中的用户生成视频，尤其是在像TikTok这样的平台上，经常展示丰富且交织的视听内容。然而，现有的视频字幕基准和模型仍主要以视觉为中心，忽视了音频在传达场景动态、说话者意图和叙事背景方面的重要作用。这种缺乏全面数据集和轻量级、有能力的模型的情况阻碍了细粒度、多模态视频理解的进展。为了解决这些挑战，我们介绍了UGC-VideoCap，这是一种专为详细的用户生成短视频的全面模态字幕而设计的新基准和模型框架。与以前的数据集不同，UGC-VideoCap强调音频和视觉模态的平衡整合，包含了通过一个结构化的三阶段人类在环路流程注释的1000个TikTok视频，涵盖仅音频、仅视觉和联合视听语义。该基准还包括4000对精心制作的QA对，探查单模态和跨模态理解。除了数据集，我们还提出了UGC-VideoCaptioner(3B)，一个从Gemini 2.5 Flash蒸馏而来的3B参数字幕模型。使用一种新颖的两阶段训练策略，先监督微调然后是分组相对策略优化（GRPO），我们的方法在保持竞争性性能的同时实现了从有限数据进行高效适应。总体而言，我们的基准和模型为在不受约束的现实世界用户生成内容环境中推进全面模态视频字幕提供了高质量的基础和数据效率的解决方案。",
+        "地址": "https://arxiv.org/pdf/2507.11336.pdf"
+    },
+    {
+        "名称": "2025 [2507.07186] Planted in Pretraining, Swayed by Finetuning: A Case Study on the Origins of Cognitive Biases in LLMs.pdf",
+        "作者": "Itay Itzhak, Yonatan Belinkov, Gabriel Stanovsky",
+        "摘要": "摘要：大型语言模型（LLMs）表现出认知偏差——与人类相似的系统性非理性决策倾向。之前的研究发现，这些偏差在不同模型间有所不同，并且可以通过指令微调来放大。然而，目前尚不清楚这些偏差的差异是来源于预训练、微调，还是由于训练中的随机性引入的噪声。我们提出了一个两步因果实验方法来解开这些因素。首先，我们使用不同的随机种子多次微调模型，以研究训练随机性如何影响超过30种认知偏差。其次，我们引入交叉微调——在模型之间交换指令数据集以分离偏差来源。这种交换使用了导致不同偏差模式的数据集，直接测试偏差是否依赖于数据集。我们的研究发现，虽然训练随机性引入了一些变化，但偏差主要是由预训练所塑造：具有相同预训练骨干的模型比仅共享微调数据的模型表现出更相似的偏差模式。这些见解表明，理解微调模型中的偏差需要考虑其预训练起源，而不仅仅是微调效应。这一观点可以指导未来制定原则性策略来评估和减少LLMs中的偏差。\n\n作者：Itay Itzhak, Yonatan Belinkov, Gabriel Stanovsky\n评论：CoLM 2025\n链接：https://arxiv.org/pdf/2507.07186.pdf\n标题：2025 [2507.07186] 植入预训练，由微调影响：对LLMs中认知偏差起源的案例研究.pdf",
+        "地址": "https://arxiv.org/pdf/2507.07186.pdf"
+    },
+    {
+        "名称": "2025 [2507.10571] Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification System with Trust-Aware Orchestration and RAG-Based Reasoning.pdf",
+        "作者": "Konstantinos I. Roumeliotis, Ranjan Sapkota, Manoj Karkee, Nikolaos D. Tselikas",
+        "摘要": "摘要：现代人工智能（AI）越来越依赖综合视觉和语言理解的多代理架构。然而，一个紧迫的挑战依然存在：在没有微调的零样本环境中，我们如何信任这些代理人？我们引入了一个新颖的模块化代理人工智能视觉分类框架，该框架集成了通用的多模态代理、非视觉推理协调器和检索增强生成（RAG）模块。应用于苹果叶病诊断，我们对三种配置进行了基准测试：（I）基于信心的协调的零样本，（II）性能改进的微调代理，以及（III）通过基于CLIP的图像检索和重新评估循环增强的信任校准协调器。使用信心校准度量指标（ECE、OCR、CCC），协调器在代理之间调节信任。我们的结果表明，在零样本环境中使用信任感知协调和RAG，准确率提高了77.94%，总体达到85.63%。GPT-4o表现出更好的校准，而Qwen-2.5-VL表现出过度自信。此外，图像-RAG通过视觉上相似的案例使预测更加扎实，允许通过反复重新评估纠正代理的过度自信。拟议系统将感知（视觉代理）与元推理（协调器）分开，支持可扩展和可解释的多代理AI。该蓝图可扩展至诊断、生物学和其他对信任至关重要的领域。所有模型、提示、结果和系统组件，包括完整的软件源代码，均已开放发布，以支持可重复性、透明性和社区基准测试，详见Github。",
+        "地址": "https://arxiv.org/pdf/2507.10571.pdf"
+    },
+    {
+        "名称": "2025 [2507.09082] Taming generative video models for zero-shot optical flow extraction.pdf",
+        "作者": "Seungwoo Kim, Khai Loong Aw, Klemen Kotar, Cristobal Eyzaguirre, Wanhee Lee, Yunong Liu, Jared Watrous, Stefan Stojanov, Juan Carlos Niebles, Jiajun Wu, Daniel L. K. Yamins",
+        "摘要": "摘要：从视频中提取光流依然是计算机视觉的核心问题。受大型通用模型成功的启发，我们提出了一个问题：是否可以在不进行微调的情况下，对仅为预测未来帧而训练的冻结自监督视频模型进行提示，以输出光流。先前的工作从视频生成器中读取深度或照明需要微调，这对于标签稀缺且合成数据集存在模拟与现实差距的光流来说是不切实际的。受到反事实世界模型（CWM）范式的启发，该范式可以通过在下一个帧预测器中注入小的追踪扰动并跟踪其传播来获得逐点对应关系，我们将这一理念扩展到生成视频模型。我们探索了几种流行的架构，发现以下三个模型属性有助于成功提取零样本光流：(1)预测未来帧的分布性（避免模糊或噪声输出）；(2)因子化潜变量独立处理每个时空区域；(3)随机访问解码可以基于任何子集的未来像素进行条件。最近的局部随机访问序列（LRAS）架构独特地具备这些属性。在LRAS的基础上，我们提出了KL追踪：一种新的测试时间程序，它在第一帧中注入局部扰动，滚动模型一步，并计算扰动预测分布与未扰动预测分布之间的Kullback-Leibler散度。在没有任何光流特定微调的情况下，我们的方法在真实世界的TAP-Vid DAVIS数据集上比最新模型表现更好（端点误差相对改进16.6%）以及合成的TAP-Vid Kubric数据集（相对改进4.7%）。我们的结果表明，对可控生成视频模型进行反事实提示是获得高质量光流的可扩展且有效的替代方法，而无需监督或光度损失方法。",
+        "地址": "https://arxiv.org/pdf/2507.09082.pdf"
+    },
+    {
+        "名称": "2025 [2507.04127] BYOKG-RAG: Multi-Strategy Graph Retrieval for Knowledge Graph Question Answering.pdf",
+        "作者": "Costas Mavromatis, Soji Adeshina, Vassilis N. Ioannidis, Zhen Han, Qi Zhu, Ian Robinson, Bryan Thompson, Huzefa Rangwala, George Karypis",
+        "摘要": "摘要：知识图谱问答（KGQA）由于输入图的结构和语义变化而具有显著挑战。现有研究依赖大型语言模型（LLM）代理进行图遍历和检索，这种方法对遍历初始化敏感，容易出现实体链接错误，且在自定义（\"带自己的\"）知识图谱（KGs）中可能无法很好地泛化。我们介绍了BYOKG-RAG，一个通过将LLMs与专门的图检索工具协同结合来增强KGQA的框架。在BYOKG-RAG中，LLMs生成关键图工件（问题实体、候选答案、推理路径和OpenCypher查询），图工具将这些工件链接到KG并检索相关图上下文。检索到的上下文使LLM能迭代优化其图链接和检索，然后生成最终答案。通过从不同图工具检索上下文，BYOKG-RAG提供了一种对自定义KGs更通用和鲁棒的QA解决方案。通过对五个跨越不同KG类型的基准进行实验，我们证明BYOKG-RAG比第二好的图检索方法表现提升了4.5个百分点，同时显示出对自定义KGs的更好泛化能力。BYOKG-RAG框架在此https URL开源。",
+        "地址": "https://arxiv.org/pdf/2507.04127.pdf"
+    }
+]
