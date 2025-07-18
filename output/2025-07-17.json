@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2507.09477] Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs.pdf",
+        "作者": "Yangning Li, Weizhi Zhang, Yuyao Yang, Wei-Chieh Huang, Yaozu Wu, Junyu Luo, Yuanchen Bei, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Chunkit Chan, Yankai Chen, Zhongfen Deng, Yinghui Li, Hai-Tao Zheng, Dongyuan Li, Renhe Jiang, Ming Zhang, Yangqiu Song, Philip S. Yu",
+        "摘要": "摘要：检索增强生成（RAG）通过引入外部知识提高大语言模型（LLM）的真实性，但在需要多步推理的问题上表现不足；相反，纯粹的推理导向方法往往会出现幻觉或错误的事实基础。本综述在统一的推理-检索视角下综合了这两种方法。我们首先绘制高级推理如何优化RAG的每个阶段（推理增强RAG）。然后，我们展示了不同类型的检索知识如何提供缺失的前提并扩展复杂推理的上下文（RAG增强推理）。最后，我们重点介绍了新兴的协同RAG-推理框架，其中（具代理性的）LLM迭代地交替搜索和推理，以实现跨知识密集型基准的最先进性能。我们分类了方法、数据集和开放挑战，并概述了向更有效、多模态自适应、可信和以人为中心的更深层次的RAG-推理系统的研究途径。该集合可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2507.09477.pdf"
+    },
+    {
+        "名称": "2025 [2507.12465] PhysX: Physical-Grounded 3D Asset Generation.pdf",
+        "作者": "Ziang Cao, Zhaoxi Chen, Liang Pan, Ziwei Liu",
+        "摘要": "摘要: 3D建模正在从虚拟走向现实。现有的3D生成主要强调几何形状和纹理，而忽略了基于物理的建模。因此，尽管3D生成模型快速发展，合成的3D资产往往忽视了丰富和重要的物理属性，阻碍了它们在模拟和具身AI等物理领域的实际应用。作为解决这一挑战的初步尝试，我们提出了PhysX，一个用于基于物理的3D资产生成的端到端范式。1）为了弥补物理注释3D数据集的关键差距，我们推出了PhysXNet——首个系统地跨越五个基本维度进行注释的基于物理的3D数据集：绝对尺度、材料、可操作性、运动学和功能描述。特别是，我们设计了一个基于视觉语言模型的可扩展人类参与的注释流水线，使得能够从原始3D资产高效创建物理优先的资产。2）此外，我们提出了PhysXGen，一个用于基于物理的图像到3D资产生成的前馈框架，将物理知识注入预训练的3D结构空间。具体来说，PhysXGen采用了双分支架构，明确地建模了3D结构和物理属性之间的潜在关联，从而在保持原生几何质量的同时，生成具有合理物理预测的3D资产。大量实验验证了我们框架的优越性能和有前途的泛化能力。所有代码、数据和模型将被发布，以促进生成物理AI领域的未来研究。",
+        "地址": "https://arxiv.org/pdf/2507.12465.pdf"
+    },
+    {
+        "名称": "2025 [2507.12415] SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?.pdf",
+        "作者": "Xinyi He, Qian Liu, Mingzhe Du, Lin Yan, Zhijie Fan, Yiming Huang, Zejian Yuan, Zejun Ma",
+        "摘要": "摘要：代码性能优化在现实世界的软件工程中至关重要，对于生产级系统尤为关键。尽管大型语言模型（LLMs）在代码生成和错误修正方面展现了强大的能力，它们在仓库级别提升代码性能方面的能力仍然尚未被广泛探索。为了解决这一空白，我们推出了SWE-Perf，这是首个专门设计用于系统评价LLMs在真实仓库环境中执行代码性能优化任务的基准。SWE-Perf包含140个精心筛选的实例，每个实例均来源于流行的GitHub仓库中性能改进的拉取请求。每个基准实例包括相关代码库、目标函数、性能相关测试、专家撰写的补丁以及可执行环境。通过对代表性方法（如Agentless和OpenHands）的全面评价，我们揭示了现有LLMs与专家级优化性能之间的显著能力差距，强调了这一新兴领域中的关键研究机会。\n\n作者：Xinyi He, Qian Liu, Mingzhe Du, Lin Yan, Zhijie Fan, Yiming Huang, Zejian Yuan, Zejun Ma\n\n链接：https://arxiv.org/pdf/2507.12415.pdf\n\n标题：2025 [2507.12415] SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?.pdf",
+        "地址": "https://arxiv.org/pdf/2507.12415.pdf"
+    },
+    {
+        "名称": "2025 [2507.12463] MMHU: A Massive-Scale Multimodal Benchmark for Human Behavior Understanding.pdf",
+        "作者": "Renjie Li, Ruijie Ye, Mingyang Wu, Hao Frank Yang, Zhiwen Fan, Hezhen Hu, Zhengzhong Tu",
+        "摘要": "摘要：人类是交通生态系统中的重要组成部分，理解他们的行为对于促进安全驾驶系统的发展至关重要。尽管近期的研究已经探讨了人类行为的各个方面——例如运动、轨迹和意图——然而用于评估自动驾驶中人类行为理解的全面基准仍然缺乏。在这项工作中，我们提出了MMHU，这是一个大规模的人类行为分析基准，具有丰富的注释，如人类的运动和轨迹、人类运动的文字描述、人类意图以及与驾驶安全相关的关键行为标签。我们的数据集包含57,000个运动片段和1.73百万帧，来源多样，包括像Waymo这样的已经建立的驾驶数据集、来自YouTube的野外视频以及自我收集的数据。我们开发了一个人类参与的注释流程，以生成丰富的行为描述。我们提供了详尽的数据集分析并基准了多项任务——从运动预测到运动生成以及人类行为问答——从而提供了广泛的评估套件。项目页面：这个https URL。\n\n作者：李仁杰，叶瑞杰，吴明洋，杨浩，范志文，胡赫真，涂正中\n\nURL：https://arxiv.org/pdf/2507.12463.pdf\n\n标题：2025 [2507.12463] MMHU: 大规模多模态人类行为理解基准",
+        "地址": "https://arxiv.org/pdf/2507.12463.pdf"
+    },
+    {
+        "名称": "2025 [2507.11949] MOSPA: Human Motion Generation Driven by Spatial Audio.pdf",
+        "作者": "Shuyang Xu, Zhiyang Dou, Mingyi Shi, Liang Pan, Leo Ho, Jingbo Wang, Yuan Liu, Cheng Lin, Yuexin Ma, Wenping Wang, Taku Komura",
+        "摘要": "摘要: 使虚拟人能够动态且真实地响应不同的听觉刺激仍然是角色动画中的一个关键挑战，这需要结合感知建模和运动合成。尽管这一任务非常重要，但仍然没有得到充分探索。以往的大多数工作主要集中在将语音、音频和音乐等模态映射到生成人体运动。然而，迄今为止，这些模型通常忽略了空间音频信号中编码的空间特征对人体运动的影响。为了弥补这一差距，并实现人类运动对空间音频高质量的建模，我们引入了第一个综合性的空间音频驱动的人类运动（SAM）数据集，其中包含多样且高质量的空间音频和运动数据。为了进行基准测试，我们开发了一个简单但有效的基于扩散的生成框架用于空间音频驱动的人类运动生成，称为MOSPA，通过有效的融合机制忠实地捕捉了身体运动与空间音频之间的关系。经过训练后，MOSPA能够在不同的空间音频输入条件下生成多样的真实人类运动。我们对提出的数据集进行了彻底调查，并进行了广泛的基准测试实验，在这些实验中，我们的方法在该任务上达到了最先进的性能。我们的模型和数据集将在接受后开源。请参考我们的补充视频以获取更多详细信息。",
+        "地址": "https://arxiv.org/pdf/2507.11949.pdf"
+    },
+    {
+        "名称": "2025 [2507.11527] DrafterBench: Benchmarking Large Language Models for Tasks Automation in Civil Engineering.pdf",
+        "作者": "Yinsheng Li, Zhen Dong, Yi Shao",
+        "摘要": "摘要：大型语言模型（LLM）代理在解决现实问题和工业任务自动化方面展现了巨大潜力。然而，需要更多的基准测试来从工业角度系统地评估自动化代理，例如在土木工程中。因此，我们提出了DrafterBench，用于在技术图纸修订的背景下全面评估LLM代理，这是土木工程中的一种代表性任务。DrafterBench包含从实际图纸文件中总结出的十二种任务，共有46个定制功能/工具，总计1920个任务。DrafterBench是一个开源基准，用于严格测试AI代理在解释复杂和长上下文指令、利用先前知识、通过隐式策略意识适应动态指令质量等方面的熟练程度。该工具包全面评估结构化数据理解、功能执行、指令遵循和批判性推理等不同能力。DrafterBench详细分析任务准确性和错误统计，旨在深入了解代理能力并确定将LLM集成到工程应用中的改进目标。我们的基准测试可以通过此HTTPS URL获得，测试集托管在此HTTPS URL。\n\n翻译为中文：大型语言模型（LLM）代理在解决现实问题和工业任务自动化方面展现了巨大潜力。然而，需要更多的基准测试来从工业角度系统地评估自动化代理，例如在土木工程中。因此，我们提出了DrafterBench，用于在技术图纸修订的背景下全面评估LLM代理，这是土木工程中的一种代表性任务。DrafterBench包含从实际图纸文件中总结出的十二种任务，共有46个定制功能/工具，总计1920个任务。DrafterBench是一个开源基准，用于严格测试AI代理在解释复杂和长上下文指令、利用先前知识、通过隐式策略意识适应动态指令质量等方面的熟练程度。该工具包全面评估结构化数据理解、功能执行、指令遵循和批判性推理等不同能力。DrafterBench详细分析任务准确性和错误统计，旨在深入了解代理能力并确定将LLM集成到工程应用中的改进目标。我们的基准测试可以通过此HTTPS URL获得，测试集托管在此HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2507.11527.pdf"
+    },
+    {
+        "名称": "2025 [2507.11412] Seq vs Seq: An Open Suite of Paired Encoders and Decoders.pdf",
+        "作者": "Orion Weller, Kathryn Ricci, Marc Marone, Antoine Chaffin, Dawn Lawrie, Benjamin Van Durme",
+        "摘要": "摘要：大型语言模型（LLM）社区几乎专注于仅解码器语言模型，因为它们更适合文本生成。然而，社区中的一大部分仍然使用仅编码器模型来进行分类或检索等任务。之前的工作尝试比较这些架构，但由于模型参数数量、训练技术和数据集不同而不得不进行比较。我们引入了SOTA开放数据Ettin模型套件：配对的仅编码器和仅解码器模型，参数范围从1700万到10亿，训练数据量达到2万亿个token。对仅编码器和仅解码器模型使用相同配方，使两种类别在各自的尺寸范围内实现SOTA水平，击败了现代BERT作为编码器以及Llama 3.2和SmolLM2作为解码器。与之前的工作类似，我们发现仅编码器模型在分类和检索任务上表现优异，而解码器则在生成任务上表现出色。然而，我们证明，通过持续训练将解码器模型调整到编码器任务（反之亦然）效果不如仅使用逆向目标（例如：一个400M编码器在MNLI上表现优于一个1B解码器，生成任务也是如此）。我们开源了该研究的所有资料，包括训练数据、按检查点划分的训练顺序，以及200多个检查点，以便未来的工作分析或扩展训练的各个方面。",
+        "地址": "https://arxiv.org/pdf/2507.11412.pdf"
+    },
+    {
+        "名称": "2025 [2507.02857] AnyI2V: Animating Any Conditional Image with Motion Control.pdf",
+        "作者": "Ziye Li, Hao Luo, Xincheng Shuai, Henghui Ding",
+        "摘要": "摘要：最近在视频生成领域，特别是扩散模型方面的进展，推动了文本到视频（T2V）和图像到视频（I2V）合成的显著进步。然而，在有效整合动态运动信号和灵活的空间约束方面仍然存在挑战。目前的T2V方法通常依赖于文本提示，但这种方法本质上缺乏对生成内容空间布局的精确控制。相比之下，I2V方法受限于对真实图像的依赖，从而限制了合成内容的可编辑性。尽管一些方法通过引入ControlNet进行基于图像的条件设定，但它们通常缺乏明确的运动控制，并且需要计算量巨大的训练。为了解决这些限制，我们提出了AnyI2V，这是一种无需训练的框架，可以通过用户定义的运动轨迹来动画化任何条件图像。AnyI2V支持更广泛的条件图像模态，包括ControlNet不支持的数据类型，如网格和点云，从而实现更灵活和多样化的视频生成。此外，它支持混合条件输入，并通过LoRA和文本提示实现风格迁移和编辑。大量实验表明，提出的AnyI2V在性能上表现优越，并在空间和运动控制视频生成方面提供了新的视角。代码可在此https网址获得。",
+        "地址": "https://arxiv.org/pdf/2507.02857.pdf"
+    },
+    {
+        "名称": "2025 [2507.09025] Lizard: An Efficient Linearization Framework for Large Language Models.pdf",
+        "作者": "Chien Van Nguyen, Ruiyi Zhang, Hanieh Deilamsalehy, Puneet Mathur, Viet Dac Lai, Haoliang Wang, Jayakumar Subramanian, Ryan A. Rossi, Trung Bui, Nikos Vlassis, Franck Dernoncourt, Thien Huu Nguyen",
+        "摘要": "摘要：我们提出了Lizard，一个线性化框架，可以将预训练的基于Transformer的大型语言模型（LLMs）转化为用于无限上下文生成的灵活且次二次架构。由于softmax注意力的二次复杂性和不断增长的键值（KV）缓存，随着上下文长度的增加，基于Transformer的LLMs面临显著的内存和计算瓶颈。Lizard通过引入一个次二次注意力机制来解决这些限制，这个机制在保留输出质量的同时，近似于softmax注意力。不同于以往受限于固定模型结构从而无法包含门控机制的线性化方法，Lizard结合了受最新线性模型启发的门控模块。这使得自适应内存控制成为可能，支持常量内存推理，提供强大的长度泛化能力，并允许更灵活的模型设计。Lizard将用于全局上下文压缩的门控线性注意力与通过元内存增强的滑动窗口注意力相结合，形成一种混合机制，能够捕捉长距离依赖和细粒度的局部交互。此外，我们引入了一种硬件感知算法，加速了模型的训练速度。大量实验表明，Lizard在标准语言建模任务中几乎无损地恢复了教师模型的性能，同时显著优于以前的线性化方法。在5-shot MMLU基准测试中，Lizard比之前的模型提高了18分，并在联想记忆任务上表现出显著的改进。",
+        "地址": "https://arxiv.org/pdf/2507.09025.pdf"
+    },
+    {
+        "名称": "2025 [2507.12462] SpatialTrackerV2: 3D Point Tracking Made Easy.pdf",
+        "作者": "Yuxi Xiao, Jianyuan Wang, Nan Xue, Nikita Karaev, Yuri Makarov, Bingyi Kang, Xing Zhu, Hujun Bao, Yujun Shen, Xiaowei Zhou",
+        "摘要": "摘要: 我们提出了SpatialTrackerV2，一个用于单目视频的前馈3D点跟踪方法。我们的方法超越了依赖现成组件的模块化管道，通过统一点跟踪、单目深度和相机姿态估计之间的内在联系，构建了一个高性能的前馈3D点跟踪器。它将世界空间的3D运动分解为场景几何、相机自运动和像素级物体运动，采用完全可微分和端到端的架构，使其能够在广泛的数据集，包括合成序列、有姿态的RGB-D视频以及未标注的野外视频上进行可扩展的训练。通过从如此异质的数据中联合学习几何和运动，SpatialTrackerV2在现有3D跟踪方法上提高了30%的性能，并且在运行速度上是领先的动态3D重建方法的50倍。",
+        "地址": "https://arxiv.org/pdf/2507.12462.pdf"
+    },
+    {
+        "名称": "2025 [2507.05065] Replacing thinking with tool usage enables reasoning in small language models.pdf",
+        "作者": "Corrado Rainone, Tim Bakker, Roland Memisevic",
+        "摘要": "摘要：最近的进展已经确立了一种新的机器学习范式，该范式基于在推理时以及训练期间扩展计算能力。在该领域的工作中，结合了在合成示例上进行的监督微调（SFT）和具有可验证奖励的强化学习（RLVR），用于训练大型语言模型使其在推理时以自然语言表达的“思考”方式消耗额外的计算能力。在本文中，我们建议将这些令牌格式化为与有状态工具的多轮交互轨迹。在每轮交互中，工具的新的状态被附加到模型的上下文中，模型的任务是生成必要的令牌，通过定制的 DSL 来控制工具。我们在修复故障 Python 代码的问题上对这种方法进行了基准测试，并且展示了这种受限设置允许更快地采样经验和更密集的奖励信号，甚至使得大小达 30 亿参数的模型能够学会如何在任务上高效地消耗额外的计算能力。\n\n作者：Corrado Rainone, Tim Bakker, Roland Memisevic\n\n备注：23 页，包括附录\n\n链接：https://arxiv.org/pdf/2507.05065.pdf\n\n标题：替代思考工具使用能够在小型语言模型中实现推理",
+        "地址": "https://arxiv.org/pdf/2507.05065.pdf"
+    },
+    {
+        "名称": "2025 [2507.11764] AI Wizards at CheckThat! 2025: Enhancing Transformer-Based Embeddings with Sentiment for Subjectivity Detection in News Articles.pdf",
+        "作者": "Matteo Fasulo, Luca Babboni, Luca Tedeschini",
+        "摘要": "摘要：本文介绍了AI Wizards在CLEF 2025 CheckThat! Lab任务1（新闻文章中的主观性检测）中的参与情况，任务要求在单语、多语和零样本环境中将句子分类为主观或客观。训练/开发数据集涵盖阿拉伯语、德语、英语、意大利语和保加利亚语；最终评估包括额外的未见语言（如希腊语、罗马尼亚语、波兰语、乌克兰语）以评估泛化能力。我们的主要策略是通过将从辅助模型中获得的情感分数与句子表示相结合，增强基于变换器的分类器，以期改进标准微调方法。我们在mDeBERTaV3-base、ModernBERT-base（英语）和Llama3.2-1B中探索了这一情感增强架构。为了解决普遍存在的类不平衡问题，我们在开发集上优化了决策阈值校准。实验结果表明，情感特征的整合显著提升了性能，尤其是主观性F1分数。该框架在排名中表现出色，尤其在希腊语中排名第一（Macro F1 = 0.51）。",
+        "地址": "https://arxiv.org/pdf/2507.11764.pdf"
+    },
+    {
+        "名称": "2025 [2507.07451] RLEP: Reinforcement Learning with Experience Replay for LLM Reasoning.pdf",
+        "作者": "Hongzhi Zhang, Jia Fu, Jingyuan Zhang, Kai Fu, Qi Wang, Fuzheng Zhang, Guorui Zhou",
+        "摘要": "摘要: 强化学习（RL）在大型语言模型上的应用耗费大量能量: 训练可能不稳定，策略可能逐渐偏离预训练权重。我们提出了RLEP，即经验重放强化学习，这是一个两阶段框架，首先收集已验证的轨迹，然后在随后的训练过程中重放它们。在每次更新步骤中，策略在将新生成的rollouts和这些重放的成功案例混合的迷你批次上优化。通过重放高质量的例子，RLEP将模型引导离开无益的探索，集中学习在有前途的推理路径上，实现更快的收敛和更强的最终性能。在Qwen2.5-Math-7B基础模型上，RLEP以大大减少的更新次数达到基准峰值准确率并最终超越它，将AIME-2024的准确率从38.2%提高到39.9%，AIME-2025从19.8%提高到22.3%，AMC-2023从77.0%提高到82.2%。我们的代码、数据集和检查点公开可用，便于重现性和进一步研究。",
+        "地址": "https://arxiv.org/pdf/2507.07451.pdf"
+    },
+    {
+        "名称": "2025 [2507.12367] GitChameleon: Evaluating AI Code Generation Against Python Library Version Incompatibilities.pdf",
+        "作者": "Diganta Misra, Nizar Islah, Victor May, Brice Rauby, Zihan Wang, Justine Gehring, Antonio Orvieto, Muawiz Chaudhary, Eilif B. Muller, Irina Rish, Samira Ebrahimi Kahou, Massimo Caccia",
+        "摘要": "摘要：软件库的快速发展对代码生成提出了相当大的挑战，必须在保持向后兼容性的同时，不断适应频繁的版本更新。现有的代码演化基准虽然提供了宝贵的见解，但通常缺乏基于执行的评估，无法生成符合特定库版本的代码。为了解决这个问题，我们引入了GitChameleon，这是一个新颖且精心策划的数据集，包含328个Python代码补全问题，每个问题都基于特定的库版本，并附有可执行的单元测试。GitChameleon严格评估了当代大型语言模型（LLMs）、LLM驱动的代理、代码助手和检索增强生成（RAG）系统在执行显示功能准确性的版本条件代码生成中的能力。我们的大量评估表明，最先进的系统在此任务中遇到了重大挑战；企业模型的基线成功率在48-51%的范围内，这突显了问题的复杂性。通过提供一个强调代码库动态特性的基于执行的基准，GitChameleon使人们对这一挑战有了更清晰的认识，并有助于开发更具适应性和可靠性的AI代码生成方法。我们公开提供数据集和评估代码，网址为：https://arxiv.org/pdf/2507.12367.pdf。",
+        "地址": "https://arxiv.org/pdf/2507.12367.pdf"
+    },
+    {
+        "名称": "2025 [2507.10015] (Almost) Free Modality Stitching of Foundation Models.pdf",
+        "作者": "Jaisidh Singh, Diganta Misra, Boris Knyazev, Antonio Orvieto",
+        "摘要": "摘要：基础多模态模型通常通过连接多个现有的预训练单模态模型来设计，例如，将图像分类器与文本模型结合。这一连接过程是通过训练一个连接模块来实现的，该模块旨在将这些单模态模型的表示空间对齐以实现多模态目标。然而，鉴于在大规模基于网络的数据集上训练此类连接模块的复杂性，再加上可用的预训练单模态模型数量不断增加，选择单模态模型并随后的连接模块训练任务变得计算量巨大。为了解决这一未充分研究的关键问题，我们提出了超网络模型对齐（Hyma），一种利用超网络的全新一体化解决方案，以实现单模态模型的最佳选择和连接训练。具体来说，我们的框架利用超网络的参数预测能力，获得联合训练的$N \\times M$单模态模型组合的连接模块。在我们的实验中，Hyma将寻找最佳表现的单模态模型对的成本降低了10倍，同时在一系列多样的多模态基准测试中，匹配了通过网格搜索获得的排名和训练后的连接模块性能。\n\n作者：Jaisidh Singh, Diganta Misra, Boris Knyazev, Antonio Orvieto\n\n评论：预印本\n\n链接：https://arxiv.org/pdf/2507.10015.pdf\n\n标题：2025 [2507.10015] (Almost) Free Modality Stitching of Foundation Models.pdf",
+        "地址": "https://arxiv.org/pdf/2507.10015.pdf"
+    },
+    {
+        "名称": "2025 [2507.07015] MST-Distill: Mixture of Specialized Teachers for Cross-Modal Knowledge Distillation.pdf",
+        "作者": "Hui Li, Pengfei Yang, Juanyang Chen, Le Dong, Yanxin Chen, Quan Wang",
+        "摘要": "摘要：知识蒸馏作为一种有效的知识传递技术，在单模态场景中取得了显著成功。然而，在跨模态设置中，传统的蒸馏方法由于数据和统计异质性等问题面临显著挑战，未能充分利用嵌入在跨模态教师模型中的互补先验知识。本文实证揭示了现有方法中的两个关键问题：蒸馏路径选择和知识漂移。为了解决这些限制，我们提出了MST-Distill，一种新颖的跨模态知识蒸馏框架，以专业教师的混合体为特点。我们的方法在跨模态和多模态配置中采用了多样的教师模型集成，并结合了实例级路由网络，促进自适应和动态蒸馏。该架构有效克服了依赖单调和静态教师模型的传统方法的限制。此外，我们引入了一个独立训练的插入式掩码模块，用于抑制特定模态的差异并重构教师表示，从而减轻知识漂移并增强传递效果。在视觉、音频和文本等五个不同多模态数据集上的广泛实验表明，我们的方法在跨模态蒸馏任务中显著优于现有的最先进的知识蒸馏方法。源代码可在此HTTPS URL获取。",
+        "地址": "https://arxiv.org/pdf/2507.07015.pdf"
+    }
+]
