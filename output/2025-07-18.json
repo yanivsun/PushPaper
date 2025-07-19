@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2507.13334] A Survey of Context Engineering for Large Language Models.pdf",
+        "作者": "Lingrui Mei, Jiayu Yao, Yuyao Ge, Yiwei Wang, Baolong Bi, Yujun Cai, Jiazhi Liu, Mingyu Li, Zhong-Zhi Li, Duzhen Zhang, Chenlin Zhou, Jiayi Mao, Tianze Xia, Jiafeng Guo, Shenghua Liu",
+        "摘要": "摘要：大型语言模型（LLM）的性能主要取决于推理过程中提供的上下文信息。本文综述介绍了上下文工程，这是一门超越简单提示设计的正规学科，涵盖了对LLM的信息负载的系统优化。我们提出了一个全面的分类法，将上下文工程分解为其基本组成部分和将它们集成到智能系统中的复杂实现。我们首先研究了基本组成部分：上下文检索和生成、上下文处理和上下文管理。然后探讨了这些组件如何在架构上集成以创建复杂的系统实现：检索增强生成（RAG）、记忆系统和工具集成推理、多代理系统。通过对1300多篇研究论文的系统分析，本综述不仅为该领域建立了技术路线图，还揭示了一个重要的研究空白：模型能力之间存在根本的不对称性。目前的模型虽然经过高级上下文工程增强，在理解复杂上下文方面表现出显著的熟练度，但在生成同样复杂的长篇输出方面却表现出显著的局限性。解决这一差距是未来研究的首要任务。最终，本综述为推动上下文感知AI的研究人员和工程师提供了统一的框架。\n\n作者：美灵睿，姚佳雨，葛玉瑶，王怡伟，毕宝龙，蔡宇军，刘家志，李明玉，李中智，张都正，周晨麟，毛佳怡，夏天泽，郭家锋，刘胜华\n\n评论：评论：正在进行的工作；165页，1401个引用\n\n链接：https://arxiv.org/pdf/2507.13334.pdf\n\n标题：2025 [2507.13334] 大型语言模型的上下文工程综述",
+        "地址": "https://arxiv.org/pdf/2507.13334.pdf"
+    },
+    {
+        "名称": "2025 [2507.13348] VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning.pdf",
+        "作者": "Senqiao Yang, Junyi Li, Xin Lai, Bei Yu, Hengshuang Zhao, Jiaya Jia",
+        "摘要": "摘要：近年来，视觉-语言模型（VLMs）的进步通过增加视觉标记的数量来提高性能，这些视觉标记通常比文本标记长得多。然而，我们观察到，大多数实际场景并不需要如此多的视觉标记。尽管在小部分OCR相关任务中性能显著下降，但模型在大多数其他一般视觉问答（VQA）任务中仅需1/4分辨率就能准确执行。因此，我们提出动态地以不同分辨率处理不同的样本，并提出了一种新的视觉标记压缩范式，称为VisionThink。它从降采样图像开始，智能判断是否足够解决问题。如果不够，模型可以输出一个特殊标记请求更高分辨率的图像。与现有的通过固定剪枝率或阈值压缩标记的高效VLM方法相比，VisionThink能够自主决定是否逐个案例地压缩标记。结果表明，它在OCR相关任务中表现出强大的细粒度视觉理解能力，同时在更简单的任务中节省了大量的视觉标记。我们采用强化学习并提出了LLM-as-Judge策略，成功将强化学习应用于一般VQA任务。此外，我们精心设计了一个奖励函数和惩罚机制，以实现稳定合理的图像重设调用比率。大量实验证明了我们方法的优越性、效率和有效性。我们的代码可以在此URL获得。\n\nURL: https://arxiv.org/pdf/2507.13348.pdf",
+        "地址": "https://arxiv.org/pdf/2507.13348.pdf"
+    },
+    {
+        "名称": "2025 [2507.13347] $π^3$: Scalable Permutation-Equivariant Visual Geometry Learning.pdf",
+        "作者": "Yifan Wang, Jianjun Zhou, Haoyi Zhu, Wenzheng Chang, Yang Zhou, Zizun Li, Junyi Chen, Jiangmiao Pang, Chunhua Shen, Tong He",
+        "摘要": "摘要：本文介绍了$π^3$，一种前馈神经网络，提供了一种新颖的视觉几何重建方法，打破了对传统固定参考视图的依赖。以往的方法通常将重建锚定在指定的视点上，这种归纳偏差如果参考点不理想，可能导致不稳定和失败。相较之下，$π^3$采用完全置换等变架构来预测仿射不变的相机姿态和尺度不变的局部点图，而无需任何参考框架。这种设计使得我们的模型在输入顺序上具有内在的鲁棒性和高度的可扩展性。这些优点使我们的简单且无偏方法在广泛的任务上实现了最先进的性能，包括相机姿态估计、单目/视频深度估计和稠密点图重建。代码和模型已公开。",
+        "地址": "https://arxiv.org/pdf/2507.13347.pdf"
+    },
+    {
+        "名称": "2025 [2507.13332] The Imitation Game: Turing Machine Imitator is Length Generalizable Reasoner.pdf",
+        "作者": "Zhouqi Hua, Wenwei Zhang, Chengqi Lyu, Yuzhe Gu, Songyang Gao, Kuikun Liu, Kai Chen",
+        "摘要": "摘要: 序列长度泛化，即解决比训练中观察到的更长序列的问题的能力，对基于 Transformer 的大型语言模型（LLM）来说是一个核心挑战。尽管现有研究主要集中在针对算术运算和符号操作任务的数据驱动方法上，这些方法往往是任务特定的，总体表现有限。为了寻求更普遍的解决方案，本文侧重于更广泛的可计算推理问题，即算法能够解决的问题，从而可以通过图灵机解决。基于这一视角，本文提出了图灵机模仿学习（TAIL），以提高 LLM 的长度泛化能力。TAIL 通过计算机程序合成模仿图灵机执行过程的思维链数据，将推理步骤线性展开为原子状态，以减轻捷径学习，并采用显式内存获取机制，以减少在基本操作中动态和远程数据访问的困难。为了验证 TAIL 的可靠性和普遍性，我们构建了一个包含8类算法和18个任务的具有挑战性的合成数据集。在不使用任何技巧的前提下，TAIL 仅使用合成数据显著提高了 Qwen2.5-7B 在各种任务上的长度泛化能力和性能，超越了之前的方法和 DeepSeek-R1。实验结果揭示了图灵机中的关键概念对 TAIL 长度泛化是不可或缺的，而不是思维方式，通过这些概念，模型在注意层中表现出与图灵机属性一致的读写行为。这项工作为未来从合成数据中学习 LLM 推理提供了一个有希望的方向。",
+        "地址": "https://arxiv.org/pdf/2507.13332.pdf"
+    },
+    {
+        "名称": "2025 [2507.12841] AnyCap Project: A Unified Framework, Dataset, and Benchmark for Controllable Omni-modal Captioning.pdf",
+        "作者": "Yiming Ren, Zhiqiang Lin, Yu Li, Gao Meng, Weiyun Wang, Junjie Wang, Zicheng Lin, Jifeng Dai, Yujiu Yang, Wenhai Wang, Ruihang Chu",
+        "摘要": "摘要：可控标题生成对精确的多模态对齐和指令遵循至关重要，但现有模型通常缺乏细粒度控制和可靠的评估协议。为了解决这一问题，我们呈现了AnyCap项目，这是一个涵盖模型、数据集和评估的综合解决方案。我们介绍了AnyCapModel(ACM)，一个轻量级即插即用框架，无需重新训练基础模型即可增强现有基础模型对全模态标题生成的可控性。ACM在重用基础模型原始标题的同时，结合用户指令和模态特征生成改进的标题。为了解决可控多模态标题生成中的数据稀缺问题，我们构建了AnyCapDataset(ACD)，涵盖三种模态、28种用户指令类型和30万条高质量数据条目。我们进一步提出了AnyCapEval，一个新的基准，通过解耦内容准确性和风格忠实度提供更可靠的评估指标。ACM显著提高了AnyCapEval上各类基础模型的标题质量。值得注意的是，ACM-8B使GPT-4的内容评分提高了45%和风格评分提高了12%，并在广泛使用的基准如MIA-Bench和VidCapBench上也取得了显著进步。\n\n",
+        "地址": "https://arxiv.org/pdf/2507.12841.pdf"
+    },
+    {
+        "名称": "2025 [2507.13344] Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models.pdf",
+        "作者": "Yudong Jin, Sida Peng, Xuan Wang, Tao Xie, Zhen Xu, Yifan Yang, Yujun Shen, Hujun Bao, Xiaowei Zhou",
+        "摘要": "摘要: 本文针对以稀疏视图视频作为输入的人物高保真视图合成的挑战进行了研究。之前的方法通过利用4D扩散模型在新视点生成视频，解决了观察不足的问题。然而，这些模型生成的视频往往缺乏时空一致性，从而降低了视图合成质量。在本文中，我们提出了一种新的滑动迭代去噪过程，以增强4D扩散模型的时空一致性。具体来说，我们定义了一个潜在网格，每个潜在元件编码了特定视点和时间戳的图像、相机姿态和人体姿态，然后沿空间和时间维度通过滑动窗口交替去噪该潜在网格，最后从相应去噪后的潜在元件中解码目标视点的视频。通过迭代滑动，信息在潜在网格中充分流动，使扩散模型获得大的感受野，从而增强输出的4D一致性，同时使GPU内存消耗在可承受范围内。对DNA-Rendering和ActorsHQ数据集的实验表明，我们的方法能够合成高质量和一致的新的视点视频，并显著优于现有方法。请访问我们的项目页面查看交互式演示和视频结果：this https URL。",
+        "地址": "https://arxiv.org/pdf/2507.13344.pdf"
+    },
+    {
+        "名称": "2025 [2507.12142] RiemannLoRA: A Unified Riemannian Framework for Ambiguity-Free LoRA Optimization.pdf",
+        "作者": "Vladimir Bogachev, Vladimir Aletov, Alexander Molozhavenko, Denis Bobkov, Vera Soboleva, Aibek Alanov, Maxim Rakhuba",
+        "摘要": "摘要: 低阶适应（LoRA）已成为对大型语言模型（LLMs）进行参数高效微调的广泛采用的标准，大大减少了内存和计算需求。然而，仍存在一些挑战，包括找到最佳的初始化策略或缓解低阶矩阵分解中的过度参数化。在这项工作中，我们提出了一种新颖的方法，在一个统一的框架内同时解决了这两个挑战。我们的方法将一组固定阶的LoRA矩阵视为一个光滑流形上的元素。将适配器视为该流形上的元素，既消除了过度参数化，又沿着流形的最快损失下降方向确定了初始化方法。特别注意使用数值线性代数和黎曼优化的最佳实践，来实现我们方法的数值稳定和计算高效。实验结果表明，在LLM和扩散模型架构上，RiemannLoRA始终在收敛速度和最终性能上优于标准LoRA及其最新的改进方法。\n\n作者: Vladimir Bogachev, Vladimir Aletov, Alexander Molozhavenko, Denis Bobkov, Vera Soboleva, Aibek Alanov, Maxim Rakhuba\n\n链接: https://arxiv.org/pdf/2507.12142.pdf\n\n标题: 2025 [2507.12142] RiemannLoRA: 一个无歧义的LoRA优化的统一黎曼框架",
+        "地址": "https://arxiv.org/pdf/2507.12142.pdf"
+    },
+    {
+        "名称": "2025 [2507.12508] MindJourney: Test-Time Scaling with World Models for Spatial Reasoning.pdf",
+        "作者": "Yuncong Yang, Jiageng Liu, Zheyuan Zhang, Siyuan Zhou, Reuben Tan, Jianwei Yang, Yilun Du, Chuang Gan",
+        "摘要": "摘要: 在三维空间中的空间推理是人类认知的核心，并且在导航和操纵等体现任务中不可或缺。然而，最先进的视觉语言模型（VLMs）在诸如预测在自我中心运动后场景如何变化等简单任务上常常表现不佳：它们感知二维图像，但缺乏三维动态的内部模型。因此，我们提出了MindJourney，一个通过视频扩散建立的可控世界模型赋予VLM这种缺失能力的测试时扩展框架。VLM迭代地勾画出简明的相机轨迹，而世界模型在每一步合成相应视图。然后，VLM基于在交互式探索过程中收集的多视图证据进行推理。在没有任何微调的情况下，我们的MindJourney在代表性的空间推理基准SAT上实现了超过8%的平均性能提升，表明将VLM与世界模型配对进行测试时扩展提供了一条简单的即插即用路线，以实现稳健的三维推理。同时，我们的方法也优于通过强化学习训练的测试时推理VLMs，展示了利用世界模型进行测试时扩展的方法的潜力。",
+        "地址": "https://arxiv.org/pdf/2507.12508.pdf"
+    },
+    {
+        "名称": "2025 [2507.13264] Voxtral.pdf",
+        "作者": "Alexander H. Liu, Andy Ehrenberg, Andy Lo, Clément Denoix, Corentin Barreau, Guillaume Lample, Jean-Malo Delignon, Khyathi Raghavi Chandu, Patrick von Platen, Pavankumar Reddy Muddireddy, Sanchit Gandhi, Soham Ghosh, Srijan Mishra, Thomas Foubert, Abhinav Rastogi, Adam Yang, Albert Q. Jiang, Alexandre Sablayrolles, Amélie Héliou, Amélie Martin, Anmol Agarwal, Antoine Roux, Arthur Darcet, Arthur Mensch, Baptiste Bout, Baptiste Rozière, Baudouin De Monicault, Chris Bamford, Christian Wallenwein, Christophe Renaudin, Clémence Lanfranchi, Darius Dabert, Devendra Singh Chaplot, Devon Mizelle, Diego de las Casas, Elliot Chane-Sane, Emilien Fugier, Emma Bou Hanna, Gabrielle Berrada, Gauthier Delerce, Gauthier Guinet, Georgii Novikov, Guillaume Martin, Himanshu Jaju, Jan Ludziejewski, Jason Rute, Jean-Hadrien Chabran, Jessica Chudnovsky, Joachim Studnia, Joep Barmentlo, Jonas Amar, Josselin Somerville Roberts, Julien Denize, Karan Saxena, Karmesh Yadav, Kartik Khandelwal, Kush Jain, Lélio Renard Lavaud, Léonard Blier, Lingxiao Zhao, Louis Martin, Lucile Saulnier, Luyu Gao, Marie Pellat, Mathilde Guillaumin, Mathis Felardos, Matthieu Dinot, Maxime Darrin, Maximilian Augustin, Mickaël Seznec, Neha Gupta, Nikhil Raghuraman, Olivier Duchenne, Patricia Wang, Patryk Saffer, Paul Jacob, Paul Wambergue, Paula Kurylowicz, Philomène Chagniot, Pierre Stock, Pravesh Agrawal, Rémi Delacourt, Romain Sauvestre, Roman Soletskyi, Sagar Vaze, Sandeep Subramanian, Saurabh Garg, Shashwat Dalal, Siddharth Gandhi, Sumukh Aithal, Szymon Antoniak, Teven Le Scao, Thibault Schueller, Thibaut Lavril, Thomas Robert, Thomas Wang, Timothée Lacroix, Tom Bewley, Valeriia Nemychnikova, Victor Paltz\n\n\n        , Virgile Richard, Wen-Ding Li, William Marshall, Xuanyu Zhang, Yihan Wan, Yunhao Tang\n\n\n    et al. (6 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们介绍了Voxtral Mini和Voxtral Small，这是两个多模态音频聊天模型。Voxtral通过训练能够理解口语音频和文本文档，在各种音频基准测试中实现了最先进的性能，同时保持了强大的文本处理能力。Voxtral Small超过了许多闭源模型，同时足够小，可以在本地运行。32K上下文窗口使模型能够处理长达40分钟的音频文件和长时间多轮对话。我们还贡献了三个基准，用于评估知识和琐事上的语音理解模型。两个Voxtral模型均在Apache 2.0许可下发布。",
+        "地址": "https://arxiv.org/pdf/2507.13264.pdf"
+    },
+    {
+        "名称": "2025 [2507.12956] FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers.pdf",
+        "作者": "Qiang Wang, Mengchao Wang, Fan Jiang, Yaqi Fan, Yonggang Qi, Mu Xu",
+        "摘要": "摘要：从静态图像生成富有表现力的面部动画是一项具有挑战性的任务。依赖显式几何先验（如面部标志点或3DMM）的先前方法在跨角色重演中常常出现伪影，并且难以捕捉细微的情感。此外，现有的方法缺乏对多角色动画的支持，因为不同角色的驱动特征经常相互干扰，使任务更加复杂。为了解决这些挑战，我们提出了FantasyPortrait，这是一种基于扩散变压器的框架，能够在单角色和多角色场景中生成高保真且富含情感的动画。我们的方法引入了一种表达增强的学习策略，利用隐式表示来捕捉与身份无关的面部动态，提高模型渲染细微情感的能力。对于多角色控制，我们设计了一种掩蔽交叉注意机制，确保独立而协调的表情生成，有效防止特征干扰。为了推动这一领域的研究，我们提出了Multi-Expr数据集和ExprBench，这些是专门为训练和评估多角色肖像动画设计的数据集和基准。广泛的实验表明，FantasyPortrait在定量指标和定性评估中显著优于最先进的方法，特别是在具有挑战性的跨角色重演和多角色背景下表现突出。",
+        "地址": "https://arxiv.org/pdf/2507.12956.pdf"
+    },
+    {
+        "名称": "2025 [2507.13300] AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research.pdf",
+        "作者": "Yilun Zhao, Weiyuan Chen, Zhijian Xu, Manasi Patwardhan, Yixin Liu, Chengye Wang, Lovekesh Vig, Arman Cohan",
+        "摘要": "摘要：我们介绍了AbGen，这是第一个评估大型语言模型（LLM）在科学研究中设计消融研究能力的基准。AbGen由从807篇NLP论文中提取的1500个专家注释示例组成。在该基准中，要求LLM根据给定的研究背景，为指定的模块或过程生成详细的消融研究设计。我们对DeepSeek-R1-0528和o4-mini等领先LLM的评估表明，这些模型在消融研究设计的重要性、忠实性和合理性方面与人类专家之间存在显著的性能差距。此外，我们展示了当前的自动评估方法对我们的任务不可靠，因为它们与人类评估相比存在显著差异。为了更好地调查这一点，我们开发了AbGen-Eval，这是一个元评估基准，旨在评估常用的自动评估系统在衡量LLM在我们任务上的性能时的可靠性。我们在AbGen-Eval上研究了各种LLM-作为-裁判系统，为未来开发更有效和可靠的基于LLM的复杂科学任务评估系统的研究提供了见解。",
+        "地址": "https://arxiv.org/pdf/2507.13300.pdf"
+    },
+    {
+        "名称": "2025 [2507.12990] Teach Old SAEs New Domain Tricks with Boosting.pdf",
+        "作者": "Nikita Koriagin, Yaroslav Aksenov, Daniil Laptev, Gleb Gerasimov, Nikita Balagansky, Daniil Gavrilov",
+        "摘要": "摘要: 稀疏自编码器（Sparse Autoencoders, SAE）已成为解释大型语言模型内部表征的有力工具，但它们常常无法捕捉训练语料中不常见的特定领域特征。本文介绍了一种区别特征失明的残差学习方法，而无需完全重训练。我们提出训练一个次要SAE，专门用于模拟预训练SAE在特定领域文本上的重建误差，有效捕捉主要模型错过的特征。在推理过程中通过合并两种模型的输出，我们证明了在多个专门领域中LLM交叉熵和解释方差度量上的显著改进。我们的实验表明，此方法能够有效将新的领域知识整合到现有的SAE中，同时保持其在普通任务上的表现。这一方法使研究人员能够选择性增强SAE在特定领域的可解释性，开启了LLM针对性机制可解释性的新可能性。",
+        "地址": "https://arxiv.org/pdf/2507.12990.pdf"
+    },
+    {
+        "名称": "2025 [2507.12720] FLEXITOKENS: Flexible Tokenization for Evolving Language Models.pdf",
+        "作者": "Abraham Toluase Owodunni, Orevaoghene Ahia, Sachin Kumar",
+        "摘要": "摘要：语言模型（LMs）很难通过简单的微调来适应新的数据分布。这是因为它们的子词分词器在适应过程中通常保持不变。这种不灵活性通常导致低效的分词，导致对分布外域、未见过的语言或脚本的过度分片。在这项工作中，我们开发了具有可学习分词器的字节级语言模型，以使分词具有适应性。我们的模型包括一个子模块，学习预测输入字节序列之间的边界，将其编码为可变长度的段。现有的无分词器方法使用强制在整个训练语料库中保持固定压缩率的辅助损失来训练这个边界预测器，引入了一种新的刚性。我们提出了FLEXITOKENS，一种简化的训练目标，在适应过程中显著提高了灵活性。通过多个多语言基准测试、形态不同的任务和领域进行评估，我们证明了FLEXITOKENS始终减少了分词过度分片，并在下游任务表现上相比于子词和其他基于梯度的分词器提高了最多10%的性能。我们的实验代码和数据将发布于此https URL",
+        "地址": "https://arxiv.org/pdf/2507.12720.pdf"
+    },
+    {
+        "名称": "2025 [2507.04984] TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation.pdf",
+        "作者": "Zonglin Lyu, Chen Chen",
+        "摘要": "摘要：视频帧插值（VFI）旨在基于两个连续的相邻帧$I_0$和$I_1$预测中间帧$I_n$（我们使用n来表示视频中的时间，以避免在扩散模型中与时间步$t$的符号重叠）。最近的方法在此任务中应用了扩散模型（包括基于图像和基于视频的模型）并取得了良好的性能。然而，基于图像的扩散模型无法提取时间信息，并且相对于非扩散方法而言效率较低。基于视频的扩散模型可以提取时间信息，但在训练规模、模型大小和推理时间方面过于庞大。为了解决上述问题，我们提出了用于视频帧插值的时间感知潜在布朗桥扩散模型（TLB-VFI），这是一种高效的基于视频的扩散模型。通过我们提出的3D小波门控和时间感知自动编码器从视频输入中提取丰富的时间信息，我们的方法在最具挑战性的数据集上比最近的基于图像的扩散模型在FID上提高了20%。同时，由于存在丰富的时间信息，我们的方法在参数数量减少3倍的情况下仍能实现强大的性能。这种参数减少导致速度提高了2.3倍。通过结合光流引导，我们的方法需要的训练数据减少9000倍，且参数量比基于视频的扩散模型减少超过20倍。代码和结果可在我们的项目页面获取：this https URL.",
+        "地址": "https://arxiv.org/pdf/2507.04984.pdf"
+    },
+    {
+        "名称": "2025 [2507.13255] Automating Steering for Safe Multimodal Large Language Models.pdf",
+        "作者": "Lyucheng Wu, Mengru Wang, Ziwen Xu, Tri Cao, Nay Oo, Bryan Hooi, Shumin Deng",
+        "摘要": "摘要：最近多模态大语言模型（MLLMs）在跨模态推理能力上取得了显著进展，但也提出了新的安全问题，特别是在面对对抗性多模态输入时。为了在推理过程中提高MLLMs的安全性，我们引入了一种模块化和自适应的推理时干预技术，AutoSteer，不需要对基础模型进行任何微调。AutoSteer包含三个核心组件：(1) 一种新颖的安全意识评分（SAS），自动识别模型内部层之间最相关的安全差异；(2) 一个自适应安全探测器，训练用于估计从中间表示推测有害输出的可能性；以及 (3) 一个轻量级拒绝头，在检测到安全风险时选择性地介入调控生成。在LLaVA-OV和Chameleon的多种安全关键基准上的实验表明，AutoSteer显著降低了文本、视觉和跨模态威胁的攻击成功率（ASR），同时保持了整体能力。这些发现表明AutoSteer是多模态AI系统更安全部署的实用、可解释且有效的框架。\n\n翻译：高路诚、王梦茹、徐子文、曹锜、奈欧、侯炳然、邓舒敏\n\n评论：持续工作中。22页（8+页用于主要内容）；25幅图；1个表\n\n网址：https://arxiv.org/pdf/2507.13255.pdf\n\n标题：2025 [2507.13255] 自动操控安全多模态大语言模型",
+        "地址": "https://arxiv.org/pdf/2507.13255.pdf"
+    },
+    {
+        "名称": "2025 [2507.11589] Einstein Fields: A Neural Perspective To Computational General Relativity.pdf",
+        "作者": "Sandeep Suresh Cranganore, Andrei Bodnar, Arturs Berzins, Johannes Brandstetter",
+        "摘要": "摘要: 我们介绍了爱因斯坦场，一种神经表示法，旨在将计算密集的四维数值相对论模拟压缩成紧凑的隐式神经网络权重。通过对广义相对论核心张量场——度规进行建模，爱因斯坦场可以通过自动微分推导物理量。然而，与传统的神经场（例如符号距离场、占用场或辐射场）不同，爱因斯坦场是神经张量场，其主要区别在于当将广义相对论时空几何编码到神经场表示中时，动态自然地作为副产物出现。爱因斯坦场显示出显著的潜力，包括四维时空的连续建模、网格无关性、存储效率、导数精度和易用性。我们在几个广义相对论的标准测试平台上解决了这些挑战，并发布了一个基于JAX的开源库，为数值相对论的更具扩展性和表达性的方法铺平了道路。代码可以在该https网址获得。",
+        "地址": "https://arxiv.org/pdf/2507.11589.pdf"
+    }
+]
