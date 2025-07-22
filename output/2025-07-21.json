@@ -1,0 +1,68 @@
+[
+    {
+        "名称": "2025 [2507.13563] A Data-Centric Framework for Addressing Phonetic and Prosodic Challenges in Russian Speech Generative Models.pdf",
+        "作者": "Kirill Borodin, Nikita Vasiliev, Vasiliy Kudryavtsev, Maxim Maslov, Mikhail Gorodnichev, Oleg Rogov, Grach Mkrtchian",
+        "摘要": "摘要：俄语语音合成面临独特的挑战，包括元音缩减、辅音清化、可变的重音模式、同形异义词歧义和不自然的语调。本文介绍了Balalaika，这是一个包含超过2000小时录音棚质量俄语语音的新数据集，具有包括标点符号和重音标记在内的综合文本注释。实验结果表明，基于Balalaika训练的模型在语音合成和增强任务中显著优于基于现有数据集训练的模型。我们详细介绍了数据集构建流程、注释方法，以及比较评估的结果。",
+        "地址": "https://arxiv.org/pdf/2507.13563.pdf"
+    },
+    {
+        "名称": "2025 [2507.11097] The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs.pdf",
+        "作者": "Zichen Wen, Jiashu Qu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, Xuyang Liu, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang",
+        "摘要": "摘要: 基于扩散的大型语言模型（dLLMs）最近作为自回归LLMs的强大替代方案出现，通过并行解码和双向建模提供更快的推理和更大的交互性。然而，尽管在代码生成和文本填充方面表现强劲，我们发现了一个基本的安全问题：现有的对齐机制无法保护dLLMs免受上下文感知的、遮蔽输入的对抗性提示攻击，从而暴露了新的漏洞。为此，我们提出了DIJA，这是一项系统研究和越狱攻击框架，利用dLLMs独特的安全弱点。具体来说，我们提出的DIJA构建了对抗性交错遮蔽文本提示，利用了dLLMs的文本生成机制，即双向建模和并行解码。双向建模驱使模型生成上下文一致的输出，即使有害，而并行解码限制了模型的动态过滤和不安全内容的拒绝采样。这导致标准对齐机制失效，使得对齐调整过的dLLMs能够完成有害的提示，即使提示中直接暴露了有害行为或不安全指示。通过全面的实验，我们证明了DIJA显著优于现有的越狱方法，揭示了以前被忽视的dLLM架构中的威胁面。值得注意的是，我们的方法在Dream-Instruct上的关键词基础ASR达到100%，在JailbreakBench上评估者基础ASR比最强的先前基线ReNeLLM高78.5%，在StrongREJECT评分中高出37.7分，同时在越狱提示中无需重写或隐藏有害内容。我们的研究结果强调了重新考虑这一新兴类别语言模型的安全对齐的紧迫性。代码可以在此 https URL 获取。",
+        "地址": "https://arxiv.org/pdf/2507.11097.pdf"
+    },
+    {
+        "名称": "2025 [2507.14137] Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning.pdf",
+        "作者": "Shashanka Venkataramanan, Valentinos Pariza, Mohammadreza Salehi, Lukas Knobel, Spyros Gidaris, Elias Ramzi, Andrei Bursuc, Yuki M. Asano",
+        "摘要": "摘要: 我们介绍了Franca（发音为Fran-ka），它是一种完全开源（数据、代码、权重）的视觉基础模型，在许多情况下，其表现与最新的专利模型（如DINOv2、CLIP、SigLIPv2等）相匹配甚至超越。我们的方法基于一个透明的训练管道，该管道受Web-SSL的启发，并使用公开可用的数据：ImageNet-21K和ReLAION-2B的一个子集。除了模型发布之外，我们还解决了SSL聚类方法中的关键限制。虽然现代模型依赖于通过聚类算法如Sinkhorn-Knopp将图像特征分配到大型代码库，但它们未能考虑到聚类语义中的固有模糊性。为了解决这个问题，我们引入了一种基于嵌套的Matryoshka表示的参数高效的多头聚类投影仪。这种设计逐步将特征细化为更细粒度的集群，而不会增加模型体积，从而实现性能和内存效率。此外，我们提出了一种新的位置解缠策略，该策略明确地消除密集表示中的位置偏差，从而改善了语义内容的编码。这在几个下游基准测试中表现出一致的提升，证明了更清洁特征空间的效用。我们的贡献为透明的高性能视觉模型建立了一个新的标准，并为广泛的AI社区开辟了通向更具可复制性和普遍适用的基础模型的道路。代码和模型检查点可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2507.14137.pdf"
+    },
+    {
+        "名称": "2025 [2507.12566] Mono-InternVL-1.5: Towards Cheaper and Faster Monolithic Multimodal Large Language Models.pdf",
+        "作者": "Gen Luo, Wenhan Dou, Wenhao Li, Zhaokai Wang, Xue Yang, Changyao Tian, Hao Li, Weiyun Wang, Wenhai Wang, Xizhou Zhu, Yu Qiao, Jifeng Dai",
+        "摘要": "摘要：本文以集成视觉编码和语言解码的单片多模态大语言模型（MLLMs）为研究对象。现有的单片MLLMs结构和预训练策略常常遭遇不稳定优化和灾难性遗忘。为解决这些问题，我们的核心理念是将一个新的视觉参数空间嵌入预训练的大语言模型中，通过差异调优从噪声数据中稳定地学习视觉知识。基于这一原则，我们首先介绍Mono-InternVL，这是一种先进的单片MLLM，通过多模态专家混合架构集成了一系列视觉专家。此外，我们设计了一种创新的内源视觉预训练（EViP）策略，用以通过渐进学习最大化Mono-InternVL的视觉能力。虽然Mono-InternVL在与现有MLLMs相比表现出竞争力，但也带来了相对昂贵的数据成本。因此，我们进一步推出Mono-InternVL-1.5，这是一种更便宜且更强大的单片MLLM，配备了改进版EViP（EViP++）。EViP++为Mono-InternVL-1.5引入了额外的视觉注意专家，并以高效的方式重新组织了预训练过程。在推理期间，它包括一个融合的CUDA内核以加速其MoE操作。通过这些设计，Mono-InternVL-1.5显著降低了训练和推理成本，同时仍保持与Mono-InternVL相当的竞争性能。为评估我们的方法，我们在15个基准测试上进行了广泛实验。结果表明，Mono-InternVL在15个基准测试中有12个表现优于现有的单片MLLMs，例如，在OCRBench上比Emu3提升了114点分数。与其模块化对应模型InternVL-1.5相比，Mono-InternVL-1.5在保持类似的多模态性能的同时，首次标记延迟最多减少了69%。代码和模型已在此网址发布。",
+        "地址": "https://arxiv.org/pdf/2507.12566.pdf"
+    },
+    {
+        "名称": "2025 [2507.13984] CSD-VAR: Content-Style Decomposition in Visual Autoregressive Models.pdf",
+        "作者": "Quang-Binh Nguyen, Minh Luu, Quang Nguyen, Anh Tran, Khoi Nguyen",
+        "摘要": "摘要：从单幅图像中分离内容和风格（称为内容-风格分解，CSD）可以实现提取内容的重构上下文以及提取风格的风格化，从而在视觉合成中提供更大的创意灵活性。尽管最近的个性化方法已经探索了显式内容风格的分解，但它们仍然针对扩散模型。与此同时，视觉自回归建模（VAR）以一种下一层预测范式出现，成为一种有前途的替代方法，达到了与扩散模型相媲美的性能。在本文中，我们探讨了VAR作为CSD生成框架，利用其分层生成过程来改进分解。为此，我们提出了CSD-VAR，一种新的方法，介绍了三个关键创新：（1）一种尺度感知的交替优化策略，将内容和风格表示与各自的尺度对齐，以增强分离，（2）一种基于SVD的校正方法，以减轻内容泄漏到风格表示中的情况，以及（3）一种增强内容身份保存的增强键值（K-V）存储器。为了对这一任务进行基准测试，我们引入了CSD-100，这是一个专门为内容-风格分解设计的数据集，包含各种艺术风格呈现的不同主题。实验表明，CSD-VAR优于以往的方法，在内容保存和风格化保真度方面取得了卓越的表现。",
+        "地址": "https://arxiv.org/pdf/2507.13984.pdf"
+    },
+    {
+        "名称": "2025 [2507.13158] Inverse Reinforcement Learning Meets Large Language Model Post-Training: Basics, Advances, and Opportunities.pdf",
+        "作者": "Hao Sun, Mihaela van der Schaar",
+        "摘要": "摘要：在大型语言模型（LLMs）时代，模型对齐问题成为追求更可靠、可控和高效机器智能的根本但具有挑战性的问题。最近推理模型和对话人工智能系统的成功，突显了强化学习（RL）在增强这些系统中的关键作用，激发了对RL与LLM对齐交叉研究的兴趣。本文从逆向强化学习（IRL）的角度全面回顾了LLM对齐方面的最新进展，强调LLM对齐中使用的RL技术与传统RL任务中的区别。我们特别强调了从人类数据中构建神经奖励模型的必要性，并讨论了这一范式转变的正式和实际影响。我们首先介绍了RL中的基本概念，为不熟悉该领域的读者提供基础。随后，我们审视了这一研究议程的最新进展，讨论了在进行LLM对齐的IRL中的关键挑战和机遇。除了方法论方面的考虑，我们还探讨了实践方面的问题，包括数据集、基准、评估指标、基础设施以及计算高效的训练和推理技术。最后，我们从稀疏奖励RL的文献中汲取见解，明确未解答的问题和潜在的研究方向。通过整合多项研究的发现，我们旨在提供一个结构化和批判性的综述，突出未解决的挑战，并概述通过RL和IRL技术改进LLM对齐的有前途的未来方向。\n\n作者：Hao Sun, Mihaela van der Schaar\n\n链接：https://arxiv.org/pdf/2507.13158.pdf\n\n标题：逆向强化学习与大型语言模型后训练相遇：基础、进展和机遇（2025 [2507.13158] Inverse Reinforcement Learning Meets Large Language Model Post-Training: Basics, Advances, and Opportunities）",
+        "地址": "https://arxiv.org/pdf/2507.13158.pdf"
+    },
+    {
+        "名称": "2025 [2507.10605] RedOne: Revealing Domain-specific LLM Post-Training in Social Networking Services.pdf",
+        "作者": "Fei Zhao, Chonggang Lu, Yue Wang, Zheyong Xie, Ziyan Liu, Haofu Qian, JianZhao Huang, Fangcheng Shi, Zijie Meng, Hongcheng Guo, Mingqian He, Xinze Lyu, Yiming Lu, Ziyang Xiang, Zheyu Ye, Chengqiang Lu, Zhe Xu, Yi Wu, Yao Hu, Yan Gao, Jun Fan, Xiaolong Jiang, Weiting Liu, Boyang Wang, Shaosheng Cao",
+        "摘要": "摘要：作为现代信息传播的主要媒介，社交网络服务（SNS）经历了快速增长，这对平台内容管理和互动质量提升提出了重大挑战。最近，大型语言模型（LLM）的发展提供了潜在的解决方案，但现有研究集中于孤立任务，这不仅在单一场景的数据扩展中收益递减，还无法灵活适应多样的现实环境。为了解决这些问题，我们引入了RedOne，这是一种领域特定的LLM，旨在突破单任务基线的性能瓶颈，为SNS建立一个全面的基础。RedOne通过三阶段的训练策略开发，包括持续预训练、监督微调和偏好优化，使用大规模的现实数据集。通过大量实验，RedOne保持了强大的通用能力，在8个主要的SNS任务中平均提升了14.02%，在SNS双语评估基准中提升了7.56%，相较于基础模型。此外，通过在线测试，RedOne在有害内容检测中的曝光率降低了11.23%，在帖子查看搜索中的点击页面率提高了14.95%，与单任务微调的基线模型相比。这些结果确立了RedOne作为SNS领域特定LLM的地位，展示了其在各个任务中的优异泛化能力和在实际场景中的广阔应用前景。",
+        "地址": "https://arxiv.org/pdf/2507.10605.pdf"
+    },
+    {
+        "名称": "2025 [2507.12455] Mitigating Object Hallucinations via Sentence-Level Early Intervention.pdf",
+        "作者": "Shangpin Peng, Senqiao Yang, Li Jiang, Zhuotao Tian",
+        "摘要": "摘要：多模态大型语言模型（MLLMs）在跨模态理解方面取得了革命性进展，但仍然难以解决幻觉问题——即与视觉输入相矛盾的虚构内容。现有的幻觉缓解方法要么导致计算成本过高，要么在训练数据和模型输出之间引入分布不匹配。我们发现一个关键的见解：幻觉主要在文本生成的早期阶段出现，并通过后续输出传播。为了解决这一问题，我们提出了**SENTINEL**（句子级早期干预，通过域内偏好学习），一个无需依赖人工注释的框架。具体来说，我们首先通过迭代采样模型输出、利用两个开放词汇检测器进行对象存在性验证，并将句子分类为幻觉/非幻觉类别，来启动高质量的域内偏好对。随后，我们使用上下文一致的正样本和幻觉负样本迭代构建上下文感知偏好数据。最后，我们使用上下文感知偏好损失（C-DPO）进行模型训练，这种损失在幻觉初现的句子级强调辨别学习。实验结果表明，与原始模型相比，SENTINEL可以减少超过90%的幻觉，并且在幻觉基准和一般能力基准上优于之前的最先进方法，展示了其优越性和泛化能力。模型、数据集和代码可从此https网址获取。",
+        "地址": "https://arxiv.org/pdf/2507.12455.pdf"
+    },
+    {
+        "名称": "2025 [2507.14129] OpenBEATs: A Fully Open-Source General-Purpose Audio Encoder.pdf",
+        "作者": "Shikhar Bharadwaj, Samuele Cornell, Kwanghee Choi, Satoru Fukayama, Hye-jin Shim, Soham Deshmukh, Shinji Watanabe",
+        "摘要": "摘要: 掩码标记预测已成为在语言、视觉和语音领域中的强大预训练目标，提供了通过单一预训练任务统一这些不同模态的潜力。然而，其在普通音频理解中的应用仍未被充分探索，目前只有BEATs是一个显著的例子。由于缺乏开源预训练代码，BEATs的修改受到限制。此外，BEATs仅在AudioSet上进行训练，限制了其更广泛的下游适用性。为了解决这些问题，我们提出了OpenBEATs，这是一个通过多领域音频预训练扩展BEATs的开源框架。我们在六种任务类型、二十五个数据集和三个音频领域中进行了全面评估，包括音频推理任务如音频问答、蕴含和字幕生成。OpenBEATs在六个生物声学数据集、两个环境声音数据集和五个推理数据集上实现了最先进的性能，其表现优于参数超过十亿的模型，而参数量仅为其四分之一。这些结果证明了多领域数据集和掩码标记预测任务在学习通用音频表示方面的有效性。为了促进进一步的研究和再现性，我们发布了所有预训练和评估代码、预训练和微调的检查点以及训练日志。\n\n链接: https://arxiv.org/pdf/2507.14129.pdf\n\n作者: Shikhar Bharadwaj, Samuele Cornell, Kwanghee Choi, Satoru Fukayama, Hye-jin Shim, Soham Deshmukh, Shinji Watanabe\n\n标题: 2025 [2507.14129] OpenBEATs: 一个完全开源的通用音频编码器",
+        "地址": "https://arxiv.org/pdf/2507.14129.pdf"
+    },
+    {
+        "名称": "2025 [2507.13302] The Generative Energy Arena (GEA): Incorporating Energy Awareness in Large Language Model (LLM) Human Evaluations.pdf",
+        "作者": "Carlos Arriaga, Gonzalo Martínez, Eneko Sendin, Javier Conde, Pedro Reviriego",
+        "摘要": "摘要：大规模语言模型的评估是一项复杂的任务，已经提出了几种方法。最常见的是使用自动化基准测试，在这些测试中，LLM需要回答不同主题的选择题。然而，这种方法存在一定的局限性，最令人担忧的是与人类评估的相关性较差。另一种方法是让人类评估LLM。这导致了可扩展性问题，因为需要评估的模型数量庞大且不断增加，使得传统的研究，即通过招募评估人员并让他们对模型的回答进行排名，变得不切实际且成本高昂。另一种方法是使用公共竞技场，例如流行的LM竞技场，任何用户都可以自由评估模型的任意问题并对两个模型的回答进行排名。然后将结果整理成模型排名。LLM的一个日益重要的方面是其能耗，因此，评估能耗意识如何影响人们在选择模型时的决策很有兴趣。在本文中，我们介绍了生成能量竞技场（GEA），一个在评估过程中纳入模型能耗信息的竞技场。文中还展示了使用GEA获得的初步结果，显示对于大多数问题，当用户意识到能耗时，他们倾向于选择较小且更节能的模型。这表明对于大多数用户互动，复杂且性能最佳的模型所产生的额外成本和能耗并未带来质量提升，不足以证明它们的使用。\n\n作者：Carlos Arriaga, Gonzalo Martínez, Eneko Sendin, Javier Conde, Pedro Reviriego\n\n链接：https://arxiv.org/pdf/2507.13302.pdf\n\n标题：2025 [2507.13302] 生成能量竞技场（GEA）：在大规模语言模型（LLM）人类评估中纳入能耗意识",
+        "地址": "https://arxiv.org/pdf/2507.13302.pdf"
+    },
+    {
+        "名称": "2025 [2507.13391] Quantitative Risk Management in Volatile Markets with an Expectile-Based Framework for the FTSE Index.pdf",
+        "作者": "Abiodun Finbarrs Oketunji",
+        "摘要": "摘要: 本研究提出了一个在波动市场中进行定量风险管理的方法，特别是应用于FTSE 100指数的期望值方法论。传统的风险衡量标准如风险值（VaR）在市场压力期间表现出显著的局限性，例如在2008年金融危机和随后的一段不稳定时期。该研究开发了一个高级的期望值框架，通过对尾部损失更敏感以及在极端市场条件下更稳定的表现，解决了传统分位数方法的不足。研究使用了涵盖FTSE 100收益两个十年的数据集，包括高度波动、市场崩盘和恢复期。我们的方法引入了期望值回归模型的新数学公式，使用时间序列分析的阈值确定技术，以及稳健的回测程序。实证结果表明，基于期望值的风险值（EVaR）在各种置信水平和市场条件下稳定地优于传统的VaR衡量标准。该框架在波动期表现出优异的性能，降低了模型风险并提高了预测准确性。此外，研究为金融机构建立了实用的实施指南，并提供了基于证据的监管合规和投资组合管理的建议。研究成果对金融风险管理文献作出了重大贡献，并为处理波动市场环境的从业者提供了实用工具。",
+        "地址": "https://arxiv.org/pdf/2507.13391.pdf"
+    }
+]
