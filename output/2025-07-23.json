@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2507.16784] Beyond Context Limits: Subconscious Threads for Long-Horizon Reasoning.pdf",
+        "作者": "Hongyin Luo, Nathaniel Morgan, Tina Li, Derek Zhao, Ai Vy Ngo, Philip Schroeder, Lijie Yang, Assaf Ben-Kish, Jack O'Brien, James Glass",
+        "摘要": "摘要：为了打破限制大语言模型（LLM）的上下文界限，这些界限会影响推理的准确性和效率，我们提出了线程推理模型（Thread Inference Model，TIM），这是一系列用于递归和分解问题解决的LLM，并推出了TIMRUN，一种在上下文限制之外实现长期结构化推理的推理运行时。TIM在TIMRUN上的托管支持几乎无限的工作内存和单次语言模型推理内的多跳工具调用，克服了输出限制、位置嵌入约束以及GPU内存瓶颈。我们的性能是通过将自然语言建模为测量长度和深度的推理树而非线性序列来实现的。推理树由任务、递归子任务以及基于我们在2025年提出的概念的结论组成。在生成过程中，我们维护工作内存，仅保留最相关上下文标记的键值状态，这些标记通过基于规则的子任务修剪机制选择，使得位置嵌入和GPU内存页面在整个推理过程中得以重用。实验结果表明，即使操作多达90%的GPU内存中的KV缓存，我们的系统仍能保持高推理吞吐量。它还在处理需要长期推理和多跳工具使用的信息检索挑战时提供准确的推理。\n\n翻译后的摘要：为了打破限制大语言模型（LLM）的上下文界限，这些界限会影响推理的准确性和效率，我们提出了线程推理模型（Thread Inference Model，TIM），这是一系列用于递归和分解问题解决的LLM，并推出了TIMRUN，一种在上下文限制之外实现长期结构化推理的推理运行时。TIM在TIMRUN上的托管支持几乎无限的工作内存和单次语言模型推理内的多跳工具调用，克服了输出限制、位置嵌入约束以及GPU内存瓶颈。我们的性能是通过将自然语言建模为测量长度和深度的推理树而非线性序列来实现的。推理树由任务、递归子任务以及基于我们在2025年提出的概念的结论组成。在生成过程中，我们维护工作内存，仅保留最相关上下文标记的键值状态，这些标记通过基于规则的子任务修剪机制选择，使得位置嵌入和GPU内存页面在整个推理过程中得以重用。实验结果表明，即使操作多达90%的GPU内存中的KV缓存，我们的系统仍能保持高推理吞吐量。它还在处理需要长期推理和多跳工具使用的信息检索挑战时提供准确的推理。\n",
+        "地址": "https://arxiv.org/pdf/2507.16784.pdf"
+    },
+    {
+        "名称": "2025 [2507.16632] Step-Audio 2 Technical Report.pdf",
+        "作者": "Boyong Wu, Chao Yan, Chen Hu, Cheng Yi, Chengli Feng, Fei Tian, Feiyu Shen, Gang Yu, Haoyang Zhang, Jingbei Li, Mingrui Chen, Peng Liu, Wang You, Xiangyu Tony Zhang, Xingyuan Li, Xuerui Yang, Yayue Deng, Yechang Huang, Yuxin Li, Yuxin Zhang, Zhao You, Brian Li, Changyi Wan, Hanpeng Hu, Jiangjie Zhen, Siyu Chen, Song Yuan, Xuelin Zhang, Yimin Jiang, Yu Zhou, Yuxiang Yang, Bingxin Li, Buyun Ma, Changhe Song, Dongqing Pang, Guoqiang Hu, Haiyang Sun, Kang An, Na Wang, Shuli Gao, Wei Ji, Wen Li, Wen Sun, Xuan Wen, Yong Ren, Yuankai Ma, Yufan Lu, Bin Wang, Bo Li, Changxin Miao, Che Liu, Chen Xu, Dapeng Shi, Dingyuan Hu, Donghang Wu, Enle Liu, Guanzhe Huang, Gulin Yan, Han Zhang, Hao Nie, Haonan Jia, Hongyu Zhou, Jianjian Sun, Jiaoren Wu, Jie Wu, Jie Yang, Jin Yang, Junzhe Lin, Kaixiang Li, Lei Yang, Liying Shi, Li Zhou, Longlong Gu, Ming Li, Mingliang Li, Mingxiao Li, Nan Wu, Qi Han, Qinyuan Tan, Shaoliang Pang, Shengjie Fan, Siqi Liu, Tiancheng Cao, Wanying Lu, Wenqing He, Wuxun Xie, Xu Zhao, Xueqi Li, Yanbo Yu, Yang Yang, Yi Liu, Yifan Lu, Yilei Wang, Yuanhao Ding, Yuanwei Liang, Yuanwei Lu, Yuchu Luo, Yuhe Yin, Yumeng Zhan, Yuxiang Zhang\n\n\n        , Zidong Yang, Zixin Zhang, Binxing Jiao, Daxin Jiang, Heung-Yeung Shum, Jiansheng Chen, Jing Li, Xiangyu Zhang, Yibo Zhu\n\n\n    et al. (9 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：本文介绍了Step-Audio 2，这是一款为工业级音频理解和语音对话设计的端到端多模态大型语言模型。通过集成潜在音频编码器和以推理为中心的强化学习（RL），Step-Audio 2在自动语音识别（ASR）和音频理解方面表现出色。为了实现真正的端到端语音对话，Step-Audio 2将离散音频标记的生成纳入语言建模，显著提高了其对说话风格和情感等副语言信息的响应能力。为了有效利用现实世界数据中的丰富文本和声学知识，Step-Audio 2整合了检索增强生成（RAG），并能够调用诸如网络搜索来减轻幻觉及音频搜索来切换音色等外部工具。在数百万小时的语音和音频数据上进行训练后，Step-Audio 2在各种对话场景中表现出智能和表现力。评估结果表明，Step-Audio 2在各种音频理解和对话基准测试中的表现均优于其他开源和商业解决方案。更多信息请访问此https URL。",
+        "地址": "https://arxiv.org/pdf/2507.16632.pdf"
+    },
+    {
+        "名称": "2025 [2507.16812] MegaScience: Pushing the Frontiers of Post-Training Datasets for Science Reasoning.pdf",
+        "作者": "Run-Ze Fan, Zengzhi Wang, Pengfei Liu",
+        "摘要": "摘要: 科学推理对于培养人工智能科学家和支持人类研究者推进自然科学发现前沿至关重要。然而，开源社区主要关注数学和编码，而忽视了科学领域，主要是由于缺乏开源、大规模、高质量、可验证的科学推理数据集。为填补这一空白，我们首先介绍了TextbookReasoning，一个包含从12,000本大学科学教材中提取的真实参考答案的开源数据集，包括涵盖7个科学学科的650,000个推理问题。我们进一步介绍了MegaScience，一个由系统消融研究开发的高质量开源数据集的大规模混合，总计1.25百万实例，评估了各种数据选择方法，以识别每个公开可用科学数据集的最佳子集。同时，我们构建了一个覆盖15个基准测试中不同主题和问题类型的综合评估系统，包含全面的答案提取策略，以确保准确的评估指标。我们的实验表明，与现有开源科学数据集相比，我们的数据集在性能和训练效率上均表现优越，响应长度更简洁。此外，我们在MegaScience上训练了Llama3.1、Qwen2.5和Qwen3系列基础模型，这些模型在平均性能上显著优于相应的官方指导模型。此外，MegaScience对更大和更强的模型表现出更大的效果，表明科学调优的扩展优势。我们将数据策划流程、评估系统、数据集以及七个训练模型发布给社区，以推进科学推理研究。",
+        "地址": "https://arxiv.org/pdf/2507.16812.pdf"
+    },
+    {
+        "名称": "2025 [2507.08422] Upsample What Matters: Region-Adaptive Latent Sampling for Accelerated Diffusion Transformers.pdf",
+        "作者": "Wongi Jeong, Kyungryeol Lee, Hoigi Seo, Se Young Chun",
+        "摘要": "摘要：扩散变压器作为基于 U-net 的扩散模型在生成高保真图像和视频方面的替代方案，提供了卓越的可扩展性。然而，其繁重的计算仍是实际部署的主要障碍。现有的加速方法主要利用时间维度，例如在扩散时间步骤中重用缓存特征。我们提出区域自适应潜变量上采样 (RALU)，一种沿空间维度加速推理的无训练框架。RALU 在三个阶段执行混合分辨率采样：1) 低分辨率去噪潜变量扩散，以有效捕捉全局语义结构，2) 在特定容易出现全分辨率伪影的区域进行区域自适应上采样，3) 在全分辨率下进行所有潜变量上采样以进行细节优化。为了稳定分辨率转换过程中的生成，我们利用噪声时间步重新调度来适应不同分辨率的噪声水平。我们的方法显著减少了计算量，同时通过在 FLUX 上实现高达 7.0$\\\\times$ 速度提升和在稳定扩散模型 (Stable Diffusion) 3 上实现 3.0$\\\\times$ 速度提升而确保图像质量几乎无损。此外，RALU 与现有的时间加速方法（如缓存方法）互补，因此可以无缝集成以进一步减少推理延迟而不影响生成质量。",
+        "地址": "https://arxiv.org/pdf/2507.08422.pdf"
+    },
+    {
+        "名称": "2025 [2507.16746] Zebra-CoT: A Dataset for Interleaved Vision Language Reasoning.pdf",
+        "作者": "Ang Li, Charles Wang, Kaiyu Yue, Zikui Cai, Ollie Liu, Deqing Fu, Peng Guo, Wang Bill Zhu, Vatsal Sharan, Robin Jia, Willie Neiswanger, Furong Huang, Tom Goldstein, Micah Goldblum",
+        "摘要": "摘要: 人类在解决复杂问题时常常使用视觉辅助工具，例如图表或草图。训练多模态模型做同样的事情，也就是视觉思维链（Visual CoT），面临着挑战：其一，现有的视觉思维链性能较差，阻碍了强化学习；其二，缺乏高质量的视觉思维链训练数据。我们引入了Zebra-CoT，一个多样化的大规模数据集，包含182,384个样本，包含逻辑上连贯的交错文本-图像推理轨迹。我们专注于四类任务，这些任务中绘制或视觉推理尤其自然，涵盖科学问题（如几何、物理和算法）、二维视觉推理任务（如视觉搜索和拼图）、三维推理任务（包括三维多跳推理、具象和机器人规划）、视觉逻辑问题以及战略游戏（如国际象棋）。通过在Zebra-CoT训练语料上微调Anole-7B模型，我们的测试集准确性提高了12%，并在标准VLM基准评估中获得了高达13%的性能提升。在Zebra-CoT上微调Bagel-7B的结果表明，其生成的交错视觉推理链质量很高，突显了Zebra-CoT在开发多模态推理能力中的效用。我们开源了我们的数据集和模型，以支持视觉思维链的发展和评估。",
+        "地址": "https://arxiv.org/pdf/2507.16746.pdf"
+    },
+    {
+        "名称": "2025 [2507.16814] Semi-off-Policy Reinforcement Learning for Vision-Language Slow-thinking Reasoning.pdf",
+        "作者": "Junhao Shen, Haiteng Zhao, Yuzhe Gu, Songyang Gao, Kuikun Liu, Haian Huang, Jianfei Gao, Dahua Lin, Wenwei Zhang, Kai Chen",
+        "摘要": "摘要：增强大规模视觉-语言模型（LVLMs）的视觉慢思考推理能力对于解决复杂的多模态任务至关重要。然而，由于LVLMs主要通过视觉-语言对齐进行训练，因此很难采用在策略强化学习（RL）来发展慢思考能力，因为展开空间受其初始能力的限制。离策略强化学习提供了一种超越当前策略的方法，但直接从外部模型中提取轨迹可能会由于模型之间视觉感知能力不匹配而导致视觉幻觉。为了解决这些问题，本文提出了SOPHIA，这是一种简单且可扩展的半离策略RL，用于视觉-语言慢思考推理。SOPHIA通过结合可训练LVLM的在策略视觉理解与语言模型的离策略慢思考推理来构建半离策略行为模型，对推理分配基于结果的奖励，并向后传播视觉奖励。然后，LVLM利用通过离策略RL算法获得的推理轨迹和传播的奖励学习慢思考推理能力。大量实验使用8B和38B大小的InternVL2.5和InternVL3.0验证了SOPHIA的有效性。特别是，SOPHIA平均改进了InternVL3.0-38B 8.50%，在多个多模态推理基准测试中达到了开源LVLMs的最先进性能，甚至在具有挑战性的MathVision和OlympiadBench上超越了一些闭源模型（例如，GPT-4.1），分别达到49.08%和49.95%的pass@1准确率。分析表明，SOPHIA优于监督微调和直接在策略RL方法，为进一步在策略训练提供了更好的策略初始化。",
+        "地址": "https://arxiv.org/pdf/2507.16814.pdf"
+    },
+    {
+        "名称": "2025 [2507.16815] ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning.pdf",
+        "作者": "Chi-Pin Huang, Yueh-Hua Wu, Min-Hung Chen, Yu-Chiang Frank Wang, Fu-En Yang",
+        "摘要": "摘要:\n视觉-语言-动作（VLA）推理任务要求代理人解释多模态指令，进行长期规划，并在动态环境中适应性地行动。现有方法通常采用端到端方式训练VLA模型，直接将输入映射为动作，而没有明确的推理步骤，这阻碍了模型进行多步规划或适应复杂任务变化的能力。在本文中，我们提出了ThinkAct，这是一种通过强化视觉潜在规划将高级推理与低级动作执行连接起来的双系统框架。ThinkAct训练一种多模态LLM生成具有身体推理的计划，这些计划受基于目标完成和轨迹一致性的行动一致视觉奖励指导。这些推理计划被压缩成视觉计划潜在条件传递给下游动作模型，以在目标环境中进行稳健的动作执行。在广泛的体推理和机器人操作基准测试中，实验结果表明，ThinkAct使复杂的体AI任务中实现了少样本适应、长期规划和自我纠正行为。\n\n摘要翻译为中文：\n视觉-语言-动作（VLA）推理任务要求代理人解释多模态指令，进行长远规划，并在动态环境中适应性地行动。现有方法通常端到端训练VLA模型，直接将输入映射为动作而没有明确推理步骤，这限制了它们在多步规划或适应复杂任务变化中的能力。在本文中，我们提出了ThinkAct，一个通过加强视觉隐性规划将高级推理和低级动作执行联系起来的双系统框架。ThinkAct训练多模态LLM生成体现推理的计划，并通过基于目标完成和轨迹一致的强化行动奖励进行指导。这些推理计划被压缩成视觉计划隐性条件，影响下游的动作模型以在目标环境中进行稳健的动作执行。大量的体推理和机器人操控基准测试实验证明了ThinkAct在复杂体AI任务中实现了少量样本适应、长远规划和自我纠正行为。",
+        "地址": "https://arxiv.org/pdf/2507.16815.pdf"
+    },
+    {
+        "名称": "2025 [2507.16713] Experience is the Best Teacher: Grounding VLMs for Robotics through Self-Generated Memory.pdf",
+        "作者": "Guowei Lan, Kaixian Qu, René Zurbrügg, Changan Chen, Christopher E. Mower, Haitham Bou-Ammar, Marco Hutter",
+        "摘要": "摘要：视觉语言模型（VLMs）已广泛应用于机器人技术，以实现自主规划。然而，将最初在互联网数据上训练的VLMs与多样的现实世界机器人接轨仍然是一个挑战。本文提出ExpTeach，一个通过构建自我生成的现实世界经验记忆来将VLMs接地到物理机器人上的框架。在ExpTeach中，VLM自主规划行动，验证结果，反思失败，并在闭环中调整机器人行为。在这个过程中自我生成的经验被总结到长期记忆中，通过检索增强生成（RAG）来指导未来任务。此外，ExpTeach通过按需图像标注模块增强了VLMs的空间理解。在实验中，我们表明反思将四个具有挑战性的机器人任务的成功率从36%提升到84%，并观察到智能对象交互的出现，包括创造性的工具使用。在12个现实世界场景（包括八个未见过的情景）的大量测试中，我们发现，基于长期记忆的接地将单次试验的成功率从22%提升到80%，证明了ExpTeach的有效性和普适性。",
+        "地址": "https://arxiv.org/pdf/2507.16713.pdf"
+    },
+    {
+        "名称": "2025 [2507.16813] HOComp: Interaction-Aware Human-Object Composition.pdf",
+        "作者": "Dong Liang, Jinyuan Jia, Yuhao Liu, Rynson W.H. Lau",
+        "摘要": "摘要：现有的图像引导合成方法可能有助于将前景对象插入到背景图像中用户指定的区域内，并在保持图像其他部分不变的情况下实现自然过渡。然而，我们观察到，当任务涉及人和物体的互动时，这些现有方法在生成无缝的互动感知合成方面往往表现不佳。在本文中，我们首先提出了HOComp，这是一种将前景对象合成到以人为中心的背景图像上的新方法，同时确保前景对象与背景人物之间的和谐互动及其外观的一致性。我们的方法包括两个关键设计：（1）基于MLLMs驱动的区域姿态引导（MRPG），该方法利用MLLMs识别互动区域和互动类型（例如，持有和提升），为互动生成的姿态提供从粗到细的约束，同时结合人体姿态标记来跟踪动作变化，并实施细粒度姿态约束；（2）细节一致性的外观保留（DCAP），该方法统一了形状感知注意力调控机制、多视图外观损失和背景一致性损失，以确保前景的形状/纹理一致性和背景人物的真实再现。随后，我们提出了第一个用于该任务的数据集，命名为互动感知人-物体合成（IHOC）。在我们的数据集上的实验结果表明，HOComp能够有效生成和谐的人-物体互动且外观一致，并在质量和数量上优于相关方法。\n\n作者：董亮、贾金元、刘宇豪、刘运辰\n\n网址：https://arxiv.org/pdf/2507.16813.pdf\n\n标题：2025 [2507.16813] HOComp: 互动感知人-物体合成",
+        "地址": "https://arxiv.org/pdf/2507.16813.pdf"
+    },
+    {
+        "名称": "2025 [2507.15024] RefCritic: Training Long Chain-of-Thought Critic Models with Refinement Feedback.pdf",
+        "作者": "Qiaoyu Tang, Hao Xiang, Le Yu, Bowen Yu, Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun, Junyang Lin",
+        "摘要": "摘要：随着大型语言模型（LLMs）的快速发展，开发有效的评论模块以提供精确指导变得既关键又具有挑战性。在本文中，我们首先展示了用于构建评论模块的监督微调（这是当前解决方案中广泛采用的方法）未能真正提升模型的评论能力，导致生成的评论肤浅，缺乏足够的反思和验证。为了解锁前所未有的评论能力，我们提出了RefCritic，这是一种基于强化学习的长链思维评论模块，具有双重基于规则的奖励：（1）实例级解决方案判断的正确性和（2）基于评论的策略模型改进准确性，旨在生成高质量的评估，并提供能够有效指导模型改进的可操作反馈。我们在Qwen2.5-14B-Instruct和DeepSeek-R1-Distill-Qwen-14B上对RefCritic进行了五个基准测试。在评论和改进设定中，RefCritic在所有基准测试中表现出一致的优势，例如在AIME25上，分别对基础模型取得了6.8%和7.2%的增益。值得注意的是，在多数投票下，通过RefCritic过滤的策略模型随着投票数量的增加表现出优越的扩展性。此外，尽管接受了解决方案级别的监督训练，RefCritic在ProcessBench基准测试中优于基于步骤级监督的方法，该基准用于识别数学推理中的错误步骤。\n\n—— Qiaoyu Tang, Hao Xiang, Le Yu, Bowen Yu, Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun, Junyang Lin",
+        "地址": "https://arxiv.org/pdf/2507.15024.pdf"
+    },
+    {
+        "名称": "2025 [2507.15245] SPAR: Scholar Paper Retrieval with LLM-based Agents for Enhanced Academic Search.pdf",
+        "作者": "Xiaofeng Shi, Yuduo Li, Qian Kou, Longbin Yu, Jinxin Xie, Hua Zhou",
+        "摘要": "摘要: 最近在大型语言模型（LLMs）的进展为学术文献检索带来了新的机遇。然而，现有系统通常依靠僵化的流程，并表现出有限的推理能力。我们介绍了SPAR，一种多代理框架，包含基于RefChain的查询分解和查询演化，以实现更灵活和有效的搜索。为了促进系统评估，我们还构建了SPARBench，一个具有专家标注相关性标签的挑战性基准。实验结果表明，SPAR显著优于强基线，在AutoScholar上实现了最高+56%的F1表现，在SPARBench上实现了最高+23%的F1表现。SPAR和SPARBench共同为推动学术检索领域的研究提供了一个可扩展、可解释和高性能的基础。代码和数据将可在以下网址获得：this https URL",
+        "地址": "https://arxiv.org/pdf/2507.15245.pdf"
+    },
+    {
+        "名称": "2025 [2507.16782] Task-Specific Zero-shot Quantization-Aware Training for Object Detection.pdf",
+        "作者": "Changhao Li, Xinrui Chen, Ji Wang, Kang Zhao, Jianfei Chen",
+        "摘要": "摘要：量化是通过用较低精度表示网络参数来减少网络规模和计算复杂性的关键技术。传统的量化方法依赖于访问原始训练数据，但由于隐私问题或安全挑战，通常受到限制。零样本量化（ZSQ）通过使用从预训练模型生成的合成数据解决了这一问题，从而消除了对真实训练数据的需求。最近，ZSQ已扩展到目标检测领域。然而，现有方法使用未标注的任务无关合成图像，缺乏目标检测所需的特定信息，导致性能不佳。本文提出了一种新颖的任务特定 ZSQ 框架用于目标检测网络，包括两个主要阶段。首先，我们引入了一种边界框和类别采样策略，从预训练网络中合成任务特定的校准集，在没有任何先验知识的情况下重建目标位置、大小和类别分布。其次，我们将任务特定的训练整合到知识蒸馏过程中，以恢复量化检测网络的性能。在 MS-COCO 和 Pascal VOC 数据集上进行的广泛实验表明，我们的方法效率高且性能达到目前最佳。我们的代码在以下网址公开：this https URL。",
+        "地址": "https://arxiv.org/pdf/2507.16782.pdf"
+    },
+    {
+        "名称": "2025 [2507.13541] PrefPalette: Personalized Preference Modeling with Latent Attributes.pdf",
+        "作者": "Shuyue Stella Li, Melanie Sclar, Hunter Lang, Ansong Ni, Jacqueline He, Puxin Xu, Andrew Cohen, Chan Young Park, Yulia Tsvetkov, Asli Celikyilmaz",
+        "摘要": "摘要： 个性化人工智能系统需要理解用户的偏好，不仅是用户喜欢什么，还包括这些偏好的原因——然而当前的偏好模型通常将人的判断视为一个黑盒。我们引入了PrefPalette，这是一个将偏好分解为属性维度并根据不同社群价值以人类可解释方式定制偏好预测的框架。PrefPalette通过两种方式实现认知科学中称为多属性决策的原则：（1）可扩展的反事实属性合成步骤，涉及生成合成训练数据以隔离单个属性效应（例如，正式程度、幽默感、文化价值观）；（2）基于注意力的偏好建模，了解不同社群如何动态权衡这些属性。这种方法超越了汇总偏好建模，捕捉驱动人类判断的多样化评估框架。在针对在线平台Reddit的45个社群进行评估时，PrefPalette在平均预测准确性上优于GPT-4o 46.6%。除了原始预测改进，PrefPalette还揭示了直观的、特定社区的特征：学术社群优先考虑冗长和刺激，冲突导向的社群重视讽刺和直率，支持型社群强调同理心。通过建模人类判断的属性介导结构，PrefPalette不仅提供了优越的偏好建模和透明、可解释的洞察力，还为更值得信赖的、价值感知的个性化应用迈出了第一步。",
+        "地址": "https://arxiv.org/pdf/2507.13541.pdf"
+    },
+    {
+        "名称": "2025 [2507.15974] Does More Inference-Time Compute Really Help Robustness?.pdf",
+        "作者": "Tong Wu, Chong Xiang, Jiachen T. Wang, Weichen Yu, Chawin Sitawarin, Vikash Sehwag, Prateek Mittal",
+        "摘要": "摘要：最近，Zaremba等人展示了增加推理时间计算可以提高大型专有推理大语言模型（LLMs）的鲁棒性。在本文中，我们首先表明，小规模的开源模型（如DeepSeek R1、Qwen3、Phi-reasoning）也可以通过一种简单的预算强制策略在推理时间扩展中受益。更重要的是，我们揭示并批判性地审查了之前工作中的一个隐含假设：中间推理步骤对对手是隐藏的。通过放松这一假设，我们发现了一个重要的安全风险，这一风险直观地受到动机驱动，并且通过经验验证为逆向扩展法则：如果中间推理步骤变为显式可访问，增加的推理时间计算会持续降低模型鲁棒性。最后，我们讨论了模型在隐藏的推理链下仍然容易受到攻击的实际场景，例如工具集成推理和高级推理提取攻击。我们的研究结果共同表明，推理时间扩展的鲁棒性优势在很大程度上依赖于对抗环境和部署背景。我们敦促从业者在安全敏感的实际应用中应用推理时间扩展前，仔细权衡这些微妙的权衡。",
+        "地址": "https://arxiv.org/pdf/2507.15974.pdf"
+    },
+    {
+        "名称": "2025 [2507.16795] Steering Out-of-Distribution Generalization with Concept Ablation Fine-Tuning.pdf",
+        "作者": "Helena Casademunt, Caden Juang, Adam Karvonen, Samuel Marks, Senthooran Rajamanoharan, Neel Nanda",
+        "摘要": "摘要：针对大型语言模型（LLMs）的微调可能导致意料之外的数据分布泛化问题，标准方法通常依赖于修改训练数据，例如添加更好地指定预期泛化的数据。然而，这并不总是实际可行的。我们介绍了概念消融微调（CAFT）技术，该技术利用可解释性工具来控制LLMs微调后的泛化方式，而不需要修改训练数据或使用目标分布的数据。基于LLM的潜在空间中对应于不希望概念的一组方向，CAFT通过在微调期间使用线性投影消除这些概念，从而引导模型远离意外的泛化。我们成功地将CAFT应用于三个微调任务，包括紧急错位现象，即LLMs在狭窄任务上微调后泛化给出严重偏离的问题回答。在没有任何微调数据变化的情况下，CAFT将错位回答减少了10倍，同时不降低训练分布上的性能。总体而言，CAFT代表了一种无需修改训练数据即可引导LLM泛化的新方法。\n\n作者：Helena Casademunt, Caden Juang, Adam Karvonen, Samuel Marks, Senthooran Rajamanoharan, Neel Nanda\n\n链接：https://arxiv.org/pdf/2507.16795.pdf\n\n标题：2025 [2507.16795] 使用概念消融微调引导分布泛化",
+        "地址": "https://arxiv.org/pdf/2507.16795.pdf"
+    },
+    {
+        "名称": "2025 [2507.15454] ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting.pdf",
+        "作者": "Ruijie Zhu, Mulin Yu, Linning Xu, Lihan Jiang, Yixuan Li, Tianzhu Zhang, Jiangmiao Pang, Bo Dai",
+        "摘要": "摘要：3D高斯散射因其高保真度的重建和实时的新视图合成而闻名，但其缺乏语义理解限制了对象级感知。在这项工作中，我们提出了ObjectGS，一种结合3D场景重建与语义理解的对象感知框架。ObjectGS不是将场景视为统一整体处理，而是将单个对象作为生成神经高斯分布的局部锚点并共享对象ID，从而实现精确的对象级重建。在训练过程中，我们动态增长或修剪这些锚点并优化其特性，同时通过分类损失的一维编码强制明确的语义约束。通过大量实验，我们证明了ObjectGS不仅在开放词汇和全景分割任务上优于最新方法，还能无缝集成到网格提取和场景编辑等应用中。 项目页面：this https URL\n\n",
+        "地址": "https://arxiv.org/pdf/2507.15454.pdf"
+    }
+]
