@@ -1,0 +1,68 @@
+[
+    {
+        "名称": "2025 [2507.16863] Pixels, Patterns, but No Poetry: To See The World like Humans.pdf",
+        "作者": "Hongcheng Gao, Zihao Huang, Lin Xu, Jingyi Tang, Xinhao Li, Yue Liu, Haoyang Li, Taihang Hu, Minhua Lin, Xinlong Yang, Ge Wu, Balong Bi, Hongyu Chen, Wentao Zhang",
+        "摘要": "摘要：在多模态大语言模型（MLLMs）中实现类人感知和推理仍然是人工智能领域的核心挑战。尽管近期的研究主要关注于增强MLLMs的推理能力，但一个基本问题依然存在：多模态大语言模型能像人类一样真正感知世界吗？本文将重点从推理转向感知。我们引入了图灵眼测试（TET），这是一个以感知为导向的基准测试，包含四个诊断任务，用于评估MLLMs在处理人类直观处理的合成图像上的表现。我们的研究发现，现有的最先进的MLLMs在我们的感知任务上表现出了灾难性的失败，而这些任务对人类来说是微不足道的。尽管以往基准测试中有效的上下文学习和语言骨干训练未能在我们的任务中提高表现，但对视觉塔的微调能够快速适应，这表明我们的基准测试对视觉塔的泛化提出了挑战，而不是对语言骨干的知识和推理能力提出了挑战。这是当前MLLMs与人类感知之间的一个重要差距。我们在此版本中发布了TET任务的一个代表性子集，并将在未来工作中引入更多的多样化任务和方法，以增强视觉泛化能力。",
+        "地址": "https://arxiv.org/pdf/2507.16863.pdf"
+    },
+    {
+        "名称": "2025 [2507.17744] Yume: An Interactive World Generation Model.pdf",
+        "作者": "Xiaofeng Mao, Shaoheng Lin, Zhen Li, Chuanhao Li, Wenshuo Peng, Tong He, Jiangmiao Pang, Mingmin Chi, Yu Qiao, Kaipeng Zhang",
+        "摘要": "摘要：Yume旨在利用图像、文本或视频创建一个互动、现实和动态的世界，允许通过外围设备或神经信号进行探索和控制。在本报告中，我们展示了\\\\method的预览版本，它可以从输入图像生成一个动态世界，并允许通过键盘操作探索该世界。为了实现这种高保真和互动的视频世界生成，我们引入了一个精心设计的框架，该框架包括摄像机运动量化、视频生成架构、高级采样器和模型加速等四个主要组件。首先，我们量化摄像机运动，以实现稳定的训练和用户友好型键盘输入互动。然后，我们引入了具有内存模块的遮蔽视频扩散变换器（MVDT），以一种自回归方式进行无限视频生成。接下来，我们对采样器引入了无训练的抗伪影机制（AAM）和基于随机微分方程的时间旅行采样（TTS-SDE），以实现更好的视觉质量和更精确的控制。此外，我们通过对抗蒸馏和缓存机制的协同优化来探讨模型加速。我们使用高质量的世界探索数据集\\\\sekai训练\\\\method，在不同场景和应用中取得了显著效果。所有数据、代码库和模型权重均可在此https URL上获取。Yume将每月更新以实现其原始目标。项目页面：此https URL。",
+        "地址": "https://arxiv.org/pdf/2507.17744.pdf"
+    },
+    {
+        "名称": "2025 [2507.17202] DesignLab: Designing Slides Through Iterative Detection and Correction.pdf",
+        "作者": "Jooyeol Yun, Heng Wang, Yotaro Shimose, Jaegul Choo, Shingo Takamatsu",
+        "摘要": "摘要：由于涉及各种设计选择的复杂性，非专业人士设计高质量演示幻灯片可能会面临挑战。虽然有很多自动化工具可以建议布局和配色方案，但它们往往缺乏改进自身输出的能力，这是实际工作流程中的一个关键方面。我们提出了DesignLab，它将设计过程分为两个角色：设计审查员（负责识别与设计相关的问题）和设计贡献者（负责修正这些问题）。这种分解使审查员能够不断地检测问题，贡献者则进行修正，允许草稿通过每次迭代进一步打磨，达到以前难以企及的品质。我们对大型语言模型进行了微调，以适应这些角色，并通过引入受控扰动模拟中间草稿，使设计审查员学习设计错误，贡献者学习如何修正它们。实验结果表明，DesignLab通过接受设计的迭代本质，超越了现有的设计生成方法，包括一个商业工具，从而创建出打磨精致的专业幻灯片。\n\n作者：Jooyeol Yun, Heng Wang, Yotaro Shimose, Jaegul Choo, Shingo Takamatsu\n\n注释：评论请见此https URL\n\n链接：https://arxiv.org/pdf/2507.17202.pdf\n\n标题：2025 [2507.17202] DesignLab: 通过迭代检测和修正进行幻灯片设计.pdf",
+        "地址": "https://arxiv.org/pdf/2507.17202.pdf"
+    },
+    {
+        "名称": "2025 [2507.17512] Can One Domain Help Others? A Data-Centric Study on Multi-Domain Reasoning via Reinforcement Learning.pdf",
+        "作者": "Yu Li, Zhuoshi Pan, Honglin Lin, Mengyuan Sun, Conghui He, Lijun Wu",
+        "摘要": "摘要:带有验证奖励的强化学习（RLVR）已经成为增强大语言模型（LLM）推理能力的强大范式。现有研究主要集中在单独的推理领域，如数学问题解决、编码任务或逻辑推理。然而，现实世界的推理场景本质上需要多种认知技能的综合应用。尽管如此，强化学习中这些推理技能之间的相互作用仍然理解不足。为了弥补这一差距，我们在RLVR框架内对多领域推理进行了系统研究，明确聚焦于三个主要领域：数学推理、代码生成和逻辑谜题解决。我们的综合研究包括四个关键组件：(1) 利用GRPO算法和Qwen-2.5-7B模型家族，我们的研究彻底评估了这些模型在单领域数据集上训练时的域内改进和跨域泛化能力。(2) 此外，我们还研究了在联合跨域训练过程中出现的复杂交互，包括相互增强和冲突。(3) 为进一步了解SFT对RL的影响，我们还在相同RL配置下分析并比较了基础模型和指令模型的性能差异。(4) 此外，我们还深入探讨了关键的RL训练细节，系统地探索了课程学习策略、奖励设计变体和语言特定因素的影响。通过广泛的实验，我们的结果提供了对域间交互动态的重大见解，揭示了影响专门化和可泛化推理性能的关键因素。这些发现为优化RL方法以培养LLM的综合多领域推理能力提供了宝贵指导。",
+        "地址": "https://arxiv.org/pdf/2507.17512.pdf"
+    },
+    {
+        "名称": "2025 [2507.16725] RAVine: Reality-Aligned Evaluation for Agentic Search.pdf",
+        "作者": "Yilong Xu, Xiang Long, Zhi Zheng, Jinhua Gao",
+        "摘要": "摘要：代理搜索作为一种更为自主和适应性更强的检索增强范式，正在推动智能搜索系统的发展。然而，现有的评估框架未能与代理搜索的目标高度契合。首先，当前基准测试中常用的复杂查询往往偏离了实际用户搜索场景。其次，以往的方法在提取端到端评估的真实数据时往往引入噪音，导致细粒度评估的失真。第三，当前大多数评估框架只关注最终答案的质量，忽视了代理搜索固有的迭代过程的评估。为了解决这些限制，我们提出了RAVine——一个面向代理大语言模型的现实对齐评估框架。RAVine针对多点查询和长篇答案，更好地反映用户意图，并引入了一种可归因的真实数据构建策略，以提高细粒度评估的准确性。此外，RAVine审查了模型在整个迭代过程中与搜索工具的交互，并考虑了效率因素。我们使用RAVine对一系列模型进行了基准测试，并得出了一些见解，希望这些见解能助力代理搜索系统的发展。代码和数据集公开在此链接： https://arxiv.org/pdf/2507.16725.pdf。\n\n翻译：Yilong Xu, Xiang Long, Zhi Zheng, Jinhua Gao",
+        "地址": "https://arxiv.org/pdf/2507.16725.pdf"
+    },
+    {
+        "名称": "2025 [2507.16331] Re:Form -- Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs: A Preliminary Study on Dafny.pdf",
+        "作者": "Chuanhao Yan, Fengdi Che, Xuhan Huang, Xu Xu, Xin Li, Yizhi Li, Xingwei Qu, Jingzhe Shi, Zhuangzhuang He, Chenghua Lin, Yaodong Yang, Binhang Yuan, Hang Zhao, Yu Qiao, Bowen Zhou, Jie Fu",
+        "摘要": "摘要: 现有的基于非正式语言（例如人类语言）的大型语言模型（LLMs），通过强化学习（RL）训练，面临一个显著挑战：它们的验证过程既不可靠也不可扩展。事实上，普遍存在的大型专有模型几乎无法生成可验证的程序。一种有潜力但尚未普及的替代方案是基于正式语言的推理。将LLMs与严格的正式系统对接，使生成模型在正式语言空间（例如Dafny）中运行，能够自动且数学上可证明地验证其推理过程和结果。这种能力对于实现大规模、可靠的正式软件验证至关重要。通常会使用人类注释的思维链和其他人类先验知识来引导LLMs的推理和编码能力。然而，为监督复杂编程任务提供这些先验知识变得难以承受。在这项工作中，我们系统地探讨减少人类先验知识的方法，选用正式语言Dafny作为我们的初步研究环境。我们的流程主要依赖于引入一个自动化且可扩展的数据策划流程，以及与正式语言验证器反馈集成的仔细RL设计。我们介绍了DafnyComp，一个具有自动形式化规格的组合正式程序基准，用于规格推理。我们的监督微调阶段使得即使是小模型（例如0.5B）也能够生成语法有效且可验证的Dafny代码，超越专有模型。通过规则化的RL进一步提高性能，实现对域外任务的更强泛化，并在具有挑战性的DafnyComp基准上优于所有强基线。",
+        "地址": "https://arxiv.org/pdf/2507.16331.pdf"
+    },
+    {
+        "名称": "2025 [2507.17745] Ultra3D: Efficient and High-Fidelity 3D Generation with Part Attention.pdf",
+        "作者": "Yiwen Chen, Zhihao Li, Yikai Wang, Hu Zhang, Qin Li, Chi Zhang, Guosheng Lin",
+        "摘要": "摘要：稀疏体素表示的最新进展显著提高了3D内容生成的质量，使高分辨率建模与细粒度几何成为可能。然而，现有框架由于其两阶段扩散管道中注意力机制的二次复杂性而存在严重的计算低效问题。在这项工作中，我们提出了Ultra3D，一种高效的3D生成框架，在不影响质量的情况下显著加速稀疏体素建模。我们的方法利用紧凑的VecSet表示，在第一阶段高效生成粗糙对象布局，减少token数量并加速体素坐标预测。为了在第二阶段细化每体素潜在特征，我们引入了部分注意力，一种几何感知的局部化注意力机制，将注意力计算限制在语义一致的部分区域内。这一设计在保持结构连续性的同时避免了不必要的全局注意力，实现了潜在生成速度最高提高6.7倍。为了支持这一机制，我们构建了一个可扩展的部分注释管道，将原始网格转换为部分标记的稀疏体素。大量实验表明，Ultra3D支持1024分辨率下的高分辨率3D生成，并在视觉逼真度和用户偏好方面实现了最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2507.17745.pdf"
+    },
+    {
+        "名称": "2025 [2507.11465] Elevating 3D Models: High-Quality Texture and Geometry Refinement from a Low-Quality Model.pdf",
+        "作者": "Nuri Ryu, Jiyun Won, Jooeun Son, Minsu Gong, Joo-Haeng Lee, Sunghyun Cho",
+        "摘要": "摘要：高质量的3D资产对于计算机图形和3D视觉的各种应用至关重要，但由于获取成本高昂，这些资源仍然稀缺。为了应对这一问题，我们引入了Elevate3D，一个将易得的低质量3D资产转换为高质量的新框架。Elevate3D的核心是HFS-SDEdit，这是一种专门的纹理增强方法，可以在保留外观和几何形状的同时显著提高纹理质量，并修复其退化。此外，Elevate3D以逐视图方式操作，在纹理和几何精炼之间交替进行。与以前主要忽略几何精炼的方法不同，我们的框架利用利用最新的单目几何预测器从HFS-SDEdit优化的图像中提取几何线索。该方法确保了精细准确的几何形状，与增强的纹理无缝融合。Elevate3D通过实现最先进的3D模型精炼质量，出色地解决了高质量开源3D资产的稀缺问题，优于近期的竞争对手。\n\n备注：已被SIGGRAPH 2025接受。有关项目页面，请参见此URL。",
+        "地址": "https://arxiv.org/pdf/2507.11465.pdf"
+    },
+    {
+        "名称": "2025 [2507.16880] Finding Dori: Memorization in Text-to-Image Diffusion Models Is Less Local Than Assumed.pdf",
+        "作者": "Antoni Kowalczuk, Dominik Hintersdorf, Lukas Struppek, Kristian Kersting, Adam Dziedzic, Franziska Boenisch",
+        "摘要": "摘要：文本到图像扩散模型（DMs）在图像生成方面取得了显著的成功。然而，由于这些模型可能无意中记住并复制训练数据，数据隐私和知识产权问题仍然存在。最近的缓解努力集中在识别和修剪负责触发复制的权重，基于记忆化可以局部化的假设。我们的研究评估了这些基于修剪的方法的鲁棒性。我们证明，即使在修剪之后，对输入提示的文本嵌入进行微小调整也足以重新触发数据复制，凸显了这些防御措施的脆弱性。此外，我们通过展示在文本嵌入空间中的不同位置都可以触发复制，并且在模型中遵循不同的路径，挑战了记忆化局部性的基本假设。我们的研究结果表明，现有的缓解策略不足，并强调需要真正去除记住的内容，而不是试图抑制其检索。作为朝这个方向迈出的第一步，我们引入了一种新的对抗性微调方法，通过迭代搜索复制触发器并更新模型以增强鲁棒性。通过我们的研究，我们为文本到图像扩散模型中的记忆化本质提供了新见解，并为构建更可信和合规的生成型人工智能奠定了基础。\n\n作者：Antoni Kowalczuk, Dominik Hintersdorf, Lukas Struppek, Kristian Kersting, Adam Dziedzic, Franziska Boenisch",
+        "地址": "https://arxiv.org/pdf/2507.16880.pdf"
+    },
+    {
+        "名称": "2025 [2507.16116] PUSA V1.0: Surpassing Wan-I2V with $500 Training Cost by Vectorized Timestep Adaptation.pdf",
+        "作者": "Yaofang Liu, Yumeng Ren, Aitor Artola, Yuxuan Hu, Xiaodong Cun, Xiaotong Zhao, Alan Zhao, Raymond H. Chan, Suiyun Zhang, Rui Liu, Dandan Tu, Jean-Michel Morel",
+        "摘要": "摘要：视频扩散模型的快速发展受到时间建模基本限制的阻碍，特别是传统标量时间步变量强加的帧演化同步。尽管特定任务的调整和自回归模型试图解决这些问题，但它们仍然受限于计算效率低下、灾难性遗忘或适用范围狭窄。在这项工作中，我们提出了Pusa，这是一种利用向量化时间步适应（VTA）在统一视频扩散框架内实现细粒度时间控制的突破性范式。此外，VTA是一种非破坏性的适应方式，这意味着它完全保留了基础模型的能力。通过使用VTA微调最新的Wan2.1-T2V-14B模型，我们实现了前所未有的效率——以≤1/200的训练成本（$500 对比 $100,000及以上）和≤1/2500的数据集大小（4K 对比 1000万样本及以上）超过了Wan-I2V-14B的性能。Pusa不仅为图像到视频（I2V）生成设定了新标准，实现了VBench-I2V总得分87.32%（对比Wan-I2V-14B的86.86%），还解锁了许多零样本多任务能力，如起始帧和视频扩展——所有这些都无需特定任务培训。同时，Pusa仍然可以执行文本到视频生成。机制分析表明，我们的方法在保留基础模型生成先验的同时，精准地注入了时间动态，避免了向量化时间步固有的组合爆炸。这项工作为下一代视频合成确立了一个可扩展、高效且多才多艺的范式，为研究和工业界大众化高保真视频生成铺平了道路。代码已在此网址开源。\n\n链接：https://arxiv.org/pdf/2507.16116.pdf",
+        "地址": "https://arxiv.org/pdf/2507.16116.pdf"
+    },
+    {
+        "名称": "2025 [2507.14241] Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models.pdf",
+        "作者": "Rithesh Murthy, Ming Zhu, Liangwei Yang, Jielin Qiu, Juntao Tan, Shelby Heinecke, Caiming Xiong, Silvio Savarese, Huan Wang",
+        "摘要": "摘要: 大型语言模型（LLMs）在精心设计的提示下表现最佳，但提示工程仍然是手工的、不一致的，并且对非专家来说难以访问。我们引入了Promptomatix，这是一种自动提示优化框架，可将自然语言任务描述转化为高质量提示，而无需手动调整或领域专业知识。Promptomatix支持基于轻量级元提示优化器和DSPy驱动的编译器，通过模块化设计使未来扩展到更高级的框架成为可能。该系统分析用户意图，生成合成训练数据，选择提示策略，并使用成本感知目标优化提示。在五个任务类别中进行评估，Promptomatix与现有库相比，表现竞争或优越，同时减少提示长度和计算开销，使提示优化具有可扩展性和高效性。",
+        "地址": "https://arxiv.org/pdf/2507.14241.pdf"
+    }
+]
