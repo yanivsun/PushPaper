@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2507.13546] $\\nabla$NABLA: Neighborhood Adaptive Block-Level Attention.pdf",
+        "作者": "Dmitrii Mikhailov, Aleksey Letunovskiy, Maria Kovaleva, Vladimir Arkhipkin, Vladimir Korviakov, Vladimir Polovnikov, Viacheslav Vasilev, Evelina Sidorova, Denis Dimitrov",
+        "摘要": "摘要：最近在基于transformer的架构方面取得的进展在视频生成任务中展示了显著的成功。然而，全注意力机制的二次复杂性仍然是一个关键瓶颈，特别是对于高分辨率和长时长的视频序列。在本文中，我们提出了NABLA，一种新颖的邻域自适应块级注意机制，它能够动态适应视频扩散transformer（DiTs）中的稀疏模式。通过利用具有自适应稀疏驱动阈值的块级注意力，NABLA在保留生成质量的同时减少了计算开销。我们的方法不需要定制的低级操作设计，并且可以无缝集成到PyTorch的Flex Attention操作符中。实验表明，NABLA在几乎不影响定量指标（CLIP评分，VBench评分，人类评估评分）和视觉质量下降的情况下，比基线快达2.7倍的训练和推理速度。代码和模型权重可在此获取：这个https URL\n\n文章标题：2025 [2507.13546] $\\nabla$NABLA: Neighborhood Adaptive Block-Level Attention\n\n作者：Dmitrii Mikhailov, Aleksey Letunovskiy, Maria Kovaleva, Vladimir Arkhipkin, Vladimir Korviakov, Vladimir Polovnikov, Viacheslav Vasilev, Evelina Sidorova, Denis Dimitrov",
+        "地址": "https://arxiv.org/pdf/2507.13546.pdf"
+    },
+    {
+        "名称": "2025 [2507.18071] Group Sequence Policy Optimization.pdf",
+        "作者": "Chujie Zheng, Shixuan Liu, Mingze Li, Xiong-Hui Chen, Bowen Yu, Chang Gao, Kai Dang, Yuqiong Liu, Rui Men, An Yang, Jingren Zhou, Junyang Lin",
+        "摘要": "摘要：本文介绍了一种稳定、高效且性能优异的大型语言模型训练强化学习算法——群组序列策略优化（GSPO）。与之前采用基于 token 重要性比的算法不同，GSPO 基于序列似然性定义重要性比，并执行序列级剪裁、奖励和优化。我们证明了 GSPO 在训练效率和性能方面比 GRPO 算法更为出色，显著稳定了专家混合（MoE）强化学习训练，并且有简化强化学习基础设施设计的潜力。GSPO 的这些优点促进了最新 Qwen3 模型的显著改进。\n\n作者：郑楚杰, 刘世轩, 李明泽, 陈雄辉, 俞博文, 高畅, 党凯, 刘雨琼, 门睿, 杨安, 周京人, 林俊阳\n\n网址：https://arxiv.org/pdf/2507.18071.pdf",
+        "地址": "https://arxiv.org/pdf/2507.18071.pdf"
+    },
+    {
+        "名称": "2025 [2507.14958] MUR: Momentum Uncertainty guided Reasoning for Large Language Models.pdf",
+        "作者": "Hang Yan, Fangzhi Xu, Rongman Xu, Yifei Li, Jian Zhang, Haoran Luo, Xiaobao Wu, Luu Anh Tuan, Haiteng Zhao, Qika Lin, Jun Liu",
+        "摘要": "摘 要 (2025)：\n\n大型语言模型（LLMs）在需要推理任务上取得了令人印象深刻的表现，但在优化其推理效率方面仍然是一个未解决的挑战。尽管测试时缩放（Test-Time Scaling, TTS）提高了推理质量，但它通常会导致过度思考，浪费算力在冗余计算上。本文研究了如何在无需额外训练的情况下，高效且自适应地引导LLM的测试时缩放。受物理学中动量概念的启发，我们提出了基于动量不确定性引导推理（Momentum Uncertainty-guided Reasoning, MUR）的方法，通过跟踪和聚合步骤不确定性动态分配关键推理步骤的计算预算。为支持灵活的推理时控制，我们介绍了伽马控制，这是一种通过单个超参数调节推理预算的简单机制。我们提供了详细的理论证明，以支持MUR在稳定性和偏差方面的优越性。MUR在四个具有挑战性的基准测试（MATH-500，AIME24，AIME25和GPQA-diamond）上，使用不同规模的最新Qwen3模型（1.7B，4B和8B）与各种TTS方法进行全面评估。结果表明，MUR在平均减少超过50%的计算量的同时，提高了0.62-3.37%的准确率。\n\n作者：严航，徐方志，徐荣满，李一飞，张健，罗浩然，吴晓宝，阮雄，赵海腾，林琪桦，刘君\n\n评论：25页，8张图\n\n链接：https://arxiv.org/pdf/2507.14958.pdf\n\n标题：2025 [2507.14958] MUR: 基于动量不确定性引导的大型语言模型推理",
+        "地址": "https://arxiv.org/pdf/2507.14958.pdf"
+    },
+    {
+        "名称": "2025 [2507.15758] LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization.pdf",
+        "作者": "Xingyu Wu, Yuchen Yan, Shangke Lyu, Linjuan Wu, Yiwen Qiu, Yongliang Shen, Weiming Lu, Jian Shao, Jun Xiao, Yueting Zhuang",
+        "摘要": "摘要：大型推理模型通过扩展的思维链序列获得了显著的性能，但这种计算自由度导致了即使对于简单问题也会生成过多的令牌。我们提出了长度自适应策略优化（LAPO），一种将推理长度控制从外部约束转化为内在模型能力的新框架。与现有方法需要严格限制或依赖事后干预不同，LAPO使模型能够通过两阶段强化学习过程内化对适当推理深度的理解。在第一阶段中，模型通过发现成功解决方案长度的统计分布来学习自然推理模式。第二阶段利用这些模式作为元认知指导，将它们直接嵌入模型的推理背景中，以确保推理时间的灵活性。在数学推理基准测试上的实验表明，LAPO在提高准确率2.3%的同时减少了高达40.9%的令牌使用。我们的分析表明，使用LAPO训练的模型产生了根据问题复杂性分配计算资源的能力，实现了在不牺牲质量的情况下的高效推理。\n\n作者：吴星宇，严宇辰，吕尚可，吴林娟，仇艺文，沈永亮，陆伟明，邵坚，肖骏，庄越挺\n\n评论：GitHub：这个https URL项目：这个https URL\n\n链接：https://arxiv.org/pdf/2507.15758.pdf\n\n题目：2025 [2507.15758] LAPO：通过长度自适应策略优化内化推理效率",
+        "地址": "https://arxiv.org/pdf/2507.15758.pdf"
+    },
+    {
+        "名称": "2025 [2507.18634] Captain Cinema: Towards Short Movie Generation.pdf",
+        "作者": "Junfei Xiao, Ceyuan Yang, Lvmin Zhang, Shengqu Cai, Yang Zhao, Yuwei Guo, Gordon Wetzstein, Maneesh Agrawala, Alan Yuille, Lu Jiang",
+        "摘要": "摘要：我们提出了Captain Cinema，一个用于短片生成的生成框架。给定电影剧情的详细文本描述，我们的方法首先生成一个关键帧序列，勾勒出整个叙事，确保故事情节和视觉外观（如场景和角色）的长程连贯性。我们将这一步称为自上而下的关键帧规划。这些关键帧然后成为视频合成模型的条件信号，支持长上下文学习，生成它们之间的时空动态。这一步称为自下而上的视频合成。为了支持多场景长叙事电影作品的稳定和高效生成，我们引入了针对长上下文视频数据专门调整的多模态扩散变压器（MM-DiT）的交错训练策略。我们的模型在一个精心策划的包含交错数据对的电影数据集上进行训练。我们的实验表明，Captain Cinema在自动创建视觉上连贯和叙事一致的高质量和高效率短片方面表现良好。项目页面：this https URL.",
+        "地址": "https://arxiv.org/pdf/2507.18634.pdf"
+    },
+    {
+        "名称": "2025 [2507.18537] TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation.pdf",
+        "作者": "Zhekai Chen, Ruihang Chu, Yukang Chen, Shiwei Zhang, Yujie Wei, Yingya Zhang, Xihui Liu",
+        "摘要": "摘要: 扩展视觉生成模型对于实际内容创作至关重要，但需要大量的训练和计算成本。作为替代，测试时扩展由于资源效率和令人振奋的表现，逐渐受到了越来越多的关注。在这项工作中，我们提出了 TTS-VAR，这是第一个通用的针对视觉自回归(VAR)模型的测试时扩展框架，将生成过程建模为路径搜索问题。为了动态平衡计算效率和探索能力，我们首先在因果生成过程中引入了一种自适应递减批量大小计划。此外，受 VAR 分层粗细多尺度生成的启发，我们的框架整合了两个关键组件：(i) 在粗尺度方面，我们发现生成的标记难以评估，可能导致错误地接受劣质样本或拒绝优质样本。注意到粗尺度包含足够的结构信息，我们提出了基于聚类的多样性搜索。它通过语义特征聚类来保持结构多样性，从而在后续阶段选择具有更高潜力的样本。(ii) 在细尺度方面，基于重新采样的潜力选择使用潜力评分优先考虑有前途的候选者，潜力评分是将多尺度生成历史作为奖励函数定义的。对强大的 VAR 模型 Infinity 的实验表明，GenEval 分数显著提高了8.7%（从0.69提高到0.75）。主要见解显示早期阶段的结构特征有效地影响了最终质量，并且重新采样效率在不同生成尺度上有所不同。代码可在此 URL 获取。\n\n原文链接: https://arxiv.org/pdf/2507.18537.pdf",
+        "地址": "https://arxiv.org/pdf/2507.18537.pdf"
+    },
+    {
+        "名称": "2025 [2507.15844] Hierarchical Budget Policy Optimization for Adaptive Reasoning.pdf",
+        "作者": "Shangke Lyu, Linjuan Wu, Yuchen Yan, Xingyu Wu, Hao Li, Yongliang Shen, Peisheng Jiang, Weiming Lu, Jun Xiao, Yueting Zhuang",
+        "摘要": "摘要: 大型推理模型通过生成丰富的推理链条实现了显著性能，但由于不论问题复杂性均采用统一推理策略，表现出显著的计算效率低下。我们提出了分层预算策略优化（HBPO），一种强化学习框架，使模型能够在不牺牲能力的前提下学习根据问题具体而调整推理深度。HBPO解决了效率导向训练中的探索空间崩溃的根本挑战，在长输出长度上的罚则系统性地将模型偏离必要的长推理路径。通过分层预算探索，我们的方法将推出样本划分为多个具有不同代币预算的子组，以实现高效的资源分配，同时防止能力的下降。我们引入了差异化的奖励机制，创建了与问题复杂性相符的预算意识激励，使得模型能够发现任务要求与计算努力之间的自然对应关系。大量实验表明，HBPO在提高四个推理基准的准确率3.14%的同时，将平均代币使用量减少至60.6%。与现有依赖外部约束或离散模式选择的方法不同，HBPO展示了模型根据问题复杂性自动调整推理深度的突现适应行为。我们的结果表明，推理效率和能力并非本质上是矛盾的，通过适当结构化的分层训练保留探索多样性，它们可以同时优化。\n",
+        "地址": "https://arxiv.org/pdf/2507.15844.pdf"
+    },
+    {
+        "名称": "2025 [2507.16535] EarthCrafter: Scalable 3D Earth Generation via Dual-Sparse Latent Diffusion.pdf",
+        "作者": "Shang Liu, Chenjie Cao, Chaohui Yu, Wen Qian, Jing Wang, Fan Wang",
+        "摘要": "摘要: 尽管最近的3D生成工作取得了显著的发展，但是将这些方法扩展到地理范围，例如建模数千平方公里的地球表面，仍然是一个未解决的挑战。我们通过在数据基础设施和模型架构上的双重创新来解决这个问题。首先，我们引入了Aerial-Earth3D，这是迄今为止最大的3D航空数据集，包括50000个精选场景（每个场景面积为600米 x 600米），这些场景捕捉于美国大陆，包含了4500万多视角谷歌地球帧。每个场景提供姿态标注的多视角图像、深度图、法线、语义分割和相机姿态，并通过明确的质量控制以确保地形多样性。在此基础上，我们提出了EarthCrafter，这是一个通过稀疏解耦潜在扩散进行大规模3D地球生成的定制框架。我们的架构将结构生成与纹理生成分开：1）双稀疏3D-VAEs将高分辨率几何体素和纹理2D高斯溅射（2DGS）压缩到紧凑的潜在空间中，在保留关键信息的同时，大大缓解了由于广阔地理尺度带来的高昂计算成本。2）我们提出了条件感知流匹配模型，这些模型在混合输入（语义、图像或皆无）上进行训练，可以灵活地独立建模潜在的几何和纹理特征。大量实验表明，EarthCrafter在极大规模生成中表现出色。该框架进一步支持多种应用，从语义引导的城市布局生成到无条件的地形合成，同时通过我们丰富的Aerial-Earth3D数据先验保持地理合理性。我们的项目页面可在此HTTPS URL处访问。\n\n作者: Shang Liu, Chenjie Cao, Chaohui Yu, Wen Qian, Jing Wang, Fan Wang\n评论: 模型和代码将在此HTTPS URL处发布: 此HTTPS URL",
+        "地址": "https://arxiv.org/pdf/2507.16535.pdf"
+    },
+    {
+        "名称": "2025 [2507.18546] GLiNER2: An Efficient Multi-Task Information Extraction System with Schema-Driven Interface.pdf",
+        "作者": "Urchade Zaratiana, Gil Pasternak, Oliver Boyd, George Hurn-Maloney, Ash Lewis",
+        "摘要": "摘要: 信息抽取（IE）是许多自然语言处理应用的基础，但现有的解决方案通常需要针对不同任务的专门模型或依赖于计算成本高的大型语言模型。我们提出了GLiNER2，这是一种统一框架，通过原始的GLiNER架构支持命名实体识别、文本分类和层次结构化数据抽取，并实现了单一高效模型。GLiNER2基于预训练的变换器编码器架构，保持了CPU效率和紧凑的体积，同时通过直观的基于架构接口引入多任务组合。我们的实验展示了在抽取和分类任务上的竞争性能，并且与基于大型语言模型的替代方案相比，显著提升了部署的可访问性。我们将GLiNER2作为开源可通过pip安装的库发布，其中包含预训练模型和文档。\n\n---\n翻译后的摘要:\n\n信息抽取（IE）是许多自然语言处理应用的基础，但现有的解决方案通常需要为不同任务构建专门的模型或依赖计算成本高的大型语言模型。我们提出GLiNER2，这是一种统一框架，通过增强原始GLiNER架构支持命名实体识别、文本分类和层次结构化数据抽取，并实现单一高效模型。GLiNER2基于预训练的变压器编码器架构，保持CPU效率和紧凑尺寸，同时通过直观的基于模式的接口引入多任务组合。我们的实验显示其在抽取和分类任务上具有竞争力的性能，并且与基于LLM的替代方案相比，在部署可访问性方面有显著改进。我们发布GLiNER2作为开源可通过pip安装的库，并包含预训练模型和文档。",
+        "地址": "https://arxiv.org/pdf/2507.18546.pdf"
+    },
+    {
+        "名称": "2025 [2507.18464] DriftMoE: A Mixture of Experts Approach to Handle Concept Drifts.pdf",
+        "作者": "Miguel Aspis, Sebastián A. Cajas Ordónez, Andrés L. Suárez-Cetrulo, Ricardo Simón Carbajo",
+        "摘要": "摘要: 从受概念漂移影响的非平稳数据流中学习，需要模型能够即时适应，同时保持资源效率。现有的自适应集成方法通常依赖于粗粒度的适应机制或简单的投票方案，这些方案未能充分利用专业知识。本文介绍了DriftMoE，一种在线专家混合（MoE）架构，通过一种新颖的共同训练框架来解决这些限制。DriftMoE具有一个紧凑的神经路由器，该路由器与一组增量Hoeffding树专家共同训练。其关键创新在于一个能够实现专家专业化的共生学习循环：路由器选择最合适的专家进行预测、相关专家以真实标签增量更新、路由器使用多热正确性掩码来强化每个准确的专家进而优化其参数。这一反馈循环为路由器提供了清晰的训练信号，同时加速了专家的专业化过程。我们在包括突发性漂移、渐变性漂移和现实世界漂移的九个最先进的数据流学习基准测试中评估了DriftMoE的性能，测试了两种不同的配置：一种是专家专注于数据领域（多分类变体），另一种是专注于单类专业化（任务型变体）。结果表明，DriftMoE在概念漂移适应方面取得了与最先进的数据流学习自适应集成方法相竞争的成绩，提供了一种原理清晰且高效的解决方案。所有代码、数据管道和可复制脚本都在我们的公共GitHub仓库中公开：this https URL。\n\n作者: Miguel Aspis, Sebastián A. Cajas Ordónez, Andrés L. Suárez-Cetrulo, Ricardo Simón Carbajo\n\n评论: 已被2025年SYNDAiTE@ECMLPKDD研讨会接受\n\n链接: [https://arxiv.org/pdf/2507.18464.pdf](https://arxiv.org/pdf/2507.18464.pdf)\n\n题目: DriftMoE: 一种处理概念漂移的专家混合方法",
+        "地址": "https://arxiv.org/pdf/2507.18464.pdf"
+    },
+    {
+        "名称": "2025 [2507.14988] DMOSpeech 2: Reinforcement Learning for Duration Prediction in Metric-Optimized Speech Synthesis.pdf",
+        "作者": "Yinghao Aaron Li, Xilin Jiang, Fei Tao, Cheng Niu, Kaifeng Xu, Juntong Song, Nima Mesgarani",
+        "摘要": "摘要: 基于扩散的文本转语音（TTS）系统在零样本语音合成方面取得了显著进展，但优化所有组件以达到感知指标仍然具有挑战性。此前的研究DMOSpeech展示了对语音生成组件的直接指标优化，但持续时间预测仍未优化。本文提出了DMOSpeech 2，通过强化学习方法扩展了对持续时间预测器的指标优化。所提出的系统使用群体相对偏好优化（GRPO），并以说话人相似度和词错误率作为奖励信号，实施了新的持续时间政策框架。通过优化这一之前未优化的组件，DMOSpeech 2创造了一个更完整的指标优化合成管道。此外，本文引入了教师引导采样，这是一种混合方法，利用教师模型进行初步去噪步骤，然后转换为学生模型，从而显著提高输出多样性，同时保持效率。全面评估显示，相比此前系统，该系统在所有指标上表现优越，同时将采样步骤减少一半且无质量下降。这些进步代表了朝着在多个组件中进行指标优化的语音合成系统迈出的重要一步。音频样本、代码和预训练模型可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2507.14988.pdf"
+    },
+    {
+        "名称": "2025 [2507.18103] A New Pair of GloVes.pdf",
+        "作者": "Riley Carlson, John Bauer, Christopher D. Manning",
+        "摘要": "摘要：本报告记录、描述并评估了新的2024年英文GloVe（全球词向量）模型。虽然2014年构建的原始GloVe模型已被广泛使用并被证明有用，但随着语言和世界的不断发展，我们认为当前的应用可以从更新的模型中受益。此外，2014年的模型没有详细记录所用数据版本和预处理方法，我们通过记录这些新模型来纠正这一点。我们使用维基百科、Gigaword和部分Dolma数据集训练了两组词嵌入。通过词汇比较、直接测试和命名实体识别（NER）任务的评估显示，2024年的模型包含了新的文化和语言相关词汇，在类比和相似性等结构任务中的表现相当，并在最近、与时间相关的NER数据集（如非西方新闻数据）上显示出改进的表现。\n\n作者：Riley Carlson, John Bauer, Christopher D. Manning\n\n链接：https://arxiv.org/pdf/2507.18103.pdf\n\n标题：2025 [2507.18103] 一对新的GloVe模型.pdf",
+        "地址": "https://arxiv.org/pdf/2507.18103.pdf"
+    },
+    {
+        "名称": "2025 [2507.18013] Technical Report of TeleChat2, TeleChat2.5 and T1.pdf",
+        "作者": "Zihan Wang, Xinzhang Liu, Yitong Yao, Chao Wang, Yu Zhao, Zhihao Yang, Wenmin Deng, Kaipeng Jia, Jiaxin Peng, Yuyao Huang, Sishi Xiong, Zhuo Jiang, Kaidong Yu, Xiaohui Hu, Fubei Yao, Ruiyu Fang, Zhuoru Jiang, Ruiting Song, Qiyi Xie, Rui Xue, Xuewei He, Yanlei Xue, Zhu Yuan, Zhaoxi Zhang, Zilu Huang, Shiquan Wang, Xin Wang, Hanming Wu, Mingyuan Wang, Xufeng Zhan, Yuhan Sun, Zhaohu Xing, Yuhao Jiang, Bingkai Yang, Shuangyong Song, Yongxiang Li, Zhongjiang He, Xuelong Li",
+        "摘要": "摘要：我们介绍了最新系列的TeleChat模型：TeleChat2、TeleChat2.5和T1，它们相比前代产品TeleChat有显著升级。尽管模型架构变化不大，新系列通过在预训练和后训练阶段采用增强的训练策略实现了显著性能提升。系列中的TeleChat2首先在10万亿高质量及多样化的token上进行预训练，随后进行监督微调（Supervised Fine-Tuning，SFT）和直接偏好优化（Direct Preference Optimization，DPO）以进一步增强其能力。TeleChat2.5和T1通过结合领域特定数据集进行持续预训练阶段，以及采用强化学习（RL），来提升代码生成和数学推理任务的性能。T1变体旨在支持复杂推理，支持长链式推理（Chain-of-Thought，CoT），在数学和编码方面表现出显著提升。而TeleChat2.5则更注重速度，提供快速推理。T1和TeleChat2.5均为密集型Transformer架构，有1150亿参数，相对于原始TeleChat在推理和一般任务性能上展现了重大进步。值得注意的是，T1-115B超越了OpenAI的o1-mini和GPT-4o等专有模型。我们公开发布了TeleChat2、TeleChat2.5和T1，包括35B和115B参数的后训练版本，以便为开发者和研究人员提供适用于多种应用的最先进语言模型。",
+        "地址": "https://arxiv.org/pdf/2507.18013.pdf"
+    },
+    {
+        "名称": "2025 [2507.15595] SegDT: A Diffusion Transformer-Based Segmentation Model for Medical Imaging.pdf",
+        "作者": "Salah Eddine Bekhouche, Gaby Maroun, Fadi Dornaika, Abdenour Hadid",
+        "摘要": "摘要: 医学图像分割对于许多医疗任务至关重要，包括疾病诊断和治疗计划。皮肤病变分割是其中的一个关键领域，对于诊断皮肤癌和监测患者非常重要。在此背景下，本文介绍了基于扩散变压器（DiT）的新分割模型SegDT。SegDT设计用于低成本硬件，并结合了Rectified Flow，减少推理步骤，提升生成质量，同时保持标准扩散模型的灵活性。我们的方法在三个基准数据集上进行了评估，并与几个现有工作进行了比较，取得了最新结果，同时保持了快速推理速度。这使得该模型在现实世界的医疗应用中具有吸引力。该工作提升了深度学习模型在医学图像分析中的性能和能力，使医疗专业人员能够使用更快、更准确的诊断工具。代码在GitHub上公开提供。",
+        "地址": "https://arxiv.org/pdf/2507.15595.pdf"
+    },
+    {
+        "名称": "2025 [2507.18192] TeEFusion: Blending Text Embeddings to Distill Classifier-Free Guidance.pdf",
+        "作者": "Minghao Fu, Guo-Hua Wang, Xiaohao Chen, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang",
+        "摘要": "摘要：近年来，文本到图像合成技术的进步在很大程度上得益于复杂的采样策略和无需分类器的引导（CFG），以确保高质量的生成。然而，CFG依赖于两次前向传递，尤其是在与复杂的采样算法结合时，导致推理成本非常高。为了解决这个问题，我们提出了TeEFusion（TeEFusion: Text Embeddings Fusion），这是一种新颖且高效的蒸馏方法，能够直接将引导幅度融入文本嵌入中，并蒸馏教师模型复杂的采样策略。通过简单地使用线性操作融合条件和无条件文本嵌入，TeEFusion在不增加额外参数的情况下重建了所需的引导，同时还使学生模型能够学习通过教师的复杂采样方法生成的输出。在诸如SD3等最先进模型上的大量实验表明，我们的方法使学生模型能够以更简单、更高效的采样策略紧密模仿教师模型的性能。因此，学生模型的推理速度比教师模型快达6倍，同时保持图像质量与通过教师复杂采样方法获得的相当。代码已公开。\n\n评论：已被ICCV 2025接受。代码已公开。\n\n作者：傅明浩，王国华，陈晓昊，陈庆国，徐钊，罗伟华，张凯夫\n\n链接：https://arxiv.org/pdf/2507.18192.pdf\n\n标题：2025 [2507.18192] TeEFusion: 混合文本嵌入以蒸馏无分类器引导.pdf",
+        "地址": "https://arxiv.org/pdf/2507.18192.pdf"
+    },
+    {
+        "名称": "2025 [2507.16038] Discovering and using Spelke segments.pdf",
+        "作者": "Rahul Venkatesh, Klemen Kotar, Lilian Naing Chen, Seungwoo Kim, Luca Thomas Wheeler, Jared Watrous, Ashley Xu, Gia Ancone, Wanhee Lee, Honglin Chen, Daniel Bear, Stefan Stojanov, Daniel Yamins",
+        "摘要": "摘要：计算机视觉中的片段通常基于语义考虑，并且高度依赖于特定类别的约定。相比之下，发展心理学表明，人类感知世界是通过斯佩尔克对象——在物理力量作用下可靠地一起移动的物理事物的组合。因此，斯佩尔克对象依据类别无关的因果运动关系操作，这可能更能支持操控和规划等任务。在本文中，我们首先基准斯佩尔克对象概念，介绍了包含各种自然图像中定义明确的斯佩尔克片段的SpelkeBench数据集。接下来，为了从图像中算法提取斯佩尔克片段，我们构建了SpelkeNet，这是一类视觉世界模型，旨在预测未来运动的分布。SpelkeNet支持斯佩尔克对象发现的两个关键概念：(1)运动效能图，识别出在推动下可能移动的区域，以及(2)预期位移图，捕捉场景如何移动。这些概念用于“统计反事实探测”，其中多种“虚拟推动”应用于高运动效能区域，结果的预期位移图被用来定义斯佩尔克片段，作为相关运动统计的统计汇总。我们发现SpelkeNet在SpelkeBench上表现优于监督基线如SegmentAnything（SAM）。最后，我们展示了斯佩尔克概念在后续应用中的实际用途，在使用多种现成的物体操控模型时，在3DEditBench基准上表现出色。",
+        "地址": "https://arxiv.org/pdf/2507.16038.pdf"
+    },
+    {
+        "名称": "2025 [2507.18405] Iwin Transformer: Hierarchical Vision Transformer using Interleaved Windows.pdf",
+        "作者": "Simin Huo, Ning Li",
+        "摘要": "摘要：我们介绍了Iwin Transformer，这是一种新型的无位置嵌入的分层视觉Transformer，它通过创新的交错窗口注意力和深度可分离卷积的协作，可以直接从低分辨率微调到高分辨率。该方法使用注意力连接远隔的令牌，并应用卷积来链接邻近的令牌，从而在单个模块内实现全球信息交换，克服了Swin Transformer需要两个连续块来接近全局注意力的局限性。对视觉基准的广泛实验表明，Iwin Transformer在图像分类（ImageNet-1K上的top-1准确率为87.4）、语义分割和视频动作识别等任务中表现出强大的竞争力。我们还验证了Iwin的核心组件作为独立模块的有效性，它可以无缝替换类条件图像生成中的自注意模块。Iwin Transformer引入的概念和方法有可能激发未来的研究，例如视频生成中的Iwin 3D注意力。代码和模型可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2507.18405.pdf"
+    },
+    {
+        "名称": "2025 [2507.16802] Agentar-Fin-R1: Enhancing Financial Intelligence through Domain Expertise, Training Efficiency, and Advanced Reasoning.pdf",
+        "作者": "Yanjun Zheng, Xiyang Du, Longfei Liao, Xiaoke Zhao, Zhaowen Zhou, Jingze Song, Bo Zhang, Jiawei Liu, Xiang Qi, Zhe Li, Zhiqiang Zhang, Wei Wang, Peng Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）在金融应用中展现出巨大的潜力，但现有模型在面对需要复杂推理能力、严格可信性标准和高效适应领域特定需求的场景时经常表现出局限性。我们介绍了Agentar-Fin-R1系列金融大型语言模型（8B和32B参数），这些模型基于Qwen3基础模型专门设计以增强金融应用的推理能力、可靠性和领域专业化。我们的优化方法集成了高质量的系统化金融任务标签系统和全面的多层次可信性保障框架。该框架包括高质量可信知识工程、多代理可信数据合成和严格的数据验证治理。通过标签引导的自动难度感知优化、双阶段训练管道和动态归因系统，我们在训练效率方面取得了显著改进。我们的模型在包括Fineva、FinEval和FinanceIQ在内的主流金融基准以及MATH-500和GPQA-diamond等一般推理数据集上进行了全面评估。为了全面评估真实世界的部署能力，我们创新提出了Finova评估基准，该基准侧重于代理级金融推理和合规性验证。实验结果表明，Agentar-Fin-R1不仅在金融任务上实现了最先进的性能，还表现出卓越的一般推理能力，验证了其作为高风险金融应用的可信解决方案的有效性。Finova基准可通过此HTTPS URL访问。",
+        "地址": "https://arxiv.org/pdf/2507.16802.pdf"
+    },
+    {
+        "名称": "2025 [2507.18565] Deep Learning-Based Age Estimation and Gender Deep Learning-Based Age Estimation and Gender Classification for Targeted Advertisement.pdf",
+        "作者": "Muhammad Imran Zaman, Nisar Ahmed",
+        "摘要": "摘要：本文提出了一种新颖的基于深度学习的方法，用于从面部图像同时进行年龄和性别分类，以增强目标广告活动的效果。我们提出了一种定制的卷积神经网络（CNN）架构，该架构针对两个任务进行了优化，利用了面部特征中存在的年龄和性别信息之间的固有关联。与现有方法通常独立处理这些任务不同，我们的模型能够学习共享表示，从而提高性能。网络在一个大型、多样化的面部图像数据集上进行训练，并经过仔细预处理，以确保在光照、姿态和图像质量变化方面的稳健性。我们的实验结果表明，性别分类准确率显著提高，达到95%，年龄估计的平均绝对误差为5.77岁。重要的是，我们分析了不同年龄组的表现，发现准确估计年轻个体年龄的具体挑战。此分析揭示了需要针对性的数据增强和模型改进以解决这些偏差。此外，我们还探讨了不同CNN架构和超参数设置对整体性能的影响，为未来的研究提供了宝贵的见解。\n\n译文：\n摘要：本文提出了一种新颖的基于深度学习的方法，用于从面部图像同时进行年龄和性别分类，以增强目标广告活动的效果。我们提出了一种定制的卷积神经网络（CNN）架构，该架构针对这两个任务进行了优化，利用了面部特征中存在的年龄和性别信息之间的固有关联。与现有方法通常独立处理这些任务不同，我们的模型能够学习共享表示，从而提高性能。网络在一个大型、多样化的面部图像数据集上进行训练，并经过仔细预处理，以确保在光线、姿势和图像质量变化方面的稳健性。我们的实验结果表明，性别分类准确率显著提高，达到95%，年龄估计的平均绝对误差为5.77岁。重要的是，我们分析了不同年龄组的表现，发现准确估计年轻个体年龄的具体挑战。此分析揭示了需要进行针对性的数据增强和模型改进，以解决这些偏差。此外，我们还探讨了不同CNN架构和超参数设置对整体性能的影响，为未来的研究提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2507.18565.pdf"
+    },
+    {
+        "名称": "2025 [2507.17402] HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning.pdf",
+        "作者": "Li Jun, Wang Jinpeng, Tan Chaolei, Lian Niu, Chen Long, Zhang Min, Wang Yaowei, Xia Shu-Tao, Chen Bin",
+        "摘要": "摘要：部分相关视频检索（PRVR）解决了匹配未剪辑视频与仅描述部分内容的文本查询的关键挑战。现有方法在欧几里得空间中存在几何失真问题，这有时会误导视频的内在层次结构，并忽略某些层次语义，最终导致次优的时间建模。为了解决这个问题，我们提出了第一个用于PRVR的双曲建模框架，即HLFormer，该框架利用双曲空间学习来弥补欧几里得空间次优的层次建模能力。具体来说，HLFormer整合了洛伦兹注意力块和欧几里得注意力块，在混合空间中编码视频嵌入，并使用均值引导自适应交互模块动态融合特征。此外，我们引入了部分顺序保持损失，通过洛伦兹锥约束来强化“文本<视频”层次结构。这种方法通过加强视频内容与文本查询之间的部分相关性，进一步提升了跨模态匹配性能。大量实验表明，HLFormer优于最新的状态-of-the-art方法。代码已在https URL发布。\n\n作者：李君，王金鹏，谭超磊，连牛，陈龙，张敏，王耀伟，夏树涛，陈斌\n\n备注：被ICCV'25接受。13页，6幅图，4张表格\n\n链接：https://arxiv.org/pdf/2507.17402.pdf\n\n标题：2025 [2507.17402] HLFormer: 使用双曲学习提升部分相关视频检索",
+        "地址": "https://arxiv.org/pdf/2507.17402.pdf"
+    },
+    {
+        "名称": "2025 [2507.15807] True Multimodal In-Context Learning Needs Attention to the Visual Context.pdf",
+        "作者": "Shuo Chen, Jianzhe Liu, Zhen Han, Yan Xia, Daniel Cremers, Philip Torr, Volker Tresp, Jindong Gu",
+        "摘要": "摘要：多模态大语言模型（MLLMs）建立在强大的语言骨干上，已经实现了多模态上下文学习（MICL）——通过少量包含图像、问题和答案的多模态示例适应新任务。尽管在标准的视觉语言数据集上取得了显著的进步，但当前的MLLMs在利用演示中的视觉信息方面仍然存在困难。具体来说，它们往往忽略视觉线索，而过度依赖文本模式，导致仅仅是文本模仿而非真正的多模态适应。这种行为使得MICL仍然是单模态的，并极大地限制了它的实用性。更重要的是，这一限制常常被在不需要理解视觉上下文的任务上取得的改进表现所掩盖。因此，如何有效地增强MICL能力并可靠地评估MICL性能仍然是未深究的问题。为了解决这些问题，我们首先引入动态注意力再分配（DARA），一种鼓励模型通过在视觉和文本标记之间重新分配注意力来关注视觉上下文的高效微调策略。此外，我们还提出了TrueMICL，一个专门用于MICL的数据集，其中的支持集和测试集明确要求整合多模态信息，特别是视觉内容，以正确完成任务。大量实验证明了我们整体解决方案的有效性，展示了在真正的多模态上下文学习能力方面的显著改进。代码和数据集可在此链接获取。",
+        "地址": "https://arxiv.org/pdf/2507.15807.pdf"
+    }
+]
