@@ -1,0 +1,68 @@
+[
+    {
+        "名称": "2025 [2507.16075] Deep Researcher with Test-Time Diffusion.pdf",
+        "作者": "Rujun Han, Yanfei Chen, Zoey CuiZhu, Lesly Miculicich, Guan Sun, Yuanjun Bi, Weiming Wen, Hui Wan, Chunfeng Wen, Solène Maître, George Lee, Vishy Tirumalashetty, Emily Xue, Zizhao Zhang, Salem Haykal, Burak Gokturk, Tomas Pfister, Chen-Yu Lee",
+        "摘要": "摘要: 深度研究代理，由大型语言模型（LLMs）提供支持，正在迅速发展；然而，当使用通用测试时扩展算法生成复杂的长篇研究报告时，其性能往往会停滞不前。受人类研究的迭代性质启发，我们提出了测试时扩散深度研究员（TTD-DR）。这个新颖的框架将研究报告生成概念化为一个扩散过程。TTD-DR通过初步草稿启动这个过程，这是一种可更新的框架，作为指导研究方向的不断演变的基础。通过一个\"去噪\"过程迭代地精炼草稿，这一过程在每一步都由一个整合外部信息的检索机制动态提供信息。核心过程进一步通过应用于代理工作流每个组件的自我进化算法得到增强，确保为扩散过程生成高质量的上下文。这种以草稿为中心的设计使报告写作过程更加及时连贯，同时减少了迭代搜索过程中的信息损失。我们证明了我们的TTD-DR在需要密集搜索和多跳推理的大量基准上取得了最先进的结果，显著优于现有的深度研究代理。",
+        "地址": "https://arxiv.org/pdf/2507.16075.pdf"
+    },
+    {
+        "名称": "2025 [2507.18553] The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm.pdf",
+        "作者": "Jiale Chen, Torsten Hoefler, Dan Alistarh",
+        "摘要": "摘要: 将大语言模型 (LLMs) 的权重从16位量化为更低位宽是将大型变压器部署到更实惠加速器上的事实标准方法。GPTQ已经成为LLM规模的一次性后训练量化的标准方法之一。然而，它的内部工作被描述为一系列临时的代数更新，掩盖了任何几何意义或最坏情况保证。在这项工作中，我们展示了，对于线性层，当从后往前执行（从最后一个维度到第一个维度）时，GPTQ在数学上与经典最近向量问题 (CVP) 的Babai最近平面算法完全相同，该问题定义在由层输入的Hessian矩阵定义的晶格上。这种等价性基于复杂的数学论证，并具有两个分析性结果：(i) GPTQ误差传播步骤获得了直观的几何解释；(ii) 在无裁剪条件下，GPTQ继承了Babai算法的误差上限。综合起来，这些结果使GPTQ拥有坚实的理论基础，并为未来亿参数模型量化算法的设计带来了多个十年晶格算法进展的导入。",
+        "地址": "https://arxiv.org/pdf/2507.18553.pdf"
+    },
+    {
+        "名称": "2025 [2507.19478] MMBench-GUI: Hierarchical Multi-Platform Evaluation Framework for GUI Agents.pdf",
+        "作者": "Xuehui Wang, Zhenyu Wu, JingJing Xie, Zichen Ding, Bowen Yang, Zehao Li, Zhaoyang Liu, Qingyun Li, Xuan Dong, Zhe Chen, Weiyun Wang, Xiangyu Zhao, Jixuan Chen, Haodong Duan, Tianbao Xie, Chenyu Yang, Shiqian Su, Yue Yu, Yuan Huang, Yiqian Liu, Xiao Zhang, Yanting Zhang, Xiangyu Yue, Weijie Su, Xizhou Zhu, Wei Shen, Jifeng Dai, Wenhai Wang",
+        "摘要": "摘要: 我们介绍了MMBench-GUI，这是一种用于评估适用于Windows、macOS、Linux、iOS、Android和Web平台的GUI自动化代理的分层基准。它包括四个级别：GUI内容理解、元素定位、任务自动化和任务协作，涵盖了GUI代理的基本技能。此外，我们提出了一种新的效率-质量面积（EQA）度量，用于评估GUI代理在在线自动化场景中的执行效率。通过MMBench-GUI，我们发现准确的视觉定位是整个任务成功的关键决定因素，强调了集成专门定位模块的模块化框架的显著优势。此外，可靠的GUI自动化代理需要强大的任务规划和跨平台泛化能力，而长上下文记忆、广泛的动作空间和长期推理起着关键作用。更重要的是，任务效率仍然是一个未被充分探索的维度，所有模型都存在显著的低效率，即使任务最终完成也存在大量冗余步骤。精确定位、有效的规划和提前停止策略的结合对于实现真正高效且可扩展的GUI自动化是必不可少的。我们的基准代码、评估数据和运行环境将公开提供。",
+        "地址": "https://arxiv.org/pdf/2507.19478.pdf"
+    },
+    {
+        "名称": "2025 [2507.18392] CLEAR: Error Analysis via LLM-as-a-Judge Made Easy.pdf",
+        "作者": "Asaf Yehudai, Lilach Eden, Yotam Perlitz, Roy Bar-Haim, Michal Shmueli-Scheuer",
+        "摘要": "摘要：大语言模型（LLM）的评估越来越依赖于其他LLM充当评判者。然而，目前的评估范式通常只产生一个分数或排名，回答哪个模型更好，但不回答为什么。虽然这些顶级分数对于基准测试至关重要，但却模糊了模型性能背后具体、可操作的原因。为了弥补这一差距，我们推出了CLEAR，一个用于基于LLM的错误分析的互动开源包。CLEAR首先生成每个实例的文本反馈，然后创建一组系统级错误问题，并量化每个已识别问题的普遍性。我们的包还为用户提供了一个互动式仪表板，通过汇总可视化进行全面的错误分析，应用互动过滤器隔离特定问题或分数区间，并深入研究体现特定行为模式的个体实例。我们展示了RAG和数学基准的CLEAR分析，并通过用户案例研究展示了其实用性。\n\n翻译后的摘要：\n评价高级语言模型（LLMs）越来越依赖于其他LLMs担当评判者。然而，当前的评价范式通常仅产生一个分数或排名，回答哪个模型更优秀但没有说明原因。尽管这些顶级评分对于基准测试至关重要，但它们掩盖了模型表现背后具体、可操作的原因。为弥补这一差距，我们引入了CLEAR，一个互动开放源码包，用于基于LLM的错误分析。CLEAR首先生成针对每个实例的文本反馈，然后创建一组系统级错误问题，并量化每个已识别问题的普遍性。我们包还提供用户一个互动式仪表板，通过汇总可视化进行全面的错误分析，应用互动过滤器隔离特定问题或分数范围，并深入研究体现特定行为模式的单个实例。我们展示了用于RAG和数学基准的CLEAR分析，并通过用户案例研究展示了其效用。",
+        "地址": "https://arxiv.org/pdf/2507.18392.pdf"
+    },
+    {
+        "名称": "2025 [2507.20198] When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios.pdf",
+        "作者": "Kele Shao, Keda Tao, Kejia Zhang, Sicheng Feng, Mu Cai, Yuzhang Shang, Haoxuan You, Can Qin, Yang Sui, Huan Wang",
+        "摘要": "摘要: 多模态大语言模型(MLLMs)取得了显著进展，主要得益于其处理越来越长和复杂的上下文的能力，如高分辨率图像、长时间的视频序列和冗长的音频输入。虽然这种能力显著增强了MLLM的功能，但也带来了巨大的计算挑战，主要由于自注意机制在处理大量输入标记时的二次复杂性。为了缓解这些瓶颈，标记压缩已经成为一种前景广阔且关键的方法，有效地减少了训练和推理过程中标记的数量。在本文中，我们首次对蓬勃发展的多模态长上下文标记压缩领域进行系统调查和综述。鉴于有效的压缩策略与每种模态的独特特性和冗余密切相关，我们按主要数据重点对现有方法进行分类，使研究人员能够快速访问和学习针对其具体兴趣领域量身定制的方法：(1)以图像为中心的压缩，处理视觉数据中的空间冗余；(2)以视频为中心的压缩，解决动态序列中的时空冗余；(3)以音频为中心的压缩，处理声信号中的时间和频谱冗余。除这种模态驱动的分类外，我们还根据其基本机制进一步分析方法，包括基于转换、基于相似性、基于注意力和基于查询的方法。通过提供全面和结构化的概述，本调查旨在整合当前进展，确定关键挑战，并激发该快速发展领域的未来研究方向。我们还维护一个公共仓库，以持续跟踪和更新该领域的最新进展。",
+        "地址": "https://arxiv.org/pdf/2507.20198.pdf"
+    },
+    {
+        "名称": "2025 [2507.17596] PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous Driving.pdf",
+        "作者": "Maciej K. Wozniak, Lianhang Liu, Yixi Cai, Patric Jensfelt",
+        "摘要": "摘要：尽管端到端自动驾驶模型展示了令人期待的结果，但其实际部署常因模型规模巨大、依赖昂贵的LiDAR传感器以及计算密集的BEV特征表示而受到阻碍。这限制了它们的可扩展性，尤其对于仅配备摄像头的大众市场车辆来说。为了解决这些挑战，我们提出了PRIX（Plan from Raw Pixels）。我们的新型高效端到端驾驶架构仅使用摄像头数据，不需要明确的BEV表示，也不依赖LiDAR。PRIX利用视觉特征提取器结合生成规划头，从原始像素输入直接预测安全轨迹。我们架构的核心组件是Context-aware Recalibration Transformer（CaRT），这一新模块旨在有效增强多层次视觉特征，从而实现更加稳健的规划。通过全面的实验，我们证明了PRIX在NavSim和nuScenes基准测试中达到了最先进的性能，匹敌大型、多模式扩散规划器的能力，同时在推理速度和模型规模方面显著更加高效，使其成为实际应用的可行解决方案。我们的工作是开源的，代码可以在以下网址找到：https://arxiv.org/pdf/2507.17596.pdf。\n\n作者：Maciej K. Wozniak, Lianhang Liu, Yixi Cai, Patric Jensfelt\n\n评论：正在审稿中",
+        "地址": "https://arxiv.org/pdf/2507.17596.pdf"
+    },
+    {
+        "名称": "2025 [2507.19457] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning.pdf",
+        "作者": "Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab",
+        "摘要": "摘要：大型语言模型（LLMs）越来越多地通过强化学习（RL）方法（如群体相对策略优化（GRPO））来适应下游任务，这通常需要成千上万次的策略运行来学习新任务。我们认为，与从稀疏、标量奖励中获得的策略梯度相比，语言的可解释性本质往往能为LLMs提供更丰富的学习媒介。为了验证这一点，我们介绍了GEPA（遗传-帕累托），一种提示优化器，通过自然语言反思来从试验和错误中学习高层规则。对于任何包含一个或多个LLM提示的AI系统，GEPA通过采样系统级轨迹（例如，推理、工具调用和工具输出）并使用自然语言进行反思以诊断问题、提出和测试提示更新，并结合自身尝试的帕累托前沿中的互补经验来学习。由于GEPA的设计，它通常只需少量的策略运行就能带来显著的质量提升。在四个任务中，GEPA平均比GRPO表现高出10%，最高可达20%，同时使用的策略运行次数减少最多达35倍。GEPA在两个LLMs上也超过了领先的提示优化器MIPROv2超过10%，并展示了作为代码优化的推理时间搜索策略的潜力。",
+        "地址": "https://arxiv.org/pdf/2507.19457.pdf"
+    },
+    {
+        "名称": "2025 [2507.18742] Specification Self-Correction: Mitigating In-Context Reward Hacking Through Test-Time Refinement.pdf",
+        "作者": "Víctor Gallego",
+        "摘要": "论文摘要：语言模型（LM）容易受到上下文奖励欺骗，即它们利用受污染或有缺陷的书面规范或评分标准中的漏洞，以高分通过，而不满足用户的真实意图。我们提出了规范自我修正（SSC），一种新颖的测试时间框架，使得LM能够识别并修正其指导规范中的缺陷。SSC采用多步推理过程，首先根据可能受污染的规范生成响应，批判其输出，然后修订规范本身以消除可利用的漏洞。最后，使用这个自我修正的规范生成更可靠的响应。在涉及创造性写作和代理编码任务的多个实验中，我们展示了虽然模型最初在50-70%的情况下解读受污染规范，但SSC过程将这种漏洞减少了超过90%。这种动态修复在推理时发生，不需要修改权重，并导致模型行为更加稳健对齐。代码链接为https URL。",
+        "地址": "https://arxiv.org/pdf/2507.18742.pdf"
+    },
+    {
+        "名称": "2025 [2507.10510] Chat with AI: The Surprising Turn of Real-time Video Communication from Human to AI.pdf",
+        "作者": "Jiangkai Wu, Zhiyuan Ren, Liming Liu, Xinggong Zhang",
+        "摘要": "摘要：AI 视频聊天作为一种新型的实时通信（RTC）模式出现，在这种模式中，一方并不是人类，而是多模态大语言模型（MLLM）。这使得人与 AI 之间的互动更加直观，就像与真人面对面聊天一样。然而，这对延迟提出了重大挑战，因为 MLLM 推理占用了大部分响应时间，留下的时间非常少用于视频流传输。由于网络的不确定性和不稳定性，传输延迟成为阻碍 AI 像真人一样交流的关键瓶颈。为了解决这个问题，我们提出了 Artic，一种面向 AI 的实时通信框架，探索了网络需求从“人类观看视频”到“AI 理解视频”的转变。为了在显著减少码率的同时保持 MLLM 的准确性，我们提出了上下文感知视频流传输，该方法识别聊天中视频每个区域的重要性，并几乎将码率全部分配给与聊天相关的重要区域。为避免数据包重传，我们提出了丢包弹性自适应帧率，该方法利用前几帧替代丢失/延迟帧，同时避免码率浪费。为了评估视频流质量对 MLLM 准确性的影响，我们建立了第一个基准，称为降质视频理解基准（DeViBench）。最后，我们讨论了一些关于 AI 视频聊天的未解问题和正在进行的解决方案。",
+        "地址": "https://arxiv.org/pdf/2507.10510.pdf"
+    },
+    {
+        "名称": "2025 [2507.16534] Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report.pdf",
+        "作者": "Shanghai AI Lab: Xiaoyang Chen, Yunhao Chen, Zeren Chen, Zhiyun Chen, Hanyun Cui, Yawen Duan, Jiaxuan Guo, Qi Guo, Xuhao Hu, Hong Huang, Lige Huang, Chunxiao Li, Juncheng Li, Qihao Lin, Dongrui Liu, Xinmin Liu, Zicheng Liu, Chaochao Lu, Xiaoya Lu, Jingjing Qu, Qibing Ren, Jing Shao, Jingwei Shi, Jingwei Sun, Peng Wang, Weibing Wang, Jia Xu, Lewen Yan, Xiao Yu, Yi Yu, Boxuan Zhang, Jie Zhang, Weichen Zhang, Zhijie Zheng, Tianyi Zhou, Bowen Zhou",
+        "摘要": "以下是对学术论文的摘要提取及中文翻译：\n\n原文摘要:\n```\nAbstract:To understand and identify the unprecedented risks posed by rapidly advancing artificial intelligence (AI) models, this report presents a comprehensive assessment of their frontier risks. Drawing on the E-T-C analysis (deployment environment, threat source, enabling capability) from the Frontier AI Risk Management Framework (v1.0) (SafeWork-F1-Framework), we identify critical risks in seven areas: cyber offense, biological and chemical risks, persuasion and manipulation, uncontrolled autonomous AI R\\\\&D, strategic deception and scheming, self-replication, and collusion. Guided by the \"AI-$45^\\circ$ Law,\" we evaluate these risks using \"red lines\" (intolerable thresholds) and \"yellow lines\" (early warning indicators) to define risk zones: green (manageable risk for routine deployment and continuous monitoring), yellow (requiring strengthened mitigations and controlled deployment), and red (necessitating suspension of development and/or deployment). Experimental results show that all recent frontier AI models reside in green and yellow zones, without crossing red lines. Specifically, no evaluated models cross the yellow line for cyber offense or uncontrolled AI R\\\\&D risks. For self-replication, and strategic deception and scheming, most models remain in the green zone, except for certain reasoning models in the yellow zone. In persuasion and manipulation, most models are in the yellow zone due to their effective influence on humans. For biological and chemical risks, we are unable to rule out the possibility of most models residing in the yellow zone, although detailed threat modeling and in-depth assessment are required to make further claims. This work reflects our current understanding of AI frontier risks and urges collective action to mitigate these challenges.\n```\n\n中文翻译：\n```\n摘要: 为了理解并识别快速发展的人工智能（AI）模型所带来的前所未有的风险，本报告对其前沿风险进行了全面评估。基于前沿AI风险管理框架（v1.0）（SafeWork-F1-Framework）的E-T-C分析（部署环境、威胁源、使能能力），我们识别了七个领域的关键风险：网络攻击、生物和化学风险、说服与操纵、失控的自主AI研发、战略欺骗和策划、自我复制以及勾结。受\"AI-$45^\\circ$定律\"的指导，我们使用\"红线\"（不可容忍的阈值）和\"黄线\"（预警指标）来定义风险区：绿色（可管理的风险，适用于常规部署和持续监控），黄色（需要加强缓解措施和受控部署），以及红色（需要暂停开发和/或部署）。实验结果表明，所有最近的前沿AI模型均在绿色和黄色区域，未跨越红线。具体而言，没有评估的模型跨越网络攻击或失控的AI研发风险的黄线。在自我复制及战略欺骗和策划方面，大多数模型处于绿色区域，只有某些推理模型在黄色区域。在说服与操纵方面，由于对人的有效影响，大多数模型处于黄色区域。对于生物和化学风险，我们无法排除大多数模型在黄色区域的可能性，尽管需要详细的威胁建模和深入评估以做进一步的论断。此工作反映了我们对AI前沿风险的当前理解，并呼吁共同行动以缓解这些挑战。\n```\n\n希望这对你有帮助。",
+        "地址": "https://arxiv.org/pdf/2507.16534.pdf"
+    },
+    {
+        "名称": "2025 [2507.17957] AFRDA: Attentive Feature Refinement for Domain Adaptive Semantic Segmentation.pdf",
+        "作者": "Md. Al-Masrur Khan, Durgakant Pushp, Lantao Liu",
+        "摘要": "摘要：在无监督域自适应语义分割（UDA-SS）中，模型在有标注的源域数据（例如，合成图像）上进行训练，并适应于无标注的目标域（例如，真实世界图像），无需访问目标标注。现有的UDA-SS方法常常难以平衡细粒度局部细节和全局上下文信息，导致在复杂区域中产生分割错误。为了解决这个问题，我们引入了自适应特征细化（AFR）模块，通过使用低分辨率逻辑值的语义先验来细化高分辨率特征，从而提高分割精度。AFR还整合了捕捉精细结构并提供关键边界信息的高频成分，改善了物体的描绘。此外，AFR通过基于不确定性的注意力自适应地平衡局部和全局信息，减少了误分类。其轻量化设计可以无缝集成到基于HRDA的UDA方法中，达到了最先进的分割性能。我们的方法在GTA V到Cityscapes和Synthia到Cityscapes的现有UDA-SS方法上分别提升了1.05%的mIoU和1.04%的mIoU。我们的框架实现可在以下链接获取：this https URL\n\n作者：Md. Al-Masrur Khan, Durgakant Pushp, Lantao Liu\n\nURL: https://arxiv.org/pdf/2507.17957.pdf\n\n标题：2025 [2507.17957] AFRDA: 自适应特征细化用于域自适应语义分割。",
+        "地址": "https://arxiv.org/pdf/2507.17957.pdf"
+    }
+]
