@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2507.19849] Agentic Reinforced Policy Optimization.pdf",
+        "作者": "Guanting Dong, Hangyu Mao, Kai Ma, Licheng Bao, Yifei Chen, Zhongyuan Wang, Zhongxia Chen, Jiazhen Du, Huiyang Wang, Fuzheng Zhang, Guorui Zhou, Yutao Zhu, Ji-Rong Wen, Zhicheng Dou",
+        "摘要": "摘要：大规模可验证奖励强化学习（RLVR）已证明其在利用大语言模型（LLM）进行单轮推理任务方面的有效性。在现实的推理场景中，LLM通常可以利用外部工具来辅助任务解决过程。然而，当前的RL算法在模型内在的长时段推理能力和多轮工具交互的熟练程度之间未能得到很好地平衡。为弥合这一差距，我们提出了Agentic Reinforced Policy Optimization (ARPO)，一种新型的适用于训练多轮LLM代理的代理性RL算法。通过初步实验，我们观察到LLM往往表现出高度不确定的行为，这种行为的特征是在与外部工具交互后生成的tokens熵分布增加。受这一观察的启发，ARPO引入了一种基于熵的自适应回溯机制，动态平衡全局轨迹采样和步骤级采样，从而在工具使用后不确定性高的步骤中促进探索。通过结合优势归因估计，ARPO使LLM能够内化步骤级工具使用交互中的优势差异。我们在计算推理、知识推理和深度搜索领域的13个挑战性基准测试中的实验表明，ARPO优于轨迹级RL算法。值得注意的是，ARPO仅使用现有方法一半的工具使用预算就实现了性能提升，提供了一种可扩展的解决方案，使LLM代理与实时动态环境对齐。我们的代码和数据集发布在此URL。\n\n论文作者：Guanting Dong, Hangyu Mao, Kai Ma, Licheng Bao, Yifei Chen, Zhongyuan Wang, Zhongxia Chen, Jiazhen Du, Huiyang Wang, Fuzheng Zhang, Guorui Zhou, Yutao Zhu, Ji-Rong Wen, Zhicheng Dou",
+        "地址": "https://arxiv.org/pdf/2507.19849.pdf"
+    },
+    {
+        "名称": "2025 [2507.20939] ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts.pdf",
+        "作者": "Yuying Ge, Yixiao Ge, Chen Li, Teng Wang, Junfu Pu, Yizhuo Li, Lu Qiu, Jin Ma, Lisheng Duan, Xinyu Zuo, Jinwen Luo, Weibo Gu, Zexuan Li, Xiaojing Zhang, Yangyu Tao, Han Hu, Di Wang, Ying Shan",
+        "摘要": "摘要: 实际世界中的用户生成短视频，特别是在微信频道和TikTok等平台上的视频，主导了移动互联网。然而，当前的大型多模态模型缺乏必要的时间结构、详细和深入的视频理解能力，这是有效视频搜索和推荐以及新兴视频应用的基础。由于其复杂的视觉元素、视觉和音频中的高信息密度以及快速的节奏，这些实际短视频的理解实际上是具有挑战性的，这些特点集中在情感表达和观点传递上。这需要先进的推理能力来有效地整合包括视觉、音频和文本在内的多模态信息。在这项工作中，我们介绍了ARC-Hunyuan-Video，这是一种多模态模型，可以从原始视频输入中端到端处理视觉、音频和文本信号以进行结构化理解。该模型能够实现多粒度的时间戳视频字幕和摘要、开放性的视频问答、视频的时间定位和视频推理。利用来自自动注释管道的高质量数据，我们的紧凑型7B参数模型通过综合方案进行训练：预训练、指令微调、冷启动、强化学习（RL）后训练和最终的指令微调。对我们引入的基准ShortVid-Bench的定量评估和定性比较显示了其在实际视频理解中的强大表现，并且支持零样本或通过少量样本微调来进行多种下游应用。我们模型的实际生产部署在用户参与度和满意度方面取得了明显和可测量的改进，压力测试显示在H20 GPU上对一分钟视频的推理时间仅为10秒。",
+        "地址": "https://arxiv.org/pdf/2507.20939.pdf"
+    },
+    {
+        "名称": "2025 [2507.21046] A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence.pdf",
+        "作者": "Huan-ang Gao, Jiayi Geng, Wenyue Hua, Mengkang Hu, Xinzhe Juan, Hongzhang Liu, Shilong Liu, Jiahao Qiu, Xuan Qi, Yiran Wu, Hongru Wang, Han Xiao, Yuhang Zhou, Shaokun Zhang, Jiayi Zhang, Jinyu Xiang, Yixiong Fang, Qiwen Zhao, Dongrui Liu, Qihan Ren, Cheng Qian, Zhenghailong Wang, Minda Hu, Huazheng Wang, Qingyun Wu, Heng Ji, Mengdi Wang",
+        "摘要": "摘要：大型语言模型（LLMs）已经展示出强大能力，但仍然是根本性的静态，无法在新任务、不断变化的知识领域或动态互动环境中调整其内部参数。随着LLMs越来越多地在开放性互动环境中部署，这种静态性质已成为一个关键瓶颈，迫切需要能够实时适应性推理、行动和进化的代理。这种范式的转变 —— 从扩展静态模型到开发自我进化代理 —— 引发了对不断学习和从数据、互动和经验中适应的方法和架构的浓厚兴趣。本综述提供了首次系统且全面的自我进化代理审查，围绕三个基本维度组织——进化什么，何时进化，如何进化。我们考察代理组件（例如，模型、记忆、工具、架构）的进化机制，按阶段（例如，测试时间内、测试时间间）分类适应方法，并分析引导进化适应的算法和架构设计（例如，标量奖励、文本反馈、单代理和多代理系统）。此外，我们分析了针对自我进化代理的评估指标和基准，强调了在编码、教育和医疗等领域的应用，并确定了在安全性、可扩展性和共同进化动态方面的关键挑战和研究方向。通过提供一个结构化框架来理解和设计自我进化代理，本综述为推进适应性代理系统在研究和现实世界中的部署建立了路线图，最终为实现人工超级智能（ASI）铺平道路，其中代理自主进化，在广泛任务上表现达到或超过人类水平智能。",
+        "地址": "https://arxiv.org/pdf/2507.21046.pdf"
+    },
+    {
+        "名称": "2025 [2507.21049] Rep-MTL: Unleashing the Power of Representation-level Task Saliency for Multi-Task Learning.pdf",
+        "作者": "Zedong Wang, Siyuan Li, Dan Xu",
+        "摘要": "摘要：尽管多任务学习（Multi-Task Learning, MTL）在利用跨任务的互补知识方面具有很大的潜力，但现有的多任务优化（MTO）技术仍然集中于通过优化器中心的损失缩放和梯度操作策略来解决冲突，但未能提供一致的收益。本文中，我们认为任务交互自然发生的共享表示空间提供了丰富的信息和潜力，可以用于补充现有优化器的操作，特别是促进任务间的互补性，这是在MTO中很少被探索的。这一直觉导致了Rep-MTL，通过利用表示级任务显著性来量化任务特定优化和共享表示学习之间的交互。通过熵基惩罚和样本级跨任务对齐来引导这些显著性，Rep-MTL旨在通过保持单个任务的有效训练而不是纯粹解决冲突，同时明确促进互补信息共享来缓解负迁移。我们在四个具有挑战性的MTL基准上进行了实验，涵盖了任务转换和领域转换场景。结果表明，Rep-MTL即使与基础的等权重策略结合使用，也能实现具有竞争力的性能提升，且效率良好。除了标准性能指标外，幂律指数分析还展示了Rep-MTL在平衡任务特定学习和跨任务共享方面的有效性。项目页面可在此找到：HERE。",
+        "地址": "https://arxiv.org/pdf/2507.21049.pdf"
+    },
+    {
+        "名称": "2025 [2507.20984] SmallThinker: A Family of Efficient Large Language Models Natively Trained for Local Deployment.pdf",
+        "作者": "Yixin Song, Zhenliang Xue, Dongliang Wei, Feiyang Chen, Jianxiang Gao, Junchen Liu, Hangyu Liang, Guangshuo Qin, Chengrong Tian, Bo Wen, Longyu Zhao, Xinrui Zheng, Zeyu Mi, Haibo Chen",
+        "摘要": "摘要：前沿的大型语言模型（LLMs）继续突破能力边界，但其部署仍局限于依靠GPU驱动的云基础设施。我们提出SmallThinker，一个本地设备原生设计的LLMs家族：弱计算能力、有限内存和慢速存储。与主要压缩为云构建的现有模型的传统方法不同，我们从零开始设计了SmallThinker，使其在这些限制条件下表现卓越。我们的创新在于一个部署感知的架构，将约束转化为设计原则。首先，我们引入了一个细粒度专家混合（Mixture-of-Experts, MoE）与稀疏前馈网络相结合的两级稀疏结构，极大地减少了计算需求而不牺牲模型能力。其次，为了解决慢速存储的I/O瓶颈，我们设计了一个预注意路由器，使我们的共同设计的推理引擎能够在计算注意力时从存储预取专家参数，有效地隐藏存储延迟，否则会削弱设备上的推理性能。第三，为了提高内存效率，我们利用NoPE-RoPE混合稀疏注意机制减少KV缓存需求。我们发布了SmallThinker-4B-A0.6B和SmallThinker-21B-A3B，这些模型实现了最先进的性能分数，甚至超越了更大的LLMs。值得注意的是，我们的共同设计系统几乎消除了对昂贵GPU硬件的需求：使用Q4_0量化后，两款模型在普通消费者CPU上都超过了每秒20个tokens，同时分别只消耗1GB和8GB内存。SmallThinker在此网址和此网址公开提供。\n\nURL: https://arxiv.org/pdf/2507.20984.pdf",
+        "地址": "https://arxiv.org/pdf/2507.20984.pdf"
+    },
+    {
+        "名称": "2025 [2507.21045] Reconstructing 4D Spatial Intelligence: A Survey.pdf",
+        "作者": "Yukang Cao, Jiahao Lu, Zhisheng Huang, Zhuowei Shen, Chengfeng Zhao, Fangzhou Hong, Zhaoxi Chen, Xin Li, Wenping Wang, Yuan Liu, Ziwei Liu",
+        "摘要": "摘要：从视觉观察中重建四维空间智能一直是计算机视觉中的一个核心且具有挑战性的任务，具有广泛的现实应用。这些应用领域从娱乐领域（如电影行业，主要关注重建基本的视觉元素）到强调交互建模和物理现实的实体人工智能。由于3D表示和深度学习架构的快速发展，该领域迅速演变，超出了之前综述的范围。此外，现有的综述很少提供关于四维场景重建的层级结构的全面分析。为了解决这一问题，我们提出了一种将现有方法组织到五个逐步发展的四维空间智能层次的新视角：（1）第一层次——重建低级的3D属性（如深度、姿势和点图）；（2）第二层次——重建3D场景组件（如物体、人物、结构）；（3）第三层次——重建四维动态场景；（4）第四层次——建模场景组件之间的交互；（5）第五层次——融合物理定律和约束。我们通过讨论每个层次的关键挑战并突出推进更丰富的四维空间智能水平的有希望的方向来结束这一综述。为追踪最新发展，我们维护了一个最新的项目页面：\"this https URL\"。",
+        "地址": "https://arxiv.org/pdf/2507.21045.pdf"
+    },
+    {
+        "名称": "2025 [2507.20673] Geometric-Mean Policy Optimization.pdf",
+        "作者": "Yuzhong Zhao, Yue Liu, Junpeng Liu, Jingye Chen, Xun Wu, Yaru Hao, Tengchao Lv, Shaohan Huang, Lei Cui, Qixiang Ye, Fang Wan, Furu Wei",
+        "摘要": "摘要：近年来，诸如群体相对策略优化（Group Relative Policy Optimization，GRPO）等研究进展，通过优化符号级奖励的算术平均值，增强了大型语言模型的推理能力。然而，GRPO在处理重要性权重奖励为异常值的符号时，会出现不稳定的策略更新，这在训练期间表现为极端的重要性采样比率（即当前和旧策略为符号分配的采样概率之比）。在本研究中，我们提出了一种稳定的GRPO变体，即几何平均策略优化（Geometric-Mean Policy Optimization，GMPO）。GMPO不是优化算术平均值，而是最大化符号级奖励的几何平均值，这本质上对异常值不那么敏感，并保持了更稳定的重要性采样比率。此外，我们提供了全面的理论和实验分析，以证明GMPO的设计和稳定性优势。除了稳定性提高外，在多个数学基准上，GMPO-7B的表现平均比GRPO高4.1%，在多模态推理基准上高出1.4%，包括AIME24、AMC、MATH500、OlympiadBench、Minerva和Geometry3K。代码发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2507.20673.pdf"
+    },
+    {
+        "名称": "2025 [2507.21033] GPT-IMAGE-EDIT-1.5M: A Million-Scale, GPT-Generated Image Dataset.pdf",
+        "作者": "Yuhan Wang, Siwei Yang, Bingchen Zhao, Letian Zhang, Qing Liu, Yuyin Zhou, Cihang Xie",
+        "摘要": "摘要：近期，大型多模态模型（如GPT-4o）的进展为高保真、指令引导的图像编辑设立了新标准。然而，这些模型及其训练数据的专有性质对于开源研究构成了重大障碍。为了弥补这一差距，我们介绍了GPT-IMAGE-EDIT-1.5M，这是一个公开可用的大规模图像编辑语料库，包含超过150万个高质量的三元组（指令、源图像、编辑后的图像）。我们利用GPT-4o的多功能能力，系统地构建该数据集，并统一和改进了三个流行的图像编辑数据集：OmniEdit、HQ-Edit和UltraEdit。具体而言，我们的方法包括1）重新生成输出图像以增强视觉质量和指令对齐，2）选择性地重写提示以提高语义清晰度。为了验证数据集的有效性，我们在GPT-IMAGE-EDIT-1.5M上微调了先进的开源模型。实证结果令人兴奋，例如，微调后的FluxKontext在一整套基准测试中表现非常出色，包括在GEdit-EN上得分为7.24，在ImgEdit-Full上得分为3.80，以及在Complex-Edit上得分为8.78，显示了更强的指令遵循性和更高的感知质量，同时保持了身份一致性。这些分数显著超过了以前发表的所有开源方法，并大大缩小了与领先的专有模型之间的差距。我们希望GPT-IMAGE-EDIT-1.5M的全面发布能够促进指令引导的图像编辑的进一步开放研究。\n\n翻译作者：王宇涵，杨思维，赵秉宸，张乐天，刘青，周于音，谢慈航",
+        "地址": "https://arxiv.org/pdf/2507.21033.pdf"
+    },
+    {
+        "名称": "2025 [2507.20025] Region-based Cluster Discrimination for Visual Representation Learning.pdf",
+        "作者": "Yin Xie, Kaicheng Yang, Xiang An, Kun Wu, Yongle Zhao, Weimo Deng, Zimin Ran, Yumeng Wang, Ziyong Feng, Roy Miles, Ismail Elezi, Jiankang Deng",
+        "摘要": "摘要：视觉表示学习是各种后续任务的基础。尽管最近的视觉-语言对比模型，如CLIP和SigLIP，通过大规模的视觉-语言对齐实现了令人印象深刻的零样本性能，但它们对全局表示的依赖限制了它们在密集预测任务（如基础、OCR和分割）中的有效性。为了解决这一差距，我们介绍了一种增强区域级视觉和OCR能力的新方法——区域感知集群判别（RICE）。我们首先构建了一个十亿级候选区域数据集，并提出了一个区域变压器层来提取丰富的区域语义。我们进一步设计了一个统一的区域集群判别损失，能够在单一分类框架内联合支持对象和OCR学习，允许在大规模数据上进行高效和可扩展的分布式训练。大量实验表明，RICE在分割、密集检测和多模态大语言模型（MLLMs）的视觉感知等任务上一直优于以往的方法。预训练模型已在该网址发布。\n\n作者：Yin Xie, Kaicheng Yang, Xiang An, Kun Wu, Yongle Zhao, Weimo Deng, Zimin Ran, Yumeng Wang, Ziyong Feng, Roy Miles, Ismail Elezi, Jiankang Deng\n\n备注：被ICCV 2025接收为亮点论文\n\n链接：https://arxiv.org/pdf/2507.20025.pdf\n\n标题：2025 [2507.20025] 基于区域的集群判别用于视觉表示学习",
+        "地址": "https://arxiv.org/pdf/2507.20025.pdf"
+    },
+    {
+        "名称": "2025 [2507.17189] Met$^2$Net: A Decoupled Two-Stage Spatio-Temporal Forecasting Model for Complex Meteorological Systems.pdf",
+        "作者": "Shaohan Li, Hao Yang, Min Chen, Xiaolin Qin",
+        "摘要": "摘要：由于全球气候变化导致极端天气事件频率的增加，准确的天气预测变得越来越迫切。最近，随着深度学习技术的发展，端到端方法取得了巨大的进展，但它们在多变量整合中面临表示不一致性的限制，并且难以有效捕捉复杂天气系统中变量之间的依赖关系。将不同的变量视为不同的模态，并应用来自多模态模型的两阶段训练方法可以部分缓解这一问题，但由于两个阶段之间训练任务的不一致性，结果往往不理想。为了解决这些挑战，我们提出了一种隐式两阶段训练方法，为每个变量配置独立的编码器和解码器。具体而言，在第一阶段中，冻结翻译器，同时编码器和解码器学习一个共享的潜在空间；在第二阶段中，冻结编码器和解码器，翻译器捕捉变量间的交互进行预测。此外，通过在潜在空间引入自注意机制进行多变量融合，性能获得了进一步的提升。实验证明，我们的方法在多个实验中表现出最先进的性能。具体来说，它将近地表气温和相对湿度预测的MSE分别降低了28.82%和23.39%。源代码可在此链接获得：网址https://arxiv.org/pdf/2507.17189.pdf。",
+        "地址": "https://arxiv.org/pdf/2507.17189.pdf"
+    },
+    {
+        "名称": "2025 [2507.19766] UloRL:An Ultra-Long Output Reinforcement Learning Approach for Advancing Large Language Models' Reasoning Abilities.pdf",
+        "作者": "Dong Du, Shulin Liu, Tao Yang, Shaohua Chen, Yang Li",
+        "摘要": "摘要: 近年来，大型语言模型（LLMs）的进展凸显了具有可验证奖励的强化学习（RLVR）通过扩展输出序列来增强推理能力的潜力。然而，传统的强化学习框架在处理超长输出时，由于长尾序列分布和训练过程中熵崩塌，面临效率低下的问题。为了解决这些挑战，我们提出了一种超长输出强化学习（UloRL）方法，以提高大型语言模型的推理能力。具体而言，我们将超长输出解码分为短段，从而通过减少长尾样本引起的延迟来实现高效训练。此外，我们引入了动态屏蔽已经掌握的正令牌（MPTs），以防止熵崩塌。实验结果表明，我们的方法是有效的。在Qwen3-30B-A3B模型上，具有段落展开的强化学习实现了训练速度提高2.06倍，而具有128k令牌输出的强化学习提高了模型在AIME2025上的性能，从70.9%提升至85.1%，在BeyondAIME上从50.7%提升至61.9%，甚至超越了Qwen3-235B-A22B，取得了显著进步。这些发现强调了我们的方法在生成超长序列方面增强LLMs推理能力的潜力。我们将发布代码和模型以供社区进一步使用。",
+        "地址": "https://arxiv.org/pdf/2507.19766.pdf"
+    },
+    {
+        "名称": "2025 [2507.19804] ForCenNet: Foreground-Centric Network for Document Image Rectification.pdf",
+        "作者": "Peng Cai, Qiang Li, Kaicheng Yang, Dong Guo, Jia Li, Nan Zhou, Xiang An, Ninghua Yang, Jiankang Deng",
+        "摘要": "摘要: 文件图像校正旨在消除拍摄文件中的几何变形，以促进文本识别。然而，现有方法常常忽略了前景元素的重要性，而这些元素提供了文件图像校正所需的基本几何参考和布局信息。本文提出了前景中心网络（ForCenNet）来消除文件图像中的几何失真。具体来说，我们首先提出了一种前景中心标签生成方法，从未失真的图像中提取详细的前景元素。然后我们引入了一种前景中心遮罩机制，以增强可阅读区域和背景区域之间的区别。此外，我们设计了一种曲率一致性损失，以利用详细的前景标签帮助模型理解失真的几何分布。广泛实验表明，ForCenNet在诸如DocUNet、DIR300、WarpDoc和DocReal四个真实世界基准上实现了最新的最先进水平。定量分析显示，所提出的方法有效地校正了布局元素，如文本行和表格边框。进一步比较的资源可在此https URL访问。",
+        "地址": "https://arxiv.org/pdf/2507.19804.pdf"
+    },
+    {
+        "名称": "2025 [2507.19058] ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment.pdf",
+        "作者": "Chong Xia, Shengjun Zhang, Fangfu Liu, Chang Liu, Khodchaphun Hirunyaratsameewong, Yueqi Duan",
+        "摘要": "摘要：永久性3D场景生成旨在产生长距离且连贯的3D视图序列，这适用于长期视频合成和3D场景重建。现有方法遵循“导航与想象”的模式，并依赖外延绘制来进行连续视图扩展。然而，生成的视图序列存在语义漂移问题，这是由外延模块的累积偏差引起的。为了解决这一挑战，我们提出了ScenePainter，一种用于语义一致的3D场景生成的新框架，该框架将外延绘制器的场景特定先验与当前场景的理解对齐。具体来说，我们引入了一种称为SceneConceptGraph的分层图结构，用于构建多级场景概念之间的关系，这引导外延绘制器生成一致的新视图，并且可以动态调整以增强多样性。大量实验证明，我们的框架克服了语义漂移问题，生成了更加一致和沉浸的3D视图序列。项目页面：此https URL。",
+        "地址": "https://arxiv.org/pdf/2507.19058.pdf"
+    },
+    {
+        "名称": "2025 [2507.20900] Music Arena: Live Evaluation for Text-to-Music.pdf",
+        "作者": "Yonghyun Kim, Wayne Chi, Anastasios N. Angelopoulos, Wei-Lin Chiang, Koichi Saito, Shinji Watanabe, Yuki Mitsufuji, Chris Donahue",
+        "摘要": "摘要：我们提出了音乐竞技场 (Music Arena)，这是一个用于文本到音乐 (TTM) 模型可扩展的人类偏好评估的开放平台。通过听力研究来征求人类偏好是 TTM 评估的黄金标准，但这些研究进行成本高昂且难以比较，因为研究协议可能因系统而异。此外，人类偏好可能帮助研究人员调整 TTM 系统或改进自动评估指标，但目前尚不存在开放且可更新的偏好来源。我们旨在通过提供实时评估来填补这些空白。在音乐竞技场中，真实世界的用户输入他们选择的文本提示，并比较两个 TTM 系统的输出，他们的偏好被用于编制排行榜。虽然音乐竞技场遵循其他 AI 领域的近期评估趋势，但我们也设计了针对音乐的关键特性：基于大型语言模型 (LLM) 的路由系统，以导航 TTM 系统的异构类型签名，以及收集详细的偏好包括听力数据和自然语言反馈。我们还提出了一项滚动数据发布政策，提供用户隐私保证，提供可更新的偏好数据来源并增加平台透明度。通过其标准化的评估协议、透明的数据访问政策和音乐特定的功能，音乐竞技场不仅解决了 TTM 生态系统中的关键挑战，还展示了如何将实时评估巧妙地适应特定 AI 领域的独特特征。\n\n音乐竞技场可在此网址访问：this https URL",
+        "地址": "https://arxiv.org/pdf/2507.20900.pdf"
+    },
+    {
+        "名称": "2025 [2507.20880] JAM: A Tiny Flow-based Song Generator with Fine-grained Controllability and Aesthetic Alignment.pdf",
+        "作者": "Renhang Liu, Chia-Yu Hung, Navonil Majumder, Taylor Gautreaux, Amir Ali Bagherzadeh, Chuan Li, Dorien Herremans, Soujanya Poria",
+        "摘要": "摘要：扩散和流匹配模型近年来在自动文本生成音频方面取得了革命性的进展。这些模型越来越能够生成高质量且忠实的音频输出，涵盖语音和声学事件。然而，在主要涉及音乐和歌曲的创造性音频生成方面，仍有很大的改进空间。最近的开放歌词生成歌曲模型，如DiffRhythm、ACE-Step和LeVo，已在休闲使用的自动歌曲生成方面设立了一个可接受的标准。然而，这些模型缺乏音乐工作流程中音乐人常常需要的细粒度的词级控制。据我们所知，我们的基于流匹配的JAM是首次在歌曲生成中赋予词级时间和持续时间控制的努力，实现细粒度的声乐控制。为了增强生成歌曲的质量，以更好地符合人类的偏好，我们通过直接偏好优化实现了美学对齐，该方法使用合成数据集迭代优化模型，消除了手动数据标注的需求。此外，我们旨在通过我们的公开评估数据集JAME标准化此类歌词生成歌曲模型的评估。我们表明，JAM在音乐特定属性方面优于现有模型。\n\n作者：刘仁航、洪家愉、纳沃尼尔·马朱姆德、泰勒·戈特罗、阿米尔·阿里·巴赫扎德、李川、多里恩·赫莱曼斯、苏姜雅·波里亚\n\n注释：this https URL\n\n网址：https://arxiv.org/pdf/2507.20880.pdf\n\n标题：2025 [2507.20880] JAM：具有细粒度可控性和美学对齐的小型基于流的歌曲生成器",
+        "地址": "https://arxiv.org/pdf/2507.20880.pdf"
+    },
+    {
+        "名称": "2025 [2507.20187] Diversity-Enhanced Reasoning for Subjective Questions.pdf",
+        "作者": "Yumeng Wang, Zhiyuan Fan, Jiayu Liu, Yi R. Fung",
+        "摘要": "摘要: 大型推理模型（LRM）凭借其长链推理（CoT）能力在数学推理和编码等客观任务中表现出色。然而，在可能出现不同观点的主观问题上，它们的表现仍然受到同质化推理的倾向的限制，这种倾向因监督微调中的单一真实值和强化学习中的可验证奖励引入。基于增加角色视角能够一致提高性能的发现，我们提出了MultiRole-R1，这是一种具有多角色视角的增强多样性框架，以提高主观推理任务的准确性和多样性。MultiRole-R1 具有一个无监督数据构建管道，该管道生成包含多角色视角的推理链。我们进一步采用通过组相对策略优化（GRPO）进行强化学习，并通过将多样性作为奖励信号来进行奖励塑造，除了可验证奖励的基础。在专门设计的奖励函数下，我们成功促进了视角多样性和词汇多样性，揭示了推理多样性和准确性的正相关关系。我们在六个基准测试上的实验展示了MultiRole-R1在增强主观和客观推理方面的有效性和普遍性，展示了在LRM中增强多样性训练的潜力。\n\n翻译：abstract: 大型推理模型（LRM）凭借其长链推理（CoT）能力在数学推理和编码等客观任务中表现出色。然而，它们在可能有不同观点的主观问题上的有效性仍然因在监督微调中依赖单一真实值和在强化学习中依赖可验证奖励而倾向于同质化推理。基于增加角色视角始终能够改善性能的发现，我们提出了MultiRole-R1，这是一种通过多角色视角增强多样性框架，以提高主观推理任务的准确性和多样性。MultiRole-R1包含一个无监督数据构建管道，生成包含不同角色视角的推理链。我们还通过组相对策略优化（GRPO）以及奖励塑造引入强化学习，将多样性作为奖励信号，除此之外还有可验证奖励。通过专门设计的奖励函数，我们成功地促进了视角多样性和词汇多样性，揭示了推理多样性与准确性之间的正相关关系。我们的六项基准测试实验表明MultiRole-R1在提高主观和客观推理方面的有效性和普遍性，展示了增强多样性训练在LRM中的潜力。",
+        "地址": "https://arxiv.org/pdf/2507.20187.pdf"
+    },
+    {
+        "名称": "2025 [2507.20152] Goal Alignment in LLM-Based User Simulators for Conversational AI.pdf",
+        "作者": "Shuhaib Mehri, Xiaocheng Yang, Takyoung Kim, Gokhan Tur, Shikib Mehri, Dilek Hakkani-Tür",
+        "摘要": "摘要：用户模拟器对会话式人工智能至关重要，通过模拟交互实现可扩展的代理开发和评估。尽管当前的大型语言模型（LLM）在用户模拟能力上取得了进展，但我们发现它们难以在多轮对话中始终表现出以目标为导向的行为——这一关键限制影响了其在下游应用中的可靠性。我们引入了用户目标状态跟踪（UGST），这是一个在对话过程中跟踪用户目标进展的新框架。利用UGST，我们提出了一个三阶段方法来开发能够自主跟踪目标进展并推理生成目标对齐响应的用户模拟器。此外，我们建立了用于衡量用户模拟器中目标对齐的综合评估指标，并表明我们的方法在两个基准测试（MultiWOZ 2.4和τ-Bench）中取得了显著的改进。我们的贡献弥补了会话式人工智能中的一个关键空白，并将UGST确立为开发目标对齐用户模拟器的重要框架。\n\n2025年，Shuhaib Mehri, Xiaocheng Yang, Takyoung Kim, Gokhan Tur, Shikib Mehri, Dilek Hakkani-Tür.\n\n链接: https://arxiv.org/pdf/2507.20152.pdf\n\n标题：2025 [2507.20152] 基于LLM的会话式AI用户模拟器中的目标对齐.pdf",
+        "地址": "https://arxiv.org/pdf/2507.20152.pdf"
+    },
+    {
+        "名称": "2025 [2507.16806] Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty.pdf",
+        "作者": "Mehul Damani, Isha Puri, Stewart Slocum, Idan Shenfeld, Leshem Choshen, Yoon Kim, Jacob Andreas",
+        "摘要": "摘要:当语言模型（LMs）通过强化学习（RL）训练来生成自然语言“推理链”时，它们在各种难题回答任务中的表现有所提高。今天，几乎所有成功的推理RL应用都使用二元奖励函数来评估LM输出的正确性。由于这种奖励函数不会惩罚猜测或低可信度的输出，它们通常会导致校准退化，并增加LM在其他问题领域生成错误响应（或“幻觉”）的频率。本文介绍了RLCR（带校准奖励的强化学习），这是一种训练推理模型的方法，可以同时提高准确性和校准的可信度估计。在RLCR过程中，LM在推理后生成预测和数值可信度估计。它们被训练来优化一个奖励函数，该奖励函数通过Brier得分（一种针对可信度估计的评分规则，鼓励校准预测）增加二元正确性评分。我们首先证明了这种奖励函数（或任何类似的使用有限、适当评分规则的奖励函数）产生的模型，其预测既准确又校准良好。接着，我们展示了在不同的数据集上，RLCR在没有损失准确性的情况下大幅改善了校准，且在域内和域外评价中都优于普通RL训练和为分配事后可信度评分而训练的分类器。普通RL会损害校准，而RLCR则能改善校准。最后，我们展示在测试时可以利用口头表达的可信度通过可信度加权缩放方法提高准确性和校准。我们的结果显示，明确优化校准可以产生更可靠的推理模型。\n\n作者: Mehul Damani, Isha Puri, Stewart Slocum, Idan Shenfeld, Leshem Choshen, Yoon Kim, Jacob Andreas\n\n标题: 超越二元奖励：训练LMs推理其不确定性\n\n链接: https://arxiv.org/pdf/2507.16806.pdf",
+        "地址": "https://arxiv.org/pdf/2507.16806.pdf"
+    },
+    {
+        "名称": "2025 [2507.20527] SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers.pdf",
+        "作者": "Chaitanya Manem, Pratik Prabhanjan Brahma, Prakamya Mishra, Zicheng Liu, Emad Barsoum",
+        "摘要": "摘要：各行业对能够进行复杂数学推理的大型语言模型（LLMs）的需求不断增长。然而，高性能数学LLMs的开发因缺乏困难且新颖的训练数据而受到严重限制。我们引入了\\\\textbf{SAND-Math}（合成增强的小说且困难的数学问题与解答），该管道首先从头开始生成高质量问题，然后通过新的\\\\textbf{难度提升}步骤系统地提高其复杂性。我们通过两个关键发现展示了我们方法的有效性。首先，将SAND-Math数据用于增强一个强大的基线显著提升了性能，在AIME25基准测试上比次佳的合成数据集表现提升了\\\\textbf{17.85点}。其次，在专门的消融研究中，我们展示了我们的难度提升过程非常有效：通过将平均问题难度从5.02提高到5.98，此步骤将AIME25的表现从46.38\\\\%提高到49.23\\\\%。完整的生成管道、最终数据集和微调模型构成了构建更具能力且高效的数学推理LLMs的实用且可扩展的工具包。SAND-Math数据集在此发布：\\\\href{this https URL}{this https URL}",
+        "地址": "https://arxiv.org/pdf/2507.20527.pdf"
+    },
+    {
+        "名称": "2025 [2507.21848] EDGE-GRPO: Entropy-Driven GRPO with Guided Error Correction for Advantage Diversity.pdf",
+        "作者": "Xingjian Zhang, Siwei Wen, Wenjun Wu, Lei Huang",
+        "摘要": "摘要：大型语言模型（LLMs）通过强化学习在增强逐步推理方面取得了显著进展。然而，依赖稀疏奖励规则的群体相对策略优化（GRPO）算法经常遇到组内奖励相同的问题，导致优势崩溃问题。现有工作通常从两个方面解决这一挑战：强化模型反思以增强响应多样性，和引入内部反馈以增强训练信号（优势）。在这项工作中，我们首先分析了模型反思的局限性，并研究了在细粒度样本级别上响应的策略熵。基于我们的实验结果，我们提出了EDGE-GRPO算法，该算法采用熵驱动优势和引导误差校正来有效缓解优势崩溃问题。在几个主要推理基准上进行的大量实验表明我们的方法的有效性和优越性。可以通过此链接获取：https://arxiv.org/pdf/2507.21848.pdf\n\n作者：张兴健，温思危，吴文俊，黄磊",
+        "地址": "https://arxiv.org/pdf/2507.21848.pdf"
+    },
+    {
+        "名称": "2025 [2507.21035] GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis.pdf",
+        "作者": "Haoyang Liu, Yijiang Li, Haohan Wang",
+        "摘要": "摘要：基因表达分析是许多生物医学发现的关键，但由于庞大的半结构化数据文件的复杂性以及需要广泛的领域专业知识，从原始转录组数据中提取洞见仍然是一个艰巨的任务。当前的自动化方法往往受到僵化的工作流限制，当遇到边缘情况时会失败，或是完全自主的代理缺乏严格科学探究所需的精确性。GenoMAS通过结合结构化工作流的可靠性和自主代理的适应性，走出了一条不同的道路。GenoMAS通过类型化消息传递协议协调六个专门的LLM代理，每个代理在共享的分析画布上发挥互补性作用。GenoMAS的核心是一个引导规划框架：编程代理将高层任务指南展开成动作单元，在每个阶段选择前进、修订、绕过或回溯，从而在保持逻辑连贯性的同时灵活应对基因数据的特殊性。\n\n在GenoTEX基准测试中，GenoMAS在数据预处理中达到了89.13%的综合相似性相关性，并在基因识别中达到了60.48%的F$_1$，分别超过了之前最好的结果10.61%和16.85%。除了指标之外，GenoMAS还揭示了生物学上合理的基因-表型关联，这些关联得到了文献的支持，同时调整了潜在的混杂因素。代码可在此URL获取。\n\n评论：51页，5张图。",
+        "地址": "https://arxiv.org/pdf/2507.21035.pdf"
+    },
+    {
+        "名称": "2025 [2507.19399] Running in CIRCLE? A Simple Benchmark for LLM Code Interpreter Security.pdf",
+        "作者": "Gabriel Chua",
+        "摘要": "论文摘要：随着大型语言模型（LLMs）逐渐集成原生代码解释器，它们能够实现强大的实时执行能力，显著扩展了其应用范围。然而，这种集成也引入了潜在的系统级网络安全威胁，这些威胁与基于提示的漏洞有本质上的不同。为了系统地评估这些与解释器相关的风险，我们提出了CIRCLE（代码解释器应对LLM漏洞的弹性检查），这是一个简单的基准测试，包含1260个针对CPU、内存和磁盘资源耗尽的提示。每个风险类别包括显然具有恶意的（\"直接\"）和看似无害的（\"间接\"）提示变体。我们的自动评估框架不仅评估LLMs是否拒绝或生成风险代码，还在解释器环境中执行生成的代码以评估代码的正确性、LLMs为使代码安全而做出的简化或执行超时。我们评估了来自OpenAI和谷歌的7个商业可用模型，发现了显著且不一致的漏洞。例如，评估显示即使在提供商内部也存在显著差异——OpenAI的o4-mini正确拒绝风险请求的比例为7.1%，明显高于GPT-4.1的0.5%。结果特别强调，间接的、社会工程化的提示显著削弱了模型防御能力。这突显出迫切需要制定与解释器相关的网络安全基准、专用的缓解工具（如防护栏）和明确的行业标准，以指导LLM解释器集成的安全和负责任部署。基准测试数据集和评估代码已公开发布，以促进进一步研究。",
+        "地址": "https://arxiv.org/pdf/2507.19399.pdf"
+    }
+]
