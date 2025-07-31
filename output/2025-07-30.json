@@ -1,0 +1,62 @@
+[
+    {
+        "名称": "2025 [2507.21809] HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels.pdf",
+        "作者": "HunyuanWorld Team, Zhenwei Wang, Yuhao Liu, Junta Wu, Zixiao Gu, Haoyuan Wang, Xuhui Zuo, Tianyu Huang, Wenhuan Li, Sheng Zhang, Yihang Lian, Yulin Tsai, Lifu Wang, Sicong Liu, Puhua Jiang, Xianghui Yang, Dongyuan Guo, Yixuan Tang, Xinyue Mao, Jiaao Yu, Junlin Yu, Jihong Zhang, Meng Chen, Liang Dong, Yiwen Jia, Chao Zhang, Yonghao Tan, Hao Zhang, Zheng Ye, Peng He, Runzhou Wu, Minghui Chen, Zhan Li, Wangchen Qin, Lei Wang, Yifu Sun, Lin Niu, Xiang Yuan, Xiaofeng Yang, Yingping He, Jie Xiao, Yangyu Tao, Jianchen Zhu, Jinbao Xue, Kai Liu, Chongqing Zhao, Xinming Wu, Tian Liu, Peng Chen, Di Wang, Yuhong Liu, Linus, Jie Jiang, Tengfei Wang, Chunchao Guo",
+        "摘要": "摘要：从文本或图像创建沉浸式和可玩3D世界仍然是计算机视觉和图形学中的一个基本挑战。现有的世界生成方法通常分为两类：视频为基础的方法提供了丰富的多样性，但缺乏3D一致性和渲染效率；基于3D的方法提供了几何一致性，但由于训练数据有限和记忆效率低下的表示形式而难以实现。为了克服这些限制，我们提出了HunyuanWorld 1.0，这是一种新颖的框架，结合两者的优点来从文本和图像条件生成沉浸式、可探索和互动的3D场景。我们的方法具有三个主要优点：1）通过全景世界代理提供360°沉浸式体验；2）网格导出功能与现有的计算机图形管道无缝兼容；3）解缠结的对象表示用于增强互动。我们框架的核心是利用全景图像作为360°世界代理的语义分层3D网格表示，用于语义感知的世界分解和重建，从而生成多样化的3D世界。大量实验表明，我们的方法在生成连贯、可探索和互动的3D世界方面实现了最先进的性能，同时能在虚拟现实、物理模拟、游戏开发和互动内容创作方面应用广泛。",
+        "地址": "https://arxiv.org/pdf/2507.21809.pdf"
+    },
+    {
+        "名称": "2025 [2507.22058] X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again.pdf",
+        "作者": "Zigang Geng, Yibing Wang, Yeyao Ma, Chen Li, Yongming Rao, Shuyang Gu, Zhao Zhong, Qinglin Lu, Han Hu, Xiaosong Zhang, Linus, Di Wang, Jie Jiang",
+        "摘要": "摘要：许多努力已经致力于将“下一个令牌预测”范式扩展到视觉内容，以创建一种统一的方法来进行图像生成和理解。然而，通过使用离散令牌的自回归建模方法生成图像常常遇到诸如低视觉保真度、输出失真以及在渲染复杂细节时无法遵循复杂指令等问题。这些缺陷可能归因于自回归推理过程中累积的错误或离散化过程中的信息丢失。可能由于这一挑战，最近的研究越来越倾向于通过联合训练图像生成（采用扩散目标）和语言生成（采用自回归目标）的方法，转向远离统一建模方法。在这项工作中，我们证明了强化学习能够有效减少伪影并大幅提升离散自回归建模方法的生成质量，从而实现图像和语言生成的无缝集成。我们的框架包括一个语义图像分词器，一个用于语言和图像的统一自回归模型，以及一个用于图像生成的离线扩散解码器，称为X-Omni。X-Omni在图像生成任务中使用7B语言模型实现了最先进的性能，生成具有高美学质量的图像，同时在遵循指令和呈现长文本方面表现出强大的能力。\n\n作者：Zigang Geng, Yibing Wang, Yeyao Ma, Chen Li, Yongming Rao, Shuyang Gu, Zhao Zhong, Qinglin Lu, Han Hu, Xiaosong Zhang, Linus, Di Wang, Jie Jiang\n\nURL链接：https://arxiv.org/pdf/2507.22058.pdf\n\n标题：2025 [2507.22058] X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again.pdf",
+        "地址": "https://arxiv.org/pdf/2507.22058.pdf"
+    },
+    {
+        "名称": "2025 [2507.21990] ChemDFM-R: An Chemical Reasoner LLM Enhanced with Atomized Chemical Knowledge.pdf",
+        "作者": "Zihan Zhao, Bo Chen, Ziping Wan, Lu Chen, Xuanze Lin, Shiyang Yu, Situo Zhang, Da Ma, Zichen Zhu, Danyang Zhang, Huayang Wang, Zhongyang Dai, Liyang Wen, Xin Chen, Kai Yu",
+        "摘要": "摘要：虽然大型语言模型（LLMs）在许多领域取得了显著进展，它们在化学等科学领域中的应用仍然受到有限的领域理解和推理能力的制约。在这项工作中，我们专注于化学领域并开发了一个化学推理大型语言模型——ChemDFM-R。我们首先构建了一个全面的原子化知识点数据集，以增强模型对化学基本原理和逻辑结构的理解。随后，我们提出了一个混合来源的蒸馏策略，该策略结合了专家精心整理的知识和通用领域的推理技能，并通过领域特定的强化学习来增强化学推理。在各种化学基准测试中的实验表明，ChemDFM-R实现了最先进的性能，并提供了可解释的、以理由为驱动的输出。进一步的案例研究展示了显式推理链如何显著提高模型在现实世界中人机协作场景中的可靠性、透明性和实用性。",
+        "地址": "https://arxiv.org/pdf/2507.21990.pdf"
+    },
+    {
+        "名称": "2025 [2507.14111] CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning.pdf",
+        "作者": "Xiaoya Li, Xiaofei Sun, Albert Wang, Jiwei Li, Chris Shum",
+        "摘要": "摘要：\nGPU计算资源需求的指数级增长为自动化CUDA优化策略带来了迫切需求。虽然最近LLMs（大型语言模型）的进展在代码生成方面展现了潜力，但当前最先进（SOTA）的模型在提升CUDA速度方面成功率较低。在本文中，我们介绍了CUDA-L1，这是一种用于CUDA优化的自动化强化学习框架，采用了一种新的对比强化学习算法。CUDA-L1在CUDA优化任务上实现了显著性能提升：在NVIDIA A100上训练，平均加速比为3.12倍，中位数加速比为1.42倍，在KernelBench的全部250个CUDA内核中，峰值加速比达到120倍。此外，该模型还展示了跨GPU架构的可移植性，尽管专门针对A100进行优化，但在L40上实现了平均加速比3.12倍，RTX 3090上为2.50倍，H100上为2.39倍，H20上为2.37倍。CUDA-L1的能力展示了通过基于加速的奖励信号，仅通过速度奖励而无需人工专业知识或领域知识，RL（强化学习）可以将一个初始表现不佳的LLM转化为有效的CUDA优化器。这一范式为CUDA操作的自动化优化开辟了可能性，并有望大幅提升GPU效率，缓解对GPU计算资源日益增长的压力。我们还识别了为CUDA开发等任务训练RL模型所带来的重要挑战，其中RL经常学习利用奖励函数的漏洞而不是解决预期的优化问题。通过识别这些失败模式并分析其根本原因，我们开发了实用方法，用于创建更稳健的训练程序，以防止奖励作弊。\n\n作者：Xiaoya Li, Xiaofei Sun, Albert Wang, Jiwei Li, Chris Shum\n评论：项目页面：https网址\n链接：https://arxiv.org/pdf/2507.14111.pdf\n标题：2025 [2507.14111] CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning.pdf",
+        "地址": "https://arxiv.org/pdf/2507.14111.pdf"
+    },
+    {
+        "名称": "2025 [2507.21183] MaPPO: Maximum a Posteriori Preference Optimization with Prior Knowledge.pdf",
+        "作者": "Guangchen Lan, Sipeng Zhang, Tianle Wang, Yuwei Zhang, Daoan Zhang, Xinpeng Wei, Xiaoman Pan, Hongming Zhang, Dong-Jun Han, Christopher G. Brinton",
+        "摘要": "摘要: 随着代表用户的大型语言模型（LLMs）时代的展开，偏好优化（PO）方法已成为使LLMs与人类偏好对齐并提高性能的核心方法。我们提出最大后验偏好优化（MaPPO），这是一个从偏好中学习的框架，将先验奖励知识显式地纳入优化目标中。现有的方法，如直接偏好优化（DPO）及其变体，将偏好学习视为最大似然估计（MLE）问题，而MaPPO通过将先验奖励估计整合到原则性的最大后验（MaP）目标中，扩展了这一范式。这不仅使DPO及其变体得以推广，还通过减轻过于简化的响应二元分类来增强对齐。更重要的是，MaPPO不引入额外的超参数，并支持离线和在线环境下的偏好优化。此外，MaPPO可以作为插件，持续改进包括广泛使用的SimPO、IPO和CPO等DPO变体。在包括MT-Bench、AlpacaEval 2.0和Arena-Hard在内的三个标准基准上，对不同模型尺寸和模型系列的广泛实证评估显示，在不牺牲计算效率的情况下，保持一致的对齐性能改进。",
+        "地址": "https://arxiv.org/pdf/2507.21183.pdf"
+    },
+    {
+        "名称": "2025 [2507.20254] MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification.pdf",
+        "作者": "Dingkun Liu, Zhu Chen, Jingwei Luo, Shijie Lian, Dongrui Wu",
+        "摘要": "摘要：脑机接口（BCIs）能够实现大脑与外部设备之间的直接通信。最近的EEG基础模型旨在跨各种BCI范式学习广泛的表示。然而，这些方法忽略了基本的范式特定的神经生理学区别，限制了它们的泛化能力。重要的是，在实际的BCI部署中，特定的范式如用于中风康复或辅助机器人运动想象（MI），通常在数据采集之前确定。本文提出了MIRepNet，第一个针对MI范式的EEG基础模型。MIRepNet包括一个高质量的EEG预处理管道，结合一个神经生理学信息通道模板，可适应具有任意电极配置的EEG头戴设备。此外，我们引入了一种混合预训练策略，结合自监督掩码标记重建和监督MI分类，促进在少于每类30次试验的新下游MI任务上快速适应和准确解码。在五个公共MI数据集上的广泛评估表明，MIRepNet始终实现了最先进的性能，显著优于专业化和通用化的EEG模型。我们的代码将在GitHub上提供。",
+        "地址": "https://arxiv.org/pdf/2507.20254.pdf"
+    },
+    {
+        "名称": "2025 [2507.20240] AnimalClue: Recognizing Animals by their Traces.pdf",
+        "作者": "Risa Shinoda, Nakamasa Inoue, Iro Laina, Christian Rupprecht, Hirokatsu Kataoka",
+        "摘要": "摘要：野生动物观察在生物多样性保护中起着重要作用，需要强有力的方法来监测野生动物种群和物种间的相互作用。近年来，计算机视觉的进步极大地促进了野生动物观察基本任务的自动化，如动物检测和物种识别。然而，从间接证据（如足迹和粪便）准确识别物种尽管在野生动物监测中重要，却相对未被充分探索。为弥补这一差距，我们引入了AnimalClue，这是第一个基于间接证据图像的物种识别的大规模数据集。我们的数据集包含159,605个边界框，涵盖五类间接线索：足迹、粪便、蛋、骨骼和羽毛。它涵盖了968种动物、200个科和65个目。每张图像都有物种级别标签、边界框或分割掩码，以及包括活动模式和栖息地偏好在内的细颗粒特征信息。与主要关注直接视觉特征（如动物外貌）的现有数据集不同，AnimalClue由于需要识别更细致和微妙的视觉特征，为分类、检测和实例分割任务带来了独特的挑战。在我们的实验中，我们广泛评估了具有代表性的视觉模型，并发现了通过动物痕迹进行识别的关键挑战。我们的数据集和代码可以在此 https URL 获得。",
+        "地址": "https://arxiv.org/pdf/2507.20240.pdf"
+    },
+    {
+        "名称": "2025 [2507.22061] MOVE: Motion-Guided Few-Shot Video Object Segmentation.pdf",
+        "作者": "Kaining Ying, Hengrui Hu, Henghui Ding",
+        "摘要": "摘要: 本文研究了运动引导的少样本视频对象分割 (FSVOS) 问题，其目标是基于具有相同运动模式的少量注释示例，在视频中分割动态对象。现有的FSVOS数据集和方法通常集中于对象类别，这是静态属性，忽略了视频中的丰富时间动态，限制了它们在需要运动理解的场景中的应用。为填补这一空白，我们引入了MOVE，一个专门为运动引导的FSVOS设计的大规模数据集。基于MOVE，我们全面评估了来自3个不同相关任务的6种最先进方法在2种实验设置中的表现。我们的结果表明，当前方法难以处理运动引导的FSVOS问题，促使我们分析相关挑战，并提出一种基线方法，解耦运动外观网络(DMA)。实验表明，我们的方法在少样本运动理解中表现优越，为这一方向的未来研究奠定了坚实基础。",
+        "地址": "https://arxiv.org/pdf/2507.22061.pdf"
+    },
+    {
+        "名称": "2025 [2507.21503] MoHoBench: Assessing Honesty of Multimodal Large Language Models via Unanswerable Visual Questions.pdf",
+        "作者": "Yanxu Zhu, Shitong Duan, Xiangxu Zhang, Jitao Sang, Peng Zhang, Tun Lu, Xiao Zhou, Jing Yao, Xiaoyuan Yi, Xing Xie",
+        "摘要": "摘要：近年来，多模态大型语言模型（MLLMs）在视觉-语言任务中取得了显著进展，但仍然可能产生有害或不可信的内容。尽管已有大量研究调查语言模型的可信度，MLLMs在面对视觉上无法回答的问题时表现诚实的能力仍然基本未被探索。本研究首次系统评估了各种MLLMs的诚实行为。我们依据模型对无法回答的视觉问题的回应行为来定义诚实，定义了四种代表性类型的问题，并构建了大规模的MLLMs诚实基准MoHoBench，该基准包括12k以上的视觉问题样本，样本质量通过多阶段筛选和人工验证得到保证。使用MoHoBench，我们对28种流行的MLLMs进行了基准测试，并进行了全面分析。我们的研究发现：(1)大多数模型未能在必要时适当地拒绝回答；(2)MLLMs的诚实不仅是语言建模的问题，还受到视觉信息的深刻影响，迫使我们需要开发专门的方法来进行多模态诚实对齐。因此，我们使用监督学习和偏好学习实施了初步的对齐方法，以改善诚实行为，为未来可信的MLLMs提供基础。我们的数据和代码可以在此链接找到：https URL。\n\n译者：Yanxu Zhu, Shitong Duan, Xiangxu Zhang, Jitao Sang, Peng Zhang, Tun Lu, Xiao Zhou, Jing Yao, Xiaoyuan Yi, Xing Xie",
+        "地址": "https://arxiv.org/pdf/2507.21503.pdf"
+    },
+    {
+        "名称": "2025 [2507.21364] Evaluating Deep Learning Models for African Wildlife Image Classification: From DenseNet to Vision Transformers.pdf",
+        "作者": "Lukman Jibril Aliyu, Umar Sani Muhammad, Bilqisu Ismail, Nasiru Muhammad, Almustapha A Wakili, Seid Muhie Yimam, Shamsuddeen Hassan Muhammad, Mustapha Abdullahi",
+        "摘要": "摘要：非洲野生动物种群面临严峻威胁，过去五十年间，脊椎动物数量下降了超过65%。作为应对策略，使用深度学习进行图像分类成为了生物多样性监测和保护的有希望工具。本文对使用冻结特征提取器进行迁移学习来自动分类非洲野生动物图像的深度学习模型进行了比较研究。我们使用一个包含四种动物（野牛、大象、犀牛和斑马）的公共数据集，评估了DenseNet-201、ResNet-152、EfficientNet-B4和Vision Transformer ViT-H/14的性能。DenseNet-201在卷积网络中表现最佳（准确率为67%），而ViT-H/14总体准确率最高（99%），但计算成本显著较高，带来了部署方面的顾虑。我们的实验强调了准确性、资源要求和可部署性之间的权衡。表现最佳的CNN模型（DenseNet-201）已整合到一个用于实地实时使用的Hugging Face Gradio空间中，展示了在保护环境中部署轻量级模型的可行性。本研究通过提供有关模型选择、数据集准备和深度学习工具负责任部署的实践见解，贡献了非洲基础的人工智能研究。",
+        "地址": "https://arxiv.org/pdf/2507.21364.pdf"
+    }
+]
