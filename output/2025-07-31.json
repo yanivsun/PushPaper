@@ -1,0 +1,74 @@
+[
+    {
+        "名称": "2025 [2507.22827] ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents.pdf",
+        "作者": "Yilei Jiang, Yaozhi Zheng, Yuxuan Wan, Jiaming Han, Qunzhong Wang, Michael R. Lyu, Xiangyu Yue",
+        "摘要": "摘要: 自动将用户界面 (UI) 设计转换为前端代码在加速软件开发和普及设计工作流程方面具有重要潜力。尽管近期的大型语言模型（LLMs）在文本到代码生成方面取得了进展，但许多现有方法仅依赖于自然语言提示，在捕捉空间布局和视觉设计意图方面的效果有限。相较之下，实际的 UI 开发本质上是多模态的，通常从视觉草图或模型开始。为了弥补这一差距，我们介绍了一个模块化多代理框架，该框架通过三个可解释的阶段进行 UI 到代码的生成: 基础、规划和生成。基础代理使用视觉语言模型检测和标记 UI 组件，规划代理利用前端工程先验构建层次布局，生成代理通过自适应提示生成 HTML/CSS 代码。这种设计在稳健性、可解释性和与真实设计的匹配度上比端到端黑箱方法有显著提高。此外，我们将框架扩展到一个可扩展的数据引擎，自动生成大规模的图像-代码对。利用这些合成示例，我们微调和强化了一个开源视觉语言模型，在 UI 理解和代码质量方面取得了显著的提升。广泛的实验表明，我们的方法在布局准确性、结构一致性和代码正确性方面达到了最先进的性能。我们的代码已在此 URL 公开提供。",
+        "地址": "https://arxiv.org/pdf/2507.22827.pdf"
+    },
+    {
+        "名称": "2025 [2507.22448] Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance.pdf",
+        "作者": "Jingwei Zuo, Maksim Velikanov, Ilyas Chahed, Younes Belkada, Dhia Eddine Rhayem, Guillaume Kunsch, Hakim Hacid, Hamza Yous, Brahim Farhat, Ibrahim Khadraoui, Mugariya Farooq, Giulia Campesan, Ruxandra Cojocaru, Yasser Djilali, Shi Hu, Iheb Chaabane, Puneesh Khanna, Mohamed El Amine Seddik, Ngoc Dung Huynh, Phuc Le Khac, Leen AlQadi, Billel Mokeddem, Mohamed Chami, Abdalgader Abubaker, Mikhail Lubinets, Kacper Piskorski, Slim Frikha",
+        "摘要": "摘要：在本报告中，我们介绍了Falcon-H1，一系列具有混合架构设计的大型语言模型（LLMs），旨在优化多种使用案例的高性能和效率。与仅采用Transformer或Mamba架构的早期Falcon模型不同，Falcon-H1采用并行混合方法，结合了基于Transformer的关注机制和状态空间模型（SSMs），后者因其优越的长时上下文记忆和计算效率而知名。我们系统地重新审视了模型设计、数据策略和训练动态，挑战了该领域的传统实践。Falcon-H1发布了多种配置，包括基本变体和指令调优变体，参数规模分别为0.5B、1.5B、1.5B-deep、3B、7B、34B。量化指令调优模型也可供下载，总计超过30个检查点在Hugging Face Hub上。Falcon-H1模型表现出了最先进的性能和卓越的参数与训练效率。旗舰模型Falcon-H1-34B可匹敌或超越规模高达70B的模型，如Qwen3-32B、Qwen2.5-72B和Llama3.3-70B，同时使用的参数更少，数据也更少。较小的模型显示出类似的趋势：Falcon-H1-1.5B-Deep与现有领先的7B-10B模型竞争，Falcon-H1-0.5B的表现相当于2024年的典型7B模型。这些模型在推理、数学、多语言任务、指令遵循和科学知识方面表现出色。支持最多256K的上下文标记和18种语言，Falcon-H1适用于广泛的应用。所有模型均以宽松的开源许可证发布，强调我们对可访问和有影响力的人工智能研究的承诺。",
+        "地址": "https://arxiv.org/pdf/2507.22448.pdf"
+    },
+    {
+        "名称": "2025 [2507.21493] BANG: Dividing 3D Assets via Generative Exploded Dynamics.pdf",
+        "作者": "Longwen Zhang, Qixuan Zhang, Haoran Jiang, Yinuo Bai, Wei Yang, Lan Xu, Jingyi Yu",
+        "摘要": "摘要：3D 创作一直是人类独特的优势，源于我们使用眼睛、思维和手来解构和重新组装物体的能力。然而，目前的 3D 设计工具难以复制这一自然过程，需要相当多的艺术专业知识和手工劳动。本文介绍了一种名为 BANG 的新型生成方法，它将 3D 生成和推理连接起来，使 3D 对象的部件级分解直观且灵活。BANG 的核心是“生成爆炸动态”，它为输入几何体创建一个平滑的爆炸状态序列，逐步分离部件，同时保持它们的几何和语义连贯性。\n\nBANG 利用了一个预训练的大规模潜在扩散模型，通过一个轻量级的爆炸视图适配器对爆炸动态进行微调，使得分解过程可以精确控制。它还结合了一个时间注意模块，以确保时间上的平滑过渡和一致性。BANG 通过空间提示（如边界框和表面区域）增强了控制，使用户能够指定要分解的部件以及如何分解。这种交互方式可以与诸如 GPT-4 的多模态模型结合，支持从 2D 到 3D 的操作从而实现更直观和创造性的工作流程。\n\nBANG 的功能不仅限于生成详细的部件级几何，还能够将部件与功能描述关联起来，并促进组件感知的 3D 创作和制造工作流程。此外，BANG 在 3D 打印中的应用十分广泛，可以生成易于打印和重新组装的可分离部件。总的来说，BANG 实现了从富有想象力的概念到详细 3D 资产的无缝转变，为与人类直觉相契合的创作提供了新的视角。",
+        "地址": "https://arxiv.org/pdf/2507.21493.pdf"
+    },
+    {
+        "名称": "2025 [2507.22607] VL-Cogito: Progressive Curriculum Reinforcement Learning for Advanced Multimodal Reasoning.pdf",
+        "作者": "Ruifeng Yuan, Chenghao Xiao, Sicong Leng, Jianyu Wang, Long Li, Weiwen Xu, Hou Pong Chan, Deli Zhao, Tingyang Xu, Zhongyu Wei, Hao Zhang, Yu Rong",
+        "摘要": "摘要: 强化学习已证明其在增强大型语言模型的推理能力方面的有效性。近期的研究努力逐步将这一范式扩展到多模态推理任务。由于多模态任务在语义内容和问题表述方面具有固有的复杂性和多样性，现有模型在不同领域和难度级别上往往表现出不稳定性。为了应对这些限制，我们提出了VL-Cogito，这是一种通过新颖的多阶段渐进课程强化学习（PCuRL）框架训练的先进多模态推理模型。PCuRL系统地指导模型逐步完成难度逐渐增加的任务，大幅度提高其在多样化的多模态环境中的推理能力。该框架引入了两个关键创新：(1) 在线难度软加权机制，动态调整连续RL训练阶段的训练难度；(2) 动态长度奖励机制，鼓励模型根据任务复杂性自适应调整推理路径长度，平衡推理效率与正确性。实验评估表明，VL-Cogito在数学、科学、逻辑和一般理解的主流多模态基准测试中表现稳定或超越现有推理导向模型，验证了我们方法的有效性。\n\n作者: 袁瑞峰, 肖成昊, 冷思聪, 王建宇, 李龙, 徐伟文, 陈厚邦, 赵得立, 许廷阳, 魏忠玉, 张浩, 戎宇\n\n评论: 21页, 5个图, 6个表。进行中的工作\n\n链接: [https://arxiv.org/pdf/2507.22607.pdf](https://arxiv.org/pdf/2507.22607.pdf)\n\n标题: 2025 [2507.22607] VL-Cogito: 渐进课程强化学习用于高级多模态推理.pdf",
+        "地址": "https://arxiv.org/pdf/2507.22607.pdf"
+    },
+    {
+        "名称": "2025 [2507.20976] Adapting Vehicle Detectors for Aerial Imagery to Unseen Domains with Weak Supervision.pdf",
+        "作者": "Xiao Fang, Minhyek Jeon, Zheyang Qin, Stanislav Panev, Celso de Melo, Shuowen Hu, Shayok Chakraborty, Fernando De la Torre",
+        "摘要": "摘要: 在航空影像中检测车辆是一项关键任务，具有在交通监控、城市规划和国防情报中的应用。深度学习方法为该应用提供了最先进的结果。然而，当在一个地理区域的数据上训练的模型无法有效泛化到其他地区时，会出现显著挑战。环境条件、城市布局、道路网络、车辆类型和图像采集参数（如分辨率、光照和角度）的变化导致的域偏差会降低模型性能。本文提出了一种新颖的方法，使用生成式AI合成高质量的航空图像及其标签，通过数据增强改善检测器训练。我们的主要贡献是开发了一种利用微调潜在扩散模型（LDMs）的多阶段、多模态知识转移框架，以减小源环境和目标环境之间的分布差距。通过在不同航空影像领域的广泛实验表明，与在源域数据上的监督学习、弱监督适应方法、无监督域适应方法以及开放集对象检测器相比，我们的方法在AP50上分别提高了4-23%、6-10%、7-40%和超过50%的性能。此外，我们引入了来自新西兰和犹他州的两个新注释的航空数据集，以支持该领域的进一步研究。项目页面可在以下网址访问：此https URL\n\n作者: Xiao Fang, Minhyek Jeon, Zheyang Qin, Stanislav Panev, Celso de Melo, Shuowen Hu, Shayok Chakraborty, Fernando De la Torre\n\n注释: ICCV 2025\n\n链接: https://arxiv.org/pdf/2507.20976.pdf\n\n标题: 2025 [2507.20976] 使用弱监督技术将车辆检测器适应于看不见的域中的航空影像",
+        "地址": "https://arxiv.org/pdf/2507.20976.pdf"
+    },
+    {
+        "名称": "2025 [2507.22062] Meta CLIP 2: A Worldwide Scaling Recipe.pdf",
+        "作者": "Yung-Sung Chuang, Yang Li, Dong Wang, Ching-Feng Yeh, Kehan Lyu, Ramya Raghavendra, James Glass, Lifei Huang, Jason Weston, Luke Zettlemoyer, Xinlei Chen, Zhuang Liu, Saining Xie, Wen-tau Yih, Shang-Wen Li, Hu Xu",
+        "摘要": "摘要：对比语言—图像预训练（CLIP）是一种流行的基础模型，支持从零样本分类、检索到多模态大语言模型（MLLMs）的编码器。尽管CLIP成功地在来自英语世界的亿级图像-文本对上进行了训练，将CLIP的训练进一步扩展到从全球网络数据中进行学习仍然具有挑战性：（1）没有可处理非英语世界数据点的策划方法；（2）现有多语言CLIP的英语性能比其仅英语版本要差，即在LLMs中常见的“多语言性诅咒”。在此，我们介绍Meta CLIP 2，这是第一个从头训练CLIP的配方，基于全球网络规模的图像-文本对。为了推广我们的研究结果，我们进行了严格的消融实验，进行了最小的必要改变以解决上述挑战，并提出了一种配方，使英语和非英语世界数据互惠共利。在零样本ImageNet分类中，Meta CLIP 2 ViT-H/14比其仅英语版本高0.8%，比mSigLIP高0.7%，并且令人惊讶地在多语言基准测试中创造了新的最先进记录，例如CVQA达到57.4%、Babel-ImageNet达到50.2%和XM3600的图像到文本检索达到64.3%。",
+        "地址": "https://arxiv.org/pdf/2507.22062.pdf"
+    },
+    {
+        "名称": "2025 [2507.19427] Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding.pdf",
+        "作者": "StepFun: Bin Wang, Bojun Wang, Changyi Wan, Guanzhe Huang, Hanpeng Hu, Haonan Jia, Hao Nie, Mingliang Li, Nuo Chen, Siyu Chen, Song Yuan, Wuxun Xie, Xiaoniu Song, Xing Chen, Xingping Yang, Xuelin Zhang, Yanbo Yu, Yaoyu Wang, Yibo Zhu, Yimin Jiang, Yu Zhou, Yuanwei Lu, Houyi Li, Jingcheng Hu, Ka Man Lo, Ailin Huang, Binxing Jiao, Bo Li, Boyu Chen, Changxin Miao, Chang Lou, Chen Hu, Chen Xu, Chenfeng Yu, Chengyuan Yao, Daokuan Lv, Dapeng Shi, Deshan Sun, Ding Huang, Dingyuan Hu, Dongqing Pang, Enle Liu, Fajie Zhang, Fanqi Wan, Gulin Yan, Han Zhang, Han Zhou, Hanghao Wu, Hangyu Guo, Hanqi Chen, Hanshan Zhang, Hao Wu, Haocheng Zhang, Haolong Yan, Haoran Lv, Haoran Wei, Hebin Zhou, Heng Wang, Heng Wang, Hongxin Li, Hongyu Zhou, Hongyuan Wang, Huiyong Guo, Jia Wang, Jiahao Gong, Jialing Xie, Jian Zhou, Jianjian Sun, Jiaoren Wu, Jiaran Zhang, Jiayu Liu, Jie Cheng, Jie Luo, Jie Yan, Jie Yang, Jieyi Hou, Jinguang Zhang, Jinlan Cao, Jisheng Yin, Junfeng Liu, Junhao Huang, Junzhe Lin, Kaijun Tan, Kaixiang Li, Kang An, Kangheng Lin, Kenkun Liu, Lei Yang, Liang Zhao, Liangyu Chen, Lieyu Shi, Liguo Tan, Lin Lin, Lin Zhang, Lina Chen, Liwen Huang, Liying Shi, Longlong Gu, Mei Chen\n\n\n        , Mengqiang Ren, Ming Li, Mingzhe Chen, Na Wang, Nan Wu, Qi Han, Qian Zhao, Qiang Zhang, Qianni Liu, Qiaohui Chen, Qiling Wu, Qinglin He, Qinyuan Tan, Qiufeng Wang, Qiuping Wu, Qiuyan Liang, Quan Sun, Rui Li, Ruihang Miao, Ruosi Wan, Ruyan Guo, Shangwu Zhong, Shaoliang Pang, Shengjie Fan, Shijie Shang, Shilei Jiang, Shiliang Yang, Shiming Hao, Shuli Gao, Siming Huang, Siqi Liu, Tiancheng Cao, Tianhao Cheng, Tianhao Peng, Wang You, Wei Ji, Wen Sun, Wenjin Deng, Wenqing He, Wenzhen Zheng, Xi Chen, Xiangwen Kong, Xianzhen Luo, Xiaobo Yang, Xiaojia Liu, Xiaoxiao Ren, Xin Han, Xin Li, Xin Wu, Xu Zhao, Yanan Wei, Yang Li, Yangguang Li, Yangshijie Xu, Yanming Xu, Yaqiang Shi, Yeqing Shen, Yi Yang, Yifei Yang, Yifeng Gong, Yihan Chen, Yijing Yang, Yinmin Zhang, Yizhuang Zhou, Yuanhao Ding, Yuantao Fan, Yuanzhen Yang, Yuchu Luo, Yue Peng, Yufan Lu, Yuhang Deng, Yuhe Yin, Yujie Liu, Yukun Chen, Yuling Zhao, Yun Mou, Yunlong Li, Yunzhou Ju, Yusheng Li, Yuxiang Yang, Yuxiang Zhang, Yuyang Chen, Zejia Weng, Zhe Xie, Zheng Ge, Zheng Gong, Zhenyi Lu, Zhewei Huang, Zhichao Chang, Zhiguo Huang, Zhirui Wang, Zidong Yang, Zili Wang, Ziqi Wang, Zixin Zhang, Binxing Jiao, Daxin Jiang, Heung-Yeung Shum, Xiangyu Zhang\n\n\n    et al. (99 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要: 大型语言模型（LLMs）在解码过程中硬件效率低下，尤其是对于长上下文推理任务。本文介绍了Step-3，作为拥有3210亿参数的视觉语言模型，通过硬件感知的模型系统共同设计来优化解码成本。Step-3在两个关键方面进行了创新：（1） 一种新颖的多矩阵分解注意力机制（MFA），显著减少了KV缓存大小和计算量，同时保持了高注意力表现力；（2） 注意力-前馈网络分解（AFD），一个分布式推理系统，将注意力和前馈网络层解耦为专门的子系统。共同设计实现了前所未有的成本效率：Step-3显著降低了理论解码成本，与DeepSeek-V3和Qwen3 MoE 235B等模型相比，且在较长上下文情况下收益更大。Step-3在每个token激活38亿参数（超过了DeepSeek-V3和Qwen3 MoE 235B）的同时，表现出硬件对齐的注意力算术强度、MoE稀疏性及AFD对成本效益的关键作用。我们在DeepSeek-V3的有利场景中进行了一对一比较。我们的实现基于Hopper GPU，在50ms TPOT SLA（4K上下文，FP8，无MTP）下，每个GPU的解码吞吐量高达4039tokens/秒。相比下在相同设置下DeepSeek-V3为2324，Step-3在LLM解码方面设立了新的帕累托前沿。\n\n来源链接: https://arxiv.org/pdf/2507.19427.pdf",
+        "地址": "https://arxiv.org/pdf/2507.19427.pdf"
+    },
+    {
+        "名称": "2025 [2507.22886] Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation.pdf",
+        "作者": "Kaining Ying, Henghui Ding, Guangquan Jie, Yu-Gang Jiang",
+        "摘要": "摘要：近年来，指代音视频分割（RAVS）取得了显著进展，但在整合多模态信息以及深入理解和推理音视频内容方面仍然存在挑战。为扩展RAVS的边界并促进未来在该领域的研究，我们提出了全模态指代音视频分割（OmniAVS），这是一个包含2,104段视频和61,095个多模态指代表达的新数据集。OmniAVS的三大创新点为：（1）8种灵活结合文本、语音、声音和视觉线索的多模态表达；（2）强调对音频内容的理解，而不仅仅是检测其存在；（3）在表达中包含复杂的推理和世界知识。此外，我们引入了全模态指令分割助手（OISA），以应对OmniAVS中的多模态推理和细粒度理解音视频内容的挑战。OISA使用多模态大模型（MLLM）来理解复杂线索并执行基于推理的分割。大量实验表明，OISA在OmniAVS上的表现优于现有方法，并在其他相关任务中取得了竞争性结果。\n\n翻译作者：Kaining Ying, Henghui Ding, Guangquan Jie, Yu-Gang Jiang\n\n评论：ICCV 2025, 项目页面：这https URL\n\n网址：https://arxiv.org/pdf/2507.22886.pdf\n\n标题：2025 [2507.22886] 朝向指代音视频分割中全模态表达和推理的研究.pdf",
+        "地址": "https://arxiv.org/pdf/2507.22886.pdf"
+    },
+    {
+        "名称": "2025 [2507.22565] Efficient Differentially Private Fine-Tuning of LLMs via Reinforcement Learning.pdf",
+        "作者": "Afshin Khadangi, Amir Sartipi, Igor Tchappi, Ramin Bahmani, Gilbert Fridgen",
+        "摘要": "摘要:\n数据隐私与模型效用之间的紧张关系已成为在敏感语料（包括医疗保健）上训练的大型语言模型（LLM）实际部署的决定性瓶颈。差分隐私随机梯度下降（DP-SGD）保证了正式的隐私性，然而付出了巨大的代价：梯度被强制剪裁并添加噪声，导致样本效率和最终准确性下降。尽管已有许多变体被提出以缓解这一权衡，但它们都有一个共同的缺点：其控制参数是硬编码的，全局的，并且对不断变化的优化景观无知。因此，实践者要么不得不在追求效用时过度消耗隐私预算，要么为了保持在隐私限制内而接受平庸的模型。我们提出了RLDP，这是第一个将DP优化本身作为适合现代深度强化学习（RL）的闭环控制问题的框架。RLDP连续感知学习动态的丰富统计信息，通过选择细粒度的每个参数的梯度剪裁阈值以及注入高斯噪声的幅度来行动。在语言模型微调期间，一个软演员-批评家（SAC）超政策在线训练，它从头开始学习如何在重要的地方和重要的时间分配隐私预算。在GPT2-small、Llama-1B、Llama-3B和Mistral-7B上进行的超过1600次消融实验中，RLDP实现了1.3-30.5%（平均5.4%）的困惑度减少和平均5.6%的下游效用增益。RLDP仅使用13-43%的梯度更新预算（平均加速71%）就达到了每个基线的最终效用，同时遵守相同的($\\epsilon$, $\\delta$)-DP合同，并表现出对成员推断和金丝雀提取攻击的相等或更低的敏感性。",
+        "地址": "https://arxiv.org/pdf/2507.22565.pdf"
+    },
+    {
+        "名称": "2025 [2507.21802] MixGRPO: Unlocking Flow-based GRPO Efficiency with Mixed ODE-SDE.pdf",
+        "作者": "Junzhe Li, Yutao Cui, Tao Huang, Yinping Ma, Chun Fan, Miles Yang, Zhao Zhong",
+        "摘要": "摘要：尽管GRPO在图像生成的人类偏好对齐中大大增强了流动匹配模型，但诸如FlowGRPO之类的方法由于需要在马尔可夫决策过程(MDP)规定的所有去噪步骤上进行采样和优化，仍然表现出低效。在本文中，我们提出了一种新颖的框架$\\\\textbf{MixGRPO}$，通过结合随机微分方程(SDE)和常微分方程(ODE)，利用混合采样策略的灵活性，从而简化MDP内的优化过程，提高效率和性能。具体来说，MixGRPO引入了一种滑动窗口机制，仅在窗口内使用SDE采样和GRPO引导的优化，而在窗口外则应用ODE采样。这种设计将采样随机性限制在窗口内的时间步，从而减少了优化开销，并允许更集中地进行梯度更新以加速收敛。此外，由于窗口外的时间步不涉及优化，采样时支持更高阶求解器。因此，我们提出了一个更快的变体，称为$\\\\textbf{MixGRPO-Flash}$，在实现类似性能的同时进一步提高了训练效率。MixGRPO在人类偏好对齐的多个维度上表现出了显著的提升，在效果和效率上都超过了DanceGRPO，训练时间几乎减少了50%。值得注意的是，MixGRPO-Flash进一步将训练时间减少了71%。代码和模型可以在$\\\\href{this https URL}{MixGRPO}$找到。",
+        "地址": "https://arxiv.org/pdf/2507.21802.pdf"
+    },
+    {
+        "名称": "2025 [2507.22853] Repair-R1: Better Test Before Repair.pdf",
+        "作者": "Haichuan Hu, Xiaochen Xie, Quanjun Zhang",
+        "摘要": "摘要:\nAPR（自动程序修复）旨在自动定位程序缺陷，生成修补程序并验证修复效果。现有的APR技术通常与LLM（大型语言模型）结合，利用LLM的代码相关知识来提高修复效果。目前基于LLM的APR方法通常仅在推理阶段使用测试用例，采用一种先修复后通过测试执行验证的迭代方法。这种传统范式忽略了两个重要方面：测试用例在训练阶段的潜在贡献，以及在修复之前利用测试的可能性。为了解决这个问题，我们提出了Repair-R1，它在模型的训练阶段引入了测试用例，并将测试生成提前到了修复之前。模型需要首先生成能够区分有缺陷行为的鉴别性测试用例，然后基于这些测试进行修复。这使得模型能够更好地定位缺陷并理解其根本原因，从而提高修复效果。我们使用三种不同的基础模型实现了Repair-R1，并使用RL（强化学习）共同优化测试生成和缺陷修复。针对四个广泛采用的基准的实验结果表明，Repair-R1的优越性。特别地，与基础模型相比，Repair-R1的修复成功率提高了2.68%至48.29%，测试生成成功率提高了16.38%至53.28%，测试覆盖率提高了0.78%至53.96%。我们在以下网址发布了代码和权重：https URL和https URL。",
+        "地址": "https://arxiv.org/pdf/2507.22853.pdf"
+    },
+    {
+        "名称": "2025 [2507.13985] DreamScene: 3D Gaussian-based End-to-end Text-to-3D Scene Generation.pdf",
+        "作者": "Haoran Li, Yuli Tian, Kun Lan, Yong Liao, Lin Wang, Pan Hui, Peng Yuan Zhou",
+        "摘要": "摘要: 从自然语言生成3D场景在游戏、电影和设计领域有着广阔的应用前景。然而，现有方法在自动化、3D一致性和细粒度控制方面存在困难。我们提出了DreamScene，这是一种用于从文本或对话生成高质量、可编辑3D场景的端到端框架。DreamScene首先通过一个场景规划模块，其中一个GPT-4代理推断对象语义和空间约束来构建混合图。然后，基于图的放置算法生成结构化的、无碰撞的布局。在此布局的基础上，形成模式采样（FPS）通过多时间步采样和重建优化生成对象几何，支持快速而真实的合成。为了确保全球一致性，DreamScene采用了一种适用于室内和室外场景的渐进摄像头采样策略。最后，该系统支持细粒度场景编辑，包括对象移动、外观变化和四维动态运动。实验证明，DreamScene在质量、一致性和灵活性方面超过了现有方法，提供了一个实用的开放域3D内容创建解决方案。代码和演示可在该网址获取。",
+        "地址": "https://arxiv.org/pdf/2507.13985.pdf"
+    }
+]
