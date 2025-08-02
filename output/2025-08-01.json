@@ -1,0 +1,98 @@
+[
+    {
+        "名称": "2025 [2507.23726] Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving.pdf",
+        "作者": "Luoxin Chen, Jinming Gu, Liankai Huang, Wenhao Huang, Zhicheng Jiang, Allan Jie, Xiaoran Jin, Xing Jin, Chenggang Li, Kaijing Ma, Cheng Ren, Jiawei Shen, Wenlei Shi, Tong Sun, He Sun, Jiahui Wang, Siran Wang, Zhihong Wang, Chenrui Wei, Shufa Wei, Yonghui Wu, Yuchen Wu, Yihang Xia, Huajian Xin, Fan Yang, Huaiyuan Ying, Hongyi Yuan, Zheng Yuan, Tianyang Zhan, Chi Zhang, Yue Zhang, Ge Zhang, Tianyun Zhao, Jianqiu Zhao, Yichi Zhou, Thomas Hanwen Zhu",
+        "摘要": "摘要: 大型语言模型（LLMs）通过强化学习和长链式思维表现出强大的数学推理能力，但由于使用自然语言缺乏明确的监督信号，它们在定理证明方面仍然存在困难。像 Lean 这样的专用领域语言通过对证明的形式验证提供了清晰的监督，从而能够有效地通过强化学习进行训练。在这项工作中，我们提出了 \\textbf{Seed-Prover}，一种基于引理风格的整体证明推理模型。Seed-Prover 可以基于 Lean 的反馈、已证明的引理和自我总结迭代优化其证明。为了解决国际数学奥林匹克（IMO）级别的竞赛题，我们设计了三种测试时推理策略，既能进行深度推理，又能进行广泛推理。Seed-Prover 证明了过去 IMO 题目中 $78.1\\%$ 的形式化问题，饱和了 MiniF2F，并在 PutnamBench 上取得了超过 50\\% 的成绩，远远超过之前的最先进水平。为了应对 Lean 中几何支持的不足，我们引入了几何推理引擎 \\textbf{Seed-Geometry}，其性能优于之前的形式几何引擎。我们用这两个系统参加了 IMO 2025，并完全证明了 6 道题中的 5 道。此项工作在自动化数学推理方面取得了重大进展，证明了通过长链式思维进行形式验证的有效性。\n\n来源：https://arxiv.org/pdf/2507.23726.pdf",
+        "地址": "https://arxiv.org/pdf/2507.23726.pdf"
+    },
+    {
+        "名称": "2025 [2507.23779] Phi-Ground Tech Report: Advancing Perception in GUI Grounding.pdf",
+        "作者": "Miaosen Zhang, Ziqiang Xu, Jialiang Zhu, Qi Dai, Kai Qiu, Yifan Yang, Chong Luo, Tianyi Chen, Justin Wagle, Tim Franklin, Baining Guo",
+        "摘要": "摘要：随着多模态推理模型的发展，计算机使用代理（CUAs），类似于《钢铁侠》中的Jarvis，正在成为现实。GUI定位是CUAs执行实际操作的核心组成部分，类似于机器人中的机械控制，直接关系到系统的成败。它决定了点击和输入等操作，以及点击的坐标等相关参数。目前的端到端定位模型在ScreenSpot-pro和UI-Vision等具有挑战性基准测试中的准确率仍低于65%，表明它们远未准备好部署。在这项工作中，我们对定位模型的训练进行了实证研究，检查了从数据收集到模型训练的细节。最终，我们开发了Phi-Ground模型族，在代理设置中的所有五个定位基准测试中，实现了10B参数以下模型的最新性能。在端到端模型设置中，我们的模型仍然在ScreenSpot-pro上取得了43.2的SOTA结果，在UI-Vision上取得了27.2的SOTA结果。我们相信，本文讨论的各种细节以及我们的成功和失败，不仅澄清了定位模型的构建，也有益于其他感知任务。项目主页：https://arxiv.org/pdf/2507.23779.pdf",
+        "地址": "https://arxiv.org/pdf/2507.23779.pdf"
+    },
+    {
+        "名称": "2025 [2507.22968] C3: A Bilingual Benchmark for Spoken Dialogue Models Exploring Challenges in Complex Conversations.pdf",
+        "作者": "Chengqian Ma, Wei Tao, Yiwen Guo",
+        "摘要": "摘要: 语音对话模型 (SDM) 最近因其能够直接对用户的语音查询生成语音响应而受到广泛关注。尽管它们越来越受欢迎，但在全面理解其在理解和模仿人类对话方面的实际效果的研究中仍存在空白。与从广泛基准测试中受益的基于文本的大型语言模型 (LLM) 相比，情况尤为如此。由于语音对话特有的特征，人类语音交互本质上比文本更复杂。模糊性源于多义词之类的语义因素，以及异形同音字、异形同音词、重音模式等语音方面的原因，这构成了一个挑战。此外，上下文依赖性，如省略、共指和多轮交互等，进一步增加了人类对话动态的复杂性。为了揭示SDM发展的现状并应对这些挑战，我们在本文中提出了一个基准数据集，包括1,079个英文和中文实例。伴随着一种基于LLM的评估方法，该方法与人类判断紧密一致，这个数据集有助于全面探索SDM在应对这些实际挑战方面的性能。",
+        "地址": "https://arxiv.org/pdf/2507.22968.pdf"
+    },
+    {
+        "名称": "2025 [2507.22879] RecGPT Technical Report.pdf",
+        "作者": "Chao Yi, Dian Chen, Gaoyang Guo, Jiakai Tang, Jian Wu, Jing Yu, Mao Zhang, Sunhao Dai, Wen Chen, Wenjun Yang, Yuning Jiang, Zhujin Gao, Bo Zheng, Chi Li, Dimin Wang, Dixuan Wang, Fan Li, Fan Zhang, Haibin Chen, Haozhuang Liu, Jialin Zhu, Jiamang Wang, Jiawei Wu, Jin Cui, Ju Huang, Kai Zhang, Kan Liu, Lang Tian, Liang Rao, Longbin Li, Lulu Zhao, Na He, Peiyang Wang, Qiqi Huang, Tao Luo, Wenbo Su, Xiaoxiao He, Xin Tong, Xu Chen, Xunke Xi, Yang Li, Yaxuan Wu, Yeqiu Yang, Yi Hu, Yinnan Song, Yuchen Li, Yujie Luo, Yujin Yuan, Yuliang Yan, Zhengyang Wang, Zhibo Xiao, Zhixin Ma, Zile Zhou, Ziqi Zhang",
+        "摘要": "摘要：推荐系统是人工智能最具影响力的应用之一，作为连接用户、商家和平台的重要基础设施。然而，大多数现有的工业系统仍然严重依赖历史共现模式和日志拟合目标，即优化过去的用户互动，而未明确建模用户意图。 这种日志拟合方法通常会导致对历史偏好的过度拟合，未能捕捉用户不断变化和潜在的兴趣。 因此，它强化了滤泡和长尾现象，最终损害了用户体验并威胁整个推荐生态系统的可持续性。为了解决这些挑战，我们重新思考了推荐系统的整体设计范式，并提出了下一代框架 RecGPT，该框架将用户意图置于推荐流程的核心。通过在用户兴趣挖掘、项目检索和解释生成的关键阶段集成大型语言模型（LLM），RecGPT将日志拟合推荐转化为意图中心的过程。为了有效地将通用LLM与上述特定领域的推荐任务对齐，RecGPT采用了多阶段训练范式，该范式结合了增强推理的预对齐和自学习进化，并由人类-LLM协同判断系统指导。目前，RecGPT已全面部署在淘宝应用上。在线实验表明，RecGPT在各利益相关者中实现了一致的性能提升：用户受益于内容的多样性和满意度的提高，商家和平台获得了更大的曝光和转化。这些对所有利益相关者的全面改进结果验证了LLM驱动的意图中心设计可以促进一个更可持续和互利的推荐生态系统。\n\n",
+        "地址": "https://arxiv.org/pdf/2507.22879.pdf"
+    },
+    {
+        "名称": "2025 [2507.23682] villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models.pdf",
+        "作者": "Xiaoyu Chen, Hangxing Wei, Pushi Zhang, Chuheng Zhang, Kaixin Wang, Yanjiang Guo, Rushuai Yang, Yucen Wang, Xinquan Xiao, Li Zhao, Jianyu Chen, Jiang Bian",
+        "摘要": "摘要：视觉-语言-动作（VLA）模型已经成为学习机器人操作策略的一种流行范式，这种策略可以遵循语言指令并推广到新的场景。最近的研究开始探索将潜在动作（一种表示两个帧之间视觉变化的抽象表示）融入VLA预训练中。在本文中，我们介绍了villa-X，一种新颖的视觉-语言-潜在-动作（ViLLA）框架，该框架推进了潜在动作建模，用于学习可推广的机器人操作策略。我们的方法不仅改进了潜在动作的学习方式，还改进了它们在VLA预训练中的融合方式。这些贡献共同使villa-X在包括SIMPLER和LIBERO的模拟环境以及包括夹持器和灵巧手操控的两个真实世界机器人设置中实现了卓越的性能。我们相信ViLLA范式具有重大前景，而我们的villa-X为未来的研究提供了坚实的基础。",
+        "地址": "https://arxiv.org/pdf/2507.23682.pdf"
+    },
+    {
+        "名称": "2025 [2507.23277] iLRM: An Iterative Large 3D Reconstruction Model.pdf",
+        "作者": "Gyeongjin Kang, Seungtae Nam, Xiangyu Sun, Sameh Khamis, Abdelrahman Mohamed, Eunbyung Park",
+        "摘要": "摘要: 前馈式3D建模已成为快速高质量3D重建的有前景方法。特别是，直接生成显式3D表示（如3D高斯点）由于其快速和高质量的渲染以及众多应用而备受关注。然而，许多最先进的方法主要基于transformer架构，由于依赖于来自多个输入视图的图像标记的全面注意力，导致可扩展性问题严重，随着视图数量或图像分辨率的增加，计算成本不可接受。为了实现可扩展且高效的前馈3D重建，我们引入了迭代大型3D重建模型（iLRM），该模型通过迭代细化机制生成3D高斯表示，并遵循三个核心原则：(1) 将场景表示与输入视图图像分离，以实现紧凑的3D表示；(2)将全注意力的多视图交互分解为两阶段注意力方案，以降低计算成本；(3)在每一层注入高分辨率信息，以实现高保真重建。在广泛使用的数据集（如RE10K和DL3DV）上的实验结果表明，iLRM在重建质量和速度方面优于现有方法。值得注意的是，iLRM表现出优越的可扩展性，通过有效利用更多的输入视图，在相当的计算成本下，提供显著更高的重建质量。\n\n作者: 姜京鎭，南承泰，孙翔宇，萨米·卡米斯，阿卜杜勒拉赫曼·穆罕默德，朴恩炳\n\n备注: 项目页面: this https URL\n\n链接: https://arxiv.org/pdf/2507.23277.pdf\n\n标题: 2025 [2507.23277] iLRM: 迭代大型3D重建模型.pdf",
+        "地址": "https://arxiv.org/pdf/2507.23277.pdf"
+    },
+    {
+        "名称": "2025 [2507.23698] Scalable Multi-Task Reinforcement Learning for Generalizable Spatial Intelligence in Visuomotor Agents.pdf",
+        "作者": "Shaofei Cai, Zhancun Mu, Haiwen Xia, Bowei Zhang, Anji Liu, Yitao Liang",
+        "摘要": "摘要: 尽管强化学习（RL）在语言建模中取得了显著成功，但其胜利尚未完全转化为视觉运动代理。RL模型的一个主要挑战是它们往往会过度拟合特定任务或环境，从而阻碍在不同设置中获取可推广的行为。本文通过展示在《我的世界》中，RL微调的视觉运动代理可以实现零样本泛化到未见过的世界，为这一挑战提供了初步回答。具体而言，我们探讨了RL在增强3D世界中的可推广空间推理和交互能力方面的潜力。为了应对多任务RL表示中的挑战，我们分析并建立了跨视图目标规范，作为视觉运动策略的统一多任务目标空间。此外，为了克服手动任务设计的显著瓶颈，我们提出在高度可定制的《我的世界》环境中进行自动任务合成，以进行大规模多任务RL训练，并构建了支持这一点的高效分布式RL框架。实验结果表明，RL显著提高了交互成功率4倍，并实现了空间推理在包括现实环境在内的不同环境中的零样本泛化。我们的研究结果强调了RL训练在3D模拟环境中的巨大潜力，特别是在那些适合大规模任务生成的环境中，能够显著提升视觉运动代理的空间推理能力。\n\n作者: Shaofei Cai, Zhancun Mu, Haiwen Xia, Bowei Zhang, Anji Liu, Yitao Liang\n\n论文标题: 2025 [2507.23698] 可扩展的多任务强化学习，增强视觉运动代理的可推广空间智能\n\n链接: [https://arxiv.org/pdf/2507.23698.pdf](https://arxiv.org/pdf/2507.23698.pdf)",
+        "地址": "https://arxiv.org/pdf/2507.23698.pdf"
+    },
+    {
+        "名称": "2025 [2507.21509] Persona Vectors: Monitoring and Controlling Character Traits in Language Models.pdf",
+        "作者": "Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, Jack Lindsey",
+        "摘要": "摘要：大型语言模型通过一个模拟的“助手”人格与用户互动。虽然助手通常被训练成有帮助、无害且诚实的，但有时它会偏离这些理想。在本文中，我们确定了模型激活空间中的方向——人格向量——这些向量体现了多种特质，如邪恶、谄媚和幻觉倾向。我们证实了这些向量可以用来监测助手在部署时性格波动。然后，我们应用人格向量预测和控制训练期间发生的性格变化。我们发现，微调后意图的和非意图的性格变化都与相关人格向量的变化密切相关。通过事后干预可以减轻这些变化，或者通过一种新的预防引导方法可以一开始就避免这些变化。此外，人格向量可以用来标记那些会产生不良性格变化的训练数据，无论是在数据集层面还是在单个样本层面。我们提取人格向量的方法是自动化的，只要有自然语言描述，就可以应用于任何感兴趣的性格特质。",
+        "地址": "https://arxiv.org/pdf/2507.21509.pdf"
+    },
+    {
+        "名称": "2025 [2507.23374] NeRF Is a Valuable Assistant for 3D Gaussian Splatting.pdf",
+        "作者": "Shuangkang Fang, I-Chao Shen, Takeo Igarashi, Yufeng Wang, ZeSheng Wang, Yi Yang, Wenrui Ding, Shuchang Zhou",
+        "摘要": "摘要: 我们介绍了NeRF-GS，一个联合优化神经辐射场(NeRF)和3D高斯散射(3DGS)的新颖框架。该框架利用NeRF固有的连续空间表示来减轻3DGS的几个局限，包括对高斯初始化的敏感性、有限的空间感知以及较弱的高斯间相关性，从而提高其性能。在NeRF-GS中，我们重新审视了3DGS的设计，并逐步将其空间特征与NeRF对齐，使得两种表示能够通过共享的3D空间信息在同一场景中进行优化。我们进一步通过优化隐式特征和高斯位置的残差向量，来增强3DGS的个性化能力。基准数据集上的实验结果表明，NeRF-GS超越了现有方法，达到了最先进的性能。这一成果证实了NeRF和3DGS是互补而非竞争的，为结合3DGS和NeRF的高效3D场景表示提供了新的见解。",
+        "地址": "https://arxiv.org/pdf/2507.23374.pdf"
+    },
+    {
+        "名称": "2025 [2507.21584] TARS: MinMax Token-Adaptive Preference Strategy for Hallucination Reduction in MLLMs.pdf",
+        "作者": "Kejia Zhang, Keda Tao, Zhiming Luo, Chang Liu, Jiasheng Tang, Huan Wang",
+        "摘要": "摘要：多模态大型语言模型 (MLLMs) 使得视觉语言推理成为可能，但通常会生成表面上合理但实际上错误或视觉上没有根据的输出，从而降低其可靠性。直接偏好优化 (DPO) 是一种常用策略，通过使模型输出与人类偏好一致来纠正幻觉。现有的 DPO 策略通常将与幻觉相关的偏好视为固定目标，在训练期间依赖静态监督信号。这种方法往往过分依赖于偏好数据中的表面语言线索，导致分布刚性和虚假关系，这会损害与因果相关视觉信息的基础。为克服这一限制，我们提出了 TARS，一种基于令牌自适应偏好的策略，将 DPO 重新构建为一个最小化-最大化优化问题。TARS 在语义约束下最大化令牌级分布变化以模拟对齐不确定性，同时在这些受控扰动下最小化预期偏好损失。这个联合目标在减轻对偏好模式过拟合的同时，保留因果基础，从而减少多模态推理中的幻觉。我们在多个幻觉基准上评估 TARS，发现其表现始终强劲。在使用仅 4.8k 个偏好样本且没有专家反馈的情况下，TARS 将幻觉率从 26.4% 降低到 13.2%，并将认知值从 2.5 降低到 0.4。它在几个关键指标上超过了标准 DPO，并且匹配 GPT-4o。",
+        "地址": "https://arxiv.org/pdf/2507.21584.pdf"
+    },
+    {
+        "名称": "2025 [2507.20519] AgroBench: Vision-Language Model Benchmark in Agriculture.pdf",
+        "作者": "Risa Shinoda, Nakamasa Inoue, Hirokatsu Kataoka, Masaki Onishi, Yoshitaka Ushiku",
+        "摘要": "摘要：农业任务的精确自动化理解（如疾病识别）对于可持续的作物生产至关重要。最近在视觉语言模型（VLMs）方面的进展预计将通过便捷的文本通信促进人机互动，进一步扩展农业任务的范围。在此，我们介绍了AgroBench（农艺师AI基准），这是一个用于评估视觉语言模型在七个农业主题上的基准，包括农业工程的关键领域并与实际农作息息相关。与最近的农业视觉语言模型基准不同，AgroBench由专业农艺师注释。我们的AgroBench涵盖了最新的类别范围，包括203个作物类别和682个疾病类别，以全面评估视觉语言模型的能力。在我们对AgroBench的评估中，我们发现视觉语言模型在细粒度识别任务上仍有提升空间。值得注意的是，在杂草识别方面，大多数开源视觉语言模型的表现接近于随机。通过我们的广泛主题和专家注释类别，我们分析了视觉语言模型所犯的错误类型，并提出了未来发展的潜在路径。我们的数据集和代码可通过此链接获取。\n\n作者：Risa Shinoda, Nakamasa Inoue, Hirokatsu Kataoka, Masaki Onishi, Yoshitaka Ushiku\n\n评论：ICCV 2025\n\n链接：https://arxiv.org/pdf/2507.20519.pdf\n\n标题：2025 [2507.20519] AgroBench: Vision-Language Model Benchmark in Agriculture.pdf",
+        "地址": "https://arxiv.org/pdf/2507.20519.pdf"
+    },
+    {
+        "名称": "2025 [2507.23632] On the Expressiveness of Softmax Attention: A Recurrent Neural Network Perspective.pdf",
+        "作者": "Gabriel Mongaras, Eric C. Larson",
+        "摘要": "摘要：自其引入以来，softmax注意力已成为现代Transformer架构的核心，因为它在广泛任务中的表现力和可扩展性。然而，softmax注意力的主要缺点是相对于序列长度而言的二次内存需求和计算复杂度。为了避免softmax注意力的二次瓶颈，通过替换softmax非线性，引入了线性注意力和类似的方法。尽管这些线性形式的注意力是从原始softmax公式中派生出来的，但它们通常在下游准确性方面表现滞后。尽管关于查询和键内积的softmax非线性有强烈的直觉表明它与其他非线性相比具有理想的性质，但为什么这种差异存在的问题仍未得到回答。本文通过推导softmax注意力的递归形式证明线性注意力是softmax注意力的一种近似。使用这种形式，可以用递归神经网络（RNN）的语言来描述softmax注意力的每个部分。将softmax注意力描述为RNN，允许我们去除softmax注意力的各个组成部分，以理解每个部分的重要性及它们如何交互。通过这种方式，我们的工作有助于解释为什么softmax注意力比其替代方案更具表现力。",
+        "地址": "https://arxiv.org/pdf/2507.23632.pdf"
+    },
+    {
+        "名称": "2025 [2507.23436] Beyond Linear Bottlenecks: Spline-Based Knowledge Distillation for Culturally Diverse Art Style Classification.pdf",
+        "作者": "Abdellah Zakaria Sellam, Salah Eddine Bekhouche, Cosimo Distante, Abdelmalik Taleb-Ahmed",
+        "摘要": "摘要: 艺术风格分类在计算美学中仍然是一个巨大的挑战，因为专家标记的数据集稀缺，并且风格元素之间的复杂且常常是非线性关系难以捉摸。虽然最近的双教师自监督框架减少了对标记数据的依赖，但它们的线性投射层和局部关注无法有效建模全局组合上下文和复杂的风格特征交互。我们通过用柯尔莫哥洛夫-阿诺德网络（KANs）取代传统的多层感知器（MLP）投射和预测头，改进了双教师知识蒸馏框架，以解决这些局限性。我们的方法保留了来自两个教师网络的互补性指导，一个侧重于局部纹理和笔触模式，另一个捕捉更广泛的风格层次，同时利用KANs的样条激活，以数学精度建模非线性特征关联。在WikiArt和Pandora18k上的实验表明，我们的方法在Top-1准确率上优于基础双教师架构。我们的研究结果强调了KANs在解离复杂风格流形中的重要性，导致线性探测准确性优于MLP投射。\n\n作者: 亚卜杜拉·扎卡里亚·塞拉姆，萨拉·埃迪恩·贝库舍，科西莫·迪斯坦特，阿卜德马里克·塔莱布-艾哈迈德\n\n链接: https://arxiv.org/pdf/2507.23436.pdf\n\n标题: 2025 [2507.23436] 超越线性瓶颈：基于样条的知识蒸馏用于多样化文化艺术风格分类.pdf",
+        "地址": "https://arxiv.org/pdf/2507.23436.pdf"
+    },
+    {
+        "名称": "2025 [2507.23404] Enhanced Arabic Text Retrieval with Attentive Relevance Scoring.pdf",
+        "作者": "Salah Eddine Bekhouche, Azeddine Benlamoudi, Yazid Bounab, Fadi Dornaika, Abdenour Hadid",
+        "摘要": "摘要：阿拉伯语由于其复杂的词法结构、可选的辅音符号以及现代标准阿拉伯语（MSA）和各种方言的并存，对自然语言处理（NLP）和信息检索（IR）提出了特别的挑战。尽管阿拉伯语的全球重要性日益增加，在NLP研究和基准资源中它仍然代表性不足。在本文中，我们提出了一种专门为阿拉伯语开发的增强密集段落检索（DPR）框架。我们方法的核心是一种新的注意相关评分（ARS），它用自适应评分函数替代了标准交互机制，更有效地建模问题和段落之间的语义相关性。我们的方法结合了预训练的阿拉伯语语言模型和架构改进，以提高检索性能，并在回答阿拉伯语问题时显著增加排序准确性。代码已公开在GitHub上提供。",
+        "地址": "https://arxiv.org/pdf/2507.23404.pdf"
+    },
+    {
+        "名称": "2025 [2507.14793] Flow Equivariant Recurrent Neural Networks.pdf",
+        "作者": "T. Anderson Keller",
+        "摘要": "摘要：数据以连续流的形式到达我们的感官，从一个瞬间平滑地转变到下一个瞬间。这些平滑变换可以被视为我们所处环境的连续对称性，在时间上定义了刺激之间的等价关系。在机器学习中，尊重其数据对称性的神经网络架构被称为等变网络，在泛化能力和样本效率方面具有可证明的优势。然而，迄今为止，等变性只考虑了静态变换和前馈网络，限制了其在序列模型（如循环神经网络）及相应的时间参数化序列变换中的应用。在这项工作中，我们将等变网络理论扩展到这种“流”领域——捕捉随时间自然变换的单参数李子群，如视觉运动。我们首先展示了标准RNN通常不是流等变的：他们的隐藏状态在面对移动刺激时未能以几何结构化的方式进行转换。随后，我们展示了如何引入流等变性，并证明这些模型在训练速度、长度泛化和速度泛化方面显著优于其非等变对应模型，无论是在下一步预测还是序列分类方面。我们将这项工作展示为构建尊重我们周围世界时间参数化对称性的序列模型的第一步。\n",
+        "地址": "https://arxiv.org/pdf/2507.14793.pdf"
+    },
+    {
+        "名称": "2025 [2507.23257] Efficient Machine Unlearning via Influence Approximation.pdf",
+        "作者": "Jiawei Liu, Chenwang Wu, Defu Lian, Enhong Chen",
+        "摘要": "摘要：由于隐私问题日益受到关注，机器遗忘技术旨在让机器学习模型能够“忘记”特定的训练数据，并因此获得越来越多的关注。在现有方法中，基于影响的遗忘方法因其能够在无需重新训练的情况下估算单个训练样本对模型参数的影响而成为一种突出的方法。然而，这种方法由于需要计算所有训练样本和参数的Hessian矩阵及其逆矩阵而带来难以承受的计算开销，使其在大规模模型和涉及频繁数据删除请求的场景中难以实用。这突显了遗忘的难度。受认知科学启发，该领域认为记忆比遗忘更容易，本文建立了记忆（增量学习）和遗忘（遗忘）之间的理论联系。这一联系使机器遗忘可以从增量学习的角度来解决。与遗忘（遗忘）中耗时的Hessian计算不同，增量学习（记忆）通常依赖于更高效的梯度优化，这支持了上述认知理论。基于这一联系，我们提出了从增量角度高效实现机器遗忘的影响近似遗忘（IAU）算法。广泛的实证评估表明，IAU在去除保证、遗忘效率和可比较的模型效用之间实现了优越的平衡，同时在各种数据集和模型架构上表现优于最先进的方法。我们的代码可在此网址找到。",
+        "地址": "https://arxiv.org/pdf/2507.23257.pdf"
+    }
+]
