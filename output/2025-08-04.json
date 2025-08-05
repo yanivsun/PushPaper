@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2508.00819] Beyond Fixed: Variable-Length Denoising for Diffusion Large Language Models.pdf",
+        "作者": "Jinsong Li, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Jiaqi Wang, Dahua Lin",
+        "摘要": "2025年 摘要:\n扩散大型语言模型（DLLMs）正在成为主流自回归大型语言模型的强大替代方案，提供高效的并行生成和强大的全局上下文建模能力。然而，由于一个关键的架构限制，即需要静态预定义的生成长度，DLLMs的实际应用受到阻碍。这种静态长度分配导致了一个棘手的权衡：不足的长度削弱了复杂任务的性能，而过长的长度会带来显著的计算开销，有时还会导致性能下降。尽管推理框架是刚性的，我们观察到模型本身具有与给定任务的最佳响应长度相关的内部信号。为了弥合这两个之间的差距，我们利用这些潜在信号，提出了DAEDAL，一种新的无训练去噪策略，能够实现扩散大型语言模型的动态自适应长度扩展。DAEDAL在两个阶段操作：1) 在去噪过程之前，DAEDAL从一个较短的初始长度开始，并通过序列完成度量迭代地扩展到一个粗略的任务适当长度；2) 在去噪过程中，DAEDAL通过掩码标记插入动态干预，识别并扩展不足的生成区域，确保最终输出全面发展。对DLLMs的广泛实验表明，DAEDAL的性能与精心调整的固定长度基线相当，在某些情况下甚至优于它们，同时通过实现更高的有效标记比率提高计算效率。通过解决静态长度限制，DAEDAL为DLLMs开启了新的潜力，弥合了与自回归模型的关键差距，为更高效、更强大的生成奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2508.00819.pdf"
+    },
+    {
+        "名称": "2025 [2507.23268] PixNerd: Pixel Neural Field Diffusion.pdf",
+        "作者": "Shuai Wang, Ziteng Gao, Chenhui Zhu, Weilin Huang, Limin Wang",
+        "摘要": "摘要：当前扩散变压器的成功在很大程度上依赖于由预训练的变分自编码器（VAE）塑造的压缩潜在空间。然而，这种两阶段训练范式不可避免地会引入累积误差和解码伪影。为了解决上述问题，研究人员回归到像素空间，但这需要复杂的级联管线和增加的标记复杂性。与他们的努力相反，我们提出使用神经场进行逐块解码，并提出了一种单尺度、单阶段、高效的端到端解决方案，称为像素神经场扩散（PixelNerd）。得益于PixelNerd中高效的神经场表示，我们直接在ImageNet $256\\times256$ 上实现了2.15的FID，在ImageNet $512\\times512$ 上实现了2.84的FID，而无需任何复杂的级联管线或VAE。我们还将PixNerd框架扩展到文本生成图像的应用。我们的PixNerd-XXL/16在GenEval基准测试中达到了0.73的综合得分，在DPG基准测试中达到了80.9的综合得分。\n\n这篇论文的标题是“PixNerd: Pixel Neural Field Diffusion”，作者为Shuai Wang、Ziteng Gao、Chenhui Zhu、Weilin Huang、Limin Wang，发表年份为2025年。这篇论文介绍了一种单尺度、单阶段、高效的端到端像素空间扩散模型。详细信息可以通过以下链接查阅：https://arxiv.org/pdf/2507.23268.pdf。",
+        "地址": "https://arxiv.org/pdf/2507.23268.pdf"
+    },
+    {
+        "名称": "2025 [2508.00414] Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training.pdf",
+        "作者": "Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Hongming Zhang, Haitao Mi, Dong Yu",
+        "摘要": "摘要：通用人工智能代理日益被认为是下一代人工智能的基础框架，能够进行复杂的推理、网络交互、编程以及自主研究。然而，当前的代理系统要么是闭源的，要么严重依赖各种付费API和专有工具，这限制了研究社区的可及性和可重现性。在这项工作中，我们介绍了\\textbf{Cognitive Kernel-Pro}，一个完全开源且尽可能免费的多模块代理框架，旨在民主化先进人工智能代理的开发和评估。在Cognitive Kernel-Pro中，我们系统地研究了代理基础模型高质量训练数据的策划，重点构建了查询、轨迹以及可验证答案的四大关键领域：网络、文件、代码和一般推理。此外，我们探索了增强代理稳健性和性能的新策略，包括代理测试时反思和投票。我们在GAIA平台上评估了Cognitive Kernel-Pro，在开源和免费代理中实现了最先进的结果。值得注意的是，我们的开源模型（参数量为8B）超越了之前领先的系统如WebDancer和WebSailor，建立了一个新的高能力人工智能代理的性能标准。代码可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2508.00414.pdf"
+    },
+    {
+        "名称": "2025 [2507.23478] 3D-R1: Enhancing Reasoning in 3D VLMs for Unified Scene Understanding.pdf",
+        "作者": "Ting Huang, Zeyu Zhang, Hao Tang",
+        "摘要": "摘要：大规模视觉-语言模型（VLMs）在二维视觉理解任务中取得了显著进展，这引发了将这些能力扩展到三维场景理解的兴趣。然而，由于高质量空间数据的限制和视点假设的静态性质，目前的三维VLMs在健壮推理和泛化方面常常表现欠佳。为了解决这些挑战，我们提出了3D-R1，这一基础模型旨在增强三维VLMs的推理能力。具体来说，我们首先构建了一个名为Scene-30K的高质量合成数据集，该数据集借助现有的三维视觉-语言数据集和基于Gemini 2.5 Pro的数据引擎，用作3D-R1的冷启动初始化数据。此外，我们在强化学习训练过程中利用了GRPO等RLHF策略来增强推理能力，并引入了三个奖励函数：感知奖励、语义相似性奖励和格式奖励，以保持检测准确性和回答语义精度。此外，我们引入了一种动态视图选择策略，自适应地选择最具信息量的视角进行三维场景理解。大量实验表明，3D-R1在各种三维场景基准测试中平均提升了10%，突显出其在增强三维场景理解中的推理和泛化能力的有效性。\n\n翻译后的摘要如下： 大规模视觉-语言模型（VLMs）在二维视觉理解任务中取得了显著进展，这引发了将这些能力扩展到三维场景理解的兴趣。然而，由于高质量空间数据的限制和视点假设的静态性质，目前的三维VLMs在健壮推理和泛化方面常常表现欠佳。为了解决这些挑战，我们提出了3D-R1，这一基础模型旨在增强三维VLMs的推理能力。具体来说，我们首先构建了一个名为Scene-30K的高质量合成数据集，该数据集借助现有的三维视觉-语言数据集和基于Gemini 2.5 Pro的数据引擎，用作3D-R1的冷启动初始化数据。此外，我们在强化学习训练过程中利用了GRPO等RLHF策略来增强推理能力，并引入了三个奖励函数：感知奖励、语义相似性奖励和格式奖励，以保持检测准确性和回答语义精度。此外，我们引入了一种动态视图选择策略，自适应地选择最具信息量的视角进行三维场景理解。大量实验表明，3D-R1在各种三维场景基准测试中平均提升了10%，突显出其在增强三维场景理解中的推理和泛化能力的有效性。",
+        "地址": "https://arxiv.org/pdf/2507.23478.pdf"
+    },
+    {
+        "名称": "2025 [2508.00265] Multimodal Referring Segmentation: A Survey.pdf",
+        "作者": "Henghui Ding, Song Tang, Shuting He, Chang Liu, Zuxuan Wu, Yu-Gang Jiang",
+        "摘要": "摘要：多模态指代分割旨在根据文本或音频格式的指代表达对视觉场景（如图像、视频和3D场景）中的目标对象进行分割。这项任务在需要根据用户指令进行准确对象感知的实际应用中起着至关重要的作用。过去十年里，随着卷积神经网络、变压器和大型语言模型的进步，多模态指代分割在多模态社区中引起了极大关注，这些技术显著提高了多模态感知能力。本文对多模态指代分割进行了全面的综述。我们首先介绍了该领域的背景，包括问题定义和常用数据集。接下来总结了统一的指代分割元架构，并回顾了在图像、视频和3D场景这三类主要视觉场景中的代表方法。我们进一步讨论了广义指代表达（GREx）方法，以应对真实世界复杂性的挑战，以及相关任务和实际应用。还提供了基于标准基准的广泛性能比较。我们会持续追踪相关工作，详细内容可见此网址：https URL。",
+        "地址": "https://arxiv.org/pdf/2508.00265.pdf"
+    },
+    {
+        "名称": "2025 [2507.23361] SWE-Exp: Experience-Driven Software Issue Resolution.pdf",
+        "作者": "Silin Chen, Shaoxin Lin, Xiaodong Gu, Yuling Shi, Heng Lian, Longfei Yun, Dong Chen, Weiguo Sun, Lin Cao, Qianxiang Wang",
+        "摘要": "摘要：近期在利用大型语言模型（LLM）代理进行软件问题解决方面取得了显著进展，采用了多代理协作和蒙特卡罗树搜索（MCTS）等先进技术。然而，目前的代理像无记忆的探索者一样对待每个问题，不保留或重用以前修复经验中的知识。这导致了对失败轨迹的重复探索，以及未能将成功的解决方法应用于类似问题。为了解决这个问题，我们提出了SWE-Exp，这是一种经验增强的方法，从先前代理的轨迹中提炼简洁且可操作的经验，使得不同问题间的持续学习成为可能。我们的方法引入了一个多方面的经验库，捕捉到成功和失败的修复尝试信息。具体来说，它从高层次问题理解到具体代码更改的不同层次提取可重用的问题解决知识。实验表明，SWE-Exp 在开源代理框架下的 SWE-bench-Verified 上实现了最先进的解决率（41.6% Pass@1）。我们的方法建立了一种新的范式，使自动化软件工程代理系统地积累和利用修复专业知识，从根本上从试错探索转向战略性、基于经验的问题解决。\n\n作者：Silin Chen, Shaoxin Lin, Xiaodong Gu, Yuling Shi, Heng Lian, Longfei Yun, Dong Chen, Weiguo Sun, Lin Cao, Qianxiang Wang\n\n评论：我们的代码和数据可在此链接获取\n\n链接：https://arxiv.org/pdf/2507.23361.pdf\n\n标题：2025 [2507.23361] SWE-Exp: Experience-Driven Software Issue Resolution.pdf",
+        "地址": "https://arxiv.org/pdf/2507.23361.pdf"
+    },
+    {
+        "名称": "2025 [2508.00454] Learning an Efficient Multi-Turn Dialogue Evaluator from Multiple Judges.pdf",
+        "作者": "Yuqi Tang, Kehua Feng, Yunfeng Wang, Zhiwen Chen, Chengfei Lv, Gang Yu, Qiang Zhang, Keyan Ding",
+        "摘要": "摘要：评估大型语言模型（LLMs）的对话能力仍然是一项具有挑战性的任务。目前的主流方法主要依赖“LLM-as-a-judge”范式，即提示LLM作为评估者来评估对话质量。然而，这些方法通常存在各种偏见，削弱了评估结果的可靠性和一致性。为了减轻这些偏见，最近的方法采用多个LLM作为评审，并通过汇总他们的判断来选择最优评估。尽管有效，这种多评审方法在推理过程中会带来显著的计算开销。在本文中，我们提出了一种高效的多轮对话评估器，通过将多个LLM评审的偏好知识汇总到一个模型中来捕捉集体智慧。我们的方法保留了多评审反馈的优势，同时大幅降低了评估成本，实现了快速灵活的对话质量评估。在七个单项评分和成对比较对话评估基准上的广泛实验表明，我们的方法在不同场景中超越了现有基准，展示了其效率和鲁棒性。\n\n译者：Yuqi Tang, Kehua Feng, Yunfeng Wang, Zhiwen Chen, Chengfei Lv, Gang Yu, Qiang Zhang, Keyan Ding\n\n评论：15页，2页，正在 AAAI 2026 审稿中\n\n链接：https://arxiv.org/pdf/2508.00454.pdf\n\n标题：2025 [2508.00454] 从多评审中学习高效的多轮对话评估器.pdf",
+        "地址": "https://arxiv.org/pdf/2508.00454.pdf"
+    },
+    {
+        "名称": "2025 [2507.23348] SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution.pdf",
+        "作者": "Han Li, Yuling Shi, Shaoxin Lin, Xiaodong Gu, Heng Lian, Xin Wang, Yantao Jia, Tao Huang, Qianxiang Wang",
+        "摘要": "摘要：由于大型语言模型（LLMs）的高级推理能力，问题解决取得了显著进展。最近，像SWE-agent这样的基于代理的框架通过使自主工具使用代理能够处理复杂的软件工程任务，进一步推动了这一进展。尽管现有的基于代理的问题解决方法主要基于代理的独立探索，但它们经常在局部解决方案中陷入困境，无法识别跨代码库不同部分的问题模式。为了解决这一局限性，我们提出了SWE-Debate，这是一种竞争性的多代理辩论框架，鼓励多样化的推理路径并实现更统一的问题定位。SWE-Debate首先通过遍历代码依赖图创建多个故障传播路径作为定位提案。然后，它在专门的代理之间组织三轮辩论，每个代理沿故障传播路径体现不同的推理视角。这种结构化的竞争使代理能够协同汇聚到一个统一的修复计划。最后，这个统一的修复计划被集成到一个基于MCTS的代码修改代理中进行补丁生成。在SWE-bench基准上的实验表明，SWE-Debate在开源代理框架中取得了新的最先进成果，并且大幅度优于基线。\n\n作者：韩力、史玉玲、林绍新、顾晓东、连恒、王鑫、贾岩涛、黄涛、王前祥\n\n注释：我们的代码和数据可在此https URL获取\n\n链接：https://arxiv.org/pdf/2507.23348.pdf\n\n标题：2025 [2507.23348] SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution",
+        "地址": "https://arxiv.org/pdf/2507.23348.pdf"
+    },
+    {
+        "名称": "2025 [2508.02124] Trainable Dynamic Mask Sparse Attention.pdf",
+        "作者": "Jingze Shi, Yifan Wu, Bingheng Wu, Yiran Peng, Liangdong Wang, Guang Liu, Yuyu Luo",
+        "摘要": "摘要: 在大型语言模型中，对长上下文的建模需求不断增加，但标准自注意机制的二次复杂性常成为瓶颈。虽然现有稀疏注意机制提高了效率，但仍可能遇到静态模式或信息丢失问题。我们引入了一种可训练的动态掩码稀疏注意机制，动态掩码注意（DMA），它有效地利用了内容感知和位置感知的稀疏性。DMA通过两个关键创新点来实现这一目标：首先，它从值表征中动态生成内容感知的稀疏掩码，使模型能够自适应地识别和关注关键信息。其次，它实现了位置感知的稀疏注意计算，有效地跳过不必要的计算区域。这种双稀疏性设计使模型能够显著减少对重要信息的计算复杂性，同时保留完整信息，实现了信息保真度和计算效率之间的良好平衡。我们通过全面实验验证了DMA的性能。比较研究表明，在Chinchilla Scaling Law设置下，DMA在困惑度方面优于多头注意、滑动窗口注意、多头潜注意和原生稀疏注意。此外，在具有挑战性的多查询联想记忆任务中，DMA也显示出比这些方法更优越的性能和效率。重要的是，在评价一个1.7B参数模型时，DMA在标准基准性能和具有挑战性的针在大海捞针任务中显著优于多头注意。这些实验结果突显了其有效平衡模型效率和长上下文建模能力的能力。\n\n作者: 史京泽, 武一凡, 吴柄恒, 彭艺然, 王亮东, 刘光, 罗玉宇\n\n评论: 8幅图，4张表\n\n网址: https://arxiv.org/pdf/2508.02124.pdf\n\n标题: 2025 [2508.02124] 可训练的动态掩码稀疏注意.pdf",
+        "地址": "https://arxiv.org/pdf/2508.02124.pdf"
+    },
+    {
+        "名称": "2025 [2508.00782] SpA2V: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation.pdf",
+        "作者": "Kien T. Pham, Yingqing He, Yazhou Xing, Qifeng Chen, Long Chen",
+        "摘要": "摘要：音频驱动的视频生成旨在合成与输入音频记录相一致的现实视频，类似于人类通过听觉输入可视化场景的能力。然而，现有方法主要专注于探索语义信息，如音频中存在的声源类别，限制了其生成具有准确内容和空间构成的视频的能力。相比之下，我们人类不仅可以自然地识别声源的语义类别，还能够确定其深层编码的空间属性，包括位置和运动方向。这些有用的信息可以通过考虑声音固有物理属性（例如响度或频率）派生的特定空间指标来揭示。由于先前的方法在很大程度上忽略了这一因素，我们提出了SpA2V，这是第一个明确利用音频中的空间听觉线索生成具有高语义和空间对应性视频的框架。SpA2V将生成过程分解为两个阶段：1) 音频引导的视频规划：我们仔细调整了一种最先进的MLLM，用于从输入音频中利用空间和语义线索构建视频场景布局(VSLs)的新任务。这作为桥接音频和视频模态之间差距的中间表示。2) 基于布局的视频生成：我们开发了一种高效且有效的方法，将预训练扩散模型无缝地整合VSLs作为条件引导，使得在无需训练的情况下进行基于VSL的视频生成。广泛的实验表明，SpA2V在生成与输入音频具有语义和空间匹配的现实视频方面表现出色。\n\n参考评论：第33届ACM多媒体会议（MM '25）\n\n链接：https://arxiv.org/pdf/2508.00782.pdf\n\n作者：Kien T. Pham, Yingqing He, Yazhou Xing, Qifeng Chen, Long Chen\n\n标题：2025 [2508.00782] SpA2V: 利用空间听觉线索进行音频驱动的空间感知视频生成",
+        "地址": "https://arxiv.org/pdf/2508.00782.pdf"
+    },
+    {
+        "名称": "2025 [2507.22720] Investigating Hallucination in Conversations for Low Resource Languages.pdf",
+        "作者": "Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha",
+        "摘要": "摘要：大型语言模型（LLMs）在生成接近人类书写风格的文本方面表现出了显著的能力。然而，它们经常生成事实不正确的陈述，这一问题通常被称为“幻觉”。解决幻觉问题对于提高LLMs的可靠性和有效性至关重要。尽管有很多研究集中在英语中的幻觉问题上，我们的研究将这一调查扩展到印地语、波斯语和普通话的对话数据中。我们提供了一个数据集的综合分析，以检查GPT-3.5、GPT-4o、Llama-3.1、Gemma-2.0、DeepSeek-R1和Qwen-3在这些语言中的事实和语言错误。我们发现，LLMs在普通话中产生的幻觉响应非常少，但在印地语和波斯语中生成的幻觉数量显著增加。\n\n作者：Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha\n\n链接：https://arxiv.org/pdf/2507.22720.pdf\n\n标题：2025 [2507.22720] 关于低资源语言对话中的幻觉调查",
+        "地址": "https://arxiv.org/pdf/2507.22720.pdf"
+    },
+    {
+        "名称": "2025 [2507.19634] MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks.pdf",
+        "作者": "Sara Papi, Maike Züfle, Marco Gaido, Beatrice Savoldi, Danni Liu, Ioannis Douros, Luisa Bentivogli, Jan Niehues",
+        "摘要": "摘要: 最近，大型语言模型的进步促进了多模态语言模型(MLLMs)的发展，这些模型在统一框架中整合了文本、语音和视觉。随着MLLMs从狭窄的单语、任务特定系统演变为通用的指令跟随模型，一个关键领域是评估它们在长短上下文中多语言和多模态能力。然而，现有基准未能联合评估这些维度：它们通常仅限于英语，主要集中在单一模态，依赖短形式上下文，或缺乏人工注释——阻碍了对模型在语言、模态和任务复杂性方面的全面评估。为了解决这些问题，我们介绍了MCIF（多模态跨语言指令跟随），这是第一个基于科学讲座的多语言人工注释基准，旨在评估跨语言、多模态设置中对指令的跟随能力，包括短期和长期输入。MCIF涵盖了三种核心模态——语音、视觉和文本——以及四种不同语言（英语、德语、意大利语和中文），实现了对MLLMs在解释跨语言指令及结合多模态上下文信息能力的全面评估。MCIF以CC-BY 4.0许可证发布，旨在鼓励开放研究和MLLMs发展的进步。",
+        "地址": "https://arxiv.org/pdf/2507.19634.pdf"
+    },
+    {
+        "名称": "2025 [2508.00632] Multi-Agent Game Generation and Evaluation via Audio-Visual Recordings.pdf",
+        "作者": "Alexia Jolicoeur-Martineau",
+        "摘要": "摘要： 尽管人工智能在生成文本、音频、图像和视频方面表现出色，但创建诸如视频游戏等交互式音频视觉内容仍然具有挑战性。当前的大型语言模型（LLMs）可以生成JavaScript游戏和动画，但缺乏自动评估指标，并且在处理通常需要人类团队使用艺术家制作的素材工作多月（多步、多代理）来完成的复杂内容时存在困难。为解决这些问题，我们建立了一个新的指标和一个多代理系统。\n\n我们提出了AVR-Eval，这是一种基于音频视觉记录（AVRs）的多媒体内容质量相对度量标准。一个全模态模型（处理文本、视频和音频）将两个内容的AVRs进行比较，并通过文本模型审查评估以确定优劣。我们证明了AVR-Eval能够正确区分好的与破损或不匹配的内容。\n\n我们开发了AVR-Agent，这是一个从多媒体资源库（音频、图像、3D模型）生成JavaScript代码的多代理系统。编码代理选择相关资源，生成多个初始代码，使用AVR-Eval识别最佳版本，并通过来自AVR的全模态代理反馈进行迭代改进。\n\n我们在游戏和动画上进行实验，使用AVR-Eval比较内容A和内容B的获胜率。我们发现AVR-Agent生成的内容比通过一次性生成的内容具有显著更高的获胜率。然而，模型难以有效利用定制资源和AVR反馈，表现出无更高的获胜率。这揭示了一个关键差距：尽管人类受益于高质量资源和音频视觉反馈，当前的编码模型似乎无法有效利用这些资源，这突显了人类和机器内容创作方法之间的根本差异。\n\n这篇论文发表于2025年，作者为Alexia Jolicoeur-Martineau。详细内容请访问链接：https://arxiv.org/pdf/2508.00632.pdf",
+        "地址": "https://arxiv.org/pdf/2508.00632.pdf"
+    },
+    {
+        "名称": "2025 [2508.00823] IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation.pdf",
+        "作者": "Wenxuan Guo, Xiuwei Xu, Hang Yin, Ziwei Wang, Jianjiang Feng, Jie Zhou, Jiwen Lu",
+        "摘要": "摘要：图像目标视觉导航是一个基本且充满挑战的问题。传统方法要么依赖端到端的强化学习，要么依靠模块化策略，以拓扑图或鸟瞰图（BEV）作为记忆，这些方法无法完全建模探索的3D环境与目标图像之间的几何关系。为了在3D空间中高效且准确地定位目标图像，我们的导航系统基于可渲染的3D高斯（3DGS）表示。然而，由于3DGS优化的计算强度和6自由度相机姿态的巨大搜索空间，在探测过程中直接利用3DGS进行图像定位是极其低效的。为此，我们提出了IGL-Nav，一种用于高效且三维感知图像目标导航的增量3D高斯定位框架。具体来说，我们随着新图像的到来，通过单目预测前馈逐步更新场景表示。然后，我们通过利用几何信息进行离散空间匹配粗略定位目标，这相当于有效的3D卷积。当代理接近目标时，我们最终通过可微渲染进行优化解决精确目标姿态。所提出的IGL-Nav在各种实验配置中大幅优于现有的最先进方法。它还能处理更具挑战性的自由视角图像目标设置，并能部署在真实世界的机器人平台上，使用手机在任意姿态下捕获目标图像。项目页面：this https URL。\n\n评论：已被ICCV 2025接受。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.00823.pdf"
+    }
+]
