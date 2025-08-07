@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2508.02193] Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference.pdf",
+        "作者": "Yuxuan Song, Zheng Zhang, Cheng Luo, Pengyang Gao, Fan Xia, Hao Luo, Zheng Li, Yuehang Yang, Hongli Yu, Xingwei Qu, Yuwei Fu, Jing Su, Ge Zhang, Wenhao Huang, Mingxuan Wang, Lin Yan, Xiaoying Jia, Jingjing Liu, Wei-Ying Ma, Ya-Qin Zhang, Yonghui Wu, Hao Zhou",
+        "摘要": "摘要：我们提出了一种基于离散状态扩散的大规模语言模型——Seed Diffusion Preview，具有显著的快速推理速度。得益于非顺序并行生成，离散扩散模型相较于逐令牌解码显著降低了固有的延迟，如最近展示的（例如，Mercury Coder，Gemini Diffusion）。Seed Diffusion Preview在H20 GPU上的推理速度达到每秒2146个令牌，同时在一系列标准代码评估基准测试中保持了竞争性能，显著快于现有的Mercury和Gemini Diffusion，在代码模型的速度-质量帕累托前沿上建立了新的标杆。",
+        "地址": "https://arxiv.org/pdf/2508.02193.pdf"
+    },
+    {
+        "名称": "2025 [2508.03320] Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation.pdf",
+        "作者": "Peiyu Wang, Yi Peng, Yimeng Gan, Liang Hu, Tianyidan Xie, Xiaokun Wang, Yichen Wei, Chuanxin Tang, Bo Zhu, Changshi Li, Hongyang Wei, Eric Li, Xuchen Song, Yang Liu, Yahui Zhou",
+        "摘要": "摘要:\n我们介绍了Skywork UniPic，一种拥有15亿参数的自回归模型，它在单一架构内统一了图像理解、文本到图像生成和图像编辑，消除了任务特定适配器或模块间连接的需求，并展示了紧凑的多模态系统可以在常见硬件上实现最先进的性能。Skywork UniPic达到了0.86的GenEval评分，超过了大多数现有的统一模型; 在DPG-Bench复杂生成测试中设定了85.5的新记录; 在图像编辑方面达到了GEditBench-EN的5.83和ImgEdit-Bench的3.49; 并且在少于15 GB的GPU内存（例如RTX 4090）下生成1024 x 1024图像。其特点包括：(1) 使用掩码自回归编码器进行合成和SigLIP2编码器进行理解，所有数据都输入共享的自回归解码器;(2) 一个渐进的、分辨率感知的训练计划，从256 x 256扩展到1024 x 1024，同时动态解冻参数以平衡容量和稳定性;(3) 精心策划的1亿规模数据集，通过任务特定的奖励模型进行增强，以优化生成和编辑目标。通过证明高保真度的多模态集成不需要采用高昂的资源要求，Skywork UniPic树立了可部署的、高保真度多模态AI的实际范例。代码和权重在这个URL上公开。\n",
+        "地址": "https://arxiv.org/pdf/2508.03320.pdf"
+    },
+    {
+        "名称": "2025 [2508.03694] LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation.pdf",
+        "作者": "Jianxiong Gao, Zhaoxi Chen, Xian Liu, Jianfeng Feng, Chenyang Si, Yanwei Fu, Yu Qiao, Ziwei Liu",
+        "摘要": "摘要：可控的超长视频生成是一项基础且具有挑战性的任务。尽管现有方法在生成短视频片段方面有效，但由于时序不一致性和视觉退化等问题，它们难以扩展。在本文中，我们初步调查并确定了三个关键因素：独立的噪声初始化、独立的控制信号归一化以及单模态指导的局限性。为了解决这些问题，我们提出了LongVie，这是一个用于可控长视频生成的端到端自回归框架。LongVie引入了两个核心设计以确保时序一致性：1) 统一的噪声初始化策略，保持各视频片段间的一致生成，2) 全局控制信号归一化，在整个视频中执行对控制空间的对齐。为减轻视觉退化，LongVie采用了3) 一种多模态控制框架，集成了密集（如深度图）和稀疏（如关键点）的控制信号，并辅以4) 一种退化感知训练策略，该策略自适应地平衡模态贡献以保持视觉质量。我们还引入了LongVGenBench，一个包含100个高分辨率视频的全面基准，这些视频涵盖了多种真实世界和合成环境，每个视频持续超过一分钟。大量实验证明，LongVie在长距离可控性、一致性和质量上实现了最先进的性能。\n\n作者：高建雄, 陈昭曦, 刘贤, 冯建峰, 司晨阳, 傅延伟, 乔宇, 刘子炜\n\n链接：https://arxiv.org/pdf/2508.03694.pdf",
+        "地址": "https://arxiv.org/pdf/2508.03694.pdf"
+    },
+    {
+        "名称": "2025 [2508.03686] CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward.pdf",
+        "作者": "Shudong Liu, Hongwei Liu, Junnan Liu, Linchen Xiao, Songyang Gao, Chengqi Lyu, Yuzhe Gu, Wenwei Zhang, Derek F. Wong, Songyang Zhang, Kai Chen",
+        "摘要": "摘要：答案验证不仅对通过将大型语言模型（LLMs）的非结构化输出与标准答案进行匹配来评估其表现至关重要，而且还作为奖励模型指导LLM优化。大多数评估框架依赖于正则化匹配或利用通用LLMs进行答案验证，这需要大量的重复定制正则表达式规则或评估提示。当前方法中存在两个基本限制：1）缺乏系统评估不同LLM验证能力的综合基准；2）验证器开发处于初期阶段，现有方法缺乏处理复杂边缘情况的鲁棒性和跨领域的通用性。在这项工作中，我们开发了CompassVerifier，一种准确且鲁棒的轻量级验证器模型，用于评估和结果奖励。它展示了跨数学、知识和多样化推理任务的多领域能力，能够处理各种答案类型，包括多子问题、公式和序列答案，同时有效识别异常/无效响应。我们引入了VerifierBench基准，该基准包含从多个数据源收集的模型输出，并通过对元错误模式的人工分析增强了CompassVerifier。我们预期CompassVerifier和VerifierBench将促进答案验证、评估协议和强化学习研究。代码和数据集可从此URL获取。",
+        "地址": "https://arxiv.org/pdf/2508.03686.pdf"
+    },
+    {
+        "名称": "2025 [2508.03012] Tool-integrated Reinforcement Learning for Repo Deep Search.pdf",
+        "作者": "Zexiong Ma, Chao Peng, Qunhong Zeng, Pengfei Gao, Yanzhen Zou, Bing Xie",
+        "摘要": "摘要：问题定位是确定需要修改的代码位置以解决软件问题的过程，这是软件开发中一个关键但具有挑战性的任务。自然语言问题描述与错误代码之间的语义差距需要通过代码依赖关系进行复杂的多跳推理。现有的基于大语言模型（LLM）的代理尝试通过集成代码库检索工具来解决这一问题。然而，这将问题定位转变为一个我们称之为“代码库深度搜索”的艰巨任务，这需要LLM在多步骤推理和导航过程中有效利用各种代码库检索工具。为应对这一挑战，我们提出了ToolTrain，一种结合拒绝抽样的有监督微调和工具集成强化学习的两阶段工具集成训练框架，以增强LLM使用检索工具进行问题定位的能力。实验结果表明，经过ToolTrain训练的模型取得了最先进的性能，我们的32B模型甚至在函数级定位方面超越了Claude-3.7。结果还显示，改进的定位性能转化为更好的端到端问题解决性能。这进一步证明了针对问题定位进行训练是一种改进自动化软件开发的可行且有效的策略。",
+        "地址": "https://arxiv.org/pdf/2508.03012.pdf"
+    },
+    {
+        "名称": "2025 [2508.00367] Representation Shift: Unifying Token Compression with FlashAttention.pdf",
+        "作者": "Joonmyung Choi, Sanghyeok Lee, Byungoh Ko, Eunseo Kim, Jihyung Kil, Hyunwoo J. Kim",
+        "摘要": "摘要： \nTransformer在视觉、语言和视频领域取得了显著成功。然而，任务复杂性的增加导致了模型和tokens数量的增加，从而提高了自注意力的二次成本以及GPU内存访问的开销。为了降低自注意力的计算成本，之前的工作提出了丢弃冗余或信息量较小tokens的token压缩技术。同时，诸如FlashAttention这样的融合注意力内核被开发出来，以避免注意力映射的构建及其相关的HBM I/O，从而缓解内存开销。然而，这使得它与大多数无需训练的token压缩方法不兼容，这些方法依赖于注意力映射来确定tokens的重要性。在此，我们提出了Representation Shift，这是一种无需训练、与模型无关的度量方法，用于衡量每个tokens表示变化的程度。它可以在不使用注意力映射或重新训练的情况下，顺利地将token压缩与FlashAttention结合。我们的方法进一步推广到Transformer、CNN和状态空间模型之外。大量实验表明，Representation Shift能够实现与FlashAttention兼容的高效token压缩，并在视频文本检索和视频问答中分别实现了高达5.5%和4.4%的显著加速。代码可从此链接获取：https://arxiv.org/pdf/2508.00367.pdf。",
+        "地址": "https://arxiv.org/pdf/2508.00367.pdf"
+    },
+    {
+        "名称": "2025 [2508.02091] CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search.pdf",
+        "作者": "Xiaoya Li, Xiaofei Sun, Albert Wang, Chris Shum, Jiwei Li",
+        "摘要": "摘要：近似最近邻搜索（ANNS）算法在最新的人工智能应用中变得越来越关键，尤其是在检索增强生成（RAG）和基于代理的LLM应用中。在本文中，我们提出了CRINN，一种新的ANNS算法范式。CRINN将ANNS优化视为一个强化学习问题，其中执行速度作为奖励信号。这种方法使得能够在保持准确性约束的同时自动生成逐步更快的ANNS实现。我们的实验评估展示了CRINN在六个广泛使用的NNS基准数据集上的有效性。与最先进的开源ANNS算法相比，CRINN在其中三个数据集（GIST-960-Euclidean，MNIST-784-Euclidean和GloVe-25-angular）上表现最佳，并在两个数据集（SIFT-128-Euclidean和GloVe-25-angular）上与第一名并列。CRINN成功的影响远超ANNS优化：它验证了通过强化学习增强的LLMs可以作为一种有效工具，自动化复杂的算法优化，这些优化需要专业知识和劳动力密集型的手动操作。",
+        "地址": "https://arxiv.org/pdf/2508.02091.pdf"
+    },
+    {
+        "名称": "2025 [2508.03050] Multi-human Interactive Talking Dataset.pdf",
+        "作者": "Zeyu Zhu, Weijia Wu, Mike Zheng Shou",
+        "摘要": "摘要：现有关于生成说话视频的研究主要集中于单人独白或孤立的面部动画，限制了其在现实多人人互动中的应用。为了弥补这一差距，我们引入了MIT，这是一个专为多人人说话视频生成而设计的大规模数据集。为此，我们开发了一条自动流程来收集和注释多人的对话视频。最终的数据集包含12小时的高分辨率视频，每个视频中有两到四个讲话者，并具有对身体姿态和语言互动的细粒度注释。它捕捉了多讲话者场景中的自然对话动态，为研究互动视觉行为提供了丰富的资源。为了展示MIT的潜力，我们进一步提出了CovOG，这是针对这一新任务的基线模型。它结合了多人人姿态编码器（MPE）以通过聚合个体姿态嵌入来处理不同数量的讲话者，以及交互式音频驱动器（IAD）以根据讲话者特定的音频特征来调节头部动态。这些组件共同展示了生成真实多人人谈话视频的可行性和挑战性，确立了MIT作为未来研究宝贵基准的地位。代码可在以下网址获取：此https URL。\n\n作者：Zeyu Zhu, Weijia Wu, Mike Zheng Shou\n\n评论：9页，4个图，4张表\n\n链接：[https://arxiv.org/pdf/2508.03050.pdf](https://arxiv.org/pdf/2508.03050.pdf)\n\n标题：2025 [2508.03050] 多人互动谈话数据集.pdf",
+        "地址": "https://arxiv.org/pdf/2508.03050.pdf"
+    },
+    {
+        "名称": "2025 [2508.01119] The Promise of RL for Autoregressive Image Editing.pdf",
+        "作者": "Saba Ahmadi, Rabiul Awal, Ankur Sikarwar, Amirhossein Kazemnejad, Ge Ya Luo, Juan A. Rodriguez, Sai Rajeswar, Siva Reddy, Christopher Pal, Benno Krojer, Aishwarya Agrawal",
+        "摘要": "摘要：我们探索了三种提高图像编辑任务性能的策略：监督微调（SFT）、强化学习（RL）和链式思维（CoT）推理。为了在一个一致的框架中研究所有这些组成部分，我们采用了一个自回归多模态模型，该模型以统一的方式处理文本和视觉标记。我们发现将RL与大型多模态LLM验证器结合使用是这些策略中最有效的。因此，我们发布了EARL：基于自回归和RL的编辑模型，这是一个强大的基于RL的图像编辑模型，与强基线相比，尽管使用了更少的训练数据，但在各种编辑任务上表现出竞争力。因此，EARL推动了自回归多模态模型在图像编辑方面的前沿发展。我们在这个网址发布了我们的代码、训练数据和训练模型。\n\nURL：https://arxiv.org/pdf/2508.01119.pdf",
+        "地址": "https://arxiv.org/pdf/2508.01119.pdf"
+    },
+    {
+        "名称": "2025 [2508.03613] Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction.pdf",
+        "作者": "Yong Lin, Shange Tang, Bohan Lyu, Ziran Yang, Jui-Hui Chung, Haoyu Zhao, Lai Jiang, Yihan Geng, Jiawei Ge, Jingruo Sun, Jiayun Wu, Jiri Gesi, Ximing Lu, David Acuna, Kaiyu Yang, Hongzhou Lin, Yejin Choi, Danqi Chen, Sanjeev Arora, Chi Jin",
+        "摘要": "摘要: 我们介绍了Goedel-Prover-V2，一系列开源语言模型，达到了自动定理证明领域的新技术水平。基于标准专家迭代和增强学习管道，我们的方法包含三项关键创新：（1）分阶段的数据合成：我们生成难度逐渐增加的合成任务，以训练模型掌握越来越复杂的定理；（2）验证器指导的自我修正：我们利用Lean编译器的反馈，使模型能够迭代修改其证明；（3）模型平均：我们合并模型检查点，以减轻训练后期模型输出多样性下降的问题。我们的小型模型Goedel-Prover-V2-8B在MiniF2F上达到84.6%的通过率@32，超越了DeepSeek-Prover-V2-671B，尽管Goedel-Prover-V2-8B的尺寸小80倍。我们的旗舰型号Goedel-Prover-V2-32B在标准模式下MiniF2F上达到了88.1%的通过率@32，在自我修正模式下达到了90.4%，相比之前的技术水平有较大提升。此外，我们的旗舰型号在PutnamBench上以通过率@184解决了86个问题，在开源模型排行榜中名列前茅，超过了DeepSeek-Prover-V2-671B以通过率@1024解决47个问题的记录，并且具有显著较小的模型尺寸和计算预算。截至其发布(2025年7至8月)，Goedel-Prover-V2在所有开源定理证明工具中表现最强。在测试时间计算预算受限的情况下，它也在包括公开报告性能的闭源系统中排名前列。我们的模型、代码和数据发布在这个URL。",
+        "地址": "https://arxiv.org/pdf/2508.03613.pdf"
+    },
+    {
+        "名称": "2025 [2508.01780] LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?.pdf",
+        "作者": "Guozhao Mo, Wenliang Zhong, Jiawei Chen, Xuanang Chen, Yaojie Lu, Hongyu Lin, Ben He, Xianpei Han, Le Sun",
+        "摘要": "摘要：随着模型上下文协议（Model Context Protocol, MCP）的快速发展，MCP服务器数量已超过1万。然而，现有的MCP基准测试仅限于单服务器设置且工具有限，无法有效评估大规模、现实世界场景中的代理能力。为了解决这一限制，我们推出了LiveMCPBench，这是首个综合基准测试，包括基于MCP生态系统的95个现实任务，旨在评估LLM代理在不同服务器上的大规模表现。为了支持大规模MCP环境中可扩展且可重复的评估流程，我们编制了LiveMCPTool，这是一个包含70个MCP服务器和527种工具的多样化、易于部署的集合。此外，我们引入了LiveMCPEval，这是一个以LLM作为裁判的框架，能够在动态、时间变化的任务环境中实现自动和自适应评估，与人类评审员的81%意见一致率。最后，我们提出了MCP辅助代理，这是一种多步骤代理，负责动态规划路由工具并执行跨整个LiveMCPTool工具集的API交互。我们的评估涵盖了10个领先模型，表现最好的模型（Claude-Sonnet-4）达到了78.95%的成功率。然而，我们观察到不同模型之间的性能差异很大，许多广泛使用的模型在LiveMCPBench复杂、工具丰富的环境中表现不佳。总体而言，LiveMCPBench为在现实、工具丰富、动态的MCP环境中基准测试LLM代理提供了第一个统一框架，为可扩展且可重复的代理能力研究奠定了坚实基础。我们的代码和数据将在该URLs上公开。\n\n作者：莫国钊，钟文亮，陈家伟，陈旋昂，陆耀捷，林宏宇，何斌，韩先培，孙乐\n\n评论：我们的代码和数据将在此URLs上公开\n\nURL：https://arxiv.org/pdf/2508.01780.pdf\n\n标题：2025 [2508.01780] LiveMCPBench：代理能否在MCP工具的海洋中导航？",
+        "地址": "https://arxiv.org/pdf/2508.01780.pdf"
+    },
+    {
+        "名称": "2025 [2508.00477] LAMIC: Layout-Aware Multi-Image Composition via Scalability of Multimodal Diffusion Transformer.pdf",
+        "作者": "Yuzhuo Chen, Zehua Ma, Jianhua Wang, Kai Kang, Shunyu Yao, Weiming Zhang",
+        "摘要": "摘要: 在可控图像合成中, 从多个参考生成具有空间布局意识的连贯一致图像仍然是一个开放的挑战。我们提出了 LAMIC，这是一种布局感知的多图像合成框架，首次无训练地将单参考扩散模型扩展到多参考场景。基于 MMDiT 模型，LAMIC 引入了两个即插即用的注意机制：1）组隔离注意 (GIA) 以增强实体解耦；2）区域调制注意 (RMA) 以启用布局感知生成。为了全面评估模型能力，我们进一步引入了三个度量：1）布局控制评估的包含率 (IN-R) 和填充率 (FI-R)；2）背景一致性测量的背景相似度 (BG-S)。广泛实验表明，LAMIC 在大多数主要指标上均达到最先进水平：在所有设置中持续优于现有多参考基准，并在复杂合成任务中获得最佳的 DPG。这些结果展示了 LAMIC 在保持身份、背景保存、布局控制和遵循提示方面的出色能力，所有这些均无需任何训练或微调，展示了强大的零示例泛化能力。通过继承先进单参考模型的优势并实现无缝扩展到多图像场景，LAMIC 为可控多图像合成建立了新的无训练范式。随着基础模型继续发展，LAMIC 的性能预计将随之提升。我们的实现可在此 https URL 获得。",
+        "地址": "https://arxiv.org/pdf/2508.00477.pdf"
+    },
+    {
+        "名称": "2025 [2508.03164] ChartCap: Mitigating Hallucination of Dense Chart Captioning.pdf",
+        "作者": "Junyoung Lim, Jaewoo Ahn, Gunhee Kim",
+        "摘要": "摘要：为图表生成准确、信息丰富且无幻觉的标题仍然是视觉语言模型的一项挑战，主要原因在于缺乏大规模、高质量的真实世界图表数据集。然而，现有的真实世界图表数据集包含了无法从图表中推断的无关信息，并且未能充分捕捉结构元素和关键见解。因此，我们推出了ChartCap，一个包含56.5万张真实世界图表图片的大规模数据集，这些图表配有类型特定、密集的标题，排除了无关信息，并详细突出结构元素和关键见解。为了构建ChartCap，我们设计了一个四阶段的流程，仅使用图表中可辨识的数据生成标题，并采用基于循环一致性的人类验证方法，该方法加快了质量控制速度而不牺牲准确性。此外，我们提出了一种新的度量标准，视觉一致性评分，通过衡量从标题再生成的图表与原始图表之间的相似度来评估标题质量，而无需参考标题。广泛的实验表明，经过ChartCap微调的模型能够持续生成更准确和信息丰富的标题，并减少幻觉，超越了开源和专有模型，甚至超过了人工标注的标题。\n\n作者：Junyoung Lim, Jaewoo Ahn, Gunhee Kim\n\n评论：ICCV 2025 (亮点)\n\n网址：https://arxiv.org/pdf/2508.03164.pdf\n\n标题：2025 [2508.03164] ChartCap: 减少密集图表标题的幻觉",
+        "地址": "https://arxiv.org/pdf/2508.03164.pdf"
+    },
+    {
+        "名称": "2025 [2508.02629] HyCodePolicy: Hybrid Language Controllers for Multimodal Monitoring and Decision in Embodied Agents.pdf",
+        "作者": "Yibin Liu, Zhixuan Liang, Zanxin Chen, Tianxing Chen, Mengkang Hu, Wanxi Dong, Congsheng Xu, Zhaoming Han, Yusen Qin, Yao Mu",
+        "摘要": "摘要：近年来，多模态大型语言模型（MLLMs）的进展使代码策略生成在具身代理中获得了更丰富的感知基础。然而，大多数现有系统缺乏有效机制来自适应地监控策略执行并在任务完成过程中修复代码。在这项工作中，我们引入了HyCodePolicy，这是一种混合语言控制框架，系统地整合了代码生成、几何基础、感知监控和迭代修复，形成一个封闭循环的编程周期以供具身代理使用。从技术上讲，给定自然语言指令，我们的系统首先将其分解为子目标，并生成一个基于对象中心几何原语的初始可执行程序。该程序随后在模拟中执行，同时视觉-语言模型（VLM）观察选定的检查点以检测和定位执行失败并推断失败原因。通过融合捕获程序级事件的结构化执行轨迹与基于VLM的感知反馈，HyCodePolicy推断失败原因并修复程序。这种混合双反馈机制使自我纠正的程序生成成为可能，所需的人类监督最少。我们的结果表明，HyCodePolicy显著提高了机器人操控策略的鲁棒性和样本效率，为将多模态推理整合到自治决策管道中提供了可扩展的策略。\n\n作者：刘宜斌、梁志轩、陈赞新、陈天行、胡孟康、董万熙、许聪生、韩兆名、秦雨森、穆尧\n\n评论：被ICCV 2025代理智能多模态推理研讨会接受\n\n网址：[https://arxiv.org/pdf/2508.02629.pdf](https://arxiv.org/pdf/2508.02629.pdf)\n\n标题：HyCodePolicy：用于具身代理的多模态监控和决策的混合语言控制器",
+        "地址": "https://arxiv.org/pdf/2508.02629.pdf"
+    },
+    {
+        "名称": "2025 [2508.02630] What Is Your AI Agent Buying? Evaluation, Implications and Emerging Questions for Agentic E-Commerce.pdf",
+        "作者": "Amine Allouah, Omar Besbes, Josué D Figueroa, Yash Kanoria, Akshit Kumar",
+        "摘要": "摘要: 在线市场将因代表消费者行动的自主AI代理而改变。与其由人类浏览和点击，不如由视觉语言模型（VLM）代理解析网页、评估产品和进行交易。这引出了一个基本问题：AI代理购买什么，为什么？我们开发了ACES，一个将平台无关的VLM代理与完全可编程的模拟市场配对的沙盒环境，以研究这个问题。我们首先在简单任务的上下文中进行基本的理性检查，然后通过随机化产品位置、价格、评分、评论、赞助标签和平台背书，获得关于前沿VLM实际购物方式的因果估计。模型显示了强烈但异质的位置效应：所有模型都偏爱顶部行，但不同模型偏爱不同的列，破坏了“顶部”排名普遍性的假设。它们惩罚赞助标签并奖励背书。对价格、评分和评论的敏感性在方向上类似于人类，但在不同模型之间的幅度变化显著。考虑到卖家使用AI代理优化产品列表的场景，我们展示了一个卖方代理通过对产品描述进行细微调整，目标是AI买家的偏好，如果AI中介的购物占主导地位，可以带来显著的市场份额增长。我们还发现，不同模型的主流产品选择可能不同，在某些情况下，需求可能集中在少数几款产品上，提出了竞争问题。总的来说，我们的研究结果揭示了AI代理在电子商务环境中的潜在行为，并提出了关于卖家策略、平台设计和AI中介生态系统中监管问题的具体问题。\n\n作者: Amine Allouah, Omar Besbes, Josué D Figueroa, Yash Kanoria, Akshit Kumar",
+        "地址": "https://arxiv.org/pdf/2508.02630.pdf"
+    },
+    {
+        "名称": "2025 [2508.02079] AlignGuard-LoRA: Alignment-Preserving Fine-Tuning via Fisher-Guided Decomposition and Riemannian-Geodesic Collision Regularization.pdf",
+        "作者": "Amitava Das, Abhilekh Borah, Vinija Jain, Aman Chadha",
+        "摘要": "摘要：低秩适应（LoRA）已成为高效微调大型语言模型（LLMs）的标准工具。然而，即使是细微的LoRA更新也会引发对齐漂移，通过相互关联的参数变化削弱安全性和行为约束。为了解决这一问题，我们提出了AlignGuard-LoRA（AGL），这是一个在微调过程中保持对齐性的原则框架。AGL引入了几个关键组件：监督主任务损失、基于费舍尔信息矩阵的正则化以限制对齐敏感子空间的更新、以及用于稳定新知识整合的特定任务正则化。我们进一步引入了碰撞感知正则化，将惩罚坐标干扰的黎曼重叠和鼓励更新几何分离的测地线分离相结合。我们策划了DriftCaps，这是一种针对性诊断基准测试，旨在量化对齐漂移和安全性退化。实证评估表明，AGL在不削弱下游任务性能的情况下，将安全关键基准测试上的对齐漂移减少了多达50%。全面消融确认每个组件在保持潜在安全行为方面均有独特贡献。最后，我们推导并验证了灾难性遗忘的缩放定律，揭示了AGL在保持适应动态的同时，平滑了微调后的损失升级。AGL是LoRA的一种结构合理的改进，以最小的权衡确保对齐性保留。为了鼓励进一步探索和发展，我们开源了我们的实现。",
+        "地址": "https://arxiv.org/pdf/2508.02079.pdf"
+    },
+    {
+        "名称": "2025 [2507.23284] Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval.pdf",
+        "作者": "Dohwan Ko, Ji Soo Lee, Minhyuk Choi, Zihang Meng, Hyunwoo J. Kim",
+        "摘要": "摘要:文本-视频检索旨在从大型在线数据库中找到与给定视频（或文本）查询最相关的文本（或视频）候选项。近期的工作利用多模态大语言模型（MLLMs）来改进检索，特别是对于长或复杂的查询-候选对。然而，我们观察到，MLLMs的简单应用，即基于候选项可能性的检索，会引入候选项先验偏差，倾向于具有较高先验可能性的候选项，而不是更相关的候选项。为此，我们提出了一个新颖的检索框架，称为具有MLLM的双向可能性估计（BLiM），通过训练模型生成给定视频的文本和生成给定文本的视频特征，来利用查询和候选项的可能性。此外，我们引入了候选项先验归一化（CPN），这是一种简单但有效的无训练分数校准模块，旨在减轻候选项可能性的先验偏差。在四个文本-视频检索基准上，我们配备CPN的BLiM比之前的最先进模型在R@1上平均提高了6.4，有效地减轻了候选项先验偏差，强调了查询-候选项的相关性。我们对各种超越检索的多模态任务进行的深入分析，突出了CPN的广泛适用性，通过减少对文本先验的依赖来增强视觉理解。代码可在此网址获得。\n\n作者: Dohwan Ko, Ji Soo Lee, Minhyuk Choi, Zihang Meng, Hyunwoo J. Kim\n\n评论: ICCV 2025精选论文\n\n网址: https://arxiv.org/pdf/2507.23284.pdf\n\n标题: 具有多模态大语言模型的文本-视频检索的双向可能性估计（2025 [2507.23284] Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval.pdf）",
+        "地址": "https://arxiv.org/pdf/2507.23284.pdf"
+    },
+    {
+        "名称": "2025 [2508.02455] TreeRanker: Fast and Model-agnostic Ranking System for Code Suggestions in IDEs.pdf",
+        "作者": "Daniele Cipollone, Egor Bogomolov, Arie van Deursen, Maliheh Izadi",
+        "摘要": "摘要：标记级代码补全是现代集成开发环境（IDE）中最关键的功能之一。它通过在编码过程中建议相关的标识符和API来协助开发人员。虽然补全通常来自静态分析，但其有用性很大程度上取决于如何排序，因为正确的预测如果深埋在列表中，用户很少能看到。目前大多数系统依赖手工制作的启发式或基于用户日志训练的轻量级机器学习模型，这些模型可以进一步改进以捕捉上下文信息并在项目和编码风格中泛化。在这项工作中，我们提出了一种新的评分方法，通过语言模型以轻量且模型无关的方式对静态补全进行排序。我们的方法将所有有效补全组织成前缀树，并执行单次贪婪解码以收集树中标记级别的分数。这使得无需束搜索、提示工程或模型调整即可实现精确的标记感知排序。该方法快速、架构无关，并且与已经部署的代码补全模型兼容。这些发现突出了将语言模型整合到现有IDE工具中的实用且有效的途径，最终为开发人员提供更智能、更灵敏的帮助。\n\n作者：Daniele Cipollone, Egor Bogomolov, Arie van Deursen, Maliheh Izadi\n链接：https://arxiv.org/pdf/2508.02455.pdf\n标题：2025 [2508.02455] TreeRanker: Fast and Model-agnostic Ranking System for Code Suggestions in IDEs.pdf",
+        "地址": "https://arxiv.org/pdf/2508.02455.pdf"
+    },
+    {
+        "名称": "2025 [2508.02063] TRACEALIGN -- Tracing the Drift: Attributing Alignment Failures to Training-Time Belief Sources in LLMs.pdf",
+        "作者": "Amitava Das, Vinija Jain, Aman Chadha",
+        "摘要": "摘要：大型语言模型（LLMs）经过微调以符合人类价值观时，常常会出现对齐漂移，在面对对抗提示、解码扰动或转述越狱时产生不安全或违反政策的输出。虽然之前的工作已经对对齐失败进行了行为刻画，但关于这些失败背后的训练时间信念来源知之甚少。我们引入了TraceAlign，一个用于追溯不安全输出至模型训练语料库根源的统一框架。我们方法的核心是信念冲突指数（BCI），它根据使用后缀数组匹配检索到的训练文档，量化生成的片段与对齐政策之间的语义不一致性。我们提出了三种互补干预措施：（i）TraceShield，一种推理时的安全过滤器，拒绝具有高BCI片段的输出，（ii）对比信念冲突丧失，一种对比微调目标，在DPO过程中惩罚高BCI的继续输出，以及（iii）Prov-Decode，一种基于来源的解码策略，否决预测会产生高BCI片段的束扩展。这些防御措施共同最大程度地减少对齐漂移，在我们策划的对齐漂移基准（ADB）上最高减少85%，同时在标准任务上保持效用，delta小于0.2并提高拒绝质量。我们还从理论上导出了漂移可能性的上限，通过后缀数组片段统计，将记忆频率和长度与对抗激活风险联系起来。因此，TraceAlign提供了第一个可扩展、可追溯和有根源的工具包，用于理解和缓解源头上的对齐失败。为了鼓励进一步探索和发展，我们开源了我们的实现：此https URL。",
+        "地址": "https://arxiv.org/pdf/2508.02063.pdf"
+    },
+    {
+        "名称": "2025 [2508.03793] AttnTrace: Attention-based Context Traceback for Long-Context LLMs.pdf",
+        "作者": "Yanting Wang, Runpeng Geng, Ying Chen, Jinyuan Jia",
+        "摘要": "摘要：长上下文大语言模型（LLMs），例如Gemini-2.5-Pro和Claude-Sonnet-4，越来越多地用于赋能高级AI系统，包括增强生成检索（RAG）管道和自主代理。在这些系统中，LLM接收指令以及上下文——通常由知识数据库或记忆中检索到的文本组成——并生成一个遵循指令的上下文相关的响应。最近的研究设计了一些解决方案，以追溯到上下文中对LLM生成响应贡献最大的文本子集。这些解决方案有许多现实世界中的应用，包括进行攻击后的司法分析和提高LLM输出的可解释性和可信度。尽管已经投入了大量努力，但最先进的解决方案如TracLLM通常会导致高计算成本，例如，一个响应-上下文对的追溯需要TracLLM数百秒。在这项工作中，我们提出了AttnTrace，这是一种新的基于LLM对提示产生的注意力权重的上下文追溯方法。为了有效利用注意力权重，我们引入了两种旨在提高AttnTrace效力的技术，并为我们的设计选择提供理论见解。我们还对AttnTrace进行了系统评价。结果表明，AttnTrace比现有最先进的上下文追溯方法更准确和高效。我们还展示了AttnTrace可以通过归因前检测范式提高最先进方法在长上下文下检测提示注入的效果。作为现实世界的应用，我们演示了AttnTrace可以有效定位设计用于操纵LLM生成评论的论文中的注入指令。代码在此https URL。",
+        "地址": "https://arxiv.org/pdf/2508.03793.pdf"
+    },
+    {
+        "名称": "2025 [2508.01126] UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation.pdf",
+        "作者": "Chaitanya Patel, Hiroki Nakamura, Yuta Kyuragi, Kazuki Kozuka, Juan Carlos Niebles, Ehsan Adeli",
+        "摘要": "摘要: 利用场景上下文生成和预测自我中心的人类运动对于增强增强现实（AR）/虚拟现实（VR）体验、改善人机交互、推进辅助技术以及通过准确预测和模拟第一人称视角的运动提供适应性医疗保健解决方案至关重要。然而，现有的方法主要集中在具有结构化 3D 场景上下文的第三人称运动合成，限制了它们在现实世界自我中心环境中的有效性，因为有限的视野、频繁的遮挡和动态相机会阻碍场景感知。为了解决这个问题，我们引入了自我中心运动生成和自我中心运动预测这两个新任务，通过使用第一人称图像进行场景感知运动合成，而不依赖于显式的 3D 场景。我们提出了 UniEgoMotion，一个统一的条件运动扩散模型，具有针对自我中心设备优化的新型头部中心运动表示。UniEgoMotion 的简洁而有效的设计支持从第一人称视觉输入中统一进行自我中心运动重建、预测和生成。与以前忽略场景语义的工作不同，我们的模型能有效提取基于图像的场景上下文来推断合理的 3D 运动。为了便于训练，我们引入了 EE4D-Motion，一个从 EgoExo4D 派生的大规模数据集，增加了伪真实的 3D 运动注释。UniEgoMotion 在自我中心运动重建方面达到了最先进的性能，并且是第一个从单个自我中心图像生成运动的模型。广泛的评估显示了我们统一框架的有效性，为自我中心运动建模设立了新的基准，并为自我中心应用打开了新可能。",
+        "地址": "https://arxiv.org/pdf/2508.01126.pdf"
+    }
+]
