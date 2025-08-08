@@ -1,0 +1,230 @@
+[
+    {
+        "名称": "2025 [2508.01191] Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens.pdf",
+        "作者": "Chengshuai Zhao, Zhen Tan, Pingchuan Ma, Dawei Li, Bohan Jiang, Yancheng Wang, Yingzhen Yang, Huan Liu",
+        "摘要": "摘要：链式思维（chain-of-thought, CoT）提示已被证明可以提升大规模语言模型（LLM）在各种任务上的表现。采用这种方法，LLM似乎在给出答案之前会产生类似人类的推理步骤（即CoT推理），这往往让人觉得它们在进行有意的推理过程。然而，一些初步发现表明，CoT推理可能比看上去更表面化，这促使我们进一步探索。在本文中，我们通过数据分布的视角研究CoT推理，并探讨CoT推理是否反映了从分布内数据中学习到的结构化归纳偏差，使模型能够有条件地生成近似于训练过程中见过的推理路径。因此，其有效性从根本上受训练数据和测试查询之间分布差异程度的限制。在这种视角下，我们从任务、长度和格式三个维度剖析CoT推理。为了研究每个维度，我们设计了DataAlchemy，一个从零开始训练LLM并在各种分布条件下系统性探测它们的独立和受控环境。我们的结果显示，CoT推理是一种脆弱的幻影，一旦超出训练分布就会消失。这项工作深入理解了CoT推理失败的原因和时机，强调了实现真正且可推广推理的持续挑战。",
+        "地址": "https://arxiv.org/pdf/2508.01191.pdf"
+    },
+    {
+        "名称": "2025 [2508.04026] VeriGUI: Verifiable Long-Chain GUI Dataset.pdf",
+        "作者": "Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Wendong Fan, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Ziqi Ren, Jialiang Gao, Jindi Lv, Junjie Wang, Aosong Feng, Heng Zhou, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Irene Li, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao",
+        "摘要": "摘要: 最近的研究已经深入探讨了构建能够执行复杂图形用户界面 (GUI) 计算机任务的自主代理，这有可能彻底改变人机交互。尽管已有令人鼓舞的成果，但现有的努力主要集中在短期交互上，并依赖于仅基于结果的验证，从而限制了在需要长时间任务分解和执行的现实世界 GUI 应用中的可扩展性。在这项工作中，我们介绍了 VeriGUI，这是一种新型的可验证长链 GUI 数据集，旨在促进在真实计算机环境中操作的通用 GUI 代理的开发和评估。我们的数据集强调两个关键维度：(1) 长链复杂性，任务被分解为一个跨越数百步的相互依赖子任务序列，明确设计允许任何子任务作为有效的起点；(2) 子任务级别的可验证性，使得在每个子任务中进行多样化的探索策略，同时确保每个子任务级别的目标保持可验证和一致。该数据集由跨桌面和网络的 GUI 任务轨迹组成，由人类专家注释。使用不同基础模型的各种代理在 VeriGUI 上进行的广泛实验揭示了在处理长时间任务时显著的性能差距，强调了在 GUI 代理中需要更强大的规划和决策能力。",
+        "地址": "https://arxiv.org/pdf/2508.04026.pdf"
+    },
+    {
+        "名称": "2025 [2508.02694] Efficient Agents: Building Effective Agents While Reducing Cost.pdf",
+        "作者": "Ningning Wang, Xavier Hu, Pai Liu, He Zhu, Yue Hou, Heyuan Huang, Shengyu Zhang, Jian Yang, Jiaheng Liu, Ge Zhang, Changwang Zhang, Jun Wang, Yuchen Eleanor Jiang, Wangchunshu Zhou",
+        "摘要": "摘要：大型语言模型 (LLM) 驱动的代理的显著能力使得复杂的、多步骤任务能够通过高级系统来应对，但其日益增长的成本威胁到了可扩展性和可访问性。本文首次系统地研究了现代代理系统中的效率-效能权衡，旨在解决低成本设计的关键需求，同时不牺牲性能。我们调查了三个关键问题：(1) 代理任务本质上需要多大复杂性？(2) 额外模块何时会产生收益递减？(3) 通过设计高效代理框架可以获得多少效率？通过对 GAIA 基准的实证分析，我们评估了 LLM 主干选择、代理框架设计、以及测试时的扩展策略对效率-性能权衡的影响。利用通过成本量化指标，我们对这些维度进行分析。我么的发现有助于开发 Efficient Agents（一种新型代理框架），其复杂性与任务要求最为匹配。Efficient Agents 保留了 OWL（领先的开源代理框架）96.7%的性能，同时将运营成本从 $0.398 减少到 $0.228，实现了一次通过成本的28.4%改进。我们的工作为设计高效、高性能代理系统提供了可操作的见解，推进了 AI 驱动解决方案的可访问性和可持续性。\n\n作者：王宁宁，胡轩伟，刘培，朱赫，侯跃，黄河远，张圣宇，杨健，刘佳恒，张戈，张常望，王俊，江昜，周王纯属\n\n评论：正在进行中的工作。欲了解 GitHub 仓库，请参考此 URL： https://arxiv.org/pdf/2508.02694.pdf\n\n论文标题：2025 [2508.02694] 高效代理：构建高效代理同时降低成本.pdf",
+        "地址": "https://arxiv.org/pdf/2508.02694.pdf"
+    },
+    {
+        "名称": "2025 [2508.04700] SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience.pdf",
+        "作者": "Zeyi Sun, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang",
+        "摘要": "摘要：将大型视觉语言模型（LVLMs）重新用作计算机使用代理（CUAs）已经带来了重大突破，主要是由人工标记数据驱动的。然而，这些模型在处理新颖和专业的软件时往往挣扎，特别是在缺乏人工注释的情况下。为了解决这一挑战，我们提出了SEAgent，这是一种代理自我进化框架，使CUAs能够通过与不熟悉的软件互动而自主进化。具体而言，SEAgent使计算机使用代理能够通过体验学习自主掌握新的软件环境，这些代理通过反复试验和错误进行探索学习，并逐步处理从简单到复杂的自动生成任务。为了实现这一目标，我们设计了一个世界状态模型进行逐步轨迹评估，以及一个课程生成器以生成越来越多样化和具有挑战性的任务。代理的策略通过体验学习来更新，包括对失败动作的对抗模仿和对成功动作的组相对策略优化（GRPO）。此外，我们引入了一种从专家到通才的训练策略，将个体专家代理的体验见解整合起来，促进更强大的通才CUA的发展，使其能够持续自主进化。这种统一的代理最终在其专用软件上的表现超越了单个专家代理的集合。我们在OS-World中的五个新软件环境中验证了SEAgent的有效性。与一个具有竞争力的开源CUA（即UI-TARS）相比，我们的方法在成功率上显著提高了23.2%，从11.3%提高到34.5%。",
+        "地址": "https://arxiv.org/pdf/2508.04700.pdf"
+    },
+    {
+        "名称": "2025 [2508.03501] Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning.pdf",
+        "作者": "Alexander Golubev, Maria Trofimova, Sergei Polezhaev, Ibragim Badertdinov, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Sergey Abramov, Andrei Andriushchenko, Filipp Fisin, Sergei Skvortsov, Boris Yangel",
+        "摘要": "摘要: 强化学习（RL）在大型语言模型（LLMs）中的应用研究主要集中在单轮问题上，例如数学推理或一次性代码生成。虽然这些问题可以被视为令牌级多轮马尔可夫决策过程（MDPs），但这种视角对应一个退化的多轮交互情况，其中环境不提供反馈。这与许多现实世界的领域形成鲜明对比，例如软件工程（SWE），这些领域需要与一个有状态的环境进行丰富的多轮交互，每个动作都会得到一个重要的观察反馈。为了弥补这一差距，我们展示了RL在这一一般性领域的成功应用。通过使用修改后的分离优势策略优化（DAPO）算法，我们训练了一个基于Qwen2.5-72B-Instruct的代理来解决现实世界的软件工程任务。我们的方法将代理在SWE-bench Verified基准测试中的成功率从20%的拒绝微调基线提高到39%，无需依赖任何教师模型。在SWE-rebench测试中，我们的代理与或优于领先的开放权重模型，如DeepSeek-V3-0324和Qwen3-235B-A22B，使用相同的脚手架，为基于开放模型构建更强大的自主代理解决复杂现实世界问题提供了一条可行的路径。",
+        "地址": "https://arxiv.org/pdf/2508.03501.pdf"
+    },
+    {
+        "名称": "2025 [2508.04280] Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success.pdf",
+        "作者": "George Bredis, Stanislav Dereka, Viacheslav Sinii, Ruslan Rakhimov, Daniil Gavrilov",
+        "摘要": "摘要：交互式多模态代理必须将原始视觉观察转化为连贯的语言条件动作序列，而当前的视觉语言模型（VLMs）仍然缺乏这种能力。早期的强化学习（RL）尝试原则上可以赋予VLMs这种技能，但它们很少测试所学习的行为是否可以超越其训练模拟器，并且依赖于脆弱的超参数调优或状态变化较小的密集奖励环境。我们引入了视觉语言解耦演员-评论家（VL-DAC），这是一种轻量级的、无超参数的RL算法。VL-DAC将PPO更新应用于动作标记，同时仅在环境步级别学习价值：据我们所知，这种安排此前尚未在大型VLM或LLM中探索过。这个简单的解耦去除了不稳定的加权项，并产生更快、更可靠的收敛。在每次一个廉价模拟器（例如MiniWorld、Gym-Cards、ALFWorld或WebShop）中训练单个VLM时，已经能够产生广泛泛化的策略：相对BALROG（游戏中心代理控制）提高+50\\\\%，相对VSI-Bench（空间规划）最难部分提高+5\\\\%，相对VisualWebBench（网络导航）提高+2\\\\%，同时不降低对图像理解的准确性。这些结果首次提供了简简单单的RL算法可以在廉价的合成世界中完全训练VLM，同时在真实图像代理、空间推理和网络导航基准测试中实现可衡量的改进的证据。\n\n来源：George Bredis, Stanislav Dereka, Viacheslav Sinii, Ruslan Rakhimov, Daniil Gavrilov, https://arxiv.org/pdf/2508.04280.pdf, 2025, \"Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success.pdf\"",
+        "地址": "https://arxiv.org/pdf/2508.04280.pdf"
+    },
+    {
+        "名称": "2025 [2508.03680] Agent Lightning: Train ANY AI Agents with Reinforcement Learning.pdf",
+        "作者": "Xufang Luo, Yuge Zhang, Zhiyuan He, Zilong Wang, Siyun Zhao, Dongsheng Li, Luna K. Qiu, Yuqing Yang",
+        "摘要": "摘要: 我们介绍了 Agent Lightning，一个灵活且可扩展的框架，它使得基于强化学习 (RL) 的大型语言模型 (LLMs) 训练能够适用于任何 AI 代理。与现有方法紧密结合 RL 训练与代理或依赖于带掩码的序列连接不同，Agent Lightning 实现了代理执行与训练之间的完全解耦，使得可以与现有通过多种方式开发的代理（例如，使用诸如 LangChain、OpenAI Agents SDK、AutoGen 的框架以及从头开始构建）几乎零代码修改的无缝集成。通过将代理执行表述为马尔科夫决策过程，我们定义了统一的数据接口并提出了分层 RL 算法 LightningRL，其中包含信用分配模块，使我们能够将任何代理生成的轨迹分解成训练过渡。这使得 RL 能够处理复杂的交互逻辑，例如多代理情境和动态工作流。对于系统设计，我们引入了训练-代理解耦架构，并在代理运行时引入代理可观察性框架，提供了标准化的代理微调接口。跨文本到 SQL、检索增强生成和数学工具使用任务的实验展示了稳定、持续的改进，展示了该框架在现实世界代理训练和部署中的潜力。",
+        "地址": "https://arxiv.org/pdf/2508.03680.pdf"
+    },
+    {
+        "名称": "2025 [2508.03159] CoTox: Chain-of-Thought-Based Molecular Toxicity Reasoning and Prediction.pdf",
+        "作者": "Jueon Park, Yein Park, Minju Song, Soyon Park, Donghyeon Lee, Seungheun Baek, Jaewoo Kang",
+        "摘要": "摘要：药物毒性仍然是药物开发中的主要挑战。虽然最近的机器学习模型在体外毒性预测上有所改进，但它们依赖于已注释的数据且缺乏可解释性，这限制了它们的适用性。尤其是，这些模型难以捕捉由复杂生物机制驱动的器官特异性毒性。大型语言模型（LLMs）通过逐步推理和整合文本数据提供了一种有前途的替代方法，但先前的方法缺乏生物学背景和透明的推理过程。为了解决这个问题，我们提出了CoTox，一个将LLM与连锁思维（CoT）推理相结合的新框架，用于多重毒性预测。CoTox结合化学结构数据、生物学途径和基因本体（GO）术语，通过逐步推理生成可解释的毒性预测。使用GPT-4o，我们展示了CoTox的表现优于传统的机器学习和深度学习模型。我们进一步考察了它在各种LLMs中表现，找出了CoTox最有效的地方。此外，我们发现，用IUPAC名称表示化学结构比起SMILES更容易被LLMs理解，提高了模型的推理能力和预测性能。为了展示其在药物开发中的实际用途，我们模拟了药物对相关细胞类型的处理，将由此产生的生物学背景纳入CoTox框架中。这种方法使CoTox能够生成与生理反应一致的毒性预测，如案例研究所示。这个结果突显了基于LLM的框架在提高可解释性和支持早期药物安全性评估方面的潜力。本文使用的代码和提示在该URL上可用。",
+        "地址": "https://arxiv.org/pdf/2508.03159.pdf"
+    },
+    {
+        "名称": "2025 [2508.03905] Sotopia-RL: Reward Design for Social Intelligence.pdf",
+        "作者": "Haofei Yu, Zhengyang Qi, Yining Zhao, Kolby Nottingham, Keyang Xuan, Bodhisattwa Prasad Majumder, Hao Zhu, Paul Pu Liang, Jiaxuan You",
+        "摘要": "摘要：社会智能已经成为大规模语言模型（LLMs）的一项关键能力，使其能够有效地参与现实世界中的社会任务，如适应、说服、合作和谈判。强化学习（RL）是训练具有社会智能的代理的天然方法，因为它允许模型通过社会互动直接学习复杂的策略。然而，社会互动具有两个关键特征，这对RL训练设置了障碍： （1）部分可观察性，言语产生的间接和延迟效果会使得归因困难；（2）多维性，如建立融洽关系或寻求知识等行为间接地有助于目标的实现。这些特征使基于马尔可夫决策过程（MDP）的RL用单一维度的情节级奖励变得低效且不稳定。为了解决这些挑战，我们提出了Sotopia-RL，这一新颖的框架将粗糙的情节级反馈细化为言语级的多维度奖励。言语级归因通过将结果归因于个别言语来缓解部分可观察性，而多维度奖励捕捉了社会互动的全部丰富性，并减少了奖励欺骗。在Sotopia，一个开放式的社会学习环境中的实验证明，Sotopia-RL在社会目标完成评分方面达到了最先进的水平（Sotopia-hard为7.17，Sotopia-full为8.31），显著优于现有的方法。消融研究证实了言语级归因和多维度奖励设计对于RL训练的必要性。我们的实现方式是公开的，详见：此HTTPS URL。\n\n作者：郁浩飞，齐政阳，赵一宁，Kolby Nottingham，宣科阳，Bodhisattwa Prasad Majumder，朱昊，梁保普，尤嘉轩\n\n评论：10页\n\n链接：https://arxiv.org/pdf/2508.03905.pdf\n\n标题：2025 [2508.03905] Sotopia-RL: 用于社会智能的奖励设计",
+        "地址": "https://arxiv.org/pdf/2508.03905.pdf"
+    },
+    {
+        "名称": "2025 [2508.01858] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents.pdf",
+        "作者": "Yuhan Guo, Cong Guo, Aiwen Sun, Hongliang He, Xinyu Yang, Yue Lu, Yingji Zhang, Xuntao Guo, Dong Zhang, Jianzhuang Liu, Jiang Duan, Yijia Xiao, Liangjian Wen, Hai-Ming Xu, Yong Dai",
+        "摘要": "摘要：多模态大规模模型显著推动了网络代理的发展，使其能够像人类认知一样感知和互动数字环境。在本文中，我们主张网络代理必须首先获取足够的知识，以有效进行认知推理。因此，我们将网络代理的能力分解为两个基本阶段：知识内容学习和认知过程。为了形式化这一点，我们提出了Web-CogKnowledge框架，将知识分类为事实性、概念性和程序性。在这个框架中，知识内容学习对应于代理的记忆和理解过程，这依赖于前两种知识类型，代表了学习的“什么”。相反，认知过程对应于探索，基于程序性知识，定义了推理和行动的“如何”。为了促进知识获取，我们构建了Web-CogDataset，这是一个从14个现实网站中结构化整理的资源，旨在系统地灌输网络代理所需的核心知识。该数据集作为代理的概念基础——构建理解的“名词”——以及学习推理和行动的基础。在此基础上，我们通过一个新颖的知识驱动的链式思维(CoT)推理框架来操作这些过程，开发并训练我们提议的代理Web-CogReasoner。广泛的实验揭示了其显著优于现有模型，特别是在未见过的任务中，结构化知识是决定性的。为了实现严格评估，我们引入了Web-CogBench，一个综合评估套件，设计用于评估和比较代理在划定的知识领域和认知能力上的表现。我们的代码和数据在这个https网址开源。",
+        "地址": "https://arxiv.org/pdf/2508.01858.pdf"
+    },
+    {
+        "名称": "2025 [2508.03789] HPSv3: Towards Wide-Spectrum Human Preference Score.pdf",
+        "作者": "Yuhang Ma, Xiaoshi Wu, Keqiang Sun, Hongsheng Li",
+        "摘要": "摘要：评估图文生成模型需要与人类感知保持一致，然而现有以人为中心的度量受到数据覆盖有限、特征提取次优以及损失函数效率低下的限制。为了解决这些问题，我们提出了HPSv3（Human Preference Score v3）。(1) 我们发布了HPDv3，这是第一个广谱人类偏好数据集，集成了108万图文对和117万来自最先进生成模型及低至高质量现实世界图像的成对比较注释。(2) 我们引入了基于VLM的偏好模型，采用具有不确定性意识的排序损失进行训练，以实现细粒度排序。此外，我们提出了链式人类偏好（CoHP），这是一种迭代图像优化方法，使用HPSv3在每一步选择最佳图像，无需额外数据来提高质量。广泛实验表明，HPSv3作为广谱图像评估的可靠度量，CoHP提供了提高图像生成质量的有效且符合人类偏好的方法。代码和数据集可在HPSv3主页获得。",
+        "地址": "https://arxiv.org/pdf/2508.03789.pdf"
+    },
+    {
+        "名称": "2025 [2508.03560] LaTCoder: Converting Webpage Design to Code with Layout-as-Thought.pdf",
+        "作者": "Yi Gui, Zhen Li, Zhongyi Zhang, Guohao Wang, Tianpeng Lv, Gaoyang Jiang, Yi Liu, Dongping Chen, Yao Wan, Hongyu Zhang, Wenbin Jiang, Xuanhua Shi, Hai Jin",
+        "摘要": "摘要：将网页设计转换为代码（设计到代码）对于前端开发人员的用户界面（UI）开发至关重要，桥接了视觉设计和功能实施之间的差距。虽然最近的多模态大型语言模型（MLLMs）在设计到代码任务中表现出显著的潜力，但在代码生成过程中它们往往无法准确地保留布局。为此，我们从人类认知的链式思维（CoT）推理中汲取灵感，提出了LaTCoder，这是一种通过布局如思（LaT）方法在代码生成过程中增强网页设计布局保留的创新方法。具体而言，我们首先引入了一种简单而高效的算法，将网页设计划分为图像块。接下来，我们使用基于CoT的方法提示MLLMs为每个块生成代码。最后，我们应用两种组装策略——绝对定位和基于MLLM的方法——然后进行动态选择以确定最佳输出。我们使用多个基础MLLMs（即DeepSeek-VL2、Gemini和GPT-4o）在公共基准和新引入的更具挑战性的基准（CC-HARD）上评估LaTCoder的有效性，该基准具有复杂的布局。自动指标的实验结果显示出显著的改进。具体来说，与直接提示相比，使用DeepSeek-VL2时，TreeBLEU分数提高了66.67%，MAE减少了38%。此外，人类偏好评估结果表明，注释者在超过60%的情况下更偏好由LaTCoder生成的网页，为我们的方法的有效性提供了强有力的证据。\n\n作者：Yi Gui, Zhen Li, Zhongyi Zhang, Guohao Wang, Tianpeng Lv, Gaoyang Jiang, Yi Liu, Dongping Chen, Yao Wan, Hongyu Zhang, Wenbin Jiang, Xuanhua Shi, Hai Jin\n评论：KDD 2025 v2\n网址：https://arxiv.org/pdf/2508.03560.pdf\n标题：2025 [2508.03560] LaTCoder: Converting Webpage Design to Code with Layout-as-Thought.pdf",
+        "地址": "https://arxiv.org/pdf/2508.03560.pdf"
+    },
+    {
+        "名称": "2025 [2507.23785] Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis.pdf",
+        "作者": "Bowen Zhang, Sicheng Xu, Chuxin Wang, Jiaolong Yang, Feng Zhao, Dong Chen, Baining Guo",
+        "摘要": "摘要: 本文提出了一种新颖的视频到4D生成框架，从单个视频输入创建高质量动态3D内容。直接进行4D扩散建模极具挑战性，因为数据构建成本高昂，并且在联合表示3D形状、外观和运动时具有高维特性。我们通过引入一种直接4DMesh到GS变化场VAE来解决这些挑战，该方法直接从3D动画数据中编码标准高斯斑点（GS）及其时间变化，无需每实例拟合，并将高维动画压缩到紧凑的潜在空间。在这种高效表示基础上，我们训练了一个基于时间感知扩散Transformer的高斯变化场扩散模型，该模型以输入视频和标准GS为条件进行训练。通过在Objaverse数据集中的精选四个动画3D对象上进行训练，我们的模型展示了比现有方法更优越的生成质量。尽管仅在合成数据上进行训练，它还展示了对捕获自野外的视频输入的卓越泛化能力，为生成高质量动画3D内容铺平了道路。项目页面：https://arxiv.org/pdf/2507.23785.pdf。",
+        "地址": "https://arxiv.org/pdf/2507.23785.pdf"
+    },
+    {
+        "名称": "2025 [2508.02215] LeanK: Learnable K Cache Channel Pruning for Efficient Decoding.pdf",
+        "作者": "Yike Zhang, Zhiyuan He, Huiqiang Jiang, Chengruidong Zhang, Yuqing Yang, Jianyong Wang, Lili Qiu",
+        "摘要": "摘要：大型语言模型（LLMs）可以执行长上下文任务，但由于不断增长的键值（KV）缓存面临效率挑战。我们提出了LeanK，一种基于学习的方法，通过利用静态通道稀疏性来修剪不重要的键（K）缓存通道。通过一种新的两阶段训练过程，LeanK学习了通道级的静态掩码，可以满足特定稀疏率和硬件对齐要求。LeanK在不牺牲准确性的情况下减少了GPU内存并加快了解码速度。实验表明键缓存减少最多达到70%，值缓存减少16%-18%。自定义解码内核使注意力计算加速1.3倍。我们还通过分析学习的重要性分布提供了长上下文推理期间模型通道和注意力头的见解。我们的代码可在此网址获得。\n\n作者：张一可、何志远、姜慧强、张成瑞栋、杨玉清、王剑勇、邱丽丽\n\n网址：[LeanK: Learnable K Cache Channel Pruning for Efficient Decoding.pdf](https://arxiv.org/pdf/2508.02215.pdf)",
+        "地址": "https://arxiv.org/pdf/2508.02215.pdf"
+    },
+    {
+        "名称": "2025 [2508.02807] DreamVVT: Mastering Realistic Video Virtual Try-On in the Wild via a Stage-Wise Diffusion Transformer Framework.pdf",
+        "作者": "Tongchun Zuo, Zaiyu Huang, Shuliang Ning, Ente Lin, Chao Liang, Zerong Zheng, Jianwen Jiang, Yuan Zhang, Mingyuan Gao, Xin Dong",
+        "摘要": "摘要: 视频虚拟试穿 (VVT) 技术因其在电子商务广告和娱乐中的广阔应用前景，已获得了相当大的学术关注。然而，大多数现有的端到端方法过于依赖稀缺的以服装为中心的配对数据集，无法有效利用高级视觉模型和测试时间输入的先验知识，从而难以在不受限制的场景中准确保留细粒度的服装细节并保持时间一致性。为了解决这些挑战，我们提出了DreamVVT，这是一种建立在扩散变压器 (DiTs) 之上的精心设计的两阶段框架，本质上能够利用多样化的未配对以人为中心的数据以增强在真实世界场景中的适应能力。为了进一步利用预训练模型和测试时间输入的先验知识，第一阶段，我们从输入视频中采样代表性帧，并利用集成视觉语言模型 (VLM) 的多帧试穿模型，生成高保真和语义一致的关键帧试穿图像。这些图像作为后续视频生成的外观指导。在第二阶段，从输入内容中提取骨架图与细粒度的运动和外观描述，连同关键帧试穿图像一起输入到增强了LoRA适配器的预训练视频生成模型中。这确保了未见区域的长期时间一致性，并实现了高度逼真的动态运动。广泛的定量和定性实验表明，在保留详细服装内容和时间稳定性方面，DreamVVT在真实世界场景中优于现有方法。",
+        "地址": "https://arxiv.org/pdf/2508.02807.pdf"
+    },
+    {
+        "名称": "2025 [2508.04664] Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management.pdf",
+        "作者": "Mo Li, L.H. Xu, Qitai Tan, Ting Cao, Yunxin Liu",
+        "摘要": "摘要: 大型语言模型（LLMs）在处理长上下文时，由于前摄干扰导致的表现显著下降，其中上下文前面部分的无关信息会破坏推理和记忆回忆。虽然大多数研究专注于使用外部记忆系统来增强LLMs的能力，我们提出了一种补充方法：通过主动上下文管理（ACM）工具赋予LLMs主动塑造其内部工作记忆的能力。我们介绍了Sculptor，一个为LLMs提供三类工具的框架：（1）上下文分割，（2）摘要、隐藏和恢复，以及（3）智能搜索。我们的方法使LLMs能够主动管理其注意力和工作记忆，类似于人类在选择性关注相关信息时过滤掉干扰。在信息稀缺基准PI-LLM（前摄干扰）和NeedleBench多针推理的实验评估中，即使没有特定训练，Sculptor也显著提高了性能，利用了LLMs固有的工具调用泛化能力。通过实现主动上下文管理，Sculptor不仅减轻了前摄干扰，还为跨各种长上下文任务的更可靠推理提供了认知基础，强调明确的上下文控制策略，而不仅仅是更大的token窗口，是实现大规模健壮性的关键。\n\n作者: Mo Li, L.H. Xu, Qitai Tan, Ting Cao, Yunxin Liu\n\n备注: 预印本。工作进行中\n\n链接: https://arxiv.org/pdf/2508.04664.pdf\n\n标题: 2025 [2508.04664] Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management.pdf",
+        "地址": "https://arxiv.org/pdf/2508.04664.pdf"
+    },
+    {
+        "名称": "2025 [2508.04586] Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference.pdf",
+        "作者": "Nuo Chen, Moming Duan, Andre Huikai Lin, Qian Wang, Jiaying Wu, Bingsheng He",
+        "摘要": "以下是这篇论文的摘要翻译：\n\n摘要：人工智能（AI）会议对于推进研究、分享知识和促进学术社区至关重要。然而，其快速扩展使得集中式会议模式变得越来越难以维持。本文提供了对威胁科学传播、公平性和社区福祉的结构性危机的数据驱动诊断。我们识别了四个关键压力领域：（1）科学上，每位作者的年均发表率在过去十年中翻了一倍多，达到每年超过4.5篇论文；（2）环境上，一次会议的碳足迹超过了其举办城市日常排放量；（3）心理上，71%的在线社区讨论反映了负面情绪，35%提到了心理健康问题；（4）后勤上，顶级会议（如NeurIPS 2024）的出席人数开始超过场地容量。这些压力表明目前的系统与其核心使命不符。对此，我们提出了社区联邦会议（CFC）模式，将同行评审、展示和网络交流分为全球协调但本地组织的组成部分，提供了一条更可持续、包容和有韧性的AI研究新路径。",
+        "地址": "https://arxiv.org/pdf/2508.04586.pdf"
+    },
+    {
+        "名称": "2025 [2508.01928] IAUNet: Instance-Aware U-Net.pdf",
+        "作者": "Yaroslav Prytula, Illia Tsiporenko, Ali Zeynalli, Dmytro Fishman",
+        "摘要": "摘要：实例分割在生物医学成像中非常重要，可以准确区分单个对象如细胞，这些对象通常存在重叠且大小不一。最近基于查询的方法，即对象查询指导分割，显示了强大的性能。虽然U-Net在医学图像分割中已经成为一种常用架构，但其在基于查询的方法中的潜力尚未被充分探索。在这项工作中，我们提出了IAUNet，一种新颖的基于查询的U-Net架构。核心设计特色是完整的U-Net架构，通过一种新颖的轻量级卷积像素解码器进行了增强，使模型更加高效，并减少了参数数量。此外，我们提出了一个变换器解码器，可以跨多个尺度优化特定对象的特征。最后，我们引入了2025 Revvity全细胞分割数据集，这是一种独特的资源，详细注释了明场图像中重叠的细胞胞质，为生物医学实例分割设立了新基准。在多个公共数据集和我们自己的数据集上的实验表明，IAUNet优于大多数最先进的全卷积、基于变换器和基于查询的模型以及特定的细胞分割模型，为细胞实例分割任务设定了一个强大的基准。代码可在此https URL处获取。\n\n翻译：要洛斯拉夫·普里图拉、伊利亚·锡波伦科、阿里·泽纳利、德米特罗·菲什曼\n\n评论：评论：发表于2025年CVPR研讨会（CVMI）。项目页面/代码/模型/数据集：$\\\\href{this https URL}{\\\\text{this https URL}}$\n\n链接：https://arxiv.org/pdf/2508.01928.pdf\n\n标题：2025 [2508.01928] IAUNet：实例感知U-Net.pdf",
+        "地址": "https://arxiv.org/pdf/2508.01928.pdf"
+    },
+    {
+        "名称": "2025 [2508.04295] EVOC2RUST: A Skeleton-guided Framework for Project-Level C-to-Rust Translation.pdf",
+        "作者": "Chaofan Wang, Tingrui Yu, Jie Wang, Dong Chen, Wenrui Zhang, Yuling Shi, Xiaodong Gu, Beijun Shen",
+        "摘要": "摘要：Rust 的编译时安全保证使其成为安全关键系统的理想选择，从而产生了将遗留的 C 代码库转换为 Rust 的需求。虽然为此任务出现了各种方法，但它们面临固有的权衡：基于规则的解决方案在满足代码安全和惯用性要求方面面临挑战，而基于 LLM 的解决方案由于整个代码库各模块之间的重度依赖性，常常生成语义上不等效的 Rust 代码。最近的研究揭示了这两种解决方案仅限于小规模程序。在本文中，我们提出了 EvoC2Rust，这是一种用于将整个 C 项目转换为等效 Rust 项目的自动化框架。EvoC2Rust 采用了项目级翻译的骨架引导翻译策略。其流程由三个进化阶段组成：1）首先将 C 项目分解为功能模块，使用增强功能映射的 LLM 转换定义和宏，并生成类型检查的函数存根，这些存根形成可编译的 Rust 骨架；2）然后逐步翻译函数，替换相应的存根占位符；3）最后，通过集成 LLM 和静态分析来修复编译错误。通过进化增强，EvoC2Rust 结合了基于规则和基于 LLM 的解决方案的优点。我们在开源基准和六个工业项目上的评估表明了 EvoC2Rust 在项目级 C 到 Rust 翻译中的卓越性能。平均而言，它在语法和语义准确性上比基于 LLM 的方法提高了17.24%和14.32%，比基于规则的工具提高了96.79%的代码安全率。在模块级别，EvoC2Rust 在工业项目上实现了92.25%的编译通过率和89.53%的测试通过率，甚至对于复杂代码库和长函数也是如此。",
+        "地址": "https://arxiv.org/pdf/2508.04295.pdf"
+    },
+    {
+        "名称": "2025 [2508.00222] RL-PLUS: Countering Capability Boundary Collapse of LLMs in Reinforcement Learning with Hybrid-policy Optimization.pdf",
+        "作者": "Yihong Dong, Xue Jiang, Yongding Tao, Huanyu Liu, Kechi Zhang, Lili Mou, Rongyu Cao, Yingwei Ma, Jue Chen, Binhua Li, Zhi Jin, Fei Huang, Yongbin Li, Ge Li",
+        "摘要": "摘要: 可验证奖励的强化学习(RLVR)极大地提升了大型语言模型(LLM)的复杂推理能力。然而，由于其本质上是结合LLM庞大的动作空间和稀疏奖励的策略，难以突破基础LLM的固有能力边界。更重要的是，RLVR可能导致能力边界崩溃，缩小LLM的问题解决范围。为了解决这个问题，我们提出了RL-PLUS，一种针对LLM的新型混合策略优化方法，通过内部开发和外部数据相结合，实现更强的推理能力，并突破基础模型的边界。RL-PLUS整合了两个核心组件，分别是多重重要性抽样以解决外部数据的分布不匹配问题，以及基于探索的优势函数来引导模型走向高价值、未开发的推理路径。我们提供了理论分析和广泛的实验，证明了我们方法的优越性和普遍适用性。与现有的RLVR方法相比，RL-PLUS在六个数学推理基准上达到了最新的性能；在六个分布外推理任务上表现优越；在不同模型家族中取得了一致且显著的收获，平均相对改善率高达69.2%。此外，Pass@k曲线的分析表明，RL-PLUS有效解决了能力边界崩溃问题。",
+        "地址": "https://arxiv.org/pdf/2508.00222.pdf"
+    },
+    {
+        "名称": "2025 [2507.21974] Reasoning Language Models for Root Cause Analysis in 5G Wireless Networks.pdf",
+        "作者": "Mohamed Sana, Nicola Piovesan, Antonio De Domenico, Yibin Kang, Haozhe Zhang, Merouane Debbah, Fadhel Ayed",
+        "摘要": "摘要：在移动网络中进行根本原因分析（RCA）仍然是一项具有挑战性的任务，因其需要可解释性、领域专长和因果推理。在这项工作中，我们提出了一个利用大型语言模型（LLMs）进行RCA的轻量级框架。为此，我们引入了TeleLogs，这是一个经过精心策划的数据集，包含注释的故障排除问题，旨在作为RCA能力的基准。我们的评估表明，现有的开源推理LLMs在处理这些问题时表现不佳，强调了领域特定适应的必要性。为了解决这个问题，我们提出了一种结合监督微调和强化学习的两阶段训练方法，以改进LLMs的准确性和推理质量。该方法微调了一系列RCA模型，以整合领域知识并生成结构化的、多步骤的诊断解释，提升了可解释性和有效性。跨多个LLM规模进行的广泛实验显示，与最先进的推理和非推理模型相比，性能有显著提升，包括对随机测试变体的强大泛化能力。这些结果表明，适应领域的、增强推理能力的LLMs在网络操作和管理中的实际和可解释RCA方面具有前景。",
+        "地址": "https://arxiv.org/pdf/2507.21974.pdf"
+    },
+    {
+        "名称": "2025 [2508.04010] HarmonyGuard: Toward Safety and Utility in Web Agents via Adaptive Policy Enhancement and Dual-Objective Optimization.pdf",
+        "作者": "Yurun Chen, Xavier Hu, Yuhan Liu, Keting Yin, Juncheng Li, Zhuosheng Zhang, Shengyu Zhang",
+        "摘要": "摘要：大型语言模型使代理能够在开放的网络环境中自主执行任务。然而，随着网络中隐藏威胁的演变，网络代理面临着在长序列操作中平衡任务性能与新兴风险的挑战。尽管这一挑战至关重要，目前的研究仍局限于单目标优化或单回合场景，缺乏在网络环境中协同优化安全性和效用的能力。为了填补这一空白，我们提出了 HarmonyGuard，这是一种多代理协作框架，通过策略增强和目标优化共同提升效用和安全性。HarmonyGuard 具有两个基本功能的多代理架构：(1) 自适应策略增强：我们在 HarmonyGuard 中引入了策略代理，自动从非结构化的外部文档中提取并维护结构化的安全策略，并随着威胁的发展不断更新策略。(2) 双目标优化：基于安全性和效用的双重目标，HarmonyGuard 中集成的效用代理执行马尔可夫实时推理以评估目标，并利用元认知能力进行优化。多个基准测试的广泛评估表明，HarmonyGuard 在现有基线的基础上将策略合规性提高了多达 38%，任务完成率提高了多达 20%，在所有任务中实现了超过 90% 的策略合规性。我们的项目链接在此：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.04010.pdf"
+    },
+    {
+        "名称": "2025 [2508.01197] A Coarse-to-Fine Approach to Multi-Modality 3D Occupancy Grounding.pdf",
+        "作者": "Zhan Shi, Song Wang, Junbo Chen, Jianke Zhu",
+        "摘要": "摘要：视觉定位旨在根据自然语言描述识别场景中的对象或区域，这对于自动驾驶中的空间感知至关重要。然而，现有的视觉定位任务通常依赖于边界框，这些边界框常常无法捕捉到细粒度的细节。由于边界框内并非所有体素都被占据，导致对象表示不准确。为了解决这一问题，我们在复杂的户外场景中引入了一个用于3D占据定位的基准，基于nuScenes数据集，结合了自然语言和体素级占据标注，提供了比传统定位任务更精确的对象感知。此外，我们提出了GroundingOcc，一种通过多模态学习设计的用于3D占据定位的端到端模型。它结合了视觉、文本和点云特征，从粗到细预测对象位置和占据信息。具体而言，GroundingOcc包括一个用于特征提取的多模态编码器，一个用于体素级预测的占据头，以及一个用于细化定位的定位头。另外，一个2D定位模块和一个深度估计模块增强了几何理解，从而提升了模型表现。在基准上的广泛实验表明，我们的方法在3D占据定位上优于现有基线。数据集可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2508.01197.pdf"
+    },
+    {
+        "名称": "2025 [2508.04632] IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards.pdf",
+        "作者": "Xu Guo, Tianyi Liang, Tong Jian, Xiaogui Yang, Ling-I Wu, Chenhui Li, Zhihui Lu, Qipeng Guo, Kai Chen",
+        "摘要": "摘要: 利用可验证奖励的强化学习（RLVR）改善了大型语言模型（LLMs）的指令执行能力，但由于难度评估不足，其训练效率低下。此外，RLVR容易出现过度优化的现象，即LLMs利用验证捷径而没有对齐用户指令的实际意图。我们引入了指令执行装饰器（IFDecorator）框架，将RLVR训练包装成一个健壮且样本高效的流程。该框架包括三个部分：（1）一个合作-对抗数据飞轮，共同进化指令和混合验证，生成逐步更具挑战性的指令-验证对；（2）IntentCheck，一个强制意图对齐的旁路模块；（3）陷阱线，一种通过捕捉捷径利用行为的陷阱指令检测奖励黑客的诊断机制。我们的Qwen2.5-32B-Instruct-IFDecorator在IFEval测试中达到了87.43%的准确率，超越了更大的专有模型如GPT-4o。此外，我们展示了在保持一般能力的同时，在FollowBench上取得了显著改进。我们的陷阱线显著减少了奖励黑客的发生率。我们将发布模型、代码和数据，供未来研究使用。",
+        "地址": "https://arxiv.org/pdf/2508.04632.pdf"
+    },
+    {
+        "名称": "2025 [2508.03983] MiDashengLM: Efficient Audio Understanding with General Audio Captions.pdf",
+        "作者": "Heinrich Dinkel, Gang Li, Jizhong Liu, Jian Luan, Yadong Niu, Xingwei Sun, Tianzi Wang, Qiyang Xiao, Junbo Zhang, Jiahao Zhou",
+        "摘要": "摘要：当前的大型音频语言模型（LALMs）通常依赖于封闭数据源或专有模型，限制了它们的泛化能力和可访问性。本文介绍了MiDashengLM，这是一种新颖的开放音频语言模型，旨在通过使用我们新的ACAVCaps训练数据集实现高效和全面的音频理解。MiDashengLM完全依赖于公开可用的预训练和监督微调（SFT）数据集，确保了完全的透明性和可重复性。在其核心，MiDashengLM集成了Dasheng，这是一个专门设计用于有效处理多样化听觉信息的开源音频编码器。与以前主要关注自动语音识别（ASR）基础的音频文本对齐的工作不同，我们的策略集中在普通音频字幕上，将语音、声音和音乐信息融合为一个文本表示，提供复杂音频场景的整体文本表示。最后，MiDashengLM在首次生成时间（TTFT）方面提供了高达4倍的加速，并且比可比模型具有高达20倍的吞吐量。检查点可在线获取，网址是这个 https 和这个 https。",
+        "地址": "https://arxiv.org/pdf/2508.03983.pdf"
+    },
+    {
+        "名称": "2025 [2508.03178] Light-IF: Endowing LLMs with Generalizable Reasoning via Preview and Self-Checking for Complex Instruction Following.pdf",
+        "作者": "Chenyang Wang, Liang Wen, Shousheng Jia, Xiangzheng Zhang, Liang Xu",
+        "摘要": "摘要：尽管大语言模型（LLMs）在推理能力方面的进步显著提升了其在解决数学问题、编码任务和一般谜题方面的表现，但在准确遵循指令方面的效果仍然不一致，特别是对于更复杂的指令。我们的研究发现，推理过程中的懒惰推理是导致指令遵循不佳的主要因素。为解决这一问题，我们提出了一个全面的框架，旨在实现严格的推理过程，包括预览和自我检查，这是满足严格指令约束所必需的。具体来说，我们首先生成具有复杂约束的指令并应用过滤过程以获得有效提示，生成三种不同提示数据集，分别为困难、简单和通过。然后，我们对通过提示进行拒绝采样，策划一个小而高质量的数据集，启用模型的冷启动初始化，并促进其适应有效的推理模式。随后，我们采用熵保持监督微调（Entropy-SFT）策略，结合基于规则的密集奖励指导的逐字熵自适应（TEA-RL）强化学习。此方法鼓励模型转换其推理机制，最终培养包括预览和自我检查在内的可推广推理能力。在指令遵循基准上进行的广泛实验表明，各种模型规模的性能均有显著提升。值得注意的是，我们的Light-IF-32B模型在性能上超过了更大的开源模型如DeepSeek-R1和封闭源模型如Doubao-1.6。\n\n作者：王晨阳，温亮，贾守胜，张向征，徐亮\n\n评论：12页，10幅图，7张表\n\n链接：https://arxiv.org/pdf/2508.03178.pdf\n\n标题：2025 [2508.03178] Light-IF: 通过复杂指令遵循的预览和自我检查赋予LLMs可推广的推理能力",
+        "地址": "https://arxiv.org/pdf/2508.03178.pdf"
+    },
+    {
+        "名称": "2025 [2508.01778] DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online HD Map Diffusion.pdf",
+        "作者": "Zhigang Sun, Yiru Wang, Anqing Jiang, Shuo Wang, Yu Gao, Yuwen Heng, Shouyi Zhang, An He, Hao Jiang, Jinhao Chai, Zichong Gu, Wang Jijun, Shichen Tang, Lavdim Halilaj, Juergen Luettin, Hao Sun",
+        "摘要": "摘要:\n自动驾驶需要准确的场景理解，包括道路几何、交通参与者及其语义关系。在在线高精地图生成场景中，基于栅格的表示适合于视觉模型，但缺乏几何精度，而基于图的表示保留了结构细节，但在没有精确地图时变得不稳定。为了利用两者的互补优势，我们提出了DiffSemanticFusion——一种用于多模态轨迹预测和规划的融合框架。我们的方法在一个语义栅格融合的鸟瞰图空间上进行推理，通过一个地图扩散模块增强了在线高精地图表示的稳定性和表现力。我们在两个下游任务中验证了我们的框架：轨迹预测和面向规划的端到端自动驾驶。在真实世界自动驾驶基准测试nuScenes和NAVSIM上的实验显示，性能优于几种最先进的方法。在nuScenes的预测任务中，我们将DiffSemanticFusion与在线高精地图信息的QCNet集成，实现了5.1%的性能提升。在NAVSIM中的端到端自动驾驶中，DiffSemanticFusion在NavHard场景下实现了15%的性能提升。此外，大量的消融和敏感性研究表明，我们的地图扩散模块可以无缝集成到其他基于向量的方法中以提高性能。所有的工件均可在这个HTTPS链接上获得。\n\n链接: [https://arxiv.org/pdf/2508.01778.pdf](https://arxiv.org/pdf/2508.01778.pdf)\n",
+        "地址": "https://arxiv.org/pdf/2508.01778.pdf"
+    },
+    {
+        "名称": "2025 [2508.01630] OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets.pdf",
+        "作者": "Maziyar Panahi",
+        "摘要": "摘要：命名实体识别（NER）是从占比超过80%的非结构化临床记录和生物医学文献中提取结构化信息的基础。尽管大型语言模型最近取得了进展，但在维持计算效率的同时实现跨多种实体类型的最先进性能仍是一个重大挑战。我们介绍了OpenMed NER，一套开源的、领域适应型的Transformer模型，结合了轻量级领域适应预训练（DAPT）和参数高效的低秩适应（LoRA）。我们的方法在由伦理来源、公开可用的研究库和去识别化临床记录（PubMed、arXiv和MIMIC-III）编译的350k段落语料库上使用DeBERTa-v3、PubMedBERT和BioELECTRA骨干进行成本效益高的DAPT。然后通过LoRA进行任务特定微调，更新的模型参数不到1.5%。我们在12个既定的生物医学NER基准数据集（涵盖化学物质、疾病、基因和物种）上评估我们的模型。OpenMed NER在这12个数据集中的10个上实现了新的最先进微F1分数，并在多种实体类型上取得了显著的提升。我们的模型在基础性疾病和化学物质基准（例如BC5CDR-Disease，+2.70个百分点）上取得了突破，同时在更为专门的基因和临床细胞系语料库上分别提高了超过5.3和9.7个百分点。该研究表明，战略性调整的开源模型可以超越闭源解决方案。这种性能以显著的效率实现：在单个GPU上训练在12小时内完成，碳足迹低（<1.2 kg CO2e），生成的许可开放的开源检查点设计旨在帮助从业者促进符合新的数据保护和AI法规，例如欧盟AI法案。",
+        "地址": "https://arxiv.org/pdf/2508.01630.pdf"
+    },
+    {
+        "名称": "2025 [2508.00599] DPoser-X: Diffusion Model as Robust 3D Whole-body Human Pose Prior.pdf",
+        "作者": "Junzhe Lu, Jing Lin, Hongkun Dou, Ailing Zeng, Yue Deng, Xian Liu, Zhongang Cai, Lei Yang, Yulun Zhang, Haoqian Wang, Ziwei Liu",
+        "摘要": "摘要：我们提出了DPoser-X，一种基于扩散模型的3D全身人体姿态先验模型。由于人体姿态的关节复杂性和高质量全身姿态数据集的稀缺，构建一个通用且强大的全身姿态先验模型一直具有挑战性。为了解决这些限制，我们引入了作为人体姿态先验的扩散模型（DPoser），并将其扩展为用于表达全身人体姿态建模的DPoser-X。我们的方法将各种以姿态为中心的任务统一为逆问题，通过变分扩散采样解决。为了提高下游应用的性能，我们引入了一种新的截断时间步调度方法，该方法专门为姿态数据特性设计。我们还提出了一种掩码训练机制，能够有效结合全身和部分特定的数据集，使我们的模型能够捕捉身体部分之间的相互依赖性，同时避免对特定动作的过拟合。大量实验表明，DPoser-X在多个基准测试中的鲁棒性和多样性，包括身体、手、脸和全身姿态建模。我们的模型始终优于最先进的替代方案，建立了全身人体姿态先验建模的新基准。\n\n作者：陆俊哲，林静，窦宏坤，曾艾玲，邓悦，刘贤，蔡中昂，杨磊，张雨伦，王皓谦，刘子威\n\n注释：ICCV 2025（口头报告）；代码已发布：此过 this URL\n\n链接：https://arxiv.org/pdf/2508.00599.pdf\n\n标题：DPoser-X：作为鲁棒3D全身人体姿态先验的扩散模型",
+        "地址": "https://arxiv.org/pdf/2508.00599.pdf"
+    },
+    {
+        "名称": "2025 [2508.00428] Sel3DCraft: Interactive Visual Prompts for User-Friendly Text-to-3D Generation.pdf",
+        "作者": "Nan Xiang, Tianyi Liang, Haiwen Huang, Shiqi Jiang, Hao Huang, Yifei Huang, Liangyu Chen, Changbo Wang, Chenhui Li",
+        "摘要": "摘要：文本到3D（T23D）生成已经改变了数字内容创作，但仍然受到盲目试错提示过程的瓶颈制约，导致结果不可预测。虽然视觉提示工程在文本到图像领域取得了进展，但其在3D生成中的应用面临独特挑战，需要进行多视图一致性评估和空间理解。我们提出Sel3DCraft，这是一种用于T23D的视觉提示工程系统，将无结构的探索转变为有指导的视觉过程。我们的方法引入了三个关键创新：结合检索和生成的双分支结构，用于多样候选项的探索；利用带有创新高级指标的多模态大模型（MLLMs）进行多视图混合评分，以评估具有专家一致性的3D模型；以及一个基于提示的视觉分析工具套件，能够直观地识别和改进缺陷。广泛的测试和用户研究表明，Sel3DCraft在支持设计师的创造力方面优于其他T23D系统。\n\n作者：Nan Xiang, Tianyi Liang, Haiwen Huang, Shiqi Jiang, Hao Huang, Yifei Huang, Liangyu Chen, Changbo Wang, Chenhui Li\n\n评论：IEEE VIS VAST 2025 ACM 2012 CCS - 以人为中心的计算， 可视化， 可视化设计与评估方法\n\n网址：https://arxiv.org/pdf/2508.00428.pdf\n\n标题：Sel3DCraft: 用于用户友好文本到3D生成的交互视觉提示",
+        "地址": "https://arxiv.org/pdf/2508.00428.pdf"
+    },
+    {
+        "名称": "2025 [2508.04440] StepFun-Formalizer: Unlocking the Autoformalization Potential of LLMs through Knowledge-Reasoning Fusion.pdf",
+        "作者": "Yutong Wu, Di Huang, Ruosi Wan, Yue Peng, Shijie Shang, Chenrui Cao, Lei Qi, Rui Zhang, Zidong Du, Jie Yan, Xing Hu",
+        "摘要": "摘要：自动形式化旨在将自然语言数学陈述转换为形式语言。虽然大型语言模型（LLMs）加速了这一领域的进展，但现有方法仍然存在准确性低的问题。我们确定了有效自动形式化的两个关键能力：全面掌握形式语言领域知识，以及自然语言问题理解和非正式-正式对齐的推理能力。没有前者，模型无法识别正确的形式对象；没有后者，它难以准确解释现实世界的上下文并将其精确映射到形式表达中。为了解决这些问题，我们引入了ThinkingF，一种数据合成和训练管道，旨在提高这两种能力。首先，我们构建了两个数据集：一个通过提取和选择包含丰富形式知识的大规模示例，另一个通过生成由专家设计模板指导的非正式到正式推理轨迹。然后，我们使用这些数据集应用SFT和RLVR来进一步融合和改进这两种能力。生成的7B和32B模型展现了全面的形式知识和强大的非正式到正式推理能力。值得注意的是，StepFun-Formalizer-32B在FormalMATH-Lite上的BEq@1得分为40.5%，在ProverBench上的得分为26.7%，超过了所有先前的通用和专用模型。\n\n作者：吴宇彤, 黄迪, 万若思, 彭悦, 尚世杰, 曹晨瑞, 齐蕾, 张睿, 杜梓栋, 阎杰, 胡星\n\n评论：24页，17个图，正在审查中\n\nURL：https://arxiv.org/pdf/2508.04440.pdf\n\n标题：2025 [2508.04440] StepFun-Formalizer: 通过知识-推理融合释放大型语言模型自动形式化潜力",
+        "地址": "https://arxiv.org/pdf/2508.04440.pdf"
+    },
+    {
+        "名称": "2025 [2508.03970] Data and AI governance: Promoting equity, ethics, and fairness in large language models.pdf",
+        "作者": "Alok Abhishek, Lisa Erickson, Tushar Bandopadhyay",
+        "摘要": "摘要：在本文中，我们探讨了如何系统地管理、评估和量化机器学习模型生命周期内的偏见，从初始开发和验证阶段到持续的生产监控和保障措施的实施。基于我们对大规模语言模型偏见评估和测量测试套件（BEATS）的基础性工作，作者分享了大规模语言模型（LLMs）中普遍存在的偏见和公平性相关的缺陷，并讨论了数据和AI治理框架以解决LLMs中的偏见、伦理、公平性和真实性问题。本文讨论的数据和AI治理方法适用于实际的真实世界应用，使得在生产部署前对LLMs进行严格的基准测试，促进连续的实时评估，并主动管理LLMs生成的响应。通过在AI开发生命周期中实施数据和AI治理，组织可以显著增强其生成型AI系统的安全性和责任性，有效减轻歧视风险，并防止潜在的声誉或品牌相关的损害。最终，通过这篇文章，我们旨在推动创建和部署社会责任和伦理一致的生成型人工智能应用的发展。",
+        "地址": "https://arxiv.org/pdf/2508.03970.pdf"
+    },
+    {
+        "名称": "2025 [2508.03448] SonicMaster: Towards Controllable All-in-One Music Restoration and Mastering.pdf",
+        "作者": "Jan Melechovsky, Ambuj Mehrish, Dorien Herremans",
+        "摘要": "摘要：音乐录音通常会遇到音质问题，如过度混响、失真、剪辑、音调失衡以及立体声图像变窄，尤其是在没有专业设备或经验的非专业环境中制作的录音。这些问题通常使用单独的专业工具和人工调整进行修正。在本文中，我们介绍了SonicMaster，这是首个统一的音乐恢复和母带处理生成模型，能够通过文本控制来解决广泛的音频问题。SonicMaster基于自然语言指令进行针对性增强，也可以在自动模式下进行一般恢复。为了训练这个模型，我们构建了SonicMaster数据集，这是一个包含大量配对的降质曲目和高质量曲目的数据集，通过模拟十九种属于均衡、动态、混响、幅度和立体声五个增强组的常见降质类型来生成。我们的方法利用流匹配生成训练范式来学习音频转换，通过文本提示将降质输入映射到清晰的母带版本。客观的音质指标表明，SonicMaster在所有问题类别中显著改善了声音质量。此外，主观听力测试确认听众更喜欢SonicMaster增强后的输出，而不是原始的降质音频，突显了我们统一方法的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.03448.pdf"
+    },
+    {
+        "名称": "2025 [2508.01311] C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor.pdf",
+        "作者": "Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao",
+        "摘要": "摘要：3D异常检测（AD）在高精度工业产品的异常或缺陷检测方面展现了巨大的潜力。然而，现有的方法通常采用特定类别训练，并且缺乏从新兴类别中学习的能力。在这项研究中，我们提出了一个名为持续3D异常检测（C3D-AD）的持续学习框架，它不仅能够为多类点云学习生成化表示，还能够处理新类别的出现。在特征提取模块中，引入了拥有随机特征层的核注意力(KAL)来高效地从不同任务的多种产品类型中提取生成化的局部特征。然后，为了正确并持续地重建数据，提出了一种高效的带可学习指导器的核注意力(KAA)机制，该机制在编码和解码器中学习新类别的信息，同时丢弃冗余的旧信息。最后，为了保持任务之间表示的一致性，提出了带参数扰动的重建(RPP)模块，通过设计表示排演损失函数，确保模型记住之前的类别信息并返回类别自适应实验结果。这项研究在三个公共数据集上的实验结果证明了所提出方法的有效性，在Real3D-AD、Anomaly-ShapeNet和MulSen-AD上分别达到了66.4%、83.1%和63.4%的AUROC平均表现。",
+        "地址": "https://arxiv.org/pdf/2508.01311.pdf"
+    },
+    {
+        "名称": "2025 [2508.01226] CM$^3$: Calibrating Multimodal Recommendation.pdf",
+        "作者": "Xin Zhou, Yongjie Wang, Zhiqi Shen",
+        "摘要": "摘要：在对比学习领域，对齐和均匀性是基本原则。在推荐系统中，之前的研究已经确定优化贝叶斯个性化排序（BPR）损失有助于实现对齐和均匀性目标。具体而言，对齐旨在将交互用户和项目的表示拉近，而均匀性要求用户和项目嵌入在单位超球面上呈均匀分布。本研究重新审视了多模态推荐系统中的对齐和均匀性属性，发现现有模型倾向于优先考虑均匀性，而忽视了对齐。我们的假设挑战了通过均匀性损失平等对待项目的传统假设，提出了一种更细致的方法，其中具有相似多模态属性的项目在超球面流形上趋向于接近的表示。具体而言，我们利用项目多模态数据之间的内在相似性来校准它们的均匀性分布，从而在嵌入空间内引起更明显的不同实体之间的排斥力。理论分析阐明了这种校准均匀性损失与传统均匀性函数之间的关系。此外，为了增强多模态特征的融合，我们引入了一种球面贝塞尔方法，旨在集成任意数量的模态，同时确保融合后的特征约束在同一超球面流形上。对五个现实世界数据集进行的实证评估证实了我们方法相对于竞争基线的优越性。我们还表明，所提出的方法通过整合MLLM提取的特征，可实现NDCG@20性能最多提高5.4%。源代码可在此网址获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.01226.pdf"
+    },
+    {
+        "名称": "2025 [2508.00109] FACTORY: A Challenging Human-Verified Prompt Set for Long-Form Factuality.pdf",
+        "作者": "Mingda Chen, Yang Li, Xilun Chen, Adina Williams, Gargi Ghosh, Scott Yih",
+        "摘要": "摘要: 长篇事实性评估旨在评估模型生成准确、全面响应短提示的能力。现有的基准往往缺乏人工验证，可能导致质量问题。为解决这一限制，我们引入了FACTORY，一个大规模、人类验证的提示集。使用模型循环方法开发，并经过人类精炼，FACTORY包括具有挑战性的提示，这些提示具有寻求事实、可回答和明确的特点。我们使用FACTORY和现有数据集对6个最先进的语言模型进行了人工评估。结果表明，FACTORY是一个具有挑战性的基准：在SOTA模型的响应中，大约40%的声明是不真实的，而在其他数据集中仅为10%。我们的分析强调了FACTORY相较于之前基准的优势，强调了其可靠性以及模型需要在长尾事实中进行推理的必要性。",
+        "地址": "https://arxiv.org/pdf/2508.00109.pdf"
+    },
+    {
+        "名称": "2025 [2507.23313] The Cow of Rembrandt - Analyzing Artistic Prompt Interpretation in Text-to-Image Models.pdf",
+        "作者": "Alfio Ferrara, Sergio Picascia, Elisabetta Rocchetti",
+        "摘要": "摘要：文本到图像扩散模型通过从数十亿张图像（包括流行艺术作品）中学习，展示了生成艺术内容的非凡能力。然而，这些模型如何在内部表示概念，例如绘画中的内容和风格，仍然未被探索。传统的计算机视觉认为内容和风格是正交的，但扩散模型在训练期间没有收到关于这种区分的明确指导。在这项工作中，我们研究了基于变压器的文本到图像扩散模型在生成艺术作品时如何编码内容和风格概念。我们利用交叉注意力热图将生成图像中的像素归因于特定的提示词，从而使我们能够隔离由描述内容的词和描述风格的词影响的图像区域。我们的研究结果表明，扩散模型在不同的艺术提示和风格要求下显示出不同程度的内容和风格分离。在许多情况下，内容词主要影响与对象相关的区域，而风格词则影响背景和纹理区域，表明模型对内容和风格区分的潜在理解。 这些见解有助于我们理解大规模生成模型在没有明确监督的情况下如何在内部表示复杂的艺术概念。我们分享了代码和数据集，以及一个用于可视化注意力图的探索工具。",
+        "地址": "https://arxiv.org/pdf/2507.23313.pdf"
+    },
+    {
+        "名称": "2025 [2508.02951] MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine.pdf",
+        "作者": "Mahtab Bigverdi, Wisdom Ikezogwo, Kevin Zhang, Hyewon Jeong, Mingyu Lu, Sungjae Cho, Linda Shapiro, Ranjay Krishna",
+        "摘要": "摘要: 多模态语言模型 (MLMs) 在临床决策支持和诊断推理方面表现出潜力，有望实现端到端的自动化医学图像解释。然而，临床医生对采用 AI 工具极为挑剔；如果模型在看似简单的感知任务上出现错误，例如确定图像方向或识别 CT 扫描是否进行了对比增强，临床医生不太可能采用该模型来进行临床任务。我们推出了 Medblink，这是一项旨在探查这些模型感知能力的基准测试。Medblink 涵盖多个影像模式和解剖区域的八项具有临床意义的任务，共有 1,605 张图像上的 1,429 道选择题。我们评估了 19 个最先进的 MLMs，包括通用模型 (GPT-4o，Claude 3.5 Sonnet) 和特定领域模型 (Med Flamingo, LLaVA Med, RadFM)。尽管人类标注者的准确率达到 96.4%，表现最好的模型仅达到 65%。这些结果表明当前的 MLMs 在常规感知检查方面频繁失败，建议需要加强其视觉基础以支持临床采用。数据在我们的项目页面上可获取。",
+        "地址": "https://arxiv.org/pdf/2508.02951.pdf"
+    }
+]
