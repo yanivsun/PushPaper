@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2508.06471] GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models.pdf",
+        "作者": "GLM-4.5 Team: Aohan Zeng, Xin Lv, Qinkai Zheng, Zhenyu Hou, Bin Chen, Chengxing Xie, Cunxiang Wang, Da Yin, Hao Zeng, Jiajie Zhang, Kedong Wang, Lucen Zhong, Mingdao Liu, Rui Lu, Shulin Cao, Xiaohan Zhang, Xuancheng Huang, Yao Wei, Yean Cheng, Yifan An, Yilin Niu, Yuanhao Wen, Yushi Bai, Zhengxiao Du, Zihan Wang, Zilin Zhu, Bohan Zhang, Bosi Wen, Bowen Wu, Bowen Xu, Can Huang, Casey Zhao, Changpeng Cai, Chao Yu, Chen Li, Chendi Ge, Chenghua Huang, Chenhui Zhang, Chenxi Xu, Chenzheng Zhu, Chuang Li, Congfeng Yin, Daoyan Lin, Dayong Yang, Dazhi Jiang, Ding Ai, Erle Zhu, Fei Wang, Gengzheng Pan, Guo Wang, Hailong Sun, Haitao Li, Haiyang Li, Haiyi Hu, Hanyu Zhang, Hao Peng, Hao Tai, Haoke Zhang, Haoran Wang, Haoyu Yang, He Liu, He Zhao, Hongwei Liu, Hongxi Yan, Huan Liu, Huilong Chen, Ji Li, Jiajing Zhao, Jiamin Ren, Jian Jiao, Jiani Zhao, Jianyang Yan, Jiaqi Wang, Jiayi Gui, Jiayue Zhao, Jie Liu, Jijie Li, Jing Li, Jing Lu, Jingsen Wang, Jingwei Yuan, Jingxuan Li, Jingzhao Du, Jinhua Du, Jinxin Liu, Junkai Zhi, Junli Gao, Ke Wang, Lekang Yang, Liang Xu, Lin Fan, Lindong Wu, Lintao Ding, Lu Wang, Man Zhang, Minghao Li, Minghuan Xu, Mingming Zhao, Mingshu Zhai\n\n\n        , Pengfan Du, Qian Dong, Shangde Lei, Shangqing Tu, Shangtong Yang, Shaoyou Lu, Shijie Li, Shuang Li, Shuang-Li, Shuxun Yang, Sibo Yi, Tianshu Yu, Wei Tian, Weihan Wang, Wenbo Yu, Weng Lam Tam, Wenjie Liang, Wentao Liu, Xiao Wang, Xiaohan Jia, Xiaotao Gu, Xiaoying Ling, Xin Wang, Xing Fan, Xingru Pan, Xinyuan Zhang, Xinze Zhang, Xiuqing Fu, Xunkai Zhang, Yabo Xu, Yandong Wu, Yida Lu, Yidong Wang, Yilin Zhou, Yiming Pan, Ying Zhang, Yingli Wang, Yingru Li, Yinpei Su, Yipeng Geng, Yitong Zhu, Yongkun Yang, Yuhang Li, Yuhao Wu, Yujiang Li, Yunan Liu, Yunqing Wang, Yuntao Li, Yuxuan Zhang, Zezhen Liu, Zhen Yang, Zhengda Zhou, Zhongpei Qiao, Zhuoer Feng, Zhuorui Liu, Zichen Zhang, Zihan Wang, Zijun Yao, Zikang Wang, Ziqiang Liu, Ziwei Chai, Zixuan Li, Zuodong Zhao, Wenguang Chen, Jidong Zhai, Bin Xu, Minlie Huang, Hongning Wang, Juanzi Li, Yuxiao Dong, Jie Tang\n\n\n    et al. (71 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们推出了GLM-4.5，这是一种具有3550亿参数和320亿激活参数的开源混合专家(MoE)大型语言模型，拥有支持思考和直接响应模式的混合推理方法。通过针对23万亿标记的多阶段训练和综合后训练的专家模型迭代与强化学习，GLM-4.5在代理性、推理和编码（ARC）任务上展示了强大的性能，在TAU-Bench上得分为70.1%，在AIME 24上得分为91.0%，在SWE-bench Verified上得分为64.2%。尽管参数远少于几个竞争对手，GLM-4.5在所有评估模型中整体排名第三，在代理性基准测试中排名第二。我们发布了GLM-4.5（3550亿参数）及其紧凑版本GLM-4.5-Air（1060亿参数），以推动推理和代理性人工智能系统的研究。代码、模型及更多信息可在链接网址中获取。",
+        "地址": "https://arxiv.org/pdf/2508.06471.pdf"
+    },
+    {
+        "名称": "2025 [2508.04825] Voost: A Unified and Scalable Diffusion Transformer for Bidirectional Virtual Try-On and Try-Off.pdf",
+        "作者": "Seungyong Lee, Jeong-gi Kwak",
+        "摘要": "摘要: 虚拟试衣旨在合成一个人穿着目标服装的逼真图像，但在姿势和外观变化下，准确建模服装与身体的对应关系仍然是一个持续的挑战。在本文中，我们提出了Voost——一个统一且可扩展的框架，利用单一扩散变换器联合学习虚拟试衣和试衣卸下。通过共同建模这两个任务，Voost使每个服装与人配对可以监督双向，并支持灵活的生成方向和服装类别条件，从而在无需特定任务网络、辅助损失或额外标签的情况下，增强了服装与身体关系的推理。此外，我们引入了两个推理时间技术：注意力温度缩放，以增强对分辨率或遮罩变化的鲁棒性；以及利用任务之间双向一致性的自我校正采样。大量实验表明，Voost在试衣和试衣卸下基准测试中均达到了最先进的结果，在对齐准确性、视觉真实感和泛化性上始终优于强大的基线。\n\n作者: Seungyong Lee, Jeong-gi Kwak\n\n评论: 项目页面: this https URL\n\n链接: https://arxiv.org/pdf/2508.04825.pdf\n\n标题: 2025 [2508.04825] Voost: A Unified and Scalable Diffusion Transformer for Bidirectional Virtual Try-On and Try-Off.pdf",
+        "地址": "https://arxiv.org/pdf/2508.04825.pdf"
+    },
+    {
+        "名称": "2025 [2508.05731] InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization.pdf",
+        "作者": "Yuhang Liu, Zeyu Liu, Shuanghe Zhu, Pengxiang Li, Congkai Xie, Jiasheng Wang, Xueyu Hu, Xiaotian Han, Jianbo Yuan, Xinyao Wang, Shengyu Zhang, Hongxia Yang, Fei Wu",
+        "摘要": "摘要：多模态大语言模型（MLLMs）的出现推动了在图形用户界面（GUIs）上使用纯视觉输入的自主代理的发展。一个基本挑战是稳健地将自然语言指令绑定在GUI元素上。这需要精确的空间对齐，即准确定位每个元素的坐标，更重要的是，正确的语义对齐，即将指令匹配到功能上适当的UI元素上。虽然带有可验证奖励的强化学习（RLVR）已被证明可以有效地改进这些MLLMs的空间对齐，但我们发现，低效的探索阻碍了语义对齐，使模型无法学习困难的语义关联。为了解决这个探索问题，我们提出了自适应探索策略优化（AEPO），一个新的策略优化框架。AEPO采用多答案生成策略以强制进行更广泛的探索，然后通过从效率的基本原理eta=U/C导出的理论引导的自适应探索奖励（AER）函数进行引导。我们通过AEPO训练的模型InfiGUI-G1-3B和InfiGUI-G1-7B在多个具有挑战性的GUI绑定基准测试中建立了新的最先进结果，相对于设计用于测试泛化和语义理解的基准测试，取得了高达9.0%的显著相对改进。相关资源可在此链接获取：https://arxiv.org/pdf/2508.05731.pdf。",
+        "地址": "https://arxiv.org/pdf/2508.05731.pdf"
+    },
+    {
+        "名称": "2025 [2508.06433] Memp: Exploring Agent Procedural Memory.pdf",
+        "作者": "Runnan Fang, Yuan Liang, Xiaobin Wang, Jialong Wu, Shuofei Qiao, Pengjun Xie, Fei Huang, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）在多样任务中表现出色，但它们的程序记忆脆弱，依赖于人工设计或静态参数。在这项工作中，我们研究了赋予代理学习性、可更新和终身程序记忆的策略。我们提出了Memp，它将过去的代理轨迹提炼为细粒度、逐步的指令和更高层次的脚本式抽象，并探索不同的程序记忆构建、检索和更新策略。通过一个持续更新、纠正和淘汰内容的动态机制，这个记忆库与新经验同步进化。在TravelPlanner和ALFWorld上的实验证明，随着记忆库的优化，代理在类似任务上的成功率和效率稳步提高。此外，从较强模型构建的程序记忆保留了其价值：将程序记忆迁移至较弱模型可以显著提升性能。\n\n翻译：\n\n摘要：大型语言模型（LLMs）在多样任务中表现出色，但它们的程序记忆脆弱，依赖于人工设计或静态参数。在这项工作中，我们研究了赋予代理学习性、可更新和终身程序记忆的策略。我们提出了Memp，它将过去的代理轨迹提炼为细粒度、逐步的指令和更高层次的脚本式抽象，并探索不同的程序记忆构建、检索和更新策略。通过一个持续更新、纠正和淘汰内容的动态机制，这个记忆库与新经验同步进化。在TravelPlanner和ALFWorld上的实验证明，随着记忆库的优化，代理在类似任务上的成功率和效率稳步提高。此外，从较强模型构建的程序记忆保留了其价值：将程序记忆迁移至较弱模型可以显著提升性能。",
+        "地址": "https://arxiv.org/pdf/2508.06433.pdf"
+    },
+    {
+        "名称": "2025 [2508.05988] Pruning the Unsurprising: Efficient Code Reasoning via First-Token Surprisal.pdf",
+        "作者": "Wenhao Zeng, Yaoning Wang, Chao Hu, Yuling Shi, Chengcheng Wan, Hongyu Zhang, Xiaodong Gu",
+        "摘要": "摘要：近年来，大型推理模型（LRMs）通过扩展思维链（CoT）的长度在代码推理方面展示了显著能力。然而，过长的推理轨迹在训练成本、推理延迟和部署可行性方面引入了巨大挑战。虽然各种CoT压缩方法已经出现以应对这一挑战，但它们面临固有的权衡：基于令牌的方法往往破坏语法和逻辑的连贯性，而基于困惑度的步骤级方法无法可靠地捕捉逻辑上关键的推理步骤。在本文中，我们提出了ASAP（Anchor-guided, Surprisal-based Pruning），一种新颖的粗细结合的CoT压缩框架。ASAP首先进行锚点引导的剪枝，以保留核心推理结构，从而有效减少后续处理的搜索空间。然后，它通过选择基于新颖的首令牌惊讶度度量逻辑上必需的推理步骤，启用逻辑感知剪枝。最后，ASAP教会模型在推理时自主生成和利用这些简明的CoTs，从而在编码任务中实现高效推理。实验表明，ASAP在多个代码生成基准上实现了最先进的准确性，同时大幅降低了训练和推理成本。在具有挑战性的LiveCodeBench v4_v5基准上，我们的方法相比最强基线减少了23.5%的令牌生成和43.5%的推理延迟，同时在Pass@1中达到了36.19%的竞争性准确性。我们的结果表明了构建强大且高效的LRMs的潜在方向。",
+        "地址": "https://arxiv.org/pdf/2508.05988.pdf"
+    },
+    {
+        "名称": "2025 [2508.03616] Hidden Dynamics of Massive Activations in Transformer Training.pdf",
+        "作者": "Jorge Gallego-Feliciano, S. Aaron McClendon, Juan Morinelli, Stavros Zervoudakis, Antonios Saravanos",
+        "摘要": "摘要：大量激活值是变压器隐藏状态中的标量值，其数值比典型激活值大几个数量级，并且已被证明对模型功能至关重要。虽然之前的工作已经在完全训练的模型中表征了这些现象，但它们在训练期间出现的时间动态仍然知之甚少。我们提出了第一个全面分析变压器训练过程中大量激活值发展的研究，使用Pythia模型族作为我们的测试平台。通过对多个训练检查点和各种模型大小的系统分析，我们展示了大量激活值的出现遵循可预测的数学模式，可以使用具有五个关键参数的指数调制对数函数精确建模。我们开发了一个机器学习框架，从架构规范预测这些数学参数，仅通过架构规范就能高精度预测稳态行为，并在出现时间和幅度上达到中等准确度。这些发现使架构师能够通过设计选择预测和潜在控制大量激活值出现的关键方面，对模型稳定性、训练周期长度、可解释性和优化具有重要意义。我们的研究结果表明，大量激活值的出现受模型设计控制，能够在训练开始前预测和潜在控制。",
+        "地址": "https://arxiv.org/pdf/2508.03616.pdf"
+    },
+    {
+        "名称": "2025 [2508.02831] GENIE: Gaussian Encoding for Neural Radiance Fields Interactive Editing.pdf",
+        "作者": "Mikołaj Zieliński, Krzysztof Byrski, Tomasz Szczepanik, Przemysław Spurek",
+        "摘要": "摘要：神经辐射场（NeRF）和高斯喷溅（GS）最近改变了3D场景表示和渲染。NeRF通过神经网络学习体积表示，从而实现高保真新视图合成，但其隐式编码使得编辑和物理交互变得困难。相比之下，GS将场景表示为高斯基元的显式集合，支持实时渲染、更快训练和更直观的操作。这种显式结构使GS特别适合交互编辑和与基于物理的模拟集成。本文介绍了GENIE（用于神经辐射场交互编辑的高斯编码），一种结合了NeRF的照片级渲染质量与GS的可编辑和结构化表示的混合模型。我们没有使用球面谐波进行外观建模，而是为每个高斯分配了一个可训练的特征嵌入。这些嵌入用于根据每个查询点的最近k个高斯体来条件化NeRF网络。为了提高这一条件化的效率，我们引入了基于修改后的光线追踪管道的光线追踪高斯邻近搜索（RT-GPS），这是一种快速的最近高斯搜索方法。我们还整合了一个多分辨率哈希网格来初始化和更新高斯特征。这些组件共同实现了实时的、局部感知的编辑：当高斯基元重新定位或修改时，其插值影响会立即反映在渲染输出中。通过结合隐式和显式表示的优势，GENIE支持直观的场景操控、动态交互，并与物理模拟兼容，弥合了基于几何的编辑与神经渲染之间的差距。代码可在此（ this https URL）找到。",
+        "地址": "https://arxiv.org/pdf/2508.02831.pdf"
+    },
+    {
+        "名称": "2025 [2508.05547] Adapting Vision-Language Models Without Labels: A Comprehensive Survey.pdf",
+        "作者": "Hao Dong, Lijun Sheng, Jian Liang, Ran He, Eleni Chatzi, Olga Fink",
+        "摘要": "摘要: 视觉语言模型（VLMs）在广泛的任务中表现出了显著的泛化能力。然而，当直接应用于特定的下游场景时，其性能往往不尽如人意，需进行任务特定的适应。为了提高其效用，同时保持数据效率，近年来的研究越来越关注不依赖标签数据的无监督适应方法。尽管对此领域的兴趣日益浓厚，但仍缺乏统一的、面向任务的无监督VLM适应综述。为填补这一空白，我们呈现了该领域全面且结构化的概述。我们基于无标签视觉数据的可用性和性质提出了一个分类法，将现有方法分为四个关键范式：无数据迁移（无数据）、无监督领域迁移（大量数据）、情景测试时适应（批量数据）和在线测试时适应（流数据）。在这个框架内，我们分析了每个范式的核心方法和适应策略，旨在建立对这一领域的系统理解。此外，我们审查了各类应用中的代表性基准，并强调了未来研究的开放挑战和有前景的方向。相关文献的一个主动维护库可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.05547.pdf"
+    },
+    {
+        "名称": "2025 [2508.05502] MELLA: Bridging Linguistic Capability and Cultural Groundedness for Low-Resource Language MLLMs.pdf",
+        "作者": "Yufei Gao, Jiaying Fei, Nuo Chen, Ruirui Chen, Guohang Yan, Yunshi Lan, Botian Shi",
+        "摘要": "摘要: 多模态大语言模型 (MLLMs) 在高资源语言中的表现非常出色。然而，在低资源语言环境中的有效性明显降低。目前的多语言增强方法通常局限于文本模式或仅依赖于机器翻译。虽然这些方法帮助模型获得基本的语言能力并生成“薄描述”，但它们忽略了多模态信息丰富性和文化扎根，这两者对于有效服务低资源语言用户至关重要。为弥补这一差距，本研究确定了低资源语言环境中真正有效的MLLM的两个重要目标，即1)语言能力和2)文化扎根，特别强调文化意识。为实现这两个目标，我们提出了一种双源策略，指导针对每个目标的数据收集，从本地网页的替代文本获取文化数据，从MLLM生成的标题获取语言数据。作为具体实施，我们引入了MELLA，一个多模态、多语言的数据集。实验结果显示，在MELLA上进行微调后，各种MLLM后端在八种语言上的总体表现有所提升，模型生成“厚描述”。我们验证了性能提升来源于文化知识增强和语言能力增强。我们的数据集可以在这个https URL找到。",
+        "地址": "https://arxiv.org/pdf/2508.05502.pdf"
+    },
+    {
+        "名称": "2025 [2508.01242] MeshLLM: Empowering Large Language Models to Progressively Understand and Generate 3D Mesh.pdf",
+        "作者": "Shuangkang Fang, I-Chao Shen, Yufeng Wang, Yi-Hsuan Tsai, Yi Yang, Shuchang Zhou, Wenrui Ding, Takeo Igarashi, Ming-Hsuan Yang",
+        "摘要": "摘要：我们介绍了MeshLLM，这是一个利用大规模语言模型（LLMs）理解和生成文本序列化3D网格的新框架。我们的方法解决了现有方法中的关键限制，包括在适应LLMs的标记长度时数据集规模有限以及在网格序列化过程中的3D结构信息丢失。我们引入了一种原语-网格分解策略，将3D网格分解为结构上有意义的子单元。这使得我们能够创建一个拥有1500k+样本的大规模数据集，几乎比以前的方法大50倍，更符合LLM缩放法则原理。此外，我们提出了从顶点推断面连接性和局部网格装配训练策略，显著提高了LLMs捕捉网格拓扑和空间结构的能力。实验表明，MeshLLM在网格生成质量和形状理解方面均优于最新的LLaMA-Mesh，突显了其在处理文本序列化3D网格方面的巨大潜力。\n\n作者：Shuangkang Fang, I-Chao Shen, Yufeng Wang, Yi-Hsuan Tsai, Yi Yang, Shuchang Zhou, Wenrui Ding, Takeo Igarashi, Ming-Hsuan Yang\n\n评论：已被ICCV接收。项目网站: 此https URL\n\n链接: https://arxiv.org/pdf/2508.01242.pdf\n\n标题：2025 [2508.01242] MeshLLM: 利用大型语言模型逐步理解和生成3D网格",
+        "地址": "https://arxiv.org/pdf/2508.01242.pdf"
+    },
+    {
+        "名称": "2025 [2508.04482] OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use.pdf",
+        "作者": "Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shenzhi Wang, Xinchen Xu, Shuofei Qiao, Zhaokai Wang, Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu",
+        "摘要": "摘要: 梦想创造像《钢铁侠》中的虚构角色J.A.R.V.I.S那样功能强大且多才多艺的AI助手一直吸引着人们的想象。随着（多模态）大型语言模型（(M)LLMs）的发展，这一梦想更加接近现实，因为基于(M)LLM的智能体通过操作系统（OS）提供的环境和界面（如图形用户界面（GUI））在计算设备（如电脑和手机）上执行任务，这一领域取得了显著进展。本文对这些先进智能体进行了全面调查，称为OS智能体。我们首先阐述了OS智能体的基本原理，探索其核心组件，包括环境、观测空间和行动空间，并概述了理解、规划和落地等关键能力。接着，我们考察了构建OS智能体的方法，关注特定领域的基础模型和智能体框架。详细审查评估协议和基准，突出显示OS智能体在各种任务中的评估方式。最后，我们讨论了当前挑战并确定了未来研究的有前景方向，包括安全和隐私、个性化和自我进化。本次调查旨在整合OS智能体研究现状，提供对学术探索和工业发展的指导意见。我们维持一个开源的GitHub仓库，作为促进该领域进一步创新的动态资源。我们提供了一个被ACL 2025会议接受的九页版本，以简明概述该领域。",
+        "地址": "https://arxiv.org/pdf/2508.04482.pdf"
+    },
+    {
+        "名称": "2025 [2507.22025] UI-AGILE: Advancing GUI Agents with Effective Reinforcement Learning and Precise Inference-Time Grounding.pdf",
+        "作者": "Shuquan Lian, Yuhang Wu, Jia Ma, Yifan Ding, Zihan Song, Bingqi Chen, Xiawu Zheng, Hui Li",
+        "摘要": "摘要：多模态大语言模型（MLLMs）的出现推动了图形用户界面（GUI）代理能力的显著提升。然而，现有的GUI代理训练和推理技术在设计推理、无效奖励和视觉噪声方面仍然存在困境。为了解决这些问题，我们提出了UI-AGILE，在训练和推理方面增强GUI代理。对于训练，我们提出了一系列改进的监督微调（SFT）过程：1）一个连续奖励函数，以激励高精度基础；2）一个“简单思考”奖励，以平衡计划速度和基础准确性；3）一种基于剪裁的重采样策略，以缓解稀疏奖励问题，并提高对复杂任务的学习效果。对于推理，我们提出了选择分解定位方法，通过将图像分解成更小的可管理部分，显著提高在高分辨率显示器上的定位准确性。实验表明，UI-AGILE在两个基准测试ScreenSpot-Pro和ScreenSpot-v2上达到了最新的定位表现，同时表现出较强的一般代理能力。例如，使用我们的方法进行训练和推理增强后，ScreenSpot-Pro上的定位准确性比最佳基线提高了23%。我们在https URL提供了代码。",
+        "地址": "https://arxiv.org/pdf/2507.22025.pdf"
+    },
+    {
+        "名称": "2025 [2508.06494] LightSwitch: Multi-view Relighting with Material-guided Diffusion.pdf",
+        "作者": "Yehonathan Litman, Fernando De la Torre, Shubham Tulsiani",
+        "摘要": "摘要：最近关于3D重新照明的方法显示出通过结合2D图像重新照明生成先验来改变3D表示外观的前景，同时保留其底层结构。然而，用于2D重新照明的生成先验直接从输入图像重新照明，不能利用可推断的主体固有属性或考虑大规模的多视图数据，导致重新照明效果不佳。在本文中，我们提出了Lightswitch，这是一种新颖的经过微调的材料重新照明扩散框架，能够有效地将任意数量的输入图像重新照明到目标光照条件，同时结合推断的固有属性线索。通过使用多视图和材料信息线索以及可扩展的降噪方案，我们的方法能够一致且高效地重新照明具有多样材料组成的物体的密集多视图数据。我们展示了我们的2D重新照明预测质量超过了之前直接从图像重新照明的最先进重新照明先验。我们还进一步证明了LightSwitch在重新照明合成和真实物体时匹配或优于最先进的扩散逆渲染方法，只需两分钟。",
+        "地址": "https://arxiv.org/pdf/2508.06494.pdf"
+    },
+    {
+        "名称": "2025 [2508.02095] VLM4D: Towards Spatiotemporal Awareness in Vision Language Models.pdf",
+        "作者": "Shijie Zhou, Alexander Vilesov, Xuehai He, Ziyu Wan, Shuwang Zhang, Aditya Nagachandra, Di Chang, Dongdong Chen, Xin Eric Wang, Achuta Kadambi",
+        "摘要": "摘要: 视觉语言模型 (VLMs) 显示出在整合语言和视觉推理方面的显著能力，但在理解动态时空交互方面仍然存在根本性的限制。人类能够轻松跟踪和推理物体的运动、旋转及视角转换，这些能力对于稳健的动态现实世界理解至关重要，而现有的 VLMs 显然缺乏这些能力。在本文中，我们介绍了 VLM4D，这是第一个专门设计用于评估 VLMs 时空推理能力的基准。我们的基准包括多样的真实世界和合成视频，并配有精心策划的问题和答案对，着重于平移和旋转运动、视角意识以及运动连续性。通过对最先进的开源和闭源 VLMs 的全面评估，我们发现与人类基线相比，存在显著的性能差距，突显了现有模型的根本缺陷。深入分析揭示了 VLMs 特别难以整合多个视觉线索并保持时间连贯性。我们进一步探索了如利用4D特征场重构和有针对性的时空监督微调等有希望的方向，展示了它们在增强时空理解方面的有效性。我们的工作旨在鼓励更深入地探索改进 VLMs 的空间和时间基础，以为动态环境提供更强大和可靠的视觉智能奠定基础。",
+        "地址": "https://arxiv.org/pdf/2508.02095.pdf"
+    }
+]
