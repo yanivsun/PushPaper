@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2508.09983] Story2Board: A Training-Free Approach for Expressive Storyboard Generation.pdf",
+        "作者": "David Dinkevich, Matan Levy, Omri Avrahami, Dvir Samuel, Dani Lischinski",
+        "摘要": "摘要：我们介绍了Story2Board，一种无需训练的框架，能够从自然语言生成富有表现力的分镜脚本。现有方法仅关注主体身份，忽略了视觉讲故事的关键方面，如空间构图、背景演变和叙事节奏。为了解决这一问题，我们引入了一个轻量级的一致性框架，该框架由两个组件组成：潜在面板锚定，保留了跨面板的共享角色参考，以及互惠关注值混合，软性地在具有强互惠关注的标记对之间混合视觉特征。这些机制共同增强了一致性，无需架构更改或微调，使得最先进的扩散模型能够生成视觉上多样但一致的分镜脚本。为了结构化生成，我们使用现成的语言模型将自由形式的故事转换为有基础的面板级提示。为了评估，我们提出了丰富的分镜基准，一个开放域叙事套件，用以评估布局多样性和基础背景叙事，以及一致性。我们还引入了一种新的场景多样性指标，以量化分镜中的空间和姿态变化。我们的定性和定量结果以及用户研究表明，Story2Board比现有基线生成更动态、更一致且叙事更吸引人的分镜脚本。",
+        "地址": "https://arxiv.org/pdf/2508.09983.pdf"
+    },
+    {
+        "名称": "2025 [2508.08401] Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery.pdf",
+        "作者": "Jiatong Li, Weida Wang, Qinggang Zhang, Junxian Li, Di Zhang, Changmeng Zheng, Shufei Zhang, Xiaoyong Wei, Qing Li",
+        "摘要": "摘要：大型语言模型（LLMs），尤其是如DeepSeek-R1和QWQ这类的显式长链思维（CoT）推理模型，展示了强大的推理能力，在常识推理和数学推理方面取得了出色的表现。尽管它们有效，但长链推理模型在分子发现等知识密集领域往往被批评为能力有限且效率低下。要在这个领域取得成功，需要对领域知识（包括分子结构和化学原理）有精确的理解，这由于分子数据的复杂性和高质量专家注释的稀缺性而具有挑战性。为弥合这一差距，我们引入了Mol-R1，这是一种新颖的框架，旨在提高R1类显式长链推理语言模型在基于文本的分子生成中的可解释性和推理性能。我们的方法始于通过上下文蒸馏引导的先验调节（PRID）策略精心策划的高质量推理数据集，这是一个专门的蒸馏策略，用于有效生成由先验规则引导的配对推理痕迹。在此基础上，我们引入了MoIA（分子迭代适应），这是一种复杂的训练策略，迭代地结合监督微调（SFT）和强化策略优化（RPO），旨在提升R1类推理模型在分子发现中的推理性能。最后，我们在基于文本的分子推理生成任务中检验了Mol-R1的性能，显示出比现有基准更优的表现。",
+        "地址": "https://arxiv.org/pdf/2508.08401.pdf"
+    },
+    {
+        "名称": "2025 [2508.07901] Stand-In: A Lightweight and Plug-and-Play Identity Control for Video Generation.pdf",
+        "作者": "Bowen Xue, Qixin Yan, Wenjing Wang, Hao Liu, Chen Li",
+        "摘要": "摘要: 在生成式人工智能领域，生成与用户指定身份匹配的高保真视频是一项重要但具有挑战性的任务。现有方法通常依赖于大量的训练参数并且缺乏与其他生成式人工智能工具的兼容性。在本文中，我们提出了Stand-In，这是一个用于视频生成中身份保留的轻量级即插即用框架。具体而言，我们在预训练的视频生成模型中引入了一个条件图像分支。身份控制通过带有条件位置映射的受限自注意机制来实现，并且只需用2000对数据即可快速学习。尽管只增加了大约1%的额外参数，我们的框架在视频质量和身份保留方面取得了卓越的结果，优于其他全参数训练方法。此外，我们的框架还可以无缝集成到其他任务中，例如主题驱动的视频生成、姿态参考视频生成、风格化和换脸。",
+        "地址": "https://arxiv.org/pdf/2508.07901.pdf"
+    },
+    {
+        "名称": "2025 [2508.09889] AWorld: Dynamic Multi-Agent System with Stable Maneuvering for Robust GAIA Problem Solving.pdf",
+        "作者": "Zhitian Xie, Qintong Wu, Chengyue Yu, Chenyi Zhuang, Jinjie Gu",
+        "摘要": "摘要: 大型语言模型（LLMs）的快速进步使智能代理能够利用多种外部工具来解决复杂的现实问题。然而，随着代理越来越依赖多个工具，他们面临新的挑战：来自不同来源的扩展上下文以及噪音或不相关的工具输出可能会削弱系统的可靠性和准确性。这些挑战突显了增强基于代理系统稳定性的必要性。为了解决这一问题，我们引入了动态监督和操作机制，在AWorld框架中构建了一个强大而动态的多代理系统（MAS）架构。在我们的方法中，执行代理在关键步骤中调用守护代理来验证并纠正推理过程，有效减少由于噪音产生的错误，加强解决问题的鲁棒性。在GAIA测试数据集上的广泛实验表明，我们的动态操作机制显著提高了解决方案的有效性和稳定性，优于单代理系统（SAS）和标准工具增强系统。因此，我们的动态MAS系统在著名的GAIA排行榜中获得了开源项目的第一名。这些发现突显了协作代理角色在开发更可靠和可信的智能系统中的实际价值。\n\n作者: 谢智天, 吴勤桐, 于澄月, 庄陈逸, 谷进杰\n\n链接: https://arxiv.org/pdf/2508.09889.pdf\n\n标题: 2025 [2508.09889] AWorld: 动态多代理系统与稳定操作机制用于鲁棒的GAIA问题解决.pdf",
+        "地址": "https://arxiv.org/pdf/2508.09889.pdf"
+    },
+    {
+        "名称": "2025 [2508.09192] Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing.pdf",
+        "作者": "Xu Wang, Chenkai Xu, Yijie Jin, Jiachun Jin, Hao Zhang, Zhijie Deng",
+        "摘要": "摘要: 扩散大语言模型（dLLMs）作为文本生成的自回归（AR）大语言模型的替代方案出现，具有在单次迭代中解码多个标记的潜力。然而，现有的开源dLLMs在推理速度上并未超过类似规模的AR语言模型。本文基于一种简单而有效的策略——离散扩散强制（D2F）打破了这一障碍。D2F赋予dLLMs两个关键能力：（1）块状自回归生成以实现KV缓存利用；（2）在不需要完成先前块的情况下预测后续标记以实现块间并行解码。通过这种方式，普通dLLMs被改造为一个AR-扩散混合模式以提高推理效率。D2F可以通过基于预训练dLLMs的非对称蒸馏过程实现。我们进一步提出了一种流水线并行解码算法，使效率和效果之间实现权衡。实验证明，D2F dLLMs在GSM8K上实现了比LLaMA3和Qwen2.5快2.5倍以上的推理速度。相比普通dLLMs（如LLaDA和Dream），加速可超过50倍，同时保持相当的输出质量。代码可在此HTTPS URL获取。\n\n作者: 王旭, 徐晨凯, 金祎杰, 金家纯, 张浩, 邓志杰",
+        "地址": "https://arxiv.org/pdf/2508.09192.pdf"
+    },
+    {
+        "名称": "2025 [2508.09736] Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory.pdf",
+        "作者": "Lin Long, Yichen He, Wentao Ye, Yiyuan Pan, Yuan Lin, Hang Li, Junbo Zhao, Wei Li",
+        "摘要": "摘要: 我们介绍了M3-Agent，这是一种配备长期记忆的新型多模态代理框架。像人类一样，M3-Agent能够处理实时的视觉和听觉输入，以建立和更新其长期记忆。除了情景记忆，它还会发展语义记忆，使其能够随着时间积累世界知识。其记忆以实体为中心的多模态格式组织，允许更深刻和一致地理解环境。给定指令后，M3-Agent会自主执行多回合的迭代推理，并从记忆中检索相关信息以完成任务。为了评估多模态代理中的记忆有效性和基于记忆的推理，我们开发了M3-Bench，一个新的长视频问答基准。M3-Bench包括100个从机器人视角录制的新视频（M3-Bench-robot）和929个来自不同场景的网络视频（M3-Bench-web）。我们注释了设计用于测试代理应用关键能力的问题和答案对，例如人类理解、通用知识提取和跨模态推理。实验结果表明，经过强化学习训练的M3-Agent相比最强基准（使用Gemini-1.5-pro和GPT-4o的提示代理），在M3-Bench-robot、M3-Bench-web和VideoMME-long上分别实现了6.7%、7.7%和5.3%的更高准确率。我们的工作推进了多模态代理向更类人长期记忆的方向发展，并提供了其实际设计的见解。模型、代码和数据可以通过此网址获得。",
+        "地址": "https://arxiv.org/pdf/2508.09736.pdf"
+    },
+    {
+        "名称": "2025 [2508.09987] Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation.pdf",
+        "作者": "Junyan Ye, Dongzhi Jiang, Zihao Wang, Leqi Zhu, Zhenghao Hu, Zilong Huang, Jun He, Zhiyuan Yan, Jinghua Yu, Hongsheng Li, Conghui He, Weijia Li",
+        "摘要": "摘要：最近，GPT-4o以其在图像生成方面的强大性能引起了广泛关注，但开源模型仍然落后。一些研究探索了从GPT-4o提取图像数据以增强开源模型，取得了显著进展。然而，一个关键问题仍然存在：鉴于现实世界的图像数据集已经构成了高质量数据的自然来源，为什么我们还要使用GPT-4o生成的合成数据？在这项工作中，我们确定了合成图像的两个关键优势。首先，它们可以补充现实世界数据集中罕见的场景，如超现实的幻想或多参考图像生成，而这些场景在用户查询中经常出现。其次，它们提供了干净和可控的监督。现实世界的数据通常包含复杂的背景噪音和文本描述与图像内容之间的固有错位，而合成图像提供了纯净的背景和长尾监督信号，促进了更准确的文本与图像对齐。基于这些见解，我们引入了Echo-4o-Image，这是一个由GPT-4o生成的180K规模的合成数据集，利用合成图像数据来解决现实世界覆盖范围的盲点。使用这个数据集，我们微调了统一多模态生成基线Bagel，得到了Echo-4o。此外，我们提出了两个新的评估基准，以更准确和具有挑战性的评估图像生成能力：GenEval++，它增加了指令的复杂性以缓解分数饱和现象，以及Imagine-Bench，专注于评估想象内容的理解和生成。Echo-4o在标准基准上表现强劲。此外，将Echo-4o-Image应用于其他基础模型（如OmniGen2，BLIP3-o）在多个指标上都显示了一致的性能提升，突出了该数据集的强大迁移能力。",
+        "地址": "https://arxiv.org/pdf/2508.09987.pdf"
+    },
+    {
+        "名称": "2025 [2508.07750] Learning to Align, Aligning to Learn: A Unified Approach for Self-Optimized Alignment.pdf",
+        "作者": "Haowen Wang, Yun Yue, Zhiling Ye, Shuowen Zhang, Lei Fan, Jiaxin Liang, Jiadi Jiang, Cheng Wei, Jingyuan Deng, Xudong Han, Ji Li, Chunxiao Guo, Peng Wei, Jian Wang, Jinjie Gu",
+        "摘要": "摘要:\n对齐方法学已经成为增强语言模型对齐能力的重要途径。虽然SFT（监督微调）通过直接的token级损失干预加速了收敛，但其有效性受限于离线策略轨迹。相反，RL（强化学习）促进了探索性策略优化，但样本效率低且严格依赖于高质量的基础模型。为了解决这两个挑战，我们提出了GRAO（组相对对齐优化），这是一个通过三项关键创新综合SFT和RL优势的统一框架：1）一种多样本生成策略，通过奖励反馈进行比较质量评估；2）一种新颖的组直接对齐损失公式，利用组内相对优势加权；3）通过成对偏好动态引导的参考感知参数更新。我们的理论分析确立了GRAO相对于传统方法的收敛保证和样本效率优势。在复杂的人类对齐任务中的综合评估表明，GRAO的表现优于SFT、DPO、PPO和GRPO基准，分别实现了57.70%、17.65%、7.95%和5.18%的相对改进。该工作提供了一个理论上有根据的对齐框架和有效能力进化的实验证据。",
+        "地址": "https://arxiv.org/pdf/2508.07750.pdf"
+    },
+    {
+        "名称": "2025 [2508.06009] MathReal: We Keep It Real! A Real Scene Benchmark for Evaluating Math Reasoning in Multimodal Large Language Models.pdf",
+        "作者": "Jun Feng, Zixin Wang, Zhentao Zhang, Yue Guo, Zhihan Zhou, Xiuyi Chen, Zhenyang Li, Dawei Yin",
+        "摘要": "摘要：多模态大语言模型（MLLMs）在各种现有基准上的视觉数学推理方面展示了显著的能力。然而，这些基准主要基于干净或处理过的多模态输入，未考虑真实世界的K-12教育用户提供的图像。为了解决这一差距，我们推出了MathReal，这是一个精心策划的数据集，包含2000道数学题目及其由手持移动设备在真实场景中拍摄的图像。每个问题都是一个图像，包含问题文本和视觉元素。我们系统地将真实图像分类为三个主要类别：图像质量下降、视角变化和不相关内容干扰，并进一步细分为14个子类别。此外，MathReal涵盖了五个核心知识和能力类别，包含三种问题类型，并分为三个难度级别。为了全面评估最先进的MLLMs在真实世界场景中的多模态数学推理能力，我们设计了六种实验设置，系统分析它们的表现。通过广泛的实验，我们发现现有MLLMs在现实教育背景下的问题解决能力受到显著挑战。基于此，我们进行了深入的性能和错误模式分析，提供了关于其识别、理解和推理能力的见解，概述了未来改进的方向。数据和代码：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.06009.pdf"
+    },
+    {
+        "名称": "2025 [2508.05613] Cooper: Co-Optimizing Policy and Reward Models in Reinforcement Learning for Large Language Models.pdf",
+        "作者": "Haitao Hong, Yuchen Yan, Xingyu Wu, Guiyang Hou, Wenqi Zhang, Weiming Lu, Yongliang Shen, Jun Xiao",
+        "摘要": "摘要：大语言模型（LLMs）在推理任务中表现出显著的性能，其中强化学习（RL）作为提高推理能力的关键算法。目前有两种主流的奖励范式：基于模型的奖励和基于规则的奖励。然而，这两种方法都存在局限性：基于规则的奖励缺乏鲁棒性，而基于模型的奖励容易受到奖励欺骗的影响。为了解决这些问题，我们提出了Cooper（联合优化策略模型和奖励模型），这是一个联合优化策略模型和奖励模型的强化学习框架。Cooper利用基于规则的奖励在识别正确响应时的高精度，并动态构建和选择正负样本对以持续训练奖励模型。这种设计增强了鲁棒性并减轻了奖励欺骗的风险。为了进一步支持Cooper，我们引入了一种高效且精确的混合注释策略来生成奖励模型的训练数据。我们还提出了一种基于参考的奖励建模范式，在这种范式下，奖励模型将参考答案作为输入。基于这一设计，我们训练了一个名为VerifyRM的奖励模型，该模型在VerifyBench上的准确率高于同等规模的其他模型。我们使用VerifyRM和Cooper进行了强化学习实验。我们的实验表明，Cooper不仅减轻了奖励欺骗，还提高了端到端的强化学习性能，例如在Qwen2.5-1.5B-Instruct上平均准确率提高了0.54%。我们的研究结果表明，动态更新奖励模型是对抗奖励欺骗的有效方法，并为更好地将奖励模型集成到强化学习中提供了参考。\n\n作者：洪海涛、闫翀、吴星宇、侯贵阳、张文琦、陆伟明、沈永良、肖军  \n评论：评论：项目页面：这个URL代码：这个URL  \n网址：https://arxiv.org/pdf/2508.05613.pdf  \n标题：2025 [2508.05613] Cooper: Co-Optimizing Policy and Reward Models in Reinforcement Learning for Large Language Models",
+        "地址": "https://arxiv.org/pdf/2508.05613.pdf"
+    },
+    {
+        "名称": "2025 [2508.09968] Noise Hypernetworks: Amortizing Test-Time Compute in Diffusion Models.pdf",
+        "作者": "Luca Eyring, Shyamgopal Karthik, Alexey Dosovitskiy, Nataniel Ruiz, Zeynep Akata",
+        "摘要": "摘要：\n测试时缩放的新范式在大型语言模型（LLMs）（例如推理模型）和生成视觉模型方面取得了显著突破，使模型能够在推理过程中分配额外的计算资源，从而有效应对日益复杂的问题。尽管这种方法取得了改进，但一个重要的限制也随之出现：计算时间的显著增加使得该过程变得缓慢且在许多应用中不切实际。鉴于这一范式的成功及其日益广泛的使用，我们希望在保留其优势的同时避开推理开销。在这项工作中，我们提出了一种解决在后训练过程中将测试时缩放知识整合到模型中的关键问题的方法。具体来说，我们用调节初始输入噪声的噪声超网络替换了扩散模型中的奖励引导测试时噪声优化。我们提出了一个从理论上有依据的框架，通过一个可处理的噪声空间目标来学习这种对于蒸馏生成器的奖励倾斜分布，该目标在优化期望特征的同时保持对基础模型的保真度。我们展示了我们的方法在仅占用一小部分计算成本的情况下，恢复了显式测试时优化所带来的大部分质量提升。代码可在此链接获取。\n\n代码地址：[URL链接](https://arxiv.org/pdf/2508.09968.pdf)\n\n作者：Luca Eyring, Shyamgopal Karthik, Alexey Dosovitskiy, Nataniel Ruiz, Zeynep Akata",
+        "地址": "https://arxiv.org/pdf/2508.09968.pdf"
+    },
+    {
+        "名称": "2025 [2508.09456] IAG: Input-aware Backdoor Attack on VLMs for Visual Grounding.pdf",
+        "作者": "Junxian Li, Beining Xu, Di Zhang",
+        "摘要": "以下是该学术论文的摘要翻译：\n\n摘要：视觉-语言模型（VLMs）在视觉定位等任务中展示了显著的进展，该任务通过自然语言查询和图像来定位图片中的特定对象。然而，视觉定位任务中VLMs的安全问题仍未得到充分研究，特别是在后门攻击的背景下。在本文中，我们提出了一种新颖的输入感知后门攻击方法IAG，旨在操纵VLMs的定位行为。该攻击迫使模型在输入图像中定位特定目标对象，而不考虑用户的查询。我们提出了一种自适应触发器生成器，该生成器使用文本条件U-Net将攻击目标描述的语义信息嵌入到原始图像中，从而克服了开放词汇攻击的挑战。为确保攻击的隐蔽性，我们利用重构损失来最小化中毒图像和干净图像之间的视觉差异。此外，我们引入了一种统一的方法来生成攻击数据。IAG在理论和实验证明了其可行性和有效性。值得注意的是，我们在InternVL-2.5-8B上的ASR@0.5在各种测试集上达到了65%以上。IAG在操纵Ferret-7B和LlaVA-1.5-7B方面也显示出很有希望的潜力，同时对干净样本的准确性几乎没有下降。广泛的特定实验，如消融研究和潜在的防御，也表明我们的攻击具有鲁棒性和可转移性。\n\n作者：Junxian Li, Beining Xu, Di Zhang\n\n评论：13页，13图表\n\n网址：https://arxiv.org/pdf/2508.09456.pdf\n\n标题：2025 [2508.09456] IAG:，视覺锚定的输入感知后门攻击 VLMs",
+        "地址": "https://arxiv.org/pdf/2508.09456.pdf"
+    },
+    {
+        "名称": "2025 [2508.09945] VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Models.pdf",
+        "作者": "Lingjie Jiang, Shaohan Huang, Xun Wu, Yixia Li, Dongdong Zhang, Furu Wei",
+        "摘要": "摘要: 多模态大语言模型（MLLMs）在视觉和文本理解的整合方面取得了显著进展。然而，它们从多模态输入生成代码的能力仍然有限。在这项工作中，我们介绍了VisCodex，这是一种统一框架，能够无缝融合视觉和编码语言模型，从而赋予MLLMs强大的多模态代码生成能力。通过利用基于任务向量的模型融合技术，我们将最先进的编码LLM集成到一个强大的视觉语言骨干中，同时保留了视觉理解和高级编码技能。为了支持训练和评估，我们引入了多模态编码数据集（MCD），这是一个大型且多样化的集合，包含598k样本，包括高质量的HTML代码、图表图像代码对、图像增强的StackOverflow问答以及算法问题。此外，我们提出了InfiBench-V，这是一个新颖且具有挑战性的基准，专门用于评估在视觉丰富的真实世界编程问题上需要对文本和视觉上下文有细致理解的模型。大量实验显示，VisCodex在开源MLLMs中达到了最先进的性能，并接近于专有模型如GPT-4o，突显了我们的模型融合策略和新数据集的有效性。\n\n作者: 蒋凌杰, 黄少寒, 吴迅, 李奕霞, 张东东, 魏付锐\n\n链接: https://arxiv.org/pdf/2508.09945.pdf\n\n标题: 2025 [2508.09945] VisCodex: 通过融合视觉和编码模型的统一多模态代码生成",
+        "地址": "https://arxiv.org/pdf/2508.09945.pdf"
+    },
+    {
+        "名称": "2025 [2508.09752] $μ$-Parametrization for Mixture of Experts.pdf",
+        "作者": "Jan Małaśnicki, Kamil Ciebiera, Mateusz Boruń, Maciej Pióro, Jan Ludziejewski, Maciej Stefaniak, Michał Krutul, Sebastian Jaszczur, Marek Cygan, Kamil Adamczewski, Jakub Krajewski",
+        "摘要": "摘要：近年来，大规模语言模型（LLMs）受到了越来越多的关注和采用，其中$\\\\mu$Transfer已经成为大规模训练中调整超参数的关键技术。同时，Mixture-of-Experts (MoE)在极大规模模型中成为主要架构。然而，这两项进展的交叉领域仍未被探索。在这项工作中，我们推导出了适用于MoE的$\\\\mu$-参数化（$\\\\mu$P），为路由器和专家模型宽度的特征学习提供了理论保证。我们通过实验证实了我们的参数化方法，并进一步研究了专家数量和粒度如何影响优化学习率。\n\n作者: Jan Małaśnicki, Kamil Ciebiera, Mateusz Boruń, Maciej Pióro, Jan Ludziejewski, Maciej Stefaniak, Michał Krutul, Sebastian Jaszczur, Marek Cygan, Kamil Adamczewski, Jakub Krajewski\n\n链接: https://arxiv.org/pdf/2508.09752.pdf\n\n标题: $μ$-Parametrization for Mixture of Experts",
+        "地址": "https://arxiv.org/pdf/2508.09752.pdf"
+    },
+    {
+        "名称": "2025 [2508.09726] Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning.pdf",
+        "作者": "Vaishnavi Shrivastava, Ahmed Awadallah, Vidhisha Balachandran, Shivam Garg, Harkirat Behl, Dimitris Papailiopoulos",
+        "摘要": "摘要（中文翻译）：大型语言模型在使用带有可验证奖励的强化学习进行训练时，往往会为了提高准确性而增加回答的长度——通过扩展回答长度来实现准确性提升。尽管更长的回答在应对更难的问题时是合理的，但许多标记只是“填充物”：重复的、冗长的文本并未带来实际进展。我们推出了GFPO（Group Filtered Policy Optimization，组过滤策略优化），通过在训练期间为每个问题采样更大的分组，并根据两个关键指标过滤训练用的回答：（1）回答长度和（2）标记效率：每标记的奖励比率，从而抑制了这种长度膨胀。通过在训练时进行更多采样，我们教会模型在推理时少思考。在Phi-4-reasoning（Phi-4推理）模型上，GFPO在多个具有挑战性的STEM和编码基准（AIME 24/25，GPQA，Omni-MATH，LiveCodeBench）上将GRPO的长度膨胀减少了46-71%，同时保持了准确性。进一步优化每标记的奖励比率则将长度膨胀的减少幅度提高到71-85%。我们还提出了自适应难度GFPO，基于实时难度估计，动态地为更难的问题分配更多训练资源，从而改善计算效率和准确性之间的平衡，特别是在处理困难问题时。GFPO展示了增加训练阶段的计算投入可以直接转化为减少测试阶段的计算投入——这种简单而有效的权衡实现了高效推理。\n\ntitle: 2025 [2508.09726] Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning.pdf\nauthors: Vaishnavi Shrivastava, Ahmed Awadallah, Vidhisha Balachandran, Shivam Garg, Harkirat Behl, Dimitris Papailiopoulos\nurl: https://arxiv.org/pdf/2508.09726.pdf",
+        "地址": "https://arxiv.org/pdf/2508.09726.pdf"
+    },
+    {
+        "名称": "2025 [2508.09667] GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors.pdf",
+        "作者": "Xingyilang Yin, Qi Zhang, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun, Huaqi Zhang, Xiaodong Cun",
+        "摘要": "摘要：使用稀疏视图通过 3D 高斯喷涂 (3DGS) 来重建 3D 场景是一个病态问题，由于信息不足，常常会出现明显的伪影。尽管最近的方法试图利用生成先验来补全未约束区域的信息，但它们在生成与输入观察保持一致的内容方面存在困难。为了解决这个挑战，我们提出了 GSFixer，一种旨在改善从稀疏输入中重建的 3DGS 表现质量的全新框架。我们方法的核心是参考引导的视频修复模型，其基于 DiT 的视频扩散模型，训练于成对的伪影 3DGS 渲染和干净帧，并附加参考条件。将稀疏视图作为参考，我们的模型融合了从视觉几何基础模型中提取的参考视图的 2D 语义特征和 3D 几何特征，增强了修复伪影新视图时的语义一致性和 3D 一致性。此外，考虑到缺乏适合的基准来评价 3DGS 伪影修复，我们提出了 DL3DV-Res，包含使用低质量 3DGS 渲染的伪影帧。大量实验表明，我们的 GSFixer 在 3DGS 伪影修复和稀疏视图 3D 重建方面优于当前最先进的方法。项目页面：this https URL。\n\n翻译:\n摘要：使用稀疏视图通过3D高斯喷涂(3DGS)来重建3D场景是一个病态问题，由于信息不足，常常会出现明显的伪影。尽管最近的方法试图利用生成先验来补全未约束区域的信息，但它们在生成与输入观察保持一致的内容方面存在困难。为了解决这个挑战，我们提出了GSFixer，一种旨在改善从稀疏输入中重建的3DGS表现质量的全新框架。我们方法的核心是参考引导的视频修复模型，其基于DiT的视频扩散模型，训练于成对的伪影3DGS渲染和干净帧，并附加参考条件。将稀疏视图作为参考，我们的模型融合了从视觉几何基础模型中提取的参考视图的2D语义特征和3D几何特征，增强了修复伪影新视图时的语义一致性和3D一致性。此外，考虑到缺乏适合的基准来评价3DGS伪影修复，我们提出了DL3DV-Res，包含使用低质量3DGS渲染的伪影帧。大量实验表明，我们的GSFixer在3DGS伪影修复和稀疏视图3D重建方面优于当前最先进的方法。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.09667.pdf"
+    },
+    {
+        "名称": "2025 [2508.06937] CannyEdit: Selective Canny Control and Dual-Prompt Guidance for Training-Free Image Editing.pdf",
+        "作者": "Weiyan Xie, Han Gao, Didan Deng, Kaican Li, April Hua Liu, Yongxiang Huang, Nevin L. Zhang",
+        "摘要": "摘要：最近在文本生成图像（T2I）模型方面的进展，通过利用基础模型的生成先验，实现了无需训练的局部图像编辑。然而，现有方法在平衡编辑区域的文本依从性、未编辑区域的上下文保真度和无缝集成方面存在困难。我们介绍了CannyEdit，这是一种通过两个关键创新来解决这些挑战的新型无训练框架：(1) 选择性Canny控制，通过用户指定的可编辑区域屏蔽Canny ControlNet的结构引导，同时通过反向阶段的ControlNet信息保留严格保存未编辑区域的源图像细节。这使得精确的文本驱动编辑成为可能，而不影响上下文完整性。(2) 双提示引导，通过结合用于特定对象编辑的局部提示和全局目标提示，保持场景交互的一致性。在现实世界的图像编辑任务（添加、替换、移除）中，CannyEdit优于先前的方法如KV-Edit，在文本依从性和平衡上下文保真度方面取得了2.93%到10.49%的改进。就编辑的无缝性而言，用户研究显示，当与未编辑的真实图像配对时，仅49.2%的普通用户和42.0%的AIGC专家认为CannyEdit的结果是AI编辑的，而竞争方法的识别率为76.08%到89.09%。",
+        "地址": "https://arxiv.org/pdf/2508.06937.pdf"
+    },
+    {
+        "名称": "2025 [2508.09776] Can LLM-Generated Textual Explanations Enhance Model Classification Performance? An Empirical Study.pdf",
+        "作者": "Mahdi Dhaini, Juraj Vladika, Ege Erdogan, Zineb Attaoui, Gjergji Kasneci",
+        "摘要": "摘要：在快速发展的可解释自然语言处理（NLP）领域中，文本解释，即类人推理，对于解释模型预测和丰富数据集以获得可解释标签至关重要。传统的方法依赖人工标注，这既昂贵又耗费劳力，并且阻碍了可扩展性。在这项工作中，我们提出了一个自动化框架，利用多种最先进的大型语言模型（LLMs）生成高质量的文本解释。我们通过全面的自然语言生成（NLG）指标套件严格评估这些LLM生成的解释的质量。此外，我们研究了这些解释对预训练语言模型（PLMs）和LLMs在两个不同基准数据集上的自然语言推理任务性能的影响。我们的实验表明，自动解释在提高模型性能方面表现出与人工标注解释高度竞争的效果。我们的研究结果强调了一条有前途的途径，即利用大规模、自动化的LLM生成文本解释来扩展NLP数据集并提高模型性能。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.09776.pdf"
+    },
+    {
+        "名称": "2025 [2508.07237] ASM-UNet: Adaptive Scan Mamba Integrating Group Commonalities and Individual Variations for Fine-Grained Segmentation.pdf",
+        "作者": "Bo Wang, Mengyuan Xu, Yue Yan, Yuqun Yang, Kechen Shu, Wei Ping, Xu Tang, Wei Jiang, Zheng You",
+        "摘要": "摘要：精确的病变切除依赖于精确识别细粒度的解剖结构。虽然许多粗粒度分割（CGS）方法在大规模分割（例如器官）方面取得了成功，但在临床场景中需要细粒度分割（FGS）时表现不佳，这是由于小规模解剖结构存在频繁的个体差异而造成的。尽管最近基于Mamba的模型在医学图像分割方面取得了进展，但它们通常依赖于固定的手动定义的扫描顺序，这限制了它们对FGS中个体差异的适应性。为了解决这个问题，我们提出了ASM-UNet，一种用于FGS的新型基于Mamba的架构。它引入了自适应扫描评分来动态指导扫描顺序，通过结合群体级共性和个体级差异生成的。在两个公开数据集（ACDC和Synapse）以及一个新提出的具有挑战性的胆道FGS数据集（BTMS）上的实验表明，ASM-UNet在CGS和FGS任务中均表现出色。我们的代码和数据集可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.07237.pdf"
+    },
+    {
+        "名称": "2025 [2508.01522] Decentralized Aerial Manipulation of a Cable-Suspended Load using Multi-Agent Reinforcement Learning.pdf",
+        "作者": "Jack Zeng, Andreu Matoses Gimenez, Eugene Vinitsky, Javier Alonso-Mora, Sihao Sun",
+        "摘要": "摘要：本文提出了首个去中心化方法，使一组微型无人机（MAVs）能够在现实世界中实现对悬挂负载的六自由度操控。我们的方法利用多智能体强化学习（MARL）为每个MAV训练一个外环控制策略。与利用集中式方案的最先进的控制器不同，我们的策略不需要全局状态、MAV之间的通信或邻近MAV的信息。相反，智能体仅通过负载姿态观测进行隐式通信，从而实现高度的可扩展性和灵活性。这也显著减少了推理时的计算成本，使策略能够在机载部署。此外，我们为MAVs引入了一种新的动作空间设计，使用线性加速度和机体速率。这种选择，结合鲁棒的低级控制器，使得尽管在动态3D运动期间由于电缆张力所造成的不确定性显著，我们的方法仍能够可靠地进行模拟到现实的转移。我们通过各种现实世界实验验证了我们的方法，包括在负载模型不确定性下的全姿态控制，显示了与最先进的集中式方法相当的设定点跟踪性能。我们还展示了智能体之间在具有异质控制策略时的合作，以及对一架MAV完全失效的在飞行中鲁棒性。实验视频可以在此网址观看。",
+        "地址": "https://arxiv.org/pdf/2508.01522.pdf"
+    },
+    {
+        "名称": "2025 [2508.06944] AMFT: Aligning LLM Reasoners by Meta-Learning the Optimal Imitation-Exploration Balance.pdf",
+        "作者": "Lixuan He, Jie Feng, Yong Li",
+        "摘要": "摘要：大语言模型（LLMs）通常通过监督微调（SFT）和强化学习（RL）两个阶段的流水线进行推理任务微调，但这一过程充满了灾难性遗忘和模仿与探索之间的次优权衡。最近的单阶段方法尝试使用启发式方法统一SFT和RL，但缺乏动态平衡两种模式的原则性机制。在本文中，我们通过隐式奖励的理论视角重新构建这一挑战，将SFT和RL视为互补的奖励信号。我们引入了自适应元微调（AMFT），这是一种新颖的单阶段算法，学习在SFT的隐式路径级别奖励和RL的显式结果级别奖励之间的最佳平衡。AMFT的核心是元梯度自适应权重控制器，将SFT-RL平衡视为可学习参数，动态优化以最大化长期任务性能。此前瞻性方法通过策略熵正则化以保持稳定性，自动发现有效的训练课程。我们在数学推理、抽象视觉推理（General Points）和视觉语言导航（V-IRL）等具有挑战性的基准上进行了全面评估。AMFT一致建立了新的最先进水平，并展示了在分布外（OOD）任务上的优越泛化性。消融研究和训练动态分析确认，元学习控制器对于AMFT的稳定性、样本效率和性能至关重要，提供了更为原则性和有效的LLM对齐范式。我们的代码通过此https URL开源。",
+        "地址": "https://arxiv.org/pdf/2508.06944.pdf"
+    },
+    {
+        "名称": "2025 [2508.09603] The Surprising Effectiveness of Membership Inference with Simple N-Gram Coverage.pdf",
+        "作者": "Skyler Hallinan, Jaehun Jung, Melanie Sclar, Ximing Lu, Abhilasha Ravichander, Sahana Ramnath, Yejin Choi, Sai Praneeth Karimireddy, Niloofar Mireshghallah, Xiang Ren",
+        "摘要": "**摘要（中文翻译）**\n\n摘要：会员推断攻击作为语言模型公平使用的一种有用工具，例如检测潜在的版权侵犯和审计数据泄漏。然而，许多当前最先进的攻击需要访问模型的隐藏状态或概率分布，这阻碍了对更广泛使用的仅限于API访问的模型（如GPT-4）的调查。在这项工作中，我们介绍了一种仅依赖目标模型输出文本的会员推断攻击——N-Gram覆盖攻击，使得对完全黑盒模型的攻击成为可能。我们利用了模型更倾向于记住并随后生成训练数据中常见的文本模式这一观察结果。具体来说，为了对候选成员做出预测，N-Gram覆盖攻击首先获取在候选成员前缀条件下的多个模型生成。然后，它使用n-gram重叠度量来计算并汇总这些输出与真实后缀的相似性；高相似性表明很可能是会员。我们首先在一组多样的现有基准上证明了N-Gram覆盖攻击优于其他黑盒方法，同时令人印象深刻地实现了与最先进的白盒攻击可比甚至更好的性能——尽管它仅能访问文本输出。有趣的是，我们发现我们的方法成功率随着攻击计算预算的增加而提升——随着在前缀条件下从目标模型生成的序列数量增加，攻击性能趋于改善。在验证了我们方法的准确性之后，我们使用它来调查多个领域中以前未研究过的封闭OpenAI模型。我们发现，更近期的模型，如GPT-4o，表现出更强的会员推断鲁棒性，表明隐私保护的改进趋势。",
+        "地址": "https://arxiv.org/pdf/2508.09603.pdf"
+    },
+    {
+        "名称": "2025 [2508.07321] ObfusQAte: A Proposed Framework to Evaluate LLM Robustness on Obfuscated Factual Question Answering.pdf",
+        "作者": "Shubhra Ghosh, Abhilekh Borah, Aditya Kumar Guru, Kripabandhu Ghosh",
+        "摘要": "以下是学术论文的摘要中文翻译：\n\n摘要：大型语言模型（LLMs）的快速普及显著推动了公平AI系统的发展，这些系统能够进行事实性问答（QA）。然而，目前尚无研究测试在面对模糊版本问题时LLMs的鲁棒性。为了系统地评估这些限制，我们提出了一种新技术，ObfusQAte，并借此引入了ObfusQA，这是一个全面的、首创的框架，具有多层次的模糊级别，旨在从三个不同维度考察LLM的能力：(i)命名实体间接性，(ii)干扰项间接性，以及(iii)上下文过载。通过捕捉语言中的这些细粒度差异，ObfusQA提供了一个全面的基准，用于评估LLM的鲁棒性和适应性。我们的研究发现，当面对这些日益复杂的变化时，LLMs倾向于失败或生成幻觉式回答。为了促进该方向的研究，我们将ObfusQAte公开发布。",
+        "地址": "https://arxiv.org/pdf/2508.07321.pdf"
+    }
+]
