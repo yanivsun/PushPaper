@@ -1,0 +1,80 @@
+[
+    {
+        "名称": "2025 [2508.10433] We-Math 2.0: A Versatile MathBook System for Incentivizing Visual Mathematical Reasoning.pdf",
+        "作者": "Runqi Qiao, Qiuna Tan, Peiqing Yang, Yanzi Wang, Xiaowan Wang, Enhui Wan, Sitong Zhou, Guanting Dong, Yuchen Zeng, Yida Xu, Jie Wang, Chong Sun, Chen Li, Honggang Zhang",
+        "摘要": "摘要: 多模态大语言模型（MLLMs）在各种任务中展示了令人印象深刻的能力，但在复杂的数学推理方面仍然存在困难。现有研究主要关注数据集构建和方法优化，往往忽视了两个关键方面：全面的知识驱动设计和以模型为中心的数据空间建模。本文介绍了We-Math 2.0，一个集成了结构化数学知识系统、以模型为中心的数据空间建模和基于强化学习（RL）的训练模式的统一系统，以全面提升MLLMs的数学推理能力。We-Math 2.0的主要贡献有四个方面：(1) MathBook知识系统：我们构建了一个涵盖491个知识点和1819个基本原理的五级层次系统。(2) MathBook-Standard & Pro：我们开发了MathBook-Standard，一个通过双扩展确保广泛概念覆盖和灵活性的数据集。此外，我们定义了一个三维难度空间并生成每个问题的7个进阶变体，以构建MathBook-Pro，一个为稳健训练而准备的挑战性数据集。(3) MathBook-RL：我们提出了一个由两阶段RL框架组成的系统，包括：(i) 冷启动微调，使模型与知识导向的思维链对齐；(ii) 进阶对齐RL，利用平均奖励学习和动态数据调度实现跨难度级别的逐步对齐。(4) MathBookEval：我们引入了一个涵盖所有491个知识点的综合基准，具有多样的推理步骤分布。实验结果表明，MathBook-RL在四个广泛使用的基准上表现出与现有基准竞争的能力，并在MathBookEval上取得了较强的结果，显示出在数学推理方面有良好的泛化潜力。",
+        "地址": "https://arxiv.org/pdf/2508.10433.pdf"
+    },
+    {
+        "名称": "2025 [2508.10711] NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale.pdf",
+        "作者": "NextStep Team: Chunrui Han, Guopeng Li, Jingwei Wu, Quan Sun, Yan Cai, Yuang Peng, Zheng Ge, Deyu Zhou, Haomiao Tang, Hongyu Zhou, Kenkun Liu, Ailin Huang, Bin Wang, Changxin Miao, Deshan Sun, En Yu, Fukun Yin, Gang Yu, Hao Nie, Haoran Lv, Hanpeng Hu, Jia Wang, Jian Zhou, Jianjian Sun, Kaijun Tan, Kang An, Kangheng Lin, Liang Zhao, Mei Chen, Peng Xing, Rui Wang, Shiyu Liu, Shutao Xia, Tianhao You, Wei Ji, Xianfang Zeng, Xin Han, Xuelin Zhang, Yana Wei, Yanming Xu, Yimin Jiang, Yingming Wang, Yu Zhou, Yucheng Han, Ziyang Meng, Binxing Jiao, Daxin Jiang, Xiangyu Zhang, Yibo Zhu",
+        "摘要": "摘要: 目前流行的自回归（AR）文本生成图像模型要么依赖于处理连续图像标记的庞大、计算密集的扩散模型，要么采用向量量化（VQ）来获取带有量化损失的离散标记。在本文中，我们提出了NextStep-1，一个14B参数的自回归模型，并配备了一个157M参数的流匹配头，训练时使用离散的文本标记和连续的图像标记进行下一个标记预测目标。NextStep-1在文本生成图像任务中取得了自回归模型的最新进展，展示了高保真图像合成的强大能力。此外，我们的方法在图像编辑方面表现出色，突显了我们统一方法的强大和多功能性。为了促进开放研究，我们将向社区公开我们的代码和模型。\n\n标题: NextStep-1: 向规模化连续标记的自回归图像生成迈进\n\n作者: NextStep团队: Chunrui Han, Guopeng Li, Jingwei Wu, Quan Sun, Yan Cai, Yuang Peng, Zheng Ge, Deyu Zhou, Haomiao Tang, Hongyu Zhou, Kenkun Liu, Ailin Huang, Bin Wang, Changxin Miao, Deshan Sun, En Yu, Fukun Yin, Gang Yu, Hao Nie, Haoran Lv, Hanpeng Hu, Jia Wang, Jian Zhou, Jianjian Sun, Kaijun Tan, Kang An, Kangheng Lin, Liang Zhao, Mei Chen, Peng Xing, Rui Wang, Shiyu Liu, Shutao Xia, Tianhao You, Wei Ji, Xianfang Zeng, Xin Han, Xuelin Zhang, Yana Wei, Yanming Xu, Yimin Jiang, Yingming Wang, Yu Zhou, Yucheng Han, Ziyang Meng, Binxing Jiao, Daxin Jiang, Xiangyu Zhang, Yibo Zhu\n\n备注: 代码: 此网址",
+        "地址": "https://arxiv.org/pdf/2508.10711.pdf"
+    },
+    {
+        "名称": "2025 [2508.10881] ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing.pdf",
+        "作者": "Lingen Li, Guangzhi Wang, Zhaoyang Zhang, Yaowei Li, Xiaoyu Li, Qi Dou, Jinwei Gu, Tianfan Xue, Ying Shan",
+        "摘要": "摘要：传统的卡通和动漫制作涉及关键帧、中间帧和上色阶段，这些阶段需要大量的手工劳动。尽管最近在AI方面取得了进展，但现有方法通常分别处理这些阶段，导致错误积累和瑕疵。例如，中间帧方法在处理大幅运动时困难重重，而上色方法需要每帧都密集的草图。为了解决这些问题，我们引入了ToonComposer，这是一种将中间帧和上色合并为单一关键帧后处理阶段的生成模型。ToonComposer采用稀疏草图注入机制，通过关键帧草图提供精确控制。此外，它使用了一种卡通适应方法，结合空间低秩适配器，将现代视频基础模型定制为卡通领域，同时保持其时间先验不变。只需一个草图和一个上色参考帧，ToonComposer能够在稀疏输入的情况下表现出色，同时在任何时间位置支持多个草图以实现更精确的运动控制。这一双重能力减少了手工工作量并提高了灵活性，使艺术家在现实场景中受益。为了评估我们的模型，我们创建了PKBench，这是一个以模拟真实场景的人手绘草图为特色的基准。评估结果表明，ToonComposer在视觉质量、运动一致性和制作效率方面优于现有方法，提供了一种更优越且更灵活的AI辅助卡通制作解决方案。\n\n作者：Lingen Li, Guangzhi Wang, Zhaoyang Zhang, Yaowei Li, Xiaoyu Li, Qi Dou, Jinwei Gu, Tianfan Xue, Ying Shan\n\n评论：项目页面：https://arxiv.org/pdf/2508.10881.pdf\n\n标题：2025 [2508.10881] ToonComposer: 使用生成性后关键帧简化卡通制作.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10881.pdf"
+    },
+    {
+        "名称": "2025 [2508.09848] PRELUDE: A Benchmark Designed to Require Global Comprehension and Reasoning over Long Contexts.pdf",
+        "作者": "Mo Yu, Tsz Ting Chung, Chulun Zhou, Tong Li, Rui Lu, Jiangnan Li, Liyan Xu, Haoshu Lu, Ning Zhang, Jing Li, Jie Zhou",
+        "摘要": "摘要: 我们介绍了PRELUDE，这是一个通过判断角色的前传故事是否与原著的经典叙事一致来评估长篇文档理解能力的基准测试。我们的任务比现有基准测试对全局理解和深度推理提出了更高的要求——由于前传不是原著的一部分，评估其合理性通常需要搜索和整合仅间接相关的信息。实证结果表明，88%的实例需要从叙事的多个部分提供证据。实验结果突显了我们的任务的挑战性：上下文学习、RAG和最先进的大型语言模型的域内训练，以及商业DeepResearch服务，均比人类落后超过15%。进一步的人类研究揭示，模型经常会以有缺陷的推理生成正确答案，导致推理准确性与人类相比存在超过30%的差距。这些发现强调了长篇文档理解和推理的显著改进空间。",
+        "地址": "https://arxiv.org/pdf/2508.09848.pdf"
+    },
+    {
+        "名称": "2025 [2508.10833] UI-Venus Technical Report: Building High-performance UI Agents with RFT.pdf",
+        "作者": "Zhangxuan Gu, Zhengwen Zeng, Zhenyu Xu, Xingran Zhou, Shuheng Shen, Yunfei Liu, Beitong Zhou, Changhua Meng, Tianyu Xia, Weizhi Chen, Yue Wen, Jingya Dou, Fei Tang, Jinzhen Lin, Yulin Liu, Zhenlin Guo, Yichen Gong, Heng Jia, Changlong Gao, Yuan Guo, Yong Deng, Zhenyu Guo, Liang Chen, Weiqiang Wang",
+        "摘要": "摘要: 我们提出了UI-Venus，这是一种基于多模态大型语言模型，仅以截屏作为输入的本地UI代理。UI-Venus通过基于Qwen2.5-VL的强化微调（RFT）在UI定向和导航任务上取得了SOTA表现，仅使用了数十万高质量的训练样本。具体来说，UI-Venus的7B和72B变体在标准定向基准Screenspot-V2 / Pro上分别获得了94.1% / 50.8%和95.3% / 61.9%的成绩，超越了之前包括开源GTA1和闭源在内的SOTA基准。为了展示UI-Venus的总结和计划能力，我们还在AndroidWorld这个在线UI导航竞技场进行了评估，7B和72B变体分别取得了49.1%和65.9%的成功率，同样击败了现有的基准。为实现这一目标，我们引入了精心设计的奖励函数，用于UI定向和导航任务以及相应的高效数据清洗方法。为了进一步提升导航性能，我们提出了自进化轨迹历史对齐与稀疏行动增强，以优化历史推理轨迹并平衡稀疏但关键行动的分布，提高了复杂UI任务中的连贯计划和广泛推广能力。我们的贡献包括发布SOTA开源UI代理、全面的数据清洗协议以及一种新颖的自进化框架，以改善导航性能，鼓励社区进一步研究和发展。代码可在此获取。",
+        "地址": "https://arxiv.org/pdf/2508.10833.pdf"
+    },
+    {
+        "名称": "2025 [2508.10898] Puppeteer: Rig and Animate Your 3D Models.pdf",
+        "作者": "Chaoyue Song, Xiu Li, Fan Yang, Zhongcong Xu, Jiacheng Wei, Fayao Liu, Jiashi Feng, Guosheng Lin, Jianfeng Zhang",
+        "摘要": "摘要: \n现代交互应用需求日益增长的动态3D内容，但静态3D模型转化为动画资产的过程仍然是内容创作流程中的一个重要瓶颈。尽管生成AI的最新进展已经彻底改变了静态3D模型的创建，但蒙皮和动画仍然严重依赖专家干预。我们提出了Puppeteer，一个解决多样3D对象的自动蒙皮和动画的综合框架。该系统首先通过自回归transformer预测可能的骨骼结构，引入了一种基于关节的标记策略以实现紧凑表示以及带有随机扰动的分层排序方法，以增强双向学习能力。随后，通过一个基于注意力的架构推断布料权重，该架构采用考虑拓扑结构的关节注意力，明确编码基于骨骼图距离的关节间关系。最后，我们通过一个基于可微优化的动画管道，生成稳定、高保真度的动画，同时在计算效率上优于现有方法。通过多个基准的广泛评估表明，我们的方法在骨骼预测准确性和蒙皮质量方面显著优于最先进的技术。该系统稳健处理多种3D内容，从专业设计的游戏资产到AI生成的形状，生成消除了现有方法中常见的抖动问题的时间一致性动画。\n\n作者:\nChaoyue Song, Xiu Li, Fan Yang, Zhongcong Xu, Jiacheng Wei, Fayao Liu, Jiashi Feng, Guosheng Lin, Jianfeng Zhang\n\n评论:\n项目页面：该https URL\n\n链接:\nhttps://arxiv.org/pdf/2508.10898.pdf\n\n标题:\n2025 [2508.10898] Puppeteer: Rig and Animate Your 3D Models.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10898.pdf"
+    },
+    {
+        "名称": "2025 [2508.10893] STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer.pdf",
+        "作者": "Yushi Lan, Yihang Luo, Fangzhou Hong, Shangchen Zhou, Honghua Chen, Zhaoyang Lyu, Shuai Yang, Bo Dai, Chen Change Loy, Xingang Pan",
+        "摘要": "摘要: 我们提出了STream3R，这是一种新颖的3D重建方法，将点云预测重新定义为仅使用解码器的Transformer问题。现有的多视图重建的最先进方法要么依赖于昂贵的全局优化，要么依赖于对序列长度扩展不佳的简单记忆机制。相比之下，STream3R引入了一个流处理框架，使用因果注意力高效处理图像序列，这一灵感来源于现代语言建模的进展。通过从大规模3D数据集中学习几何先验知识，STream3R能够很好地推广到多样且具有挑战性的场景，包括传统方法常常失败的动态场景。大量实验表明，我们的方法在静态和动态场景基准测试中的表现始终优于之前的工作。此外，STream3R本质上与LLM风格的训练基础设施兼容，从而可以有效进行大规模的预训练和微调，用于各种下游3D任务。我们的结果强调了因果Transformer模型在在线3D感知中的潜力，为流媒体环境中的实时3D理解铺平了道路。更多详情请参见我们的项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.10893.pdf"
+    },
+    {
+        "名称": "2025 [2508.10751] Pass@k Training for Adaptively Balancing Exploration and Exploitation of Large Reasoning Models.pdf",
+        "作者": "Zhipeng Chen, Xiaobo Qin, Youbin Wu, Yue Ling, Qinghao Ye, Wayne Xin Zhao, Guang Shi",
+        "摘要": "摘要: 带有可验证奖励的强化学习（RLVR），通常采用Pass@1作为奖励，面临在探索与利用之间平衡的问题，导致策略倾向于保守行为，收敛到局部最优。因此，识别适当的奖励指标至关重要。关于之前的工作，虽然Pass@k已被用于评估，但其与RLVR中LLM探索能力的关系基本被忽视。为了探讨这一点，我们首先使用Pass@k作为奖励来训练策略模型（即Pass@k训练），并观察其对探索能力的提升。接下来，我们推导出Pass@k训练优势的解析解，导致一个高效且有效的过程。在此基础上，我们的分析揭示了探索与利用并非固有的冲突目标，而是可以相互增强。此外，具有解析推导的Pass@k训练本质上涉及直接设计优势函数。受此启发，我们初步探索了RLVR的优势设计，展示了有前景的结果，并强调了潜在的未来方向。",
+        "地址": "https://arxiv.org/pdf/2508.10751.pdf"
+    },
+    {
+        "名称": "2025 [2508.10875] A Survey on Diffusion Language Models.pdf",
+        "作者": "Tianyi Li, Mingda Chen, Bowei Guo, Zhiqiang Shen",
+        "摘要": "摘要: 扩散语言模型（DLMs）迅速成为替代主流自回归（AR）范式的强大且有前景的选择。通过迭代去噪过程并行生成标记，DLMs在减少推理延迟和捕捉双向上下文方面具有固有优势，从而实现精细控制生成过程。最近的进展使得DLMs在实现数倍加速的同时，表现达到与自回归模型相当的水平，使其成为自然语言处理任务的引人注目的选择。在本综述中，我们全面概述了当前的DLM领域。我们追溯了其演变及与其他范式（如自回归和掩码语言模型）的关系，涵盖了基础原理和最新模型。我们的研究提供了最新的、全面的分类法和当前技术的深入分析, 从预训练策略到先进的后训练方法。本文的另一个贡献是对DLM推理策略和优化（包括解码并行性改进、缓存机制和生成质量提升）的详尽评审。我们还重点介绍了DLMs的多模态扩展最新方法，并概述了其在各种实际场景中的应用。此外，我们讨论了DLMs的局限性和挑战，包括效率、长序列处理和基础设施要求，同时概述了未来研究方向，以促进这一快速发展的领域中的进步。项目 GitHub 地址可通过此网址访问。",
+        "地址": "https://arxiv.org/pdf/2508.10875.pdf"
+    },
+    {
+        "名称": "2025 [2508.10576] HumanSense: From Multimodal Perception to Empathetic Context-Aware Responses through Reasoning MLLMs.pdf",
+        "作者": "Zheng Qin, Ruobing Zheng, Yabing Wang, Tianqi Li, Yi Yuan, Jingdong Chen, Le Wang",
+        "摘要": "摘要：虽然多模态大语言模型（MLLMs）在实现类似人类的互动方面展现了巨大的潜力，但由于缺乏细粒度的评估框架来评估以人为中心的场景，包括对复杂人类意图的理解和提供富有同情心的、上下文敏感的回应，进展受到阻碍。我们在此介绍HumanSense，这是一个全面的基准，用来评价MLLMs的人类感知和互动能力，特别关注对扩展的多模态上下文的深层理解和合理反馈的制定。我们的评估显示，领先的MLLMs在高级互动任务方面仍有相当大的提升空间。补充视觉输入的音频和文本信息带来了显著的改进，全模式模型在这些任务上展现了优势。此外，我们认为适当的反馈来自对对话者需求和情感的上下文分析，推理能力是解锁它的关键。因此，我们采用多阶段、模态渐进的强化学习来增强一个全模式模型的推理能力，在评估结果上取得了显著的提升。此外，我们观察到成功的推理过程展示出高度一致的思维模式。通过设计相应的提示，我们在免训练的情况下也提高了非推理模型的性能。项目页面：\\\\textcolor{brightpink}this https URL",
+        "地址": "https://arxiv.org/pdf/2508.10576.pdf"
+    },
+    {
+        "名称": "2025 [2508.10637] Processing and acquisition traces in visual encoders: What does CLIP know about your camera?.pdf",
+        "作者": "Ryan Ramos, Vladan Stojnić, Giorgos Kordopatis-Zilos, Yuta Nakashima, Giorgos Tolias, Noa Garcia",
+        "摘要": "摘要：先前的工作分析了视觉编码器在图像变换和损坏方面的鲁棒性，特别是在训练期间未见到此类改动的情况下。当这种情况发生时，它们会在测试时引入一种分布偏移，通常导致性能下降。主要关注点在于严重损坏，应用激进时会扭曲进行准确语义预测所需的有用信号。我们从不同的角度分析图像获取过程的参数和可能微妙或甚至人眼无法察觉的变换。我们发现，这些参数在学习的视觉表示中被系统地编码，并且可以轻松恢复。更令人惊讶的是，它们的存在可能对语义预测产生深远影响，影响可以是积极的也可以是消极的，这取决于语义标签与这些基于获取或处理的标签之间是否存在强相关性或反相关性。我们的代码和数据可在以下网址获得：this https URL\n\n翻译：摘要：先前的工作分析了视觉编码器对图像变换和损坏的鲁棒性，特别是在训练期间没有见到此类改动的情况下。当这种情况发生时，它们会在测试时引入一种分布偏移，通常导致性能下降。主要关注点是严重损坏，应用激进时会扭曲准确语义预测所需的有用信号。我们从不同的角度分析了图像获取过程的参数和可能微妙甚至人眼无法察觉的变换。我们发现，这些参数在学习的视觉表示中被系统地编码，并且可以轻松恢复。更令人惊讶的是，它们的存在可能对语义预测产生深远影响，这种影响可能是积极的，也可能是消极的，这取决于语义标签与这些基于获取或处理的标签之间是否存在强相关性或反相关性。我们的代码和数据可以在以下网址获得：this https URL",
+        "地址": "https://arxiv.org/pdf/2508.10637.pdf"
+    },
+    {
+        "名称": "2025 [2508.10860] From Black Box to Transparency: Enhancing Automated Interpreting Assessment with Explainable AI in College Classrooms.pdf",
+        "作者": "Zhaokun Jiang, Ziyin Zhang",
+        "摘要": "2025年  [2508.10860]  从“黑箱”到透明：在高校课堂中利用可解释的人工智能增强自动口译评估.pdf\n\n摘要：近期，机器学习的进步引发了对自动口译质量评估的日益兴趣。然而，现有研究在语言使用质量的检验方面不足，因数据稀缺和不平衡导致的建模效果不佳，并且缺乏对模型预测进行解释的努力。为了解决这些问题，我们提出了一种多维建模框架，该框架集成了特征工程、数据扩增和可解释的机器学习。这种方法通过使用仅与构造相关的透明特征并进行Shapley值（SHAP）分析，优先考虑可解释性而非“黑箱”预测。我们的结果在一个新颖的英汉交替传译数据集上展示了强大的预测性能，发现BLEURT和CometKiwi评分是忠实度的最强预测特征，停顿相关特征是流利度的最好预测特征，而中国特有的短语多样性指标是语言使用的最佳预测特征。总体而言，通过特别强调可解释性，我们提出了一种可扩展、可靠和透明的替代传统人工评估的方法，促进了为学习者提供详细诊断反馈的可能，并支持自动评分所不能单独提供的自我调节学习的优势。\n\n作者: 江兆坤，张子尹\n\n链接: https://arxiv.org/pdf/2508.10860.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10860.pdf"
+    },
+    {
+        "名称": "2025 [2508.10482] When Explainability Meets Privacy: An Investigation at the Intersection of Post-hoc Explainability and Differential Privacy in the Context of Natural Language Processing.pdf",
+        "作者": "Mahdi Dhaini, Stephen Meisenbacher, Ege Erdogan, Florian Matthes, Gjergji Kasneci",
+        "摘要": "摘要：在值得信赖的自然语言处理（NLP）研究中，出现了许多重要的研究领域，包括“可解释性”和“隐私”。虽然近些年对可解释性和隐私保护的NLP的研究兴趣显著增加，但在两者交叉点的调查仍然缺乏。这导致对是否能同时实现可解释性和隐私保护，或者两者是否互相对立的理解存在巨大缺口。在这项工作中，我们在NLP背景下进行了一项关于隐私与可解释性权衡的实证研究，指导性方法是“差分隐私”（DP）和事后可解释性。我们的研究结果包括对隐私与可解释性的复杂关系的观察，这种关系由多种因素形成，包括下游任务的性质和文本隐私化及可解释性方法的选择。在其中，我们凸显了隐私与可解释性共存的潜力，并总结了在这一重要交叉点上未来工作的实用推荐。",
+        "地址": "https://arxiv.org/pdf/2508.10482.pdf"
+    }
+]
