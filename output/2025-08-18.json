@@ -1,0 +1,80 @@
+[
+    {
+        "名称": "2025 [2508.10874] SSRL: Self-Search Reinforcement Learning.pdf",
+        "作者": "Yuchen Fan, Kaiyan Zhang, Heng Zhou, Yuxin Zuo, Yanxu Chen, Yu Fu, Xinwei Long, Xuekai Zhu, Che Jiang, Yuchen Zhang, Li Kang, Gang Chen, Cheng Huang, Zhizhou He, Bingning Wang, Lei Bai, Ning Ding, Bowen Zhou",
+        "摘要": "摘要: 我们研究了使用大型语言模型（LLMs）作为强有力的模拟器以执行强化学习（RL）中的代理搜索任务的潜力，从而减少对外部搜索引擎耗资较大的互动的依赖。为此，我们首先通过结构化提示和重复采样量化LLMs的内在搜索能力，称之为自搜索。我们的结果表明，LLMs在推理预算方面表现出强大的扩展行为，在包括具有挑战性的BrowseComp任务在内的问答基准测试上实现了高pass@k。基于这些观察，我们提出了自搜索强化学习（SSRL），通过基于格式和规则的奖励增强LLMs的自搜索能力。SSRL使模型能够内部迭代地优化其知识利用，不需要访问外部工具。实证评估表明，SSRL训练的策略模型为搜索驱动的RL训练提供了成本效益高且稳定的环境，减少了对外部搜索引擎的依赖，并促进了牢固的模拟到现实的转移。我们得出以下结论：1）LLMs拥有可以有效激发以实现高性能的世界知识；2）SSRL展示了利用内部知识减少幻觉的潜力；3）SSRL训练的模型能够无缝集成外部搜索引擎而无需额外努力。我们的研究结果强调了LLMs支持更大规模RL代理训练的潜力。",
+        "地址": "https://arxiv.org/pdf/2508.10874.pdf"
+    },
+    {
+        "名称": "2025 [2508.11630] Thyme: Think Beyond Images.pdf",
+        "作者": "Yi-Fan Zhang, Xingyu Lu, Shukang Yin, Chaoyou Fu, Wei Chen, Xiao Hu, Bin Wen, Kaiyu Jiang, Changyi Liu, Tianke Zhang, Haonan Fan, Kaibing Chen, Jiankang Chen, Haojie Ding, Kaiyu Tang, Zhang Zhang, Liang Wang, Fan Yang, Tingting Gao, Guorui Zhou",
+        "摘要": "摘要：继OpenAI引入“用图像思考”概念后，最近的研究致力于在推理过程中利用视觉信息来提升模型在感知和推理任务中的表现。然而，据我们所知，目前没有开放源代码的工作能够提供像专有模型(O3)一样丰富的功能集，这些模型不仅可以执行多种图像操作，同时还能通过代码增强逻辑推理能力。在本文中，我们首次尝试通过引入Thyme（超越图像的思考），一种全新的范式来使MLLMs超越现有的“用图像思考”方法。该范式可以自主生成并执行各种图像处理和计算操作的可执行代码。这种方法不仅能够实现丰富的实时图像操作（例如裁剪、旋转、增强对比度），还允许进行数学计算，同时在决定何时以及如何应用这些操作方面保持高度自主性。我们通过两阶段训练策略来激活此功能：首先在一个包含50万样本的精选数据集上进行初步SFT以教授代码生成，其次通过RL阶段来优化决策。在RL阶段，我们手动收集并设计高分辨率的问答对以增加学习难度，并提出GRPO-ATS（自适应温度采样的组相对策略优化）算法，该算法对文本和代码生成应用不同的温度，以平衡推理探索与代码执行精度。我们进行了广泛的实验分析和消融研究。对近20个基准的综合评估表明，Thyme在具有挑战性的高分辨率感知和复杂推理任务中产生了显著和一致的性能提升。",
+        "地址": "https://arxiv.org/pdf/2508.11630.pdf"
+    },
+    {
+        "名称": "2025 [2508.10104] DINOv3.pdf",
+        "作者": "Oriane Siméoni, Huy V. Vo, Maximilian Seitzer, Federico Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michaël Ramamonjisoa, Francisco Massa, Daniel Haziza, Luca Wehrstedt, Jianyuan Wang, Timothée Darcet, Théo Moutakanni, Leonel Sentana, Claire Roberts, Andrea Vedaldi, Jamie Tolan, John Brandt, Camille Couprie, Julien Mairal, Hervé Jégou, Patrick Labatut, Piotr Bojanowski",
+        "摘要": "摘要：自监督学习有望消除手动数据标注的需求，使模型能够轻松扩展到大规模数据集和更大的架构。由于这种训练范式不针对特定任务或领域，从自然图像到航空图像等多样化来源中学习视觉表示的潜力巨大——使用单一算法即可。本技术报告介绍了DINOv3，这是利用简单而有效的策略实现这一愿景的重要里程碑。首先，通过谨慎的数据准备、设计和优化，我们利用了数据集和模型规模扩展的优势。其次，我们引入了一种新方法，称为Gram anchoring，有效解决了在长时间训练过程中密集特征图退化的已知但未解决的问题。最后，我们应用了一些后验策略，进一步提高模型在分辨率、模型大小和文本对齐方面的灵活性。结果是，我们提出了一个多功能的视觉基础模型，在广泛的环境中无需微调即可超越专业的最先进模型。DINOv3生成高质量的密集特征，在各种视觉任务上表现出色，显著超越了先前的自监督和弱监督基础模型。我们还分享了DINOv3系列视觉模型，旨在通过提供可扩展的解决方案，推动各类任务和数据上的技术进步，以应对多样化的资源约束和部署场景。\n\n作者：Oriane Siméoni, Huy V. Vo, Maximilian Seitzer, Federico Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michaël Ramamonjisoa, Francisco Massa, Daniel Haziza, Luca Wehrstedt, Jianyuan Wang, Timothée Darcet, Théo Moutakanni, Leonel Sentana, Claire Roberts, Andrea Vedaldi, Jamie Tolan, John Brandt, Camille Couprie, Julien Mairal, Hervé Jégou, Patrick Labatut, Piotr Bojanowski\n\n链接：https://arxiv.org/pdf/2508.10104.pdf\n\n标题：2025 [2508.10104] DINOv3.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10104.pdf"
+    },
+    {
+        "名称": "2025 [2508.10975] BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining.pdf",
+        "作者": "Pratyush Maini, Vineeth Dorna, Parth Doshi, Aldo Carranza, Fan Pan, Jack Urbanek, Paul Burstein, Alex Fang, Alvin Deng, Amro Abbas, Brett Larsen, Cody Blakeney, Charvi Bannur, Christina Baek, Darren Teh, David Schwab, Haakon Mongstad, Haoli Yin, Josh Wills, Kaleigh Mentzer, Luke Merrick, Ricardo Monti, Rishabh Adiga, Siddharth Joshi, Spandan Das, Zhengping Wang, Bogdan Gaza, Ari Morcos, Matthew Leavitt",
+        "摘要": "摘要: 最近在大型语言模型（LLM）预训练方面的进展表明，单纯扩大数据量最终会导致收益递减，遇到数据壁垒。针对这一问题，使用合成数据进行预训练成为推动性能前沿的有前途的范式。尽管如此，影响合成数据质量的因素仍然知之甚少。在这项工作中，我们介绍了BeyondWeb，这是一种生成高质量合成预训练数据的框架。BeyondWeb显著扩展了传统网络规模数据集的能力，在14项基准评估中，平均超过了最先进的合成预训练数据集Cosmopedia和Nemotron-CC的高质量合成子集（Nemotron-Synth）分别达5.1个百分点（pp）和2.6pp。与开放网络数据相比，其训练速度快至7.7倍，比Nemotron-Synth快2.7倍。值得注意的是，一个在BeyondWeb上训练180B tokens的3B模型，性能优于在Cosmopedia上以相同tokens预算训练的8B模型。我们还从BeyondWeb中提出了关于预训练合成数据的若干见解：其优势的驱动力，应该如何以及哪些数据进行重述，以及模型大小和类别对数据质量的影响。总体而言，我们的工作显示，生成高质量的合成预训练数据没有灵丹妙药。最佳结果需要联合优化许多因素，这是一个需要严谨的科学和实践经验的具有挑战性的任务。简单的方法可能会带来微小的改进，潜在的高成本，而执行良好的方法则可以带来变革性的改进，BeyondWeb即是一个例证。\n\n链接: https://arxiv.org/pdf/2508.10975.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10975.pdf"
+    },
+    {
+        "名称": "2025 [2508.11116] PaperRegister: Boosting Flexible-grained Paper Search via Hierarchical Register Indexing.pdf",
+        "作者": "Zhuoqun Li, Xuanang Chen, Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun",
+        "摘要": "摘要：论文搜索是研究人员的一项重要活动，通常涉及使用主题描述的查询来找到相关论文。随着研究的深入，论文搜索需求可能变得更加灵活，有时需要具体的细节如模块配置，而不仅仅限于粗粒度的主题。然而，以前的论文搜索系统无法满足这些灵活粒度的要求，因为这些系统主要收集论文摘要来构建语料库索引，缺乏支持细粒度查询的详细信息。在这项工作中，我们提出了PaperRegister，该系统包含离线分层索引和在线自适应检索，将传统的摘要基索引转换为分层索引树以支持灵活粒度的论文搜索。跨一系列粒度的论文搜索任务实验表明，PaperRegister实现了最先进的性能，特别是在细粒度场景中表现出色，突显了其作为灵活粒度论文搜索有效解决方案的潜力。本文工作的代码可以在这个https URL中找到。",
+        "地址": "https://arxiv.org/pdf/2508.11116.pdf"
+    },
+    {
+        "名称": "2025 [2508.10395] XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization.pdf",
+        "作者": "Aditya Tomar, Coleman Hooper, Minjae Lee, Haocheng Xi, Rishabh Tiwari, Wonjun Kang, Luca Manolache, Michael W. Mahoney, Kurt Keutzer, Amir Gholami",
+        "摘要": "摘要：虽然大型语言模型（LLM）推理已经成为许多下游应用的关键工作负载，但由于巨大的内存占用和带宽需求，高效地进行推理充满挑战。同时，计算能力在过去几十年里稳定地超过了内存容量和带宽，这一趋势在现代GPU硬件中尤为明显，并加剧了LLM推理的难题。为此，新的算法应运而生，它们通过增加计算量来减少内存操作。我们介绍了XQuant，利用这一趋势，通过低位量化实现数量级的内存消耗减少并相对于最先进的KV缓存量化方法具有显著的准确性优势。我们通过量化并缓存层输入激活X，而不是使用标准的KV缓存，并在推理过程中实时重新物化键和值，从而立即实现比KV缓存节省两倍的内存。通过应用XQuant，与FP16基线相比，我们实现多达约7.7倍的内存节省，并且困惑度下降低于0.1。此外，我们的方法利用了X值在各层之间的相似性。在此基础上，我们介绍了XQuant-CL，利用X嵌入的跨层相似性来进行极限压缩。在不同模型中，XQuant-CL相比FP16基线实现最多10倍的内存节省且困惑度仅下降0.01，并实现12.5倍的内存节省且困惑度仅下降0.1。XQuant利用硬件平台迅速增加的计算能力消除了内存瓶颈，同时超越了最先进的KV缓存量化方法，并在广泛的模型中实现了接近FP16的准确性。",
+        "地址": "https://arxiv.org/pdf/2508.10395.pdf"
+    },
+    {
+        "名称": "2025 [2508.11255] FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation.pdf",
+        "作者": "MengChao Wang, Qiang Wang, Fan Jiang, Mu Xu",
+        "摘要": "摘要：最近关于音频驱动的肖像动画的研究取得了令人印象深刻的成果。然而，现有的方法在多个维度上难以与细化的人类偏好对齐，例如动作的自然度、口型同步的准确性以及视觉质量。这主要是由于优化冲突偏好目标的难度以及缺乏带有多维度偏好注释的大规模高质量数据集。为了解决这些问题，我们首先介绍了Talking-Critic，这是一种多模态奖励模型，可以学习与人类对齐的奖励函数，以量化生成的视频在多维度上满足期望的程度。利用这一模型，我们整理了Talking-NSQ，这是一个包含410K偏好对的大规模多维度人类偏好数据集。最后，我们提出了时间步层自适应多专家偏好优化（TLPO），这是一个新颖的框架，用于使基于扩散的肖像动画模型与细化的多维度偏好对齐。TLPO将偏好解耦成专业的专家模块，然后在时间步和网络层之间融合，使得在所有维度上进行全面细化增强而不会互相干扰。实验表明，Talking-Critic在与人类偏好评分对齐方面显著优于现有方法。同时，TLPO在口型同步准确性、动作自然度和视觉质量方面取得了较基线模型显著的提升，在定性和定量评估中都表现出优越的性能。我们的项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2508.11255.pdf"
+    },
+    {
+        "名称": "2025 [2508.11203] StyleMM: Stylized 3D Morphable Face Model via Text-Driven Aligned Image Translation.pdf",
+        "作者": "Seungmi Lee, Kwan Yun, Junyong Noh",
+        "摘要": "摘要：我们介绍了StyleMM，这是一种新颖的框架，能够根据用户定义的目标风格文本描述构建风格化的3D可变形模型（3DMM）。我们的方法基于预训练的网格变形网络和用于原始基于3DMM的真实人脸的纹理生成器，通过使用扩散模型进行文本引导的图像到图像（i2i）翻译生成风格化面部图像，并对这些模型进行微调，将其作为渲染网格的风格化目标。为了防止i2i翻译过程中发生身份、面部对齐或表情的意外变化，我们引入了一种明确保留源图像面部属性的风格化方法。通过在图像风格化过程中保持这些关键属性，所提出的方法确保了通过基于图像的训练在3DMM参数空间内的一致3D风格转移。训练完成后，StyleMM能够通过显式控制形状、表情和纹理参数来生成风格化的面部网格，产生具有一致顶点连接性和可动画性的网格。定量和定性评估表明，我们的方法在身份级面部多样性和风格化能力方面优于最先进的方法。代码和视频可在[this http URL](this http URL)获取。",
+        "地址": "https://arxiv.org/pdf/2508.11203.pdf"
+    },
+    {
+        "名称": "2025 [2508.10868] TexVerse: A Universe of 3D Objects with High-Resolution Textures.pdf",
+        "作者": "Yibo Zhang, Li Zhang, Rui Ma, Nan Cao",
+        "摘要": "摘要：我们介绍了TexVerse，这是一个拥有高分辨率纹理的大规模3D数据集。尽管最近在大规模3D数据集方面的进展增强了高分辨率几何生成，但由于缺乏适当的数据集，终端到终端创建高分辨率纹理仍未充分探索。TexVerse通过从Sketchfab收集的超过858K独特的高分辨率3D模型来填补这一空白，其中包括超过158K 具有基于物理渲染（PBR）材料的模型。每个模型都包含其所有高分辨率的变体，总数达到1.6M 3D实例。TexVerse还包括专业子集：TexVerse-Skeleton，包含69K 带有绑定骨骼的模型，以及TexVerse-Animation，包含54K 带有动画的模型，二者都保留了用户上传的原始骨骼和动画数据。我们还提供了详细的模型注释，描述了总体特征、结构组件和复杂特征。TexVerse提供了高质量的数据资源，具有广泛的潜在应用，如纹理合成、PBR材料开发、动画以及各种3D视觉和图形任务。",
+        "地址": "https://arxiv.org/pdf/2508.10868.pdf"
+    },
+    {
+        "名称": "2025 [2508.10461] X-Node: Self-Explanation is All We Need.pdf",
+        "作者": "Prajit Sengupta, Islem Rekik",
+        "摘要": "摘要：图神经网络（GNNs）通过捕捉数据实例间的结构依赖性，在计算机视觉和医学图像分类任务中取得了最先进的成果。然而，它们的决策过程仍然高度不透明，这限制了它们在高风险临床应用中的可信度，因为这些应用中对可解释性有严格要求。现有的GNNs可解释性技术通常是事后全局性的，对个体节点决策或局部推理提供的见解有限。我们引入了X-Node，这是一个自解释的GNN框架，其中每个节点在预测过程中生成自己的解释。对于每个节点，我们构建一个结构化的上下文向量，编码可解释的线索，如度、中心性、聚类、特征显著性和标签一致性，这些线索存在于其局部拓扑中。一个轻量级的推理模块将此上下文映射到一个紧凑的解释向量，解释向量用于三个目的：(1)通过解码器重建节点的潜嵌入以确保忠实性，(2)使用预训练的大型语言模型（例如，Grok或Gemini）生成自然语言解释，(3)通过“文本注入”机制将解释反馈回消息传递管道，引导GNN自身。我们在从MedMNIST和MorphoMNIST衍生的两个图数据集上评估X-Node，并将其与GCN、GAT和GIN骨干网集成。我们的结果显示，X-Node在保持竞争性分类精度的同时，能够生成真实、节点级别的解释。存储库：该https链接。",
+        "地址": "https://arxiv.org/pdf/2508.10461.pdf"
+    },
+    {
+        "名称": "2025 [2508.11616] Controlling Multimodal LLMs via Reward-guided Decoding.pdf",
+        "作者": "Oscar Mañas, Pierluca D'Oro, Koustuv Sinha, Adriana Romero-Soriano, Michal Drozdzal, Aishwarya Agrawal",
+        "摘要": "摘要: 随着多模态大型语言模型 (MLLMs) 广泛应用，适应不同用户需求变得越来越重要。本文通过受控解码研究了MLLMs的适应性。为实现这一目标，我们介绍了第一种用于奖励引导解码MLLMs的方法，并展示了其在提高视觉定位方面的应用。我们的方法涉及构建视觉定位的奖励模型，并使用它们引导MLLM的解码过程。具体来说，我们构建了两个独立的奖励模型，以独立控制模型输出中对象精度和召回的程度。我们的方法使MLLM的推理过程在两方面上能够实现即时可控性：首先，通过在解码过程中控制每个奖励函数的相对重要性，使用户能够在图像描述任务中动态权衡对象精度和召回；其次，通过控制解码过程中的搜索范围，使用户能够在测试时的计算量和视觉定位程度之间进行权衡。我们在标准对象幻觉基准测试中评估了我们的方法，结果显示它在提供显著可控性方面优于现有的幻觉缓解方法，同时持续表现优异。",
+        "地址": "https://arxiv.org/pdf/2508.11616.pdf"
+    },
+    {
+        "名称": "2025 [2508.10894] MAESTRO: Masked AutoEncoders for Multimodal, Multitemporal, and Multispectral Earth Observation Data.pdf",
+        "作者": "Antoine Labatie, Michael Vaccaro, Nina Lardiere, Anatol Garioud, Nicolas Gonthier",
+        "摘要": "摘要：自监督学习在遥感领域拥有巨大潜力，但标准的自监督方法必须针对地球观测数据的独特特征进行调整。我们通过对多模态、多时态和多光谱地球观测数据的融合策略和重建目标归一化方案进行全面基准测试，向这一方向迈出了重要一步。根据我们的研究结果，我们提出了MAESTRO，这是一种新颖的掩码自编码器的改编版本，具有优化的融合策略和引入光谱先验作为自监督信号的专门目标归一化方案。在四个地球观测数据集上进行评估后，MAESTRO在强烈依赖多时态动态的任务上设定了新的技术标准，同时在单一时态模态主导的任务上仍保持高度竞争力。所有实验的代码都可以在这个URL上获得。\n\nURL：https://arxiv.org/pdf/2508.10894.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10894.pdf"
+    },
+    {
+        "名称": "2025 [2508.06429] SPARSE Data, Rich Results: Few-Shot Semi-Supervised Learning via Class-Conditioned Image Translation.pdf",
+        "作者": "Guido Manni, Clemente Lauretti, Loredana Zollo, Paolo Soda",
+        "摘要": "摘要：深度学习已经彻底改变了医学影像，但其有效性由于标注训练数据不足而受到严重限制。本文介绍了一种新颖的基于GAN的半监督学习框架，专门针对低标注数据环境，并在每类5到50个标注样本的设置中进行了评估。我们的方法在三阶段训练框架内集成了三个专门的神经网络——用于类条件图像转换的生成器、用于真实性评估和分类的鉴别器以及专用分类器。该方法在有限标注数据上进行监督训练，并通过图像到图像转换而非从噪声生成来利用大量未标注的图像进行无监督学习。我们采用基于集成的伪标签，通过鉴别器和分类器的置信度加权预测以及通过指数移动平均实现的时间一致性，进行可靠的未标注数据标签估计。综合评估十一种MedMNIST数据集，我们的方法在极端的5次设置中表现尤为出色，在标注数据极度稀缺的情况下，达到了比六种最新的基于GAN的半监督方法统计显著的改进。在所有评估设置（每类5次、10次、20次和50次）中，框架都保持其优越性能。我们的方法为标注成本高昂的医学成像应用提供了一个实用解决方案，即使标注数据量极少也能实现稳健的分类性能。代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.06429.pdf"
+    }
+]
