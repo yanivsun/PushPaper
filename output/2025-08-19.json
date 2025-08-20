@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2508.11737] Ovis2.5 Technical Report.pdf",
+        "作者": "Shiyin Lu, Yang Li, Yu Xia, Yuwei Hu, Shanshan Zhao, Yanqing Ma, Zhichao Wei, Yinglun Li, Lunhao Duan, Jianshan Zhao, Yuxuan Han, Haijun Li, Wanying Chen, Junke Tang, Chengkun Hou, Zhixing Du, Tianli Zhou, Wenjie Zhang, Huping Ding, Jiahe Li, Wen Li, Gui Hu, Yiliang Gu, Siran Yang, Jiamang Wang, Hailong Sun, Yibo Wang, Hui Sun, Jinlong Huang, Yuping He, Shengze Shi, Weihong Zhang, Guodong Zheng, Junpeng Jiang, Sensen Gao, Yi-Feng Wu, Sijia Chen, Yuhui Chen, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang",
+        "摘要": "摘要: 我们推出Ovis2.5，它是Ovis2的继任者，旨在实现原生分辨率的视觉感知和强大的多模态推理。Ovis2.5集成了一个原生分辨率视觉变压器，可以处理原始、可变分辨率的图像，避免了固定分辨率平铺带来的降解，保留了细节和整体布局—这对像复杂图表一样视觉密集的内容至关重要。为增强推理能力，我们训练模型不仅仅进行线性链式思考，而是进行反思，包括自检和修正。这种先进功能在推理时作为可选的“思考模式”呈现，允许用户在困难输入上交换延迟以增强准确性。模型通过一个全面的五阶段课程训练，逐步建立其技能。过程从基础视觉和多模态预训练开始，通过大规模指令调优推进，并最终采用DPO和GRPO进行对齐和推理增强。为了有效地扩展这些升级，我们采用多模态数据打包和混合并行处理，实现显著的端到端加速。我们发布了两个开源模型：Ovis2.5-9B和Ovis2.5-2B。后者延续了Ovis2“小模型，大表现”的理念，适用于资源受限的设备场景。在OpenCompass多模态排行榜上，Ovis2.5-9B平均得分78.3，较其前身Ovis2-8B有显著提升，并在40B参数范围内的开源MLLMs中实现了最先进的结果；Ovis2.5-2B得分73.9，成为其规模内的最高水平。除了总分数，Ovis2.5在STEM基准测试中取得领先结果，在定向和视频任务中表现出强大能力，并在复杂图表分析方面达到其规模的开源最高水平。",
+        "地址": "https://arxiv.org/pdf/2508.11737.pdf"
+    },
+    {
+        "名称": "2025 [2508.10419] ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning.pdf",
+        "作者": "Juyuan Wang, Rongchen Zhao, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu",
+        "摘要": "摘要：在长故事和小说的叙事理解中，由于其复杂的情节线和交织在一起且经常变化的人物和实体关系，一直是一个具有挑战性的领域。考虑到大型语言模型（LLM）在处理长上下文时的推理能力减弱以及高昂的计算成本，基于检索的方法在实践中仍然具有关键作用。然而，传统的RAG方法由于其无状态的一步检索过程，在捕捉长距离上下文中的相互关系动态方面经常未能达到预期效果。在这项工作中，我们提出了ComoRAG，认为叙事推理并不是一次性的过程，而是新的证据获取与过去知识整合之间的动态演变交互，类似于人类在大脑中利用记忆相关信号进行推理时的认知过程。具体来说，当遇到推理瓶颈时，ComoRAG会进行迭代推理循环，并与动态记忆工作空间互动。在每个循环中，它生成探测性查询以设计新的探索路径，然后将检索到的新方面证据整合到全局记忆池中，从而支持查询解决的一致上下文的出现。在四个具有挑战性的长上下文叙事基准（超过200K标记）上，ComoRAG比强大的RAG基准表现更好，相对于最强基准具有最高达11%的持续相对增益。进一步分析表明，ComoRAG对于需要全局理解的复杂查询尤其有利，为基于检索的长上下文理解提供了一个有原则的、认知上有动机的范例，以实现有状态推理。我们的代码已公开发布：https://arxiv.org/pdf/2508.10419.pdf",
+        "地址": "https://arxiv.org/pdf/2508.10419.pdf"
+    },
+    {
+        "名称": "2025 [2508.13154] 4DNeX: Feed-Forward 4D Generative Modeling Made Easy.pdf",
+        "作者": "Zhaoxi Chen, Tianqi Liu, Long Zhuo, Jiawei Ren, Zeng Tao, He Zhu, Fangzhou Hong, Liang Pan, Ziwei Liu",
+        "摘要": "摘要: 我们提出4DNeX，这是第一个能从单张图像生成4D（即动态3D）场景表示的前馈框架。与依赖计算密集型优化或需要多帧视频输入的现有方法相比，4DNeX通过微调预训练的视频扩散模型，实现了高效的端到端图像到4D生成。具体来说，我们采取以下措施: 1) 为了解决4D数据的稀缺问题，我们构建了4DNeX-10M，这是一个使用先进重建方法生成高质量4D注解的大规模数据集。2) 我们引入了一个统一的6D视频表示，联合建模RGB和XYZ序列，促进外观和几何的结构化学习。3) 我们提出了一套简单却有效的适应策略，以改造预训练的视频扩散模型用于4D建模。4DNeX生成高质量动态点云，能够实现新视角视频合成。广泛实验表明，4DNeX在效率和普遍性方面优于现有4D生成方法，提供了一种可扩展的图像到4D建模解决方案，并为模拟动态场景演化的生成性4D世界模型奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2508.13154.pdf"
+    },
+    {
+        "名称": "2025 [2508.12811] Next Visual Granularity Generation.pdf",
+        "作者": "Yikai Wang, Zhouxia Wang, Zhonghua Wu, Qingyi Tao, Kang Liao, Chen Change Loy",
+        "摘要": "摘要：我们提出了一种新颖的图像生成方法，将图像分解为结构化序列，其中序列中的每个元素具有相同的空间分辨率但使用的独特标记数量不同，从而捕捉不同层次的视觉细节。图像生成是通过我们新引入的下一视觉粒度 (NVG) 生成框架进行的，该框架生成从空图像开始并逐步细化的视觉粒度序列，从全局布局到精细细节，有条不紊地进行。这一迭代过程编码了一个分层、分层次的表示，提供了在多个粒度级别上对生成过程的精细控制。我们在ImageNet数据集上训练了一系列用于类别条件图像生成的NVG模型，并观察到明显的扩展行为。与VAR系列相比，NVG在FID分数方面始终表现更佳（3.30 -> 3.03, 2.57 -> 2.44, 2.09 -> 2.06）。我们还进行了广泛的分析以展示NVG框架的能力和潜力。我们的代码和模型将会发布。",
+        "地址": "https://arxiv.org/pdf/2508.12811.pdf"
+    },
+    {
+        "名称": "2025 [2508.09834] Speed Always Wins: A Survey on Efficient Architectures for Large Language Models.pdf",
+        "作者": "Weigao Sun, Jiaxi Hu, Yucheng Zhou, Jusen Du, Disen Lan, Kexin Wang, Tong Zhu, Xiaoye Qu, Yu Zhang, Xiaoyu Mo, Daizong Liu, Yuxuan Liang, Wenliang Chen, Guoqi Li, Yu Cheng",
+        "摘要": "摘要: 大型语言模型（LLMs）在语言理解、生成和推理方面表现出色，并推动了多模态模型能力的极限。作为现代LLMs基础的transformer模型提供了强大的基准，具有出色的扩展性。然而，传统的transformer架构需要大量计算，并且在大规模训练和实际部署方面面临显著障碍。在这份综述中，我们系统地审视了创新的LLM架构，这些架构解决了transformers固有的局限性并提高了效率。从语言建模入手，这份综述涵盖了线性和稀疏序列建模方法、有效的全注意力变体、稀疏专家混合模型、结合上述技术的混合模型架构以及新兴的扩散LLMs的背景和技术细节。此外，我们还讨论了这些技术在其他模态上的应用，并考虑了它们对开发可扩展、资源感知的基础模型的更广泛影响。通过将最近的研究划分为上述类别，这份综述呈现了现代高效LLM架构的蓝图，并希望这能激发未来向更高效、通用的AI系统研究的动力。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.09834.pdf"
+    },
+    {
+        "名称": "2025 [2508.11383] When Punctuation Matters: A Large-Scale Comparison of Prompt Robustness Methods for LLMs.pdf",
+        "作者": "Mikhail Seleznyov, Mikhail Chaichuk, Gleb Ershov, Alexander Panchenko, Elena Tutubalina, Oleg Somov",
+        "摘要": "摘要: 大型语言模型（LLMs）对提示措辞和格式的微妙、非语义变化高度敏感。在这项工作中，我们在统一的实验框架内首次系统评估了五种提高提示鲁棒性的方法。我们在来自 Llama、Qwen 和 Gemma 家族的八个模型上，以自然指令数据集的 52 项任务为基准，进行了这些技术的比较。我们的评估涵盖了来自微调和上下文学习范式的鲁棒性方法，并测试了它们在多种分布偏移类型下的泛化性能。最后，我们将分析扩展到 GPT-4.1 和 DeepSeek V3，以评估前沿模型对格式扰动的当前鲁棒性。我们的研究结果提供了关于这些鲁棒性方法相对有效性的可操作见解，使从业者在追求现实应用中 LLM 稳定和可靠性能时能够做出明智的决策。代码链接：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.11383.pdf"
+    },
+    {
+        "名称": "2025 [2508.13142] Has GPT-5 Achieved Spatial Intelligence? An Empirical Study.pdf",
+        "作者": "Zhongang Cai, Yubo Wang, Qingping Sun, Ruisi Wang, Chenyang Gu, Wanqi Yin, Zhiqian Lin, Zhitao Yang, Chen Wei, Xuanke Shi, Kewang Deng, Xiaoyang Han, Zukai Chen, Jiaqi Li, Xiangyu Fan, Hanming Deng, Lewei Lu, Bo Li, Ziwei Liu, Quan Wang, Dahua Lin, Lei Yang",
+        "摘要": "摘要: 多模态模型近年来取得了显著进展。然而，它们在空间理解和推理方面仍然存在显著的局限性，而这些能力是实现人工通用智能的基础。随着据称是迄今为止最强大的人工智能模型GPT-5的发布，审视领先模型在实现空间智能道路上的进展是十分及时的。首先，我们提出了一个全面的空间任务分类法，统一了现有的基准并讨论了确保公平评估的挑战。然后我们在八个关键基准上评估了最先进的专有模型和开源模型，总计超过十亿个令牌的成本。我们的实证研究揭示了：（1）GPT-5在空间智能方面表现出前所未有的强度，但（2）在人类表现的广泛任务上仍然逊色。此外，我们（3）确定了多模态模型更具挑战性的空间智能问题，并且（4）面对最困难的问题时，专有模型没有表现出决定性的优势。此外，我们在一组多样化的场景中进行了定性评估，这些场景对人类来说是直观的，但却难倒了即使是最先进的多模态模型。",
+        "地址": "https://arxiv.org/pdf/2508.13142.pdf"
+    },
+    {
+        "名称": "2025 [2508.12782] HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds.pdf",
+        "作者": "Petr Anokhin, Roman Khalikov, Stefan Rebrikov, Viktor Volkov, Artyom Sorokin, Vincent Bissonnette",
+        "摘要": "摘要：大型语言模型（LLMs）在数学和编程等单独的逐步推理任务中表现出显著的能力，但它们在需要延伸、结构化的序列依赖动作的长远规划中的能力尚未被充分探索。现有的基准测试通常通过抽象或低维算法任务来评估LLMs，未能捕捉现实规划环境的复杂性。我们推出了HeroBench，这是一种专门评估复杂角色扮演（RPG）虚拟世界中长远规划和结构化推理的新基准。HeroBench提供了一个严格构建的任务数据集，涵盖各种难度等级、一个模拟环境来执行和验证代理计划，并提供详细的分析工具来评估模型性能。任务挑战模型制定战略计划、高效地获取资源、掌握必要技能、制作装备以及打败敌人，反映了实际场景中的层次依赖性和约束性。我们对25个最先进的LLMs进行了广泛评估，包括开源和专有模型，其中包括GPT-5系列，揭示了传统推理基准中很少观察到的巨大性能差异。详细的错误分析进一步揭示了当前模型在生成鲁棒的高级计划和可靠地执行结构化动作方面的具体弱点。因此，HeroBench不仅显著推进了LLM推理的评估，还为未来在虚拟环境中进行高级自主规划的研究提供了一个灵活和可扩展的基础。\n\n作者：Petr Anokhin, Roman Khalikov, Stefan Rebrikov, Viktor Volkov, Artyom Sorokin, Vincent Bissonnette\n\n备注：代码可在此URL获得\n\n链接：https://arxiv.org/pdf/2508.12782.pdf\n\n标题：2025 [2508.12782] HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds.pdf",
+        "地址": "https://arxiv.org/pdf/2508.12782.pdf"
+    },
+    {
+        "名称": "2025 [2508.13009] Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model.pdf",
+        "作者": "Xianglong He, Chunli Peng, Zexiang Liu, Boyang Wang, Yifan Zhang, Qi Cui, Fei Kang, Biao Jiang, Mengyin An, Yangyang Ren, Baixin Xu, Hao-Xiang Guo, Kaixiong Gong, Cyrus Wu, Wei Li, Xuchen Song, Yang Liu, Eric Li, Yahui Zhou",
+        "摘要": "2025年的论文题目：[2508.13009] Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model\n\n摘要：\n现代互动视频生成技术展现了扩散模型通过捕捉复杂的物理动态和互动行为作为世界模型的潜力。然而，现有的互动世界模型依赖于双向注意力和冗长的推理步骤，极大地限制了实时性能。因此，它们难以模拟现实世界动态，无法根据历史背景和当前行动即时更新结果。为了解决这个问题，我们提出了Matrix-Game 2.0，一个通过少步骤自回归扩散生成长视频的互动世界模型。我们的框架包括三个关键组件：（1）一个可扩展的数据生成管道，用于虚幻引擎和GTA5环境，有效生成大量（约1200小时）具有多样交互注释的视频数据；（2）一个动作注入模块，使得帧级别的鼠标和键盘输入作为互动条件；（3）一个基于因果架构的少步骤蒸馏方法，用于实时和流媒体视频生成。Matrix-Game 2.0能够在多种场景中以极快的速度（25 FPS）生成高质量的分钟级视频。我们开源我们的模型权重和代码库，以推动互动世界建模的研究。",
+        "地址": "https://arxiv.org/pdf/2508.13009.pdf"
+    },
+    {
+        "名称": "2025 [2508.11598] Representing Speech Through Autoregressive Prediction of Cochlear Tokens.pdf",
+        "作者": "Greta Tuckute, Klemen Kotar, Evelina Fedorenko, Daniel L.K. Yamins",
+        "摘要": "摘要：我们介绍了AuriStream，这是一种受到生物启发的模型，通过两阶段框架对语音进行编码，灵感来自人类听觉处理层次结构。第一阶段基于人类耳蜗，将原始音频转换为时频表示，从中提取离散的耳蜗标记。第二阶段在这些耳蜗标记上应用自回归序列模型。AuriStream学习有意义的音素和词汇表示，以及最先进的词汇语义。AuriStream在不同的SUPERB语音任务上表现出竞争力。为了补充AuriStream的强大表示能力，它还能生成音频的延续，这些延续可以在频谱图空间中进行可视化并解码回音频，从而提供对模型预测的洞察。总之，我们提出了一个用于语音表示学习的两阶段框架，旨在推进更类似人类且能够有效处理多种语音任务的模型的发展。",
+        "地址": "https://arxiv.org/pdf/2508.11598.pdf"
+    },
+    {
+        "名称": "2025 [2508.12945] Lumen: Consistent Video Relighting and Harmonious Background Replacement with Video Generative Models.pdf",
+        "作者": "Jianshu Zeng, Yuxuan Liu, Yutong Feng, Chenxuan Miao, Zixiang Gao, Jiwang Qu, Jianzhang Zhang, Bin Wang, Kun Yuan",
+        "摘要": "摘要：视频重照明是一项具有挑战但极具价值的任务，旨在替换视频中的背景，同时相应地调整前景中的照明，并实现和谐融合。在转换过程中，保持前景的原始特性（例如反照率）并在时间帧之间传播一致的重照明是至关重要的。在本文中，我们提出了Lumen，一个基于大规模视频生成模型的端到端视频重照明框架，可以接收灵活的文本描述以指导照明和背景的控制。考虑到具有相同前景在不同照明条件下的高质量配对视频的稀缺性，我们构建了一个混合了现实和合成视频的大规模数据集。在合成领域中，受益于社区中丰富的3D资产，我们利用先进的3D渲染引擎在各种环境中策划视频对。在现实领域中，我们采用基于HDR的照明模拟来弥补缺乏野外配对视频的问题。借助上述数据集，我们设计了一个联合训练课程，以有效地发挥每个领域的优势，即合成视频中的物理一致性以及现实视频中的广义域分布。为实现这一点，我们在模型中注入了一个领域感知适配器，以解耦重照明和域外观分布的学习。我们构建了一个综合基准，从前景保留和视频一致性评估的角度评估Lumen和现有方法。实验结果表明，Lumen能够将输入视频有效编辑为具有一致照明和严格前景保留的影院级重照明视频。我们的项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2508.12945.pdf"
+    },
+    {
+        "名称": "2025 [2508.11379] G-CUT3R: Guided 3D Reconstruction with Camera and Depth Prior Integration.pdf",
+        "作者": "Ramil Khafizov, Artem Komarichev, Ruslan Rakhimov, Peter Wonka, Evgeny Burnaev",
+        "摘要": "摘要：我们介绍了G-CUT3R，这是一种新颖的前馈方法，用于引导3D场景重建，通过整合先验信息来增强CUT3R模型。与仅依赖输入图像的现有前馈方法不同，我们的方法利用辅助数据，例如深度、相机校准或相机位置，这些在现实场景中通常是可用的。我们提出了对CUT3R的轻量级修改，为每种模态添加了一个专用编码器以提取特征，这些特征通过零卷积与RGB图像令牌融合。这种灵活的设计使在推断过程中能够无缝集成任何组合的先验信息。在多个基准测试中进行评估，包括3D重建和其他多视图任务，我们的方法展示了显著的性能提升，表明它能够有效利用可用的先验信息，同时保持与不同输入模态的兼容性。",
+        "地址": "https://arxiv.org/pdf/2508.11379.pdf"
+    },
+    {
+        "名称": "2025 [2508.12880] S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models.pdf",
+        "作者": "Chubin Chen, Jiashu Zhu, Xiaokun Feng, Nisha Huang, Meiqi Wu, Fangyuan Mao, Jiahong Wu, Xiangxiang Chu, Xiu Li",
+        "摘要": "摘要: 无分类器指导 (CFG) 是现代扩散模型中广泛使用的一项技术，用于提升样本质量和提示的依从性。然而，通过对具有闭合形式解的高斯混合建模的实证分析，我们发现CFG生成的次优结果与真实值之间存在差异。这种模型过度依赖这些次优预测通常会导致语义不连贯和低质量输出。为了解决这个问题，我们首先实验证明可以利用模型本身的子网络有效地优化模型的次优预测。在这一发现的基础上，我们提出了S^2-Guidance，这是一种新的方法，通过在前向过程中随机删除块来构建随机子网络，有效地指导模型避开潜在的低质量预测，生成高质量输出。在文本到图像和文本到视频生成任务上的广泛的定性和定量实验表明，S^2-Guidance表现优异，持续优于CFG及其他先进的指导策略。我们的代码将会发布。",
+        "地址": "https://arxiv.org/pdf/2508.12880.pdf"
+    },
+    {
+        "名称": "2025 [2508.12466] Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision Mapping.pdf",
+        "作者": "Xuhui Zhan, Tyler Derr",
+        "摘要": "摘要：传统的多模态学习方法需要昂贵的对齐预训练，以连接视觉和语言模态，通常将视觉特征投射到离散的文本标记空间。我们通过提出Inverse-LLaVA挑战了这一范式的基本假设，这是一种消除对齐预训练的新方法，同时颠倒了传统的映射方向。我们的方法不是将视觉特征映射到文本空间，而是将文本嵌入映射到连续的视觉表示空间，并在变压器的中间层中进行融合。通过注意机制中的选择性加性成分，我们实现了视觉和文本表示的动态整合，而无需大量的图像-文本对齐数据集。在九个多模态基准上的全面实验展示了细微的性能权衡：Inverse-LLaVA在推理密集和认知任务上取得了显著改进（MM-VET：+0.2%，VizWiz：+1.8%，ScienceQA：+0.2%，认知推理：+27.2%），而在需要记忆视觉-文本关联的感知任务上表现出预期的下降（名人识别：-49.5%，OCR：-21.3%）。这些结果首次提供了对齐预训练对于有效的多模态学习并不是必需的实证证据，特别是对于复杂的推理任务。我们的工作确立了一种减少计算需求45%的新范式的可行性，挑战了关于模态融合的传统观念，并为高效的多模态架构保留模态特定特征开辟了新的研究方向。我们的项目网站提供了代码和额外资源，网址请访问此链接。\n\n作者：Xuhui Zhan, Tyler Derr\n\n评论：15页，3个图\n\n网址：https://arxiv.org/pdf/2508.12466.pdf\n\n标题：2025 [2508.12466] Inverse-LLaVA: Eliminating Alignment Pre-training Through Text-to-Vision Mapping.pdf",
+        "地址": "https://arxiv.org/pdf/2508.12466.pdf"
+    },
+    {
+        "名称": "2025 [2508.12790] Reinforcement Learning with Rubric Anchors.pdf",
+        "作者": "Zenan Huang, Yihong Zhuang, Guoshan Lu, Zeyu Qin, Haokai Xu, Tianyu Zhao, Ru Peng, Jiaqi Hu, Zhanming Shen, Xiaomeng Hu, Xijun Gu, Peiyi Tu, Jiaxin Liu, Wenyu Chen, Yuzhuo Fu, Zhiting Fan, Yanmei Gu, Yuanyuan Wang, Zhengkai Yang, Jianguo Li, Junbo Zhao",
+        "摘要": "摘要：从可验证奖励进行强化学习（RLVR）已经成为增强大型语言模型（LLMs）的强大范式，OpenAI的o系列证明了其成功。在RLVR中，奖励源于可验证的信号，比如通过代码生成中的单元测试或匹配数学推理中的正确答案。尽管有效，但这一要求很大程度上将RLVR限制在自动化可检验结果的领域。为了克服这一局限，我们通过整合基于评分标准的奖励将RLVR范式扩展到开放式任务中，这些评分标准作为结构化的、模型可解释的标准，用于自动评估主观输出。我们构建了目前为止最大的评分标准奖励系统，包含来自人类、LLMs或人类与LLM协作的超过10,000个评分标准。实施基于评分标准的强化学习具有挑战；我们解决了这些问题，提出了一个清晰的框架，并展示了开源Qwen-30B-A3B模型的显著成果：1）仅使用超过5,000个样本，我们的系统在开放式基准测试（尤其是人文学科）中提高了5.2%，超过了671B DeepSeek-V3模型2.4%，同时保留了一般和推理能力。2）我们的方法提供了细粒度的风格控制，使用评分标准作为锚点来减轻“AI风格”，产生更类似人类、富有表达性的响应。我们分享了评分标准构建、数据选择和训练中的关键经验，并讨论了局限性和未来发布。\n\n作者：Zenan Huang, Yihong Zhuang, Guoshan Lu, Zeyu Qin, Haokai Xu, Tianyu Zhao, Ru Peng, Jiaqi Hu, Zhanming Shen, Xiaomeng Hu, Xijun Gu, Peiyi Tu, Jiaxin Liu, Wenyu Chen, Yuzhuo Fu, Zhiting Fan, Yanmei Gu, Yuanyuan Wang, Zhengkai Yang, Jianguo Li, Junbo Zhao\n\n注释：技术报告\n\n网址：https://arxiv.org/pdf/2508.12790.pdf\n\n标题：2025 [2508.12790] 满足评分标准锚的强化学习",
+        "地址": "https://arxiv.org/pdf/2508.12790.pdf"
+    },
+    {
+        "名称": "2025 [2508.13104] Precise Action-to-Video Generation Through Visual Action Prompts.pdf",
+        "作者": "Yuang Wang, Chao Wen, Haoyu Guo, Sida Peng, Minghan Qin, Hujun Bao, Xiaowei Zhou, Ruizhen Hu",
+        "摘要": "摘要：我们提出了视觉动作提示，一种用于动作到视频生成的统一动作表示方法，可以在保持跨领域可转移视觉动态的同时生成复杂的高自由度互动。基于动作的视频生成面临精度-通用性的权衡：现有方法使用文本、原始动作或粗略遮罩提供了通用性，但缺乏精度，而基于代理的动作信号提供了精度，但以跨领域可转移性为代价。为了平衡动作精度和动态可转移性，我们提出将动作“渲染”为精确的视觉提示，作为领域无关的表示方式，既保留几何精度又适应跨领域的复杂动作；具体来说，我们选择视觉骨架，因为它们通用且易于获取。我们提出了构建骨架的强大流程，涵盖两种富含互动的数据来源 —— 人体-物体互动（HOI）和灵巧的机器人操作 —— 使得可以对基于动作的生成模型进行跨领域训练。通过轻量级微调将视觉骨架集成到预训练视频生成模型中，我们实现了复杂互动的精确动作控制，同时保留跨领域动态的学习。EgoVid、RT-1和DROID上的实验展示了我们所提方法的有效性。项目页面：this https URL。\n\nAccepted to ICCV 2025. 项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2508.13104.pdf"
+    },
+    {
+        "名称": "2025 [2508.12730] Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods.pdf",
+        "作者": "Jaeung Lee, Suhyeon Yu, Yurim Jang, Simon S. Woo, Jaemin Jo",
+        "摘要": "摘要：机器遗忘（MU）旨在从已训练的模型中删除目标训练数据，使得被删除数据不再影响模型的行为，从而履行数据隐私法律下的“被遗忘权”义务。然而，我们发现该新兴领域的研究人员在分析和理解不同MU方法的行为时面临挑战，尤其是在准确性、效率和隐私三个基本原则的方面。因此，他们经常依赖聚合指标和临时评估，使得难以准确评估方法之间的权衡。为填补这一空白，我们引入了一种可视化分析系统——Unlearning Comparator，旨在促进MU方法的系统评价。我们的系统支持评估过程中的两个重要任务：模型比较和攻击模拟。首先，它允许用户比较两个模型的行为，例如某种方法生成的模型和重新训练的基准模型，以更好地理解遗忘后的变化。其次，我们的系统模拟成员资格推测攻击（MIA）来评估方法的隐私性，其中攻击者试图确定特定数据样本是否是原始训练集的一部分。我们通过一个案例研究评估了我们的系统，视觉分析了显著的MU方法，并证明它帮助用户不仅理解模型行为，还能获得启示以改进MU方法。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.12730.pdf"
+    },
+    {
+        "名称": "2025 [2508.11252] Beyond Solving Math Quiz: Evaluating the Ability of Large Reasoning Models to Ask for Information.pdf",
+        "作者": "Youcheng Huang, Bowen Qin, Chen Huang, Duanyu Feng, Xi Yang, Wenqiang Lei",
+        "摘要": "摘要：大型推理模型（LRMs）在数学问题解决方面展示了显著的能力，这种能力通过现有基准在明确的问题上进行了评估。然而，这种评估设置存在一个关键缺口，因为一个真正的智能体不仅应当能解决问题（像数学测验解答者），还应能够在问题缺乏充足信息时主动询问信息，以响应用户的请求。为了弥补这一缺口，我们提出了一个包含两类不同背景不完整问题的新数据集。在此数据集的基础上，我们系统性地评估了LRMs，发现它们在主动询问信息方面的无力。此外，我们揭示了与LRMs的过度思考和幻觉行为相关的现象，并强调了监督微调在学习这种能力中的潜力和挑战。我们希望为开发具有真正智能的LRMs提供新的见解，而不仅仅是解决问题。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.11252.pdf"
+    },
+    {
+        "名称": "2025 [2508.13968] RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation.pdf",
+        "作者": "Tianyi Niu, Jaemin Cho, Elias Stengel-Eskin, Mohit Bansal",
+        "摘要": "摘要：我们研究了多模态大语言模型（MLLMs）在多大程度上可以准确识别输入图像在0°、90°、180°和270°旋转下的方向。该任务需要强大的视觉推理能力，以检测旋转线索并在图像的空间关系中进行上下文化，不论其方向如何。为了评估MLLMs在这些能力上的表现，我们引入了RotBench——一个由350张生活方式、人像和风景图像手动筛选的基准。尽管该任务相对简单，但我们展示了包括GPT-5、o3和Gemini-2.5-Pro在内的几种最先进的开源和专有MLLMs不能可靠地识别输入图像的旋转。为模型提供辅助信息——包括标题、深度图等——或使用链式思维提示只能带来微小且不一致的改进。我们的结果表明，大多数模型能够可靠地识别正向（0°）图像，而某些模型能够识别倒置（180°）图像。没有模型能够可靠地区分90°和270°。同时显示不同旋转方向的图像会带来推理模型的中等性能提升，而使用投票的修改设置则提高了较弱模型的性能。我们进一步表明，尽管微调显著提高了180°图像的识别，但并没有改善模型区分90°和270°旋转的能力。这些结果共同揭示了MLLMs在识别图像旋转时空间推理能力与人类感知之间的显著差距。",
+        "地址": "https://arxiv.org/pdf/2508.13968.pdf"
+    }
+]
