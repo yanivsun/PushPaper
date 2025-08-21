@@ -1,0 +1,170 @@
+[
+    {
+        "名称": "2025 [2508.13167] Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL.pdf",
+        "作者": "Weizhen Li, Jianbo Lin, Zhuosong Jiang, Jingyi Cao, Xinpeng Liu, Jiayu Zhang, Zhenqiang Huang, Qianben Chen, Weichen Sun, Qiexiang Wang, Hongxuan Lu, Tianrui Qin, Chenghao Zhu, Yi Yao, Shuying Fan, Xiaowan Li, Tiannan Wang, Pai Liu, King Zhu, He Zhu, Dingfeng Shi, Piaohong Wang, Yeyi Guan, Xiangru Tang, Minghao Liu, Yuchen Eleanor Jiang, Jian Yang, Jiaheng Liu, Ge Zhang, Wangchunshu Zhou",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）和多代理系统在复杂问题解决任务（如深度研究、气氛编码和数学推理）方面展示了显著的能力。然而，大多数现有的多代理系统依赖手动的提示/工作流工程和复杂的代理框架，导致计算效率低下、能力不足，无法从以数据为中心的学习中获益。在这项工作中，我们介绍了代理链（CoA），这是一种新的LLM推理范式，可以像多代理系统一样实现本地端到端复杂问题解决（即通过多工具和多个代理的多回合问题解决）在一个模型中。在代理链问题解决中，模型动态激活不同的工具代理和角色扮演代理，以端到端的方式模拟多代理协作。为了在LLMs中引出端到端代理链问题解决能力，我们引入了一种多代理蒸馏框架，将最先进的多代理系统蒸馏为用于代理监督微调的代理轨迹。然后我们在可验证的代理任务上使用代理强化学习，进一步提高模型在代理链问题解决上的能力。我们称这些模型为代理基础模型（AFMs）。我们的实证研究表明，AFM在网络代理和代码代理设置的多样基准上建立了新的最先进性能。我们完全开源了整个研究，包括模型权值、训练和评估代码以及训练数据，这为未来关于代理模型和代理强化学习的研究提供了坚实的起点。",
+        "地址": "https://arxiv.org/pdf/2508.13167.pdf"
+    },
+    {
+        "名称": "2025 [2508.14041] LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos.pdf",
+        "作者": "Chin-Yang Lin, Cheng Sun, Fu-En Yang, Min-Hung Chen, Yen-Yu Lin, Yu-Lun Liu",
+        "摘要": "摘要：\nLongSplat解决了随意拍摄的长视频中不规则相机运动、未知相机姿态和广阔场景的全新视图合成(NVS)中的关键挑战。目前的方法常常受困于姿态漂移、不准确的几何初始化和严重的内存限制。为了解决这些问题，我们提出了LongSplat，一个稳健的不定姿态3D高斯点云框架，具有以下特点：(1)增量联合优化，同时优化相机姿态和3D高斯以避免局部最小值并确保全局一致性；(2)利用学习的3D先验的稳健姿态估计模块；(3)一种有效的八叉树锚点形成机制，将稠密点云转换成基于空间密度的锚点。大量挑战性基准测试实验表明，LongSplat实现了最先进的效果，显著提高了渲染质量、姿态准确性和计算效率。项目页面：此网址。",
+        "地址": "https://arxiv.org/pdf/2508.14041.pdf"
+    },
+    {
+        "名称": "2025 [2508.13948] Prompt Orchestration Markup Language.pdf",
+        "作者": "Yuge Zhang, Nan Chen, Jiahang Xu, Yuqing Yang",
+        "摘要": "以下是翻译后的中文摘要：\n\n摘要：大型语言模型（LLMs）需要复杂的提示流程，但当前的实践在结构、数据集成、格式敏感性和工具方面面临挑战。现有的方法缺乏全面的解决方案来系统组织涉及多种数据类型（文档、表格、图像）的复杂提示或管理展示变体。有鉴于此，我们引入POML（Prompt Orchestration Markup Language）。POML通过基于组件的标记来实现逻辑结构（角色、任务、示例），使用专门的标签实现无缝的数据集成，并采用类似CSS的样式系统将内容与展示分离，减少格式的敏感性。它包括用于动态提示的模板以及全面的开发者工具包（IDE支持、SDKs），以改善版本控制和协作。我们通过两个案例研究验证了POML，展示了其对复杂应用集成（PomLink）和准确性表现（TableQA）的影响，并通过用户研究评估了其在实际开发场景中的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.13948.pdf"
+    },
+    {
+        "名称": "2025 [2508.06905] MultiRef: Controllable Image Generation with Multiple Visual References.pdf",
+        "作者": "Ruoxi Chen, Dongping Chen, Siyuan Wu, Sinan Wang, Shiyun Lang, Petr Sushko, Gaoyang Jiang, Yao Wan, Ranjay Krishna",
+        "摘要": "摘要：视觉设计师自然地从多个视觉参考中汲取灵感，结合多种元素和美学原则来创作艺术作品。然而，当前的图像生成框架主要依赖单一来源输入——文本提示或单个参考图像。在本文中，我们专注于使用多个视觉参考进行可控图像生成任务。我们介绍了MultiRef-bench，这是一个严格的评估框架，包括990个合成样本和1000个需要从多个参考图像中整合视觉内容的真实样本。合成样本通过我们的数据引擎RefBlend合成生成，包含10种参考类型和33种参考组合。基于RefBlend，我们进一步构建了一个包含38,000张高质量图像的数据集MultiRef，以助于进一步研究。我们在三个交织的图像-文本模型（即OmniGen、ACE和Show-o）和六个代理框架（例如ChatDiT和LLM + SD）中的实验表明，即使是最先进的系统在多参考条件下也难以发挥作用，最佳模型OmniGen在合成样本中仅达到了66.6%的表现，在真实案例中平均达到了79.0%。这些发现为开发更灵活且更类似人的创作工具提供了宝贵的方向，这些工具能有效地整合多种视觉灵感来源。数据集已通过此链接公开提供：https://arxiv.org/pdf/2508.06905.pdf。\n",
+        "地址": "https://arxiv.org/pdf/2508.06905.pdf"
+    },
+    {
+        "名称": "2025 [2508.09131] Training-Free Text-Guided Color Editing with Multi-Modal Diffusion Transformer.pdf",
+        "作者": "Zixin Yin, Xili Dai, Ling-Hao Chen, Deyu Zhou, Jianan Wang, Duomin Wang, Gang Yu, Lionel M. Ni, Lei Zhang, Heung-Yeung Shum",
+        "摘要": "摘要：文本引导的图像和视频的颜色编辑是一个基础但尚未解决的问题，需要对包括反照率、光源颜色和环境光在内的颜色属性进行细粒度的操作，同时保持几何、材料属性及光与物质相互作用的物理一致性。现有的无训练方法在编辑任务中具有广泛适用性，但在精确颜色控制上表现较差，且经常在编辑与未编辑区域引入视觉不一致。在这项工作中，我们提出了ColorCtrl，这是一种利用现代多模态扩散变换器（MM-DiT）注意机制的无训练颜色编辑方法。通过有针对性地操控注意力图和数值标记，我们的方法实现了准确和一致的颜色编辑，以及属性强度的词级控制。我们的方法仅修改提示中指定的相关区域，未涉及的区域保持不变。在SD3和FLUX.1-dev上的大量实验表明，ColorCtrl在编辑质量和一致性方面优于现有的无训练方法，并达到了最新的性能标准。此外，我们的方法在一致性方面超越了强大的商业模型，如FLUX.1 Kontext Max和GPT-4o图像生成。在扩展到视频模型如CogVideoX时，我们的方法在维持时间连贯性和编辑稳定性上表现出更大的优势。最后，我们的方法也推广到基于指令的编辑扩散模型，如Step1X-Edit和FLUX.1 Kontext dev，进一步展示了其多功能性。\n\n来源：https://arxiv.org/pdf/2508.09131.pdf",
+        "地址": "https://arxiv.org/pdf/2508.09131.pdf"
+    },
+    {
+        "名称": "2025 [2508.08777] Evaluating Podcast Recommendations with Profile-Aware LLM-as-a-Judge.pdf",
+        "作者": "Francesco Fabbri, Gustavo Penha, Edoardo D'Amico, Alice Wang, Marco De Nadai, Jackie Doremus, Paul Gigioli, Andreas Damianou, Oskar Stal, Mounia Lalmas",
+        "摘要": "摘要：评估个性化推荐仍然是一个核心挑战，尤其是在像播客这样的长篇音频领域，传统的离线指标因曝光偏差而受阻，而在线方法如A/B测试则成本高昂且在操作上受到限制。在本文中，我们提出了一个新颖的框架，利用大型语言模型（LLMs）作为离线评判，以一种可扩展且可解释的方式评估播客推荐的质量。我们的两个阶段的个人资料感知方法首先从90天的收听历史中提炼出自然语言用户资料。这些资料总结了主题兴趣和行为模式，作为用户偏好的紧凑且可解释的表示形式。与其用原始数据提示LLM，我们使用这些资料提供高层次、语义丰富的上下文，使LLM能够更有效地推理用户兴趣与推荐集之间的匹配。这降低了输入复杂性并改善了可解释性。然后，在个人资料与播客集匹配的基础上，LLM被提示提供细粒度的逐点和成对判断。在一个有47名参与者的控制研究中，我们的个人资料感知评判较高保真度地匹配了人类判断，并且在许多情况下优于或匹配使用原始收听历史的变体。该框架为推荐系统中的迭代测试和模型选择提供了高效的、个人资料感知的评估。\n\n翻译：评估个性化推荐在播客等长篇音频领域仍然是一个核心挑战，传统离线指标因曝光偏差而受到阻碍，而在线方法如A/B测试则成本高昂且操作受限。本文提出了一个新颖的框架，利用大型语言模型（LLMs）作为离线评审官，以可扩展且可解释的方式评估播客推荐的质量。我们的两阶段感知方法首先从90天的收听历史中提炼出自然语言用户档案，这些档案总结了主题兴趣和行为模式，作为用户偏好的简明、可解释表示形式。我们使用这些档案提供高层次、语义丰富的上下文，而不是提示LLM原始数据，使LLM能够更有效地推理用户兴趣与推荐集之间的匹配。这减少了输入复杂性并提高了可解释性。然后，LLM会根据档案与播客集的匹配情况，提示提供细粒度的逐点和成对判断。在包含47名参与者的控制研究中，我们的档案感知评审官以高保真度匹配了人类判断，并且在许多情况下优于或匹配使用原始收听历史的变体。该框架为推荐系统中的迭代测试和模型选择提供了高效的、档案感知的评估。",
+        "地址": "https://arxiv.org/pdf/2508.08777.pdf"
+    },
+    {
+        "名称": "2025 [2508.13998] Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation.pdf",
+        "作者": "Yifu Yuan, Haiqin Cui, Yaoting Huang, Yibin Chen, Fei Ni, Zibin Dong, Pengyi Li, Yan Zheng, Jianye Hao",
+        "摘要": "摘要: 在具身人工智能中，由于数据稀缺和具身异质性，\"从观察到行动的差距\"妨碍了其泛化能力。为了解决这一问题，我们首创了\"指向\"作为一种统一的、与具身无关的中间表示，定义了四种核心的具身指向能力，以弥合高级视觉语言理解与低级动作原语之间的鸿沟。我们推出了Embodied-R1，这是一种专为具身推理和指向设计的3B视觉语言模型（VLM）。我们构建了一个大规模数据集Embodied-Points-200K，支持关键的具身指向能力，来源涵盖了广泛的具身和一般视觉推理解集。随后我们使用两阶段强化微调（RFT）课程训练Embodied-R1，并设计了专用的多任务奖励机制。Embodied-R1在11个具身空间和指向基准测试中达到了最先进的表现。关键的是，它展现出坚实的零样本泛化能力，在SIMPLEREnv中达到了56.2%的成功率，并在8个现实世界的机器人任务中达到了87.5%的成功率，无需任何特定任务的微调，较强基准提升了62%。此外，模型对各种视觉干扰表现出高度鲁棒性。我们的工作表明，以指向为中心的表示结合RFT训练范式，提供了一种有效且可泛化的路径来弥合机器人领域中的感知行动差距。\n\n该论文的作者：Yifu Yuan, Haiqin Cui, Yaoting Huang, Yibin Chen, Fei Ni, Zibin Dong, Pengyi Li, Yan Zheng, Jianye Hao\n\n评论：Embodied-R1技术报告\n\n链接：https://arxiv.org/pdf/2508.13998.pdf\n\n标题：2025 [2508.13998] Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation.pdf",
+        "地址": "https://arxiv.org/pdf/2508.13998.pdf"
+    },
+    {
+        "名称": "2025 [2508.12040] Mind the Generation Process: Fine-Grained Confidence Estimation During LLM Generation.pdf",
+        "作者": "Jinyi Han, Tingyun Li, Shisong Chen, Jie Shi, Xinyi Wang, Guanglei Yue, Jiaqing Liang, Xin Lin, Liqian Wen, Zulong Chen, Yanghua Xiao",
+        "摘要": "以下是该学术论文的摘要翻译：\n\n摘要: 尽管大型语言模型（LLMs）在各类任务中表现出色，但它们本质上缺乏自我意识，且常常表现出过度自信，对错误预测赋予高置信度评分。因此，准确的置信度估计对提升LLM生成输出的可信度和可靠性至关重要。然而，现有方法存在粗粒度评分机制，无法在生成过程中提供细粒度、连续的置信度估计。为了解决这些问题，我们引入了FineCE，一种在文本生成过程中提供精确、细粒度置信度评分的新颖置信度估计方法。具体来说，我们首先开发了一条全面的管道，用于构建训练数据，有效捕捉LLM响应的潜在概率分布，然后以监督方式训练一个模型，用于预测任意文本序列的置信度评分。此外，我们提出了一种逆向置信度整合（BCI）策略，利用后续文本信息增强当前序列的置信度估计。我们还介绍了三种策略，用于识别在生成过程中进行置信度估计的最佳位置。对多个基准数据集的广泛实验表明，FineCE持续优于现有的经典置信度估计方法。我们的代码和论文中使用的所有基线已在GitHub上提供。",
+        "地址": "https://arxiv.org/pdf/2508.12040.pdf"
+    },
+    {
+        "名称": "2025 [2508.13632] OmniTry: Virtual Try-On Anything without Masks.pdf",
+        "作者": "Yutong Feng, Linlin Zhang, Hengyuan Cao, Yiming Chen, Xiaoduan Feng, Jian Cao, Yuxiong Wu, Bin Wang",
+        "摘要": "摘要：虚拟试穿（VTON）是一项实用且广泛应用的任务，大多数现有工作集中在服装上。本文提出了OmniTry，一个统一的框架，将VTON扩展到包括任何可穿戴物品（例如珠宝和配饰），采用无需遮罩的设置，以实现更实用的应用。扩展到各种类型的物品时，数据整理是一个挑战，因为获得配对的图像（即物品图像和相应的试穿结果）非常困难。为了解决这个问题，我们提出了一个两阶段的流程：在第一阶段，我们利用大规模的非配对图像（即带有任何可穿戴物品的肖像）来训练模型进行无遮罩定位。具体而言，我们重新利用修复模型，给定一个空白遮罩位置，自动在合适的位置绘制物品。在第二阶段，模型进一步通过配对图像进行微调，以传递物品外观的一致性。我们观察到，模型在第一阶段后即使只有少量配对样本也能快速收敛。OmniTry在一个涵盖12个常见可穿戴物品类别的综合基准上进行了评估，基准包含商店内和实际环境中的图像。实验结果表明，与现有方法相比，OmniTry在物品定位和身份保持方面表现更好。OmniTry的代码、模型权重和评估基准将公开提供在此HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2508.13632.pdf"
+    },
+    {
+        "名称": "2025 [2508.12903] A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models.pdf",
+        "作者": "Jinyi Han, Xinyi Wang, Haiquan Zhao, Tingyun li, Zishang Jiang, Sihang Jiang, Jiaqing Liang, Xin Lin, Weikang Zhou, Zeye Sun, Fei Yu, Yanghua Xiao",
+        "摘要": "摘要：最近在自我改进方面的进展展示了通过迭代改进提升大型语言模型（LLMs）输出的显著潜力。然而，大多数现有的自我改进方法依赖于具有固定迭代次数的被动过程，因此很难根据不断变化的生成背景确定改进的最佳时机和内容。受人类在执行期间动态改进思维的方式启发，我们提出了主动自我改进（Proactive Self-Refinement, PASR），这是一种新方法，能够在生成过程中改进LLMs的输出。与重新生成整个响应的方法不同，PASR主动基于模型的内部状态和不断变化的背景决定是否、何时以及如何进行改进。我们在一组多样化的10个任务上进行了广泛的实验，以评估PASR的有效性。实验结果表明，PASR显著提升了解决问题的性能。特别是在Qwen3-8B上，PASR与标准生成相比平均减少了41.6%的标记消耗，同时准确性提高了8.2%。我们的代码和论文中使用的所有基线均可在GitHub上获得。",
+        "地址": "https://arxiv.org/pdf/2508.12903.pdf"
+    },
+    {
+        "名称": "2025 [2508.12669] Leveraging Large Language Models for Predictive Analysis of Human Misery.pdf",
+        "作者": "Bishanka Seal, Rahul Seetharaman, Aman Bansal, Abhilash Nandy",
+        "摘要": "摘要: 本研究探讨了使用大型语言模型 (LLMs) 从自然语言描述的现实场景中预测人类感知的痛苦评分。该任务被框定为一个回归问题，其中模型为每个输入语句分配一个从0到100的标量值。我们评估了多种提示策略，包括零样本、固定上下文的少样本和使用BERT句子嵌入的检索式提示。少样本方法一致地表现优于零样本基线，强调了上下文示例在情感预测中的价值。为了超越静态评估，我们引入了“痛苦游戏秀”，这是一个受电视节目格式启发的新颖游戏化框架。它通过有序比较、二元分类、标量估计和反馈驱动的推理结构化回合测试LLMs。这一设置使我们能够评估不仅预测准确性，还能够评估模型基于纠正反馈的适应能力。游戏化评估突出了LLMs在动态情感推理任务中超越标准回归的更广泛潜力。代码和数据链接：此 https URL。",
+        "地址": "https://arxiv.org/pdf/2508.12669.pdf"
+    },
+    {
+        "名称": "2025 [2508.10830] Advances in Speech Separation: Techniques, Challenges, and Future Trends.pdf",
+        "作者": "Kai Li, Guo Chen, Wendi Sang, Yi Luo, Zhuo Chen, Shuai Wang, Shulin He, Zhong-Qiu Wang, Andong Li, Zhiyong Wu, Xiaolin Hu",
+        "摘要": "摘要：语音分离领域，解决“鸡尾酒会问题”，在深度神经网络（DNNs）方面取得了革命性的进展。语音分离在复杂的声学环境中增强了语音的清晰度，并作为语音识别和说话人识别的关键预处理。然而，目前的文献专注于特定架构或孤立方法，造成了碎片化的理解。本文通过系统审查基于DNN的语音分离技术，填补了这一空白。我们的工作区别于以下几点：（I）全面视角：我们系统地研究了学习范式、已知/未知说话人的分离场景、监督/自监督/无监督框架的比较分析，以及从编码器到估计策略的架构组件。（II）时效性：涵盖最前沿的发展，确保能够获得当前的创新和基准。（III）独特洞见：除了总结，我们还评估了技术轨迹，识别了新兴模式，并突出了有前途的方向，包括领域稳健框架、高效架构、多模态整合和新颖的自监督范式。（IV）公平评价：我们在标准数据集上提供定量评估，揭示了不同方法的真实能力和局限性。这项全面的调查为经验丰富的研究人员和新手导航语音分离复杂领域提供了可访问的参考。",
+        "地址": "https://arxiv.org/pdf/2508.10830.pdf"
+    },
+    {
+        "名称": "2025 [2508.04324] TempFlow-GRPO: When Timing Matters for GRPO in Flow Models.pdf",
+        "作者": "Xiaoxuan He, Siming Fu, Yuke Zhao, Wanli Li, Jian Yang, Dacheng Yin, Fengyun Rao, Bo Zhang",
+        "摘要": "摘要：最近的用于文本到图像生成的流匹配模型虽然取得了显著的质量提升，但其与强化学习结合以对齐人类偏好的效果仍不理想，这阻碍了基于奖励的细粒度优化。我们观察到，现有方法中影响流模型有效GRPO训练的关键阻碍在于时间均匀假设：稀疏终端奖励和均匀的信用分配未能捕捉生成时间步长中决策重要性的变化，导致探索效率低下和收敛效果不佳。为了解决这一问题，我们引入了\\\\textbf{TempFlow-GRPO}(时序流GRPO)，这是一个捕捉和利用流生成中固有时序结构的GRPO框架。TempFlow-GRPO包括两个关键创新：(i) 轨迹分支机制，通过在指定的分支点集中随机性提供过程奖励，实现了精确的信用分配，无需专用的中间奖励模型；以及(ii) 噪声感知加权方案，根据每个时间步内在的探索潜力调整策略优化，优先在高影响力的早期阶段学习，同时确保在后期阶段的稳定改进。这些创新使模型具有时间感知的优化，尊重底层生成动态，最终在对齐人类偏好和标准的文本到图像基准测试中达到最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2508.04324.pdf"
+    },
+    {
+        "名称": "2025 [2508.12845] CAMAR: Continuous Actions Multi-Agent Routing.pdf",
+        "作者": "Artem Pshenitsyn, Aleksandr Panov, Alexey Skrynnik",
+        "摘要": "摘要: 多代理强化学习 (MARL) 是解决合作和竞争决策问题的强大范式。尽管已经提出了许多 MARL 基准测试，但很少有基准测试结合连续状态和动作空间与具有挑战性的协调和规划任务。我们介绍了 CAMAR，这是一种专门为具有连续动作环境中的多代理路径规划设计的新 MARL 基准测试。CAMAR 支持代理之间的合作和竞争互动，并且可以高效地运行，每秒最多可进行 100,000 个环境步骤。我们还提出了一个三层评估协议，以更好地跟踪算法进展并进行深入性能分析。此外，CAMAR 允许将经典规划方法（如 RRT 和 RRT*）集成到 MARL 管道中。我们将它们作为独立的基准，并将 RRT* 与流行的 MARL 算法相结合，以创建混合方法。我们提供了一套测试场景和基准测试工具，以确保可重复性和公平比较。实验表明，CAMAR 为 MARL 社区提供了一个具有挑战性和现实性的测试平台。\n\n作者: Artem Pshenitsyn, Aleksandr Panov, Alexey Skrynnik\n\n标题: 2025 [2508.12845] CAMAR: 连续动作多代理路由.pdf",
+        "地址": "https://arxiv.org/pdf/2508.12845.pdf"
+    },
+    {
+        "名称": "2025 [2508.11548] Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends.pdf",
+        "作者": "Zhenhua Xu, Xubin Yue, Zhebo Wang, Qichen Liu, Xixiang Zhao, Jingxuan Zhang, Wenjun Zeng, Wengpeng Xing, Dezhang Kong, Changting Lin, Meng Han",
+        "摘要": "摘要：对于大型语言模型的版权保护非常重要，鉴于它们的巨大开发成本、专有价值和潜在的误用现象。目前的调查主要集中在追踪由大型语言模型生成的内容的方法上，即文本水印技术，而对保护模型本身的方法（即模型水印和模型指纹）进行系统探索尚未出现。此外，文本水印、模型水印和模型指纹之间的关系和区别尚未得到全面澄清。本工作对当前大型语言模型版权保护技术的现状进行了全面调查，重点放在模型指纹上，涵盖以下方面：（1）从文本水印到模型水印和指纹的概念连接进行澄清，并采用统一的术语将模型水印纳入更广泛的指纹框架；（2）概述并比较不同的文本水印技术，突出某些方法可作为模型指纹的方法；（3）系统分类并比较现有的大型语言模型版权保护的模型指纹方法；（4）首次介绍指纹转移和指纹移除技术；（5）总结模型指纹的评估指标，包括有效性、无害性、鲁棒性、隐匿性和可靠性；（6）讨论开放的挑战和未来的研究方向。本调查旨在为研究人员提供对文本水印和模型指纹技术在大型语言模型时代的全面理解，从而促进保护其知识产权的进一步进展。",
+        "地址": "https://arxiv.org/pdf/2508.11548.pdf"
+    },
+    {
+        "名称": "2025 [2508.09789] Describe What You See with Multimodal Large Language Models to Enhance Video Recommendations.pdf",
+        "作者": "Marco De Nadai, Andreas Damianou, Mounia Lalmas",
+        "摘要": "摘要：现有的视频推荐系统主要依赖于用户定义的元数据或由专业编码器提取的低级视觉和声音信号。这些低级特征描述了屏幕上的内容，但忽略了使视频片段能够与观众产生共鸣的更深层次语义，例如意图、幽默和世界知识。例如，一个30秒的片段仅仅是一个歌手在屋顶上，还是在土耳其卡帕多西亚的仙女烟囱中拍摄的讽刺模仿片？这种区分对个性化推荐至关重要，但在传统编码流程中却不可见。在本文中，我们介绍了一种简单的、与推荐系统无关的零微调框架，通过提示现成的多模态大语言模型（MLLM）将每个片段总结为丰富的自然语言描述（例如“充满滑稽战斗和管弦乐刺的超级英雄模仿”），将原始内容与用户意图之间的鸿沟填平。我们将MLLM输出与最先进的文本编码器结合起来，并将其输入标准的协作、基于内容和生成性推荐器。在模拟用户与TikTok风格视频交互的MicroLens-100K数据集上，我们的框架在五个具有代表性的模型中始终超过传统的视频、音频和元数据特征。我们的研究结果突显了利用MLLM作为即席知识提取器来构建更具意图感知的视频推荐系统的前景。",
+        "地址": "https://arxiv.org/pdf/2508.09789.pdf"
+    },
+    {
+        "名称": "2025 [2508.13992] MMAU-Pro: A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence.pdf",
+        "作者": "Sonal Kumar, Šimon Sedláček, Vaibhavi Lokegaonkar, Fernando López, Wenyi Yu, Nishit Anand, Hyeonggon Ryu, Lichang Chen, Maxim Plička, Miroslav Hlaváček, William Fineas Ellingwood, Sathvik Udupa, Siyuan Hou, Allison Ferner, Sara Barahona, Cecilia Bolaños, Satish Rahi, Laura Herrera-Alarcón, Satvik Dixit, Siddhi Patil, Soham Deshmukh, Lasha Koroshinadze, Yao Liu, Leibny Paola Garcia Perera, Eleni Zanou, Themos Stafylakis, Joon Son Chung, David Harwath, Chao Zhang, Dinesh Manocha, Alicia Lozano-Diez, Santosh Kesiraju, Sreyan Ghosh, Ramani Duraiswami",
+        "摘要": "摘要：音频理解，包括语音、非语音声音和音乐，是实现人类级智能的关键。因此，AI代理必须展示整体的音频理解能力，才能被认为是具备一般智能。然而，全面评估听觉智能仍然具有挑战性。为了解决这一问题，我们引入了MMAU-Pro，这是评估AI系统音频智能的最全面且精心策划的基准。MMAU-Pro包含5305个实例，每个实例都有一个或多个音频与人类专家生成的问题和答案对相配，涵盖语音、声音、音乐及其组合。与现有基准不同，MMAU-Pro在49个独特技能和多个复杂维度上评估听觉智能，包括长时间音频理解、空间音频推理、多音频理解等。所有问题都经过精心设计，需要进行多跳推理，并包括多项选择和开放式回答格式。重要的是，音频数据直接来自野外，而不是来自已知分布的现有数据集。我们评估了22个领先的开源和专有多模态AI模型，发现存在显著的局限性：即使是最先进的模型，如Gemini 2.5 Flash和Audio Flamingo 3，在多个类别中也仅分别达到59.2%和51.7%的准确率，接近随机表现。我们的全面分析突出了具体缺点，并提供了新的见解，为社区提供了可行的视角，以推动未来AI系统的发展，朝着音频一般智能进步。基准和代码可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2508.13992.pdf"
+    },
+    {
+        "名称": "2025 [2508.13186] MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents.pdf",
+        "作者": "Shilong Li, Xingyuan Bu, Wenjie Wang, Jiaheng Liu, Jun Dong, Haoyang He, Hao Lu, Haozhe Zhang, Chenchen Jing, Zhen Li, Chuanhao Li, Jiayi Tian, Chenchen Zhang, Tianhao Peng, Yancheng He, Jihao Gu, Yuanxing Zhang, Jian Yang, Ge Zhang, Wenhao Huang, Wangchunshu Zhou, Zhaoxiang Zhang, Ruizhe Ding, Shilei Wen",
+        "摘要": "摘要：具有高级推理和工具使用能力的AI代理在进行深度搜索的网页浏览方面表现出了令人印象深刻的性能。现有的评估标准，如BrowseComp，主要评估这些浏览能力，但主要关注文本信息，忽略了多模态内容的普遍存在。为了弥补这一差距，我们引入了MM-BrowseComp，一种新的评估标准，包含224个具有挑战性的手工设计问题，专门用于评估代理的多模态检索和推理能力。这些问题通常在提示中包含图像，在搜索和推理过程中遇到的关键信息也可能嵌入网页中的图像或视频中。因此，仅依赖文本的方法对于我们的标准而言是不够的。此外，我们为每个问题提供了经过验证的检查表，使得可以对多模态依赖性和推理路径进行细粒度分析。我们对当前最先进的模型在MM-BrowseComp上的综合评估显示，即使是带工具的顶级模型OpenAI o3也仅能达到29.02%的准确率，突显了当前模型在多模态能力和原生多模态推理方面的不足。\n\n作者：Shilong Li, Xingyuan Bu, Wenjie Wang, Jiaheng Liu, Jun Dong, Haoyang He, Hao Lu, Haozhe Zhang, Chenchen Jing, Zhen Li, Chuanhao Li, Jiayi Tian, Chenchen Zhang, Tianhao Peng, Yancheng He, Jihao Gu, Yuanxing Zhang, Jian Yang, Ge Zhang, Wenhao Huang, Wangchunshu Zhou, Zhaoxiang Zhang, Ruizhe Ding, Shilei Wen\n\n评论：前两位作者贡献相同，26页，代码库链接见此网址\n\n网址：https://arxiv.org/pdf/2508.13186.pdf\n\n标题：2025 [2508.13186] MM-BrowseComp: 多模态浏览代理的全面评估标准",
+        "地址": "https://arxiv.org/pdf/2508.13186.pdf"
+    },
+    {
+        "名称": "2025 [2508.13139] Motion2Motion: Cross-topology Motion Transfer with Sparse Correspondence.pdf",
+        "作者": "Ling-Hao Chen, Yuhong Zhang, Zixin Yin, Zhiyang Dou, Xin Chen, Jingbo Wang, Taku Komura, Lei Zhang",
+        "摘要": "摘要：本研究探讨了在角色骨骼拓扑结构差异显著的情况下传输动画的挑战。尽管在过去几十年中许多技术已经推进了重定向技术，但在不同拓扑结构间转移动作仍然鲜有探索。主要障碍在于源骨架和目标骨架之间固有的拓扑结构不一致，这限制了建立简单的一对一骨骼对应关系。此外，目前缺乏跨越不同拓扑结构的大规模配对动作数据集，严重限制了数据驱动方法的发展。为了解决这些限制，我们引入了Motion2Motion，这是一种新颖的、无需训练的框架。简单而有效地，Motion2Motion仅需在目标骨架上使用一个或少量示例动作，通过访问源骨架和目标骨架之间的稀疏骨骼对应集即可工作。通过全面的定性和定量评价，我们展示了Motion2Motion在相似骨架和跨物种骨架传输场景中实现了高效且可靠的性能。我们的方法在下游应用和用户界面中的成功集成进一步证明了其实用性，突显了其在工业应用中的潜力。代码和数据可在此HTTPS URL获取。\n\n作者：Ling-Hao Chen, Yuhong Zhang, Zixin Yin, Zhiyang Dou, Xin Chen, Jingbo Wang, Taku Komura, Lei Zhang\n\n评论：SIGGRAPH Asia 2025\n\nURL：https://arxiv.org/pdf/2508.13139.pdf\n\n标题：2025 [2508.13139] Motion2Motion：具有稀疏对应关系的跨拓扑结构动作转移",
+        "地址": "https://arxiv.org/pdf/2508.13139.pdf"
+    },
+    {
+        "名称": "2025 [2508.12535] CorrSteer: Steering Improves Task Performance and Safety in LLMs through Correlation-based Sparse Autoencoder Feature Selection.pdf",
+        "作者": "Seonglae Cho, Zekun Wu, Adriano Koshiyama",
+        "摘要": "摘要：稀疏自编码器（Sparse Autoencoders，SAEs）可以在没有监督的情况下从大型语言模型（LLMs）中提取可解释的特征。然而，它们在下游引导任务中的有效性受到需要对比数据集或大量激活存储的限制。为了解决这些限制，我们提出了CorrSteer，该方法通过在推理时从生成的标记中提取SAE激活与样本正确性之间的相关性来选择特征。此方法仅使用推理时的激活来提取更相关的特征，从而避免虚假的相关性。它还通过平均激活值获得引导系数，自动化整个流程。我们的方法在Gemma 2 2B和LLaMA 3.1 8B上的问答（QA）、偏见减轻、越狱预防和推理基准测试中表现出色，显著在MMLU性能上提高了4.1%，在HarmBench上提高了22.9%，仅使用了4000个样本。所选特征展示了与每项任务要求对齐的语义上有意义的模式，揭示了驱动性能的潜在能力。我们的工作确立了基于相关性的选择作为自动化SAE引导在语言模型应用中的一种有效且可扩展的方法。",
+        "地址": "https://arxiv.org/pdf/2508.12535.pdf"
+    },
+    {
+        "名称": "2025 [2508.11032] MedSAMix: A Training-Free Model Merging Approach for Medical Image Segmentation.pdf",
+        "作者": "Yanwu Yang, Guinan Su, Jiesi Hu, Francesco Sammarco, Jonas Geiping, Thomas Wolfers",
+        "摘要": "摘要：通用医学图像分割模型由于其在各种任务中的强大普适性，显示出在广泛的临床应用中具有巨大潜力。这种潜力部分源自于通用视觉模型（如Segment Anything Model，SAM）的成功，该模型激发了各种特定医学分割任务的微调变体的发展。然而，诸如MedSAM这样的微调变体是基于相对有限的医学成像数据进行训练的数据往往存在异质性、稀缺的注释及分布的转变。这些挑战限制了它们在广泛的医学分割任务中的推广能力。针对这一点，我们提出了MedSAMix，一种无需训练的模型合并方法，它整合了通用模型（如SAM）和专业模型（如MedSAM）的优势来进行医学图像分割。与依赖手动配置且往往结果不理想的传统模型合并方法不同，我们提出了一种零阶优化方法，用于自动发现最优的逐层合并解决方案。此外，为了满足不同场景对领域特异性和普适性的需求，我们分别通过单任务优化和多目标优化开发了两种机制。对25个医学分割任务的广泛评估表明，MedSAMix有效减轻了模型偏差，并在领域特定精度和泛化性方面持续提高了性能，在专业任务上提高了6.67%，在多任务评估中提高了4.37%。\n\n翻译作者：杨炎武、苏贵南、胡洁斯、弗朗切斯科·萨马尔科、乔纳斯·盖平、托马斯·沃夫斯\n\nURL：https://arxiv.org/pdf/2508.11032.pdf\n\n标题：2025 [2508.11032] MedSAMix: 一种用于医学图像分割的无需训练的模型合并方法",
+        "地址": "https://arxiv.org/pdf/2508.11032.pdf"
+    },
+    {
+        "名称": "2025 [2508.10478] Semantic IDs for Joint Generative Search and Recommendation.pdf",
+        "作者": "Gustavo Penha, Edoardo D'Amico, Marco De Nadai, Enrico Palumbo, Alexandre Tamborrino, Ali Vardasbi, Max Lefarov, Shawn Lin, Timothy Heath, Francesco Fabbri, Hugues Bouchard",
+        "摘要": "摘要：生成模型由大规模语言模型（LLMs）驱动，正逐渐成为支持推荐和搜索任务的统一解决方案。这些模型的关键设计选择之一是如何表示物品，传统方法是通过唯一标识符（ID），近年来则是通过由离散代码组成的语义ID，这些代码由嵌入得到。尽管特定任务的嵌入模型可以提高单个任务的性能，但在联合环境中可能没有良好的泛化能力。在本文中，我们探讨了在使用统一模型时，如何构建在搜索和推荐中均表现良好的语义ID。我们比较了多种构建语义ID的策略，考察了特定任务和跨任务的方法，以及在联合搜索和推荐生成模型中每个任务是否应拥有自己的语义ID标记。我们的结果表明，使用在搜索和推荐任务上微调的双编码器模型来获取物品嵌入，然后构建统一的语义ID空间，提供了一个有效的折中方案，在两个任务中都能实现强劲的性能。我们希望这些发现能激发关于可泛化、语义基础的ID方案的后续研究，并为下一波统一生成推荐架构提供信息。\n\n论文作者：Gustavo Penha, Edoardo D'Amico, Marco De Nadai, Enrico Palumbo, Alexandre Tamborrino, Ali Vardasbi, Max Lefarov, Shawn Lin, Timothy Heath, Francesco Fabbri, Hugues Bouchard\n评论：已被第19届ACM推荐系统会议(RecSys 2025)晚期成果轨道接收\n链接：https://arxiv.org/pdf/2508.10478.pdf\n标题：《语义ID在联合生成搜索和推荐中的应用》",
+        "地址": "https://arxiv.org/pdf/2508.10478.pdf"
+    },
+    {
+        "名称": "2025 [2508.04326] Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research.pdf",
+        "作者": "Ke Li, Mana Masuda, Susanne Schmidt, Shohei Mori",
+        "摘要": "摘要: 辐射场（RF）的发展，如3D高斯散射（3DGS）和神经辐射场（NeRF），彻底改变了互动逼真视图合成，并为XR研究和应用带来了巨大的机会。然而，尽管RF研究呈现指数级增长，与XR社区相关的RF贡献仍然很少。为了更好地理解这一研究差距，我们对当前的RF文献进行了系统性的调查，以分析(i) RF在XR应用中的愿景，(ii) RF已被如何实现，以及(iii)剩余的研究空白。我们从计算机视觉、计算机图形学、机器人技术、多媒体、人机交互和XR社区中收集了365篇与XR相关的RF贡献，并试图回答上述研究问题。在这365篇论文中，我们分析了66篇已经详细讨论了RF研究在XR中的某个方面的论文。通过这项调查，我们扩展并定位了特定XR的RF研究主题在更广泛的RF研究领域，并为XR社区提供了一个有用的资源，以便在快速发展的RF研究中进行导航。",
+        "地址": "https://arxiv.org/pdf/2508.04326.pdf"
+    },
+    {
+        "名称": "2025 [2508.13804] Beyond Human Judgment: A Bayesian Evaluation of LLMs' Moral Values Understanding.pdf",
+        "作者": "Maciej Skorski, Alina Landowska",
+        "摘要": "摘要：大型语言模型如何比人类更好地理解道德维度？这项对市场领先的语言模型进行的首次大规模贝叶斯评估提供了答案。与之前使用确定性基准（多数或包含规则）的方法不同，我们通过建模注释者的分歧来捕捉固有的不确定性（人类之间的固有分歧）和认知不确定性（模型领域的敏感性）。我们在涵盖社交媒体、新闻和论坛的100,000多篇文章中，基于约700名注释者的250,000多条注释，对顶级语言模型（Claude Sonnet 4、DeepSeek-V3、Llama 4 Maverick）进行了评估。我们的GPU优化贝叶斯框架处理了100万多次模型查询，揭示了AI模型通常在排名中位居人类注释者的前25%，实现了比平均水平更好的平衡准确度。重要的是，我们发现AI产生的误报率远低于人类，突显了其更敏感的道德检测能力。",
+        "地址": "https://arxiv.org/pdf/2508.13804.pdf"
+    },
+    {
+        "名称": "2025 [2508.13320] Rapidly Adapting to New Voice Spoofing: Few-Shot Detection of Synthesized Speech Under Distribution Shifts.pdf",
+        "作者": "Ashi Garg, Zexin Cai, Henry Li Xinyuan, Leibny Paola García-Perera, Kevin Duh, Sanjeev Khudanpur, Matthew Wiesner, Nicholas Andrews",
+        "摘要": "摘要: 我们解决了在分布转换下检测合成语音的挑战，该分布转换由未见过的合成方法、说话人、语言或音频条件引起，与训练数据相对。少样本学习方法通过快速适应少量分布内样本，为应对分布转换提供了有希望的途径。我们提出了一种自注意原型网络，以实现更强健的少样本适应。为了评估我们的方法，我们系统地比较了传统零样本检测器和提议的少样本检测器的性能，仔细控制训练条件以在评估时引入分布转换。在分布转换阻碍零样本性能的条件下，我们提出的少样本适应技术可以快速适应，使用少至10个分布内样本——在日语深度伪造中实现了高达32%的相对EER减小，以及在ASVspoof 2021深度伪造数据集中实现了20%的相对减小。",
+        "地址": "https://arxiv.org/pdf/2508.13320.pdf"
+    },
+    {
+        "名称": "2025 [2508.11386] Retrieval-augmented reasoning with lean language models.pdf",
+        "作者": "Ryan Sze-Yin Chan, Federico Nanni, Tomas Lazauskas, Rosie Wood, Penelope Yong, Lionel Tarassenko, Mark Girolami, James Geddes, Andrew Duncan",
+        "摘要": "以下是论文的摘要的中文翻译：\n\n摘要：这份技术报告详细介绍了一种在单个轻量级语言模型架构内结合推理和检索增强生成（RAG）的新方法。现有的RAG系统通常依赖于大规模模型和外部API，而我们的工作则解决了在资源受限或安全环境中可部署的高性能和保护隐私解决方案日益增长的需求。基于测试时缩放和小规模推理模型的最新发展，我们开发了一种能够解释复杂、特定领域查询的检索增强对话代理，使用轻量级主干模型。我们的系统集成了一个密集的检索器和微调的Qwen2.5-Instruct模型，利用从前沿模型（例如DeepSeek-R1）在精心策划的语料库（此案例中为NHS A到Z疾病页面）上派生的合成查询生成和推理痕迹。我们探索了基于摘要的文档压缩、合成数据设计和推理感知微调对模型性能的影响。与非推理模型和通用轻量级模型的比较评估显示，我们的特定领域微调方法在答案准确性和一致性方面取得了显著的提升，接近前沿水平的性能，同时仍然可在本地部署。所有实现细节和代码均公开发布，以支持在不同领域的可重复性和适应性。\n\n作者：Ryan Sze-Yin Chan, Federico Nanni, Tomas Lazauskas, Rosie Wood, Penelope Yong, Lionel Tarassenko, Mark Girolami, James Geddes, Andrew Duncan\n\n链接：[Retrieval-augmented reasoning with lean language models.pdf](https://arxiv.org/pdf/2508.11386.pdf)",
+        "地址": "https://arxiv.org/pdf/2508.11386.pdf"
+    },
+    {
+        "名称": "2025 [2508.04038] ZARA: Zero-shot Motion Time-Series Analysis via Knowledge and Retrieval Driven LLM Agents.pdf",
+        "作者": "Zechen Li, Baiyu Chen, Hao Xue, Flora D. Salim",
+        "摘要": "摘要：运动传感器时间序列是人类活动识别（HAR）的核心，具有在健康、体育和智能设备中的应用。然而，现有方法针对固定的活动集进行训练，在出现新行为或传感器设置时需要昂贵的重新训练。近期尝试使用大型语言模型（LLMs）进行HAR，通常是通过将信号转换为文本或图像，但这些方法精度有限且缺乏可验证的可解释性。我们提出了ZARA，这是第一个基于代理的零样本、可解释的HAR框架，直接从原始运动时间序列中进行分析。ZARA集成了一个自动派生的成对特征知识库，该知识库捕捉每对活动的判别统计信息，还有一个多传感器检索模块，能呈现相关证据，并且一个分层代理管道指导LLM迭代选择特征，利用这些证据，输出活动预测和自然语言解释。ZARA实现了灵活且可解释的HAR，无需任何微调或特定任务的分类器。在8个HAR基准上的大量实验表明，ZARA在零样本性能上达到了SOTA水平，提供清晰的推理，同时在macro F1上超过最强基线2.53倍。消融研究进一步确认了每个模块的必要性，标志着ZARA成为可信的、即插即用的运动时间序列分析中的有前景的一步。我们的代码可以在这个URL上获取。\n\n标题：ZARA: 基于知识和检索驱动的LLM代理的零样本运动时间序列分析",
+        "地址": "https://arxiv.org/pdf/2508.04038.pdf"
+    },
+    {
+        "名称": "2025 [2508.12800] Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward.pdf",
+        "作者": "Yong Deng, Guoqing Wang, Zhenzhe Ying, Xiaofeng Wu, Jinzhen Lin, Wenwen Xiong, Yuqin Dai, Shuo Yang, Zhanwei Zhang, Qiwen Wang, Yang Qin, Changhua Meng",
+        "摘要": "摘要：大型语言模型（LLMs）表现出显著的问题解决能力，但由于内部知识的静态性，在处理复杂任务时显得力不从心。检索增强生成（RAG）虽然增强了对外部信息的获取，但由于工作流程的僵化，在多跳推理和战略搜索上仍存在局限性。近期代理深度研究的进展使得LLMs能够自主推理、搜索和综合信息。然而，目前依赖于基于结果的强化学习（RL）的方法面临关键问题，如梯度冲突和奖励稀疏性，限制了性能提升和训练效率。为了解决这些问题，我们首先提出了原子思维，这是一种将推理分解为细粒度功能单元的新LLM思维范式。这些单元由推理奖励模型（RRMs）监督，提供细粒度的原子思维奖励（ATR）。在此基础上，我们提出了Atom-Searcher，一种集成原子思维和ATR的新型RL框架，用于代理深度研究。Atom-Searcher采用课程式奖励计划，早期优先考虑过程级ATR，然后过渡到结果奖励，加快有效推理路径的收敛。对七个基准的实验显示了对现有技术的一致改进。主要优势包括：（1）Atom-Searcher可以在测试时扩展计算量。（2）原子思维为RRMs提供了监督锚点，桥接了深度研究任务和RRMs。（3）Atom-Searcher展示了更易解释的、类似人类的推理模式。\n\n翻译：大型语言模型（LLMs）表现出显著的问题解决能力，但由于内部知识的静态性，在处理复杂任务时显得力不从心。检索增强生成（RAG）虽然增强了对外部信息的获取，但由于工作流程的僵化，在多跳推理和战略搜索上仍存在局限性。近期代理深度研究的进展使得LLMs能够自主推理、搜索和综合信息。然而，目前依赖于基于结果的强化学习（RL）的方法面临关键问题，如梯度冲突和奖励稀疏性，限制了性能提升和训练效率。为了解决这些问题，我们首先提出了原子思维，这是一种将推理分解为细粒度功能单元的新LLM思维范式。这些单元由推理奖励模型（RRMs）监督，提供细粒度的原子思维奖励（ATR）。在此基础上，我们提出了Atom-Searcher，一种集成原子思维和ATR的新型RL框架，用于代理深度研究。Atom-Searcher采用课程式奖励计划，早期优先考虑过程级ATR，然后过渡到结果奖励，加快有效推理路径的收敛。对七个基准的实验显示了对现有技术的一致改进。主要优势包括：（1）Atom-Searcher可以在测试时扩展计算量。（2）原子思维为RRMs提供了监督锚点，桥接了深度研究任务和RRMs。（3）Atom-Searcher展示了更易解释的、类似人类的推理模式。",
+        "地址": "https://arxiv.org/pdf/2508.12800.pdf"
+    }
+]
