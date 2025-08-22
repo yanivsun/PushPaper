@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2508.14460] DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization.pdf",
+        "作者": "Shuaijie She, Yu Bao, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang",
+        "摘要": "摘要：我们提出了DuPO，一种基于双学习的偏好优化框架，通过广义的对偶性生成无注释反馈。DuPO解决了两个关键限制：强化学习的可验证奖励(RLVR)依赖于昂贵的标签且适用于仅可验证任务，传统双学习的限制在严格的双任务对（例如，翻译和反向翻译）。具体而言，DuPO将原始任务的输入分解为已知和未知部分，然后构建其对偶任务以使用原始输出和已知信息重构未知部分（例如，反向数学解决方案以恢复隐藏变量），拓宽了适用性至不可逆任务。这种重构的质量作为自监督奖励来优化原始任务，与LLMs通过单一模型实例化这两种任务的能力相结合。在实际应用中，DuPO在各种任务中实现了显著增长：它在756个方向上提高了平均翻译质量2.13 COMET，在三个挑战基准上提高了平均数学推理准确性6.4点，并作为推理时重新排名器提高了9.3点性能（以计算换取准确性）。这些结果使DuPO成为一种可扩展、一般化且无需注释的LLM优化范式。",
+        "地址": "https://arxiv.org/pdf/2508.14460.pdf"
+    },
+    {
+        "名称": "2025 [2508.13491] From Scores to Skills: A Cognitive Diagnosis Framework for Evaluating Financial Large Language Models.pdf",
+        "作者": "Ziyan Kuang, Feiyu Zhu, Maowei Jiang, Yanzhao Lai, Zelin Wang, Zhitong Wang, Meikang Qiu, Jiajia Huang, Min Peng, Qianqian Xie, Sophia Ananiadou",
+        "摘要": "摘要：大语言模型（LLMs）在金融应用中显示出潜力，但由于现有基准的不足，其在这一高风险领域的适用性仍未得到广泛证实。现有基准仅依赖于评分级别的评估，用单一的评分总结性能，掩盖了模型实际了解的内容以及其具体的局限性。它们还依赖于仅涵盖金融概念狭小子集的数据集，而忽视了实际应用中的其他重要部分。为了解决这些差距，我们引入了FinCDM，首个为金融领域大语言模型量身定制的认知诊断评估框架，能够在知识技能层面评估大语言模型，基于其在技能标记任务中的响应模式，识别其具备或缺乏哪些金融技能和知识，而非单一的综合评分。我们构建了CPA-QKA，这是首个基于注册会计师（CPA）考试衍生的认知驱动金融评估数据集，全面涵盖了现实世界中的会计和金融技能。该数据集由领域专家进行严格注释，他们编写、验证和注释问题，具有高注者一致性和细粒度的知识标签。我们对30个专有、开源和领域特定的大语言模型进行了广泛的实验，表明FinCDM揭示了隐藏的知识空白，识别了传统基准忽略的如税务和监管推理等未测试领域，并揭示了模型之间的行为聚类。FinCDM通过可解释的、技能感知的诊断引入了金融大语言模型评估的新范式，支持更可信和有针对性的模型开发，所有数据集和评估脚本将公开发布以支持进一步研究。\n\n来源：https://arxiv.org/pdf/2508.13491.pdf\n标题：从分数到技能：评估金融大语言模型的认知诊断框架\n作者：Ziyan Kuang, Feiyu Zhu, Maowei Jiang, Yanzhao Lai, Zelin Wang, Zhitong Wang, Meikang Qiu, Jiajia Huang, Min Peng, Qianqian Xie, Sophia Ananiadou",
+        "地址": "https://arxiv.org/pdf/2508.13491.pdf"
+    },
+    {
+        "名称": "2025 [2508.11987] FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction.pdf",
+        "作者": "Zhiyuan Zeng, Jiashuo Liu, Siyuan Chen, Tianci He, Yali Liao, Jinpeng Wang, Zaiyuan Wang, Yang Yang, Lingyue Yin, Mingren Yin, Zhenwei Zhu, Tianle Cai, Zehui Chen, Jiecao Chen, Yantao Du, Xiang Gao, Jiacheng Guo, Liang Hu, Jianpeng Jiao, Xiangsheng Li, Jingkai Liu, Shuang Ni, Zhoufutu Wen, Ge Zhang, Kaiyuan Zhang, Xin Zhou, Jose Blanchet, Xipeng Qiu, Mengdi Wang, Wenhao Huang",
+        "摘要": "摘要：未来预测对于LLM代理来说是一项复杂的任务，要求高水平的分析思维、信息收集、上下文理解和在不确定性中进行决策。代理不仅需要收集和解释大量动态信息，还必须整合多种数据来源，权衡不确定性，并根据新兴趋势调整预测，类似于政治、经济和金融领域的专业人士。这项任务的重要性毋庸置疑，然而目前尚无大型基准来评估代理的未来预测能力，主要是因为处理实时更新和获取及时准确答案的挑战。为了解决这一问题，我们引入$\\\\textbf{FutureX}$——一个专为LLM代理执行未来预测任务设计的动态实时评估基准。FutureX是最大且最具多样性的实时未来预测基准，支持每日实时更新，并通过自动化问题收集和答案收集管道消除数据污染。我们评估了包括开源深度研究代理和闭源深度研究模型在内的25种具有推理和搜索能力以及外部工具集成的LLM/代理模型。这项全面评估检验了代理在动态环境中的自适应推理和绩效。此外，我们深入分析了代理在面向未来的任务中失败模式和表现缺陷，包括对虚假网页的易感性和时间有效性。我们的目标是建立一个动态、无污染的评估标准，推动能够在复杂推理和预测思维中达到专业人类分析师水平的LLM代理的发展。",
+        "地址": "https://arxiv.org/pdf/2508.11987.pdf"
+    },
+    {
+        "名称": "2025 [2508.14879] MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds.pdf",
+        "作者": "Bingquan Dai, Li Ray Luo, Qihong Tang, Jie Wang, Xinyu Lian, Hao Xu, Minghan Qin, Xudong Xu, Bo Dai, Haoqian Wang, Zhaoyang Lyu, Jiangmiao Pang",
+        "摘要": "摘要：重建可编辑程序的3D对象对于逆向工程和形状编辑等应用至关重要。然而，现有方法通常依赖于有限的领域特定语言(DSL)和小规模数据集，限制了它们对复杂几何和结构的建模能力。为了解决这些挑战，我们引入了MeshCoder，这是一种从点云重建复杂3D对象到可编辑Blender Python脚本的新框架。我们开发了一整套能够合成复杂几何的表达性Blender Python APIs。利用这些APIs，我们构建了一个大规模的对象代码配对数据集，其中每个对象的代码被分解成不同的语义部分。随后，我们训练了一个多模态的大型语言模型(LLM)，将3D点云转化为可执行的Blender Python脚本。我们的方法不仅在形状到代码重建任务中实现了卓越的性能，还通过便捷的代码修改促进了直观的几何和拓扑编辑。此外，基于代码的表示增强了LLMs在3D形状理解任务中的推理能力。综上所述，这些贡献使MeshCoder成为程序化3D形状重建和理解的强大灵活解决方案。",
+        "地址": "https://arxiv.org/pdf/2508.14879.pdf"
+    },
+    {
+        "名称": "2025 [2508.14811] Tinker: Diffusion's Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization.pdf",
+        "作者": "Canyu Zhao, Xiaoman Li, Tianjian Feng, Zhiyue Zhao, Hao Chen, Chunhua Shen",
+        "摘要": "摘要: 我们介绍了Tinker，这是一个多功能的高保真3D编辑框架，它在单次和少量样本的情况下操作而无需任何每场景微调。与需要大量每场景优化以确保多视角一致性或生成数十个一致的编辑输入视图的先前技术不同，Tinker能够从仅一到两张图像中提供稳健的、多视角一致的编辑。这一能力归功于重新利用预训练的扩散模型，从而解锁其潜在的3D意识。为了推动这一领域的研究，我们策划了首个大规模多视角编辑数据集和数据管线，涵盖多种场景和风格。在该数据集的基础上，我们开发了我们的框架，该框架由两个新颖的组件组成，能够在没有每场景训练的情况下生成多视角一致的编辑视图：(1) 引用多视角编辑器：实现精确的、基于参考的编辑，并在所有视点上保持一致。(2) 任意视角至视频合成器：利用视频扩散中的时空先验，即使在稀疏输入的情况下也能执行高质量的场景完成和新视图生成。通过大量实验，Tinker大大降低了通用3D内容创作的门槛，在编辑、新视图合成和渲染增强任务上实现了最先进的性能。我们认为Tinker代表了真正可扩展的零次3D编辑的关键一步。\n\n项目网页：this https URL",
+        "地址": "https://arxiv.org/pdf/2508.14811.pdf"
+    },
+    {
+        "名称": "2025 [2508.14111] From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery.pdf",
+        "作者": "Jiaqi Wei, Yuejin Yang, Xiang Zhang, Yuhan Chen, Xiang Zhuang, Zhangyang Gao, Dongzhan Zhou, Guangshuai Wang, Zhiqiang Gao, Juntai Cao, Zijie Qiu, Xuming He, Qiang Zhang, Chenyu You, Shuangjia Zheng, Ning Ding, Wanli Ouyang, Nanqing Dong, Yu Cheng, Siqi Sun, Lei Bai, Bowen Zhou",
+        "摘要": "摘要：人工智能（AI）正在重塑科学发现，从专门的计算工具发展为自主的研究伙伴。我们将能动科学定位为广泛的AI科学范式中的关键阶段，其中AI系统从部分辅助进阶为完全的科学代理。通过大型语言模型（LLM）、多模态系统和集成研究平台，可以实现能动AI在假设生成、实验设计、执行、分析和迭代优化方面的能力——这些行为曾被认为是人类独有的。本文提供了对生命科学、化学、材料科学和物理学领域中自主科学发现的领域导向综述。我们通过一个综合框架，将过程导向、自主导向和机制导向三种之前分散的视角统一起来，连接基础能力、核心过程和领域特定实现。基于该框架，我们（i）追踪AI科学的演变，（ii）识别支撑科学代理的五个核心能力，（iii）将发现建模为一个动态的四阶段工作流，（iv）审查跨上述领域的应用，并（v）综合关键挑战和未来机遇。这项工作建立了自主科学发现的领域导向综合，并将能动科学定位为推进AI驱动研究的结构化范式。",
+        "地址": "https://arxiv.org/pdf/2508.14111.pdf"
+    },
+    {
+        "名称": "2025 [2508.14704] MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers.pdf",
+        "作者": "Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li",
+        "摘要": "摘要: 模型上下文协议（MCP）已成为连接大型语言模型和外部数据源及工具的变革性标准，迅速被主要的人工智能提供商和开发平台采用。然而，现有的基准测试过于简单，未能捕捉到诸如长时推理和大而陌生的工具空间等实际应用挑战。为了解决这一关键差距，我们推出了MCP-Universe，它是第一个专门设计用于通过与现实世界中的MCP服务器交互来评估大型语言模型在现实且困难任务中的表现的综合基准测试。我们的基准测试涵盖了6个核心领域，跨越11个不同的MCP服务器：位置导航、知识库管理、财务分析、3D设计、浏览器自动化和网页搜索。为了确保严格的评估，我们实施了基于执行的评估器，包括用于代理格式合规性的格式评估器，用于时间不变内容匹配的静态评估器，以及自动检索时间敏感任务的实时真实数据的动态评估器。通过对领先的大型语言模型进行广泛的评估，我们发现即使是最先进的模型如GPT-5（43.72%），Grok-4（33.33%）和Claude-4.0-Sonnet（29.44%）表现也存在显著的局限性。此外，我们的基准测试对大型语言模型代理提出了显著的长上下文挑战，因为随着交互步骤的增加，输入标记的数量迅速增加。而且，它引入了未知工具的挑战，因为大型语言模型代理通常不熟悉MCP服务器的具体用法。值得注意的是，像Cursor这样的企业级代理无法取得比标准ReAct框架更好的性能。除了评估之外，我们还开源了支持UI的可扩展评估框架，使研究人员和实践者能够无缝集成新代理和MCP服务器，推动不断发展的MCP生态系统中的创新。\n\n作者: 罗子阳, 沈志祺, 杨文卓, 赵子瑞, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, 熊才铭, 李俊楠\n\n评论: 网站: 此 https URL\n\n网址: https://arxiv.org/pdf/2508.14704.pdf\n\n标题: 2025 [2508.14704] MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers.pdf",
+        "地址": "https://arxiv.org/pdf/2508.14704.pdf"
+    },
+    {
+        "名称": "2025 [2508.14896] Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs.pdf",
+        "作者": "Haokun Lin, Haobo Xu, Yichen Wu, Ziyu Guo, Renrui Zhang, Zhichao Lu, Ying Wei, Qingfu Zhang, Zhenan Sun",
+        "摘要": "摘要：最近扩散大型语言模型（dLLMs）在自然语言生成任务中提出了一种很有前景的替代自回归（AR）LLMs的方法，通过利用全注意力和基于去噪的解码策略。然而，由于这些模型具有大规模参数和高资源需求，在边缘设备上部署这些模型仍然具有挑战性。虽然训练后量化（PTQ）已成为压缩AR LLMs的广泛采用技术，但其在dLLMs上的适用性仍然大多未被探索。在这项工作中，我们提出了首次对扩散语言模型进行量化的系统研究。我们首先确定了激活异常值的存在，其特征是动态范围内占主导地位的异常大激活值。这些异常值对低位量化构成了关键挑战，因为它们使得难以保持大多数值的精度。更重要的是，我们实现了最先进的PTQ方法，并在多个任务类型和模型变体上进行了全面评估。我们的分析从四个关键维度结构化：位宽、量化方法、任务类别和模型类型。通过这种多视角的评估，我们提供了关于不同配置下dLLMs量化行为的实际见解。我们希望我们的发现为未来高效dLLM部署的研究提供基础。所有代码和实验设置将发布以支持社区。",
+        "地址": "https://arxiv.org/pdf/2508.14896.pdf"
+    },
+    {
+        "名称": "2025 [2508.14444] NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model.pdf",
+        "作者": "NVIDIA: Aarti Basant, Abhijit Khairnar, Abhijit Paithankar, Abhinav Khattar, Adithya Renduchintala, Aditya Malte, Akhiad Bercovich, Akshay Hazare, Alejandra Rico, Aleksander Ficek, Alex Kondratenko, Alex Shaposhnikov, Alexander Bukharin, Ali Taghibakhshi, Amelia Barton, Ameya Sunil Mahabaleshwarkar, Amy Shen, Andrew Tao, Ann Guan, Anna Shors, Anubhav Mandarwal, Arham Mehta, Arun Venkatesan, Ashton Sharabiani, Ashwath Aithal, Ashwin Poojary, Ayush Dattagupta, Balaram Buddharaju, Banghua Zhu, Barnaby Simkin, Bilal Kartal, Bita Darvish Rouhani, Bobby Chen, Boris Ginsburg, Brandon Norick, Brian Yu, Bryan Catanzaro, Charles Wang, Charlie Truong, Chetan Mungekar, Chintan Patel, Chris Alexiuk, Christian Munley, Christopher Parisien, Dan Su, Daniel Afrimi, Daniel Korzekwa, Daniel Rohrer, Daria Gitman, David Mosallanezhad, Deepak Narayanan, Dima Rekesh, Dina Yared, Dmytro Pykhtar, Dong Ahn, Duncan Riach, Eileen Long, Elliott Ning, Eric Chung, Erick Galinkin, Evelina Bakhturina, Gargi Prasad, Gerald Shen, Haifeng Qian, Haim Elisha, Harsh Sharma, Hayley Ross, Helen Ngo, Herman Sahota, Hexin Wang, Hoo Chang Shin, Hua Huang, Iain Cunningham, Igor Gitman, Ivan Moshkov, Jaehun Jung, Jan Kautz, Jane Polak Scowcroft, Jared Casper, Jian Zhang, Jiaqi Zeng, Jimmy Zhang, Jinze Xue, Jocelyn Huang, Joey Conway, John Kamalu, Jonathan Cohen, Joseph Jennings, Julien Veron Vialard, Junkeun Yi, Jupinder Parmar, Kari Briski, Katherine Cheung, Katherine Luna, Keith Wyss, Keshav Santhanam, Kezhi Kong, Krzysztof Pawelec, Kumar Anik\n\n\n        , Kunlun Li, Kushan Ahmadian, Lawrence McAfee, Laya Sleiman, Leon Derczynski, Luis Vega, Maer Rodrigues de Melo, Makesh Narsimhan Sreedhar, Marcin Chochowski, Mark Cai, Markus Kliegl, Marta Stepniewska-Dziubinska, Matvei Novikov, Mehrzad Samadi, Meredith Price, Meriem Boubdir, Michael Boone, Michael Evans, Michal Bien, Michal Zawalski, Miguel Martinez, Mike Chrzanowski, Mohammad Shoeybi, Mostofa Patwary, Namit Dhameja, Nave Assaf, Negar Habibi, Nidhi Bhatia, Nikki Pope, Nima Tajbakhsh, Nirmal Kumar Juluru, Oleg Rybakov, Oleksii Hrinchuk, Oleksii Kuchaiev, Oluwatobi Olabiyi, Pablo Ribalta, Padmavathy Subramanian, Parth Chadha, Pavlo Molchanov, Peter Dykas, Peter Jin, Piotr Bialecki, Piotr Januszewski, Pradeep Thalasta, Prashant Gaikwad, Prasoon Varshney, Pritam Gundecha, Przemek Tredak, Rabeeh Karimi Mahabadi, Rajen Patel, Ran El-Yaniv, Ranjit Rajan, Ria Cheruvu, Rima Shahbazyan, Ritika Borkar, Ritu Gala, Roger Waleffe, Ruoxi Zhang, Russell J. Hewett, Ryan Prenger, Sahil Jain, Samuel Kriman, Sanjeev Satheesh, Saori Kaji, Sarah Yurick, Saurav Muralidharan, Sean Narenthiran, Seonmyeong Bak, Sepehr Sameni, Seungju Han, Shanmugam Ramasamy, Shaona Ghosh, Sharath Turuvekere Sreenivas, Shelby Thomas, Shizhe Diao, Shreya Gopal, Shrimai Prabhumoye, Shubham Toshniwal, Shuoyang Ding, Siddharth Singh, Siddhartha Jain, Somshubra Majumdar, Soumye Singhal, Stefania Alborghetti, Syeda Nahida Akter, Terry Kong, Tim Moon, Tomasz Hliwiak, Tomer Asida, Tony Wang, Tugrul Konuk, Twinkle Vashishth, Tyler Poon, Udi Karpas, Vahid Noroozi, Venkat Srinivasan, Vijay Korthikanti, Vikram Fugro, Vineeth Kalluru, Vitaly Kurin, Vitaly Lavrukhin, Wasi Uddin Ahmad, Wei Du, Wonmin Byeon, Ximing Lu, Xin Dong, Yashaswi Karnati, Yejin Choi, Yian Zhang, Ying Lin, Yonggan Fu, Yoshi Suhara, Zhen Dong, Zhiyu Li, Zhongbo Zhu, Zijia Chen\n\n\n    et al. (116 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们介绍了Nemotron-Nano-9B-v2，这是一种混合Mamba-Transformer语言模型，设计旨在提高推理工作负载的吞吐量，同时在准确性上达到与相似尺寸模型相比的最先进水平。Nemotron-Nano-9B-v2基于Nemotron-H架构，其中常见Transformer架构中的大多数自注意力层被Mamba-2层替换，以便在生成推理所需的长思考轨迹时提高推理速度。我们首先通过使用FP8训练方法在20万亿个标记上预训练一个具有120亿参数的模型（Nemotron-Nano-12B-v2-Base）来创建Nemotron-Nano-9B-v2。在对齐Nemotron-Nano-12B-v2-Base之后，我们采用Minitron策略压缩和蒸馏模型，目标是在单个NVIDIA A10G GPU（22GiB内存，bfloat16精度）上进行推理支持高达128k个标记。与现有的相似尺寸模型（如Qwen3-8B）相比，我们展示了Nemotron-Nano-9B-v2在推理基准测试中能够实现相当或更好的准确性，同时在推理设置（如8k输入和16k输出标记）中实现高达6倍的推理吞吐量。我们将在Hugging Face上发布Nemotron-Nano-9B-v2、Nemotron-Nano-12B-v2-Base和Nemotron-Nano-9B-v2-Base检查点及我们的大部分前训练和后训练数据集。",
+        "地址": "https://arxiv.org/pdf/2508.14444.pdf"
+    },
+    {
+        "名称": "2025 [2508.14160] RynnEC: Bringing MLLMs into Embodied World.pdf",
+        "作者": "Ronghao Dang, Yuqian Yuan, Yunxuan Mao, Kehan Li, Jiangpin Liu, Zhikai Wang, Xin Li, Fan Wang, Deli Zhao",
+        "摘要": "摘要：我们介绍了RynnEC，这是一种用于体现认知的视频多模态大型语言模型。RynnEC建立在通用视觉-语言基础模型上，结合区域编码器和掩码解码器，实现了灵活的区域级视频交互。尽管其架构紧凑，RynnEC在对象属性理解、对象分割和空间推理方面达到了最先进的性能。从概念上讲，它为体现代理的“脑”提供了一种区域中心的视频范式，提供对物理世界的细粒度感知，并实现更精确的交互。为了缓解3D注释数据集的稀缺，我们提出了一个基于自我中心视频的管道，用于生成体现认知数据。此外，我们引入了RynnEC-Bench，一个用于评估体现认知能力的区域中心基准。我们预期RynnEC将推进体现代理通用认知核心的发展，并促进在多样化的体现任务中的泛化。代码、模型检查点和基准可在此URL获得：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.14160.pdf"
+    },
+    {
+        "名称": "2025 [2508.13421] Virtuous Machines: Towards Artificial General Science.pdf",
+        "作者": "Gabrielle Wehr, Reuben Rideaux, Amaya J. Fox, David R. Lightfoot, Jason Tangen, Jason B. Mattingley, Shane E. Ehrhardt",
+        "摘要": "摘要: 人工智能系统正在通过加速特定研究任务（从蛋白质结构预测到材料设计）改变科学发现，但仍局限于需要大量人类监督的狭窄领域。科学文献的指数增长和领域专业化限制了研究人员跨学科综合知识和发展统一理论的能力，激发了对更通用科学人工智能系统的探索。在本文中，我们展示了一个与领域无关的、能够独立导航科学工作流程（从假设生成到数据收集再到论文准备）的代理AI系统。该系统自主设计并执行了三个关于视觉工作记忆、心理旋转和图像生动度的心理研究，进行了一个包含288名参与者的新在线数据收集，通过超过8小时的连续编码会话开发了分析管道，并完成了论文。结果展示了AI科学发现管道进行具有理论推理和方法严谨性的非平凡研究的能力，虽然在概念细微差别和理论解释方面有所限制。这是朝着能够通过现实世界实验测试假设的具身AI迈出的重要一步，通过自主探索人类认知和资源限制可能未能探索的科学空间，加速发现。它引发了关于科学理解的本质和科学信用归属的重要问题。",
+        "地址": "https://arxiv.org/pdf/2508.13421.pdf"
+    },
+    {
+        "名称": "2025 [2508.11408] On-Policy RL Meets Off-Policy Experts: Harmonizing Supervised Fine-Tuning and Reinforcement Learning via Dynamic Weighting.pdf",
+        "作者": "Wenhao Zhang, Yuexiang Xie, Yuchang Sun, Yanxi Chen, Guoyin Wang, Yaliang Li, Bolin Ding, Jingren Zhou",
+        "摘要": "摘要：监督微调（SFT）和强化学习（RL）是两种突出的训练后范式，用于优化大型语言模型（LLMs）的能力并调整其行为。现有结合SFT和RL的方法常面临扰乱已建立的模型模式和对专家数据过度拟合的风险。为了解决这一问题，我们通过离线策略与在线策略的视角对SFT和RL的统一进行了新的研究。我们提出CHORD，一种通过动态加权进行离线和在线策略强化学习的可控协调框架，将SFT重新定义为在线RL过程中动态加权的辅助目标。基于对离线策略专家数据在整体和细粒度水平上影响的分析，我们在CHORD中引入了双重控制机制。具体来说，该框架首先采用全局系数来整体上引导从离线模仿到在线探索的转变，然后应用逐词加权函数，使专家标记的细粒度学习成为可能，从而保持在线探索并减轻离线数据带来的干扰。我们在广泛使用的基准上进行了大量实验，提供了CHORD实现稳定高效学习过程的实证证据。通过有效协调离线专家数据与在线探索，CHORD显示出比基线显著的改进。我们发布了实现代码，以激发进一步研究。",
+        "地址": "https://arxiv.org/pdf/2508.11408.pdf"
+    },
+    {
+        "名称": "2025 [2508.13680] ViExam: Are Vision Language Models Better than Humans on Vietnamese Multimodal Exam Questions?.pdf",
+        "作者": "Vy Tuong Dang, An Vo, Quang Tau, Duc Dm, Daeyoung Kim",
+        "摘要": "摘要翻译为中文如下：\n\n摘要: 视觉语言模型（VLMs）在英语多模态任务上展现了卓越的能力，但其在具有真实多模态教育内容的低资源语言上的表现仍然基本未被探索。在这项工作中，我们测试了VLMs在越南语教育评估中的表现，研究主要基于英语数据训练的VLMs是否可以处理真实世界的跨语言多模态推理。我们的工作提出了首个对VLMs在多模态越南语考试上的综合评估，提出了包含2,548个多模态问题的基准ViExam。我们发现，最先进的VLMs在包括数学、物理、化学、生物、地理、驾驶考试和智商测试的7个学术领域中，仅能达到57.74%的平均准确率，而开源模型的平均准确率为27.70%。大多数VLMs的表现不及平均人类考生（66.54%），仅有思考型VLM o3（74.07%）超过了人类平均表现，但仍然显著低于人类最佳表现（99.60%）。使用英语指导并维持越南语内容的跨语言提示未能改善表现，反而让最先进的VLMs准确率降低了1个百分点。人类-机器协作可以部分提高VLM表现，提升5个百分点。代码和数据可在此网址获取：这个https URL。",
+        "地址": "https://arxiv.org/pdf/2508.13680.pdf"
+    },
+    {
+        "名称": "2025 [2508.12594] FLARE: Fast Low-rank Attention Routing Engine.pdf",
+        "作者": "Vedant Puri, Aditya Joglekar, Kevin Ferguson, Yu-hsuan Chen, Yongjie Jessica Zhang, Levent Burak Kara",
+        "摘要": "摘要：自注意力机制的二次复杂度限制了其在大型非结构化网格上的适用性和可扩展性。我们介绍了快速低秩注意力路由引擎（FLARE），这是一种通过固定长度潜序列进行注意力路由的线性复杂度自注意力机制。每个注意力头通过可学习的查询标记，将输入序列投影到固定长度的潜序列，从而在N个标记之间进行全局通信。通过在瓶颈序列中路由注意力，FLARE学习到一种低秩形式的注意力，可以在O(NM)成本下应用。FLARE不仅能够扩展到前所未有的问题大小，而且在多种基准测试中相比当前最先进的神经PDE替代品提供了更出色的准确性。我们还发布了一个新的增材制造数据集，以促进进一步研究。我们的网址在此。\n\n翻译人员：Vedant Puri, Aditya Joglekar, Kevin Ferguson, Yu-hsuan Chen, Yongjie Jessica Zhang, Levent Burak Kara\n\n文章地址：https://arxiv.org/pdf/2508.12594.pdf\n\n标题：2025 [2508.12594] FLARE：快速低秩注意力路由引擎.pdf",
+        "地址": "https://arxiv.org/pdf/2508.12594.pdf"
+    },
+    {
+        "名称": "2025 [2508.15754] Dissecting Tool-Integrated Reasoning: An Empirical Study and Analysis.pdf",
+        "作者": "Yufeng Zhao, Junnan Liu, Hongwei Liu, Dongsheng Zhu, Yuan Shen, Songyang Zhang, Kai Chen",
+        "摘要": "摘要:\n\n大型语言模型 (LLMs) 通过链式思维 (CoT) 推理等方法在推理任务上取得了显著进展。然而，它们常常在需要精确计算的任务中表现不佳。工具整合推理 (TIR) 作为一种解决方案，通过将外部工具整合到推理过程来应对这一问题。尽管如此，TIR 在改进 LLM 推理能力方面的泛化仍不明确。此外，TIR 是否改善了模型的推理行为并帮助模型思考还有待研究。我们引入了 ReasonZoo，这是一个包含九个不同推理类别的综合基准，用于评估 TIR 在各个领域的有效性。此外，我们提出了两个新的度量指标，即性能感知成本 (PAC) 和性能成本曲线下面积 (AUC-PCC)，以评估推理效率。我们的实证评估表明，启用了 TIR 的模型在数学和非数学任务中一致优于其非 TIR 同类模型。此外，TIR 提高了推理效率，从改进的 PAC 和 AUC-PCC 中可以看出，显示出减少过度思考和更精简的推理。这些发现强调了 TIR 的领域通用性优势以及其在复杂推理任务中提升 LLM 能力的潜力。",
+        "地址": "https://arxiv.org/pdf/2508.15754.pdf"
+    },
+    {
+        "名称": "2025 [2508.14568] Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell.pdf",
+        "作者": "Wouter Legiest, Jan-Pieter D'Anvers, Bojan Spasic, Nam-Luc Tran, Ingrid Verbauwhede",
+        "摘要": "摘要：本论文提出了一种在全同态加密（FHE）框架内计算Levenshtein（编辑）距离的新方法，特别是针对第三代方案如TFHE。编辑距离计算在金融和基因组学等应用中至关重要，如DNA序列比对。我们引入了一种优化算法，称为Leuvenshtein，显著降低了编辑距离计算的成本。该算法特别减少了每个计算单元所需的可编程引导（PBS）的数量，从传统的Wagner-Fisher算法所需的大约94次操作减少到只需1次。此外，我们提出了一种高效的字符相等性检查方法，将ASCII字符比较减少到仅2次PBS操作。最后，我们通过在一个输入字符串未加密时利用预处理，探讨了进一步性能提升的可能性。我们的Leuvenshtein相比现有最好的TFHE实现实现了高达278倍的性能提升，相比优化的Wagner-Fisher算法实现高达39倍的性能提升。此外，由于服务器端存在一个未加密输入，当可以进行离线预处理时，还可以额外实现3倍的加速。",
+        "地址": "https://arxiv.org/pdf/2508.14568.pdf"
+    },
+    {
+        "名称": "2025 [2508.14187] Local Scale Equivariance with Latent Deep Equilibrium Canonicalizer.pdf",
+        "作者": "Md Ashiqur Rahman, Chiao-An Yang, Michael N. Cheng, Lim Jun Hao, Jeremiah Jiang, Teck-Yian Lim, Raymond A. Yeh",
+        "摘要": "摘要：\n尺寸变化是计算机视觉领域的一个基本挑战。属于同一类的物体可能具有不同的大小，它们的感知尺寸还会受到与摄像机距离的影响。这些变化是局部的，即不同的物体大小可能在同一张图片中有不同的变化。为了解决尺寸变化问题，我们提出了一种深度平衡标准化器（DEC）来提高模型的局部尺度等变性。DEC可以轻松地嵌入现有的网络架构，并且可以适应预训练模型。值得注意的是，我们在具有竞争力的ImageNet基准测试中展示了DEC在四个流行的预训练深度网络（例如ViT、DeiT、Swin和BEiT）上提高了模型性能和局部尺度一致性。我们的代码可以在该网址找到。\n\n作者:\nMd Ashiqur Rahman, Chiao-An Yang, Michael N. Cheng, Lim Jun Hao, Jeremiah Jiang, Teck-Yian Lim, Raymond A. Yeh\n\n链接:\nhttps://arxiv.org/pdf/2508.14187.pdf\n\n标题:\n2025 [2508.14187] 局部尺度等变性与潜在深度平衡标准化器",
+        "地址": "https://arxiv.org/pdf/2508.14187.pdf"
+    },
+    {
+        "名称": "2025 [2508.10137] mSCoRe: a $M$ultilingual and Scalable Benchmark for $S$kill-based $Co$mmonsense $Re$asoning.pdf",
+        "作者": "Nghia Trung Ngo, Franck Dernoncourt, Thien Huu Nguyen",
+        "摘要": "摘要：最近在增强推理能力的大型语言模型（LLMs）方面的进展在复杂推理任务中表现出了显著的能力。然而，这些模型在利用不同人类推理技能方面的机制仍然鲜有研究，尤其是在涉及不同语言和文化的多语言常识推理方面。为了填补这一空白，我们提出了一个多语言且可扩展的基于技能的常识推理基准（mSCoRe）。我们的基准包含三个关键组成部分，旨在系统地评估LLMs的推理能力，包括：（1）一种新颖的推理技能分类法，使得能够对模型的推理过程进行细粒度分析，（2）一个专门针对常识推理评估的强大数据合成管道，以及（3）一个复杂性缩放框架，使任务难度能够随着未来LLMs能力的提高而动态扩展。在对八个具有不同规模和训练方法的最新LLMs进行广泛实验后，我们发现mSCoRe对于现有模型尤其是在高复杂性级别上仍然具有显著挑战性。我们的结果揭示了这些增强推理能力的模型在面对细微的多语言通用和文化常识时的局限性。我们进一步提供了关于模型推理过程的详细分析，提出了未来改进多语言常识推理能力的方向。",
+        "地址": "https://arxiv.org/pdf/2508.10137.pdf"
+    },
+    {
+        "名称": "2025 [2508.13745] Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation.pdf",
+        "作者": "Shouxing Ma, Yawen Zeng, Shiqing Wu, Guandong Xu",
+        "摘要": "摘要：多模态推荐系统旨在利用丰富的模态信息（如图像和文本描述）来提高推荐性能。目前的方法已经通过图神经网络的强大结构建模能力取得了显著成功。然而，这些方法在实际场景中往往受到稀疏数据的阻碍。尽管采用了对比学习和同质图（即同质图）来解决数据稀疏性问题，现有方法仍存在两个主要限制：1）简单的多模态特征对比无法产生有效的表示，导致模态共享特征产生噪声，并失去模态唯一特征中的有价值信息；2）缺乏对用户兴趣和项目共现之间的同质关系的探索，导致用户-项目互动的挖掘不完全。为了克服上述限制，我们提出了一个新的框架，即精炼多模态对比学习和同质关系（REARM）。具体来说，我们通过采用元网络和正交约束策略来补充多模态对比学习，从而过滤掉模态共享特征中的噪声，并保留与推荐相关的模态唯一特征信息。为了有效地挖掘同质关系，我们将新构建的用户兴趣图和项目共现图与现有的用户共现图和项目语义图集成到图学习中。在三个真实世界数据集上的广泛实验表明，REARM相对于各种最新的基准具有优越性。我们的可视化进一步显示了REARM在区分模态共享特征和模态唯一特征方面的改进。代码可在此处获得[链接](https://arxiv.org/pdf/2508.13745.pdf)。",
+        "地址": "https://arxiv.org/pdf/2508.13745.pdf"
+    }
+]
