@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2508.16153] Memento: Fine-tuning LLM Agents without Fine-tuning LLMs.pdf",
+        "作者": "Huichi Zhou, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang",
+        "摘要": "摘要：本文介绍了一种新的自适应大型语言模型（LLM）代理学习范式，该方法无需对基础LLM进行微调。现有方法通常较为僵化，依赖于静态、手工制作的反思工作流程，或者计算开销较大，需要对LLM模型参数进行梯度更新。相比之下，我们的方法通过基于记忆的在线强化学习实现低成本的持续适应。我们将其形式化为内存增强马尔可夫决策过程（M-MDP），配备神经案例选择策略以指导行动决策。过去的经验存储在情景记忆中，可以是可微分的或非参数的。策略根据环境反馈通过记忆重写机制不断更新，而策略改进则通过高效的记忆读取（检索）实现。我们在深度研究环境中实例化了我们的代理模型，即Memento，该模型在GAIA验证上实现了top-1（$87.88\\\\%$ Pass@$3$）和测试集上$79.40\\\\%$的成绩。在DeepResearcher数据集上达到了$66.6\\\\%$ F1和$80.4\\\\%$ PM，优于目前最先进的基于训练的方法，同时基于案例的记忆在分布外任务上增加了绝对分数$4.7\\\\%$到$9.6\\\\%$。我们的方法为开发能够连续实时学习且无需梯度更新的通用LLM代理提供了一条可扩展且高效的路径，推进机器学习朝向开放技能获取和深度研究场景发展。代码可以在这个链接找到：https://arxiv.org/pdf/2508.16153.pdf。",
+        "地址": "https://arxiv.org/pdf/2508.16153.pdf"
+    },
+    {
+        "名称": "2025 [2508.08240] ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks.pdf",
+        "作者": "Kaijun Wang, Liqin Lu, Mingyu Liu, Jianuo Jiang, Zeju Li, Bolin Zhang, Wancai Zheng, Xinyi Yu, Hao Chen, Chunhua Shen",
+        "摘要": "摘要：语言引导的长时间移动操作在体现语义推理、广泛操作和适应性运动方面一直是一个巨大的挑战。进展受限于三个基本问题：首先，尽管大型语言模型通过语义先验改善了空间推理和任务规划，但现有实现仍局限于桌面场景，未能解决移动平台的受限感知和有限执行范围。其次，当前操作策略在应对开放环境中多样化的物体配置时表现出不足的泛化能力。第三，为实际部署所需，高平台机动性与精确端效器控制在非结构化设置中双重要求仍然未被充分研究。\n在此工作中，我们提出了ODYSSEY，一个统一的移动操作框架，用于配备操纵器的敏捷四足机器人，该框架无缝融合了高级任务规划与低级全身控制。为了解决语言调节任务中的自我感知挑战，我们引入了一种由视觉-语言模型驱动的分层规划器，使得长时间指令分解和精确动作执行得以实现。在控制层面，我们的新颖全身策略实现了复杂地形上的鲁棒协调。我们进一步提出了首个长时间移动操作基准，评估了多样化的室内和室外场景。通过成功的模拟到现实转移，我们展示了系统在现实部署中的泛化能力和鲁棒性，突显了四足操纵机器人在非结构化环境中的实用性。我们的工作提升了能够执行复杂动态任务的广泛机器人助理的可行性。我们的项目页面：这一https.URL",
+        "地址": "https://arxiv.org/pdf/2508.08240.pdf"
+    },
+    {
+        "名称": "2025 [2508.14029] Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains RLVR.pdf",
+        "作者": "Xiao Liang, Zhongzhi Li, Yeyun Gong, Yelong Shen, Ying Nian Wu, Zhijiang Guo, Weizhu Chen",
+        "摘要": "摘要：可验证奖励的强化学习（RLVR）最近成为训练后大语言模型（LLM）的关键范式，特别适用于复杂的推理任务。然而，原始的RLVR训练表明，它在提高Pass@1性能的同时牺牲了政策熵，导致生成多样性减少，并限制了Pass@k性能，这通常代表了LLM推理能力的上限。在本文中，我们从训练问题的角度系统地分析了政策的生成多样性，发现增加和更新训练问题有助于缓解训练期间的熵崩溃。基于这些观察，我们提出了一种用于RLVR训练的在线自我对局与变分问题综合（SvS）策略，该策略利用政策的正确解决方案来综合变分问题，同时确保其参考答案与原始问题保持一致。这种自我改进策略在训练期间有效地保持了政策熵，并显著改善了与标准RLVR相比的Pass@k性能，持续带来了长时间的改善，并在竞赛级别的AIME24和AIME25基准测试中分别实现了18.3%和22.8%的绝对增益。在从3B到32B不同模型规模的12个推理基准上的实验一致证明了SvS的通用性和鲁棒性。",
+        "地址": "https://arxiv.org/pdf/2508.14029.pdf"
+    },
+    {
+        "名称": "2025 [2508.13013] EgoTwin: Dreaming Body and View in First Person.pdf",
+        "作者": "Jingqiao Xiu, Fangzhou Hong, Yicong Li, Mengze Li, Wentao Wang, Sirui Han, Liang Pan, Ziwei Liu",
+        "摘要": "摘要: 尽管外部视频合成取得了很大进展，第一人称视频生成仍然在很大程度上未被探索，它需要对第一人称视角内容进行建模，同时处理由佩戴者身体运动引起的相机运动模式。为弥补这一差距，我们介绍了一个新的任务，即联合生成第一人称视频和人体动作，该任务有两个关键挑战：1）视角对齐：生成的视频中的相机轨迹必须与从人体运动中得出的头部轨迹准确对齐；2）因果交互：生成的人体动作必须与相邻视频帧的视觉动态因果对齐。为了解决这些挑战，我们提出了EgoTwin，一个基于扩散变压器架构的视频-动作联合生成框架。具体来说，EgoTwin引入了一种以头部为中心的动作表示，使人体动作锚定在头部关节上，并采用一种受控制论启发的交互机制，在注意力操作中明确捕捉视频和动作之间的因果交互。为了全面评估，我们策划了一个大型现实世界的同步文本-视频-动作三元组数据集，并设计了新的度量标准来评估视频和动作的一致性。广泛的实验表明了EgoTwin框架的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.13013.pdf"
+    },
+    {
+        "名称": "2025 [2508.13650] CRISP: Persistent Concept Unlearning via Sparse Autoencoders.pdf",
+        "作者": "Tomer Ashuach, Dana Arad, Aaron Mueller, Martin Tutek, Yonatan Belinkov",
+        "摘要": "摘要: 随着大型语言模型 (LLMs) 被越来越多地部署在现实世界的应用中，有选择地去除不需要的知识同时保留模型的实用性变得至关重要。最近的研究探索了稀疏自动编码器 (SAEs) 以对单语义特征进行精确干预。然而，大多数基于 SAE 的方法在推理时操作，这并不会在模型的参数中产生持久性的变化。这样的干预可以被具有参数访问权限的恶意行为者绕过或逆转。我们引入了 CRISP，这是一种使用 SAE 实现持久概念去学习的参数高效方法。CRISP 自动识别跨多个层的显著 SAE 特征并抑制其激活。我们对两个 LLM 进行了实验，结果表明我们的方法在 WMDP 基准中涉及的安全关键去学习任务上优于以往的方法，成功去除了有害知识，同时保留了一般和域内能力。特征级别的分析显示，CRISP 在目标和良性概念之间实现了语义上的一致分离，允许对目标特征进行精确抑制。",
+        "地址": "https://arxiv.org/pdf/2508.13650.pdf"
+    },
+    {
+        "名称": "2025 [2508.07877] Selective Contrastive Learning for Weakly Supervised Affordance Grounding.pdf",
+        "作者": "WonJun Moon, Hyun Seok Seong, Jae-Pil Heo",
+        "摘要": "摘要：促进实体与物体交互需要准确识别出能够提供特定动作的部分。弱监督可供性定位（WSAG）旨在模仿人类从第三方演示中学习的方法，人类能够直观地掌握功能部分而不需要像素级别的注释。为了实现这一目标，定位通常使用跨不同视角图像的共享分类器进行学习，并结合包含部分发现过程的蒸馏策略。然而，由于相关部分的可供性不总是容易区分，模型主要依赖于分类，往往专注于与可供性无关的常见类别特定模式。为了解决这一局限性，我们通过引入选择性原型和像素对比目标，超越孤立的部分级别学习，这些目标适应性地在部分和对象级别学习相关线索，这取决于可用信息的粒度。我们最初利用CLIP在以自我为中心（物体为焦点）和以第三人称为中心（第三方示例）的图像中找到与动作相关的物体。然后，通过交叉引用互补视角中发现的物体，我们在每个视角中挖掘出精确的部分级别的可供性线索。通过一致地学习将可供性相关区域与无关的背景上下文区分开来，我们的方法有效地将激活从无关区域移向有意义的可供性线索。实验结果证明了我们方法的有效性。代码可在此网址获取。\n\n论文题目：《选择性对比学习用于弱监督可供性定位》\n\n作者：WonJun Moon, Hyun Seok Seong, Jae-Pil Heo\n\n注释：已被ICCV 2025接受\n\n网址：https://arxiv.org/pdf/2508.07877.pdf",
+        "地址": "https://arxiv.org/pdf/2508.07877.pdf"
+    },
+    {
+        "名称": "2025 [2508.16402] AetherCode: Evaluating LLMs' Ability to Win In Premier Programming Competitions.pdf",
+        "作者": "Zihan Wang, Jiaze Chen, Zhicheng Liu, Markus Mak, Yidi Du, Geonsik Moon, Luoqi Xu, Aaron Tua, Kunshuo Peng, Jiayi Lu, Mingfei Xia, Boqian Zou, Chenyang Ran, Guang Tian, Shoutai Zhu, Yeheng Duan, Zhenghui Kang, Zhenxing Lin, Shangshu Li, Qiang Luo, Qingshen Long, Zhiyong Chen, Yihan Xiao, Yurong Wu, Daoguang Zan, Yuyi Fu, Mingxuan Wang, Ming Ding",
+        "摘要": "摘要：竞赛编程已成为评估大型语言模型（LLMs）推理和编码能力的重要基准。尽管现有基准测试在这一领域取得了令人瞩目的进展，我们认为当前的评估夸大了模型的熟练度，掩盖了LLMs与顶尖人类程序员之间的巨大差距。这个差距源于两个关键限制：基准问题的难度和范围不足，以及低质量测试案例导致的评估偏差。为了解决这些问题，我们提出了AetherCode，这是一个新的基准测试，它从IOI和ICPC等顶级编程竞赛中汲取问题，提供更广泛的涵盖范围和更高的难度。AetherCode进一步结合了通过自动生成和人工编选的综合专家验证测试套件，确保严格和可靠的评估。通过结合挑战性问题设计和健全评估，AetherCode提供了更准确的LLM能力测量，并为未来代码推理研究设立了新标准。",
+        "地址": "https://arxiv.org/pdf/2508.16402.pdf"
+    },
+    {
+        "名称": "2025 [2508.15746] End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning.pdf",
+        "作者": "Qiaoyu Zheng, Yuze Sun, Chaoyi Wu, Weike Zhao, Pengcheng Qiu, Yongguo Yu, Kun Sun, Yanfeng Wang, Ya Zhang, Weidi Xie",
+        "摘要": "摘要：医学大型语言模型的准确诊断受到知识缺口和幻觉的阻碍。检索和工具增强的方法有所帮助，但其影响因外部知识的弱使用和反馈推理的可追溯性差而有限。为了解决这些挑战，我们引入了Deep-DxSearch，一个通过强化学习（RL）端到端训练的代理性RAG系统，能够实现可追溯的检索增强推理以进行医学诊断。在Deep-DxSearch中，我们首先构建了一个大规模的医学检索语料库，包括患者记录和可靠的医学知识来源，以支持在诊断场景中的检索感知推理。更重要的是，我们将LLM框架作为核心代理，将检索语料库作为其环境，通过在格式、检索、推理结构和诊断准确性上的量身奖励，从大规模数据中通过RL演变代理性RAG策略。\n实验表明，我们的端到端代理性RL训练框架在多个数据中心中持续优于提示工程和无训练的RAG方法。在训练后，Deep-DxSearch在诊断准确性方面实现了显著的提升，超过了强大的诊断基准，如GPT-4o、DeepSeek-R1和其他医学专用框架，在分布内和分布外的情况下进行常见和罕见疾病诊断。此外，对奖励设计和检索语料库组件的消融研究确认了它们的关键作用，强调了我们方法与传统实现相比的独特性和有效性。最后，案例研究和可解释性分析突出了Deep-DxSearch诊断策略的改进，为其性能提升提供了更深入的见解，并支持临床医生提供更可靠和精确的初步诊断。详见此https URL。",
+        "地址": "https://arxiv.org/pdf/2508.15746.pdf"
+    },
+    {
+        "名称": "2025 [2508.16292] Do What? Teaching Vision-Language-Action Models to Reject the Impossible.pdf",
+        "作者": "Wen-Han Hsieh, Elvis Hsieh, Dantong Niu, Trevor Darrell, Roei Herzig, David M. Chan",
+        "摘要": "摘要：最近，视听语言行动（VLA）模型在一系列机器人任务中表现出强劲性能。这些模型依赖于多模态输入，其中语言指令起着至关重要的作用——不仅在预测动作方面，还在坚固地解释用户意图方面，即使请求无法实现。在这项工作中，我们研究了VLA模型如何识别、解释和回应错误前提指令：引用环境中不存在的物体或条件的自然语言命令。我们提出了“指令-验证-行动”（IVA）统一框架，该框架（i）检测由于错误前提而无法执行的指令，（ii）进行基于语言的澄清或纠正，（iii）将合理的替代方案落地到感知和行动方面。为此，我们构建了一个大型指令调优设置，包含结构化语言提示，并训练了一个能够处理准确和错误请求的VLA模型。我们的方法利用上下文增强的半合成数据集，其中包含配对的正面指令和错误前提指令，实现了稳健的检测和自然语言纠正。我们的实验表明，IVA相比基线提高了97.56%的错误前提检测准确率，同时在错误前提场景中的成功响应率提高了50.78%。",
+        "地址": "https://arxiv.org/pdf/2508.16292.pdf"
+    },
+    {
+        "名称": "2025 [2508.16279] AgentScope 1.0: A Developer-Centric Framework for Building Agentic Applications.pdf",
+        "作者": "Dawei Gao, Zitao Li, Yuexiang Xie, Weirui Kuang, Liuyi Yao, Bingchen Qian, Zhijian Ma, Yue Cui, Haohao Luo, Shen Li, Lu Yi, Yi Yu, Shiqi He, Zhiling Luo, Wenmeng Zhou, Zhicheng Zhang, Xuguang He, Ziqian Chen, Weikai Liao, Farruh Isakulovich Kushnazarov, Yaliang Li, Bolin Ding, Jingren Zhou",
+        "摘要": "摘要：由于大型语言模型（LLMs）的快速发展，代理能够将内在知识与动态工具使用相结合，大大增强了它们解决实际任务的能力。顺应这样的演变，AgentScope在新版本（1.0）中引入了重大改进，旨在全面支持灵活和高效的基于工具的代理环境交互，以构建代理应用。具体而言，我们抽象出了代理应用所需的基础组件并提供了统一接口和可扩展模块，使开发者能够轻松利用最新进展，如新模型和MCPs。此外，我们将代理行为纳入ReAct范式，并基于系统的异步设计提供高级代理级基础设施，丰富了人机交互和代理间的交互模式，同时提高了执行效率。在此基础上，我们整合了几个内置代理，针对特定实际场景进行了优化。AgentScope还包括针对开发者友好体验的强劲工程支持。我们提供了一个可扩展的评估模块，配有可视化工作室界面，使长周期代理应用的开发更易于管理和追踪。此外，AgentScope提供了一个运行时沙箱，以确保代理安全执行，并促进快速部署到生产环境。通过这些增强功能，AgentScope为构建可扩展、适应性强且有效的代理应用提供了实用基础。",
+        "地址": "https://arxiv.org/pdf/2508.16279.pdf"
+    },
+    {
+        "名称": "2025 [2508.15881] TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill and Decode Inference.pdf",
+        "作者": "Xiaojuan Tang, Fanxu Meng, Pingzhi Tang, Yuxuan Wang, Di Yin, Xing Sun, Muhan Zhang",
+        "摘要": "摘要：在DeepSeek-V2中引入的多头潜在注意力（MLA）将键值状态压缩成低秩潜在向量，仅缓存该向量以减少内存。然而，在张量并行（TP）中，注意力头在多个设备上计算，每个设备必须加载完整的缓存，削弱了MLA相对于分组查询注意力（GQA）的优势。我们提出了张量并行潜在注意力（TPLA）：一种在设备间分区潜在表示和每个头的输入维度，独立执行每个分区的注意力，然后通过全缩减结合结果的方案。TPLA保留了压缩的KV缓存的优点，同时实现了TP效率。与分组潜在注意力（GLA）不同，TPLA中的每个头仍然利用完整的潜在表示，保持更强的表征能力。TPLA与使用MLA预训练的模型兼容：它支持MLA风格的预填充，并在无需重新训练的情况下实现高效的张量并行解码。通过在TP切片前应用简单的正交变换——例如哈达玛变换或PCA——进一步减轻跨分区干扰，取得极小的准确性下降。通过减少DeepSeek-V3和Kimi-K2的每设备KV缓存，我们在32K-令牌上下文长度下分别实现了1.79倍和1.93倍的加速，同时在常识和LongBench基准测试中保持了性能。TPLA可以通过FlashAttention-3实现，能够实现实际的端到端加速。\n\n翻译：\n作者：唐小娟，孟凡旭，唐平志，王玉轩，殷蒂，孙星，张木函\n\n链接：https://arxiv.org/pdf/2508.15881.pdf\n\n标题：2025 [2508.15881] 张量并行潜在注意力用于高效解耦预填充和解码推理",
+        "地址": "https://arxiv.org/pdf/2508.15881.pdf"
+    },
+    {
+        "名称": "2025 [2508.14037] Distilled-3DGS:Distilled 3D Gaussian Splatting.pdf",
+        "作者": "Lintao Xiang, Xinkai Chen, Jianhuang Lai, Guangcong Wang",
+        "摘要": "摘要：3D高斯分割（3DGS）在新颖视图合成（NVS）方面表现出显著的功效。然而，其主要缺点是实现高保真渲染通常需要大量的3D高斯，从而导致巨大的内存消耗和存储需求。为了解决这一挑战，我们提出了首个针对3DGS的知识蒸馏框架，该框架包括多个教师模型，如原始3DGS、带噪声增强的变体和带Dropout正则化的版本。这些教师模型的输出被聚合起来，以指导轻量级学生模型的优化。为了提炼隐藏的几何结构，我们提出了一种结构相似性损失以提高学生模型和教师模型之间空间几何分布的一致性。通过对各种数据集进行全面的定量和定性评估，所提出的Distilled-3DGS框架在渲染质量和存储效率方面都取得了令人鼓舞的渲染结果，超过了当前最先进的方法。项目页面：此https网址。代码：此https网址。",
+        "地址": "https://arxiv.org/pdf/2508.14037.pdf"
+    },
+    {
+        "名称": "2025 [2508.13797] Sketch3DVE: Sketch-based 3D-Aware Scene Video Editing.pdf",
+        "作者": "Feng-Lin Liu, Shi-Yang Li, Yan-Pei Cao, Hongbo Fu, Lin Gao",
+        "摘要": "摘要: 近期的视频编辑方法在风格迁移或外观修改方面取得了令人满意的效果。然而，在处理视频中具有显著视点变化（例如大范围相机旋转或缩放）时，编辑3D场景的结构内容仍然是一个挑战。主要难点包括生成与原始视频一致的新视图内容，保留未编辑区域，以及将稀疏的2D输入转化为真实的3D视频输出。为了解决这些问题，我们提出了一种基于草图的3D-aware视频编辑方法Sketch3DVE，以实现对视频进行详细局部操作，特别是面对显著视点变化时。为了解决稀疏输入带来的挑战，我们采用图像编辑方法生成首帧的编辑结果，然后将其传播到视频的剩余帧中。我们利用草图作为精确几何控制的交互工具，同时也支持其他基于掩码的图像编辑方法。为了处理视点变化，我们对视频中的3D信息进行了详细分析和操作。具体来说，我们利用密集立体方法来估计输入视频的点云和相机参数。随后，我们提出了一种点云编辑方法，该方法使用深度图表示新编辑组件的3D几何形状，使其有效地与原始3D场景对齐。为了在保留未编辑区域特征的同时无缝融合新编辑内容与原始视频，我们引入了一种3D-aware的掩码传播策略，并采用视频扩散模型生成真实的编辑视频。大量实验表明Sketch3DVE在视频编辑中的优越性。主页和代码: http://geometrylearning.com/Sketch3DVE/",
+        "地址": "https://arxiv.org/pdf/2508.13797.pdf"
+    },
+    {
+        "名称": "2025 [2508.16359] RotaTouille: Rotation Equivariant Deep Learning for Contours.pdf",
+        "作者": "Odin Hoff Gardaa, Nello Blaser",
+        "摘要": "摘要: 在许多领域中，轮廓或封闭的平面曲线是常见的。例如，它们出现在计算机视觉中的物体边界、气象学中的等值线以及旋转机械的轨迹中。在从轮廓数据中学习的许多情况下，输入的平面旋转将导致相应旋转的输出。因此，希望深度学习模型具备旋转等变性。此外，轮廓通常表示为一个有序的边缘点序列，其中起始点的选择是任意的。因此，同样希望深度学习方法在循环移位下具有等变性。我们提出了RotaTouille，这是一种用于从轮廓数据中学习的深度学习框架，通过复值圆形卷积实现旋转和循环移位等变性。我们进一步引入并描述了等变非线性、粗化层和全局池化层，以获得用于下游任务的不变表示。最后，我们通过在形状分类、重建和轮廓回归中的实验，展示了RotaTouille的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.16359.pdf"
+    },
+    {
+        "名称": "2025 [2508.16072] InMind: Evaluating LLMs in Capturing and Applying Individual Human Reasoning Styles.pdf",
+        "作者": "Zizhen Li, Chuanhao Li, Yibin Wang, Qi Chen, Diping Song, Yukang Feng, Jianwen Sun, Jiaxin Ai, Fanrui Zhang, Mingzhu Sun, Kaipeng Zhang",
+        "摘要": "摘要: 大型语言模型（LLMs）在以人为中心的推理任务上表现出色。虽然之前的评估探讨了LLMs是否能够推断意图或检测欺骗，但它们往往忽视了影响人们在社会背景下解释和行动的个性化推理方式。社会推理游戏（SDGs）提供了一个自然的测试平台来评估个性化推理方式，其中不同玩家在相同条件下可能采用多样但具有情境有效性的推理策略。为了解决这个问题，我们引入了InMind，一个认知基础的评估框架，用于评估LLMs是否能在SDGs中捕捉和应用个性化的推理方式。InMind通过回合级策略追踪和游戏后反思来增强结构化游戏数据，并在观察者和参与者模式下收集数据。它支持四个认知动机任务，共同评估静态对齐和动态适应。作为案例研究，我们将InMind应用于游戏阿瓦隆，评估了11个最先进的LLMs。通用LLMs，即使是GPT-4o，通常依赖词汇线索，难以在时间游戏中锚定反思或适应不断变化的策略。相比之下，增强推理的LLMs如DeepSeek-R1在风格敏感推理方面表现出早期迹象。这些研究结果揭示了当前LLMs在个性化、适应性推理方面的关键局限性，并将InMind定位为迈向认知对齐的人机交互的一步。",
+        "地址": "https://arxiv.org/pdf/2508.16072.pdf"
+    },
+    {
+        "名称": "2025 [2508.15868] CARFT: Boosting LLM Reasoning via Contrastive Learning with Annotated Chain-of-Thought-based Reinforced Fine-Tuning.pdf",
+        "作者": "Wenqiao Zhu, Ji Liu, Rongjuncheng Zhang, Haipang Wu, Yulun Zhang",
+        "摘要": "摘要：推理能力在大型语言模型（LLM）的广泛应用中起着极其关键的作用。为了提升LLM的推理性能，已经提出了多种基于强化学习（RL）的微调方法，以解决仅通过监督微调（SFT）训练的LLM的有限泛化能力问题。尽管这些方法有效，但存在两大限制阻碍了LLM的发展。首先，传统RL方法忽视了注释的思维链（CoT），并且引入了不稳定的推理路径抽样，通常会导致模型崩溃、不稳定的训练过程和次优表现。其次，现有的SFT方法通常过分强调注释的CoT，可能导致由于潜在CoT的不足开发而造成性能下降。在本文中，我们提出了一种基于注释CoT的对比学习强化微调方法，即\\\\TheName{}，以提升LLM的推理性能，同时解决上述限制。具体来说，我们提出了为每个CoT学习表示。基于这种表示，我们设计了新的对比信号来指导微调过程。我们的方法不仅充分利用了可用的注释CoT，还通过引入额外的无监督学习信号稳定了微调过程。我们进行了全面的实验和深入分析，使用三个基线方法、两个基础模型和两个数据集，以展示\\\\TheName{}在鲁棒性、性能（最多提高10.15\\\\%）和效率（最多提高30.62\\\\%）方面的显著优势。代码可在此https URL上获取。",
+        "地址": "https://arxiv.org/pdf/2508.15868.pdf"
+    },
+    {
+        "名称": "2025 [2508.13562] Learnable SMPLify: A Neural Solution for Optimization-Free Human Pose Inverse Kinematics.pdf",
+        "作者": "Yuchen Yang, Linfeng Dong, Wei Wang, Zhihang Zhong, Xiao Sun",
+        "摘要": "摘要：在3D人体姿态和形状估计中，SMPLify作为通过迭代优化解决逆运动学（IK）的稳健基准方法，具有很高的计算成本，限制了其实用性。近年来，各领域的研究表明，用数据驱动的神经网络代替迭代优化可显著提高运行时间，而不影响准确性。受此趋势启发，我们提出了Learnable SMPLify，这是一种神经框架，用单次回归模型替代SMPLify中的迭代拟合过程。框架设计针对神经IK中的两个核心挑战：数据构建和泛化性。为了实现有效的训练，我们提出了一种时间采样策略，从连续的帧中构建初始化-目标对。为了提高对多样化动作和未见过姿态的泛化能力，我们提出了一种以人为中心的归一化方案和残差学习方法，以缩小解空间。Learnable SMPLify支持顺序推理和插件后处理，以改进现有的基于图像的估计器。大量实验表明，我们的方法建立了自己作为一个实用且简单的基准：运行速度几乎是SMPLify的200倍，对未见过的3DPW和RICH具有良好的泛化性，并且在作为LucidAction的插件工具时以模型无关的方式运行。代码可以在此URL中获取。",
+        "地址": "https://arxiv.org/pdf/2508.13562.pdf"
+    },
+    {
+        "名称": "2025 [2508.10390] Jailbreaking Commercial Black-Box LLMs with Explicitly Harmful Prompts.pdf",
+        "作者": "Chiyu Zhang, Lu Zhou, Xiaogang Xu, Jiafei Wu, Liming Fang, Zhe Liu",
+        "摘要": "摘要：评估越狱攻击具有挑战性，尤其是提示不明显有害或未能引发有害输出的情况。不幸的是，许多现有的红队数据集包含不适合的提示。为了准确评估攻击，这些数据集需要经过恶意性评估和清理。然而，现有的恶意内容检测方法要么依赖人工注释，劳动强度大，要么依赖大型语言模型（LLMs），在检测有害类型方面准确性不一致。为了平衡准确性和效率，我们提出了一个名为MDH（基于大型语言模型加人工辅助的恶意内容检测）的混合评估框架，结合LLM注释与最低限度的人类监督，并将其应用于数据集清理和越狱响应检测。此外，我们发现精心制作的开发者消息可以显著提高越狱成功率，这使我们提出了两种新的策略：利用上下文模拟的D-Attack和结合劫持思维链的DH-CoT。代码、数据集、评判和检测结果将在GitHub库中发布。",
+        "地址": "https://arxiv.org/pdf/2508.10390.pdf"
+    }
+]
