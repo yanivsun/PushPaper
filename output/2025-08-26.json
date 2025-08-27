@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2508.18265] InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency.pdf",
+        "作者": "Weiyun Wang, Zhangwei Gao, Lixin Gu, Hengjun Pu, Long Cui, Xingguang Wei, Zhaoyang Liu, Linglin Jing, Shenglong Ye, Jie Shao, Zhaokai Wang, Zhe Chen, Hongjie Zhang, Ganlin Yang, Haomin Wang, Qi Wei, Jinhui Yin, Wenhao Li, Erfei Cui, Guanzhou Chen, Zichen Ding, Changyao Tian, Zhenyu Wu, Jingjing Xie, Zehao Li, Bowen Yang, Yuchen Duan, Xuehui Wang, Songze Li, Xiangyu Zhao, Haodong Duan, Nianchen Deng, Bin Fu, Yinan He, Yi Wang, Conghui He, Botian Shi, Junjun He, Yingtong Xiong, Han Lv, Lijun Wu, Wenqi Shao, Kaipeng Zhang, Huipeng Deng, Biqing Qi, Jiaye Ge, Qipeng Guo, Wenwei Zhang, Wanli Ouyang, Limin Wang, Min Dou, Xizhou Zhu, Tong Lu, Dahua Lin, Jifeng Dai, Bowen Zhou, Weijie Su, Kai Chen, Yu Qiao, Wenhai Wang, Gen Luo",
+        "摘要": "摘要: 我们介绍了InternVL 3.5，一个显著提升了InternVL系列的多样性、推理能力和推断效率的新型开放源多模态模型家族。一个关键创新是级联强化学习（Cascade RL）框架，它通过两个阶段的过程增强推理：离线RL实现稳定收敛，在线RL实现精细对齐。这种粗到细的训练策略在下游推理任务（例如MMMU和MathVista）中带来了实质性改善。为优化效率，我们提出了视觉分辨率路由器（Visual Resolution Router，ViR），该路由器能够动态调整视觉标记的分辨率而不影响性能。结合ViR，我们的解耦视觉-语言部署（Decoupled Vision-Language Deployment，DvD）策略能够将视觉编码器和语言模型分配到不同的GPU上，有效地平衡计算负载。这些贡献使InternVL 3.5相比其前代产品InternVL 3在整体推理性能上提升了最高达16.0%，推断速度加快了4.05倍。此外，InternVL 3.5支持新的功能，如GUI交互和具身代理。值得注意的是，我们最大的模型InternVL 3.5-241B-A28B在多模态、推理、文本和代理任务上达到了开放源MLLMs中的最新水平——缩小了与领先商业模型如GPT-5的性能差距。所有模型和代码均公开发布。\n\n参考链接：https://arxiv.org/pdf/2508.18265.pdf",
+        "地址": "https://arxiv.org/pdf/2508.18265.pdf"
+    },
+    {
+        "名称": "2025 [2508.18032] Visual-CoG: Stage-Aware Reinforcement Learning with Chain of Guidance for Text-to-Image Generation.pdf",
+        "作者": "Yaqi Li, Peng Chen, Mingyang Han, Pi Bu, Haoxiang Shi, Runzhou Zhao, Yang Yao, Xuan Zhang, Jun Song, Bo Zheng",
+        "摘要": "摘要: 尽管最近的自回归模型在文本生成图像（T2I）方面取得了令人鼓舞的进展，但它们处理多属性和模糊提示的能力仍然有限。为了解决这些限制，现有的工作应用了思维链（CoT），使阶段感知的视觉合成成为可能，同时采用了强化学习（RL）来改善推理能力。然而，大多数模型仅在生成阶段结束时提供奖励信号。这种单一的最终指导很难识别哪些阶段对最终结果产生积极影响，并可能导致次优策略。为解决此问题，我们提出了一种视觉指导链（Visual-CoG）范式，包括三个阶段：语义推理、过程优化和结果评估，阶段感知奖励在整个图像生成过程中提供即时指导。我们进一步构建了视觉认知基准VisCog-Bench，包括四个子任务来评估语义推理的有效性。在GenEval、T2I-CompBench以及我们提出的VisCog-Bench上的综合评估显示了分别提高了15%、5%和19%，展示了Visual-CoG的卓越性能。我们将很快发布所有资源。",
+        "地址": "https://arxiv.org/pdf/2508.18032.pdf"
+    },
+    {
+        "名称": "2025 [2508.16577] MV-RAG: Retrieval Augmented Multiview Diffusion.pdf",
+        "作者": "Yosef Dayani, Omer Benishu, Sagie Benaim",
+        "摘要": "论文题目: MV-RAG: Retrieval Augmented Multiview Diffusion\n\n摘要：文本到3D生成方法通过利用预训练的2D扩散先验，已经显著进步，产生高质量和3D一致的输出。然而，它们在生成域外（OOD）或稀有概念时，往往会失败，导致结果不一致或不准确。为了解决这个问题，我们提出了MV-RAG，一种新颖的文本到3D流程，首先从一个大型野外2D数据库中检索相关的2D图像，然后将多视角扩散模型置于这些图像上，以合成一致且准确的多视角输出。训练这种检索条件模型是通过一种新颖的混合策略实现的，该策略桥接了结构化多视角数据和多样化的2D图像集合。这涉及到使用增强的条件视图在多视角数据上进行训练，模拟视图特定重建的检索差异，同时在使用独特的保留视图预测目标的检索到的真实世界2D图像集合上进行训练：模型从其他视图预测保留视图，以从2D数据中推断3D一致性。为了促进严格的OOD评估，我们引入了一组新的具有挑战性的OOD提示。与最先进的文本到3D、图像到3D和个性化基准测试的实验表明，我们的方法显著提高了OOD/稀有概念的3D一致性、照片真实感和文本依从性，同时在标准基准测试中保持了竞争性能。\n\n作者：Yosef Dayani, Omer Benishu, Sagie Benaim\n\n评论: 项目页面: 这个HTTPS URL\n\n网址: https://arxiv.org/pdf/2508.16577.pdf",
+        "地址": "https://arxiv.org/pdf/2508.16577.pdf"
+    },
+    {
+        "名称": "2025 [2508.17472] T2I-ReasonBench: Benchmarking Reasoning-Informed Text-to-Image Generation.pdf",
+        "作者": "Kaiyue Sun, Rongyao Fang, Chengqi Duan, Xian Liu, Xihui Liu",
+        "摘要": "摘要：我们提出了T2I-ReasonBench，一种用于评估文本生成图像（T2I）模型推理能力的基准。该基准包括四个维度：成语解释、文本图像设计、实体推理和科学推理。我们提出了一个两阶段的评估协议，用于评估推理准确性和图像质量。我们对各种T2I生成模型进行了基准测试，并提供了关于其性能的全面分析。",
+        "地址": "https://arxiv.org/pdf/2508.17472.pdf"
+    },
+    {
+        "名称": "2025 [2508.18264] MMTok: Multimodal Coverage Maximization for Efficient Inference of VLMs.pdf",
+        "作者": "Sixun Dong, Juhua Hu, Mian Zhang, Ming Yin, Yanjie Fu, Qi Qian",
+        "摘要": "2025年 [2508.18264] MMTok: 多模态覆盖最大化以实现VLMs的高效推理\n\n摘要：\n视觉语言模型（VLMs）通过将视觉输入转换为视觉标记，表现出在理解视觉内容与语言指令方面的卓越性能。然而，视觉标记的冗余性导致了VLMs推理效率的退化。虽然已经提出了许多算法来减少视觉标记的数量，但大多数算法仅应用单模信息（即视觉/文本）进行剪枝，忽略了视觉语言任务的固有多模态属性。此外，还缺乏一种可以应用于不同模态的通用标准。为了解决这一限制，本文提出利用视觉和文本标记通过覆盖标准来选择信息丰富的视觉标记。我们首先将子集选择问题表述为一个最大覆盖问题。随后，一个视觉标记的子集被优化以同时覆盖文本标记和原始视觉标记集。最后，可以采用一个VLM代理进一步提高文本标记的质量，以指导视觉剪枝。我们在不同的VLMs基准数据集上广泛评估了所提出的方法MMTok。比较结果表明，视觉信息和文本信息是互补的，结合多模态信息可以明显超越单模态基线。此外，在POPE数据集上的最大覆盖标准下，我们的方法在LLaVA-NeXT-13B上实现了1.87倍的加速，同时保持了98.7%的原始性能。此外，仅使用四个视觉标记，它仍然在LLaVA-1.5-7B上保留了87.7%的原始性能。这些结果突显了覆盖在标记选择中的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.18264.pdf"
+    },
+    {
+        "名称": "2025 [2508.16949] Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning.pdf",
+        "作者": "Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Jiale Zhao, Jingwen Yang, Jianwei Lv, Kongcheng Zhang, Yihe Zhou, Hengtong Lu, Wei Chen, Yan Xie, Mingli Song",
+        "摘要": "摘要: 最近在大型语言模型（LLMs）方面的进展强调了增强学习（RL）在促进推理能力方面的潜力。尽管结果令人鼓舞，但一个根本性难题依然存在，因为RL的改进依赖于从高质量样本中学习，而对这些样本的探索受到LLMs固有局限性的限制。实际上，这形成了一个恶性循环，无法探索就无法学习。在这项工作中，我们提出了Rubric-Scaffolded Reinforcement Learning (RuscaRL)，这是一个旨在打破通用LLM推理探索瓶颈的新型教学脚手架框架。具体来说，RuscaRL引入了清单式评分标准作为（1）探索期间的显式脚手架，在展开生成期间提供不同评分标准作为任务指令中的外部指南，以引导多样化的高质量响应。随着时间的推移，这种指导逐渐减弱，鼓励模型内化潜在的推理模式；（2）在模型训练期间进行利用的可验证奖励，我们可以使用评分标准作为参考来获得可靠的LLM-as-a-Judge分数，从而在通用推理任务上进行有效的RL。大量实验表明，所提出的RuscaRL在各个基准测试中表现优异，有效拓展了推理边界，在best-of-N评估中表现出色。值得注意的是，RuscaRL显著提高了Qwen2.5-7B-Instruct在HealthBench-500上的分数从23.6提升到50.3，超过了GPT-4.1。此外，我们在Qwen3-30B-A3B-Instruct上微调的变体在HealthBench-500上获得了61.1分，优于包括OpenAI-o3在内的领先LLMs。该工作仍在进行中，我们将很快发布代码、模型和数据集。",
+        "地址": "https://arxiv.org/pdf/2508.16949.pdf"
+    },
+    {
+        "名称": "2025 [2508.16745] Beyond Memorization: Extending Reasoning Depth with Recurrence, Memory and Test-Time Compute Scaling.pdf",
+        "作者": "Ivan Rodkin, Daniil Orel, Konstantin Smirnov, Arman Bolatov, Bilal Elbouardi, Besher Hassan, Yuri Kuratov, Aydar Bulatov, Preslav Nakov, Timothy Baldwin, Artem Shelmanov, Mikhail Burtsev",
+        "摘要": "摘要: 推理是大型语言模型的核心能力，然而理解它们如何学习和执行多步推理仍然是一个未解的问题。在这项研究中，我们探讨了不同架构和训练方法如何在细胞自动机框架内影响模型的多步推理能力。通过对随机初始条件下随机布尔函数生成的状态序列进行训练，以排除记忆，我们证明了大多数神经架构可以学习抽象基础规则。虽然模型在下一个状态预测上达到高准确率，但如果需要多步推理，性能会急剧下降。我们确认增加模型深度对顺序计算至关重要。我们证明，通过循环、记忆和测试时计算扩展有效模型深度，显著增强了推理能力。",
+        "地址": "https://arxiv.org/pdf/2508.16745.pdf"
+    },
+    {
+        "名称": "2025 [2508.18255] Hermes 4 Technical Report.pdf",
+        "作者": "Ryan Teknium, Roger Jin, Jai Suphavadeeprasit, Dakota Mahan, Jeffrey Quesnelle, Joe Li, Chen Guang, Shannon Sands, Karan Malhotra",
+        "摘要": "摘要：我们介绍了Hermes 4，这是一系列混合推理模型，结合了结构化的多回合推理和广泛的指令遵循能力。我们描述了在数据策划、综合、训练和评估过程中遇到的挑战，并概述了为大规模解决这些挑战所采用的解决方案。我们在数学推理、编码、知识、理解和一致性基准测试中进行了全面评估，并报告了定量性能和定性行为分析。为了支持开放研究，所有模型权重都公开发布在这个网址：https://arxiv.org/pdf/2508.18255.pdf",
+        "地址": "https://arxiv.org/pdf/2508.18255.pdf"
+    },
+    {
+        "名称": "2025 [2508.17188] PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs.pdf",
+        "作者": "Zhilin Zhang, Xiang Zhang, Jiaqi Wei, Yiwei Xu, Chenyu You",
+        "摘要": "摘要：基于大型语言模型（LLMs）的多智能体系统在处理复杂的组合任务方面表现出了显著的能力。本研究将这一范式应用于论文到海报生成的问题，这是研究者为参加会议准备时一个实用但耗时的过程。尽管近期的方法尝试自动化这一任务，但大多忽略了核心设计和美学原则，导致生成的海报需要大量手工修正。为了解决这些设计限制，我们提出了PosterGen，一个模拟专业海报设计师工作流程的多智能体框架。该框架由四个协作的专门智能体组成：（1）解析器和策展智能体从论文中提取内容并组织故事板；（2）布局智能体将内容映射到一个连贯的空间布局中；（3）风格智能体应用颜色和排版等视觉设计元素；（4）渲染器合成最终海报。这些智能体共同生成在语义上有依据且视觉上吸引人的海报。为了评估设计质量，我们引入了基于视觉-语言模型（VLM）的评价标准，该标准衡量布局平衡性、可读性和美学一致性。实验结果表明，PosterGen在内容忠实度方面始终一致，并且在视觉设计方面显著优于现有方法，生成的海报几乎无需人工修正即可展示。\n\n翻译后的摘要：基于大型语言模型（LLMs）的多智能体系统在处理复杂的组合任务方面表现出了显著的能力。本研究将这一范式应用于论文到海报生成的问题，这是研究者为参加会议准备时一个实用但耗时的过程。尽管近期的方法尝试自动化这一任务，但大多忽略了核心设计和美学原则，导致生成的海报需要大量手工修正。为了解决这些设计限制，我们提出了PosterGen，一个模拟专业海报设计师工作流程的多智能体框架。该框架由四个协作的专门智能体组成：（1）解析器和策展智能体从论文中提取内容并组织故事板；（2）布局智能体将内容映射到一个连贯的空间布局中；（3）风格智能体应用颜色和排版等视觉设计元素；（4）渲染器合成最终海报。这些智能体共同生成在语义上有依据且视觉上吸引人的海报。为了评估设计质量，我们引入了基于视觉-语言模型（VLM）的评价标准，该标准衡量布局平衡性、可读性和美学一致性。实验结果表明，PosterGen在内容忠实度方面始终一致，并且在视觉设计方面显著优于现有方法，生成的海报几乎无需人工修正即可展示。",
+        "地址": "https://arxiv.org/pdf/2508.17188.pdf"
+    },
+    {
+        "名称": "2025 [2508.17580] UQ: Assessing Language Models on Unsolved Questions.pdf",
+        "作者": "Fan Nie, Ken Ziyu Liu, Zihao Wang, Rui Sun, Wei Liu, Weijia Shi, Huaxiu Yao, Linjun Zhang, Andrew Y. Ng, James Zou, Sanmi Koyejo, Yejin Choi, Percy Liang, Niklas Muennighoff",
+        "摘要": "摘要：基准测试在人工智能研究中的进展起着重要作用。一个有用的基准应该既困难又现实：问题应挑战前沿模型，同时也反映现实世界的使用。然而，当前范式面临困难-现实之间的张力：考试风格的基准测试通常人为地变得很难，具有有限的现实世界价值，而基于真实用户交互的基准测试往往倾向于容易、高频问题。在这项工作中，我们探索了一个完全不同的范式：评估模型在未解决的问题上。我们不是静态的基准测试进行一次评分，而是策划未解决的问题，并通过验证人辅助的筛选和社区验证异步评估模型。我们引入UQ，这是一个由500个来自Stack Exchange的具有挑战性和多样性的问题组成的测试平台，涵盖从计算机科学理论和数学到科幻小说和历史等主题，探讨包括推理、事实性和浏览能力等。UQ从本质上既困难又现实：未解决的问题通常很难，并且自然产生于人类寻求答案时，因此解决这些问题能直接带来现实世界的价值。我们的贡献有三方面：（1）UQ数据集及其集合管道结合了基于规则的过滤器、LLM裁判和人工审核以确保问题质量（例如，定义明确且困难）；（2）UQ验证器，复合验证策略利用生成器-验证器差距提供评估信号并预筛选候选解决方案以供人工审核；（3）UQ平台，一个专家集体验证问题和解决方案的开放平台。顶级模型仅通过了15%的UQ验证问题，初步人工验证已经在通过的答案中识别出正确答案。UQ为评估前沿模型在现实世界、开放性挑战中的成功指明了方向，这推动了人类知识的前沿。我们在此发布UQ。",
+        "地址": "https://arxiv.org/pdf/2508.17580.pdf"
+    },
+    {
+        "名称": "2025 [2508.17290] MEENA (PersianMMMU): Multimodal-Multilingual Educational Exams for N-level Assessment.pdf",
+        "作者": "Omid Ghahroodi, Arshia Hemmat, Marzia Nouri, Seyed Mohammad Hadi Hosseini, Doratossadat Dastgheib, Mohammad Vali Sanian, Alireza Sahebi, Reihaneh Zohrabi, Mohammad Hossein Rohban, Ehsaneddin Asgari, Mahdieh Soleymani Baghshah",
+        "摘要": "摘要： 最近，大型视觉-语言模型（VLMs）在英语方面取得了显著进展，但对其他语言的关注有限。为了解决这一问题，我们推出了MEENA（也称为PersianMMMU），这是首个旨在评估波斯语VLMs在科学、推理和人类理解任务方面的表现的数据集。我们的数据集包含大约7500个波斯语和3000个英语问题，涵盖了广泛的主题，如推理、数学、物理、图表、图表以及波斯艺术和文学。MEENA的主要特点包括：（1）多样的主题覆盖，从小学到高中的不同教育水平，（2）丰富的元数据，包括难度级别和描述性答案，（3）保存文化细微差别的原创波斯数据，（4）双语结构，以评估跨语言表现，以及（5）一系列评估各种能力的多样化实验，包括整体表现、模型关注图像的能力以及生成幻觉的倾向。我们希望这个基准能够促进VLM在英语之外的能力提升。",
+        "地址": "https://arxiv.org/pdf/2508.17290.pdf"
+    },
+    {
+        "名称": "2025 [2508.19201] Understanding Tool-Integrated Reasoning.pdf",
+        "作者": "Heng Lin, Zhongwen Xu",
+        "摘要": "摘要：我们研究了为什么工具集成推理（TIR）使大型语言模型（LLM）更具能力。虽然与Python代码解释器等工具集成的LLM显示出巨大的潜力，但仍缺乏对这种范式有效性的系统理论解释。本文首次提供了TIR从根本上扩展LLM能力的正式证明。我们展示了工具如何严格扩展模型的经验和可行支持，打破了纯文本模型的能力上限，从而解锁了否则无法触及或难以实现的问题解决策略。为了在不影响训练稳定性和性能的情况下引导模型行为，我们还引入了一种创新算法——优势塑形政策优化（ASPO），该算法直接修改优势函数以引导策略行为。我们在具有挑战性的数学基准测试中使用Python解释器作为外部工具进行了全面实验。结果表明，TIR模型在通过率@k指标上明显优于纯文本对照组。关键是，这种优势不仅限于计算密集型问题，还扩展到需要显著抽象洞察力的问题。我们进一步识别了模型如何学会使用工具进行思考的新兴认知模式。最后，我们报告了在使用ASPO时，模型的早期代码调用和更高的互动次数显著改善了工具使用行为。总体而言，我们的工作首次提供了对TIR成功的系统解释，将关注点从工具有效这一事实转向其为何以及如何实现更强大的推理能力。",
+        "地址": "https://arxiv.org/pdf/2508.19201.pdf"
+    },
+    {
+        "名称": "2025 [2508.18190] ST-Raptor: LLM-Powered Semi-Structured Table Question Answering.pdf",
+        "作者": "Zirui Tang, Boyu Niu, Xuanhe Zhou, Boxiu Li, Wei Zhou, Jiannan Wang, Guoliang Li, Xinyi Zhang, Fan Wu",
+        "摘要": "摘要：半结构化表格广泛应用于现实世界中（例如，财务报告、病历、交易订单），通常涉及灵活且复杂的布局（例如，层次化标题和合并单元格）。这些表格通常依赖于人工分析师来解释表格布局并回答相关的自然语言问题，这样的方式既昂贵又低效。为了实现自动化，现有方法面临显著挑战。首先，像NL2SQL这样的方法需要将半结构化表格转换为结构化表格，这往往会导致大量信息丢失。其次，像NL2Code和多模态LLM QA的方法难以理解半结构化表格的复杂布局，无法准确回答相应的问题。为此，我们提出了ST-Raptor，一种利用大型语言模型进行半结构化表格问题回答的基于树的框架。首先，我们引入了层次正交树（HO-Tree），一种捕捉复杂半结构化表格布局的结构模型，并提供了构建该树的有效算法。其次，我们定义了一组基本的树操作来指导LLMs执行常见的QA任务。针对用户问题，ST-Raptor将其分解为更简单的子问题，生成相应的树操作管道，并进行操作-表格对齐以确保管道执行的准确性。第三，我们结合了两阶段验证机制：前向验证检查执行步骤的正确性，而后向验证通过从预测答案中重构查询来评估答案的可靠性。为了基准测试该性能，我们提出了SSTQA，一个包含102个实际半结构化表格和764个问题的数据集。实验表明，ST-Raptor在答案准确性方面比九个基准提高了最多20%。代码可在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.18190.pdf"
+    },
+    {
+        "名称": "2025 [2508.17298] Explain Before You Answer: A Survey on Compositional Visual Reasoning.pdf",
+        "作者": "Fucai Ke, Joy Hsu, Zhixi Cai, Zixian Ma, Xin Zheng, Xindi Wu, Sukai Huang, Weiqing Wang, Pari Delir Haghighi, Gholamreza Haffari, Ranjay Krishna, Jiajun Wu, Hamid Rezatofighi",
+        "摘要": "摘要：组合视觉推理已成为多模态人工智能领域的关键研究前沿，旨在赋予机器分解视觉场景、定位中间概念和执行多步骤逻辑推理的类人能力。虽然早期的综述侧重于单一的视觉语言模型或一般的多模态推理，但专门针对迅速扩展的组合视觉推理文献的综合研究仍然缺失。我们通过综合综述填补了这一空白，系统地回顾了2023年至2025年在顶级会议（CVPR、ICCV、NeurIPS、ICML、ACL 等）上发表的260多篇论文。我们首先形式化核心定义，并描述为什么组合方法在认知对齐、语义保真度、鲁棒性、可解释性和数据效率方面具有优势。接着，我们追溯了一个五阶段范式转变：从增强提示的语言中心管道、工具增强的LLM和工具增强的VLM，到最近新兴的链式推理和统一代理VLM，突出其架构设计、优点和局限性。然后，我们列出了60多个基准和相应的指标，这些指标在定位准确性、链式推理忠实度和高分辨率感知等维度上检验组合视觉推理。根据这些分析，我们提炼了关键见解、识别了开放挑战（如基于LLM的推理的局限性、幻觉、对演绎推理的偏见、可扩展监督、工具集成和基准限制），并概述了未来方向，包括世界模型集成、人机协同推理和更丰富的评估协议。通过提供统一的分类法、历史路线图和关键视角，本综述旨在成为基础性的参考，并激发下一代组合视觉推理研究。",
+        "地址": "https://arxiv.org/pdf/2508.17298.pdf"
+    },
+    {
+        "名称": "2025 [2508.16790] TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling.pdf",
+        "作者": "Yuancheng Wang, Dekun Chen, Xueyao Zhang, Junan Zhang, Jiaqi Li, Zhizheng Wu",
+        "摘要": "摘要：语音分词器是语音语言模型的基础组件，但当前设计存在几个局限，包括：1）依赖多层残差矢量量化结构或高帧率，2）依赖辅助预训练模型进行语义蒸馏，3）需要复杂的两阶段训练过程。在这项工作中，我们介绍了文本感知扩散变压器语音编解码器（TaDiCodec），这是一种旨在克服这些挑战的新方法。TaDiCodec通过扩散自编码器进行量化和重构的端到端优化，同时在扩散解码器中整合文本引导，以增强重构质量并实现最佳压缩。TaDiCodec在单层码本中实现了6.25 Hz的极低帧率和0.0875 kbps的对应比特率，用于24 kHz语音，同时在语音生成评估指标如单词错误率（WER）、讲话者相似性（SIM）和语音质量（UTMOS）上表现优异。值得注意的是，TaDiCodec采用单阶段端到端训练范式，避免了辅助预训练模型的需求。我们还验证了TaDiCodec在基于语言模型的零样本文本到语音转化中的兼容性，包括自回归建模和掩蔽生成建模，展示了其在语音语言建模中的有效性和高效性，以及明显较小的重构-生成差距。我们将开源我们的代码和模型检查点。音频样本可在https:/tadicodec.github.io/获取。我们在https:/github.com/HeCheng0625/Diffusion-Speech-Tokenizer发布代码和模型检查点。",
+        "地址": "https://arxiv.org/pdf/2508.16790.pdf"
+    },
+    {
+        "名称": "2025 [2508.18159] SpotEdit: Evaluating Visually-Guided Image Editing Methods.pdf",
+        "作者": "Sara Ghazanfari, Wei-An Lin, Haitong Tian, Ersin Yumer",
+        "摘要": "摘要: 视觉引导的图像编辑（Visually-guided image editing），即在视觉线索和文本提示下进行编辑，已成为细粒度和可控内容生成的强大范式。虽然最近的生成模型展示了显著的能力，但现有评估仍然简单且不足以代表真实世界的编辑挑战。我们提出了SpotEdit，一个综合基准，旨在系统地评估多样的扩散、自回归和混合生成模型在视觉引导图像编辑方法中的表现，揭示了显著的性能差异。为了解决一个重要但尚未深入研究的挑战，我们的基准包括一个专门的成分，重点关注幻觉现象，突出了领先模型（如GPT-4o）如何经常幻想视觉线索的存在并错误地执行编辑任务。我们的代码和基准可在此https网址公开发布。\n\n作者: Sara Ghazanfari, Wei-An Lin, Haitong Tian, Ersin Yumer",
+        "地址": "https://arxiv.org/pdf/2508.18159.pdf"
+    },
+    {
+        "名称": "2025 [2508.18076] Neither Valid nor Reliable? Investigating the Use of LLMs as Judges.pdf",
+        "作者": "Khaoula Chehbouni, Mohammed Haddou, Jackie Chi Kit Cheung, Golnoosh Farnadi",
+        "摘要": "摘要：评估自然语言生成（NLG）系统仍然是自然语言处理（NLP）中的一个核心挑战，随着旨在成为通用的大型语言模型（LLM）的兴起，这一挑战变得更加复杂。最近，作为评审的大型语言模型（LLJ）已成为传统评估指标的一个有前途的替代方案，但其有效性尚需进一步探讨。这篇立场论文认为，目前对LLJ的热情可能为时过早，因为其采用速度已超过了对其作为评审工具的可靠性和有效性的严格审查。借鉴社会科学的测量理论，我们识别并批判性地评估了使用LLJ的四个核心假设：它们作为人类判断代理的能力、作为评审者的能力、可扩展性以及成本效益。我们探讨了这些假设中的每一个可能如何受到LLM、LLJ或当前NLG评估实践固有局限性的挑战。为了具体分析，我们探讨了LLJ的三个应用：文本摘要、数据注释和安全对齐。最后，我们强调了在LLJ评估中需要更负责任的评估实践，以确保其在该领域日益增长的作用是支持而不是阻碍NLG的进展。",
+        "地址": "https://arxiv.org/pdf/2508.18076.pdf"
+    },
+    {
+        "名称": "2025 [2508.17973] German4All - A Dataset and Model for Readability-Controlled Paraphrasing in German.pdf",
+        "作者": "Miriam Anschütz, Thanh Mai Pham, Eslam Nasrallah, Maximilian Müller, Cristian-George Craciun, Georg Groh",
+        "摘要": "摘要: 文本释义跨不同复杂程度的能力对于创建可以针对不同读者群体量身定制的无障碍文本至关重要。因此，我们介绍了German4All，这是第一个大规模的德语数据集，包含经过可读性控制的段落级释义。该数据集涵盖五个可读性等级，包含超过25,000个样本。数据集是使用GPT-4自动合成的，并通过人工和基于LLM的评估进行了严格评测。使用German4All，我们训练了一个开源的、可读性控制的释义模型，在德语文本简化方面达到了最新的性能，使得适应不同读者的需求更加细腻和特定。我们开源了数据集和模型，以鼓励在多级释义方面的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2508.17973.pdf"
+    },
+    {
+        "名称": "2025 [2508.17821] Limitations of Normalization in Attention Mechanism.pdf",
+        "作者": "Timur Mudarisov, Mikhail Burtsev, Tatiana Petrova, Radu State",
+        "摘要": "摘要：本文研究了注意力机制中归一化的局限性。我们从一个理论框架开始，该框架能够识别模型的选择能力和涉及令牌选择的几何分离。我们的分析包括软最大缩放下令牌向量距离和分离标准的明确界限。通过对预训练的GPT-2模型进行实验，我们实证验证了我们的理论结果，并分析了注意力机制的关键行为。值得注意的是，我们证明了随着选择的令牌数量增加，模型区分信息令牌的能力下降，通常趋向于统一选择模式。我们还表明，在软最大归一化下的梯度灵敏度在训练过程中，尤其是在低温设置下，带来了挑战。这些发现促进了当前对基于软最大的大众注意力机制的理解，并激发了在未来的注意力架构中需要更加健壮的归一化和选择策略的需求。",
+        "地址": "https://arxiv.org/pdf/2508.17821.pdf"
+    },
+    {
+        "名称": "2025 [2508.17811] MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting.pdf",
+        "作者": "Hanzhi Chang, Ruijie Zhu, Wenjie Chang, Mulin Yu, Yanzhe Liang, Jiahao Lu, Zhuoyuan Li, Tianzhu Zhang",
+        "摘要": "摘要：表面重建在计算机视觉和图形学中得到了广泛研究。然而，当输入视图极为稀疏时，现有的表面重建工作难以恢复准确的场景几何。为解决这个问题，我们提出了MeshSplat，一种通过高斯溅射实现的可推广的稀疏视图表面重建框架。我们的关键思路是利用2DGS作为桥梁，连接新视角合成和学习到的几何先验，并将这些先验转移以实现表面重建。具体来说，我们引入了一个前馈网络来预测每视图像素对齐的2DGS，从而使网络能够合成新视角图像，消除了对直接3D真值监督的需求。为提高2DGS位置和方向预测的准确性，我们提出了加权Chamfer距离损失以规范深度图，特别是在输入视图的重叠区域，并且提出了一个法线预测网络，使2DGS的方向与通过单目法线估计器预测的法线向量对齐。大量实验验证了我们所提改善方法的有效性，证明我们的方法在可推广的稀疏视图网格重建任务中达到了当前最先进的性能。项目页面：这个 https URL\n\n翻译：摘要：表面重建在计算机视觉和图形学中得到了广泛研究。然而，当输入视图极为稀疏时，现有的表面重建工作难以恢复准确的场景几何。为解决这个问题，我们提出了MeshSplat，一种通过高斯溅射实现的可推广的稀疏视图表面重建框架。我们的关键思路是利用2DGS作为桥梁，连接新视角合成和学习到的几何先验，并将这些先验转移以实现表面重建。具体来说，我们引入了一个前馈网络来预测每视图像素对齐的2DGS，从而使网络能够合成新视角图像，消除了对直接3D真值监督的需求。为提高2DGS位置和方向预测的准确性，我们提出了加权Chamfer距离损失以规范深度图，特别是在输入视图的重叠区域，并且提出了一个法线预测网络，使2DGS的方向与通过单目法线估计器预测的法线向量对齐。大量实验验证了我们所提改善方法的有效性，证明我们的方法在可推广的稀疏视图网格重建任务中达到了当前最先进的性能。项目页面：这个 https URL",
+        "地址": "https://arxiv.org/pdf/2508.17811.pdf"
+    },
+    {
+        "名称": "2025 [2508.17326] Semantic Diffusion Posterior Sampling for Cardiac Ultrasound Dehazing.pdf",
+        "作者": "Tristan S.W. Stevens, Oisín Nolan, Ruud J.G. van Sloun",
+        "摘要": "摘要：超声心动图在心脏影像中发挥着核心作用，提供了对心脏的动态观察，这对于诊断和监测至关重要。然而，图像质量可能会因为来自多路径混响引起的雾霾而显著下降，特别是在难以成像的患者中。在这项工作中，我们提出了一种面向MICCAI超声心动图去雾挑战赛（DehazingEcho2025）开发的语义引导、基于扩散的去雾算法。我们的方法结合了基于语义分割的像素噪声模型，将其集成到一个由清洁超声数据训练的生成先验引导的扩散后验采样框架中。在挑战赛数据集上的定量评估显示了在对比度和保真度指标上的强劲表现。提交算法的代码可在这个HTTPS URL获取。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.17326.pdf"
+    },
+    {
+        "名称": "2025 [2508.17061] REGEN: Real-Time Photorealism Enhancement in Games via a Dual-Stage Generative Network Framework.pdf",
+        "作者": "Stefanos Pasios, Nikos Nikolaidis",
+        "摘要": "摘要：\n逼真的画面是现代电子游戏中一个重要的方面，因为它能够塑造玩家体验，并同时影响沉浸感、叙事互动和视觉保真度。尽管近年来的硬件技术突破以及先进的渲染技术显著提高了电子游戏的视觉真实感，但在真实时间帧率下的动态环境中实现真正的逼真画面仍然是一个主要挑战，原因在于视觉质量和性能之间的权衡。在本文中，我们提出了一种使用生成对抗网络增强游戏渲染帧逼真度的新方法。为此，我们提出了通过双级生成网络框架进行实时游戏逼真度增强（REGEN），该框架采用强大的无配对图像到图像转换模型来生成语义一致的逼真帧，将问题转化为一个更简单的配对图像到图像转换任务。这使得可以通过一种轻量级的方法进行训练，从而实现在不妥协视觉质量的情况下实现实时推理。我们在《侠盗猎车手V》上展示了我们框架的效果，证明该方法实现了与强大的无配对Im2Im方法生成的视觉效果相当的结果，同时推理速度提高了32.14倍。我们的研究还表明，直接训练轻量级无配对Im2Im转换方法将电子游戏帧转换为现实世界图像视觉特征所生成的逼真帧不如我们的结果。该项目的代码、预训练模型和演示可在此链接中获得。",
+        "地址": "https://arxiv.org/pdf/2508.17061.pdf"
+    },
+    {
+        "名称": "2025 [2508.16838] If We May De-Presuppose: Robustly Verifying Claims through Presupposition-Free Question Decomposition.pdf",
+        "作者": "Shubhashis Roy Dipta, Francis Ferraro",
+        "摘要": "摘要: 先前的研究表明，生成问题中的预设可能引入未经验证的假设，导致在验证主张时出现不一致。此外，大型语言模型（LLMs）的提示敏感性仍然是一个重大挑战，导致高达3-6%的性能差异。尽管最近的进展减少了这一差距，但我们的研究表明提示敏感性仍然是一个持续存在的问题。为了解决这个问题，我们提出了一个结构化且稳健的主张验证框架，通过无预设、分解的问题进行推理。针对多种提示、数据集和LLMs的大量实验表明，即使是最先进的模型仍易受提示差异和预设的影响。我们的方法始终能够缓解这些问题，取得了高达2-5%的改进。",
+        "地址": "https://arxiv.org/pdf/2508.16838.pdf"
+    }
+]
