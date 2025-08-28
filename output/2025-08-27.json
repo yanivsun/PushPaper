@@ -1,0 +1,164 @@
+[
+    {
+        "名称": "2025 [2508.17445] TreePO: Bridging the Gap of Policy Optimization and Efficacy and Inference Efficiency with Heuristic Tree-based Modeling.pdf",
+        "作者": "Yizhi Li, Qingshui Gu, Zhoufutu Wen, Ziniu Li, Tianshun Xing, Shuyue Guo, Tianyu Zheng, Xin Zhou, Xingwei Qu, Wangchunshu Zhou, Zheng Zhang, Wei Shen, Qian Liu, Chenghua Lin, Jian Yang, Ge Zhang, Wenhao Huang",
+        "摘要": "摘要：近期在通过强化学习对大型语言模型进行对齐方面取得了显著进展，成功解决了复杂的推理问题，但代价是昂贵的策略演绎和有限的多样性推理路径探索。在这项工作中，我们介绍了TreePO，这是一种将序列生成视为树结构搜索过程的自引导演绎算法。TreePO由动态树采样策略和固定长度段解码组成，利用局部不确定性来保证额外分支。通过在公共前缀上分摊计算负担并提前修剪低价值路径，TreePO在减少每次更新计算负担的同时保持或增强了探索的多样性。主要贡献包括：(1)一种分段采样算法，通过连续段缓解KV缓存负担，同时生成新分支并应用提前停止机制；(2)一种基于树的段级优势估算方法，考虑全球和局部近邻策略优化；(3)对基于概率和质量驱动的动态分歧和回退策略的有效性进行分析。我们在一组推理基准上实证验证了TreePO的性能提升，并节省了GPU时间，从22%到43%的训练模型采样设计、现有模型在轨迹级和标记级采样计算分别减少了40%和35%。TreePO提供了一条实际路径，可以通过更少的样本和更少的计算扩展基于RL后训练，同时提高推断效率。主页位于此HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2508.17445.pdf"
+    },
+    {
+        "名称": "2025 [2508.19205] VibeVoice Technical Report.pdf",
+        "作者": "Zhiliang Peng, Jianwei Yu, Wenhui Wang, Yaoyao Chang, Yutao Sun, Li Dong, Yi Zhu, Weijiang Xu, Hangbo Bao, Zehua Wang, Shaohan Huang, Yan Xia, Furu Wei",
+        "摘要": "摘要: 本报告介绍了VibeVoice，这是一种新模型，设计用于通过采用下一标记扩散技术合成具有多位说话者的长篇语音。这是一种通过扩散自回归生成潜在向量来统一建模连续数据的方法。为实现这一目标，我们引入了一种新的连续语音分词器，与流行的Encodec模型相比，数据压缩性能提升了80倍，同时性能相当。该分词器有效地保持了音频的保真度，同时极大地提高了处理长序列的计算效率。因此，VibeVoice能够在长达90分钟（64K上下文窗口长度）内合成最多4位说话者的长篇语音，捕捉对话的真实“氛围”，并超越开源和专有对话模型。",
+        "地址": "https://arxiv.org/pdf/2508.19205.pdf"
+    },
+    {
+        "名称": "2025 [2508.18124] CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics.pdf",
+        "作者": "Weida Wang, Dongchen Huang, Jiatong Li, Tengchao Yang, Ziyang Zheng, Di Zhang, Dong Han, Benteng Chen, Binzhao Luo, Zhiyu Liu, Kunling Liu, Zhiyuan Gao, Shiqi Geng, Wei Ma, Jiaming Su, Xin Li, Shuchen Pu, Yuhan Shui, Qianjia Cheng, Zhihao Dou, Dongfei Cui, Changyong He, Jin Zeng, Zeke Xie, Mao Su, Dongzhan Zhou, Yuqiang Li, Wanli Ouyang, Yunqi Cai, Xi Dai, Shufei Zhang, Lei Bai, Jinguang Cheng, Zhong Fang, Hongming Weng",
+        "摘要": "摘要：我们引入了CMPhysBench，这是一个用于评估大型语言模型（LLMs）在凝聚态物理方面熟练程度的新基准。CMPhysBench由超过520个精心策划的研究生水平的问题组成，涵盖了凝聚态物理的代表性子领域和基础理论框架，例如磁性、超导性、强关联系统等。为确保对问题解决过程的深入理解，我们专注于计算问题，要求LLMs独立生成全面的解决方案。同时，通过利用基于树的表达式表示，我们引入了可扩展表达式编辑距离（SEED）评分，该评分提供了细粒度的（非二元）部分积分，并且更准确地评估预测与真实结果之间的相似性。我们的结果显示，即使是最好的模型Grok-4，在CMPhysBench上也仅达到了36的平均SEED评分和28%的准确率，这突显了在与传统物理相比，这一实践和前沿领域内存在显著的能力差距。代码和数据集公开可用，网址详见全文。",
+        "地址": "https://arxiv.org/pdf/2508.18124.pdf"
+    },
+    {
+        "名称": "2025 [2508.19247] VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D Space.pdf",
+        "作者": "Lin Li, Zehuan Huang, Haoran Feng, Gengxiong Zhuang, Rui Chen, Chunchao Guo, Lu Sheng",
+        "摘要": "摘要：3D局部编辑指定区域对游戏行业和机器人互动至关重要。现有方法通常编辑渲染的多视图图像，然后重建3D模型，但它们在精确保留未编辑区域和整体一致性方面面临挑战。受到结构化3D生成模型的启发，我们提出了VoxHammer，一种无需训练的新方法，在3D潜在空间中执行精确和连贯的编辑。给定一个3D模型，VoxHammer首先预测其反转轨迹，并在每个时间步获取其反转的潜变量和键值令牌。随后，在去噪和编辑阶段，我们用相应的反转潜变量和缓存的键值令牌替换保留区域的去噪特征。通过保留这些上下文特征，该方法确保了保留区域的一致重建和编辑部分的连贯整合。为了评估保留区域的一致性，我们构建了Edit3D-Bench，一个人工标注的数据集，其中包含数百个样本，每个样本都仔细标记了3D编辑区域。实验表明，VoxHammer在保留区域的一致性和整体质量方面显著优于现有方法。我们的方法有望合成高质量的编辑配对数据，从而为上下文中的3D生成奠定数据基础。详见我们的项目页面：https URL。",
+        "地址": "https://arxiv.org/pdf/2508.19247.pdf"
+    },
+    {
+        "名称": "2025 [2508.19209] OmniHuman-1.5: Instilling an Active Mind in Avatars via Cognitive Simulation.pdf",
+        "作者": "Jianwen Jiang, Weihong Zeng, Zerong Zheng, Jiaqi Yang, Chao Liang, Wang Liao, Han Liang, Yuan Zhang, Mingyuan Gao",
+        "摘要": "摘要: 现有的视频化身模型能够生成流畅的人物动画，但它们难以超越物理相似性以捕捉角色的真实本质。它们的动作通常与低级别的线索，如音频节奏同步，缺乏对情感、意图或环境的更深层次的语义理解。为了弥补这一空白，我们提出了一个框架，旨在生成不仅在物理上合理，而且在语义上连贯和表达丰富的角色动画。我们的模型OmniHuman-1.5建立在两个关键技术贡献之上。首先，我们利用多模态大语言模型合成条件的结构化文本表示，以提供高级语义指导。这种指导引导我们的动作生成器超越简单的节奏同步，能够生成与环境和情感相关的动作。其次，为了确保这些多模态输入的有效融合并减轻模态间冲突，我们引入了一个专门的多模态DiT架构，以及一个新的伪最后帧设计。这些组件的协同作用使我们的模型能够准确地解释音频、图像和文本的联合语义，从而生成与角色、场景和语言内容深度一致的动作。大量实验表明，我们的模型在包括唇同步准确性、视频质量、动作自然性和与文本提示的语义一致性等综合指标上表现领先。此外，我们的方法在复杂场景（如涉及多人和非人类角色）方面显示出显著的扩展性。\n\n主页网址: this https URL",
+        "地址": "https://arxiv.org/pdf/2508.19209.pdf"
+    },
+    {
+        "名称": "2025 [2508.17661] Spacer: Towards Engineered Scientific Inspiration.pdf",
+        "作者": "Minhyeong Lee, Suyoung Hwang, Seunghyun Moon, Geonho Nah, Donghyun Koh, Youngjun Cho, Johyun Park, Hojin Yoo, Jiho Park, Haneul Choi, Sungbin Moon, Taehoon Hwang, Seungwon Kim, Jaeyeong Kim, Seongjun Kim, Juneau Jung",
+        "摘要": "摘要：最近在大型语言模型 (LLMs) 方面的进展使自动化科学研究成为迈向人工超级智能的下一个前沿。然而，这些系统要么局限于狭窄范围的任务，要么受到LLMs有限的创造能力的束缚。我们提出了Spacer，一个无需外部干预就能开发创造性和事实依据的概念的科学发现系统。Spacer试图通过“故意去情境化”来实现这一目标，这种方法将信息拆分成原子单位——关键词，并通过未探索的关键词之间的联系来激发创造力。Spacer包括 (i) Nuri，一个构建关键词集的启发引擎，以及 (ii) Manifesting Pipeline，这个流水线将这些关键词集精炼成复杂的科学陈述。Nuri从一个由180,000篇生物学领域的学术出版物构建的关键词图中提取新颖的、高潜力的关键词集。Manifesting Pipeline发现关键词之间的联系，分析其逻辑结构，验证其合理性，最终起草原创科学概念。根据我们的实验，Nuri的评估指标准确分类了高影响力出版物，得到的AUROC得分为0.737。我们的Manifesting Pipeline还成功地仅从关键词集中重构了最新顶级期刊文章的核心概念。一个基于LLM的评分系统评估估计这种重构在85%的情况下是可靠的。最后，我们的嵌入空间分析显示，相比现有的最先进LLMs，Spacer的输出与领先出版物更加相似。\n\n网址：https://arxiv.org/pdf/2508.17661.pdf",
+        "地址": "https://arxiv.org/pdf/2508.17661.pdf"
+    },
+    {
+        "名称": "2025 [2508.18756] UltraMemV2: Memory Networks Scaling to 120B Parameters with Superior Long-Context Learning.pdf",
+        "作者": "Zihao Huang, Yu Bao, Qiyang Min, Siyan Chen, Ran Guo, Hongzhi Huang, Defa Zhu, Yutao Zeng, Banggu Wu, Xun Zhou, Siyuan Qiao",
+        "摘要": "摘要：虽然专家混合（MoE）模型通过激活只有一部分参数来实现显著的效率，但它们在推理过程中因高内存访问成本而受到影响。记忆层架构提供了一种具有极少内存访问的有吸引力的替代方案，但之前的尝试如UltraMem仅能匹配2专家MoE模型的性能，显著落后于最先进的8专家配置。我们介绍UltraMemV2，这是一种重新设计的记忆层架构，弥补了这一性能差距。我们的方法引入了五个关键改进：将记忆层集成到每个transformer块中，通过单线性投影简化值扩展，采纳PEER的基于FFN的值处理，实现标准参数初始化，重新平衡内存与FFN计算比例。通过广泛评估，我们证明UltraMemV2在相同计算和参数下达到与8专家MoE模型的性能平衡，但内存访问显著减少。值得注意的是，UltraMemV2在内存密集型任务上表现优越，长上下文记忆上提升了+1.6点，多轮记忆上提升+6.2点，上下文学习提升+7.9点。我们在规模上验证了我们的方法，激活参数达2.5B，总参数数120B，并建立了激活密度对性能的影响比总稀疏参数数量更大。我们的工作使记忆层架构在性能方面与最先进的MoE模型持平，呈现出一种高效稀疏计算的有力替代方案。",
+        "地址": "https://arxiv.org/pdf/2508.18756.pdf"
+    },
+    {
+        "名称": "2025 [2508.17437] Pixie: Fast and Generalizable Supervised Learning of 3D Physics from Pixels.pdf",
+        "作者": "Long Le, Ryan Lucas, Chen Wang, Chuhao Chen, Dinesh Jayaraman, Eric Eaton, Lingjie Liu",
+        "摘要": "摘要：从视觉信息中推断3D场景的物理属性是创建互动和现实虚拟世界的一个关键且具有挑战性的任务。虽然人类可以直观地理解材料特性，如弹性或刚度，但现有方法往往依赖于缓慢的每场景优化，限制了它们的普适性和应用。为了解决这个问题，我们介绍了PIXIE，一种新方法，通过监督损失训练一个可广泛应用的神经网络，从3D视觉特征中预测多个场景的物理属性。一旦训练完成，我们的前馈网络可以快速推断出合理的材料场，通过与学习到的静态场景表示（如高斯喷射）结合，实现外部力作用下的现实物理模拟。为了促进这项研究，我们还收集了PIXIEVERSE，这是已知的最大的配对3D资产和物理材料注释数据集之一。广泛的评估表明，PIXIE比测试时优化方法快了1.46-4.39倍，并且其效果优于后者。通过利用预训练的视觉特征（如CLIP），我们的方法即使仅在合成数据上训练过，也可以在现实世界场景中实现零样本泛化。",
+        "地址": "https://arxiv.org/pdf/2508.17437.pdf"
+    },
+    {
+        "名称": "2025 [2508.15774] CineScale: Free Lunch in High-Resolution Cinematic Visual Generation.pdf",
+        "作者": "Haonan Qiu, Ning Yu, Ziqi Huang, Paul Debevec, Ziwei Liu",
+        "摘要": "摘要: 视觉扩散模型取得了显著进展，但由于缺乏高分辨率数据和受限的计算资源，它们通常在有限分辨率下进行训练，阻碍了其生成高保真图像或视频的能力。最近的研究探索了无需调优的策略，以展示预训练模型在更高分辨率视觉生成中的潜力。然而，这些方法仍然容易产生低质量的视觉内容，并带有重复模式。关键障碍在于当模型生成超出其训练分辨率的视觉内容时，不可避免地会增加高频信息，导致由累积误差产生的不良重复模式。在这项工作中，我们提出了CineScale，一种新的推理模式，以实现更高分辨率的视觉生成。针对两种视频生成架构引入的各种问题，我们提出了专门为每种架构量身定制的变体。与现有的基准方法仅限于高分辨率T2I和T2V生成不同，CineScale通过允许基于最先进的开源视频生成框架进行高分辨率I2V和V2V合成，拓展了范围。广泛的实验验证了我们这一模式在扩展图像和视频模型的高分辨率视觉生成能力方面的优越性。值得注意的是，我们的方法在无需任何微调的情况下实现了8k图像生成，且仅需最小的LoRA微调即能达到4k视频生成。生成的视频样本可在我们的网站上查看：此https URL。",
+        "地址": "https://arxiv.org/pdf/2508.15774.pdf"
+    },
+    {
+        "名称": "2025 [2508.19242] Autoregressive Universal Video Segmentation Model.pdf",
+        "作者": "Miran Heo, Sukjun Hwang, Min-Hung Chen, Yu-Chiang Frank Wang, Albert Gu, Seon Joo Kim, Ryo Hachiuma",
+        "摘要": "摘要：最近的视频基础模型如SAM2，在通过将掩码视为通用原语进行提示视频分割方面表现出色。然而，许多现实世界的设置需要非提示分割，旨在检测和跟踪视频中的所有对象，无需外部提示。这使得当今的任务特定模型和流水线碎片化。我们将流视频分割重定义为序列掩码预测，类似于语言建模，并引入了自回归通用分割模型（AUSM），这是一种统一提示和非提示视频分割的单一架构。基于最新的状态空间模型，AUSM保持固定大小的空间状态，并扩展到任意长度的视频流。此外，AUSM的所有组件均设计用于跨帧的并行训练，从而在迭代训练上带来了显著的速度提升。在标准基准测试（DAVIS17、YouTube-VOS 2018和2019、MOSE、YouTube-VIS 2019和2021、OVIS）中，AUSM优于之前的通用流视频分割方法，并在16帧序列上的训练速度提高了最多2.5倍。",
+        "地址": "https://arxiv.org/pdf/2508.19242.pdf"
+    },
+    {
+        "名称": "2025 [2508.18621] Wan-S2V: Audio-Driven Cinematic Video Generation.pdf",
+        "作者": "Xin Gao, Li Hu, Siqi Hu, Mingyang Huang, Chaonan Ji, Dechao Meng, Jinwei Qi, Penchong Qiao, Zhen Shen, Yafei Song, Ke Sun, Linrui Tian, Guangyuan Wang, Qi Wang, Zhongjian Wang, Jiayu Xiao, Sheng Xu, Bang Zhang, Peng Zhang, Xindi Zhang, Zhe Zhang, Jingren Zhou, Lian Zhuo",
+        "摘要": "摘要: 当前最先进的音频驱动角色动画方法在主要涉及的语音和歌唱场景中表现出了令人鼓舞的性能。然而，它们在更复杂的电影和电视制作中往往表现不佳，这需要复杂的元素，如细腻的角色互动、逼真的身体动作和动态的摄像镜头。为了解决这一长期存在的难题，我们提出了一种基于音频驱动的模型，我们称之为Wan-S2V，该模型基于Wan构建。与现有方法相比，我们的模型在电影语境中的表现显著增强了表现力和逼真度。我们进行了广泛的实验，将我们的方法与最先进的模型，如Hunyuan-Avatar和Omnihuman进行了基准测试。实验结果一致表明，我们的方法显著优于这些现有的解决方案。此外，我们通过其在长格式视频生成和精确视频唇同步编辑中的应用，探索了我们方法的多功能性。",
+        "地址": "https://arxiv.org/pdf/2508.18621.pdf"
+    },
+    {
+        "名称": "2025 [2508.18579] DrugReasoner: Interpretable Drug Approval Prediction with a Reasoning-augmented Language Model.pdf",
+        "作者": "Mohammadreza Ghaffarzadeh-Esfahani, Ali Motahharynia, Nahid Yousefian, Navid Mazrouei, Jafar Ghaisari, Yousof Gheisari",
+        "摘要": "摘要：药物发现是一个复杂且资源密集的过程，早期预测批准结果对于优化研究投资至关重要。尽管经典机器学习和深度学习方法在药物批准预测中表现出了一定的潜力，但其有限的可解释性限制了其影响力。本文提出了DrugReasoner，一种基于推理的大型语言模型（LLM），其构建基于LLaMA架构，并通过组相对策略优化（GRPO）进行了微调，用于预测小分子批准的可能性。DrugReasoner结合了分子描述符，并通过对比结构上类似的已批准和未批准化合物进行推理，生成预测结果以及逐步推理和置信度评分。DrugReasoner在验证集上的表现稳健，AUC为0.732，F1得分为0.729，在测试集上的AUC和F1得分分别为0.725和0.718。这些结果优于传统的基准方法，包括逻辑回归、支持向量机和k近邻算法，并与XGBoost相比表现相当。在外部独立数据集上，DrugReasoner不仅优于基准模型，还优于最近开发的ChemAP模型，AUC为0.728，F1得分为0.774，同时保持高精度和平衡的敏感性，展示了其在现实场景中的鲁棒性。这些发现表明，DrugReasoner不仅提供了竞争性的预测准确性，还通过其推理输出增强了透明度，从而解决了人工智能辅助药物发现中的一个关键瓶颈。该研究表明，增强推理的LLM作为制药决策的可解释且有效工具具有潜力。",
+        "地址": "https://arxiv.org/pdf/2508.18579.pdf"
+    },
+    {
+        "名称": "2025 [2508.19188] FastMesh: Efficient Artistic Mesh Generation via Component Decoupling.pdf",
+        "作者": "Jeonghwan Kim, Yushi Lan, Armando Fortes, Yongwei Chen, Xingang Pan",
+        "摘要": "摘要：最近的网格生成方法通常将三角网格标记为一系列的标记，并训练自回归模型以顺序生成这些标记。尽管取得了实质性进展，但这种标记序列不可避免地多次重用顶点以完全表示流形网格，因为每个顶点由多个面共享。这种冗余导致标记序列过长和生成过程效率低下。本文提出一种有效的框架，通过将顶点和面分开处理来生成艺术网格，从而显著减少冗余。我们使用自回归模型仅用于顶点生成，将所需标记数减少到现有最紧凑标记器的约23%。接下来，我们利用双向变压器在一步中完成网格，通过捕捉顶点间关系并构建定义网格面的邻接矩阵来完成生成。为了进一步提高生成质量，我们引入了一个保真度增强器，将顶点位置调整为更自然的排列，并提出了一个后处理框架以去除不需要的边连接。实验结果表明，与最先进的方法相比，我们的方法在网格生成速度上快了8倍以上，同时生成更高质量的网格。",
+        "地址": "https://arxiv.org/pdf/2508.19188.pdf"
+    },
+    {
+        "名称": "2025 [2508.15804] ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks.pdf",
+        "作者": "Minghao Li, Ying Zeng, Zhihao Cheng, Cong Ma, Kai Jia",
+        "摘要": "摘要：深度研究代理的出现大大减少了进行广泛研究任务所需的时间。然而，这些任务本质上要求严格的事实准确性和全面性，在广泛采用之前需要进行彻底的评估。在本文中，我们提出了ReportBench，这是一种系统的基准测试，用于评估由大型语言模型（LLMs）生成的研究报告的内容质量。我们的评价重点关注两个关键维度：（1）引用文献的质量和相关性，以及（2）生成报告中陈述的真实性和准确性。ReportBench利用arXiv上的高质量已发表调研论文作为黄金标准参考，我们通过反向提示工程来提取领域特定的提示，并建立了一个全面的评估语料库。此外，我们在ReportBench中开发了一个基于代理的自动框架，通过提取引用和陈述系统地分析生成的报告，检查引用内容的真实性与原始来源的对比，并使用基于网络的资源验证无引用的声明。实证评估表明，OpenAI和Google开发的商业深度研究代理比单独使用搜索或浏览工具增强的LLMs生成的报告更加全面和可靠。然而，在研究覆盖的广度和深度以及事实一致性方面仍有很大的改进空间。完整的代码和数据将在以下链接发布：this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.15804.pdf"
+    },
+    {
+        "名称": "2025 [2508.18773] ThinkDial: An Open Recipe for Controlling Reasoning Effort in Large Language Models.pdf",
+        "作者": "Qianyu He, Siyu Yuan, Xuefeng Li, Mingxuan Wang, Jiangjie Chen",
+        "摘要": "摘要：大型语言模型（LLMs）通过思维链推理展现出了显著的问题解决能力，但在实际应用中控制它们的计算耗费仍然是一个重大挑战。最近的一些专有系统，如OpenAI的gpt-oss系列，已引入离散操作模式以直观地控制推理，但开源社区在实现此类能力方面基本未取得成功。在本文中，我们介绍了ThinkDial，这是第一个通过离散操作模式成功实现gpt-oss风格可控推理的开源端到端框架。我们的系统能够在三种不同的推理方式之间无缝切换：高模式（全推理能力）、中模式（减少50%的token，性能下降<10%）、低模式（减少75%的token，性能下降<15%）。我们通过一种端到端的训练范式实现了这一点，该范式在整个管道中整合了预算模式控制：预算模式监督微调直接将可控推理能力嵌入学习过程中，以及带有自适应奖励塑造的两阶段预算感知强化学习。大量实验证明，ThinkDial在保持性能阈值的同时，通过减少响应长度，实现了目标压缩-性能折中。该框架在分布外任务上也表现出强大的泛化能力。\n\n作者：Qianyu He, Siyu Yuan, Xuefeng Li, Mingxuan Wang, Jiangjie Chen\n\n链接：https://arxiv.org/pdf/2508.18773.pdf\n\n标题：ThinkDial: An Open Recipe for Controlling Reasoning Effort in Large Language Models",
+        "地址": "https://arxiv.org/pdf/2508.18773.pdf"
+    },
+    {
+        "名称": "2025 [2508.18672] Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks.pdf",
+        "作者": "Taishi Nakamura, Satoki Ishikawa, Masaki Kawamura, Takumi Okamoto, Daisuke Nohara, Jun Suzuki, Rio Yokota",
+        "摘要": "摘要：经验性缩放法则推动了大型语言模型（LLMs）的发展，但每当模型架构或数据处理管道发生变化，其系数也会发生变化。专家混合（MoE）模型现已成为最先进系统中的标准，引入了当前密集模型前沿忽略的新稀疏维度。我们研究了MoE稀疏性如何影响记忆和推理两种不同的能力状态。我们训练了系统地变化总参数、活动参数和top-$k$路由，同时保持计算预算不变的MoE Transformer家族。对于每个模型，我们记录了预训练损失、后续任务损失和任务准确性，使我们能够区分训练-测试泛化差距和损失-准确性差距。记忆基准随着总参数的增加而单调改善，反映了训练损失。相比之下，尽管总参数和训练损失不断增加，推理性能却趋于饱和，甚至可能退步。仅在活动参数保持不变时改变top-$k$几乎没有效果，学习率和初始化等经典超参数在与稀疏性相同的方向上调整泛化差距。无论是训练后强化学习（GRPO）还是额外的测试时计算，都无法挽救过于稀疏模型的推理缺陷。我们的模型检查点、代码和日志在此https网址开源。\n\n评论：在ICML第二届AI数学工作坊上展示。",
+        "地址": "https://arxiv.org/pdf/2508.18672.pdf"
+    },
+    {
+        "名称": "2025 [2508.19026] MovieCORE: COgnitive REasoning in Movies.pdf",
+        "作者": "Gueter Josmy Faure, Min-Hung Chen, Jia-Fong Yeh, Ying Cheng, Hung-Ting Su, Yung-Hao Tang, Shang-Hong Lai, Winston H. Hsu",
+        "摘要": "摘要：本文介绍了MovieCORE，一种新颖的视频问答（VQA）数据集，旨在深入探讨电影内容的认知理解。与聚焦于表层理解的现有数据集不同，MovieCORE强调提出与视频素材相关且需要系统2思维的问题。我们提出了一种创新的主体性头脑风暴方法，利用多个大型语言模型（LLM）作为思维代理来生成和完善高质量的问答对。为了评估数据集质量，我们开发了一套认知测试，评估深度、思维激发潜力和句法复杂性。我们还提出了一个全面的评估方案，用于评估VQA模型在更深层认知任务上的表现。为了解决现有视频语言模型（VLM）的局限性，我们引入了一个主体性增强模块，代理选择增强（ACE），可以在训练后将模型推理能力提高最多25%。我们的工作有助于推进AI系统中的电影理解，并提供关于现有VQA模型在面对更具挑战性、细腻的问题时的能力和局限性的有价值见解。我们的项目页面、数据集和代码可以在此https URL找到。",
+        "地址": "https://arxiv.org/pdf/2508.19026.pdf"
+    },
+    {
+        "名称": "2025 [2508.18271] ObjFiller-3D: Consistent Multi-view 3D Inpainting via Video Diffusion Models.pdf",
+        "作者": "Haitang Feng, Jie Liu, Jie Tang, Gangshan Wu, Beiqi Chen, Jianhuang Lai, Guangcong Wang",
+        "摘要": "摘要: 3D补绘通常依赖多视角的2D图像补绘，其中不同补绘视角间的固有不一致性可能导致纹理模糊、空间不连续和分散的视觉伪影。这些不一致性在追求准确和真实的3D对象完成时提出了重大挑战，特别是在要求高保真度和结构连贯性的应用中。为了克服这些局限性，我们提出了ObjFiller-3D，一种用于高质量和一致的3D对象完成和编辑的新方法。与传统的2D图像补绘模型不同，我们的方法利用精挑细选的最先进的视频编辑模型来填充3D对象的遮盖区域。我们分析了3D和视频之间的表示差距，并提出了视频补绘模型的适应性，以用于3D场景补绘。此外，我们引入了一种基于参考的3D补绘方法，以进一步提高重建质量。关于各种数据集的实验显示，与以前的方法相比，ObjFiller-3D生成了更多真实和细致的重建（PSNR为26.6，对比NeRFiller的15.9 和LPIPS为0.19，对比Instant3dit的0.25）。此外，它在实际部署中的现实世界3D编辑应用中表现出强大的潜力。项目页面: this https URL 代码: this https URL。",
+        "地址": "https://arxiv.org/pdf/2508.18271.pdf"
+    },
+    {
+        "名称": "2025 [2508.15213] Select to Know: An Internal-External Knowledge Self-Selection Framework for Domain-Specific Question Answering.pdf",
+        "作者": "Bolei He, Xinran He, Run Shao, Shanfu Shu, Xianwei Xue, Mingquan Cheng, Haifeng Li, Zhenhua Ling",
+        "摘要": "摘要: 大型语言模型（LLMs）在通用问答方面表现良好，但在特定领域场景中常常表现不佳。检索增强生成（RAG）引入了外部知识，但由于检索噪音而导致的幻觉和延迟问题频发。持续预训练尽管内化了领域知识，但成本高昂且缺乏跨领域的灵活性。我们将这一挑战归因于领域知识的长尾分布，这使得部分但有用的内在知识未能充分利用。我们进一步认为，知识获取应当是渐进式的，模仿人类学习：首先理解概念，然后将其应用于复杂推理中。为了解决这个问题，我们提出了Selct2Know（S2K），一个通过内外知识自选择策略和选择性监督微调来内化领域知识的低成本框架。我们还介绍了一个结构化推理数据生成管道，并集成了GRPO以增强推理能力。对医疗、法律和金融问答基准的实验表明，S2K持续优于现有方法，并以显著较低的成本匹敌领域预训练的LLMs。",
+        "地址": "https://arxiv.org/pdf/2508.15213.pdf"
+    },
+    {
+        "名称": "2025 [2508.18370] Training Language Model Agents to Find Vulnerabilities with CTF-Dojo.pdf",
+        "作者": "Terry Yue Zhuo, Dingmin Wang, Hantian Ding, Varun Kumar, Zijian Wang",
+        "摘要": "摘要: 大型语言模型 (LLMs) 在可执行的运行时环境中训练时展示出卓越的能力，特别是在通过验证反馈环在软件工程任务中表现出色。然而，可扩展且通用的执行环境仍然稀缺，限制了训练更强大的机器学习代理的进展。本文介绍了 CTF-Dojo，这是首个大规模的可执行运行时环境，专为通过可验证反馈训练 LLMs 而设计，包含658个完全功能的 Capture-The-Flag (CTF) 风格的挑战，这些挑战被容器化在 Docker 中，保证了可复现性。为了实现快速扩展且无需人工干预，我们开发了 CTF-Forge，这是一条自动化流水线，可以在几分钟内将公开可用的工件转化为可用的执行环境，消除了传统上需要专家配置的数周时间。我们在 CTF-Dojo 中的仅486条高质量、执行验证的轨迹上训练了基于 LLM 的代理，在三个竞争性的基准测试中比强大的基线取得了最高11.6%的绝对增益：InterCode-CTF, NYU CTF Bench 和 Cybench。我们的表现最好的32B模型达到了31.9%的Pass@1，建立了新的开源权重的状态达到最前沿的模型，如DeepSeek-V3-0324 和 Gemini-2.5-Flash。通过将CTF风格的任务框定为可执行代理学习的基准，CTF-Dojo展示了执行基础的训练信号不仅是有效的，而且对于在没有依赖昂贵的专有系统的情况下推进高性能机器学习代理至关重要。",
+        "地址": "https://arxiv.org/pdf/2508.18370.pdf"
+    },
+    {
+        "名称": "2025 [2508.16697] QueryBandits for Hallucination Mitigation: Exploiting Semantic Features for No-Regret Rewriting.pdf",
+        "作者": "Nicole Cho, William Watson, Alec Koppel, Sumitra Ganesh, Manuela Veloso",
+        "摘要": "摘要: 在大型语言模型（LLMs）中，先进的推理能力导致了更高的幻觉出现率；然而，大多数缓解工作主要集中在事后过滤，而不是塑造触发这些幻觉的查询。我们引入了QueryBandits，这是一种设计重写策略的Bandit框架，旨在最大化基于输入查询的17种语言特征敏感性封装幻觉倾向的奖励模型的奖励，从而主动引导LLMs避免产生幻觉。在13个不同的问答基准和每个数据集1050个词汇扰动查询的测试中，我们的顶级上下文QueryBandit（汤普森采样）在无重写基线上的胜率达到87.5%，并且分别比零样本静态提示（“重述”或“扩展”）高出42.6%和60.3%。因此，我们通过实验证实了QueryBandits在缓解幻觉方面的有效性，该方法以查询重写的形式进行干预。有趣的是，一些静态提示策略（构成当前查询重写文献中的相当一部分）比无重写基线有更高的累计遗憾，表明静态重写可能会加剧幻觉。此外，我们发现收敛的每臂回归特征权重向量证实，没有一种单一的重写策略对所有查询都是最优的。在这种情况下，通过QueryBandits利用语义特征进行引导重写，可以通过前向传递机制诱导输出行为的显著转变，而无需重新训练或基于梯度的适应。",
+        "地址": "https://arxiv.org/pdf/2508.16697.pdf"
+    },
+    {
+        "名称": "2025 [2508.19500] Servant, Stalker, Predator: How An Honest, Helpful, And Harmless (3H) Agent Unlocks Adversarial Skills.pdf",
+        "作者": "David Noever",
+        "摘要": "摘要：本文识别并分析了基于模型上下文协议（MCP）代理系统中的一种新颖的漏洞类别。攻击链描述并展示了如何将单个授权任务结合起来产生有害的突发行为。通过使用MITRE ATLAS框架的系统分析，我们展示了如何使用95个具有多种服务访问权限的代理——包括浏览器自动化、财务分析、位置跟踪和代码部署——将合法操作链接成复杂的攻击序列，这些序列超出了任何单个服务的安全边界。这些红队演练调查了当前的MCP架构是否缺乏必要的跨域安全措施来检测或防止大类组合攻击。我们提供了服务编排实现目标性危害的具体攻击链的实证数据，包括数据泄露、财务操纵和基础设施妥协。这些发现揭示了，当代理能够在多个域内协调行动时，服务隔离的基本安全假设会失败，随着每项额外功能的增加，攻击面呈指数增长。本研究提供了一个简化的实验框架，不是评估代理是否能够完成MCP基准任务，而是评估当代理完成这些任务过于优秀并在多个服务中优化时会发生什么，从而违反人类的期望和安全约束。我们提出了三种使用现有MCP基准套件的具体实验方向。",
+        "地址": "https://arxiv.org/pdf/2508.19500.pdf"
+    },
+    {
+        "名称": "2025 [2508.19202] Demystifying Scientific Problem-Solving in LLMs by Probing Knowledge and Reasoning.pdf",
+        "作者": "Alan Li, Yixin Liu, Arpan Sarkar, Doug Downey, Arman Cohan",
+        "摘要": "摘要：科学问题解决对大型语言模型（LLMs）提出了独特的挑战，既需要深厚的领域知识，又需要通过复杂的推理来应用这些知识。虽然自动化科学推理工具在协助人类科学家方面具有巨大的潜力，但目前尚无广泛采用的整体基准来评估科学推理，也很少有方法系统地区分知识和推理在这些任务中的不同角色。为了解决这些问题，我们推出了SciReas，一套多样化的现有科学推理任务基准，以及SciReas-Pro，一个选择性的子集，要求更复杂的推理。我们的整体评估揭示了依赖单个基准时隐藏的科学推理性能的见解。随后，我们提出了KRUX，这是一个用于研究科学任务中推理和知识不同角色的探测框架。结合这两者，我们进行了深入分析，得出了几个关键发现：（1）从模型参数中检索任务相关知识是LLMs在科学推理中的一个关键瓶颈；（2）推理模型在上下文中添加外部知识后能够持续受益，并提升推理能力；（3）增强语言化推理提高了LLMs突出任务相关知识的能力。最后，我们进行了轻量化分析，将我们的以科学为重点的数据组合与长链思维方式（CoT SFT）上的并行工作进行了比较，并发布了SciLit01，一个用于科学推理的强大8B基线。\n\n作者：Alan Li, Yixin Liu, Arpan Sarkar, Doug Downey, Arman Cohan\n\n评论：28页，16张图\n\n网址：https://arxiv.org/pdf/2508.19202.pdf\n\n标题：2025 [2508.19202] 解开通过知识和推理探测LLMs科学问题解决的迷雾",
+        "地址": "https://arxiv.org/pdf/2508.19202.pdf"
+    },
+    {
+        "名称": "2025 [2508.18192] Unraveling the cognitive patterns of Large Language Models through module communities.pdf",
+        "作者": "Kushal Raj Bhandari, Pin-Yu Chen, Jianxi Gao",
+        "摘要": "摘要：大型语言模型（LLMs）通过应用于科学发现、医学诊断到聊天机器人，在科学、工程和社会等领域取得了显著进展，重新塑造了我们的世界。尽管其普及和实用性，它们的基础机制依然隐藏在数十亿个参数和复杂结构中，使得其内部架构和认知过程难以理解。我们通过采用理解生物学中新兴认知的方法并开发基于网络的框架，连结认知技能、LLM架构和数据集，填补这一空白，从而在基础模型分析中引发范式转变。模块社区中的技能分布显示，尽管LLM并不严格并行特定生物系统中的集中专业化，它们表现出独特的模块社区，其新兴技能模式部分反映了在鸟类和小型哺乳动物大脑中见到的分布但互连的认知组织。我们的数值结果突出显示了从生物系统到LLM的关键差异，其中技能获得显著受益于动态的跨区域互动和神经可塑性。通过将认知科学原理与机器学习相结合，我们的框架提供了对LLM可解释性的新的见解，并建议有效的微调策略应利用分布式学习动态而非僵化的模块化干预。\n\n翻译：\n大型语言模型（LLMs）通过应用于科学发现、医学诊断到聊天机器人，在科学、工程和社会等领域取得了显著进展，重新塑造了我们的世界。尽管其普及和实用性，它们的基础机制依然隐藏在数十亿个参数和复杂结构中，使得其内部架构和认知过程难以理解。我们通过采用理解生物学中新兴认知的方法并开发基于网络的框架，连结认知技能、LLM架构和数据集，填补这一空白，从而在基础模型分析中引发范式转变。模块社区中的技能分布显示，尽管LLM并不严格并行特定生物系统中的集中专业化，它们表现出独特的模块社区，其新兴技能模式部分反映了在鸟类和小型哺乳动物大脑中见到的分布但互连的认知组织。我们的数值结果突出显示了从生物系统到LLM的关键差异，其中技能获得显著受益于动态的跨区域互动和神经可塑性。通过将认知科学原理与机器学习相结合，我们的框架提供了对LLM可解释性的新的见解，并建议有效的微调策略应利用分布式学习动态而非僵化的模块化干预。",
+        "地址": "https://arxiv.org/pdf/2508.18192.pdf"
+    },
+    {
+        "名称": "2025 [2508.17621] Steering When Necessary: Flexible Steering Large Language Models with Backtracking.pdf",
+        "作者": "Jinwei Gan, Zifeng Cheng, Zhiwei Jiang, Cong Wang, Yafeng Yin, Xiang Luo, Yuchen Fu, Qing Gu",
+        "摘要": "摘要：大型语言模型（LLMs）在许多生成任务中取得了显著的性能。然而，有效地使它们与期望的行为对齐仍然是一个重大的挑战。激活引导是一种有效且成本效益高的方法，通过在推理阶段直接修改LLMs的激活状态，使其响应与期望行为对齐，避免了微调的高成本。现有方法通常对所有生成无差别地干预或仅依赖于问题来决定干预，这限制了干预强度的准确评估。为此，我们提出了具有回溯机制的灵活激活引导（FASB）框架，通过在生成过程中跟踪LLMs的内部状态，动态确定干预的必要性和强度，既考虑问题又考虑生成内容。由于在检测到偏离期望行为后进行干预往往为时已晚，我们进一步提出了回溯机制来纠正偏离的标记，并引导LLMs朝期望的行为发展。在TruthfulQA数据集和六个多项选择数据集上的大量实验表明，我们的方法优于基准方法。我们的代码将发布在该URL上。",
+        "地址": "https://arxiv.org/pdf/2508.17621.pdf"
+    },
+    {
+        "名称": "2025 [2508.18921] Forecasting Probability Distributions of Financial Returns with Deep Neural Networks.pdf",
+        "作者": "Jakub Michańków",
+        "摘要": "摘要：本研究评估了深度神经网络在预测金融收益概率分布方面的表现。使用了一维卷积神经网络（CNN）和长短期记忆（LSTM）架构来预测三种概率分布的参数：正态分布、学生t分布和偏斜学生t分布。通过自定义的负对数似然损失函数，直接优化分布参数。模型在六个主要股指（标普500、BOVESPA、DAX、WIG、日经225和KOSPI）上进行测试，使用概率评估指标包括对数预测得分（LPS）、连续排名概率得分（CRPS）和概率积分变换（PIT）。结果表明，深度学习模型提供了准确的分布预测，并且在价值风险估计方面与经典的GARCH模型具有竞争力。其中，使用偏斜学生t分布的LSTM在多个评估标准中表现最佳，能够捕捉金融收益中的重尾和不对称性。该研究表明深度神经网络是传统经济学模型在金融风险评估和投资组合管理方面的可行替代方案。\n\n作者：Jakub Michańków\n\n评论：12页，4个图表，5个表格\n\nURL：https://arxiv.org/pdf/2508.18921.pdf\n\n标题：2025 [2508.18921] 使用深度神经网络预测金融收益概率分布",
+        "地址": "https://arxiv.org/pdf/2508.18921.pdf"
+    },
+    {
+        "名称": "2025 [2508.17234] ClaimGen-CN: A Large-scale Chinese Dataset for Legal Claim Generation.pdf",
+        "作者": "Siying Zhou, Yiquan Wu, Hui Chen, Xavier Hu, Kun Kuang, Adam Jatowt, Ming Hu, Chunyan Zheng, Fei Wu",
+        "摘要": "摘要：法律诉求指的是案件中原告提出的要求，对于引导司法推理和解决案件至关重要。虽然许多研究致力于提高法律专业人士的效率，但关于帮助非专业人士（如原告）的研究仍属未探讨领域。本文探讨了基于案件事实生成法律诉求的问题。首先，我们从各种真实的法律纠纷中构建了ClaimGen-CN，首个用于中文法律诉求生成任务的数据集。此外，我们设计了一种评估指标，用于评估生成的法律诉求，涵盖了两个重要维度：事实性和清晰度。基于此，我们对最新的通用和法律领域大型语言模型进行了全面的零样本评估。我们的研究结果揭示了当前模型在事实精度和表达清晰度方面的局限性，表明需要在该领域进行更有针对性的开发。为了鼓励对这一重要任务的进一步探索，我们将公开该数据集。",
+        "地址": "https://arxiv.org/pdf/2508.17234.pdf"
+    }
+]
