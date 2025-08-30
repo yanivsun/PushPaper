@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2508.20751] Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning.pdf",
+        "作者": "Yibin Wang, Zhimin Li, Yuhang Zang, Yujie Zhou, Jiazi Bu, Chunyu Wang, Qinglin Lu, Cheng Jin, Jiaqi Wang",
+        "摘要": "摘要: 最近的发展强调了基于 GRPO 的强化学习方法和基准测试在增强文本到图像（T2I）生成中的重要性。然而，使用点对点奖励模型（RM）对生成图像进行评分的当前方法容易受到奖励欺骗的影响。我们发现，当图像之间的最小得分差异在归一化后被放大时，这种情况就会发生，从而创建虚幻的优势，驱使模型为琐碎的收益过度优化，最终使图像生成过程不稳定。为了解决这个问题，我们提出了 Pref-GRPO，一种基于配对偏好奖励的 GRPO 方法，它将优化目标从得分最大化转移到偏好拟合，确保更稳定的训练。在 Pref-GRPO 中，图像在每组内使用偏好 RM 成对比较，并将胜率用作奖励信号。大量实验表明，PREF-GRPO 区分了微妙的图像质量差异，提供了更稳定的优势并减轻了奖励欺骗。此外，现有的 T2I 基准测试因粗放的评估标准而受到限制，阻碍了全面的模型评估。为了解决这个问题，我们引入了 UniGenBench，一个统一的 T2I 基准测试，包括 5 个主要主题和 20 个子主题的 600 个提示。它通过 10 个主要和 27 个子标准评估语义一致性，利用 MLLM 进行基准测试构建和评估。我们的基准测试发现了开放和闭源 T2I 模型的优缺点，并验证了 Pref-GRPO 的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.20751.pdf"
+    },
+    {
+        "名称": "2025 [2508.20722] rStar2-Agent: Agentic Reasoning Technical Report.pdf",
+        "作者": "Ning Shang, Yifei Liu, Yi Zhu, Li Lyna Zhang, Weijiang Xu, Xinyu Guan, Buze Zhang, Bingcheng Dong, Xudong Zhou, Bowen Zhang, Ying Xin, Ziming Miao, Scarlett Li, Fan Yang, Mao Yang",
+        "摘要": "摘要：我们介绍了rStar2-Agent，这是一个经过代理强化学习训练的14B数学推理模型，具有前沿水平的性能。除了目前较长的思维链(CoT)，该模型展示了高级认知行为，例如在使用Python编码工具前仔细思考，并在代码执行反馈上进行反思，以自主探索、验证和改进复杂问题解决的中间步骤。这种能力通过三个关键创新实现，使代理强化学习在大规模上有效：(i) 一个高效的RL基础设施，具有可靠的Python代码环境，支持高吞吐量执行并减少高展开成本，使有限的GPU资源（64 MI300X GPU）训练成为可能；(ii) GRPO-RoC，这是一个带有正确重采样策略的代理强化学习算法，解决了编码工具固有的环境噪声问题，使模型在代码环境中更有效地推理；(iii) 一个高效的代理训练方案，从非推理SFT开始，经过多个RL阶段，以最小的计算成本产生先进的认知能力。为此，rStar2-Agent在一周内经过510次RL步骤，将预训练的14B模型提升至最先进水平，在AIME24上的平均通过率达到80.6%，在AIME25上的通过率达到69.8%，以显著更短的响应时间超过了DeepSeek-R1（671B）。除了数学领域，rStar2-Agent-14B还展示了对对齐、科学推理和代理工具使用任务的强适应能力。代码和训练方案可通过此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.20722.pdf"
+    },
+    {
+        "名称": "2025 [2508.18966] USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning.pdf",
+        "作者": "Shaojin Wu, Mengqi Huang, Yufeng Cheng, Wenxu Wu, Jiahe Tian, Yiming Luo, Fei Ding, Qian He",
+        "摘要": "摘要：现有文献通常将风格驱动和主题驱动的生成视为两个不相交的任务：前者优先考虑风格相似性，而后者坚持主题一致性，导致明显的对抗性。我们认为这两个目标可以在一个统一的框架下实现，因为它们最终均与内容和风格的解构与重构有关，这是风格驱动研究中的长期主题。为此，我们提出了USO，一个统一风格主题优化定制模型。首先，我们构建了一个大规模三元组数据集，包括内容图像、风格图像及其对应的风格化内容图像。其次，我们引入了一个解构学习方案，通过风格对齐训练和内容风格解构训练两个互补的目标，同时对齐风格特征并解构内容与风格。第三，我们采用了一种风格奖励学习（SRL）范式，以进一步提升模型性能。最后，我们发布了USO-Bench，这是第一个通过多种指标共同评估风格相似性和主题忠实度的基准。大量实验表明，USO在主题一致性和风格相似性两个维度上均达到开源模型的最新性能。代码和模型：详见此URL。",
+        "地址": "https://arxiv.org/pdf/2508.18966.pdf"
+    },
+    {
+        "名称": "2025 [2508.20453] MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers.pdf",
+        "作者": "Zhenting Wang, Qi Chang, Hemani Patel, Shashank Biju, Cheng-En Wu, Quan Liu, Aolin Ding, Alireza Rezazadeh, Ankit Shah, Yujia Bao, Eugene Siow",
+        "摘要": "摘要：我们介绍了MCP-Bench，这是一套用于评估大型语言模型（LLMs）在现实、多步任务中的基准。这些任务要求使用工具、跨工具协同、精确参数控制以及规划/推理来解决问题。MCP-Bench基于模型上下文协议（MCP）构建，将LLMs连接到28个代表性的实时MCP服务器，这些服务器涵盖了金融、旅行、科学计算和学术搜索等领域的250种工具。与之前基于API的基准不同，每个MCP服务器提供一套设计为互补工作的工具，能够构建具有丰富输入输出耦合的真实、多步任务。MCP-Bench中的任务测试代理从模糊指令中检索相关工具能力（不明确指定工具名称）、为复杂目标规划多跳执行路径、在中间工具输出中根植回应、以及协调跨领域工作流程——这些都是现有基准未充分评估的能力，因为它们依赖明确的工具规范、浅层少步工作流和孤立的领域操作。我们提出了一个多方面的评估框架，包括工具级模式理解和使用、轨迹级规划和任务完成。对20个高级LLMs进行的实验揭示了在MCP-Bench中的持续挑战。代码和数据：this https URL。\n\n作者：王振廷、常琦、Hemani Patel、Shashank Biju、吴承恩、刘全、丁奥林、Alireza Rezazadeh、Ankit Shah、包毓佳、Eugene Siow\n\n链接：https://arxiv.org/pdf/2508.20453.pdf\n\n标题：2025 [2508.20453] MCP-Bench: 用MCP服务器通过复杂真实世界任务来基准测试工具使用LLM代理。",
+        "地址": "https://arxiv.org/pdf/2508.20453.pdf"
+    },
+    {
+        "名称": "2025 [2508.20404] AWorld: Orchestrating the Training Recipe for Agentic AI.pdf",
+        "作者": "Chengyue Yu, Siyuan Lu, Chenyi Zhuang, Dong Wang, Qintong Wu, Zongyue Li, Runsheng Gan, Chunfeng Wang, Siqi Hou, Gaochi Huang, Wenlong Yan, Lifeng Hong, Aohui Xue, Yanfeng Wang, Jinjie Gu, David Tsai, Tao Lin",
+        "摘要": "摘要：实践学习范式对于开发能力强大的代理人工智能系统至关重要，但它受到低效经验生成的严重阻碍，特别是在像GAIA这类复杂基准中。这种瓶颈尤其显著。为了解决这个问题，我们提出了AWorld，这是一个开源系统，旨在实现大规模代理环境交互。通过将任务分配到集群中，AWorld将经验收集速度提高了14.6倍，与标准的单节点顺序执行相比，这一关键加速使广泛的强化学习成为可能并具有可扩展性。利用这一能力，我们训练了一个基于Qwen3-32B的代理，它显著优于其基础模型，将其整体GAIA准确率从21.59%提高到32.23%。在基准的最具挑战性关卡中，我们的代理取得了16.33%的成绩，超越了领先的专有模型的表现。我们的开源系统和结果代理为完整的代理人工智能训练流程提供了实用的蓝图，从高效交互到显著的模型改进。",
+        "地址": "https://arxiv.org/pdf/2508.20404.pdf"
+    },
+    {
+        "名称": "2025 [2508.20374] TCIA: A Task-Centric Instruction Augmentation Method for Instruction Finetuning.pdf",
+        "作者": "Simin Ma, Shujian Liu, Jun Tan, Yebowen Hu, Song Wang, Sathish Reddy Indurthi, Sanqiang Zhao, Liwei Wu, Jianbing Han, Kaiqiang Song",
+        "摘要": "摘要: 多样化的指令数据对于大型语言模型的有效指令调整至关重要，因为它使模型能够对不同类型的输入进行泛化。构建这种多样化的指令数据集是这一过程中的关键步骤。现有方法通常利用大型语言模型自动探索和生成多样化的指令，以确保数据的多样性和质量。然而，它们往往忽略了实际应用中的一个重要因素：任务相关性。实际上，只有少数实际应用需要真正通用的模型；大多数应用受益于针对特定使用案例定制的任务特定知识。因此，开发不仅保持多样性且针对特定、实际场景优化的指令扩展方法至关重要。因此，我们介绍了任务中心指令增强（TCIA），这是一个系统扩展指令的框架，同时保持多样性和任务对齐。通过在离散的查询-约束空间中表示指令，TCIA创建了一组丰富的任务相关指令，使模型能够泛化到这些任务特定的指令，而不会影响整体性能。实验证明，TCIA在四个真实世界的任务特定应用中使开源LLM的性能平均提高8.7%，在某些情况下甚至超过了领先的闭源模型。这些改进不会影响一般指令跟随能力，使TCIA成为适应真实世界任务集中的可扩展且高效的解决方案。\n\n翻译：多样化的指令数据对于大型语言模型的有效指令调整至关重要，因为它使模型能够对不同类型的输入进行泛化。构建这种多样化的指令数据集是这一过程中的重要步骤。现有方法通常利用大型语言模型自动探索和生成多样化的指令，以确保数据的多样性和质量。然而，这些方法往往忽视一个现实应用中的关键因素：任务相关性。实际上，只有少数现实应用需要真正通用的模型；大多数应用更需要特定任务的知识。 因此，开发一种既能保持多样性又能针对特定现实场景进行优化的指令扩展方法是十分必要的。我们介绍了任务中心指令增强（TCIA），这是一个能够在保持多样化和任务对齐的情况下系统地扩展指令的框架。通过在离散的查询-约束空间中表示指令，TCIA创建了一组丰富的任务相关指令，使模型能够理解并适应这些特定任务的指令，而不会降低整体性能。实验结果显示，TCIA使开源大型语言模型在四个真实世界任务特定应用中的性能平均提升了 8.7%，在某些情况下甚至超过了领先的闭源模型。这些改进不会影响模型的一般指令跟随能力，使TCIA成为适应现实任务集中应用的一个可扩展且高效的解决方案。",
+        "地址": "https://arxiv.org/pdf/2508.20374.pdf"
+    },
+    {
+        "名称": "2025 [2508.21058] Mixture of Contexts for Long Video Generation.pdf",
+        "作者": "Shengqu Cai, Ceyuan Yang, Lvmin Zhang, Yuwei Guo, Junfei Xiao, Ziyan Yang, Yinghao Xu, Zhenheng Yang, Alan Yuille, Leonidas Guibas, Maneesh Agrawala, Lu Jiang, Gordon Wetzstein",
+        "摘要": "摘要：长视频生成本质上是一个长上下文记忆问题：模型必须在长时间范围内保留和检索重要事件，而不会崩溃或漂移。然而，将扩散变压器扩展到生成长上下文视频在本质上受到自注意力的二次成本的限制，这使得内存和计算变得难以处理和优化长序列的视频生成。我们将长上下文视频生成重新定义为一个内部信息检索任务，并提出了一种简单的、可学习的稀疏注意力路由模块——上下文混合（MoC），作为一种有效的长期记忆检索引擎。在MoC中，每个查询动态选择一些信息块和强制锚（字幕、本地窗口）进行关注，并通过因果路由防止循环闭合。随着我们扩展数据并逐渐稀疏路由，模型将计算分配给重要的历史，保留身份、动作和场景内容长达数分钟。效率作为检索的副产品（近线性扩展）出现，从而实现实际的训练和合成，并在数分钟的时间尺度上实现记忆和一致性。\n\n翻译：\n2025年：长视频生成本质上是一个长上下文记忆问题：模型必须在长时间范围内保留和检索重要事件，而不会崩溃或漂移。然而，将扩散变压器扩展到生成长上下文视频在本质上受到自注意力的二次成本的限制，这使得内存和计算变得难以处理和优化长序列的视频生成。我们将长上下文视频生成重新定义为一个内部信息检索任务，并提出了一种简单的、可学习的稀疏注意力路由模块——上下文混合（MoC），作为一种有效的长期记忆检索引擎。在MoC中，每个查询动态选择一些信息块和强制锚（字幕、本地窗口）进行关注，并通过因果路由防止循环闭合。随着我们扩展数据并逐渐稀疏路由，模型将计算分配给重要的历史，保留身份、动作和场景内容长达数分钟。效率作为检索的副产品（近线性扩展）出现，从而实现实际的训练和合成，并在数分钟的时间尺度上实现记忆和一致性。",
+        "地址": "https://arxiv.org/pdf/2508.21058.pdf"
+    },
+    {
+        "名称": "2025 [2508.20766] Turning the Spell Around: Lightweight Alignment Amplification via Rank-One Safety Injection.pdf",
+        "作者": "Harethah Abu Shairah, Hasan Abed Al Kader Hammoud, George Turkiyyah, Bernard Ghanem",
+        "摘要": "摘要: 在大型语言模型（LLMs）的安全对齐中，通常涉及调节内部表示以拒绝有害请求。最近的研究表明，可以通过切除或移除模型中的特定表示方向来绕过这些安全机制。在本文中，我们提出了相反的方法：Rank-One Safety Injection（ROSI），这是一种白盒方法，通过永久性地将模型的激活引导至拒绝中介子空间来放大模型的安全对齐。ROSI作为一种简单的、无需微调的一级权重修改，应用于所有残差流写矩阵。所需的安全方向可以通过一小组有害和无害指令对计算出来。我们表明，ROSI在提高安全拒绝率方面表现稳定——通过Llama Guard 3评估——同时在标准基准测试（如MMLU、HellaSwag和Arc）上保持模型的实用性。此外，我们表明，ROSI还可以通过放大模型自身的潜在安全方向来重新对齐“未审查”的模型，证明其作为一种有效的最后安检程序的实用性。我们的结果表明，有针对性的、可解释的权重引导是一种廉价而有效的机制，可以提升LLM的安全性，补充了更多资源密集型的微调范式。\n\n作者: Harethah Abu Shairah, Hasan Abed Al Kader Hammoud, George Turkiyyah, Bernard Ghanem\n\n评论: 审稿中\n\n链接: https://arxiv.org/pdf/2508.20766.pdf\n\n标题: Turning the Spell Around: Lightweight Alignment Amplification via Rank-One Safety Injection",
+        "地址": "https://arxiv.org/pdf/2508.20766.pdf"
+    },
+    {
+        "名称": "2025 [2508.21060] Multi-View 3D Point Tracking.pdf",
+        "作者": "Frano Rajič, Haofei Xu, Marko Mihajlovic, Siyuan Li, Irem Demir, Emircan Gündoğdu, Lei Ke, Sergey Prokudin, Marc Pollefeys, Siyu Tang",
+        "摘要": "摘要:\n我们介绍了第一款数据驱动的多视角3D点跟踪器，设计用于使用多个摄像机视角跟踪动态场景中的任意点。与现有的单目跟踪器在深度模糊和遮挡方面存在困难或需要超过20个摄像机以及繁琐的每序列优化的之前多摄像机方法不同，我们的前馈模型直接利用实际数量的摄像机（例如，四个）预测3D对应关系，从而实现稳健和准确的在线跟踪。给定已知的摄像机姿态和基于传感器或估算的多视角深度，我们的跟踪器将多视角特征融合到统一的点云中，并通过k近邻关联和基于Transformer的更新可靠地估算长距离3D对应关系，即使在遮挡情况下也能实现。我们在5000个合成的多视角Kubric序列上进行训练，并在两个现实世界基准——Panoptic Studio和DexYCB上进行评估，分别实现了3.1厘米和2.0厘米的中位轨迹误差。我们的方法很好地泛化到多种摄像机设置（1-8视角）以及不同视角点和视频长度（24-150帧）。通过发布我们的跟踪器以及训练和评估数据集，我们旨在为多视角3D跟踪研究设立新的标准，并为现实世界应用提供实用工具。项目页面可通过以下链接访问此https URL。",
+        "地址": "https://arxiv.org/pdf/2508.21060.pdf"
+    },
+    {
+        "名称": "2025 [2508.21046] CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing & Sparsification.pdf",
+        "作者": "Wei Li, Renshan Zhang, Rui Shao, Jie He, Liqiang Nie",
+        "摘要": "摘要：最近基于预训练视觉语言模型（VLM）构建的视觉语言动作（VLA）模型需要大量后期训练，导致高计算开销，限制了可扩展性。CogVLA提出了一种认知对齐的视觉语言动作框架，通过指令驱动的路由和稀疏化来提高效率和性能。CogVLA借鉴人类多模态协调，介绍了三阶段渐进架构：1）编码器-FiLM基聚合路由（EFA-Routing）将指令信息注入视觉编码器，以选择性地聚合和压缩双流视觉标记，形成指令感知的潜在表示。2）基于这种紧凑的视觉编码，LLM-FiLM基剪枝路由（LFP-Routing）通过修剪指令无关的视觉标记将动作意图引入语言模型，从而实现标记级别的稀疏性。3）为确保压缩的感知输入仍能支持准确连贯的动作生成，我们引入V-L-A耦合注意（CAtten），结合因果视觉-语言注意与双向动作并行解码。在LIBERO基准和真实机器人任务上的广泛实验证明CogVLA达到最先进的性能，成功率分别为97.4%和70.0%，同时训练成本减少2.5倍，推理延迟减少2.8倍。CogVLA是开源的，可在此网址公开获得。\n\n作者：魏丽，任善张，邵睿，何杰，聂立强\n\n评论：23页，8个图，项目页面：此网址\n\nURL：https://arxiv.org/pdf/2508.21046.pdf\n\n标题：2025 [2508.21046] CogVLA：通过指令驱动路由和稀疏化实现认知对齐的视觉语言动作模型.pdf",
+        "地址": "https://arxiv.org/pdf/2508.21046.pdf"
+    },
+    {
+        "名称": "2025 [2508.21066] OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning.pdf",
+        "作者": "Yuan Gong, Xionghui Wang, Jie Wu, Shiyin Wang, Yitong Wang, Xinglong Wu",
+        "摘要": "摘要: 在本文中，我们介绍了OneReward，一个统一的强化学习框架，通过使用唯一奖励模型增强模型在不同评估标准下多任务生成的能力。我们使用一个单一的视觉-语言模型（VLM）作为生成奖励模型，该模型能够区别给定任务和给定评估标准的胜负者，从而可以有效地应用于多任务生成模型，特别是在数据和任务目标多样化的背景下。我们利用OneReward进行掩膜指导的图像生成，该任务可以进一步分为几个子任务，如图像填充、图像扩展、对象移除和文字渲染，涉及一个二进制掩膜作为编辑区域。虽然这些特定领域的任务共享相同的条件范式，但它们在数据分布和评估指标上存在显著差异。现有方法通常依赖于任务特定的监督微调（SFT），这限制了泛化和训练效率。基于OneReward，我们开发了Seedream 3.0 Fill，一个通过多任务强化学习直接在预训练基础模型上进行训练，无需任务特定的SFT的掩膜指导生成模型。实验结果显示，我们的统一编辑模型在多个评估维度上始终优于商用和开源竞争对手，如Ideogram、Adobe Photoshop和FLUX Fill [Pro]。代码和模型可在此 https URL 获取。",
+        "地址": "https://arxiv.org/pdf/2508.21066.pdf"
+    },
+    {
+        "名称": "2025 [2508.17450] Persuasion Dynamics in LLMs: Investigating Robustness and Adaptability in Knowledge and Safety with DuET-PD.pdf",
+        "作者": "Bryan Chen Zhengyu Tan, Daniel Wai Kit Chin, Zhengyuan Liu, Nancy F. Chen, Roy Ka-Wei Lee",
+        "摘要": "摘要: 大型语言模型（LLMs）在令人信服的对话中可能会在轻信虚假信息和抵制有效修正之间难以平衡，这是可靠部署的一个关键挑战。我们引入了 DuET-PD（双重评估在可信劝服对话中的应用），这是一个评估跨越双重维度（劝服类型：纠正/误导，领域：通过 MMLU-Pro 获得的知识和通过 SALAD-Bench 获得的安全性）的多轮立场变化动态的框架。我们发现，即使是最先进的模型，如 GPT-4o，在持续的误导性劝服下，MMLU-Pro 的准确率仅为 27.32%。此外，结果显示新开源模型中阿谀奉承的趋势令人担忧。为了解决这个问题，我们引入了 Holistic DPO，这是一种在训练中平衡正面和负面劝服实例的方法。与提示或仅抵制训练不同，Holistic DPO 提高了对错误信息的鲁棒性和对修正的接受度，使 Llama-3.1-8B-Instruct 在安全环境中的误导性劝服下的准确率从 4.21% 提高到 76.54%。这些贡献为开发用于多轮对话的更可靠和适应性更强的 LLMs 提供了路径。代码可在此 URL 获得。",
+        "地址": "https://arxiv.org/pdf/2508.17450.pdf"
+    },
+    {
+        "名称": "2025 [2508.21070] Dress&Dance: Dress up and Dance as You Like It - Technical Preview.pdf",
+        "作者": "Jun-Kun Chen, Aayush Bansal, Minh Phuoc Vo, Yu-Xiong Wang",
+        "摘要": "摘要：我们展示了Dress&Dance，一个视频扩散框架，可以在用户穿着指定服装、按照参考视频中的动作移动时，生成高质量的5秒长、24帧每秒、分辨率为1152x720的虚拟试穿视频。我们的方法需要一个用户图像，并支持一系列的上衣、下装和连衣服，以及同时试穿上衣和下装。我们框架的关键是CondNet，一种新颖的条件网络，利用注意力机制统一多模态输入（文本、图像和视频），从而增强服装注册和运动的保真度。CondNet经过多阶段渐进方式在异构训练数据（结合有限的视频数据和更容易获取的图像数据）上进行训练。Dress&Dance优于现有的开源和商业解决方案，实现了高质量和灵活的试穿体验。\n\n翻译：我们展示了Dress&Dance，一个视频扩散框架，可以在用户穿着指定服装、按照参考视频中的动作移动时，生成高质量的5秒长、24帧每秒、分辨率为1152x720的虚拟试穿视频。我们的方法需要一个用户图像，并支持一系列的上衣、下装和连衣服，以及同时试穿上衣和下装。我们框架的关键是CondNet，一种新颖的条件网络，利用注意力机制统一多模态输入（文本、图像和视频），从而增强服装注册和运动的保真度。CondNet经过多阶段渐进方式在异构训练数据（结合有限的视频数据和更容易获取的图像数据）上进行训练。Dress&Dance优于现有的开源和商业解决方案，实现了高质量和灵活的试穿体验。",
+        "地址": "https://arxiv.org/pdf/2508.21070.pdf"
+    },
+    {
+        "名称": "2025 [2508.21052] FakeParts: a New Family of AI-Generated DeepFakes.pdf",
+        "作者": "Gaetan Brison, Soobash Daiboo, Samy Aimeur, Awais Hussain Sani, Xi Wang, Gianni Franchi, Vicky Kalogeiton",
+        "摘要": "摘要: 我们介绍了FakeParts，这是一类新的深度伪造，其特征是对原本真实视频中特定空间区域或时间段进行细微的局部操作。与完全合成的内容不同，这些部分操控（从面部表情的改变到物体替换和背景修改）与真实元素完美融合，使其特别具有欺骗性且难以检测。为了解决检测能力方面的关键差距，我们推出了FakePartsBench，首个大规模的基准数据集，专为捕捉部分深度伪造的全谱而设计。这个数据集包含超过25K视频，并提供像素级和帧级的操控注释，使得检测方法的全面评估成为可能。我们的用户研究表明，与传统的深度伪造相比，FakeParts使得人类检测准确率降低了30%以上，且在最先进的检测模型中也观察到了类似的性能下降。此项工作识别了当前深度伪造检测方法中的一个紧迫漏洞，并提供了必要资源，以开发更为鲁棒的部分视频操控检测方法。",
+        "地址": "https://arxiv.org/pdf/2508.21052.pdf"
+    },
+    {
+        "名称": "2025 [2508.18633] ROSE: Remove Objects with Side Effects in Videos.pdf",
+        "作者": "Chenxuan Miao, Yutong Feng, Jianshu Zeng, Zixiang Gao, Hantang Liu, Yunfeng Yan, Donglian Qi, Xi Chen, Bin Wang, Hengshuang Zhao",
+        "摘要": "摘要：由于视频生成模型的最新成功，视频对象去除技术取得了先进的表现。然而，当处理对象的副作用（例如其影子和反射）时，现有的工作由于缺乏成对的视频数据作为监督而难以消除这些效果。本文提出了一种名为ROSE的框架，即通过系统研究对象对环境的影响来去除对象及其副作用。对象的影响可以分为五种常见情况：影子、反射、光线、半透明和镜面。考虑到展示上述效果的成对视频的策划挑战，我们利用3D渲染引擎进行合成数据生成。我们仔细构建了一个全自动流程进行数据准备，模拟了具有多种场景、对象、拍摄角度和相机轨迹的大规模成对数据集。ROSE被实现为一种基于扩散变压器的视频修复模型。为了定位所有与对象相关的区域，整个视频被输入模型进行基于参考的擦除。此外，引入了额外的监督来明确预测受副作用影响的区域，这些区域可以通过成对视频之间的差异掩码显现出来。为了全面调查模型在各种副作用去除上的表现，我们提出了一个新的基准测试，名为ROSE-Bench，其包含了常见场景和五种特殊副作用进行全面评估。实验结果表明，ROSE比现有的视频对象擦除模型表现更优，并且在实际视频场景中具有良好的泛化能力。项目页面为此https网址。\n\n作者：Chenxuan Miao, Yutong Feng, Jianshu Zeng, Zixiang Gao, Hantang Liu, Yunfeng Yan, Donglian Qi, Xi Chen, Bin Wang, Hengshuang Zhao\n\n网址： https://arxiv.org/pdf/2508.18633.pdf\n\n标题：2025 [2508.18633] ROSE: Remove Objects with Side Effects in Videos.pdf",
+        "地址": "https://arxiv.org/pdf/2508.18633.pdf"
+    },
+    {
+        "名称": "2025 [2508.21061] OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models.pdf",
+        "作者": "Adam Coscia, Shunan Guo, Eunyee Koh, Alex Endert",
+        "摘要": "摘要：随着与大型语言模型（LLMs）的多轮对话变得越来越长和复杂，用户如何更好地评估和审查其对话目标的进展？我们提出了OnGoal，这是一个LLM聊天界面，帮助用户更好地管理目标进展。OnGoal通过LLM辅助评估提供实时的目标对齐反馈，并通过示例解释评估结果，还提供目标进展的概览，帮助用户更有效地导航复杂的对话。通过对20名参与写作任务的用户进行研究，我们评估了OnGoal与不具有目标跟踪功能的基线聊天界面的对比表现。使用OnGoal，参与者花费更少的时间和精力来实现其目标，同时探索新的提示策略以克服误解，这表明跟踪和可视化目标可以增强LLM对话中的参与度和韧性。我们的研究结果为未来LLM聊天界面的设计提出了启示，这些界面可以改善目标沟通，减少认知负荷，增强互动性，并提供改进LLM性能的反馈。\n\n该论文作者：Adam Coscia, Shunan Guo, Eunyee Koh, Alex Endert\n\n备注：已被2025年用户界面软件与技术会议（UIST 2025）接受。18页，9个图，2个表。演示视频请见此https URL",
+        "地址": "https://arxiv.org/pdf/2508.21061.pdf"
+    },
+    {
+        "名称": "2025 [2508.20755] Provable Benefits of In-Tool Learning for Large Language Models.pdf",
+        "作者": "Sam Houliston, Ambroise Odonnat, Charles Arnal, Vivien Cabannes",
+        "摘要": "摘要: 增强工具的语言模型，通过检索、记忆或外部API，正在重塑AI领域，但其理论优势尚未得到充分探索。在本文中，我们通过展示外部检索（工具内学习）相对于内在权重记忆（记忆）在事实召回上的优势，解决了这个问题。我们表明，仅靠模型权重所能记忆的事实数量从根本上受到其参数数量的限制。相比之下，我们证明了通过简单而高效的电路构造，使用工具可以实现无限的事实召回。这些结果在控制实验中得到了验证，在这些实验中，使用工具的模型始终优于记忆的模型。我们进一步表明，对于预训练的大型语言模型，教授工具使用和一般规则比微调记忆事实更为有效。我们的工作提供了理论和实证基础，确立了为何增强工具的工作流程不仅实用，而且在可扩展性上具有可证明的优势。",
+        "地址": "https://arxiv.org/pdf/2508.20755.pdf"
+    },
+    {
+        "名称": "2025 [2508.15228] Collaborative Multi-Modal Coding for High-Quality 3D Generation.pdf",
+        "作者": "Ziang Cao, Zhaoxi Chen, Liang Pan, Ziwei Liu",
+        "摘要": "摘要: 3D内容本质上包含多模态特征，且可以投射到不同的模态（如RGB图像、RGBD和点云）。每种模态在3D资产建模中都有独特的优势：RGB图像包含生动的3D纹理，而点云定义了细粒度的3D几何形状。然而，大多数现有的3D原生生成架构要么主要在单模态范式中操作，从而忽视了多模态数据的互补优势，要么局限于3D结构，从而限制了可用训练数据集的范围。为了全面利用多模态进行3D建模，我们提出了TriMM，这是首个从基本多模态（如RGB、RGBD和点云）学习的前馈3D原生生成模型。具体来说，1）TriMM首先引入协同多模态编码，集成了模态特定特征，同时保留其独特的表示强度。2）此外，引入辅助2D和3D监督，提高多模态编码的鲁棒性和性能。3) 基于嵌入的多模态编码，TriMM采用三平面潜在扩散模型生成高质量的3D资产，增强纹理和几何细节。多个著名数据集的广泛实验表明，TriMM通过有效利用多模态，即使利用少量的训练数据，也能在大规模数据集训练的模型中取得竞争性表现。此外，我们在最新的RGB-D数据集上进行了额外实验，验证了将其他多模态数据集纳入3D生成的可行性。",
+        "地址": "https://arxiv.org/pdf/2508.15228.pdf"
+    },
+    {
+        "名称": "2025 [2508.17502] Social-MAE: A Transformer-Based Multimodal Autoencoder for Face and Voice.pdf",
+        "作者": "Hugo Bohy, Minh Tran, Kevin El Haddad, Thierry Dutoit, Mohammad Soleymani",
+        "摘要": "摘要: 人类的社交行为本质上是多模态的，这需要开发强大的视听模型来感知它们。在本文中，我们提出了Social-MAE，这是我们基于扩展版的对比视听遮蔽自动编码器（Contrastive Audio-Visual Masked Auto-Encoder，CAV-MAE）的预训练视听遮蔽自动编码器，它在视听社交数据上进行了预训练。具体来说，我们修改了CAV-MAE，使其能够接收更多帧作为输入，并以自监督的方式在一个大型的人类社交互动数据集（VoxCeleb2）上进行预训练。通过微调和评估模型在不同社交和情感下游任务中的表现，如情感识别、笑声检测和明显人格估计，我们展示了该模型的有效性。该模型在多模态情感识别和笑声识别上达到了最先进的结果，并且在明显人格估计上显示出具有竞争力的结果，证明了域内自监督预训练的有效性。代码和模型权重可以在此获得。",
+        "地址": "https://arxiv.org/pdf/2508.17502.pdf"
+    }
+]
