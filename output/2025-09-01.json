@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2508.21113] R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and Reinforce Learning.pdf",
+        "作者": "Jie Jiang, Qi Yang, Bolin Ni, Shiming Xiang, Han Hu, Houwen Peng",
+        "摘要": "摘要：多模态大语言模型（MLLMs）具备逐步思考能力，已在复杂推理问题上表现出显著性能。然而，对于无需复杂推理的简单问题，这种思考过程是多余的。为了解决这一低效问题，我们提出了R-4B，一种自动思考的MLLM，能够根据问题的复杂性自适应决定何时进行思考。R-4B的核心理念是通过双模式退火赋予模型思考和非思考的能力，并应用双模式策略优化（BPO）来提高模型在确定是否启动思考过程方面的准确性。具体而言，我们首先在包含思考和非思考模式样本的精心策划的数据集上训练模型，然后在改进的GRPO框架下进行第二阶段训练，在此期间，策略模型被强制为每个输入查询生成来自两种模式的响应。实验结果表明，R-4B在25个具有挑战性的基准测试中达到了最先进的性能。在大多数任务中，其表现优于Qwen2.5-VL-7B，在推理密集的基准测试中，其性能可与更大型模型如Kimi-VL-A3B-Thinking-2506（16B）相媲美，但计算成本更低。\n\n作者：蒋杰，杨琦，倪伯麟，向世明，胡汉，彭厚文\n\n注释：20页，14张图，5张表\n\nURL：https://arxiv.org/pdf/2508.21113.pdf\n\n标题：2025 [2508.21113] R-4B: 通过双模式退火和强化学习激励MLLMs的一般用途自动思考能力",
+        "地址": "https://arxiv.org/pdf/2508.21113.pdf"
+    },
+    {
+        "名称": "2025 [2508.21112] EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for General Robot Control.pdf",
+        "作者": "Delin Qu, Haoming Song, Qizhi Chen, Zhaoqing Chen, Xianqiang Gao, Xinyi Ye, Qi Lv, Modi Shi, Guanghui Ren, Cheng Ruan, Maoqing Yao, Haoran Yang, Jiacheng Bao, Bin Zhao, Dong Wang",
+        "摘要": "摘要：人类在开放世界中无缝执行多模态推理和物理交互的能力是通用化身智能系统的核心目标。最近的视觉-语言-行动（VLA）模型在大规模机器人和视觉文本数据上共同训练，已在通用机器人控制方面表现出显著进展。然而，它们仍未能在人类水平的灵活推理和交互方面达到要求。在这项工作中，引入了EO-Robotics，它由EO-1模型和EO-Data1.5M数据集组成。EO-1是一个统一的化身基础模型，通过交织的视觉-文本-行动预训练，在多模态化身推理和机器人控制方面实现了卓越表现。EO-1的开发基于两个关键支柱：（i）统一的架构，无差别处理多模态输入（图像、文本、视频和行动），（ii）一个庞大且高质量的多模态化身推理数据集EO-Data1.5M，其中包含超过150万条样本，强调交织的视觉-文本-行动理解。EO-1通过自回归解码和流匹配去噪在EO-Data1.5M上的协同训练，实现了无缝的机器人行动生成和多模态化身推理。大量实验展示了交织的视觉-文本-行动学习在开放世界理解和泛化中的有效性，通过各种长时间、灵巧操作任务在多个实体间验证。本论文详细介绍了EO-1的架构、EO-Data1.5M的数据构建策略和训练方法，为开发先进的化身基础模型提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2508.21112.pdf"
+    },
+    {
+        "名称": "2025 [2508.18106] A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code.pdf",
+        "作者": "Keke Lian, Bin Wang, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li, Dong Zhang",
+        "摘要": "摘要：随着大型语言模型（LLMs）在软件工程中的广泛应用，对其生成代码进行严格的安全评价变得必要。然而，现有的基准测试存在不足，因为它们关注的是孤立的代码片段，采用不稳定且缺乏可重复性的评价方法，并且未能将输入上下文的质量与输出的安全性联系起来。为了填补这些空白，我们引入了A.S.E（AI代码生成安全评估），这是一种用于仓库级安全代码生成的基准测试。A.S.E从包含已记录的CVEs的现实世界仓库中构建任务，保留完整的仓库上下文，例如构建系统和跨文件依赖项。其可重复的容器化评估框架使用专家定义的规则，提供稳定、可审计的安全性、构建质量和生成稳定性评估。我们对领先的LLMs在A.S.E上的评价揭示了三个关键发现：(1) Claude-3.7-Sonnet取得了最佳整体表现。(2) 专有模型与开源模型之间的安全差距很小；Qwen3-235B-A22B-Instruct获得了最高安全评分。(3) 简洁的“快速思考”解码策略在安全修补方面始终优于复杂的“慢速思考”推理策略。\n\n作者：Keke Lian, Bin Wang, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li, Dong Zhang\n\n网址：https://arxiv.org/pdf/2508.18106.pdf\n\n标题：A.S.E：用于评估AI生成代码安全性的仓库级基准测试（2025）",
+        "地址": "https://arxiv.org/pdf/2508.18106.pdf"
+    },
+    {
+        "名称": "2025 [2508.20470] Droplet3D: Commonsense Priors from Videos Facilitate 3D Generation.pdf",
+        "作者": "Xiaochuan Li, Guoguang Du, Runze Zhang, Liang Jin, Qi Jia, Lihua Lu, Zhenhua Guo, Yaqian Zhao, Haiyang Liu, Tianqi Wang, Changsheng Li, Xiaoli Gong, Rengang Li, Baoyu Fan",
+        "摘要": "摘要：\n规模定律验证了大数据训练模型在文本、图像和视频领域的创意生成中的成功与前景。然而，这一范式在3D领域面临数据稀缺问题，因为互联网上可用的3D数据远少于上述模式。幸运的是，存在足够多的包含常识先验的视频，提供了一种替代的监督信号，以缓解由有限的本地3D数据引起的泛化瓶颈。一方面，捕捉物体或场景多个视角的视频为3D生成提供了空间一致性先验。另一方面，视频中包含的丰富语义信息使生成的内容更能忠实于文本提示并在语义上更合理。本文探讨了如何在3D 资源生成中应用视频模式，从数据集到模型。我们引入了 Droplet3D-4M，这是第一个具有多视角级别标注的大规模视频数据集，并训练了 Droplet3D，一种支持图像和密集文本输入的生成模型。大量实验验证了我们方法的有效性，展示了其生成空间一致且语义合理的内容的能力。此外，与现有的3D解决方案相比，我们的方法展示了向场景级应用扩展的潜力。这表明视频中的常识先验显著促进了3D 创作。我们开源了包括数据集、代码、技术框架和模型权重在内的所有资源：此 https URL。\n\n翻译：\n<文章题目>'.",
+        "地址": "https://arxiv.org/pdf/2508.20470.pdf"
+    },
+    {
+        "名称": "2025 [2508.21148] A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers.pdf",
+        "作者": "Ming Hu, Chenglong Ma, Wei Li, Wanghan Xu, Jiamin Wu, Jucheng Hu, Tianbin Li, Guohang Zhuang, Jiaqi Liu, Yingzhou Lu, Ying Chen, Chaoyang Zhang, Cheng Tan, Jie Ying, Guocheng Wu, Shujian Gao, Pengcheng Chen, Jiashi Lin, Haitao Wu, Lulu Chen, Fengxiang Wang, Yuanyuan Zhang, Xiangyu Zhao, Feilong Tang, Encheng Su, Junzhi Ning, Xinyao Liu, Ye Du, Changkai Ji, Cheng Tang, Huihui Xu, Ziyang Chen, Ziyan Huang, Jiyao Liu, Pengfei Jiang, Yizhou Wang, Chen Tang, Jianyu Wu, Yuchen Ren, Siyuan Yan, Zhonghua Wang, Zhongxing Xu, Shiyan Su, Shangquan Sun, Runkai Zhao, Zhisheng Zhang, Yu Liu, Fudi Wang, Yuanfeng Ji, Yanzhou Su, Hongming Shan, Chunmei Feng, Jiahao Xu, Jiangtao Yan, Wenhao Tang, Diping Song, Lihao Liu, Yanyan Huang, Lequan Yu, Bin Fu, Shujun Wang, Xiaomeng Li, Xiaowei Hu, Yun Gu, Ben Fei, Zhongying Deng, Benyou Wang, Yuewen Cao, Minjie Shen, Haodong Duan, Jie Xu, Yirong Chen, Fang Yan, Hongxia Hao, Jielan Li, Jiajun Du, Yanbo Wang, Imran Razzak, Chi Zhang, Lijun Wu, Conghui He, Zhaohui Lu, Jinhai Huang, Yihao Liu, Fenghua Ling, Yuqiang Li, Aoran Wang, Qihao Zheng, Nanqing Dong, Tianfan Fu, Dongzhan Zhou, Yan Lu, Wenlong Zhang, Jin Ye, Jianfei Cai, Wanli Ouyang, Yu Qiao, Zongyuan Ge, Shixiang Tang, Junjun He\n\n\n        , Chunfeng Song, Lei Bai, Bowen Zhou\n\n\n    et al. (3 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘 要:\n科学大语言模型（Sci-LLMs）正在改变科学研究中知识的表达、整合和应用方式，但其进展受到科学数据复杂性的影响。本调查通过数据中心综合分析，将Sci-LLMs的发展重新定义为模型与其基础数据基质的共同演进。我们提出了科学数据的统一分类法和科学知识的分层模型，强调了使科学语料库与一般自然语言处理数据集区分开来的多模态、跨尺度和领域特定挑战。我们系统回顾了近期的Sci-LLMs，从一般用途的基础模型到跨各种科学学科的专业模型，并进行了对超过270个训练前/训练后的数据集的广泛分析，解释了为什么Sci-LLMs提出了不同的需求——需要保存领域不变性并促进跨模态推理的异构、多尺度、充满不确定性的语料库。在评价方面，我们审查了超过190个基准数据集，并追踪了一种从静态考试向过程和发现导向评估的转变，并采用了先进的评价协议。这些以数据为中心的分析突出了科学数据开发中的持久问题，并讨论了涉及半自动注释管道和专家验证的解决方案。最后，我们概述了一种范式转变，即基于Sci-LLMs的自主智能体主动实验、验证并贡献于一个活的、不断发展的知识库。总体而言，本研究为构建可信、持续发展的人工智能（AI）系统提供了一条加速科学发现的真正合作伙伴的路线图。",
+        "地址": "https://arxiv.org/pdf/2508.21148.pdf"
+    },
+    {
+        "名称": "2025 [2508.13618] TalkVid: A Large-Scale Diversified Dataset for Audio-Driven Talking Head Synthesis.pdf",
+        "作者": "Shunian Chen, Hejin Huang, Yexin Liu, Zihan Ye, Pengcheng Chen, Chenghao Zhu, Michael Guan, Rongsheng Wang, Junying Chen, Guanbin Li, Ser-Nam Lim, Harry Yang, Benyou Wang",
+        "摘要": "摘要：音频驱动的说话人合成取得了显著的逼真效果，然而，最先进的（SOTA）模型在普遍适应性方面显示出关键的失败：它们不能全面适应人类在种族、语言和年龄组方面的多样性。我们认为这种适应性差距直接反映了现有训练数据的局限性，这些数据在规模、质量和多样性上存在不足。为了解决这一问题，我们引入了TalkVid，一个新的大规模、高质量和多样化的数据集，包含来自7729名独特讲者的1244小时视频。TalkVid是通过一个有原则的多阶段自动化流程精心筛选的，该流程严格筛选运动稳定性、美学质量和面部细节，并通过人为判断进行验证以确保其可靠性。此外，我们构建并发布了TalkVid-Bench，一个由500个视频片段组成的分层评估集，跨关键的人口统计和语言轴进行平衡。我们的实验表明，基于TalkVid训练的模型相较于基于先前数据集训练的模型，在跨数据集泛化方面表现更优。关键的是，我们在TalkVid-Bench上进行的分析揭示了传统汇总指标所掩盖的不同子群体之间的性能差异，强调了其对未来研究的必要性。代码和数据可以在此https URL中找到。",
+        "地址": "https://arxiv.org/pdf/2508.13618.pdf"
+    },
+    {
+        "名称": "2025 [2508.21365] Think in Games: Learning to Reason in Games via Reinforcement Learning with Large Language Models.pdf",
+        "作者": "Yi Liao, Yu Gu, Yuan Sui, Zining Zhu, Yifan Lu, Guohua Tang, Zhongqian Sun, Wei Yang",
+        "摘要": "摘要: 大型语言模型（LLMs）在复杂的推理任务如数学和编码方面表现出色，但在幼儿轻松完成的简单互动任务上却经常表现不佳。这种差异突显了陈述性知识（了解某事）和程序性知识（知道如何做某事）之间的关键差距。尽管传统的强化学习（RL）代理可以通过环境互动获得程序性知识，但它们通常作为黑盒操作且需要大量的训练数据。相比之下，LLMs拥有广泛的世界知识和推理能力，但无法在互动环境中将这种静态知识有效转换为动态决策。为了解决这一挑战，我们提出了Think in Games (TiG)，这是一个新颖的框架，使LLMs能够在保留其固有的推理和解释能力的同时，通过与游戏环境的直接互动来发展程序性理解。具体来说，TiG将基于RL的决策重新表述为一种语言建模任务：LLMs生成语言指导的策略，并通过基于环境反馈的在线强化学习进行迭代优化。我们的实验结果表明，TiG成功弥合了陈述性知识和程序性知识之间的差距，实现了竞争性能，同时与传统RL方法相比，大幅降低了数据和计算需求。此外，TiG为其决策提供逐步的自然语言解释，极大地提高了复杂互动任务的透明度和可解释性。",
+        "地址": "https://arxiv.org/pdf/2508.21365.pdf"
+    },
+    {
+        "名称": "2025 [2508.21767] UItron: Foundational GUI Agent with Advanced Perception and Planning.pdf",
+        "作者": "Zhixiong Zeng, Jing Huang, Liming Zheng, Wenkang Han, Yufeng Zhong, Lei Chen, Longrong Yang, Yingjie Chu, Yuzhi He, Lin Ma",
+        "摘要": "摘要：GUI代理旨在实现对移动/PC设备的自动操作，这是实现通用人工智能的重要任务。VLMs的快速发展加速了GUI代理的开发，得益于其在视觉理解和任务规划方面的强大能力。然而，构建GUI代理仍然是一项具有挑战性的任务，原因在于操作轨迹的稀缺性、交互基础设施的可用性以及基础模型初始能力的限制。在这项工作中，我们介绍了UItron，这是一个用于自动GUI代理的开源基础模型，具有先进的GUI感知、定位和规划能力。UItron强调系统数据工程和交互基础设施作为推动GUI代理开发的基础性组件的重要性。它不仅系统地研究了一系列增强训练效果的数据工程策略，还建立了一个连接移动和PC设备的交互环境。在训练中，UItron对各种GUI场景中的感知和规划任务进行监督微调，然后开发一个课程强化学习框架，以实现复杂的在线环境推理和探索。因此，UItron在GUI感知、定位和规划的基准测试中表现出色。特别是，UItron重点展示了与顶级中国移动应用程序的交互能力，因为我们发现即使在最先进的解决方案中也普遍缺乏中文能力。为此，我们手动收集了超过一百万步的操作轨迹，覆盖了最受欢迎的100个应用程序，并构建了离线和在线代理评估环境。实验结果表明，UItron在中国应用场景中取得了显著进展，使GUI代理更接近实际应用一步。",
+        "地址": "https://arxiv.org/pdf/2508.21767.pdf"
+    },
+    {
+        "名称": "2025 [2508.17677] TiKMiX: Take Data Influence into Dynamic Mixture for Language Model Pre-training.pdf",
+        "作者": "Yifan Wang, Binbin Liu, Fengze Liu, Yuanfan Guo, Jiyao Deng, Xuecheng Wu, Weidong Zhou, Xiaohuan Zhou, Taifeng Wang",
+        "摘要": "摘要：用于语言模型预训练的数据混合策略是其最终性能的基石。然而，静态混合策略是次优的，因为模型对各种数据域的学习偏好在整个训练过程中会动态变化。关键是，以计算效率高的方式观察这些不断变化的偏好仍然是一个重大挑战。为了解决这一问题，我们提出了TiKMiX，一种根据模型不断变化的偏好动态调整数据混合的方法。TiKMiX引入了组影响（Group Influence），这是评估数据域对模型影响的有效指标。这个指标使得可以将数据混合问题表述为寻找一个最大化影响力的最优分布。我们通过两种方法解决这一问题：TiKMiX-D用于直接优化，TiKMiX-M则使用回归模型预测一个更优的混合。我们在最多1万亿个tokens上训练了不同参数数量的模型。TiKMiX-D在仅使用20%计算资源的情况下，超过了诸如REGMIX等最先进方法的性能。TiKMiX-M在9个下游基准测试中平均性能提升了2%。我们的实验表明，模型的数据偏好随着训练进展和规模的变化而演变，并且我们证明了基于组影响这一直接衡量这些偏好的数据混合动态调整，通过缓解静态比例下的数据消化不足，显著提高了性能。\n\n作者：王一帆、刘彬彬、刘锋泽、郭袁帆、邓家曜、吴学成、周卫东、周小环、王泰峰\n\n链接：https://arxiv.org/pdf/2508.17677.pdf\n\n标题：2025 [2508.17677] TiKMiX: Take Data Influence into Dynamic Mixture for Language Model Pre-training",
+        "地址": "https://arxiv.org/pdf/2508.17677.pdf"
+    },
+    {
+        "名称": "2025 [2508.21376] AHELM: A Holistic Evaluation of Audio-Language Models.pdf",
+        "作者": "Tony Lee, Haoqin Tu, Chi Heem Wong, Zijun Wang, Siwei Yang, Yifan Mai, Yuyin Zhou, Cihang Xie, Percy Liang",
+        "摘要": "摘要: 对音频语言模型（ALMs）——以交错的音频和文本作为输入并输出文本的多模态模型——的评估因缺乏标准化基准而受阻；大多数基准只衡量一种或两种能力，忽略公平性或安全性等评估方面。此外，模型间的比较也很困难，因为单独的评估只测试有限数量的模型，并使用不同的提示方法和推理参数。为了解决这些缺陷，我们引入了AHELM，这是一个汇集了各种数据集的基准，包括两个新的合成音频文本数据集，PARADE评估ALMs避免刻板印象的能力，CoRe-Bench通过推理的多轮问答测量对会话音频的推理能力，从整体上评估ALMs在我们认为对其发展和使用重要的十个方面的表现：音频感知、知识、推理、情感检测、偏见、公平性、多语言能力、鲁棒性、有害性和安全性。我们还对提示、推理参数和评估指标进行了标准化，以确保跨模型的公平比较。我们测试了来自三个开发者的14个开放权重和封闭API的ALMs，以及三个额外的简单基线系统，每个系统都包括一个自动语音识别器和一个语言模型。我们的结果显示，尽管Gemini 2.5 Pro在十个方面中的五个方面排名第一，但在ASR任务中表现出群体不公平性（$p=0.01$），而其他大多数模型则没有。此外，我们还发现基线系统在AHELM上表现相当好，其中一个总排名第五，尽管它只有从语音到文本的能力。为了透明性，所有原始提示、模型生成和输出均可在我们的网站上查看。AHELM旨在成为一个不断更新的基准，新的数据集和模型将随着时间的推移被加入。",
+        "地址": "https://arxiv.org/pdf/2508.21376.pdf"
+    },
+    {
+        "名称": "2025 [2508.21290] Efficient Code Embeddings from Code Generation Models.pdf",
+        "作者": "Daria Kryvosheieva, Saba Sturua, Michael Günther, Scott Martens, Han Xiao",
+        "摘要": "摘要:jina-code-embeddings是一套新颖的代码嵌入模型，旨在通过自然语言查询检索代码、执行技术问答以及跨编程语言识别语义相似的代码片段。它创新性地使用了在文本和代码上预训练的自回归骨干网络，通过最后的token池化生成嵌入。我们概述了训练方法，并展示了尽管模型规模相对较小，但其性能达到了最先进的水平，验证了这种代码嵌入模型构建方法的有效性。",
+        "地址": "https://arxiv.org/pdf/2508.21290.pdf"
+    },
+    {
+        "名称": "2025 [2508.14197] CLIPSym: Delving into Symmetry Detection with CLIP.pdf",
+        "作者": "Tinghan Yang, Md Ashiqur Rahman, Raymond A. Yeh",
+        "摘要": "摘要: 对称性是计算机视觉中最基本的几何线索之一，检测对称性一直是一个持续的挑战。随着视觉-语言模型（如CLIP）的最新进展，我们研究了预训练的CLIP模型是否能通过利用自然图像描述中的额外对称性线索来帮助对称性检测。我们提出了CLIPSym，它利用CLIP的图像和语言编码器以及基于Transformer和$G$-卷积混合的旋转等变解码器来检测旋转和反射对称性。为了充分利用CLIP的语言编码器，我们开发了一种新颖的提示技术，称为语义感知提示分组（SAPG），它聚合了一组多样化的基于对象的频繁提示，以更好地集成语义线索进行对称性检测。经验表明，在三个标准对称性检测数据集（DENDI、SDRW和LDRS）上，CLIPSym的表现优于当前最先进的方法。最后，我们进行了详细的消融实验，验证了CLIP的预训练、所提出的等变解码器以及SAPG技术的优点。代码可在此网址获得： https://arxiv.org/pdf/2508.14197.pdf。\n\n",
+        "地址": "https://arxiv.org/pdf/2508.14197.pdf"
+    },
+    {
+        "名称": "2025 [2508.21456] Morae: Proactively Pausing UI Agents for User Choices.pdf",
+        "作者": "Yi-Hao Peng, Dingzeyu Li, Jeffrey P. Bigham, Amy Pavel",
+        "摘要": "摘要: 用户界面 (UI) 代理承诺使得盲人和低视力 (BLV) 用户更容易访问无法访问或复杂的 UI。然而，当前的 UI 代理通常会在执行任务时不涉及用户做关键选择或让他们了解重要的上下文信息，从而减少用户的代理权。例如，在我们的实地研究中，一名 BLV 参与者要求购买最便宜的苏打水，而代理自动从几个价格相同的选项中选择了一个，却没有提到其他口味或评价更好的替代产品。为了解决这个问题，我们引入了 Morae，这是一种 UI 代理，可在任务执行过程中自动识别决策点，并暂停以便用户做出选择。Morae 使用大型多模态模型来解释用户查询并结合 UI 代码和截图，当需要做出选择时向用户提示澄清。在针对 BLV 参与者的真实世界网页任务研究中，与基线代理（包括 OpenAI Operator）相比，Morae 帮助用户完成了更多任务，并选择了更符合他们偏好的选项。更广泛地说，这项工作体现了一种混合主动的方法，使用户在享受 UI 代理自动化的同时能够表达他们的偏好。",
+        "地址": "https://arxiv.org/pdf/2508.21456.pdf"
+    },
+    {
+        "名称": "2025 [2508.21188] Model-Task Alignment Drives Distinct RL Outcomes.pdf",
+        "作者": "Haoze Wu, Cheng Wang, Wenshuo Zhao, Junxian He",
+        "摘要": "摘要：最近在将强化学习（RL）应用于大型语言模型（LLMs）方面取得了显著进展。具体来说，LLMs中报告了一系列显著但通常是反直觉的现象，展示了在传统RL环境中不常见的模式。例如，显著的主张包括单个训练示例可以匹配整个数据集所达到的性能，奖励信号不需要非常准确，以及仅使用负样本进行训练可以匹配甚至超越复杂的基于奖励的方法。然而，这些观察结果在什么条件下成立以及何时失效仍不明确。在这项工作中，我们确定了一个区分RL观察的关键因素：预训练模型是否已表现出较强的模型-任务对齐，测量方法为所评估任务的pass@k准确性。通过对一系列反直觉主张的系统而全面的检查，并通过在不同模型架构和任务领域中的严格实验验证，我们的研究结果表明，尽管标准RL训练始终在各个设置中表现出一致的稳健性，许多这些反直觉的结果仅在模型和任务已经表现出较强的模型-任务对齐时才出现。相反，在更具挑战性的环境中，这些技术未能驱动实质性学习，而标准RL方法仍然有效。",
+        "地址": "https://arxiv.org/pdf/2508.21188.pdf"
+    },
+    {
+        "名称": "2025 [2508.20085] HERMES: Human-to-Robot Embodied Learning from Multi-Source Motion Data for Mobile Dexterous Manipulation.pdf",
+        "作者": "Zhecheng Yuan, Tianming Wei, Langzhe Gu, Pu Hua, Tianhai Liang, Yuanpei Chen, Huazhe Xu",
+        "摘要": "摘要：利用人类运动数据赋予机器人多功能操作技能已成为机器人操作领域的一种有前途的范式。然而，将多源人手运动转化为可行的机器人行为仍然具有挑战性，特别是对于配备复杂高维动作空间的多指灵巧手的机器人。此外，现有方法往往难以生成能够适应各种环境条件的策略。在本文中，我们介绍了HERMES，一种用于移动双手灵巧操作的人机学习框架。首先，HERMES提出了一种统一的强化学习方法，能够无缝地将来自多个来源的异构人手运动转化为物理上合理的机器人行为。随后，为了减轻仿真与现实的差距，我们设计了一种基于深度图像的端到端仿真-现实传输方法，以提高在现实场景中的泛化能力。此外，为了在各种非结构化环境中实现自主操作，我们增强了导航基础模型，并结合闭环\"Pnp\"定位机制，确保视觉目标的精确对齐，有效地连接自主导航与灵巧操纵。广泛的实验结果表明，HERMES在各种现实场景中持续表现出可泛化行为，成功执行了许多复杂的移动双手灵巧操作任务。项目页面：this https URL.\n\n作者：Zhecheng Yuan, Tianming Wei, Langzhe Gu, Pu Hua, Tianhai Liang, Yuanpei Chen, Huazhe Xu\n链接：https://arxiv.org/pdf/2508.20085.pdf\n标题：2025 [2508.20085] HERMES: Human-to-Robot Embodied Learning from Multi-Source Motion Data for Mobile Dexterous Manipulation.pdf",
+        "地址": "https://arxiv.org/pdf/2508.20085.pdf"
+    },
+    {
+        "名称": "2025 [2508.17380] Mimicking the Physicist's Eye:A VLM-centric Approach for Physics Formula Discovery.pdf",
+        "作者": "Jiaqi Liu, Songning Lai, Pengze Li, Di Yu, Wenjie Zhou, Yiyang Zhou, Peng Xia, Zijun Wang, Xi Chen, Shixiang Tang, Lei Bai, Wanli Ouyang, Mingyu Ding, Huaxiu Yao, Aoran Wang",
+        "摘要": "摘要: 从现实世界的观测数据中自动发现物理规律是人工智能领域的一项重大挑战。目前的方法依赖于符号回归或大型语言模型，但限于单模态数据，忽略了丰富的、视觉现象化的运动表示，这对物理学家来说至关重要。这种\"感官剥夺\"严重削弱了它们解释动态现象中固有时空模式的能力。为解决这一空缺，我们提出了VIPER-R1，一种执行基于视觉引导的物理方程推理的多模态模型，以发现基本符号公式。它集成了视觉感知、轨迹数据和符号推理，模拟科学发现过程。该模型通过运动结构引导(MSI)的课程进行训练，使用监督微调来解释动力学相图，并根据因果链思考(C-CoT)构建假设，随后使用奖励引导的符号校准(RGSC)通过强化学习来优化公式结构。在推理过程中，训练过的VIPER-R1充当代理：它首先提出一个高置信度的符号假设，然后主动调用外部符号回归工具来执行符号残差重新校准(SR^2)。这一最终步骤类似于物理学家的扰动分析，将理论模型与经验数据校正一致。为支持这项研究，我们引入了PhysSymbol，一个有5000实例的多模态语料库。实验表明，VIPER-R1在准确性和可解释性方面持续优于最先进的视觉语言模型(VLM)基线，能够更精确地发现物理规律。项目页面：这个https URL",
+        "地址": "https://arxiv.org/pdf/2508.17380.pdf"
+    },
+    {
+        "名称": "2025 [2508.21172] Deep Residual Echo State Networks: exploring residual orthogonal connections in untrained Recurrent Neural Networks.pdf",
+        "作者": "Matteo Pinna, Andrea Ceni, Claudio Gallicchio",
+        "摘要": "摘要：回声状态网络（ESNs）是在储层计算（RC）框架内的一类特殊的未训练递归神经网络（RNNs），因其快速高效的学习能力而受到欢迎。然而，传统的ESNs在处理长期信息方面常常遇到困难。在本文中，我们提出了一类基于时间残差连接的新型深度未训练RNNs，称为深度残差回声状态网络（DeepResESNs）。我们展示了利用未训练残差递归层的层次结构显著提升了记忆容量和长期时间建模能力。对于时间残差连接，我们考虑了不同的正交配置，包括随机生成和固定结构配置，并研究了它们对网络动态的影响。一项全面的数学分析概述了确保DeepResESN稳定动态的必要和充分条件。我们的实验在多种时间序列任务中展示了所提出方法相对于传统浅层和深层RC的优势。\n\n翻译：Matteo Pinna, Andrea Ceni, Claudio Gallicchio\n\n备注：10页，包含6个图\n\n链接：https://arxiv.org/pdf/2508.21172.pdf\n\n标题：2025 [2508.21172] 深度残差回声状态网络：探索未训练递归神经网络中的残差正交连接。",
+        "地址": "https://arxiv.org/pdf/2508.21172.pdf"
+    },
+    {
+        "名称": "2025 [2508.19600] Quantization Robustness to Input Degradations for Object Detection.pdf",
+        "作者": "Toghrul Karimov, Hassan Imani, Allan Kazakov",
+        "摘要": "摘要：后训练量化（PTQ）对于在资源受限设备上部署高效的目标检测模型（如YOLO）至关重要。然而，降低精度对模型在面对实际输入退化（如噪声、模糊和压缩伪影）时的鲁棒性影响是一个重要问题。本文通过全面的实证研究，评估了YOLO模型（从小型到超大型）在多种精度格式下的鲁棒性：FP32、FP16（TensorRT）、动态UINT8（ONNX）和静态INT8（TensorRT）。我们引入并评估了一种静态INT8 PTQ的退化感知校准策略，该策略在TensorRT校准过程中结合了干净和合成退化图像。模型在COCO数据集上进行了基准测试，涵盖了七种不同的退化条件（包括噪声、模糊、低对比度和JPEG压缩的各种类型和水平）以及一个混合退化场景。结果表明，虽然静态INT8 TensorRT引擎在干净数据上的推理速度显著提升（约1.5-3.3倍），准确率略有下降（约3-7% mAP50-95），但所提出的退化感知校准在大多数模型和退化条件下，并未相对于标准的干净数据校准表现出一致的、广泛的鲁棒性改进。值得注意的是，在特定噪声条件下，较大尺寸的模型表现出该校准方法的有效性，表明模型容量可能影响该校准方法的效果。这些发现突显了提升PTQ鲁棒性的挑战，并为在非受控环境中部署量化检测器提供了见解。所有代码和评价表格均可在此链接找到：此HTTPS URL。",
+        "地址": "https://arxiv.org/pdf/2508.19600.pdf"
+    },
+    {
+        "名称": "2025 [2508.17008] EduRABSA: An Education Review Dataset for Aspect-based Sentiment Analysis Tasks.pdf",
+        "作者": "Yan Cathy Hua, Paul Denny, Jörg Wicker, Katerina Taskova",
+        "摘要": "摘要：每年，大多数教育机构都会收集并收到大量来自学生关于课程、教学和整体体验的文本反馈。然而，将这些原始反馈转化为有用的见解绝非易事。由于内容复杂性和报告需求的低粒度性，采用自动化意见挖掘解决方案处理这样的教育评论文本数据一直是一个长期的挑战。基于方面的情感分析（ABSA）提供了一种有前景的解决方案，因为其具有丰富的、子句级别的意见挖掘能力。然而，现有的ABSA研究和资源主要集中在商业领域。在教育领域，这些资源稀缺且难以开发，因为公共数据集有限且数据保护严格。迫切需要一个高质量的注释数据集，以推进这个资源贫乏领域的研究。在这项工作中，我们提出了EduRABSA（教育评论ABSA），这是第一个公共的、带有注释的ABSA教育评论数据集，涵盖了三种评论主体类型（课程、教学人员、大学）和所有主要的ABSA任务，包括未被充分研究的隐含方面和隐含意见提取。我们还共享了ASQE-DPT（数据处理工具），这是一种离线的、轻量级的、无需安装的手动数据注释工具，它从单一任务注释生成全面的ABSA任务的标注数据集。这些资源一起通过消除数据集障碍，支持研究的透明性和可重复性，并使进一步资源的创建和共享成为可能，从而为ABSA社区和教育领域做出贡献。数据集、注释工具以及数据集处理和采样的脚本和统计信息可在此HTTPS URL获得。",
+        "地址": "https://arxiv.org/pdf/2508.17008.pdf"
+    }
+]
