@@ -1,0 +1,56 @@
+[
+    {
+        "名称": "2025 [2509.00375] Open Data Synthesis For Deep Research.pdf",
+        "作者": "Ziyi Xia, Kun Luo, Hongjin Qian, Zheng Liu",
+        "摘要": "摘要: 大型语言模型 (LLMs) 被期望超越简单的事实查询，着手需要将问题分解为子问题、协调多步骤推理以及综合各种来源证据的深度研究任务。我们将具有可验证答案的深度研究任务形式化为分层约束满足问题 (HCSPs)，这与单一约束、多跳或扁平的 CSP 形式化有根本不同。然而，现有基准测试（例如 Natural Questions, HotpotQA）未能捕捉这种复杂性，而最近的合成数据集通常引入捷径推理、知识泄露或缺乏足够的结构深度。为解决这一差距，我们引入 InfoSeek，这是一种用于合成复杂深度研究任务的可扩展框架。InfoSeek 通过双代理系统从大规模网页中递归构建研究树，将中间节点模糊成有效的子问题，并将这些树转换为需要遍历整个层次结构的自然语言问题。它还支持快速扩展，生成超过 50K 个训练示例、精心挑选的测试集，以及通过拒绝采样生成的推理轨迹。实验表明，基于 InfoSeek 训练的模型稳定地超越了强基线模型。在具有挑战性的基准测试 BrowseComp-Plus 上，使用 InfoSeek 优化的 3B LLM 超越了更大规模的 32B 模型以及轻量级商业 API（例如 Gemini2.5-Flash），并达到可与更强 API（例如 Gemini2.5-Pro）媲美的性能。通过保留中间步骤和检索标签等元信息，InfoSeek 还支持高级优化策略，包括复合奖励设计和轨迹级别探索。我们在此存储库中提供了我们的代码和数据集。\n\n来源及链接: https://arxiv.org/pdf/2509.00375.pdf",
+        "地址": "https://arxiv.org/pdf/2509.00375.pdf"
+    },
+    {
+        "名称": "2025 [2509.01106] Robix: A Unified Model for Robot Interaction, Reasoning and Planning.pdf",
+        "作者": "Huang Fang, Mengxi Zhang, Heng Dong, Wei Li, Zixuan Wang, Qifeng Zhang, Xueyun Tian, Yucheng Hu, Hang Li",
+        "摘要": "摘要: 我们介绍了Robix，这是一种统一的模型，将机器人推理、任务规划和自然语言交互集成在一个视觉-语言架构中。作为分层机器人系统中的高级认知层，Robix为低级控制器动态生成基本指令，为人类交互生成口头响应，使得机器人能够在端到端框架内遵循复杂指令、规划长期任务，并与人类自然互动。Robix进一步引入了新的功能，如前瞻性对话、实时中断处理和任务执行期间的上下文感知常识推理。Robix的核心在于利用链式推理，并采用三阶段训练策略：（1）持续预训练以增强基础的具身推理能力，包括3D空间理解、视觉定位和任务中心推理；（2）监督微调以将人机交互和任务规划建模为统一的推理-行动序列；（3）强化学习以提高推理-行动一致性和长期任务的一致性。广泛的实验表明，Robix在交互式任务执行方面优于开源和商业基线（例如GPT-4o和Gemini 2.5 Pro），在多种指令类型（例如开放式、多阶段、受限、无效和中断）和各种用户参与的任务（如餐桌整理、杂货购物和饮食筛选）中表现出强大的泛化能力。",
+        "地址": "https://arxiv.org/pdf/2509.01106.pdf"
+    },
+    {
+        "名称": "2025 [2509.03405] LMEnt: A Suite for Analyzing Knowledge in Language Models from Pretraining Data to Representations.pdf",
+        "作者": "Daniela Gottesman, Alon Gilae-Dotan, Ido Cohen, Yoav Gur-Arieh, Marius Mosbach, Ori Yoran, Mor Geva",
+        "摘要": "摘要:语言模型(LMs)越来越多地推动需要世界知识的实际应用。然而，模型将数据转化为关于世界的知识和信念表示的内部过程仍然知之甚少。这些过程的见解可以为开发具有更一致、稳健和完整知识表示的LMs铺平道路。为了促进对这些问题的研究，我们提出了LMEnt，一个用于分析LMs在预训练期间的知识获取的套件。LMEnt引入了：(1)一个知识丰富的预训练语料库，基于维基百科，包含实体提及的完整注释；(2)一种基于实体的预训练数据检索方法，其性能比以前的方法高出多达80.4%；(3)12个预训练模型，参数多达10亿，具有4000个中间检查点，在知识基准上表现与流行的开源模型相当。这些资源共同提供了一个受控环境，用于分析预训练中实体提及与下游表现之间的联系，以及预训练数据中因果干预的影响。我们通过研究不同检查点的知识获取展示了LMEnt的效用，发现事实频率是关键，但不能完全解释学习趋势。我们发布LMEnt，以支持对LMs中知识的研究，包括知识表示、可塑性、编辑、归因和学习动态。",
+        "地址": "https://arxiv.org/pdf/2509.03405.pdf"
+    },
+    {
+        "名称": "2025 [2509.02722] Planning with Reasoning using Vision Language World Model.pdf",
+        "作者": "Delong Chen, Theo Moutakanni, Willy Chung, Yejin Bang, Ziwei Ji, Allen Bolourchi, Pascale Fung",
+        "摘要": "摘要：有效的规划需要强大的世界模型，但能够理解和推理动作的语义和时间抽象的高级世界模型仍然发展不足。我们引入了视觉语言世界模型（VLWM），这是一种针对自然视频中的语言进行训练的基础模型。给定视觉观测，VLWM首先推断总体目标的完成情况，然后预测由交替的动作和世界状态变化组成的轨迹。这些目标通过条件压缩未来观测表示的标题树，由迭代LLM自我优化提取。VLWM学习了动作策略和动态模型，分别通过反应系统-1规划解码和反思系统-2规划实现成本最小化。成本评估假设的未来状态与通过VLWM推演的预期目标状态之间的语义距离，并通过我们自监督训练的评价模型进行测量。VLWM在基准评估和我们提出的PlannerArena人类评估中实现了最先进的辅助视觉规划（VPA）性能，其中系统-2的Elo评分比系统-1提高了27%。VLWM模型还在RoboVQA和WorldPrediction基准测试中优于强大的VLM基线模型。",
+        "地址": "https://arxiv.org/pdf/2509.02722.pdf"
+    },
+    {
+        "名称": "2025 [2509.01977] MOSAIC: Multi-Subject Personalized Generation via Correspondence-Aware Alignment and Disentanglement.pdf",
+        "作者": "Dong She, Siming Fu, Mushui Liu, Qiaoqiao Jin, Hualiang Wang, Mu Liu, Jidong Jiang",
+        "摘要": "摘要：多主体个性化生成在合成基于多个参考主体的图像时，在保持身份一致性和语义连贯性方面提出了独特的挑战。现有方法由于未能充分建模不同主体在共享表示空间内的交互方式，常常遭遇身份混合和属性泄漏的问题。我们提出了MOSAIC，一种基于表示的框架，通过显式的语义对应和正交特征解耦重新思考多主体生成。我们的关键见解是，多主体生成需要在表示层面进行精确的语义对齐——精确确定生成图像中的哪些区域应该关注每个参考主体的哪些部分。为此，我们引入了SemAlign-MS，这是一个精心注释的数据集，提供了多参考主体和目标图像之间的细粒度语义对应，这在该领域以前是不可用的。在此基础上，我们提出了语义对应注意损失，以加强精确的点到点语义对齐，确保从每个参考到其指定区域的高度一致性。此外，我们开发了多参考解耦损失，将不同主体推入正交注意子空间，防止特征干扰，同时保留个体身份特征。大量实验表明，MOSAIC在多个基准上达到了最先进的性能。值得注意的是，尽管现有方法在超过3个主体时通常会退化，但MOSAIC在处理4个以上参考主体时仍保持高保真度，为复杂的多主体合成应用打开了新的可能性。\n\n成本：2025\n\n标题：MOSAIC：通过对应感知对齐和解耦的多主体个性化生成\n\n作者：Dong She, Siming Fu, Mushui Liu, Qiaoqiao Jin, Hualiang Wang, Mu Liu, Jidong Jiang\n\n链接：https://arxiv.org/pdf/2509.01977.pdf",
+        "地址": "https://arxiv.org/pdf/2509.01977.pdf"
+    },
+    {
+        "名称": "2025 [2509.00428] Mixture of Global and Local Experts with Diffusion Transformer for Controllable Face Generation.pdf",
+        "作者": "Xuechao Zou, Shun Zhang, Xing Fu, Yue Li, Kai Li, Yushe Cao, Congyan Lang, Pin Tao, Junliang Xing",
+        "摘要": "摘要: 可控的人脸生成在生成模型中面临着关键挑战，因为在语义可控性和逼真度之间需要复杂的平衡。现有的方法难以将语义控制与生成管道分离，我们通过专家专业化的视角重新审视扩散转换器 (DiTs) 的架构潜力。本文介绍了Face-MoGLE，一个新颖的框架，其特点包括：(1) 通过掩码条件空间分解进行语义解耦的潜在建模，使属性操作更加精确；(2) 捕捉整体结构和区域级语义的全球和本地专家混合，实现细粒度控制；(3) 生成随扩散步骤和空间位置演变的时间相关系数的动态门控网络。Face-MoGLE提供了一个功能强大且灵活的高质量可控人脸生成解决方案，在生成模型和安全应用方面具有巨大的潜力。大量实验证明了其在多模态和单模态人脸生成设置中的有效性及其强大的零样本泛化能力。项目页面可在此https URL上找到。",
+        "地址": "https://arxiv.org/pdf/2509.00428.pdf"
+    },
+    {
+        "名称": "2025 [2509.02530] Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots.pdf",
+        "作者": "Minghuan Liu, Zhengbang Zhu, Xiaoshen Han, Peng Hu, Haotong Lin, Xinyao Li, Jingxiao Chen, Jiafeng Xu, Yichu Yang, Yunfeng Lin, Xinghang Li, Yong Yu, Weinan Zhang, Tao Kong, Bingyi Kang",
+        "摘要": "摘要：现代机器人操控主要依赖于二维彩色空间中的视觉观察来进行技能学习，但在泛化能力方面表现不佳。相比之下，生活在三维世界中的人类在与物体交互时，比起纹理更加依赖于物理属性，例如距离、大小和形状。由于可以从广泛使用的深度摄像头获取这些三维几何信息，因此似乎可以为机器人赋予类似的感知能力。我们的初步研究发现，使用深度摄像头进行操控是具有挑战性的，主要是因为其精确度有限且容易受到各种噪声的影响。在这项工作中，我们提出了深度摄像头模型（CDMs），作为日常使用的深度摄像头的一个简单插件，它将RGB图像和原始深度信号作为输入，输出去噪的精确公制深度。为了实现这一点，我们开发了一个神经数据引擎，通过建模深度摄像头的噪声模式，从模拟中生成高质量的配对数据。我们的结果表明，CDMs在深度预测方面达到了接近模拟水平的精确度，有效地弥合了模拟与现实之间的差距。值得注意的是，我们的实验首次展示了，在无需添加噪声或进行现实世界微调的情况下，仅通过在原始模拟深度上训练的策略能够无缝地泛化到现实世界的机器人上，并且在涉及关节、反光以及细长物体的两个具有挑战性的长远任务中表现出无性能退化或只有少量退化。我们希望我们的发现能够激发未来在机器人通用策略中利用模拟数据和三维信息的研究。\n\n年：2025\n\n作者：Minghuan Liu, Zhengbang Zhu, Xiaoshen Han, Peng Hu, Haotong Lin, Xinyao Li, Jingxiao Chen, Jiafeng Xu, Yichu Yang, Yunfeng Lin, Xinghang Li, Yong Yu, Weinan Zhang, Tao Kong, Bingyi Kang\n\n评论：32页，18幅图，项目页面：此HTTPS URL\n\n链接：https://arxiv.org/pdf/2509.02530.pdf\n\n标题：Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots",
+        "地址": "https://arxiv.org/pdf/2509.02530.pdf"
+    },
+    {
+        "名称": "2025 [2509.03403] Beyond Correctness: Harmonizing Process and Outcome Rewards through RL Training.pdf",
+        "作者": "Chenlu Ye, Zhou Yu, Ziji Zhang, Hao Chen, Narayanan Sadagopan, Jing Huang, Tong Zhang, Anurag Beniwal",
+        "摘要": "摘要：具有可验证奖励的强化学习（RLVR）已成为数学推理任务中的主要范式，能够稳定地提升推理能力。然而，RLVR中的结果奖励模型（ORM）过于粗糙，无法区分正确答案中的错误推理或错误答案中的有效推理。这种粗糙性引入了大量噪音和误导性的梯度，显著阻碍了推理过程质量的进一步提高。尽管过程奖励模型（PRM）能够为中间步骤提供细粒度的指导，但它们经常存在不准确性并易受奖励作弊的影响。为了解决这一难题，我们引入了PRocess cOnsistency Filter（PROF），这是一种有效的数据处理方法，能够将噪音化的细粒度过程奖励与准确的粗粒度结果奖励进行协调。与简单地在目标函数中混合PRM和ORM的方式不同，PROF通过一致性驱动的样本选择利用它们的互补优势。我们的方法保留了具有较高平均过程值的正确响应和具有较低平均过程值的错误响应，同时保持了训练样本的正负平衡。大量实验表明，与混合方法相比，我们的方法不仅一致地提高了最终准确率超过4%，还增强了中间推理步骤的质量。代码和训练方案可在此网址获取。\n\n翻译作者：Chenlu Ye, Zhou Yu, Ziji Zhang, Hao Chen, Narayanan Sadagopan, Jing Huang, Tong Zhang, Anurag Beniwal\n\nURL：https://arxiv.org/pdf/2509.03403.pdf\n\n题目：2025 [2509.03403] 超越正确性：通过强化学习训练和谐过程与结果奖励",
+        "地址": "https://arxiv.org/pdf/2509.03403.pdf"
+    },
+    {
+        "名称": "2025 [2509.00930] SATQuest: A Verifier for Logical Reasoning Evaluation and Reinforcement Fine-Tuning of LLMs.pdf",
+        "作者": "Yanxiao Zhao, Yaqian Li, Zihao Bo, Rinyoichi Takezoe, Haojia Hui, Mo Guang, Lei Ren, Xiaolin Qin, Kaiwen Long",
+        "摘要": "摘要: 最近大规模语言模型（LLMs）的进展展示了其卓越的一般推理能力。然而，由于缺乏可控且可扩展的工具进行细粒度分析，系统评估和增强这些推理能力具有挑战性。现有的基准测试和数据集通常缺乏多维度系统分析和训练所需的变量控制，或问题类型和格式较窄。为解决这些限制，我们介绍了SATQuest，一种系统验证器，旨在通过直接从合取范式（CNF）实例生成多样化的基于可满足性（SAT）的逻辑推理问题来评估和增强LLMs的逻辑推理能力。SATQuest在实例规模、问题类型和问题格式三个正交维度上构建这些问题，采用随机化的基于SAT的问题生成和通过PySAT进行的客观答案验证。此设计减轻了记忆问题，使推理表现的细微见解成为可能，并且能够有效进行强化微调。我们使用SATQuest对各种LLMs进行了广泛评估，发现其在逻辑推理中的重大限制，特别是超出熟悉数学格式的泛化能力方面。此外，我们表明，通过SATQuest奖励进行的强化微调显著提高了特定任务性能，并普遍适用于更复杂的实例，同时强调了跨格式适应的剩余挑战。通过这些演示，我们展示了SATQuest作为一个基础工具和提升LLMs逻辑推理潜力的有价值起点。",
+        "地址": "https://arxiv.org/pdf/2509.00930.pdf"
+    }
+]
