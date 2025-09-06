@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2509.03867] Drivel-ology: Challenging LLMs with Interpreting Nonsense with Depth.pdf",
+        "作者": "Yang Wang, Chenghao Xiao, Chia-Yi Hsiao, Zi Yan Chang, Chi-Li Chen, Tyler Loakman, Chenghua Lin",
+        "摘要": "摘要: 我们提出了一种独特的语言现象，称为 \"胡说学\"，即具有深度的胡言乱语。此类表达在句法上是连贯的，但在语用上却自相矛盾、情感充沛或修辞上具有颠覆性。虽然这些表达看起来像表面层次的胡说八道，但它们编码了隐含的意义，需通过上下文推断、道德推理或情感解读才能理解。我们发现，目前的大型语言模型（LLMs）虽然在许多自然语言处理任务上表现出色，却始终无法理解胡说文学文本的层次语义。为此，我们构建了一个包含1200多个精心策划的示例的小而多样化的基准数据集，其中选定的实例包括英语、普通话、西班牙语、法语、日语和韩语。注释过程尤其具有挑战性：每个示例都需要专家仔细审查，以验证它们是否真正反映了胡说文学的特征。这一过程涉及多轮讨论和裁决，以解决分歧，突显了胡说学的微妙和主观性。我们评估了多种LLMs在分类、生成和推理任务中的表现。结果表明LLMs存在明显的局限性：模型经常将胡说学与浅层胡言乱语混淆，产生不连贯的解释或完全错过了隐含的修辞功能。这些发现突显了LLMs在语用理解中的深层表征差距，并挑战了统计流利性意味着认知理解的假设。我们发布了数据集和代码，以促进在表面层次连贯性之外建模语言深度的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2509.03867.pdf"
+    },
+    {
+        "名称": "2025 [2509.04338] From Editor to Dense Geometry Estimator.pdf",
+        "作者": "JiYuan Wang, Chunyu Lin, Lei Sun, Rongying Liu, Lang Nie, Mingxing Li, Kang Liao, Xiangxiang Chu, Yao Zhao",
+        "摘要": "摘要：\n利用预训练的文本到图像（T2I）生成模型的视觉先验在密集预测中取得了成功。然而，密集预测本质上是一个图像到图像的任务，这表明图像编辑模型而非T2I生成模型可能是微调的更合适基础。基于这一动机，我们对编辑器和生成器在密集几何估计中的微调行为进行了系统分析。我们的研究结果表明，编辑模型具有内在的结构先验，这使它们能够通过\"优化\"其固有特征更稳定地收敛，并最终比生成模型实现更高的性能。\n\n基于这些发现，我们介绍了FE2E，一个开创性地适应基于扩散变换器（DiT）架构的高级编辑模型用于密集几何预测的框架。具体来说，为了使编辑器适应这一确定性任务，我们将编辑器原有的流匹配损失重新表述为\"一致速度\"训练目标。我们使用对数量化来解决编辑器原生BFloat16格式与任务高精度需求之间的精度冲突。此外，我们利用DiT的全局注意力进行无代价的深度和法线的联合估计，使它们的监督信号能够相互增强。\n\n在不扩大训练数据规模的情况下，FE2E在多个数据集上在零样本单目深度和法线估计中取得了令人印象深刻的性能改进。特别是，它在ETH3D数据集上实现了超过35%的性能提高，并且优于在100倍数据上训练的DepthAnything系列。项目页面可通过[这里](https://arxiv.org/pdf/2509.04338.pdf)访问。",
+        "地址": "https://arxiv.org/pdf/2509.04338.pdf"
+    },
+    {
+        "名称": "2025 [2509.04419] Towards a Unified View of Large Language Model Post-Training.pdf",
+        "作者": "Xingtai Lv, Yuxin Zuo, Youbang Sun, Hongyi Liu, Yuntian Wei, Zhekai Chen, Lixuan He, Xuekai Zhu, Kaiyan Zhang, Bingning Wang, Ning Ding, Bowen Zhou",
+        "摘要": "摘要: 后训练现代语言模型的训练数据主要来源于两大类：在线（模型生成的回放）数据和离线（人工或其他模型演示）数据。这两种数据通常分别被强化学习（RL）和监督微调（SFT）等方法利用。在本文中，我们证明这些方法并不矛盾，而是单一优化过程的实例。我们推导了一个统一政策梯度估计器，并在不同的数据分布假设和各种偏差-方差权衡下，展示了广泛的后训练方法作为公共目标的梯度计算。梯度估计器由四个可互换部分构建：稳定掩码、参考策略分母、优势估计和似然梯度。基于理论发现，我们提出了混合后训练（HPT），一种动态选择不同训练信号的算法。HPT旨在有效利用演示并保持稳定探索，同时不牺牲已学到的推理模式。我们进行了广泛的实验和消融研究，以验证我们统一理论框架和HPT的有效性。在六个数学推理基准测试和两个分布外套件中，HPT在不同规模和系列的模型上始终超越了强基准。\n\n好的，这是论文摘要的中文翻译。",
+        "地址": "https://arxiv.org/pdf/2509.04419.pdf"
+    },
+    {
+        "名称": "2025 [2509.01396] DeepResearch Arena: The First Exam of LLMs' Research Abilities via Seminar-Grounded Tasks.pdf",
+        "作者": "Haiyuan Wan, Chen Yang, Junchi Yu, Meiqi Tu, Jiaxuan Lu, Di Yu, Jianbao Cao, Ben Gao, Jiaqing Xie, Aoran Wang, Wenlong Zhang, Philip Torr, Dongzhan Zhou",
+        "摘要": "摘要: 深度研究代理因其协调多阶段研究工作流程的潜力而备受关注，这些工作流程包括文献综述、方法设计和实证验证。尽管取得了进展，由于难以收集真正吸引研究人员关注和激发其智力好奇心的前沿研究问题，忠实评估其研究能力仍然颇具挑战性。为了解决这一差距，我们介绍了DeepResearch Arena，这是一个基于学术研讨会的基准，捕捉丰富的专家讨论和互动，更好地反映现实世界的研究环境，减少数据泄漏的风险。为自动构建DeepResearch Arena，我们提出了一种多代理层次任务生成（MAHTG）系统，从研讨会记录中提取值得研究的灵感。MAHTG系统进一步将这些灵感转化为高质量的研究任务，确保研究任务制定的可追溯性，同时过滤噪声。通过MAHTG系统，我们从200多场研讨会中精选超过10000个高质量的研究任务，涵盖文学、历史和科学等12个学科。我们的广泛评估表明，DeepResearch Arena对当前最先进的代理呈现了实质性挑战，并在不同模型之间观察到明显的性能差距。",
+        "地址": "https://arxiv.org/pdf/2509.01396.pdf"
+    },
+    {
+        "名称": "2025 [2509.04292] Inverse IFEval: Can LLMs Unlearn Stubborn Training Conventions to Follow Real Instructions?.pdf",
+        "作者": "Qinyan Zhang, Xinping Lei, Ruijie Miao, Yu Fu, Haojie Fan, Le Chang, Jiafan Hou, Dingling Zhang, Zhongfei Hou, Ziqiang Yang, Changxin Pu, Fei Hu, Jingkai Liu, Mengyun Liu, Yang Liu, Xiang Gao, Jiaheng Liu, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang",
+        "摘要": "摘要：大型语言模型（LLMs）在多种任务上表现出色，但往往表现出认知惯性，难以遵循与在监督微调（SFT）期间学习到的标准模式相冲突的指令。为评估这一局限性，我们提出了Inverse IFEval，一个衡量模型反直觉能力的新基准——模型克服训练诱导的偏见并遵守对抗性指令的能力。Inverse IFEval引入了八种此类挑战，包括问题修正、故意文本缺陷、无注释代码和反事实回答。通过一个包含人类参与的流程，我们构建了一个跨23个领域的1012个高质量中英文问题的数据集，并在优化的LLM作为裁判框架下进行评估。对现有领先LLM的实验表明我们提出的Inverse IFEval基准的必要性。我们的研究结果强调，未来的对齐工作不仅应该追求流畅性和事实正确性，还应考虑在非传统情况下的适应性。我们希望Inverse IFEval既能作为诊断工具，也能作为开发方法的基础，以缓解认知惯性，减少对狭隘模式的过拟合，最终增强LLM在多样且不可预测的现实世界场景中遵循指令的可靠性。\n",
+        "地址": "https://arxiv.org/pdf/2509.04292.pdf"
+    },
+    {
+        "名称": "2025 [2509.04394] Transition Models: Rethinking the Generative Learning Objective.pdf",
+        "作者": "Zidong Wang, Yiyuan Zhang, Xiaoyu Yue, Xiangyu Yue, Yangguang Li, Wanli Ouyang, Lei Bai",
+        "摘要": "摘要：在生成建模中存在一个基本的两难困境：迭代扩散模型虽然具有出色的保真度，但计算成本很高，而高效的少步替代方案则受制于质量上限。这种生成步数与输出质量之间的冲突源于限制性的训练目标，这些目标只关注微小动态（PF-ODEs）或直接的终点预测。我们通过引入一个精确的、连续时间动力学方程来解决这一挑战，该方程在任意有限时间间隔内解析地定义状态转换。这引出了一个新的生成范式，过渡模型（TiM），它适应任意步数的转换，从单步跳跃到多步细化生成轨迹。尽管TiM只有865M参数，但它在所有评估的步数下表现超过了领先模型，如SD3.5（8B参数）和FLUX.1（12B参数）。重要的是，与之前的少步生成器不同，TiM在采样预算增加时表现出单调的质量提升。此外，当采用我们的本机分辨率策略时，TiM在高达4096x4096的分辨率下提供了卓越的保真度。\n\n作者：王子栋，张艺元，岳晓宇，岳向宇，李杨光，欧阳万里，白磊\n\n评论：代码已在此网址发布（https URL）\n\n链接：https://arxiv.org/pdf/2509.04394.pdf\n\n标题：2025年《过渡模型：重新思考生成学习目标》",
+        "地址": "https://arxiv.org/pdf/2509.04394.pdf"
+    },
+    {
+        "名称": "2025 [2508.20478] Video-MTR: Reinforced Multi-Turn Reasoning for Long Video Understanding.pdf",
+        "作者": "Yuan Xie, Tianshui Chen, Zheng Ge, Lionel Ni",
+        "摘要": "摘要: 长视频理解具有长时间依赖性和多事件特征，仍然是一个挑战。现有方法通常依赖静态推理或外部视觉-语言模型（VLMs），由于缺乏端到端训练，面临复杂性和次优性能等问题。本文提出了Video-MTR，一种加强的多轮推理框架，旨在实现迭代关键视频段选择和问题理解。与传统的视频推理流水线单轮生成预测不同，Video-MTR在多轮中进行推理，根据对先前处理段落和当前问题的不断理解，逐步选择视频段。这种迭代过程允许对视频进行更加细致和上下文感知的分析。为确保中间推理过程，我们引入了一种新颖的双层奖励系统，结合基于答案正确性的轨迹级奖励和强调帧查询相关性的轮级奖励。该系统优化了视频段选择和问题理解，消除了对外部VLMs的需求，使端到端训练成为可能。基于VideoMME, MLVU和EgoSchema等基准的大量实验表明，Video-MTR在准确性和效率上均优于现有方法，推进了长视频理解的最新进展。\n\nAuthors: Yuan Xie, Tianshui Chen, Zheng Ge, Lionel Ni\n\nComments: 15页, 9个图\n\nUrl: https://arxiv.org/pdf/2508.20478.pdf\n\nTitle: 2025 [2508.20478] Video-MTR: Reinforced Multi-Turn Reasoning for Long Video Understanding.pdf",
+        "地址": "https://arxiv.org/pdf/2508.20478.pdf"
+    },
+    {
+        "名称": "2025 [2509.04011] NER Retriever: Zero-Shot Named Entity Retrieval with Type-Aware Embeddings.pdf",
+        "作者": "Or Shachar, Uri Katz, Yoav Goldberg, Oren Glickman",
+        "摘要": "摘要: 我们提出了NER Retriever，一个面向随需命名实体检索（Named Entity Retrieval）的零样本检索框架，这是命名实体识别（NER）的一个变种，其中类型事先没有提供，用户定义的类型描述被用于检索提及该类型实体的文档。我们的方法不依赖固定的架构或微调模型，而是基于大型语言模型（LLMs）的内部表示来将实体提及和用户提供的开放式类型描述嵌入到共享语义空间中。我们展示了内部表示，特别是来自中层Transformer块的值向量，比常用的顶层嵌入更有效地编码细粒度的类型信息。为了优化这些表示，我们训练了一个轻量级对比投影网络，该网络在分离不相关类型的同时对齐类型兼容的实体。生成的实体嵌入紧凑、类型感知，并且非常适合最近邻搜索。在三个基准测试中，NER Retriever显著优于词汇和密集句子级检索基线。我们的研究结果为LLMs内表示选择提供了实证支持，并展示了一个可扩展的无架构实体检索的实用解决方案。NER Retriever代码库在此https URL公开可用。",
+        "地址": "https://arxiv.org/pdf/2509.04011.pdf"
+    },
+    {
+        "名称": "2025 [2509.04406] Few-step Flow for 3D Generation via Marginal-Data Transport Distillation.pdf",
+        "作者": "Zanwei Zhou, Taoran Yi, Jiemin Fang, Chen Yang, Lingxi Xie, Xinggang Wang, Wei Shen, Qi Tian",
+        "摘要": "摘要: 基于流的3D生成模型在推理过程中通常需要几十个采样步骤。尽管少步蒸馏方法，尤其是一致性模型（CMs），在加速2D扩散模型方面取得了实质性进展，但它们在更复杂的3D生成任务中仍未得到充分探索。在这项研究中，我们提出了一种新颖的框架，MDT-dist，用于少步3D流蒸馏。我们的方法基于一个主要目标：蒸馏预训练模型以学习边缘数据传输。直接学习这个目标需要整合速度场，但这个积分在实施上是难以处理的。因此，我们提出了两个可优化的目标，速度匹配（VM）和速度蒸馏（VD），分别将优化目标从传输层面等效转化为速度和分布层面。速度匹配（VM）学习稳定匹配学生和教师之间的速度场，但不可避免地提供了有偏的梯度估计。速度蒸馏（VD）通过利用学习到的速度场来执行概率密度蒸馏进一步增强了优化过程。在先锋3D生成框架TRELLIS上评估时，我们的方法将每个流变换器的采样步骤从25减少到1或2，在A800上实现了0.68秒（1步x2）和0.94秒（2步x2）延迟，速度提升分别为9.0倍和6.5倍，同时保持了高视觉和几何保真度。大量实验表明我们的方法显著优于现有CM蒸馏方法，并使TRELLIS在少步3D生成中实现了卓越性能。",
+        "地址": "https://arxiv.org/pdf/2509.04406.pdf"
+    },
+    {
+        "名称": "2025 [2509.03059] Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers.pdf",
+        "作者": "Xingyue Huang, Rishabh, Gregor Franke, Ziyi Yang, Jiamu Bai, Weijie Bai, Jinhe Bi, Zifeng Ding, Yiqun Duan, Chengyu Fan, Wendong Fan, Xin Gao, Ruohao Guo, Yuan He, Zhuangzhuang He, Xianglong Hu, Neil Johnson, Bowen Li, Fangru Lin, Siyu Lin, Tong Liu, Yunpu Ma, Hao Shen, Hao Sun, Beibei Wang, Fangyijie Wang, Hao Wang, Haoran Wang, Yang Wang, Yifeng Wang, Zhaowei Wang, Ziyang Wang, Yifan Wu, Zikai Xiao, Chengxing Xie, Fan Yang, Junxiao Yang, Qianshuo Ye, Ziyu Ye, Guangtao Zeng, Yuwen Ebony Zhang, Zeyu Zhang, Zihao Zhu, Bernard Ghanem, Philip Torr, Guohao Li",
+        "摘要": "摘要：最近在大型语言模型（LLMs）方面的进展表明，通过可验证奖励强化学习（RLVR），其推理能力可以显著提高，特别是在数学和编程等领域，因为这些领域的真实正确性可以自动评估。然而，由于缺乏高质量、可验证的数据集以及人工监督的高成本，将这种成功扩展到其他高强度推理领域仍然具有挑战性。在这项工作中，我们介绍了Loong项目：一个开源框架，用于跨多个高强度推理领域的可扩展合成数据生成和验证。该框架包括两个关键部分：（1）LoongBench，这是一个精心策划的种子数据集，包含了12个领域中8729个人工审查的例子（例如，高等数学、化学、逻辑），每个例子都配有可执行代码和丰富的元数据；（2）LoongEnv，这是一个模块化的合成数据生成环境，支持多种提示策略以生成新的问答代码三元组。这些组件共同形成了强化学习的代理-环境循环，其中基于LLM的代理因生成与代码执行答案一致的思维链（CoT）解决方案而获得奖励。我们通过对一系列开源和专有LLMs进行基准测试来评估LoongBench的领域覆盖率并揭示性能瓶颈。此外，我们对LoongEnv生成的合成数据进行了综合分析，检查了其正确性、难度和多样性。代码和文档可在此https URL获得。\n\n作者：Xingyue Huang, Rishabh, Gregor Franke, Ziyi Yang, Jiamu Bai, Weijie Bai, Jinhe Bi, Zifeng Ding, Yiqun Duan, Chengyu Fan, Wendong Fan, Xin Gao, Ruohao Guo, Yuan He, Zhuangzhuang He, Xianglong Hu, Neil Johnson, Bowen Li, Fangru Lin, Siyu Lin, Tong Liu, Yunpu Ma, Hao Shen, Hao Sun, Beibei Wang, Fangyijie Wang, Hao Wang, Haoran Wang, Yang Wang, Yifeng Wang, Zhaowei Wang, Ziyang Wang, Yifan Wu, Zikai Xiao, Chengxing Xie, Fan Yang, Junxiao Yang, Qianshuo Ye, Ziyu Ye, Guangtao Zeng, Yuwen Ebony Zhang, Zeyu Zhang, Zihao Zhu, Bernard Ghanem, Philip Torr, Guohao Li\n\n网址：https://arxiv.org/pdf/2509.03059.pdf\n\n标题：2025 [2509.03059] Loong: 通过验证器在大规模合成长链思维",
+        "地址": "https://arxiv.org/pdf/2509.03059.pdf"
+    },
+    {
+        "名称": "2025 [2509.04434] Durian: Dual Reference-guided Portrait Animation with Attribute Transfer.pdf",
+        "作者": "Hyunsoo Cha, Byungjun Kim, Hanbyul Joo",
+        "摘要": "摘要：我们提出了Durian，这是第一个能够从给定的参考图像在零样本条件下生成带有面部属性迁移的肖像动画视频的方法。为了实现跨帧的高保真和空间一致的属性迁移，我们引入了双参考网络，将肖像图像和属性图像的空间特征注入扩散模型的去噪过程。我们使用了一种自我重建的训练方法，其中两个帧从同一个肖像视频中取样：一个作为属性参考，另一个作为目标肖像，并重建以这些输入及其对应的掩码为条件的剩余帧。为了支持具有不同空间范围的属性迁移，我们提出了一种使用关键点条件图像生成的掩码扩展策略进行训练。此外，我们还通过空间和外观级别的变换来增强属性和肖像图像，以提高它们之间位置失对的鲁棒性。这些策略使模型能够在没有明确的三重监督训练的情况下，有效地在不同属性和自然界参考组合中进行泛化。Durian在带有属性迁移的肖像动画中实现了最新的性能，值得注意的是，它的双参考设计使得在单次生成过程中可以进行多属性组合，而无需额外的训练。",
+        "地址": "https://arxiv.org/pdf/2509.04434.pdf"
+    },
+    {
+        "名称": "2025 [2508.18733] Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from Vector Drawings.pdf",
+        "作者": "Feiwei Qin, Shichao Lu, Junhao Hou, Changmiao Wang, Meie Fang, Ligang Liu",
+        "摘要": "摘要: 计算机辅助设计（CAD）生成建模正在推动工业应用中的重大创新。最近的研究展示了从点云、网格和文本描述等各种输入创建实体模型的显著进展。然而，这些方法与传统的工业工作流程基本不同，后者通常从二维工程图纸开始。尽管从这些二维矢量图生成参数化CAD模型是工程设计中的关键步骤，但自动化这一过程仍未受到充分研究。为了解决这一问题，我们的主要见解是将CAD生成重新定义为一个序列到序列的学习问题，其中矢量绘图原语直接用于生成参数化CAD操作，从而在转换过程中保留几何精度和设计意图。我们提出了Drawing2CAD，一个具有三个关键技术组件的框架：一个网络友好的矢量原语表示，保留了精确的几何信息；一个双解码器转换器架构，在保持精确对应关系的同时解耦命令类型和参数生成；以及一个软目标分布损失函数，以适应CAD参数的固有灵活性。为了训练和评估Drawing2CAD，我们创建了CAD-VGDrawing，一个配对的工程图和参数化CAD模型的数据集，并进行了全面的实验以证明我们方法的有效性。代码和数据集可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2508.18733.pdf"
+    },
+    {
+        "名称": "2025 [2509.04442] Delta Activations: A Representation for Finetuned Large Language Models.pdf",
+        "作者": "Zhiqiu Xu, Amish Sethi, Mayur Naik, Ser-Nam Lim",
+        "摘要": "摘要：强大的开源大型语言模型（LLMs）的成功使社区能够创建大量针对特定任务和领域进行微调的模型。然而，由于元数据不一致和存储库结构不明确，导航和理解这些模型仍然具有挑战性。我们引入了Delta Activations，这是一种通过测量相对于基准模型的内部激活变化来将微调模型表示为向量嵌入的方法。这种表示允许按领域和任务进行有效的聚类，揭示模型领域中的结构。Delta Activations还展示了理想的特性：在不同微调设置中具有鲁棒性，并且在混合微调数据集时显示出加性属性。此外，我们展示了Delta Activations可以通过少量微调来嵌入任务，并进一步探索其在模型选择和融合中的应用。我们希望Delta Activations可以促进公共模型的再利用实践。代码可在此URL获得：https://arxiv.org/pdf/2509.04442.pdf。",
+        "地址": "https://arxiv.org/pdf/2509.04442.pdf"
+    },
+    {
+        "名称": "2025 [2509.03888] False Sense of Security: Why Probing-based Malicious Input Detection Fails to Generalize.pdf",
+        "作者": "Cheng Wang, Zeming Wei, Qin Liu, Muhao Chen",
+        "摘要": "摘要：大型语言模型（LLMs）能够遵循有害指令，这引发了严重的安全问题，尽管它们具有令人印象深刻的能力。最近的研究利用探测方法研究了LLMs内部表示中恶意输入和良性输入的可分离性，并提出使用这种探测方法进行安全检测。我们系统地重新审视这一范式。受分布外表现不佳的启发，我们假设探针学习的是表面模式而非语义上的有害性。通过控制实验，我们证实了这一假设并识别了具体的学习模式：指令模式和触发词。我们的研究采用了系统的方法，从展示简单n-gram方法的可比表现，到使用语义清理数据集进行控制实验，再到详细分析模式依赖性。这些结果揭示了当前基于探测的方法存在虚假的安全感，并强调了重新设计模型和评估协议的必要性。我们在此方面提供了进一步讨论，以期建议负责任的进一步研究。我们已在此 https URL 开源了项目。\n\n作者：Cheng Wang, Zeming Wei, Qin Liu, Muhao Chen\n\n论文标题：2025 [2509.03888] False Sense of Security: Why Probing-based Malicious Input Detection Fails to Generalize.pdf\n\n链接：https://arxiv.org/pdf/2509.03888.pdf",
+        "地址": "https://arxiv.org/pdf/2509.03888.pdf"
+    }
+]
