@@ -1,0 +1,152 @@
+[
+    {
+        "名称": "2025 [2509.06160] Reverse-Engineered Reasoning for Open-Ended Generation.pdf",
+        "作者": "Haozhe Wang, Haoran Que, Qixin Xu, Minghao Liu, Wangchunshu Zhou, Jiazhan Feng, Wanjun Zhong, Wei Ye, Tong Yang, Wenhao Huang, Ge Zhang, Fangzhen Lin",
+        "摘要": "摘要: 尽管“深度推理”范式在数学等可验证领域中取得了显著进展，但其在开放性、创意生成方面的应用仍然是一个关键挑战。两种主要的推理方法——强化学习（RL）和指令蒸馏——在这一领域表现不佳；强化学习因缺乏明确的奖励信号和高质量的奖励模型而举步维艰，而蒸馏方法则因成本高昂且受限于教师模型的能力而受阻。为了克服这些限制，我们引入了逆向工程推理（REER）这一全新范式，它从根本上改变了方法。与通过试错或模仿来“正向”构建推理过程不同，REER从已知良好解决方案出发，“反向”计算发现可能产生这些方案的潜在、逐步深度推理过程。利用这种可扩展的无梯度方法，我们整理并开源了DeepWriting-20K，一个包含20,000个开放性任务深度推理轨迹的大规模数据集。我们的模型，DeepWriter-8B，在此数据上训练后，不仅超越了强劲的开源基线，还在性能上与领先的专有模型（如GPT-4o和Claude 3.5）竞争，甚至在某些时候表现优异。\n\n作者: Haozhe Wang, Haoran Que, Qixin Xu, Minghao Liu, Wangchunshu Zhou, Jiazhan Feng, Wanjun Zhong, Wei Ye, Tong Yang, Wenhao Huang, Ge Zhang, Fangzhen Lin\n\n评论: 预印本\n\n网址: https://arxiv.org/pdf/2509.06160.pdf\n\n标题: 2025 [2509.06160] 逆向工程推理用于开放性生成.pdf",
+        "地址": "https://arxiv.org/pdf/2509.06160.pdf"
+    },
+    {
+        "名称": "2025 [2509.06501] WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents.pdf",
+        "作者": "Junteng Liu, Yunji Li, Chi Zhang, Jingyang Li, Aili Chen, Ke Ji, Weiyu Cheng, Zijia Wu, Chengyu Du, Qidi Xu, Jiayuan Song, Zhengmao Zhu, Wenhu Chen, Pengyu Zhao, Junxian He",
+        "摘要": "摘要：大型语言模型（LLMs）的范式越来越倾向于代理应用程序，网络浏览能力对于从不同的在线来源检索信息是至关重要的。然而，现有的开源网络代理在复杂任务中的信息检索能力有限或缺乏透明的实现。在这项工作中，我们确认关键挑战在于信息检索的具有挑战性数据的稀缺。为了解决这一限制，我们介绍了WebExplorer：通过基于模型的探索和迭代的长至短查询进化的系统数据生成方法。该方法创建了需要多步推理和复杂网络导航的挑战性查询答案对。通过利用我们精心策划的高质量数据集，我们通过监督微调和强化学习成功开发了高级网络代理WebExplorer-8B。我们的模型支持128K上下文长度和最多100次工具调用轮次，能够进行长时间问题解决。在各种信息检索基准测试中，WebExplorer-8B在其规模上实现了最先进的性能。值得注意的是，作为一个8B大小的模型，WebExplorer-8B在强化学习训练后能够有效搜索平均16次，实现比WebSailor-72B在BrowseComp-en/zh上更高的准确性，并在WebWalkerQA和FRAMES上达到最多100B参数模型中的最佳表现。除了这些信息检索任务外，我们的模型在HLE基准测试中的泛化能力也很强，尽管它仅接受了知识密集型QA数据的训练。这些结果突出我们的方法是迈向长时间网络代理的实用途径。",
+        "地址": "https://arxiv.org/pdf/2509.06501.pdf"
+    },
+    {
+        "名称": "2025 [2509.06949] Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models.pdf",
+        "作者": "Yinjie Wang, Ling Yang, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang",
+        "摘要": "摘要：我们提出了TraceRL，一种轨迹感知的强化学习框架，针对扩散语言模型（DLM）在训练后引入首选推理轨迹，并可应用于不同架构。配备了基于扩散的价值模型以增强训练稳定性，我们展示了其在复杂数学和编码任务中改进了推理性能。此外，它还可以将块特定模型调整为更大的块，提升采样灵活性。使用TraceRL，我们导出了系列最先进的扩散语言模型，即TraDo。尽管比7B规模的自回归模型更小，TraDo-4B-Instruct在复杂数学推理任务中仍然表现出色。TraDo-8B-Instruct在数学推理基准测试中相较于Qwen2.5-7B-Instruct和Llama3.1-8B-Instruct分别实现了6.1%和51.3%的相对准确率提升。通过课程学习，我们还导出了首个长链推理DLM，在MATH500上超越了Qwen2.5-7B-Instruct，取得了18.1%的相对准确率提升。为促进可重复研究和实际应用，我们发布了一个全面的开源框架，用于构建、训练和部署不同架构的扩散LLMs。该框架集成了加速KV缓存技术和推理引擎用于推理和强化学习，并包括针对数学、编码和一般任务的各种监督微调和RL方法的实现。代码和模型：this https URL。\n\n作者：Yinjie Wang, Ling Yang, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang",
+        "地址": "https://arxiv.org/pdf/2509.06949.pdf"
+    },
+    {
+        "名称": "2025 [2509.06467] Does DINOv3 Set a New Medical Vision Standard?.pdf",
+        "作者": "Che Liu, Yinda Chen, Haoyuan Shi, Jinpeng Lu, Bailiang Jian, Jiazhen Pan, Linghan Cai, Jiayi Wang, Yundi Zhang, Jun Li, Cosmin I. Bercea, Cheng Ouyang, Chen Chen, Zhiwei Xiong, Benedikt Wiestler, Christian Wachinger, Daniel Rueckert, Wenjia Bai, Rossella Arcucci",
+        "摘要": "摘要: \n大规模视觉基础模型的出现以及在多种自然图像上的预训练标志着计算机视觉领域的范式转变。然而，前沿视觉基础模型的有效性在医学成像等专业领域的迁移效果仍然是一个未解的问题。本报告探讨了DINOv3（一个具有强大密集预测任务能力的最先进的自监督视觉变换器(ViT)）是否可以直接作为医学视觉任务的强大统一编码器，而无需领域特定的预训练。为了解答这一问题，我们在广泛的医学成像模态上对DINOv3在常见的医学视觉任务（包括2D/3D分类和分割）进行基准测试。我们通过变化模型大小和输入图像分辨率系统性地分析其可扩展性。我们的研究结果表明，DINOv3表现出令人印象深刻的性能，建立了一个令人望而却步的新基线。值得注意的是，即便仅在自然图像上进行训练，它在若干任务上甚至可以超越医学专用的基础模型如BiomedCLIP和CT-Net。然而，我们也发现了一些明显的局限性: 该模型在需要深度领域专业化的场景中（如全切片病理图像、电子显微镜(EM)和正电子发射断层扫描(PET)）的特征会有所下降。此外，我们还观察到DINOv3在医学领域并不总是遵循缩放法则；性能并不会随模型增大或特征分辨率细化而可靠地提高，在不同任务中表现出多样的缩放行为。最终，我们的工作将DINOv3确立为一个强大的基线，其强大的视觉特征可以作为多种复杂医学任务的稳健先验。这为未来的研究开启了有前景的新方向，例如利用其特征在3D重建中强制多视图一致性。",
+        "地址": "https://arxiv.org/pdf/2509.06467.pdf"
+    },
+    {
+        "名称": "2025 [2509.01656] Reinforced Visual Perception with Tools.pdf",
+        "作者": "Zetong Zhou, Dongping Chen, Zixian Ma, Zhihan Hu, Mingyang Fu, Sinan Wang, Yao Wan, Zhou Zhao, Ranjay Krishna",
+        "摘要": "摘要：视觉推理是人类智能的基石，包含了解决各种视觉问题所必需的复杂感知和逻辑过程。尽管计算机视觉的进步已经为各种感知任务开发了强大的模型，但将这些模型用于通用视觉推理仍然具有挑战性。之前的工作表明，通过有监督的微调，用视觉模型增强大规模语言模型(LLM)可以提高性能，但存在昂贵的数据生成、依赖于仔细的数据过滤和泛化能力差等关键局限性。为了解决这些问题，我们提出了ReVPT，通过强化学习提高多模态LLM在使用视觉工具进行推理的能力。我们引入了一种基于GRPO的新型RL算法，旨在训练模型使用一套四种视觉工具进行推理。通过广泛的实验，我们表明我们的方法在包括SAT、CV-Bench、BLINK和MMStar等几个以感知为主的基准上达到了最先进的性能，显著优于有监督和基于文本的RL微调基线。值得注意的是，我们的ReVPT-3B和ReVPT-7B在CV-Bench上分别超越指令模型9.03％和9.44％。最后，通过广泛的消融分析，我们为社区提供了关于基于RL的视觉工具使用的新见解。我们的代码可在此网址获取： https://arxiv.org/pdf/2509.01656.pdf.",
+        "地址": "https://arxiv.org/pdf/2509.01656.pdf"
+    },
+    {
+        "名称": "2025 [2509.06733] Reinforcement Learning Foundations for Deep Research Systems: A Survey.pdf",
+        "作者": "Wenjun Li, Zhi Chen, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu",
+        "摘要": "摘要：研究表明，智能人工智能（agentic AI）通过协调推理、搜索开放网络和用户文件以及使用工具来解决复杂的多步骤任务，正朝着具有规划者、协调者和执行者的分层部署方向发展。在实践中，端到端训练整个堆栈仍然不切实际，因此大多数工作仅训练连接搜索、浏览和代码等核心工具的单个规划者。尽管标准技术传授了协议的保真度，但由于模仿和暴露偏差以及对环境反馈的缺乏利用，它存在一些问题。偏好对齐方法如DPO则依赖于架构和代理，无法处理长时间跨度的信用分配和多目标权衡。标准技术和DPO的进一步限制在于它们依赖于人类定义的决策点和子技能以及标签比较。强化学习通过优化轨迹层级的策略，与闭环工具交互研究相一致，能够实现探索、恢复行为和原则性信用分配，并减少对人类先验和评分者偏见的依赖。 这项调查，据我们所知，是第一个专门研究深度研究系统的强化学习基础的工作。它从三个方面系统地总结了DeepSeek-R1之后的工作： (i) 数据合成和策划； (ii) 覆盖稳定性、样本效率、长背景处理、奖励和信用设计、多目标优化和多模态集成的智能研究的强化学习方法； (iii) 智能强化学习训练系统和框架。我们还涵盖了智能架构及协调以及评估和基准测试，包括最近的QA、VQA、长篇综合和领域基础的工具交互任务。我们提炼了重复出现的模式，发现了基础设施瓶颈，并为训练稳健、透明的深度研究代理提供了实际指导。",
+        "地址": "https://arxiv.org/pdf/2509.06733.pdf"
+    },
+    {
+        "名称": "2025 [2509.06461] Focusing by Contrastive Attention: Enhancing VLMs' Visual Reasoning.pdf",
+        "作者": "Yuyao Ge, Shenghua Liu, Yiwei Wang, Lingrui Mei, Baolong Bi, Xuanshan Zhou, Jiayu Yao, Jiafeng Guo, Xueqi Cheng",
+        "摘要": "摘要：视觉-语言模型（VLMs）在各种视觉任务中表现出显著成功，但在复杂视觉环境中其性能有所下降。现有的增强方法需要额外的训练，依赖外部分割工具或在粗粒度水平上操作，忽略了VLMs的内在能力。为了弥补这一差距，我们研究了VLMs的注意力模式，发现：（1）视觉复杂性与注意力熵强烈相关，负面影响推理性能；（2）注意力从浅层的全局扫描逐渐细化为深层的集中收敛，收敛程度由视觉复杂性决定；（3）理论上，我们证明了通用查询和任务特定查询之间的注意力图对比能够将视觉信号分解为语义信号和视觉噪声成分。基于这些见解，我们提出了一种无训练的对比注意力细化方法（CARVE），通过像素级的注意力对比提取任务相关的视觉信号。广泛的实验表明，CARVE始终如一地提升了性能，在开源模型上实现了高达75%的改进。我们的工作提供了关于视觉复杂性与注意力机制之间相互作用的关键见解，提供了一条使用对比注意力提高视觉推理的有效路径。\n\n作者：Yuyao Ge, Shenghua Liu, Yiwei Wang, Lingrui Mei, Baolong Bi, Xuanshan Zhou, Jiayu Yao, Jiafeng Guo, Xueqi Cheng\n\n链接：https://arxiv.org/pdf/2509.06461.pdf\n\n标题：2025 [2509.06461] 通过对比注意力聚焦：增强VLMs的视觉推理.pdf",
+        "地址": "https://arxiv.org/pdf/2509.06461.pdf"
+    },
+    {
+        "名称": "2025 [2509.06155] UniVerse-1: Unified Audio-Video Generation via Stitching of Experts.pdf",
+        "作者": "Duomin Wang, Wei Zuo, Aojie Li, Ling-Hao Chen, Xinyao Liao, Deyu Zhou, Zixin Yin, Xili Dai, Daxin Jiang, Gang Yu",
+        "摘要": "论文标题： UniVerse-1: Unified Audio-Video Generation via Stitching of Experts\n\n摘要：\n我们介绍了UniVerse-1，一种统一的、类Veo-3模型，能够同时生成协调的音频和视频。为了提高训练效率，我们绕过了从头开始训练，而是采用了一种专家拼接技术(SoE)。这种方法深度融合了预训练的视频和音乐生成专家模型的相应模块，从而充分利用它们的基础能力。为了确保环境声音和语音与视频内容的准确注释和时间对齐，我们开发了一条在线注释管道，在训练过程中处理所需的训练数据并生成标签。这一策略避免了文本注释错位常导致的性能下降。通过这些技术的协同作用，我们的模型在经过大约7600小时的音视频数据微调后，生成了具有良好协调的环境声音和强时间对齐的语音生成结果。为了系统评估我们提出的方法，我们引入了Verse-Bench，一个新的基准数据集。为了推动音视频生成研究，并缩小与诸如Veo3等最先进模型的性能差距，我们公开了模型和代码。希望这一贡献能够惠及更广泛的研究社区。\n\n项目页面：此 https URL\n\n作者：\nDuomin Wang, Wei Zuo, Aojie Li, Ling-Hao Chen, Xinyao Liao, Deyu Zhou, Zixin Yin, Xili Dai, Daxin Jiang, Gang Yu",
+        "地址": "https://arxiv.org/pdf/2509.06155.pdf"
+    },
+    {
+        "名称": "2025 [2509.06917] Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents.pdf",
+        "作者": "Jiacheng Miao, Joe R. Davis, Jonathan K. Pritchard, James Zou",
+        "摘要": "摘要：我们介绍了Paper2Agent，一个将研究论文转换为AI代理的自动化框架。Paper2Agent将研究成果从被动的工件转化为能够加速下游应用、采用和发现的主动系统。传统的研究论文需要读者投入大量精力来理解和调整论文的代码、数据和方法，以适应自己的工作，从而形成传播和重用的障碍。Paper2Agent通过自动将论文转换为充当知识丰富的研究助手的AI代理来解决这个挑战。它使用多个代理系统地分析论文及其相关代码库，以构建模型上下文协议（MCP）服务器，然后迭代生成并运行测试以改进和增强所生成的MCP。这些论文MCP可以灵活地连接到聊天代理（例如Claude Code），通过自然语言进行复杂的科学查询，同时调用原论文中的工具和工作流程。我们通过深入的案例研究展示了Paper2Agent在创建可靠且强大的论文代理方面的有效性。Paper2Agent创建了一个利用AlphaGenome解释基因组变异的代理，以及基于ScanPy和TISSUE进行单细胞和空间转录组分析的代理。我们验证了这些论文代理能够重现原论文的结果，并能够正确执行新的用户查询。通过将静态论文转换为动态、互动的AI代理，Paper2Agent引入了一种新的知识传播范式，为AI共同研究人员的协作生态系统奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2509.06917.pdf"
+    },
+    {
+        "名称": "2025 [2509.02108] DivMerge: A divergence-based model merging method for multi-tasking.pdf",
+        "作者": "Touayouch Brahim, Fosse Loïc, Damnati Géraldine, Lecorvé Gwénolé",
+        "摘要": "摘要：多任务学习（MTL）通常通过在微调之前合并数据集来实现，但微调模型的日益普及导致了新的方法，如通过任务算术进行模型合并。在这种情况下，一个主要挑战是任务干扰，随着任务数量的增加而恶化。我们提出了一种方法，将训练在不同任务上的模型合并为单一模型，在所有任务中保持较强的性能。我们的方法利用Jensen-Shannon散度来指导合并过程，而不需要额外的标记数据，并自动平衡任务重要性。与现有方法不同的是，我们的方法在任务数量增加时仍然保持稳健，并持续优于先前的工作。",
+        "地址": "https://arxiv.org/pdf/2509.02108.pdf"
+    },
+    {
+        "名称": "2025 [2509.03516] Easier Painting Than Thinking: Can Text-to-Image Models Set the Stage, but Not Direct the Play?.pdf",
+        "作者": "Ouxiang Li, Yuan Wang, Xinting Hu, Huijuan Huang, Rui Chen, Jiarong Ou, Xin Tao, Pengfei Wan, Fuli Feng",
+        "摘要": "摘要：文本到图像（T2I）生成旨在从文本提示中合成图像，这些提示共同指定了必须显示的内容，并暗示了可以推断的内容，从而对应了两个核心能力：构成和推理。然而，随着T2I模型在推理能力上的不断进步，现有的基准测试在全面评估这些能力方面存在明显的局限性。同时，这些进步也使模型能够处理更复杂的提示，而当前的基准测试仍局限于低场景密度和简化的一对一推理。为了解决这些限制，我们提出了T2I-CoReBench，一个全面复杂的基准测试，用于评估T2I模型的构成和推理能力。为了确保全面性，我们围绕场景图元素（实例、属性和关系）构建构成，并围绕推理的哲学框架（演绎、归纳和溯因）构建推理，制定了一个12维的评估分类法。为了增加复杂性，由于真实世界场景的固有复杂性，我们为每个提示设置了高构成密度和多步推理。我们还为每个提示配对了一个清单，用以指定个别的是/否问题，以独立评估每个预期元素，从而促进细致可靠的评估。统计数据显示，我们的基准测试包含了1,080个挑战性提示和约13,500个清单问题。对27个当前T2I模型的实验表明，它们在复杂高密度场景中的构成能力仍然有限，而推理能力则是更为严重的瓶颈，所有模型在从提示中推论隐含元素方面都很困难。我们的项目页面：此https URL。",
+        "地址": "https://arxiv.org/pdf/2509.03516.pdf"
+    },
+    {
+        "名称": "2025 [2509.06945] Interleaving Reasoning for Better Text-to-Image Generation.pdf",
+        "作者": "Wenxuan Huang, Shuang Chen, Zheyong Xie, Shaosheng Cao, Shixiang Tang, Yufan Shen, Qingyu Yin, Wenbo Hu, Xiaoman Wang, Yuntian Tang, Junbo Qiao, Yue Guo, Yao Hu, Zhenfei Yin, Philip Torr, Yu Cheng, Wanli Ouyang, Shaohui Lin",
+        "摘要": "2025年 [2509.06945] 优化文本生成图像的交错推理研究摘要:\n摘要：统一的多模态理解和生成模型最近在图像生成能力方面取得了显著的进展，但在指令遵循和细节保留方面，与GPT-4o等理解与生成紧密结合的系统相比，仍存在较大差距。受最近交替推理进展的启发，我们探讨了这种推理是否能进一步改进文本生成图像（T2I）。我们提出交错推理生成（IRG），这是一个在基于文本思考和图像合成之间交替的框架：模型首先生成文本思考来指导初始图像，然后反思结果以细化细微细节、视觉质量和美学，同时保留语义。为了有效训练IRG，我们提出交错推理生成学习（IRGL），它的目标是实现两个子目标：(1) 加强初始思考和生成阶段以建立核心内容和基础质量；(2) 使高质量的文本反思和忠实地实施这些改进在随后的图像中。我们策划了IRGL-300K，一个组织成六种分解学习模式的数据集，共同涵盖了学习基于文本的思考和完整思考-图像轨迹。从一个本身产生交错文本图像输出的统一基础模型开始，我们的两阶段训练首先建立稳健的思考和反思，然后在完整的思考-图像轨迹数据中高效地调整IRG管道。广泛的实验展示了最先进的表现，在GenEval、WISE、TIIF、GenAI-Bench和OneIG-EN上取得了5-10点的绝对提升，同时在视觉质量和细微保真度方面取得了显著改进。代码、模型权重和数据集将在此 https URL 发布。",
+        "地址": "https://arxiv.org/pdf/2509.06945.pdf"
+    },
+    {
+        "名称": "2025 [2509.06631] Guided Decoding and Its Critical Role in Retrieval-Augmented Generation.pdf",
+        "作者": "Özgür Uğur, Musa Yılmaz, Esra Şavirdi, Özay Ezerceli, Mahmut El Huseyni, Selva Taş, Reyhan Bayraktar",
+        "摘要": "摘要：大型语言模型（LLMs）的整合到各种应用中推动了对结构化和可靠响应的需求。在检索增强生成（RAG）系统中，一个关键挑战是确保输出与预期格式一致，同时尽量减少幻想。本文研究了在RAG系统中引导解码的作用，比较了三个方法：Outlines、XGrammar和LM Format Enforcer，并在不同的多轮提示设置（0轮、1轮和2轮）中进行比较。通过对成功率、幻想率和输出质量的评估，我们提供了关于其性能和适用性的见解。我们的研究发现了多轮交互如何影响引导解码，揭示了意想不到的性能变化，为特定使用场景中的方法选择提供了信息。这项工作推进了对RAG系统中结构化输出生成的理解，提供了理论见解和LLM部署的实际指导。",
+        "地址": "https://arxiv.org/pdf/2509.06631.pdf"
+    },
+    {
+        "名称": "2025 [2509.06493] Scaling up Multi-Turn Off-Policy RL and Multi-Agent Tree Search for LLM Step-Provers.pdf",
+        "作者": "Ran Xin, Zeyu Zheng, Yanchen Nie, Kun Yuan, Xia Xiao",
+        "摘要": "摘要：将大型语言模型（LLMs）融入自动定理证明中展现了巨大潜力，但在扩展训练时的强化学习（RL）和推理时的计算方面存在根本限制。本文介绍了\\\\texttt{BFS-Prover-V2}，一个旨在解决这种双重扩展问题的系统。我们提出了两项主要创新。首先是一种新颖的多轮次离线策略强化学习框架，用于在训练期间持续提升LLM步骤证明器的性能。该框架受AlphaZero原理启发，利用一个多阶段专家迭代流水线，特色在于自适应策略级数据过滤和周期性再训练，从而克服通常限制基于LLM的代理长期RL性能的瓶颈。第二个创新是一个增强计划的多代理搜索架构，它在推理时扩展推理能力。该架构采用通用推理模型作为高级计划器，迭代地将复杂定理分解为一系列更简单的子目标。这种分层方法大幅减少了搜索空间，使并行证明代理团队能够通过共享的证明缓存高效合作。我们展示了这种双重扩展方法在既定的形式数学基准上取得了最先进的成果。\\\\texttt{BFS-Prover-V2}在MiniF2F和ProofNet测试集上分别达到了95.08％和41.4％的成绩。虽然在形式数学领域展示，但本文提出的RL和推理技术具有更广泛的意义，并可能应用于其他需要长时间跨度多轮次推理和复杂搜索的领域。",
+        "地址": "https://arxiv.org/pdf/2509.06493.pdf"
+    },
+    {
+        "名称": "2025 [2509.06861] Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet.pdf",
+        "作者": "James Xu Zhao, Bryan Hooi, See-Kiong Ng",
+        "摘要": "摘要: 测试时间缩放通过允许模型生成较长的推理链增加了推理时的计算量，并已在多个领域表现出强劲的性能。然而，在这项工作中，我们展示了这种方法目前尚未对知识密集型任务有效，这类任务对事实准确性和低幻觉率有着严格的要求。我们对12个推理模型在两个知识密集型基准上的测试时间缩放进行了全面评估。我们的结果显示，提高测试时的计算量并未持续提高准确性，且在许多情况下甚至导致更多的幻觉。我们随后分析了延长推理时间如何影响幻觉行为。我们发现减少幻觉通常是由于模型在经过更多思考后选择放弃，而不是由于事实召回的改善。相反，对于某些模型，较长的推理时间鼓励了对先前未回答问题的尝试，这其中许多尝试导致了幻觉。案例研究显示延长的推理时间可能导致确认偏差，从而引发过度自信的幻觉。尽管存在这些限制，与不进行思考相比，启用思考仍具有优势。代码和数据可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2509.06861.pdf"
+    },
+    {
+        "名称": "2025 [2509.06786] \\texttt{R$^\\textbf{2}$AI}: Towards Resistant and Resilient AI in an Evolving World.pdf",
+        "作者": "Youbang Sun, Xiang Wang, Jie Fu, Chaochao Lu, Bowen Zhou",
+        "摘要": "摘要：在本文中，我们讨论了快速增长的人工智能能力与滞后的安全进展之间的持久鸿沟。现有的范式分为“使AI安全”，这一方法应用事后对齐和防护措施，但仍然脆弱且反应滞后；以及“制造安全的AI”，这一方法强调内在的安全性，但难以应对开放环境中的不可预见风险。因此，我们提出了一种新的“制造安全的AI”范式，即“共进化安全”，这一概念受生物免疫机制启发，将安全视为一个动态的、对抗的、持续的学习过程。为了实现这一设想，我们引入了“R$^2$AI”（抵抗性和弹性AI），这是一个将已知威胁的抵抗力和对不可预见风险的弹性结合起来的实用框架。R$^2$AI整合了“快速和慢速安全模型”、通过“安全风洞”的对抗性模拟和验证，以及引导安全和能力共进化的持续反馈循环。我们认为，该框架提供了一条可扩展且积极的途径，以在动态环境中保持持续的安全性，解决AI向通用人工智能（AGI）和超级智能（ASI）迈进过程中所面临的近期漏洞和长期存在的风险。",
+        "地址": "https://arxiv.org/pdf/2509.06786.pdf"
+    },
+    {
+        "名称": "2025 [2509.06771] D-HUMOR: Dark Humor Understanding via Multimodal Open-ended Reasoning.pdf",
+        "作者": "Sai Kartheek Reddy Kasu, Mohammad Zia Ur Rehman, Shahid Shafi Dar, Rishi Bharat Junghare, Dhanvin Sanjay Namboodiri, Nagendra Kumar",
+        "摘要": "摘要: 由于黑色幽默依赖于隐含的、敏感的和文化背景相关的线索，在线模因中的黑色幽默带来了独特的挑战。为了应对检测多模态内容中的黑色幽默所缺乏的资源和方法，我们引入了一个新颖的数据集，该数据集包含4,379个Reddit模因，标注了黑色幽默、目标类别（性别、心理健康、暴力、种族、残疾等）和三个级别的强度评级（轻度、中度、重度）。基于这一资源，我们提出了一个增强推理框架，首先使用大型视觉语言模型（VLM）为每个模因生成结构化解释。通过角色逆转自循环，VLM采用作者的视角迭代地优化其解释，确保其完整性和一致性。然后，我们通过文本编码器从OCR文本和自优化推理中提取文本特征，同时使用视觉转换器获得视觉特征。三流交叉推理网络（TCRNet）通过成对注意机制融合这三条流（文本、图像和推理），生成统一的表示用于分类。实验结果表明，我们的方法在三个任务上优于强基线：黑色幽默检测、目标识别和强度预测。我们发布了数据集、注释和代码，以促进多模态幽默理解和内容管理的进一步研究。代码和数据集可在此链接访问：https://arxiv.org/pdf/2509.06771.pdf\n\n作者: Sai Kartheek Reddy Kasu, Mohammad Zia Ur Rehman, Shahid Shafi Dar, Rishi Bharat Junghare, Dhanvin Sanjay Namboodiri, Nagendra Kumar\n\n评论：已被IEEE国际数据挖掘大会（ICDM）2025接收\n\n标题: 2025 [2509.06771] D-HUMOR: Dark Humor Understanding via Multimodal Open-ended Reasoning.pdf",
+        "地址": "https://arxiv.org/pdf/2509.06771.pdf"
+    },
+    {
+        "名称": "2025 [2509.05668] Llama-GENBA-10B: A Trilingual Large Language Model for German, English and Bavarian.pdf",
+        "作者": "Michael Hoffmann, Jophin John, Stefan Schweter, Gokul Ramakrishnan, Hoi-Fong Mak, Alice Zhang, Dmitry Gaynullin, Nicolay J. Hammer",
+        "摘要": "摘要：我们介绍了Llama-GENBA-10B，一种三语基础模型，旨在解决大型语言模型中的英语中心偏见。基于Llama 3.1-8B并扩展至10B参数，Llama-GENBA-10B在164B个标记（82B英语，82B德语和80M巴伐利亚语）上连续预训练，平衡资源同时防止英语主导。该模型面向德国自然语言处理社区，同时促进巴伐利亚语作为低资源语言的发展。开发过程中我们解决了四个挑战：(1)尽管巴伐利亚语稀缺，仍然策划出多语言语料库，(2)为英语、德语和巴伐利亚语创建统一的分词器，(3)优化架构和语言比例超参数以实现跨语言迁移，(4)通过将德语基准翻译成巴伐利亚语，建立第一个标准化的三语评估套件。评估结果显示，Llama-GENBA-10B在跨语言性能上表现强劲，微调后的模型在巴伐利亚语方面超过了Apertus-8B-2509和gemma-2-9b，并成为该语言的最佳模型，同时在英语方面超过了EuroLLM，并在德语方面与其持平。在Cerebras CS-2上的训练展示了高效的大规模多语言预训练，记录的能耗提供了一个包含低资源语言的基础模型蓝图。",
+        "地址": "https://arxiv.org/pdf/2509.05668.pdf"
+    },
+    {
+        "名称": "2025 [2509.06477] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents.pdf",
+        "作者": "Pengxiang Zhao, Guangyi Liu, Yaozhen Liang, Weiqing He, Zhengxi Lu, Yuehao Huang, Yaxuan Guo, Kexin Zhang, Hao Wang, Liang Liu, Yong Liu",
+        "摘要": "摘要: 为了提升GUI代理在智能手机和计算机等多种平台上的效率，一种结合灵活GUI操作与高效快捷方式（如API、深度链接）的混合范式正在成为一个有前途的方向。然而，系统性地对这些混合代理进行基准测试的框架尚未得到充分探索。为弥补这一空白，我们提出了MAS-Bench，这是一款在移动领域评估GUI快捷方式混合代理的开创性基准。除了使用预定义的快捷方式外，MAS-Bench还评估了代理通过发现和创建可重复使用的低成本工作流来自主生成快捷方式的能力。它包含11款真实应用中的139个复杂任务、一个由88个预定义快捷方式（API、深度链接、RPA脚本）组成的知识库，以及7个评估指标。这些任务可以通过GUI操作解决，但通过智能嵌入快捷方式可以显著加速。实验表明，混合代理比仅使用GUI的对手取得了显著更高的成功率和效率。这一结果也证明了我们评估代理快捷方式生成能力的方法的有效性。MAS-Bench填补了评估方面的关键空白，提供了一个基础平台，为未来创建更高效、更鲁棒的智能代理提供了支持。",
+        "地址": "https://arxiv.org/pdf/2509.06477.pdf"
+    },
+    {
+        "名称": "2025 [2509.06283] SFR-DeepResearch: Towards Effective Reinforcement Learning for Autonomously Reasoning Single Agents.pdf",
+        "作者": "Xuan-Phi Nguyen, Shrey Pandit, Revanth Gangi Reddy, Austin Xu, Silvio Savarese, Caiming Xiong, Shafiq Joty",
+        "摘要": "摘要：为大规模语言模型（LLMs）配备复杂的、交织的推理和工具使用能力已成为智能人工智能研究的重点，特别是在最近推理导向（“思考”）模型的进展下。这些能力是开启许多重要应用的关键。其中一个应用是深度研究（DR），需要对众多来源进行广泛搜索和推理。本文的工作重点是开发用于DR的本地自主单代理模型，特点是最少的网络爬行和Python工具集成。与多代理系统不同，多代理系统中代理在静态工作流中的每一步都承担预定义角色并被告知该做什么，自主单代理会根据上下文动态确定其下一步行动，而无需人为指示。尽管之前的工作提出了基础或指令调优LLMs的训练配方，我们专注于推理优化模型的持续强化学习（RL），以进一步增强代理技能，同时保持推理能力。为此，我们提出了一个简单的RL配方，完全使用合成数据，并将其应用于各种开源LLMs。我们最好的变种SFR-DR-20B在人类最后考试基准上达到了最高28.7%的成绩。此外，我们进行了关键分析实验，以提供更多关于我们方法的见解。",
+        "地址": "https://arxiv.org/pdf/2509.06283.pdf"
+    },
+    {
+        "名称": "2025 [2509.00328] Mechanistic interpretability for steering vision-language-action models.pdf",
+        "作者": "Bear Häon, Kaylene Stocking, Ian Chuang, Claire Tomlin",
+        "摘要": "摘要：\n视觉-语言-动作（VLA）模型在实现能够快速适应新任务、模态和环境的通用具身代理方面有着巨大的潜力。然而，解释和引导VLA的方法相比于以运动学、动力学和控制的显性模型为基础的经典机器人流水线而言，显得非常不足。这种缺乏机械性洞察的现象是将学习到的策略应用于现实世界机器人中的一个核心挑战，在现实应用中，稳健性和可解释性至关重要。受大型语言模型机械性可解释性进步的启发，我们引入了通过其内部表示来解释和引导VLA的首个框架，使得在推理时能够直接干预模型行为。我们将变换器层内的前馈激活投影到标记嵌入基上，识别出与动作选择有因果关联的稀疏语义方向，例如速度和方向。利用这些发现，我们引入了一种通用的激活引导方法，在无需微调、奖励信号或环境交互的情况下，能够实时调节行为。我们在两个最新的开源VLA模型Pi0和OpenVLA上评估了该方法，并展示了在模拟环境（LIBERO）和物理机器人（UR5）上零示例行为控制。该研究表明，具身VLA的可解释组件可以系统地用于控制——为机器人中的透明和可引导基础模型建立了新的范式。",
+        "地址": "https://arxiv.org/pdf/2509.00328.pdf"
+    },
+    {
+        "名称": "2025 [2509.06809] Saturation-Driven Dataset Generation for LLM Mathematical Reasoning in the TPTP Ecosystem.pdf",
+        "作者": "Valentin Quesnel, Damien Sileo",
+        "摘要": "摘要：高质量、逻辑严谨的数据稀缺是推进大语言模型（LLMs）数学推理的关键瓶颈。我们的工作通过将数十年的自动定理证明研究转化为可扩展的数据引擎来应对这一挑战。我们的框架不依赖于容易出错的LLMs或复杂的证明助手语法如Lean和Isabelle，而是利用E-prover的饱和能力以及庞大的TPTP公理库来推导出大量保证有效的定理。我们的流水线是有原则且简单的：先饱和公理，筛选“有趣”的定理，然后生成任务。由于不涉及任何LLMs，我们通过构建消除了事实错误。然后，这些纯符号数据被转化为三个难度控制的挑战：蕴涵验证、前提选择和证明重构。我们在前沿模型上的零样本实验揭示了一个明显的弱点：在需要深度结构推理的任务上表现崩溃。我们的框架既提供了衡量此差距的诊断工具，也提供了可扩展的符号训练数据源来解决这一问题。我们将代码和数据公开提供。\n\n来源链接：https://arxiv.org/pdf/2509.06809.pdf",
+        "地址": "https://arxiv.org/pdf/2509.06809.pdf"
+    },
+    {
+        "名称": "2025 [2509.06285] DCReg: Decoupled Characterization for Efficient Degenerate LiDAR Registration.pdf",
+        "作者": "Xiangcheng Hu, Xieyuanli Chen, Mingkai Jia, Jin Wu, Ping Tan, Steven L. Waslander",
+        "摘要": "摘要：LiDAR 点云配准是机器人感知和导航的基础。然而，在几何退化或狭窄环境中，配准问题变得病态，导致解决方案不稳定和精度下降。尽管现有方法试图处理这些问题，但它们未能解决核心挑战：准确检测、解释和解决这种病态问题，导致检测遗漏或解决方案受损。在本研究中，我们介绍了 DCReg，一个通过三个集成创新系统地解决病态配准问题的原则框架。首先，DCReg 通过对 Hessian 矩阵采用舒尔补全分解实现可靠的病态检测。该技术将配准问题分解为干净的旋转和平移子空间，消除耦合效应，这些效应会在传统分析中掩盖退化模式。其次，在这些干净的子空间内，我们开发了定量表征技术，建立了数学特征空间和物理运动方向之间的明确映射，提供了关于哪些特定运动缺乏约束的可操作见解。最后，利用这个干净的子空间，我们设计了一种有针对性的缓解策略：一种新的预处理器，它选择性地稳定仅识别出的病态方向，同时保留了观测空间中的所有良好约束信息。这使得通过具有单一物理可解释参数的预处理共轭梯度方法进行高效且稳健的优化成为可能。广泛的实验表明，DCReg 在各种环境中实现了至少 20% - 50% 的定位精度提高和 5-100 倍的速度提升超过最先进的方法。我们将在这个URL提供我们的实现。\n\nURL：https://arxiv.org/pdf/2509.06285.pdf",
+        "地址": "https://arxiv.org/pdf/2509.06285.pdf"
+    },
+    {
+        "名称": "2025 [2509.04582] Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping.pdf",
+        "作者": "Jingyi Lu, Kai Han",
+        "摘要": "摘要：基于拖拽的图像编辑已成为一种强大的直观图像操作模式。然而，现有的方法主要依赖于生成模型的潜在空间操作，导致精度有限、反馈延迟和模型特定的限制。因此，我们提出了Inpaint4Drag, 一种将基于拖拽的编辑分解为像素空间双向变形和图像修复的新框架。受物理世界中弹性物体变形的启发，我们将图像区域视为在用户操作下保持自然形状的可变形材料。我们的方法实现了实时变形预览（0.01秒）和在512x512分辨率下的高效修复（0.3秒），与现有每次编辑需数分钟的方法相比，显著改善了交互体验。通过将拖拽输入直接转换为标准修复格式，我们的方法无需修改架构即可作为任何修复模型的通用适配器，自动继承未来修复技术的所有改进。大量实验表明，我们的方法在保持实时性能的同时，实现了卓越的视觉质量和精确控制。项目页面：this https URL\n\n作者：Jingyi Lu, Kai Han\n\n评论：已被ICCV 2025接受。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2509.04582.pdf"
+    },
+    {
+        "名称": "2025 [2509.03740] Singular Value Few-shot Adaptation of Vision-Language Models.pdf",
+        "作者": "Taha Koleilat, Hassan Rivaz, Yiming Xiao",
+        "摘要": "摘要：视觉语言模型（VLMs），如CLIP，已在多种应用中展示了令人印象深刻的零样本和少样本学习能力。然而，由于依赖提示工程和完全模型微调的高成本，使得这些模型难以适应新的细粒度领域。现有的适应方法依赖于增强组件，如提示令牌和适配器模块，这可能限制适应质量、使模型不稳定，并损害预训练期间学习的丰富知识。在这项工作中，我们提出了CLIP-SVD，一种新颖的多模态和参数高效的适应技术，它利用奇异值分解（SVD）修改CLIP的内部参数空间，而不引入额外的模块。具体来说，我们仅微调CLIP参数矩阵的奇异值，通过重新缩放基向量进行领域适应，同时保留预训练模型。该设计仅使用模型总参数的0.04%，实现了更好的适应性能和对模型泛化能力的更好保留。CLIP-SVD在11个自然数据集和10个生物医学数据集上，实现了最先进的分类结果，在少样本设置下在准确性和泛化性方面均优于以往方法。此外，我们利用基于自然语言的方法分析CLIP适应的有效性和动态性，以解释CLIP-SVD。代码公开可访问：https URL。\n\n作者：Taha Koleilat, Hassan Rivaz, Yiming Xiao\n\n备注：10页，2张图，8张表\n\n网址：https://arxiv.org/pdf/2509.03740.pdf\n\n标题：2025 [2509.03740] 视觉语言模型的奇异值少样本适应",
+        "地址": "https://arxiv.org/pdf/2509.03740.pdf"
+    }
+]
