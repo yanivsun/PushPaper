@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2509.07980] Parallel-R1: Towards Parallel Thinking via Reinforcement Learning.pdf",
+        "作者": "Tong Zheng, Hongming Zhang, Wenhao Yu, Xiaoyang Wang, Xinyu Yang, Runpeng Dai, Rui Liu, Huiwen Bao, Chengsong Huang, Heng Huang, Dong Yu",
+        "摘要": "摘要：并行思维作为一种新颖的方法，通过同时探索多个推理路径来增强大语言模型（LLMs）的推理能力。然而，通过训练激活这些能力仍然具有挑战性，因为现有方法主要依赖于通过合成数据进行的监督微调（SFT），这鼓励教师强迫模仿而不是探索和泛化。与之不同的是，我们提出了Parallel-R1，这是第一个能够为复杂的现实世界推理任务启用并行思维行为的强化学习（RL）框架。我们的框架采用渐进课程，明确解决了使用RL训练并行思维的冷启动问题。我们首先在来自较容易任务的提示生成轨迹上使用SFT，以灌输并行思维能力，然后转向RL以在更难的问题上探索和泛化这种能力。各种数学基准测试（包括MATH、AMC23和AIME）上的实验表明，Parallel-R1成功灌输并行思维，使其准确度比直接在具有挑战性的任务上训练的序列思维模型提高了8.4%。进一步分析显示模型的思维行为发生了明显变化：在早期阶段，它使用并行思维作为探索策略，而在后期阶段，它使用同样的能力进行多角度验证。最显著的是，我们验证了并行思维作为一种中间训练探索支架的有效性，这种临时探索阶段在RL之后解锁了更高的性能上限，在AIME25上的表现比基线提高了42.9%。我们的模型、数据和代码将会在项目网站上开源。\n\n翻译：并行思维作为一种新颖的方法，通过同时探索多个推理路径来增强大语言模型（LLMs）的推理能力。然而，通过训练激活这些能力仍然具有挑战性，因为现有方法主要依赖于通过合成数据进行的监督微调（SFT），这鼓励教师强迫模仿而不是探索和泛化。与之不同的是，我们提出了Parallel-R1，这是第一个能够为复杂的现实世界推理任务启用并行思维行为的强化学习（RL）框架。我们的框架采用渐进课程，明确解决了使用RL训练并行思维的冷启动问题。我们首先在来自较容易任务的提示生成轨迹上使用SFT，以灌输并行思维能力，然后转向RL以在更难的问题上探索和泛化这种能力。各种数学基准测试（包括MATH、AMC23和AIME）上的实验表明，Parallel-R1成功灌输并行思维，使其准确度比直接在具有挑战性的任务上训练的序列思维模型提高了8.4%。进一步分析显示模型的思维行为发生了明显变化：在早期阶段，它使用并行思维作为探索策略，而在后期阶段，它使用同样的能力进行多角度验证。最显著的是，我们验证了并行思维作为一种中间训练探索支架的有效性，这种临时探索阶段在RL之后解锁了更高的性能上限，在AIME25上的表现比基线提高了42.9%。我们的模型、数据和代码将会在项目网站上开源。",
+        "地址": "https://arxiv.org/pdf/2509.07980.pdf"
+    },
+    {
+        "名称": "2025 [2509.07979] Visual Representation Alignment for Multimodal Large Language Models.pdf",
+        "作者": "Heeji Yoon, Jaewoo Jung, Junwan Kim, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim",
+        "摘要": "摘要：多模态大语言模型（MLLM）通过视觉指令调整训练，实现了在各种任务上的强力表现，但在以视觉为中心的任务如物体计数或空间推理方面仍存在局限性。我们将这一差距归因于现行的仅文本监督范式，该范式仅为视觉路径提供间接指导，导致MLLMs在训练过程中丢弃细粒度的视觉细节。本文提出了一种名为视觉表征对齐（VIRAL）的简单而有效的正则化策略，通过将MLLMs的内部视觉表征与预训练的视觉基础模型（VFMs）的表征对齐来解决此问题。通过明确强制实施这种对齐，VIRAL不仅使模型能够保留来自输入视觉编码器的关键视觉细节，还能补充来自VFMs的附加视觉知识，从而增强其处理复杂视觉输入的能力。我们的实验表明，在广泛采用的多模态基准上，各任务均有一致的改进。此外，我们进行了综合的消融研究，以验证我们框架的关键设计选择。我们认为这一简单发现为在训练MLLMs时有效整合视觉信息开辟了一个重要方向。\n\n原文作者：Heeji Yoon, Jaewoo Jung, Junwan Kim, Hyungyu Choi, Heeseong Shin, Sangbeom Lim, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim\n\n评论：项目页面：请访问此URL\n\n原文网址：https://arxiv.org/pdf/2509.07979.pdf\n\n标题：2025 [2509.07979] 多模态大语言模型的视觉表征对齐",
+        "地址": "https://arxiv.org/pdf/2509.07979.pdf"
+    },
+    {
+        "名称": "2025 [2509.07969] Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual Search.pdf",
+        "作者": "Xin Lai, Junyi Li, Wei Li, Tao Liu, Tianjian Li, Hengshuang Zhao",
+        "摘要": "以下是上述学术论文的中文摘要：\n\n近年来，大型多模态模型的发展利用基于图像的工具和强化学习来解决视觉问题。然而，现有的开源方法通常表现出单调的推理模式，并且只允许有限次数的交互回合，使它们无法应对需要反复试错探索的困难任务。在这项工作中，我们通过扩展基于工具的交互来解决这一限制，并引入了Mini-o3系统，该系统执行深度、多回合推理——跨越数十个步骤——在具有挑战性的视觉搜索任务中实现了最先进的性能。我们再现OpenAI o3风格行为的配方包括三个关键部分。首先，我们建立了视觉探针数据集（Visual Probe Dataset），该数据集包含数千个为探索性推理设计的具有挑战性的视觉搜索问题。其次，我们开发了一种迭代数据收集流程，以获取展示多样推理模式的冷启动轨迹，包括深度优先搜索、试错和目标维护。第三，我们提出了一种过度回合掩蔽策略，以防止在强化学习过程中对超过最大回合数的响应进行惩罚，从而平衡训练时间效率和测试时间的可扩展性。尽管训练时只允许最多六次交互回合，我们的模型在推理时生成的轨迹自然扩展到数十次回合，随着回合次数的增加，准确性也随之提高。大量实验证明，Mini-o3产生了丰富的推理模式和深度思考路径，有效解决了具有挑战性的视觉搜索问题。",
+        "地址": "https://arxiv.org/pdf/2509.07969.pdf"
+    },
+    {
+        "名称": "2025 [2509.07295] Reconstruction Alignment Improves Unified Multimodal Models.pdf",
+        "作者": "Ji Xie, Trevor Darrell, Luke Zettlemoyer, XuDong Wang",
+        "摘要": "摘要: 统一多模态模型 (Unified multimodal models, UMMs) 在单一架构内统一了视觉理解和生成。然而，传统训练依赖于图像-文本对（或序列），其标题通常较稀疏，缺乏细粒度的视觉细节——即使它们使用数百个词来描述一个简单的图像。我们引入了重建对齐 (Reconstruction Alignment, RecA)，这是一种资源高效的后训练方法，它利用视觉理解编码器嵌入作为密集的“文本提示”，无需标题即可提供丰富的监督。具体而言，RecA使UMM基于其自身的视觉理解嵌入进行条件训练，并优化其以自监督重建损失来重建输入图像，从而重新对齐理解与生成。尽管其方法简单，RecA具有广泛的适用性：在自回归、掩蔽自回归和基于扩散的UMMs中，它一致地提高了生成和编辑的保真度。在仅需27 GPU小时的后训练下，RecA显著提高了图像生成性能（在GenEval上从0.73提升到0.90，在DPGBench上从80.93提升到88.15），同时还提升了编辑基准测试（ImgEdit从3.38提升到3.75，GEdit从6.94提升到7.25）。值得注意的是，RecA超越了更大规模的开源模型，并广泛适用于不同的UMM架构，确立了其作为UMMs的高效且通用的后训练对齐策略。\n\n作者: Ji Xie, Trevor Darrell, Luke Zettlemoyer, XuDong Wang\n\n评论: 28页, 24个图表和10个表格\n\n网址: https://arxiv.org/pdf/2509.07295.pdf\n\n标题: 2025 [2509.07295] 重建对齐改进了统一多模态模型.pdf",
+        "地址": "https://arxiv.org/pdf/2509.07295.pdf"
+    },
+    {
+        "名称": "2025 [2509.06818] UMO: Scaling Multi-Identity Consistency for Image Customization via Matching Reward.pdf",
+        "作者": "Yufeng Cheng, Wenxu Wu, Shaojin Wu, Mengqi Huang, Fei Ding, Qian He",
+        "摘要": "摘要: 最近在图像定制方面的进展因更强大的定制能力而呈现出广泛的应用前景。然而，由于人类对面孔更敏感，保持一致的身份同时避免身份混乱仍然是一个重要挑战，尤其是在使用多参考图像时，这限制了定制模型的身份扩展能力。为了解决这一问题，我们提出了UMO，一个统一的多身份优化框架，旨在保持高保真身份保护并减轻身份混乱的可扩展性。UMO采用“多对多匹配”范式，重新定义了多身份生成为一个全局分配优化问题，并通过扩散模型上的强化学习普遍释放了现有图像定制方法的多身份一致性。为了促进UMO训练，我们开发了一个具有多参考图像的可扩展定制数据集，包括合成和真实部分。此外，我们提出了一种新的度量标准来衡量身份混乱。广泛的实验表明，UMO不仅显著改善了身份一致性，还减少了几个图像定制方法上的身份混乱，设立了身份保护维度上的新的开源方法的最新标准。代码和模型：这个 https URL",
+        "地址": "https://arxiv.org/pdf/2509.06818.pdf"
+    },
+    {
+        "名称": "2025 [2509.07414] Language Self-Play For Data-Free Training.pdf",
+        "作者": "Jakub Grudzien Kuba, Mengting Gu, Qi Ma, Yuandong Tian, Vijai Mohan",
+        "摘要": "摘要: 大型语言模型(LLMs)近年来迅速发展，受益于规模、丰富的高质量训练数据和强化学习。然而，这一进展面临一个根本瓶颈：需要越来越多的数据供模型继续学习。在这项工作中，我们提出了一种强化学习方法，通过无需额外数据使模型得以改进，从而消除这一依赖性。我们的方法利用了自对弈的博弈理论框架，将模型的能力视为在竞争游戏中的表现，并通过让模型与自身对弈，产生更强的策略——这一过程我们称之为语言自对弈（Language Self-Play, 简称LSP）。在使用Llama-3.2-3B-Instruct进行的遵循指令基准测试中的实验表明，预训练模型不仅可以通过自对弈单独提升其在挑战性任务中的表现，而且相比数据驱动的基线方法更为高效。",
+        "地址": "https://arxiv.org/pdf/2509.07414.pdf"
+    },
+    {
+        "名称": "2025 [2509.06951] F1: A Vision-Language-Action Model Bridging Understanding and Generation to Actions.pdf",
+        "作者": "Qi Lv, Weijie Kong, Hao Li, Jia Zeng, Zherui Qiu, Delin Qu, Haoming Song, Qizhi Chen, Xiang Deng, Jiangmiao Pang",
+        "摘要": "摘要: 在动态视觉环境中执行语言条件任务仍然是体现在体化人工智能中的一个核心挑战。现有的视觉-语言-动作（VLA）模型主要采用反应型的状态到动作映射，常常导致短视行为和在动态场景中的较差鲁棒性。在本文中，我们介绍了F1，一个预训练的VLA框架，该框架将视觉预见生成整合到决策管道中。F1采用混合变压器架构，具有专门用于感知、预见生成和控制的模块，从而桥接理解、生成和动作。在其核心，F1采用下一比例预测机制来合成目标条件的视觉预见作为显式规划目标。通过预测合理的未来视觉状态，F1将动作生成重新表述为一个以预见为导向的逆动力学问题，使得动作能够隐式地实现视觉目标。为了赋予F1鲁棒和可推广的能力，我们提出了一个三阶段训练配方，在一个包含超过33万条轨迹和136个不同任务的广泛数据集上进行训练。这个训练方案增强了模块化推理，并赋予模型可转移的视觉预见能力，这对复杂和动态环境至关重要。在实际任务和模拟基准测试中的广泛评估表明，F1在任务成功率和泛化能力方面持续优于现有方法，取得了显著的提升。\n\n作者: 吕琪、孔维杰、李昊、曾佳、邱哲锐、曲德麟、宋浩铭、陈其志、邓翔、庞江淼\n\n评论: 主页：https://arxiv.org/pdf/2509.06951.pdf\n\n标题: 2025 [2509.06951] F1: 融合理解与生成以致动作的视觉-语言-动作模型",
+        "地址": "https://arxiv.org/pdf/2509.06951.pdf"
+    },
+    {
+        "名称": "2025 [2509.06923] Staying in the Sweet Spot: Responsive Reasoning Evolution via Capability-Adaptive Hint Scaffolding.pdf",
+        "作者": "Ziheng Li, Zexu Sun, Jinman Zhao, Erxue Min, Yongcheng Zeng, Hui Wu, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Xu Chen, Zhi-Hong Deng",
+        "摘要": "摘要：带可验证奖励的强化学习（RLVR）在增强大型语言模型（LLMs）的推理能力方面取得了显著成功。然而，现有的RLVR方法由于训练数据的难度与模型能力之间的不匹配，常常在探索效率上存在不足。当问题过于困难时，LLMs无法发现可行的推理路径；当问题过于简单时，模型又无法学到新的能力。在这项工作中，我们通过量化损失下降速度和回滚准确性之间的关系，正式化了问题难度的影响。在此分析的基础上，我们提出了SEELE，一种新颖的监督辅助RLVR框架，该框架通过动态调整问题难度以保持在高效率区域内。SEELE通过在原始问题后附上提示（完整解决方案的一部分）来扩展每个训练样本。与以往基于提示的方法不同，SEELE有意识地并自适应地调整每个问题的提示长度，以达到最佳难度。为了确定最优提示长度，SEELE采用多轮回滚采样策略。在每一轮中，SEELE会拟合一个项目反应理论模型，以前几轮收集的准确性-提示对为基础，预测下一轮所需的提示长度。这种实例级别、实时的难度调整将问题难度与不断变化的模型能力对齐，从而提高探索效率。实验结果显示，SEELE在六个数学推理基准上平均比Group Relative Policy Optimization（GRPO）和Supervised Fine-tuning（SFT）分别高出+11.8和+10.5分，并且比之前最好的监督辅助方法高出+3.6分。\n",
+        "地址": "https://arxiv.org/pdf/2509.06923.pdf"
+    },
+    {
+        "名称": "2025 [2509.06830] Curia: A Multi-Modal Foundation Model for Radiology.pdf",
+        "作者": "Corentin Dancette, Julien Khlaut, Antoine Saporta, Helene Philippe, Elodie Ferreres, Baptiste Callard, Théo Danielou, Léo Alberge, Léo Machado, Daniel Tordjman, Julie Dupuis, Korentin Le Floch, Jean Du Terrail, Mariam Moshiri, Laurent Dercle, Tom Boeken, Jules Gregory, Maxime Ronot, François Legou, Pascal Roux, Marc Sapoval, Pierre Manceron, Paul Hérent",
+        "摘要": "摘要: 目前，AI辅助的放射学解释主要依赖于狭窄的单任务模型。这种方法难以覆盖广泛的影像模态、疾病和放射学发现。基础模型（Foundation Models，FMs）有望在模态和低数据环境中实现广泛的泛化。然而，这一潜力在放射学中尚未得到充分发挥。我们介绍了Curia，这是一种基础模型，在某大型医院多年来全部的横断面影像输出上进行训练，据我们所知，这是包含150,000次检查（130 TB）现实世界数据的最大语料库。在一个新整理的19任务外部验证基准测试中，Curia准确识别器官、检测脑出血和心肌梗死等状况，并预测肿瘤分期的结果。Curia的表现达到了或超过了放射科医生和最新基础模型的水平，并且在跨模态和低数据环境中表现出临床上显著的突现特性。为了加速进展，我们在此发布了我们基础模型的权重。\n\n翻译完成的摘要如下：\n目前，AI辅助的放射学解释主要基于狭窄的单任务模型。这种方法难以覆盖广泛的影像模态、疾病和放射学发现。基础模型（FMs）有望在模态和低数据环境中实现广泛的泛化。然而，这一潜力在放射学中尚未得到充分发挥。我们介绍了Curia，这是一种基础模型，在某大型医院多年期间的全部横断面影像输出上进行训练，据我们所知，这是覆盖150,000次检查（130 TB）现实世界数据的最大语料库。在一个新整理的19任务外部验证基准测试中，Curia准确识别器官、检测诸如脑出血和心肌梗死等状况，并预测肿瘤分期的结果。Curia达到了或超越了放射科医生和最新基础模型的表现，并且在跨模态和低数据环境中表现出临床上显著的突现特性。为了加速进展，我们在此发布了我们基础模型的权重。",
+        "地址": "https://arxiv.org/pdf/2509.06830.pdf"
+    },
+    {
+        "名称": "2025 [2509.03646] Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning.pdf",
+        "作者": "Haozhe Wang, Qixin Xu, Che Liu, Junhong Wu, Fangzhen Lin, Wenhu Chen",
+        "摘要": "摘要: 强化学习 (RL) 被证明在增强大型语言模型 (LLM) 的复杂推理能力方面非常有效，然而推动这一成功的潜在机制仍然在很大程度上是不透明的。我们的分析表明，“顿悟时刻”、“长度缩放”和熵动态等令人费解的现象并不是孤立的事件，而是推理层次结构出现的标志，类似于人类认知中将高级战略规划与低级程序执行分开的方式。我们揭示了一个令人信服的两阶段动态：最初，模型受到程序正确性的约束，必须提高其低级技能。然后，学习瓶颈果断地转移，性能提升由探索和掌握高级战略规划驱动。这个洞察揭示了现有RL算法（如GRPO）的核心低效之处，其无差别地施加优化压力并分散整个语料的学习信号。为了解决这个问题，我们提出了层次感知的信用分配算法 (HICRA)，该算法将优化努力集中在高影响力的规划代币上。HICRA显著超越了强大的基线，表明聚焦于这一战略瓶颈是解锁高级推理的关键。此外，我们验证了语义熵作为衡量战略探索的优越指针，优于诸如代币级别熵等误导性指标。\n\n作者: Haozhe Wang, Qixin Xu, Che Liu, Junhong Wu, Fangzhen Lin, Wenhu Chen\n\n评论: 预印本\n\nURL: https://arxiv.org/pdf/2509.03646.pdf \n\n标题: 通过强化学习在LLM中出现的层次推理",
+        "地址": "https://arxiv.org/pdf/2509.03646.pdf"
+    },
+    {
+        "名称": "2025 [2509.07301] Causal Attention with Lookahead Keys.pdf",
+        "作者": "Zhuoqing Song, Peng Sun, Huizhuo Yuan, Quanquan Gu",
+        "摘要": "摘要: 在标准因果注意机制中，每个token的查询、键和值（QKV）是静态的，并且仅编码之前的上下文。我们引入了具有前瞻键的因果注意机制（CASTLE），这是一种注意机制，它随着上下文的展开持续更新每个token的键。我们将这些更新的键称为前瞻键，因为它们属于较早的位置，但整合了较晚出现的token信息，同时严格保持自回归性质。尽管这种机制看起来是顺序的，我们在数学上推导出一种等效方法，避免在每个位置显式地实现前瞻键，并实现高效的并行训练。在语言建模基准测试中，CASTLE在模型规模上始终优于标准因果注意机制，减少了验证困惑度，并在一系列后续任务中改进了性能。\n\n作者: 宋卓晴, 孙鹏, 袁辉卓, 顾全全\n\n链接: [https://arxiv.org/pdf/2509.07301.pdf](https://arxiv.org/pdf/2509.07301.pdf)\n\n标题: 具有前瞻键的因果注意机制",
+        "地址": "https://arxiv.org/pdf/2509.07301.pdf"
+    },
+    {
+        "名称": "2025 [2509.08721] Sharing is Caring: Efficient LM Post-Training with Collective RL Experience Sharing.pdf",
+        "作者": "Jeffrey Amico, Gabriel Passamani Andrade, John Donaghy, Ben Fielding, Tristin Forbus, Harry Grieve, Semih Kara, Jari Kolehmainen, Yihua Lou, Christopher Nies, Edward Phillip Flores Nuño, Diogo Ortega, Shikhar Rastogi, Austin Virts, Matthew J. Wright",
+        "摘要": "摘要: 使用强化学习（RL）对训练后的语言模型（LM）进行优化，可以在没有监督微调的情况下增强其复杂的推理能力，这在DeepSeek-R1-Zero中得到了证明。然而，有效利用RL对LMs进行优化需要显著的并行化以扩展推理，这引入了非平凡的技术挑战（例如延迟、内存和可靠性）以及不断增加的财政成本。我们提出了群体采样策略优化（SAPO），这是一种完全去中心化和异步的RL后训练算法。SAPO针对异构计算节点的去中心化网络设计，其中每个节点管理自己的策略模型，同时\"共享\"与网络中其他节点的展开过程；不需要对延迟、模型同质性或硬件做明确假设，节点也可以在孤立的情况下操作。其结果是，算法避免了RL后训练中的常见瓶颈，同时也允许（甚至鼓励）新的可能性。通过在网络中\"共享\"采样展开，它使\"灵光一现\"得以传播，从而加速了学习过程。本文展示了SAPO在受控实验中实现的累积奖励提升高达94%的成绩。我们还分享了在一个由Gensyn社区成员贡献的数千节点网络上进行的开源演示测试的见解，这些节点在多样的硬件和模型上运行该算法。\n\n作者: Jeffrey Amico, Gabriel Passamani Andrade, John Donaghy, Ben Fielding, Tristin Forbus, Harry Grieve, Semih Kara, Jari Kolehmainen, Yihua Lou, Christopher Nies, Edward Phillip Flores Nuño, Diogo Ortega, Shikhar Rastogi, Austin Virts, Matthew J. Wright\n\n评论: 14页, 6幅图\n\n链接: [https://arxiv.org/pdf/2509.08721.pdf](https://arxiv.org/pdf/2509.08721.pdf)\n\n标题: 共享即关怀：通过集体强化学习经验共享实现高效语言模型后训练",
+        "地址": "https://arxiv.org/pdf/2509.08721.pdf"
+    },
+    {
+        "名称": "2025 [2509.07968] SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge.pdf",
+        "作者": "Lukas Haas, Gal Yona, Giovanni D'Antonio, Sasha Goldshtein, Dipanjan Das",
+        "摘要": "摘要：我们介绍了SimpleQA Verified，一个用于评估基于OpenAI的SimpleQA的大型语言模型 (LLM) 短期事实性的1000问基准。它解决了OpenAI基准中的关键限制，包括嘈杂和不正确的标签，主题偏向和问题冗余。SimpleQA Verified通过严格的多阶段过滤过程创建，包括去重、主题平衡和来源对账，以生产一个更可靠和具有挑战性的评估集，同时改进了自动评级的提示。在这个新的基准上，Gemini 2.5 Pro实现了55.6的最先进F1得分，超过了包括GPT-5在内的其他前沿模型。这项工作为研究界提供了一个更高保真度的工具，以追踪参数模型事实性的真正进展，并减轻幻觉。基准数据集、评估代码和排行榜可在以下网址获得：https://arxiv.org/pdf/2509.07968.pdf。",
+        "地址": "https://arxiv.org/pdf/2509.07968.pdf"
+    },
+    {
+        "名称": "2025 [2509.06942] Directly Aligning the Full Diffusion Trajectory with Fine-Grained Human Preference.pdf",
+        "作者": "Xiangwei Shen, Zhimin Li, Zhantao Yang, Shiyi Zhang, Yingfang Zhang, Donghao Li, Chunyu Wang, Qinglin Lu, Yansong Tang",
+        "摘要": "摘要：最近的研究表明，通过可微奖励直接将扩散模型与人类偏好对齐是有效的。然而，这些模型存在两个主要问题：（1）它们依赖于多步降噪并计算梯度来进行奖励评分，这在计算上很昂贵，从而限制了优化只能进行少数扩散步骤；（2）为了实现所需的美学质量（如照片真实感或精确的光照效果），它们通常需要不断进行离线的奖励模型调整。为了应对多步降噪的限制，我们提出了Direct-Align，这是一种预定义噪声前的方法，通过插值能够有效地恢复任何时间步骤的原始图像，利用扩散状态是噪声和目标图像之间插值的方程，有效地避免了晚期步骤的过度优化。此外，我们引入了语义相对偏好优化（SRPO），在该方法中，奖励被形式化为文本条件信号。该方法使得在线奖励调整能够响应正面和负面的提示增强，从而减少对离线奖励调整的依赖。通过微调优化后的FLUX模型的降噪和在线奖励调整，我们的模型在真人评估的现实主义和美学质量上提高了超过3倍。",
+        "地址": "https://arxiv.org/pdf/2509.06942.pdf"
+    },
+    {
+        "名称": "2025 [2509.01624] Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling.pdf",
+        "作者": "Natalia Frumkin, Diana Marculescu",
+        "摘要": "摘要：中国科学院：《Q-Sched：使用量化感知调度推进少步扩散模型的界限》\n\n摘要：文本到图像的扩散模型计算密集，通常需要几十次通过大型变压器骨干。例如，Stable Diffusion XL通过2.6B参数模型的50次评估生成高质量的图像，即使对于单个批次来说，这也是一个昂贵的过程。少步扩散模型将此成本降低到2-8个去噪步骤，但仍依赖于大型、非压缩的U-Net或扩散变压器骨干，对于没有数据中心GPU的全精度推理来说往往太昂贵。这些要求也限制了现有依赖全精度校准的训练后量化方法。我们提出Q-Sched，这是一种通过改变扩散模型调度器而非模型权重进行训练后量化的新范式。通过调整少步采样轨迹，Q-Sched实现了全精度的准确性，同时模型大小缩减4倍。为了学习量化感知的预调节系数，我们提出了JAQ损失，该损失结合了文本-图像兼容性和图像质量指标进行细粒度优化。JAQ无需参考，并且仅需少量校准提示，避免了校准期间的全精度推理。Q-Sched带来了显著的改进：与FP16 4步潜在一致性模型相比，提高了15.5%的FID，与FP16 8步分段一致性模型相比，提高了16.6%，表明量化和少步蒸馏对于高保真生成是互补的。超过80,000个注释的大规模用户研究进一步证实了Q-Sched在FLUX.1和SDXL-Turbo上的有效性。",
+        "地址": "https://arxiv.org/pdf/2509.01624.pdf"
+    },
+    {
+        "名称": "2025 [2509.07558] $ΔL$ Normalization: Rethink Loss Aggregation in RLVR.pdf",
+        "作者": "Zhiyuan He, Xufang Luo, Yike Zhang, Yuqing Yang, Lili Qiu",
+        "摘要": "摘要：我们提出了$\\\\Delta L$ 归一化，一种简单而有效的损失聚合方法，专为可验证奖励的强化学习（RLVR）中动态生成长度的特性量身定制。近年来，RLVR在提升大型语言模型（LLMs）的推理能力方面展示了强大的潜力，但一个主要挑战在于训练过程中响应长度的巨大差异，这导致了梯度方差高和优化不稳定。尽管之前的方法如GRPO、DAPO和Dr. GRPO引入了不同的损失归一化项来解决这个问题，但它们要么产生了有偏估计，要么仍然遭受高梯度方差的困扰。通过理论和实证分析变化长度对策略损失的影响，我们将问题重新表述为寻找最小方差无偏估计。我们提出的$\\\\Delta L$ 归一化不仅提供了真实策略损失的无偏估计，并且理论上最小化了梯度方差。大量实验表明，它在不同模型大小、最大长度和任务上始终取得了优异的结果。我们的代码将公开在此https URL。",
+        "地址": "https://arxiv.org/pdf/2509.07558.pdf"
+    },
+    {
+        "名称": "2025 [2509.07253] Benchmarking Information Retrieval Models on Complex Retrieval Tasks.pdf",
+        "作者": "Julian Killingback, Hamed Zamani",
+        "摘要": "摘要: 大型语言模型 (LLMs) 是用于文本任务的非凡且多功能的工具，已实现了无数之前难以想象的应用。相比之下，检索模型尚未见到这样的通用模型出现。为了实现这一目标，检索模型必须能够执行复杂的检索任务，其中查询包含多个部分、约束或自然语言中的要求。这些任务是从现有评价集中使用的简单、单一方面查询的自然进展。随着人们期望搜索系统能够处理更具体且经常是雄心勃勃的信息请求，复杂查询也随之出现，这从人们如何使用基于LLM的信息系统中可见一斑。尽管人们越来越希望检索模型扩大其在复杂检索任务中的能力，但现有资源有限，无法在全面多样的复杂任务集合上评估检索模型的能力。现有的少量资源范围有限，且往往缺乏现实设置，使得很难了解检索模型在复杂的现实世界检索任务中的真实能力。为了弥补这一不足并激发下一代检索模型的创新，我们构建了一组多样且现实的复杂检索任务，并对一组代表性的最先进的检索模型进行基准测试。此外，我们探索了基于LLM的查询扩展和重写对检索质量的影响。我们的结果表明，即使是最好的模型也难以产生高质量的检索结果，在所有任务中的平均 nDCG@10 仅为 0.346， R@100 仅为 0.587。尽管LLM增强可以帮助较弱的模型，但最强模型在所有重新编写技术下的所有指标表现均有所下降。\n\n作者: Julian Killingback, Hamed Zamani",
+        "地址": "https://arxiv.org/pdf/2509.07253.pdf"
+    },
+    {
+        "名称": "2025 [2509.06938] From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers.pdf",
+        "作者": "Praneet Suresh, Jack Stanley, Sonia Joseph, Luca Scimeca, Danilo Bzdok",
+        "摘要": "摘要: 随着生成型AI系统在科学、商业和政府领域越来越具备能力并广泛应用，对其失败模式进行深入研究变得迫在眉睫。其行为的偶尔波动，如Transformer模型产生幻觉的倾向，阻碍了新兴AI解决方案在高风险领域的信任和采用。在本研究中，我们通过在输入空间中实验性地控制不确定性，建立了前训练Transformer模型意识流在概念表示情况下的产生方式和时间。我们的系统实验揭示了随着输入信息变得越来越无结构，Transformer模型使用的语义概念数量增加。在输入空间的不确定性不断增加的情况下，Transformer模型容易激活一致但对输入不敏感的语义特征，导致生成幻觉输出。在极端情况下，对于完全噪音的输入，我们在前训练的Transformer模型的中间激活中识别出各种稳健触发并有意义的概念，其功能完整性通过有针对性的引导得到确认。我们还展示了可以通过嵌入在Transformer层激活中的概念模式可靠地预测Transformer模型输出中的幻觉。对Transformer内部处理机制的这些见解对使AI模型与人类价值观一致、AI安全性、开放潜在对抗攻击面的风险以及提供自动量化模型幻觉风险的基础具有直接意义。\n\n作者: Praneet Suresh, Jack Stanley, Sonia Joseph, Luca Scimeca, Danilo Bzdok\n\n链接: [https://arxiv.org/pdf/2509.06938.pdf](https://arxiv.org/pdf/2509.06938.pdf)\n\n标题: 从噪声到叙述：追踪Transformer中幻觉的起源",
+        "地址": "https://arxiv.org/pdf/2509.06938.pdf"
+    }
+]
