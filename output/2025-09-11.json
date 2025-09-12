@@ -1,0 +1,74 @@
+[
+    {
+        "名称": "2025 [2509.08827] A Survey of Reinforcement Learning for Large Reasoning Models.pdf",
+        "作者": "Kaiyan Zhang, Yuxin Zuo, Bingxiang He, Youbang Sun, Runze Liu, Che Jiang, Yuchen Fan, Kai Tian, Guoli Jia, Pengfei Li, Yu Fu, Xingtai Lv, Yuchen Zhang, Sihang Zeng, Shang Qu, Haozhan Li, Shijie Wang, Yuru Wang, Xinwei Long, Fangfu Liu, Xiang Xu, Jiaze Ma, Xuekai Zhu, Ermo Hua, Yihao Liu, Zonglin Li, Huayu Chen, Xiaoye Qu, Yafu Li, Weize Chen, Zhenzhao Yuan, Junqi Gao, Dong Li, Zhiyuan Ma, Ganqu Cui, Zhiyuan Liu, Biqing Qi, Ning Ding, Bowen Zhou",
+        "摘要": "摘要：\n在本文中，我们调查了强化学习（RL）在大语言模型（LLMs）推理方面的最新进展。RL在提升LLM能力前沿方面取得了显著成功，特别是在解决诸如数学和编程等复杂逻辑任务上。因此，RL已经成为将LLMs转变为大推理模型（LRMs）的基础方法。随着该领域的快速进展，RL在LRMs上的进一步扩展现在不仅在计算资源方面面临基础性挑战，还在算法设计、训练数据和基础设施等方面面临挑战。为此，重新审视该领域的发展、重新评估其轨迹并探索增强RL在通向人工超智能（ASI）方面的可扩展性的策略，正当其时。特别是，我们考察了自DeepSeek-R1发布以来，将RL应用于LLMs和LRMs以增强推理能力的研究，涵盖基础组件、核心问题、训练资源和下游应用，以识别这一快速发展的领域的未来机会和方向。我们希望这篇综述能够促进RL在更广泛的推理模型方面的未来研究。GitHub链接：this https URL",
+        "地址": "https://arxiv.org/pdf/2509.08827.pdf"
+    },
+    {
+        "名称": "2025 [2509.08826] RewardDance: Reward Scaling in Visual Generation.pdf",
+        "作者": "Jie Wu, Yu Gao, Zilyu Ye, Ming Li, Liang Li, Hanzhong Guo, Jie Liu, Zeyue Xue, Xiaoxia Hou, Wei Liu, Yan Zeng, Weilin Huang",
+        "摘要": "摘要：奖励模型（RMs）对于通过强化学习（RL）提高生成模型至关重要，但在视觉生成中，RM缩放范式仍然大部分未被探索。其主要原因在于现有方法的基本局限性：基于CLIP的RMs受到架构和输入模态限制，而普遍的Bradley-Terry损失与视觉语言模型（VLMs）的下一个令牌预测机制根本不一致，阻碍了有效的扩展。更关键的是，RLHF优化过程中存在奖励攻击问题，即模型利用奖励信号中的缺陷，而没有改善实际质量。为了解决这些挑战，我们引入了RewardDance，一个可扩展的奖励建模框架，通过一种新的生成奖励范式克服这些障碍。通过将奖励分数重新定义为模型预测“是”令牌的概率，表明生成的图像根据特定标准优于参考图像，RewardDance本质上与VLM架构对齐。这种对齐在两个维度上解锁了扩展： (1) 模型扩展：系统地扩展RMs达到260亿参数； (2) 上下文扩展：整合任务特定指令、参考示例和链式思维（CoT）推理。广泛的实验表明，RewardDance在文本到图像、文本到视频，以及图像到视频生成中显著超越了现有的最先进方法。关键在于，我们解决了持久的“奖励攻击”难题：我们的大规模RMs在RL微调过程中表现出并保持了高奖励方差，证明其抵抗攻击并能够产生多样化、高质量输出。这极大缓解了困扰较小模型的模式崩溃问题。\n\n作者：吴杰、高宇、叶子榆、李明、李亮、郭汉中、刘杰、薛泽月、侯晓霞、刘巍、曾艳、黄维霖\n\n评论：Bytedance Seed技术报告\n\n链接：https://arxiv.org/pdf/2509.08826.pdf\n\n标题：《RewardDance：视觉生成中的奖励缩放》",
+        "地址": "https://arxiv.org/pdf/2509.08826.pdf"
+    },
+    {
+        "名称": "2025 [2509.07996] 3D and 4D World Modeling: A Survey.pdf",
+        "作者": "Lingdong Kong, Wesley Yang, Jianbiao Mei, Youquan Liu, Ao Liang, Dekai Zhu, Dongyue Lu, Wei Yin, Xiaotao Hu, Mingkai Jia, Junyuan Deng, Kaiwen Zhang, Yang Wu, Tianyi Yan, Shenyuan Gao, Song Wang, Linfeng Li, Liang Pan, Yong Liu, Jianke Zhu, Wei Tsang Ooi, Steven C. H. Hoi, Ziwei Liu",
+        "摘要": "摘要：世界建模已成为人工智能研究的基石，使代理能够理解、表示和预测他们所处的动态环境。尽管之前的工作主要强调针对二维图像和视频数据的生成方法，但它们忽略了利用原生三维和四维表示（如RGB-D图像、占用网格和LiDAR点云）进行大规模场景建模的快速增长的研究。同时，缺乏对“世界模型”的标准定义和分类法导致了文献中零散和有时不一致的说法。这篇综述通过提供首个专门针对3D和4D世界建模与生成的全面回顾来弥补这些空白。我们建立了精确的定义，引入了涵盖基于视频（VideoGen）、基于占用（OccGen）和基于LiDAR（LiDARGen）方法的结构化分类法，并系统地总结了针对3D/4D设置的数据集和评估指标。我们进一步讨论了实际应用，确定了未解决的问题，并着重强调了有前景的研究方向，旨在为推进该领域提供一个连贯的基础性参考。现有文献的系统总结可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2509.07996.pdf"
+    },
+    {
+        "名称": "2025 [2509.08755] AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning.pdf",
+        "作者": "Zhiheng Xi, Jixuan Huang, Chenyang Liao, Baodai Huang, Honglin Guo, Jiaqi Liu, Rui Zheng, Junjie Ye, Jiazheng Zhang, Wenxiang Chen, Wei He, Yiwen Ding, Guanyu Li, Zehui Chen, Zhengyin Du, Xuesong Yao, Yufei Xu, Jiecao Chen, Tao Gui, Zuxuan Wu, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang",
+        "摘要": "摘要：开发能够做出一系列智能决策来解决复杂现实任务的自主LLM（大语言模型）代理是一项快速发展的前沿领域。像人类认知发展一样，代理需要通过探索和与环境的互动来获取知识和技能。尽管已有进展，但该领域仍缺乏一个统一的、互动的强化学习（RL）框架，能够在多样且真实的环境中从零开始有效训练这些代理，而不依赖于监督微调（SFT）。为弥合这一差距，我们引入了AgentGym-RL，这是一个通过RL训练LLM代理进行多轮互动决策的新框架。该框架采用模块化和解耦结构，确保高度灵活性和可扩展性。它涵盖了各种现实场景，并支持主流的RL算法。此外，我们提出了ScalingInter-RL，这是一种为探索-利用平衡和稳定RL优化而设计的训练方法。在早期阶段，它通过限制互动次数来强调利用，并逐步转向较大范围的探索，以鼓励多样化的问题解决策略。这样一来，代理会发展出更为多样的行为，并且在长时间范围内不易崩溃。我们进行大量实验，以验证AgentGym-RL框架和ScalingInter-RL方法的稳定性和有效性。在27项任务中，我们的代理在多个环境中匹配或超越了商业模型。我们提供了关键见解，并将开源完整的AgentGym-RL框架，包括代码和数据集，以助力研究界开发下一代智能代理。",
+        "地址": "https://arxiv.org/pdf/2509.08755.pdf"
+    },
+    {
+        "名称": "2025 [2509.06784] P3-SAM: Native 3D Part Segmentation.pdf",
+        "作者": "Changfeng Ma, Yang Li, Xinhao Yan, Jiachen Xu, Yunhan Yang, Chunshi Wang, Zibo Zhao, Yanwen Guo, Zhuo Chen, Chunchao Guo",
+        "摘要": "摘要：将 3D 资产分割为其组成部分对于增强 3D 认知、促进模型重用以及支持零件生成等各种应用至关重要。然而，目前的方法在处理复杂对象时存在鲁棒性差等局限性，无法完全自动化分割过程。本文提出了一种名为 P3-SAM 的原生 3D 点提示零件分割模型，旨在完全自动化将任何 3D 对象分割成组件的过程。受 SAM 的启发，P3-SAM 包含特征提取器、多个分割头和 IoU 预测器，使用户能够进行交互式分割。我们还提出了一种算法，用于自动选择和合并模型预测的蒙版，以进行零件实例分割。我们的模型是在一个包含近 370 万个具有合理分割标签的模型的新构建数据集上训练的。比较显示，我们的方法在任何复杂对象上的分割结果都达到了精确分割和强鲁棒性，实现了最先进的性能。我们的代码将很快发布。\n\n翻译成中文的摘要：\n将 3D 资产分割为其组成部分对于增强 3D 认知、促进模型重用以及支持零件生成等各种应用至关重要。然而，目前的方法在处理复杂对象时存在鲁棒性差等局限性，无法完全自动化分割过程。本文提出了一种名为 P3-SAM 的原生 3D 点提示零件分割模型，旨在完全自动化将任何 3D 对象分割成组件的过程。受 SAM 的启发，P3-SAM 包含特征提取器、多个分割头和 IoU 预测器，使用户能够进行交互式分割。我们还提出了一种算法，用于自动选择和合并模型预测的蒙版，以进行零件实例分割。我们的模型是在一个包含近 370 万个具有合理分割标签的模型的新构建数据集上训练的。比较显示，我们的方法在任何复杂对象上的分割结果都达到了精确分割和强鲁棒性，实现了最先进的性能。我们的代码将很快发布。",
+        "地址": "https://arxiv.org/pdf/2509.06784.pdf"
+    },
+    {
+        "名称": "2025 [2509.05209] Hunyuan-MT Technical Report.pdf",
+        "作者": "Mao Zheng, Zheng Li, Bingxin Qu, Mingyang Song, Yang Du, Mingrui Sun, Di Wang",
+        "摘要": "摘要：在本报告中，我们介绍了Hunyuan-MT-7B，这是我们首个开放源码的多语言翻译模型，支持33种主要语言的双向翻译，特别强调普通话与多种少数民族语言及方言之间的翻译。此外，为了应对多样的翻译场景并在测试时提升模型性能，我们引入了灵感来源于慢速思考模式的Hunyuan-MT-Chimera-7B翻译模型。该模型通过集成在不同参数设置下由Hunyuan-MT-7B模型生成的多个输出，从而实现优于基于思维链（CoT）传统慢速思考模型的性能。我们的模型开发遵循专为多语言翻译设计的整体训练过程，从通用及面向MT的预训练开始以建立基础能力，进行监督微调（SFT）以适应特定任务，并通过强化学习（RL）及从弱到强的RL达到高级对齐。通过全面实验，我们证明了Hunyuan-MT-7B和Hunyuan-MT-Chimera-7B在普通话与少数民族语言及方言翻译任务上显著优于所有参数大小相当的翻译专用模型及大多数最先进（SOTA）的大型模型。在WMT2025共享任务（通用机器翻译）中，我们的模型在31个语言对中的30个上表现出色。这一结果突显了我们的模型在包括中文、英文和日文等高资源语言以及捷克语、马拉地语、爱沙尼亚语和冰岛语等低资源语言的多样语言谱中的稳健性。\n\n作者：毛峥、李铮、曲冰欣、宋明阳、杜洋、孙明睿、王迪\n\n链接：https://arxiv.org/pdf/2509.05209.pdf\n\n标题：2025 [2509.05209] Hunyuan-MT技术报告.pdf",
+        "地址": "https://arxiv.org/pdf/2509.05209.pdf"
+    },
+    {
+        "名称": "2025 [2509.09675] CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models.pdf",
+        "作者": "Runpeng Dai, Linfeng Song, Haolin Liu, Zhenwen Liang, Dian Yu, Haitao Mi, Zhaopeng Tu, Rui Liu, Tong Zheng, Hongtu Zhu, Dong Yu",
+        "摘要": "摘要: 可验证奖励的强化学习（RLVR）是一种增强大语言模型（LLMs）推理能力的强大范式。然而，目前的RLVR方法通常探索不足，导致过早收敛和熵崩溃。为了解决这个问题，我们引入了基于好奇心驱动的探索（CDE）框架，利用模型自身的好奇感指导探索。我们通过来自演员和评论员的信号形式化好奇心：对于演员，我们使用其生成响应的困惑度；对于评论员，我们使用来自多头架构的价值估计的方差。这两个信号作为RLVR框架中的探索奖励来指导模型。我们的理论分析表明，演员的奖励本质上惩罚过度自信的错误并促进正确响应的多样性；此外，我们将评论员的奖励与RL中已建立的基于计数的探索奖励连接起来。从经验上看，我们的方法在AIME基准上使用GRPO/PPO比标准RLVR实现了大约+3点的改进。进一步的分析发现了RLVR内的校准崩溃机制，揭示了常见的LLM失败模式。",
+        "地址": "https://arxiv.org/pdf/2509.09675.pdf"
+    },
+    {
+        "名称": "2025 [2509.06870] The Majority is not always right: RL training for solution aggregation.pdf",
+        "作者": "Wenting Zhao, Pranjal Aggarwal, Swarnadeep Saha, Asli Celikyilmaz, Jason Weston, Ilia Kulikov",
+        "摘要": "摘要: 通过生成多种独立解答并对其进行选择或汇总，扩大测试时间计算规模，已成为提高在复杂推理任务上大规模语言模型（LLM）表现的核心范式。尽管大多数先前的工作依赖于简单的多数投票或奖励模型排序来汇总解答，但这些方法可能仅带来有限的收益。在这项工作中，我们提出将聚合作为一种显式的推理技能来学习：给定一组候选解答，我们训练一个聚合模型，通过可验证的奖励进行强化学习，审查、协调并综合出一个最终正确的答案。一个关键因素是精心平衡简单和困难的训练示例，使模型既能学会恢复少数但正确的答案，也能学会简单的大多数正确答案。通过实验，我们发现我们的方法AggLM在多个基准测试中都优于强大的基于规则和奖励模型的基线。此外，它能有效地泛化到不同模型的解答，包括训练数据中所不包含的更强模型的解答，同时需要比多数投票与大量解答更少的token。",
+        "地址": "https://arxiv.org/pdf/2509.06870.pdf"
+    },
+    {
+        "名称": "2025 [2509.08358] <think> So let's replace this phrase with insult... </think> Lessons learned from generation of toxic texts with LLMs.pdf",
+        "作者": "Sergey Pletenev, Daniil Moskovskiy, Alexander Panchenko",
+        "摘要": "摘要：现代大型语言模型（LLMs）在生成合成数据方面表现出色。然而，它们在诸如文本解毒等敏感领域的表现尚未得到科学界的充分关注。本文探讨了使用LLM生成的合成有害数据作为训练文本解毒模型的替代方法的可能性。使用Llama 3和Qwen激活补丁模型，我们为ParaDetox和SST-2数据集中的中性文本生成了合成的有害文本对应物。实验结果表明，使用合成数据微调的模型表现持续比使用人类数据训练的模型差，综合指标性能最多下降30%。根本原因被确定为一个关键的词汇多样性差距：LLMs使用一个小型重复的侮辱词汇生成有害内容，未能捕捉人类有害内容的细微差别和多样性。这些发现突显了当前LLMs在这一领域的局限性，并强调了多样化、人类标注的数据在构建强健的解毒系统中的持续重要性。\n\n作者：Sergey Pletenev, Daniil Moskovskiy, Alexander Panchenko\n\n链接：https://arxiv.org/pdf/2509.08358.pdf\n\n标题：2025 [2509.08358] <思考>那么，让我们用侮辱来替换这个短语... </思考> 使用LLMs生成有害文本的经验教训.pdf",
+        "地址": "https://arxiv.org/pdf/2509.08358.pdf"
+    },
+    {
+        "名称": "2025 [2509.07054] Statistical Methods in Generative AI.pdf",
+        "作者": "Edgar Dobriban",
+        "摘要": "摘要：生成式人工智能作为一种重要技术正在兴起，并有望在许多领域产生变革。然而，生成式人工智能技术基于从概率模型中采样，默认情况下无法保证正确性、安全性、公平性或其他特性。统计方法为提高生成式人工智能技术的可靠性提供了有前景的潜在方法。此外，统计方法对于提高人工智能评估的质量和效率，以及设计人工智能中的干预和实验也同样有前途。本文回顾了这些主题的一些现有工作，解释了一般的统计技术及其在生成式人工智能中的应用。此外，我们还讨论了限制和未来可能的方向。",
+        "地址": "https://arxiv.org/pdf/2509.07054.pdf"
+    },
+    {
+        "名称": "2025 [2509.08088] EnvX: Agentize Everything with Agentic AI.pdf",
+        "作者": "Linyao Chen, Zimian Peng, Yingxuan Yang, Yikun Wang, Wenzheng Tom Tang, Hiroki H. Kobayashi, Weinan Zhang",
+        "摘要": "摘要：开源代码库的广泛可用性带来了大量可重用的软件组件，但它们的使用仍然是手动的、易出错的且脱节的。开发人员必须浏览文档、理解API并编写集成代码，这给高效的软件复用带来了重大的障碍。为了解决这个问题，我们提出了EnvX，一个利用Agentic AI对GitHub代码库进行代理化的框架，将它们转变为能够进行自然语言交互和代理间协作的智能自主代理。与现有方法将代码库视为静态代码资源不同，EnvX通过三个阶段过程重新定义了它们： (1) 基于TODO指导的环境初始化，设置必要的依赖、数据和验证数据集；(2) 人类对齐的代理自动化，允许特定代码库的代理自主执行现实世界任务；(3) 代理到代理（A2A）协议，开启多个代理的协同工作。通过结合大型语言模型的能力与结构化工具集成，EnvX不仅自动化了代码生成，还自动化了理解、初始化和操作代码库功能的整个过程。我们在GitTaskBench基准测试上评估了EnvX，使用了跨图像处理、语音识别、文档分析和视频处理等领域的18个代码库。结果显示，EnvX达到了74.07%的执行完成率和51.85%的任务通过率，优于现有框架。案例研究进一步展示了EnvX通过A2A协议实现多代码库协作的能力。这项工作标志着从将代码库视为被动代码资源到智能、互动代理的转变，促进了开源生态系统中更大的可访问性和协作性。",
+        "地址": "https://arxiv.org/pdf/2509.08088.pdf"
+    },
+    {
+        "名称": "2025 [2509.08494] HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants.pdf",
+        "作者": "Benjamin Sturgeon, Daniel Samuelson, Jacob Haimes, Jacy Reese Anthis",
+        "摘要": "摘要: 随着人类将更多的任务和决策委托给人工智能（AI），我们面临失去个人和集体未来控制的风险。相对简单的算法系统已经在引导人类决策，例如社交媒体推送算法使人们无意中浏览优化互动内容。本文通过整合哲学和科学理论与人工智能辅助评估方法来发展人类能动性概念：利用大型语言模型（LLMs）来模拟和验证用户查询并评估AI回应。我们开发了HumanAgencyBench（HAB），这是一种基于典型AI用例、具有六个维度的人类能动性可扩展和适应性基准。HAB衡量AI助手或代理倾向于提出澄清问题、避免价值操控、纠正错误信息、推迟重要决策、鼓励学习和维护社会边界的能力。我们发现当代基于LLM的助手在支持人类能动性方面呈现低到中等的水平，并且在系统开发人员和维度间存在显著差异。例如，Anthropic LLM总体上最支持人类能动性，但在避免价值操控方面最不支持。增加LLM的能力或遵循指令行为（例如，RLHF）似乎并不能一致地提高能动性支持，我们鼓励转向更健全的安全和对齐目标。",
+        "地址": "https://arxiv.org/pdf/2509.08494.pdf"
+    }
+]
