@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2509.06652] IntrEx: A Dataset for Modeling Engagement in Educational Conversations.pdf",
+        "作者": "Xingwei Tan, Mahathi Parvatham, Chiara Gambi, Gabriele Pergola",
+        "摘要": "摘要: 参与度和动机对第二语言习得至关重要，但在教育对话中保持学习者的兴趣仍然是一个挑战。尽管先前的研究探讨了是什么使教育文本变得有趣，但关于在对话中驱动参与的语言特征仍知之甚少。为了填补这一空白，我们介绍了IntrEx，这是第一个针对教师与学生互动中的趣味性和预期趣味性进行标注的大型数据集。IntrEx基于教师-学生聊天室语料库（TSCC），通过结合序列级标注扩展了先前的工作，使得可以研究超越独立回合的参与度，以捕捉兴趣在延长对话中的演变。我们采用了严格的标注过程，涉及100多名第二语言学习者，使用受人类反馈强化学习（RLHF）启发的比较评分方法来提高一致性。我们研究了大型语言模型（LLMs）是否能够预测人的趣味性判断。我们发现，基于趣味性评级微调的大型语言模型（7B/8B参数）性能优于较大的专有模型如GPT-4o，展示了专门数据集在教育环境中建模参与度的潜力。最后，我们分析了具体性、可理解性（可读性）和吸收等语言和认知因素如何影响教育对话中的参与度。",
+        "地址": "https://arxiv.org/pdf/2509.06652.pdf"
+    },
+    {
+        "名称": "2025 [2509.09677] The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs.pdf",
+        "作者": "Akshit Sinha, Arvindh Arun, Shashwat Goel, Steffen Staab, Jonas Geiping",
+        "摘要": "摘要：继续扩展大型语言模型（LLM）是否会带来收益递减的效果？现实世界的价值往往源于代理能够完成任务的长度。我们从观察一个简单但违反直觉的事实开始，那就是单步准确率的边际收益可以合并为模型成功完成任务长度的指数级改进。接着，我们提出，当简单任务被延长时，LLM的失败更多来源于执行中的错误，而不是推理能力的不足。我们建议将执行能力独立出来，通过明确提供解决长远任务所需的知识和计划。我们发现，即使在小模型具有100%单步准确率的情况下，大模型也能正确执行更多的回合。我们观察到，随着步骤数量的增加，模型的每步准确率会下降。这不仅是由于长上下文限制，我们还注意到一种自我条件效应，即当上下文包含之前回合的错误时，模型更可能出错。仅仅通过扩展模型规模并不能减少自我条件效应。相反，最新的思维模型不存在自我条件效应，并且可以在一个回合中执行更长的任务。最后，我们通过基准测试前沿思维模型能够在单回合内执行任务的长度得出结论。总体而言，通过关注执行能力，我们希望调和关于LLM如何解决复杂推理问题却在任务延长时失败的争论，并强调扩展模型规模和顺序测试时间计算对长远任务的巨大好处。",
+        "地址": "https://arxiv.org/pdf/2509.09677.pdf"
+    },
+    {
+        "名称": "2025 [2509.10441] InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis.pdf",
+        "作者": "Tao Han, Wanghan Xu, Junchao Gong, Xiaoyu Yue, Song Guo, Luping Zhou, Lei Bai",
+        "摘要": "摘要: 任意分辨率的图像生成在不同设备上提供了一致的视觉体验，对于生产者和消费者拥有广泛的应用。当前的扩散模型随着分辨率增加计算需求呈二次增长，导致生成4K图像的延迟超过100秒。为了解决这个问题，我们探索了潜在扩散模型的第二代，认为由扩散模型生成的固定潜在编码可以作为内容表示，并提出使用一步生成器来解码任意分辨率的图像。因此，我们提出了InfGen，用新的生成器替换VAE解码器，从而在不重新训练扩散模型的情况下，从固定大小的潜在编码生成任意分辨率的图像。这简化了过程，减少了计算复杂性，并可以应用于使用相同潜在空间的任何模型。实验表明，InfGen能够将许多模型提升到任意高分辨率的时代，同时将4K图像生成时间缩短到10秒以下。\n\n作者: Tao Han, Wanghan Xu, Junchao Gong, Xiaoyu Yue, Song Guo, Luping Zhou, Lei Bai\n\n评论: 已被ICCV 2025接受\n\n网址: [https://arxiv.org/pdf/2509.10441.pdf](https://arxiv.org/pdf/2509.10441.pdf)\n\n标题: 2025 [2509.10441] InfGen: 一种可扩展图像合成的分辨率无关范式",
+        "地址": "https://arxiv.org/pdf/2509.10441.pdf"
+    },
+    {
+        "名称": "2025 [2509.08643] X-Part: high fidelity and structure coherent shape decomposition.pdf",
+        "作者": "Xinhao Yan, Jiachen Xu, Yang Li, Changfeng Ma, Yunhan Yang, Chunshi Wang, Zibo Zhao, Zeqiang Lai, Yunfei Zhao, Zhuo Chen, Chunchao Guo",
+        "摘要": "摘要: 生成具有部分层级的3D形状对网格重拓扑、UV映射和3D打印等下游应用至关重要。然而，现有的基于部分生成的方法通常缺乏足够的可控性，并且在语义上有意义的分解方面表现不佳。为此，我们介绍了X-Part，这是一种可控生成模型，旨在将整体的3D对象分解为具有高几何保真度的语义上有意义和结构上连贯的部分。X-Part利用边界框作为部分生成的提示，并注入逐点语义特征以实现有意义的分解。此外，我们设计了一个可编辑的管道用于交互式生成部分。广泛的实验结果表明，X-Part在部分层级形状生成方面达到最先进的性能。此项工作建立了一个创建生产就绪、可编辑且结构合理的3D资产的新范式。代码将公开发布供研究使用。",
+        "地址": "https://arxiv.org/pdf/2509.08643.pdf"
+    },
+    {
+        "名称": "2025 [2509.09713] HANRAG: Heuristic Accurate Noise-resistant Retrieval-Augmented Generation for Multi-hop Question Answering.pdf",
+        "作者": "Duolin Sun, Dan Yang, Yue Shen, Yihan Jiao, Zhehao Tan, Jie Feng, Lianzhen Zhong, Jian Wang, Peng Wei, Jinjie Gu",
+        "摘要": "摘要： 检索增强生成 (RAG) 方法通过将信息检索 (IR) 技术与大型语言模型 (LLM) 相结合，增强了问答系统和对话生成任务的能力。这种策略从外部知识库中检索信息，以提高生成模型的响应能力，已取得一定成功。然而，当前的RAG方法在处理多跳查询时仍面临诸多挑战。例如，一些方法过于依赖迭代检索，在复合查询上浪费了太多检索步骤。此外，使用原始复杂查询进行检索可能无法捕获与特定子查询相关的内容，导致检索内容噪声过多。如果噪声未得到处理，可能会导致噪声积累问题。为了解决这些问题，我们推出了HANRAG，这是一种基于启发式的新框架，旨在高效解决各种复杂问题。在强大的启示器驱动下，HANRAG能够进行查询路由、将查询分解为子查询、并从检索到的文档中过滤掉噪声。这提高了系统的适应性和噪声抵抗力，使其能够高效处理各种查询。我们在各种基准测试中将所提出的框架与其他领先的行业方法进行比较。结果表明，我们的框架在单跳和多跳问答任务中均表现优异。",
+        "地址": "https://arxiv.org/pdf/2509.09713.pdf"
+    },
+    {
+        "名称": "2025 [2509.10147] Virtual Agent Economies.pdf",
+        "作者": "Nenad Tomasev, Matija Franklin, Joel Z. Leibo, Julian Jacobs, William A. Cunningham, Iason Gabriel, Simon Osindero",
+        "摘要": "摘要: 自主人工智能代理的快速采用正在催生一个新的经济层次，其中代理在规模和速度上进行交易和协调，超出了人类的直接监督。我们提出了“沙盒经济”作为分析这一新兴系统的框架，从两个关键维度来描述它：其起源（自发性与故意性）及其与现有人类经济的分离程度（可渗透性与不可渗透性）。目前的趋势指向一个自发出现的广泛且高度可渗透的人工智能代理经济，这为我们带来了前所未有的协调机会，同时也带来了重大挑战，包括系统性经济风险和加剧的不平等。在此，我们讨论了一些可能的设计选择，以引导安全可控的AI代理市场。特别是，我们考虑了用于公平资源分配和偏好解决的拍卖机制，设计了围绕实现集体目标的人工智能“使命经济”，以及确保信任、安全和问责制所需的社会技术基础设施。通过这些措施，我们主张主动设计可控的代理市场，以确保即将到来的技术转变与人类的长期集体幸福相一致。\n\n作者: Nenad Tomasev, Matija Franklin, Joel Z. Leibo, Julian Jacobs, William A. Cunningham, Iason Gabriel, Simon Osindero\n\nURL: [https://arxiv.org/pdf/2509.10147.pdf](https://arxiv.org/pdf/2509.10147.pdf)\n标题: 2025 [2509.10147] 虚拟代理经济.pdf",
+        "地址": "https://arxiv.org/pdf/2509.10147.pdf"
+    },
+    {
+        "名称": "2025 [2509.09716] VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions.pdf",
+        "作者": "Jun Zhan, Mingyang Han, Yuxuan Xie, Chen Wang, Dong Zhang, Kexin Huang, Haoxiang Shi, DongXiao Wang, Tengtao Song, Qinyuan Cheng, Shimin Li, Jun Song, Xipeng Qiu, Bo Zheng",
+        "摘要": "摘要: 语音语言模型(SLMs)已成为语音理解和生成的统一范式，实现了自然的人机交互。然而，尽管大多数进展都集中在语义准确性和指令执行方面，SLMs根据口头指令调整讲话风格的能力却受到有限关注。我们介绍了语音风格适应(VSA)这一新任务，研究SLMs是否可以根据自然语言口头命令修改其讲话风格，例如音色、韵律或角色扮演。为了研究这一任务，我们提出了VStyle，一个涵盖四类语音生成任务的双语(中文和英文)基准：声学属性、自然语言指令、角色扮演和隐含的共情。我们还介绍了作为评判的大学大型音频语言模型(LALM as a Judge)框架，它沿着文本忠实、风格遵守和自然性逐步评估输出，确保可重复和客观的评估。对商业系统和开源SLMs的实验表明，当前模型在可控的风格适应方面面临明显的局限性，凸显了这一任务的新颖性和挑战性。通过发布VStyle及其评估工具包，我们旨在为推进以人为中心的口语交互提供基础。数据集和代码在项目主页上公开提供。\n\n附件：https://arxiv.org/pdf/2509.09716.pdf",
+        "地址": "https://arxiv.org/pdf/2509.09716.pdf"
+    },
+    {
+        "名称": "2025 [2509.04996] FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies.pdf",
+        "作者": "Moritz Reuss, Hongyi Zhou, Marcel Rühle, Ömer Erdinç Yağmurlu, Fabian Otto, Rudolf Lioutikov",
+        "摘要": "摘要: 开发高效的视觉-语言-动作(VLA)策略对于实际机器人部署至关重要，但现有的方法面临着高昂的计算成本和资源需求。当前基于扩散的VLA策略需要具有数十亿参数的模型和海量数据集来实现优异的性能。我们通过两个贡献来应对这一效率挑战：中间模态融合，通过修剪多达50%的LLM层，将容量重新分配到扩散头，以及特定动作的Global-AdaLN条件，通过模块化适应减少20%的参数。我们将这些进展整合到一个新的950M参数VLA模型FLOWER中。该模型仅在200个H100 GPU小时内进行了预训练，FLOWER在包括十个仿真和现实世界基准在内的190个任务中提供了与更大规模的VLA相当的性能，并展示了跨多种机器人体现的鲁棒性。此外，FLOWER在CALVIN ABC基准上达到了新的4.53 SoTA。演示、代码和预训练权重可在此https URL找到。\n\n作者: Moritz Reuss, Hongyi Zhou, Marcel Rühle, Ömer Erdinç Yağmurlu, Fabian Otto, Rudolf Lioutikov\n\n注释: 发表在CoRL 2025\n\n链接: https://arxiv.org/pdf/2509.04996.pdf\n\n标题: FLOWER: 利用高效的视觉-语言-动作流政策实现通用机器人策略的普及",
+        "地址": "https://arxiv.org/pdf/2509.04996.pdf"
+    },
+    {
+        "名称": "2025 [2509.10396] Inpainting-Guided Policy Optimization for Diffusion Large Language Models.pdf",
+        "作者": "Siyan Zhao, Mengchen Liu, Jing Huang, Miao Liu, Chenyu Wang, Bo Liu, Yuandong Tian, Guan Pang, Sean Bell, Aditya Grover, Feiyu Chen",
+        "摘要": "摘要：掩蔽扩散大型语言模型(dLLMs)作为自回归大型语言模型（LLMs）的有力替代方案正在逐步兴起，表现出竞争力，同时支持独特的生成能力，例如图像修复。我们探讨了图像修复如何为dLLMs的强化学习算法设计提供启示。 将LLMs与强化学习对齐面临探索挑战：稀疏的奖励信号以及模型未能发现正确解决方案时的样本浪费。虽然这种低效性广泛影响LLMs，但dLLMs提供了一个独特的机会——其图像修复能力可以指导探索。我们引入了一种RL框架即IGPO（Inpainting Guided Policy Optimization），在在线采样过程中策略性地插入部分真实推理痕迹。与提供完整解决方案不同，图像修复使探索在保留自生成推理的同时指向有前途的轨迹空间，弥合了监督微调和强化学习之间的差距。我们将IGPO应用于基于群体优化的方法，如GRPO，在这些方法中，探索失败导致零优势和梯度。IGPO在提高样本效率的同时恢复了有意义的梯度。我们还提出了对合成重写的简明痕迹进行监督微调，以更好地与dLLMs的生成模式对齐。通过包括基于熵的过滤在内的附加技术，我们的训练方法在三个数学基准测试——GSM8K、Math500和AMC上取得了显著的提升，达到了新的全注意掩蔽dLLMs的最先进水平。\n\n翻译：封闭扩散大型语言模型 (dLLMs) 正在崛起，作为自回归大型语言模型 (LLMs) 的有力替代方案，表现出竞争力，同时支持独特的生成能力，例如图像修复。我们探讨了图像修复如何为dLLMs的强化学习算法设计提供启示。 将LLMs与强化学习对齐面临探索挑战：稀疏的奖励信号以及模型未能发现正确解决方案时的样本浪费。虽然这种低效性广泛影响LLMs，但dLLMs提供了一个独特的机会——其图像修复能力可以指导探索。我们引入了一种RL框架即IGPO（Inpainting Guided Policy Optimization），在在线采样过程中策略性地插入部分真实推理痕迹。与提供完整解决方案不同，图像修复使探索在保留自生成推理的同时指向有前途的轨迹空间，弥合了监督微调和强化学习之间的差距。我们将IGPO应用于基于群体优化的方法，如GRPO，在这些方法中，探索失败导致零优势和梯度。IGPO在提高样本效率的同时恢复了有意义的梯度。我们还提出了对合成重写的简明痕迹进行监督微调，以更好地与dLLMs的生成模式对齐。通过包括基于熵的过滤在内的附加技术，我们的训练方法在三个数学基准测试——GSM8K、Math500和AMC上取得了显著的提升，达到了新的全注意掩蔽dLLMs的最先进水平。",
+        "地址": "https://arxiv.org/pdf/2509.10396.pdf"
+    },
+    {
+        "名称": "2025 [2509.09926] LoFT: Parameter-Efficient Fine-Tuning for Long-tailed Semi-Supervised Learning in Open-World Scenarios.pdf",
+        "作者": "Jiahao Chen, Zhiyuan Huang, Yurou Liu, Bing Su",
+        "摘要": "摘要：长尾学习因其在现实世界中的广泛适用性而受到越来越多的关注。在现有方法中，将大量未标注数据纳入不平衡标注数据集的长尾半监督学习（LTSSL）已经成为一种有效的解决方案。然而，大多数现有的LTSSL方法是从零开始训练模型，往往导致过度自信和低质量的伪标签。为了解决这些问题，我们将LTSSL扩展到基础模型微调范式，并提出了一种新框架：LoFT（通过参数高效微调的长尾半监督学习）。我们证明了微调后的基础模型可以生成更可靠的伪标签，从而有助于不平衡学习。此外，我们通过研究开放世界条件下的半监督学习探讨了更实际的设置，其中未标注数据可能包含分布外（OOD）样本。为了解决这一问题，我们提出了LoFT-OW（开放世界情境下的LoFT），以提高区分能力。多个基准测试的实验结果表明，即使只利用之前工作中未标注数据的1%，我们的方法也能实现优于之前方法的出色表现。\n\n作者：陈家豪, 黄志远, 刘雨柔, 苏冰\n\nURL：https://arxiv.org/pdf/2509.09926.pdf\n\n标题：2025 [2509.09926] LoFT: 开放世界情境下长尾半监督学习的参数高效微调",
+        "地址": "https://arxiv.org/pdf/2509.09926.pdf"
+    },
+    {
+        "名称": "2025 [2509.10058] Color Me Correctly: Bridging Perceptual Color Spaces and Text Embeddings for Improved Diffusion Generation.pdf",
+        "作者": "Sung-Lin Tsai, Bo-Lun Huang, Yu Ting Shen, Cheng Yu Yeo, Chiang Tseng, Bo-Kai Ruan, Wen-Sheng Lien, Hong-Han Shuai",
+        "摘要": "摘要: 准确的颜色校准在文本到图像 (T2I) 生成中至关重要，对于时尚、产品可视化和室内设计等应用尤为如此。然而，当前的扩散模型在处理细微和复合色彩术语（例如，蒂芙尼蓝、酸橙绿、亮粉色）方面往往难以与人类的意图对齐。现有的方法依靠交叉注意力操作、参考图像或微调，但未能系统地解决模糊的颜色描述问题。为了在提示模糊情况下精确呈现颜色，我们提出了一种无需训练的框架，通过利用大型语言模型 (LLM) 解析与颜色相关的提示词，并直接在文本嵌入空间中引导颜色混合操作来增强颜色保真度。我们的方法首先使用大型语言模型 (LLM) 解析文本提示中的模糊颜色术语，然后根据所得颜色术语在 CIELAB 颜色空间中的空间关系来优化文本嵌入。与之前的方法不同，我们的方法无需额外的训练或外部参考图像即可提高颜色准确性。实验结果表明，我们的框架在不影响图像质量的情况下提高了颜色对齐，弥合了文本语义与视觉生成之间的差距。\n\n接受评论: 已被ACM Multimedia 2025 (MM '25) 接收\n\n权威链接: [链接到论文](https://arxiv.org/pdf/2509.10058.pdf)",
+        "地址": "https://arxiv.org/pdf/2509.10058.pdf"
+    },
+    {
+        "名称": "2025 [2509.09995] QuantAgent: Price-Driven Multi-Agent LLMs for High-Frequency Trading.pdf",
+        "作者": "Fei Xiong, Xiang Zhang, Aosong Feng, Siqi Sun, Chenyu You",
+        "摘要": "摘要：近年来，大型语言模型（LLMs）在金融推理和市场理解方面展示了令人印象深刻的能力。TradingAgent 和 FINMEM 等多代理 LLM 框架通过利用基础和基于情感的输入进行战略决策，将这些模型扩展到长期投资任务中。然而，这样的系统不适用于高频交易（HFT）对高速、精准要求的需求。HFT 需要基于结构化的、短期信号（包括技术指标、图表模式和基于趋势的特征）作出快速、风险意识的决策，这与传统金融 LLM 应用的长期语义推理截然不同。为此，我们引入了 QuantAgent，这是第一个明确为高频算法交易设计的多代理 LLM 框架。该系统将交易分解为四个专门的代理：指标、模式、趋势和风险，每个代理都配备了特定领域的工具和结构化推理能力，以捕捉短时间窗口内市场动态的不同方面。在包括比特币和纳斯达克期货在内的十种金融工具的零样本评估中，QuantAgent 在预测准确性和累计回报方面均表现出色，超越了强大的神经网络和基于规则的基线。我们的研究结果表明，将结构化的金融先验知识与语言本地的推理相结合，为高频金融市场中的可追溯、实时决策系统开辟了新的潜力。",
+        "地址": "https://arxiv.org/pdf/2509.09995.pdf"
+    },
+    {
+        "名称": "2025 [2509.09737] World Modeling with Probabilistic Structure Integration.pdf",
+        "作者": "Klemen Kotar, Wanhee Lee, Rahul Venkatesh, Honglin Chen, Daniel Bear, Jared Watrous, Simon Kim, Khai Loong Aw, Lilian Naing Chen, Stefan Stojanov, Kevin Feigelis, Imran Thobani, Alex Durango, Khaled Jedoui, Atlas Kazemian, Dan Yamins",
+        "摘要": "摘要：我们介绍了概率结构集成（PSI），这是一种从数据中学习具有丰富可控性和灵活提示的世界模型的系统。PSI包括三个步骤的循环。第一步，概率预测，涉及建立数据的概率图模型Psi，以随机访问自回归序列模型的形式。Psi支持一套完整的学习条件分布，描述数据中任何变量对其他变量集合的依赖关系。第二步，结构提取，我们展示了如何通过对Psi进行因果推断，以零样本方式提取数据中对应不同有意义的“中间结构”的低维特性。第三步，集成，通过将这些结构转换为新类型的token，持续将其作为条件信号和预测目标混入训练中，完成循环。每个循环都会增强Psi的能力，使其能够更好地建模底层数据，并创建新的控制手柄——类似于LLM的通用提示语言。我们在1.4万亿个互联网视频数据的token上训练了一个Psi实例；我们使用它执行各种有用的视频预测和理解推断；我们提取最先进的光流，自监督深度和对象分割；并且我们使用这些结构支持整个预测改进循环。",
+        "地址": "https://arxiv.org/pdf/2509.09737.pdf"
+    },
+    {
+        "名称": "2025 [2509.09734] MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools.pdf",
+        "作者": "Zikang Guo, Benfeng Xu, Chiwei Zhu, Wentao Hong, Xiaorui Wang, Zhendong Mao",
+        "摘要": "摘要：模型上下文协议（MCP）正在迅速成为一个重要的开放标准，旨在提升智能体工具的集成和互操作性，开启一个新的强大、互联且真正实用的智能体人工智能时代。然而，尽管MCP日益普及，现有基准常常无法捕捉在这一新范式下智能体的实际性能，导致对其真正运行价值的扭曲认识，并无法可靠地区分其能力。为弥补这一关键评价差距，我们推出MCP-AgentBench——一个专门设计的综合基准，用于严格评估MCP介导的工具交互中语言智能体的能力。MCP-AgentBench的核心贡献包括：建立了一个由33个操作服务器和188种不同工具组成的坚实MCP测试平台；开发了一个包含600个系统设计查询的基准，这些查询分布在6个不同交互复杂性的类别中；并引入了MCP-Eval，这是一种新的面向结果的评估方法，优先考虑现实任务的成功。通过对领先语言智能体的广泛实证评估，我们提供了基础性的洞见。MCP-AgentBench旨在为研究社区提供一个标准化且可靠的框架，用于构建、验证和推进能够充分利用MCP革命性优势的智能体，从而加速迈向真正有能力且互操作的AI系统的进程。",
+        "地址": "https://arxiv.org/pdf/2509.09734.pdf"
+    },
+    {
+        "名称": "2025 [2509.07966] Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images.pdf",
+        "作者": "Boammani Aser Lompo, Marc Haraoui",
+        "摘要": "摘要：在现代视觉-语言模型（VLMs）中，通过结构化数据如表格进行视觉推理是一个关键能力。然而，当前的基准在规模、多样性或推理深度上仍然有限，尤其在涉及渲染表格图像时。为了解决这个问题，我们引入了Visual-TableQA，这是一个大规模、开放领域的多模态数据集，专门设计用于评估和加强对复杂表格数据的视觉推理。我们的数据生成管道是模块化的、可扩展的，并且完全自动化，涉及多个推理大语言模型（LLMs）在不同角色中的协作：生成、验证和启发。Visual-TableQA包含2.5k结构丰富的LaTeX渲染表格和6k高推理需求的问答对，其生产成本低于100美元。为了促进多样性和创造力，我们的管道通过跨模型提示（“启发”）和LLM评审过滤执行多模型协作数据生成。强大的模型生成布局和主题，较弱的模型进行详细 elaboration，集体将多样化的推理模式和视觉结构提炼到数据集中。实验证明，基于Visual-TableQA微调的模型在外部基准上表现出强大的泛化能力，尽管数据集是合成性质，其表现优于几种专有模型。完整的管道和资源在此URL公开获取。\n\nAuthors: Boammani Aser Lompo, Marc Haraoui\n\nComments: 工作正在进行中\n\nURL: https://arxiv.org/pdf/2509.07966.pdf",
+        "地址": "https://arxiv.org/pdf/2509.07966.pdf"
+    },
+    {
+        "名称": "2025 [2509.09524] DeMeVa at LeWiDi-2025: Modeling Perspectives with In-Context Learning and Label Distribution Learning.pdf",
+        "作者": "Daniil Ignatev, Nan Li, Hugh Mee Wong, Anh Dang, Shane Kaszefski Yaschuk",
+        "摘要": "摘要: 本系统论文展示了DeMeVa团队在第三届学习分歧共享任务（LeWiDi 2025; Leonardelli 等，2025）中的方法。我们探讨了两个方向：使用大型语言模型进行上下文学习（ICL），在其中比较样本策略；以及使用RoBERTa（Liu 等，2019b）进行标签分布学习（LDL）方法，在其中评估了几种微调方法。我们的贡献有两方面：(1) 我们展示了ICL可以有效预测特定注释者的注释（观点注释），并且将这些预测聚合成软标签可以获得较好的性能；(2) 我们认为LDL方法对于软标签预测是有前景的，值得观点社区进一步探索。",
+        "地址": "https://arxiv.org/pdf/2509.09524.pdf"
+    },
+    {
+        "名称": "2025 [2509.01535] CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models.pdf",
+        "作者": "Kairong Han, Wenshuo Zhao, Ziyu Zhao, JunJian Ye, Lujia Pan, Kun Kuang",
+        "摘要": "摘要: 大型语言模型（LLMs）在各个领域取得了显著成功。然而，一个基本问题仍然存在：LLMs 能否有效地利用因果知识进行预测和生成？通过实证研究，我们发现直接在大规模数据上训练的 LLMs 往往捕捉到伪相关性，而非真正的因果关系，从而导致性能欠佳，特别是在分布外（OOD）场景中。为了解决这一挑战，我们提出了因果注意力调优（CAT）方法，这是一种将细粒度因果知识注入注意机制的新方法。我们提出了一种自动化流程，该流程利用人类先验知识自动生成标记级因果信号，并引入再注意机制来引导训练，帮助模型专注于因果结构，同时降低注意分数中的噪声和偏差。在我们提出的伪令牌游戏（STG）基准测试和多个下游任务上的实验结果表明，我们的方法能够有效利用因果知识进行预测，并在 OOD 场景中保持稳健。CAT 在 STG 数据集上的平均改进为 5.76%，在下游任务上的平均提升为 1.56%。值得注意的是，Llama-3.1-8B 模型在 STG_M 数据集上的 OOD 性能从 64.5% 提升到 90.5%，而 Qwen 在 STG_H 数据集上的 OOD 性能从 25.4% 提升到 55.9%。实施细节可在此 https URL 查找。",
+        "地址": "https://arxiv.org/pdf/2509.01535.pdf"
+    },
+    {
+        "名称": "2025 [2509.09990] CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China.pdf",
+        "作者": "Guixian Xu, Zeli Su, Ziyin Zhang, Jianing Liu, XU Han, Ting Zhang, Yushuang Dong",
+        "摘要": "摘要：在中国，藏语、维吾尔语和传统蒙语等少数民族语言由于其独特的书写系统，与国际标准存在显著差异，面临重大挑战。这种差异导致相关语料库严重缺乏，特别是在新闻标题生成等监督任务中。为了解决这一问题，我们引入了一个新颖的数据集——中国少数民族新闻标题生成(CMHG)，其中包含藏语10万条，维吾尔语和蒙语各5万条，专门用于新闻标题生成任务。此外，我们提出了一个由母语者注释的高质量测试集，旨在作为该领域未来研究的基准。我们希望这一数据集能够成为推动中国少数民族语言新闻标题生成的重要资源，并有助于相关基准的发展。",
+        "地址": "https://arxiv.org/pdf/2509.09990.pdf"
+    },
+    {
+        "名称": "2025 [2509.08825] Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation.pdf",
+        "作者": "Joachim Baumann, Paul Röttger, Aleksandra Urman, Albert Wendsjö, Flor Miriam Plaza-del-Arco, Johannes B. Gruber, Dirk Hovy",
+        "摘要": "摘要:\n大型语言模型（LLMs）正在迅速改变社会科学研究，通过实现诸如数据标注和文本分析等劳动密集型任务的自动化。然而，LLM的输出会因研究人员的实施选择（例如模型选择、提示策略或温度设置）而显著变化。这种变化可能引入系统性偏差和随机错误，这些将传播到下游分析并导致I型、II型、S型或M型错误。我们称之为LLM黑客。\n我们通过使用18种不同的模型对21项已发表的社会科学研究中的37个数据标注任务进行复制，从而量化LLM黑客的风险。分析了1300万个LLM标签，我们测试了2361个现实假设以衡量研究人员选择对统计结论的影响。我们发现，在大约三分之一的假设中，基于LLM标注数据得出的结论是错误的，而对于小型语言模型则有一半的假设是错误的。尽管我们的研究表明，较高的任务绩效和更好的总体模型能力可以降低LLM黑客风险，但即使是高度准确的模型也不能完全消除这种风险。随着效应量的增加，LLM黑客的风险会降低，这表明需要更严格地验证接近显著性阈值的发现。我们的广泛分析强调了人为标注在减少错误发现和改善模型选择中的重要性。令人惊讶的是，常见的回归估计校正技术在减少LLM黑客风险方面效果不佳，因为它们在I型错误和II型错误之间进行了大量权衡。\n除了偶然错误之外，我们发现故意的LLM黑客非常简单。只需很少的LLMs和几个提示改写，就可以使任何东西显得统计显著。\n\n作者:\nJoachim Baumann, Paul Röttger, Aleksandra Urman, Albert Wendsjö, Flor Miriam Plaza-del-Arco, Johannes B. Gruber, Dirk Hovy\n\n链接:\nhttps://arxiv.org/pdf/2509.08825.pdf\n\n标题:\n2025 [2509.08825] 大型语言模型黑客：量化使用LLMs进行文本标注的隐藏风险",
+        "地址": "https://arxiv.org/pdf/2509.08825.pdf"
+    },
+    {
+        "名称": "2025 [2509.08270] Interpretable Physics Reasoning and Performance Taxonomy in Vision-Language Models.pdf",
+        "作者": "Pranav Pawar, Kavish Shah, Akshat Bhalani, Komal Kasat, Dev Mittal, Hadi Gala, Deepali Patil, Nikita Raichada, Monali Deshmukh",
+        "摘要": "摘要: 随着视觉语言模型（VLMs）的复杂化，它们进行推理的能力正在受到越来越多的监督。虽然它们在许多任务上表现出色，但它们对基本科学原理，比如物理学的理解，仍然是一个未充分探索的领域。为了反映这些能力的进展，我们引入了一个新颖且易于访问的框架，旨在严格评估VLMs对二维物理的理解。我们的框架具有一个实用的场景生成器，可以在四个核心领域（抛射运动、碰撞动力学、力学和流体动力学）中创建超过400个问题的多样化测试平台。通过对四个最先进的VLMs的全面评估，我们展示了模型规模与推理能力之间的强烈关联，我们表现最好的模型Qwen2.5-VL-7B总得分为0.815。我们发现，尽管模型在公式性问题上表现卓越，但在需要抽象空间推理的领域则显著困难。通过设计这个框架，我们旨在使科学推理在VLMs中的研究更加民主化，并促使对它们的能力和局限性有更深入的理解。",
+        "地址": "https://arxiv.org/pdf/2509.08270.pdf"
+    },
+    {
+        "名称": "2025 [2509.04500] Context Engineering for Trustworthiness: Rescorla Wagner Steering Under Mixed and Inappropriate Contexts.pdf",
+        "作者": "Rushi Wang, Jiateng Liu, Cheng Qian, Yifan Shen, Yanzhou Pan, Zhaozhuo Xu, Ahmed Abbasi, Heng Ji, Denghui Zhang",
+        "摘要": "摘要: 结合外部上下文可以显著提升大型语言模型（LLM）的响应质量。然而，真实世界中的上下文经常混合了相关信息和大量不适当内容，导致可靠性风险。LLM如何处理和优先处理混合上下文？为研究这一问题，我们引入了污染上下文测试平台，将查询与包含相关和不适当内容的真实世界上下文配对。受动物联想学习的启发，我们从神经科学中调整了Rescorla-Wagner (RW)模型，以量化竞争上下文信号对LLM输出的影响。我们的调整模型揭示了一种一致的行为模式：LLM表现出强烈倾向于结合上下文中不太常见的信息。这种易感性在真实世界环境中是有害的，其中少量不适当内容会显著降低响应质量。对我们测试平台的实证评估进一步确认了这种脆弱性。为解决这一问题，我们介绍了RW-Steering，一种基于两阶段微调的方法，使模型能够在内部识别和忽略不适当信号。与依赖广泛监督多种上下文混合的现有方法不同，RW-Steering在不同比例的不适当内容中稳健地泛化。实验表明，我们最好的微调模型改善了39.8%的响应质量，并扭转了不良行为曲线，确立了RW-Steering作为一种稳健、可泛化的上下文工程解决方案，以改善LLM在现实世界中的安全性。",
+        "地址": "https://arxiv.org/pdf/2509.04500.pdf"
+    }
+]
