@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2509.12201] OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling.pdf",
+        "作者": "Yang Zhou, Yifan Wang, Jianjun Zhou, Wenzheng Chang, Haoyu Guo, Zizun Li, Kaijing Ma, Xinyue Li, Yating Wang, Haoyi Zhu, Mingyu Liu, Dingning Liu, Jiange Yang, Zhoujie Fu, Junyi Chen, Chunhua Shen, Jiangmiao Pang, Kaipeng Zhang, Tong He",
+        "摘要": "摘要：4D世界建模领域旨在共同捕捉空间几何和时间动态，近年来取得了显著进展，这得益于大规模生成模型和多模态学习的进步。然而，真正通用的4D世界模型的发展在根本上受限于高质量数据的可用性。现有的数据集和基准往往缺乏支持4D几何重建、未来预测和摄像头控制视频生成等关键任务所需的动态复杂性、多领域多样性和时空注释。为了解决这一差距，我们引入了OmniWorld，这是一个专门为4D世界建模设计的大规模、多领域、多模态数据集。OmniWorld包括一个新收集的OmniWorld-Game数据集和几个涵盖不同领域的精心策划的公共数据集。与现有的合成数据集相比，OmniWorld-Game提供了更丰富的模态覆盖、更大规模以及更逼真的动态交互。基于这个数据集，我们建立了一个富有挑战性的基准，揭示了当前最先进(SOTA)方法在建模复杂4D环境方面的局限性。此外，在OmniWorld上微调现有的SOTA方法，在4D重建和视频生成任务上取得了显著的性能提升，强有力地验证了OmniWorld作为训练和评估强大资源的价值。我们展望OmniWorld将成为加速通用4D世界模型发展的催化剂，最终推进机器对物理世界的整体理解。",
+        "地址": "https://arxiv.org/pdf/2509.12201.pdf"
+    },
+    {
+        "名称": "2025 [2509.11543] UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning.pdf",
+        "作者": "Zhengxi Lu, Jiabo Ye, Fei Tang, Yongliang Shen, Haiyang Xu, Ziwei Zheng, Weiming Lu, Ming Yan, Fei Huang, Jun Xiao, Yueting Zhuang",
+        "摘要": "摘要：图形用户界面(GUI)代理通过强化学习在自动化复杂用户界面交互方面取得了显著进展。然而，目前的方法面临一个基本的难题：离线强化学习（offline RL）可以在预先收集的轨迹上进行稳定训练，但由于缺乏轨迹级别的奖励信号，难以执行多步任务；在线强化学习（online RL）通过环境交互捕捉这些信号，但受到稀疏的奖励和高昂部署成本的影响。为了解决这一问题，我们提出了半在线强化学习（Semi-online Reinforcement Learning），这是一种在离线轨迹上模拟在线强化学习的新范式。在每次回合过程中，我们保留多轮对话中的原始模型输出，其中一个补丁模块（Patch Module）自适应地恢复回合轨迹和专家轨迹之间的差异。为了捕捉长期训练信号，半在线强化学习在奖励计算中引入了贴现的未来回报，并通过加权的步骤级和情景级优势来优化策略。我们进一步引入了半在线性能（SOP），这一指标更好地与真实在线性能对齐，作为实际有效的真实世界评估代理。实验表明，我们的半在线强化学习在四个动态基准测试中，在7B模型中取得了最先进（SOTA）的性能，相比基准模型取得了显著提升（例如，在AndroidWorld上提升12.0%，在AITW上提升23.8%），在离线训练效率和在线多轮推理之间架起了重要的桥梁。代码可在此_https_链接获取。",
+        "地址": "https://arxiv.org/pdf/2509.11543.pdf"
+    },
+    {
+        "名称": "2025 [2509.10813] InternScenes: A Large-scale Simulatable Indoor Scene Dataset with Realistic Layouts.pdf",
+        "作者": "Weipeng Zhong, Peizhou Cao, Yichen Jin, Li Luo, Wenzhe Cai, Jingli Lin, Hanqing Wang, Zhaoyang Lyu, Tai Wang, Bo Dai, Xudong Xu, Jiangmiao Pang",
+        "摘要": "摘要：  Embodied AI的进步在很大程度上依赖于具有场景多样性和真实布局的大规模、可模拟的3D场景数据集。然而，现有数据集通常在数据规模或多样性、缺乏小物件的布局以及严重的物体碰撞方面存在局限性。为了解决这些问题，我们引入了InternScenes，一个新颖的大规模可模拟室内场景数据集，通过整合三种不同的场景来源（真实扫描、程序生成场景和设计师创建场景），包括约40,000个多样化场景，1.96M 3D对象，涵盖15种常见场景类型和288个对象类别。我们特别保留了场景中的大量小物件，从而形成真实且复杂的布局，每个区域平均包含41.5个对象。我们综合的数据处理流程通过为真实扫描创建真实到模拟的副本来确保可模拟性，通过将互动对象纳入这些场景来增强互动性，并通过物理模拟解决物体碰撞问题。我们通过两个基准应用展示了InternScenes的价值：场景布局生成和点目标导航。两者都显示了复杂和真实布局带来的新挑战。更重要的是，InternScenes为这两项任务的模型训练规模化铺平了道路，使在如此复杂场景中的生成和导航成为可能。我们致力于开放数据、模型和基准，以惠及整个社区。",
+        "地址": "https://arxiv.org/pdf/2509.10813.pdf"
+    },
+    {
+        "名称": "2025 [2509.12203] LazyDrag: Enabling Stable Drag-Based Editing on Multi-Modal Diffusion Transformers via Explicit Correspondence.pdf",
+        "作者": "Zixin Yin, Xili Dai, Duomin Wang, Xianfang Zeng, Lionel M. Ni, Gang Yu, Heung-Yeung Shum",
+        "摘要": "摘要：依赖于隐式点匹配的注意力机制已经成为基于拖动编辑的核心瓶颈，导致反演强度减弱和昂贵的测试时间优化（TTO）。这一妥协严重限制了扩散模型的生成能力，抑制了高保真修补和文本引导生成能力。在本文中，我们介绍了LazyDrag，这是第一个针对多模态扩散变换器的基于拖动的图像编辑方法，它直接消除了对隐式点匹配的依赖。具体而言，我们的方法从用户的拖动输入生成一个明确的对应图，以可靠参考来增强注意力控制。这个可靠参考开创了稳定的全强度反演过程的潜力，这是基于拖动编辑任务中的首创。它消除了对TTO的必要性，解锁了模型的生成能力。因此，LazyDrag自然地将精确的几何控制与文本指导统一起来，使得复杂的编辑成为可能：如打开狗的嘴并修补其内部，生成新的对象如“网球”，或对于模糊的拖动，进行上下文感知的修改如将手放入口袋。此外，LazyDrag支持具有同时移动和缩放操作的多轮工作流程。在DragBench上进行评估时，我们的方法在拖动精度和感知质量上优于基线，VIEScore和人工评价验证了这一点。LazyDrag不仅建立了新的最先进的性能，还为编辑范式铺平了新的道路。\n\n翻译：依赖隐式点匹配的注意力机制已经成为基于拖动编辑的核心瓶颈，导致反转强度减弱和昂贵的测试时间优化（TTO）。这种妥协严重限制了扩散模型的生成能力，抑制了高保真修补和文本引导生成。在本文中，我们介绍了LazyDrag，第一款用于多模态扩散变换器的基于拖动的图像编辑方法，它直接消除了对隐式点匹配的依赖。具体而言，我们的方法从用户拖动输入生成一个明确的对应图，作为可靠参考，以增强注意控制。这种可靠参考开启了稳定的全强度反转过程的潜力，这是基于拖动编辑任务中的首创。它消除了对TTO的需求，启用了模型的生成能力。因此，LazyDrag自然地统一了精确的几何控制与文本指导，使得复杂的编辑成为可能：如打开狗的嘴并修补其内部，生成新的物体，如“网球”；或者对于模糊的拖动，进行上下文感知的更改，如将手放入口袋。此外，LazyDrag支持具有同时移动和缩放操作的多轮工作流程。在DragBench上进行评估时，我们的方法在拖动精度和感知质量上优于基线，VIEScore和人工评估验证了这一点。LazyDrag不仅建立了新的最先进性能，还为编辑范式开辟了新的道路。",
+        "地址": "https://arxiv.org/pdf/2509.12203.pdf"
+    },
+    {
+        "名称": "2025 [2509.10708] SearchInstruct: Enhancing Domain Adaptation via Retrieval-Based Instruction Dataset Creation.pdf",
+        "作者": "Iman Barati, Mostafa Amiri, Heshaam Faili",
+        "摘要": "摘要：监督微调（SFT）对于训练大型语言模型（LLMs）至关重要，能够显著增强模型的关键能力，如指令遵循和上下文学习。然而，由于特定领域的限制和数据稀缺性，创建适合特定领域的训练数据集仍然是一个挑战。在本文中，我们提出了一种创新的方法SearchInstruct，专门设计用于构建高质量的SFT指令数据集。我们的方法从一组有限的领域特定的人类生成问题开始，系统地利用大型语言模型进行扩展。随后，动态检索与领域相关的资源，为每个扩展问题生成准确且语境适宜的答案。实验评估表明，SearchInstruct能够提升SFT数据集的多样性和质量，从而在专门领域中显著改善LLM性能。此外，我们还展示了该方法除了生成数据集之外，还能有效支持诸如模型编辑等任务，促进现有模型的高效更新。为了便于重现和社区采纳，我们提供了完整的实现细节、生成的指令响应对集合以及源代码，并将其公开在Git仓库中：[此https URL](此https URL)。",
+        "地址": "https://arxiv.org/pdf/2509.10708.pdf"
+    },
+    {
+        "名称": "2025 [2509.11452] Learning to Optimize Multi-Objective Alignment Through Dynamic Reward Weighting.pdf",
+        "作者": "Yining Lu, Zilong Wang, Shiyang Li, Xin Liu, Changlong Yu, Qingyu Yin, Zhan Shi, Zixuan Zhang, Meng Jiang",
+        "摘要": "摘要： 以往多目标强化学习中通常使用固定权重的线性奖励标量化方法，这种方法无法有效捕捉非凸帕累托前沿，导致次优结果。这一局限在大型语言模型进行在线偏好调整时尤为关键。在此情况下，由参数化策略生成的随机轨迹会从参数到目标创建高度非线性和非凸的映射，无法通过单一的静态加权方案找到最佳权衡。本研究引入动态奖励加权方法，在在线强化学习过程中自适应调整奖励权重，解决这一局限。与现有依赖固定权重插值的方法不同，我们的动态加权在训练中持续平衡和优先考虑各目标，促进在目标空间中有效探索帕累托前沿。我们提出了两种逐步提升复杂性和普适性的算法：(1) 引导超体积权重适应和 (2) 基于梯度的权重优化，为在线多目标调整提供了一个通用工具包。广泛的实验表明，这些方法与常用的在线强化学习算法（包括GRPO、REINFORCE、RLOO）兼容，在多个数学推理数据集上表现有效，适用于不同的模型系列，比固定权重线性标量化基线更快地实现帕累托优势解。",
+        "地址": "https://arxiv.org/pdf/2509.11452.pdf"
+    },
+    {
+        "名称": "2025 [2509.09672] Locality in Image Diffusion Models Emerges from Data Statistics.pdf",
+        "作者": "Artem Lukoianov, Chenyang Yuan, Justin Solomon, Vincent Sitzmann",
+        "摘要": "摘要：在生成模型中，扩散模型由于其训练目标存在闭式最优最小化器（通常称为最优去噪器）而显得特别引人注目。然而，使用该最优去噪器进行扩散仅能重现训练集中的图像，因此无法捕捉深度扩散模型的行为。最近的工作试图表征最优去噪器与深度扩散模型之间的差距，提出了无需训练的解析模型，这些模型可以生成与训练过的UNet产生的图像相似的图像。性能最佳的方法假设卷积神经网络的平移等变性和局部归纳偏差是性能差距的原因，因此将这些假设纳入其解析模型中。在这项工作中，我们提出证据表明深度扩散模型中的局部性是图像数据集的统计特性，而不是卷积神经网络的归纳偏差所致。具体来说，我们证明了最优参数线性去噪器表现出与深度神经去噪器相似的局部性特征。此外，我们从理论和实验上进一步证明了这种局部性直接源于自然图像数据集中的像素相关性。最后，我们利用这些见解设计了一个解析去噪器，其比之前专家设计的替代方案更好地匹配深度扩散模型预测的评分。\n\n作者：Artem Lukoianov, Chenyang Yuan, Justin Solomon, Vincent Sitzmann\n\n评论：30页，18个图，6个表\n\n网址：https://arxiv.org/pdf/2509.09672.pdf\n\n标题：2025 [2509.09672] 数据统计特性导致图像扩散模型中的局部性.pdf",
+        "地址": "https://arxiv.org/pdf/2509.09672.pdf"
+    },
+    {
+        "名称": "2025 [2509.11986] Lost in Embeddings: Information Loss in Vision-Language Models.pdf",
+        "作者": "Wenyan Li, Raphael Tang, Chengzu Li, Caiqi Zhang, Ivan Vulić, Anders Søgaard",
+        "摘要": "摘要：\n视觉-语言模型（VLMs）通常通过一个预训练的视觉编码器处理视觉输入，然后通过连接组件将其投影到语言模型的嵌入空间中。虽然这种投影步骤对于模态融合至关重要，但由此引起的潜在信息丢失及其对模型能力的直接影响仍然缺乏研究。本文介绍了两种互补的方法，通过分析潜在表示空间来检查和量化这种损失。首先，我们通过分析图像表示在投影前后的k近邻关系的变化，评估语义信息的保留情况。其次，我们通过从投影表示中重建视觉嵌入来直接测量信息丢失，并在图像块级别定位损失。实验结果表明，连接器显著扭曲了视觉表示的局部几何结构，投影后k近邻关系偏离了40%至60%，并与检索性能的下降相关联。图像块级别的嵌入重建为模型在视觉基础问答任务中的表现提供了可解释的见解，发现高信息丢失的区域可靠地预测了模型表现不佳的实例。",
+        "地址": "https://arxiv.org/pdf/2509.11986.pdf"
+    },
+    {
+        "名称": "2025 [2509.09658] Measuring Epistemic Humility in Multimodal Large Language Models.pdf",
+        "作者": "Bingkui Tong, Jiaer Xia, Sifeng Shang, Kaiyang Zhou",
+        "摘要": "摘要：在多模态大语言模型（MLLMs）中，幻觉现象——即模型生成的内容与输入图像不一致——在许多实际应用中带来了显著风险，从视觉问答中的错误信息到决策中的不安全错误。现有基准主要测试识别准确性，即评估模型能否在干扰选项中选出正确答案。这忽略了可信赖 AI 的一个同样重要的能力：识别提供的选项中没有正确答案的情况，这种行为反映了认识论上的谦逊。我们提出了 HumbleBench，一个新的幻觉基准，旨在评估 MLLMs 拒绝看似合理但不正确答案的能力，涵盖了对象、关系和属性三种幻觉类型。基于全景场景图数据集，我们利用细粒度场景图注释提取真实实体和关系，并通过 GPT-4-Turbo 生成多项选择题，随后进行严格的人工筛选过程。每个问题包括一个“以上都不是”的选项，要求模型不仅识别正确的视觉信息，还要在没有提供正确答案时识别这种情况。我们评估了多种最新的 MLLMs，包括通用和专门的推理模型，并与社区分享了有价值的发现和见解。通过纳入显式错误选项拒绝，HumbleBench 填补了当前评估套件中的一个关键空白，提供了在安全关键环境中更现实的 MLLM 可靠性衡量标准。我们的代码和数据集已公开发布，访问链接为 https://arxiv.org/pdf/2509.09658.pdf。\n\n作者：Bingkui Tong, Jiaer Xia, Sifeng Shang, Kaiyang Zhou\n\n标题：2025 [2509.09658] 多模态大语言模型中认识论谦逊的测量\n\n链接：https://arxiv.org/pdf/2509.09658.pdf",
+        "地址": "https://arxiv.org/pdf/2509.09658.pdf"
+    },
+    {
+        "名称": "2025 [2509.10884] Nav-R1: Reasoning and Navigation in Embodied Scenes.pdf",
+        "作者": "Qingxiang Liu, Ting Huang, Zeyu Zhang, Hao Tang",
+        "摘要": "摘要: 具身导航需要智能体整合感知、推理和行动，以在复杂的3D环境中实现稳健的交互。现有方法通常存在不连贯和不稳定的推理痕迹，这限制了在不同环境下的泛化能力，并且难以平衡长时间的语义推理与低延迟控制，以实现实时导航。为了解决这些问题，我们提出了Nav-R1，一个在具身环境中统一推理的基础模型。我们首先构建了Nav-CoT-110K，一个大规模逐步推理链（Chain-of-Thought, CoT）数据集，用于具身任务，启用具有结构化推理的冷启动初始化。在此基础上，我们设计了一个基于GRPO的强化学习框架，包含三种互补的奖励：格式、理解和导航，以提高结构依从性、语义基础和路径忠实性。此外，我们引入了快中有慢的推理范式，解耦深思熟虑的语义推理与低延迟的反应控制，以实现高效且连贯的导航。在具身AI基准测试中的大量评价显示，Nav-R1持续优于强基线，在推理和导航性能方面平均提升超过8%。在移动机器人上的实际部署进一步验证了其在有限车载资源下的稳健性。代码和网站链接分别为：this https URL (代码)，this https URL (网站)。\n\n作者: 刘庆祥，黄婷，张泽宇，汤浩",
+        "地址": "https://arxiv.org/pdf/2509.10884.pdf"
+    },
+    {
+        "名称": "2025 [2509.12132] Look Again, Think Slowly: Enhancing Visual Reflection in Vision-Language Models.pdf",
+        "作者": "Pu Jian, Junhong Wu, Wei Sun, Chen Wang, Shuo Ren, Jiajun Zhang",
+        "摘要": "以下是该学术论文的摘要翻译：\n\n\\[\n\\text{{摘要：最近在纯文本的“慢思考”推理方面的进展促使了将这一能力转移到视觉-语言模型（VLMs）上的努力，用于训练视觉推理模型（VRMs）。然而，这种转移面临着关键挑战：在VRMs中有效的“慢思考”需要视觉反思的能力，即基于视觉信息检查推理过程的能力。通过定量分析，我们观察到当前的VRMs在视觉反思方面表现有限，因为它们对视觉信息的注意力在生成较长的回复时迅速减弱。为了解决这一挑战，我们提出了一种新的VRM——Reflection-V，它通过构建推理数据进行冷启动和设计奖励机制用于强化学习（RL）来增强视觉反思。首先，我们通过利用一个在VLMs和推理LLMs之间互动的代理构建以视觉为中心的推理数据，从而实现视觉反思模式的冷启动学习。其次，在RL期间采用基于视觉注意力的奖励模型，以鼓励基于视觉信息的推理。因此，Reflection-V在多个视觉推理基准上展示了显著的改进。此外，Reflection-V在视觉推理过程中保持了更强和更一致的对视觉信息的依赖，表明视觉反思能力得到了有效增强。}}\n\\]",
+        "地址": "https://arxiv.org/pdf/2509.12132.pdf"
+    },
+    {
+        "名称": "2025 [2509.11444] CognitiveSky: Scalable Sentiment and Narrative Analysis for Decentralized Social Media.pdf",
+        "作者": "Gaurab Chhetri, Anandi Dutta, Subasish Das",
+        "摘要": "抽象：去中心化社交媒体平台的兴起为公共话语的实时分析带来了新的机遇和挑战。本研究介绍了CognitiveSky，这是一个用于情感、情绪和叙事分析的开源可扩展框架，适用于Bluesky，一个去中心化的Twitter替代平台。通过Bluesky的应用程序接口（API）获取数据，CognitiveSky运用基于变压器的模型对大规模用户生成内容进行注释，并生成结构化和可分析的输出。这些摘要驱动了一个动态仪表盘，能够可视化情绪、活动和对话主题的演变模式。CognitiveSky完全基于免费层基础设施构建，实现了低运营成本和高可访问性。虽然在此示范用于监控心理健康话语，CognitiveSky的模块化设计允许其应用于虚假信息检测、危机响应和公民情感分析等领域。通过连接大型语言模型和去中心化网络，CognitiveSky为数字生态系统变革时期的计算社会科学提供了一个透明且可扩展的工具。\n\n作者：Gaurab Chhetri, Anandi Dutta, Subasish Das\n\n评论：本文是作者为在2026年于美国夏威夷举办的第59届夏威夷国际系统科学会议（HICSS 59）上发表的论文的预印本版本。最终发表版本将出现在官方会议论文集中。会议网站：该URL地址\n\n链接：https://arxiv.org/pdf/2509.11444.pdf\n\n标题：2025 [2509.11444] CognitiveSky：去中心化社交媒体的可扩展情感和叙事分析",
+        "地址": "https://arxiv.org/pdf/2509.11444.pdf"
+    },
+    {
+        "名称": "2025 [2509.11362] PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits.pdf",
+        "作者": "Loka Li, Wong Yu Kang, Minghao Fu, Guangyi Chen, Zhenhao Chen, Gongxu Luo, Yuewen Sun, Salman Khan, Peter Spirtes, Kun Zhang",
+        "摘要": "摘要：理解人类行为特征对于人机交互、计算社会科学和个性化人工智能系统的应用至关重要。这种理解通常需要整合多种模态以捕捉细微的模式和关系。然而，现有资源很少提供结合行为描述与面部特征和传记信息等互补模态的数据集。为了解决这一空白，我们介绍了PersonaX，一个精心策划的多模态数据集集合，旨在支持跨模态的公共特征的全面分析。PersonaX包括：（1）CelebPersona，包含来自不同职业的9444名公众人物，（2）AthlePersona，包含覆盖7大体育联盟的4181名职业运动员。每个数据集均包括由三大高性能大型语言模型推断的行为特征评估、面部图像和结构化传记特征。我们从两个互补的层面对PersonaX进行分析。首先，我们从文本描述中提取高级特征评分，应用五种统计独立性测试以检查它们与其他模态的关系。其次，我们引入了一个新的因果表示学习（CRL）框架，专为多模态和多测量数据量身打造，提供理论可识别性保证。在合成和实际数据上的实验中，我们的方法展示了其有效性。通过统一的结构化和非结构化分析，PersonaX为结合视觉和传记特征研究LLM推断的行为特征奠定了基础，推动了多模态特征分析和因果推理的进步。",
+        "地址": "https://arxiv.org/pdf/2509.11362.pdf"
+    },
+    {
+        "名称": "2025 [2509.11866] Dr.V: A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-grained Spatial-Temporal Grounding.pdf",
+        "作者": "Meng Luo, Shengqiong Wu, Liqiang Jing, Tianjie Ju, Li Zheng, Jinxiang Lai, Tianlong Wu, Xinya Du, Jian Li, Siyuan Yan, Jiebo Luo, William Yang Wang, Hao Fei, Mong-Li Lee, Wynne Hsu",
+        "摘要": "摘要：近年来，大型视频模型（LVMs）的进步显著提升了视频理解。然而，这些模型仍然存在幻觉问题，产生与输入视频不一致的内容。为了解决这一问题，我们提出了Dr.V，一个覆盖感知、时间和认知层面的分层框架，通过细粒度空间-时间定位来诊断视频幻觉。Dr.V由两个关键组件组成：基准数据集Dr.V-Bench和卫星视频代理Dr.V-Agent。Dr.V-Bench包括从4,974个视频中提取的10k实例，涵盖了各种任务，每个实例都附有详细的空间-时间注释。Dr.V-Agent通过在感知和时间层面系统地应用细粒度空间-时间定位，然后进行认知层面推理来检测LVMs中的幻觉。这种逐步的流程模仿了类似人类的视频理解，有效地识别幻觉。大量实验表明，Dr.V-Agent在诊断幻觉方面效果显著，同时增强了可解释性和可靠性，为现实场景中的稳健视频理解提供了一个实用的蓝图。所有我们的数据和代码都可以在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2509.11866.pdf"
+    },
+    {
+        "名称": "2025 [2509.11648] EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI.pdf",
+        "作者": "Sai Kartheek Reddy Kasu",
+        "摘要": "摘要：大语言模型（LLMs）在心理健康和其他敏感领域的部署引发了关于伦理推理、公平性和负责任对齐的紧迫问题。然而，现有的道德和临床决策基准未能充分捕捉到心理健康实践中遇到的独特伦理困境，在这里保密性、自主性、行善和偏见经常交织在一起。为了解决这一差距，我们引入了心理健康伦理推理（EthicsMH），这是一个包含125个情景的初步数据集，旨在评估AI系统在治疗和精神病学背景下如何应对充满伦理挑战的情况。每个情景都包含结构化字段，包括多种决策选项、与专家对齐的推理、预期的模型行为、现实世界的影响和多利益相关者的观点。这种结构不仅可以评估决策的准确性，还能评估解释的质量及其与专业规范的对齐程度。尽管规模较小，并使用模型辅助生成，但EthicsMH建立了一个将AI伦理与心理健康决策相结合的任务框架。通过发布该数据集，我们希望提供一个种子资源，可以通过社区和专家的贡献进行扩展，从而促进开发能够负责任地处理社会上一些最复杂决策的AI系统。",
+        "地址": "https://arxiv.org/pdf/2509.11648.pdf"
+    },
+    {
+        "名称": "2025 [2509.11492] ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims.pdf",
+        "作者": "Anirban Saha Anik, Md Fahimul Kabir Chowdhury, Andrew Wyckoff, Sagnik Ray Choudhury",
+        "摘要": "摘要：本文介绍了我们在CLEF 2025 CheckThat! 实验室任务3中开发的系统，该任务专注于使用检索到的证据验证数字和时间声明。我们探索了两种互补的方法：使用指令调优的大型语言模型（LLMs）进行零样本提示和使用参数高效的LoRA进行监督微调。为了增强证据质量，我们研究了几种选择策略，包括全文输入和使用BM25和MiniLM进行的top-k句子过滤。我们表现最好的模型是用LoRA微调的LLaMA，在英文验证集上取得了强劲的表现。然而，在测试集上的显著下降突显了泛化挑战。这些发现强调了证据粒度和模型适应性在稳健的数字事实验证中的重要性。",
+        "地址": "https://arxiv.org/pdf/2509.11492.pdf"
+    },
+    {
+        "名称": "2025 [2509.11425] FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs.pdf",
+        "作者": "Md Mubtasim Ahasan, Rafat Hasan Khan, Tasnim Mohiuddin, Aman Chadha, Tariq Iqbal, M Ashraful Amin, Amin Ahsan Ali, Md Mofijul Islam, A K M Mahbubur Rahman",
+        "摘要": "摘要：语音标记化使离散表示成为可能，并促进语音语言建模。然而，现有的神经编解码器捕捉到的是低级声学特征，忽略了人类语音中固有的语义和上下文线索。尽管最近的努力从自监督语音模型中引入了语义表示或从预训练语言模型中加入了上下文表示，但将语义和上下文表示对齐和统一仍然存在挑战。我们提出了FuseCodec，通过强大的跨模态对齐和全局信息监督，将声学、语义和上下文表示统一起来。我们提出了三种互补技术：（i）潜在表示融合，将语义和上下文特征直接整合到编码器潜在空间中，以实现稳健和统一的表示学习；（ii）全局语义-上下文监督，用全局池化和广播的表示对离散标记进行监督，以增强时间一致性和跨模态对齐；以及（iii）时间对齐上下文监督，通过在局部窗口内动态匹配上下文和语音标记，增强对齐，以实现细粒度标记级别监督。我们进一步引入了FuseCodec-TTS，展示了我们的方法在零样本语音合成中的适用性。在实验上，FuseCodec在LibriSpeech数据集上的表现达到最先进水平，在转录准确性、感知质量、可懂度和说话者相似性方面均超过了EnCodec、SpeechTokenizer和DAC。结果突出表明，基于上下文和语义引导的标记化对于语音标记化和下游任务的有效性。代码和预训练模型可在该此链接获取。",
+        "地址": "https://arxiv.org/pdf/2509.11425.pdf"
+    },
+    {
+        "名称": "2025 [2509.10844] GAPrune: Gradient-Alignment Pruning for Domain-Aware Embeddings.pdf",
+        "作者": "Yixuan Tang, Yi Yang",
+        "摘要": "摘要: 领域特定的嵌入模型在需要专业语义理解的应用中，如编码代理和金融检索系统，通常比通用模型表现出了更高的性能提升。然而，最先进的嵌入模型通常基于LLMs，包含数十亿个参数，使得在资源受限的环境中部署变得具有挑战性。通过剪枝进行模型压缩提供了一个有前景的解决方案，但现有的剪枝方法均匀地处理所有参数，未能区分一般语义表示与领域特定模式，从而导致次优的剪枝决策。因此，我们提出了GAPrune，这是一种剪枝框架，通过考虑领域重要性和保留一般语言基础来解决这一挑战。我们的方法使用Fisher信息来衡量重要性，并通过通用领域梯度对齐来评估参数行为，随后使用我们的领域对齐重要性(DAI)评分将这些信号结合。较低的DAI评分表明参数对于领域任务不重要或在领域和一般目标之间产生冲突。在两个领域基准FinMTEB和ChemTEB上的实验表明，GAPrune在50%稀疏度的一次性剪枝中保持性能在密集模型的2.5%以内，同时超过所有基线。通过100步的再训练，GAPrune在FinMTEB上获得了+4.51%的提升，在ChemTEB上获得了+1.73%的提升，证明我们的剪枝策略不仅保留了领域特定的能力，且有所增强。我们的研究结果表明，有原则的剪枝策略可以实现模型压缩和增强领域专长，为研究社区提供了一种新的开发方法。",
+        "地址": "https://arxiv.org/pdf/2509.10844.pdf"
+    },
+    {
+        "名称": "2025 [2509.11963] ToolRM: Outcome Reward Models for Tool-Calling Large Language Models.pdf",
+        "作者": "Mayank Agarwal, Ibrahim Abdelaziz, Kinjal Basu, Merve Unuvar, Luis A. Lastras, Yara Rizk, Pavan Kapanipathi",
+        "摘要": "摘要：随着大型语言模型（LLMs）越来越多地与外部工具交互，工具使用的奖励模型已成为一个关键但未充分探索的领域。现有的奖励模型主要基于自然语言输出进行训练，在评估基于工具的推理和执行方面表现不佳。为了量化这一差距，我们引入了FC-RewardBench，这是第一个系统评估奖励模型在调用工具场景中表现的基准。我们的分析表明，当前的奖励模型经常错过有效使用工具的关键信号，突显了特定领域建模的需要。为了解决这个问题，我们提出了一个基于结果的奖励模型训练框架，使用来自许可开放权重LLMs的数据合成。我们训练了从1.7B到14B参数的模型，并在七个出领域基准上进行了评估。这些模型始终优于通用基准，在下游任务性能上平均提高了25％，并通过奖励引导筛选实现了高效的数据微调。\n\n翻译：Mayank Agarwal、Ibrahim Abdelaziz、Kinjal Basu、Merve Unuvar、Luis A. Lastras、Yara Rizk、Pavan Kapanipathi",
+        "地址": "https://arxiv.org/pdf/2509.11963.pdf"
+    },
+    {
+        "名称": "2025 [2509.07403] LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction.pdf",
+        "作者": "Weichu Liu, Jing Xiong, Yuxuan Hu, Zixuan Li, Minghuan Tan, Ningning Mao, Chenyang Zhao, Zhongwei Wan, Chaofan Tao, Wendong Xu, Hui Shen, Chengming Li, Lingpeng Kong, Ngai Wong",
+        "摘要": "摘要：大型语言模型（LLMs）在情商（EI）和长语境理解方面取得了显著进展。然而，现有的基准测试往往忽略了长语境情商场景中的某些方面，特别是在实际环境设置中，互动是冗长的、多样的且常常是嘈杂的。为了向这些现实环境迈进，我们提出了LongEmotion，一个专门为长语境情商任务设计的基准测试。它涵盖了一系列多样化的任务，包括情感分类、情感检测、情感问答、情感对话、情感总结和情感表达。平均而言，这些任务的输入长度达到了8,777个标记，并且情感表达需要长形式的生成。为了在现实约束下提升性能，我们结合了检索增强生成（RAG）和协作情感建模（CoEM），并与标准提示方法进行了比较。与传统方法不同，我们的RAG方法不仅利用对话情境，还利用大型语言模型本身作为检索源，避免依赖外部知识库。CoEM方法通过将任务分解为五个阶段，进一步改进了性能，结合了检索增强和有限的信息注入。实验结果表明，RAG和CoEM在大多数长语境任务中一致地提升了情商相关的性能，推进了LLMs向更加实用和现实世界的情商应用。此外，我们在GPT系列上进行了比较案例研究实验，以展示各个模型在情商方面的差异。代码可在GitHub上获取，项目页面可访问该URL。\n\n",
+        "地址": "https://arxiv.org/pdf/2509.07403.pdf"
+    }
+]
