@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2509.13312] WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research.pdf",
+        "作者": "Zijian Li, Xin Guan, Bo Zhang, Shen Huang, Houquan Zhou, Shaopeng Lai, Ming Yan, Yong Jiang, Pengjun Xie, Fei Huang, Jun Zhang, Jingren Zhou",
+        "摘要": "摘要：本文研究了承担开放式深度研究（OEDR）挑战的AI代理，它必须将广泛的网络规模信息综合成有洞察力的报告。目前的方法存在两个方面的局限：静态研究流程将计划与证据获取分离，以及容易出现长上下文失败问题（如“中途丢失”及“幻觉”）的一次性生成范式。为解决这些问题，我们引入了WebWeaver，一种模拟人类研究过程的新型双代理框架。计划者在一个动态循环中操作，迭代地交替进行证据获取和提纲优化，从而生成一个全面且有依据的提纲，并链接到一个证据记忆库中。撰写者随后执行分层检索和撰写过程，逐段撰写报告。通过有针对性地从记忆库中检索各部分所需的证据，WebWeaver有效地缓解了长上下文问题。我们的框架在包括DeepResearch Bench、DeepConsult和DeepResearchGym在内的主要OEDR基准上建立了新的最佳状态。这些结果验证了我们以人为本、迭代的方法，表明自适应规划和聚焦综合对生成高质量、可靠且结构良好的报告至关重要。",
+        "地址": "https://arxiv.org/pdf/2509.13312.pdf"
+    },
+    {
+        "名称": "2025 [2509.13310] Scaling Agents via Continual Pre-training.pdf",
+        "作者": "Liangcai Su, Zhen Zhang, Guangyu Li, Zhuo Chen, Chenxi Wang, Maojia Song, Xinyu Wang, Kuan Li, Jialong Wu, Xuanzhong Chen, Zile Qiao, Zhongwang Zhang, Huifeng Yin, Shihao Cai, Runnan Fang, Zhengwei Tao, Wenbiao Yin, Chenxiong Qian, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou",
+        "摘要": "摘要: 大型语言模型（LLMs）已经演变为能够自主使用工具和进行多步骤推理以解决复杂问题的智能系统。然而，基于通用基础模型的训练后方法在智能任务中一直表现不佳，尤其是在开源实现中。我们发现根本原因在于：缺乏强大的智能基础模型，这迫使模型在训练后必须同时学习各种智能行为，并将其与专家演示对齐，从而造成了基本的优化张力。为此，我们首次提出将智能持续预训练（Agentic CPT）纳入深度研究代理的训练管道，以构建强大的智能基础模型。在此基础上，我们开发了一种名为AgentFounder的深度研究代理模型。我们在10个基准测试中评估了我们的AgentFounder-30B，取得了最先进的性能，同时保留了强大的工具使用能力，尤其是在BrowseComp-en上达到39.9％，BrowseComp-zh上达到43.3％和HLE上的Pass@1达到31.5％。\n\n著者: 苏良才, 张震, 黎光宇, 陈卓, 王晨曦, 宋茂佳, 王鑫宇, 李宽, 吴家龙, 陈炫忠, 乔子乐, 张中旺, 尹惠丰, 蔡仕浩, 方润楠, 陶正伟, 尹文彪, 钱辰雄, 姜勇, 谢鹏军, 黄飞, 周劲楠\n\n评论: Comments: this https URL\n\n网址: [https://arxiv.org/pdf/2509.13310.pdf](https://arxiv.org/pdf/2509.13310.pdf)\n\n标题: 通过持续预训练扩展代理系统",
+        "地址": "https://arxiv.org/pdf/2509.13310.pdf"
+    },
+    {
+        "名称": "2025 [2509.13305] WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning.pdf",
+        "作者": "Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yida Zhao, Liwen Zhang, Litu Ou, Dingchu Zhang, Xixi Wu, Jialong Wu, Xinyu Wang, Zile Qiao, Zhen Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou",
+        "摘要": "摘要：超越人类认知限制代表着大型语言模型（LLM）训练的关键前沿。专有代理系统如DeepResearch在诸如BrowseComp的极为复杂的信息检索基准上展示了超人能力，这是以前无法达到的成就。我们认为他们的成功依赖于一种在开源模型中缺失的复杂推理模式：在广阔的信息环境中系统性地减少极端不确定性的能力。基于这一洞察，我们引入了WebSailor，一种完整的后训练方法，旨在灌输这一关键能力。我们的方法包括通过结构化采样和信息模糊化生成新颖的高不确定性任务、RFT冷启动以及高效的代理强化学习训练算法——重复采样策略优化（DUPO）。通过这一集成的流程，WebSailor在复杂的信息检索任务中显著优于所有开源代理，匹敌专有代理的表现，缩小了能力差距。",
+        "地址": "https://arxiv.org/pdf/2509.13305.pdf"
+    },
+    {
+        "名称": "2025 [2509.13311] Towards General Agentic Intelligence via Environment Scaling.pdf",
+        "作者": "Runnan Fang, Shihao Cai, Baixuan Li, Jialong Wu, Guangyu Li, Wenbiao Yin, Xinyu Wang, Xiaobin Wang, Liangcai Su, Zhen Zhang, Shibin Wu, Zhengwei Tao, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou",
+        "摘要": "摘要： 高级代理智能是将大型语言模型部署在实际应用中的先决条件。多样化的现实世界API需要精确、稳健的函数调用智能，而这需要代理通过在各种环境中的互动来开发这些能力。函数调用能力的广度与代理在其中训练的环境多样性密切相关。在这项工作中，我们扩展了环境规模，作为推进通用代理智能的一步。这引发了两个核心挑战：(i) 如何以原则性的方式扩展环境，(ii) 如何通过与这些环境互动所获得的经验有效地训练代理能力。为了解决这些问题，我们设计了一个可扩展框架，自动构建完全模拟的异质环境，系统地扩展函数调用场景的空间。此外，我们还调整了两阶段代理微调策略：首先赋予代理基本的代理能力，然后使其专门针对特定领域上下文。在代理基准测试tau-bench、tau2-Bench和ACEBench上进行的广泛实验表明，我们训练的模型AgentScaler显著增强了模型的函数调用能力。",
+        "地址": "https://arxiv.org/pdf/2509.13311.pdf"
+    },
+    {
+        "名称": "2025 [2509.13309] WebResearcher: Unleashing unbounded reasoning capability in Long-Horizon Agents.pdf",
+        "作者": "Zile Qiao, Guoxin Chen, Xuanzhong Chen, Donglei Yu, Wenbiao Yin, Xinyu Wang, Zhen Zhang, Baixuan Li, Huifeng Yin, Kuan Li, Rui Min, Minpeng Liao, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou",
+        "摘要": "摘要：最近深度研究系统的进展展示了AI代理自主从外部资源发现并综合知识的潜力。在本文中，我们介绍了WebResearcher，这是一种通过两个关键组件构建此类代理的新框架：(1) WebResearcher，一种迭代深度研究模式，将深度研究重新定义为马尔可夫决策过程，其中代理周期性地将发现汇总到不断发展的报告中，同时保持集中的工作空间，克服了现有单一背景方法中存在的上下文窒息和噪音污染问题；(2) WebFrontier，一个通过工具增强复杂性升级生成高质量训练数据的可扩展数据综合引擎，系统地创建弥合被动知识回忆与主动知识构建之间差距的研究任务。值得注意的是，我们发现从该模式生成的训练数据显著增强了传统单一背景方法的工具使用能力。此外，我们的模式通过并行思维自然扩展，允许多个代理并行探索以获取更全面的结论。在6个具有挑战性的基准测试中的广泛实验表明，WebResearcher实现了最先进的性能，甚至超过了前沿专有系统。",
+        "地址": "https://arxiv.org/pdf/2509.13309.pdf"
+    },
+    {
+        "名称": "2025 [2509.13313] ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization.pdf",
+        "作者": "Xixi Wu, Kuan Li, Yida Zhao, Liwen Zhang, Litu Ou, Huifeng Yin, Zhongwang Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Minhao Cheng, Shuai Wang, Hong Cheng, Jingren Zhou",
+        "摘要": "摘要: 基于大型语言模型（LLM）的网络代理在知识密集型任务上表现出色，但在像ReAct这样的范式中，由于上下文窗口限制而受阻。涉及多个实体、复杂关系和高度不确定性的复杂查询需要广泛的搜索循环，这些循环会迅速耗尽上下文预算，而无法达到完整的解决方案。为了解决这一挑战，我们提出了ReSum，一种通过周期性上下文总结实现无限探索的新范式。ReSum将日益增加的互动历史转换为紧凑的推理状态，保持对先前发现的认知，同时绕过上下文限制。为了适应这一范式，我们提出了ReSum-GRPO，将GRPO与分段轨迹训练和优势广播相结合，使代理熟悉基于总结的推理。在三个基准上的不同规模的网络代理的大量实验表明，ReSum在平均绝对性能上比ReAct提高了4.5%，通过ReSum-GRPO训练后进一步取得最多8.2%的提升。值得注意的是，WebResummer-30B（ReSum-GRPO训练版的WebSailor-30B）仅用1K个训练样本在BrowseComp-zh上达到33.3%的Pass@1，在BrowseComp-en上达到18.3%，超过了现有的开源网络代理。\n\n作者： 吴西西, 李宽, 赵一达, 张丽文, 欧立图, 尹汇丰, 张钟望, 江勇, 谢鹏军, 黄飞, 程敏皓, 王帅, 程宏, 周经仁\n\nURL: https://arxiv.org/pdf/2509.13313.pdf\n\n标题：2025 [2509.13313] ReSum: 通过上下文总结解锁长视野搜索智能",
+        "地址": "https://arxiv.org/pdf/2509.13313.pdf"
+    },
+    {
+        "名称": "2025 [2509.13232] Single-stream Policy Optimization.pdf",
+        "作者": "Zhongwen Xu, Zihan Ding",
+        "摘要": "摘要: 我们从单流的角度重新审视了用于大语言模型（LLMs）的策略梯度优化。现行的基于组的方法如GRPO虽然通过实时基线减少了方差，但仍存在严重缺陷：频繁的退化组会消除学习信号，且同步障碍阻碍了可扩展性。我们提出了单流策略优化（SPO），从设计上消除了这些问题。SPO用持久的KL自适应值跟踪器替代了每组基线，并在整个批次中全局归一化优势，为每个样本提供稳定、低方差的学习信号。由于不依赖于组，SPO实现了更高的吞吐量，并在长时间或工具集成的环境中有效扩展。此外，持久值跟踪器自然能够通过优先采样实现自适应课程。使用Qwen3-8B的实验表明，SPO比GRPO收敛更平稳且准确率更高，同时消除了退化组浪费的计算。消融研究证实了SPO的优势源于其对基线估计和优势归一化的原则性方法，提供了一条更稳健和高效的路径用于LLM推理。在使用Qwen3-8B的五个困难数学基准测试中，SPO在GRPO基础上将平均 maj@32 提高了+3.4百分点 (pp)，在具有挑战性的数据集上带来了显著的绝对点数增长，包括在BRUMO 25上+7.3 pp，在AIME 25上+4.4 pp，在HMMT 25上+3.3 pp，并在评估的各种k值的 pass@$k$ 中实现了一致的相对增益。SPO的成功挑战了为RL算法添加附带复杂性的现行趋势，突显了一条由基本原则驱动LLM推理进步的路径，而非架构性权宜之计。\n\n作者: 许忠文，丁梓涵",
+        "地址": "https://arxiv.org/pdf/2509.13232.pdf"
+    },
+    {
+        "名称": "2025 [2509.12815] Hunyuan3D Studio: End-to-End AI Pipeline for Game-Ready 3D Asset Generation.pdf",
+        "作者": "Biwen Lei, Yang Li, Xinhai Liu, Shuhui Yang, Lixin Xu, Jingwei Huang, Ruining Tang, Haohan Weng, Jian Liu, Jing Xu, Zhen Zhou, Yiling Zhu, Jiankai Xing, Jiachen Xu, Changfeng Ma, Xinhao Yan, Yunhan Yang, Chunshi Wang, Duoteng Xu, Xueqi Ma, Yuguang Chen, Jing Li, Mingxin Yang, Sheng Zhang, Yifei Feng, Xin Huang, Di Luo, Zebin He, Puhua Jiang, Changrong Hu, Zihan Qin, Shiwei Miao, Haolin Liu, Yunfei Zhao, Zeqiang Lai, Qingxiang Lin, Zibo Zhao, Kunhong Li, Xianghui Yang, Huiwen Shi, Xin Yang, Yuxuan Wang, Zebin Yao, Yihang Lian, Sicong Liu, Xintong Han, Wangchen Qin, Caisheng Ouyang, Jianyin Liu, Tianwen Yuan, Shuai Jiang, Hong Duan, Yanqi Niu, Wencong Lin, Yifu Sun, Shirui Huang, Lin Niu, Gu Gong, Guojian Xiao, Bojian Zheng, Xiang Yuan, Qi Chen, Jie Xiao, Dongyang Zheng, Xiaofeng Yang, Kai Liu, Jianchen Zhu, Lifu Wang, Qinglin Lu, Jie Liu, Liang Dong, Fan Jiang, Ruibin Chen, Lei Wang, Chao Zhang, Jiaxin Lin, Hao Zhang, Zheng Ye, Peng He, Runzhou Wu, Yinhe Wu, Jiayao Du, Jupeng Chen, Xinyue Mao, Dongyuan Guo, Yixuan Tang, Yulin Tsai, Yonghao Tan, Jiaao Yu, Junlin Yu, Keren Zhang, Yifan Li, Peng Chen, Tian Liu, Di Wang, Yuhong Liu, Linus, Jie Jiang, Zhuo Chen, Chunchao Guo",
+        "摘要": "摘要：高质量的3D资产创建是现代游戏开发的基石，长期以来一直以劳动密集型和专业化的工作流程为特征。本文介绍了Hunyuan3D Studio，这是一种端到端的AI驱动内容创建平台，旨在通过自动化和简化游戏就绪3D资产生成来彻底改变游戏制作流程。Hunyuan3D Studio的核心在于将一套先进的神经模块（例如部分级别3D生成、多边形生成、语义UV等）集成到一个统一且用户友好的系统中。这个统一框架可以快速地将一个概念图像或文本描述转化为一个具有优化几何形状和高保真PBR纹理的完全实现的生产质量3D模型。我们证明了由Hunyuan3D Studio生成的资产不仅在视觉上具有吸引力，而且符合当代游戏引擎的严格技术要求，显著减少迭代时间并降低3D内容创作的门槛。通过提供一个从创意意图到技术资产的无缝桥梁，Hunyuan3D Studio代表了游戏开发和互动媒体中AI辅助工作流程的重大飞跃。",
+        "地址": "https://arxiv.org/pdf/2509.12815.pdf"
+    },
+    {
+        "名称": "2025 [2509.13317] 3D Aware Region Prompted Vision Language Model.pdf",
+        "作者": "An-Chieh Cheng, Yang Fu, Yukang Chen, Zhijian Liu, Xiaolong Li, Subhashree Radhakrishnan, Song Han, Yao Lu, Jan Kautz, Pavlo Molchanov, Hongxu Yin, Xiaolong Wang, Sifei Liu",
+        "摘要": "摘要翻译：\n我们介绍了一种空间区域3D(SR-3D)感知的视觉-语言模型，该模型通过共享的视觉标记空间连接单视角2D图像和多视角3D数据。SR-3D支持灵活的区域提示，允许用户在任何帧上使用边界框、分割掩码或直接在3D中标注区域，而无需详尽的多帧标注。我们通过用3D位置嵌入丰富2D视觉特征来实现这一点，这使得3D模型可以利用强大的2D先验知识，在跨帧进行更准确的空间推理，即使感兴趣的物体不在同一视图内共现也是如此。在一般的2D视觉语言和专业化的3D空间基准测试中，大量实验表明SR-3D实现了最先进的性能，突显其在场景理解方面统一2D和3D表示空间的有效性。此外，我们还观察到在没有传感3D输入或真实3D注释的野外视频中，SR-3D能够准确推断空间关系和度量测量值。\n\n作者：An-Chieh Cheng, Yang Fu, Yukang Chen, Zhijian Liu, Xiaolong Li, Subhashree Radhakrishnan, Song Han, Yao Lu, Jan Kautz, Pavlo Molchanov, Hongxu Yin, Xiaolong Wang, Sifei Liu\n\n备注：项目网站：this https URL\n\n原文链接：https://arxiv.org/pdf/2509.13317.pdf\n\n标题：2025 [2509.13317] 3D感知区域提示的视觉语言模型.pdf",
+        "地址": "https://arxiv.org/pdf/2509.13317.pdf"
+    },
+    {
+        "名称": "2025 [2509.12603] EconProver: Towards More Economical Test-Time Scaling for Automated Theorem Proving.pdf",
+        "作者": "Mukai Li, Linfeng Song, Zhenwen Liang, Jiahao Xu, Shansan Gong, Qi Liu, Haitao Mi, Dong Yu",
+        "摘要": "摘要：大型语言模型（LLMs）最近在自动定理证明（ATP）领域取得了显著进展，通过广泛采用的测试时扩展策略，特别是反思链式思维（CoT）推理和增加采样次数，达到了显著的性能提升。然而，这两者都引入了显著的推断计算开销。此外，现有的成本分析通常仅调节采样次数，而忽略了不同扩展策略带来的采样成本的巨大差异。本文系统比较了不同测试时扩展策略对ATP模型的效率，并展示了当前最先进的开源方法的低效性。随后，我们研究了显著减少令牌使用和采样次数的方法，同时保持原有的性能。具体而言，我们提出了两种可以集成到统一的EconRL流程中的互补方法以获得更大的收益：（1）一种动态链式思维（CoT）切换机制，设计用于减轻不必要的令牌消耗，（2）通过可训练前缀增加采样率的多样化并行扩展强化学习（RL）。在miniF2F和ProofNet上的实验表明，我们的EconProver在仅需12%的计算成本下实现了与基准方法相当的性能。该研究提供了在不牺牲性能的情况下部署轻量级ATP模型的可操作性见解。",
+        "地址": "https://arxiv.org/pdf/2509.12603.pdf"
+    },
+    {
+        "名称": "2025 [2509.12341] Exact Coset Sampling for Quantum Lattice Algorithms.pdf",
+        "作者": "Yifan Zhang",
+        "摘要": "摘要：我们提出了一个简单、完全正确且假设条件少的替代方法，用于解决最近窗口化QFT格点算法中第9步存在争议的“域扩展”问题（该算法使用复高斯窗口）。已发表的第9步存在周期性/支持不匹配问题。我们提出了一个对移差分构造，该构造能相干地消除所有未知偏移，生成一个确切的均匀CRT余数类状态在$\\mathbb{Z}_{P}$上，随后使用QFT强制执行预期的模线性关系。该酉算符是可逆的，使用$\\mathrm{poly}(\\log M_2)$门，并保留算法的渐近性。项目页面：this https URL。\n\n翻译：我们提出了一个简单、完全正确且假设条件少的替代方法，用于解决最近窗口化量子傅里叶变换（QFT）晶格算法中第9步争议的 \"域扩展\" 问题（该算法使用复高斯窗口）。已发表的第9步存在周期性/支持不匹配问题。我们提出了一个对移差分构造，可以相干地消除所有未知偏移，生成一个在$\\mathbb{Z}_{P}$上的确切均匀CRT余数类状态，然后使用QFT强制执行预期的模线性关系。该算符是可逆的，使用$\\mathrm{poly}(\\log M_2)$门，并保留算法的渐近性质。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2509.12341.pdf"
+    },
+    {
+        "名称": "2025 [2509.06079] Multimodal Reasoning for Science: Technical Report and 1st Place Solution to the ICML 2025 SeePhys Challenge.pdf",
+        "作者": "Hao Liang, Ruitao Wu, Bohan Zeng, Junbo Niu, Wentao Zhang, Bin Dong",
+        "摘要": "摘要：多模态推理仍然是人工智能领域的一项基本挑战。尽管在基于文本的推理方面取得了显著进展，即使是最先进的模型如GPT-o3在多模态场景中仍难以保持强大的性能。为了弥补这一差距，我们引入了一种辅助字幕推理框架，有效地连接视觉和文本模态。我们的方法在ICML 2025 AI for Math Workshop \\\\& Challenge 2: SeePhys中获得了第一名，突显了其有效性和稳健性。此外，我们在MathVerse基准测试中验证了其在几何推理上的泛化能力，展示了我们方法的多功能性。我们的代码在此HTTPS网址公开。\n\n作者：梁浩，吴睿涛，曾博翰，牛俊博，张文涛，董斌\n\n网址：https://arxiv.org/pdf/2509.06079.pdf\n\n标题：2025 [2509.06079] 多模态科学推理：技术报告及ICML 2025 SeePhys挑战赛第一名方案",
+        "地址": "https://arxiv.org/pdf/2509.06079.pdf"
+    },
+    {
+        "名称": "2025 [2509.12521] Phi: Preference Hijacking in Multi-modal Large Language Models at Inference Time.pdf",
+        "作者": "Yifan Lan, Yuanpu Cao, Weitong Zhang, Lu Lin, Jinghui Chen",
+        "摘要": "摘要：最近，多模态大型语言模型（MLLMs）在各个领域获得了极大的关注。然而，其广泛应用也引发了严重的安全问题。在本文中，我们揭示了MLLMs的一种新的安全风险：通过精心优化的图像，MLLMs的输出偏好可以被任意操纵。此类攻击常常生成语境相关但带有偏见的响应，这些响应既不显著有害也不不道德，因此难以检测。具体而言，我们介绍了一种新的方法，称为偏好劫持（Phi），用于通过偏好被劫持的图像操纵MLLM的响应偏好。我们的方法在推理时工作，无需对模型进行修改。此外，我们还介绍了一种通用的劫持扰动——一种可嵌入到不同图像中的可转移组件，以劫持MLLM的响应，使其符合任何攻击者指定的偏好。各种任务的实验结果证明了我们方法的有效性。Phi代码可通过该https URL获取。\n\n作者：Yifan Lan, Yuanpu Cao, Weitong Zhang, Lu Lin, Jinghui Chen\n\nURL：https://arxiv.org/pdf/2509.12521.pdf",
+        "地址": "https://arxiv.org/pdf/2509.12521.pdf"
+    },
+    {
+        "名称": "2025 [2509.11526] Multiple Instance Learning Framework with Masked Hard Instance Mining for Gigapixel Histopathology Image Analysis.pdf",
+        "作者": "Wenhao Tang, Sheng Huang, Heng Fang, Fengtao Zhou, Bo Liu, Qingshan Liu",
+        "摘要": "摘要：将病理图像数字化为千兆像素的整体幻灯片图像（WSIs）为计算病理学（CPath）开辟了新的途径。由于阳性组织仅占千兆像素WSIs的一小部分，现有的多实例学习（MIL）方法通常通过注意机制集中识别显著实例。然而，这导致了对易于分类实例的偏向，同时忽略了具有挑战性的实例。最近的研究表明，难例对于准确建模判别边界至关重要。将这一想法应用于实例级别，我们详细设计了一种新的MIL框架，名为遮掩难实例挖掘的MIL（MHIM-MIL），它利用一致性约束的连体结构来探索难实例。使用类别感知实例概率，MHIM-MIL采用动量教师来遮掩显著实例，并隐含地挖掘难实例以训练学生模型。为了获得多样且不冗余的难实例，我们采用大规模随机遮掩，同时利用全球回收网络来减轻丧失关键特征的风险。此外，学生通过指数移动平均更新教师，识别新的难实例以进行后续训练迭代并稳定优化。癌症诊断、分型、生存分析任务和12个基准测试的实验结果表明，MHIM-MIL在性能和效率方面均优于最新方法。代码可通过以下网址获取：this https URL.\n\n作者：Wenhao Tang, Sheng Huang, Heng Fang, Fengtao Zhou, Bo Liu, Qingshan Liu\n\n评论：27页，8个图\n\n网址：https://arxiv.org/pdf/2509.11526.pdf\n\n标题：2025 [2509.11526] 用于千兆像素组织病理图像分析的遮掩难实例挖掘的多实例学习框架.pdf",
+        "地址": "https://arxiv.org/pdf/2509.11526.pdf"
+    },
+    {
+        "名称": "2025 [2509.11481] RAPTOR: A Foundation Policy for Quadrotor Control.pdf",
+        "作者": "Jonas Eschmann, Dario Albani, Giuseppe Loianno",
+        "摘要": "摘要：人类在适应新的未知条件（如驾驶新车）时具有显著的数据效率。相比之下，现代机器人控制系统（如通过强化学习训练的神经网络策略）高度专门化于单一环境。由于这种过拟合，即使在微小的差异下（如模拟到现实的差距）也会出现故障，并且需要进行系统识别和重新训练来应对系统的最小变化。在这项工作中，我们提出了RAPTOR，一种用于四旋翼控制的高度自适应基石策略训练方法。我们的方法使得训练一个单一的端到端神经网络策略来控制各种各样的四旋翼成为可能。我们测试了10种不同的实际四旋翼，从32克到2.4公斤，其电机类型（有刷与无刷）、机架类型（软与硬）、螺旋桨类型（2/3/4片）和飞行控制器（PX4/Betaflight/Crazyflie/M5StampFly）也各不相同。我们发现一个仅包含2084个参数的微小的三层策略就足以在各种平台上进行零样本适应。通过在隐藏层中使用复发功能，实现了通过上下文学习进行适应。该策略通过一种新的元模仿学习算法进行训练，我们采样了1000个四旋翼，并使用强化学习训练每一个四旋翼的教师策略。随后，这1000个教师策略被蒸馏到一个单一的、自适应的学生策略中。我们发现，该基石策略在毫秒内能够零样本适应未见过的四旋翼。我们广泛测试了基石策略在众多条件下的能力（轨迹跟踪、室内/室外、风扰动、串扰、不同螺旋桨）。\n\n作者：Jonas Eschmann, Dario Albani, Giuseppe Loianno\n\n链接：https://arxiv.org/pdf/2509.11481.pdf\n\n标题：2025 [2509.11481] RAPTOR: A Foundation Policy for Quadrotor Control.pdf",
+        "地址": "https://arxiv.org/pdf/2509.11481.pdf"
+    },
+    {
+        "名称": "2025 [2509.11177] Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs.pdf",
+        "作者": "Hang Guo, Yawei Li, Luca Benini",
+        "摘要": "摘要：最近在大型语言模型（LLM）压缩方面的进展，如量化和剪枝，已经取得了显著的成功。然而，随着这些技术逐渐接近各自的极限，依靠单一方法进行进一步压缩变得越来越具有挑战性。在这项工作中，我们探索了一种通过结合量化和稀疏性的替代解决方案。这种联合方法尽管前景可期，但由于对权重分布的内在冲突要求而引入了新的困难：量化倾向于紧凑范围，而剪枝则从高方差中受益。为了解决这个问题，我们提出了最佳脑恢复（Optimal Brain Restoration，OBR），这是一种通用且无需训练的框架，通过在剪枝和量化之间进行误差补偿来对齐二者。OBR通过基于二阶海森目标最小化下游任务的性能退化，然后通过代理近似将其重新表述为一个可处理的问题，并最终通过组误差补偿达到封闭形式的解决方案。实验表明OBR在现有LLM上实现了具有50%稀疏性的激进W4A4KV4量化，并且与FP16-稠密基线相比提供了高达4.72倍的加速和6.4倍的内存减少。\n\n作者：Hang Guo, Yawei Li, Luca Benini\n\n备注：预印本\n\n来源：https://arxiv.org/pdf/2509.11177.pdf\n\n标题：2025 [2509.11177] 最佳脑恢复用于LLM的联合量化和稀疏化",
+        "地址": "https://arxiv.org/pdf/2509.11177.pdf"
+    },
+    {
+        "名称": "2025 [2509.10687] Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation.pdf",
+        "作者": "Hao Zhang, Chun-Han Yao, Simon Donné, Narendra Ahuja, Varun Jampani",
+        "摘要": "摘要:我们提出了Stable Part Diffusion 4D (SP4D)，一个从单目输入生成配对的RGB和运动部件视频的框架。与依赖外观语义线索的传统部件分割方法不同，SP4D学习生成运动部件，即与对象关节对齐并在视图和时间上保持一致的结构组件。SP4D采用双分支扩散模型，共同合成RGB帧和相应的部件分割图。为了简化架构并灵活地启用不同的部件数量，我们引入了一种空间颜色编码方案，将部件掩码映射到连续的类RGB图像。该编码允许分割分支共享来自RGB分支的潜在VAE，同时通过简单的后处理恢复部件分割。双向扩散融合（BiDiFuse）模块增强跨分支一致性，通过对比部件一致性损失促进部件预测的空间和时间对齐。我们证明，生成的2D部件图可以提升至3D，以极少的人工调整导出骨骼结构和谐波蒙皮权重。为了训练和评估SP4D，我们构建了KinematicParts20K，这是一个经过精心挑选的包含超过20K绑定对象的数据集，每个对象都从Objaverse XL（Deitke等，2023）中选择和处理，并配有多视图RGB和部件视频序列。实验表明，SP4D在各种场景中具有很强的泛化能力，包括现实世界的视频、新生成的对象和罕见的关节姿势，生成的运动感知输出适用于下游的动画和运动相关任务。",
+        "地址": "https://arxiv.org/pdf/2509.10687.pdf"
+    },
+    {
+        "名称": "2025 [2509.13177] ROOM: A Physics-Based Continuum Robot Simulator for Photorealistic Medical Datasets Generation.pdf",
+        "作者": "Salvatore Esposito, Matías Mattamala, Daniel Rebain, Francis Xiatian Zhang, Kevin Dhaliwal, Mohsen Khadem, Subramanian Ramamoorthy",
+        "摘要": "摘要：连续体机器人在支气管镜检查程序中获得了进展，通过进入复杂的肺部气道并实现定向干预来改进治疗。然而，其发展受限于缺乏逼真的训练和测试环境：由于伦理限制和患者安全问题，真实数据难以收集，而开发自主算法需要逼真的成像和物理反馈。我们提出了ROOM（医学中逼真的光学观察），一个综合的模拟框架，旨在生成逼真的支气管镜检查训练数据。通过利用患者CT扫描，我们的流程生成了多模态传感器数据，包括带有真实噪声和光反射的RGB图像、度量深度图、表面法线、光流和医疗相关尺度的点云。我们在两个医学机器人领域的典型任务——多视角姿态估计和单目深度估计中验证了ROOM生成的数据，展示了当前最先进方法在转移到这些医疗场景时必须克服的各种挑战。此外，我们展示了ROOM生成的数据可以用于微调现有的深度估计模型以克服这些挑战，以及实现导航等其他下游应用。我们期望ROOM能够在多样的患者解剖和程序场景中实现大规模数据生成，这些场景在临床环境中难以捕捉。代码和数据：此 https URL。\n\n作者：Salvatore Esposito, Matías Mattamala, Daniel Rebain, Francis Xiatian Zhang, Kevin Dhaliwal, Mohsen Khadem, Subramanian Ramamoorthy \n\n链接：https://arxiv.org/pdf/2509.13177.pdf\n\n标题：2025 [2509.13177] ROOM：一种用于生成逼真医学数据集的基于物理的连续体机器人模拟器",
+        "地址": "https://arxiv.org/pdf/2509.13177.pdf"
+    },
+    {
+        "名称": "2025 [2509.12541] zELO: ELO-inspired Training Method for Rerankers and Embedding Models.pdf",
+        "作者": "Nicholas Pipitone, Ghita Houir Alami, Advaith Avadhanam, Anton Kaminskyi, Ashley Khoo",
+        "摘要": "摘要：我们引入了一种名为zELO的新颖训练方法，该方法通过分析排名任务与Thurstone模型的静态等价性来优化检索性能。基于zELO方法，我们使用无监督数据来训练一套最先进的开放权重重排模型：zerank-1和zerank-1-small。这些模型在多个领域，包括金融、法律、代码和 STEM，获得了最高的检索分数，超越了封闭源专有重排器在NDCG@10和Recall上的表现。这些模型还表现出很大的多功能性，在域外和私有客户数据集上保持其零样本性能。训练数据包括112,000个查询，每个查询有100个文档，并在不到10,000 H100小时内从未标注的查询和文档中进行端到端训练。",
+        "地址": "https://arxiv.org/pdf/2509.12541.pdf"
+    },
+    {
+        "名称": "2025 [2509.10706] Sound Matching an Analogue Levelling Amplifier Using the Newton-Raphson Method.pdf",
+        "作者": "Chin-Yun Yu, György Fazekas",
+        "摘要": "摘要：近年来，通过数字信号处理算法进行虚拟模拟建模的自动微分技术逐渐流行起来。这些算法通常比依赖稠密矩阵乘法的黑箱神经网络更为计算高效。由于其可微性，它们可以与神经网络集成，并利用梯度下降算法进行联合训练，从而形成更高效的系统。此外，信号处理算法的参数显著少于神经网络，允许应用牛顿-拉夫森方法。该方法提供了比梯度下降更快且更稳健的收敛速度，但代价是二次存储。本文提出了一种通过参数经牛顿-拉夫森方法优化的前馈数字压缩器来模拟模拟调平放大器的方法。我们证明了数字压缩器可以成功地近似我们的目标单元Teletronix LA-2A的行为。不同的计算海森矩阵的策略进行了基准测试。我们利用递归滤波器的并行算法在现代GPU上实现高效训练。最终模型被制成VST插件，并在此提供开源。\n\n作者：Chin-Yun Yu, György Fazekas\n\n评论：发表于2025 AES国际会议上的人工智能与机器学习音频专栏（此https URL）\n\n网址：https://arxiv.org/pdf/2509.10706.pdf\n\n标题：2025 [2509.10706] 使用牛顿-拉夫森方法进行的模拟调平放大器声音匹配",
+        "地址": "https://arxiv.org/pdf/2509.10706.pdf"
+    },
+    {
+        "名称": "2025 [2509.10696] Struct-Bench: A Benchmark for Differentially Private Structured Text Generation.pdf",
+        "作者": "Shuaiqi Wang, Vikas Raunak, Arturs Backurs, Victor Reis, Pei Zhou, Sihao Chen, Longqi Yang, Zinan Lin, Sergey Yekhanin, Giulia Fanti",
+        "摘要": "摘要: 微分隐私 (DP) 合成数据生成是一种有前景的技术，可利用无法暴露用于模型训练或其他分析的私有数据集。虽然许多研究文献集中在生成私密的非结构化文本和图像数据，但在企业环境中，结构化数据（如表格数据）更为常见，通常包括自然语言字段或组件。现有的合成数据评估技术（例如 FID）难以捕捉此类数据集的结构属性和相关性。在这项工作中，我们提出了 Struct-Bench，一个评估包含自然语言数据的结构化数据集的合成数据框架和基准。Struct-Bench 框架要求用户提供其数据集结构的上下文无关文法（CFG）表示。我们的基准包括 5 个真实世界数据集和 2 个合成生成数据集，每个数据集均使用 CFG 进行注释。我们展示了这些数据集对即使最先进的 DP 合成数据生成方法也构成了巨大挑战。Struct-Bench 还包含不同度量的参考实现和排行榜，从而为研究人员提供了一个标准化的评估平台，以基准测试和研究隐私保护的合成数据生成方法。此外，我们还展示了一个案例研究，说明如何使用 Struct-Bench 来改善 Private Evolution (PE) 对结构化数据的合成数据质量。基准和排行榜已公开发布在此 https URL。",
+        "地址": "https://arxiv.org/pdf/2509.10696.pdf"
+    }
+]
