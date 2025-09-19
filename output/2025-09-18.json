@@ -1,0 +1,116 @@
+[
+    {
+        "名称": "2025 [2509.14008] Hala Technical Report: Building Arabic-Centric Instruction & Translation Models at Scale.pdf",
+        "作者": "Hasan Abed Al Kader Hammoud, Mohammad Zbeeb, Bernard Ghanem",
+        "摘要": "摘要：我们介绍了Hala，这是一组以阿拉伯语为中心的指令和翻译模型，使用我们的翻译调优流程构建。我们首先将一个强大的阿拉伯语<->英语教师模型压缩到FP8（在没有质量损失的情况下提高了约2倍的吞吐量），并使用它来创建高保真度的双语监督数据。然后，我们将一个轻量级语言模型LFM2-1.2B微调在这些数据上，并用它来将高质量的英语指令集翻译成阿拉伯语，生成一个针对指令跟随的百万级语料库。我们训练了350M、700M、1.2B和9B参数的Hala模型，并应用slerp合并以平衡阿拉伯语专业化与基础模型优势。在阿拉伯语为中心的基准上，Hala在\"nano\"（≤2B）和\"small\"（7-9B）类别中均实现了最先进的结果，超过了它们的基础模型。我们发布模型、数据、评估和配方，以加速阿拉伯语自然语言处理研究。\n\n评论：技术报告\n\n作者：Hasan Abed Al Kader Hammoud, Mohammad Zbeeb, Bernard Ghanem\n\n链接：https://arxiv.org/pdf/2509.14008.pdf\n\n标题：2025 [2509.14008] Hala技术报告：大规模构建以阿拉伯语为中心的指令和翻译模型",
+        "地址": "https://arxiv.org/pdf/2509.14008.pdf"
+    },
+    {
+        "名称": "2025 [2509.14033] SAIL-VL2 Technical Report.pdf",
+        "作者": "Weijie Yin, Yongjie Ye, Fangxun Shu, Yue Liao, Zijian Kang, Hongyuan Dong, Haiyang Yu, Dingkang Yang, Jiacong Wang, Han Wang, Wenzhuo Liu, Xiao Liang, Shuicheng Yan, Chao Feng",
+        "摘要": "摘要：我们介绍了SAIL-VL2，一个用于综合多模态理解和推理的开放套件视觉-语言基础模型（LVM）。作为SAIL-VL的继任者，SAIL-VL2在2B和8B参数规模上在各种图像和视频基准测试中实现了最先进的性能，展示了从细粒度感知到复杂推理的强大能力。其有效性来自三大核心创新。首先，一个大规模数据策展管道通过评分和筛选策略在字幕、OCR、问答和视频数据上提高了质量和分布，提升了训练效率。其次，一个渐进的训练框架从一个强大的预训练视觉编码器（SAIL-ViT）开始，经过多模态预训练，最终在一个思维融合的SFT-RL混合范式中系统地增强了模型能力。第三，架构改进不仅扩展了密集LLM，还包括高效的稀疏专家混合（MoE）设计。通过这些贡献，SAIL-VL2在106个数据集上表现出竞争力，并在MMMU和MathVista等具有挑战性的推理基准上取得了最先进的结果。此外，在OpenCompass排行榜上，SAIL-VL2-2B在4B参数规模以下的公开发布开源模型中排名第一，同时作为开放源多模态社区的一个高效且可扩展的基础。",
+        "地址": "https://arxiv.org/pdf/2509.14033.pdf"
+    },
+    {
+        "名称": "2025 [2509.12989] PANORAMA: The Rise of Omnidirectional Vision in the Embodied AI Era.pdf",
+        "作者": "Xu Zheng, Chenfei Liao, Ziqiao Weng, Kaiyu Lei, Zihao Dongfang, Haocong He, Yuanhuiyi Lyu, Lutao Jiang, Lu Qi, Li Chen, Danda Pani Paudel, Kailun Yang, Linfeng Zhang, Luc Van Gool, Xuming Hu",
+        "摘要": "摘要： 全向视觉，即使用360度视觉来理解环境，在机器人技术、工业检测和环境监测等领域变得越来越重要。与传统的小孔视觉相比，全向视觉提供了全面的环境意识，显著增强了场景感知的完整性和决策的可靠性。然而，该领域的基础研究历史上一直落后于传统的小孔视觉。本文介绍了一个新兴趋势：由不断增长的工业需求和学术兴趣推动的全向视觉的快速发展。我们重点介绍了全向生成、全向感知、全向理解及相关数据集的最新突破。结合来自学术界和工业界的见解，我们提出了一个理想的全景系统架构PANORAMA，它由四个关键子系统组成。此外，我们针对全景视觉与具身AI交叉领域的新兴趋势和跨社区影响提出了深入的看法，以及未来路线图和开放挑战。本概述综合了最先进的进展，概述了在具身AI时代构建稳健的通用全向AI系统的未来研究中的挑战和机遇。\n\n来源：https://arxiv.org/pdf/2509.12989.pdf",
+        "地址": "https://arxiv.org/pdf/2509.12989.pdf"
+    },
+    {
+        "名称": "2025 [2509.14232] GenExam: A Multidisciplinary Text-to-Image Exam.pdf",
+        "作者": "Zhaokai Wang, Penghao Yin, Xiangyu Zhao, Changyao Tian, Yu Qiao, Wenhai Wang, Jifeng Dai, Gen Luo",
+        "摘要": "摘要: 考试是对专家级智能的基本测试，要求有综合的理解、推理和生成能力。现有的考试风格基准测试主要集中在理解和推理任务上，而当前的生成基准测试则强调展示世界知识和视觉概念，忽略了对严格绘图考试的评估。我们引入了GenExam，这是第一个多学科文本到图像考试的基准测试，包含10个科目中1000个样本，考试风格的提示按四级分类法组织。每个问题都配有真实图像和细粒度评分点，以便精确评估语义正确性和视觉合理性。实验表明，即使是最先进的模型如GPT-Image-1和Gemini-2.5-Flash-Image严格得分也不到15%，大多数模型得分几乎为0%，这表明我们的基准测试具有巨大的挑战性。通过将图像生成框定为考试，GenExam提供了对模型综合知识、推理和生成能力的严格评估，为通往通用人工智能（AGI）的道路提供了见解。\n\n作者: Zhaokai Wang, Penghao Yin, Xiangyu Zhao, Changyao Tian, Yu Qiao, Wenhai Wang, Jifeng Dai, Gen Luo\n\n链接: [https://arxiv.org/pdf/2509.14232.pdf](https://arxiv.org/pdf/2509.14232.pdf)\n\n标题: GenExam: A Multidisciplinary Text-to-Image Exam",
+        "地址": "https://arxiv.org/pdf/2509.14232.pdf"
+    },
+    {
+        "名称": "2025 [2509.13755] Scrub It Out! Erasing Sensitive Memorization in Code Language Models via Machine Unlearning.pdf",
+        "作者": "Zhaoyang Chu, Yao Wan, Zhikun Zhang, Di Wang, Zhou Yang, Hongyu Zhang, Pan Zhou, Xuanhua Shi, Hai Jin, David Lo",
+        "摘要": "摘要：尽管代码语言模型（CLMs）在代码生成和总结等软件工程任务中展示出优异的性能，但最近的实证研究揭示了一个关键的隐私漏洞：这些模型表现出对敏感训练数据的意外记忆，在特定提示下可以逐字逐句地再现机密信息。为了解决这个问题，提出了包括训练数据去重和差分隐私增强在内的几种方法。然而，这些方法需要对已部署的CLMs进行全模型重新训练，从而产生巨大的计算成本。本文旨在回答以下研究问题：能否有效且高效地擦除CLMs记住的敏感信息？\n\n我们开展了关于通过机器“遗忘”来擦除CLMs中的敏感记忆的开创性研究——这是一种事后修改方法，可以在不需要完全重新训练的情况下从已训练模型中移除特定信息。具体而言，我们首先量化了CLM训练数据集中敏感数据的记忆风险，并策划了一个包含50,000个高风险记忆样本的数据集作为遗忘目标。我们研究了两种广泛使用的基于梯度上升的遗忘方法：基础方法和基于约束的方法，并引入了一种高级变体CodeEraser，该变体选择性地遗忘代码中敏感记忆段，同时保留周围代码的结构完整性和功能正确性。针对三类CLMs，即CodeParrot、CodeGen-Mono和Qwen2.5-Coder的广泛实验验证了CodeEraser在擦除目标敏感记忆的有效性和效率，同时保持了模型的实用性。",
+        "地址": "https://arxiv.org/pdf/2509.13755.pdf"
+    },
+    {
+        "名称": "2025 [2508.14880] MedResearcher-R1: Expert-Level Medical Deep Researcher via A Knowledge-Informed Trajectory Synthesis Framework.pdf",
+        "作者": "Ailing Yu, Lan Yao, Jingnan Liu, Zhe Chen, Jiajun Yin, Yuan Wang, Xinhao Liao, Zhiling Ye, Ji Li, Yun Yue, Hansong Xiao, Hualei Zhou, Chunxiao Guo, Peng Wei, Junwei Liu, Jinjie Gu",
+        "摘要": "摘要：近年来，基于大型语言模型（LLM）代理的最新发展展示了其在多个领域中的令人印象深刻的能力，特别是体现了在复杂信息搜寻和综合任务中表现优越的深度研究系统。然而，虽然通用深度研究代理展示了令人印象深刻的能力，但在面对医学领域挑战时表现尤其乏力，领先的专有系统在复杂的医学基准测试上仅实现了有限的准确性。关键的限制在于：(1) 模型缺乏足够的密集医学知识来进行临床推理；(2) 框架受到缺乏针对医学环境定制的专业检索工具的制约。我们提出了一种医学深度研究代理，通过两个核心创新来解决这些挑战。首先，我们开发了一种使用医学知识图谱的新型数据综合框架，从稀有医学实体周围的子图中提取最长链以生成复杂的多跳问答对。其次，我们将定制的私有医学检索引擎与通用工具集成，增强医学信息的准确综合。我们的方法在12个医学专业中生成了2100多种不同的轨迹，每种轨迹平均进行4.2次工具交互。通过结合监督微调和带有复合奖励的在线强化学习的两阶段训练范式，我们的MedResearcher-R1-32B模型表现出卓越的性能，在医学基准测试上建立了新的最先进成果，同时在通用深度研究任务上保持了竞争力。我们的工作表明，架构、工具设计和训练数据构建中战略性的领域特定创新可以使较小的开源模型在专业领域中超越更大规模的专有系统。\n\n作者：Ailing Yu, Lan Yao, Jingnan Liu, Zhe Chen, Jiajun Yin, Yuan Wang, Xinhao Liao, Zhiling Ye, Ji Li, Yun Yue, Hansong Xiao, Hualei Zhou, Chunxiao Guo, Peng Wei, Junwei Liu, Jinjie Gu\n\n评论：13页，5张图\n\nURL：https://arxiv.org/pdf/2508.14880.pdf\n\n标题：2025 [2508.14880] MedResearcher-R1: 使用知识引导的轨迹综合框架的专家级医学深度研究员",
+        "地址": "https://arxiv.org/pdf/2508.14880.pdf"
+    },
+    {
+        "名称": "2025 [2509.13761] THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning.pdf",
+        "作者": "Qikai Chang, Zhenrong Zhang, Pengfei Hu, Jiefeng Ma, Yicheng Pan, Jianshu Zhang, Jun Du, Quan Liu, Jianqing Gao",
+        "摘要": "摘要: 大型语言模型（LLMs）在数学推理方面取得了显著进展，但在数值计算和形式符号操作等高精度任务上仍然存在困难。整合外部工具已经成为弥合这一差距的有前途的方法。尽管近期取得了一些进展，但现有方法在构建工具整合推理数据、进行精细优化和增强推理方面仍面临三大挑战。为克服这些限制，我们提出了THOR（通过强化学习的工具整合层次优化）。首先，我们引入了TIRGen，这是一种基于多智能体演员-评论家的流水线，用于构建高质量的工具整合推理路径数据，与策略对齐并能很好地推广到各类模型。其次，为进行精细的层次优化，我们引入了一种强化学习策略，共同优化路径级问题解决和步骤级代码生成。我们的关键见解是，中间工具调用的成功率是最终答案正确性的强预测因素。最后，THOR结合了一种自我纠正机制，利用即时工具反馈在推理过程中动态修正错误的推理路径。我们的方法在各种模型中表现出很强的泛化能力，无论是在推理模型还是非推理模型中都表现出色。在多个数学基准测试中，其性能达到了同等规模模型的最新水平，并且在代码基准测试中取得了一致性改进。我们的代码将在此URL公开。",
+        "地址": "https://arxiv.org/pdf/2509.13761.pdf"
+    },
+    {
+        "名称": "2025 [2509.14142] MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook.pdf",
+        "作者": "Peng Xu, Shengwu Xiong, Jiajun Zhang, Yaxiong Chen, Bowen Zhou, Chen Change Loy, David A. Clifton, Kyoung Mu Lee, Luc Van Gool, Ruiming He, Ruilin Yao, Xinwei Long, Jirui Huang, Kai Tian, Sa Yang, Yihua Shao, Jin Feng, Yue Zhong, Jiakai Zhou, Cheng Tang, Tianyu Zou, Yifang Zhang, Junming Liang, Guoyou Li, Zhaoxiang Wang, Qiang Zhou, Yichen Zhao, Shili Xiong, Hyeongjin Nam, Jaerin Lee, Jaeyoung Chung, JoonKyu Park, Junghun Oh, Kanggeon Lee, Wooseok Lee, Juneyoung Ro, Turghun Osman, Can Hu, Chaoyang Liao, Cheng Chen, Chengcheng Han, Chenhao Qiu, Chong Peng, Cong Xu, Dailin Li, Feiyu Wang, Feng Gao, Guibo Zhu, Guopeng Tang, Haibo Lu, Han Fang, Han Qi, Hanxiao Wu, Haobo Cheng, Hongbo Sun, Hongyao Chen, Huayong Hu, Hui Li, Jiaheng Ma, Jiang Yu, Jianing Wang, Jie Yang, Jing He, Jinglin Zhou, Jingxuan Li, Josef Kittler, Lihao Zheng, Linnan Zhao, Mengxi Jia, Muyang Yan, Nguyen Thanh Thien, Pu Luo, Qi Li, Shien Song, Shijie Dong, Shuai Shao, Shutao Li, Taofeng Xue, Tianyang Xu, Tianyi Gao, Tingting Li, Wei Zhang, Weiyang Su, Xiaodong Dong, Xiao-Jun Wu, Xiaopeng Zhou, Xin Chen, Xin Wei, Xinyi You, Xudong Kang, Xujie Zhou, Xusheng Liu, Yanan Wang, Yanbin Huang, Yang Liu, Yang Yang, Yanglin Deng, Yashu Kang, Ye Yuan, Yi Wen\n\n\n        , Yicen Tian, Yilin Tao, Yin Tang, Yipeng Lin, Yiqing Wang, Yiting Xi, Yongkang Yu, Yumei Li, Yuxin Qin, Yuying Chen, Yuzhe Cen, Zhaofan Zou, Zhaohong Liu, Zhehao Shen, Zhenglin Du, Zhengyang Li, Zhenni Huang, Zhenwei Shao, Zhilong Song, Zhiyong Feng, Zhiyu Wang, Zhou Yu, Ziang Li, Zihan Zhai, Zijian Zhang, Ziyang Peng, Ziyun Xiao, Zongshu Li\n\n\n    et al. (28 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：这篇论文回顾了2025年MARS2关于多模态推理的挑战。我们旨在通过一个大型基准汇集多模态机器学习和大语言模型（LLMs）中的不同方法。我们希望它能更好地帮助研究人员跟踪这一非常动态领域的最新技术。同时，越来越多的测试平台促进了通用大语言模型的发展。因此，今年的MARS2着重于现实世界和专业场景，以拓宽多模态推理应用的范围。我们的组织团队发布了两个定制数据集Lens和AdsQA作为测试集，分别支持12个日常场景中的一般推理和广告视频中的领域特定推理。我们评估了40多个基线模型，包括通用MLLMs和任务特定模型，并开设了三个竞赛轨道，即现实场景中的视觉定位（VG-RS）、具有空间意识的视觉问答（VQA-SA）和创意广告视频中的视觉推理（VR-Ads）。最终，来自知名学术和工业机构的76个团队注册，1200多份有效提交中有40多份被纳入我们的排名列表。我们的数据集、代码集（40多个基线和15多个参与者的方法）和排名在MARS2工作坊网站和我们的GitHub组织页面上公开可用，此处提供我们的更新和即将举行活动的公告。\n\n论文标题：2025年MARS2关于多模态推理的挑战：数据集、方法、结果、讨论和展望\n链接：https://arxiv.org/pdf/2509.14142.pdf\n作者：彭旭、熊胜武、张佳俊、陈亚雄、周博文、陈昌来、David A. Clifton、李京牟、Luc Van Gool、何瑞明、姚瑞林、龙欣伟、黄际瑞、田凯、杨飒、邵奕华、冯劲、钟跃、周家凯、唐程、邹天羽、张艺方、梁俊铭、李国友、王兆祥、周强、赵一辰、熊世立、Nam Hyeongjin、李载润、郑在泳、Park JoonKyu、Oh Junghun、Lee Kanggeon、Lee Wooseok、Ro Juneyoung、Osman Turghun、胡灿、廖超阳、陈成、韩成成、裘陈浩、彭冲、徐聪、李达霖、王飞宇、高风、朱国泊、唐国鹏、卢海波、方涵、齐涵晓、程皓波、孙宏博、陈宏垚、胡华勇、李辉、马嘉恒、于江、王建宁、杨捷、何靖、周靖霖、李景轩、Kittler Josef、郑礼浩、赵琳楠、贾梦汐、严沐阳、Thanh Thien Nguyen、罗璞、李琪、宋诗晏、董晟杰、邵帅、李树涛、薛涛峰、许天扬、高天乙、李婷婷、张伟、苏瑋阳、董晓东、吴洗俊、周晓鹏、陈希、魏新、尤鑫仪、康旭东、周旭杰、刘旭盛、王艳娜、黄艳斌、刘洋、杨杨、邓杨林、康雅舒、袁野、文艺、田奕宸、陶乙霖、唐寅、林一鹏、王以擎、席以亭、俞雍康、李玉美、秦玉鑫、陈雨莹、岑宇哲、邹兆帆、刘兆红、沈哲豪、杜正林、李正扬、黄甄妮、邵振威、宋志龙、冯志勇、王志宇、于周、李子昂、翟梓涵、张子健、彭子阳、肖子云、李宗述等（另外28位作者未显示）。",
+        "地址": "https://arxiv.org/pdf/2509.14142.pdf"
+    },
+    {
+        "名称": "2025 [2509.14055] Wan-Animate: Unified Character Animation and Replacement with Holistic Replication.pdf",
+        "作者": "Gang Cheng, Xin Gao, Li Hu, Siqi Hu, Mingyang Huang, Chaonan Ji, Ju Li, Dechao Meng, Jinwei Qi, Penchong Qiao, Zhen Shen, Yafei Song, Ke Sun, Linrui Tian, Feng Wang, Guangyuan Wang, Qi Wang, Zhongjian Wang, Jiayu Xiao, Sheng Xu, Bang Zhang, Peng Zhang, Xindi Zhang, Zhe Zhang, Jingren Zhou, Lian Zhuo",
+        "摘要": "摘要：我们介绍了Wan-Animate，一个统一的角色动画和替换框架。给定一个角色图像和一个参考视频，Wan-Animate可以通过精确复制视频中角色的表情和动作来动画化该角色，以生成高保真角色视频。此外，它可以将动画化的角色整合到参考视频中以替换原始角色，复制场景的光照和色调以实现无缝的环境融合。Wan-Animate是基于Wan模型构建的。为了使其适应角色动画任务，我们采用了修改后的输入范式，以区别参考条件和生成区域。这一设计将多个任务统一到一个共同的符号表示中。我们使用空间对齐的骨架信号复制身体动作，并从源图像提取隐式面部特征以重现表情，从而生成具有高可控性和表现力的角色视频。此外，为了在角色替换过程中提高环境融合，我们开发了辅助重光LoRA。该模块在应用适宜的环境光照和色调时保持角色的外观一致性。实验结果表明，Wan-Animate达到了最先进的性能。我们致力于开源模型权重及其源代码。",
+        "地址": "https://arxiv.org/pdf/2509.14055.pdf"
+    },
+    {
+        "名称": "2025 [2509.13683] Improving Context Fidelity via Native Retrieval-Augmented Reasoning.pdf",
+        "作者": "Suyuchen Wang, Jinlin Wang, Xinyu Wang, Shiqi Li, Xiangru Tang, Sirui Hong, Xiao-Wen Chang, Chenglin Wu, Bang Liu",
+        "摘要": "摘要：大型语言模型（LLMs）通常难以保持上下文一致性，在基于提供的信息回答问题时会产生不一致的回答。现有方法要么依赖昂贵的监督微调来在回答后生成证据，要么训练模型进行网络搜索，但不一定能提高对给定上下文的利用。我们提出了一种新颖的本地检索增强推理框架 CARE，教导 LLMs 在推理过程中显式整合上下文证据，同时利用模型自身的检索能力。我们的方法仅需有限的标注证据数据，但通过在推理链中战略性地检索上下文标记，显著提高了检索准确率和答案生成性能。在多个真实世界和反事实 QA 基准上的大量实验表明，我们的方法大大优于监督微调、传统的检索增强生成方法和外部检索解决方案。这项工作在使 LLMs 更加准确、可靠和高效地处理知识密集型任务方面代表了一项基础性进展。\n\n转译自：Suyuchen Wang, Jinlin Wang, Xinyu Wang, Shiqi Li, Xiangru Tang, Sirui Hong, Xiao-Wen Chang, Chenglin Wu, Bang Liu\n\n评论：已被接收为EMNLP 2025主会议论文\n\n链接：https://arxiv.org/pdf/2509.13683.pdf\n\n题目：改善上下文一致性通过本地检索增强推理",
+        "地址": "https://arxiv.org/pdf/2509.13683.pdf"
+    },
+    {
+        "名称": "2025 [2509.13523] AERIS: Argonne Earth Systems Model for Reliable and Skillful Predictions.pdf",
+        "作者": "Väinö Hatanpää, Eugene Ku, Jason Stock, Murali Emani, Sam Foreman, Chunyong Jung, Sandeep Madireddy, Tung Nguyen, Varuni Sastry, Ray A. O. Sinurat, Sam Wheeler, Huihuo Zheng, Troy Arcomano, Venkatram Vishwanath, Rao Kotamarthi",
+        "摘要": "摘要（翻译为中文）：\n\n生成式机器学习为更好地理解复杂的地球系统动态提供了新的机会。最近基于扩散的方法解决了光谱偏差问题，并在天气预报方面相比于确定性方法改善了集合校准，但是到目前为止在高分辨率上稳定扩展仍然困难。我们介绍了AERIS，一种从1.3到80B参数像素级Swin扩散变压器来解决这一差距，以及SWiPe，一种将窗口并行性与序列和流水线并行性组合的可推广技术，用于分割窗口变压器而无需增加通信成本或增加全局批次大小。在Aurora（10,080个节点）上，AERIS维持了10.21 ExaFLOPS（混合精度）和11.21 ExaFLOPS的峰值性能，使用$1 \\\\times 1$补丁大小在0.25° ERA5数据集上，实现了95.5%的弱扩展效率和81.6%的强扩展效率。AERIS在季节尺度上至90天的稳定性优于IFS ENS，突显了百亿参数扩散模型在天气和气候预测中的潜力。",
+        "地址": "https://arxiv.org/pdf/2509.13523.pdf"
+    },
+    {
+        "名称": "2025 [2509.13450] SteeringControl: Holistic Evaluation of Alignment Steering in LLMs.pdf",
+        "作者": "Vincent Siu, Nicholas Crispino, David Park, Nathan W. Henry, Zhun Wang, Yang Liu, Dawn Song, Chenguang Wang",
+        "摘要": "摘要：我们引入了SteeringControl，这是一个用于评估表示操控方法在核心对齐目标（偏见、有害生成和幻觉）及其对次要行为（如奉承和常识道德）的影响的基准。虽然之前的对齐工作通常通过突出真实或推理能力来展示表示操控的副作用，我们发现有许多未被系统地理解的权衡。我们收集了与安全相关的主要和次要行为的数据集，以评估操控效果和行为纠缠，围绕五种流行的操控方法进行测试。为此，我们设计了一个基于独特组件的模块化操控框架，这些组件是许多现有方法的构建块。我们在Qwen-2.5-7B和Llama-3.1-8B上的测试结果发现，强大的操控性能依赖于操控方法、模型和目标行为的特定组合，糟糕的组合也可能导致严重的概念纠缠。我们在此发布代码：https://arxiv.org/pdf/2509.13450.pdf。",
+        "地址": "https://arxiv.org/pdf/2509.13450.pdf"
+    },
+    {
+        "名称": "2025 [2509.14026] Quantum Variational Activation Functions Empower Kolmogorov-Arnold Networks.pdf",
+        "作者": "Jiun-Cheng Jiang, Morris Yu-Chao Huang, Tianlong Chen, Hsi-Sheng Goan",
+        "摘要": "摘要：变分量子电路 (VQC) 是量子机器学习的核心，而 Kolmogorov-Arnold 网络 (KAN) 的最新进展凸显了可学习激活函数的强大功能。我们通过引入量子变分激活函数 (QVAF) 将这些方向统一起来，实现为单比特数据重上传电路，称为数据重上传激活 (DARUAN)。我们展示了在数据预处理中具有可训练权重的 DARUAN 具有指数增长的频谱，伴随数据重复，可以在不丧失表达性的情况下，以指数方式减少参数规模。将 DARUAN 融入 KAN 产生量子启发的 KAN (QKAN)，它保留了 KAN 的可解释性，同时提高了参数效率、表达性和泛化能力。我们进一步引入了两项新技术来增强可扩展性、可行性和计算效率，如层扩展和混合 QKAN (HQKAN)，作为大规模模型中前馈网络的多层感知器 (MLP) 的直接替换。我们在函数回归、图像分类和自回归生成语言建模上进行了理论分析和广泛的实验，展示了 QKAN 的效率和可扩展性。DARUAN 和 QKAN 为在嘈杂的中等规模量子 (NISQ) 硬件和经典量子模拟器上推进量子机器学习提供了有前途的方向。\n\n作者：Jiun-Cheng Jiang, Morris Yu-Chao Huang, Tianlong Chen, Hsi-Sheng Goan\n\n链接：https://arxiv.org/pdf/2509.14026.pdf\n\n评论：45页\n\n标题：2025 [2509.14026] 量子变分激活函数赋能 Kolmogorov-Arnold 网络",
+        "地址": "https://arxiv.org/pdf/2509.14026.pdf"
+    },
+    {
+        "名称": "2025 [2509.14180] Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs.pdf",
+        "作者": "Akhil Theerthala",
+        "摘要": "摘要: 个性化财务建议需要考虑用户目标、约束条件、风险承受能力和司法管辖权。之前的LLM工作主要集中在为投资者和财务规划师提供支持系统。同时，许多近期研究通过需要高维护成本的代理管道来探讨更广泛的个人财务任务，包括预算编制、债务管理、退休和遗产规划，最终实现的财政回报不足预期的25%。在这项研究中，我们引入了一个新颖且可复制的框架，将相关的金融背景与行为金融研究结合起来，以构建端到端顾问的监督数据。使用这个框架，我们创建了一个包含19k样本的推理数据集，并对Qwen-3-8B模型进行了全面的微调。在一个保存的测试集拆分和一个盲LLM陪审团研究中，我们展示了通过仔细的数据精选和行为整合，我们的8B模型在事实准确性、流畅性和个性化指标方面达到了与明显更大的基线模型（14-32B参数）相当的表现，同时成本比更大的模型低80%。",
+        "地址": "https://arxiv.org/pdf/2509.14180.pdf"
+    },
+    {
+        "名称": "2025 [2509.13642] LLM-I: LLMs are Naturally Interleaved Multimodal Creators.pdf",
+        "作者": "Zirun Guo, Feng Zhang, Kai Jia, Tao Jin",
+        "摘要": "摘要：我们提出了LLM-Interleaved (LLM-I)，一个灵活且动态的框架，将交错图文生成重新定义为工具使用问题。LLM-I旨在克服当前统一模型的“单工具”瓶颈，这些模型局限于合成图像，并在需要事实基础或程序精度的任务中表现不佳。我们的框架赋予中央LLM或MLLM代理智能编排多种专业视觉工具的能力，包括在线图像搜索、基于扩散的生成、代码执行和图像编辑。通过一个结合规则逻辑与LLM和MLLM评估者判断的混合奖励系统，代理通过强化学习 (RL) 框架进行训练，能够熟练选择和应用这些工具。使用四种不同模型骨干在一个新的多样化数据集上进行训练，LLM-I在四个基准测试中表现出最先进的性能，远远超过现有方法。我们还引入了一种新的测试时间扩展策略，进一步提高了性能。项目页面：this https URL.\n\n作者：郭子润、张风、贾凯、金涛\n\nURL：https://arxiv.org/pdf/2509.13642.pdf\n\n标题：2025 [2509.13642] LLM-I: LLMs are Naturally Interleaved Multimodal Creators.pdf",
+        "地址": "https://arxiv.org/pdf/2509.13642.pdf"
+    },
+    {
+        "名称": "2025 [2509.14284] The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration.pdf",
+        "作者": "Vaidehi Patil, Elias Stengel-Eskin, Mohit Bansal",
+        "摘要": "摘要：随着大型语言模型（LLMs）成为多代理系统的重要组成部分，出现了新型的隐私风险，这些风险不仅仅局限于记忆、直接推理或单轮评估。特别是，当看似无害的回复在多次交互中组合时，可能使对手能够恢复敏感信息，我们称之为组合隐私泄露。我们首次系统地研究了多代理LLM系统中的这种组合隐私泄露及其可能的缓解方法。首先，我们开发了一个框架，模型化辅助知识和代理交互如何共同放大隐私风险，即使每个回复独立来看都是无害的。接下来，为了缓解这种风险，我们提出并评估了两种防御策略：（1）心智理论防御（ToM），防御代理预估提问者的意图，预测他们的输出如何可能被对手利用；（2）协作共识防御（CoDef），回复代理与同行合作，通过基于共享聚合状态的投票限制敏感信息传播。关键是，我们的评估在揭露敏感信息的组合和产生无害推理的组合之间进行了平衡。实验量化了这些防御策略在平衡隐私和效用方面的差异。我们发现，单靠连贯思维保护泄露的效果有限（约39%的敏感阻挡率），我们的ToM防御显著提高了敏感查询的阻挡率（最高达到97%），但可能降低无害任务的成功率。CoDef实现了最佳平衡，产生最高的平衡结果（79.8%），突显了结合显式推理和防御者合作的益处。总之，我们的结果揭示了多代理LLM部署中的一类新风险，并提供了可行的见解，以设计防范组合性、上下文驱动的隐私泄露的保障措施。",
+        "地址": "https://arxiv.org/pdf/2509.14284.pdf"
+    },
+    {
+        "名称": "2025 [2509.11114] WildSmoke: Ready-to-Use Dynamic 3D Smoke Assets from a Single Video in the Wild.pdf",
+        "作者": "Yuqiu Liu, Jialin Song, Manolis Savva, Wuyang Chen",
+        "摘要": "摘要: 我们提出了一种从单个真实视频中提取和重建动态3D烟雾资源的流程，并进一步整合了用于烟雾设计和编辑的互动模拟。最近在3D视觉方面的进展显著改善了流体动力学的重建和渲染，支持真实且时间一致的视图合成。然而，目前的流体重建在很大程度上依赖于精心控制的实验室环境，而真实的视频中的应用则鲜有探索。我们指出了在真实视频中重建烟雾的三个关键挑战，并设计了相应的技术，包括去除背景的烟雾提取、烟雾粒子和相机姿态的初始化以及多视图视频的推断。我们的方法不仅在真实视频上实现了高质量的烟雾重建（平均PSNR提高2.22），超过了之前的重建和生成方法，还通过模拟我们的烟雾资源实现了各种真实的流体动力学编辑。我们在[此https URL](此https URL)提供了我们的模型、数据和四维烟雾资源。",
+        "地址": "https://arxiv.org/pdf/2509.11114.pdf"
+    },
+    {
+        "名称": "2025 [2509.12474] Image Tokenizer Needs Post-Training.pdf",
+        "作者": "Kai Qiu, Xiang Li, Hao Chen, Jason Kuen, Xiaohao Xu, Jiuxiang Gu, Yinyi Luo, Bhiksha Raj, Zhe Lin, Marios Savvides",
+        "摘要": "摘要：近期的图像生成模型通常在预先构造的潜在空间中捕获图像分布，依赖于被冻结的图像分词器。然而，在重建和生成分布之间存在显著差异，当前的分词器只优先考虑生成训练之前的重建任务，而没有考虑采样过程中生成的错误。在本文中，我们全面分析了离散潜在空间中出现这种差异的原因，并由此提出了一种新颖的分词器训练方案，包括主训练和后训练，分别侧重于改进潜在空间构建和解码。在主训练期间，提出了一种潜在扰动策略来模拟采样噪声，即在生成推理中生成的意外标记。具体来说，我们提出了一种即插即用的分词器训练方案，该方案显著增强了分词器的鲁棒性，从而提升了生成质量和收敛速度，并提出了一种新颖的分词器评估指标，即pFID，它成功地将分词器性能与生成质量相关联。在后训练期间，我们进一步优化了分词器解码器，针对经过良好训练的生成模型，以减轻生成标记和重建标记之间的分布差异。利用一个约400M的生成器，采用我们提出的主训练训练的离散分词器实现了显著的1.60 gFID，并通过额外的后训练进一步获得了1.36 gFID。进一步的实验广泛验证了我们的后训练策略在现成的离散和连续分词器与自回归和基于扩散的生成器结合使用时的有效性。\n\n作者：邱凯, 李祥, 陈浩, 梁杰森, 许小豪, 顾久祥, 骆尹毅, Raj Bhiksha, 林哲, Marios Savvides\n\n评论：21页，16个图，10个表。arXiv管理员注：与arXiv:2503.08354存在大量文本重叠\n\n网址：https://arxiv.org/pdf/2509.12474.pdf\n\n标题：2025 [2509.12474] 图像分词器需要后训练.pdf",
+        "地址": "https://arxiv.org/pdf/2509.12474.pdf"
+    },
+    {
+        "名称": "2025 [2509.13353] Hybrid Quantum-Classical Model for Image Classification.pdf",
+        "作者": "Muhammad Adnan Shahzad",
+        "摘要": "摘要：本研究系统性地比较了混合量子-经典神经网络与纯经典模型在三个基准数据集（MNIST, CIFAR100, STL10）上的性能、效率和鲁棒性。混合模型将参数化量子电路与经典深度学习架构相结合，而经典模型则使用传统的卷积神经网络（CNN）。每个数据集的实验经过50个训练周期，评估了验证精度、测试精度、训练时间、计算资源使用和对抗鲁棒性（用ε=0.1扰动进行测试）。主要发现显示，混合模型在最终精度上始终优于经典模型，达到99.38%（MNIST），41.69%（CIFAR100），和74.05%（STL10）的验证精度，相比之下，经典模型的基准分别是98.21%，32.25%和63.76%。特别是，混合模型在数据集复杂性增高时表现出显著的优势，在CIFAR100（+9.44%）和STL10（+10.29%）上优势最大。混合模型的训练速度快5-12倍（例如在MNIST上每个周期21.23秒比108.44秒），使用的参数减少6-32%，同时在未见过的测试集上保持了更强的泛化能力。鲁棒性测试显示，混合模型在较为简单的数据集上的鲁棒性显著更好（例如在MNIST上45.27%的鲁棒精度对比经典模型的10.80%），但在复杂数据集如CIFAR100上表现相当（两者鲁棒性约为1%）。资源效率分析表明，混合模型消耗较少的内存（4-5GB 对比 5-6GB的经典模型）和更低的CPU利用率（平均9.5%对比23.2%）。这些结果表明，混合量子-经典架构在准确性、训练效率和参数可扩展性上具有显著优势，尤其在复杂视觉任务中表现突出。\n\n作者：Muhammad Adnan Shahzad\n\n链接：https://arxiv.org/pdf/2509.13353.pdf\n\n标题：2025 [2509.13353] 混合量子-经典模型用于图像分类.pdf",
+        "地址": "https://arxiv.org/pdf/2509.13353.pdf"
+    }
+]
