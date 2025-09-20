@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2509.15221] ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data.pdf",
+        "作者": "Zhaoyang Liu, JingJing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Zeyue Tian, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang",
+        "摘要": "摘要：视觉语言模型(Vision-Language Models, VLMs)使得计算机使用代理(Computer Use Agents, CUAs)能够自主操作图形用户界面(GUIs)，展示了巨大的潜力。然而，进展因缺乏大规模开源计算机使用数据和基础模型而受限。在这项工作中，我们介绍了ScaleCUA，这是扩展开源CUAs的一步。它提供了一个涵盖6个操作系统和3个任务领域的大规模数据集，该数据集通过将自动化代理与人类专家结合在一起的闭环管道构建。通过对这一扩大规模的数据进行训练，ScaleCUA能够跨平台无缝操作。具体来说，它在基准上有显著提升（WebArena-Lite-v2上提升26.6，ScreenSpot-Pro上提升10.7），并设定了新的最先进成果（MMBench-GUI L1-Hard上94.4%，OSWorld-G上60.6%，WebArena-Lite-v2上47.4%）。这些发现突显了数据驱动扩展对于通用计算机使用代理的强大作用。我们将发布数据、模型和代码以推动未来的研究。\n\n作者：Zhaoyang Liu, JingJing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Zeyue Tian, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang",
+        "地址": "https://arxiv.org/pdf/2509.15221.pdf"
+    },
+    {
+        "名称": "2025 [2509.15207] FlowRL: Matching Reward Distributions for LLM Reasoning.pdf",
+        "作者": "Xuekai Zhu, Daixuan Cheng, Dinghuai Zhang, Hengli Li, Kaiyan Zhang, Che Jiang, Youbang Sun, Ermo Hua, Yuxin Zuo, Xingtai Lv, Qizheng Zhang, Lin Chen, Fanghao Shao, Bo Xue, Yunchong Song, Zhenjie Yang, Ganqu Cui, Ning Ding, Jianfeng Gao, Xiaodong Liu, Bowen Zhou, Hongyuan Mei, Zhouhan Lin",
+        "摘要": "摘要:\n我们提出了FlowRL: 在大语言模型(LLM)强化学习(RL)中通过流量平衡来匹配完整的奖励分布，而不是最大化奖励。最近的高级推理模型采用奖励最大化方法（如PPO和GRPO），这些方法往往过度优化主导奖励信号，同时忽视较不频繁但有效的推理路径，从而减少多样性。相比之下，我们使用可学习的分区函数将标量奖励转化为归一化的目标分布，然后最小化策略与目标分布之间的逆KL散度。我们将这一理念实现为一种流量平衡优化方法，促进多样化探索和可泛化的推理轨迹。我们在数学和代码推理任务上进行了实验：在数学基准测试中，FlowRL平均比GRPO提高了10.0%，比PPO提高了5.1%，并且在代码推理任务上表现始终更好。这些结果突出了在LLM强化学习中匹配奖励分布作为高效探索和多样化推理的关键步骤。\n\n链接: [https://arxiv.org/pdf/2509.15207.pdf](https://arxiv.org/pdf/2509.15207.pdf)\n\n作者: Xuekai Zhu, Daixuan Cheng, Dinghuai Zhang, Hengli Li, Kaiyan Zhang, Che Jiang, Youbang Sun, Ermo Hua, Yuxin Zuo, Xingtai Lv, Qizheng Zhang, Lin Chen, Fanghao Shao, Bo Xue, Yunchong Song, Zhenjie Yang, Ganqu Cui, Ning Ding, Jianfeng Gao, Xiaodong Liu, Bowen Zhou, Hongyuan Mei, Zhouhan Lin",
+        "地址": "https://arxiv.org/pdf/2509.15207.pdf"
+    },
+    {
+        "名称": "2025 [2509.14760] Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Delibration.pdf",
+        "作者": "Haoran Zhang, Yafu Li, Xuyang Hu, Dongrui Liu, Zhilin Wang, Bo Li, Yu Cheng",
+        "摘要": "摘要: 大型语言模型（LLM）日益被应用于各种现实场景中，每个场景都由用户或组织定制的特定行为和安全规范（spec）来管理。这些规范，分类为安全规范和行为规范，因场景不同而各异，并且随着偏好的改变和需求的变化而不断发展。我们将这一挑战形式化为规范对齐问题，重点关注LLM遵循动态、场景特定的行为和安全规范的能力。为了解决这个挑战，我们提出了Align3，这是一种轻量级的方法，采用了测试时推理（Test-Time Deliberation, TTD），利用分层反思和修订来推理规范边界。我们进一步提出了SpecBench，这是一个用于测量规范对齐的统一基准，涵盖了5个场景，103个规范和1500个提示。在15个推理模型和18个指令模型上进行的实验，使用了包括Self-Refine、TPO和MoreThink在内的多种TTD方法，得出了三个关键发现：（i）测试时推理增强了规范对齐性；（ii）Align3以最小的开销推进了安全性与有用性之间的权衡前沿；（iii）SpecBench有效揭示了对齐中的差距。这些结果强调了测试时推理作为在真实场景中的规范边界推理的有效策略的潜力。\n\n作者: 张浩然, 李亚夫, 胡旭阳, 刘冬瑞, 王志林, 李波, 程羽\n\n评论: 正文10页，总共52页（包括附录）\n\n链接: https://arxiv.org/pdf/2509.14760.pdf\n\n标题: 2025 [2509.14760] 在边界上推理：通过测试时推理增强规范对齐",
+        "地址": "https://arxiv.org/pdf/2509.14760.pdf"
+    },
+    {
+        "名称": "2025 [2509.15194] Evolving Language Models without Labels: Majority Drives Selection, Novelty Promotes Variation.pdf",
+        "作者": "Yujun Zhou, Zhenwen Liang, Haolin Liu, Wenhao Yu, Kishan Panaganti, Linfeng Song, Dian Yu, Xiangliang Zhang, Haitao Mi, Dong Yu",
+        "摘要": "摘要：\n大型语言模型（LLMs）越来越多地使用可验证奖励的强化学习（RLVR）进行训练，但实际部署需要模型能在没有标签或外部裁判的情况下自我改进。现有的无标签方法，如信心最小化、自洽性或多数投票目标，虽然可以稳定学习，但逐渐减少探索，导致熵崩塌：生成变得更短、缺乏多样性且脆弱。不同于主要适应即时无标签数据集的Test-Time Reinforcement Learning (TTRL)，我们的目标更广泛：在不牺牲模型固有探索能力和推广能力的情况下实现整体改进，即进化。我们正式化了这个问题，并提出了进化导向的无标签强化学习（EVOL-RL），这是一个在无标签环境下将稳定性与变异性结合的简单规则。EVOL-RL 将多数投票答案作为稳定基准（选择），同时加入一种新奇感奖励，以偏好与已生成内容推理不同的回应（变异），在语义空间中测量。通过 GRPO 实现，EVOL-RL 还使用不对称剪裁以保留强信号，并使用熵正则化器维持搜索。这种选择多数 + 变异新奇设计防止了熵崩塌，保持了更长且信息更丰富的思维链条，提高了 pass@1 和 pass@n。在无标签 AIME24 上训练时，EVOL-RL 将 Qwen3-4B-Base 的 AIME25 pass@1 从 TTRL 的 4.6% 提升至 16.4%，pass@16 从 18.5% 提升至 37.9%。EVOL-RL 不仅防止了多样性崩塌，还解锁了跨域更强的泛化能力（例如，GPQA）。此外，我们证明 EVOL-RL 还提升了 RLVR 环境下的性能，突显了其广泛适用性。\n\n作者：\n周宇峻，梁振文，刘昊霖，余文浩，Kishan Panaganti，宋霖风，余殿，张向亮，米海涛，余东\n\n标题：\n《2025: 无标签进化语言模型：多数驱动选择，新奇促进变异》（https://arxiv.org/pdf/2509.15194.pdf）",
+        "地址": "https://arxiv.org/pdf/2509.15194.pdf"
+    },
+    {
+        "名称": "2025 [2509.15185] Understand Before You Generate: Self-Guided Training for Autoregressive Image Generation.pdf",
+        "作者": "Xiaoyu Yue, Zidong Wang, Yuqing Wang, Wenlong Zhang, Xihui Liu, Wanli Ouyang, Lei Bai, Luping Zhou",
+        "摘要": "摘要：最近的研究表明，在图像生成中高质量视觉表征的重要性，并指出生成模型在图像理解方面的局限性。作为最初为自然语言设计的生成范式，自回归模型面临类似的挑战。在这项工作中，我们进行首次系统调查，研究如何将下一个词预测范式应用于视觉领域。我们确定了妨碍高层次视觉语义学习的三个关键属性：局部和条件依赖、跨步语义不一致性及空间不变性缺乏。我们展示了通过在训练中引入自监督目标可以有效解决这些问题，进而提出一种新训练框架——自引导训练自回归模型（ST-AR）。在不依赖预训练表征模型的情况下，ST-AR显著提升了自回归模型的图像理解能力，并提高了生成质量。具体来说，ST-AR在保持相同比样策略的同时，使LlamaGen-L的FID提升了约42%，LlamaGen-XL的FID提升了约49%。",
+        "地址": "https://arxiv.org/pdf/2509.15185.pdf"
+    },
+    {
+        "名称": "2025 [2509.13160] FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning.pdf",
+        "作者": "Liang Hu, Jianpeng Jiao, Jiashuo Liu, Yanle Ren, Zhoufutu Wen, Kaiyuan Zhang, Xuanliang Zhang, Xiang Gao, Tianci He, Fei Hu, Yali Liao, Zaiyuan Wang, Chenghao Yang, Qianyu Yang, Mingren Yin, Zhiyuan Zeng, Ge Zhang, Xinyi Zhang, Xiying Zhao, Zhenwei Zhu, Hongseok Namkoong, Wenhao Huang, Yuwen Tang",
+        "摘要": "摘要：搜索已经成为基于大型语言模型（LLM）的代理的核心基础设施，并被广泛认为是通往更通用智能的重要途径。金融是一个特别具有挑战性的试验场：分析师经常在时效性强的特定领域数据上进行复杂的多步搜索，使其成为评估搜索能力和基于知识推理的理想领域。然而，目前没有现有的开放金融数据集可以评估端到端代理的数据搜索能力，主要是因为构建现实、复杂的任务需要深厚的金融专业知识，并且时效性数据很难评估。我们提出了FinSearchComp，这是首个完全开源的针对现实、开放领域金融搜索和推理的代理基准。FinSearchComp包含三个任务——时效性数据获取、简单历史查询和复杂历史调查——紧密再现了现实世界中的金融分析师工作流程。为了确保难度和可靠性，我们邀请了70位专业金融专家进行注释，并实施了严格的多阶段质量保证流程。该基准包括635个问题，涵盖全球和大中华市场，并评估了21个模型（产品）。Grok 4（web）在全球子集中表现最佳，接近专家级准确度。豆宝（web）在大中华子集上领先。实验分析表明，使用网络搜索和金融插件配备代理能够显著提高FinSearchComp的结果，模型和工具的国家来源也会影响性能。通过与现实的分析师任务对齐并提供端到端评估，FinSearchComp提供了一个专业、高难度的复杂金融搜索和推理测试平台。\n\n翻译：\n搜索已经成为基于大型语言模型(LLM)的代理的核心基础设施，并被广泛认为是在通向更普遍的智能的道路上至关重要的一步。金融领域是一个要求苛刻的实验场：分析师通常会在时间敏感的、特定领域的数据上执行复杂的多步骤搜索，使其成为评估搜索能力和基于知识的推理的理想选择。然而，目前没有现有的开放金融数据集评估端到端代理的数据搜索能力，主要是因为构建现实且复杂的任务需要深厚的金融专业知识且时间敏感数据很难评估。我们提出了FinSearchComp，这是首个完全开源的现实的、开放领域的金融搜索和推理的代理基准。FinSearchComp包含三个任务——时间敏感数据获取、简单历史查询和复杂历史调查——紧密重现了现实世界金融分析师的工作流程。为了确保难度和可靠性，我们邀请了70位专业金融专家进行注释，并实施了严格的多阶段质量保证流程。该基准包括635个问题，涵盖全球和大中华市场，并在此基础上评估了21个模型(产品)。Grok 4(web)在全球子集上排名第一，接近专家级别的准确性。豆宝(web)在大中华子集上表现最好。实验分析表明，装备了网络搜索和金融插件的代理在FinSearchComp上的结果显著提高，并且模型和工具的来源国会影响其表现。通过与现实的分析师任务对齐并提供端到端评估，FinSearchComp提供了一个专业、高难度的测试平台，用于复杂的金融搜索和推理。",
+        "地址": "https://arxiv.org/pdf/2509.13160.pdf"
+    },
+    {
+        "名称": "2025 [2509.15212] RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation.pdf",
+        "作者": "Yuming Jiang, Siteng Huang, Shengke Xue, Yaxi Zhao, Jun Cen, Sicong Leng, Kehan Li, Jiayan Guo, Kexiang Wang, Mingxiu Chen, Fan Wang, Deli Zhao, Xin Li",
+        "摘要": "摘要：本文介绍了RynnVLA-001，一种基于大规模视频生成预训练的人类演示构建的视觉-语言-动作（VLA）模型。我们提出了一种新颖的两阶段预训练方法。第一阶段，基于第一人称视频生成预训练，通过在1200万条第一人称操作视频上训练的图像到视频模型，以预测未来的帧，条件是初始帧和语言指令。第二阶段，基于人为中心的轨迹感知建模，通过联合预测未来的关键点轨迹来扩展这一点，从而有效地将视觉帧预测与动作预测连接起来。此外，为了增强动作表示，我们提出了ActionVAE，一种变分自编码器，可以将动作序列压缩为紧凑的潜在嵌入，减少了VLA输出空间的复杂性。当在相同的下游机器人数据集上进行微调时，RynnVLA-001比最新的基线表现更出色，证明了所提出的预训练策略为VLA模型提供了更有效的初始化。\n\n作者：蒋雨明, 黄思腾, 薛盛科, 赵亚曦, 岑军, 冷思聪, 李克涵, 郭佳妍, 王克翔, 陈明秀, 王凡, 赵德力, 李鑫\n\n评论：GitHub项目：此HTTPS URL\n\n网址：https://arxiv.org/pdf/2509.15212.pdf\n\n标题：2025 [2509.15212] RynnVLA-001：利用人类演示改善机器人操作",
+        "地址": "https://arxiv.org/pdf/2509.15212.pdf"
+    },
+    {
+        "名称": "2025 [2509.14476] AToken: A Unified Tokenizer for Vision.pdf",
+        "作者": "Jiasen Lu, Liangchen Song, Mingze Xu, Byeongjoo Ahn, Yanjun Wang, Chen Chen, Afshin Dehghan, Yinfei Yang",
+        "摘要": "摘要：我们提出AToken，这是第一个统一的视觉标记器，实现了图像、视频和3D资产的高保真重建和语义理解。与现有专门针对单一模态进行重建或理解的标记器不同，AToken将这些不同的视觉输入编码到一个共享的4D潜在空间中，在一个框架中统一了这两项任务和模态。具体来说，我们引入了一种纯变压器架构，具有4D旋转位置嵌入，可以处理任意分辨率和时间持续的视觉输入。为了确保稳定训练，我们引入了一种无对抗训练目标，结合感知和Gram矩阵损失，实现了最新的重建质量。通过采用渐进式训练课程，AToken逐渐从单一图像、视频扩展到3D，支持连续和离散潜在标记。AToken在图像上实现了0.21的rFID和82.2%的ImageNet准确率，视频上实现了3.01的rFVD和32.6%的MSRVTT检索率，3D上实现了28.19的PSNR和90.9%的分类准确率。在下游应用中，AToken支持视觉生成任务（例如，使用连续和离散标记进行图像生成、文本到视频生成、图像到3D合成）和理解任务（例如，多模态LLMs），在所有基准测试中实现了有竞争力的性能。这些结果为基于统一视觉标记的下一代多模态AI系统提供了启示。\n\n翻译：\n\n我们提出了AToken，这是第一个统一的视觉标记器，实现了图像、视频和3D资产的高保真重建和语义理解。与现有标记器专注于单一模态重建或理解不同，AToken将这些不同的视觉输入编码到共享的4D潜空间中，在一个框架中统一了这些任务和模态。具体来说，我们引入了一种纯变换器架构，带有4D旋转位置嵌入，可以处理任意分辨率和时间长度的视觉输入。为了确保稳定训练，我们引入了一种无对抗训练目标，结合感知损失和Gram矩阵损失，实现了最先进的重建质量。通过采用渐进式训练课程，AToken从单一图像、视频逐渐扩展到3D，并支持连续和离散的潜标记。AToken在图像上实现了0.21 rFID和82.2%的ImageNet准确率，视频上达到3.01 rFVD和32.6%的MSRVTT检索率，而3D上有28.19 PSNR和90.9%的分类准确率。在下游应用中，AToken支持视觉生成任务（例如使用连续和离散标记进行图像生成，文本到视频生成，图像到3D合成）和理解任务（例如多模态大语言模型），在所有测试中实现了竞争性的性能。这些结果为基于统一视觉标记的下一代多模态人工智能系统提供了新的视角。",
+        "地址": "https://arxiv.org/pdf/2509.14476.pdf"
+    },
+    {
+        "名称": "2025 [2509.15130] WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance.pdf",
+        "作者": "Chenxi Song, Yanming Yang, Tong Zhao, Ruibo Li, Chi Zhang",
+        "摘要": "摘要：最近的视频扩散模型在空间智能任务中展示了强大的潜力，因为它们具有丰富的潜在世界先验知识。然而，由于控制能力有限和几何不一致性，这种潜力受到了限制，导致它们在3D/4D任务中强大的先验知识和实际使用之间存在差距。因此，目前的方法通常依赖于重新训练或微调，这有可能会降解预训练的知识并带来高计算成本。为了解决这个问题，我们提出了WorldForge，这是一种由三个紧密耦合模块组成的无训练推理框架。Intra-Step Recursive Refinement在推理过程中引入递归细化机制，在每个去噪步骤中反复优化网络预测，从而实现精确的轨迹注入。Flow-Gated Latent Fusion利用光流相似性在潜在空间中分离运动和外观，并选择性地向与运动相关的通道注入轨迹引导。Dual-Path Self-Corrective Guidance比较有引导和无引导的去噪路径，自适应地纠正由噪声或未对齐的结构信号引起的轨迹漂移。这些组件共同在无需训练的情况下注入细粒度、轨迹对齐的引导，实现了精确的运动控制和逼真的内容生成。通过在不同基准上的广泛实验验证了我们方法在真实感、轨迹一致性和视觉保真度方面的优势。这项工作引入了一种新的可控视频合成即插即用范式，为利用生成先验知识进行空间智能提供了新的视角。",
+        "地址": "https://arxiv.org/pdf/2509.15130.pdf"
+    },
+    {
+        "名称": "2025 [2509.14638] MultiEdit: Advancing Instruction-based Image Editing on Diverse and Challenging Tasks.pdf",
+        "作者": "Mingsong Li, Lin Liu, Hongjun Wang, Haoxing Chen, Xijun Gu, Shizhan Liu, Dong Gong, Junbo Zhao, Zhenzhong Lan, Jianguo Li",
+        "摘要": "摘要：当前的基于指令的图像编辑（IBIE）方法在处理具有挑战性的编辑任务时表现欠佳，因为现有数据集的编辑类型和样本数量有限。此外，传统的数据集构建往往包含噪声图像-标题对，这可能引入偏差并在复杂编辑场景中限制模型的能力。为了解决这些限制，我们引入了MultiEdit，这是一个包含超过107K高质量图像编辑样本的综合数据集。它涵盖了多达6个具有挑战性的编辑任务，通过18种非风格转换编辑类型和38种风格转换操作的多样集合，涉及从复杂风格转换到复杂语义操作（如人物参考编辑和图像内文本编辑）。我们采用了一个新颖的数据集构建管道，利用两个多模态大语言模型（MLLMs）分别生成视觉适应编辑指令和生成高保真编辑图像。大量实验表明，使用我们的MultiEdit-Train数据集对基础开源模型进行微调，显著提升了模型在我们提出的MultiEdit-Test基准上处理复杂编辑任务的性能，同时有效保留了其在标准编辑基准上的能力。我们相信MultiEdit为推进多样且具有挑战性的IBIE能力的研究提供了宝贵资源。我们的数据集可在此链接获取。\n\n作者：李明松、刘林、王洪军、陈浩星、顾曦俊、刘世枕、龚东、赵俊博、蓝振中、李建国\n\n链接：https://arxiv.org/pdf/2509.14638.pdf\n\n标题：2025 [2509.14638] MultiEdit: Advancing Instruction-based Image Editing on Diverse and Challenging Tasks.pdf",
+        "地址": "https://arxiv.org/pdf/2509.14638.pdf"
+    },
+    {
+        "名称": "2025 [2509.14233] Apertus: Democratizing Open and Compliant LLMs for Global Language Environments.pdf",
+        "作者": "Alejandro Hernández-Cano, Alexander Hägele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank Ďurech, Ido Hakimi, Juan García Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabolčec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, Ines Altemir Marinas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian Bösch, Maximilian Böther, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, María Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike Lübeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendoncça, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, Léo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tramèr, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag",
+        "摘要": "摘要: 我们介绍了Apertus，这是一个完全开放的大型语言模型（LLM）套件，旨在解决当前开放模型生态系统中的两个系统性缺陷：数据合规性和多语言表示。与许多之前发布权重但没有可重现数据管道或未考虑内容所有者权利的模型不同，Apertus模型仅用公开可获得的数据进行预训练，并尊重URL排除和过滤非允许性、有害和个人可识别内容。为减少记忆风险，我们在预训练过程中采用Goldfish目标，强烈抑制逐字回忆数据，同时保留下游任务性能。Apertus模型还扩展了多语言覆盖，使用来自超过1800种语言的15T标记进行训练，其中约40%的预训练数据分配给非英语内容。Apertus模型在8B和70B规模下发布，在多语言基准测试中接近最先进的完全开放模型结果，媲美或超越其他开放权重模型。除了模型权重外，我们还发布了开发周期中的所有科学成果，并采用宽松的许可，包括数据准备脚本、检查点、评估套件和训练代码，从而实现透明的审计和扩展。\n\n来源: https://arxiv.org/pdf/2509.14233.pdf\n标题: 2025 [2509.14233] Apertus: 民主化全球语言环境的开放和合规LLM\n作者: Alejandro Hernández-Cano, Alexander Hägele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank Ďurech, Ido Hakimi, Juan García Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabolčec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, Ines Altemir Marinas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian Bösch, Maximilian Böther, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, María Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike Lübeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendoncça, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, Léo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tramèr, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag",
+        "地址": "https://arxiv.org/pdf/2509.14233.pdf"
+    },
+    {
+        "名称": "2025 [2509.10397] RecoWorld: Building Simulated Environments for Agentic Recommender Systems.pdf",
+        "作者": "Fei Liu, Xinyu Lin, Hanchao Yu, Mingyuan Wu, Jianyu Wang, Qiang Zhang, Zhuokai Zhao, Yinglong Xia, Yao Zhang, Weiwei Li, Mingze Gao, Qifan Wang, Lizhu Zhang, Benyu Zhang, Xiangjun Fan",
+        "摘要": "摘要：我们介绍了RecoWorld，这是一个为代理推荐系统构建模拟环境的蓝图。这类环境为代理提供了一个适当的训练空间，使其能够在不影响真实用户的情况下从错误中学习。RecoWorld的特点在于其双视角架构：一个模拟用户与一个代理推荐系统参与多轮互动，旨在最大化用户留存率。用户模拟器评审推荐项目，更新其心态，当感知到用户可能失去参与时，生成反思性指示。代理推荐系统通过整合这些用户指示和推理痕迹来调整其推荐，形成一个动态反馈回路，积极吸引用户。这个过程利用了现代大规模语言模型（LLM）的卓越推理能力。我们探索了模拟器内不同内容表示形式，包括基于文本、多模态和语义ID建模，并讨论了多轮强化学习如何通过迭代交互使推荐系统优化其策略。RecoWorld还支持多代理模拟，允许创建者模拟目标用户群体的反应。它标志着向用户与代理共同塑造个性化信息流的推荐系统迈出了重要的第一步。我们展望了新的交互模式，在这些模式中“用户指示，推荐器响应”，共同优化用户留存率和参与度。",
+        "地址": "https://arxiv.org/pdf/2509.10397.pdf"
+    },
+    {
+        "名称": "2025 [2509.15178] Unleashing the Potential of Multimodal LLMs for Zero-Shot Spatio-Temporal Video Grounding.pdf",
+        "作者": "Zaiquan Yang, Yuhao Liu, Gerhard Hancke, Rynson W.H. Lau",
+        "摘要": "摘要：时空视频定位（STVG）旨在根据输入的文本查询定位视频的时空区域。在本文中，我们利用多模态大语言模型（MLLMs）探索了一种在STVG中的零样本解决方案。我们揭示了关于MLLMs的两个关键见解：（1）MLLMs倾向于动态分配特殊标记，称为“定位标记”（grounding tokens），用于定位文本查询；（2）由于无法完全整合文本查询中的线索（例如，属性、动作）进行推理，MLLMs常常面临次优定位。基于这些见解，我们提出了一种基于MLLM的STVG零样本框架，该框架包括新颖的分解时空突出（DSTH）和时间增强组装（TAS）策略，以释放MLLM的推理能力。DSTH策略首先将原始查询解耦为属性和动作子查询，以分别在空间和时间上查询目标的存在。然后使用一种新颖的逻辑引导的重注意力（LRA）模块，通过规范每个子查询的标记预测来学习潜变量作为时空提示。这些提示突出显示属性和动作线索，分别引导模型关注可靠的时空相关视觉区域。此外，由于属性子查询的空间定位应该在时间上一致，我们引入TAS策略，使用原始视频帧和时间增强帧作为输入来组装预测，以帮助提高时间一致性。我们在各种MLLMs上评估了我们的方法，结果表明它在三个常见的STVG基准上优于现有的最先进方法。代码将在此HTTPS URL中提供。\n\nURL：https://arxiv.org/pdf/2509.15178.pdf\n\n标题：2025 [2509.15178] 释放多模态LLMs的潜力，用于零样本时空视频定位\n\n作者：Zaiquan Yang, Yuhao Liu, Gerhard Hancke, Rynson W.H. Lau",
+        "地址": "https://arxiv.org/pdf/2509.15178.pdf"
+    },
+    {
+        "名称": "2025 [2509.13399] EdiVal-Agent: An Object-Centric Framework for Automated, Scalable, Fine-Grained Evaluation of Multi-Turn Editing.pdf",
+        "作者": "Tianyu Chen, Yasi Zhang, Zhi Zhang, Peiyu Yu, Shu Wang, Zhendong Wang, Kevin Lin, Xiaofei Wang, Zhengyuan Yang, Linjie Li, Chung-Ching Lin, Jianwen Xie, Oscar Leong, Lijuan Wang, Ying Nian Wu, Mingyuan Zhou",
+        "摘要": "摘要：基于指令的图像编辑技术发展迅速，但可靠且可解释的评估仍是瓶颈。当前的评估协议要么依赖于成对的参考图像——导致覆盖面有限并继承了先前生成模型的偏见——要么完全依靠零样本视觉-语言模型（VLMs），其基于提示的指令遵循、内容一致性和视觉质量评估往往不准确。为解决这一问题，我们引入EdiVal-Agent，这是一种自动化、可扩展且细粒度的评估框架，从对象中心视角进行多轮基于指令的编辑评估，并支持一套专家工具。给定一张图像，EdiVal-Agent首先将其分解为语义上有意义的对象，然后合成多样的、上下文相关的编辑指令。对于评估，它结合VLMs与开放词汇对象检测器来评估指令遵循，使用语义级别特征提取器评估内容一致性，并利用人类偏好模型来判断视觉质量。我们显示，将VLMs与对象检测器结合相比单独使用VLMs和基于CLIP的指标在指令遵循评估中与人类判断的一致性更强。此外，管道的模块化设计允许未来工具无缝集成，从而随着时间的推移提高评估准确性。在具体实施该管道时，我们建立了EdiVal-Bench，一个涵盖9种指令类型和11种最先进编辑模型的多轮编辑基准，跨越自回归（AR）（包括Nano Banana，GPT-Image-1）、流匹配和扩散范式。我们证明了EdiVal-Agent能够识别现有的失效模式，从而为下一代编辑模型的发展提供信息。项目页面：此https URL。",
+        "地址": "https://arxiv.org/pdf/2509.13399.pdf"
+    },
+    {
+        "名称": "2025 [2509.15020] Mind the Gap: A Closer Look at Tokenization for Multiple-Choice Question Answering with LLMs.pdf",
+        "作者": "Mario Sanz-Guerrero, Minh Duc Bui, Katharina von der Wense",
+        "摘要": "摘要：在使用多项选择题问答（MCQA）评估大型语言模型（LLMs）时，通常在提示末尾添加字符串 \"Answer:\"，以通过下一个标记概率来实现自动答案提取。然而，如何对冒号后面的空格进行标记并无共识，往往被视为无关紧要的选择。在本文中，我们揭示了由于这种（看似无关的）标记变化导致的准确率差异高达11%，并且重新排列了模型排名，这引发了对之前工作中LLM比较可靠性的担忧。令人惊讶的是，我们能够推荐一种特定的策略——将空格与答案字母一起标记——因为我们观察到了持续且在统计上显著的性能提升。此外，这提高了模型的校准能力，增强了模型置信度估计的可靠性。我们的研究结果强调了精心设计评估的重要性，并突出了需要标准化、透明的评估协议，以确保结果的可靠性和可比性。\n\nauthors: Mario Sanz-Guerrero, Minh Duc Bui, Katharina von der Wense\n\n评论: 已被EMNLP 2025主会议接受\n\nURL: [https://arxiv.org/pdf/2509.15020.pdf](https://arxiv.org/pdf/2509.15020.pdf)\n\n标题: 2025 [2509.15020] 注意差距：对LLMs多项选择题问答标记的仔细观察",
+        "地址": "https://arxiv.org/pdf/2509.15020.pdf"
+    },
+    {
+        "名称": "2025 [2509.09307] Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization.pdf",
+        "作者": "Zhengzhao Lai, Youbin Zheng, Zhenyang Cai, Haonan Lyu, Jinpu Yang, Hongqing Liang, Yan Hu, Benyou Wang",
+        "摘要": "以下是论文的摘要翻译：\n\n摘要：材料表征是获取材料信息、揭示指导材料设计和优化的加工-微观结构-性能关系的基础。尽管多模态大型语言模型（MLLM）最近在材料科学中的生成和预测任务中显示出潜力，但它们理解真实表征成像数据的能力仍未被充分探索。为弥补这一差距，我们提出了MatCha，这是首个用于材料表征图像理解的基准，包含1500个需要专家级领域知识的问题。MatCha涵盖材料研究的四个关键阶段，包括21个不同的任务，每个任务设计用于反映材料科学家面临的真实挑战。我们对最先进的MLLM在MatCha上的评估揭示了与人类专家相比的显著性能差距。这些模型在处理需要更高级专业知识和复杂视觉感知的问题时表现退化。简单的少样本和连锁思维提示难以缓解这些限制。这些发现表明现有的MLLM在适应现实世界材料表征场景方面仍然有限。我们希望MatCha将促进新材料发现和自主科学代理等领域的未来研究。MatCha可通过以下网址获取：https://arxiv.org/pdf/2509.09307.pdf。",
+        "地址": "https://arxiv.org/pdf/2509.09307.pdf"
+    },
+    {
+        "名称": "2025 [2509.06216] Agentic Software Engineering: Foundational Pillars and a Research Roadmap.pdf",
+        "作者": "Ahmed E. Hassan, Hao Li, Dayi Lin, Bram Adams, Tse-Hsun Chen, Yutaro Kashiwa, Dong Qiu",
+        "摘要": "摘要：代理软件工程（SE 3.0）代表了一个新时代，其中智能代理不再仅仅用于简单的代码生成，而是用来实现复杂的、目标导向的软件工程任务。为了利用这些新能力并确保其可信性，我们必须在代理软件工程时代中认识到软件工程领域内的根本二重性，包括两个共生的模式：为人类服务的软件工程和为代理服务的软件工程。这一二重性要求从根本上重新构想软件工程的基础支柱（参与者、流程、工具和工件），因为它们在每种模式下的表现是不同的。我们提出了两个专门设计的工作台来支持这一愿景。代理指挥环境（ACE）作为指挥中心，人类在其中协调和指导代理团队，处理如合并准备包（MRPs）和咨询请求包（CRPs）等输出。代理执行环境（AEE）是一个数字工作空间，代理在其中执行任务，并在面临不明确或复杂权衡时调用人类的专业知识。这种双向合作支持代理发起的人类回调和交接，催生了新的、结构化的工程活动（即流程），重新定义了人类与人工智能的协作，将实践从代理编程提升到真正的代理软件工程。本文提出了结构化代理软件工程（SASE）愿景，概述了未来软件工程的几个基础支柱。文章最终列出了一条研究路线图，确定了一些关键挑战和机遇，同时简要讨论了这一未来对软件工程教育的影响。我们的目标不是提供一个确定的解决方案，而是提供一个概念框架和结构化的词汇，促进整个社区的对话，推动软件工程社区超越其经典的人类中心论走向一个有纪律、可扩展和可信赖的代理未来。\n\n作者：Ahmed E. Hassan, Hao Li, Dayi Lin, Bram Adams, Tse-Hsun Chen, Yutaro Kashiwa, Dong Qiu",
+        "地址": "https://arxiv.org/pdf/2509.06216.pdf"
+    },
+    {
+        "名称": "2025 [2509.14977] EchoVLM: Dynamic Mixture-of-Experts Vision-Language Model for Universal Ultrasound Intelligence.pdf",
+        "作者": "Chaoyin She, Ruifang Lu, Lida Chen, Wei Wang, Qinghua Huang",
+        "摘要": "摘要：超声成像因其无电离辐射、成本低和实时成像能力，已成为早期癌症筛查的首选成像方式。然而，传统的超声诊断严重依赖于医生的专业知识，带来了高主观性和低诊断效率的问题。视觉-语言模型（VLMs）为解决此问题提供了有希望的解决方案，但现有的通用模型在超声医学任务中表现出知识有限，多器官病变识别的泛化性差且多任务诊断效率低。为了解决这些限制，我们提出了EchoVLM，这是一种专为超声医学影像设计的视觉-语言模型。该模型采用了一种混合专家（MoE）架构，在涵盖七个解剖区域的数据上进行训练。该设计使模型能够执行多项任务，包括超声报告生成、诊断和视觉问答（VQA）。实验结果表明，EchoVLM在超声报告生成任务中，BLEU-1得分和ROUGE-1得分分别显著提高了10.15和4.77点，相比Qwen2-VL。这些发现表明EchoVLM具有显著提高超声成像诊断准确性的潜力，从而为未来的临床应用提供了可行的技术解决方案。源代码和模型权重可以在该网址获取： https://arxiv.org/pdf/2509.14977.pdf",
+        "地址": "https://arxiv.org/pdf/2509.14977.pdf"
+    },
+    {
+        "名称": "2025 [2509.10402] Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality.pdf",
+        "作者": "Suzhen Zhong, Ying Zou, Bram Adams",
+        "摘要": "摘要: 大型语言模型（LLMs）正成为现代软件开发工作流的重要组成部分，通过自然语言对话帮助开发人员进行代码生成、API解释和迭代问题解决。尽管广泛采用，开发人员如何实际与LLMs互动以及这些对话动态如何影响任务结果、代码质量和软件工程工作流的理解仍然有限。为了解决这一问题，我们利用了CodeChat，这是一个包含82,845个实际开发者与LLM对话的大型数据集，包含从WildChat数据集衍生出的368,506个跨越20多种编程语言生成的代码片段。我们发现LLM的响应比开发人员的提示长得多，中位数的令牌长度比为14:1。多轮对话占据了数据集的68%，并且经常由于需求变化、不完整的提示或澄清请求而演变。主题分析确定了网页设计（9.6%对话）和神经网络训练（8.7%对话）是LLM辅助的最频繁任务。在五种语言（即Python、JavaScript、C++、Java和C#）中进行的评估揭示了LLM生成代码中普遍存在的和特定语言的问题：生成的Python和JavaScript代码经常包括未定义的变量（分别为83.4%和75.3%的代码片段）；Java代码缺乏必要的注释（75.9%）；C++代码频繁遗漏头文件（41.1%）和C#代码显示未解析的命名空间（49.2%）。在对话期间，语法和导入错误会跨轮次持续存在；然而，在5轮对话中，Java的文档质量提高了14.7%，Python的导入处理提高了3.7%。指出先前轮次生成代码中的错误并明确请求修正的提示对于解决错误最为有效。",
+        "地址": "https://arxiv.org/pdf/2509.10402.pdf"
+    },
+    {
+        "名称": "2025 [2509.06482] FSG-Net: Frequency-Spatial Synergistic Gated Network for High-Resolution Remote Sensing Change Detection.pdf",
+        "作者": "Zhongxiang Xie, Shuangxi Miao, Yuhan Jiang, Zhewei Zhang, Jing Yao, Xuecao Li, Jianxi Huang, Pedram Ghamisi",
+        "摘要": "摘要：从高分辨率遥感图像中进行变化检测是地球观测应用的基石，但其效果往往受到两个关键挑战的影响。首先，由于模型将辐射度的变化（如照明、季节）误解为真实的变化，导致误报普遍存在。其次，深层抽象特征与浅层细节丰富特征之间的语义差距常常阻碍它们的有效融合，最终导致边界难以清晰 deline。为进一步解决这些问题，我们提出了频率-空间协同门控网络（FSG-Net），一种旨在系统性地分离语义变化和干扰变化的新范式。具体而言，FSG-Net首先在频域中运行，其中一个差异感知小波交互模块（DAWIM）通过有区别地处理不同的频率成分，自适应地缓解伪变化。随后，精炼后的特征在空间域中通过协同时空注意模块（STSAM）得到了增强，突出了真实变化区域的显著性。为了最终弥合语义差距，轻量化门控融合单元（LGFU）利用高层语义选择性地门控和整合来自浅层的关键细节。在CDD、GZ-CD和LEVIR-CD等基准上的综合实验验证了FSG-Net的优越性，分别以94.16%、89.51%和91.27%的F1分数建立了新的最先进水平。代码将在可能发表后在此https URL上提供。",
+        "地址": "https://arxiv.org/pdf/2509.06482.pdf"
+    }
+]
