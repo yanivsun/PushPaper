@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2509.16198] RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation.pdf",
+        "作者": "Jane Luo, Xin Zhang, Steven Liu, Jie Wu, Yiming Huang, Yangyu Huang, Chengyu Yin, Ying Xin, Jianfeng Liu, Yuefeng Zhan, Hao Sun, Qi Chen, Scarlett Li, Mao Yang",
+        "摘要": "摘要：大型语言模型在函数级和文件级代码生成方面表现出色，但从零开始生成完整的代码库仍然是一个根本挑战。这个过程需要在提案和实现阶段之间进行连贯且可靠的规划，而自然语言由于其模糊性和冗长性，不适合忠实地表示复杂的软件结构。为了解决这个问题，我们引入了代码库规划图（Repository Planning Graph，RPG），一种统一提案级和实现级规划的持久表示，通过在一个图中编码能力、文件结构、数据流和函数，RPG用明确的蓝图替代了模糊的自然语言，使得长时间跨度的规划和可扩展的代码库生成成为可能。基于RPG，我们开发了ZeroRepo，一个从零开始的图驱动代码库生成框架。它分为三个阶段：提案级规划和实现级细化以构建图，然后通过图引导代码生成和测试验证。为了评估这种设定，我们构建了RepoCraft，一个包含六个真实世界项目和1,052个任务的基准。在RepoCraft上，ZeroRepo生成的代码库平均近36K行代码，大约是最强基线（Claude Code）的3.9倍，是其他基线的约64倍。它达到了81.5%的功能覆盖率和69.7%的通过率，分别比Claude Code高27.3和35.8个百分点。进一步分析显示RPG能够建模复杂的依赖关系，通过近线性扩展促进渐进式复杂规划，并加强LLM对代码库的理解，从而加速代理定位。",
+        "地址": "https://arxiv.org/pdf/2509.16198.pdf"
+    },
+    {
+        "名称": "2025 [2509.16197] MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision Tokenizer.pdf",
+        "作者": "Yanghao Li, Rui Qian, Bowen Pan, Haotian Zhang, Haoshuo Huang, Bowen Zhang, Jialing Tong, Haoxuan You, Xianzhi Du, Zhe Gan, Hyunjik Kim, Chao Jia, Zhenbang Wang, Yinfei Yang, Mingfei Gao, Zi-Yi Dou, Wenze Hu, Chang Gao, Dongxu Li, Philipp Dufter, Zirui Wang, Guoli Yin, Zhengdong Zhang, Chen Chen, Yang Zhao, Ruoming Pang, Zhifeng Chen",
+        "摘要": "摘要: 统一的多模态大语言模型（LLMs）能够理解和生成视觉内容，具有巨大的潜力。然而，现有的开源模型在这些能力之间往往存在性能折中。我们提出了Manzano，一个简单且可扩展的统一框架，通过将混合图像分词器与精心策划的训练方法相结合，大大减少了这种紧张关系。一个共享的视觉编码器为两个轻量级适配器提供支持，这些适配器在一个共同的语义空间中生成用于图像到文本理解的连续嵌入和用于文本到图像生成的离散标记。一个统一的自回归LLM以文本和图像标记的形式预测高级语义，辅助扩散解码器随后将图像标记翻译成像素。该架构结合了对理解和生成数据的统一训练方法，实现了两种能力的可扩展联合学习。Manzano在统一模型中实现了最先进的结果，并在文本丰富的评估中与专业模型具有竞争力。我们的研究表明，任务冲突最小，模型规模的扩展带来了持续的收益，验证了我们选择混合分词器的设计决策。",
+        "地址": "https://arxiv.org/pdf/2509.16197.pdf"
+    },
+    {
+        "名称": "2025 [2509.15591] Latent Zoning Network: A Unified Principle for Generative Modeling, Representation Learning, and Classification.pdf",
+        "作者": "Zinan Lin, Enshu Liu, Xuefei Ning, Junyi Zhu, Wenyu Wang, Sergey Yekhanin",
+        "摘要": "摘要: 生成建模、表示学习和分类是机器学习 (ML) 的三个核心问题，但其最新技术 (SoTA) 解决方案在很大程度上是独立的。在本文中，我们提出一个问题：能否通过一个统一的原则来解决所有这三个问题? 这样的统一可以简化 ML 流水线并促进任务之间的更大协同作用。我们引入潜在分区网络 (LZN) 作为实现这一目标的一步。LZN 的核心在于创建一个共享的高斯潜在空间，该空间在所有任务中编码信息。每种数据类型 (例如图像、文本、标签) 配备有一个编码器，将样本映射到独立的潜在区，和一个解码器，将潜在变量映射回数据。ML 任务被表达为这些编码器和解码器的组合：例如，标签条件图像生成使用标签编码器和图像解码器；图像嵌入使用图像编码器；分类使用图像编码器和标签解码器。我们在三个日益复杂的场景中展示了 LZN 的潜力：(1) LZN 可以增强现有模型 (图像生成)：与最新的修正流模型结合时，LZN 在 CIFAR10 上将 FID 从 2.76 提高到 2.59 —— 无需修改训练目标。(2) LZN 可以独立解决任务 (表示学习)：LZN 可以在没有辅助损失函数的情况下实现无监督表示学习，在 ImageNet 上的下游线性分类中分别超越了开创性的 MoCo 和 SimCLR 方法 9.3% 和 0.2%。(3) LZN 可以同时解决多个任务 (联合生成和分类)：通过设计，使用图像和标签编码器/解码器，LZN 同时执行这两个任务，改善了 FID 并在 CIFAR10 上实现了 SoTA 分类准确率。代码和训练模型可在此 https URL 获取。项目网站在此 https URL。",
+        "地址": "https://arxiv.org/pdf/2509.15591.pdf"
+    },
+    {
+        "名称": "2025 [2509.16127] BaseReward: A Strong Baseline for Multimodal Reward Model.pdf",
+        "作者": "Yi-Fan Zhang, Haihua Yang, Huanyu Zhang, Yang Shi, Zezhou Chen, Haochen Tian, Chaoyou Fu, Haotian Wang, Kai Wu, Bo Cui, Xu Wang, Jianfei Pan, Haotian Wang, Zhang Zhang, Liang Wang",
+        "摘要": "摘要：多模态大语言模型（MLLMs）的快速发展使得使它们与人类偏好对齐成为一个关键挑战。奖励模型（RMs）是实现这一目标的核心技术，但在学术界和工业界中，关于构建最先进的多模态奖励模型（MRMs）的系统指南目前仍然缺乏。通过详尽的实验分析，本文旨在提供一个清晰的“配方”来构建高性能的MRMs。我们系统性地调查了MRM开发管道中的每个关键组件，包括奖励建模范式（例如，Naive-RM，基于评论的RM，以及生成性RM）、奖励头架构、训练策略、数据整理（涵盖超过十种多模态和纯文本偏好数据集）、骨干模型和模型规模，以及集成方法。\n\n基于这些实验性见解，我们介绍了BaseReward，这是一个强大且高效的多模态奖励建模基准。BaseReward采用了一种简单但有效的架构，基于Qwen2.5-VL骨干，具有优化的两层奖励头，并且在精心整理的高质量多模态和纯文本偏好数据的混合上进行了训练。我们的结果显示，BaseReward在MM-RLHF-Reward Bench、VL-Reward Bench和Multimodal Reward Bench等主要基准上建立了新的SOTA，优于先前的模型。此外，为验证其在静态基准之外的实际效用，我们将BaseReward整合到现实世界的强化学习管道中，成功提升了MLLM在各种感知、推理和对话任务中的表现。这项工作不仅提供了一个顶级的MRM，更重要的是为社区提供了一个清晰、实证支持的指南，用于开发下一代MLLMs的稳健奖励模型。",
+        "地址": "https://arxiv.org/pdf/2509.16127.pdf"
+    },
+    {
+        "名称": "2025 [2509.14981] SPATIALGEN: Layout-guided 3D Indoor Scene Generation.pdf",
+        "作者": "Chuan Fang, Heng Li, Yixun Liang, Jia Zheng, Yongsen Mao, Yuan Liu, Rui Tang, Zihan Zhou, Ping Tan",
+        "摘要": "摘要：创建高保真度的室内环境3D模型对于设计、虚拟现实和机器人应用至关重要。然而，手动3D建模仍然耗时且劳动强度大。尽管生成式人工智能的最新进展已经实现了自动场景合成，但现有方法在平衡视觉质量、多样性、语义一致性和用户控制方面往往面临挑战。一个主要瓶颈是缺乏针对该任务的大规模高质量数据集。为了解决这一问题，我们引入了一个综合的合成数据集，包含12,328个结构化标注场景、57,440个房间和470万张照片级逼真的2D渲染图。利用该数据集，我们提出了SpatialGen，一种新型的多视角多模态扩散模型，生成逼真且语义一致的3D室内场景。给定一个3D布局和一个参考图像（源于文本提示），我们的模型从任意视角合成外观（彩色图像）、几何（场景坐标图）和语义（语义分割图），同时保持跨模态的空间一致性。在我们的实验中，SpatialGen始终生成比以前方法更优的结果。我们开源了我们的数据和模型，以支持社区并推动室内场景理解和生成领域的发展。",
+        "地址": "https://arxiv.org/pdf/2509.14981.pdf"
+    },
+    {
+        "名称": "2025 [2509.15496] Lynx: Towards High-Fidelity Personalized Video Generation.pdf",
+        "作者": "Shen Sang, Tiancheng Zhi, Tianpei Gu, Jing Liu, Linjie Luo",
+        "摘要": "摘要: 我们展示了 Lynx，这是一种从单个输入图像生成个性化视频的高保真模型。Lynx 建立在开源扩散变压器（DiT）基础模型之上，通过引入两个轻量级适配器确保身份保真。ID-适配器使用一体感重采样器将 ArcFace 派生的面部嵌入转换为用于条件设定的紧凑身份标记，而 Ref-适配器则通过交叉注意力将冻结参考通道中的密集 VAE 特征集成到所有变压器层中，注入细粒度的细节。这些模块共同实现了强大的身份保留，同时保持时间连贯性和视觉逼真性。通过在包含40个主体和20个无偏见提示的精选基准测试上进行评估，总计800个测试案例，Lynx 展示了出色的面部相似度、竞争性的提示跟随性和强大的视频质量，从而推进了个性化视频生成的现状。",
+        "地址": "https://arxiv.org/pdf/2509.15496.pdf"
+    },
+    {
+        "名称": "2025 [2509.15937] A Vision-Language-Action-Critic Model for Robotic Real-World Reinforcement Learning.pdf",
+        "作者": "Shaopeng Zhai, Qi Zhang, Tianyi Zhang, Fuxian Huang, Haoran Zhang, Ming Zhou, Shengzhe Zhang, Litao Liu, Sixu Lin, Jiangmiao Pang",
+        "摘要": "摘要：机器人视觉-语言-动作（VLA）模型的真实世界强化学习（RL）受限于稀疏的手工奖励和低效的探索。我们引入了VLAC，它是一个基于InternVL构建的通用过程奖励模型，并在大规模异质数据集上进行训练。给定成对的观察和一个语言目标，它输出密集的进度增量和完成信号，消除了任务特定的奖励工程，并支持对未见任务和环境的一次性上下文转移。VLAC在视觉-语言数据集上进行训练，以增强感知、对话和推理能力，同时结合机器人和人类轨迹数据，奠定行动生成和进度估计的基础，并通过构建大量负样本和语义不匹配样本来进一步增强拒绝无关提示以及检测回归或停滞的能力。通过提示控制，一个单一的VLAC模型交替生成奖励和行动标记，统一了评论者和政策。在异步真实世界的RL循环中部署时，我们分层了逐级的人类参与协议（离线示范重播、返回和探索、人类引导探索），加速了探索并稳定了早期学习。在四种不同的真实世界操纵任务中，VLAC将成功率从大约30%提高到大约90%在200个真实世界交互回合内；结合人类参与的干预进一步提高了样本效率50%，并最终实现了高达100%的成功率。\n\n作者：Shaopeng Zhai，Qi Zhang，Tianyi Zhang，Fuxian Huang，Haoran Zhang，Ming Zhou，Shengzhe Zhang，Litao Liu，Sixu Lin，Jiangmiao Pang\n\n评论：26页，10幅图\n\n链接：https://arxiv.org/pdf/2509.15937.pdf\n\n标题：2025 [2509.15937] 一个面向机器人真实世界强化学习的视觉-语言-动作-评论模型.pdf",
+        "地址": "https://arxiv.org/pdf/2509.15937.pdf"
+    },
+    {
+        "名称": "2025 [2509.15566] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent.pdf",
+        "作者": "Shaojie Zhang, Ruoceng Zhang, Pei Fu, Shaokang Wang, Jiahui Yang, Xin Du, Shiqi Cui, Bin Qin, Ying Huang, Zhenbo Luo, Jian Luan",
+        "摘要": "摘要：在人工智能驱动的人机图形用户界面交互自动化领域，尽管多模态大语言模型和强化微调技术的迅速进展取得了显著进步，但一个根本挑战依然存在：它们的交互逻辑与自然的人机图形用户界面通信模式显著偏离。为了弥补这一差距，我们提出了“眨-想-连”(Blink-Think-Link, BTL)，这是一个模仿用户与图形界面之间人类认知过程的人机图形用户界面交互的脑启发框架。该系统将交互分解为三个生物学上合理的阶段：(1)眨眼 - 快速检测并关注相关屏幕区域，类似于眼睛的快速移动；(2)思考 - 高层次推理和决策，反映认知规划；(3)连接 - 生成可执行命令以实现精确的运动控制，模拟人类动作选择机制。此外，我们为BTL框架引入了两个关键技术创新：(1)眨眼数据生成 - 一个专门优化用于眨眼数据的自动注释流水线；(2) BTL奖励 - 第一个基于规则的奖励机制，支持通过过程和结果驱动的强化学习。在此框架基础上，我们开发了一个名为BTL-UI的GUI代理模型，该模型在静态GUI理解和动态交互任务的全面基准测试中表现出持续的最先进性能。这些结果提供了框架在开发高级GUI代理方面效力的确凿经验验证。\n\n作者：Shaojie Zhang, Ruoceng Zhang, Pei Fu, Shaokang Wang, Jiahui Yang, Xin Du, Shiqi Cui, Bin Qin, Ying Huang, Zhenbo Luo, Jian Luan\n\n评论：已被NeurIPS 2025接受\n\n链接：https://arxiv.org/pdf/2509.15566.pdf\n\n标题：2025 [2509.15566] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent.pdf",
+        "地址": "https://arxiv.org/pdf/2509.15566.pdf"
+    },
+    {
+        "名称": "2025 [2509.15123] RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes.pdf",
+        "作者": "Fang Li, Hao Zhang, Narendra Ahuja",
+        "摘要": "摘要：尽管COLMAP长期以来是静态场景中相机参数优化的主要方法，但它受到运行时间长以及在动态场景中依赖于真实运动掩码（GT）的限制。许多尝试旨在通过结合更多的监督先验，例如GT焦距、运动掩码、3D点云、相机姿态和度量深度来改进它，然而这些通常在随意捕获的RGB视频中是不可用的。在本文中，我们提出了一种新颖的方法，称为ROS-Cam，仅通过单个RGB视频进行监督，以实现动态场景中更准确和高效的相机参数优化。我们的方法包括三个关键组件：（1）基于块的跟踪滤波器，以在RGB视频中建立健壮且尽可能稀疏的铰链式关系。（2）异常值感知联合优化，通过自适应降低运动异常值的权重来高效地进行相机参数优化，而无需依赖运动先验。（3）两阶段优化策略，通过在损失中在Softplus限制和凸极小值之间权衡以提高稳定性和优化速度。我们通过视觉和数据评估了我们的相机估算结果。为了进一步验证准确性，我们将相机估算结果输入到一个4D重建方法中，并评估由此生成的3D场景以及呈现的2D RGB和深度图。我们在4个真实世界数据集（NeRF-DS、DAVIS、iPhone和TUM-dynamics）和1个合成数据集（MPI-Sintel）上进行了实验，证明了我们的方法在仅有单个RGB视频作为监督的情况下更高效和准确地估算相机参数。",
+        "地址": "https://arxiv.org/pdf/2509.15123.pdf"
+    },
+    {
+        "名称": "2025 [2509.13989] Do You Hear What I Mean? Quantifying the Instruction-Perception Gap in Instruction-Guided Expressive Text-To-Speech Systems.pdf",
+        "作者": "Yi-Cheng Lin, Huang-Cheng Chou, Tzu-Chieh Wei, Kuan-Yu Chen, Hung-yi Lee",
+        "摘要": "摘要: 指导性文本到语音 (ITTS) 通过自然语言提示使用户能够控制语音生成，提供比传统TTS更直观的界面。然而，用户风格指令与听众感知之间的对齐仍然很少被探索。这项工作首先在两个表现维度（情感程度副词和情感强度等级）上呈现了ITTS可控性的感知分析，并收集了有关说话者年龄和词汇级别重音属性的人类评分。为了全面揭示指令与感知之间的差距，我们提供了一个具有大规模人工评估的数据集，命名为Expressive VOice Control (E-VOC) 语料库。此外，我们揭示了(1) gpt-4o-mini-tts 是最可靠的ITTS模型，在指令与生成语句的声学维度之间具有很好的对齐。(2) 五个分析的ITTS系统在指令要求使用儿童或老年语音时，倾向于生成成人语音。(3) 细粒度控制仍然是一个主要挑战，这表明大多数ITTS系统在解释略有不同的属性指令时仍有很大的改进空间。",
+        "地址": "https://arxiv.org/pdf/2509.13989.pdf"
+    },
+    {
+        "名称": "2025 [2509.16622] Audio-Conditioned Diffusion LLMs for ASR and Deliberation Processing.pdf",
+        "作者": "Mengqi Wang, Zhan Liu, Zengrui Jin, Guangzhi Sun, Chao Zhang, Philip C. Woodland",
+        "摘要": "摘要: 基于扩散的大型语言模型（DLLMs）最近作为自回归解码器的一种替代方案引起了越来越多的兴趣。在这项工作中，我们对使用扩散的大型语言模型LLaDA进行自动语音识别（ASR）进行了实证研究。我们首先研究了将其用作Whisper-LLaMA转录的外部审议基处理模块。通过利用LLaDA的双向注意力和去噪能力，我们探讨了随机掩盖、低置信度掩盖和半自回归策略，表明Whisper-LLaDA与基线相比大大降低了词错误率（WER）。在LibriSpeech上，性能最佳的级联系统在test-clean/test-other上的WER分别为2.25%/4.94%，在test-other分项上相比Whisper-LLaMA基线相对改善了12.3%。相比之下，未使用声学特征的纯文本LLaDA未能提高准确性，突显了音频条件嵌入的重要性。我们进一步评估了Whisper-LLaDA作为ASR的独立解码器，采用基于扩散和半自回归解码。大多数实验配置都实现了比Whisper-LLaMA基线更快的推理速度，尽管识别准确性略低。这些发现为基于扩散的大型语言模型在ASR中的应用提供了实证视角，并指出了改进的有希望方向。",
+        "地址": "https://arxiv.org/pdf/2509.16622.pdf"
+    },
+    {
+        "名称": "2025 [2509.14627] Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech.pdf",
+        "作者": "Taesoo Kim, Yongsik Jo, Hyunmin Song, Taehwan Kim",
+        "摘要": "摘要: 人类的对话涉及语言、语音和视觉线索，每种媒介都提供了互补的信息。例如，语音传达出一种仅通过文本无法完全捕捉的氛围或语调。虽然多模态LLM（大型语言模型）侧重于从多种输入生成文本响应，但对生成自然且引人入胜的语音关注较少。我们提出了一种基于对话情感和响应风格信息生成语音响应的类人体代理。为此，我们构建了一个新颖的多感官对话数据集，侧重于语音，使代理能够生成自然的语音。然后，我们提出了一种基于多模态LLM的模型，用于生成文本响应和语音描述，并用于生成涵盖副语言信息的语音。实验结果证明了在对话中利用视觉和音频模态生成引人入胜的语音的有效性。源代码可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2509.14627.pdf"
+    },
+    {
+        "名称": "2025 [2509.15233] Video2Roleplay: A Multimodal Dataset and Framework for Video-Guided Role-playing Agents.pdf",
+        "作者": "Xueqiao Zhang, Chao Zhang, Jingtao Xu, Yifan Zhu, Xin Shi, Yi Yang, Yawei Luo",
+        "摘要": "摘要：角色扮演代理（RPAs）因其模拟沉浸式和交互式角色的能力而引起了越来越多的兴趣。然而，现有的方法主要关注静态角色档案，忽视了人类固有的动态感知能力。为了弥补这一差距，我们通过将视频模式引入RPAs中，引入了动态角色档案的概念。为此，我们构建了Role-playing-Video60k，这是一个包含6万段视频和70万相应对话的大规模高质量数据集。基于该数据集，我们开发了一个综合的RPA框架，该框架结合了自适应时序采样以及动态和静态角色档案表示。具体来说，动态档案是通过自适应采样视频帧并按时间顺序将它们输入LLM创建的，而静态档案包括：（1）微调期间来自训练视频的角色对话，以及（2）推理期间来自输入视频的摘要上下文。这种联合集成使RPAs能够生成更有深度的响应。此外，我们提出了一个涵盖八个指标的稳健评估方法。实验结果证明了我们框架的有效性，突出了在开发RPAs过程中动态角色档案的重要性。",
+        "地址": "https://arxiv.org/pdf/2509.15233.pdf"
+    },
+    {
+        "名称": "2025 [2509.10452] WhisTLE: Deeply Supervised, Text-Only Domain Adaptation for Pretrained Speech Recognition Transformers.pdf",
+        "作者": "Akshat Pandey, Karun Kumar, Raphael Tang",
+        "摘要": "摘要: 预训练的自动语音识别（ASR）模型如Whisper表现良好，但仍需进行领域适应以处理未见的词汇和表达。在许多现实世界的环境中，收集语音数据是不切实际的，因此需要仅使用文本进行适应。我们提出了WhisTLE，这是一种针对预训练的编码器-解码器ASR模型深度监督的文本仅适应方法。WhisTLE训练一个变分自编码器（VAE）以从文本中建模编码器输出，并使用学习到的文本到潜在编码器微调解码器，可选择性地结合文本到语音（TTS）适应。在推理时，恢复原始编码器，不产生额外的运行时间成本。在四个非领域数据集和四个ASR模型中，WhisTLE结合TTS相对于仅TTS适应减少了12.3%的词错误率（WER），并且在32种情景中有27种超越所有非WhisTLE基线。",
+        "地址": "https://arxiv.org/pdf/2509.10452.pdf"
+    },
+    {
+        "名称": "2025 [2509.15061] Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue.pdf",
+        "作者": "Xingyao Lin, Xinghao Zhu, Tianyi Lu, Sicheng Xie, Hui Zhang, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
+        "摘要": "摘要：具身智能体的终极目标是创造能够与人类互动的合作者，而不是仅仅被动执行指令的执行者。这要求智能体能够基于人类反馈进行交流、协调和调整其行动。近期，视觉语言助理（VLA）的进展为实现这一目标提供了路径。然而，大多数当前基于VLA的具身智能体都是单向操作的：它们接收指令并执行，而没有反馈。这种方法在现实场景中经常失败，因为指令往往是模糊的。本文通过提出Ask-to-Clarify框架解决了这个问题。我们的框架首先通过多轮对话提出问题以解决模糊指令，然后端到端生成低级别的行动。具体来说，Ask-to-Clarify框架包括两个组件，一个是用于协作的视觉语言模型（VLM），另一个是用于行动的扩散模型。我们还引入了一个连接模块，根据VLM的输出生成扩散的条件。该模块通过指令调整观测环境以创建可靠的条件。我们使用两阶段的知识隔离策略训练我们的框架。首先，我们用解决模糊问题的对话数据微调协作组件，以处理模糊。然后，在冻结协作组件的情况下集成行动组件。这保留了交互能力，同时微调扩散模型以生成行动。这种训练策略保证了我们的框架能够先提出问题，然后生成行动。在推理过程中，信号检测器作为路由器帮助我们的框架在提问和采取行动之间切换。我们在8项现实任务中评估了Ask-to-Clarify框架，其表现优于现有的最先进的VLA。结果表明，我们提出的框架及其训练策略为实现协作型具身智能体提供了路径。",
+        "地址": "https://arxiv.org/pdf/2509.15061.pdf"
+    }
+]
