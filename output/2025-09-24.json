@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2509.18174] Baseer: A Vision-Language Model for Arabic Document-to-Markdown OCR.pdf",
+        "作者": "Khalil Hennara, Muhammad Hreden, Mohamed Motasim Hamed, Ahmad Bastati, Zeina Aldallal, Sara Chrouf, Safwan AlModhayan",
+        "摘要": "摘要: 阿拉伯文档的光学字符识别（OCR）由于语言的连写体、多样的字体、变音符号以及从右到左的书写方式，依然是一项具有挑战性的任务。尽管现代多模态大语言模型（MLLMs）在高资源语言的文档理解方面取得了进展，它们在阿拉伯语上的表现仍然有限。在这项工作中，我们介绍了Baseer，这是一个专门针对阿拉伯文档OCR进行微调的视觉-语言模型。通过结合合成和真实文档的大规模数据集，Baseer使用仅解码器微调策略训练，以适应预训练的MLLM，同时保留一般的视觉特征。我们还提出了Misraj-DocOCR，这是一个高质量、专家验证的基准，旨在对阿拉伯语OCR系统进行严格评估。我们的实验表明，Baseer显著优于现有的开源和商业解决方案，达到了0.25的词错误率（WER），在阿拉伯文档OCR领域建立了新的最先进水平。我们的结果突显了面向特定领域的通用MLLM适应的优势，并为像阿拉伯语这样形态丰富的语言的高精度OCR建立了强有力的基准。",
+        "地址": "https://arxiv.org/pdf/2509.18174.pdf"
+    },
+    {
+        "名称": "2025 [2509.19249] Reinforcement Learning on Pre-Training Data.pdf",
+        "作者": "Siheng Li, Kejiao Li, Zenan Xu, Guanhua Huang, Evander Yang, Kun Li, Haoyuan Wu, Jiajia Wu, Zihao Zheng, Chenchen Zhang, Kun Shi, Kyrierl Deng, Qi Yi, Ruibin Xiong, Tingqiang Xu, Yuhao Jiang, Jianfeng Yan, Yuyuan Zeng, Guanghui Xu, Jinbao Xue, Zhijiang Xu, Zheng Fang, Shuai Li, Qibin Liu, Xiaoxue Li, Zhuoyu Li, Yangyu Tao, Fei Gao, Cheng Jiang, Bo Chao Wang, Kai Liu, Jianchen Zhu, Wai Lam, Wayyt Wang, Bo Zhou, Di Wang",
+        "摘要": "摘要: 计算资源的指数增长与高质量文本数据有限增长之间日益加大的差距，现已成为传统大型语言模型（LLM）扩展方法的制约因素。为应对这一挑战，我们提出了一种在预训练数据上进行强化学习（RLPT）的新训练扩展范式，以优化LLMs。与通过监督学习扩展训练的传统方法不同，RLPT使策略能够自主探索有意义的路径，以从预训练数据中学习，并通过强化学习（RL）提升其能力。现有的RL策略（如通过人类反馈进行强化学习（RLHF）和通过可验证奖励进行强化学习（RLVR））依赖于人类注释来构建奖励，RLPT则通过直接从预训练数据中获得奖励信号，消除了这种依赖性。具体来说，它采用了下一个片段推理目标，奖励策略准确预测基于前一上下文的后续文本片段。这种方法允许在预训练数据上扩展RL，鼓励在更广泛的上下文中探索更丰富的路径，从而培养更具普遍性的推理能力。在多个模型的通用领域和数学推理基准测试中的广泛实验验证了RLPT的有效性。例如，应用于Qwen3-4B-Base时，RLPT在MMLU、MMLU-Pro、GPQA-Diamond、KOR-Bench、AIME24和AIME25上分别取得了3.0、5.1、8.1、6.0、6.6和5.3的绝对提升。结果进一步展示了良好的扩展行为，表明随着计算量的增加有持续提升的潜力。此外，RLPT为扩展LLMs的推理边界和提升RLVR性能提供了坚实基础。",
+        "地址": "https://arxiv.org/pdf/2509.19249.pdf"
+    },
+    {
+        "名称": "2025 [2509.18644] Do You Need Proprioceptive States in Visuomotor Policies?.pdf",
+        "作者": "Juntu Zhao, Wenbo Lu, Di Zhang, Yufeng Liu, Yushen Liang, Tianluo Zhang, Yifeng Cao, Junyuan Xie, Yingdong Hu, Shengjie Wang, Junliang Guo, Dequan Wang, Yang Gao",
+        "摘要": "摘要：基于模仿学习的视觉运动策略已经广泛应用于机器人操作，其中视觉观察和本体状态通常一起采用以实现精确控制。然而，在本研究中，我们发现这种常见做法使策略过度依赖本体状态输入，导致对训练轨迹的过拟合，并导致空间泛化能力较差。相反，我们提出了无状态策略，去除本体状态输入，动作预测仅基于视觉观察。无状态策略是在相对末端执行器动作空间中构建的，并且应确保提供完整的任务相关视觉观察，这里由双广角腕摄像头提供。实验结果表明，无状态策略比基于状态的策略实现了显著更强的空间泛化能力：在现实任务中，如抓取与放置、挑战性衬衫折叠和复杂的全身操作，涵盖多个机器人化身，高度泛化的平均成功率从0%提高到85%，水平泛化从6%提高到64%。此外，还显示了在数据效率和跨化身适应方面的优势，增强了其在现实世界部署中的实用性。\n\n项目页面见: this https URL.",
+        "地址": "https://arxiv.org/pdf/2509.18644.pdf"
+    },
+    {
+        "名称": "2025 [2509.18154] MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe.pdf",
+        "作者": "Tianyu Yu, Zefan Wang, Chongyi Wang, Fuwei Huang, Wenshuo Ma, Zhihui He, Tianchi Cai, Weize Chen, Yuxiang Huang, Yuanqian Zhao, Bokai Xu, Junbo Cui, Yingjing Xu, Liqing Ruan, Luoyuan Zhang, Hanyu Liu, Jingkun Tang, Hongyuan Liu, Qining Guo, Wenhao Hu, Bingxiang He, Jie Zhou, Jie Cai, Ji Qi, Zonghao Guo, Chi Chen, Guoyang Zeng, Yuxuan Li, Ganqu Cui, Ning Ding, Xu Han, Yuan Yao, Zhiyuan Liu, Maosong Sun",
+        "摘要": "摘要: 多模态大型语言模型（MLLMs）正在迅速发展，代表了人工智能发展的前沿。然而，它们的训练和推理效率已经成为使MLLMs更易获取和扩展的核心瓶颈。为了解决这些挑战，我们提出了MiniCPM-V 4.5，一个拥有80亿参数的模型，旨在实现高效和强大的性能。我们在模型架构、数据策略和训练方法中引入了三个核心改进：用于图像和视频高效编码的统一3D-Resampler模型架构，适用于文档知识和文本识别的统一学习范式，且无需繁重的数据工程，以及在短期和长期推理模式中都能获得高熟练度的混合强化学习策略。OpenCompass评估的综合实验结果表明，MiniCPM-V 4.5超越了广泛使用的专有模型，如GPT-4o-latest，以及显著更大的开源模型，如Qwen2.5-VL 72B。值得注意的是，强大的性能是以显著的效率实现的。例如，在广泛采用的VideoMME基准上，MiniCPM-V 4.5在30B尺寸以下的模型中实现了最先进的性能，其GPU内存消耗仅为Qwen2.5-VL 72B的46.7%，推理时间仅为8.7%。",
+        "地址": "https://arxiv.org/pdf/2509.18154.pdf"
+    },
+    {
+        "名称": "2025 [2509.18849] MAPO: Mixed Advantage Policy Optimization.pdf",
+        "作者": "Wenke Huang, Quan Zhang, Yiyang Fang, Jian Liang, Xuankun Rong, Huanjin Yao, Guancheng Wan, Ke Liang, Wenwen He, Mingjun Li, Leszek Rutkowski, Mang Ye, Bo Du, Dacheng Tao",
+        "摘要": "摘要：近年来，基础模型的强化学习取得了显著进展，如群体相对策略优化（GRPO），大大提高了基础模型在推理任务上的表现。值得注意的是，在GRPO中，优势函数作为排序轨迹重要性的核心机制。然而，现有的探索遇到了优势逆转和优势镜像问题，这阻碍了不同查询样本之间合理的优势分配。在这项工作中，我们提出了一种简单但有效的GRPO策略，称为混合优势策略优化（MAPO）。我们揭示了轨迹的不同确定性，并提出了高确定性轨迹样本的优势百分偏差。此外，我们动态重新加权具有不同轨迹确定性的样本的优势函数，从而自适应地配置优势函数以考虑样本特定的特性。通过与相关的最新方法进行比较，以及在不同优势变体上的消融研究，验证了我们方法的有效性。",
+        "地址": "https://arxiv.org/pdf/2509.18849.pdf"
+    },
+    {
+        "名称": "2025 [2509.18824] Hyper-Bagel: A Unified Acceleration Framework for Multimodal Understanding and Generation.pdf",
+        "作者": "Yanzuo Lu, Xin Xia, Manlin Zhang, Huafeng Kuang, Jianbin Zheng, Yuxi Ren, Xuefeng Xiao",
+        "摘要": "摘要：近年来，统一的多模态模型因其在联合理解和生成多样内容方面的卓越能力而备受关注。然而，随着上下文逐渐融合越来越多交织的多模态标记，扩散去噪和自回归解码的迭代过程带来了显著的计算负担。为了解决这个问题，我们提出了Hyper-Bagel，这是一种旨在同时加速多模态理解和生成任务的统一加速框架。我们的方法采用分而治之的策略，使用猜测解码进行下一个标记预测，并采用多阶段蒸馏过程进行扩散去噪。该框架实现了显著的性能提升，在多模态理解中达到了超过2倍的加速。在生成任务中，我们的无损6-NFE模型在文本到图像生成中实现了16.67倍的加速，在图像编辑中实现了22倍的加速，同时保持了原始模型的高质量输出。我们进一步开发了一种高效的1-NFE模型，使得近乎实时的交互式编辑和生成成为可能。通过将先进的对抗蒸馏与人类反馈学习相结合，这个模型实现了极致的成本效益和响应速度，使复杂的多模态交互变得无缝和即时。",
+        "地址": "https://arxiv.org/pdf/2509.18824.pdf"
+    },
+    {
+        "名称": "2025 [2509.19297] VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction.pdf",
+        "作者": "Weijie Wang, Yeqing Chen, Zeyu Zhang, Hengyu Liu, Haoxiao Wang, Zhiyuan Feng, Wenkang Qin, Zheng Zhu, Donny Y. Chen, Bohan Zhuang",
+        "摘要": "摘要：前馈3D高斯溅射（3DGS）已成为新视图合成的高效解决方案。现有方法主要依赖于像素对齐高斯预测范式，其中每个二维像素映射到一个三维高斯。我们重新思考这一广泛采用的公式，并发现其内在的几个局限性：它使重建的三维模型严重依赖于输入视图的数量，导致视图偏向的密度分布，并引入对齐错误，尤其是在源视图包含遮挡或低纹理时。为了解决这些挑战，我们引入了VolSplat，一种新的多视图前馈范式，用体素对齐高斯取代像素对齐高斯。通过直接从预测的三维体素网格预测高斯，它克服了像素对齐对容易出错的二维特征匹配的依赖，确保了稳健的多视图一致性。此外，它能够根据三维场景复杂性自适应地控制高斯密度，产生更真实的高斯点云，提高几何一致性，并增强新视图渲染质量。在广泛使用的基准测试如RealEstate10K和ScanNet上的实验表明，VolSplat实现了最先进的性能，同时生产出更合理和视图一致的高斯重建。除了优越的结果外，我们的方法建立了一个更具扩展性的前馈三维重建框架，具有更密集和更稳健的表示，为更广泛的社区进一步研究铺平了道路。视频结果、代码和训练模型可在我们的项目页面上获得。",
+        "地址": "https://arxiv.org/pdf/2509.19297.pdf"
+    },
+    {
+        "名称": "2025 [2509.19296] Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation.pdf",
+        "作者": "Sherwin Bahmani, Tianchang Shen, Jiawei Ren, Jiahui Huang, Yifeng Jiang, Haithem Turki, Andrea Tagliasacchi, David B. Lindell, Zan Gojcic, Sanja Fidler, Huan Ling, Jun Gao, Xuanchi Ren",
+        "摘要": "摘要：生成虚拟环境的能力对于从游戏到机器人、自动驾驶和工业AI等物理AI领域的应用至关重要。目前的基于学习的三维重建方法依赖于捕捉到的真实世界多视角数据，这些数据并不总是随手可得的。最近在视频扩散模型方面的进展显示了显著的想象能力，但其二维属性限制了机器人在模拟环境中导航和交互的应用。在本文中，我们提出了一个自蒸馏框架，旨在将视频扩散模型中的隐式三维知识蒸馏成显式的三维高斯喷涂（3DGS）表示，从而消除了对多视角训练数据的需求。具体来说，我们用一个3DGS解码器来增强典型的RGB解码器，该解码器由RGB解码器的输出监督。在这种方法中，3DGS解码器可以纯粹用视频扩散模型生成的合成数据进行训练。在推理时，我们的模型可以从文本提示或单张图片中合成三维场景，实现实时渲染。我们的框架进一步扩展到从单目输入视频生成动态三维场景。实验结果表明，我们的框架在静态和动态三维场景生成方面达到了最先进的性能。",
+        "地址": "https://arxiv.org/pdf/2509.19296.pdf"
+    },
+    {
+        "名称": "2025 [2509.19284] What Characterizes Effective Reasoning? Revisiting Length, Review, and Structure of CoT.pdf",
+        "作者": "Yunzhen Feng, Julia Kempe, Cheng Zhang, Parag Jain, Anthony Hartshorn",
+        "摘要": "摘要：大型推理模型（LRMs）在测试阶段花费大量计算资源用于长的思维链（CoT）痕迹，但什么**特征**构成了有效的CoT仍不明确。尽管之前的研究报告称通过延长CoT和通过附加*滞留*标记增加复查（重访早期步骤）可以获得收益，最近的研究表明较短的思维可能优于较长的痕迹。因此，我们在数学和科学推理的十个大型推理模型上进行了系统评估。与“越长越好”的说法相反，我们发现天真的CoT延长和增加复查与*较低*的准确性相关。由于CoT逐步展开，标记级别的指标可以将冗长与过程质量混淆。我们引入了CoT的图视图来提取结构，并确定了一个单一统计量——*失败步骤比例（FSF）*，即被放弃分支中的步骤比例——在预测模型准确性方面 consistently outperform length and review ratio。为了探究因果关系，我们设计了两个干预措施。首先，我们在测试时按每个指标对候选CoT进行排序，其中FSF产生最大的pass@1收益；其次，我们编辑CoT以删除失败分支，这显著提高了准确性，表明失败分支会偏见后续推理。综合这些结果，有效的CoT表征为*较少失败*并支持*结构感知*的测试时尺度，而不是不分上下地生成长CoT。\n\n作者：冯允臻，Julia Kempe，张程，Parag Jain，Anthony Hartshorn\n\n链接：https://arxiv.org/pdf/2509.19284.pdf\n\n标题：2025 [2509.19284] 有效推理特征是什么？重新审视CoT的长度、复查和结构",
+        "地址": "https://arxiv.org/pdf/2509.19284.pdf"
+    },
+    {
+        "名称": "2025 [2509.19170] Soft Tokens, Hard Truths.pdf",
+        "作者": "Natasha Butt, Ariel Kwiatkowski, Ismail Labiad, Julia Kempe, Yann Ollivier",
+        "摘要": "摘要： 使用连续的而不是离散的标记在大型语言模型(LLM)推理时的“链式思维”(CoT)阶段已经引起了关注，基于这样一种直觉，即连续的离散标记混合可以同时模拟几个推理路径的叠加。理论结果已经正式证明，连续标记具有更大的表达能力，可以更高效地解决特定问题。然而，连续标记的实际使用由于强训练困难而受到限制：以前的工作要么只是在预先训练的离散标记模型上使用连续标记进行推理，要么必须从地面实况离散CoT中蒸馏出连续CoT，从而面临计算成本问题，使得CoT仅限于少量标记。\n\n这是首个介绍通过强化学习(RL)学习连续CoT的可扩展方法的工作，无需从参考的离散CoT中蒸馏。我们使用“软”标记：标记的混合加上输入嵌入上的噪声以提供RL探索。计算开销最小，使我们可以学习具有数百个标记的连续CoT。在Llama和Qwen模型(最高到8B)的数学推理基准测试中，使用连续CoT的训练在pass@1上与离散标记CoT匹敌，并在pass@32上超过它们，显示出更大的CoT多样性。在系统比较中，表现最佳的情景是使用连续CoT标记进行训练，然后在推理时使用离散标记，这意味着“软”模型可以以标准方式部署。最后，我们展示了连续CoT RL训练在域外任务上更好地保留了基础模型的预测，从而为基础模型提供了较为柔和的调整。\n\n作者：Natasha Butt, Ariel Kwiatkowski, Ismail Labiad, Julia Kempe, Yann Ollivier\n链接：https://arxiv.org/pdf/2509.19170.pdf\n标题：2025 [2509.19170] Soft Tokens, Hard Truths.pdf",
+        "地址": "https://arxiv.org/pdf/2509.19170.pdf"
+    },
+    {
+        "名称": "2025 [2509.13835] Large Language Models Discriminate Against Speakers of German Dialects.pdf",
+        "作者": "Minh Duc Bui, Carolin Holtermann, Valentin Hofmann, Anne Lauscher, Katharina von der Wense",
+        "摘要": "摘要: 方言是人类文化的重要组成部分，遍布世界各地。在德国，超过40%的人口讲某种区域方言（Adler 和 Hansen, 2022）。然而，尽管方言在文化中具有重要意义，讲方言的人往往面临负面的社会刻板印象。我们研究了这种刻板印象是否在大型语言模型(LLM)中体现出来。我们借助社会语言学关于方言感知的文献，分析了通常与方言使用者相关的特质。基于这些特质，我们评估了LLM在两项任务中表现出的方言命名偏见和方言使用偏见：关联任务和决策任务。为了评估模型的方言使用偏见，我们构建了一个新颖的评估语料库，将来自七个德国区域方言（例如阿勒曼尼语和巴伐利亚语）的句子与相应的标准德语句子配对。我们发现：（1）在关联任务中，所有评估的LLM都表现出对德语方言使用者显著的方言命名和方言使用偏见，反映在负面形容词的关联中；（2）所有模型在决策中再现了这些方言命名和方言使用偏见；（3）与之前关于明确提及人口统计信息的偏见最小化的研究相反，我们发现明确标注语言人口统计信息——德语方言使用者——比隐含提示（如方言使用）更容易放大偏见。\n\n评论: 已被EMNLP 2025主会接收\n作者: Minh Duc Bui, Carolin Holtermann, Valentin Hofmann, Anne Lauscher, Katharina von der Wense\n链接: https://arxiv.org/pdf/2509.13835.pdf\n标题: 2025 [2509.13835] 大型语言模型对德语方言使用者的歧视\n\n",
+        "地址": "https://arxiv.org/pdf/2509.13835.pdf"
+    },
+    {
+        "名称": "2025 [2509.18905] How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective.pdf",
+        "作者": "Songsong Yu, Yuxin Chen, Hao Ju, Lianjie Jia, Fuxi Zhang, Shaofei Huang, Yuhan Wu, Rundi Cui, Binghao Ran, Zaibin Zhang, Zhedong Zheng, Zhipeng Zhang, Yifan Wang, Lin Song, Lijun Wang, Yanwei Li, Ying Shan, Huchuan Lu",
+        "摘要": "摘要: 视觉空间推理（VSR）是人类的核心认知能力，是推进具身智能和自主系统的关键需求。尽管在视觉语言模型（VLMs）方面取得了进展，由于三维空间表示和推理的复杂性，实现人类水平的VSR仍然极具挑战性。在本文中，我们对VLMs中的VSR进行了系统性调查，涵盖了现有方法在输入模态、模型架构、训练策略和推理机制中的综述。此外，我们将空间智能分类为三个能力等级，即基本感知、空间理解和空间规划，并整理了一个空间智能基准SIBench，包含了23个任务设置的近20个开放源数据集。最先进的VLMs实验显示了感知与推理之间的显著差距，尽管模型在基本感知任务中表现出色，但在理解和规划任务，特别是数值估计、多视角推理、时间动态和空间想象方面表现不佳。这些发现强调了实现空间智能的重大挑战，同时提供了系统性路线图和综合性基准，以推动该领域的未来研究。相关资源可在此https URL访问。",
+        "地址": "https://arxiv.org/pdf/2509.18905.pdf"
+    },
+    {
+        "名称": "2025 [2509.19300] CAR-Flow: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching.pdf",
+        "作者": "Chen Chen, Pengsheng Guo, Liangchen Song, Jiasen Lu, Rui Qian, Xinze Wang, Tsu-Jui Fu, Wei Liu, Yinfei Yang, Alex Schwing",
+        "摘要": "摘要: 条件生成建模旨在从包含数据-条件对的样本中学习条件数据分布。为此，扩散和基于流的方法已获得令人信服的结果。这些方法使用一个学习到的（流）模型将忽略条件的初始标准高斯噪声传输到条件数据分布。因此，模型需要学习质量传输和条件注入。为了减轻对模型的要求，我们提出了用于流匹配的条件感知重新参数化（CAR-Flow）——一种轻量级的学习偏移，来调节源、目标或两者分布。通过重新定位这些分布，CAR-Flow缩短了模型必须学习的概率路径，从而在实践中实现更快的训练。在低维度合成数据上，我们可视化并量化了CAR的效果。在高维度自然图像数据（ImageNet-256）上，为SiT-XL/2配备CAR-Flow将FID从2.07降低到1.68，同时引入的参数量不到0.6%。",
+        "地址": "https://arxiv.org/pdf/2509.19300.pdf"
+    },
+    {
+        "名称": "2025 [2509.17321] OpenGVL - Benchmarking Visual Temporal Progress for Data Curation.pdf",
+        "作者": "Paweł Budzianowski, Emilia Wiśnios, Gracjan Góral, Igor Kulakov, Viktor Petrenko, Krzysztof Walas",
+        "摘要": "摘要: 数据稀缺仍然是推动机器人技术进步的最具限制性的因素之一。然而，野外可获得的机器人数据量正呈指数级增长，为大规模数据利用创造了新的机会。可靠的时间任务完成预测可以帮助自动标注和整理这些大规模数据。最近提出了生成价值学习 (GVL) 方法，利用视觉语言模型 (VLMs) 中嵌入的知识从视觉观察中预测任务进展。基于GVL，我们提出了OpenGVL，一个全面的基准，用于估算涉及机器人和人类实施的各种复杂操作任务的任务进展。我们评估了公开的开源基础模型的能力，发现开源模型家族在时间进展预测任务中的表现显著低于闭源模型，仅达到其性能的约70%。此外，我们还展示了OpenGVL如何作为自动数据整理和过滤的实用工具，能够对大规模机器人数据集进行高效的质量评估。我们发布了该基准以及完整的代码库。\n",
+        "地址": "https://arxiv.org/pdf/2509.17321.pdf"
+    },
+    {
+        "名称": "2025 [2509.17083] HyRF: Hybrid Radiance Fields for Memory-efficient and High-quality Novel View Synthesis.pdf",
+        "作者": "Zipeng Wang, Dan Xu",
+        "摘要": "摘要: 最近，三维高斯点描（3DGS）作为基于NeRF的方法的强大替代方案出现，通过显式、可优化的三维高斯实现实时、高质量的新视图合成。然而，由于依赖于每个高斯参数来建模视图相关效应和各向异性形状，3DGS存在显著的内存开销。尽管最近的研究提出了用神经场压缩3DGS，这些方法难以捕捉高频空间变化的高斯属性，导致细节重建质量下降。我们提出了混合辐射场（HyRF），一种结合显式高斯和神经场优势的新型场景表示。HyRF将场景分解为（1）一组仅存储关键高频参数的紧凑显式高斯集合和（2）预测剩余属性的基于网格的神经场。为了增强表示能力，我们引入了分离的神经场架构，分别建模几何（尺度、不透明度、旋转）和视图相关颜色。此外，我们提出了一种混合渲染方案，结合了高斯点描和神经场预测的背景，解决了远距离场景表示的限制。实验表明，HyRF在减少模型大小超过20倍的同时，实现了最先进的渲染质量，并保持了实时性能。我们的项目页面可通过此链接访问：https://arxiv.org/pdf/2509.17083.pdf",
+        "地址": "https://arxiv.org/pdf/2509.17083.pdf"
+    },
+    {
+        "名称": "2025 [2509.14635] SWE-QA: Can Language Models Answer Repository-level Code Questions?.pdf",
+        "作者": "Weihan Peng, Yuling Shi, Yuhang Wang, Xinyun Zhang, Beijun Shen, Xiaodong Gu",
+        "摘要": "摘要: 理解和推理整个软件代码库是智能软件工程工具的一项重要能力。虽然现有的基准，如CoSQA和CodeQA推动了这一领域的发展，但它们主要集中于小型、独立的代码片段。这些设置未能捕捉实际代码库的复杂性，在这些环境下，有效的理解和推理经常需要导航多个文件、理解软件架构，并在远程代码依赖中定位答案。在本文中，我们提出了SWE-QA，一个面向代码库级别问题回答（QA）基准，为在现实代码环境中促进自动QA系统研究而设计。SWE-QA包含576对高质量问题-答案对，涵盖意图理解、跨文件推理和多跳依赖分析等多种类别。为构建SWE-QA，我们首先从11个流行的代码库中爬取了77,100个GitHub议题。基于对从这些议题中提取的自然发生的开发者问题的分析，我们开发了一个两级的代码库级别问题分类法，并为每个类别构建了一组种子问题。对于每个类别，我们手动整理并验证问题并收集其对应答案。作为一个原型应用，我们进一步开发了SWE-QA-Agent，一个在其中LLM代理自动推理和行动以找到答案的代理框架。我们在SWE-QA上针对各种上下文增强策略评估了六个先进的LLM。实验结果突出了LLM的前景，特别是我们的SWE-QA-Agent框架，在解决代码库级别QA问题上，同时也揭示了开放的挑战并指出了未来的研究方向。",
+        "地址": "https://arxiv.org/pdf/2509.14635.pdf"
+    },
+    {
+        "名称": "2025 [2509.17349] Better Late Than Never: Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation.pdf",
+        "作者": "Peter Polák, Sara Papi, Luisa Bentivogli, Ondřej Bojar",
+        "摘要": "摘要: 同声传译(SimulST)系统需要在翻译质量和延迟之间取得平衡——即语音输入和译文输出之间的延迟。尽管质量评估已经成熟，但准确的延迟测量仍是一个挑战。现有的延迟测量指标常常产生不一致或误导性的结果，特别是在广泛使用的短文本环境中，语音被人为地预先分段。本文提出了第一个跨语言对、系统以及短文本和长文本环境的SimulST延迟测量指标的全面分析。我们发现当前指标中与分段相关的结构性偏差，削弱了公平和有意义的比较。为了解决这个问题，我们引入了YAAL（Yet Another Average Lagging），一种改进的延迟测量指标，在短文本环境中提供了更准确的评估。我们将YAAL扩展到LongYAAL以用于未分段音频，并提出SoftSegmenter，这是一种基于词级对齐的新型重分段工具。我们的实验表明，YAAL和LongYAAL优于流行的延迟测量指标，而SoftSegmenter则在长文本评估中提高了对齐质量，共同使得对SimulST系统的评估更为可靠。",
+        "地址": "https://arxiv.org/pdf/2509.17349.pdf"
+    },
+    {
+        "名称": "2025 [2509.16506] CommonForms: A Large, Diverse Dataset for Form Field Detection.pdf",
+        "作者": "Joe Barrow",
+        "摘要": "摘要：本论文介绍了 CommonForms，一个用于表单字段检测的网页级数据集。它将表单字段检测问题转化为对象检测：给定页面图像，预测表单字段的位置和类型（文本输入、选择按钮、签名）。数据集通过过滤 Common Crawl 中的 PDF 文件，找到可填写元素的文件构建而成。起初有800万份文档，经过过滤，最终得到的文档集约为55,000份，其中包含超过450,000页。分析表明，该数据集包含各种语言和领域的多样化混合；三分之一的页面非英语，在分类的14个领域中，没有一个领域占比超过25%。此外，本文介绍了一系列表单字段检测器，包括 FFDNet-Small 和 FFDNet-Large，它们在 CommonForms 测试集上达到了非常高的平均精度。每个模型的训练成本均低于500美元。消融实验结果显示，高分辨率输入对高质量表单字段检测至关重要，清洗过程使数据效率优于使用 Common Crawl 中所有具有可填写字段的 PDF 文件。定性分析显示，它们的性能优于一种流行的商业 PDF 阅读器，不仅能预测文本和签名字段，还能预测复选框。据我们所知，这是发布的首个大规模表单字段检测数据集，也是首个开源模型。数据集、模型和代码将发布在此 https URL。\n\n作者：Joe Barrow\n\nURL：https://arxiv.org/pdf/2509.16506.pdf\n\n标题：CommonForms: A Large, Diverse Dataset for Form Field Detection",
+        "地址": "https://arxiv.org/pdf/2509.16506.pdf"
+    },
+    {
+        "名称": "2025 [2509.19087] Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal Gemini 2.5 Model for Remote Sensing Applications.pdf",
+        "作者": "Ganesh Mallya, Yotam Gigi, Dahun Kim, Maxim Neumann, Genady Beryozkin, Tomer Shekel, Anelia Angelova",
+        "摘要": "#### 摘要翻译：\n\n多光谱图像在土地使用分类、环境监测和城市规划等多种遥感应用中起着至关重要的作用。这些图像被广泛采用，因为它们的额外光谱波段与地面上的物理材料，如冰、水和植被，具有很强的相关性。这使得识别更加准确，而来自Sentinel-2和Landsat等任务的公开数据进一步增加了它们的价值。目前，这类数据的自动分析主要通过专为多光谱输入训练的机器学习模型来管理，这些模型的训练和支持成本高昂。此外，虽然在遥感领域具有很大效用，但这些额外的输入无法与强大的通用多模态模型一起使用，这些模型能够解决多种视觉问题，但无法理解专门的多光谱信号。\n\n为了解决这个问题，我们提出了一种无需训练的方法，该方法在零样本模式下引入新的多光谱数据，作为通用多模态模型的输入，这些模型仅对RGB输入进行训练。我们的方法利用多模态模型对视觉空间的理解，提议对输入进行适应，并将领域特定的信息作为指令注入模型。我们以Gemini2.5模型为例，观察到该方法在流行的遥感基准上的土地覆盖和土地使用分类中表现出强大的零样本性能提升，并展示了Gemini2.5对新输入的轻松适应性。这些结果突显了地理空间专业人员可以轻松利用像Gemini2.5这样的强大的多模态模型，通过专门的传感器数据加快工作，从而受益于其丰富的推理和上下文能力。",
+        "地址": "https://arxiv.org/pdf/2509.19087.pdf"
+    },
+    {
+        "名称": "2025 [2509.19002] VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction.pdf",
+        "作者": "Hao Wang, Eiki Murata, Lingfang Zhang, Ayako Sato, So Fukuda, Ziqi Yin, Wentao Hu, Keisuke Nakao, Yusuke Nakamura, Sebastian Zwirner, Yi-Chia Chen, Hiroyuki Otomo, Hiroki Ouchi, Daisuke Kawahara",
+        "摘要": "摘要： 多模态大型语言模型（MLLMs）的最新进展显著增强了视频理解能力，开辟了实际应用的新可能性。然而，当前的视频基准测试主要集中在室内场景或短距离户外活动上，大部分未探索与长距离旅行相关的挑战。掌握扩展的地理空间-时间轨迹对下一代MLLMs至关重要，支持现实任务如具体现规划和导航。为了弥补这一空白，我们提出了VIR-Bench，这是一项包含200段旅行视频的新基准，将行程重建框架作为一个评估并推进MLLMs地理空间-时间智能的挑战性任务。实验结果表明，包括专有模型在内的最先进的MLLMs难以取得高分，突显了处理跨越扩展的空间和时间尺度的视频的困难。此外，我们进行了深入的案例研究，开发了一种原型规划代理，利用VIR-Bench获得的见解。该代理显著改进的行程推荐验证了我们的评估协议不仅有效地对模型进行基准测试，而且在面向用户的应用中带来了具体性能提升。",
+        "地址": "https://arxiv.org/pdf/2509.19002.pdf"
+    },
+    {
+        "名称": "2025 [2509.18090] GeoSVR: Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction.pdf",
+        "作者": "Jiahe Li, Jiawei Zhang, Youmin Zhang, Xiao Bai, Jin Zheng, Xiaohan Yu, Lin Gu",
+        "摘要": "摘要： 近年来，通过辐射场重建准确表面取得了显著进展。然而，主要基于高斯溅射的主流方法越来越受到表现瓶颈的限制。在本文中，我们介绍了GeoSVR，这是一种显式基于体素的框架，探索并扩展了稀疏体素在实现准确、详细和完整表面重建中的潜力。稀疏体素的优势在于支持保持覆盖的完整性和几何清晰度，而相应的挑战也来自于场景约束的缺失和表面优化中的局部性。为了确保场景正确收敛，我们首先提出了体素不确定性深度约束，最大化单目深度线索的效果，同时呈现体素不确定性以避免质量下降，从而实现有效且鲁棒的场景约束，同时保持高度准确的几何形状。随后，设计了稀疏体素表面正则化，以增强微小体素的几何一致性，并促进基于体素的形成尖锐且准确的表面。大量实验表明，我们的方法在多种具有挑战性的场景中相比现有方法表现优异，在几何准确性、细节保存和重建完整性方面都表现卓越，同时保持高效。代码可在此处链接获取。",
+        "地址": "https://arxiv.org/pdf/2509.18090.pdf"
+    },
+    {
+        "名称": "2025 [2509.18030] RadEval: A framework for radiology text evaluation.pdf",
+        "作者": "Justin Xu, Xi Zhang, Javid Abderezaei, Julie Bauml, Roger Boodoo, Fatemeh Haghighi, Ali Ganjizadeh, Eric Brattain, Dave Van Veen, Zaiqiao Meng, David Eyre, Jean-Benoit Delbrouck",
+        "摘要": "摘要: 我们介绍了RadEval，一个用于评价放射学文本的统一开源框架。RadEval整合了多种评估指标，从经典的n元重叠（BLEU, ROUGE）和上下文测量（BERTScore），到基于临床概念的评分（F1CheXbert, F1RadGraph, RaTEScore, SRR-BERT, TemporalEntityF1）以及先进的基于大型语言模型的评估器（GREEN）。我们改进并标准化了这些实现，扩展了GREEN以支持多种成像模态，同时采用更轻量级的模型，并预训练了一个专门用于放射学的编码器，展示了强大的零样本检索性能。我们还发布了一个具有450多个临床重要错误标签的丰富注释专家数据集，并展示了不同指标如何与放射科医生的判断相关联。最后，RadEval提供了统计测试工具和多个公开数据集上的基线模型评估，有助于放射学报告生成中的可重复性和稳健的基准测试。",
+        "地址": "https://arxiv.org/pdf/2509.18030.pdf"
+    },
+    {
+        "名称": "2025 [2509.19274] DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture.pdf",
+        "作者": "Arijit Maji, Raghvendra Kumar, Akash Ghosh, Anushka, Nemil Shah, Abhilekh Borah, Vanshika Shah, Nishant Mishra, Sriparna Saha",
+        "摘要": "摘要: 我们介绍了DRISHTIKON，这是一种首创的多模态和多语言基准测试，专门针对印度文化设计，用于评估生成型人工智能系统的文化理解能力。与现有的具有通用或全球范围的基准测试不同，DRISHTIKON为印度的各个地区提供了深入而细致的覆盖，涵盖了15种语言，覆盖所有州和联邦区，并包含超过64,000对文本-图像对齐数据集。该数据集捕捉了丰富的文化主题，包括节日、服饰、美食、艺术形式和历史遗产等。我们评估了广泛的视觉语言模型（VLMs），包括开源的小型和大型模型、专有系统、专门进行推理的VLMs以及专注于印度语言的模型，涵盖零样本和链式思维设置。我们的结果揭示了当前模型在推理基于文化的多模态输入方面的关键局限性，特别是对于资源匮乏的语言和记录较少的传统。DRISHTIKON填补了包容性人工智能研究中的重要空白，提供了一个强大的测试平台，以推动文化认知能力强、多模态能力强的语言技术的发展。",
+        "地址": "https://arxiv.org/pdf/2509.19274.pdf"
+    },
+    {
+        "名称": "2025 [2509.18282] PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies.pdf",
+        "作者": "Jesse Zhang, Marius Memmel, Kevin Kim, Dieter Fox, Jesse Thomason, Fabio Ramos, Erdem Bıyık, Abhishek Gupta, Anqi Li",
+        "摘要": "摘要：机器人操作策略往往无法推广，因为它们必须同时学习关注点、采取的行动以及执行这些行动的方法。我们认为，高级别关于关注点和执行什么任务的推理可以交给视觉-语言模型（VLMs），让策略专注于如何行动。我们提出PEEK（政策无关的关键点提取），通过微调VLMs来预测统一的基于点的中间表示：1. 指定采取行动的末端执行器路径，2. 指示需要关注的任务相关掩码。这些注释直接叠加到机器人观察上，使得表示形式与策略无关并且可以跨体系结构转移。为实现可扩展的训练，我们引入了自动注释流水线，生成跨越9种体现的20多个机器人数据集的标注数据。在现实世界评估中，PEEK持续提升零样本泛化，包括一个仅在仿真中训练的3D策略在现实世界中的41.4倍改进，以及对大型VLA和小型操作策略的2-3.5倍提升。通过让VLMs吸收语义和视觉复杂性，PEEK为操作策略提供了它们所需的最少线索——“在哪里”，“做什么”和“如何做”。\n\n翻译如下：\n摘要：机器人操作策略往往无法推广，因为它们必须同时学习关注点、采取的行动以及执行这些行动的方法。我们认为，高级别关于关注点和执行什么任务的推理可以交给视觉-语言模型（VLMs），让策略专注于如何行动。我们提出PEEK（政策无关的关键点提取），通过微调VLMs来预测统一的基于点的中间表示：1. 指定采取行动的末端执行器路径，2. 指示需要关注的任务相关掩码。这些注释直接叠加到机器人观察上，使得表示形式与策略无关并且可以跨体系结构转移。为实现可扩展的训练，我们引入了自动注释流水线，生成跨越9种体现的20多个机器人数据集的标注数据。在现实世界评估中，PEEK持续提升零样本泛化，包括一个仅在仿真中训练的3D策略在现实世界中的41.4倍改进，以及对大型VLA和小型操作策略的2-3.5倍提升。通过让VLMs吸收语义和视觉复杂性，PEEK为操作策略提供了它们所需的最少线索——“在哪里”，“做什么”和“如何做”。",
+        "地址": "https://arxiv.org/pdf/2509.18282.pdf"
+    }
+]
