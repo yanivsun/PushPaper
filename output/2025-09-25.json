@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2509.20328] Video models are zero-shot learners and reasoners.pdf",
+        "作者": "Thaddäus Wiedemer, Yuxuan Li, Paul Vicol, Shixiang Shane Gu, Nick Matarese, Kevin Swersky, Been Kim, Priyank Jaini, Robert Geirhos",
+        "摘要": "摘要：大型语言模型（LLMs）卓越的零样本能力推动了自然语言处理从任务特定模型向统一的、通用的基础模型转变。这种转变源自简单的基础：在网络规模数据上训练的大型生成模型。令人好奇的是，这些基础同样适用于当今的生成视频模型。视频模型是否能像LLMs开发出通用语言理解一样，走向通用视觉理解的轨迹？我们展示了Veo 3能够解决广泛的任务，尽管它没有被明确训练来解决这些任务：分割对象、检测边缘、编辑图像、理解物理性质、识别对象的功能、模拟工具使用等。这些感知、建模和操作视觉世界的能力使得视觉推理的早期形式成为可能，例如迷宫和对称性解决。Veo的零样本能力表明视频模型正走向成为统一的、通用的视觉基础模型。",
+        "地址": "https://arxiv.org/pdf/2509.20328.pdf"
+    },
+    {
+        "名称": "2025 [2509.20317] SIM-CoT: Supervised Implicit Chain-of-Thought.pdf",
+        "作者": "Xilin Wei, Xiaoran Liu, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Jiaqi Wang, Xipeng Qiu, Dahua Lin",
+        "摘要": "摘要: 隐式链式思维（CoT）方法为大型语言模型（LLM）提供了一种比显式CoT推理更节省令牌的替代方案，但持续的性能差距限制了这些方法的应用。我们识别出一个核心潜在不稳定性问题，当扩展隐式CoT的计算预算时：随着推理令牌数量的增加，训练经常变得不稳定并崩溃。我们的分析表明，这种不稳定性源于潜在表示变得同质化并丧失语义多样性，是由当前隐式CoT方法中的步骤级监督不足引起的。为了解决这个问题，我们提出了SIM-CoT，这是一个插即用的训练模块，通过引入步骤级监督来稳定和丰富潜在推理空间。在训练过程中，SIM-CoT使用辅助解码器将每个隐式令牌与其对应的显式推理步骤对齐，确保潜在状态捕捉到不同且有意义的信息。辅助解码器在推理时被移除，保留隐式CoT的效率而不会增加开销。它还通过将每个潜在令牌投射到显式推理词汇中提供可解释性，使得逐步骤可视化和诊断成为可能。SIM-CoT显著提高了隐式CoT方法的域内准确性和域外稳定性，分别将Coconut在GPT-2上的表现提升了8.2%，并将CODI在LLaMA-3.1 8B上的表现提升了3.0%。它进一步以2.3倍的令牌效率在GPT-2上超过显式CoT基准2.1%，同时缩小了在LLaMA-3.1 8B等大型模型上的性能差距。",
+        "地址": "https://arxiv.org/pdf/2509.20317.pdf"
+    },
+    {
+        "名称": "2025 [2509.20354] EmbeddingGemma: Powerful and Lightweight Text Representations.pdf",
+        "作者": "Henrique Schechter Vera, Sahil Dua, Biao Zhang, Daniel Salz, Ryan Mullins, Sindhu Raghuram Panyam, Sara Smoot, Iftekhar Naim, Joe Zou, Feiyang Chen, Daniel Cer, Alice Lisak, Min Choi, Lucas Gonzalez, Omar Sanseviero, Glenn Cameron, Ian Ballantyne, Kat Black, Kaifeng Chen, Weiyi Wang, Zhe Li, Gus Martins, Jinhyuk Lee, Mark Sherwood, Juyeong Ji, Renjie Wu, Jingxiao Zheng, Jyotinder Singh, Abheesht Sharma, Divya Sreepat, Aashi Jain, Adham Elarabawy, AJ Co, Andreas Doumanoglou, Babak Samari, Ben Hora, Brian Potetz, Dahun Kim, Enrique Alfonseca, Fedor Moiseev, Feng Han, Frank Palma Gomez, Gustavo Hernández Ábrego, Hesen Zhang, Hui Hui, Jay Han, Karan Gill, Ke Chen, Koert Chen, Madhuri Shanbhogue, Michael Boratko, Paul Suganthan, Sai Meher Karthik Duddu, Sandeep Mariserla, Setareh Ariafar, Shanfeng Zhang, Shijie Zhang, Simon Baumgartner, Sonam Goenka, Steve Qiu, Tanmaya Dabral, Trevor Walker, Vikram Rao, Waleed Khawaja, Wenlei Zhou, Xiaoqi Ren, Ye Xia, Yichang Chen, Yi-Ting Chen, Zhe Dong, Zhongli Ding, Francesco Visin, Gaël Liu, Jiageng Zhang, Kathleen Kenealy, Michelle Casbon, Ravin Kumar, Thomas Mesnard, Zach Gleicher, Cormac Brick, Olivier Lacombe, Adam Roberts, Yunhsuan Sung, Raphael Hoffmann, Tris Warkentin, Armand Joulin, Tom Duerig, Mojtaba Seyedhosseini",
+        "摘要": "摘要：我们推出EmbeddingGemma，这是一款基于Gemma 3语言模型家族的轻量开放文本嵌入模型。我们创新的训练方法通过编码器-解码器初始化和几何嵌入蒸馏策略性地从更大的模型中捕获知识。我们利用扩展正则化器提高模型的鲁棒性和表现力，并通过融合多种优化混合检查点确保模型的通用性。在多语言、英文和代码领域的海量文本嵌入基准测试（MTEB）中，EmbeddingGemma（300M）实现了最先进的结果。值得注意的是，它在参数少于500M的情况下超越了之前的顶级模型，无论是专有的还是开放的，并且提供了可与其两倍大小的模型相媲美的性能，表现出卓越的性能成本比。尤其是，量化模型权重或截断嵌入输出时，这一优势仍然存在。这样使EmbeddingGemma特别适合用于低延迟和高吞吐量应用场景，例如设备应用。我们提供了关于我们关键设计选择的消融研究。我们将EmbeddingGemma释放给社区，以促进进一步的研究。",
+        "地址": "https://arxiv.org/pdf/2509.20354.pdf"
+    },
+    {
+        "名称": "2025 [2509.16990] Advancing Speech Understanding in Speech-Aware Language Models with GRPO.pdf",
+        "作者": "Avishai Elmakies, Hagai Aronowitz, Nimrod Shabtay, Eli Schwartz, Ron Hoory, Avihu Dekel",
+        "摘要": "摘要: 本文介绍了一种基于群体相对策略优化（GRPO）的方法，用于在开放格式语音理解任务（如口语问答和自动语音翻译）上训练语音感知大型语言模型（SALLMs）。SALLMs已被证明在语音理解任务中非常有效。GRPO因其训练大型语言模型的效率最近获得了关注，之前的研究主要探索其在多项选择任务中的应用。在此基础上，我们关注更能反映模型生成能力的开放格式任务。我们的方法利用GRPO并以BLEU作为奖励信号来优化SALLMs，并通过实验证明它在几个关键指标上优于标准SFT。最后，我们探讨在这些任务中结合离政策样本的潜力，突显了进一步改进和研究的途径。",
+        "地址": "https://arxiv.org/pdf/2509.16990.pdf"
+    },
+    {
+        "名称": "2025 [2509.20360] EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning.pdf",
+        "作者": "Xuan Ju, Tianyu Wang, Yuqian Zhou, He Zhang, Qing Liu, Nanxuan Zhao, Zhifei Zhang, Yijun Li, Yuanhao Cai, Shaoteng Liu, Daniil Pakhomov, Zhe Lin, Soo Ye Kim, Qiang Xu",
+        "摘要": "摘要：最近在基础模型方面的进展突出了统一和扩展的明显趋势，显示出在不同领域中的新兴能力。尽管图像生成与编辑已经迅速从任务特定框架过渡到统一框架，视频生成与编辑由于架构局限性和数据稀缺性仍然处于分散状态。在这项工作中，我们介绍了EditVerse，一个在单一模型中进行图像和视频生成与编辑的统一框架。通过将所有模态（即文本、图像和视频）表示为统一的标记序列，EditVerse利用自注意机制实现了强大的上下文学习、自然的跨模态知识转移，以及灵活处理任意分辨率和持续时间的输入输出。为了解决视频编辑训练数据的缺乏，我们设计了一个可扩展的数据管道，编制了232K视频编辑样本，并将其与大规模图像和视频数据集结合进行联合训练。此外，我们提出了EditVerseBench，这是首个覆盖各种任务和分辨率的基于指令的视频编辑基准测试。广泛的实验和用户研究表明，EditVerse达到最先进的性能，超越现有的开源和商业模型，同时展现出跨模态的新兴编辑和生成能力。",
+        "地址": "https://arxiv.org/pdf/2509.20360.pdf"
+    },
+    {
+        "名称": "2025 [2509.19580] LLMs4All: A Review on Large Language Models for Research and Applications in Academic Disciplines.pdf",
+        "作者": "Yanfang Fanny Ye, Zheyuan Zhang, Tianyi Ma, Zehong Wang, Yiyang Li, Shifu Hou, Weixiang Sun, Kaiwen Shi, Yijun Ma, Wei Song, Ahmed Abbasi, Ying Cheng, Jane Cleland-Huang, Steven Corcelli, Patricia Culligan, Robert Goulding, Ming Hu, Ting Hua, John Lalor, Fang Liu, Tengfei Luo, Ed Maginn, Nuno Moniz, Jason Rohr, Brett Savoie, Daniel Slate, Tom Stapleford, Matthew Webber, Olaf Wiest, Johnny Zhang, Nitesh Chawla",
+        "摘要": "摘要：前沿人工智能（AI）技术不断重塑我们对世界的看法。例如，基于大型语言模型（LLMs）的应用程序，如ChatGPT，已展示出在广泛话题上生成类似人类对话的能力。由于其在各种语言相关任务（如开放域问答、翻译和文档摘要）上的出色表现，人们可以预见LLMs在更广泛的现实世界应用（如客户服务、教育和辅助功能、科学发现）中带来的深远影响。受其成功的启发，本文将概述最先进的LLMs及其在广泛学术学科中的整合，包括：(1) 艺术、文学和法律（如历史、哲学、政治学、艺术和建筑、法律），(2) 经济学和商业（如金融、经济学、会计、市场营销），以及 (3) 科学与工程（如数学、物理与机械工程、化学与化学工程、生命科学与生物工程、地球科学与土木工程、计算机科学与电气工程）。本文将探索LLMs如何在人文学科与技术的融合中塑造这些领域的研究和实践，并讨论在生成AI时代的关键限制、未解挑战和未来方向。对LLMs在跨学科应用中的参与情况的综述——以及关键观察和见解——可以帮助有兴趣利用LLMs推进其在多种现实世界应用中工作的研究人员和从业者。",
+        "地址": "https://arxiv.org/pdf/2509.19580.pdf"
+    },
+    {
+        "名称": "2025 [2509.19244] Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Understanding and Generation.pdf",
+        "作者": "Shufan Li, Jiuxiang Gu, Kangning Liu, Zhe Lin, Zijun Wei, Aditya Grover, Jason Kuen",
+        "摘要": "摘要: 我们提出了Lavida-O，一个统一的遮蔽扩散模型（MDM），用于多模态理解和生成。与现有仅支持简单图像级理解任务和低分辨率图像生成的多模态MDM如MMaDa和Muddit不同，Lavida-O呈现了一个单一框架，能够进行图像级理解、目标定位、图像编辑和高分辨率（1024px）的文本到图像合成。Lavida-O结合了一种新颖的弹性混合变压器（Elastic-MoT）架构，将一个轻量的生成分支与一个更大的理解分支相耦合，并通过标记压缩、通用文本条件以及分层采样实现高效且高质量的生成。Lavida-O进一步在图像生成和编辑任务中引入规划和迭代自我反思，使生成质量无缝提升。Lavida-O在广泛的基准测试中实现了最先进的性能，包括RefCOCO目标定位、GenEval文本到图像生成和ImgEdit图像编辑，超越了现有的自回归模型和连续扩散模型，如Qwen2.5-VL和FluxKontext-dev，同时在推理时提供了显著的加速。这些进步确立了Lavida-O作为可扩展的多模态推理和生成的新范式。",
+        "地址": "https://arxiv.org/pdf/2509.19244.pdf"
+    },
+    {
+        "名称": "2025 [2509.20358] PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video Generation.pdf",
+        "作者": "Chen Wang, Chuhao Chen, Yiming Huang, Zhiyang Dou, Yuan Liu, Jiatao Gu, Lingjie Liu",
+        "摘要": "摘要: 现有的视频生成模型在从文本或图像生成照片级逼真视频方面表现出色，但通常缺乏物理合理性和三维可控性。为克服这些局限性，我们介绍了PhysCtrl，一个通过物理参数和力控制进行物理基础图像到视频生成的新框架。其核心是一个生成物理网络，通过条件物理参数和施加力量的扩散模型来学习四种材料（弹性、沙子、橡皮泥和刚性）物理动态的分布。我们将物理动态表示为三维点轨迹，并在由物理模拟器生成的55万动画的大规模合成数据集上进行训练。我们通过一个新颖的时空注意模块增强扩散模型，该模块模拟了粒子间相互作用，并在训练过程中结合基于物理的约束以确保物理合理性。实验表明，PhysCtrl生成的现实的、基于物理的运动轨迹在用于驱动图像到视频模型时，能够产生高保真、可控的视频，在视觉质量和物理合理性方面均优于现有方法。项目页面：此 https URL\n",
+        "地址": "https://arxiv.org/pdf/2509.20358.pdf"
+    },
+    {
+        "名称": "2025 [2509.19760] Logics-Parsing Technical Report.pdf",
+        "作者": "Xiangyang Chen, Shuzhao Li, Xiuwen Zhu, Yongfan Chen, Fan Yang, Cheng Fang, Lin Qu, Xiaoxiao Xu, Hu Wei, Minggang Wu",
+        "摘要": "摘要：最近在大规模视觉-语言模型（LVLM）领域的进展极大地推动了文档解析任务的发展。与传统的基于流水线的方法相比，端到端的范式通过整合光学字符识别（OCR）、表格识别、数学公式识别等，展示了其在将PDF图像转换为结构化输出方面的优势。然而，缺乏明确的文档布局和阅读顺序的分析阶段限制了LVLM在处理复杂文档类型（如多栏报纸或海报）方面的能力。为了解决这一限制，我们在本报告中提出了Logics-Parsing：一种基于LVLM并增强了强化学习的端到端模型。我们的模型包含精心设计的奖励机制，以优化复杂的布局分析和阅读顺序推理。此外，我们通过将化学公式和手写中文字符等多样化的数据类型纳入监督微调，扩展了模型的通用性。最后，为了进行严谨的评估，我们引入了LogicsParsingBench，这是一个由1,078个页面级PDF图像组成的精心策划的集合，涵盖九大类别及超过二十个子类别，将在后续发布。基于LogicsParsingBench进行的综合实验验证了我们提出的模型在多种文档分析场景中的有效性和最新的技术水平（SOTA）性能。项目页面：此https URL\n\n作者：陈向阳，李书钊，朱秀文，陈永凡，杨帆，方成，曲琳，徐潇潇，魏虎，吴明刚\n\n链接：https://arxiv.org/pdf/2509.19760.pdf\n\n标题：2025 [2509.19760] Logics-Parsing技术报告.pdf",
+        "地址": "https://arxiv.org/pdf/2509.19760.pdf"
+    },
+    {
+        "名称": "2025 [2509.18480] SimpleFold: Folding Proteins is Simpler than You Think.pdf",
+        "作者": "Yuyang Wang, Jiarui Lu, Navdeep Jaitly, Josh Susskind, Miguel Angel Bautista",
+        "摘要": "摘要: 蛋白质折叠模型通常通过将领域知识整合到架构模块和训练管道中取得突破性成果。然而，鉴于生成模型在不同但相关问题上的成功，是否这些架构设计是构建性能模型的必要条件值得探讨。在本文中，我们介绍了SimpleFold，这是第一个基于流匹配的蛋白质折叠模型，仅使用通用Transformer模块。蛋白质折叠模型通常采用计算量大的模块，涉及三角更新、显式对表示或为特定领域精心设计的多个训练目标。相反，SimpleFold使用标准的Transformer模块与自适应层，并通过生成流匹配目标与额外的结构项进行训练。我们将SimpleFold扩展到3B参数，并在大约900万个蒸馏蛋白质结构以及实验PDB数据上进行训练。在标准折叠基准测试中，SimpleFold-3B实现了与最先进的基准模型相竞争的性能，此外，SimpleFold在通常难以通过确定性重建目标训练的模型中表现出强大的集成预测性能。由于其通用架构，SimpleFold在消费者级硬件上的部署和推理效率较高。SimpleFold挑战了在蛋白质折叠中依赖复杂领域特定架构设计，开启了未来进步的替代设计空间。\n\n作者：王育阳，陆家瑞，Navdeep Jaitly，Josh Susskind，Miguel Angel Bautista\n\n备注：28页，11个图，13张表\n\n链接：https://arxiv.org/pdf/2509.18480.pdf\n\n标题：2025 [2509.18480] SimpleFold: Folding Proteins is Simpler than You Think.pdf",
+        "地址": "https://arxiv.org/pdf/2509.18480.pdf"
+    },
+    {
+        "名称": "2025 [2509.18400] ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized Tariff Code Classification.pdf",
+        "作者": "Pritish Yuvraj, Siva Devarakonda",
+        "摘要": "摘要：准确分类《协调关税税则》 (HTS) 下的产品是全球贸易中的一个关键瓶颈，但它却很少受到机器学习领域的关注。误分类可能会完全阻止货物运输，主要邮政运营商由于海关文件不完整而暂停向美国的投递。我们介绍了第一个用于 HTS 代码分类的基准，源自美国海关裁定在线搜索系统 (CROSS)。通过评估领先的大语言模型 (LLM)，我们发现我们的微调 Atlas 模型 (LLaMA-3.3-70B) 实现了 40% 的完全正确的 10 位代码分类和 57.5% 的正确的 6 位代码分类，比 GPT-5-Thinking 提高了 15 个百分点，比 Gemini-2.5-Pro-Thinking 提高了 27.5 个百分点。除了准确性，Atlas 的成本比 GPT-5-Thinking 低约五倍，比 Gemini-2.5-Pro-Thinking 低约八倍，并且可以自托管以保证高风险贸易和合规工作流程中的数据隐私。虽然 Atlas 设置了一个强有力的基线，但基准仍然具有高度挑战性，10 位代码的准确率仅为 40%。通过发布数据集和模型，我们旨在将 HTS 分类定位为新的社区基准任务，并邀请在检索、推理和对齐方面的未来工作。",
+        "地址": "https://arxiv.org/pdf/2509.18400.pdf"
+    },
+    {
+        "名称": "2025 [2509.21164] Mixture of Thoughts: Learning to Aggregate What Experts Think, Not Just What They Say.pdf",
+        "作者": "Jacob Fein-Ashley, Dhruv Parikh, Rajgopal Kannan, Viktor Prasanna",
+        "摘要": "摘要：开源大型语言模型（LLMs）越来越多地专注于特定领域（例如，数学、代码、一般推理），这激发了利用不同模型间互补优势的系统的发展。之前的多LLM方法要么将查询发送给一个或几个专家并独立生成，要么通过耗时的多轮交流汇总各个模型的输出，或者融合权重到单一模型中，通常需要结构上的同质性。我们介绍了思想混合(MoT)，这是一种在全局路由方案下不同专家间进行潜在层次协作的简单方法。对于每个查询，一个轻量级路由器选择前$K$名专家，并指定一个主要专家；均匀放置的交互层将隐藏状态投射到共享潜在空间，其中主要专家对其活跃的（选定的）同伴执行跨注意。预训练的专家保持冻结状态；仅路由器和轻量级交互层通过一种新的联合训练目标进行训练，该目标改善了专家选择和专家间协作。在五个分布内（ID）和三个分布外（OOD）基准测试中，MoT分别超越当前基于路由和聚合的最先进技术Avengers $+0.38\\\\%$和$+2.92\\\\%$。此外，MoT显著优于表现最好的单一模型。它通过单次传递推断完成这一目标，运行时间与路由基线相当，没有迭代聚合的额外开销。MoT提供了一种简单的潜在空间机制，用于结合不同的LLMs，向更广泛的多LLM协作迈出了实用的一步。我们的代码在此https URL公开。",
+        "地址": "https://arxiv.org/pdf/2509.21164.pdf"
+    },
+    {
+        "名称": "2025 [2509.14745] On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub.pdf",
+        "作者": "Miku Watanabe, Hao Li, Yutaro Kashiwa, Brittany Reid, Hajimu Iida, Ahmed E. Hassan",
+        "摘要": "摘要: 随着大语言模型（LLMs）在软件开发过程中的逐渐集成，通过使用自主AI代理生成代码和提交拉取请求的能力即将成为标准做法。然而，对于这些拉取请求的实际有用性以及它们在现实项目中被接受的程度知之甚少。在本文中，我们实证研究了利用一种名为Claude Code的代理编程工具在157个不同的开源项目中生成的567个GitHub拉取请求（PRs）。我们的分析表明，开发人员倾向于依赖代理进行重构、文档编写和测试等任务。结果表明，83.8%的代理协助PR最终被项目维护者接受并合并，其中54.9%的合并PR无需进一步修改。剩下的45.1%则需要额外的更改，特别是在修复错误、文档编写和遵循项目特定标准方面受益于人工修订。这些发现表明，尽管代理协助PR在很大程度上是可以接受的，但它们仍然受益于人工监督和改进。\n\n作者: Miku Watanabe, Hao Li, Yutaro Kashiwa, Brittany Reid, Hajimu Iida, Ahmed E. Hassan\n\n链接: [https://arxiv.org/pdf/2509.14745.pdf](https://arxiv.org/pdf/2509.14745.pdf)\n\n标题: 2025 [2509.14745] On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub.",
+        "地址": "https://arxiv.org/pdf/2509.14745.pdf"
+    },
+    {
+        "名称": "2025 [2509.16080] kh2d-solver: A Python Library for Idealized Two-Dimensional Incompressible Kelvin-Helmholtz Instability.pdf",
+        "作者": "Sandy H. S. Herho, Nurjanna J. Trilaksono, Faiz R. Fajary, Gandhi Napitupulu, Iwan P. Anwar, Faruq Khadami, Dasapta E. Irawan",
+        "摘要": "摘要: 我们提出了一个开源Python库，用于模拟分层剪切流中二维不可压缩的开尔文-亥姆霍兹不稳定性。该求解器采用分步投影方法，通过快速正弦变换进行谱泊松解，实现了空间二阶精度。实施上利用了NumPy、SciPy和Numba JIT编译，以实现高效计算。四个典型测试案例探索了雷诺数1000-5000和理查森数0.1-0.3：经典剪切层、双剪结构、旋转流和强迫湍流。使用香农熵和复杂性指数进行的统计分析显示，尽管雷诺数较低，双剪层的混合率比强迫湍流高出2.8倍。该求解器在标准桌面硬件上运行效率高，384×192网格模拟大约在31分钟内完成。结果表明，混合效率取决于不稳定性生成途径而非强度度量本身，这挑战了基于理查森数的参数化，并建议改进气候模型中的尺度表示方法。\n\n",
+        "地址": "https://arxiv.org/pdf/2509.16080.pdf"
+    }
+]
