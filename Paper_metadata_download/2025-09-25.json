@@ -1,0 +1,2202 @@
+[
+    {
+        "paper": {
+            "id": "2509.20328",
+            "authors": [
+                {
+                    "_id": "68d4a16436950a9dff15687e",
+                    "user": {
+                        "_id": "6635e88459d39b1afa736263",
+                        "avatarUrl": "/avatars/0ebac4e2ba2420dfe7a852b873beb47a.svg",
+                        "isPro": false,
+                        "fullname": "Thaddäus Wiedemer",
+                        "user": "ThaddaeusWiedemer",
+                        "type": "user"
+                    },
+                    "name": "Thaddäus Wiedemer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:35:38.955Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff15687f",
+                    "user": {
+                        "_id": "66d86ae34eb2eb8dc078f808",
+                        "avatarUrl": "/avatars/4fb926729092ce69087343ce767387c8.svg",
+                        "isPro": false,
+                        "fullname": "Yuxuan Li",
+                        "user": "yuxuanli",
+                        "type": "user"
+                    },
+                    "name": "Yuxuan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:35:47.314Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156880",
+                    "name": "Paul Vicol",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156881",
+                    "name": "Shixiang Shane Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156882",
+                    "user": {
+                        "_id": "63e2b8f0c123238b189b9fed",
+                        "avatarUrl": "/avatars/4f403225d37c758fe680a2f8dc0795e0.svg",
+                        "isPro": false,
+                        "fullname": "Nick Matarese",
+                        "user": "nmatares",
+                        "type": "user"
+                    },
+                    "name": "Nick Matarese",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:02.770Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156883",
+                    "user": {
+                        "_id": "630e6ef664f1f8d0c771b758",
+                        "avatarUrl": "/avatars/1df2bfadb2b6fdf8307189936efc6ef0.svg",
+                        "isPro": false,
+                        "fullname": "Kevin Swersky",
+                        "user": "kswersky",
+                        "type": "user"
+                    },
+                    "name": "Kevin Swersky",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:10.350Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156884",
+                    "name": "Been Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156885",
+                    "name": "Priyank Jaini",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a16436950a9dff156886",
+                    "user": {
+                        "_id": "673bbe0d7dfcdedd52619ec2",
+                        "avatarUrl": "/avatars/531a44f05d0c738bbe3e028c76c2e948.svg",
+                        "isPro": false,
+                        "fullname": "Robert Geirhos",
+                        "user": "rgeirhos",
+                        "type": "user"
+                    },
+                    "name": "Robert Geirhos",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:26.093Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T17:17:27.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:27:00.745Z",
+            "title": "Video models are zero-shot learners and reasoners",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The remarkable zero-shot capabilities of Large Language Models (LLMs) have\npropelled natural language processing from task-specific models to unified,\ngeneralist foundation models. This transformation emerged from simple\nprimitives: large, generative models trained on web-scale data. Curiously, the\nsame primitives apply to today's generative video models. Could video models be\non a trajectory towards general-purpose vision understanding, much like LLMs\ndeveloped general-purpose language understanding? We demonstrate that Veo 3 can\nsolve a broad variety of tasks it wasn't explicitly trained for: segmenting\nobjects, detecting edges, editing images, understanding physical properties,\nrecognizing object affordances, simulating tool use, and more. These abilities\nto perceive, model, and manipulate the visual world enable early forms of\nvisual reasoning like maze and symmetry solving. Veo's emergent zero-shot\ncapabilities indicate that video models are on a path to becoming unified,\ngeneralist vision foundation models.",
+            "upvotes": 44,
+            "discussionId": "68d4a16436950a9dff156887",
+            "projectPage": "https://video-zero-shot.github.io/",
+            "ai_summary": "Veo 3, a generative video model, exhibits zero-shot capabilities across various visual tasks, suggesting a trajectory towards becoming a unified, generalist vision foundation model.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMs",
+                "generative models",
+                "web-scale data",
+                "generative video models",
+                "zero-shot capabilities",
+                "object segmentation",
+                "edge detection",
+                "image editing",
+                "physical properties",
+                "object affordances",
+                "tool use simulation",
+                "visual reasoning",
+                "maze solving",
+                "symmetry solving",
+                "unified",
+                "generalist vision foundation models"
+            ]
+        },
+        "publishedAt": "2025-09-24T13:17:27.000Z",
+        "title": "Video models are zero-shot learners and reasoners",
+        "summary": "The remarkable zero-shot capabilities of Large Language Models (LLMs) have\npropelled natural language processing from task-specific models to unified,\ngeneralist foundation models. This transformation emerged from simple\nprimitives: large, generative models trained on web-scale data. Curiously, the\nsame primitives apply to today's generative video models. Could video models be\non a trajectory towards general-purpose vision understanding, much like LLMs\ndeveloped general-purpose language understanding? We demonstrate that Veo 3 can\nsolve a broad variety of tasks it wasn't explicitly trained for: segmenting\nobjects, detecting edges, editing images, understanding physical properties,\nrecognizing object affordances, simulating tool use, and more. These abilities\nto perceive, model, and manipulate the visual world enable early forms of\nvisual reasoning like maze and symmetry solving. Veo's emergent zero-shot\ncapabilities indicate that video models are on a path to becoming unified,\ngeneralist vision foundation models.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20328.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 109
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.20317",
+            "authors": [
+                {
+                    "_id": "68d4b42136950a9dff1568d1",
+                    "user": {
+                        "_id": "62eb70462f0f5e54df42f778",
+                        "avatarUrl": "/avatars/456049dba67638d3cdb330cdf383f272.svg",
+                        "isPro": false,
+                        "fullname": "Xilin Wei",
+                        "user": "Wiselnn",
+                        "type": "user"
+                    },
+                    "name": "Xilin Wei",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T11:35:19.953Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d2",
+                    "user": {
+                        "_id": "64f033ef82c6eea604c4da8b",
+                        "avatarUrl": "/avatars/51b93fea7fd68b4274ee03701245dcca.svg",
+                        "isPro": false,
+                        "fullname": "Liu Xiaoran",
+                        "user": "LiuXR",
+                        "type": "user"
+                    },
+                    "name": "Xiaoran Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:10:49.956Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d3",
+                    "name": "Yuhang Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d4",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d5",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d6",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d7",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b42136950a9dff1568d8",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T17:01:32.000Z",
+            "submittedOnDailyAt": "2025-09-25T01:52:04.994Z",
+            "title": "SIM-CoT: Supervised Implicit Chain-of-Thought",
+            "submittedOnDailyBy": {
+                "_id": "62eb70462f0f5e54df42f778",
+                "avatarUrl": "/avatars/456049dba67638d3cdb330cdf383f272.svg",
+                "isPro": false,
+                "fullname": "Xilin Wei",
+                "user": "Wiselnn",
+                "type": "user"
+            },
+            "summary": "Implicit Chain-of-Thought (CoT) methods present a promising, token-efficient\nalternative to explicit CoT reasoning in Large Language Models (LLMs), but a\npersistent performance gap has limited the application of implicit CoT. We\nidentify a core latent instability issue by scaling the computational budget of\nimplicit CoT approaches: as we increase the number of implicit reasoning tokens\nto enhance performance, the training process often becomes unstable and\ncollapses. Our analysis reveals that this instability arises from the latent\nrepresentations becoming homogeneous and losing their semantic diversity, a\nfailure caused by insufficient step-level supervision in existing implicit CoT\napproaches. To address this issue, we propose SIM-CoT, a plug-and-play training\nmodule that introduces step-level supervision to stabilize and enrich the\nlatent reasoning space. Specifically, SIM-CoT employs an auxiliary decoder\nduring training to align each implicit token with its corresponding explicit\nreasoning step, ensuring that latent states capture distinct and meaningful\ninformation. The proposed auxiliary decoder is removed during inference,\npreserving the computational efficiency of implicit CoT methods with no added\noverhead. In addition, the auxiliary decoder affords interpretability of\nimplicit reasoning by projecting each latent token onto an explicit reasoning\nvocabulary, enabling per-step visualization of semantic roles and diagnosis.\nSIM-CoT significantly enhances both the in-domain accuracy and out-of-domain\nstability of various implicit CoT methods, boosting baselines like Coconut by\n+8.2% on GPT-2 and CODI by +3.0% on LLaMA-3.1 8B. Demonstrating strong\nscalability, SIM-CoT also surpasses the explicit CoT baseline on GPT-2 by 2.1%\nwith 2.3\\times greater token efficiency, while substantially closing the\nperformance gap on larger models like LLaMA-3.1 8B.",
+            "upvotes": 28,
+            "discussionId": "68d4b42136950a9dff1568d9",
+            "githubRepo": "https://github.com/InternLM/SIM-CoT",
+            "ai_summary": "SIM-CoT, a plug-and-play training module, introduces step-level supervision to stabilize and enrich the latent reasoning space of implicit Chain-of-Thought methods, enhancing their performance and efficiency.",
+            "ai_keywords": [
+                "implicit Chain-of-Thought",
+                "explicit Chain-of-Thought",
+                "Large Language Models",
+                "latent instability",
+                "step-level supervision",
+                "SIM-CoT",
+                "auxiliary decoder",
+                "latent representations",
+                "semantic diversity",
+                "in-domain accuracy",
+                "out-of-domain stability",
+                "Coconut",
+                "CODI",
+                "GPT-2",
+                "LLaMA-3.1 8B",
+                "token efficiency"
+            ],
+            "githubStars": 28
+        },
+        "publishedAt": "2025-09-24T13:01:32.000Z",
+        "title": "SIM-CoT: Supervised Implicit Chain-of-Thought",
+        "summary": "Implicit Chain-of-Thought (CoT) methods present a promising, token-efficient\nalternative to explicit CoT reasoning in Large Language Models (LLMs), but a\npersistent performance gap has limited the application of implicit CoT. We\nidentify a core latent instability issue by scaling the computational budget of\nimplicit CoT approaches: as we increase the number of implicit reasoning tokens\nto enhance performance, the training process often becomes unstable and\ncollapses. Our analysis reveals that this instability arises from the latent\nrepresentations becoming homogeneous and losing their semantic diversity, a\nfailure caused by insufficient step-level supervision in existing implicit CoT\napproaches. To address this issue, we propose SIM-CoT, a plug-and-play training\nmodule that introduces step-level supervision to stabilize and enrich the\nlatent reasoning space. Specifically, SIM-CoT employs an auxiliary decoder\nduring training to align each implicit token with its corresponding explicit\nreasoning step, ensuring that latent states capture distinct and meaningful\ninformation. The proposed auxiliary decoder is removed during inference,\npreserving the computational efficiency of implicit CoT methods with no added\noverhead. In addition, the auxiliary decoder affords interpretability of\nimplicit reasoning by projecting each latent token onto an explicit reasoning\nvocabulary, enabling per-step visualization of semantic roles and diagnosis.\nSIM-CoT significantly enhances both the in-domain accuracy and out-of-domain\nstability of various implicit CoT methods, boosting baselines like Coconut by\n+8.2% on GPT-2 and CODI by +3.0% on LLaMA-3.1 8B. Demonstrating strong\nscalability, SIM-CoT also surpasses the explicit CoT baseline on GPT-2 by 2.1%\nwith 2.3\\times greater token efficiency, while substantially closing the\nperformance gap on larger models like LLaMA-3.1 8B.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20317.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "62eb70462f0f5e54df42f778",
+            "avatarUrl": "/avatars/456049dba67638d3cdb330cdf383f272.svg",
+            "fullname": "Xilin Wei",
+            "name": "Wiselnn",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 5
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2509.20354",
+            "authors": [
+                {
+                    "_id": "68d49f4e36950a9dff15680b",
+                    "user": {
+                        "_id": "686ecc7564498736bc13db91",
+                        "avatarUrl": "/avatars/ebff7401fe0b88bf99753aeb23f31081.svg",
+                        "isPro": false,
+                        "fullname": "Henrique Schechter Vera",
+                        "user": "hschechter",
+                        "type": "user"
+                    },
+                    "name": "Henrique Schechter Vera",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:43:15.835Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15680c",
+                    "name": "Sahil Dua",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15680d",
+                    "name": "Biao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15680e",
+                    "name": "Daniel Salz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15680f",
+                    "name": "Ryan Mullins",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156810",
+                    "user": {
+                        "_id": "66328782bc4ab4b4505365d6",
+                        "avatarUrl": "/avatars/5a469c24dc252b4b6e5710b7385724ed.svg",
+                        "isPro": false,
+                        "fullname": "Sindhu Raghuram Panyam",
+                        "user": "SindhuRaghuram97",
+                        "type": "user"
+                    },
+                    "name": "Sindhu Raghuram Panyam",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:51:20.152Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156811",
+                    "user": {
+                        "_id": "672e607f437aab8fbfdf482c",
+                        "avatarUrl": "/avatars/c826b72a80ada8eb9130f0d35f81d1e0.svg",
+                        "isPro": false,
+                        "fullname": "Sara Smoot",
+                        "user": "ssmoot",
+                        "type": "user"
+                    },
+                    "name": "Sara Smoot",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:51:27.619Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156812",
+                    "name": "Iftekhar Naim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156813",
+                    "name": "Joe Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156814",
+                    "name": "Feiyang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156815",
+                    "name": "Daniel Cer",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156816",
+                    "name": "Alice Lisak",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156817",
+                    "name": "Min Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156818",
+                    "name": "Lucas Gonzalez",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156819",
+                    "user": {
+                        "_id": "6032802e1f993496bc14d9e3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6032802e1f993496bc14d9e3/w6hr-DEQot4VVkoyRIBiy.png",
+                        "isPro": false,
+                        "fullname": "Omar Sanseviero",
+                        "user": "osanseviero",
+                        "type": "user"
+                    },
+                    "name": "Omar Sanseviero",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:51:45.256Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681a",
+                    "name": "Glenn Cameron",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681b",
+                    "name": "Ian Ballantyne",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681c",
+                    "name": "Kat Black",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681d",
+                    "name": "Kaifeng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681e",
+                    "name": "Weiyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15681f",
+                    "name": "Zhe Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156820",
+                    "name": "Gus Martins",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156821",
+                    "name": "Jinhyuk Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156822",
+                    "user": {
+                        "_id": "651464213da8cec2134d9dc0",
+                        "avatarUrl": "/avatars/fa9ce415a81972e7c57a2614b5d8515d.svg",
+                        "isPro": false,
+                        "fullname": "Mark Sherwood",
+                        "user": "Marksherwood",
+                        "type": "user"
+                    },
+                    "name": "Mark Sherwood",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:53:47.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156823",
+                    "name": "Juyeong Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156824",
+                    "name": "Renjie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156825",
+                    "user": {
+                        "_id": "689a86651133f93a6f407511",
+                        "avatarUrl": "/avatars/f384f554ee0be1f1ec9bc4e553871b42.svg",
+                        "isPro": false,
+                        "fullname": "Jingxiao Zheng",
+                        "user": "jingxiaozheng",
+                        "type": "user"
+                    },
+                    "name": "Jingxiao Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:52:14.533Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156826",
+                    "name": "Jyotinder Singh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156827",
+                    "name": "Abheesht Sharma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156828",
+                    "name": "Divya Sreepat",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156829",
+                    "name": "Aashi Jain",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682a",
+                    "name": "Adham Elarabawy",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682b",
+                    "name": "AJ Co",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682c",
+                    "name": "Andreas Doumanoglou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682d",
+                    "name": "Babak Samari",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682e",
+                    "name": "Ben Hora",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15682f",
+                    "name": "Brian Potetz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156830",
+                    "name": "Dahun Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156831",
+                    "name": "Enrique Alfonseca",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156832",
+                    "name": "Fedor Moiseev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156833",
+                    "name": "Feng Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156834",
+                    "name": "Frank Palma Gomez",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156835",
+                    "name": "Gustavo Hernández Ábrego",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156836",
+                    "name": "Hesen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156837",
+                    "name": "Hui Hui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156838",
+                    "name": "Jay Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156839",
+                    "name": "Karan Gill",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683a",
+                    "name": "Ke Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683b",
+                    "name": "Koert Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683c",
+                    "user": {
+                        "_id": "64b09a273b6d9c4ef7626b72",
+                        "avatarUrl": "/avatars/a5fed033a8d241276059289318b3c49b.svg",
+                        "isPro": false,
+                        "fullname": "Madhuri Shanbhogue",
+                        "user": "madhuris",
+                        "type": "user"
+                    },
+                    "name": "Madhuri Shanbhogue",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:53:16.733Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683d",
+                    "name": "Michael Boratko",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683e",
+                    "name": "Paul Suganthan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15683f",
+                    "name": "Sai Meher Karthik Duddu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156840",
+                    "name": "Sandeep Mariserla",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156841",
+                    "name": "Setareh Ariafar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156842",
+                    "name": "Shanfeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156843",
+                    "name": "Shijie Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156844",
+                    "name": "Simon Baumgartner",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156845",
+                    "name": "Sonam Goenka",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156846",
+                    "name": "Steve Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156847",
+                    "name": "Tanmaya Dabral",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156848",
+                    "name": "Trevor Walker",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156849",
+                    "name": "Vikram Rao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684a",
+                    "name": "Waleed Khawaja",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684b",
+                    "name": "Wenlei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684c",
+                    "name": "Xiaoqi Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684d",
+                    "name": "Ye Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684e",
+                    "name": "Yichang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15684f",
+                    "name": "Yi-Ting Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156850",
+                    "name": "Zhe Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156851",
+                    "name": "Zhongli Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156852",
+                    "name": "Francesco Visin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156853",
+                    "name": "Gaël Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156854",
+                    "name": "Jiageng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156855",
+                    "name": "Kathleen Kenealy",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156856",
+                    "name": "Michelle Casbon",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156857",
+                    "name": "Ravin Kumar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156858",
+                    "name": "Thomas Mesnard",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156859",
+                    "name": "Zach Gleicher",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685a",
+                    "name": "Cormac Brick",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685b",
+                    "name": "Olivier Lacombe",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685c",
+                    "name": "Adam Roberts",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685d",
+                    "name": "Yunhsuan Sung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685e",
+                    "user": {
+                        "_id": "65ac1d802f560c70ff74412d",
+                        "avatarUrl": "/avatars/763b352cd671ba7ef2637db14de86951.svg",
+                        "isPro": false,
+                        "fullname": "Raphael hoffmann",
+                        "user": "peacemac",
+                        "type": "user"
+                    },
+                    "name": "Raphael Hoffmann",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:51:01.799Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff15685f",
+                    "name": "Tris Warkentin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156860",
+                    "name": "Armand Joulin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156861",
+                    "user": {
+                        "_id": "631a4acfc9f8cd19a735a0ab",
+                        "avatarUrl": "/avatars/61cebf77358634876d978d87248a62f3.svg",
+                        "isPro": false,
+                        "fullname": "Tom Duerig",
+                        "user": "tduerig",
+                        "type": "user"
+                    },
+                    "name": "Tom Duerig",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:43:33.416Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f4e36950a9dff156862",
+                    "name": "Mojtaba Seyedhosseini",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T17:56:51.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:18:05.591Z",
+            "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce EmbeddingGemma, a new lightweight, open text embedding model\nbased on the Gemma 3 language model family. Our innovative training recipe\nstrategically captures knowledge from larger models via encoder-decoder\ninitialization and geometric embedding distillation. We improve model\nrobustness and expressiveness with a spread-out regularizer, and ensure\ngeneralizability by merging checkpoints from varied, optimized mixtures.\nEvaluated on the Massive Text Embedding Benchmark (MTEB) across multilingual,\nEnglish, and code domains, EmbeddingGemma (300M) achieves state-of-the-art\nresults. Notably, it outperforms prior top models, both proprietary and open,\nwith fewer than 500M parameters, and provides performance comparable to models\ndouble its size, offering an exceptional performance-to-cost ratio. Remarkably,\nthis lead persists when quantizing model weights or truncating embedding\noutputs. This makes EmbeddingGemma particularly well-suited for low-latency and\nhigh-throughput use cases such as on-device applications. We provide ablation\nstudies exploring our key design choices. We release EmbeddingGemma to the\ncommunity to promote further research.",
+            "upvotes": 17,
+            "discussionId": "68d49f4e36950a9dff156863",
+            "ai_summary": "EmbeddingGemma, a lightweight text embedding model based on Gemma 3, achieves state-of-the-art performance with fewer parameters through encoder-decoder initialization, geometric embedding distillation, and spread-out regularization.",
+            "ai_keywords": [
+                "Gemma 3",
+                "encoder-decoder initialization",
+                "geometric embedding distillation",
+                "spread-out regularizer",
+                "Massive Text Embedding Benchmark (MTEB)",
+                "multilingual",
+                "English",
+                "code domains",
+                "quantizing model weights",
+                "truncating embedding outputs"
+            ]
+        },
+        "publishedAt": "2025-09-24T13:56:51.000Z",
+        "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+        "summary": "We introduce EmbeddingGemma, a new lightweight, open text embedding model\nbased on the Gemma 3 language model family. Our innovative training recipe\nstrategically captures knowledge from larger models via encoder-decoder\ninitialization and geometric embedding distillation. We improve model\nrobustness and expressiveness with a spread-out regularizer, and ensure\ngeneralizability by merging checkpoints from varied, optimized mixtures.\nEvaluated on the Massive Text Embedding Benchmark (MTEB) across multilingual,\nEnglish, and code domains, EmbeddingGemma (300M) achieves state-of-the-art\nresults. Notably, it outperforms prior top models, both proprietary and open,\nwith fewer than 500M parameters, and provides performance comparable to models\ndouble its size, offering an exceptional performance-to-cost ratio. Remarkably,\nthis lead persists when quantizing model weights or truncating embedding\noutputs. This makes EmbeddingGemma particularly well-suited for low-latency and\nhigh-throughput use cases such as on-device applications. We provide ablation\nstudies exploring our key design choices. We release EmbeddingGemma to the\ncommunity to promote further research.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20354.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 109
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.16990",
+            "authors": [
+                {
+                    "_id": "68d4e0e836950a9dff156933",
+                    "user": {
+                        "_id": "644662145004f2cb3af08b27",
+                        "avatarUrl": "/avatars/5f2af24c7410a5db46374d0b84fb479d.svg",
+                        "isPro": false,
+                        "fullname": "Avishai Elmakies",
+                        "user": "avishai-elmakies",
+                        "type": "user"
+                    },
+                    "name": "Avishai Elmakies",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:10:44.431Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4e0e836950a9dff156934",
+                    "user": {
+                        "_id": "643425b4a4c9c55871a7a02b",
+                        "avatarUrl": "/avatars/eb2f357888159f5120bbf70a40cb089d.svg",
+                        "isPro": false,
+                        "fullname": "Hagai Aronowitz",
+                        "user": "hagaia",
+                        "type": "user"
+                    },
+                    "name": "Hagai Aronowitz",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:38.678Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4e0e836950a9dff156935",
+                    "user": {
+                        "_id": "62bedff7304b82a773bf8c1b",
+                        "avatarUrl": "/avatars/f9e79dc196caa95c220127c6212e9944.svg",
+                        "isPro": false,
+                        "fullname": "Nimrod Shabtay",
+                        "user": "NimrodShabtay1986",
+                        "type": "user"
+                    },
+                    "name": "Nimrod Shabtay",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:10:41.442Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4e0e836950a9dff156936",
+                    "name": "Eli Schwartz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4e0e836950a9dff156937",
+                    "user": {
+                        "_id": "68b3fe80a9f319567d039ec0",
+                        "avatarUrl": "/avatars/672f169213139d21c7767021a0110402.svg",
+                        "isPro": false,
+                        "fullname": "Ron Hoory",
+                        "user": "rhoory",
+                        "type": "user"
+                    },
+                    "name": "Ron Hoory",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:49.661Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4e0e836950a9dff156938",
+                    "user": {
+                        "_id": "63b7e09359060ca9f4c4de35",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b7e09359060ca9f4c4de35/0PH1dWNfcXTQ9H0QAeD91.jpeg",
+                        "isPro": false,
+                        "fullname": "Avihu Dekel",
+                        "user": "Avihu",
+                        "type": "user"
+                    },
+                    "name": "Avihu Dekel",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:36:56.726Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-21T09:09:36.000Z",
+            "submittedOnDailyAt": "2025-09-25T05:04:00.310Z",
+            "title": "Advancing Speech Understanding in Speech-Aware Language Models with GRPO",
+            "submittedOnDailyBy": {
+                "_id": "644662145004f2cb3af08b27",
+                "avatarUrl": "/avatars/5f2af24c7410a5db46374d0b84fb479d.svg",
+                "isPro": false,
+                "fullname": "Avishai Elmakies",
+                "user": "avishai-elmakies",
+                "type": "user"
+            },
+            "summary": "In this paper, we introduce a Group Relative Policy Optimization (GRPO)-based\nmethod for training Speech-Aware Large Language Models (SALLMs) on open-format\nspeech understanding tasks, such as Spoken Question Answering and Automatic\nSpeech Translation. SALLMs have proven highly effective for speech\nunderstanding tasks. GRPO has recently gained traction for its efficiency in\ntraining LLMs, and prior work has explored its application to SALLMs, primarily\nin multiple-choice tasks. Building on this, we focus on open-format tasks that\nbetter reflect the generative abilities of the models. Our approach leverages\nGRPO with BLEU as the reward signal to optimize SALLMs, and we demonstrate\nempirically that it surpasses standard SFT across several key metrics. Finally,\nwe explore the potential of incorporating off-policy samples within GRPO for\nthese tasks, highlighting avenues for further improvement and further research.",
+            "upvotes": 13,
+            "discussionId": "68d4e0e836950a9dff156939",
+            "ai_summary": "A Group Relative Policy Optimization (GRPO)-based method using BLEU as a reward signal outperforms standard SFT for open-format speech understanding tasks like Spoken Question Answering and Automatic Speech Translation.",
+            "ai_keywords": [
+                "Group Relative Policy Optimization",
+                "GRPO",
+                "Speech-Aware Large Language Models",
+                "SALLMs",
+                "Spoken Question Answering",
+                "Automatic Speech Translation",
+                "BLEU",
+                "standard SFT",
+                "off-policy samples"
+            ]
+        },
+        "publishedAt": "2025-09-21T05:09:36.000Z",
+        "title": "Advancing Speech Understanding in Speech-Aware Language Models with GRPO",
+        "summary": "In this paper, we introduce a Group Relative Policy Optimization (GRPO)-based\nmethod for training Speech-Aware Large Language Models (SALLMs) on open-format\nspeech understanding tasks, such as Spoken Question Answering and Automatic\nSpeech Translation. SALLMs have proven highly effective for speech\nunderstanding tasks. GRPO has recently gained traction for its efficiency in\ntraining LLMs, and prior work has explored its application to SALLMs, primarily\nin multiple-choice tasks. Building on this, we focus on open-format tasks that\nbetter reflect the generative abilities of the models. Our approach leverages\nGRPO with BLEU as the reward signal to optimize SALLMs, and we demonstrate\nempirically that it surpasses standard SFT across several key metrics. Finally,\nwe explore the potential of incorporating off-policy samples within GRPO for\nthese tasks, highlighting avenues for further improvement and further research.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.16990.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "644662145004f2cb3af08b27",
+            "avatarUrl": "/avatars/5f2af24c7410a5db46374d0b84fb479d.svg",
+            "fullname": "Avishai Elmakies",
+            "name": "avishai-elmakies",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 6
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2509.20360",
+            "authors": [
+                {
+                    "_id": "68d49f9f36950a9dff156865",
+                    "user": {
+                        "_id": "62d4577bc85b0fcf7fde39bb",
+                        "avatarUrl": "/avatars/a3a5729e33ae89ce9ba408830db3c835.svg",
+                        "isPro": false,
+                        "fullname": "Xuan Ju",
+                        "user": "juxuan27",
+                        "type": "user"
+                    },
+                    "name": "Xuan Ju",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:57:25.912Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156866",
+                    "name": "Tianyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156867",
+                    "name": "Yuqian Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156868",
+                    "name": "He Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156869",
+                    "name": "Qing Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686a",
+                    "name": "Nanxuan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686b",
+                    "name": "Zhifei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686c",
+                    "name": "Yijun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686d",
+                    "user": {
+                        "_id": "673969726c12c4b98b6ab29f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/C2elfn7L68jAt4dtHzDAW.png",
+                        "isPro": false,
+                        "fullname": "Yuanhao Cai",
+                        "user": "CaiYuanhao",
+                        "type": "user"
+                    },
+                    "name": "Yuanhao Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:58:49.953Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686e",
+                    "user": {
+                        "_id": "63ace528403e3d8deaf23c39",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678936054290-63ace528403e3d8deaf23c39.png",
+                        "isPro": false,
+                        "fullname": "Shaoteng Liu",
+                        "user": "Shaldon",
+                        "type": "user"
+                    },
+                    "name": "Shaoteng Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:58:41.491Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff15686f",
+                    "name": "Daniil Pakhomov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156870",
+                    "name": "Zhe Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156871",
+                    "user": {
+                        "_id": "68d30a497b38b9712adb9e41",
+                        "avatarUrl": "/avatars/2df54a1dcc1438282faa1aa12ae66b84.svg",
+                        "isPro": false,
+                        "fullname": "Soo Ye Kim",
+                        "user": "sooyek",
+                        "type": "user"
+                    },
+                    "name": "Soo Ye Kim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:58:24.755Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d49f9f36950a9dff156872",
+                    "name": "Qiang Xu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T17:59:30.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:19:27.642Z",
+            "title": "EditVerse: Unifying Image and Video Editing and Generation with\n  In-Context Learning",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent advances in foundation models highlight a clear trend toward\nunification and scaling, showing emergent capabilities across diverse domains.\nWhile image generation and editing have rapidly transitioned from task-specific\nto unified frameworks, video generation and editing remain fragmented due to\narchitectural limitations and data scarcity. In this work, we introduce\nEditVerse, a unified framework for image and video generation and editing\nwithin a single model. By representing all modalities, i.e., text, image, and\nvideo, as a unified token sequence, EditVerse leverages self-attention to\nachieve robust in-context learning, natural cross-modal knowledge transfer, and\nflexible handling of inputs and outputs with arbitrary resolutions and\ndurations. To address the lack of video editing training data, we design a\nscalable data pipeline that curates 232K video editing samples and combines\nthem with large-scale image and video datasets for joint training. Furthermore,\nwe present EditVerseBench, the first benchmark for instruction-based video\nediting covering diverse tasks and resolutions. Extensive experiments and user\nstudies demonstrate that EditVerse achieves state-of-the-art performance,\nsurpassing existing open-source and commercial models, while exhibiting\nemergent editing and generation abilities across modalities.",
+            "upvotes": 9,
+            "discussionId": "68d49f9f36950a9dff156873",
+            "ai_summary": "EditVerse is a unified framework using self-attention for image and video generation and editing, achieving state-of-the-art performance with a scalable data pipeline and benchmark.",
+            "ai_keywords": [
+                "self-attention",
+                "in-context learning",
+                "cross-modal knowledge transfer",
+                "EditVerse",
+                "EditVerseBench",
+                "instruction-based video editing"
+            ]
+        },
+        "publishedAt": "2025-09-24T13:59:30.000Z",
+        "title": "EditVerse: Unifying Image and Video Editing and Generation with\n  In-Context Learning",
+        "summary": "Recent advances in foundation models highlight a clear trend toward\nunification and scaling, showing emergent capabilities across diverse domains.\nWhile image generation and editing have rapidly transitioned from task-specific\nto unified frameworks, video generation and editing remain fragmented due to\narchitectural limitations and data scarcity. In this work, we introduce\nEditVerse, a unified framework for image and video generation and editing\nwithin a single model. By representing all modalities, i.e., text, image, and\nvideo, as a unified token sequence, EditVerse leverages self-attention to\nachieve robust in-context learning, natural cross-modal knowledge transfer, and\nflexible handling of inputs and outputs with arbitrary resolutions and\ndurations. To address the lack of video editing training data, we design a\nscalable data pipeline that curates 232K video editing samples and combines\nthem with large-scale image and video datasets for joint training. Furthermore,\nwe present EditVerseBench, the first benchmark for instruction-based video\nediting covering diverse tasks and resolutions. Extensive experiments and user\nstudies demonstrate that EditVerse achieves state-of-the-art performance,\nsurpassing existing open-source and commercial models, while exhibiting\nemergent editing and generation abilities across modalities.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20360.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 109
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.19580",
+            "authors": [
+                {
+                    "_id": "68d48efd36950a9dff1567d4",
+                    "name": "Yanfang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567d5",
+                    "name": "Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567d6",
+                    "name": "Zheyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567d7",
+                    "user": {
+                        "_id": "660c4dd73134c1a046d0bb23",
+                        "avatarUrl": "/avatars/fbffd94ef6b2f60e0716b03301cdf9ee.svg",
+                        "isPro": false,
+                        "fullname": "Tianyi (Billy) Ma",
+                        "user": "mtybilly",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Ma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:11:12.087Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567d8",
+                    "user": {
+                        "_id": "659df2ea91519541cef3d42f",
+                        "avatarUrl": "/avatars/cb8787ff43a32bd71b6b7bb2fe646f31.svg",
+                        "isPro": false,
+                        "fullname": "Zehong Wang",
+                        "user": "ZehongWang",
+                        "type": "user"
+                    },
+                    "name": "Zehong Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:11:14.638Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567d9",
+                    "name": "Yiyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567da",
+                    "name": "Shifu Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567db",
+                    "user": {
+                        "_id": "6481a16f70ac5e1968a7bb97",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6481a16f70ac5e1968a7bb97/ith2d4CuhfJH1CeU92wzE.jpeg",
+                        "isPro": false,
+                        "fullname": "Weixiang Sun",
+                        "user": "Sweson",
+                        "type": "user"
+                    },
+                    "name": "Weixiang Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:11:09.844Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567dc",
+                    "name": "Kaiwen Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567dd",
+                    "name": "Yijun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567de",
+                    "name": "Wei Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567df",
+                    "name": "Ahmed Abbasi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e0",
+                    "name": "Ying Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e1",
+                    "name": "Jane Cleland-Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e2",
+                    "name": "Steven Corcelli",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e3",
+                    "name": "Patricia Culligan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e4",
+                    "name": "Robert Goulding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e5",
+                    "name": "Ming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e6",
+                    "name": "Ting Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e7",
+                    "user": {
+                        "_id": "62eaca4e7008acb2e95f8686",
+                        "avatarUrl": "/avatars/8062c21f509e315d9df023d0e2e33e84.svg",
+                        "isPro": false,
+                        "fullname": "John Lalor",
+                        "user": "lalor",
+                        "type": "user"
+                    },
+                    "name": "John Lalor",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:42:50.724Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e8",
+                    "name": "Fang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567e9",
+                    "name": "Tengfei Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567ea",
+                    "name": "Ed Maginn",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567eb",
+                    "name": "Nuno Moniz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567ec",
+                    "name": "Jason Rohr",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567ed",
+                    "name": "Brett Savoie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567ee",
+                    "name": "Daniel Slate",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567ef",
+                    "name": "Tom Stapleford",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567f0",
+                    "name": "Matthew Webber",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567f1",
+                    "name": "Olaf Wiest",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567f2",
+                    "name": "Johnny Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d48efd36950a9dff1567f3",
+                    "name": "Nitesh Chawla",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-23T21:09:24.000Z",
+            "submittedOnDailyAt": "2025-09-25T02:35:24.658Z",
+            "title": "LLMs4All: A Review on Large Language Models for Research and\n  Applications in Academic Disciplines",
+            "submittedOnDailyBy": {
+                "_id": "6481a16f70ac5e1968a7bb97",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6481a16f70ac5e1968a7bb97/ith2d4CuhfJH1CeU92wzE.jpeg",
+                "isPro": false,
+                "fullname": "Weixiang Sun",
+                "user": "Sweson",
+                "type": "user"
+            },
+            "summary": "Cutting-edge Artificial Intelligence (AI) techniques keep reshaping our view\nof the world. For example, Large Language Models (LLMs) based applications such\nas ChatGPT have shown the capability of generating human-like conversation on\nextensive topics. Due to the impressive performance on a variety of\nlanguage-related tasks (e.g., open-domain question answering, translation, and\ndocument summarization), one can envision the far-reaching impacts that can be\nbrought by the LLMs with broader real-world applications (e.g., customer\nservice, education and accessibility, and scientific discovery). Inspired by\ntheir success, this paper will offer an overview of state-of-the-art LLMs and\ntheir integration into a wide range of academic disciplines, including: (1)\narts, letters, and law (e.g., history, philosophy, political science, arts and\narchitecture, law), (2) economics and business (e.g., finance, economics,\naccounting, marketing), and (3) science and engineering (e.g., mathematics,\nphysics and mechanical engineering, chemistry and chemical engineering, life\nsciences and bioengineering, earth sciences and civil engineering, computer\nscience and electrical engineering). Integrating humanity and technology, in\nthis paper, we will explore how LLMs are shaping research and practice in these\nfields, while also discussing key limitations, open challenges, and future\ndirections in the era of generative AI. The review of how LLMs are engaged\nacross disciplines-along with key observations and insights-can help\nresearchers and practitioners interested in exploiting LLMs to advance their\nworks in diverse real-world applications.",
+            "upvotes": 8,
+            "discussionId": "68d48efe36950a9dff1567f4",
+            "ai_summary": "Large Language Models are transforming various academic disciplines by enabling human-like conversation and enhancing performance in language-related tasks, while also presenting limitations and future challenges.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMs",
+                "open-domain question answering",
+                "translation",
+                "document summarization",
+                "customer service",
+                "education",
+                "accessibility",
+                "scientific discovery",
+                "generative AI"
+            ]
+        },
+        "publishedAt": "2025-09-23T17:09:24.000Z",
+        "title": "LLMs4All: A Review on Large Language Models for Research and\n  Applications in Academic Disciplines",
+        "summary": "Cutting-edge Artificial Intelligence (AI) techniques keep reshaping our view\nof the world. For example, Large Language Models (LLMs) based applications such\nas ChatGPT have shown the capability of generating human-like conversation on\nextensive topics. Due to the impressive performance on a variety of\nlanguage-related tasks (e.g., open-domain question answering, translation, and\ndocument summarization), one can envision the far-reaching impacts that can be\nbrought by the LLMs with broader real-world applications (e.g., customer\nservice, education and accessibility, and scientific discovery). Inspired by\ntheir success, this paper will offer an overview of state-of-the-art LLMs and\ntheir integration into a wide range of academic disciplines, including: (1)\narts, letters, and law (e.g., history, philosophy, political science, arts and\narchitecture, law), (2) economics and business (e.g., finance, economics,\naccounting, marketing), and (3) science and engineering (e.g., mathematics,\nphysics and mechanical engineering, chemistry and chemical engineering, life\nsciences and bioengineering, earth sciences and civil engineering, computer\nscience and electrical engineering). Integrating humanity and technology, in\nthis paper, we will explore how LLMs are shaping research and practice in these\nfields, while also discussing key limitations, open challenges, and future\ndirections in the era of generative AI. The review of how LLMs are engaged\nacross disciplines-along with key observations and insights-can help\nresearchers and practitioners interested in exploiting LLMs to advance their\nworks in diverse real-world applications.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19580.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6481a16f70ac5e1968a7bb97",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6481a16f70ac5e1968a7bb97/ith2d4CuhfJH1CeU92wzE.jpeg",
+            "fullname": "Weixiang Sun",
+            "name": "Sweson",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 3
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2509.19244",
+            "authors": [
+                {
+                    "_id": "68d4b9c136950a9dff1568e2",
+                    "user": {
+                        "_id": "6310531914aa81e1044363ed",
+                        "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+                        "isPro": false,
+                        "fullname": "Shufan Li",
+                        "user": "jacklishufan",
+                        "type": "user"
+                    },
+                    "name": "Shufan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:57:08.415Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e3",
+                    "user": {
+                        "_id": "642467708d97ce93878e8124",
+                        "avatarUrl": "/avatars/f0e464ddb4bd790f470fc0f10275fa26.svg",
+                        "isPro": false,
+                        "fullname": "Jiuxiang Gu",
+                        "user": "JoshuaGu",
+                        "type": "user"
+                    },
+                    "name": "Jiuxiang Gu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:57:15.642Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e4",
+                    "user": {
+                        "_id": "6711e867f25bb4f32f880872",
+                        "avatarUrl": "/avatars/02ec6a9e59f4c4eec6cc7142939cea79.svg",
+                        "isPro": false,
+                        "fullname": "Kangning Liu",
+                        "user": "kl3141",
+                        "type": "user"
+                    },
+                    "name": "Kangning Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:57:24.441Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e5",
+                    "name": "Zhe Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e6",
+                    "name": "Zijun Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e7",
+                    "name": "Aditya Grover",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4b9c136950a9dff1568e8",
+                    "user": {
+                        "_id": "65384eaeef7d2bb8c4baf1b2",
+                        "avatarUrl": "/avatars/b9217561a59309d6b0ddb417324c6cad.svg",
+                        "isPro": false,
+                        "fullname": "Jason Kuen",
+                        "user": "xternalz",
+                        "type": "user"
+                    },
+                    "name": "Jason Kuen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:57:41.466Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6310531914aa81e1044363ed/Eq_uxsS_vHgNCRpS4jxzb.mp4"
+            ],
+            "publishedAt": "2025-09-23T17:05:46.000Z",
+            "submittedOnDailyAt": "2025-09-25T02:12:13.904Z",
+            "title": "Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal\n  Understanding and Generation",
+            "submittedOnDailyBy": {
+                "_id": "6310531914aa81e1044363ed",
+                "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+                "isPro": false,
+                "fullname": "Shufan Li",
+                "user": "jacklishufan",
+                "type": "user"
+            },
+            "summary": "We propose Lavida-O, a unified Masked Diffusion Model (MDM) for multimodal\nunderstanding and generation. Unlike existing multimodal MDMs such as MMaDa and\nMuddit which only support simple image-level understanding tasks and\nlow-resolution image generation, Lavida-O presents a single framework that\nenables image-level understanding, object grounding, image editing, and\nhigh-resolution (1024px) text-to-image synthesis. Lavida-O incorporates a novel\nElastic Mixture-of-Transformers (Elastic-MoT) architecture that couples a\nlightweight generation branch with a larger understanding branch, supported by\ntoken compression, universal text conditioning and stratified sampling for\nefficient and high-quality generation. Lavida-O further incorporates planning\nand iterative self-reflection in image generation and editing tasks, seamlessly\nboosting generation quality with its understanding capabilities. Lavida-O\nachieves state-of-the-art performance on a wide range of benchmarks including\nRefCOCO object grounding, GenEval text-to-image generation, and ImgEdit image\nediting, outperforming existing autoregressive models and continuous diffusion\nmodels such as Qwen2.5-VL and FluxKontext-dev, while offering considerable\nspeedup at inference. These advances establish Lavida-O as a new paradigm for\nscalable multimodal reasoning and generation.",
+            "upvotes": 6,
+            "discussionId": "68d4b9c236950a9dff1568e9",
+            "projectPage": "https://homepage.jackli.org/projects/lavida_o/index.html",
+            "ai_summary": "Lavida-O, a unified Masked Diffusion Model, excels in multimodal understanding and generation tasks, including object grounding, image editing, and high-resolution text-to-image synthesis, outperforming existing models with improved efficiency and quality.",
+            "ai_keywords": [
+                "Masked Diffusion Model",
+                "Elastic Mixture-of-Transformers",
+                "token compression",
+                "universal text conditioning",
+                "stratified sampling",
+                "planning",
+                "iterative self-reflection",
+                "RefCOCO",
+                "GenEval",
+                "ImgEdit",
+                "autoregressive models",
+                "continuous diffusion models"
+            ]
+        },
+        "publishedAt": "2025-09-23T13:05:46.000Z",
+        "title": "Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal\n  Understanding and Generation",
+        "summary": "We propose Lavida-O, a unified Masked Diffusion Model (MDM) for multimodal\nunderstanding and generation. Unlike existing multimodal MDMs such as MMaDa and\nMuddit which only support simple image-level understanding tasks and\nlow-resolution image generation, Lavida-O presents a single framework that\nenables image-level understanding, object grounding, image editing, and\nhigh-resolution (1024px) text-to-image synthesis. Lavida-O incorporates a novel\nElastic Mixture-of-Transformers (Elastic-MoT) architecture that couples a\nlightweight generation branch with a larger understanding branch, supported by\ntoken compression, universal text conditioning and stratified sampling for\nefficient and high-quality generation. Lavida-O further incorporates planning\nand iterative self-reflection in image generation and editing tasks, seamlessly\nboosting generation quality with its understanding capabilities. Lavida-O\nachieves state-of-the-art performance on a wide range of benchmarks including\nRefCOCO object grounding, GenEval text-to-image generation, and ImgEdit image\nediting, outperforming existing autoregressive models and continuous diffusion\nmodels such as Qwen2.5-VL and FluxKontext-dev, while offering considerable\nspeedup at inference. These advances establish Lavida-O as a new paradigm for\nscalable multimodal reasoning and generation.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/6310531914aa81e1044363ed/Eq_uxsS_vHgNCRpS4jxzb.mp4"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19244.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "6310531914aa81e1044363ed",
+            "avatarUrl": "/avatars/ae7767e591cb7199ea2f62d2db89fc7f.svg",
+            "fullname": "Shufan Li",
+            "name": "jacklishufan",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 6
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2509.20358",
+            "authors": [
+                {
+                    "_id": "68d4a00136950a9dff156875",
+                    "user": {
+                        "_id": "62e9d5af6687b60b9c01240a",
+                        "avatarUrl": "/avatars/3983be5662aa28aefcb18deaf08d7cb1.svg",
+                        "isPro": false,
+                        "fullname": "Chen Wang",
+                        "user": "chenwang",
+                        "type": "user"
+                    },
+                    "name": "Chen Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T07:11:07.843Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff156876",
+                    "user": {
+                        "_id": "65ffa278871b36bf842153df",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/X8NiJoFvHCd-IWRii-mRh.jpeg",
+                        "isPro": true,
+                        "fullname": "Chuhao Chen",
+                        "user": "MorPhLingXD",
+                        "type": "user"
+                    },
+                    "name": "Chuhao Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:59:52.439Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff156877",
+                    "name": "Yiming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff156878",
+                    "user": {
+                        "_id": "645223fb01d7bd9555ea399a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645223fb01d7bd9555ea399a/fVR7XmGg6pMSRKx9sEdvT.png",
+                        "isPro": false,
+                        "fullname": "Zhiyang Dou",
+                        "user": "frankzydou",
+                        "type": "user"
+                    },
+                    "name": "Zhiyang Dou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T12:00:12.191Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff156879",
+                    "name": "Yuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff15687a",
+                    "user": {
+                        "_id": "6164e72d73996c363c52e66d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1634002684894-noauth.png",
+                        "isPro": false,
+                        "fullname": "Jiatao Gu",
+                        "user": "thomagram",
+                        "type": "user"
+                    },
+                    "name": "Jiatao Gu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T12:00:19.569Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a00136950a9dff15687b",
+                    "name": "Lingjie Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T17:58:04.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:21:11.761Z",
+            "title": "PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Existing video generation models excel at producing photo-realistic videos\nfrom text or images, but often lack physical plausibility and 3D\ncontrollability. To overcome these limitations, we introduce PhysCtrl, a novel\nframework for physics-grounded image-to-video generation with physical\nparameters and force control. At its core is a generative physics network that\nlearns the distribution of physical dynamics across four materials (elastic,\nsand, plasticine, and rigid) via a diffusion model conditioned on physics\nparameters and applied forces. We represent physical dynamics as 3D point\ntrajectories and train on a large-scale synthetic dataset of 550K animations\ngenerated by physics simulators. We enhance the diffusion model with a novel\nspatiotemporal attention block that emulates particle interactions and\nincorporates physics-based constraints during training to enforce physical\nplausibility. Experiments show that PhysCtrl generates realistic,\nphysics-grounded motion trajectories which, when used to drive image-to-video\nmodels, yield high-fidelity, controllable videos that outperform existing\nmethods in both visual quality and physical plausibility. Project Page:\nhttps://cwchenwang.github.io/physctrl",
+            "upvotes": 4,
+            "discussionId": "68d4a00136950a9dff15687c",
+            "projectPage": "https://cwchenwang.github.io/physctrl/",
+            "ai_summary": "PhysCtrl is a physics-grounded framework for generating realistic, controllable videos from images using a diffusion model with spatiotemporal attention and physics-based constraints.",
+            "ai_keywords": [
+                "generative physics network",
+                "diffusion model",
+                "physical parameters",
+                "force control",
+                "3D point trajectories",
+                "spatiotemporal attention block",
+                "physics-based constraints",
+                "physical plausibility",
+                "image-to-video models",
+                "high-fidelity videos"
+            ]
+        },
+        "publishedAt": "2025-09-24T13:58:04.000Z",
+        "title": "PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video\n  Generation",
+        "summary": "Existing video generation models excel at producing photo-realistic videos\nfrom text or images, but often lack physical plausibility and 3D\ncontrollability. To overcome these limitations, we introduce PhysCtrl, a novel\nframework for physics-grounded image-to-video generation with physical\nparameters and force control. At its core is a generative physics network that\nlearns the distribution of physical dynamics across four materials (elastic,\nsand, plasticine, and rigid) via a diffusion model conditioned on physics\nparameters and applied forces. We represent physical dynamics as 3D point\ntrajectories and train on a large-scale synthetic dataset of 550K animations\ngenerated by physics simulators. We enhance the diffusion model with a novel\nspatiotemporal attention block that emulates particle interactions and\nincorporates physics-based constraints during training to enforce physical\nplausibility. Experiments show that PhysCtrl generates realistic,\nphysics-grounded motion trajectories which, when used to drive image-to-video\nmodels, yield high-fidelity, controllable videos that outperform existing\nmethods in both visual quality and physical plausibility. Project Page:\nhttps://cwchenwang.github.io/physctrl",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.20358.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 109
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.19760",
+            "authors": [
+                {
+                    "_id": "68d4a3f236950a9dff156891",
+                    "name": "Xiangyang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156892",
+                    "name": "Shuzhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156893",
+                    "user": {
+                        "_id": "6647a3e9f7e9d961cf4d375c",
+                        "avatarUrl": "/avatars/5b6288207073f04dc3c8d1cf4e5613d2.svg",
+                        "isPro": false,
+                        "fullname": "Xiuwen Zhu",
+                        "user": "xiuwenzhu",
+                        "type": "user"
+                    },
+                    "name": "Xiuwen Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:56:06.220Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156894",
+                    "user": {
+                        "_id": "6576ba865f7efec0ae8ccadd",
+                        "avatarUrl": "/avatars/35ce61f469e7d2b0b908baa8f00032d3.svg",
+                        "isPro": false,
+                        "fullname": "Yongfan Chen",
+                        "user": "ZjuCv",
+                        "type": "user"
+                    },
+                    "name": "Yongfan Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-25T11:56:15.227Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156895",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156896",
+                    "name": "Cheng Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156897",
+                    "name": "Lin Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156898",
+                    "name": "Xiaoxiao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff156899",
+                    "name": "Hu Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d4a3f236950a9dff15689a",
+                    "name": "Minggang Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T04:54:37.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:38:03.982Z",
+            "title": "Logics-Parsing Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent advances in Large Vision-Language models (LVLM) have spurred\nsignificant progress in document parsing task. Compared to traditional\npipeline-based methods, end-to-end paradigms have shown their excellence in\nconverting PDF images into structured outputs through integrated Optical\nCharacter Recognition (OCR), table recognition, mathematical formula\nrecognition and so on. However, the absence of explicit analytical stages for\ndocument layouts and reading orders limits the LVLM's capability in handling\ncomplex document types such as multi-column newspapers or posters. To address\nthis limitation, we propose in this report Logics-Parsing: an end-to-end\nLVLM-based model augmented with reinforcement learning. Our model incorporates\nmeticulously designed reward mechanisms to optimize complex layout analysis and\nreading order inference. In addition, we expand the model's versatility by\nincorporating diverse data types such as chemical formulas and handwritten\nChinese characters into supervised fine-tuning. Finally, to enable rigorous\nevaluation of our approach, we introduce LogicsParsingBench, a curated set of\n1,078 page-level PDF images spanning nine major categories and over twenty\nsub-categories, which will be released later. Comprehensive experiments\nconducted on LogicsParsingBench have validated the efficacy and\nState-of-the-art (SOTA) performance of our proposed model across diverse\ndocument analysis scenarios. Project Page:\nhttps://github.com/alibaba/Logics-Parsing",
+            "upvotes": 3,
+            "discussionId": "68d4a3f336950a9dff15689b",
+            "githubRepo": "https://github.com/alibaba/Logics-Parsing",
+            "ai_summary": "Logics-Parsing, an end-to-end LVLM model enhanced with reinforcement learning, improves document parsing by optimizing layout analysis and reading order inference, achieving state-of-the-art performance on a diverse benchmark.",
+            "ai_keywords": [
+                "Large Vision-Language models",
+                "LVLM",
+                "end-to-end paradigms",
+                "Optical Character Recognition",
+                "OCR",
+                "table recognition",
+                "mathematical formula recognition",
+                "reinforcement learning",
+                "reward mechanisms",
+                "layout analysis",
+                "reading order inference",
+                "supervised fine-tuning",
+                "chemical formulas",
+                "handwritten Chinese characters",
+                "LogicsParsingBench"
+            ],
+            "githubStars": 39
+        },
+        "publishedAt": "2025-09-24T00:54:37.000Z",
+        "title": "Logics-Parsing Technical Report",
+        "summary": "Recent advances in Large Vision-Language models (LVLM) have spurred\nsignificant progress in document parsing task. Compared to traditional\npipeline-based methods, end-to-end paradigms have shown their excellence in\nconverting PDF images into structured outputs through integrated Optical\nCharacter Recognition (OCR), table recognition, mathematical formula\nrecognition and so on. However, the absence of explicit analytical stages for\ndocument layouts and reading orders limits the LVLM's capability in handling\ncomplex document types such as multi-column newspapers or posters. To address\nthis limitation, we propose in this report Logics-Parsing: an end-to-end\nLVLM-based model augmented with reinforcement learning. Our model incorporates\nmeticulously designed reward mechanisms to optimize complex layout analysis and\nreading order inference. In addition, we expand the model's versatility by\nincorporating diverse data types such as chemical formulas and handwritten\nChinese characters into supervised fine-tuning. Finally, to enable rigorous\nevaluation of our approach, we introduce LogicsParsingBench, a curated set of\n1,078 page-level PDF images spanning nine major categories and over twenty\nsub-categories, which will be released later. Comprehensive experiments\nconducted on LogicsParsingBench have validated the efficacy and\nState-of-the-art (SOTA) performance of our proposed model across diverse\ndocument analysis scenarios. Project Page:\nhttps://github.com/alibaba/Logics-Parsing",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.19760.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 109
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.18480",
+            "authors": [
+                {
+                    "_id": "68d43e7536950a9dff156787",
+                    "name": "Yuyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d43e7536950a9dff156788",
+                    "name": "Jiarui Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d43e7536950a9dff156789",
+                    "name": "Navdeep Jaitly",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d43e7536950a9dff15678a",
+                    "name": "Josh Susskind",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d43e7536950a9dff15678b",
+                    "name": "Miguel Angel Bautista",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-23T00:33:32.000Z",
+            "submittedOnDailyAt": "2025-09-25T16:48:15.322Z",
+            "title": "SimpleFold: Folding Proteins is Simpler than You Think",
+            "submittedOnDailyBy": {
+                "_id": "5e67bdd61009063689407479",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+                "isPro": true,
+                "fullname": "Clem 🤗",
+                "user": "clem",
+                "type": "user"
+            },
+            "summary": "Protein folding models have achieved groundbreaking results typically via a\ncombination of integrating domain knowledge into the architectural blocks and\ntraining pipelines. Nonetheless, given the success of generative models across\ndifferent but related problems, it is natural to question whether these\narchitectural designs are a necessary condition to build performant models. In\nthis paper, we introduce SimpleFold, the first flow-matching based protein\nfolding model that solely uses general purpose transformer blocks. Protein\nfolding models typically employ computationally expensive modules involving\ntriangular updates, explicit pair representations or multiple training\nobjectives curated for this specific domain. Instead, SimpleFold employs\nstandard transformer blocks with adaptive layers and is trained via a\ngenerative flow-matching objective with an additional structural term. We scale\nSimpleFold to 3B parameters and train it on approximately 9M distilled protein\nstructures together with experimental PDB data. On standard folding benchmarks,\nSimpleFold-3B achieves competitive performance compared to state-of-the-art\nbaselines, in addition SimpleFold demonstrates strong performance in ensemble\nprediction which is typically difficult for models trained via deterministic\nreconstruction objectives. Due to its general-purpose architecture, SimpleFold\nshows efficiency in deployment and inference on consumer-level hardware.\nSimpleFold challenges the reliance on complex domain-specific architectures\ndesigns in protein folding, opening up an alternative design space for future\nprogress.",
+            "upvotes": 3,
+            "discussionId": "68d43e7536950a9dff15678c",
+            "ai_summary": "SimpleFold, a flow-matching based protein folding model using general-purpose transformer blocks, achieves competitive performance with reduced complexity and improved efficiency.",
+            "ai_keywords": [
+                "flow-matching",
+                "transformer blocks",
+                "adaptive layers",
+                "generative flow-matching objective",
+                "structural term",
+                "protein folding",
+                "triangular updates",
+                "pair representations",
+                "multiple training objectives",
+                "ensemble prediction",
+                "consumer-level hardware"
+            ]
+        },
+        "publishedAt": "2025-09-22T20:33:32.000Z",
+        "title": "SimpleFold: Folding Proteins is Simpler than You Think",
+        "summary": "Protein folding models have achieved groundbreaking results typically via a\ncombination of integrating domain knowledge into the architectural blocks and\ntraining pipelines. Nonetheless, given the success of generative models across\ndifferent but related problems, it is natural to question whether these\narchitectural designs are a necessary condition to build performant models. In\nthis paper, we introduce SimpleFold, the first flow-matching based protein\nfolding model that solely uses general purpose transformer blocks. Protein\nfolding models typically employ computationally expensive modules involving\ntriangular updates, explicit pair representations or multiple training\nobjectives curated for this specific domain. Instead, SimpleFold employs\nstandard transformer blocks with adaptive layers and is trained via a\ngenerative flow-matching objective with an additional structural term. We scale\nSimpleFold to 3B parameters and train it on approximately 9M distilled protein\nstructures together with experimental PDB data. On standard folding benchmarks,\nSimpleFold-3B achieves competitive performance compared to state-of-the-art\nbaselines, in addition SimpleFold demonstrates strong performance in ensemble\nprediction which is typically difficult for models trained via deterministic\nreconstruction objectives. Due to its general-purpose architecture, SimpleFold\nshows efficiency in deployment and inference on consumer-level hardware.\nSimpleFold challenges the reliance on complex domain-specific architectures\ndesigns in protein folding, opening up an alternative design space for future\nprogress.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.18480.png",
+        "numComments": 5,
+        "submittedBy": {
+            "_id": "5e67bdd61009063689407479",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+            "fullname": "Clem 🤗",
+            "name": "clem",
+            "type": "user",
+            "isPro": true,
+            "isHf": true,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2732
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.18400",
+            "authors": [
+                {
+                    "_id": "68d41c02b1702be9357f4136",
+                    "name": "Pritish Yuvraj",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d41c02b1702be9357f4137",
+                    "name": "Siva Devarakonda",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-22T20:32:24.000Z",
+            "submittedOnDailyAt": "2025-09-25T16:21:50.507Z",
+            "title": "ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized\n  Tariff Code Classification",
+            "submittedOnDailyBy": {
+                "_id": "65c30d162a023e7ea97c160f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c30d162a023e7ea97c160f/WQ4ffvmAUODdKoVMri8N7.jpeg",
+                "isPro": false,
+                "fullname": "Pritish Yuvraj",
+                "user": "pyuvraj",
+                "type": "user"
+            },
+            "summary": "Accurate classification of products under the Harmonized Tariff Schedule\n(HTS) is a critical bottleneck in global trade, yet it has received little\nattention from the machine learning community. Misclassification can halt\nshipments entirely, with major postal operators suspending deliveries to the\nU.S. due to incomplete customs documentation. We introduce the first benchmark\nfor HTS code classification, derived from the U.S. Customs Rulings Online\nSearch System (CROSS). Evaluating leading LLMs, we find that our fine-tuned\nAtlas model (LLaMA-3.3-70B) achieves 40 percent fully correct 10-digit\nclassifications and 57.5 percent correct 6-digit classifications, improvements\nof 15 points over GPT-5-Thinking and 27.5 points over Gemini-2.5-Pro-Thinking.\nBeyond accuracy, Atlas is roughly five times cheaper than GPT-5-Thinking and\neight times cheaper than Gemini-2.5-Pro-Thinking, and can be self-hosted to\nguarantee data privacy in high-stakes trade and compliance workflows. While\nAtlas sets a strong baseline, the benchmark remains highly challenging, with\nonly 40 percent 10-digit accuracy. By releasing both dataset and model, we aim\nto position HTS classification as a new community benchmark task and invite\nfuture work in retrieval, reasoning, and alignment.",
+            "upvotes": 2,
+            "discussionId": "68d41c02b1702be9357f4138",
+            "projectPage": "https://tariffpro.flexify.ai/",
+            "ai_summary": "A fine-tuned Atlas model (LLaMA-3.3-70B) achieves significant improvements in HTS code classification accuracy and cost-effectiveness compared to existing models.",
+            "ai_keywords": [
+                "LLM",
+                "fine-tuned Atlas model",
+                "LLaMA-3.3-70B",
+                "GPT-5-Thinking",
+                "Gemini-2.5-Pro-Thinking",
+                "HTS code classification",
+                "U.S. Customs Rulings Online Search System (CROSS)",
+                "data privacy",
+                "retrieval",
+                "reasoning",
+                "alignment"
+            ]
+        },
+        "publishedAt": "2025-09-22T16:32:24.000Z",
+        "title": "ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized\n  Tariff Code Classification",
+        "summary": "Accurate classification of products under the Harmonized Tariff Schedule\n(HTS) is a critical bottleneck in global trade, yet it has received little\nattention from the machine learning community. Misclassification can halt\nshipments entirely, with major postal operators suspending deliveries to the\nU.S. due to incomplete customs documentation. We introduce the first benchmark\nfor HTS code classification, derived from the U.S. Customs Rulings Online\nSearch System (CROSS). Evaluating leading LLMs, we find that our fine-tuned\nAtlas model (LLaMA-3.3-70B) achieves 40 percent fully correct 10-digit\nclassifications and 57.5 percent correct 6-digit classifications, improvements\nof 15 points over GPT-5-Thinking and 27.5 points over Gemini-2.5-Pro-Thinking.\nBeyond accuracy, Atlas is roughly five times cheaper than GPT-5-Thinking and\neight times cheaper than Gemini-2.5-Pro-Thinking, and can be self-hosted to\nguarantee data privacy in high-stakes trade and compliance workflows. While\nAtlas sets a strong baseline, the benchmark remains highly challenging, with\nonly 40 percent 10-digit accuracy. By releasing both dataset and model, we aim\nto position HTS classification as a new community benchmark task and invite\nfuture work in retrieval, reasoning, and alignment.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.18400.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "65c30d162a023e7ea97c160f",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c30d162a023e7ea97c160f/WQ4ffvmAUODdKoVMri8N7.jpeg",
+            "fullname": "Pritish Yuvraj",
+            "name": "pyuvraj",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.21164",
+            "authors": [
+                {
+                    "_id": "68d5ea258ccd91bdd39ffcc6",
+                    "name": "Jacob Fein-Ashley",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5ea258ccd91bdd39ffcc7",
+                    "name": "Dhruv Parikh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5ea258ccd91bdd39ffcc8",
+                    "name": "Rajgopal Kannan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5ea258ccd91bdd39ffcc9",
+                    "name": "Viktor Prasanna",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-25T13:50:09.000Z",
+            "submittedOnDailyAt": "2025-09-25T23:50:08.855Z",
+            "title": "Mixture of Thoughts: Learning to Aggregate What Experts Think, Not Just\n  What They Say",
+            "submittedOnDailyBy": {
+                "_id": "689cf65f6c3f9983c840ada4",
+                "avatarUrl": "/avatars/895a836e0e5df41ee353a0bac9dd3612.svg",
+                "isPro": false,
+                "fullname": "Jacob Fein-Ashley",
+                "user": "jacobfa1",
+                "type": "user"
+            },
+            "summary": "Open-source Large Language Models (LLMs) increasingly specialize by domain\n(e.g., math, code, general reasoning), motivating systems that leverage\ncomplementary strengths across models. Prior multi-LLM approaches either (i)\nroute a query to one or a few experts and generate independently, (ii)\naggregate outputs from each model via costly multi-turn exchanges, or (iii)\nfuse weights into a single model-typically requiring architectural homogeneity.\nWe introduce Mixture of Thoughts (MoT), a simple method for latent-level\ncollaboration among heterogeneous experts under a global routing scheme. For\neach query, a lightweight router selects top-K experts and designates a\nprimary expert; uniformly placed interaction layers project hidden states into\na shared latent space where the primary expert performs cross-attention over\nits active (selected) peers. Pre-trained experts remain frozen; only the router\nand the lightweight interaction layers are trained with a novel joint training\nobjective that improves both the expert selection and inter-expert\ncollaboration. Across five in-distribution (ID) and three out-of-distribution\n(OOD) benchmarks, MoT surpasses the current routing and aggregation-based\nstate-of-the-art, Avengers, by +0.38% and +2.92%, respectively. Further,\nMoT significantly outperforms the best-performing single model. It achieves\nthis with single-pass inference, runtime comparable to routing baselines, and\nnone of the overheads of iterative aggregation. MoT offers a simple\nlatent-space mechanism for combining heterogeneous LLMs, a practical step\ntoward broader multi-LLM collaboration. Our code is publicly available at\nhttps://github.com/jacobfa/mot.",
+            "upvotes": 1,
+            "discussionId": "68d5ea258ccd91bdd39ffcca",
+            "ai_summary": "Mixture of Thoughts (MoT) is a method for latent-level collaboration among heterogeneous LLMs using a global routing scheme, improving performance over existing routing and aggregation methods.",
+            "ai_keywords": [
+                "Mixture of Thoughts",
+                "MoT",
+                "latent-level collaboration",
+                "heterogeneous experts",
+                "global routing scheme",
+                "lightweight router",
+                "interaction layers",
+                "shared latent space",
+                "cross-attention",
+                "joint training objective",
+                "in-distribution benchmarks",
+                "out-of-distribution benchmarks",
+                "Avengers",
+                "single-pass inference"
+            ]
+        },
+        "publishedAt": "2025-09-25T09:50:09.000Z",
+        "title": "Mixture of Thoughts: Learning to Aggregate What Experts Think, Not Just\n  What They Say",
+        "summary": "Open-source Large Language Models (LLMs) increasingly specialize by domain\n(e.g., math, code, general reasoning), motivating systems that leverage\ncomplementary strengths across models. Prior multi-LLM approaches either (i)\nroute a query to one or a few experts and generate independently, (ii)\naggregate outputs from each model via costly multi-turn exchanges, or (iii)\nfuse weights into a single model-typically requiring architectural homogeneity.\nWe introduce Mixture of Thoughts (MoT), a simple method for latent-level\ncollaboration among heterogeneous experts under a global routing scheme. For\neach query, a lightweight router selects top-K experts and designates a\nprimary expert; uniformly placed interaction layers project hidden states into\na shared latent space where the primary expert performs cross-attention over\nits active (selected) peers. Pre-trained experts remain frozen; only the router\nand the lightweight interaction layers are trained with a novel joint training\nobjective that improves both the expert selection and inter-expert\ncollaboration. Across five in-distribution (ID) and three out-of-distribution\n(OOD) benchmarks, MoT surpasses the current routing and aggregation-based\nstate-of-the-art, Avengers, by +0.38% and +2.92%, respectively. Further,\nMoT significantly outperforms the best-performing single model. It achieves\nthis with single-pass inference, runtime comparable to routing baselines, and\nnone of the overheads of iterative aggregation. MoT offers a simple\nlatent-space mechanism for combining heterogeneous LLMs, a practical step\ntoward broader multi-LLM collaboration. Our code is publicly available at\nhttps://github.com/jacobfa/mot.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.21164.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "689cf65f6c3f9983c840ada4",
+            "avatarUrl": "/avatars/895a836e0e5df41ee353a0bac9dd3612.svg",
+            "fullname": "Jacob Fein-Ashley",
+            "name": "jacobfa1",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2509.14745",
+            "authors": [
+                {
+                    "_id": "68d036918adc5cd018d15a02",
+                    "name": "Miku Watanabe",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d036918adc5cd018d15a03",
+                    "user": {
+                        "_id": "62b4f3b7464e664268bf4e85",
+                        "avatarUrl": "/avatars/16e79e11a8734b1d241e0f0c55a54045.svg",
+                        "isPro": false,
+                        "fullname": "Leo",
+                        "user": "hao-li",
+                        "type": "user"
+                    },
+                    "name": "Hao Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-23T10:07:21.461Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d036918adc5cd018d15a04",
+                    "name": "Yutaro Kashiwa",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d036918adc5cd018d15a05",
+                    "name": "Brittany Reid",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d036918adc5cd018d15a06",
+                    "name": "Hajimu Iida",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d036918adc5cd018d15a07",
+                    "name": "Ahmed E. Hassan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62b4f3b7464e664268bf4e85/fQaBQAcup5Rkv8yQHQiZE.png"
+            ],
+            "publishedAt": "2025-09-18T08:48:32.000Z",
+            "submittedOnDailyAt": "2025-09-25T00:30:52.921Z",
+            "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on\n  GitHub",
+            "submittedOnDailyBy": {
+                "_id": "62b4f3b7464e664268bf4e85",
+                "avatarUrl": "/avatars/16e79e11a8734b1d241e0f0c55a54045.svg",
+                "isPro": false,
+                "fullname": "Leo",
+                "user": "hao-li",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) are increasingly being integrated into software\ndevelopment processes. The ability to generate code and submit pull requests\nwith minimal human intervention, through the use of autonomous AI agents, is\npoised to become a standard practice. However, little is known about the\npractical usefulness of these pull requests and the extent to which their\ncontributions are accepted in real-world projects. In this paper, we\nempirically study 567 GitHub pull requests (PRs) generated using Claude Code,\nan agentic coding tool, across 157 diverse open-source projects. Our analysis\nreveals that developers tend to rely on agents for tasks such as refactoring,\ndocumentation, and testing. The results indicate that 83.8% of these\nagent-assisted PRs are eventually accepted and merged by project maintainers,\nwith 54.9% of the merged PRs are integrated without further modification. The\nremaining 45.1% require additional changes benefit from human revisions,\nespecially for bug fixes, documentation, and adherence to project-specific\nstandards. These findings suggest that while agent-assisted PRs are largely\nacceptable, they still benefit from human oversight and refinement.",
+            "upvotes": 1,
+            "discussionId": "68d036918adc5cd018d15a08",
+            "ai_summary": "Agent-assisted pull requests generated by Claude Code are largely accepted in open-source projects, with most requiring minimal human modification.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "autonomous AI agents",
+                "GitHub pull requests",
+                "PRs",
+                "agentic coding tool",
+                "refactoring",
+                "documentation",
+                "testing",
+                "project maintainers",
+                "human revisions",
+                "bug fixes",
+                "project-specific standards"
+            ]
+        },
+        "publishedAt": "2025-09-18T04:48:32.000Z",
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on\n  GitHub",
+        "summary": "Large language models (LLMs) are increasingly being integrated into software\ndevelopment processes. The ability to generate code and submit pull requests\nwith minimal human intervention, through the use of autonomous AI agents, is\npoised to become a standard practice. However, little is known about the\npractical usefulness of these pull requests and the extent to which their\ncontributions are accepted in real-world projects. In this paper, we\nempirically study 567 GitHub pull requests (PRs) generated using Claude Code,\nan agentic coding tool, across 157 diverse open-source projects. Our analysis\nreveals that developers tend to rely on agents for tasks such as refactoring,\ndocumentation, and testing. The results indicate that 83.8% of these\nagent-assisted PRs are eventually accepted and merged by project maintainers,\nwith 54.9% of the merged PRs are integrated without further modification. The\nremaining 45.1% require additional changes benefit from human revisions,\nespecially for bug fixes, documentation, and adherence to project-specific\nstandards. These findings suggest that while agent-assisted PRs are largely\nacceptable, they still benefit from human oversight and refinement.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/62b4f3b7464e664268bf4e85/fQaBQAcup5Rkv8yQHQiZE.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.14745.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "62b4f3b7464e664268bf4e85",
+            "avatarUrl": "/avatars/16e79e11a8734b1d241e0f0c55a54045.svg",
+            "fullname": "Leo",
+            "name": "hao-li",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2509.16080",
+            "authors": [
+                {
+                    "_id": "68d510fcf9b028b804d3c259",
+                    "user": {
+                        "_id": "68d51061ab9204b0c8a0ceb2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68d51061ab9204b0c8a0ceb2/CVmg6wo4yBqIZgGZUYSX8.jpeg",
+                        "isPro": false,
+                        "fullname": "Sandy Hardian Susanto Herho",
+                        "user": "sandyherho",
+                        "type": "user"
+                    },
+                    "name": "Sandy H. S. Herho",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-25T10:41:33.050Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25a",
+                    "name": "Nurjanna J. Trilaksono",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25b",
+                    "name": "Faiz R. Fajary",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25c",
+                    "name": "Gandhi Napitupulu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25d",
+                    "name": "Iwan P. Anwar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25e",
+                    "name": "Faruq Khadami",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d510fcf9b028b804d3c25f",
+                    "name": "Dasapta E. Irawan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/68d51061ab9204b0c8a0ceb2/HyGxbI9b5722-wDcc6kIq.png"
+            ],
+            "publishedAt": "2025-09-19T15:26:37.000Z",
+            "submittedOnDailyAt": "2025-09-25T19:25:05.551Z",
+            "title": "kh2d-solver: A Python Library for Idealized Two-Dimensional\n  Incompressible Kelvin-Helmholtz Instability",
+            "submittedOnDailyBy": {
+                "_id": "68d51061ab9204b0c8a0ceb2",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68d51061ab9204b0c8a0ceb2/CVmg6wo4yBqIZgGZUYSX8.jpeg",
+                "isPro": false,
+                "fullname": "Sandy Hardian Susanto Herho",
+                "user": "sandyherho",
+                "type": "user"
+            },
+            "summary": "We present an open-source Python library for simulating two-dimensional\nincompressible Kelvin-Helmholtz instabilities in stratified shear flows. The\nsolver employs a fractional-step projection method with spectral Poisson\nsolution via Fast Sine Transform, achieving second-order spatial accuracy.\nImplementation leverages NumPy, SciPy, and Numba JIT compilation for efficient\ncomputation. Four canonical test cases explore Reynolds numbers 1000--5000 and\nRichardson numbers 0.1--0.3: classical shear layer, double shear configuration,\nrotating flow, and forced turbulence. Statistical analysis using Shannon\nentropy and complexity indices reveals that double shear layers achieve\n2.8times higher mixing rates than forced turbulence despite lower Reynolds\nnumbers. The solver runs efficiently on standard desktop hardware, with\n384times192 grid simulations completing in approximately 31 minutes. Results\ndemonstrate that mixing efficiency depends on instability generation pathways\nrather than intensity measures alone, challenging Richardson number-based\nparameterizations and suggesting refinements for subgrid-scale representation\nin climate models.",
+            "upvotes": 0,
+            "discussionId": "68d510fcf9b028b804d3c260",
+            "projectPage": "https://badge.fury.io/py/kh2d-solver",
+            "githubRepo": "https://github.com/sandyherho/kelvin-helmholtz-2d-solver",
+            "githubStars": 2
+        },
+        "publishedAt": "2025-09-19T11:26:37.000Z",
+        "title": "kh2d-solver: A Python Library for Idealized Two-Dimensional\n  Incompressible Kelvin-Helmholtz Instability",
+        "summary": "We present an open-source Python library for simulating two-dimensional\nincompressible Kelvin-Helmholtz instabilities in stratified shear flows. The\nsolver employs a fractional-step projection method with spectral Poisson\nsolution via Fast Sine Transform, achieving second-order spatial accuracy.\nImplementation leverages NumPy, SciPy, and Numba JIT compilation for efficient\ncomputation. Four canonical test cases explore Reynolds numbers 1000--5000 and\nRichardson numbers 0.1--0.3: classical shear layer, double shear configuration,\nrotating flow, and forced turbulence. Statistical analysis using Shannon\nentropy and complexity indices reveals that double shear layers achieve\n2.8times higher mixing rates than forced turbulence despite lower Reynolds\nnumbers. The solver runs efficiently on standard desktop hardware, with\n384times192 grid simulations completing in approximately 31 minutes. Results\ndemonstrate that mixing efficiency depends on instability generation pathways\nrather than intensity measures alone, challenging Richardson number-based\nparameterizations and suggesting refinements for subgrid-scale representation\nin climate models.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/68d51061ab9204b0c8a0ceb2/HyGxbI9b5722-wDcc6kIq.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.16080.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "68d51061ab9204b0c8a0ceb2",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68d51061ab9204b0c8a0ceb2/CVmg6wo4yBqIZgGZUYSX8.jpeg",
+            "fullname": "Sandy Hardian Susanto Herho",
+            "name": "sandyherho",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": true
+    }
+]
