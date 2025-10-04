@@ -1,0 +1,302 @@
+[
+    {
+        "名称": "2025 [2510.00446] LongCodeZip: Compress Long Context for Code Language Models.pdf",
+        "作者": "Yuling Shi, Yichun Qian, Hongyu Zhang, Beijun Shen, Xiaodong Gu",
+        "摘要": "摘要：在长上下文下的代码生成变得越来越重要，因为大语言模型（LLMs）需要在代码库中处理大量信息进行推理。虽然近期的进展使得代码LLMs能够处理长输入，但高API成本和生成延迟仍然是重大瓶颈。现有的上下文剪枝技术（如LLMLingua）在通用文本方面取得了可喜的成果，但忽略了代码特定的结构和依赖关系，导致编程任务的表现欠佳。在本文中，我们提出了LongCodeZip，一种专门为代码LLMs设计的新颖的即插即用代码压缩框架。LongCodeZip采用双阶段策略：（1）粗粒度压缩，通过与指令相关的条件困惑度识别和排名函数级别的代码块，仅保留最相关的函数；（2）细粒度压缩，将保留的函数分段为基于困惑度的区块，并在自适应令牌预算下选择最佳子集以最大化相关性。在代码补全、摘要提取和问答等多个任务上的评估显示，LongCodeZip持续优于基准方法，实现高达5.6倍的压缩率且不降低任务表现。通过有效减少上下文大小同时保留关键信息，LongCodeZip使LLMs能够更好地扩展到实际、大规模代码场景，提升代码智能应用的效率和能力。\n\n作者：Yuling Shi, Yichun Qian, Hongyu Zhang, Beijun Shen, Xiaodong Gu\n\n评论：已被ASE 2025接收。代码可在此https URL获得\n\n网址：https://arxiv.org/pdf/2510.00446.pdf\n\n标题：2025 [2510.00446] LongCodeZip: Compress Long Context for Code Language Models.pdf",
+        "地址": "https://arxiv.org/pdf/2510.00446.pdf"
+    },
+    {
+        "名称": "2025 [2510.02283] Self-Forcing++: Towards Minute-Scale High-Quality Video Generation.pdf",
+        "作者": "Justin Cui, Jie Wu, Ming Li, Tao Yang, Xiaojie Li, Rui Wang, Andrew Bai, Yuanhao Ban, Cho-Jui Hsieh",
+        "摘要": "摘要：扩散模型已经在图像和视频生成领域引起了革命性的变化，实现了前所未有的视觉质量。然而，它们对Transformer架构的依赖导致了极高的计算成本，特别是在将生成延伸至长视频时。最近的研究探索了长视频生成的自回归公式，通常通过从短时双向教师模型中提取。然而，鉴于教师模型无法合成长视频，学生模型超出其训练范围的延伸常常导致明显的质量下降，这是由连续潜在空间中的错误累积引起的。在本文中，我们提出了一种简单而有效的方法来缓解长时间视频生成中的质量下降，而无需长视频教师的监督或在长视频数据集上重新训练。我们的方法主要是利用教师模型的丰富知识，通过从自生成的长视频中抽取的片段为学生模型提供指导。我们的方法在扩展视频长度最多达教师能力的20倍的情况下保持了时间一致性，避免了诸如曝光过度和错误累积等常见问题，而不像以前的方法那样重新计算重叠帧。在计算扩展时，我们的方法表现出生成长达4分15秒的视频的能力，相当于我们基础模型位置嵌入支持的最大跨度的99.9%，比我们的基准模型长50倍以上。在标准基准和我们提出的改进基准上的实验表明，我们的方法在保真度和一致性方面显著优于基准方法。我们长时间视频的演示可以在这个链接中找到：https URL\n\n作者: Justin Cui, Jie Wu, Ming Li, Tao Yang, Xiaojie Li, Rui Wang, Andrew Bai, Yuanhao Ban, Cho-Jui Hsieh\n\n评论: 预印本\n\n网址: https://arxiv.org/pdf/2510.02283.pdf\n\n标题: 2025 [2510.02283] Self-Forcing++: Towards Minute-Scale High-Quality Video Generation.pdf",
+        "地址": "https://arxiv.org/pdf/2510.02283.pdf"
+    },
+    {
+        "名称": "2025 [2510.02245] ExGRPO: Learning to Reason from Experience.pdf",
+        "作者": "Runzhe Zhan, Yafu Li, Zhi Wang, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng",
+        "摘要": "摘要：从可验证奖励中进行强化学习（RLVR）是一种新兴的范式，用于提高大型语言模型的推理能力。然而，标准的策略训练在一次更新后丢弃了演算经验，导致计算效率低下和不稳定。虽然先前的RL工作强调了重用过去经验的好处，但经验特征在塑造大型推理模型学习动态中的作用仍未得到充分探索。在本文中，我们首次研究了什么使推理经验有价值，并确定了演算正确性和熵作为经验价值的有效指标。基于这些见解，我们提出了ExGRPO（经验组相对策略优化）框架，组织和优先处理有价值的经验，并采用混合策略目标平衡探索和经验利用。对五种基础模型（1.5B-8B参数）的实验表明，ExGRPO在数学/通用基准测试中一致提高了推理性能，相对于策略RLVR平均增益为+3.5/7.6分。此外，ExGRPO在策略方法失败时稳定了强和弱模型的训练。这些结果突显了原则性经验管理作为高效和可扩展RLVR的关键要素。\n\n作者：Runzhe Zhan, Yafu Li, Zhi Wang, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng\n\n网址：https://arxiv.org/pdf/2510.02245.pdf\n\n标题：2025 [2510.02245] ExGRPO: Learning to Reason from Experience.pdf",
+        "地址": "https://arxiv.org/pdf/2510.02245.pdf"
+    },
+    {
+        "名称": "2025 [2510.02314] StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions.pdf",
+        "作者": "Bo-Hsu Ke, You-Zhe Xie, Yu-Lun Liu, Wei-Chen Chiu",
+        "摘要": "摘要：3D场景表示方法，如神经辐射场（NeRF）和3D高斯分布（3DGS），在新视图合成方面有了显著进展。随着这些方法的普及，解决其易受攻击的问题变得至关重要。我们分析了3DGS对图像级别投毒攻击的鲁棒性，并提出了一种新颖的密度引导投毒方法。我们的方法通过核密度估计（KDE）识别低密度区域，并策略性地在这些区域注入高斯点，从而在受毒视图中嵌入视点依赖的幻象物体，同时对无害视图的影响最小。此外，我们引入了一种自适应噪声策略，以破坏多视图一致性，进一步增强攻击效果。我们提出了一种基于KDE的评估协议，以系统地评估攻击难度，从而为未来的研究提供客观的基准。大量实验表明，我们的方法在性能上优于现有的最先进技术。\n\n项目页面：https://arxiv.org/pdf/2510.02314.pdf",
+        "地址": "https://arxiv.org/pdf/2510.02314.pdf"
+    },
+    {
+        "名称": "2025 [2510.02297] Interactive Training: Feedback-Driven Neural Network Optimization.pdf",
+        "作者": "Wentao Zhang, Yang Young Lu, Yuntian Deng",
+        "摘要": "摘要：传统的神经网络训练通常遵循固定的、预定义的优化方案，缺乏对训练过程中出现的不稳定性或新问题动态响应的灵活性。在本文中，我们介绍了一种交互式训练（Interactive Training）框架。这是一种开源框架，允许人类专家或自动化AI代理在神经网络训练过程中进行实时的、反馈驱动的干预。交互式训练的核心是使用一个控制服务器来调节用户或代理与正在进行的训练过程之间的通信，允许用户动态调整优化器的超参数、训练数据和模型检查点。通过三个案例研究，我们展示了交互式训练在提高训练稳定性、减少对初始超参数的敏感性以及改善适应不断变化的用户需求方面的优越性，这为未来的训练模式奠定了基础，在这种模式下，AI代理将自主监控训练日志、主动解决不稳定性并优化训练动态。\n\nAuthors: 张文涛（Wentao Zhang）, 陆洋洋（Yang Young Lu）, 邓云天（Yuntian Deng）\n\n注释：EMNLP 2025 演示\n\n[论文链接](https://arxiv.org/pdf/2510.02297.pdf)\n\n标题：交互式训练：反馈驱动的神经网络优化",
+        "地址": "https://arxiv.org/pdf/2510.02297.pdf"
+    },
+    {
+        "名称": "2025 [2510.02209] StockBench: Can LLM Agents Trade Stocks Profitably In Real-world Markets?.pdf",
+        "作者": "Yanxu Chen, Zijun Yao, Yantao Liu, Jin Ye, Jianing Yu, Lei Hou, Juanzi Li",
+        "摘要": "摘要：大型语言模型（LLMs）最近展示了作为自主代理的强大能力，在推理、工具使用和顺序决策方面表现出色。虽然先前的基准测试已经在软件工程和科学发现等领域评估了LLM代理，但金融领域仍然没有得到充分探索，尽管其与经济价值和高风险决策直接相关。现有的金融基准测试主要通过问答形式测试静态知识，但它们未能捕捉交易的动态和迭代性质。为了解决这一问题，我们引入了StockBench，一个无污染的基准，旨在评估LLM代理在现实的、多月股票交易环境中的表现。代理接收每日市场信号——包括价格、基本面和新闻——并必须做出连续的买入、卖出或持有决策。性能评估使用诸如累积回报、最大回撤和Sortino比率等财务指标。我们对最先进的专有模型（如GPT-5、Claude-4）和开源模型（如Qwen3、Kimi-K2、GLM-4.5）的评估表明，尽管大多数LLM代理难以超越简单的买入并持有的基准，但某些模型展示了提供更高回报和更有效管理风险的潜力。这些发现突出显示了开发基于LLM的金融代理的挑战和机会，表明在静态金融知识任务上表现优异并不一定能转化为成功的交易策略。我们发布了StockBench作为开放资源，以支持可重复性并推进该领域的未来研究。\n\n作者：Yanxu Chen, Zijun Yao, Yantao Liu, Jin Ye, Jianing Yu, Lei Hou, Juanzi Li\n\n网址：https://arxiv.org/pdf/2510.02209.pdf\n\n标题：StockBench: LLM代理能在现实市场中盈利交易股票吗？",
+        "地址": "https://arxiv.org/pdf/2510.02209.pdf"
+    },
+    {
+        "名称": "2025 [2510.01149] ModernVBERT: Towards Smaller Visual Document Retrievers.pdf",
+        "作者": "Paul Teiletche, Quentin Macé, Max Conti, Antonio Loison, Gautier Viaud, Pierre Colombo, Manuel Faysse",
+        "摘要": "摘要: 多模态嵌入模型作为文本管道的高效替代方案，正在文档检索领域逐渐流行。这些模型通常通过在文本-图像对上利用对比损失来微调大型视觉语言解码器（VLMs）构建。在这项工作中，我们展示了这种成本效益的重新利用方法如何常常成为检索性能的瓶颈。通过严格控制的实验，我们确立了一种改进视觉文档检索模型的系统性方法。我们特别测量了注意力屏蔽、图像分辨率、模态对齐数据方案、以及围绕后期交互的对比目标对性能的影响，这些因素成为了核心性能因素。在这些见解的基础上，我们发布了ModernVBERT，一个紧凑型的具有250M参数的视觉语言编码器，在文档检索任务上进行微调后，性能超过了大至十倍的模型。模型和代码在此网址提供。\n\nURL: https://arxiv.org/pdf/2510.01149.pdf",
+        "地址": "https://arxiv.org/pdf/2510.01149.pdf"
+    },
+    {
+        "名称": "2025 [2510.01444] VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal Reasoning.pdf",
+        "作者": "Rui Liu, Dian Yu, Tong Zheng, Runpeng Dai, Zongxia Li, Wenhao Yu, Zhenwen Liang, Linfeng Song, Haitao Mi, Pratap Tokekar, Dong Yu",
+        "摘要": "摘要：\n\n增强学习（RLVR）通过可验证的奖励提高了大型语言模型（LLMs）的推理能力，但在探索方面仍面临挑战，这一问题在多模态语言模型（MLLMs）中依然存在。目前的方法将视觉输入视为固定的确定性条件，忽略了一个关键的不确定性来源，难以构建对合理视觉变化具有鲁棒性的策略。我们引入了一种新方法$\\\\textbf{VOGUE (Visual Uncertainty Guided Exploration)}$，将探索从输出（文本）空间转移到输入（视觉）空间。通过将图像视为随机上下文，VOGUE 使用对称 KL 散度在“原始”和“噪声”分支之间量化策略对视觉扰动的敏感性，从而为不确定性感知的探索创建直接信号。该信号通过不确定性比例奖励、令牌熵奖励和退火采样计划共同调整学习目标，从而有效平衡探索和剥削。我们在两个模型规模（Qwen2.5-VL-3B/7B）的 GRPO 中实施了 VOGUE，在三个视觉数学基准测试中的 pass@1 准确率平均提高了 2.6%，在三个通用领域推理基准测试中提高了 3.7%，同时提高了 pass@4 性能，并缓解了 RL 微调中常见的探索衰减。我们的工作表明，探索基于视觉输入固有不确定性是提高多模态推理的有效策略。",
+        "地址": "https://arxiv.org/pdf/2510.01444.pdf"
+    },
+    {
+        "名称": "2025 [2509.22067] The Rogue Scalpel: Activation Steering Compromises LLM Safety.pdf",
+        "作者": "Anton Korznikov, Andrey Galichin, Alexey Dontsov, Oleg Y. Rogov, Ivan Oseledets, Elena Tutubalina",
+        "摘要": "摘要: 激活引导是一种通过在推理过程中向模型的隐藏状态中直接添加语义向量来控制大型语言模型（LLM）行为的有前途技术。通常，它被认为是精确、可解释且可能比微调更安全的替代品。我们证明了相反的观点：激活引导系统性地破坏了模型对齐安全措施，使其遵循有害请求。通过对不同模型系列的广泛实验，我们展示了即使是在随机方向上进行引导，也能使有害行为的概率从0%增加到2-27%。令人震惊的是，从稀疏自编码器（SAE）中引导良性特征（一种常见的可解释方向来源）进一步将这些概率提高了2-4%。最后，我们展示了结合20个随机采样的向量，这些向量可以破解单一提示，形成普遍攻击，显著增加了对未见请求的有害行为服从率。这些结果挑战了解释性安全的范式，表明对模型内部的精确控制并不保证对模型行为的精确控制。",
+        "地址": "https://arxiv.org/pdf/2509.22067.pdf"
+    },
+    {
+        "名称": "2025 [2510.02286] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks.pdf",
+        "作者": "Ruohao Guo, Afshin Oroojlooy, Roshan Sridhar, Miguel Ballesteros, Alan Ritter, Dan Roth",
+        "摘要": "摘要：尽管在AI安全领域最近取得了迅速进展，但当前的大型语言模型在多轮交互设置中仍然容易受到对抗性攻击。在这种设置中，攻击者会策略性地调整提示词，并在对话轮次间提出更关键且真实的挑战。现有发现安全漏洞的方法要么依赖人类专家的手动Red-Teaming，要么通过使用预定义模板和人工整理的攻击数据进行自动化方法，大多集中在单轮攻击。然而，这些方法并未探索可能的多轮攻击的广阔空间，未能考虑复杂对话动态和战略性对话策划中出现的新颖攻击路径。鉴于最近的研究发现，LLM在多轮攻击中表现出显著更高的脆弱性，这一差距尤为关键。我们提出了DialTree-RPO，一种整合了树搜索的策略梯度强化学习框架，通过将对话视为连续决策问题，自动发现多样的多轮攻击策略，实现系统探索而无需人工整理的数据。通过广泛的实验，我们的方法不仅在10个目标模型上比之前的最先进方法高出25.9%以上的ASR，还通过学习优化的对话策略，在多轮次中最大化攻击成功率，成功揭示了新的攻击策略。",
+        "地址": "https://arxiv.org/pdf/2510.02286.pdf"
+    },
+    {
+        "名称": "2025 [2510.01591] CLUE: Non-parametric Verification from Experience via Hidden-State Clustering.pdf",
+        "作者": "Zhenwen Liang, Ruosen Li, Yujun Zhou, Linfeng Song, Dian Yu, Xinya Du, Haitao Mi, Dong Yu",
+        "摘要": "论文题目：CLUE: 通过隐藏状态聚类和经验进行非参数验证\n\n摘要：评估大型语言模型（LLM）输出的质量是一项关键挑战。之前的方法要么依赖于文本层级信息（如奖励模型、少数服从多数投票），这可能导致对表面线索的过拟合，要么基于来自标记概率的校准置信度，而这在较少校准的模型上无效。然而，这些信号实际上都是信息更丰富的一个来源的部分投影：模型的内部隐藏状态。靠近标记嵌入的早期层保留了用于文本判断的语义和词汇特征，而后期层则更多地与输出logits对齐，嵌入置信度相关的信息。本文直接探讨隐藏状态作为验证的统一基础。我们展示了解决方案的正确性如何在隐藏激活路径中编码为几何可分离的特征签名。为验证这一点，我们提出了CLUE（基于聚类和经验的验证），一个刻意简化的非参数验证器。CLUE无可训练参数，仅通过每次推理轨迹的隐藏状态变化进行总结，并通过最近质心距离对成功和失败聚类分类其正确性。这种方法的简洁突出显示了基础信号的强度。根据经验，CLUE稳定地优于基准的LLM作为裁判，并在重新排名候选项时匹配或超过现代的基于置信度的方法，提高了AIME 24/25 和 GPQA 中的top-1 和少数服从多数投票的准确性。在AIME 24中，使用1.5B模型，CLUE将准确率从56.7%提升至70.0%。\n\n作者：梁振文，李若森，周宇君，宋林峰，俞迪安，杜欣亚，米海涛，余栋\n\nURL：https://arxiv.org/pdf/2510.01591.pdf",
+        "地址": "https://arxiv.org/pdf/2510.01591.pdf"
+    },
+    {
+        "名称": "2025 [2510.02250] The Unreasonable Effectiveness of Scaling Agents for Computer Use.pdf",
+        "作者": "Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang",
+        "摘要": "摘要：计算机使用代理（CUAs）有望自动化日常数字任务，但其不可靠性和高方差阻碍了其在长远复杂任务中的应用。我们介绍了行为最佳N（bBoN）方法，该方法通过生成多个展开并使用描述代理展开的行为叙述进行选择来扩展代理。它既能广泛探索又能有原则地选择轨迹，大大提高了鲁棒性和成功率。在OSWorld上，我们的bBoN扩展方法建立了新的技术水平（SoTA）69.9％，显著超过了之前的方法并接近人类水平的72％，全面消融验证了关键的设计选择。我们进一步展示了在WindowsAgentArena和AndroidWorld上对不同操作系统的强泛化结果。至关重要的是，我们的结果突显了扩展CUAs的非凡有效性，但前提是你正确地执行：有效的扩展需要结构化的轨迹理解和选择，而bBoN提供了实现这一目标的实用框架。",
+        "地址": "https://arxiv.org/pdf/2510.02250.pdf"
+    },
+    {
+        "名称": "2025 [2510.01265] RLP: Reinforcement as a Pretraining Objective.pdf",
+        "作者": "Ali Hatamizadeh, Syeda Nahida Akter, Shrimai Prabhumoye, Jan Kautz, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Yejin Choi",
+        "摘要": "摘要：目前训练大型推理模型的主流范式是首先使用海量数据进行下一个-token预测损失的预训练。虽然强化学习在扩展推理方面非常强大，但只在监督微调之后作为最后阶段的后训练引入。这种方法虽然占主导地位，但是否是最优的训练方式？在本文中，我们提出了RLP，一种信息驱动的强化预训练目标，将强化学习的核心精神——探索——带到预训练的最后阶段。其关键思想是将思维链视为探索性行动，依据其在预测未来token时提供的信息增益来计算奖励。本训练目标本质上鼓励模型在预测接下来内容之前先独立思考，从而在预训练的初期就教授独立思考行为。具体来说，奖励信号衡量在基于上下文和一个采样的推理链进行条件预测时，比仅基于上下文的预测提高了下一个token的对数似然。此方法产生了无需验证器的密集奖励信号，允许高效地在预训练期间对整个文档流进行训练。特别地，RLP将推理的强化学习重新定义为普通文本的预训练目标，弥合了下一个-token预测与有用思维链推理的出现之间的差距。在Qwen3-1.7B-Base上应用RLP进行预训练，使八个数学和科学基准测试的总体平均测评提升了19%。在相同的后训练条件下，增益开始复合，在AIME25和MMLU-Pro等重推理任务上取得最大进步。将RLP应用于混合的Nemotron-Nano-12B-v2模型，将总体平均得分从42.81%提升至61.32%，并使科学推理平均得分提高了23%，展示了跨架构和模型大小的可扩展性。",
+        "地址": "https://arxiv.org/pdf/2510.01265.pdf"
+    },
+    {
+        "名称": "2025 [2510.02240] RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via Multi-Stage Reinforcement Learning.pdf",
+        "作者": "Sicheng Feng, Kaiwen Tuo, Song Wang, Lingdong Kong, Jianke Zhu, Huan Wang",
+        "摘要": "摘要：\n细粒度视觉推理仍然是多模态大型语言模型（MLLMs）的核心挑战。最新引入的ReasonMap通过展示即使是先进的MLLMs在结构化和信息丰富的环境（如交通地图）中的空间推理任务也存在困难，从而突显了这一差距，这是一项具有明确实际和科学意义的任务。然而，在这种任务上的标准强化学习（RL）由于稀疏回报和不稳定的优化而受到阻碍。为了解决这个问题，我们首先构建了ReasonMap-Plus，这是一个通过视觉问答（VQA）任务引入密集奖励信号的扩展数据集，使得细粒度视觉理解技能的冷启动训练更为有效。接下来，我们提出了RewardMap，一个旨在提高MLLMs视觉理解和推理能力的多阶段RL框架。RewardMap包含两个关键设计。首先，我们引入了一种难度感知奖励设计，该设计包含了细节奖励，直接解决了稀疏奖励问题，同时提供了更丰富的监督。其次，我们提出了一种多阶段RL方案，从简单感知任务到复杂推理任务启动训练，这比传统的监督微调（SFT）策略提供了更有效的冷启动策略。在ReasonMap和ReasonMap-Plus上的实验表明，RewardMap的每个组件都对一致的性能提升有所贡献，而它们的组合产生了最佳结果。此外，通过RewardMap训练的模型在包含空间推理、细粒度视觉推理以及超越交通地图的一般任务的6个基准上平均提高了3.47%，这突显了其增强的视觉理解和推理能力。",
+        "地址": "https://arxiv.org/pdf/2510.02240.pdf"
+    },
+    {
+        "名称": "2025 [2510.02190] A Rigorous Benchmark with Multidimensional Evaluation for Deep Research Agents: From Answers to Reports.pdf",
+        "作者": "Yang Yao, Yixu Wang, Yuxuan Zhang, Yi Lu, Tianle Gu, Lingyu Li, Dingyi Zhao, Keming Wu, Haozhe Wang, Ping Nie, Yan Teng, Yingchun Wang",
+        "摘要": "摘要：人工智能正在经历从封闭语言模型到能够进行外部感知和信息整合的互联代理系统的范式转变。作为代表性体现，深度研究代理（DRA）系统在任务分解、跨源检索、多阶段推理和结构化输出方面表现出系统化的能力，大大提高了复杂和开放性任务的表现。然而，现有的基准在评估维度、响应格式和评分机制方面仍旧存在不足，限制了它们有效评估此类系统的能力。本文介绍了一个严格的基准和针对DRA系统及报告风格响应的多维度评估框架。该基准包含214个由专家精心策划的挑战性问题，分布在十个广泛的主题领域，每个问题都伴有手动构建的参考包以支持综合评估。该框架能够对DRA系统生成的长格式报告进行全面评估，整合评分指标包括语义质量、主题焦点和检索可信度。广泛的实验确认了主流DRA系统相较于网络搜索工具增强的推理模型的优越性能，但也显示出仍有很大的改进空间。本研究为DRA系统的能力评估、架构优化和范式进步提供了坚实的基础。",
+        "地址": "https://arxiv.org/pdf/2510.02190.pdf"
+    },
+    {
+        "名称": "2025 [2510.01284] Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation.pdf",
+        "作者": "Chetwin Low, Weimin Wang, Calder Katyal",
+        "摘要": "摘要：音频-视频生成通常依赖于复杂的多阶段架构或顺序合成声音和视觉。我们引入了Ovi，这是一种统一的音频-视频生成范式，将这两种模态作为单一的生成过程来建模。通过使用双DiT模块的分块式跨模态融合，Ovi实现了自然的同步，并消除了单独的管道或事后对齐的需要。为了促进细粒度的多模态融合建模，我们初始化了一个具有强大预训练视频模型相同架构的音频塔。从数十万小时的原始音频从头开始训练，音频塔学习生成真实的声音效果，以及传达丰富的说话者身份和情感的语音。通过在庞大的视频语料库上共同训练相同的音频和视频塔，通过时间（通过缩放的RoPE嵌入）和语义（通过双向跨注意力）的分块交换获得融合。我们的模型通过自然的语音和准确、上下文匹配的声音效果实现了电影级讲故事，生成电影级视频剪辑。所有演示、代码和模型权重都在该URL上发布。",
+        "地址": "https://arxiv.org/pdf/2510.01284.pdf"
+    },
+    {
+        "名称": "2025 [2510.02294] F2LLM Technical Report: Matching SOTA Embedding Performance with 6 Million Open-Source Data.pdf",
+        "作者": "Ziyin Zhang, Zihan Liao, Hang Yu, Peng Di, Rui Wang",
+        "摘要": "摘要: 我们介绍了F2LLM - 从基础到特征的大型语言模型，一套最先进的嵌入模型，有三个不同的尺寸：0.6B、1.7B和4B。与需要大规模对比预训练、复杂训练管道和高成本合成训练数据的之前的顶级嵌入模型不同，F2LLM直接从基础模型上微调，这些基础模型基于从开源、非合成数据集中整理出的600万个查询-文档-负面样本，在训练成本、模型大小和嵌入性能之间取得了良好的平衡。在MTEB英语排行榜上，F2LLM-4B在约4B参数的模型中排名第二，总体排名第七，而F2LLM-1.7B在1B-2B大小范围的模型中排名第一。为了促进该领域的未来研究，我们发布了模型、训练数据集和代码，将F2LLM定位为未来工作中的一个强大、可重复且经济的基线。\n\n翻译后的摘要: 我们介绍了F2LLM——基础到特征的大型语言模型，它是一套最先进的嵌入模型，共有三个尺寸：0.6B、1.7B 和 4B。与以往需要大规模对比预训练、复杂训练管道和高成本合成训练数据的顶级嵌入模型不同，F2LLM是直接从基础模型上微调的，这些基础模型基于从开源、非合成数据集中整理出的600万个查询-文档-负面样本，在训练成本、模型大小和嵌入性能之间取得了良好的平衡。在MTEB英语排行榜上，F2LLM-4B在约4B参数的模型中排名第二，总体排名第七，而F2LLM-1.7B在1B-2B大小范围的模型中排名第一。为了促进该领域的未来研究，我们发布了模型、训练数据集和代码，将F2LLM定位为未来工作中的强大、可重复且经济的基线。",
+        "地址": "https://arxiv.org/pdf/2510.02294.pdf"
+    },
+    {
+        "名称": "2025 [2510.02253] DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag Editing.pdf",
+        "作者": "Zihan Zhou, Shilin Lu, Shuli Leng, Shaocong Zhang, Zhuming Lian, Xinlei Yu, Adams Wai-Kin Kong",
+        "摘要": "摘要：基于拖动的图像编辑长期以来一直受到目标区域失真的困扰，主要原因是早期基础模型（如Stable Diffusion）的先验不足以将优化后的潜变量投射回自然图像流形。随着从基于UNet的DDPM向具有流匹配（例如SD3.5, FLUX）的更具可扩展性的DiT的转变，生成先验变得显著更强，从而在各种编辑任务中取得进展。然而，基于拖动的编辑尚未从这些更强的先验中受益。这项工作提出了第一个有效利用FLUX丰富先验进行拖动编辑的框架，称为DragFlow，在基准上取得了显著的进步。我们首先表明，直接应用基于点的拖动编辑到DiT表现不佳：与高度压缩的UNet特征不同，DiT特征结构不足，无法为点状运动监督提供可靠的指导。为克服这一局限性，DragFlow引入了一种基于区域的编辑范式，其中仿射变换能够实现更丰富和一致的特征监督。此外，我们整合了预训练的开放域个性化适配器（如IP-Adapter）以增强主题一致性，同时通过渐变掩膜硬约束来保护背景保真度。多模态大语言模型（MLLMs）进一步用于解决任务歧义。为评估，我们策划了一个新的基于区域的拖动基准（ReD Bench），其特点是区域级拖动指令。在DragBench-DR和ReD Bench上的大量实验表明，DragFlow超越了基于点和基于区域的基准，建立了基于拖动的图像编辑的新技术标准。代码和数据将在发表后公开。\n\n作者：周子涵，卢世林，冷舒莉，张绍聪，连竹明，余心磊，Adams Wai-Kin Kong\n\n评论：预印本\n\n网址：https://arxiv.org/pdf/2510.02253.pdf\n\n标题：2025 [2510.02253] DragFlow: 释放DiT先验通过基于区域的监督进行拖动编辑",
+        "地址": "https://arxiv.org/pdf/2510.02253.pdf"
+    },
+    {
+        "名称": "2025 [2510.02173] Learning to Reason for Hallucination Span Detection.pdf",
+        "作者": "Hsuan Su, Ting-Yao Hu, Hema Swetha Koppula, Kundan Krishna, Hadi Pouransari, Cheng-Yu Hsieh, Cem Koc, Joseph Yitan Cheng, Oncel Tuzel, Raviteja Vemulapalli",
+        "摘要": "摘要：大型语言模型（LLMs）常常生成幻觉——不可靠的内容，这会破坏其可靠性。尽管大多数先前的工作将幻觉检测框架为一个二元任务，许多实际应用需要识别幻觉片段，这是一个多步骤的决策过程。这自然引出了一个问题：显式推理是否有助于复杂的幻觉片段检测任务。为了回答这个问题，我们首先评估了带有和不带有链式思维推理的预训练模型，并展示了链式思维推理在多次采样时至少生成一个正确答案的潜力。在此激励下，我们提出了RL4HS，一个使用片段级奖励函数来激励推理的强化学习框架。RL4HS基于群体相对策略优化，并引入了类别感知策略优化以缓解奖励不平衡问题。在RAGTruth基准（摘要、问答、数据到文本）上的实验表明，RL4HS优于预训练推理模型和监督微调，证明了使用片段级奖励进行强化学习检测幻觉片段的必要性。",
+        "地址": "https://arxiv.org/pdf/2510.02173.pdf"
+    },
+    {
+        "名称": "2025 [2510.01346] Aristotle: IMO-level Automated Theorem Proving.pdf",
+        "作者": "Tudor Achim, Alex Best, Kevin Der, Mathïs Fédérico, Sergei Gukov, Daniel Halpern-Leister, Kirsten Henningsgard, Yury Kudryashov, Alexander Meiburg, Martin Michelsen, Riley Patterson, Eric Rodriguez, Laura Scharff, Vikram Shanker, Vladmir Sicca, Hari Sowrirajan, Aidan Swope, Matyas Tamas, Vlad Tenev, Jonathan Thomm, Harold Williams, Lawrence Wu",
+        "摘要": "摘要: 我们介绍了Aristotle，一个结合了形式验证与非正式推理的AI系统，达到了相当于金牌水平的2025年国际数学奥林匹克竞赛题目表现。Aristotle集成了三个主要组件：一个Lean证明搜索系统，一个生成并形式化引理的非正式推理系统，以及一个专用的几何求解器。我们的系统展示了自动定理证明的最先进性能，并且在可扩展性方面具有优势。",
+        "地址": "https://arxiv.org/pdf/2510.01346.pdf"
+    },
+    {
+        "名称": "2025 [2510.01179] TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments.pdf",
+        "作者": "Zhangchen Xu, Adriana Meza Soria, Shawn Tan, Anurag Roy, Ashish Sunil Agrawal, Radha Poovendran, Rameswar Panda",
+        "摘要": "摘要：大型语言模型（LLM）代理迅速崛起，成为跨领域任务自动化的强大系统。然而，开源社区的进展受限于缺乏高质量的、具备宽松许可的工具代理训练数据。现有数据集在多样性、现实性和复杂性方面往往存在局限，特别是涉及多工具和多回合互动时。为了解决这一问题，我们引入了Toucan，这是迄今为止最大规模的公开可用的工具代理数据集，包含了从近500个真实世界的模型上下文协议（MCP）中合成的150万个轨迹。与之前的工作不同，Toucan利用真实的MCP环境生成多样化、现实且具有挑战性的任务，其中的轨迹涉及实际工具执行。我们的流水线首先使用五个不同的模型生成大量工具使用查询，应用基于模型的质量筛选，然后使用三个教师模型在两个代理框架下生成代理轨迹。严格的基于规则和基于模型的验证确保了高质量输出。我们还引入了三种扩展机制，以进一步多样化任务并模拟多回合对话。根据Toucan微调的模型在BFCL V3基准测试中表现优于更大的闭源同行，并在MCP-Universe Bench上推进了帕累托前沿。\n\n评论：35页，13个图。\n\n作者：Zhangchen Xu, Adriana Meza Soria, Shawn Tan, Anurag Roy, Ashish Sunil Agrawal, Radha Poovendran, Rameswar Panda\n\n链接：https://arxiv.org/pdf/2510.01179.pdf\n\n标题：2025 [2510.01179] TOUCAN: 从真实世界MCP环境合成150万条工具代理数据.pdf",
+        "地址": "https://arxiv.org/pdf/2510.01179.pdf"
+    },
+    {
+        "名称": "2025 [2510.02295] VideoNSA: Native Sparse Attention Scales Video Understanding.pdf",
+        "作者": "Enxin Song, Wenhao Chai, Shusheng Yang, Ethan Armand, Xiaojun Shan, Haiyang Xu, Jianwen Xie, Zhuowen Tu",
+        "摘要": "摘要：在多模态语言模型中的视频理解依然受限于上下文长度：模型经常错过关键的过渡帧，并且难以在长时间尺度上保持连贯性。为了解决这个问题，我们将原生稀疏注意力（NSA）应用于视频语言模型。我们的方法，VideoNSA，通过对216K视频指令数据集的端到端训练，调整了Qwen2.5-VL模型。我们采用了一种硬件感知的混合注意力方法，对文本保持密集注意力，而对视频采用NSA。与基于令牌压缩和无训练稀疏基线相比，VideoNSA在长视频理解、时间推理和空间基准测试上实现了更好的性能。进一步的消融分析揭示了四个关键发现：（1）可靠扩展到128K个令牌；（2）在固定预算下的最优全局-局部注意力分配；（3）任务依赖的分支使用模式；（4）可学习的联合稀疏注意力有助于引导动态注意力汇聚。\n\n翻译为中文：在多模态语言模型中的视频理解依然受限于上下文长度：模型经常错过关键的过渡帧，并且难以在长时间尺度上保持连贯性。为了解决这个问题，我们将原生稀疏注意力（NSA）应用于视频语言模型。我们的方法，VideoNSA，通过对216K视频指令数据集的端到端训练，调整了Qwen2.5-VL模型。我们采用了一种硬件感知的混合注意力方法，对文本保持密集注意力，而对视频采用NSA。与基于令牌压缩和无训练稀疏基线相比，VideoNSA在长视频理解、时间推理和空间基准测试上实现了更好的性能。进一步的消融分析揭示了四个关键发现：（1）可靠扩展到128K个令牌；（2）在固定预算下的最优全局-局部注意力分配；（3）任务依赖的分支使用模式；（4）可学习的联合稀疏注意力有助于引导动态注意力汇聚。",
+        "地址": "https://arxiv.org/pdf/2510.02295.pdf"
+    },
+    {
+        "名称": "2025 [2509.21789] Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow.pdf",
+        "作者": "Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, Zhangquan Chen, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan",
+        "摘要": "摘要：基于视觉语言模型（VLMs）的多智能体系统（MAS）能够完成具有挑战性的任务，但也面临一种新型失败现象，即多智能体视觉幻觉滚雪球效应。该效应中，幻觉在单个智能体中产生，并由于过度依赖文本流传递视觉信息而被后续智能体放大。通过对回合、层和令牌的注意力分析，我们详细深入地了解了视觉注意力分配减少引起的幻觉滚雪球的本质。我们确定了一组在中间层具有单峰注意力的视觉令牌，它们最好地保留了视觉证据，但在更深的智能体回合中逐渐减少，导致MAS中的视觉幻觉滚雪球。因此，我们提出了ViF，一种轻量级的即插即用缓解模式，通过所选视觉中继令牌传递智能体间的信息并应用注意力重新分配来放大这一模式。实验结果表明，我们的方法显著减少了幻觉滚雪球现象，在基于四种常见MAS结构和十种基础模型的八个基准测试中，性能都有显著提升。源代码将会发布在：https://arxiv.org/pdf/2509.21789.pdf。",
+        "地址": "https://arxiv.org/pdf/2509.21789.pdf"
+    },
+    {
+        "名称": "2025 [2510.00428] Automated Structured Radiology Report Generation with Rich Clinical Context.pdf",
+        "作者": "Seongjae Kang, Dong Bok Lee, Juho Jung, Dongseop Kim, Won Hwa Kim, Sunghoon Joo",
+        "摘要": "摘要：从胸部X光片生成自动化结构化放射学报告（SRRG）具有显著潜力，通过生成符合临床报告标准的结构化格式报告，可以减少放射科医生的工作量。然而，尽管放射科医生在诊断推理中有效利用现有的临床上下文，但现有的SRRG系统却忽略了这些基本元素。这一根本差距导致了严重的问题，包括在引用不存在的临床背景时产生的时间幻觉。为了解决这些限制，我们提出了全面结合丰富临床背景的结构化放射学报告生成系统（C-SRRG）。我们通过整合综合临床背景，包括1）多角度X光片，2）临床指征，3）成像技术，以及4）基于患者历史的先前研究和相应的比较，来编制C-SRRG数据集。通过对最先进的多模态大语言模型进行广泛的基准测试，我们证明了将临床背景与提出的C-SRRG结合显著提高了报告生成的质量。我们公开发布数据集、代码和检查点，以促进未来针对临床对齐的自动化RRG的研究。\n\n作者：Seongjae Kang, Dong Bok Lee, Juho Jung, Dongseop Kim, Won Hwa Kim, Sunghoon Joo\n\n评论：34页，30张图，预印本\n\n链接：https://arxiv.org/pdf/2510.00428.pdf\n\n标题：2025 [2510.00428] 与丰富临床背景的自动结构化放射学报告生成",
+        "地址": "https://arxiv.org/pdf/2510.00428.pdf"
+    },
+    {
+        "名称": "2025 [2509.26376] Go with Your Gut: Scaling Confidence for Autoregressive Image Generation.pdf",
+        "作者": "Harold Haodong Chen, Xianfeng Wu, Wen-Jie Shu, Rongjin Guo, Disen Lan, Harry Yang, Ying-Cong Chen",
+        "摘要": "摘要：测试时缩放（TTS）在增强大型语言模型方面展示了显著的成功，但其在基于下一个令牌预测（NTP）自回归（AR）图像生成中的应用仍然几乎未被探索。现有针对视觉自回归（VAR）的TTS方法依赖于频繁的部分解码和外部奖励模型，这些方法由于中间解码结果固有的不完整性，难以适用于基于NTP的图像生成。为填补这一空白，我们介绍了ScalingAR，这是第一个专门为基于NTP的AR图像生成设计的TTS框架，消除了早期解码或辅助奖励的需求。ScalingAR利用令牌熵作为视觉令牌生成中的新信号，并在两个互补的缩放级别操作：（i）配置文件级别，通过融合内在和条件信号来流式传输校准的置信状态；以及（ii）策略级别，利用此状态自适应地终止低置信轨迹，并动态调度适合阶段的条件强度指导。在一般和组合基准测试中的实验表明，ScalingAR（1）在GenEval上将基础模型提升了12.5%，在TIIF-Bench上提升了15.2%；（2）在优于基准的情况下有效减少了62.0%的视觉令牌消耗；（3）成功增强了鲁棒性，在挑战性场景中减轻了26.0%的性能下降。\n\n作者：Harold Haodong Chen, Xianfeng Wu, Wen-Jie Shu, Rongjin Guo, Disen Lan, Harry Yang, Ying-Cong Chen\n\n评论：代码：https://arxiv.org/pdf/2509.26376.pdf\n\n标题：跟随你的直觉：自回归图像生成的置信度缩放",
+        "地址": "https://arxiv.org/pdf/2509.26376.pdf"
+    },
+    {
+        "名称": "2025 [2510.01670] Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness.pdf",
+        "作者": "Erfan Shayegani, Keegan Hines, Yue Dong, Nael Abu-Ghazaleh, Roman Lutz, Spencer Whitehead, Vidhisha Balachandran, Besmira Nushi, Vibhav Vineet",
+        "摘要": "摘要：计算机使用代理（CUA）是一类日益部署的代理，它们通过在图形用户界面（GUI）上采取行动来实现用户目标。在本文中，我们展示了CUA始终表现出盲目目标导向性（BGD）：一种不顾可行性、安全性、可靠性或上下文而追求目标的偏向性。我们定义了BGD的三种普遍模式：（i）缺乏上下文推理，（ii）在模糊情况下的假设和决策，以及（iii）矛盾或不可行的目标。我们开发了BLIND-ACT，一个包含这三种模式的90个任务的基准。BLIND-ACT基于OSWorld平台构建，提供了现实环境，并采用基于大型语言模型的评审员来评估代理行为，与人工注释达成93.75%的一致性。我们使用BLIND-ACT评估了包括Claude Sonnet、Opus 4、Computer-Use-Preview和GPT-5在内的九个前沿模型，观察到它们的平均BGD率高达80.8%。研究表明，即使输入并非直接有害，BGD也揭示了一些微妙的风险。尽管基于提示的干预措施降低了BGD水平，但仍然存在相当大的风险，强调了在训练或推理阶段需要更强的干预措施。定性分析揭示了观察到的失败模式：执行优先偏向（专注于如何行动而不是是否行动），思维-行动断裂（执行与推理相背离），以及请求优先（因用户请求而正当化行动）。识别BGD并引入BLIND-ACT为未来研究奠定了基础，以研究和减轻这一根本性风险，并确保CUA的安全部署。\n\n作者：Erfan Shayegani, Keegan Hines, Yue Dong, Nael Abu-Ghazaleh, Roman Lutz, Spencer Whitehead, Vidhisha Balachandran, Besmira Nushi, Vibhav Vineet\nURL：https://arxiv.org/pdf/2510.01670.pdf\n标题：2025 [2510.01670] Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness",
+        "地址": "https://arxiv.org/pdf/2510.01670.pdf"
+    },
+    {
+        "名称": "2025 [2510.01304] Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models.pdf",
+        "作者": "Yu Zeng, Wenxuan Huang, Shiting Huang, Xikun Bao, Yukun Qi, Yiming Zhao, Qiuchen Wang, Lin Chen, Zehui Chen, Huaian Chen, Wanli Ouyang, Feng Zhao",
+        "摘要": "摘要：尽管当前的大型视觉-语言模型（VLMs）在多模态理解和推理方面取得了进展，但其基本的感知和推理能力仍然有限。具体而言，即使在简单的拼图任务上，现有的VLMs的表现也接近随机，暴露出核心感知和推理能力的缺陷。尽管高质量的视觉-语言数据可以增强这些能力，但其稀缺性和有限的可扩展性构成了重大限制。为了解决这一问题，我们提出了AGILE，一种用于增强VLMs视觉感知和推理的Agentic拼图互动学习方法。AGILE将拼图解决过程制定为一个互动过程，使模型能够逐步与环境互动。在每一步中，模型根据当前状态生成可执行代码以执行一个动作，而环境提供细粒度的视觉反馈以指导任务完成。通过这种观察和互动的迭代循环，模型通过探索和反馈逐步提高其感知和推理能力。实验结果表明，AGILE不仅大幅提高了不同复杂度拼图任务的表现（例如，在2×2设置下将准确率从9.5%提高到82.8%），而且在9个一般视觉任务上表现出强大的泛化性，平均提高了3.1%。这些结果表明感知和推理能力有显著增强。这项工作为提升多模态模型的推理和泛化开辟了一条新途径，并为多模态强化学习数据的稀缺问题提供了一种高效且可扩展的解决方案。代码和数据集可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2510.01304.pdf"
+    },
+    {
+        "名称": "2025 [2510.02315] Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity.pdf",
+        "作者": "Eric Tillmann Bill, Enis Simsar, Thomas Hofmann",
+        "摘要": "摘要：文本到图像（T2I）模型在处理单一实体提示方面表现出色，但在处理多主题描述时往往会出现属性泄漏、身份混淆和主体遗漏等问题。我们引入了第一个理论框架，具有可优化的目标，以引导采样动态实现多个主题的保真度。通过将流匹配（FM）视为随机最优控制（SOC），我们将主体解缠结表述为对训练后的FM采样器的控制。这产生了两个与架构无关的算法：（i）一个无需训练的测试时控制器，通过单次更新扰动基础速度；（ii）辅助匹配算法，一种轻量级微调规则，通过回归辅助信号来控制网络，同时保留基础模型能力。同一表述统一了现有的关注启发式方法，通过流扩散对应关系扩展到扩散模型，并提供了第一个专为多主题保真度设计的微调方法。实验证明，在Stable Diffusion 3.5、FLUX和Stable Diffusion XL上，这两种算法在保持基础模型风格的同时，一致性地改进了多个主体的对齐。测试时控制器在常规GPU上高效运行，经过有限提示训练的微调控制器可以推广到未见过的提示。我们进一步强调FOCUS（未缠结主体的流最优控制），其在跨模型的多个主体保真度方面实现了最先进的水平。",
+        "地址": "https://arxiv.org/pdf/2510.02315.pdf"
+    },
+    {
+        "名称": "2025 [2510.02263] RLAD: Training LLMs to Discover Abstractions for Solving Reasoning Problems.pdf",
+        "作者": "Yuxiao Qu, Anikait Singh, Yoonho Lee, Amrith Setlur, Ruslan Salakhutdinov, Chelsea Finn, Aviral Kumar",
+        "摘要": "摘要:\n推理需要超越模式匹配或记忆解决方案，去识别和实施可以用来推导难题答案的“算法程序”。这需要实现最相关的基本操作、中间结果或共享程序，并在此基础上构建。虽然RL（强化学习）通过对长思维链的后训练最终旨在揭示这种算法行为，但大多数由大模型学习到的推理轨迹未能一致地捕捉或重用程序，反而往往陷入冗长且退化的探索中。为了实现更有效的推理，我们引入了推理抽象：程序和事实知识的简明自然语言描述，它们引导模型学习成功的推理。我们训练模型使其能在给定问题的情况下提出多个抽象，然后进行RL训练，激励模型在使用这些抽象提供的信息的同时构建解决方案。这产生了一个两玩家的RL训练范式，简称为RLAD，该范式共同训练抽象生成器和解决方案生成器。这种设置有效地促进了结构化探索，解耦了抽象提议和解决方案生成的学习信号，并提高了对更难问题的泛化能力。我们还展示了在测试时将更多计算资源分配给生成抽象比生成更多解决方案在大测试预算情况下更有利于性能，说明了抽象在指导有意义的探索中的作用。\n\n翻译为中文:\n推理需要超越模式匹配或记忆解决方案，去识别和实施可以用来推导难题答案的“算法程序”。这需要实现最相关的基本操作、中间结果或共享程序，并在此基础上构建。虽然强化学习在长思维链上的后训练最终旨在揭示这种算法行为，但大多数由大模型学习到的推理轨迹未能一致地捕捉或重用程序，反而往往陷入冗长且退化的探索中。为了实现更有效的推理，我们引入了推理抽象：程序和事实知识的简明自然语言描述，它们引导模型学习成功的推理。我们训练模型使其能在给定问题的情况下提出多个抽象，然后进行强化学习训练，激励模型在使用这些抽象提供的信息的同时构建解决方案。这产生了一个两玩家的强化学习训练范式，简称为RLAD，该范式共同训练抽象生成器和解决方案生成器。这种设置有效地促进了结构化探索，解耦了抽象提议和解决方案生成的学习信号，并提高了对更难问题的泛化能力。我们还展示了在测试时将更多计算资源分配给生成抽象比生成更多解决方案在大测试预算情况下更有利于性能，说明了抽象在指导有意义的探索中的作用。",
+        "地址": "https://arxiv.org/pdf/2510.02263.pdf"
+    },
+    {
+        "名称": "2025 [2510.02259] Transformers Discover Molecular Structure Without Graph Priors.pdf",
+        "作者": "Tobias Kreiman, Yutong Bai, Fadi Atieh, Elizabeth Weaver, Eric Qu, Aditi S. Krishnapriyan",
+        "摘要": "摘要: 图神经网络 (GNN) 是用于分子机器学习的主要架构，特别是在分子性质预测和机器学习原子间势 (MLIPs) 中。GNN 在预定义的图上执行消息传递，这些图通常由固定半径截止或k近邻方案产生。虽然这种设计与许多分子任务中存在的局部性相符，但由于固定的接收场，硬编码的图可能限制表达能力，并且在稀疏图操作中会减慢推理速度。在这项工作中，我们研究了纯粹的、未经修改的Transformer，直接在笛卡尔坐标上训练——无需预定义图或物理先验——是否可以逼近分子能量和力。作为分析的起点，我们展示了如何在匹配的训练计算预算下训练一个Transformer，使其在OMol25数据集上相对于最先进的对称GNN，达到具有竞争力的能量和力的平均绝对误差。我们发现，Transformer学会了具有物理一致性的模式——如随原子间距离反比衰减的注意力权重——并由于没有硬编码偏见的限制，可以灵活地在不同的分子环境中调整。这种标准Transformer的使用也解锁了随着训练资源扩展的可预测的改进，这与其他领域观察到的经验扩展定律一致。我们的结果表明，GNN的许多有利特性可以在Transformer中自适应地出现，挑战了硬编码图归纳偏见的必要性，并指向用于分子建模的标准化、可扩展架构。\n\n翻译: Graph Neural Networks (GNNs) 是用于分子机器学习的主要架构，尤其是在分子性质预测和机器学习原子间势 (MLIPs) 中。GNN 在预定义的图上进行消息传递，这些图通常是通过固定半径截止或k近邻方案生成的。虽然这种设计符合许多分子任务中的局部性，但由于固定的感受野，硬编码的图可能限制表达能力，并且稀疏图操作会减慢推理速度。在这项工作中，我们研究了纯修改Transformer，直接在笛卡尔坐标上训练——无需预定义的图或物理先验——是否能够逼近分子能量和力。作为分析的起点，我们展示了如何在匹配的训练计算预算下训练一个Transformer，使其在OMol25数据集上能达到具有竞争力的能量和力的平均绝对误差，达到与最先进的等变GNN相当的水平。我们发现Transformer学习到物理一致的模式——例如注意力权重与原子间距离成反比地衰减，并且由于没有硬编码的偏见，它在不同的分子环境中灵活地进行了调整。使用标准Transformer还解锁了与训练资源扩展相关的可预测改进，这与其他领域观察到的经验扩展定律一致。我们的结果表明，GNN的许多有利特性可以自适应地在Transformer中出现，挑战了硬编码图归纳偏见的必要性，并指向适用于分子建模的标准化、可扩展架构。",
+        "地址": "https://arxiv.org/pdf/2510.02259.pdf"
+    },
+    {
+        "名称": "2025 [2510.01623] VLA-R1: Enhancing Reasoning in Vision-Language-Action Models.pdf",
+        "作者": "Angen Ye, Zeyu Zhang, Boyuan Wang, Xiaofeng Wang, Dapeng Zhang, Zheng Zhu",
+        "摘要": "摘要：视觉-语言-行动（VLA）模型旨在统一感知、语言理解和行动生成，在体现化人工智能领域具有很强的跨任务和跨场景泛化能力。然而，当前的VLA模型通常缺乏明确的逐步推理，而是直接输出最终行动，而不考虑可供性约束或几何关系。其训练后的流程也很少强化推理质量，主要依靠设计较弱的奖励的监督微调。为了解决这些问题，我们提出了VLA-R1，这是一种增强推理能力的VLA模型，它结合了基于可验证奖励的强化学习（RLVR）和群体相对策略优化（GRPO），系统地优化推理和执行过程。具体来说，我们设计了一种基于RLVR的训练后策略，通过可验证的奖励进行区域对齐、轨迹一致性和输出格式化，从而加强推理的鲁棒性和执行的准确性。此外，我们开发了VLA-CoT-13K，这是一个高质量的数据集，提供与可供性和轨迹注释明确对齐的连锁思维监督。此外，在域内、域外、仿真和真实机器人平台上的广泛评估表明，VLA-R1在泛化和现实世界性能方面优于之前的VLA方法。我们计划在这项工作的发布后公开模型、代码和数据集。代码：此 https URL。网站：此 https URL。",
+        "地址": "https://arxiv.org/pdf/2510.01623.pdf"
+    },
+    {
+        "名称": "2025 [2510.01817] Sparse Query Attention (SQA): A Computationally Efficient Attention Mechanism with Query Heads Reduction.pdf",
+        "作者": "Adam Filipek",
+        "摘要": "摘要： \nTransformer 架构在多头注意机制(MHA)的支持下，已成为人工智能领域最先进模型的标准。然而，MHA 相对于序列长度的二次计算复杂度在进行扩展时是一个重要障碍，特别是在涉及长上下文的应用中。现有的解决方案如多查询注意(MQA)和分组查询注意(GQA)通过共享键值投影，有效解决了主导自回归推理延迟的存储带宽瓶颈。尽管这些方法非常成功，但它们并未减少注意力分数计算所需的基本浮点运算数(FLOPs)，这仍然是训练和全序列处理的关键瓶颈。本文介绍了稀疏查询注意(SQA)，这是一种新的注意架构，旨在探索另一条补充的优化路径。SQA 不减少键/值头，而是减少查询头的数量。这一架构修改直接按查询头数目的减少比例降低了注意机制的计算复杂度，从而减少了整体 FLOPs。本文介绍了SQA的理论基础、数学公式及其系列架构变体。长序列（32k-200k 令牌）上的经验基准表明，在计算受限场景（如模型预训练、微调和编码器任务）中，SQA 可以实现高达 3 倍的吞吐量提升，对模型质量的影响在初步的小规模实验中仅为最小的影响。SQA 是在即将面世的 Reactive Transformer 架构开发过程中意外发现的，表明其有可能成为构建更高效和可扩展模型的有力工具。",
+        "地址": "https://arxiv.org/pdf/2510.01817.pdf"
+    },
+    {
+        "名称": "2025 [2510.01796] Rethinking the shape convention of an MLP.pdf",
+        "作者": "Meng-Hsi Chen, Yu-Ang Lee, Feng-Ting Liao, Da-shan Shiu",
+        "摘要": "摘要：多层感知机（MLP）传统上遵循窄-宽-窄的设计，其中跳跃连接在输入/输出维度上操作，而处理则在扩展的隐藏空间中进行。我们通过提出宽-窄-宽（沙漏）MLP块挑战这一传统设计，其中跳跃连接在扩展维度上操作，而残差计算则通过窄瓶颈流动。这种倒置设计利用了高维空间进行增量优化，同时通过参数匹配设计保持计算效率。实现沙漏MLP需要一种初始投影，将输入信号提升到扩展维度。我们提出，这种投影在整个训练过程中可以固定在随机初始化，使训练和推理的实现更加高效。我们在流行的图像数据集上的生成任务中评估了这两种架构，通过系统性的架构搜索表征性能-参数的帕累托前沿。结果表明，沙漏架构相比传统设计在帕累托前沿上始终表现更优。随着参数预算的增加，最佳的沙漏配置偏向于更深的网络，具有更宽的跳跃连接和更窄的瓶颈——这是一种有别于传统MLP的扩展模式。我们的研究结果建议在现代架构中重新考虑跳跃连接的位置，其潜在应用可以扩展到Transformers和其他残差网络。\n\nauthors: Meng-Hsi Chen, Yu-Ang Lee, Feng-Ting Liao, Da-shan Shiu\nurl: https://arxiv.org/pdf/2510.01796.pdf\ntitle: 2025 [2510.01796] Rethinking the shape convention of an MLP.pdf",
+        "地址": "https://arxiv.org/pdf/2510.01796.pdf"
+    },
+    {
+        "名称": "2025 [2510.00523] VIRTUE: Visual-Interactive Text-Image Universal Embedder.pdf",
+        "作者": "Wei-Yao Wang, Kazuya Tateishi, Qiyu Wu, Shusuke Takahashi, Yuki Mitsufuji",
+        "摘要": "摘要：多模态表示学习模型在复杂任务中的成功操作已得到证明，而视觉-语言模型(VLM)的整合进一步使嵌入模型具备了遵循指令的能力。然而，现有的嵌入模型缺乏用户指定兴趣区域（例如，点，边界框，蒙版）的视觉交互能力，这些能力已在生成模型中被探索，以扩展其人机交互的适用性。为嵌入模型配备视觉交互能力不仅可以解锁新的应用，局部化地落实用户意图（这一点尚未探索），还能够使模型学习图像中的实体级信息，以补充其用于传统嵌入任务的全局表示。在本文中，我们提出了一种新颖的视觉交互文本-图像通用嵌入器（VIRTUE），扩展了分割模型和视觉语言模型在表示学习领域的能力。在VIRTUE中，分割模型可以处理视觉提示，精确定位图像中的特定区域，从而使嵌入器能够更准确地处理复杂和模糊的场景。为了评估VIRTUE的视觉交互能力，我们引入了一个大规模的分割和场景字幕检索（SCaR）基准，包含100万样本，旨在通过联合考虑特定对象和图像场景的实体来检索文本字幕。VIRTUE在36个通用MMEB任务（提高3.1%-8.5%）和五个视觉交互SCaR任务（提高15.2%-20.3%）中始终达到最先进的性能，并有显著改善。\n\n作者：魏耀 王，立石 和哉，吴琦宇，高桥周佑，光藤幸\n\n评论：共25页\n\n网址：https://arxiv.org/pdf/2510.00523.pdf\n\n标题：2025 [2510.00523] VIRTUE: 视觉交互文本-图像通用嵌入器",
+        "地址": "https://arxiv.org/pdf/2510.00523.pdf"
+    },
+    {
+        "名称": "2025 [2509.24203] Group-Relative REINFORCE Is Secretly an Off-Policy Algorithm: Demystifying Some Myths About GRPO and Its Friends.pdf",
+        "作者": "Chaorui Yao, Yanxi Chen, Yuchang Sun, Yushuo Chen, Wenhao Zhang, Xuchen Pan, Yaliang Li, Bolin Ding",
+        "摘要": "摘要：由于实际应用中的现实约束、LLM-RL基础设施的复杂性以及强化学习方法创新的需要，基于大语言模型（LLMs）进行离线强化学习（RL）正吸引越来越多的关注。尽管经典的REINFORCE及其现代变种如Group Relative Policy Optimization（GRPO）通常被认为是对离线性容忍度有限的在线算法，我们通过推导不假设特定训练数据分布的群体相对REINFORCE，展示了它实际上有一种本地的离线解释。这一观点产生了两个适应REINFORCE至离线环境的一般原则：正则化策略更新和主动构建数据分布。我们的分析解开了关于GRPO重要性采样和剪裁角色的一些误区，统一并重新解释了最近的两种算法——在线策略镜像优化（OPMD）和非对称REINFORCE（AsymRE）——作为REINFORCE损失的正则化形式，并对看似启发式的数据加权策略提供了理论支持。我们的发现提供了可行的见解，并通过广泛的实证研究得到验证，为在LLMs的离线强化学习中设计原则性算法开辟了新的机会。相关源码请访问此HTTPS网址。",
+        "地址": "https://arxiv.org/pdf/2509.24203.pdf"
+    },
+    {
+        "名称": "2025 [2510.01241] SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation.pdf",
+        "作者": "Hu Wei, Ze Xu, Boyu Yang, Linlin Miao, Weiqi Zhai, Yihan Li, Zixuan Li, Zhijun Wang, Boya Wang, Jianwei Yu, Jialing Yuan, Xiaoyue Zhang, Cheng He, Minglei Chen, Zifan Zhang, Qianhui Li, Wei Wang, Xiang Xu",
+        "摘要": "摘要：大型语言模型（LLMs）在许多公共数学测试中表现良好，但数学领域的前沿突破越来越受到天花板效应的影响。我们提出了两个互补的基准：SKYLENAGE-ReasoningMATH，一个100道题的结构感知诊断集，包含关于题目长度、数字密度和符号复杂性的元数据；以及SKYLENAGE-MATH，一个包含150道题的竞赛风格测试集，涵盖从高中到博士四个阶段的七个学科分类。我们在相同设置下评估了十五个当代语言模型变体，并分析了学科x模型和年级x模型的表现。在竞赛套件中，最强模型达到了44%，而亚军达到37%；准确率从高中到博士逐渐下降，顶级系统表现出接近79%的博士到高中的保持率。在推理集合中，最佳模型整体达到81%，最难部分的结果展示了领导者与中等水平之间明显的稳健性差距。综上所述，我们发布了SKYLENAGE-ReasoningMATH并报告了SKYLENAGE-MATH的汇总结果；SKYLENAGE提供了一个难度适中、以推理为中心且覆盖面广的数学基准，具有校准的难度和丰富的元数据，可作为未来数学推理评估的参考基准。",
+        "地址": "https://arxiv.org/pdf/2510.01241.pdf"
+    },
+    {
+        "名称": "2025 [2510.02272] Parallel Scaling Law: Unveiling Reasoning Generalization through A Cross-Linguistic Perspective.pdf",
+        "作者": "Wen Yang, Junhong Wu, Chong Li, Chengqing Zong, Jiajun Zhang",
+        "摘要": "摘要：最近在强化后训练（Reinforcement Post-Training, RPT）方面的进展极大地增强了大规模推理模型（Large Reasoning Models, LRMs）的能力，激发了对基于强化学习（RL）推理泛化的兴趣。现有研究主要集中在跨任务或跨模态的泛化上，而本文提出了一种新的跨语言视角来研究推理泛化。这提出了一个关键问题：通过英语RPT实现的推理能力是否能有效转移到其他语言？我们通过系统评估以英语为中心的LRMs在多语言推理基准上的表现，并引入一个量化跨语言可转移性的指标。我们的研究发现，跨语言可转移性在初始模型、目标语言和训练范式之间存在显著差异。通过干预性研究，我们发现初始英语能力较强的模型往往过度依赖英语特定的模式，导致跨语言泛化的减弱。为了解决这一问题，我们进行了全面的并行训练研究。实验结果产生了三个关键发现：第一，单语向仅一种并行语言过渡时表现的显著跃升，称之为“并行跃迁”；第二，跨语言推理转移遵循一个关于训练并行语言数量的幂律，称之为“并行缩放定律”；第三，实际单语言表现与幂律预测之间的差异称之为“单语言泛化差距”，表明以英语为中心的LRMs无法完全跨语言泛化。我们的研究挑战了LRM推理类似于人类认知的假设，并为开发更具语言无关性的LRMs提供了关键见解。\n\n评论：研究正在进行中。\n作者：Wen Yang, Junhong Wu, Chong Li, Chengqing Zong, Jiajun Zhang\nURL：https://arxiv.org/pdf/2510.02272.pdf\n标题：《并行缩放定律：通过跨语言视角揭示推理泛化》 (Parallel Scaling Law: Unveiling Reasoning Generalization through A Cross-Linguistic Perspective)",
+        "地址": "https://arxiv.org/pdf/2510.02272.pdf"
+    },
+    {
+        "名称": "2025 [2510.01143] Generalized Parallel Scaling with Interdependent Generations.pdf",
+        "作者": "Harry Dong, David Brandfonbrener, Eryk Helenowski, Yun He, Mrinal Kumar, Han Fang, Yuejie Chi, Karthik Abinav Sankararaman",
+        "摘要": "摘要: \n并行LLM推理扩展涉及为单个输入提示采样一组 $N>1$ 响应。然而，这些 $N$ 个并行响应往往是独立生成的，这会分割计算资源，使某个生成中的潜在有用信息无法被其他生成利用。这与响应长度扩展的情况相反，在响应长度扩展中，过去的计算用于所有未来步骤。为了得到更高质量的响应和响应集，我们提出通过将批处理LLM隐藏状态重新思考为整体张量而不是独立切片，从而生成相互依赖的并行响应。仅需少量（2.8%-5.1%）的新参数，Bridge 能够通过可验证奖励的强化学习，将相对平均准确度提升高达50%，并提高正确响应的一致性。训练一次后，Bridge 可以按任意生成宽度扩展，并且性能优于独立生成，解锁了一种更通用的并行扩展模式，有效利用序列间信息，兼容任何生成后聚合技术。",
+        "地址": "https://arxiv.org/pdf/2510.01143.pdf"
+    },
+    {
+        "名称": "2025 [2510.00137] Optimizing What Matters: AUC-Driven Learning for Robust Neural Retrieval.pdf",
+        "作者": "Nima Sheikholeslami, Erfan Hosseini, Patrice Bechard, Srivatsava Daruru, Sai Rajeswar",
+        "摘要": "摘 要: 双编码器检索器依赖于这样一种原理，即对于给定的查询，相关文档的评分应高于不相关文档。然而，主要的噪声对比估计（NCE）目标支持的对比损失优化了一个软化的排名替代品，我们严格证明该替代品在根本上忽视了评分分离质量，并且与AUC无关。这种不匹配导致了下游任务（如检索增强生成（RAG））中的较差的校准和次优性能。为了解决这一根本限制，我们引入了MW损失，这是一种新的训练目标，它最大化了Mann-Whitney U统计量，数学上等同于ROC曲线下面积（AUC）。MW损失通过最小化分数差异上的二元交叉熵，鼓励每个正负对被正确排序。我们提供了理论保证，MW损失直接上界AoC，更好地将优化与检索目标对齐。我们进一步推广ROC曲线和AUC作为评价检索器校准和排名质量的自然无阈值诊断工具。在实验中，使用MW损失训练的检索器在AUC和标准检索指标方面持续优于对比损失。我们的实验表明，MW损失是对比损失的一种经验上更优的替代方案，为高风险应用（如RAG）提供更好校准和更具辨别力的检索器。\n\n作者: Nima Sheikholeslami, Erfan Hosseini, Patrice Bechard, Srivatsava Daruru, Sai Rajeswar\n\n标题: 优化重要的事项：AUC驱动的健壮神经检索学习\n\n链接: https://arxiv.org/pdf/2510.00137.pdf",
+        "地址": "https://arxiv.org/pdf/2510.00137.pdf"
+    },
+    {
+        "名称": "2025 [2509.25729] Controlled Generation for Private Synthetic Text.pdf",
+        "作者": "Zihao Zhao, Anjalie Field",
+        "摘要": "摘要: 文本匿名化对于在医疗、社会服务和法律等高风险领域负责任地开发和部署人工智能至关重要。在这项研究中，我们提出了一种隐私保护的合成文本生成的新方法，该方法利用了去识别化和“隐身于众” (HIPS) 理论的原理。我们的方法引入了实体感知控制代码，通过上下文学习（ICL）或前缀调优来指导可控生成。ICL变体确保了隐私级别与基础去识别系统的一致性，而前缀调优变体则结合了自定义的掩码策略和损失函数，支持可扩展的高质量生成。对法律和临床数据集的实验表明，我们的方法在隐私保护和实用性之间实现了良好的平衡，提供了一个在敏感领域内进行合成文本生成的实用且有效的解决方案。",
+        "地址": "https://arxiv.org/pdf/2509.25729.pdf"
+    },
+    {
+        "名称": "2025 [2509.24304] FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame Spotlighting.pdf",
+        "作者": "Zefeng He, Xiaoye Qu, Yafu Li, Siyuan Huang, Daizong Liu, Yu Cheng",
+        "摘要": "摘要：尽管大型视觉语言模型（LVLMs）在视频理解方面取得了显著进展，但其在长视频推理中的应用受到均匀帧采样和静态文本推理的限制，对于处理视觉密集型视频任务表现不佳。为了解决这些问题，我们在本文中引入了“长视频思考”的概念，并提出了一个新框架——FrameThinker。在这个框架内，LVLMs能够迭代地审问视频内容。开发这种视频推理能力面临显著挑战，特别是在使模型适应新视频动作（如选择帧）以及设计奖励函数以引导LVLMs采用新引入的动作方面。为了解决这些挑战，我们提出了一种两阶段的训练策略，首先使用监督微调（SFT）赋予基本的动作能力，然后通过强化学习（RL）来优化策略决策。在这个RL阶段，我们深入而全面地探索了每个动作和格式奖励的设计。在 Video-Holmes、LongVideo-Reason 以及长视频理解基准如 LongVideoBench、MLVU、VideoMME 和 LVBench 等推理基准上的广泛实验表明，FrameThinker 相对于基准平均提高了10.4%，同时大幅减少了处理帧的数量。值得注意的是，我们的7B模型FrameThinker在 LongVideo-Reason 基准上建立了新的最先进记录，仅使用了平均20.6帧便达到了76.1%的准确率，这不仅超越了竞争对手LongVILA-R1（72.0%），而且使用的帧是其的二十分之一（512帧），展现了无与伦比的效率和效果。",
+        "地址": "https://arxiv.org/pdf/2509.24304.pdf"
+    },
+    {
+        "名称": "2025 [2510.02306] Drawing Conclusions from Draws: Rethinking Preference Semantics in Arena-Style LLM Evaluation.pdf",
+        "作者": "Raphael Tang, Crystina Zhang, Wenyan Li, Carmen Lai, Pontus Stenetorp, Yao Lu",
+        "摘要": "摘要: 在大型语言模型(LLMs)的竞技场评估中，两种LLMs对用户查询作出响应，用户选择获胜响应或将“对战”视为平局，从而调整两个模型的评分。目前建模这些评分动态的流行方法是将对战视为两人游戏比赛，如国际象棋，并应用Elo评分系统及其衍生方法。在本文中，我们批判性地审视了这一范式。具体而言，我们质疑平局是否真正意味着两个模型是平等的，因此它们的评分是否应该等同。相反，我们推测平局更能表明查询的难度：如果查询太容易，那么两个模型更有可能同样成功。在三个现实世界的竞技场数据集上，我们显示忽略平局的评分更新会使四个研究中的评分系统的对战结果预测准确率（包括平局）相对提高1-3%。进一步分析表明，平局更多地发生在被评为非常容易和高度客观的查询上，风险比率分别为1.37和1.35。我们建议未来的评分系统重新考虑现有的平局语义，并在评分更新中考虑查询特性。\n\n翻译作者: 撒斐尔·汤（Raphael Tang），克里斯蒂娜·张（Crystina Zhang），李文彦（Wenyan Li），卡门·赖（Carmen Lai），旁特斯·斯泰内托普（Pontus Stenetorp），姚陆（Yao Lu）\n\n评论: 6页，4个图\n\n链接: [https://arxiv.org/pdf/2510.02306.pdf](https://arxiv.org/pdf/2510.02306.pdf)\n\n标题: 2025 [2510.02306] 从平局中得出结论：重新思考竞技场LLM评估中的偏好语义",
+        "地址": "https://arxiv.org/pdf/2510.02306.pdf"
+    },
+    {
+        "名称": "2025 [2510.01691] MedQ-Bench: Evaluating and Exploring Medical Image Quality Assessment Abilities in MLLMs.pdf",
+        "作者": "Jiyao Liu, Jinjie Wei, Wanying Qu, Chenglong Ma, Junzhi Ning, Yunheng Li, Ying Chen, Xinzhe Luo, Pengcheng Chen, Xin Gao, Ming Hu, Huihui Xu, Xin Wang, Shujian Gao, Dingkang Yang, Zhongying Deng, Jin Ye, Lihao Liu, Junjun He, Ningsheng Xu",
+        "摘要": "摘要: 医学图像质量评估 (IQA) 是临床人工智能的第一道安全关口，现有方法仍受限于标量、基于分数的指标，无法反映专家评估中以描述性、人类思维为中心的推理过程。为了解决这个问题，我们引入了 MedQ-Bench，这是一个综合基准，建立了一个基于语言的医学图像质量评价的感知-推理范式，使用多模态大语言模型 (MLLMs)。MedQ-Bench 定义了两个互补任务：（1）MedQ-Perception，利用人类策划的问题探测低级感知能力，涉及基本的视觉属性；（2）MedQ-Reasoning，其中包括无参考和比较推理任务，使模型评价与人类的图像质量推理对齐。该基准涵盖五个成像模态和超过四十种质量属性，共有2,600个感知查询和708个推理评估，涵盖多种图像来源，包括真实临床采集图像、通过基于物理的重建模拟的退化图像和人工智能生成的图像。为了评估推理能力，我们提出了一种多维评分方案，从四个互补轴评估模型输出。我们还通过比较基于LLM的判断与放射科医生进行了严谨的人机对齐验证。对14个最先进的MLLMs的评估显示，模型表现出初步但不稳定的感知和推理技能，准确性不足以用于可靠的临床应用。这些发现突显出需要针对医学IQA优化MLLMs。我们希望 MedQ-Bench 能够催生更多探索，并释放 MLLMs 在医学图像质量评估中的潜力。",
+        "地址": "https://arxiv.org/pdf/2510.01691.pdf"
+    },
+    {
+        "名称": "2025 [2510.01538] TimeSeriesScientist: A General-Purpose AI Agent for Time Series Analysis.pdf",
+        "作者": "Haokun Zhao, Xiang Zhang, Jiaqi Wei, Yiwei Xu, Yuting He, Siqi Sun, Chenyu You",
+        "摘要": "摘要：时间序列预测在能源、金融、气候和公共健康等各类领域的决策中至关重要。在实际操作中，预测人员面临成千上万的短期、噪声系列，这些系列在频率、质量和预测范围上各不相同，其中主要成本不在于模型拟合，而在于需要进行劳动密集的预处理、验证和集合以获得可靠的预测。现有的统计和深度学习模型都针对特定的数据集或领域进行优化，通用性较差。急需一种减少人为干预的通用领域无关框架。在本文中，我们介绍了TimeSeriesScientist (TSci)，这是第一个基于LLM驱动的通用时间序列预测框架。该框架包括四个专门代理：Curator进行LLM指导的诊断，并通过外部工具推理数据统计来选择有针对性的预处理；Planner通过利用多模态诊断和自我规划来缩小模型选择的假设空间；Forecaster进行模型拟合和验证，并根据结果自适应地选择最佳模型配置以及集合策略以进行最终预测；Reporter将整个过程综合成为全面、透明的报告。通过透明的自然语言推理和综合报告，TSci将预测工作流转变为一个可解释且可扩展的白盒系统。在八个既定基准上的实证结果表明，TSci始终优于统计和基于LLM的基准，分别平均减少10.4%和38.2%的预测误差。此外，TSci生成了一份清晰严谨的报告，使预测工作流更加透明和可解释。",
+        "地址": "https://arxiv.org/pdf/2510.01538.pdf"
+    },
+    {
+        "名称": "2025 [2510.01123] Rethinking Thinking Tokens: LLMs as Improvement Operators.pdf",
+        "作者": "Lovish Madaan, Aniket Didolkar, Suchin Gururangan, John Quan, Ruan Silva, Ruslan Salakhutdinov, Manzil Zaheer, Sanjeev Arora, Anirudh Goyal",
+        "摘要": "摘要：推理训练激励大型语言模型（LLMs）产生长链思维（long CoT），这使得它们可以通过自我检查来探索解决方案策略。这提高了准确性，但也增加了上下文长度、令牌/计算成本和答案延迟。我们提出问题：当前模型能否利用其元认知，在这个帕累托前沿上提供其他组合，例如在更低的上下文长度和/或延迟下提供更高的准确性？抽象地，我们将模型视为对自身“思维”的改进操作符，并具有连续的可能策略。我们确定了一种有趣的推理家族Parallel-Distill-Refine（PDR），其执行以下操作：（i）并行生成不同的草稿；（ii）将它们提炼到一个有界的文本工作区中；（iii）基于此工作区进行细化，生成输出以启动下一轮。重要的是，上下文长度（因此计算成本）通过并行度来控制，不再与生成的总令牌数混淆。我们报告了当前模型的PDR实例，在较低延迟下提供比long CoT更高的准确性。将并行度设置为1会产生一个有趣的子情况顺序细化（SR）（迭代改进单个候选答案），其提供的性能优于long CoT。此类模型编排的成功引发了进一步训练是否可以移动帕累托前沿的问题。为此，我们使用强化学习（RL）训练了一个8B思维模型，使其与PDR作为推理方法一致。在具有可验证答案的数学任务中，迭代管道在匹配的顺序预算下超过了单次通过基线，PDR提供了最大的增益（例如，在AIME 2024上+11%，在AIME 2025上+9%）。",
+        "地址": "https://arxiv.org/pdf/2510.01123.pdf"
+    },
+    {
+        "名称": "2025 [2510.00537] Spectral Scaling Laws in Language Models: How Effectively Do Feed-Forward Networks Use Their Latent Space?.pdf",
+        "作者": "Nandan Kumar Jha, Brandon Reagen",
+        "摘要": "摘要：随着大型语言模型（LLMs）的规模扩大，问题不仅在于它们变得多大，而在于它们的容量被多大程度地有效利用。现有的扩展法则将模型大小与损失联系起来，但忽略了组件如何利用其潜在空间。我们研究了前馈网络（FFNs），并将宽度选择重新定义为一个光谱利用问题。使用一个轻量级的诊断套件——硬秩（参与比率）、软秩（Shannon秩）、光谱集中度和综合光谱利用指数（SUI），我们量化了LLaMA、GPT-2和nGPT家族中的有意义激活的潜在方向数量。我们的关键发现是一个不对称的光谱扩展规律：软秩几乎完美地遵循FFN宽度的幂律，而硬秩只以次线性增长并具有高方差。这种不对称性表明，增宽FFN主要增加了低能尾部方向，而主导模式子空间早期就达到了饱和。此外，在更大的宽度下，方差进一步集中到一个狭窄的子空间，使得大部分潜在空间未得到充分利用。这些结果将FFN宽度选择重新定义为尾部容量和主导模式容量之间的一个原则性权衡，为推理效率高的LLM设计提供了具体指导。\n\n作者：Nandan Kumar Jha, Brandon Reagen\n\n评论：EMNLP 2025主会议（长篇论文）\n\n链接：https://arxiv.org/pdf/2510.00537.pdf\n\n标题：2025 [2510.00537] 语言模型中的光谱扩展法则：前馈网络如何有效利用它们的潜在空间？",
+        "地址": "https://arxiv.org/pdf/2510.00537.pdf"
+    },
+    {
+        "名称": "2025 [2509.26313] One-Token Rollout: Guiding Supervised Fine-Tuning of LLMs with Policy Gradient.pdf",
+        "作者": "Rui Ming, Haoyuan Wu, Shoubo Hu, Zhuolun He, Bei Yu",
+        "摘要": "摘要: 监督微调（SFT）是调整大型语言模型（LLMs）的主要方法，但与强化学习（RL）相比，它在泛化方面往往表现不佳。在这项工作中，我们假设这种性能差异不仅源于损失函数，还源于一个更根本的区别：SFT从固定的预收集数据集中学习，而RL则使用从当前策略中采样的on-policy数据。基于这一假设，我们引入了one-token rollout（OTR），这是一种新的微调算法，通过策略梯度方法来指导SFT。OTR通过将每个token生成视为单步强化学习轨迹来重新定义自回归学习过程。在每一步，它通过从当前策略的分布中采样多个候选token来执行蒙特卡洛“rollout”。然后从监督数据中获取的真实token用于为这些样本提供奖励信号。在策略梯度的指导下，我们的算法将静态的off-policy监督数据重新用于token级的动态on-policy信号，既捕捉了on-policy学习的泛化优势，又绕过了完整句子生成的高昂开销。通过数学推理、代码生成和一般领域推理等一系列具有挑战性的基准测试，我们证明了OTR一致优于标准的SFT。我们的研究结果确立了OTR作为微调LLMs的强大且实用的替代方案，并提供了令人信服的证据表明数据的on-policy特性是泛化的关键驱动力，为微调LLMs提供了一个有前景的新方向。\n\n作者：Rui Ming, Haoyuan Wu, Shoubo Hu, Zhuolun He, Bei Yu\n\n链接：https://arxiv.org/pdf/2509.26313.pdf\n\n标题：2025 [2509.26313] 一次一token的rollout：通过策略梯度指导LLMs的监督微调.pdf",
+        "地址": "https://arxiv.org/pdf/2509.26313.pdf"
+    },
+    {
+        "名称": "2025 [2509.22582] Fine-Grained Detection of Context-Grounded Hallucinations Using LLMs.pdf",
+        "作者": "Yehonatan Peisakhovsky, Zorik Gekhman, Yosi Mass, Liat Ein-Dor, Roi Reichart",
+        "摘要": "摘要：上下文相关的幻觉是指模型输出的信息无法根据源文本进行验证的情况。我们研究了大型语言模型（LLMs）在定位这类幻觉方面的适用性，作为现有复杂评估流程的更实际替代方案。由于缺乏用于幻觉定位的元评估固定基准，我们构建了一个专门针对LLMs的基准，涉及对超过1000个实例的具有挑战性的人类注释。我们通过一个基于LLM的评估协议来补充该基准，并在人工评估中验证其质量。由于现有的幻觉表示限制了可以表达的错误类型，我们提出了一种基于自由形式文本描述的新表示，捕捉各种可能的错误。我们进行了一项综合研究，评估了四个大型LLMs，该研究突出了基准的难度，因为最佳模型仅实现了0.67的F1得分。通过仔细分析，我们提供了最佳提示策略的见解，并确定了使任务对LLMs具有挑战性的主要因素：（1）尽管被指示仅检查输出中的事实，但模型倾向于错误地将缺失的细节标记为不一致；（2）由于与模型的参数知识对齐，输出包含事实正确但源文本中没有的信息，因此无法验证。\n\n作者：Yehonatan Peisakhovsky, Zorik Gekhman, Yosi Mass, Liat Ein-Dor, Roi Reichart\n\n标题：《使用LLMs进行上下文相关幻觉的细粒度检测》\n\n出版年份：2025\n\n链接：https://arxiv.org/pdf/2509.22582.pdf",
+        "地址": "https://arxiv.org/pdf/2509.22582.pdf"
+    },
+    {
+        "名称": "2025 [2510.01581] Think Right: Learning to Mitigate Under-Over Thinking via Adaptive, Attentive Compression.pdf",
+        "作者": "Joykirat Singh, Justin Chih-Yao Chen, Archiki Prasad, Elias Stengel-Eskin, Akshay Nambi, Mohit Bansal",
+        "摘要": "摘要：近期的思维模型通过扩展测试时的计算能力来解决复杂的推理任务，但这种扩展必须与任务难度相匹配。一方面，短暂的推理（思考不足）会导致在需要扩展推理步骤的困难问题上出现错误；另一方面，过度的长时间推理（思考过度）可能会效率低下，在已经达到正确的中间解决方案后仍产生不必要的步骤。我们称之为适应性不足，指的是模型未能根据问题的不同难度适当地调整其响应长度。为了应对适应性不足并在思考不足与思考过度之间找到平衡，我们提出了TRAAC（使用自适应注意压缩进行正确思考），这是一种在线后训练的强化学习方法，利用模型在长推理轨迹上的自我注意识别重要步骤并修剪冗余步骤。TRAAC还估计难度并将其纳入训练奖励，从而学会根据示例难度分配推理预算。与基础模型和其他强化学习基线相比，我们的方法提高了准确性，减少了推理步骤，实现了自适应思维。在各种任务中（AIME、AMC、GPQA-D、BBEH），TRAAC（Qwen3-4B）相比基础模型平均绝对准确性提高了8.4%，推理长度相对减少了36.8%；相比最佳RL基线，准确性提高了7.9%，长度减少了29.4%。TRAAC还表现出强大的泛化能力：虽然我们的模型在数学数据集上训练，但它们在分布外的非数学数据集上（如GPQA-D、BBEH和OptimalThinkingBench）显示出了准确性和效率的提升。我们的分析进一步验证了TRAAC基于难度进行思维预算的细粒度调整，以及任务难度校准和基于注意的压缩结合在各类任务中带来了提升。",
+        "地址": "https://arxiv.org/pdf/2510.01581.pdf"
+    },
+    {
+        "名称": "2025 [2510.01260] IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol.pdf",
+        "作者": "Ningyuan Yang, Guanliang Lyu, Mingchen Ma, Yiyi Lu, Yiming Li, Zhihui Gao, Hancheng Ye, Jianyi Zhang, Tingjun Chen, Yiran Chen",
+        "摘要": "摘要：大型语言模型（LLM）与物联网（IoT）系统的整合面临硬件异质性和控制复杂性的重大挑战。模型上下文协议（MCP）作为关键使能器，提供了LLM与物理设备之间的标准化通信。我们提出了IoT-MCP，这是一种通过边缘部署服务器实现MCP的新框架，用于连接LLM和IoT生态系统。为了支持严格评估，我们引入了IoT-MCP Bench，这是第一个包含114项基本任务（例如“当前温度是多少？”）和1140项复杂任务（例如“我觉得很热，你有什么办法吗？”）的基准，用于启用物联网的LLM。通过在22种传感器类型和6个微控制器单元上的实验验证，IoT-MCP展示了100%的任务成功率，生成的工具调用完全满足期望，并且获得了完全准确的结果，平均响应时间为205毫秒，峰值内存占用为74KB。这项工作提供了一个开源集成框架（此https URL）和一个用于LLM-IoT系统的标准化评估方法。",
+        "地址": "https://arxiv.org/pdf/2510.01260.pdf"
+    }
+]
