@@ -1,0 +1,176 @@
+[
+    {
+        "名称": "2025 [2510.26697] The End of Manual Decoding: Towards Truly End-to-End Language Models.pdf",
+        "作者": "Zhichao Wang, Dongyang Ma, Xinting Huang, Deng Cai, Tian Lan, Jiahao Xu, Haitao Mi, Xiaoying Tang, Yan Wang",
+        "摘要": "摘要：所谓的“端到端”标签对于大型语言模型（LLMs）来说是一个误称。实际上，它们依赖于一个非可微分的解码过程，该过程需要耗费大量精力来人工调整超参数，如温度和top-p。本文介绍了一种新颖的架构AutoDeco，它通过学习控制自身的解码策略，从而实现真正的“端到端”生成。我们在标准的Transformer模型上增加了轻量级的头部，这些头部在每一步中不仅动态预测上下文相关的温度和top-p值，还预测下一个令牌的对数几率。该方法将解码过程转变为参数化的、令牌级的过程，使模型能够在一次正向传递中自我调节其采样策略。通过在八个基准测试上的广泛实验，我们证明了AutoDeco不仅显著优于默认的解码策略，还实现了与从“破解测试集”中派生出的oracle调整基线相当的性能，这是任何静态方法的实用上限。重要的是，我们发现了一种新兴的基于指令的解码控制能力：模型学会了解释自然语言命令（例如，“以低随机性生成”）并在逐个令牌的基础上调整其预测的温度和top-p值，开创了一种新的可操控和交互式LLM解码范式。\n\n作者：Zhichao Wang, Dongyang Ma, Xinting Huang, Deng Cai, Tian Lan, Jiahao Xu, Haitao Mi, Xiaoying Tang, Yan Wang\n\n链接：https://arxiv.org/pdf/2510.26697.pdf\n\n标题：2025 [2510.26697] The End of Manual Decoding: Towards Truly End-to-End Language Models.pdf",
+        "地址": "https://arxiv.org/pdf/2510.26697.pdf"
+    },
+    {
+        "名称": "2025 [2510.26583] Emu3.5: Native Multimodal Models are World Learners.pdf",
+        "作者": "Yufeng Cui, Honghao Chen, Haoge Deng, Xu Huang, Xinghang Li, Jirong Liu, Yang Liu, Zhuoyan Luo, Jinsheng Wang, Wenxuan Wang, Yueze Wang, Chengyuan Wang, Fan Zhang, Yingli Zhao, Ting Pan, Xianduo Li, Zecheng Hao, Wenxuan Ma, Zhuo Chen, Yulong Ao, Tiejun Huang, Zhongyuan Wang, Xinlong Wang",
+        "摘要": "摘要：我们介绍了Emu3.5，这是一种大规模多模态世界模型，能够在视觉和语言之间自然预测下一个状态。Emu3.5通过统一的下一个标记预测目标进行端到端预训练，使用包含超过10万亿标记的视觉语言交织数据语料库，这些数据主要源自互联网视频的连续帧和转录内容。该模型自然接受交织的视觉语言输入，并生成交织的视觉语言输出。Emu3.5进一步通过大规模强化学习进行后训练，以增强多模态推理和生成能力。为了提高推理效率，我们提出了离散扩散适应（DiDA），将逐标记解码转换为双向并行预测，实现每图像推理速度提升约20倍，而不牺牲性能。Emu3.5展示了强大的原生多模态能力，包括长时间视觉语言生成、任何到图像（X2I）生成，以及复杂的文本丰富图像生成。它还表现出可泛化的世界建模能力，能够在各种场景和任务中实现时空一致的世界探索和开放世界的具身操作。相比之下，Emu3.5在图像生成和编辑任务上表现出与Gemini 2.5 Flash Image (Nano Banana)相媲美的性能，并在一组交织生成任务上展示出优越的结果。我们在此URL开源Emu3.5，以支持社区研究。",
+        "地址": "https://arxiv.org/pdf/2510.26583.pdf"
+    },
+    {
+        "名称": "2025 [2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture.pdf",
+        "作者": "Kimi Team: Yu Zhang, Zongyu Lin, Xingcheng Yao, Jiaxi Hu, Fanqing Meng, Chengyin Liu, Xin Men, Songlin Yang, Zhiyuan Li, Wentao Li, Enzhe Lu, Weizhou Liu, Yanru Chen, Weixin Xu, Longhui Yu, Yejie Wang, Yu Fan, Longguang Zhong, Enming Yuan, Dehao Zhang, Yizhi Zhang, T.Y. Liu, Haiming Wang, Shengjun Fang, Weiran He, Shaowei Liu, Yiwei Li, Jianlin Su, Jiezhong Qiu, Bo Pang, Junjie Yan, Zhejun Jiang, Weixiao Huang, Bohong Yin, Jiacheng You, Chu Wei, Zhengtao Wang, Chao Hong, Yutian Chen, Guanduo Chen, Yucheng Wang, Huabin Zheng, Feng Wang, Yibo Liu, Mengnan Dong, Zheng Zhang, Siyuan Pan, Wenhao Wu, Yuhao Wu, Longyu Guan, Jiawen Tao, Guohong Fu, Xinran Xu, Yuzhi Wang, Guokun Lai, Yuxin Wu, Xinyu Zhou, Zhilin Yang, Yulun Du",
+        "摘要": "摘要: 我们介绍了Kimi Linear，一种混合线性注意力架构，这种架构在各种场景（包括短上下文、长上下文和强化学习（RL）扩展方案）下的公平比较中，首次超越了全注意力机制。在其核心部分是Kimi Delta Attention（KDA），这是一种扩展了Gated DeltaNet的更细粒度门控机制的表达性线性注意模块，使有限状态RNN存储器能够更有效地使用。我们定制的分块算法通过对Diagonal-Plus-Low-Rank（DPLR）转换矩阵的特化变体实现了高效的硬件效率，与一般的DPLR公式相比大大减少了计算，同时更符合经典的delta规则。 我们预训练了一种具有3B激活参数和48B总参数的Kimi Linear模型，该模型基于KDA与多头潜在注意（MLA）的分层混合。我们的实验表明，在相同的训练配方下，Kimi Linear在所有评估任务中以较大幅度超越了全MLA，同时减少了高达75%的KV缓存使用量，并在1M上下文长度下实现了多达6倍的解码吞吐量。这些结果表明，Kimi Linear可以作为全注意力架构的替代方案，具有卓越的性能和效率，包括具有更长输入和输出长度的任务。为支持进一步研究，我们开源KDA内核和vLLM实现，并发布了预训练和指令调优的模型检查点。\n\n链接: https://arxiv.org/pdf/2510.26692.pdf\n\n标题: Kimi Linear: An Expressive, Efficient Attention Architecture\n\n作者: Kimi团队: Yu Zhang, Zongyu Lin, Xingcheng Yao, Jiaxi Hu, Fanqing Meng, Chengyin Liu, Xin Men, Songlin Yang, Zhiyuan Li, Wentao Li, Enzhe Lu, Weizhou Liu, Yanru Chen, Weixin Xu, Longhui Yu, Yejie Wang, Yu Fan, Longguang Zhong, Enming Yuan, Dehao Zhang, Yizhi Zhang, T.Y. Liu, Haiming Wang, Shengjun Fang, Weiran He, Shaowei Liu, Yiwei Li, Jianlin Su, Jiezhong Qiu, Bo Pang, Junjie Yan, Zhejun Jiang, Weixiao Huang, Bohong Yin, Jiacheng You, Chu Wei, Zhengtao Wang, Chao Hong, Yutian Chen, Guanduo Chen, Yucheng Wang, Huabin Zheng, Feng Wang, Yibo Liu, Mengnan Dong, Zheng Zhang, Siyuan Pan, Wenhao Wu, Yuhao Wu, Longyu Guan, Jiawen Tao, Guohong Fu, Xinran Xu, Yuzhi Wang, Guokun Lai, Yuxin Wu, Xinyu Zhou, Zhilin Yang, Yulun Du.",
+        "地址": "https://arxiv.org/pdf/2510.26692.pdf"
+    },
+    {
+        "名称": "2025 [2510.26298] Can Agent Conquer Web? Exploring the Frontiers of ChatGPT Atlas Agent in Web Games.pdf",
+        "作者": "Jingran Zhang, Ning Li, Justin Cui",
+        "摘要": "摘要：OpenAI的ChatGPT Atlas引入了新的网页交互功能，使模型能够分析网页、处理用户意图，并直接在浏览器中执行光标和键盘输入。尽管其在信息检索任务中的能力已被证明，但其在动态互动环境中的表现仍然较少被探索。在本研究中，我们使用基于浏览器的游戏作为测试场景，包括Google的T-Rex Runner、数独、Flappy Bird等，对Atlas的网页交互能力进行了早期评估。我们使用游戏中的表现分数作为定量指标来评估其在不同任务类型中的表现。结果显示，Atlas在数独等逻辑推理任务中表现出色，完成拼图的速度显著快于人类基线，但在需要精确计时和运动控制的实时游戏中表现出明显的困难，通常无法通过初始障碍。这些发现表明，尽管Atlas在分析处理方面显示出能力，但在需要实时交互的动态网页环境中仍存在显著的局限性。我们的项目网站可以在这个[链接](https URL)找到。",
+        "地址": "https://arxiv.org/pdf/2510.26298.pdf"
+    },
+    {
+        "名称": "2025 [2510.15510] Exploring Conditions for Diffusion models in Robotic Control.pdf",
+        "作者": "Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim, Taekyung Kim",
+        "摘要": "摘要：虽然预训练的视觉表征显著推动了模仿学习的发展，但在策略学习过程中由于它们保持冻结状态，因此往往与具体任务无关。在这项工作中，我们探索如何利用预训练的文本到图像扩散模型来为机器人控制获取任务自适应的视觉表征，而无需对模型本身进行微调。然而，我们发现，简单地应用文本条件这一在其他视觉领域中成功的策略，在控制任务中带来的增益却很小甚至可能产生负面影响。我们将此归因于扩散模型的训练数据与机器人控制环境之间的领域差异，认为应当考虑能够满足控制所需的具体动态视觉信息的条件。为此，我们提出了ORCA，它引入了可学习的任务提示词以适应控制环境，以及捕捉细粒度帧特定细节的视觉提示词。通过我们的新条件来促进任务自适应表征，我们的方法在各种机器人控制基准上达到了最先进的性能，显著超过了先前的方法。\n\n作者：申希成、许炳浩、韩东允、金胜勇、金泰京\n\n评论：项目页面：此https URL\n\n网址：https://arxiv.org/pdf/2510.15510.pdf\n\n标题：探索扩散模型在机器人控制中的条件",
+        "地址": "https://arxiv.org/pdf/2510.15510.pdf"
+    },
+    {
+        "名称": "2025 [2510.26768] AMO-Bench: Large Language Models Still Struggle in High School Math Competitions.pdf",
+        "作者": "Shengnan An, Xunliang Cai, Xuezhi Cao, Xiaoyu Li, Yehao Lin, Junlin Liu, Xinxuan Lv, Dan Ma, Xuanlin Wang, Ziwen Wang, Shuang Zhou (Alphabetical order by last name)",
+        "摘要": "摘要：我们介绍了AMO-Bench——一种高级数学推理基准，其难度达到或超过奥林匹克竞赛水平，包括50道人工设计的题目。现有的基准广泛利用高中数学竞赛来评估大语言模型（LLM）的数学推理能力。然而，许多现有的数学竞赛由于性能饱和（例如AIME24/25）而变得对评估顶级LLM不再有效。为了解决这个问题，AMO-Bench引入了更严格的挑战，确保所有50道题目（1）经过专家交叉验证，至少达到国际数学奥林匹克（IMO）的难度标准，并且（2）完全是原创题目，以防止由于数据记忆带来的潜在表现泄漏。此外，AMO-Bench中的每道题目只需要一个最终答案，而不需要提供证明，从而实现自动和稳健的评分评估。我们在26个LLM上对AMO-Bench进行的实验结果显示，即使表现最好的模型在AMO-Bench上的准确率也只有52.4%，大多数LLM的得分低于40%。在这些较差的表现之外，我们的进一步分析揭示了随着测试时间计算量的增加，表现存在令人鼓舞的扩展趋势。这些结果突显了当前LLM在数学推理方面显著的改进空间。我们发布AMO-Bench以促进进一步的研究，提升语言模型的推理能力。",
+        "地址": "https://arxiv.org/pdf/2510.26768.pdf"
+    },
+    {
+        "名称": "2025 [2510.19949] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents.pdf",
+        "作者": "Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund, Michael Eickenberg, Armand Fatalot, Wissem Felissi, Isaac Herring, Xavier Koegler, Erwan Le Jumeau de Kergaradec, Aurélien Lac, Maxime Langevin, Corentin Lauverjat, Antonio Loison, Avshalom Manevich, Axel Moyal, Axel Nguyen Kerbel, Marinela Parovic, Julien Revelle, Guillaume Richard, Mats Richter, Ronan Riochet, María Santos, Romain Savidan, Laurent Sifre, Maxime Theillard, Marc Thibault, Ivan Valentini, Tony Wu, Laura Yie, Kai Yuan, Jevgenij Zubovskij",
+        "摘要": "摘要：构建能够在网络、桌面和移动环境中泛化的智能体仍然是一个未决的挑战，因为之前的系统依赖于特定环境的接口，限制了跨平台的部署。我们介绍了Surfer 2，一种仅从视觉观察中操作的统一架构，在这三种环境中实现了最先进的性能。Surfer 2集成了分层上下文管理、计划和执行的解耦以及自我验证与自适应恢复，从而能够在长任务周期中可靠运行。我们的系统在WebVoyager上达到了97.1%的准确率，在WebArena上达到69.6%，在OSWorld上达到60.1%，在AndroidWorld上达到87.1%，在没有任务特定调优的情况下，优于所有之前的系统。在多次尝试中，Surfer 2在所有基准测试中都超过了人类表现。这些结果表明，系统化的协调放大了基础模型的能力，并能够通过视觉交互实现通用的计算机控制，同时呼吁下一代视觉语言模型以实现帕累托最优的成本效率。\n\n标题：Surfer 2：下一代跨平台计算机使用智能体\n\n作者：Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund, Michael Eickenberg, Armand Fatalot, Wissem Felissi, Isaac Herring, Xavier Koegler, Erwan Le Jumeau de Kergaradec, Aurélien Lac, Maxime Langevin, Corentin Lauverjat, Antonio Loison, Avshalom Manevich, Axel Moyal, Axel Nguyen Kerbel, Marinela Parovic, Julien Revelle, Guillaume Richard, Mats Richter, Ronan Riochet, María Santos, Romain Savidan, Laurent Sifre, Maxime Theillard, Marc Thibault, Ivan Valentini, Tony Wu, Laura Yie, Kai Yuan, Jevgenij Zubovskij\n\n备注：21页, 9幅图, 2张表\n\nURL：https://arxiv.org/pdf/2510.19949.pdf",
+        "地址": "https://arxiv.org/pdf/2510.19949.pdf"
+    },
+    {
+        "名称": "2025 [2510.26802] Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark.pdf",
+        "作者": "Ziyu Guo, Xinyan Chen, Renrui Zhang, Ruichuan An, Yu Qi, Dongzhi Jiang, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng",
+        "摘要": "摘要：最近的视频生成模型能够产生高保真、时间连续的视频，这表明它们可能编码了大量的世界知识。除了现实的合成，它们还表现出视觉感知、建模和操控的行为。然而，一个重要的问题仍然存在：视频模型是否已经准备好在具有挑战性的视觉推理场景中作为零样本推理者？在这项工作中，我们进行了实证研究，全面调查这一问题，重点关注领先和流行的Veo-3。我们从空间、几何、物理、时间和体现逻辑等12个维度评估其推理行为，系统地描述了其优势和失败模式。为了标准化这项研究，我们将评估数据整理为MME-CoF，一个紧凑的基准，能够对“帧链”（CoF）推理进行深入彻底的评估。我们的研究结果表明，当前视频模型在短期空间一致性、细粒度基础和局部一致性动态方面表现出有希望的推理模式，但在长期因果推理、严格几何约束和抽象逻辑方面仍然有限。总的来说，它们尚不能作为独立的零样本推理者，但表现出作为专用推理模型旁的补充视觉引擎的鼓舞性迹象。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2510.26802.pdf"
+    },
+    {
+        "名称": "2025 [2510.26794] The Quest for Generalizable Motion Generation: Data, Model, and Evaluation.pdf",
+        "作者": "Jing Lin, Ruisi Wang, Junzhe Lu, Ziqi Huang, Guorui Song, Ailing Zeng, Xian Liu, Chen Wei, Wanqi Yin, Qingping Sun, Zhongang Cai, Lei Yang, Ziwei Liu",
+        "摘要": "摘要：尽管在标准基准上的3D人类运动生成（MoGen）方面取得了最新进展，但现有模型在其泛化能力方面仍面临基本瓶颈。 与此对比，临近的生成领域，特别是视频生成（ViGen），在建模人类行为方面展示了显著的泛化能力，这表明MoGen可以借鉴可转移的见解。 受此观察启发，我们提出了一个综合框架，从数据、模型和评估三个关键支柱系统地将知识从ViGen转移到MoGen。首先，我们引入了ViMoGen-228K，一个大规模数据集，包括228,000个高质量运动样本，结合了高保真光学动作捕捉(MoCap)数据和从网络视频中语义标注的动作，以及由最先进的ViGen模型生成的合成样本。 该数据集包括文本-动作对和文本-视频-动作三元组，大大扩展了语义多样性。 其次，我们提出了ViMoGen，一个基于流匹配的扩散变压器，通过门控多模态条件整合了MoCap数据和ViGen模型的先验知识。 为提高效率，我们进一步开发了ViMoGen-light，一个简化版本，在保留强泛化能力的同时消除了视频生成依赖。 最后，我们提出了MBench，一个分层基准，旨在对运动质量、提示忠实度和泛化能力进行细粒度评估。 大量的实验表明，我们的框架在自动和人工评估中显著胜过现有方法。 代码、数据和基准将被公开提供。",
+        "地址": "https://arxiv.org/pdf/2510.26794.pdf"
+    },
+    {
+        "名称": "2025 [2510.25992] Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning.pdf",
+        "作者": "Yihe Deng, I-Hung Hsu, Jun Yan, Zifeng Wang, Rujun Han, Gufeng Zhang, Yanfei Chen, Wei Wang, Tomas Pfister, Chen-Yu Lee",
+        "摘要": "摘要：大型语言模型（LLMs）通常在需要多步骤推理的问题上表现不佳。对于小规模的开源模型，虽然带有可验证奖励的强化学习（RLVR）在多次尝试后仍难以抽取正确答案，而监督微调（SFT）通常会通过僵硬的逐字模仿导致过拟合。为了解决这一问题，我们提出了监督强化学习（SRL）框架，将问题解决重新定义为生成一系列逻辑“动作”。SRL训练模型在每个动作执行前生成内部推理独白。它根据模型动作与从SFT数据集中提取的专家动作之间的相似性，以步骤为单位提供更平滑的奖励。这种监督即使在所有生成的推理路径都不正确时也能提供更多的学习信号，同时鼓励通过专家演示引导的灵活推理。结果表明，SRL使小规模模型能够学习到以前使用SFT或RLVR无法解决的复杂问题。此外，在进行RLVR微调前进行SRL训练可以获得最好的整体性能。除了推理基准，SRL还能有效推广到代理型软件工程任务，使其成为面向推理的语言模型的稳健多功能训练框架。",
+        "地址": "https://arxiv.org/pdf/2510.25992.pdf"
+    },
+    {
+        "名称": "2025 [2510.26658] The Era of Agentic Organization: Learning to Organize with Language Models.pdf",
+        "作者": "Zewen Chi, Li Dong, Qingxiu Dong, Yaru Hao, Xun Wu, Shaohan Huang, Furu Wei",
+        "摘要": "摘要：我们展望了一个称为代理组织的新时代AI，在该时代中，智能体通过协作和并行工作解决复杂问题，从而实现超越个体智能的结果。为了实现这一愿景，我们引入了异步思考（AsyncThink）作为一种新的语言模型推理范式，它将内部思考过程组织成可并行执行的结构。具体而言，我们提出了一种思考协议，在该协议中，组织者动态分配子查询给工人，合并中间知识，并生成连贯的解决方案。更重要的是，通过强化学习可以进一步优化该协议中的思维结构。实验表明，AsyncThink在数学推理方面比并行思考减少了28%的推理延迟，同时提高了准确性。此外，AsyncThink能够推广其学习到的异步思考能力，有效解决未见过的任务而无需额外训练。",
+        "地址": "https://arxiv.org/pdf/2510.26658.pdf"
+    },
+    {
+        "名称": "2025 [2510.26800] OmniX: From Unified Panoramic Generation and Perception to Graphics-Ready 3D Scenes.pdf",
+        "作者": "Yukun Huang, Jiwen Yu, Yanning Zhou, Jianan Wang, Xintao Wang, Pengfei Wan, Xihui Liu",
+        "摘要": "摘要：构建3D场景有两种普遍方法：程序生成和2D提升。其中，基于全景图的2D提升作为一种有前途的技术出现，利用强大的2D生成先验来创建沉浸式、逼真且多样化的3D环境。在这项工作中，我们改进了这种技术，生成适用于物理渲染（PBR）、重新照明和模拟的图形准备好的3D场景。我们的关键见解是将2D生成模型重新用于几何、纹理和PBR材料的全景感知。与现有的强调外观生成而忽略内在属性感知的2D提升方法不同，我们提出了OmniX，一个多功能且统一的框架。基于轻量化和高效的跨模态适配器结构，OmniX在广泛的全景视觉任务中复用2D生成先验，包括全景感知、生成和完成。此外，我们构建了一个大规模的合成全景数据集，包含来自各种室内和室外场景的高质量多模态全景图。大量实验表明，我们的模型在全景视觉感知和图形准备好的3D场景生成方面的有效性，为沉浸式和物理现实的虚拟世界生成开辟了新的可能性。",
+        "地址": "https://arxiv.org/pdf/2510.26800.pdf"
+    },
+    {
+        "名称": "2025 [2510.25897] MIRO: MultI-Reward cOnditioned pretraining improves T2I quality and efficiency.pdf",
+        "作者": "Nicolas Dufour, Lucas Degeorge, Arijit Ghosh, Vicky Kalogeiton, David Picard",
+        "摘要": "摘要：目前的文本生成图像模型是通过大型未整理的数据集进行训练，以实现多样化的生成能力。然而，这与用户偏好并不完全一致。最近，奖励模型被专门设计用来在生成图像后进行选择，并使其与奖励（通常是用户偏好）对齐。这种丢弃有用数据并优化单一奖励的方式往往会损害多样性、语义忠实性和效率。我们提出在训练期间让模型基于多个奖励模型进行条件化，使模型直接学习用户偏好，而不是这种事后处理。我们证明这不仅显著提高了生成图像的视觉质量，还大大加快了训练速度。我们提出的方法，称为MIRO，在GenEval组合基准测试和用户偏好评分（PickAScore、ImageReward、HPSv2）上实现了最先进的性能。\n\n译者：Nicolas Dufour，Lucas Degeorge，Arijit Ghosh，Vicky Kalogeiton，David Picard\n\n评论：项目页面：this https URL\n\n网址：https://arxiv.org/pdf/2510.25897.pdf\n\n标题：2025 [2510.25897] MIRO：多奖励条件化预训练提高文本生成图像的质量和效率.pdf",
+        "地址": "https://arxiv.org/pdf/2510.25897.pdf"
+    },
+    {
+        "名称": "2025 [2510.25628] EHR-R1: A Reasoning-Enhanced Foundational Language Model for Electronic Health Record Analysis.pdf",
+        "作者": "Yusheng Liao, Chaoyi Wu, Junwei Liu, Shuyang Jiang, Pengcheng Qiu, Haowen Wang, Yun Yue, Shuai Zhen, Jian Wang, Qianrui Fan, Jinjie Gu, Ya Zhang, Yanfeng Wang, Yu Wang, Weidi Xie",
+        "摘要": "摘要：电子健康记录（EHRs）包含丰富而复杂的信息，其自动化分析对于临床决策至关重要。尽管近年来大型语言模型（LLMs）在临床工作流程中取得了进展，但由于任务覆盖范围狭窄和缺乏EHR导向的推理能力，它们分析EHR的能力仍然有限。本文旨在弥合这一差距，具体而言，我们提出了EHR-Ins，一种大型且全面的EHR推理指令数据集，包含30万条高质量推理案例和400万条非推理案例，涵盖42个不同的EHR任务。其核心创新是一种基于思维图的框架，使能够大规模生成高质量的推理数据。基于此，我们开发了EHR-R1，一系列增强推理能力的LLM，最高拥有72B参数，专为EHR分析量身定制。通过域适应、推理增强和强化学习等多阶段训练范例，EHR-R1系统地获取领域知识和多样化的推理能力，能够进行准确且稳健的EHR分析。最后，我们介绍了EHR-Bench，一个从MIMIC-IV策划的新基准测试，涵盖42个任务，以全面评估EHR场景中的推理和预测。在实验中，我们表明，最终的EHR-R1始终优于最先进的商业和开源LLMs（包括DeepSeek-V3和GPT-4o），在MIMIC-Bench上超过GPT-4o 30多分，并在EHRSHOT上实现10%的零样本AUROC提高。总的来说，EHR-Ins、EHR-R1和EHR-Bench显著推动了更可靠和临床相关的EHR分析的发展。",
+        "地址": "https://arxiv.org/pdf/2510.25628.pdf"
+    },
+    {
+        "名称": "2025 [2510.26213] OmniLayout: Enabling Coarse-to-Fine Learning with LLMs for Universal Document Layout Generation.pdf",
+        "作者": "Hengrui Kang, Zhuangcheng Gu, Zhiyuan Zhao, Zichen Wen, Bin Wang, Weijia Li, Conghui He",
+        "摘要": "摘要：\n文档 AI 迅速发展，并吸引了越来越多的关注。然而，尽管大多数努力集中在文档布局分析（DLA）上，其生成对应物文档布局生成仍然未被充分研究。一个主要障碍在于多样化布局的匮乏：现有研究中学术论文的曼哈顿风格结构占据主导地位，而报纸和杂志等开放世界体裁的布局则严重代表不足。为了解决这一问题，我们策划了 OmniLayout-1M，这是首个涵盖六种常见文档类型的多样化文档布局的百万级数据集，包括从多个来源收集的当代布局。此外，由于现有方法在复杂领域中表现不佳且常常无法连贯排列长序列，我们引入了 OmniLayout-LLM，这是一个设计了两阶段粗到细学习范式的 0.5B 模型：1）通过粗略类别定义从 OmniLayout-1M 学习通用布局原则，以及 2）通过细粒度注释将知识转移到特定领域。大量实验表明，我们的方法在多个 M$^{6}$Doc 数据集域上表现出色，远远超过了现有的布局生成专家和几种最新的通用 LLMs。我们的代码、模型和数据集将会公开发布。\n\n评论：\n简短总结：通过 OmniLayout-1M 数据集和基于 LLM 的粗到细学习，我们实现了通用和多样化的文档布局生成。",
+        "地址": "https://arxiv.org/pdf/2510.26213.pdf"
+    },
+    {
+        "名称": "2025 [2510.25779] Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets.pdf",
+        "作者": "Gagan Bansal, Wenyue Hua, Zezhou Huang, Adam Fourney, Amanda Swearngin, Will Epperson, Tyler Payne, Jake M. Hofman, Brendan Lucier, Chinmay Singh, Markus Mobius, Akshay Nambi, Archana Yadav, Kevin Gao, David M. Rothschild, Aleksandrs Slivkins, Daniel G. Goldstein, Hussein Mozannar, Nicole Immorlica, Maya Murad, Matthew Vogel, Subbarao Kambhampati, Eric Horvitz, Saleema Amershi",
+        "摘要": "摘要：随着大型语言模型（LLM）代理的进步，它们越来越多地代表用户进行包括产品发现和交易在内的经济决策。这类应用承诺带来好处，但也提出了关于代理责任和用户价值的许多问题。解决这些问题需要了解代理在现实市场条件下的行为。然而，以前的研究在有限的环境中评估了代理，如单一任务市场（例如，谈判）或结构化的双代理互动。而现实世界的市场本质上是不同的：它们需要代理处理多样的经济活动，并在大型、动态的生态系统中进行协调，在这种生态系统中，多代理以不透明的行为进行开放式对话。为了弥合这一差距，我们研究了双边代理市场，其中助理代理代表消费者，服务代理代表竞争企业。为了安全地研究这些互动，我们开发了Magentic-Marketplace——一个模拟环境，助理和服务代理可以在其中操作。这个环境使我们能够研究关键的市场动态：代理实现的效用、行为偏差、对操纵的脆弱性以及搜索机制如何影响市场结果。我们的实验表明，前沿模型可以在理想的搜索条件下接近最佳福利——但只有在理想的搜索条件下。随着规模扩大，性能急剧下降，所有模型都表现出严重的第一提议偏差，使响应速度比质量具有10-30倍的优势。这些发现揭示了行为如何跨市场条件出现，为设计公平和高效的代理市场提供了信息。",
+        "地址": "https://arxiv.org/pdf/2510.25779.pdf"
+    },
+    {
+        "名称": "2025 [2510.25867] MedVLSynther: Synthesizing High-Quality Visual Question Answering from Medical Documents with Generator-Verifier LMMs.pdf",
+        "作者": "Xiaoke Huang, Ningsen Wang, Hui Liu, Xianfeng Tang, Yuyin Zhou",
+        "摘要": "摘要：大型多模态模型（LMMs）在回答需要对图像和文本进行联合推理的医学问题方面越来越有能力，但训练通用医学视觉问答（VQA）系统由于缺乏大型、可公开使用的高质量语料库而受到阻碍。我们提出了MedVLSynther，这是一种由标准指导的生成器-验证器框架，通过根据图表、标题和文本引用直接从开放的生物医学文献中合成高质量的多项选择VQA项目。生成器在机器可检查的JSON模式下生成独立的题干和相互排斥的选项；多阶段验证器执行基本的检查门（自包含、单一正确答案、临床有效性、图文一致性）、给予精细的积极分和在接受前惩罚常见的失败模式。将此流程应用于PubMed Central，产生了MedSynVQA：13,087个审查过的问题，涉及14,803张图像，涵盖13种成像模式和28个解剖区域。使用可验证奖励进行强化学习训练开放权重的LMMs，在六个医学VQA基准上提高了准确性，平均达到55.85（3B）和58.15（7B），在VQA-RAD上最高达到77.57，在PathVQA上达到67.76，优于强大的医学LMMs。消融实验验证了生成和验证都是必要的，并且更多的验证数据一致有效，针对性污染分析未检测到评估套件的泄漏。通过完全在开放文献和开放权重模型上操作，MedVLSynther提供了一条可审计、可重复和隐私保护的途径来扩展医学VQA训练数据。\n\n作者：黄晓科，王宁森，刘辉，唐显峰，周玉音\n\n评论：项目页面、代码、数据和模型：“https://arxiv.org/pdf/2510.25867.pdf”\n\n标题：2025 [2510.25867] MedVLSynther：通过生成器-验证器LMMs从医学文献中合成高质量的视觉问答数据",
+        "地址": "https://arxiv.org/pdf/2510.25867.pdf"
+    },
+    {
+        "名称": "2025 [2510.26787] Remote Labor Index: Measuring AI Automation of Remote Work.pdf",
+        "作者": "Mantas Mazeika, Alice Gatti, Cristina Menghini, Udari Madhushani Sehwag, Shivam Singhal, Yury Orlovskiy, Steven Basart, Manasi Sharma, Denis Peskoff, Elaine Lau, Jaehyuk Lim, Lachlan Carroll, Alice Blair, Vinaya Sivakumar, Sumana Basu, Brad Kenstler, Yuntao Ma, Julian Michael, Xiaoke Li, Oliver Ingebretsen, Aditya Mehta, Jean Mottola, John Teichmann, Kevin Yu, Zaina Shaik, Adam Khoja, Richard Ren, Jason Hausenloy, Long Phan, Ye Htet, Ankit Aich, Tahseen Rabbani, Vivswan Shah, Andriy Novykov, Felix Binder, Kirill Chugunov, Luis Ramirez, Matias Geralnik, Hernán Mesura, Dean Lee, Ed-Yeremai Hernandez Cardona, Annette Diamond, Summer Yue, Alexandr Wang, Bing Liu, Ernesto Hernandez, Dan Hendrycks",
+        "摘要": "摘要：人工智能在知识和推理方面的研究基准上取得了快速进展，但这些进展如何转化为经济价值和自动化仍不明确。为了解决这个问题，我们引入了远程劳动指数（RLI），这是一个涵盖多个行业的基准，包括设计用于评估实际环境中端到端代理性能的现实经济项目。AI代理在RLI上的表现接近于最低水平，表现最好的代理的自动化率为2.5%。这些结果帮助以实证证据为基础讨论AI自动化问题，为跟踪AI影响建立了共同基础，并使利益相关者能够积极应对AI驱动的劳动自动化问题。\n\n作者：Mantas Mazeika, Alice Gatti, Cristina Menghini, Udari Madhushani Sehwag, Shivam Singhal, Yury Orlovskiy, Steven Basart, Manasi Sharma, Denis Peskoff, Elaine Lau, Jaehyuk Lim, Lachlan Carroll, Alice Blair, Vinaya Sivakumar, Sumana Basu, Brad Kenstler, Yuntao Ma, Julian Michael, Xiaoke Li, Oliver Ingebretsen, Aditya Mehta, Jean Mottola, John Teichmann, Kevin Yu, Zaina Shaik, Adam Khoja, Richard Ren, Jason Hausenloy, Long Phan, Ye Htet, Ankit Aich, Tahseen Rabbani, Vivswan Shah, Andriy Novykov, Felix Binder, Kirill Chugunov, Luis Ramirez, Matias Geralnik, Hernán Mesura, Dean Lee, Ed-Yeremai Hernandez Cardona, Annette Diamond, Summer Yue, Alexandr Wang, Bing Liu, Ernesto Hernandez, Dan Hendrycks\n\n网址：https://arxiv.org/pdf/2510.26787.pdf\n\n标题：2025 [2510.26787] 远程劳动指数：衡量AI远程工作的自动化",
+        "地址": "https://arxiv.org/pdf/2510.26787.pdf"
+    },
+    {
+        "名称": "2025 [2510.26474] Counteracting Matthew Effect in Self-Improvement of LVLMs through Head-Tail Re-balancing.pdf",
+        "作者": "Xin Guo, Zhiheng Xi, Yiwen Ding, Yitao Zhai, Xiaowei Shi, Xunliang Cai, Tao Gui, Qi Zhang, Xuanjing Huang",
+        "摘要": "摘要：自我改进已成为提高大型视觉语言模型（LVLMs）推理能力的主流范式，模型通过迭代地探索和学习成功的轨迹来进行改进。然而，我们发现这一过程中存在一个关键问题：模型在为简单查询（即头部数据）生成高质量轨迹方面表现出色，但在处理更复杂查询（即尾部数据）时却表现不佳。这导致了优化不平衡，使模型优先考虑简单推理技能，同时阻碍其处理更复杂推理任务的能力。随着迭代次数增加，这种不平衡变得越来越明显——我们称之为“马修效应”——最终阻碍了模型的进一步改进，导致性能瓶颈。为应对这一挑战，我们从两个角度提出四种有效策略：分布重塑和轨迹重采样，以实现探索和学习自我改进过程中的头尾重新平衡。在Qwen2-VL-7B-Instruct和InternVL2.5-4B模型上进行的广泛视觉推理任务实验表明，我们的方法持续改善视觉推理能力，平均性能比常规自我改进提高了3.86分。\n\n作者：郭鑫, 习志恒, 丁艺文, 翟依涛, 石晓伟, 蔡训良, 桂涛, 张琪, 黄宣京\n\n评论：预印本\n\n链接：https://arxiv.org/pdf/2510.26474.pdf\n\n标题：2025 [2510.26474] 通过头尾重新平衡对抗LVLMs自我改进中的马修效应.pdf",
+        "地址": "https://arxiv.org/pdf/2510.26474.pdf"
+    },
+    {
+        "名称": "2025 [2510.26160] CRAG-MM: Multi-modal Multi-turn Comprehensive RAG Benchmark.pdf",
+        "作者": "Jiaqi Wang, Xiao Yang, Kai Sun, Parth Suresh, Sanat Sharma, Adam Czyzewski, Derek Andersen, Surya Appini, Arkav Banerjee, Sajal Choudhary, Shervin Ghasemlou, Ziqiang Guan, Akil Iyer, Haidar Khan, Lingkun Kong, Roy Luo, Tiffany Ma, Zhen Qiao, David Tran, Wenfang Xu, Skyler Yeatman, Chen Zhou, Gunveer Gujral, Yinglong Xia, Shane Moon, Nicolas Scheffer, Nirav Shah, Eun Chang, Yue Liu, Florian Metze, Tammy Stark, Zhaleh Feizollahi, Andrea Jessee, Mangesh Pujari, Ahmed Aly, Babak Damavandi, Rakesh Wanga, Anuj Kumar, Rohit Patel, Wen-tau Yih, Xin Luna Dong",
+        "摘要": "摘要：可穿戴设备（如智能眼镜）正在改变人们与周围环境互动的方式，使用户能够获取视野中实体的信息。多模态检索增强生成（MM-RAG）在支持此类问题方面发挥着关键作用，但在可穿戴场景中，尚没有全面的基准测试。为了填补这一空白，我们介绍了CRAG-MM -- 一个多模态多轮对话的综合RAG基准。CRAG-MM包含6.5K（图像、问题、答案）三元组和2K基于视觉的多轮对话，涵盖了13个领域，包括6.2K模拟可穿戴设备捕获的以自我为中心的图像。我们精心设计了问题以反映现实世界的场景和挑战，包括五种类型的图像质量问题、六种问题类型、不同的实体流行度、不同的信息动态性以及不同的对话轮次。我们设计了三个任务：单源增强、多源增强和多轮对话——每个任务都配有一个相关的检索语料库和图像知识库检索及网页检索的API。我们的评估表明，直接的RAG方法在CRAG-MM单轮和多轮问答中分别仅实现了32%和43%的真实性，而最先进的行业解决方案具有类似的质量（32%/45%），这表明有很大的改进空间。该基准已举办了2025年KDD杯，吸引了约1K名参与者和5K次提交，获奖方案提高了基准性能28%，突显了其在推进该领域方面的早期影响。",
+        "地址": "https://arxiv.org/pdf/2510.26160.pdf"
+    },
+    {
+        "名称": "2025 [2510.26140] FullPart: Generating each 3D Part at Full Resolution.pdf",
+        "作者": "Lihe Ding, Shaocong Dong, Yaokun Li, Chenjian Gao, Xiao Chen, Rui Han, Yihao Kuang, Hong Zhang, Bo Huang, Zhanpeng Huang, Zibin Wang, Dan Xu, Tianfan Xue",
+        "摘要": "摘要: 基于部件的3D生成在各类应用中具有极大的潜力。以往使用隐式向量集标记来表示部件的生成器常常因为几何细节不足而表现不佳。另一类工作采用显式的体素表示，但在所有部件之间共享一个全局体素网格，这通常使得小部件占据的体素过少，导致质量下降。在本文中，我们提出了FullPart，一种结合隐式和显式范式的新框架。它首先通过一个隐式盒向量集扩散过程导出包围盒布局，这是隐式扩散处理有效的任务，因为盒标记包含很少的几何细节。然后，它生成详细的部件，每个部件都有自己的固定全分辨率体素网格。我们的方法不是共享一个全局低分辨率空间，每个部件 - 即使是小部件 - 都是在全分辨率下生成，从而能够合成复杂的细节。我们进一步提出一种中心点编码策略，以解决在交换不同实际大小部件信息时的错位问题，从而保持全局一致性。此外，为了应对可靠部件数据的稀缺，我们推出了PartVerse-XL，这是迄今为止最大的人类标注3D部件数据集，包含40K对象和320K部件。广泛的实验表明，FullPart在3D部件生成中达到了最先进的结果。我们将发布所有代码、数据和模型，以促进未来3D部件生成的研究。",
+        "地址": "https://arxiv.org/pdf/2510.26140.pdf"
+    },
+    {
+        "名称": "2025 [2510.26020] PORTool: Tool-Use LLM Training with Rewarded Tree.pdf",
+        "作者": "Feijie Wu, Weiwu Zhu, Yuxiang Zhang, Soumya Chatterjee, Jiarong Zhu, Fan Mo, Rodin Luo, Jing Gao",
+        "摘要": "摘要: 当前使用工具的大型语言模型（LLMs）是基于静态数据集训练的，能够与外部工具交互并执行多步骤、工具集成推理，产生工具调用轨迹。然而，这些模型模仿了在通用工具调用流程中解决查询的方法，从而未能探索可能的解决方案，在动态的工具调用环境中表现有限。在这项工作中，我们提出了PORTool，一种强化学习（RL）方法，鼓励工具使用LLM探索各种路径以找到正确答案。具体来说，该方法首先为给定查询生成多个回滚，其中一些步骤共享前几个工具调用步骤，从而形成树状结构。接下来，我们根据每一步产生正确答案和成功调用工具的能力分配奖励。跨不同路径共享的步骤获得相同的奖励，而同一叉中的不同步骤获得不同的奖励。最后，这些逐步奖励用于计算叉相对优势，并与路径相对优势混合，训练用于工具使用的LLM。实验中使用17种工具来解决用户查询，涵盖时间敏感和时间不变的主题。我们进行消融研究系统地证明逐步奖励的必要性和设计的稳健性。此外，我们将提出的PORTool与其他训练方法进行比较，并显示最终准确性和工具调用步骤数显著改善。\n\nFeijie Wu, Weiwu Zhu, Yuxiang Zhang, Soumya Chatterjee, Jiarong Zhu, Fan Mo, Rodin Luo, Jing Gao\n\n标题: PORTool：奖励树的工具使用LLM训练\n\n链接: https://arxiv.org/pdf/2510.26020.pdf",
+        "地址": "https://arxiv.org/pdf/2510.26020.pdf"
+    },
+    {
+        "名称": "2025 [2510.25132] EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation.pdf",
+        "作者": "Chao Song, Zhiyuan Liu, Han Huang, Liang Wang, Qiong Wang, Jianyu Shi, Hui Yu, Yihang Zhou, Yang Zhang",
+        "摘要": "摘要: 在计算蛋白质工程中，设计具有底物特异性功能的酶骨架是一项关键挑战。目前的生成模型在蛋白质设计方面表现出色，但在结合数据、底物特异性控制和用于酶骨架生成的灵活性方面存在局限性。为了解决这些问题，我们介绍了EnzyBind，一个包含11100对经过实验验证的酶-底物对的数据集，这些数据是特别从PDBbind中筛选出来的。基于此，我们提出了EnzyControl，一种在酶骨架生成中实现功能和底物特异性控制的方法。我们的方法生成的酶骨架以MSA注释的催化位点及其对应的底物为条件，这些数据是从筛选的酶-底物数据中自动提取的。EnzyControl的核心组件是EnzyAdapter，一个轻量级的模块化组件，集成到预训练的动机支架模型中，使其具有底物感知能力。一个两阶段的训练模式进一步优化了模型生成准确和功能酶结构的能力。实验表明，我们的EnzyControl在EnzyBind和EnzyBench基准上的结构和功能指标表现最佳，设计能力和催化效率分别比基线模型显著提高了13%。代码已在该网址发布。",
+        "地址": "https://arxiv.org/pdf/2510.25132.pdf"
+    },
+    {
+        "名称": "2025 [2510.25364] CLASS-IT: Conversational and Lecture-Aligned Small-Scale Instruction Tuning for BabyLMs.pdf",
+        "作者": "Luca Capone, Alessandro Bondielli, Alessandro Lenci",
+        "摘要": "摘要: 这项研究探讨了小规模语言模型（LM）是否可以从指令微调中受益。我们比较了会话和问答指令微调数据集，应用于合并或顺序课程，使用具有100M和140M参数的仅解码器模型。评估涉及微调（SuperGLUE）和零样本（BLiMP, EWoK, WUGs, 实体跟踪和心理语言学相关性）两种场景。结果显示，指令微调在微调情境中虽有小幅但一致性提高，且顺序课程胜过合并数据；然而，这些改进并未一致地转移到零样本任务，表明在关注交互的适应和广泛的语言概括之间存在权衡。这些结果突出展现了低资源语言模型适应人类启发学习策略的潜力和局限，并指出基于课程的混合方法在生态训练限制下增强概括能力的可能性。",
+        "地址": "https://arxiv.org/pdf/2510.25364.pdf"
+    },
+    {
+        "名称": "2025 [2510.22282] CityRiSE: Reasoning Urban Socio-Economic Status in Vision-Language Models via Reinforcement Learning.pdf",
+        "作者": "Tianhui Liu, Hetian Pang, Xin Zhang, Jie Feng, Yong Li, Pan Hui",
+        "摘要": "摘要：利用公开的、大规模的网络数据，如街景和卫星图像，进行城市社会经济感知对于实现全球可持续发展目标至关重要。随着大型视觉-语言模型（LVLMs）的出现，新的机遇涌现，使得可以将这一任务视为多模态感知和理解问题来解决。然而，最近的研究表明，LVLMs在从视觉数据中进行准确和可解释的社会经济预测方面仍然存在困难。为了解决这些局限并最大化LVLMs的潜力，我们引入了CityRiSE，一个通过纯强化学习（RL）来推理LVLMs中的城市社会经济状态的新框架。通过精心策划的多模态数据和可验证的奖励设计，我们的方法引导LVLMs关注语义上有意义的视觉线索，从而实现结构化和目标导向的推理，以进行一般性社会经济状态预测。实验表明，具有新兴推理过程的CityRiSE显著优于现有基准，改善了预测准确性和在不同城市背景下的泛化能力，特别是在预测未见过的城市和未见过的指标时。这项工作突出了结合RL和LVLMs在可解释性和一般化城市社会经济感知方面的前景。",
+        "地址": "https://arxiv.org/pdf/2510.22282.pdf"
+    },
+    {
+        "名称": "2025 [2510.21970] Performance Trade-offs of Optimizing Small Language Models for E-Commerce.pdf",
+        "作者": "Josip Tomo Licardo, Nikola Tankovic",
+        "摘要": "摘要：大型语言模型（LLMs）在自然语言理解和生成任务中提供了最先进的性能。然而，领先的商业模型在部署于电子商务等专业任务时，经常受到高计算成本、延迟和运营费用的阻碍。本文探讨了较小的开放权重模型作为资源高效替代方案的可行性。我们提出了一种优化十亿参数Llama 3.2模型用于多语言电子商务意图识别的方法。该模型通过量化低秩适应（QLoRA）对模拟真实用户查询的合成数据集进行微调。随后，我们应用了后训练量化技术，创建了GPU优化（GPTQ）和CPU优化（GGUF）版本。我们的结果表明，专门优化的1B模型实现了99%的准确率，与显著更大的GPT-4.1模型表现相匹配。详细的性能分析揭示了关键的硬件依赖的权衡：尽管4位GPTQ格式降低了41%的VRAM使用量，但由于反量化开销，在较旧的GPU架构（NVIDIA T4）上推理速度反而减慢了82%。相反，GGUF格式在CPU上推理吞吐量速度提高了最高18倍，且与FP16基准相比，RAM消耗减少了超过90%。我们得出结论，小型、适当优化的开放权重模型不仅可行，而且是领域特定应用的更适合替代方案，在小部分计算成本上提供了最先进的准确性。",
+        "地址": "https://arxiv.org/pdf/2510.21970.pdf"
+    },
+    {
+        "名称": "2025 [2510.20976] L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks.pdf",
+        "作者": "Jiyu Cui, Fang Wu, Haokai Zhao, Minggao Feng, Xenophon Evangelopoulos, Andrew I. Cooper, Yejin Choi",
+        "摘要": "摘要：大型语言模型在各种自然语言任务中展示了惊人的推理能力。然而，在科学发现领域的突破相对有限，因为理解复杂的物理现象需要远远超越单纯语言的多方面表示。一个引人注目的例子是功能材料的设计，如金属有机框架（MOFs），这些材料对碳捕获和氢存储等一系列重要应用至关重要。由于众多可能的三维原子排列以及严格的配位几何和拓扑规则，通过语言表示来导航其广阔而复杂的设计空间，对LLM来说是具有挑战性的。尽管早期在LLM协助的简单材料系统发现方面取得了有希望的结果，MOF设计仍然严重依赖于人类专家的隐性知识，这些知识很少单独在文本信息中编码。为了克服这一障碍，我们介绍了L2M3OF，首个用于MOFs的多模态LLM。L2M3OF整合了晶体表示学习与语言理解，能够联合处理结构、文本和知识模态。L2M3OF采用预训练的晶体编码器，并使用轻量级投影层将结构信息压缩到标记空间，实现与语言指令的高效对齐。为促进训练和评估，我们编制了一个晶体材料的结构-性质-知识数据库，并将L2M3OF与GPT-5、Gemini-2.5-Pro和DeepSeek-R1等最先进的闭源LLM进行了基准测试。实验表明，尽管使用的参数较少，L2M3OF在属性预测和知识生成任务上优于领先的基于文本的闭源LLM。这些结果凸显了多模态方法对于多孔材料理解的重要性，并确立了L2M3OF作为材料发现中下一代人工智能系统的基础。\n\n作者：Jiyu Cui, Fang Wu, Haokai Zhao, Minggao Feng, Xenophon Evangelopoulos, Andrew I. Cooper, Yejin Choi\n\n评论：18页，7个图\n\n链接：[https://arxiv.org/pdf/2510.20976.pdf](https://arxiv.org/pdf/2510.20976.pdf)\n\n标题：2025 [2510.20976] L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks",
+        "地址": "https://arxiv.org/pdf/2510.20976.pdf"
+    },
+    {
+        "名称": "2025 [2510.26781] ChartAB: A Benchmark for Chart Grounding & Dense Alignment.pdf",
+        "作者": "Aniruddh Bansal, Davit Soselia, Dang Nguyen, Tianyi Zhou",
+        "摘要": "摘要: 图表在可视化、推理、数据分析以及人类思想交流中发挥着重要作用。然而，现有的视觉-语言模型（VLMs）仍然缺乏对细节的准确感知，难以从图表中提取细粒度结构。这种图表对接的局限性也阻碍了它们比较多个图表并进行推理的能力。本文介绍了一种新的\"图表对齐基准（ChartAlign Benchmark，ChartAB）\"，旨在全面评估VLMs在图表对接任务中的表现，即从各种类型和复杂性的图表中提取表格数据、定位可视化元素以及识别各种属性。我们设计了一种JSON模板，以便于计算专门针对每个对接任务量身定制的评估指标。通过引入一种新的两阶段推理工作流程，该基准还可以进一步评估VLMs在对齐和比较两个图表中的元素/属性的能力。我们对几个最新VLMs的评估分析揭示了它们在图表理解中的感知偏差、弱点、鲁棒性和幻觉方面的新见解。这些发现突显了VLMs在图表理解任务中的细粒度差异，并指出了当前模型需要加强的具体技能。",
+        "地址": "https://arxiv.org/pdf/2510.26781.pdf"
+    },
+    {
+        "名称": "2025 [2510.24992] POWSM: A Phonetic Open Whisper-Style Speech Foundation Model.pdf",
+        "作者": "Chin-Jou Li, Kalvin Chang, Shikhar Bharadwaj, Eunjung Yeo, Kwanghee Choi, Jian Zhu, David Mortensen, Shinji Watanabe",
+        "摘要": "摘要：近期在语音处理方面的进展已在自动语音识别（ASR）、音素识别（PR）、字母到音素转换（G2P）及音素到字母转换（P2G）等语音任务上取得了显著进步。尽管这些任务在概念上相似，但长期以来一直是各自为战，每项任务均依赖于特定的架构和数据集。在本文中，我们介绍了POWSM（Phonetic Open Whisper-style Speech Model），这是第一个能够联合执行多种音素相关任务的统一框架。POWSM实现了音频、文本（字母）和音素之间的无缝转换，为通用和低资源语音处理开辟了新的可能性。我们的模型在同时支持G2P、P2G和ASR的情况下，表现超越或相当于类似大小的专用PR模型（如Wav2Vec2Phoneme和ZIPA）。我们发布了训练数据、代码和模型，以促进开放科学。",
+        "地址": "https://arxiv.org/pdf/2510.24992.pdf"
+    }
+]
