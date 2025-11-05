@@ -1,0 +1,182 @@
+[
+    {
+        "名称": "2025 [2510.22115] Every Activation Boosted: Scaling General Reasoner to 1 Trillion Open Language Foundation.pdf",
+        "作者": "Ling-Team, Ang Li, Ben Liu, Binbin Hu, Bing Li, Bingwei Zeng, Borui Ye, Caizhi Tang, Changxin Tian, Chao Huang, Chao Zhang, Chen Qian, Chenchen Ju, Chenchen Li, Chengfu Tang, Chili Fu, Chunshao Ren, Chunwei Wu, Cong Zhang, Cunyin Peng, Dafeng Xu, Daixin Wang, Dalong Zhang, Dingnan Jin, Dingyuan Zhu, Dongke Hu, Fangzheng Zhao, Feifan Wu, Feng Zhu, Gangshan Wang, Haitao Zhang, Hailin Zhao, Hanxiao Zhang, Hanzi Wang, Hao Qian, Haoyi Yu, Heng Zhang, Hongliang Zhang, Hongzhi Luan, Huirong Dong, Huizhong Li, Jia Li, Jia Liu, Jialong Zhu, Jian Sha, Jianping Wei, Jiaolong Yang, Jieyue Ma, Jiewei Wu, Jinjing Huang, Jingyun Tian, Jingyuan Zhang, Jinquan Sun, Juanhui Tu, Jun Liu, Jun Xu, Jun Zhou, Junjie Ou, Junpeng Fang, Kaihong Zhang, Kaiqin Hu, Ke Shi, Kun Tang, Kunlong Chen, Lanyin Mei, Lei Liang, Lei Xu, Libo Zhang, Lin Ju, Lin Yuan, Ling Zhong, Lintao Ma, Lu Liu, Lu Yu, Lun Cai, Meiqi Zhu, Mengying Li, Min Chen, Minghao Xue, Minghong Cai, Mingming Yin, Peijie Jiang, Peilong Zhao, Pingping Liu, Qian Zhao, Qing Cui, Qingxiang Huang, Qingyuan Yang, Quankun Yu, Shaowei Wei, Shijie Lian, Shoujian Zheng, Shun Song, Shungen Zhang, Shuo Zhang, Siyuan Li, Song Liu, Ting Guo, Tong Zhao, Wanli Gu\n\n\n        , Weichang Wu, Weiguang Han, Wenjing Fang, Wubin Wang, Xiang Shu, Xiao Shi, Xiaoshun Lan, Xiaolu Zhang, Xiaqing Sun, Xin Zhao, Xingyu Lu, Xiong Xu, Xudong Wang, Xudong Wang, Xuemin Yang, Yajie Yang, Yang Xiang, Yanzhe Li, Yi Zhang, Yilong Wang, Yingxue Li, Yongzhen Guo, Yuzhuo Fu, Yuanyuan Wang, Yue Yang, Yue Yu, Yufeng Deng, Yun Zhang, Yunfei Xu, Yuqi Zhang, Yuxiao He, Zengke Gui, Zhaoxin Huan, Zhaoyang Wang, Zhibo Zhu, Zhihao Wang, Zhiqiang Zhang, Zhoufei Wang, Zihang Zeng, Ziqi Liu, Zitao Xuan, Zuoli Tang\n\n\n    et al. (42 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要: 我们介绍了 Ling 2.0，这是一系列基于推理导向的语言基础，建立在每次激活都能提升推理能力的原则之上。该系列旨在通过统一的专家混合（MoE）范式在从数百亿到一万亿参数之间扩展。Ling 2.0强调高稀疏性、跨尺度一致性和效率，遵循经验性扩展规律。该系列包括三个非思考（指令）模型：Ling-mini-2.0、Ling-flash-2.0和Ling-1T，参数总量从160亿到1万亿，计算效率比密集型模型提高了7倍。Ling 2.0集成了模型架构、预训练、后训练和基础设施方面的协同创新：高稀疏性MoE与MTP以实现高效推理、推理导向数据和中训练CoT激活、基于强化的精调（DFT，Evo-CoT）、以及通过精细异质管道进行全规模FP8训练。在万亿参数规模下，Ling-1T建立了推理准确性与计算效率的新帕累托前沿，证明了稀疏激活在适当地与推理目标对齐时，能够实现可扩展且高效的智能。总体而言，Ling 2.0为推动未来的推理和思考模型，包括基于相同基础构建的Ring系列，提供了一个连贯、开放和高效的基础。",
+        "地址": "https://arxiv.org/pdf/2510.22115.pdf"
+    },
+    {
+        "名称": "2025 [2511.00086] Generalizing Test-time Compute-optimal Scaling as an Optimizable Graph.pdf",
+        "作者": "Fali Wang, Jihai Chen, Shuhua Yang, Runxue Bao, Tianxiang Zhao, Zhiwei Zhang, Xianfeng Tang, Hui Liu, Qi He, Suhang Wang",
+        "摘要": "摘要：测试时间扩展（TTS）通过在推理期间分配额外计算来改进大型语言模型（LLMs），通常通过并行、顺序或混合扩展。然而，之前的研究往往假设固定的协作架构（例如拓扑）和单一模型的使用，忽视了最佳架构和模型组合可以因任务而异。因此，我们研究了在固定预算内搜索计算最优模型组合和架构的新问题。我们将其形式化为一个多LLM协作图，其中节点编码角色和LLM模型分配，边缘捕捉信息流。这个问题具有挑战性，因为（i）组合搜索空间大到无法接受，以及（ii）任务的特定要求需要定制设计。为了解决这些问题，我们将问题重新表述为概率图优化，并通过试验实验得出关于TTS协作图的三个经验见解。在这些见解的指导下，我们提出了Agent-REINFORCE，这是一种LLM代理增强框架，通过映射采样-梯度-更新到采样-反馈-更新来镜像REINFORCE流水线，其中反馈作为文本梯度来更新概率图并有效地搜索最佳多LLM协作图。实验表明，Agent-REINFORCE在样本效率和搜索性能方面均优于传统和基于LLM的基准，并在准确性和推理延迟的共同目标下有效地识别出最佳图。\n\n翻译已完成。",
+        "地址": "https://arxiv.org/pdf/2511.00086.pdf"
+    },
+    {
+        "名称": "2025 [2510.24788] The Underappreciated Power of Vision Models for Graph Structural Understanding.pdf",
+        "作者": "Xinjian Zhao, Wei Pang, Zhongkai Xue, Xiangru Jian, Lei Zhang, Yaoyao Xu, Xiaozhuang Song, Shu Wu, Tianshu Yu",
+        "摘要": "摘要:\n图神经网络（GNNs）通过自下而上的消息传递操作，与人类视觉感知完全不同，后者直观地首先捕捉全局结构。我们研究了视觉模型在图理解方面未得到充分重视的潜力，发现它们在已建立的基准测试中表现与GNNs相当，同时展现出截然不同的学习模式。这些不同的行为，以及现有基准测试由域特征和拓扑理解混合的局限性，促使我们引入GraphAbstract。这个基准测试评估模型感知全局图属性的能力，就像人类一样：识别组织原型、检测对称性、感知连接强度和识别关键元素。我们的结果显示，视觉模型在需要整体结构理解的任务上显著优于GNNs，并在不同图尺度上保持泛化能力，而GNNs在全局模式抽象上表现不佳，且随着图规模的增加而性能下降。这项工作表明，视觉模型在图结构理解方面具有显著而未充分利用的能力，特别是在需要全局拓扑意识和规模不变推理的问题上。这些发现为利用这种未充分利用的潜力开发更有效的图基础模型，用于以整体模式识别为主的任务开辟了新途径。\n\n作者：赵新建、庞伟、薛仲凯、简向如、张磊、徐遥遥、宋晓庄、吴枢、余天舒\n\n备注：NeurIPS 2025\n\n链接：https://arxiv.org/pdf/2510.24788.pdf\n\n标题：视觉模型未充分利用的图结构理解能力",
+        "地址": "https://arxiv.org/pdf/2510.24788.pdf"
+    },
+    {
+        "名称": "2025 [2511.01678] UniLumos: Fast and Unified Image and Video Relighting with Physics-Plausible Feedback.pdf",
+        "作者": "Ropeway Liu, Hangjie Yuan, Bo Dong, Jiazheng Xing, Jinwang Wang, Rui Zhao, Yan Xing, Weihua Chen, Fan Wang",
+        "摘要": "摘要: 重照明是一项具有实际需求和艺术价值的重要任务，最近的扩散模型通过提供丰富且可控的光照效果展现了强大的潜力。然而，由于这些模型通常在语义潜在空间中优化，空间上的接近性并不保证视觉空间中的物理正确性，因此它们经常产生不现实的结果，例如过曝的高光、错位的阴影和错误的遮挡。我们通过UniLumos解决这一问题，这是一种统一的图像和视频重照明框架，将RGB空间几何反馈引入流匹配骨干网络。通过监督模型输出的深度和法线图，我们显式地将光照效果与场景结构对齐，增强物理合理性。然而，这种反馈需要高质量的输出来在视觉空间中进行监督，使得标准的多步去噪在计算上变得昂贵。为减轻这一问题，我们采用路径一致性学习，使得监督即使在少步骤训练情况下也能保持有效。为了实现细粒度的重照明控制和监督，我们设计了一种结构化的六维注释协议，捕捉核心照明属性。在此基础上，我们提出了LumosBench，一个解缠的属性级基准，通过大型视觉语言模型评估光照可控性，实现自动且可解释的评估个体维度上的重照明精度。大量实验表明，UniLumos在实现图像和视频重照明方面达到了最先进的质量，并显著提高了物理一致性，同时提供了20倍的速度提升。代码可在此URL获得。",
+        "地址": "https://arxiv.org/pdf/2511.01678.pdf"
+    },
+    {
+        "名称": "2025 [2511.01163] ROVER: Benchmarking Reciprocal Cross-Modal Reasoning for Omnimodal Generation.pdf",
+        "作者": "Yongyuan Liang, Wei Chow, Feng Li, Ziqiao Ma, Xiyao Wang, Jiageng Mao, Jiuhai Chen, Jiatao Gu, Yue Wang, Furong Huang",
+        "摘要": "摘要：统一多模态模型（UMM）作为一种强大的范式，能够无缝统一文本和图像的理解与生成。然而，当前的评估方法将这些能力孤立地对待，使得拥有多模态输入和输出的任务主要通过单模态推理来评分，即文本基准测试强调基于语言的推理，而视觉基准测试则强调在像素中体现的推理结果。我们推出了ROVER来解决这一紧迫需求，即测试互惠的跨模态推理，即使用一种模态来指导、验证或完善另一模态的输出，这种能力对于实现统一的多模态智能至关重要。ROVER是一个人工注释的基准，明确针对互惠的跨模态推理，涵盖了基于1876张图像的1312个任务，分为两种互补的设置。用于视觉生成的语言增强推理评估模型是否可以使用语言提示和推理链来指导真实的图像合成。用于语言生成的视觉增强推理评估模型是否可以生成中间可视化以增强其自身的问答推理过程。对17个统一模型的实验揭示了两个关键发现：（i）跨模态推理决定视觉生成质量，交错模型显著优于非交错模型；特别是，结合强大的单模态模型无法实现可比的推理。（ii）模型在物理和符号推理之间表现出分离：它们在字面上解释感知概念成功，但无法为符号任务构建视觉抽象，其中错误的推理会损害性能。这些结果突显了互惠的跨模态推理作为实现真正全模态生成的关键前沿。\n\n作者：Yongyuan Liang, Wei Chow, Feng Li, Ziqiao Ma, Xiyao Wang, Jiageng Mao, Jiuhai Chen, Jiatao Gu, Yue Wang, Furong Huang\n\n评论：项目页面：https://arxiv.org/pdf/2511.01163.pdf\n\n标题：ROVER: 全模态生成的互惠跨模态推理基准测试",
+        "地址": "https://arxiv.org/pdf/2511.01163.pdf"
+    },
+    {
+        "名称": "2025 [2510.26236] PHUMA: Physically-Grounded Humanoid Locomotion Dataset.pdf",
+        "作者": "Kyungmin Lee, Sibeen Kim, Minho Park, Hyunseung Kim, Dongyoon Hwang, Hojoon Lee, Jaegul Choo",
+        "摘要": "摘要：动作模仿是一种有前景的类人行走方法，使代理能够获得类人的行为。现有的方法通常依赖于高质量的运动捕捉数据集，如AMASS，但这些数据集稀缺且昂贵，限制了可扩展性和多样性。最近的研究尝试通过转换大规模互联网视频来扩展数据收集，以Humanoid-X为例。然而，这些方法通常会引入诸如漂浮、穿透和脚滑动等物理伪影，妨碍了稳定的模仿。对此，我们引入了PHUMA，一个物理基础的类人行走数据集，该数据集利用大规模的人体视频，同时通过精心的数据管理和物理约束重新定向来解决物理伪影。PHUMA执行关节限制，确保地面接触，并消除脚滑动，生成既大规模又物理可靠的运动。我们在两种条件下评估了PHUMA：（i）模仿自录测试视频中的未见过的动作，和（ii）仅通过骨盆引导的路径跟随。在这两种情况下，PHUMA训练的策略均优于Humanoid-X和AMASS，在模仿多样动作方面取得了显著进展。代码可在此网址获取：https://arxiv.org/pdf/2510.26236.pdf。",
+        "地址": "https://arxiv.org/pdf/2510.26236.pdf"
+    },
+    {
+        "名称": "2025 [2511.01295] UniREditBench: A Unified Reasoning-based Image Editing Benchmark.pdf",
+        "作者": "Feng Han, Yibin Wang, Chenglin Li, Zheming Liang, Dianyi Wang, Yang Jiao, Zhipeng Wei, Chao Gong, Cheng Jin, Jingjing Chen, Jiaqi Wang",
+        "摘要": "摘要：近期在多模态生成模型方面的进展极大地提升了图像编辑的效果。然而，当前的生成模型在处理需要隐性推理的多样化和复杂的图像编辑任务时仍然存在困难，这突显了需要一个综合的基准来系统地评估它们在各种推理场景下的性能。现有的基准主要集中在单一对象属性变换的真实场景中，这虽然有效，但面临两个关键挑战：(1) 它们很大程度上忽略了多对象交互以及涉及人为定义规则的游戏世界场景，这在现实应用中很常见；(2) 它们仅依赖文本参考来评估生成的图像，在复杂推理场景中可能会导致系统性误判。为此，这项工作提出了UniREditBench，这是一种基于推理的图像编辑评估的统一基准。它包含2700个精心策划的样本，涵盖了真实世界和游戏世界场景的8个主要维度和18个子维度。为了提高评估的可靠性，我们引入了多模态双重参考评估，为每个样本评估提供文本和真实图像参考。此外，我们设计了一种自动化的多场景数据合成管道，并构建了UniREdit-Data-100K，一个具有高质量连锁推理注释的大规模综合数据集。我们在该数据集上微调了Bagel，并开发了UniREdit-Bagel，在域内和域外设置中表现出显著的改进。通过对开源和闭源图像编辑模型的全面基准测试，我们揭示了它们在各方面的优点和缺点。",
+        "地址": "https://arxiv.org/pdf/2511.01295.pdf"
+    },
+    {
+        "名称": "2025 [2511.00062] World Simulation with Video Foundation Models for Physical AI.pdf",
+        "作者": "NVIDIA: Arslan Ali, Junjie Bai, Maciej Bala, Yogesh Balaji, Aaron Blakeman, Tiffany Cai, Jiaxin Cao, Tianshi Cao, Elizabeth Cha, Yu-Wei Chao, Prithvijit Chattopadhyay, Mike Chen, Yongxin Chen, Yu Chen, Shuai Cheng, Yin Cui, Jenna Diamond, Yifan Ding, Jiaojiao Fan, Linxi Fan, Liang Feng, Francesco Ferroni, Sanja Fidler, Xiao Fu, Ruiyuan Gao, Yunhao Ge, Jinwei Gu, Aryaman Gupta, Siddharth Gururani, Imad El Hanafi, Ali Hassani, Zekun Hao, Jacob Huffman, Joel Jang, Pooya Jannaty, Jan Kautz, Grace Lam, Xuan Li, Zhaoshuo Li, Maosheng Liao, Chen-Hsuan Lin, Tsung-Yi Lin, Yen-Chen Lin, Huan Ling, Ming-Yu Liu, Xian Liu, Yifan Lu, Alice Luo, Qianli Ma, Hanzi Mao, Kaichun Mo, Seungjun Nah, Yashraj Narang, Abhijeet Panaskar, Lindsey Pavao, Trung Pham, Morteza Ramezanali, Fitsum Reda, Scott Reed, Xuanchi Ren, Haonan Shao, Yue Shen, Stella Shi, Shuran Song, Bartosz Stefaniak, Shangkun Sun, Shitao Tang, Sameena Tasmeen, Lyne Tchapmi, Wei-Cheng Tseng, Jibin Varghese, Andrew Z. Wang, Hao Wang, Haoxiang Wang, Heng Wang, Ting-Chun Wang, Fangyin Wei, Jiashu Xu, Dinghao Yang, Xiaodong Yang, Haotian Ye, Seonghyeon Ye, Xiaohui Zeng, Jing Zhang, Qinsheng Zhang, Kaiwen Zheng, Andrew Zhu, Yuke Zhu",
+        "摘要": "摘要: 我们介绍了 [Cosmos-Predict2.5]，这是 Cosmos 世界基金会物理 AI 模型的最新一代。基于流动架构构建，[Cosmos-Predict2.5] 将 Text2World、Image2World 和 Video2World 生成统一在单一模型中，并利用 [Cosmos-Reason1]，一个物理 AI 视觉语言模型，以提供更丰富的文本基础和更精细的世界模拟控制。该模型在 200M 筹视频剪辑上进行训练，并通过基于强化学习的后训练进行优化，[Cosmos-Predict2.5] 在视频质量和指令对齐方面相比 [Cosmos-Predict1] 有显著的提升，模型规模达到 2B 和 14B。这些功能能够更可靠地生成合成数据、政策评估和机器人及自主系统的闭环模拟。我们还通过 [Cosmos-Transfer2.5] 扩展了该系列，该框架适用于 Sim2Real 和 Real2Real 世界翻译，尽管比 [Cosmos-Transfer1] 小 3.5 倍，但它提供了更高的保真度和稳定的长时间视频生成。这些进展使 [Cosmos-Predict2.5] 和 [Cosmos-Transfer2.5] 成为扩展具象智能的多功能工具。为了加速物理 AI 的研究和部署，我们在 NVIDIA 开放模型许可证下发布源代码、预训练检查点和策划的基准测试。希望这些开放资源降低采用的门槛，并在构建下一代具象智能方面培养创新。",
+        "地址": "https://arxiv.org/pdf/2511.00062.pdf"
+    },
+    {
+        "名称": "2025 [2510.27363] ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use.pdf",
+        "作者": "Mengjie Deng, Guanting Dong, Zhicheng Dou",
+        "摘要": "摘要：最近，大型语言模型（LLMs）通过与外部工具自主集成进行协作推理，展示了显著的问题解决能力。然而，由于多模态信息本质上复杂且多样，使多模态大型语言模型（MLLMs）在推理过程中灵活高效地利用外部工具仍然是一个未被充分探讨的挑战。在这项工作中，我们介绍了ToolScope，一个旨在统一全球规划和局部多模态感知的代理框架，通过采用专门的Perceive工具来缓解长时间视问答（VQA）任务中的视觉上下文退化问题。ToolScope包括三个主要组件：全球导航器、代理执行器和响应合成器。全球导航器充当“望远镜”，提供高层次的战略指导。代理执行器通过外部工具（Search、Code和Perceive）的集成，迭代地增强MLLM的局部感知能力。最终，响应合成器将推理过程整合并组织成连贯且用户友好的输出。我们在包括VQA 2.0、ScienceQA、MAT-Search和MathVista在内的四个VQA基准上评估了ToolScope。它展示了强大的泛化能力，在所有数据集上平均性能提升达+6.69%。",
+        "地址": "https://arxiv.org/pdf/2510.27363.pdf"
+    },
+    {
+        "名称": "2025 [2511.00602] OpenSIR: Open-Ended Self-Improving Reasoner.pdf",
+        "作者": "Wai-Chung Kwan, Joshua Ong Jun Leang, Pavlos Vougiouklis, Jeff Z. Pan, Marco Valentino, Pasquale Minervini",
+        "摘要": "摘要: 最近在通过强化学习进行大语言模型（LLM）推理方面的进展依赖于带注释的数据集来获得可验证的奖励，这可能限制了模型超越人类水平表现的能力。尽管自我博弈提供了一种有前途的替代方案，但现有方法依赖于外部验证者或无法进行开放式学习。我们提出了开放式自我改进推理器（OpenSIR），这是一种自我博弈框架，其中一个LLM通过交替扮演教师和学生的角色，在没有外部监督的情况下学习生成和解决新问题。为了生成新问题，OpenSIR同时优化难度和多样性，奖励那些适当具有挑战性且探索不同概念的问题，从而实现开放式数学发现。从一个简单的种子问题开始，OpenSIR显著提高了指令模型的性能：Llama-3.2-3B-Instruct在GSM8K上从73.9提高到78.3，在College Math上从28.8提高到34.4，而Gemma-2-2B-Instruct在GSM8K上从38.5提高到58.7。我们的分析表明，OpenSIR通过共同进化的教师-学生角色实现了开放式学习，这些角色自适应地校准难度并推动多样化探索，从基础数学自主进步到高级数学。",
+        "地址": "https://arxiv.org/pdf/2511.00602.pdf"
+    },
+    {
+        "名称": "2025 [2510.27545] EBT-Policy: Energy Unlocks Emergent Physical Reasoning Capabilities.pdf",
+        "作者": "Travis Davies, Yiqi Huang, Alexi Gladstone, Yunxin Liu, Xiang Chen, Heng Ji, Huxian Liu, Luhui Hu",
+        "摘要": "摘要：通过生成模型参数化的隐式策略（如扩散策略）已成为机器人中策略学习和视听语言动作（VLA）模型的标准。然而，这些方法通常会面临高计算成本、曝光偏差和不稳定的推理动态问题，从而在分布变化下导致发散。基于能量的模型（EBM）通过端到端学习能量景观和建模平衡动态来解决这些问题，提供了更高的鲁棒性和减少的曝光偏差。然而，历史上由EBM参数化的策略在扩展性方面一直存在困难。最近关于基于能量的Transformer（EBT）的工作展示了EBM在高维空间中的可扩展性，但其在解决物理嵌入模型核心挑战中的潜力尚未充分探索。我们介绍了一种新的基于能量的架构，EBT-Policy，通过在机器人和现实世界环境中解决核心问题，在模拟和现实任务中，EBT-Policy始终优于基于扩散的策略，同时需要更少的训练和推理计算。值得注意的是，在某些任务中，它仅需两次推理步骤即收敛，比扩散策略的100次减少了50倍。此外，EBT-Policy表现出先前模型中未见的突现能力，例如仅使用行为克隆而无需显式重试训练就能零次恢复失败的动作序列。通过利用其标量能量进行不确定性感知推理和动态计算分配，EBT-Policy为在分布变化下实现强健、通用的机器人行为提供了一条有希望的路径。\n\n作者：Travis Davies, Yiqi Huang, Alexi Gladstone, Yunxin Liu, Xiang Chen, Heng Ji, Huxian Liu, Luhui Hu\n\n评论：9页，6个图表，4个表格\n\n网址：https://arxiv.org/pdf/2510.27545.pdf\n\n标题：2025 [2510.27545] EBT-Policy：能量解锁自发物理推理能力.pdf",
+        "地址": "https://arxiv.org/pdf/2510.27545.pdf"
+    },
+    {
+        "名称": "2025 [2510.24794] MR-Align: Meta-Reasoning Informed Factuality Alignment for Large Reasoning Models.pdf",
+        "作者": "Xinming Wang, Jian Xu, Bin Yu, Sheng Lian, Hongzhu Yi, Yi Chen, Yingjian Zhu, Boran Wang, Hongming Yang, Han Hu, Xu-Yao Zhang, Cheng-Lin Liu",
+        "摘要": "摘要: 大型推理模型（LRMs）在复杂推理方面展现了强大的能力，但在基于证据的事实性问题上的边际收益有限。我们发现这一局限部分归因于推理-答案命中差距，即模型在推理过程中识别出正确的事实，但未能将其纳入最终回答，从而降低了事实的准确性。为了解决这个问题，我们提出了MR-ALIGN，一种基于元推理的信息对齐框架，该框架在不依赖外部验证器的情况下增强事实性。MR-ALIGN量化了模型思考过程中的状态转移概率，并构建了一个对转移情况敏感的隐式奖励机制，在强化有益推理模式的同时抑制有缺陷的原子思维片段。通过这种再加权，将基于令牌的信号转化为概率感知的片段评分，鼓励有助于事实正确性的连贯推理轨迹。对四个事实性问答数据集和一个长文本事实性基准的实证评估表明，MR-ALIGN持续提高了准确性和真实性，同时减少了误导性推理。这些结果突显了在LRMs中，对齐推理过程本身，而不仅仅是输出结果，对于推进事实性的重要性。\n\n作者: 王新明, 徐建, 余斌, 连胜, 易泓竹, 陈义, 朱应坚, 王伯然, 杨洪明, 胡翰, 张绪尧, 刘成林\n\n评论: 预印本\n\n网址: https://arxiv.org/pdf/2510.24794.pdf\n\n标题: 《MR-Align：用于大型推理模型的元推理信息事实性对齐》",
+        "地址": "https://arxiv.org/pdf/2510.24794.pdf"
+    },
+    {
+        "名称": "2025 [2510.27571] Towards Universal Video Retrieval: Generalizing Video Embedding via Synthesized Multimodal Pyramid Curriculum.pdf",
+        "作者": "Zhuoning Guo, Mingxin Li, Yanzhao Zhang, Dingkun Long, Pengjun Xie, Xiaowen Chu",
+        "摘要": "摘要:\n当前的视频检索范式存在结构上的不匹配，因为狭窄的基准测试激励了相应有限的数据和单任务训练。因此，由于缺乏定义并要求多维通用化的诊断评估，通用能力受到抑制。为打破这一循环，我们引入了一个建立在评估、数据和建模共同设计基础上的框架。首先，我们建立了通用视频检索基准 (UVRB)，这是一个由16个数据集组成的套件，不仅用于衡量性能，还用于诊断任务和领域之间的关键能力差距。其次，根据UVRB的诊断结果，我们引入了一个可扩展的合成工作流程，生成了155万高质量的对，以填充通用性所需的语义空间。最后，我们设计了模态金字塔课程，通过显式利用我们多样数据中的潜在互连关系来训练我们的通用视频嵌入器(GVE)。大量实验证明GVE在UVRB上实现了最先进的零样本泛化能力。特别是，我们的分析显示出流行的基准测试对通用能力的预测效果不佳，以及部分相关检索是一个被忽视的主要场景。总体而言，我们共同设计的框架提供了一条切实可行的路径，以摆脱有限范围并迈向真正的通用视频检索。\n\n作者:\n郭卓宁、李明欣、张彦兆、龙定坤、谢鹏军、褚晓文\n\n标题:\n迈向通用视频检索：通过合成多模态金字塔课程实现视频嵌入泛化\n\n链接:\nhttps://arxiv.org/pdf/2510.27571.pdf",
+        "地址": "https://arxiv.org/pdf/2510.27571.pdf"
+    },
+    {
+        "名称": "2025 [2511.01833] TIR-Bench: A Comprehensive Benchmark for Agentic Thinking-with-Images Reasoning.pdf",
+        "作者": "Ming Li, Jike Zhong, Shitian Zhao, Haoquan Zhang, Shaoheng Lin, Yuxiang Lai, Wei Chen, Konstantinos Psounis, Kaipeng Zhang",
+        "摘要": "摘要：视觉推理的前沿正在向类似OpenAI o3的模型发展，这些模型能够智能地创建和操控工具来转换图像以解决问题，这被称为链式思维中的\"图像思维\"。然而，现有的基准测试无法完全捕捉这种先进的能力。即使是目前最常见的\"图像思维\"方法基准——视觉搜索，也仅测试诸如定位和裁剪等基本操作，对更复杂、动态和依赖工具的推理提供的见解很少。我们介绍了TIR-Bench，一个综合基准，用于评估在13项多样任务中思考图像问题的能力，每个任务都要求在链式思维中使用新工具进行图像处理和操作。我们评估了22个多模态大型语言模型（MLLMs），其中包括领先的开源和专有模型以及具有明确工具使用增强功能的模型。结果表明，TIR-Bench普遍具有挑战性，强大的表现需要真实的图像思维能力。最后，我们提出了一项初步研究，比较了直接微调和基于代理的微调。\n\n作者：明李、季可钟、石天赵、浩全张、少恒林、宇翔赖、维陈、康斯坦丁诺斯·普索尼斯、开鹏张\n\n评论：预印本\n\n链接：https://arxiv.org/pdf/2511.01833.pdf\n\n标题：2025 [2511.01833] TIR-Bench: 用于代理图像思维推理的综合基准测试",
+        "地址": "https://arxiv.org/pdf/2511.01833.pdf"
+    },
+    {
+        "名称": "2025 [2511.00279] LongCat-Flash-Omni Technical Report.pdf",
+        "作者": "Meituan LongCat Team, Bairui Wang, Bayan, Bin Xiao, Bo Zhang, Bolin Rong, Borun Chen, Chang Wan, Chao Zhang, Chen Huang, Chen Chen, Chen Chen, Chengxu Yang, Chengzuo Yang, Cong Han, Dandan Peng, Delian Ruan, Detai Xin, Disong Wang, Dongchao Yang, Fanfan Liu, Fengjiao Chen, Fengyu Yang, Gan Dong, Gang Huang, Gang Xu, Guanglu Wan, Guoqiang Tan, Guoqiao Yu, Haibo Qiu, Hao Lu, Hongbo Liu, Hongyu Xiang, Jiaheng Wu, Jian Yang, Jiaxing Liu, Jing Huang, Jingang Wang, Jinrui Ding, Juchao Jiang, Jun Kuang, Jun Wang, Junhui Mei, Ke Ding, Kefeng Zhang, Lei Chen, Liang Shi, Limeng Qiao, Liming Zheng, Lin Ma, Liuyang Guo, Liya Ma, Luying Sun, Man Gao, Mengshen Zhu, Miao Cao, Minliang Lin, Nuo Xu, Peng Shi, Qi Zhang, Qian Fang, Qian Wang, Qian Yang, Quanxiu Wang, Rongxiang Weng, Rongxin Guo, Ruoxuan Liang, Senbin Yang, Shanbo Xu, Shanglin Lei, Shengze Ye, Shimin Chen, Shuaiqi Chen, Shujie Hu, Shuo Li, Siqi Yang, Siyu Xu, Siyu Ren, Song Li, Songxiang Liu, Tianhao Bai, Tianye Dai, Wei Hong, Wei Wang, Weixiao Zhao, Wengang Cao, Wenlong Zhu, Wenlong He, Xi Su, Xi Nan, Xiaohan Zhao, Xiaohao Wang, Xiaoyu Zhao, Xiaoyu Wang, Xiaoyu Li, Xin Pan, Xin Chen, Xiusong Sun, Xu Xiang, Xudong Xing\n\n\n        , Xuezhi Cao, Xunliang Cai, Yang Yang, Yanli Tan, Yao Yao, Yerui Sun, Yi Chen, Yifan Lu, Yin Gong, Yining Zhang, Yitian Chen, Yiyang Gan, Yuchen Tang, Yuchen Xie, Yueqian Wang, Yuewen Zheng, Yufei Zhang, Yufeng Zhong, Yulei Qian, Yuqi Peng, Yuwei Jiang, Zeyang Hu, Zheng Zhang, Zhengkun Tian, Zhiqing Hong, Zhixiong Zeng, Zhuqi Mi, Ziran Li, Ziwen Wang, Ziyi Zhao, Ziyuan Zhuang, Zizhe Zhao\n\n\n    et al. (32 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们介绍了LongCat-Flash-Omni，这是一个拥有560亿参数的最先进的开源全模态模型，擅长实时音视交互。通过采用从简单到复杂的模态序列建模任务的渐进式训练策略，LongCat-Flash-Omni在保持强大单模态能力的同时获得了全面的多模态能力。基于LongCat-Flash（采用高性能Shortcut连接的专家混合(MoE)架构与零计算专家），LongCat-Flash-Omni整合了高效的多模态感知和语音重构模块。尽管其参数量达到5600亿（激活参数27亿），LongCat-Flash-Omni仍实现了低延迟的实时音视交互。对于训练基础设施，我们开发了一种模式解耦的并行方案，专门设计用于管理大规模多模态训练中固有的数据和模型异质性。这种创新方法通过维持超过90%的仅文本训练的吞吐量，显示了卓越的效率。广泛的评估显示，LongCat-Flash-Omni在开源模型中，在全模态基准测试中达到了最先进的性能。此外，在一系列模态特定任务中（包括文本、图像和视频理解，以及音频理解和生成），它也提供了极具竞争力的结果。我们提供了关于模型架构设计、训练程序和数据策略的全面概述，并开源了该模型，以促进社区中的未来研究和开发。",
+        "地址": "https://arxiv.org/pdf/2511.00279.pdf"
+    },
+    {
+        "名称": "2025 [2510.26909] NaviTrace: Evaluating Embodied Navigation of Vision-Language Models.pdf",
+        "作者": "Tim Windecker, Manthan Patel, Moritz Reuss, Richard Schwarzkopf, Cesar Cadena, Rudolf Lioutikov, Marco Hutter, Jonas Frey",
+        "摘要": "摘要：视觉-语言模型在各类任务和场景中展示了前所未有的表现和泛化能力。将这些基础模型整合到机器人导航系统中，为构建通用机器人提供了新途径。然而，评估这些模型的导航能力仍然受限于昂贵的现实世界试验、过于简化的模拟和有限的基准测试。我们介绍了NaviTrace，一个高质量的视觉问答基准，其中模型接收一个指令和体现类型（人类、腿式机器人、轮式机器人、自行车），必须在图像空间输出一个2D导航轨迹。在1000种场景和超过3000个专家轨迹中，我们系统评价了八个最先进的视觉-语言模型，使用新引入的语义感知轨迹评分。该指标结合了动态时间规整距离、目标终点误差和基于每像素语义的体现惩罚，并与人类偏好相关。我们的评估揭示了由于空间定位和目标定位不足而导致的人类表现差距。NaviTrace建立了一个可扩展且可复制的真实机器人导航基准。基准测试和排行榜可以在此HTTPS URL上找到。\n\n翻译：摘要：视觉-语言模型在各类任务和场景中展示了前所未有的表现和泛化能力。将这些基础模型整合到机器人导航系统中，为构建通用机器人提供了新途径。然而，评估这些模型的导航能力仍然受限于昂贵的现实世界试验、过于简化的模拟和有限的基准测试。我们介绍了NaviTrace，一个高质量的视觉问答基准，其中模型接收一个指令和体现类型（人类、腿式机器人、轮式机器人、自行车），必须在图像空间输出一个2D导航轨迹。在1000种场景和超过3000个专家轨迹中，我们系统评价了八个最先进的视觉-语言模型，使用新引入的语义感知轨迹评分。该指标结合了动态时间规整距离、目标终点误差和基于每像素语义的体现惩罚，并与人类偏好相关。我们的评估揭示了由于空间定位和目标定位不足而导致的人类表现差距。NaviTrace建立了一个可扩展且可复制的真实机器人导航基准。基准测试和排行榜可以在此HTTPS URL上找到。",
+        "地址": "https://arxiv.org/pdf/2510.26909.pdf"
+    },
+    {
+        "名称": "2025 [2511.01340] $\\left|\\,\\circlearrowright\\,\\boxed{\\text{BUS}}\\,\\right|$: A Large and Diverse Multimodal Benchmark for evaluating the ability of Vision-Language Models to understand Rebus Puzzles.pdf",
+        "作者": "Trishanu Das, Abhilash Nandy, Khush Bajaj, Deepiha S",
+        "摘要": "摘要: 理解连环画谜语（连环画谜语使用图片、符号和字母创意地代表单词或短语）需要多种技能，例如图像识别、认知技能、常识推理、多步推理、基于图像的文字游戏等，这对于当前的视觉语言模型来说是一个具有挑战性的任务。在本文中，我们提出了 $\\left|\\,\\circlearrowright\\,\\boxed{\\text{BUS}}\\,\\right|$，一个包含1,333个不同艺术风格和难度级别的英文连环画谜语的大型且多样化的基准，涵盖了食品、习语、体育、金融、娱乐等18个类别。我们还提出了 $RebusDescProgICE$，这是一个与模型无关的框架，使用无结构的描述和基于代码的结构化推理，并结合更好的基于推理的上下文示例选择，与链式推理相比，分别使用闭源和开源模型在 $\\left|\\,\\circlearrowright\\,\\boxed{\\text{BUS}}\\,\\right|$ 上提高视觉语言模型性能2.1-4.1%和20-30%。\n\n作者: Trishanu Das, Abhilash Nandy, Khush Bajaj, Deepiha S\n\n评论: 7页, 5个图表, 4个表格\n\n链接: [https://arxiv.org/pdf/2511.01340.pdf](https://arxiv.org/pdf/2511.01340.pdf)\n\n标题: 2025 [2511.01340] $\\left|\\,\\circlearrowright\\,\\boxed{\\text{BUS}}\\,\\right|$: 评估视觉语言模型理解连环画谜语能力的大型多样化多模态基准测试",
+        "地址": "https://arxiv.org/pdf/2511.01340.pdf"
+    },
+    {
+        "名称": "2025 [2510.26865] Do Vision-Language Models Measure Up? Benchmarking Visual Measurement Reading with MeasureBench.pdf",
+        "作者": "Fenfen Lin, Yesheng Liu, Haiyu Xu, Chen Yue, Zheqi He, Mingxuan Zhao, Miguel Hu Chen, Jiakang Liu, JG Yao, Xi Yang",
+        "摘要": "摘要：人类在读取测量仪器时不费力且需要相对较少的领域专业知识，然而在初步评估中我们发现这对当前的视觉语言模型（VLMs）依然具有相当大的挑战。在本研究中，我们介绍了MeasureBench，这是一个涵盖各种测量读数的真实世界和合成图像的视觉测量读取基准，同时提供了一个可扩展的数据合成流程。我们的流程按程序生成特定类型的量表，并可控制其视觉外观，使指针、刻度、字体、照明和杂乱度等关键细节具有可扩展的变化。对流行的专有和开放权重的VLMs进行的评估显示，即使是最强的前沿VLMs在一般测量读取方面也存在困难。一个一致的失败模式是指示器定位：模型可以读取数字或标签，但误识别关键位置的指针或对齐方式，导致尽管文本推理合理但数值错误很大。我们还进行了基于合成数据的强化学习初步实验，发现对领域内的合成子集结果令人鼓舞，但对真实世界图像的结果却不尽如人意。我们的分析突出了当前VLMs在细粒度空间定位上的根本限制。我们希望这一资源能够帮助未来在视觉基础的数字处理和精确空间感知方面取得进展，弥合识别数字和测量世界之间的差距。",
+        "地址": "https://arxiv.org/pdf/2510.26865.pdf"
+    },
+    {
+        "名称": "2025 [2511.01857] Trove: A Flexible Toolkit for Dense Retrieval.pdf",
+        "作者": "Reza Esfandiarpoor, Max Zuo, Stephen H. Bach",
+        "摘要": "摘要: 我们介绍了Trove，这是一款易于使用的开源检索工具包，简化了研究实验，同时保持了灵活性和速度。我们首次引入了高效的数据管理功能，可以实时加载和处理（过滤、选择、转换和组合）检索数据集，只需几行代码。这样，用户可以轻松尝试不同的数据集配置，而无需计算和存储多个大型数据集副本。Trove高度可定制：除了许多内置选项外，它还允许用户自由修改现有组件或完全用用户定义的对象替代。此外，它还提供了低代码和统一的管道进行评估和硬负采样，支持多节点执行，无需任何代码更改。Trove的数据管理功能将内存消耗减少了2.6倍。此外，Trove易于使用的推理管道不会产生任何开销，且推理时间随可用节点数量线性减少。最重要的是，我们展示了Trove如何简化检索实验并允许任意定制，从而促进探索性研究。",
+        "地址": "https://arxiv.org/pdf/2511.01857.pdf"
+    },
+    {
+        "名称": "2025 [2511.01618] Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models.pdf",
+        "作者": "Xiaoyu Zhan, Wenxuan Huang, Hao Sun, Xinyu Fu, Changfeng Ma, Shaosheng Cao, Bohan Jia, Shaohui Lin, Zhenfei Yin, Lei Bai, Wanli Ouyang, Yuanqi Li, Jie Guo, Yanwen Guo",
+        "摘要": "摘要: 随着多模态大型语言模型（MLLMs）的最新进展，2D视觉理解能力显著提高，引发了人们对其在复杂3D推理任务中应用的兴趣。然而，尚不清楚这些模型能否有效捕捉到实现稳健现实世界性能所需的详细空间信息，特别是准确的3D推理所需的跨视图一致性。考虑到这一问题，我们引入了观点学习任务，旨在评估和提升MLLMs的空间推理能力。我们提供了Viewpoint-100K数据集，该数据集由10万对具有不同视点的对象中心图像以及相应的问题和答案组成。我们的方法采用了两阶段微调策略：首先，通过在Viewpoint-100K上的监督微调（SFT）向基线MLLM注入基础知识，在多个任务上取得显著改进；其次，通过使用群组相对策略优化（GRPO）算法在更广泛的问题集上进行强化学习增强泛化能力。此外，我们引入了一种混合冷启动初始化方法，旨在同时学习视点表示并保持连贯的推理思维。实验结果显示，我们的方法显著激活了MLLM的空间推理能力，提高了在域内和域外推理任务上的性能。我们的研究结果强调了在MLLM中发展基础空间技能的价值，支持未来在机器人技术、自动系统和3D场景理解方面的进展。\n\n作者: 赵晓宇, 黄文轩, 孙浩, 富新宇, 马长风, 曹少盛, 贾泊寒, 林少晖, 尹振菲, 白磊, 欧阳万里, 李元奇, 郭杰, 郭衍文\n\n标题: 2025 [2511.01618] Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models\n\n链接: [https://arxiv.org/pdf/2511.01618.pdf](https://arxiv.org/pdf/2511.01618.pdf)",
+        "地址": "https://arxiv.org/pdf/2511.01618.pdf"
+    },
+    {
+        "名称": "2025 [2511.01846] Towards Robust Mathematical Reasoning.pdf",
+        "作者": "Thang Luong, Dawsen Hwang, Hoang H. Nguyen, Golnaz Ghiasi, Yuri Chervonyi, Insuk Seo, Junsu Kim, Garrett Bingham, Jonathan Lee, Swaroop Mishra, Alex Zhai, Clara Huiyi Hu, Henryk Michalewski, Jimin Kim, Jeonghyun Ahn, Junhwi Bae, Xingyou Song, Trieu H. Trinh, Quoc V. Le, Junehyuk Jung",
+        "摘要": "摘要：确定合适的北极星指标对于提升基础模型的数学推理能力至关重要，尤其是鉴于现有的评估要么过于简单，要么只注重获取正确的简短答案。为了解决这些问题，我们提出了IMO-Bench，一个由顶级专家组审核的高级推理基准测试套件，专门针对国际数学奥林匹克竞赛（IMO）的水平，这是青年数学家最负盛名的竞赛平台。IMO-AnswerBench首先通过400道多样的奥林匹克问题测试模型的可验证简短答案。IMO-Proof Bench则是用于评估写作证明能力的下一层级测试，涵盖基础和高级IMO水平的问题，并提供详细的评分指南以促进自动评分。这些基准测试在我们历史性的成就——2025年IMO金奖中的Gemini Deep Think（Luong和Lockhart，2025）中发挥了至关重要的作用。我们的模型在IMO-AnswerBench上取得了80.0%的成绩，并在高级IMO-Proof Bench上取得了65.7%的成绩，分别超过了最佳非Gemini模型6.9%和42.4%的巨大差距。我们还展示了基于Gemini推理构建的自动评分系统与人工评估的高度相关性，并构建了包含1000个人工评分的IMO-GradingBench，以推进长答案的自动评估。我们希望IMO-Bench能帮助社区在推进稳健数学推理方面取得进展，并将其发布于此：https URL。",
+        "地址": "https://arxiv.org/pdf/2511.01846.pdf"
+    },
+    {
+        "名称": "2025 [2510.26491] Data-Efficient RLVR via Off-Policy Influence Guidance.pdf",
+        "作者": "Erle Zhu, Dazhi Jiang, Yuan Wang, Xujun Li, Jiale Cheng, Yuxian Gu, Yilin Niu, Aohan Zeng, Jie Tang, Minlie Huang, Hongning Wang",
+        "摘要": "摘要：数据选择是通过可验证奖励强化学习（RLVR）提升大型语言模型（LLMs）推理能力的关键方面。目前的数据选择方法主要基于启发式，缺乏理论保证和可推广性。本研究提出了一种基于影响函数估算每个数据点对学习目标贡献的理论方法。为克服在线影响估计所需的策略展开的巨大计算成本，我们引入了一种离线影响估计方法，该方法使用预先收集的离线轨迹有效地近似数据影响。此外，为了处理LLM的高维梯度，我们采用稀疏随机投影来降低维度并提高存储和计算效率。利用这些技术，我们开发了\\\\textbf{C}urriculum \\\\textbf{R}L with \\\\textbf{O}ff-\\\\textbf{P}olicy \\\\text{I}nfluence guidance (\\\\textbf{CROPI})，一个多阶段RL框架，迭代地选择当前策略最有影响的数据。对最高达7B参数的模型进行的实验表明，CROPI显著加速了训练。在1.5B模型上，相较于全数据集训练，它实现了2.66倍的步骤级加速，同时每阶段仅使用10%的数据。我们的结果强调了基于影响的数据选择对高效RLVR的巨大潜力。",
+        "地址": "https://arxiv.org/pdf/2510.26491.pdf"
+    },
+    {
+        "名称": "2025 [2511.01775] How Far Are Surgeons from Surgical World Models? A Pilot Study on Zero-shot Surgical Video Generation with Expert Assessment.pdf",
+        "作者": "Zhen Chen, Qing Xu, Jinlin Wu, Biao Yang, Yuhao Zhai, Geng Guo, Jing Zhang, Yinlu Ding, Nassir Navab, Jiebo Luo",
+        "摘要": "摘要:\n视频生成领域的基础模型作为模拟物理世界的潜在世界模型展现出了显著的能力。然而，这些模型在需要深入、专业化因果知识而不是一般物理规则的高风险领域，如外科手术中的应用，仍然存在一个关键的未探索空白。为了系统地解决这一挑战，我们提出了SurgVeo，这是第一个由专家精心策划的用于评估外科视频生成模型的基准，以及外科合理性金字塔（SPP），一个从基础外观到复杂外科策略的四级框架，以评估模型输出。基于SurgVeo基准，我们在腹腔镜和神经外科手术剪辑中对先进的Veo-3模型进行零样本预测任务。一组由四位执业资质认证的外科医生根据SPP评估生成的视频。我们的结果揭示了一个显著的“合理性鸿沟”：尽管Veo-3在视觉知觉合理性上表现极为出色，但它在SPP的更高层次，包括工具操作合理性、环境反馈合理性和外科意图合理性方面严重失败。该研究提供了首个关于外科AI中视觉逼真模拟与因果理解之间鸿沟的定量证据。我们从SurgVeo和SPP中的发现为开发能够驾驭专业化真实世界医疗领域复杂性的未来模型奠定了重要基础和路线图。\n\n翻译为中文的摘要：\n视频生成领域的基础模型作为模拟物理世界的潜在世界模型展现出了显著的能力。然而，这些模型在需要深入、专业化因果知识而不是一般物理规则的高风险领域，如外科手术中的应用，仍然存在一个关键的未探索空白。为了系统地解决这一挑战，我们提出了SurgVeo，这是第一个由专家精心策划的用于评估外科视频生成模型的基准，以及外科合理性金字塔（SPP），一个从基础外观到复杂外科策略的四级框架，以评估模型输出。基于SurgVeo基准，我们在腹腔镜和神经外科手术剪辑中对先进的Veo-3模型进行零样本预测任务。一组由四位执业资质认证的外科医生根据SPP评估生成的视频。我们的结果揭示了一个显著的“合理性鸿沟”：尽管Veo-3在视觉知觉合理性上表现极为出色，但它在SPP的更高层次，包括工具操作合理性、环境反馈合理性和外科意图合理性方面严重失败。该研究提供了首个关于外科AI中视觉逼真模拟与因果理解之间鸿沟的定量证据。我们从SurgVeo和SPP中的发现为开发能够驾驭专业化真实世界医疗领域复杂性的未来模型奠定了重要基础和路线图。",
+        "地址": "https://arxiv.org/pdf/2511.01775.pdf"
+    },
+    {
+        "名称": "2025 [2511.01266] MotionStream: Real-Time Video Generation with Interactive Motion Controls.pdf",
+        "作者": "Joonghyuk Shin, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Jaesik Park, Eli Schechtman, Xun Huang",
+        "摘要": "摘要: 当前基于运动条件的视频生成方法存在延迟严重（每个视频需要数分钟）和非因果处理，无法实现实时交互。我们提出了MotionStream，可在单个GPU上实现29帧每秒的流媒体生成，并将延迟降低到亚秒级。我们的方法首先通过运动控制增强文本到视频模型，生成符合全局文本提示和局部运动指导的高质量视频，但不进行实时推理。为此，我们通过分布匹配蒸馏自我强化，将这个双向教师模型精炼成因果学生模型，实现实时流媒体推理。在生成长时间甚至无限时间视频时，会遇到几个关键挑战：（1）从有限长度训练到无限时间外推的领域差距，（2）通过防止错误积累来保持高质量，（3）保持快速推理而不因上下文窗口增加而导致计算成本增长。我们的方法关键在于引入精心设计的滑动窗口因果注意力，结合注意力下沉。通过在训练中结合使用自扩展和KV缓存滚动，我们正确模拟了具有固定上下文窗口的推理时外推，使任意长视频的恒速生成成为可能。我们的模型在运动跟随和视频质量方面达到了最先进的结果，速度快了两个数量级，独特地实现了无限长度的流媒体。使用MotionStream，用户可以绘制轨迹、控制摄像机或转移运动，并实时看到结果呈现，实现真正的交互体验。",
+        "地址": "https://arxiv.org/pdf/2511.01266.pdf"
+    },
+    {
+        "名称": "2025 [2511.01718] Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process.pdf",
+        "作者": "Jiayi Chen, Wenxuan Song, Pengxiang Ding, Ziyang Zhou, Han Zhao, Feilong Tang, Donglin Wang, Haoang Li",
+        "摘要": "摘要: 视觉语言动作 (VLA) 模型旨在理解自然语言指令和视觉观察，并作为一个具身代理执行相应的动作。最近的工作将未来图像整合到理解-行动环路中，产生统一的VLA模型，能够联合理解、生成和行动——读取文本和图像并生成未来的图像和动作。然而，这些模型要么依赖外部专家进行模态统一，要么将图像生成和动作预测视为独立过程，限制了这两项任务直接协同的好处。我们的核心理念是通过同步降噪过程联合优化生成和动作，其中迭代优化使动作从初始化开始不断进化，在持续且充分的视觉指导下进行。我们将这一理念植根于我们提出的统一扩散VLA和联合离散降噪扩散过程 (JD3P)，该联合扩散过程将多种模态集成到单个降噪轨迹中，成为将理解、生成和行动本质上协同工作的关键机制。我们的模型和理论建立在所有模态的统一符号化空间以及混合注意机制基础上。我们进一步提出了两阶段的训练管道和优化性能与效率的若干推理技术。我们的方法在CALVIN、LIBERO和SimplerEnv等基准上取得了最新的性能，推理速度比自回归方法快4倍，并通过深入分析和现实世界评估展示了其有效性。我们的项目页面可以通过这个https URL访问。",
+        "地址": "https://arxiv.org/pdf/2511.01718.pdf"
+    },
+    {
+        "名称": "2025 [2511.00405] UME-R1: Exploring Reasoning-Driven Generative Multimodal Embeddings.pdf",
+        "作者": "Zhibin Lan, Liqiang Niu, Fandong Meng, Jie Zhou, Jinsong Su",
+        "摘要": "摘要：多模态大型语言模型(MLLMs)的显著成功推动了多模态嵌入的进步，但现有模型仍然本质上是判别性的，限制了它们从推理驱动的生成范式中获益。在这项工作中，我们率先探索生成性嵌入，将嵌入任务统一于生成范式中。我们提出了UME-R1，一个通用的多模态嵌入框架，由两个阶段的训练策略组成：冷启动监督微调使模型具有推理能力，并使其能够生成判别性和生成性嵌入；随后的强化学习增强推理能力，并进一步优化生成性嵌入质量。本开创性工作揭示了四个关键见解：1) 生成性嵌入通过利用MLLMs强大的生成推理能力，解锁了较传统判别性嵌入方法的显著性能提升；2) 判别性和生成性嵌入是互补的，两者结合的理想性能远远超过单独的任何一种；3) 强化学习可以有效增强生成性嵌入，建立可扩展的优化范式；4) 推理时反复采样提升下游任务覆盖率（pass@k），突显了生成性嵌入在推理时可扩展性潜力。在跨越视频、图像和视觉文档的78个任务MMEB-V2基准评估中，UME-R1显著优于传统的判别性嵌入模型，提供了一个更易解释的、推理驱动的生成性多模态嵌入的基础。我们的代码、模型和数据集将在此https URL公开。",
+        "地址": "https://arxiv.org/pdf/2511.00405.pdf"
+    },
+    {
+        "名称": "2025 [2511.01617] Vote-in-Context: Turning VLMs into Zero-Shot Rank Fusers.pdf",
+        "作者": "Mohamed Eltahir, Ali Habibullah, Lama Ayash, Tanveer Hussain, Naeemullah Khan",
+        "摘要": "摘要：在检索领域，从异构检索器中融合候选项是一个长期挑战，特别是对于复杂的多模态数据如视频。尽管典型的融合技术是免训练的，但它们仅依赖排名或分数信号，忽略了候选项的表示。本文介绍了Vote-in-Context (ViC)，一个概括性的、免训练框架，将列表重排序和融合重新思考为视觉-语言模型(VLM)的零样本推理任务。核心思路是将内容证据和检索器元数据直接序列化到VLM的提示中，使模型能够自适应地权衡检索器共识和视觉-语言内容。我们展示了该框架的普适性，将其应用于跨模态视频检索的挑战领域。为此，我们引入了S-Grid，一个紧凑的序列化映射，该映射将每个视频表示为图像网格，可选配字幕以实现视频候选项的列表推理。ViC被评估为单列表重排序工具时显著提高了个体检索器的精度，作为集成融合器时持续超越强基准如CombSUM。在包括ActivityNet和VATEX的视频检索基准中，该框架设立了新的零样本检索性能的最先进记分，显示其在处理复杂视觉和时间信号以及文本时的效果。在零样本环境下，ViC在MSR-VTT达到了87.1%(t2v)/89.0%(v2t)和在VATEX视频对文本达到了99.6%，相对先前基准提升高达+40 Recall@1。我们展示ViC为一个简单、可复制且高效的方法，将现代VLM转变为强大的零样本重排序和融合器。代码和资源公开可用：此网址。",
+        "地址": "https://arxiv.org/pdf/2511.01617.pdf"
+    },
+    {
+        "名称": "2025 [2511.00810] GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding.pdf",
+        "作者": "Shijie Zhou, Viet Dac Lai, Hao Tan, Jihyung Kil, Wanrong Zhu, Changyou Chen, Ruiyi Zhang",
+        "摘要": "摘要：图形用户界面（GUI）定位是计算机使用代理的一个关键功能，它将自然语言指令映射到可操作的屏幕区域。现有基于多模态大语言模型（MLLMs）的方法通常将其形式化为基于文本的坐标生成任务，但直接从视觉输入生成精确坐标仍然具有挑战性且计算密集。实现GUI定位的一个直观方法是首先选择与指令相关的视觉片段，然后确定这些片段中的精确点击位置。基于对一般MLLMs具有一些天然定位能力的观察，我们提出了GUI-AIMA，一种基于注意力且无坐标的监督微调框架，用于高效的GUI定位。GUI-AIMA将MLLMs的内在多模态注意力与片段级定位信号对齐，这些信号通过简化查询-视觉注意力矩阵上的多头聚合自适应地计算，以适应不同用户指令。此外，其无坐标方式可以轻松集成即插即用的放大阶段。GUI-AIMA-3B仅用85k屏幕截图进行训练，展现出卓越的数据效率，并验证了轻量训练可以激发MLLMs的天然定位能力。它在3B模型中实现了最先进的性能，在ScreenSpot-Pro上达到了58.6%的平均准确度，在OSWorld-G上达到了62.2%。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2511.00810.pdf"
+    },
+    {
+        "名称": "2025 [2511.01706] Multi-Step Knowledge Interaction Analysis via Rank-2 Subspace Disentanglement.pdf",
+        "作者": "Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein",
+        "摘要": "摘要: 自然语言解释（NLEs）描述了大型语言模型（LLMs）如何进行决策，借助于外部上下文知识（CK）和存储在模型权重中的参数知识（PK）。理解它们的相互作用对于评估NLEs的基础性至关重要，但这一点仍未得到充分探索。以往的研究主要考察了单步生成，通常是最终答案，并且仅将PK和CK的互动建模为二元选择，在一个排名为1的子空间中。这忽视了更丰富的互动形式，如互补或支持性知识。我们提出了一种新的排名为2的投影子空间，更准确地解开PK和CK的贡献，并首次用于对较长的NLE序列进行知识互动的多步分析。针对四个问答数据集和三个经过开放权重指令调优的LLM的实验表明，多样的知识互动在排名为1的子空间中表现不佳，但在我们的排名为2的公式中得到了有效捕捉。我们的多步分析揭示了虚假的NLEs与PK方向高度一致，忠于上下文的NLEs则平衡了PK和CK，而通过Chain-of-Thought提示生成的NLEs通过降低对PK的依赖而转向了CK。该研究首次通过更丰富的排名为2的子空间解开提供了系统研究LLMs中多步知识互动的框架。代码和数据在此URL链接中。",
+        "地址": "https://arxiv.org/pdf/2511.01706.pdf"
+    },
+    {
+        "名称": "2025 [2511.01144] AthenaBench: A Dynamic Benchmark for Evaluating LLMs in Cyber Threat Intelligence.pdf",
+        "作者": "Md Tanvirul Alam, Dipkamal Bhusal, Salman Ahmad, Nidhi Rastogi, Peter Worth",
+        "摘要": "以下是学术论文的摘要翻译：\n\n摘要：大型语言模型（LLMs）在自然语言推理方面展现出强大的能力，但其在网络威胁情报（CTI）中的应用仍然有限。CTI分析涉及将大量非结构化报告提炼为可操作的信息，这一过程中LLMs可以显著减少分析人员的工作量。CTIBench引入了一个综合基准，用于评估LLMs在多项CTI任务中的表现。在这项工作中，我们扩展了CTIBench，开发了AthenaBench，一个包含改进的数据集创建流程、重复数据删除、精炼的评估标准以及专注于风险缓解策略的新任务的增强基准。我们评估了包括最新的专有模型如GPT-5和Gemini-2.5 Pro在内的十二个LLMs，以及来自LLaMA和Qwen系列的七个开源模型。尽管专有LLMs整体表现更强，但它们在推理密集型任务（如威胁溯源和风险缓解策略）上的表现仍然不佳，开源模型的表现甚至更差。这些发现凸显了当前LLMs在推理能力上的根本性限制，并强调了需要专门针对CTI工作流程和自动化的模型。",
+        "地址": "https://arxiv.org/pdf/2511.01144.pdf"
+    }
+]
