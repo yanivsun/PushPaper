@@ -1,0 +1,140 @@
+[
+    {
+        "名称": "2025 [2510.25616] Don't Blind Your VLA: Aligning Visual Representations for OOD Generalization.pdf",
+        "作者": "Nikita Kachaev, Mikhail Kolosov, Daniil Zelezetsky, Alexey K. Kovalev, Aleksandr I. Panov",
+        "摘要": "摘要: 视觉-语言-行动（VLA）模型的成功源于预训练的视觉-语言模型（VLMs）能够为智能体提供可迁移的世界知识和视觉-语言基础，为具有更广泛泛化能力的行动模型奠定基础。然而，当这些VLMs适应到行动模式时，其初始的视觉-语言表示和知识在多大程度上得以保留仍不清楚。在这项工作中，我们对VLA微调过程中的表示保留进行系统研究，结果显示，简单的行动微调会导致视觉表示的退化。为描述和测量这些效果，我们探究了VLA的隐藏表示并分析了注意力图，进一步设计了一系列有针对性的任务和方法，对比VLA模型与其VLMs模型的不同，隔离出由行动微调所引起的视觉-语言能力变化。我们还评估了一系列对齐视觉表示的策略，并提出了一种简洁有效的方法，可以减轻退化并改善对分布外（OOD）场景的泛化能力。综合来看，我们的分析澄清了行动微调和视觉-语言表示退化之间的权衡，并强调了恢复继承的视觉-语言能力的实际方法。代码公开可用：此https网址。",
+        "地址": "https://arxiv.org/pdf/2510.25616.pdf"
+    },
+    {
+        "名称": "2025 [2511.02778] VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation.pdf",
+        "作者": "Kevin Qinghong Lin, Yuhao Zheng, Hangyu Ran, Dantong Zhu, Dongxing Mao, Linjie Li, Philip Torr, Alex Jinpeng Wang",
+        "摘要": "摘要: 代码在代理时代已成为推理和行动的精确可执行媒介。然而，目前的进展主要集中在语言中心任务，如程序合成和调试，而视觉中心编码尚未得到充分探索。受人类如何通过草图进行推理的启发，我们倡导使用SVG代码作为紧凑的、可解释的和可执行的视觉表示。我们引入了VCode，一个将多模态理解重新定义为代码生成的基准：给定一个图像，模型必须生成保持符号意义的SVG，以供后续推理。VCode涵盖三个领域——一般常识（MM-Vet）、专业学科（MMMU）和视觉中心感知（CV-Bench）。为了评估符号忠实度，我们提出了CodeVQA，这是一种新颖的评价协议，其中策略模型回答关于渲染的SVG的问题；正确答案表明符号保留是准确的。实验证明，前沿的VLMs在生成忠实的SVG上仍挣扎，揭示了语言中心编码与视觉中心编码之间的持续差距。为了弥合这一差距，我们引入了VCoder，一个增强VLMs的代理框架，从两个方面进行改进：（i）通过修订进行思考，迭代分析差异并改进SVG代码；（ii）通过视觉工具进行行动，检测器和解析器提供超出模型内在能力的结构化线索，如对象、形状和文本。在各项基准测试中，具有强大推理能力的前沿VLMs总体表现优秀，但在专业知识和3D推理方面仍然有限。VCoder比表现最好的Claude-4-Opus整体提高了12.3分。人类研究表明，无论是人类还是VLMs在渲染的SVG上表现都较差，它们的一致性揭示了符号视觉表示的前景。该基准和代码可在此https URL获得。\n\n作者: Kevin Qinghong Lin, Yuhao Zheng, Hangyu Ran, Dantong Zhu, Dongxing Mao, Linjie Li, Philip Torr, Alex Jinpeng Wang\n\n备注: 项目页面: 此https URL Github: 此https URL\n\n网址: https://arxiv.org/pdf/2511.02778.pdf\n\n标题: 2025 [2511.02778] VCode: 一个以SVG为符号视觉表示的多模态编码基准.pdf",
+        "地址": "https://arxiv.org/pdf/2511.02778.pdf"
+    },
+    {
+        "名称": "2025 [2511.02779] When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for Visual Chain-of-Thought.pdf",
+        "作者": "Yiyang Zhou, Haoqin Tu, Zijun Wang, Zeyu Wang, Niklas Muennighoff, Fan Nie, Yejin Choi, James Zou, Chaorui Deng, Shen Yan, Haoqi Fan, Cihang Xie, Huaxiu Yao, Qinghao Ye",
+        "摘要": "摘要：我们提出了MIRA，这是一个新的基准，用于在生成中间视觉图像是成功推理的关键情景下评估模型。与仅依赖文本的传统CoT方法不同，MIRA中的任务要求模型生成和利用中间图像——例如草图、结构图或路径图——以指导其推理过程。这种设置类似于人类通过“画图思维”解决复杂问题的方法。为了解决这一问题，MIRA注重本质上具有挑战性且涉及复杂结构、空间关系或仅通过语言难以表达的推理步骤的任务。为了确保我们的评估数据质量，我们包括546个多模态问题，配有中间视觉图像和最终答案。我们还提出一个统一的MIRA评估协议，涵盖三种评估输入级别：仅图像和问题的直接输入，仅文本CoT输入带图像和思维提示，以及Visual-CoT输入带有注释图像线索和文本思维提示。为了探测模型在我们基准上的上限能力，我们还报告了在不同k设置下的pass@k和多数投票准确性。实验结果表明，现有的多模态大语言模型，包括最强的私有模型和强有力的开放权重模型，在仅依靠文本提示时表现不佳。然而，当提供中间视觉线索时，模型性能稳定提升，所有模型和任务的平均相对增益为33.7%。我们还通过扩大搜索空间和设计与Visual-CoT一致的文本提示来探测上限，但相比于我们的Visual-CoT设置均仅取得有限的改进。这些结果突显了想象视觉信息在MIRA上实现成功推理的关键作用。",
+        "地址": "https://arxiv.org/pdf/2511.02779.pdf"
+    },
+    {
+        "名称": "2025 [2511.02243] When Modalities Conflict: How Unimodal Reasoning Uncertainty Governs Preference Dynamics in MLLMs.pdf",
+        "作者": "Zhuoran Zhang, Tengyue Wang, Xilin Gong, Yang Shi, Haotian Wang, Di Wang, Lijie Hu",
+        "摘要": "以下是摘要的中文翻译：\n\n摘要：多模态大语言模型（MLLMs）在不同模态提供矛盾信息时需要解决冲突，我们称之为模态跟随。之前的研究仅通过粗略的数据库统计来衡量这种行为，忽略了模型在单模态推理中的信心影响。本文提出了一个新的框架，将模态跟随分解为两个基本因素：相对推理不确定性（单模态预测之间特定情况下的信心差距）和固有模态偏好（在不确定性平衡时模型的稳定偏好）。为了验证该框架，我们构建了一个可控数据集，系统地改变视觉和文本输入的推理难度。使用熵作为细粒度不确定性度量，我们发现一条普遍规律：随着相对不确定性的增加，跟随某个模态的概率单调递减。在模型倾向于以相似概率跟随两种模态的相对难度水平——我们称之为平衡点，这成为模型固有偏好的实际指示器。与传统的宏观比例不同，这种度量方法提供了一种更为原则化且不易混淆的方法来表征模态偏差，将其与单模态能力和数据集伪影区分开来。此外，通过层级预测探测，我们揭示了振荡的内部机制：在接近平衡点的模糊区域，模型在层级之间在模态间摇摆不定，解释了外部观察到的犹豫现象。这些发现共同确立了相对不确定性和固有偏好作为模态跟随的两个主导原则，提供了一个定量框架和机制性的洞察，解释了MLLMs如何解决冲突信息。\n\nAuthors（作者）：Zhuoran Zhang, Tengyue Wang, Xilin Gong, Yang Shi, Haotian Wang, Di Wang, Lijie Hu\n\nComments（注释）：19页\n\nURL（链接）：https://arxiv.org/pdf/2511.02243.pdf\n\nTitle（标题）：2025 [2511.02243] 当模态冲突时：单模态推理不确定性如何主导MLLMs中的偏好动态",
+        "地址": "https://arxiv.org/pdf/2511.02243.pdf"
+    },
+    {
+        "名称": "2025 [2511.02687] The Collaboration Gap.pdf",
+        "作者": "Tim R. Davidson, Adam Fourney, Saleema Amershi, Robert West, Eric Horvitz, Ece Kamar",
+        "摘要": "摘要：AI发展的轨迹表明，我们将越来越依赖由具有不同信息、权限和工具的独立开发代理组成的基于代理的系统。这些系统的成功关键在于这些异质代理之间在部分可观测性情况下的有效协作。尽管对此有浓厚的兴趣，但很少有实证研究在大规模上评估这种代理间协作。我们提出了一个协作迷宫解决基准，（i）隔离协作能力，（ii）调节问题复杂性，（iii）实现可扩展的自动评分，（iv）不施加输出格式限制，保持生态合理性。使用此框架，我们评估了32个领先的开源和闭源模型在单独、同质和异质配对中的表现。我们的结果揭示了一个“协作差距”：单独表现良好的模型在需要协作时通常会显著下降。协作可能会明显失败，例如，单独解决迷宫效果好的小型蒸馏模型在某些配对情况下几乎完全失败。我们发现，从较强的代理开始通常会改善结果，激励一种“接力推理”方法，其中较强的代理先行，然后交给较弱的代理，弥合了大部分差距。我们的发现支持（1）协作意识评估，（2）旨在增强协作能力的训练策略，以及（3）可靠地引出代理潜在技能的交互设计，这些指导适用于AI-AI和人类-AI协作。",
+        "地址": "https://arxiv.org/pdf/2511.02687.pdf"
+    },
+    {
+        "名称": "2025 [2510.25976] Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer.pdf",
+        "作者": "Roman Beliy, Amit Zalcher, Jonathan Kogman, Navve Wasserman, Michal Irani",
+        "摘要": "摘要: 从人的功能性磁共振成像（fMRI）脑记录重建其看到的图像提供了一个非侵入性的人脑窗口。尽管扩散模型在近期取得了进展，但当前方法往往无法忠实地再现实际看到的图像。我们提出了“Brain-IT”，一种通过脑交互转换器（BIT）解决这一挑战的脑启发方法，允许功能相似脑体素簇之间进行有效交互。这些功能簇为所有受试者共享，作为在脑内及跨脑整合信息的构建模块。所有模型组件为所有簇和受试者共享，允许在有限数据量下有效训练。为了指导图像重建，BIT预测两种互补的局部图像特征：(i)高层语义特征，引导扩散模型朝向图像的正确语义内容；(ii)低层结构特征，帮助以正确的粗略布局初始化扩散过程。BIT的设计使信息直接从脑体素簇流向局部图像特征。通过这些原理，我们的方法实现了从fMRI图像的忠实重构，并在视觉和标准客观度量上超过了当前的最佳方法。此外，仅用一个新受试者的一小时fMRI数据，我们便取得了与当前方法训练40小时记录相当的结果。\n\n",
+        "地址": "https://arxiv.org/pdf/2510.25976.pdf"
+    },
+    {
+        "名称": "2025 [2511.02650] Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models.pdf",
+        "作者": "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, Kailin Jiang, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui",
+        "摘要": "摘要：大型多模态模型（LMMs）由于图像编码器引入的大量视觉令牌，通常存在严重的推理效率低下问题。虽然最近的令牌压缩方法（例如剪枝和合并）在减少冗余方面显示了前景，但它们的评估仍然零散且不一致。在这项工作中，我们提出了一个统一且可扩展的多模态大型语言模型的视觉令牌剪枝基准，名为UniPruneBench。UniPruneBench提供了涵盖六个能力维度和十个数据集的标准化协议，涵盖了十个代表性压缩算法和三类多模态大型语言模型（LLaVA-v1.5、Intern-VL3和Qwen2.5-VL）。除了任务准确性外，它还结合了系统级指标，如运行时间和预填充延迟，以提供整体视图。我们的实验揭示了几个关键发现：（1）随机剪枝是一个出乎意料的强基准，（2）没有单一方法在所有情况下都能始终优于其他方法，（3）剪枝的敏感性在不同任务间显著变化，其中OCR最为脆弱，以及（4）剪枝比例是决定性能退化的主要因素。我们相信，UniPruneBench将成为未来高效多模态建模研究的可靠基础。",
+        "地址": "https://arxiv.org/pdf/2511.02650.pdf"
+    },
+    {
+        "名称": "2025 [2511.02347] LTD-Bench: Evaluating Large Language Models by Letting Them Draw.pdf",
+        "作者": "Liuhao Lin, Ke Li, Zihan Xu, Yuchen Shi, Yulei Qin, Yan Zhang, Xing Sun, Rongrong Ji",
+        "摘要": "摘要：当前对大型语言模型（LLMs）的评估范式在AI研究中存在一个关键的盲点——依赖于不透明的数值指标，这些指标掩盖了空间推理方面的基本缺陷，同时未能直观地理解模型的能力。这一缺陷在报告的性能与实际能力之间造成了危险的脱节，尤其是对于需要物理世界理解的应用。我们引入了LTD-Bench，这是一项突破性的基准， 将LLM的评估从抽象的评分转变为可直接观察的视觉输出，要求模型通过点矩阵或可执行代码生成图画。这个方法使得空间推理的局限性即使对非专家来说也一目了然，弥合了统计性能和直观评估之间的根本差距。LTD-Bench实施了一个综合性的方法论，通过相辅相成的生成任务（测试空间想象力）和识别任务（评估空间感知能力），在三个逐步增加难度的级别上，对关键的语言-空间映射的双向能力进行系统评估。我们对最先进的模型进行了广泛的实验，揭示了一个令人担忧的能力差距：即使是在传统基准测试中取得惊人结果的LLM，在建立语言和空间概念之间的双向映射方面表现出严重不足——这一基本缺陷削弱了它们作为真正世界模型的潜力。此外，LTD-Bench的视觉输出使得强大的诊断分析成为可能，提供了一种潜在的方法来调查模型的相似性。\n\n论文作者：Liuhao Lin, Ke Li, Zihan Xu, Yuchen Shi, Yulei Qin, Yan Zhang, Xing Sun, Rongrong Ji\n\n评论：已被NeurIPS 2025接收\n\n论文链接：https://arxiv.org/pdf/2511.02347.pdf\n\n标题：2025 [2511.02347] LTD-Bench: Evaluating Large Language Models by Letting Them Draw.pdf",
+        "地址": "https://arxiv.org/pdf/2511.02347.pdf"
+    },
+    {
+        "名称": "2025 [2511.01937] Shorter but not Worse: Frugal Reasoning via Easy Samples as Length Regularizers in Math RLVR.pdf",
+        "作者": "Abdelaziz Bounhar, Hadi Abdine, Evan Dufraisse, Ahmad Chamma, Amr Mohamed, Dani Bouch, Michalis Vazirgiannis, Guokan Shang",
+        "摘要": "摘要: 大型语言模型（LLMs）在进行逐步推理时通常会变得过于冗长，从而增加了推理成本。标准的带有可验证奖励的强化学习（RLVR）流程会过滤掉“简单”的问题以提高训练效率，使模型主要在需要较长推理链的难题上进行训练。这会导致输出长度分布向上偏斜，结果是\\textbf{模型将“思考更久”与“思考更好”混为一谈}。在这项工作中，我们展示了保留并适度加权中等难度的问题，作为一种隐含的长度正则化器。暴露模型于可解的短链任务约束其输出分布并防止冗长的推理。结果是\\textbf{\\emph{免费产生简洁性}}：模型学习解决困难问题而不增加输出长度，\\textbf{尽管没有任何明确的长度惩罚}。使用这种方法在\\textit{Qwen3-4B-Thinking-2507}（具有16k标记限制）上进行的RLVR实验在生成解决方案长度平均缩短近一倍的同时，达到了基线的pass@1 AIME25准确性。代码可以在\\href{this https URL}{GitHub}上获取，数据集和模型可以在\\href{this https URL}{Hugging Face}上获取。",
+        "地址": "https://arxiv.org/pdf/2511.01937.pdf"
+    },
+    {
+        "名称": "2025 [2511.00839] CodeClash: Benchmarking Goal-Oriented Software Engineering.pdf",
+        "作者": "John Yang, Kilian Lieret, Joyce Yang, Carlos E. Jimenez, Ofir Press, Ludwig Schmidt, Diyi Yang",
+        "摘要": "摘要: 目前针对编码的基准评估旨在衡量语言模型（LMs）在具体、明确的任务上的表现，例如修复特定的错误或编写有针对性的测试。然而，人类程序员并不是一整天都在解决孤立的任务。相反，现实世界的软件开发是以实现高层次目标为基础的，比如提高用户留存率或降低成本。评估语言模型是否也能在没有明确指导的情况下，迭代开发代码以更好地实现开放性目标仍然是一个未解的挑战。为了解决这个问题，我们引入了CodeClash，一个语言模型在多轮比赛中竞争以构建最佳代码库以实现竞争目标的基准。每轮比赛分为两个阶段：代理编辑其代码，然后其代码库在一个代码竞技场中正面较量，基于得分最大化、资源获取或生存等目标来确定获胜者。无论是撰写注释、审查文档、分析竞赛日志，还是创建测试套件，模型必须自行决定如何在绝对上以及相对于对手改进其代码库。我们运行了1680场比赛（共25200轮）以评估8个语言模型在6个竞技场中的表现。我们的结果显示，尽管模型表现出多样化的开发风格，但它们在战略推理上存在基本的限制。模型还在长期代码库维护方面存在困难，因为代码库会逐渐变得混乱和冗余。这些局限性是显著的：顶级模型在每轮比赛中都输给了专家人类程序员。我们开源了CodeClash，以推动对自主、目标导向代码开发的研究。",
+        "地址": "https://arxiv.org/pdf/2511.00839.pdf"
+    },
+    {
+        "名称": "2025 [2511.02832] TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System.pdf",
+        "作者": "Yanjie Ze, Siheng Zhao, Weizhuo Wang, Angjoo Kanazawa, Rocky Duan, Pieter Abbeel, Guanya Shi, Jiajun Wu, C. Karen Liu",
+        "摘要": "摘要: 大规模数据推动了机器人领域的突破，从语言模型到双手操作中的视听语言动作模型。然而，人形机器人缺乏同样有效的数据收集框架。现有的人形远程操作系统要么使用分离控制，要么依赖昂贵的动作捕捉设备。我们介绍了TWIST2，一种便携的、无动作捕捉的人形远程操作和数据收集系统，该系统在提高可扩展性的同时保留了完整的全身控制。我们的系统利用PICO4U VR获取实时全身人类动作，并配备定制的2自由度机器人颈部（成本约为250美元）用于自我视觉，实现全人类到人形控制。我们展示了长期的灵巧和移动人形技能，并且可以在15分钟内收集100个演示，成功率几乎为100%。基于这个管道，我们提出了一个分层的视听运动策略框架，基于自我视觉自主控制整个形体。我们的视听运动策略成功展示了全身灵巧操作和动态踢球任务。整个系统完全可复现，并在该网址开源。我们收集的数据集也在该网址开源。",
+        "地址": "https://arxiv.org/pdf/2511.02832.pdf"
+    },
+    {
+        "名称": "2025 [2511.01914] iFlyBot-VLA Technical Report.pdf",
+        "作者": "Yuan Zhang, Chenyu Xue, Wenjie Xu, Chao Ji, Jiajia wu, Jia Pan",
+        "摘要": "摘要：本文介绍了iFlyBot-VLA，一种在新框架下训练的大规模视觉-语言-动作（VLA）模型。主要贡献如下：(1) 一个在大规模人类和机器人操作视频上彻底训练的潜在动作模型；(2) 一个双层动作表示框架，该框架在训练期间共同监督视觉-语言模型（VLM）和动作专家；(3) 一种混合训练策略，将机器人轨迹数据与一般QA和空间QA数据集结合，有效增强了VLM骨干的3D感知和推理能力。具体来说，VLM被训练来预测两种互补形式的动作：潜在动作，源自我们在跨载体操作数据上预训练的潜在动作模型，捕捉隐含的高层次意图；以及通过连续控制信号的频域转换获得的结构化离散动作令牌，编码明确的低层次动态。这种双重监督使语言、视觉和动作的表示空间对齐，使VLM能够直接促进动作生成。在LIBERO Franka基准上的实验结果证明了我们框架的优越性，而现实世界评估进一步表明iFlyBot-VLA在各种具有挑战性的操作任务中实现了具有竞争力的成功率。此外，我们计划开源部分自建数据集，以支持社区的未来研究。\n\n翻译：本文介绍了iFlyBot-VLA，一种在新框架下训练的大规模视觉-语言-动作（VLA）模型。主要贡献如下：(1) 一个在大规模人类和机器人操作视频上彻底训练的潜在动作模型；(2) 一个双层动作表示框架，该框架在训练期间共同监督视觉-语言模型（VLM）和动作专家；(3) 一种混合训练策略，将机器人轨迹数据与一般QA和空间QA数据集结合，有效增强了VLM骨干的3D感知和推理能力。具体来说，VLM被训练来预测两种互补形式的动作：潜在动作，源自我们在跨载体操作数据上预训练的潜在动作模型，捕捉隐含的高层次意图；以及通过连续控制信号的频域转换获得的结构化离散动作令牌，编码明确的低层次动态。这种双重监督使语言、视觉和动作的表示空间对齐，使VLM能够直接促进动作生成。在LIBERO Franka基准上的实验结果证明了我们框架的优越性，而现实世界评估进一步表明iFlyBot-VLA在各种具有挑战性的操作任务中实现了具有竞争力的成功率。此外，我们计划开源部分自建数据集，以支持社区的未来研究框架的优越性。实验结果在LIBERO Franka基准上的实验结果证明了我们框架的优越性，而现实世界评估进一步表明iFlyBot-VLA在各种具有挑战性的操作任务中实现了具有竞争力的成功率。此外我们计划开源部分自建数据集，以支持社区的未来研究。",
+        "地址": "https://arxiv.org/pdf/2511.01914.pdf"
+    },
+    {
+        "名称": "2025 [2511.02490] BRAINS: A Retrieval-Augmented System for Alzheimer's Detection and Monitoring.pdf",
+        "作者": "Rajan Das Gupta, Md Kishor Morol, Nafiz Fahad, Md Tanzib Hosain, Sumaya Binte Zilani Choya, Md Jakir Hossen",
+        "摘要": "摘要：随着全球阿尔茨海默病（AD）负担的不断增加，早期和准确的检测变得越来越重要，尤其是在缺乏先进诊断工具的地区。我们提出了BRAINS（用于神经退行性病筛查的生物医学检索增强智能）来应对这一挑战。该新系统利用大型语言模型（LLM）的强大推理能力进行阿尔茨海默病的检测和监测。BRAINS具有双模块架构：认知诊断模块和案例检索模块。诊断模块利用在认知和神经影像数据集——包括MMSE、CDR评分和脑容量指标——上微调的LLM进行结构化的阿尔茨海默病风险评估。同时，案例检索模块将患者档案编码为潜在表示并从精选的知识库中检索相似案例。这些辅助案例通过案例融合层与输入档案融合以增强上下文理解。然后结合的表示通过临床提示进行推断。对实际数据集的评估表明BRAINS在疾病严重程度分类和识别认知衰退早期迹象方面的有效性。该系统不仅展示了作为可扩展、可解释和早期阿尔茨海默病检测辅助工具的强大潜力，还为未来在该领域的应用提供了希望。\n\n翻译：随着全球阿尔茨海默病负担的不断增加，早期和准确的检测变得越来越重要，特别是在缺乏先进诊断工具的地区。我们提出了BRAINS（用于神经退行性病筛查的生物医学检索增强智能）来解决这个问题。这个新系统利用大型语言模型（LLM）的强大推理能力进行阿尔茨海默病的检测和监测。BRAINS具有双模块架构：认知诊断模块和案例检索模块。诊断模块利用了在认知和神经影像数据集（包括MMSE、CDR评分和脑容量指标）上微调的LLM进行结构化的阿尔茨海默病风险评估。而案例检索模块则将患者档案编码为潜在表示，从精选知识库中检索相似案例。辅助案例通过案例融合层与输入档案融合，增强了上下文理解。然后结合的表示通过临床提示进行推断。对实际数据集的评估显示出BRAINS在疾病严重程度分类以及识别认知衰退早期迹象方面的有效性。该系统不仅展示了作为可扩展、可解释以及早期阿尔茨海默病检测辅助工具的强大潜力，还为该领域未来的应用提供了希望。",
+        "地址": "https://arxiv.org/pdf/2511.02490.pdf"
+    },
+    {
+        "名称": "2025 [2511.02415] ChartM$^3$: A Multi-Stage Code-Driven Pipeline for Constructing Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension.pdf",
+        "作者": "Duo Xu, Hao Cheng, Xin Lin, Zhen Xie, Hao Wang",
+        "摘要": "摘要：复杂的图表理解任务要求多模态大语言模型（MLLMs）具备高级的视觉识别和推理能力。然而，目前的研究在复杂图表场景和计算密集型推理任务中提供的覆盖有限，在实际应用中普遍存在。本研究提出了一种自动化的多阶段代码驱动的流水线，用于系统性地生成视觉推理数据集，以应对这些限制。该流程集成了检索增强生成（RAG）技术，以检索专业图表模板，并采用链式思维（CoT）策略生成推理代码，模拟实际数据分布，从而驱动图表渲染和与问题相关的统计计算。通过基于模型的评估，流程增强了图表的多样性和数据质量。利用该框架，我们构建了ChartM$^3$，一个包含38K图表和142K问答对用于训练的多维度和多步骤数据集，以及2,871个高质量的评估样本，用于实现实际性能评估。监督微调（SFT）和强化学习（RL）实验表明，我们的数据集显著提高了推理能力和跨领域的泛化性能，使较小的模型在复杂图表理解中达到与大规模模型相当的性能。\n\n译者：Duo Xu, Hao Cheng, Xin Lin, Zhen Xie, Hao Wang\n\n评论：23页，EMNLP25 接受\n\n链接：https://arxiv.org/pdf/2511.02415.pdf\n\n标题：2025 [2511.02415] ChartM$^3$：一个用于构建多维度和多步骤视觉推理数据的多阶段代码驱动流水线在图表理解中的应用",
+        "地址": "https://arxiv.org/pdf/2511.02415.pdf"
+    },
+    {
+        "名称": "2025 [2510.17950] RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies.pdf",
+        "作者": "Adina Yakefu, Bin Xie, Chongyang Xu, Enwen Zhang, Erjin Zhou, Fan Jia, Haitao Yang, Haoqiang Fan, Haowei Zhang, Hongyang Peng, Jing Tan, Junwen Huang, Kai Liu, Kaixin Liu, Kefan Gu, Qinglun Zhang, Ruitao Zhang, Saike Huang, Shen Cheng, Shuaicheng Liu, Tiancai Wang, Tiezhen Wang, Wei Sun, Wenbin Tang, Yajun Wei, Yang Chen, Youqiang Gui, Yucheng Zhao, Yunchao Ma, Yunfei Wei, Yunhuan Yang, Yutong Guo, Ze Chen, Zhengyuan Du, Ziheng Zhang, Ziming Liu, Ziwei Yan",
+        "摘要": "摘要: 在真实机器上进行测试对于机器人控制算法至关重要。在基于学习的算法，特别是VLA（视觉-语言-动作）模型的背景下，大规模评估， 即在大量任务上测试大量模型的需求日益紧迫。然而，要做好这项工作尤其困难，特别是在考虑可扩展性和可重复性的时候。在本报告中，我们描述了构建RoboChallenge的 方法论，这是一个在线评估系统，用于测试机器人控制算法，以及我们对最近最先进的VLA模型的调查，使用我们的初始基准Table30。",
+        "地址": "https://arxiv.org/pdf/2510.17950.pdf"
+    },
+    {
+        "名称": "2025 [2511.02712] VidEmo: Affective-Tree Reasoning for Emotion-Centric Video Foundation Models.pdf",
+        "作者": "Zhicheng Zhang, Weicheng Wang, Yongjie Zhu, Wenyu Qin, Pengfei Wan, Di Zhang, Jufeng Yang",
+        "摘要": "摘要:\n从视频中理解和预测情感由于视频大语言模型（VideoLLMs）的进步，近年来受到了显著关注。虽然先进的方法在视频情感分析方面取得了进展，但情感的内在性质带来了巨大的挑战。情感具有动态和依赖线索的特性，这使得理解复杂和不断变化的情感状态变得困难。为了应对这些挑战，我们提出了一种新颖的情感线索引导推理框架，该框架在分阶段方式中统一了基本属性感知、表达分析和高级情感理解。我们的方法核心是一系列专为情感推理和指令跟随设计的视频情感基础模型（VidEmo）。这些模型经历了两阶段的微调过程：首先是情感课程学习，用于注入情感知识，然后是情感树强化学习，用于情感推理。此外，我们建立了基础数据基础设施，并引入了一个情感中心的细粒度数据集（Emo-CFG），包括2.1M多样化的基于指令的样本。Emo-CFG包括可解释的情感问答、细粒度的描述和相关的理由，为推进情感理解任务提供了必要的资源。实验结果表明，我们的方法在15个面部感知任务中达到了有竞争力的表现，设立了新的里程碑。\n\n作者:\n张志成, 王维成, 朱永杰, 秦文宇, 万鹏飞, 张迪, 杨巨峰\n\n评论:\n41页，26张图\n\n链接:\n[https://arxiv.org/pdf/2511.02712.pdf](https://arxiv.org/pdf/2511.02712.pdf)\n\n标题:\nVidEmo: 基于情感树推理的情感中心视频基础模型",
+        "地址": "https://arxiv.org/pdf/2511.02712.pdf"
+    },
+    {
+        "名称": "2025 [2511.02374] AyurParam: A State-of-the-Art Bilingual Language Model for Ayurveda.pdf",
+        "作者": "Mohd Nauman, Sravan Gvm, Vijay Devane, Shyam Pawar, Viraj Thakur, Kundeshwar Pundalik, Piyush Sawarkar, Rohit Saluja, Maunendra Desarkar, Ganesh Ramakrishnan",
+        "摘要": "摘要：当前的大型语言模型在广泛的通用任务方面表现出色，但在需要深厚文化、语言和专题知识的高度专业化领域中则表现不佳。尤其是像阿育吠陀这样的传统医疗系统，包含了几百年积累的细致文本和临床知识，主流的大型语言模型无法准确解释或应用这些知识。我们介绍了AyurParam-2.9B，这是一个从Param-1-2.9B微调而来的领域专业化双语语言模型，使用了广泛且专业策划的阿育吠陀数据集，涵盖了经典文本和临床指导。AyurParam的数据集包含了上下文感知、推理和客观式问答（Q&A），并且有严格的注释协议以确保事实的精准性和指导的清晰性。在BhashaBench-Ayur基准测试中，AyurParam不仅超越了所有开源指令微调模型的大小类别（1.5-3B参数），而且显示出与更大模型相比的竞争性或优越表现。AyurParam的结果凸显了在提供可靠、文化一致的AI用于专业医疗知识时，进行真实领域适配和高质量监督的必要性。\n\n翻译：大型语言模型在广泛的通用任务方面表现出色，但在需要深厚文化、语言和专题知识的高度专业化领域表现不佳。特别是像阿育吠陀这样的传统医疗系统，包含了几个世纪积累的细致文本和临床知识，主流的大型语言模型无法准确解释或应用这些知识。我们引入了AyurParam-2.9B，这是一款领域专业化的双语语言模型，通过使用广泛且专业策划的阿育吠陀数据集进行微调，涵盖了经典文本和临床指导。AyurParam的数据集包含上下文感知、推理和客观式问答（Q&A），并具有严格的注释协议，以确保事实的精确性和指导的清晰性。在BhashaBench-Ayur基准测试中，AyurParam不仅在其大小类（1.5-3B参数）中超过了所有开源指令微调模型，还表现出与更大模型相比的竞争力或优越性。AyurParam的结果强调了在提供可靠、文化一致的人工智能用于专业医疗知识时，进行真实领域适应和高质量监督的必要性。",
+        "地址": "https://arxiv.org/pdf/2511.02374.pdf"
+    },
+    {
+        "名称": "2025 [2511.02219] TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning in Tabular Data.pdf",
+        "作者": "Changjiang Jiang, Fengchang Yu, Haihua Chen, Wei Lu, Jin Zeng",
+        "摘要": "摘要：在现实世界的数据分析中，复杂的表格数据推理至关重要，但大型语言模型（LLMs）常因复杂查询、噪声数据和有限的数值能力而表现不佳。为了解决这些问题，我们提出了TabDSR，这一框架包括： (1) 一个将复杂问题分解的查询分解器，(2) 一个清理和过滤噪声表格的表格清理器，以及 (3) 一个基于思维程序（PoT）的推理器，可生成可执行代码以从清理后的表格中得出最终答案。为了确保无偏评估并减轻数据泄漏的影响，我们引入了一个新的数据集CalTab151，该数据集专门用于复杂的表格数值推理。实验结果表明，TabDSR在TAT-QA、TableBench和TabDSR上的准确率分别提高了8.79%、6.08%和19.87%，始终优于现有方法，达到了最先进的（SOTA）性能。此外，我们的框架能够无缝集成主流的LLMs，为复杂表格数值推理提供了强有力的解决方案。这些研究结果突显了我们的框架在增强LLM处理复杂表格数值推理能力方面的有效性。数据和代码可按要求获取。\n\n作者：常江江，俞凤昌，陈海华，卢伟，曾晋\n\n备注：已被EMNLP 2025 Findings接受\n\n链接：https://arxiv.org/pdf/2511.02219.pdf\n\n标题：2025 [2511.02219] TabDSR: 分解、清理与推理用于表格数据中的复杂数值推理.pdf",
+        "地址": "https://arxiv.org/pdf/2511.02219.pdf"
+    },
+    {
+        "名称": "2025 [2511.01450] Reg-DPO: SFT-Regularized Direct Preference Optimization with GT-Pair for Improving Video Generation.pdf",
+        "作者": "Jie Du, Xinyu Gong, Qingshan Tan, Wen Li, Yangming Cheng, Weitao Wang, Chenlu Zhan, Suhui Wu, Hao Zhang, Jun Zhang",
+        "摘要": "摘要：最近的研究发现，直接偏好优化（DPO）是一种有效且无需奖励的方法，可以提高视频生成质量。然而，现有方法主要遵循图像领域的范式，并且主要是在小规模模型（约2B参数）上开发，无法解决视频任务的独特挑战，例如高成本的数据构建、不稳定的训练以及大量的内存消耗。为了克服这些限制，我们引入了GT-Pair，通过使用真实视频作为正样本和模型生成视频作为负样本，自动构建高质量偏好对，无需任何外部标注。我们进一步提出了Reg-DPO，它将SFT损失作为正则项纳入DPO损失，以增强训练稳定性和生成保真度。此外，通过结合FSDP框架和多种内存优化技术，我们的方法在训练容量上实现了近三倍的提升。针对多个数据集上的I2V和T2V任务进行的大量实验表明，我们的方法始终优于现有方法，提供了更高质量的视频生成。\n\n作者: 杜杰, 龚欣雨, 谭庆山, 李文, 程阳明, 王魏涛, 詹晨璐, 吴苏辉, 张浩, 张俊\n\n链接：https://arxiv.org/pdf/2511.01450.pdf",
+        "地址": "https://arxiv.org/pdf/2511.01450.pdf"
+    },
+    {
+        "名称": "2025 [2510.24932] RiddleBench: A New Generative Reasoning Benchmark for LLMs.pdf",
+        "作者": "Deepon Halder, Alan Saji, Thanmay Jayakumar, Ratish Puduppully, Anoop Kunchukuttan, Raj Dabre",
+        "摘要": "摘要：大型语言模型在许多已建立的推理基准测试中表现出色。然而，这些基准测试主要评估结构化技能，如定量问题解决，从而缺乏评估灵活、多方面推理能力的手段，这些能力对于人类智能至关重要。这些能力需要结合逻辑推理与空间意识和约束满足，而目前的评估不能很好地测量这些能力。为此，我们引入了RiddleBench，这是一个包含1737个具有挑战性的英语谜题的基准测试，旨在探讨这些核心推理能力。对现有最先进模型在RiddleBench上的评估表现出根本性的弱点。即使是顶级专有模型，如Gemini 2.5 Pro、o3和Claude 4 Sonnet，其准确率也刚刚超过60%（分别为60.30%、63.37%和63.16%）。分析进一步揭示了深层次的失败，包括幻觉级联（接受其他模型的错误推理）和由于强烈的自我确认偏见导致的自我纠正不良。它们的推理也很脆弱，当约束重新排序或引入无关信息时表现显著下降。RiddleBench功能作为这些问题的诊断工具，并作为指导开发更健壮和可靠的语言模型的资源。\n\n作者：Deepon Halder、Alan Saji、Thanmay Jayakumar、Ratish Puduppully、Anoop Kunchukuttan、Raj Dabre\n\n标题：2025 [2510.24932] RiddleBench: 大型语言模型的新生成推理基准测试\n\n链接：https://arxiv.org/pdf/2510.24932.pdf",
+        "地址": "https://arxiv.org/pdf/2510.24932.pdf"
+    },
+    {
+        "名称": "2025 [2510.19278] D2D: Detector-to-Differentiable Critic for Improved Numeracy in Text-to-Image Generation.pdf",
+        "作者": "Nobline Yoo, Olga Russakovsky, Ye Zhu",
+        "摘要": "摘要：文本到图像（T2I）扩散模型在语义对齐方面已取得显著性能，但在生成提示中指定的正确数量的对象时仍存在困难。现有方法通常将辅助计数网络作为外部评论者来增强计数能力。然而，由于这些评论者在生成过程中必须提供梯度指导，因此它们仅限于本质上可微的回归模型，从而排除具有更优计数能力的基于检测器的模型，其通过枚举进行计数的性质是不可微的。为克服这一限制，我们提出了检测器到可微（D2D）框架，这是一种将不可微的检测模型转变为可微评论者的新型框架，从而利用其优越的计数能力来指导生成过程中的计数性。具体而言，我们设计了定制的激活函数，将检测器的逻辑值转换为软二进制指示器，然后在推理时使用预训练的T2I模型优化噪声先验。我们在四个不同复杂度基准（低密度、高密度和多目标场景）上的SDXL-Turbo、SD-Turbo和Pixart-DMD上进行了大量实验，结果显示在对象计数准确性方面的一致和显著改进（例如，在D2D-Small一个400提示的低密度基准上提高了高达13.7%），整体图像质量和计算开销几乎没有下降。\n\n作者：Nobline Yoo, Olga Russakovsky, Ye Zhu\n\n备注：24页，14张图\n\n链接：https://arxiv.org/pdf/2510.19278.pdf\n\n标题：D2D：改进文本到图像生成中计数能力的检测器到可微评论者",
+        "地址": "https://arxiv.org/pdf/2510.19278.pdf"
+    },
+    {
+        "名称": "2025 [2511.02366] LiveSecBench: A Dynamic and Culturally-Relevant AI Safety Benchmark for LLMs in Chinese Context.pdf",
+        "作者": "Yudong Li, Zhongliang Yang, Kejiang Chen, Wenxuan Wang, Tianxin Zhang, Sifang Wan, Kecheng Wang, Haitian Li, Xu Wang, Lefan Cheng, Youdan Yang, Baocheng Chen, Ziyu Liu, Yufei Sun, Liyan Wu, Wenya Wen, Xingchi Gu, Peiru Yang",
+        "摘要": "摘要: 在本研究中，我们提出了LiveSecBench，这是一种专为中文语言大规模语言模型(LLM)应用场景设计的动态和持续更新的安全基准。LiveSecBench基于中国的法律和社会框架，从合法性、伦理、安全性、隐私性、对抗性鲁棒性和推理安全性六个关键维度对模型进行评估。该基准通过动态更新计划保持相关性，计划在未来的更新中加入文本生成图像安全性和代理安全性等新威胁向量。目前，LiveSecBench（v251030）已评估了18种LLM，提供了中文语言背景下的AI安全概况。排行榜可以在公开网址访问。",
+        "地址": "https://arxiv.org/pdf/2511.02366.pdf"
+    },
+    {
+        "名称": "2025 [2511.01502] Discriminately Treating Motion Components Evolves Joint Depth and Ego-Motion Learning.pdf",
+        "作者": "Mengtan Zhang, Zizhan Guo, Hongbo Zhao, Yi Feng, Zuyi Xiong, Yue Wang, Shaoyi Du, Hanli Wang, Rui Fan",
+        "摘要": "摘要：近年来，无监督的深度和自我运动这两个基本的3D感知任务取得了显著进展。然而，大多数方法将自我运动作为辅助任务，对所有运动类型进行混合或在监督中排除与深度无关的旋转运动。这些设计限制了强几何约束的引入，从而降低了在多样化条件下的可靠性和鲁棒性。本研究引入了运动组件的辨别处理，利用各自刚性流动的几何规律来改善深度和自我运动估计。对于连续的视频帧，网络输出首先对齐源和目标相机的光轴和成像平面。帧间的光流通过这些对齐进行变换，并量化偏差，以分别对每个自我运动组件施加几何约束，从而实现更有针对性的优化。这些对齐进一步将联合学习过程重新构造成共轴和共面形式，其中深度和每个平移组件可以通过封闭形式的几何关系相互推导，引入了互补的约束以提高深度的鲁棒性。DiMoDE，一个结合这些设计的通用深度和自我运动联合学习框架，在多个公共数据集和新收集的多样化真实世界数据集上实现了最先进的性能，尤其是在具有挑战性的条件下。我们的源代码将在发布时公开提供。\n\n作者：孟坦张，子展郭，洪波赵，毅峰，祖疫熊，跃王，啸一杜，汉礼王，锐凡\n\n评论：18页，14幅图\n\n网址：https://arxiv.org/pdf/2511.01502.pdf\n\n标题：辨别对待运动组件进化联合深度和自我运动学习",
+        "地址": "https://arxiv.org/pdf/2511.01502.pdf"
+    }
+]
