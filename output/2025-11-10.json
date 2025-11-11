@@ -1,0 +1,62 @@
+[
+    {
+        "名称": "2025 [2511.04962] Too Good to be Bad: On the Failure of LLMs to Role-Play Villains.pdf",
+        "作者": "Zihao Yi, Qingxuan Jiang, Ruotian Ma, Xingyu Chen, Qu Yang, Mengru Wang, Fanghua Ye, Ying Shen, Zhaopeng Tu, Xiaolong Li, Linus",
+        "摘要": "摘要：大型语言模型 (LLMs) 在创造性生成方面的任务越来越多，包括模拟虚构角色。然而，它们描绘非亲社会、反派角色的能力尚未得到充分检验。我们假设现代LLMs的安全对齐与真实扮演道德模糊或反派角色的任务之间存在根本冲突。为此，我们引入了Moral RolePlay基准，这是一种新的数据集，具有四级道德对齐量表和一个平衡的测试集，用于严格评估。我们要求先进的LLMs扮演从道德楷模到纯粹恶棍的角色。我们的大规模评估显示，随着角色道德性的下降，扮演忠诚度一致、单调下降。我们发现模型在处理直接与安全原则对立的特性时，表现最为挣扎，如“欺骗”和“操纵”，常常用肤浅的攻击性替代复杂的恶意。此外，我们证明一般聊天机器人能力不能很好地预测反派角色扮演能力，高度安全对齐的模型表现尤其差。我们的研究提供了这一关键限制的首个系统证据，突出了模型安全与创造性忠实性之间的紧张关系。我们的基准和发现为开发更为细致、上下文感知的对齐方法铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2511.04962.pdf"
+    },
+    {
+        "名称": "2025 [2511.05271] DeepEyesV2: Toward Agentic Multimodal Model.pdf",
+        "作者": "Jack Hong, Chenxiao Zhao, ChengLin Zhu, Weiheng Lu, Guohai Xu, Xing Yu",
+        "摘要": "摘要：具备主动性的多模态模型不仅应理解文本和图像，还应主动调用外部工具，如代码执行环境和网络搜索，并将这些操作整合到推理过程中。在这项工作中，我们介绍了DeepEyesV2，并从数据构建、训练方法和模型评估的角度探讨如何构建一个主动性多模态模型。我们观察到仅依赖直接强化学习无法引导出可靠的工具使用行为。这一现象促使我们提出了一个两阶段的训练流程：冷启动阶段用于建立工具使用模式，强化学习阶段则进一步优化工具调用。我们策划了一个多样化、适度挑战性的训练数据集，特别包含了使用工具有益的示例。我们进一步引入了RealX-Bench，一个全面的基准测试平台，旨在评估真实世界的多模态推理，这本质上需要整合多种能力，包括感知、搜索和推理。我们在RealX-Bench和其他代表性基准测试上评估了DeepEyesV2，展示了其在真实世界理解、数学推理和搜索密集任务中的有效性。此外，DeepEyesV2表现出任务自适应的工具调用，倾向于使用图像操作进行感知任务，使用数值计算进行推理任务。强化学习进一步实现了复杂工具组合，并使模型能够根据上下文选择性调用工具。我们希望我们的研究能够为社区开发主动性多模态模型提供指导。\n\n作者：Jack Hong, Chenxiao Zhao, ChengLin Zhu, Weiheng Lu, Guohai Xu, Xing Yu\n\n评论：主页: this https URL\n\n链接：https://arxiv.org/pdf/2511.05271.pdf\n\n标题：2025 [2511.05271] DeepEyesV2: Toward Agentic Multimodal Model.pdf",
+        "地址": "https://arxiv.org/pdf/2511.05271.pdf"
+    },
+    {
+        "名称": "2025 [2511.05491] Visual Spatial Tuning.pdf",
+        "作者": "Rui Yang, Ziyu Zhu, Yanwei Li, Jingjia Huang, Shen Yan, Siyuan Zhou, Zhe Liu, Xiangtai Li, Shuangye Li, Wenqian Wang, Yi Lin, Hengshuang Zhao",
+        "摘要": "摘要：从视觉输入中捕捉空间关系是具有类似人类一般智能的基础。之前的几项研究尝试通过添加额外的专家编码器来增强视觉语言模型（VLMs）的空间意识，但这会带来额外开销，通常会损害其一般能力。为了在整体体系结构中增强空间能力，我们介绍了视觉空间调优（VST），这是一个全面框架，旨在培养具有类似人类视空间能力的VLMs，从空间感知到推理。我们首先通过构建一个名为VST-P的大规模数据集来尝试增强VLMs的空间感知，该数据集包含410万个样本，涵盖单视图、多图像和视频中的19项技能。然后，我们提出了一个精心设计的数据集VST-R，其中包含135K个样本，指导模型进行空间推理。特别是，我们采用渐进式训练管道：通过监督细化训练建立基础空间知识，然后通过强化学习进一步提高空间推理能力。在没有对一般能力产生负面影响的情况下，所提出的VST在几个空间基准测试中一致地取得了最先进的结果，包括在MMSI-Bench上达到34.8%和在VSIBench上达到61.2%。事实证明，视觉-语言-行动模型可以通过所提出的空间调优范式显著增强，为更具物理基础的AI铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2511.05491.pdf"
+    },
+    {
+        "名称": "2025 [2511.04662] VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks.pdf",
+        "作者": "Yu Feng, Nathaniel Weir, Kaj Bostrom, Sam Bayless, Darion Cassel, Sapana Chaudhary, Benjamin Kiesl-Reiter, Huzefa Rangwala",
+        "摘要": "摘要：大语言模型（LLMs）可以通过链式思维（CoT）进行多步骤推理，但它们无法可靠地验证自己的逻辑。即使得出了正确的答案，其中的推理过程也可能存在缺陷，从而在关键场景中削弱了信任度。为了解决这个问题，我们引入了VeriCoT，这是一种从CoT推理中提取和验证形式逻辑论证的神经符号方法。VeriCoT将每个CoT推理步骤形式化为一阶逻辑，并识别出将论证基于源上下文、常识知识或先前推理步骤的前提。符号表示使自动求解器能够验证逻辑有效性，而自然语言前提则使人类和系统能够识别无基础或谬误的推理步骤。在ProofWriter、LegalBench和BioASQ数据集上的实验表明，VeriCoT能够有效识别有缺陷的推理，并作为最终答案正确性的有力预测指标。我们还利用VeriCoT的验证信号进行（1）推理时自反思，（2）在VeriCoT蒸馏数据集上的监督微调（SFT）和（3）使用基于验证的成对奖励进行直接偏好优化（DPO）的偏好微调（PFT），进一步提高了推理的有效性和准确性。\n\n翻译：摘要：大语言模型（LLMs）可以通过链式思维（CoT）进行多步骤推理，但它们无法可靠地验证自己的逻辑。即使得出了正确的答案，其中的推理过程也可能存在缺陷，从而在关键场景中削弱了信任度。为了解决这个问题，我们引入了VeriCoT，这是一种从CoT推理中提取和验证形式逻辑论证的神经符号方法。VeriCoT将每个CoT推理步骤形式化为一阶逻辑，并识别出将论证基于源上下文、常识知识或先前推理步骤的前提。符号表示使自动求解器能够验证逻辑有效性，而自然语言前提则使人类和系统能够识别无基础或谬误的推理步骤。在ProofWriter、LegalBench和BioASQ数据集上的实验表明，VeriCoT能够有效识别有缺陷的推理，并作为最终答案正确性的有力预测指标。我们还利用VeriCoT的验证信号进行（1）推理时自反思，（2）在VeriCoT蒸馏数据集上的监督微调（SFT）和（3）使用基于验证的成对奖励进行直接偏好优化（DPO）的偏好微调（PFT），进一步提高了推理的有效性和准确性。",
+        "地址": "https://arxiv.org/pdf/2511.04662.pdf"
+    },
+    {
+        "名称": "2025 [2511.05369] Dense Motion Captioning.pdf",
+        "作者": "Shiyao Xu, Benedetta Liberatori, Gül Varol, Paolo Rota",
+        "摘要": "摘要：最近在3D人体动作和语言融合方面的进展主要集中在从文本到动作的生成上，而动作理解任务相对未被深入研究。我们引入了稠密动作描述（Dense Motion Captioning）这一新颖任务，旨在时间上定位并描述3D人体动作序列中的行为。目前的数据集在提供详细的时间注释上不足，并且主要由短序列和少数行为构成。为克服这些限制，我们提出了复杂动作数据集（CompMo），这是第一个具有丰富注释、复杂动作序列和精确时间边界的大规模数据集。CompMo通过精心设计的数据生成管道构建，包括60,000个动作序列，每个序列由至少两到十个动作组成，并精确注释它们的时间范围。我们进一步提出DEMO模型，该模型结合了大型语言模型和简单的动作适配器，经过训练生成稠密、时间上有依据的描述。我们的实验表明，DEMO在CompMo数据集以及适应后的基准测试中，显著优于现有方法，为未来3D动作理解和描述研究建立了一个坚实的基准。\n\n作者：Shiyao Xu, Benedetta Liberatori, Gül Varol, Paolo Rota\n\n备注：12页，5个图，已被3DV 2026接收\n\n链接：https://arxiv.org/pdf/2511.05369.pdf\n\n标题：2025 [2511.05369] 稠密动作描述.pdf",
+        "地址": "https://arxiv.org/pdf/2511.05369.pdf"
+    },
+    {
+        "名称": "2025 [2511.05017] Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings.pdf",
+        "作者": "Aakriti Agrawal, Gouthaman KV, Rohith Aralikatti, Gauri Jagatap, Jiaxin Yuan, Vijay Kamarshi, Andrea Fanelli, Furong Huang",
+        "摘要": "摘要：在这项研究中，我们发现现有的大型视觉-语言模型（LVLM）架构中存在一种对语言模态的固有偏见，这主要是由于常见的做法是简单地将视觉嵌入附加到输入文本序列上。为了解决这个问题，我们提出了一种简单而有效的方法，通过结合平均池化的视觉特征来优化文本嵌入。我们的方法显著地提高了视觉定位能力，并在已建立的基准测试中显著减少了虚假生成内容。虽然平均池化提供了一种融合视觉信息的简单、稳健且高效的方法，但我们认为，更复杂的融合方法可能进一步增强视觉定位和跨模态对齐。鉴于本研究的主要目的是突出模态失衡及其对虚假生成内容的影响，并证明通过融合视觉信息优化文本嵌入可以缓解这一问题，我们将高级融合策略的探索留待未来工作。\n\n作者：Aakriti Agrawal, Gouthaman KV, Rohith Aralikatti, Gauri Jagatap, Jiaxin Yuan, Vijay Kamarshi, Andrea Fanelli, Furong Huang\n\n网址：https://arxiv.org/pdf/2511.05017.pdf\n\n标题：2025 [2511.05017] 通过优化文本嵌入来减轻大型视觉-语言模型中的虚假生成内容.pdf",
+        "地址": "https://arxiv.org/pdf/2511.05017.pdf"
+    },
+    {
+        "名称": "2025 [2511.04898] Real-Time Reasoning Agents in Evolving Environments.pdf",
+        "作者": "Yule Wen, Yixin Ye, Yanzhe Zhang, Diyi Yang, Hao Zhu",
+        "摘要": "摘要: 现实世界中的代理不仅需要做出逻辑判断，还需要及时判断。这需要持续关注动态环境：危险出现，机会涌现，其他代理行动，而代理的推理仍在进行。尽管语言模型推理已经取得进展，现有方法未能考虑这种动态性质。我们引入实时推理作为一种新的问题公式，并建立实时推理健身房来展示它。我们研究了在代理中部署语言模型的两种范式：（1）反应型代理，使用有界推理计算的语言模型以快速响应，（2）规划型代理，允许用于复杂问题的扩展推理计算。我们的实验表明，即使是最先进的模型在这两种范式下也难以做出逻辑和及时判断。为了解决这一限制，我们提出了AgileThinker，它同时采用两种推理范式。随着任务难度和时间压力的增加，AgileThinker始终优于仅采用一种推理范式的代理，有效地平衡了推理深度和响应延迟。我们的工作确立了实时推理作为开发实用代理的关键测试平台，并为时间受限的人工智能系统研究提供了基础，强调了通向实时可用代理的路径。",
+        "地址": "https://arxiv.org/pdf/2511.04898.pdf"
+    },
+    {
+        "名称": "2025 [2511.04707] Jailbreaking in the Haystack.pdf",
+        "作者": "Rishi Rajesh Shah, Chen Henry Wu, Shashwat Saxena, Ziqian Zhong, Alexander Robey, Aditi Raghunathan",
+        "摘要": "摘要：最近在长上下文语言模型（LMs）方面的进展使其能够处理百万个标记的输入，从而扩展了其在诸如计算机使用代理等复杂任务中的能力。然而，这些扩展上下文的安全隐患仍不明确。为弥补这一空白，我们提出了NINJA（意为大海捞针式越狱攻击），一种通过在有害用户目标后附加无害、模型生成内容来破解已对齐的LMs的方法。我们的关键观察是，有害目标的位置在安全中扮演着重要角色。在标准安全基准HarmBench上的实验表明，NINJA显著增加了在最先进的开源和专有模型（包括LLaMA、Qwen、Mistral和Gemini）中的攻击成功率。与之前的越狱方法不同，我们的方法资源消耗低、可迁移且不易被检测。此外，我们表明NINJA是计算优化的——在固定计算预算下，增加上下文长度可以胜过增加最佳N次越狱中的试验次数。这些发现揭示了，即使是无害的长上下文——在目标位置精心安排时——也会引入现代LMs的基本漏洞。\n\n翻译：",
+        "地址": "https://arxiv.org/pdf/2511.04707.pdf"
+    },
+    {
+        "名称": "2025 [2511.01047] HAFixAgent: History-Aware Automated Program Repair Agent.pdf",
+        "作者": "Yu Shi, Hao Li, Bram Adams, Ahmed E. Hassan",
+        "摘要": "摘要：自动化程序修复 (APR) 最近转向大语言模型和基于代理的系统，但大多数系统依赖于本地快照上下文，忽略了代码库历史。早期研究表明，代码库历史有助于修复单行错误，因为最后一次修改出错行的提交通常是引入错误的提交。在本文中，我们研究了代码库历史是否也能在大规模上改善基于代理的APR系统，特别是针对复杂的多块错误。我们提出了HAFixAgent，这是一种历史感知的错误修复代理，它将基于历史责任的代码库启发整合到其修复循环中。对Defects4J中所有854个现实世界错误的初步研究证明了我们的设计思路，显示与错误相关的历史既普遍存在又高度集中。将HAFixAgent与两个最先进的基线进行实证比较显示：（1）有效性：HAFixAgent显著优于基于代理的基线（提高212.3%）和多块错误基线（提高29.9%）；（2）效率：历史不会显著增加代理步骤，并保持令牌成本可比，对于复杂的多文件多块错误，尤其能显著降低中位成本；（3）实用性：结合不同的历史启发修复更多错误，提供了清晰的成本收益权衡。HAFixAgent提供了一种历史感知的基于代理的APR实用方法：将代理基于版本控制历史，优先考虑基于差异的历史上下文，并在需要时集成互补的启发式方法。\n\n作者：Yu Shi，Hao Li，Bram Adams，Ahmed E. Hassan\n\n备注：31页，6张图\n\n链接：https://arxiv.org/pdf/2511.01047.pdf\n\n标题：2025 [2511.01047] HAFixAgent: 历史感知自动化程序修复代理.pdf",
+        "地址": "https://arxiv.org/pdf/2511.01047.pdf"
+    },
+    {
+        "名称": "2025 [2510.24505] CritiCal: Can Critique Help LLM Uncertainty or Confidence Calibration?.pdf",
+        "作者": "Qing Zong, Jiayu Liu, Tianshi Zheng, Chunyang Li, Baixuan Xu, Haochen Shi, Weiqi Wang, Zhaowei Wang, Chunkit Chan, Yangqiu Song",
+        "摘要": "摘要：在高风险领域中，大型语言模型（LLMs）的准确信心校准对于其安全使用至关重要，因为明确的语言化信心可以增强用户信任。传统模仿参考信心表达的方法往往无法捕捉到准确信心评估所需的推理过程。我们提出自然语言批判作为解决方案，理想地适用于信心校准，因为准确的黄金信心标签难以获得且通常需要多次生成。本文研究了自然语言批判如何增强语言化信心，探讨了：（1）批判什么：不确定性（问题聚焦）还是信心（答案特定）？分析显示，信心适用于选择题任务，而不确定性在开放式场景中表现出色。（2）如何批判：自我批判还是批判校准训练？我们提出自我批判，使LLMs能够批判并优化其信心，不仅限于准确性，并提出CritiCal，一种利用自然语言批判的新颖批判校准训练方法，超越了直接的数值优化。实验显示，CritiCal在复杂推理任务中显著优于自我批判和其他竞争性基线，甚至超过其教师模型GPT-4o。CritiCal还在分布外设置中展示了强大的泛化能力，提升了LLM的可靠性。",
+        "地址": "https://arxiv.org/pdf/2510.24505.pdf"
+    }
+]
