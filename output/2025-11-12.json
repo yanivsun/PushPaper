@@ -1,0 +1,92 @@
+[
+    {
+        "名称": "2025 [2511.07332] Grounding Computer Use Agents on Human Demonstrations.pdf",
+        "作者": "Aarash Feizi, Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Kaixin Li, Rabiul Awal, Xing Han Lù, Johan Obando-Ceron, Juan A. Rodriguez, Nicolas Chapados, David Vazquez, Adriana Romero-Soriano, Reihaneh Rabbany, Perouz Taslakian, Christopher Pal, Spandana Gella, Sai Rajeswar",
+        "摘要": "摘要: 构建可靠的计算机使用代理需要基础建设：准确地将自然语言指令与屏幕上的正确元素连接起来。尽管存在大量的网页和移动交互数据集，但高质量的桌面环境资源仍然有限。为了解决这一问题，我们介绍了GroundCUA，这是一个由专家操作示范构建的大规模桌面基础数据集。它涵盖了12个类别的87个应用程序，包括56,000张截图，每个屏幕元素都经过仔细标注，共有超过356万个人类验证的标注。从这些示范中，我们生成了多样化的指令，捕捉了广泛的现实任务，为模型训练提供了高质量的数据。利用GroundCUA，我们开发了GroundNext系列模型，将指令映射到目标用户界面元素上。在3B和7B规模下，GroundNext在五个基准测试中通过监督微调实现了最先进的结果，同时所需训练数据不到以往工作的一成。强化学习后训练进一步提高了性能，在使用o3作为计划器在OSWorld基准测试中进行代理评估时，GroundNext达到或超过了使用更多数据训练的模型的结果。这些结果证明了高质量、专家驱动的数据集在推进通用计算机使用代理中的关键作用。",
+        "地址": "https://arxiv.org/pdf/2511.07332.pdf"
+    },
+    {
+        "名称": "2025 [2511.06221] Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model Reasoning Ability in VibeThinker-1.5B.pdf",
+        "作者": "Sen Xu, Yi Zhou, Wei Wang, Jixin Min, Zhibin Yin, Yingwei Dai, Shixi Liu, Lianyu Pang, Yirong Chen, Junlin Zhang",
+        "摘要": "摘要: 本报告挑战了小模型本质上缺乏强大推理能力的普遍共识，介绍了通过我们的Spectrum-to-Signal Principle (SSP)开发的1.5亿参数密集模型VibeThinker-1.5B。这挑战了通过扩大模型参数来增强能力的普遍方法，如DeepSeek R1 (671B)和Kimi k2 (>1T)模型。SSP框架首先采用两阶段的多样性探索蒸馏(SFT)生成广泛的解决方案，然后通过MaxEnt引导的策略优化(RL)放大正确信号。VibeThinker-1.5B的总训练成本仅为$7,800，显示出较优秀的推理能力，比封闭源模型如Magistral Medium和Claude Opus 4表现更好，并且与开源模型如GPT OSS-20B Medium表现相当。值得注意的是，它在三个数学基准测试中超过了大400倍的DeepSeek R1：AIME24（80.3比79.8），AIME25（74.4比70.0）和HMMT25（50.4比41.7）。这是对其基础模型的重大改进（分别为6.7, 4.3和0.6）。在LiveCodeBench V6上，它得分51.1，超过Magistral Medium的50.3和其基础模型的0.0。这些发现表明，小模型可以实现与大模型相当的推理能力，极大地降低了训练和推理成本，从而使先进的AI研究普及化。",
+        "地址": "https://arxiv.org/pdf/2511.06221.pdf"
+    },
+    {
+        "名称": "2025 [2511.08319] Adaptive Multi-Agent Response Refinement in Conversational Systems.pdf",
+        "作者": "Soyeong Jeong, Aparna Elangovan, Emine Yilmaz, Oleg Rokhlenko",
+        "摘要": "摘要：大型语言模型（LLMs）在会话系统中通过生成类似人类的响应表现出显著成功。然而，当需要个性化或特定知识时，它们可能会不足。在现实生活中，仅依靠用户检测这些错误并请求新响应是不现实的。解决该问题的一种方法是在返回响应之前对其进行改进。虽然现有方法致力于在单个LLM中改进响应，但这种方法难以考虑有效对话所需的多样性方面。在这项工作中，我们提出通过多代理框架改进响应，其中每个代理被分配一个特定角色以处理每个方面。我们专注于对话质量的三个关键方面：事实性、个性化和连贯性。每个代理负责审查并改进这些方面之一，然后将它们的反馈合并以改善整体响应。为了增强它们之间的合作，我们引入了一种动态通信策略。我们的方法不是遵循固定的代理序列，而是根据每个查询的具体需求自适应选择和协调最相关的代理。我们在具有挑战性的会话数据集上验证了我们的框架，结果表明在涉及知识或用户角色的任务中，我们的方法显著优于相关基准。\n\n作者: Soyeong Jeong, Aparna Elangovan, Emine Yilmaz, Oleg Rokhlenko\n\n评论: LaCATODA Workshop @ AAAI 2026\n\n网址: https://arxiv.org/pdf/2511.08319.pdf\n\n标题: 2025 [2511.08319] 自适应多代理响应优化在会话系统中的应用",
+        "地址": "https://arxiv.org/pdf/2511.08319.pdf"
+    },
+    {
+        "名称": "2025 [2511.07080] Wasm: A Pipeline for Constructing Structured Arabic Interleaved Multimodal Corpora.pdf",
+        "作者": "Khalil Hennara, Ahmad Bastati, Muhammad Hreden, Mohamed Motasim Hamed, Zeina Aldallal, Sara Chrouf, Safwan AlModhayan",
+        "摘要": "摘要: 大型语言模型（LLMs）和大型多模态模型（LMMs）的性能在很大程度上取决于其预训练数据集的质量和规模。最近的研究表明，在自然文档中对图像和文本交错进行训练的大型多模态模型在广泛的基准测试中表现优于仅在图文对上进行训练的模型，利用先进的预训练模型来加强语义对齐、图像序列一致性和文本连贯性。然而，对于阿拉伯语，由于缺乏高质量的保存文档结构的多模态数据集，进展有限。在本文中，我们展示了用于处理Common Crawl数据集的流水线Wasm，以创建一个新的提供markdown输出的阿拉伯语多模态数据集。与现有的专注于文本提取的阿拉伯语语料库不同，我们的方法在保持网络内容结构完整性的同时，为仅文本和多模态预训练场景提供了灵活性。我们对数据处理流水线进行了全面的比较分析，突出了主要现有数据集过滤策略的一致性，并证明了我们特定设计选择的合理性。为了支持未来的研究，我们公开发布了一份代表性的数据集转储以及阿拉伯语的多模态处理流水线。",
+        "地址": "https://arxiv.org/pdf/2511.07080.pdf"
+    },
+    {
+        "名称": "2025 [2511.05664] KLASS: KL-Guided Fast Inference in Masked Diffusion Models.pdf",
+        "作者": "Seo Hyun Kim, Sunwoo Hong, Hojung Jung, Youngrok Park, Se-Young Yun",
+        "摘要": "2025年，摘要：掩蔽扩散模型在包括语言生成在内的各种任务中显示出良好的竞争力。然而，由于其迭代优化过程，推理过程通常受到缓慢且静态采样速度的瓶颈限制。为了解决这个问题，我们引入了一种快速且有效的采样方法——“KL自适应稳定性采样”（KLASS）。该方法利用token级别的KL散度来识别稳定的高置信度预测，并在每次迭代中解开多个标记，而无需额外的模型训练。我们的方法在显著加速生成过程的同时，保持了样本的质量。在推理基准测试中，KLASS实现了高达2.78倍的时钟速度提升，并在性能上超过了标准贪婪解码，达到了基于扩散采样器的最新水平。我们进一步在文本、图像和分子生成等多种领域验证了KLASS，展示了其作为跨不同模型的广泛适用的采样器的有效性。",
+        "地址": "https://arxiv.org/pdf/2511.05664.pdf"
+    },
+    {
+        "名称": "2025 [2511.06281] VideoSSR: Video Self-Supervised Reinforcement Learning.pdf",
+        "作者": "Zefeng He, Xiaoye Qu, Yafu Li, Siyuan Huang, Daizong Liu, Yu Cheng",
+        "摘要": "摘要: 通过可验证奖励的强化学习（RLVR）在多模态大型语言模型（MLLMs）的视频理解能力方面取得了显著进展。然而，MLLMs的快速进步使现有的视频数据集的复杂性望尘莫及，同时人为标注新的高质量数据仍然非常昂贵。本研究探讨了一个关键问题：能否利用视频内在的丰富信息自生成高质量、可验证的训练数据？为探讨这一问题，我们引入了三个自监督预训练任务：异常定位、物体计数和时间拼图。我们构建了视频内在理解基准（VIUBench）来验证这些任务的难度，结果表明目前的最先进MLLMs在这些任务上表现不佳。基于这些预训练任务，我们开发了VideoSSR-30K数据集并提出了VideoSSR，一种用于RLVR的视频自监督强化学习新框架。跨越四大主要视频领域（通用视频问答、长视频问答、时间定位和复杂推理）的17个基准测试的广泛实验表明，VideoSSR持续增强了模型性能，平均提升超过5%。这些结果确立了VideoSSR作为开发更高级视频理解MLLMs的强大基础框架。代码可在此网址获取。",
+        "地址": "https://arxiv.org/pdf/2511.06281.pdf"
+    },
+    {
+        "名称": "2025 [2511.07003] Beyond English: Toward Inclusive and Scalable Multilingual Machine Translation with LLMs.pdf",
+        "作者": "Yingfeng Luo, Ziqiang Xu, Yuxuan Ouyang, Murun Yang, Dingyang Lin, Kaiyan Chang, Tong Zheng, Bei Li, Peinan Feng, Quan Du, Tong Xiao, Jingbo Zhu",
+        "摘要": "摘要: 大规模语言模型显著推动了多语言机器翻译（MMT）的发展，但广泛的语言覆盖范围、一致的翻译质量和英语中心偏见仍然是未解决的挑战。为了解决这些挑战，我们介绍了LMT，一套以中文和英文为中心的多语言翻译模型，涵盖60种语言和234个翻译方向。在开发过程中，我们发现了一个以前被忽视的现象——方向性退化，指的是对称的多向微调数据过于强调反向方向（X → En/Zh），导致过多的一对多映射和翻译质量下降。我们提出了战略降采样，这是一种简单但有效的方法来缓解这种退化。此外，我们设计了并行多语言提示（PMP），利用类型相关的辅助语言来增强跨语言迁移。通过严格的数据编制和精细的适应策略，LMT在具有可比语言覆盖的模型中达到了最先进的性能，我们的4B模型（LMT-60-4B）超过了规模更大得多的Aya-101-13B和NLLB-54B模型。我们发布了四种规模的LMT（0.6B/1.7B/4B/8B），以促进未来研究并为包容性、可扩展和高质量的MMT提供强有力的基线。\n\n原文URL：https://arxiv.org/pdf/2511.07003.pdf",
+        "地址": "https://arxiv.org/pdf/2511.07003.pdf"
+    },
+    {
+        "名称": "2025 [2511.08567] The Path Not Taken: RLVR Provably Learns Off the Principals.pdf",
+        "作者": "Hanqing Zhu, Zhenyu Zhang, Hanxian Huang, DiJia Su, Zechun Liu, Jiawei Zhao, Igor Fedorov, Hamed Pirsiavash, Zhizhou Sha, Jinwon Lee, David Z. Pan, Zhangyang Wang, Yuandong Tian, Kai Sheng Tai",
+        "摘要": "摘要：通过可验证的奖励进行强化学习（RLVR）可以可靠地提升大型语言模型的推理能力，但似乎只需修改少量的参数。我们重新审视这一悖论，发现稀疏性是由模型条件化的优化偏向造成的表面现象：对于一个固定的预训练模型，更新会一致地集中在特定的参数区域，这在不同的实验运行中高度一致，并且在数据集和RL方法上大体不变。我们通过一个“三重门理论”机制解释这些动态：门一（KL锚点）施加了KL限制的更新；门二（模型几何）引导步骤偏离主要方向，进入低曲率、保持谱特性的子空间；门三（精度）隐藏了非优选区域的微小更新，使得非主要偏差看起来像是稀疏性。我们验证了这一理论，并首次在参数级别上描述了RLVR的学习动态：RLVR在权重空间的非主要方向上进行学习，通过最小的谱漂移、减少的主要子空间旋转和非主要方向的更新对齐实现了收益。相比之下，SFT则针对主要权重，扭曲了谱，并且甚至落后于RLVR。这些结果首次对RLVR的训练动态提供了参数空间的说明，揭示了参数演化的显著规律。关键是我们展示了RL在一个与SFT不同的优化机制中操作，所以直接适应SFT时代的参数高效微调方法可能存在缺陷，这在我们对高级稀疏微调和LoRA变体的案例研究中得到了验证。我们希望这项工作能为理解RLVR和设计几何感知、原生于RLVR的学习算法（而非改用SFT时代的启发法）提供一条路径。\n\n作者：Hanqing Zhu, Zhenyu Zhang, Hanxian Huang, DiJia Su, Zechun Liu, Jiawei Zhao, Igor Fedorov, Hamed Pirsiavash, Zhizhou Sha, Jinwon Lee, David Z. Pan, Zhangyang Wang, Yuandong Tian, Kai Sheng Tai\n\n注释：初步版本被接受为NeurIPS 2025高效推理工作坊的焦点。\n\n链接：https://arxiv.org/pdf/2511.08567.pdf\n\n标题：2025 [2511.08567] 未被选择的路径：RLVR证明在非主要方向上的学习",
+        "地址": "https://arxiv.org/pdf/2511.08567.pdf"
+    },
+    {
+        "名称": "2025 [2511.07587] Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces.pdf",
+        "作者": "Shreyas Rajesh, Pavan Holur, Chenda Duan, David Chong, Vwani Roychowdhury",
+        "摘要": "摘要：大型语言模型（LLMs）在长文本推理方面面临基本挑战：许多文档超过它们有限的上下文窗口，而在适合的文本上的性能随着序列长度的增加而下降，需要通过外部记忆框架来增强它们。当前的解决方案已从使用语义嵌入的检索演变为更复杂的结构化知识图谱表示，以改进意义解读和关联性，这些解决方案适用于基于事实的检索，而无法构建跟踪实体通过情节性事件所需的时空锚定叙述表示。为了弥补这一差距，我们提出了生成语义工作区（GSW），一种类神经生成记忆框架，构建结构化、可解释的不断演变情况的表示，使得LLMs能够对不断变化的角色、行动和时空背景进行推理。我们的框架包括一个“操作员”，它将输入的观察映射到中间语义结构；一个“调解员”，它将这些整合到一个持久的工作区中，强制执行时间、空间和逻辑上的一致性。在情节记忆基准（EpBench）上，GSW在100k到1M词规模的语料库中表现优于现有的基于RAG的基线最多20%。此外，GSW非常高效，与下一个最节省词元的基线相比，查询时上下文词元减少了51％，显著降低了推理时间成本。更广泛地说，GSW为赋予LLMs人类般的情节记忆提供了一个具体蓝图，为能够在长时间内进行推理的更强大的代理铺平了道路。\n\n原文链接：https://arxiv.org/pdf/2511.07587.pdf\n标题：Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces\n作者：Shreyas Rajesh, Pavan Holur, Chenda Duan, David Chong, Vwani Roychowdhury\n评论：AAAI 2026 Oral",
+        "地址": "https://arxiv.org/pdf/2511.07587.pdf"
+    },
+    {
+        "名称": "2025 [2511.08043] DynaAct: Large Language Model Reasoning with Dynamic Action Spaces.pdf",
+        "作者": "Xueliang Zhao, Wei Wu, Jian Guan, Qintong Li, Lingpeng Kong",
+        "摘要": "摘要: 在现代序列决策系统中，构建优化的候选动作空间对于高效推理至关重要。然而，现有方法要么依赖人工定义的动作空间，缺乏可扩展性，要么使用非结构化空间，导致穷举搜索的计算量过大。本文提出了一种名为DynaAct的新框架，用于自动构建紧凑动作空间，以增强复杂问题解决场景中的顺序推理。我们的方法首先通过使用大型语言模型从覆盖不同复杂推理问题的语料库中提取观察到的一般草图来估计完整动作空间的代理。然后，我们设计了一个子模块函数，该函数根据当前状态下候选动作的实用性和多样性联合评估候选动作，并采用贪婪算法选择最佳候选集。在六个不同标准基准上的广泛实验表明，我们的方法显著提高了总体性能，保持高效推理且不会引入大量延迟。实现细节可通过本文提供的链接访问。",
+        "地址": "https://arxiv.org/pdf/2511.08043.pdf"
+    },
+    {
+        "名称": "2025 [2511.07885] Intelligence per Watt: Measuring Intelligence Efficiency of Local AI.pdf",
+        "作者": "Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, J. Wes Griffin, Herumb Shandilya, Adrian Gamarra Lafuente, Medhya Goel, Rebecca Joseph, Shlok Natarajan, Etash Kumar Guha, Shang Zhu, Ben Athiwaratkun, John Hennessy, Azalia Mirhoseini, Christopher Ré",
+        "摘要": "摘要：大型语言模型(LLM)查询主要由集中式云基础设施中的前沿模型处理。迅速增长的需求使这一范式紧张，云提供商难以跟上扩展基础设施的步伐。两项进展使我们得以重新思考这一范式：小型语言模型(<=20B活动参数)现在在许多任务上表现得与前沿模型相当；本地加速器（如Apple M4 Max）能够以互动延迟运行这些模型。这提出了一个问题：本地推理能否可行地重新分配集中式基础设施的需求？回答这一问题需要衡量本地语言模型是否能够准确回答现实世界的查询，以及它们是否能在功耗受限的设备（如笔记本电脑）上高效地实现。我们提出智能每瓦（IPW），即任务准确度除以单位功耗，作为评估本地推理在模型-加速器对中的能力和效率的指标。我们在20+个最先进的本地语言模型、8个加速器和代表性子集LLM流量（100万个现实世界的单轮聊天和推理查询）之间进行了大规模实证研究。对于每个查询，我们衡量准确度、能量、延迟和功耗。我们的分析揭示了三个发现。首先，本地语言模型可以准确回答88.7%的单轮聊天和推理查询，其准确度因领域而异。其次，从2023年到2025年，IPW提高了5.3倍，本地查询覆盖率从23.2%增长到71.3%。第三，本地加速器在运行相同模型时的IPW至少比云加速器低1.4倍，显示出显著的优化空间。这些发现表明，本地推理可以有意义地重新分配集中式基础设施的需求，IPW是追踪这一转变的关键指标。我们发布了IPW概要配置框架，用于系统智能每瓦基准测试。\n\n作者：Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, J. Wes Griffin, Herumb Shandilya, Adrian Gamarra Lafuente, Medhya Goel, Rebecca Joseph, Shlok Natarajan, Etash Kumar Guha, Shang Zhu, Ben Athiwaratkun, John Hennessy, Azalia Mirhoseini, Christopher Ré\n\n链接：https://arxiv.org/pdf/2511.07885.pdf\n\n标题：2025 [2511.07885] 智能每瓦：衡量本地AI的智能效率",
+        "地址": "https://arxiv.org/pdf/2511.07885.pdf"
+    },
+    {
+        "名称": "2025 [2511.08029] BiCA: Effective Biomedical Dense Retrieval with Citation-Aware Hard Negatives.pdf",
+        "作者": "Aarush Sinha, Pavan Kumar S, Roshan Balaji, Nirav Pravinbhai Bhatt",
+        "摘要": "摘要：在训练有效的检索模型时，困难负样本（hard negatives）是必不可少的。困难负样本通常依赖于使用交叉编码器或基于相似性指标（如余弦距离）的静态嵌入模型对文件进行排序。在生物医学和科学领域，由于难以区分源文档和困难负样本文档，困难负样本开采变得具有挑战性。然而，被引用的文档自然与源文档共享上下文相关性，但并不是重复的，因此非常适合作为困难负样本。在这项工作中，我们提出了BiCA：利用引用链接在20,000篇PubMed文章中进行困难负样本开采，以改进特定领域的小型稠密检索器的方法。我们使用这些引用信息的负样本微调了GTE_small和GTE_Base模型，并在BEIR的域内和域外任务上使用nDCG@10的一步稠密检索中观察到了一致的改进，并且在LoTTE的长尾话题上使用Success@5性能超过了基线。我们的研究结果强调了利用文档链接结构生成高信息负样本的潜力，这使得最少微调即可实现最先进的性能，并展示了数据高效领域适应的途径。\n\n作者：Aarush Sinha, Pavan Kumar S, Roshan Balaji, Nirav Pravinbhai Bhatt\n\n评论：已被AAAI 2026年大会接受为口头报告\n\n链接：https://arxiv.org/pdf/2511.08029.pdf\n\n标题：2025 [2511.08029] BiCA: 使用引用感知困难负样本的有效生物医学稠密检索",
+        "地址": "https://arxiv.org/pdf/2511.08029.pdf"
+    },
+    {
+        "名称": "2025 [2511.06428] Walking the Tightrope of LLMs for Software Development: A Practitioners' Perspective.pdf",
+        "作者": "Samuel Ferino, Rashina Hoda, John Grundy, Christoph Treude",
+        "摘要": "摘要: \n背景: 大型语言模型（LLM）具有引发软件开发革命的潜力（例如，自动化过程、劳动力转型）。尽管已有研究开始调查LLM在软件开发中的感知影响，但仍需进行实证研究以理解如何平衡使用LLM的前向和后向效应。目标: 我们研究了LLM对软件开发的影响以及如何从软件开发人员的角度管理这种影响。方法: 我们在2024年10月至2025年9月期间，分三轮数据收集和分析进行了22次软件从业者的访谈。我们采用社会技术扎根理论（STGT）进行数据分析，以严格分析受访者的回应。结果: 我们识别出在个人、团队、组织和社会层面使用LLM的优点（例如，维持软件开发流程、改善开发人员的心理模型以及促进创业）和缺点（例如，对开发人员个性的负面影响以及对开发人员声誉的损害），以及采用LLM的最佳实践。结论: 关键是，我们展示了软件从业者、团队和组织在使用LLM时面临的权衡。我们的研究发现特别有助于软件团队领导和IT经理评估LLM在其特定背景下的可行性。",
+        "地址": "https://arxiv.org/pdf/2511.06428.pdf"
+    },
+    {
+        "名称": "2025 [2511.05650] Optimizing Diversity and Quality through Base-Aligned Model Collaboration.pdf",
+        "作者": "Yichen Wang, Chenghao Yang, Tenghao Huang, Muhao Chen, Jonathan May, Mina Lee",
+        "摘要": "摘要：对齐极大地提高了大型语言模型(LLMs)的输出质量, 但以牺牲多样性为代价，导致生成结果高度相似。我们提出了基础-对齐模型协作(BACo)，一种推理时逐词模型协作框架，通过动态结合基础LLM与其对齐模型来优化多样性和质量。BACo利用了前人工作的灵感，采用路由策略，在每个词上基于下一个词预测的不确定性和预测内容的语义角色，决定从哪个模型解码。之前的多样性提升方法，如重训练、提示工程和多采样方法，可以提升多样性，但通常会降低质量或需要昂贵的解码或后训练。相比之下，BACo在单次解码中即达到了高多样性和高质量，同时提供了强大的可控性。我们探讨了一系列路由策略，在三项开放式生成任务和13项覆盖多样性和质量的指标上，BACo一致超过了最先进的推理基线。使用我们最好的路由器，BACo在多样性和质量上实现了21.3%的联合提升。人类评估也反映了这些改进。结果表明，基础模型与对齐模型之间的协作可以优化并控制多样性和质量。",
+        "地址": "https://arxiv.org/pdf/2511.05650.pdf"
+    },
+    {
+        "名称": "2025 [2511.05489] TimeSearch-R: Adaptive Temporal Search for Long-Form Video Understanding via Self-Verification Reinforcement Learning.pdf",
+        "作者": "Junwen Pan, Qizhe Zhang, Rui Zhang, Ming Lu, Xin Wan, Yuan Zhang, Chang Liu, Qi She",
+        "摘要": "摘要：时间搜索旨在根据给定的查询从数万个帧中识别出一个最小的相关帧集合，为准确的长视频理解奠定基础。现有工作尝试逐步缩小搜索空间。然而，这些方法通常依赖手工设计的搜索过程，缺乏学习最佳搜索策略的端到端优化。在本文中，我们提出了TimeSearch-R，它将时间搜索重新表述为交替的文本视频思维，通过强化学习（RL）将搜索视频片段无缝集成到推理过程中。然而，将诸如Group Relative Policy Optimization（GRPO）等RL训练方法应用于视频推理可能导致无监督的中间搜索决策。这导致对视频内容的探索不足以及逻辑推理不一致。为了解决这些问题，我们引入了具有完整性自验证的GRPO（GRPO-CSV），它从交替推理过程中收集搜索到的视频帧，并利用相同的策略模型验证搜索帧的充分性，从而改善视频推理的完整性。此外，我们构建了专门为GRPO-CSV的SFT冷启动和RL训练设计的数据集，筛选出具有较弱时间依赖性的样本以增加任务难度并提高时间搜索能力。广泛的实验表明，TimeSearch-R在Haystack-LVBench和Haystack-Ego4D等时间搜索基准上取得了显著的改进，以及在VideoMME和MLVU等长视频理解基准上取得了显著的改进。值得注意的是，TimeSearch-R在LongVideoBench上建立了新的状态-of-the-art，比基础模型Qwen2.5-VL提升了4.1％，比先进的视频推理模型Video-R1提升了2.0％。我们的代码可在此URL获得。\n\n作者：Junwen Pan, Qizhe Zhang, Rui Zhang, Ming Lu, Xin Wan, Yuan Zhang, Chang Liu, Qi She\n\n注释：共22页，17个图。官方代码：此URL\n\nURL：https://arxiv.org/pdf/2511.05489.pdf\n\n标题：2025 [2511.05489] TimeSearch-R: Adaptive Temporal Search for Long-Form Video Understanding via Self-Verification Reinforcement Learning.pdf",
+        "地址": "https://arxiv.org/pdf/2511.05489.pdf"
+    }
+]
