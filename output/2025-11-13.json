@@ -1,0 +1,80 @@
+[
+    {
+        "名称": "2025 [2511.08892] Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds.pdf",
+        "作者": "Weihao Tan, Xiangyang Li, Yunhao Fang, Heyuan Yao, Shi Yan, Hao Luo, Tenglong Ao, Huihui Li, Hongbin Ren, Bairen Yi, Yujia Qin, Bo An, Libin Liu, Guang Shi",
+        "摘要": "摘要：我们介绍了Lumine，这是首个在复杂的3D开放世界环境中实时完成长达数小时复杂任务的通用代理开发的开放配方。Lumine采用了一种类似人类的交互范式，通过视觉语言模型将感知、推理和行动统一在一个端到端的方式中。它以5 Hz处理原始像素，并以30 Hz生成精确的鼠标键盘动作，且仅在必要时采用推理。在\"原神\"中训练后，Lumine成功完成了长达五小时的蒙德主线任务，其效率与人类水平相当，并能根据自然语言指令进行包括3D开放世界探索和2D GUI操作在内的广泛任务，如收集、战斗、解谜和NPC互动。除了在目标领域表现出色外，Lumine还展示了强大的跨游戏零样本泛化能力。在未进行任何微调的情况下，它能完成\"崩坏：星穹铁道\"第一章五小时的任务及\"无冬之波\"中的100分钟任务。这些令人鼓舞的结果突显了Lumine在不同世界和交互方式中的有效性，标志着在开放环境中向通用代理迈出了实质性的一步。",
+        "地址": "https://arxiv.org/pdf/2511.08892.pdf"
+    },
+    {
+        "名称": "2025 [2511.08217] MADD: Multi-Agent Drug Discovery Orchestra.pdf",
+        "作者": "Gleb V. Solovev, Alina B. Zhidkovskaya, Anastasia Orlova, Nina Gubina, Anastasia Vepreva, Rodion Golovinskii, Ilya Tonkii, Ivan Dubrovsky, Ivan Gurev, Dmitry Gilemkhanov, Denis Chistiakov, Timur A. Aliev, Ivan Poddiakov, Galina Zubkova, Ekaterina V. Skorb, Vladimir Vinogradov, Alexander Boukhanovsky, Nikolay Nikitin, Andrei Dmitrenko, Anna Kalyuzhnaya, Andrey Savchenko",
+        "摘要": "摘要：命中识别是早期药物发现中的一个核心挑战，传统上需要大量的实验资源。人工智能的最新进展，特别是大型语言模型（LLMs），已经实现了减少成本并提高效率的虚拟筛选方法。然而，这些工具的日益复杂限制了它们对湿实验室研究人员的可获得性。多代理系统通过将LLMs的可解释性与专业模型和工具的精确性相结合，提供了一个有前景的解决方案。在这项工作中，我们推出了MADD，一个能够从自然语言查询中构建和执行定制命中识别管道的多代理系统。MADD采用四个协调的代理来处理从头化合物生成和筛选中的关键子任务。我们在七个药物发现案例中评估了MADD，并证明了其相比现有LLM解决方案的卓越性能。使用MADD，我们率先应用AI优先药物设计于五个生物目标并发布识别的命中分子。最后，我们介绍了一个新的查询-分子配对和对接评分的基准数据集，涵盖超过三百万个化合物，以贡献于代理化药物设计的未来。",
+        "地址": "https://arxiv.org/pdf/2511.08217.pdf"
+    },
+    {
+        "名称": "2025 [2511.08633] Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock Denoising.pdf",
+        "作者": "Assaf Singer, Noam Rotstein, Amir Mann, Ron Kimmel, Or Litany",
+        "摘要": "摘要：基于扩散的视频生成可以创建逼真的视频，但现有的基于图像和文本的条件生成方法无法提供精确的运动控制。以往的运动条件合成方法通常需要对模型进行特定的微调，这既计算量大，又有一定的限制。我们介绍了一种无需训练的即插即用框架Time-to-Move (TTM)，用于通过图像到视频（I2V）扩散模型实现运动和外观控制的视频生成。我们的主要见解是使用通过简单的用户操作（例如剪切拖拽或基于深度的重投影）获得的粗略参考动画。受到SDEdit在图像编辑中使用粗略布局提示的启发，我们将这些粗略动画视为粗略运动提示，并将这种机制适应到视频领域。我们通过图像条件保持外观，并引入双时钟去噪，这是一种区域依赖策略，在运动指定区域强制执行严格对齐，同时在其他区域允许灵活性，平衡了对用户意图的忠实性和自然动态。这种对采样过程的轻量级修改不会增加额外的训练或运行时成本，并且兼容任何骨干。对物体和相机运动基准的广泛实验表明，TTM在逼真度和运动控制方面与现有的基于训练的方法相匹敌甚至超越。此外，TTM引入了一种独特的能力：通过像素级条件实现精确的外观控制，超越了仅文本提示的限制。访问我们的项目页面以获取视频示例和代码：https://arxiv.org/pdf/2511.08633.pdf。",
+        "地址": "https://arxiv.org/pdf/2511.08633.pdf"
+    },
+    {
+        "名称": "2025 [2511.08923] TiDAR: Think in Diffusion, Talk in Autoregression.pdf",
+        "作者": "Jingyu Liu, Xin Dong, Zhifan Ye, Rishabh Mehta, Yonggan Fu, Vartika Singh, Jan Kautz, Ce Zhang, Pavlo Molchanov",
+        "摘要": "摘要：扩散语言模型有望实现快速并行生成，而自回归（AR）模型由于其因果结构与语言建模的自然对齐，通常在质量上表现优异。这提出了一个基本问题：我们能否在高吞吐量、更高的GPU利用率和AR级别质量之间实现协同？现有方法未能有效平衡这两个方面，要么使用较弱的模型进行顺序起草（推测解码），导致起草效率较低，要么使用某种形式的从左到右（类似AR）的解码逻辑进行扩散，这仍然遭受质量下降并放弃其潜在的并行性。我们引入了TiDAR，一种序列级别的混合架构，在单次前向传递中使用专门设计的结构化注意力掩码，在扩散中起草标记（思考）和自回归地采样最终输出（说话）。这种设计利用了免费的GPU计算密度，实现了起草和验证能力之间的强平衡。此外，TiDAR被设计为独立模型，适合作为低开销服务模型。我们在1.5B和8B规模的生成和似然任务中，广泛评估了TiDAR相对于AR模型、推测解码和扩散变体的表现。由于并行起草和采样以及精确的KV缓存支持，TiDAR在测量的吞吐量上优于推测解码，并在效率和质量上超越了Dream和Llada等扩散模型。最值得注意的是，TiDAR是第一个在质量上赶上AR模型的架构，同时每秒交付4.71x到5.91x更多的标记。\n\n作者：Jingyu Liu, Xin Dong, Zhifan Ye, Rishabh Mehta, Yonggan Fu, Vartika Singh, Jan Kautz, Ce Zhang, Pavlo Molchanov\n\n评论：NVIDIA技术报告\n\n网址：https://arxiv.org/pdf/2511.08923.pdf\n\n标题：2025 [2511.08923] TiDAR: Think in Diffusion, Talk in Autoregression.pdf",
+        "地址": "https://arxiv.org/pdf/2511.08923.pdf"
+    },
+    {
+        "名称": "2025 [2511.09148] LoopTool: Closing the Data-Training Loop for Robust LLM Tool Calls.pdf",
+        "作者": "Kangning Zhang, Wenxiang Jiao, Kounianhua Du, Yuan Lu, Weiwen Liu, Weinan Zhang, Lei Zhang, Yong Yu",
+        "摘要": "摘要：增强大型语言模型（LLMs）与外部工具的结合可以使其执行复杂的多步骤任务。然而，工具学习受到静态的合成数据管道的阻碍，其中数据生成和模型训练作为两个独立且非交互的过程进行。这种方法未能自适应地关注模型的特定弱点，并且允许噪声标签持续存在，从而降低了训练效率。我们引入了LoopTool——一个完全自动化、模型感知的数据进化框架，通过紧密集成数据合成和模型训练来闭合这一循环。LoopTool通过三个协同模块迭代细化数据和模型：（1）贪婪能力探测（GCP）诊断模型已掌握和失败的能力；（2）判决引导的标签验证（JGLV）利用开源判决模型发现并纠正注释错误，逐步净化数据集；（3）错误驱动的数据扩展（EDDE）根据识别的失败生成新的、有挑战性的样本。该闭环过程在一个性价比高的开源生态系统内运行，消除了对昂贵的闭源API的依赖。实验表明，使用LoopTool训练的8B模型显著超过了其32B数据生成器，并在其规模上在BFCL-v3和ACEBench基准上取得了新的最先进的结果。我们的工作表明，闭环的自我完善数据管道可以极大地增强LLMs的工具使用能力。",
+        "地址": "https://arxiv.org/pdf/2511.09148.pdf"
+    },
+    {
+        "名称": "2025 [2511.09515] WMPO: World Model-based Policy Optimization for Vision-Language-Action Models.pdf",
+        "作者": "Fangqi Zhu, Zhengyang Yan, Zicong Hong, Quanxin Shou, Xiao Ma, Song Guo",
+        "摘要": "摘要：视觉-语言-动作（VLA）模型在通用机器人操作方面展现出强大的潜力，但它们对专家演示的依赖限制了其从失败中学习和自我纠正的能力。强化学习（RL）通过与物理环境的自我改进互动解决了这些问题，但在真实机器人上样本复杂度高。我们介绍了一种基于世界模型的策略优化（WMPO）框架，它是一种不需要与真实环境互动的原则性在策略VLA RL方法。与广泛使用的潜在世界模型不同，WMPO专注于基于像素的预测，将“想象”的轨迹与通过网页图像预训练的VLA特征对齐。关键是，WMPO使策略能够执行在策略GRPO，从而提供比常用的离策略方法更强的性能。在仿真和真实机器人设置中的大量实验表明，WMPO（i）显著提高了样本效率，（ii）实现了更强的整体性能，（iii）表现出自我纠正等突现行为，以及（iv）展示了强大的泛化和终身学习能力。\n\n作者：Fangqi Zhu, Zhengyang Yan, Zicong Hong, Quanxin Shou, Xiao Ma, Song Guo\n\n评论：项目网站：这个https URL\n\n链接：https://arxiv.org/pdf/2511.09515.pdf\n\n标题：2025 [2511.09515] WMPO: 基于世界模型的视觉-语言-动作模型策略优化.pdf",
+        "地址": "https://arxiv.org/pdf/2511.09515.pdf"
+    },
+    {
+        "名称": "2025 [2511.06805] MathSE: Improving Multimodal Mathematical Reasoning via Self-Evolving Iterative Reflection and Reward-Guided Fine-Tuning.pdf",
+        "作者": "Jinhao Chen, Zhen Yang, Jianxin Shi, Tianyu Wo, Jie Tang",
+        "摘要": "摘要：多模态大语言模型（MLLMs）在视觉-语言问答任务中展现了卓越的能力。尽管它们具有优势，但这些模型在处理诸如数学问题解决等复杂推理任务时常常遇到挑战。之前的研究主要集中在对专业数学数据集进行微调。然而，这些数据集通常直接从教师模型中提取，只捕捉到静态推理模式，相比学生模型仍存在显著差距。这种对固定的教师衍生数据集的依赖不仅限制了模型在训练数据范围之外适应新颖或更复杂问题的能力，还缺乏实现鲁棒泛化所需的迭代深度。为克服这些限制，我们提出了MathSE，一个针对MLLMs的数学自进化框架。与传统的一次性微调范式不同，MathSE通过推理、反思和基于奖励的反馈循环迭代地优化模型。具体而言，我们通过结合从前一阶段推理中得出的正确推理路径，并整合来自专门的结果奖励模型（ORM）的反思，进行迭代微调。为了验证MathSE的有效性，我们在一组具有挑战性的基准测试中进行了评估，表现出相对于基础模型的显著性能提升。值得注意的是，我们在MathVL-test上的实验结果超越了领先的开源多模态数学推理模型QVQ。我们的代码和模型可在https://zheny2751this http URLthis http URL获得。\n\n作者：Jinhao Chen, Zhen Yang, Jianxin Shi, Tianyu Wo, Jie Tang\n\n网址：https://arxiv.org/pdf/2511.06805.pdf\n\n备注：19页，11幅图\n\n标题：2025 [2511.06805] MathSE: Improving Multimodal Mathematical Reasoning via Self-Evolving Iterative Reflection and Reward-Guided Fine-Tuning.pdf",
+        "地址": "https://arxiv.org/pdf/2511.06805.pdf"
+    },
+    {
+        "名称": "2025 [2511.06251] WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation.pdf",
+        "作者": "Mingde Xu, Zhen Yang, Wenyi Hong, Lihang Pan, Xinyue Fan, Yan Wang, Xiaotao Gu, Bin Xu, Jie Tang",
+        "摘要": "摘要：用户界面（UI）开发需要将设计模型转换为功能代码，这一过程仍然是重复且费力的。尽管最近的视觉-语言模型（VLMs）实现了UI到代码生成的自动化，但它们仅生成缺乏交互性的静态HTML/CSS/JavaScript布局。为了解决这个问题，我们提出了WebVIA，这是第一个用于交互式UI到代码生成和验证的框架。该框架包括三个组件：(1) 一个用于捕获多状态UI截图的探索代理；(2) 一个生成可执行交互代码的UI2Code模型；(3) 一个验证交互性的验证模块。实验表明，WebVIA-Agent在UI探索方面比通用代理（如Gemini-2.5-Pro）更稳定、更准确。此外，我们经过微调的WebVIA-UI2Code模型在生成可执行和交互式HTML/CSS/JavaScript代码方面显著改进，优于其基础对照组在交互式和静态UI2Code基准上的表现。我们的代码和模型可以在\\\\href{this https URL}{\\\\texttt{this https URL}}获得。",
+        "地址": "https://arxiv.org/pdf/2511.06251.pdf"
+    },
+    {
+        "名称": "2025 [2511.07499] Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance.pdf",
+        "作者": "Kwanyoung Kim",
+        "摘要": "摘要：扩散模型在使用引导方法（例如无分类器引导（CFG））时显示出强大的生成性能，这些方法通过修改采样轨迹来提高输出质量。这些方法通常通过故意降级另一个目标（通常是不加条件的输出），使用诸如身份混合或模糊条件的启发式扰动函数来改善目标输出。然而，这些方法缺乏原则基础，并依赖手工设计的失真。在这项工作中，我们提出了对抗Sinkhorn注意引导（ASAG），一种新方法，通过最优传输的视角重新解释扩散模型中的注意得分，并通过Sinkhorn算法故意破坏传输成本。ASAG不是天真地破坏注意机制，而是在自注意层中注入对抗成本，以减少查询和关键之间的逐像素相似性。这种刻意的降级削弱了误导性的注意对齐，并且导致条件和无条件样本质量的改善。ASAG在文本到图像扩散中显示出一致的改进，并在下游应用（如IP-Adapter和ControlNet）中增强了可控性和保真度。该方法轻量级，即插即用，并在不需要任何模型重新训练的情况下提高了可靠性。",
+        "地址": "https://arxiv.org/pdf/2511.07499.pdf"
+    },
+    {
+        "名称": "2025 [2511.06101] Adapting Web Agents with Synthetic Supervision.pdf",
+        "作者": "Zhaoyang Wang, Yiming Liang, Xuchao Zhang, Qianhui Wu, Siwei Han, Anson Bastos, Rujia Wang, Chetan Bansal, Baolin Peng, Jianfeng Gao, Saravan Rajmohan, Huaxiu Yao",
+        "摘要": "摘要：网页代理由于缺乏特定环境的任务和示范，难以适应新网站。最近的研究探索了合成数据生成来应对这一挑战，但它们存在数据质量问题，合成的任务包含无法执行的幻觉，收集的轨迹则充满了冗余或未对齐的操作。在本文中，我们提出了SynthAgent，这是一个完全合成的监督框架，旨在通过对任务和轨迹的双重润色来提高合成数据质量。我们的方法首先通过对网页元素的分类探索，合成多样的任务，以确保高效覆盖目标环境。在轨迹收集过程中，当检测到与实际观察不一致的情况时，我们会润色任务，以减轻幻觉并保持任务一致性。收集完成后，我们在全局上下文中进行轨迹润色，以减少潜在的噪声或未对齐现象。最后，我们在精炼后的合成数据上微调开源网页代理，使其适应目标环境。实验结果表明，SynthAgent优于现有合成数据方法，验证了高质量合成监督的重要性。代码将公开提供在该网址。\n\n链接：https://arxiv.org/pdf/2511.06101.pdf",
+        "地址": "https://arxiv.org/pdf/2511.06101.pdf"
+    },
+    {
+        "名称": "2025 [2511.04824] Agentic Refactoring: An Empirical Study of AI Coding Agents.pdf",
+        "作者": "Kosei Horikawa, Hao Li, Yutaro Kashiwa, Bram Adams, Hajimu Iida, Ahmed E. Hassan",
+        "摘要": "摘要: 代理编码工具，如OpenAI Codex、Claude Code和Cursor，正在改变软件工程的格局。这些由AI驱动的系统充当自主队友，能够规划和执行复杂的开发任务。重构是可持续软件开发的基石，旨在提高内部代码质量而不改变可观察行为。尽管代理重构的使用日益增加，但对于代理重构在实际中的使用情况、与人工驱动重构的比较以及其对代码质量的影响缺乏实证理解。为了解决这一实证差距，我们对大型开源Java项目中的AI代理生成的重构进行了大规模研究，分析了来自AIDev数据集中的15,451个重构实例，覆盖12,256个pull request和14,988次提交。我们的实证分析显示，重构在这种开发范式中是一项常见且有意的活动，代理明确针对26.1%的提交进行重构。对重构类型的分析揭示了代理重构主要集中在低级、一致性导向的编辑上，如更改变量类型(11.8%)、重命名参数(10.4%)和重命名变量(8.5%)，反映了代理更倾向于局部改进而不是人工重构中常见的高级设计变更。此外，代理重构的动机主要集中在内部质量问题上，特别是可维护性(52.5%)和可读性(28.1%)。定量评估代码质量指标表明，代理重构在结构指标上虽有小幅但统计显著的改进，特别是在中等水平的变更中，减小了类的大小和复杂性（例如，类的代码行数中位数Δ = -15.25）。\n\n**翻译为中文的摘要**\n代理编码工具，如OpenAI Codex、Claude Code和Cursor，正在改变软件工程的格局。这些由人工智能驱动的系统能够作为自主队友，规划和执行复杂的开发任务。重构是可持续软件开发的基石，旨在提高代码的内部质量而不改变其可观察的行为。尽管代理重构的使用在增加，但仍缺乏对其实际应用、与人工引导的重构比较以及其对代码质量影响的经验理解。为了填补这一空白，我们在开源Java项目中对人工智能代理生成的重构进行了大规模研究，分析了AIDev数据集中15,451个重构实例，涉及12,256个pull request和14,988次提交。我们的经验分析显示，在这种开发范式中，重构是一项常见且有意的活动，代理明确针对26.1%的提交进行了重构。对重构类型的分析表明，代理重构主要集中在低级和一致性导向的编辑上，如更改变量类型(11.8%)、重命名参数(10.4%)和重命名变量(8.5%)，反映出代理更倾向于局部改进，而非人工重构中常见的高级设计变更。此外，代理重构的动机主要集中于内部质量问题，如可维护性(52.5%)和可读性(28.1%)。定量评估代码质量指标表明，代理重构在结构指标上虽有小幅但统计显著的改进，特别是中等程度的变更上，类的大小和复杂性有所减少（例如，类的代码行数中位数减少了15.25行）。",
+        "地址": "https://arxiv.org/pdf/2511.04824.pdf"
+    },
+    {
+        "名称": "2025 [2511.07464] Motif 2 12.7B technical report.pdf",
+        "作者": "Junghwan Lim, Sungmin Lee, Dongseok Kim, Taehyun Kim, Eunhwan Park, Jeesoo Lee, Jeongdoo Lee, Junhyeok Lee, Wai Ting Cheung, Dahye Choi, Jaeheui Her, Jaeyeon Huh, Hanbin Jung, Changjin Kang, Beomgyu Kim, Minjae Kim, Taewhan Kim, Youngrok Kim, Hyukjin Kweon, Haesol Lee, Kungyu Lee, Dongpin Oh, Yeongjae Park, Bokki Ryu, Dongjoo Weon",
+        "摘要": "摘要：我们介绍了Motif-2-12.7B，这是一种新的开放重量基础模型，通过结合架构创新和系统级优化，推动了大型语言模型的效率前沿。Motif-2-12.7B旨在在受限计算预算下实现可扩展的语言理解和强大的指令概括，基于Motif-2.6B，通过集成分组差分注意力（Grouped Differential Attention，GDA），改进了表示效率，通过解耦信号和噪声控制注意力路径。该模型在5.5万亿个涵盖多种语言、数学、科学和编程领域的标记上进行预训练，使用渐进式数据调度器逐渐改变数据组成比例。训练系统利用MuonClip优化器以及包括融合PolyNorm激活和并行Muon算法在内的定制高性能内核，在大规模分布式环境中实现了显著的吞吐量和内存效率提升。训练后采用三阶段的监督微调管道，逐步增强了指令遵从性、组合理解能力和语言精度。Motif-2-12.7B在各类基准测试中表现出竞争力，表明深思熟虑的架构扩展和优化的训练设计可以媲美更大规模的模型的能力。\n\n发布时间：2025年\n作者：Junghwan Lim, Sungmin Lee, Dongseok Kim, Taehyun Kim, Eunhwan Park, Jeesoo Lee, Jeongdoo Lee, Junhyeok Lee, Wai Ting Cheung, Dahye Choi, Jaeheui Her, Jaeyeon Huh, Hanbin Jung, Changjin Kang, Beomgyu Kim, Minjae Kim, Taewhan Kim, Youngrok Kim, Hyukjin Kweon, Haesol Lee, Kungyu Lee, Dongpin Oh, Yeongjae Park, Bokki Ryu, Dongjoo Weon\n链接：https://arxiv.org/pdf/2511.07464.pdf\n标题：2025 [2511.07464] Motif 2 12.7B技术报告",
+        "地址": "https://arxiv.org/pdf/2511.07464.pdf"
+    },
+    {
+        "名称": "2025 [2511.06073] Stemming Hallucination in Language Models Using a Licensing Oracle.pdf",
+        "作者": "Simeon Emanuilov, Richard Ackermann",
+        "摘要": "摘要：语言模型展示了出色的自然语言生成能力，但仍然容易出现幻觉，生成在句法上连贯但在事实上不准确的信息。本研究引入了授权神谕（Licensing Oracle），这是一种通过正式验证结构化知识图以施行真实约束，并且在语言模型中止住幻觉的架构解决方案。与依赖数据扩展或微调的统计方法不同，授权神谕在模型的生成过程中嵌入了一个确定性的验证步骤，确保只生成事实正确的声明。我们通过实验评估了授权神谕的有效性，并与几种最先进的方法进行了比较，包括基线语言模型生成、为事实召回进行的微调、为弃权行为进行的微调、以及检索增强生成（RAG）。我们的结果表明，尽管RAG和微调提高了性能，但它们未能消除幻觉。相比之下，授权神谕实现了完美的弃权精确度（AP = 1.0）和零错误回答（FAR-NE = 0.0），确保生成的声明在事实应答准确度上达到了89.1％。这项工作表明，诸如授权神谕的架构创新在具有结构化知识表示的领域中提供了必要且充分的解决方案，对保证不是统计方法能够媲美的。然而，尽管授权神谕专门设计用于在基于事实的领域中解决幻觉问题，它的框架为未来AI系统中的事实约束生成奠定了基础，为可靠的、在认识上有依据的模型提供了一条新的途径。",
+        "地址": "https://arxiv.org/pdf/2511.06073.pdf"
+    }
+]
