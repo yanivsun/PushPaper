@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2511.10629] One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models.pdf",
+        "作者": "Aleksandr Razin, Danil Kazantsev, Ilya Makarov",
+        "摘要": "摘要：扩散模型在扩展其训练分辨率方面存在挑战，因为直接进行高分辨率采样既缓慢又昂贵，而事后图像超分辨率（ISR）在解码后操作会引入人工痕迹和额外延迟。我们提出了潜在上采样适配器（LUA），这是一个轻量级模块，可以在生成器的潜在代码上直接进行超分辨率操作，在最后的VAE解码步骤之前。LUA作为一个插件组件，既不需要对基础模型进行修改，也不需要额外的扩散阶段，它允许通过潜在空间中的单次前向传递实现高分辨率合成。一个共享的Swin风格骨干网络，结合特定尺度的像素洗牌头，支持2x和4x倍数，并且保持与图像空间超分辨率基线的兼容性，以几乎低3倍的解码和上采样时间（从512像素生成1024像素仅增加+0.42秒，相比于使用相同的SwinIR架构在像素空间进行超分辨率需要1.87秒），实现了可比的感知质量。此外，LUA在不同VAE的潜在空间中表现出强大的泛化能力，使其在每个新解码器上无需从头开始重新训练即可轻松部署。大量实验表明，LUA在提供可扩展的高保真图像合成方面，接近原生高分辨率生成的保真度，同时提供了一条实用且高效的路径用于现代扩散管道中的高分辨率图像生成。\n\n作者：Aleksandr Razin, Danil Kazantsev, Ilya Makarov\n\n标题：2025 [2511.10629] 在潜在空间的一小步，像素的一大步：为您的扩散模型提供快速潜在上采样适配器\n\n链接：https://arxiv.org/pdf/2511.10629.pdf",
+        "地址": "https://arxiv.org/pdf/2511.10629.pdf"
+    },
+    {
+        "名称": "2025 [2511.09057] PAN: A World Model for General, Interactable, and Long-Horizon World Simulation.pdf",
+        "作者": "PAN Team Institute of Foundation Models: Jiannan Xiang, Yi Gu, Zihan Liu, Zeyu Feng, Qiyue Gao, Yiyan Hu, Benhao Huang, Guangyi Liu, Yichi Yang, Kun Zhou, Davit Abrahamyan, Arif Ahmad, Ganesh Bannur, Junrong Chen, Kimi Chen, Mingkai Deng, Ruobing Han, Xinqi Huang, Haoqiang Kang, Zheqi Li, Enze Ma, Hector Ren, Yashowardhan Shinde, Rohan Shingre, Ramsundar Tanikella, Kaiming Tao, Dequan Yang, Xinle Yu, Cong Zeng, Binglin Zhou, Zhengzhong Liu, Zhiting Hu, Eric P. Xing",
+        "摘要": "摘要: 世界模型使智能代理能够想象、预测和推理世界如何随着其行动而演变，并据此进行计划和制定策略。虽然最近的视频生成模型能够生成逼真的视觉序列，但它们通常以提示到完整视频的方式进行操作，缺乏因果控制、交互性或长远一致性，这需要有目的的推理。现有的世界建模工作通常集中于受限领域（例如物理、游戏或3D场景动态），深度和可控性有限，并且难以在不同环境和交互格式间进行泛化。在这项工作中，我们介绍了PAN，这是一种通用、可交互的长远世界模型，通过基于历史和自然语言行动的高质量视频模拟来预测未来的世界状态。PAN采用生成潜在预测(GLP)架构，该架构结合了基于大型语言模型(LLM)的自回归潜在动态骨干，基于丰富的文本知识进行模拟，并支持基于语言指定的行动调节，并结合视频扩散解码器，重构感知详细且时间一致的视觉观察，实现潜在空间推理（想象）和可实现世界动态（现实）之间的统一。在大规模视频-行动对跨越多个领域的训练中，PAN支持开放领域、基于行动调节的模拟，具有一致的长期动态。大量实验表明，相比其他视频生成器和世界模型，PAN在基于行动调节的世界模拟、长远预测和模拟推理方面表现强劲，向通用世界模型迈出了重要一步，能够预测未来世界状态以进行推理和行动。",
+        "地址": "https://arxiv.org/pdf/2511.09057.pdf"
+    },
+    {
+        "名称": "2025 [2511.08521] UniVA: Universal Video Agent towards Open-Source Next-Generation Video Generalist.pdf",
+        "作者": "Zhengyang Liang, Daoan Zhang, Huichi Zhou, Rui Huang, Bobo Li, Yuechen Zhang, Shengqiong Wu, Xiaohan Wang, Jiebo Luo, Lizi Liao, Hao Fei",
+        "摘要": "摘要：尽管专用的 AI 模型在生成或理解等单一视频任务上表现优异，但现实世界的应用需要将这些能力结合起来，进行复杂的、迭代的工作流程。为弥补这一差距，我们介绍了 UniVA，一个面向下一代视频通才的开源全能多代理框架，能够将视频理解、分割、编辑和生成等功能统一到一个连贯的工作流程中。UniVA 采用计划与执行的双代理架构，推动高度自动化和主动的工作流程：计划代理解释用户意图，并将其分解为结构化的视频处理步骤，而执行代理则通过模块化、MCP 基础的工具服务器（用于分析、生成、编辑、跟踪等）来完成这些步骤。通过分层的多级记忆（全局知识、任务上下文和用户特定偏好），UniVA 能够保持长期推理、上下文连贯性和代理间通信，使互动和自我反思的视频创作成为可能，并具有完全的可追溯性。此设计能够实现迭代的和任何条件下的视频工作流程（例如，文本/图像/视频条件生成->多轮编辑->对象分割->合成），这些工作流程以前使用单一用途模型或单一视频语言模型难以实现。我们还推出了 UniVA-Bench，这是一个跨越理解、编辑、分割和生成等多步骤视频任务的基准套件，旨在严格评估此类代理视频系统。UniVA 和 UniVA-Bench 均为完全开源项目，旨在推动下一代多模态 AI 系统中交互式、代理性和通用视频智能的研究。",
+        "地址": "https://arxiv.org/pdf/2511.08521.pdf"
+    },
+    {
+        "名称": "2025 [2511.10643] Black-Box On-Policy Distillation of Large Language Models.pdf",
+        "作者": "Tianzhu Ye, Li Dong, Zewen Chi, Xun Wu, Shaohan Huang, Furu Wei",
+        "摘要": "摘要：黑盒蒸馏通过仅学习来自专有教师模型文本输出创建学生大型语言模型（LLMs），而无需访问其内部logits或参数。在这项工作中，我们提出生成对抗蒸馏（GAD），实现了基于策略与黑盒蒸馏。GAD将学生LLM设为生成器，并训练一个鉴别器区分其响应与教师LLM的响应，从而形成一个极小极大博弈。鉴别器作为一个基于策略的奖励模型，与学生共同进化，提供稳定、适应性反馈。实验结果表明，GAD始终优于常用的序列级知识蒸馏方法。特别是，通过GAD训练的Qwen2.5-14B-Instruct（学生）在LMSYS-Chat自动评估中与其教师GPT-5-Chat相媲美。结果确立了GAD作为黑盒LLM蒸馏的一个有前途且有效的范式。\n\n作者：叶天柱, 董丽, 池泽文, 吴迅, 黄绍涵, 魏复\n\n链接：https://arxiv.org/pdf/2511.10643.pdf\n\n标题：2025 [2511.10643] 大型语言模型的黑盒基于策略蒸馏.pdf",
+        "地址": "https://arxiv.org/pdf/2511.10643.pdf"
+    },
+    {
+        "名称": "2025 [2511.09780] Hail to the Thief: Exploring Attacks and Defenses in Decentralised GRPO.pdf",
+        "作者": "Nikolay Blagoev, Oğuzhan Ersoy, Lydia Yiyu Chen",
+        "摘要": "摘要翻译如下：\n\n摘要：组相对策略优化（GRPO）在大型语言模型（LLM）的后训练中表现出极大的利用价值。在GRPO中，模型回答提示，并通过强化学习，学习用户偏好的完成句。由于通信量小，GRPO天生适合于分散式训练，因为提示可以被多个节点同时回答，然后以字符串的形式交换。在这项工作中，我们提出了在分散式GRPO中的首次对抗性攻击。我们证明了恶意方可以通过在良性模型中注入任意恶意令牌来毒害此类系统，无论是上下文外还是上下文内攻击。通过数学和编码任务的实证例子，我们展示了对抗性攻击可以轻易地毒害良性节点，污染其本地LLM后训练，在少至50次迭代中实现高达100%的攻击成功率。我们提出了两种防御这些攻击的方法，这取决于所有用户是否训练相同的模型或不同的模型。我们展示了这些防御措施可以实现高达100%的停止率，使攻击变得不可能。",
+        "地址": "https://arxiv.org/pdf/2511.09780.pdf"
+    },
+    {
+        "名称": "2025 [2511.10647] Depth Anything 3: Recovering the Visual Space from Any Views.pdf",
+        "作者": "Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang",
+        "摘要": "摘要: 我们提出了Depth Anything 3（DA3），一种可以从任意数量的视觉输入预测空间一致几何形状的模型，无论是否已知相机位置。为了实现最小建模，DA3提供了两个关键见解：一个简单的平凡变换器（例如，vanilla DINO编码器）足以作为骨干，无需专门的架构，以及一个单一的深度射线预测目标可以避免复杂的多任务学习。通过我们的教师-学生训练范式，模型在细节和泛化方面达到了与Depth Anything 2（DA2）相当的水平。我们建立了一个新的视觉几何基准，涵盖相机位置估计、任意视图几何和视觉渲染。在这个基准上，DA3在所有任务中设置了新的最先进水平，在相机位置准确性方面平均超过之前的SOTA VGGT 44.3%，在几何准确性方面超过了25.1%。此外，它在单目深度估计方面性能优于DA2。所有模型均仅在公共学术数据集上进行训练。\n\n作者: Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang\n\n评论: 参见此URL https://arxiv.org/pdf/2511.10647.pdf\n\n标题: 2025 [2511.10647] Depth Anything 3: Recovering the Visual Space from Any Views.pdf",
+        "地址": "https://arxiv.org/pdf/2511.10647.pdf"
+    },
+    {
+        "名称": "2025 [2511.01918] Superpositional Gradient Descent: Harnessing Quantum Principles for Model Training.pdf",
+        "作者": "Ahmet Erdem Pamuk, Emir Kaan Özdemir, Şuayp Talha Kocabay",
+        "摘要": "摘要：大型语言模型（LLMs）越来越多地使用经典的优化技术，如AdamW，以提高收敛性和泛化能力。然而，量子启发方法如何增强经典训练的机制仍未有深入探索。我们介绍了一种连接量子叠加与梯度更新的新型优化器——叠加梯度下降（Superpositional Gradient Descent，SGD），通过注入量子电路扰动实现。我们提出了一个数学框架，并在PyTorch和Qiskit中实现了混合量子-经典电路。在合成序列分类和大规模LLM微调上，SGD较AdamW收敛更快，最终损失更低。尽管结果令人鼓舞，规模化和硬件限制限制了采用。总体而言，这项工作提供了量子计算与深度学习交叉的新见解，提出了利用量子原理来控制和增强模型行为的实际途径。",
+        "地址": "https://arxiv.org/pdf/2511.01918.pdf"
+    },
+    {
+        "名称": "2025 [2511.09030] Solving a Million-Step LLM Task with Zero Errors.pdf",
+        "作者": "Elliot Meyerson, Giuseppe Paolo, Roberto Dailey, Hormoz Shahrzad, Olivier Francon, Conor F. Hayes, Xin Qiu, Babak Hodjat, Risto Miikkulainen",
+        "摘要": "摘要: 大规模语言模型（LLMs）在推理、洞察和工具使用方面取得了显著突破，但在人类、组织和社会常规执行的规模上，将这些能力串联到延长的过程中，仍然遥不可及。这些模型存在一个持续的错误率，阻碍了其扩展，比如最近在汉诺塔基准域的实验表明，在至多几百步之后，过程必然会出轨。因此，尽管LLM研究通常仍基于相对较少依赖逻辑步骤的任务进行基准测试，但对LLM执行长程任务的能力（或无能）的关注正在增加。本文介绍了MAKER，这是第一个成功完成超过一百万步LLM任务且无错误的系统，原则上可以远远超过这一水平。该方法依赖于将任务极端分解为子任务，每个子任务可由专注的微观代理处理。由于分解带来的高度模块化，使得可以通过高效的多代理投票方案在每一步进行错误纠正。极端分解和错误纠正的结合使得扩展成为可能。因此，结果表明，与其依赖当前LLM的持续改进，极端分解的代理过程（MDAPs）可能提供了一种高效解决组织和社会层面问题的方法。\n\n作者: Elliot Meyerson, Giuseppe Paolo, Roberto Dailey, Hormoz Shahrzad, Olivier Francon, Conor F. Hayes, Xin Qiu, Babak Hodjat, Risto Miikkulainen\n\n评论: 主要论文：14页，包含参考文献和附录共29页\n\n链接: https://arxiv.org/pdf/2511.09030.pdf\n\n标题: 2025 [2511.09030] 以零错误解决百万步LLM任务",
+        "地址": "https://arxiv.org/pdf/2511.09030.pdf"
+    },
+    {
+        "名称": "2025 [2511.08522] AlphaResearch: Accelerating New Algorithm Discovery with Language Models.pdf",
+        "作者": "Zhaojian Yu, Kaiyue Feng, Yilun Zhao, Shilin He, Xiao-Ping Zhang, Arman Cohan",
+        "摘要": "摘要: 大型语言模型在复杂但易于验证的问题上取得了显著进展，但它们在发现未知事物时仍然存在困难。在本文中，我们介绍了一种名为AlphaResearch的自主研究代理，旨在发现开放性问题的新算法。为实现发现过程的可行性和创新性，我们通过结合基于执行的验证和模拟真实世界同行评审环境，构建了一个新颖的双重研究环境。AlphaResearch通过反复运行以下步骤来发现新算法：（1）提出新想法，（2）在双重研究环境中验证这些想法，（3）优化研究提案以提高性能。为促进透明的评估过程，我们构建了一个名为AlphaResearchComp的新评估基准，其中包括八个开放性算法问题的竞赛，每个问题都通过可执行管道、客观指标和可复现性检查进行了精心策划和验证。在与人类研究人员的对比中，AlphaResearch以2/8的胜率展示了利用大语言模型加速算法发现的可能性。值得注意的是，AlphaResearch在“填充圆形”问题上发现的算法达到了已知最佳性能，超过了人类研究人员的结果和最近工作的强基准（例如AlphaEvolve）。此外，我们还对6/8失败案例的剩余挑战进行了全面分析，为未来研究提供了宝贵的见解。",
+        "地址": "https://arxiv.org/pdf/2511.08522.pdf"
+    },
+    {
+        "名称": "2025 [2511.10507] Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following.pdf",
+        "作者": "Yun He, Wenzhe Li, Hejia Zhang, Songlin Li, Karishma Mandyam, Sopan Khosla, Yuanhao Xiong, Nanshu Wang, Selina Peng, Beibin Li, Shengjie Bi, Shishir G. Patil, Qi Qi, Shengyu Feng, Julian Katz-Samuels, Richard Yuanzhe Pang, Sujan Gonugondla, Hunter Lang, Yue Yu, Yundi Qian, Maryam Fazel-Zarandi, Licheng Yu, Amine Benhalloum, Hany Awadalla, Manaal Faruqui",
+        "摘要": "摘要：最近在大型语言模型（LLMs）方面的进展已经在一系列任务上表现出令人印象深刻的性能，但对于复杂的、多轮次的和系统提示的指令跟随（IF）仍然是一个重要的挑战。由于缺乏高质量的人类标注基准和可靠的、可解释的奖励信号，在这种能力上的严格评估和有效训练受到阻碍。在这项工作中，我们介绍了AdvancedIF（我们将很快发布这个基准），这是一个综合基准，包含超过1600个提示和专家策划的评分标准，用于评估LLMs跟随复杂、多轮次和系统级别指令的能力。我们进一步提出了RIFL（基于评分标准的指令跟随学习），这是一种利用评分标准生成、微调的评分标准验证器和奖励塑造的新颖训练后管道，以实现指令跟随的有效强化学习。广泛的实验表明，RIFL显著提高了LLMs的指令跟随能力，在AdvancedIF上取得了6.7%的绝对增益，并在公共基准上取得了良好成绩。我们的消融研究证实了RIFL中每个组件的有效性。这项工作确立了评分标准作为训练和评估LLMs高级指令跟随的强大工具，为更加有能力和可靠的人工智能系统铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2511.10507.pdf"
+    },
+    {
+        "名称": "2025 [2511.10289] Music Flamingo: Scaling Music Understanding in Audio Language Models.pdf",
+        "作者": "Sreyan Ghosh, Arushi Goel, Lasha Koroshinadze, Sang-gil Lee, Zhifeng Kong, Joao Felipe Santos, Ramani Duraiswami, Dinesh Manocha, Wei Ping, Mohammad Shoeybi, Bryan Catanzaro",
+        "摘要": "摘要: 我们介绍了Music Flamingo，这是一种新的大型音频语言模型，旨在推进基础音频模型中的音乐(包括歌曲)理解。尽管音频语言研究进展迅速，但由于音乐的动态、多层次和信息密集的特性，音乐仍然具有挑战性。由于缺乏高质量的音乐数据和注释，开放音频理解模型难以扩展，进一步限制了进展。因此，先前的模型只能生成简短的高级描述，回答表层问题，并且在不同音乐文化中表现出有限的泛化能力。为了解决这些挑战，我们通过一个多阶段管道整理了MF-Skills，这是一种大规模的数据集，标注了涵盖和声、结构、音色、歌词和文化背景的丰富描述和问答对。我们在MF-Skills上微调了增强的Audio Flamingo 3骨干，并进一步增强了与音乐理解相关的多项技能。为了提高模型的推理能力，我们引入了一种后训练方法: 首先以基于音乐理论的新型思维链数据集MF-Think进行冷启动，然后进行基于GRPO的强化学习，并配以定制奖励。Music Flamingo在10多个音乐理解和推理的基准上达到了最先进的成果，确立了其作为通用且具音乐智能的音频语言模型的地位。除了强有力的实证结果外，Music Flamingo通过展示模型如何从表面识别过渡到对歌曲的多层次、人类般的感知，设立了先进音乐理解的新标准。我们认为这项工作为社区提供了一个基准和基础，以构建能像人类一样有意义地与音乐互动的下一代模型。",
+        "地址": "https://arxiv.org/pdf/2511.10289.pdf"
+    },
+    {
+        "名称": "2025 [2511.10547] Benchmarking Diversity in Image Generation via Attribute-Conditional Human Evaluation.pdf",
+        "作者": "Isabela Albuquerque, Ira Ktena, Olivia Wiles, Ivana Kajić, Amal Rannen-Triki, Cristina Vasconcelos, Aida Nematzadeh",
+        "摘要": "**摘要**：尽管生成质量有所提高，但当前的文本到图像（T2I）模型常常缺乏多样性，生成同质化的输出。本研究提出了一个框架，以解决T2I模型中对多样性评估的需求。我们的框架通过评估单个概念及其相关变化因素来系统地评估多样性。主要贡献包括：（1）一个新的用于细致多样性评估的人类评估模板；（2）一个涵盖多种概念及其相关变化因素的精心设计的提示集（例如：提示：一个苹果的图像，变化因素：颜色）；（3）一种通过二项检验比较模型在人工注释方面的方法。此外，我们还严格比较了各种图像嵌入的多样性测量方法。值得注意的是，我们的原则性方法能够根据多样性对T2I模型进行排名，识别出它们特别困难的类别。该研究提供了一个可靠的方法和见解，为改进T2I模型的多样性和指标开发铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2511.10547.pdf"
+    },
+    {
+        "名称": "2025 [2511.07685] ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents.pdf",
+        "作者": "Manasi Sharma, Chen Bo Calvin Zhang, Chaithanya Bandi, Clinton Wang, Ankit Aich, Huy Nghiem, Tahseen Rabbani, Ye Htet, Brian Jang, Sumana Basu, Aishwarya Balwani, Denis Peskoff, Marcos Ayestaran, Sean M. Hendryx, Brad Kenstler, Bing Liu",
+        "摘要": "摘要：\nDeep Research (DR) 是一种新兴的代理应用程序，利用大语言模型（LLMs）来处理开放式查询。这需要整合多个能力，包括多步骤推理、跨文档综合以及生成有证据支撑的长篇回答。评估 DR 仍然具有挑战性，因为其回复较为冗长多样，接受许多有效解决方案，并且往往依赖动态信息源。我们引入了 ResearchRubrics，一种标准化的 DR 基准，结合了超过 2,800 小时的人力劳动，配对现实、领域多样的提示和超过 2,500 个专家编写的细粒度评分准则，以评估事实依据、推理由和清晰度。我们还提出了一种新的复杂性框架，从概念宽度、逻辑嵌套和探索三个轴线对 DR 任务进行分类。此外，我们开发了基于人类和模型的评估协议来衡量 DR 代理的准则遵守情况。我们评估了几个最先进的 DR 系统，发现即使是领先的代理如 Gemini 的 DR 和 OpenAI 的 DR，其平均符合我们的准则的比例也不到 68%，主要是由于隐含上下文缺失和对检索信息推理不足。我们的结果强调了对深度研究能力进行稳健、可扩展评估的必要性，为此我们发布了 ResearchRubrics（包括所有提示、评分准则和评估代码），以促进向合理的研究助理的进展。",
+        "地址": "https://arxiv.org/pdf/2511.07685.pdf"
+    },
+    {
+        "名称": "2025 [2511.10047] MuSc-V2: Zero-Shot Multimodal Industrial Anomaly Classification and Segmentation with Mutual Scoring of Unlabeled Samples.pdf",
+        "作者": "Xurui Li, Feng Xue, Yu Zhou",
+        "摘要": "摘要：零样本异常分类（AC）和分割（AS）方法旨在无需使用任何标记样本的情况下识别和描绘缺陷。本文揭示了现有方法忽视的一项关键特性：工业产品的正常图像块不仅在2D外观上，而且在3D形态上通常能够找到许多其他相似的块，而异常则保持多样且孤立。为了明确利用这一区分特性，我们提出了一种用于零样本AC/AS的互评框架（MuSc-V2），该框架灵活支持单一2D/3D或多模态。具体来说，我们的方法首先通过迭代点分组（IPG）改进3D表示，减少来自不连续表面的误报。然后，我们使用具有多度的相似邻域聚合（SNAMD）融合2D/3D邻域线索，形成更具区分性的多尺度块特征用于互评。核心包括一种互评分机制（MSM），使每种模态内的样本相互评分，以及跨模态异常增强（CAE），融合2D和3D评分以恢复模态特异性缺失的异常。最后，通过约束邻域的重新评分（RsCon），基于与更具代表性的样本的相似性抑制误分类。我们的框架在整个数据集和较小子集上均表现出一致且稳健的性能，确保在不同产品线之间的无缝适应性。在新颖框架的帮助下，MuSc-V2在MVTec 3D-AD数据集上取得了显著的性能提升：AP增加了23.7%，在Eyecandies数据集上提升了19.3%，超越了先前的零样本基准，甚至优于大多数少样本方法。代码将发布在：https://arxiv.org/pdf/2511.10047.pdf\n\n作者：Xurui Li, Feng Xue, Yu Zhou\n年份：2025\n标题：2025 [2511.10047] MuSc-V2: 使用未标记样本的互评进行零样本多模态工业异常分类和分割.pdf",
+        "地址": "https://arxiv.org/pdf/2511.10047.pdf"
+    },
+    {
+        "名称": "2025 [2511.10017] AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models.pdf",
+        "作者": "Xinyi Wang, Xun Yang, Yanlong Xu, Yuchen Wu, Zhen Li, Na Zhao",
+        "摘要": "该研究论文的摘要为：\n\n有效的人机协作需要不仅理解要执行什么任务，还需知道可操作元素在哪里以及如何与之交互。现有方法通常在对象层面操作，或是断续地处理细粒度的可操作性推理，缺乏连贯的、由指令驱动的定位和推理。在此工作中，我们引入了一项新任务：细粒度3D具身推理（Fine-grained 3D Embodied Reasoning），要求代理根据任务指令预测3D场景中每个参考的可操作性元素的空间位置、运动类型和运动轴的结构三元组。为了解决这一任务，我们提出了AffordBot，这是一种新颖的框架，集成了多模态大型语言模型（MLLMs）与量身定制的链式思维（CoT）推理模式。为弥合3D输入与2D兼容MLLMs之间的差距，我们渲染了场景的环绕视图图像，并将3D元素候选对象投影到这些视图中，形成了与场景几何对齐的丰富视觉表示。我们的CoT流水线从一个主动感知阶段开始，提示MLLM根据指令选择最具信息量的视点，然后逐步推理定位可操作性元素并推断出合理的交互运动。通过SceneFun3D数据集评估，AffordBot达到了最先进的性能，展示了只需3D点云输入和MLLMs即可实现强大的泛化能力和物理上的沉浸推理。\n\n论文由Xinyi Wang, Xun Yang, Yanlong Xu, Yuchen Wu, Zhen Li, Na Zhao撰写，已在NeurIPS 2025会议上发表。论文链接为：https://arxiv.org/pdf/2511.10017.pdf",
+        "地址": "https://arxiv.org/pdf/2511.10017.pdf"
+    },
+    {
+        "名称": "2025 [2511.09715] SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control.pdf",
+        "作者": "Arman Zarei, Samyadeep Basu, Mobina Pournemat, Sayan Nag, Ryan Rossi, Soheil Feizi",
+        "摘要": "摘要：基于指令的图像编辑模型最近取得了令人瞩目的表现，能够通过多指令提示对输入图像进行复杂编辑。然而，这些模型以固定强度应用提示中的每条指令，限制了用户对个别编辑强度的精确和连续控制。我们提出了SliderEdit，一种具有精细可解释指令控制的连续图像编辑框架。给定多部分编辑指令，SliderEdit能够解开个别指令，并将其作为一个全局训练的滑块进行暴露，允许对其强度进行平滑调节。不同于之前在文本到图像生成中引入的基于滑块的属性控制，通常需要对每个属性或概念进行单独训练或微调，我们的方法学习了一组通用的低秩适应矩阵，能够适用于多种编辑、属性和组合指令。这使得在保持空间局部性和全局语义一致性的同时，可以沿着个别编辑维度进行连续插值。我们将SliderEdit应用于最先进的图像编辑模型，包括FLUX-Kontext和Qwen-Image-Edit，观察到在编辑可控性、视觉一致性和用户可操纵性方面的显著改进。据我们所知，我们是首个在基于指令的图像编辑模型中探索并提出连续、精细化指令控制框架的研究。我们的结果为具有连续和组合控制的交互式指令驱动图像操作奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2511.09715.pdf"
+    },
+    {
+        "名称": "2025 [2511.09067] MM-CRITIC: A Holistic Evaluation of Large Multimodal Models as Multimodal Critique.pdf",
+        "作者": "Gailun Zeng, Ziyang Luo, Hongzhan Lin, Yuchen Tian, Kaixin Li, Ziyang Gong, Jianxiong Guo, Jing Ma",
+        "摘要": "摘要:\n批判能力对于模型自我改进和作为可靠的AI助手至关重要。虽然在仅有语言的环境中已被广泛研究，但对于大型多模态模型（LMMs）进行多模态批判的研究仍未得到充分探索，尽管它们在图片说明和视觉推理等任务中的能力日益增强。在这项工作中，我们介绍了MM-CRITIC，一个全面的基准，用于评估LMMs在多个维度上的批判能力：基本、纠正和比较。MM-CRITIC涵盖了8种主要任务类型和超过500个任务，收集了不同模型大小的各种LMMs的响应，包含4471个样本。为了提高评估的可靠性，我们将专家建议的标准答案整合到评分标准中，指导GPT-4o进行响应注释并生成参考批评，这些参考批评作为可信判断的基准。大量实验验证了MM-CRITIC的有效性，并从多个维度提供了对领先LMMs批判能力的全面评估。进一步分析揭示了一些关键见解，包括响应质量与批判之间的相关性，以及不同评估维度间的批判难度差异。我们的代码可通过此[链接](https://arxiv.org/pdf/2511.09067.pdf)获得。\n\n作者: Gailun Zeng, Ziyang Luo, Hongzhan Lin, Yuchen Tian, Kaixin Li, Ziyang Gong, Jianxiong Guo, Jing Ma\n\n注释：28页，14幅图，19张表\n\n网址：https://arxiv.org/pdf/2511.09067.pdf\n\n标题：2025 [2511.09067] MM-CRITIC: 大型多模态模型多模态批评的全方位评估.pdf",
+        "地址": "https://arxiv.org/pdf/2511.09067.pdf"
+    },
+    {
+        "名称": "2025 [2511.07790] CC30k: A Citation Contexts Dataset for Reproducibility-Oriented Sentiment Analysis.pdf",
+        "作者": "Rochana R. Obadage, Sarah M. Rajtmajer, Jian Wu",
+        "摘要": "摘要：对于下游文献中引用论文可重复性的情感反应提供了社区视角，并显示出与已发表研究结果实际可重复性的有希望的信号。为了训练有效的模型来有效预测以可重复性为导向的情感，并进一步系统地研究其与可重复性的相关性，我们引入了 CC30k 数据集，该数据集包含了机器学习论文中的 30,734 个引文上下文。每个引文上下文都有一个三种可重复性导向情感标签之一：正面、负面或中性，反映了被引用论文的可重复性或可复制性感知。其中，25,829 个是通过众包标注的，并通过受控流程生成了负面标签，以应对负面标签稀缺的问题。与传统情感分析数据集不同，CC30k 侧重于可重复性导向的情感，填补了计算可重复性研究资源的研究空白。该数据集通过包含强大的数据清洗、谨慎的众包选择和详尽的验证的流程创建，最终实现了 94% 的标签准确度。然后，我们展示了在使用我们的数据集进行微调后，三个大型语言模型在可重复性导向的情感分类上的性能显著提高。该数据集为大规模评估机器学习论文的可重复性奠定了基础。CC30k 数据集和用于生成和分析数据集的 Jupyter 笔记本在此 https URL 上公开。",
+        "地址": "https://arxiv.org/pdf/2511.07790.pdf"
+    }
+]
