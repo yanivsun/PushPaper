@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2511.09146] DoPE: Denoising Rotary Position Embedding.pdf",
+        "作者": "Jing Xiong, Liyang Fan, Hui Shen, Zunhai Su, Min Yang, Lingpeng Kong, Ngai Wong",
+        "摘要": "摘要：Transformer模型中的旋转位置嵌入（RoPE）具有固有的限制，削弱了长度外推。我们将带位置编码的注意力图重新解释为噪声特征图，并提出去噪位置编码（DoPE），这是基于截断矩阵熵检测特征图中异常频带的无训练方法。利用特征图的噪声特性，我们进一步使用无参数高斯分布对其重新参数化，以实现稳健的外推。我们的方法从理论上揭示了注意力陷阱现象的根本原因及其与截断矩阵熵的关系。在大海捞针和多次上下文学习任务的实验中，DoPE显著改善了在扩展上下文（最多64K个标记）中的检索准确性和推理稳定性。结果表明，位置嵌入的去噪策略有效缓解了注意力陷阱并恢复了平衡的注意力模式，为改善长度泛化提供了一个简单而强大的解决方案。我们的项目页面是：Project: this https URL",
+        "地址": "https://arxiv.org/pdf/2511.09146.pdf"
+    },
+    {
+        "名称": "2025 [2511.11434] WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation.pdf",
+        "作者": "Wei Chow, Jiachun Pan, Yongyuan Liang, Mingze Zhou, Xue Song, Liyu Jia, Saining Zhang, Siliang Tang, Juncheng Li, Fengda Zhang, Weijia Wu, Hanwang Zhang, Tat-Seng Chua",
+        "摘要": "摘要：由于最近在统一多模态模型（UMMs）方面的进展，视觉理解和生成取得了显著的进步。然而，现有的数据集和基准主要集中于单轮交互，未能捕捉到现实世界图像创建和编辑的多轮、上下文依赖特性。为了解决这一差距，我们提出了WEAVE，这是第一个用于上下文交织跨模态理解和生成的套件。我们的套件包括两个互补部分。WEAVE-100k是一个包含100K交错样本的大规模数据集，跨越370K以上的对话轮次和500K图像，涵盖需要推理历史上下文的理解、编辑和生成任务。WEAVEBench是一个基于480张图像的100个任务的人工标注基准，采用混合VLM裁判评估框架，基于参考图像和编辑指令组合的原始图像，评估模型在多轮生成、视觉记忆和跨不同领域的世界知识推理能力。实验表明，在WEAVE-100k上训练可以实现视觉理解、图像编辑和理解生成协作能力。此外，它促进了UMMs发展新的视觉记忆功能，而对WEAVEBench的广泛评估揭示了当前方法在多轮、上下文感知图像生成和编辑中的持续局限和挑战。我们相信WEAVE为多模态社区研究上下文交织理解和生成提供了视角和基础。",
+        "地址": "https://arxiv.org/pdf/2511.11434.pdf"
+    },
+    {
+        "名称": "2025 [2511.11134] GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models.pdf",
+        "作者": "Jingxuan Wei, Caijun Jia, Xi Bai, Xinglong Xu, Siyuan Li, Linzhuang Sun, Bihui Yu, Conghui He, Lijun Wu, Cheng Tan",
+        "摘要": "摘要：统一多模态模型（Unified Multimodal Models，UMMs）的出现标志着人工智能从被动感知向主动跨模态生成的范式转变。尽管它们具备前所未有的信息综合能力，但在评估方面仍存在一个关键空白：现有基准主要评估判别理解或不受约束的图像生成，未能测量生成性推理的整合认知过程。为填补这一空白，我们提出几何构造作为理想的测试平台，因为它本质上要求融合语言理解和精确的视觉生成。我们引入了GGBench，这是一个专门用于评估几何生成性推理的基准。它提供了一个全面的框架，系统性地诊断模型不仅理解和推理的能力，而且能主动构建解决方案的能力，从而为下一代智能系统设定了更严格的标准。\n\n项目网站：此 https URL。\n\n作者：魏景璇，贾才君，白熙，徐兴隆，李思远，孙林庄，俞碧辉，何聪慧，吴力军，谭成\n\n评论：35页，22幅图\n\n链接：https://arxiv.org/pdf/2511.11134.pdf\n\n标题：2025 [2511.11134] GGBench: 用于统一多模态模型的几何生成性推理基准",
+        "地址": "https://arxiv.org/pdf/2511.11134.pdf"
+    },
+    {
+        "名称": "2025 [2511.08195] UI2Code^N: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation.pdf",
+        "作者": "Zhen Yang, Wenyi Hong, Mingde Xu, Xinyue Fan, Weihan Wang, Jiele Cheng, Xiaotao Gu, Jie Tang",
+        "摘要": "摘要: 用户界面（UI）编程是现代软件开发中一个核心但高度复杂的部分。视觉语言模型（VLM）最近的进展展示了自动UI编码的潜力，但目前的方法面临着两个主要限制：多模态编码能力尚未充分发展，以及单轮模式难以充分利用迭代视觉反馈。我们通过一种更好地反映真实工作流程且提升可实现性能上限的交互式UI-代码框架来解决这些挑战。在这一框架下，我们提出了UI2Code$^{\\text{N}}$，这是一种通过阶段训练、微调和强化学习来实现多模态编码基础改进的视觉语言模型。该模型统一了三个关键功能：UI到代码的生成、UI编辑和UI调整。我们进一步探索了用于交互式生成的测试时间扩展，系统地利用多轮反馈。在UI到代码和UI调整基准上的实验表明，UI2Code$^{\\text{N}}$在开源模型中建立了新的最先进水平，并实现了与Claude-4-Sonnet和GPT-5等领先闭源模型相当的性能。我们的代码和模型可在此https URL获取。\n\n译者:曾杨，洪文一，徐明德，樊新月，王维瀚，程杰乐，顾晓涛，唐杰\n\n评论: 24页\n\n网址: [https://arxiv.org/pdf/2511.08195.pdf](https://arxiv.org/pdf/2511.08195.pdf)\n\n标题: 2025 [2511.08195] UI2Code$^{\\text{N}}$：一种测试时间可扩展的交互式UI到代码生成的视觉语言模型",
+        "地址": "https://arxiv.org/pdf/2511.08195.pdf"
+    },
+    {
+        "名称": "2025 [2511.11257] AIonopedia: an LLM agent orchestrating multimodal learning for ionic liquid discovery.pdf",
+        "作者": "Yuqi Yin, Yibo Fu, Siyuan Wang, Peng Sun, Hongyu Wang, Xiaohui Wang, Lei Zheng, Zhiyong Li, Zhirong Liu, Jianji Wang, Zhaoxi Sun",
+        "摘要": "摘要：新型离子液体（Ionic Liquids, ILs）的发现受到属性预测中存在的关键挑战的阻碍，包括数据有限、模型精度差和工作流程分散等问题。通过利用大型语言模型（LLMs）的强大功能，我们引入了AIonopedia，据我们所知，这是第一个用于IL发现的LLM代理。AIonopedia由一个LLM增强的多模态领域基础模型驱动，能够进行准确的属性预测，并结合了用于分子筛选和设计的分层搜索架构。我们在新整理的综合IL数据集上对该模型进行了训练和评估，取得了优异的性能。除了这些结果之外，在文献报道的系统上的评估表明，该代理可以进行有效的IL修改。超越离线测试，实际效用还通过真实世界的湿实验室验证得到进一步确认，其中该代理在具有挑战性的分布外任务上展示了出色的泛化能力，强调了其加速现实世界IL发现的能力。\n\n作者：尹宇琪, 傅艺博, 王思源, 孙鹏, 王洪宇, 王晓晖, 郑磊, 李志勇, 刘志荣, 王建基, 孙兆曦\n\nURL：https://arxiv.org/pdf/2511.11257.pdf\n\n标题：2025 [2511.11257] AIonopedia：一个为离子液体发现调度多模态学习的LLM代理\n",
+        "地址": "https://arxiv.org/pdf/2511.11257.pdf"
+    },
+    {
+        "名称": "2025 [2511.11062] LiteAttention: A Temporal Sparse Attention for Diffusion Transformers.pdf",
+        "作者": "Dor Shmilovich, Tony Wu, Aviad Dahan, Yuval Domb",
+        "摘要": "摘要：扩散Transformer在视频生成方面取得了显著的质量提升，但其二次方的注意力复杂度导致了高昂的延迟。现有的加速方法面临一个基本的权衡：在每个去噪步骤动态估计稀疏注意力模式会带来高计算开销和估计误差，而静态稀疏模式在去噪过程中保持固定，往往次优。我们识别出扩散注意力的一个关键结构属性，即其稀疏模式在去噪步骤中表现出强烈的时间一致性。被认为在第$t$步不重要的块通常在第$t+\\delta$步也保持如此。利用这一观察，我们引入了LiteAttention，一种利用时间一致性来实现去噪序列中演化计算跳过的方法。通过提前标记不重要的块并将跳过决定前向传播，LiteAttention在没有重复分析开销的情况下消除了冗余的注意力计算，结合了动态方法的适应性和静态方法的效率。我们在FlashAttention之上实现了高度优化的LiteAttention内核，并在生产视频扩散模型上展示了显著的加速效果，且质量没有下降。代码和实现细节将公开发布。",
+        "地址": "https://arxiv.org/pdf/2511.11062.pdf"
+    },
+    {
+        "名称": "2025 [2511.11238] Virtual Width Networks.pdf",
+        "作者": "Seed, Baisheng Li, Banggu Wu, Bole Ma, Bowen Xiao, Chaoyi Zhang, Cheng Li, Chengyi Wang, Chenyin Xu, Chi Zhang, Chong Hu, Daoguang Zan, Defa Zhu, Dongyu Xu, Du Li, Faming Wu, Fan Xia, Ge Zhang, Guang Shi, Haobin Chen, Hongyu Zhu, Hongzhi Huang, Huan Zhou, Huanzhang Dou, Jianhui Duan, Jianqiao Lu, Jianyu Jiang, Jiayi Xu, Jiecao Chen, Jin Chen, Jin Ma, Jing Su, Jingji Chen, Jun Wang, Jun Yuan, Juncai Liu, Jundong Zhou, Kai Hua, Kai Shen, Kai Xiang, Kaiyuan Chen, Kang Liu, Ke Shen, Liang Xiang, Lin Yan, Lishu Luo, Mengyao Zhang, Ming Ding, Mofan Zhang, Nianning Liang, Peng Li, Penghao Huang, Pengpeng Mu, Qi Huang, Qianli Ma, Qiyang Min, Qiying Yu, Renming Pang, Ru Zhang, Shen Yan, Shen Yan, Shixiong Zhao, Shuaishuai Cao, Shuang Wu, Siyan Chen, Siyu Li, Siyuan Qiao, Tao Sun, Tian Xin, Tiantian Fan, Ting Huang, Ting-Han Fan, Wei Jia, Wenqiang Zhang, Wenxuan Liu, Xiangzhong Wu, Xiaochen Zuo, Xiaoying Jia, Ximing Yang, Xin Liu, Xin Yu, Xingyan Bin, Xintong Hao, Xiongcai Luo, Xujing Li, Xun Zhou, Yanghua Peng, Yangrui Chen, Yi Lin, Yichong Leng, Yinghao Li, Yingshuan Song, Yiyuan Ma, Yong Shan, Yongan Xiang, Yonghui Wu, Yongtao Zhang, Yongzhen Yao, Yu Bao, Yuehang Yang\n\n\n        , Yufeng Yuan, Yunshui Li, Yuqiao Xian, Yutao Zeng, Yuxuan Wang, Zehua Hong, Zehua Wang, Zengzhi Wang, Zeyu Yang, Zhengqiang Yin, Zhenyi Lu, Zhexi Zhang, Zhi Chen, Zhi Zhang, Zhiqi Lin, Zihao Huang, Zilin Xu, Ziyun Wei, Zuo Wang\n\n\n    et al. (19 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：我们引入了虚拟宽度网络（VWN），这一框架在不增加隐藏层尺寸的二次成本的情况下，提供了更宽表示的好处。VWN将表示宽度与骨干宽度解耦，扩展了嵌入空间，同时几乎保持骨干计算量恒定。在我们的大规模实验中，八倍的扩展使得下一个标记和下两个标记预测的优化加速分别超过两倍和三倍。随着训练的进行，这一优势进一步放大，因为损失差距和收敛速度的加速比率都在增加，这表明VWN不仅对标记有效，而且随着规模的增加其效果也越来越显著。此外，我们确定了虚拟宽度和损失减少之间近似对数线性的缩放关系，提供了初步的实证依据和动机，探索虚拟宽度缩放作为大模型效率的一个新维度。\n\n来源：https://arxiv.org/pdf/2511.11238.pdf",
+        "地址": "https://arxiv.org/pdf/2511.11238.pdf"
+    },
+    {
+        "名称": "2025 [2511.08585] Simulating the Visual World with Artificial Intelligence: A Roadmap.pdf",
+        "作者": "Jingtong Yue, Ziqi Huang, Zhaoxi Chen, Xintao Wang, Pengfei Wan, Ziwei Liu",
+        "摘要": "摘要：视频生成的格局正在发生转变，重点从生成视觉上吸引人的剪辑转向构建支持互动并维持物理合理性的虚拟环境。这些发展表明视频基础模型的出现不仅作为视觉生成器，还作为隐含的世界模型，模拟物理动态、代理-环境互动和任务规划，支配现实或想象的世界。本综述系统性地概述了这种演变，将现代视频基础模型概念化为两个核心组件的结合：隐含世界模型和视频渲染器。世界模型编码关于世界的结构化知识，包括物理法则、互动动态和代理行为。它作为一个潜在的模拟引擎，使得连贯的视觉推理、长期时间一致性和目标驱动的规划成为可能。视频渲染器将这种潜在模拟转化为逼真的视觉观察，有效地生成视频，作为通向模拟世界的“窗口”。我们追踪了视频生成的四个世代中的演进，在每个世代中核心能力逐步提升，最终在视频生成模型的基础上形成一个世界模型，体现内在的物理合理性、实时多模态互动和跨多时空尺度的规划能力。对于每个世代，我们定义其核心特征，突出演示性工作，并检查其应用领域，如机器人技术、自动驾驶和互动游戏。最后，我们讨论了下一代世界模型的开放性挑战和设计原则，包括智能代理在塑造和评估这些系统中的作用。相关工作的最新列表维护在该链接中。\n\n作者：岳静彤、黄子琪、陈昭熙、王信涛、万鹏飞、刘子伟\n评论：项目页面：此https URL Github Repo：此https URL\n链接：https://arxiv.org/pdf/2511.08585.pdf\n标题：2025 [2511.08585] 使用人工智能模拟视觉世界：路线图.pdf",
+        "地址": "https://arxiv.org/pdf/2511.08585.pdf"
+    },
+    {
+        "名称": "2025 [2511.07403] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards.pdf",
+        "作者": "Hunar Batra, Haoqin Tu, Hardy Chen, Yuanze Lin, Cihang Xie, Ronald Clark",
+        "摘要": "摘要：多模态大语言模型(MLLMs)在视觉语言任务中取得了显著进展，但在空间理解方面仍然存在困难。现有的空间MLLMs通常依赖明确的3D输入或特定架构的修改，并且受限于大规模数据集或稀疏的监督。为了解决这些限制，我们介绍了SpatialThinker，这是一种通过强化学习（RL）训练的3D感知MLLM，它将结构化的空间基础与多步推理结合起来。该模型通过构建与任务相关的物体和空间关系的场景图并通过密集的空间奖励进行推理，模拟了类似人类的空间感知。SpatialThinker有两个主要贡献：（1）一个数据合成管道生成了STVQA-7K，一个高质量的空间视觉问答数据集；（2）在线RL与多目标密集空间奖励，强化空间定位。与基于稀疏RL的基础模型相比，SpatialThinker-7B在空间理解和现实世界VQA基准测试中性能更好，几乎使得基础模型的增益翻倍，并超过了GPT-4o。结果展示了将空间监督与奖励对齐推理结合起来，在有限数据下实现健壮的3D空间理解并推动MLLMs向人类级别视觉推理发展的有效性。",
+        "地址": "https://arxiv.org/pdf/2511.07403.pdf"
+    },
+    {
+        "名称": "2025 [2511.09915] HI-TransPA: Hearing Impairments Translation Personal Assistant.pdf",
+        "作者": "Zhiming Ma, Shiyu Gan, Junhao Zhao, Xianming Li, Qingyun Pan, Peidong Wang, Mingjun Pan, Yuhao Mo, Jiajie Cheng, Chengxin Chen, Zhonglun Cao, Chonghan Liu, Shi Cheng",
+        "摘要": "摘要: 听力障碍人士在日常交流中常常面临显著障碍，这是由于他们在发出清晰言语时所固有的挑战。为了应对这一问题，我们将全模型（Omni-Model）范式引入辅助技术，并推出了HI-TransPA，这是一种由指令驱动的视听个人助手。该模型融合了不清晰的语音和唇部动态，实现了单一多模态框架中的翻译和对话。为了解决听力障碍言语的独特发音模式和现有模型适应性不足的问题，我们开发了一条多模态预处理和精选管道，该管道检测面部标志物，稳定唇部区域并定量评估样本质量。这些质量评分指导了课程学习策略，首先在干净的高置信度样本上训练，并逐步纳入更困难的案例，以增强模型的鲁棒性。在架构上，我们采用了一种新颖的统一3D-重采样器，以高效编码唇部动态，这对准确解释至关重要。在专门构建的HI-Dialogue数据集上的实验表明，HI-TransPA在字面准确性和语义保真度方面都达到了最先进的性能。我们的工作为应用全模型于辅助交流技术奠定了基础，提供了端到端的建模框架和未来研究所需的基本处理工具。",
+        "地址": "https://arxiv.org/pdf/2511.09915.pdf"
+    },
+    {
+        "名称": "2025 [2511.11373] MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with Agentic Pipeline Parallelism.pdf",
+        "作者": "Shulin Liu, Dong Du, Tao Yang, Yang Li, Boyu Qiu",
+        "摘要": "摘要: 最近在大型语言模型（LLMs）方面的进展主要依赖于具有可验证奖励的强化学习（RLVR）和测试时缩放。然而，LLMs的输出长度有限，这限制了在单次推理过程中可达到的推理深度。多代理推理系统通过采用包括求解器、验证者和修正者在内的多个代理来迭代优化解决方案，提供了一种有前景的替代方法。虽然这种方法在像Gemini 2.5 Pro这样的闭源模型中有效，但由于批评和修正能力不足，难以推广到开源模型。为此，我们提出了MarsRL，一种具有代理流水线并行性的全新强化学习框架，旨在共同优化系统中的所有代理。MarsRL引入了针对特定代理的奖励机制以减轻奖励噪声，并采用受流水线启发的训练以提高处理长轨迹的效率。应用于Qwen3-30B-A3B-Thinking-2507时，MarsRL将AIME2025的准确率从86.5%提高到93.3%，并将BeyondAIME的准确率从64.9%提高到73.8%，甚至超过了Qwen3-235B-A22B-Thinking-2507。这些发现突显了MarsRL在推进多代理推理系统方面的潜力，并扩大其在不同推理任务中的适用性。\n\n作者: 刘舒霖，杜东，杨涛，李阳，仇博宇\n\n链接: https://arxiv.org/pdf/2511.11373.pdf\n\n标题: 2025 [2511.11373] MarsRL: 通过具有代理流水线并行性的强化学习推进多代理推理系统",
+        "地址": "https://arxiv.org/pdf/2511.11373.pdf"
+    },
+    {
+        "名称": "2025 [2511.11519] Experience-Guided Adaptation of Inference-Time Reasoning Strategies.pdf",
+        "作者": "Adam Stein, Matthew Trager, Benjamin Bowman, Michael Kleinman, Aditya Chattopadhyay, Wei Xia, Stefano Soatto",
+        "摘要": "摘要：使智能人工系统能够根据训练后的交互适应其解决问题的方法仍然是一个基本挑战。虽然已经提出了在推理时间更新和维护内存的系统，但现有设计仅通过修改语言模型或代理的文本输入来引导系统，这意味着它们无法改变采样参数、移除工具、修改系统提示或在代理和工作流范式之间切换。另一方面，适应性更强的系统需要离线优化，并在部署后保持静态。我们提出了经验引导推理器（EGuR），其基于积累的经验在推理时间动态生成量身定制的策略——包含LLM调用、工具、采样参数和控制逻辑的完整计算程序。我们使用基于LLM的元策略——一种输出策略的策略——实现了所有策略组件（提示、采样参数、工具配置和控制逻辑）的适应。EGuR通过两个组件运行：一个指导器根据当前问题和结构化的过去经验生成多个候选策略，而一个整合器结合执行反馈来改进未来的策略生成。这产生了针对每个问题优化的完整、即刻运行的策略，可以缓存、检索并根据需要执行而不浪费资源。在五个挑战性基准测试（AIME 2025、3-SAT以及三个Big Bench Extra Hard任务）中，EGuR在减少计算成本方面比最强基线提高了最多14%的准确性和最多111倍的效率，而且随着系统积累经验，这两个指标都会改进。\n\n评论：29页，5个图\n\n作者：Adam Stein, Matthew Trager, Benjamin Bowman, Michael Kleinman, Aditya Chattopadhyay, Wei Xia, Stefano Soatto\n\n链接：https://arxiv.org/pdf/2511.11519.pdf\n\n标题: 2025 [2511.11519] 经验引导的推理策略的适应.pdf",
+        "地址": "https://arxiv.org/pdf/2511.11519.pdf"
+    },
+    {
+        "名称": "2025 [2511.10984] DiscoX: Benchmarking Discourse-Level Translation task in Expert Domains.pdf",
+        "作者": "Xiying Zhao, Zhoufutu Wen, Zhixuan Chen, Jingzhe Ding, Jianpeng Jiao, Shuai Li, Xi Li, Danni Liang, Shengda Long, Qianqian Liu, Xianbo Wu, Hongwan Gao, Xiang Gao, Liang Hu, Jiashuo Liu, Mengyun Liu, Weiran Shi, Chenghao Yang, Qianyu Yang, Xuanliang Zhang, Ge Zhang, Wenhao Huang",
+        "摘要": "摘要: 尽管篇章层面翻译对知识传播和跨语言学术交流至关重要，但当前在专家领域的篇章层面翻译评估仍不充分。这些翻译需要在篇章层次上保持连贯性和严格的术语精确度，但现有评估方法主要关注段落层面的准确性和流畅性。为了解决这一限制，我们介绍了DiscoX，这是一个用于篇章层面和专家层面中英翻译的新基准。该基准包括来自7个领域的200篇专业整理的文本，平均长度超过1700字。为了在DiscoX上评估性能，我们还开发了Metric-S，这是一种无参照系的系统，提供在准确性、流畅性和适切性上的细粒度自动评估。Metric-S与人工判断表现出很强的一致性，显著优于现有度量标准。我们的实验证明了一个显著的性能差距：即使是最先进的大型语言模型在这些任务上仍落后于人类专家。这一发现验证了DiscoX的难度，并强调了实现专业级机器翻译所面临的挑战。所提出的基准和评估系统为更严格的评估提供了一个坚实的框架，促进了基于大型语言模型翻译的未来进展。",
+        "地址": "https://arxiv.org/pdf/2511.10984.pdf"
+    },
+    {
+        "名称": "2025 [2511.09554] RF-DETR: Neural Architecture Search for Real-Time Detection Transformers.pdf",
+        "作者": "Isaac Robinson, Peter Robicheaux, Matvei Popov, Deva Ramanan, Neehar Peri",
+        "摘要": "摘要：开放词汇检测器在COCO上实现了令人印象深刻的性能，但在包含预训练中通常未发现的分布外类别的真实世界数据集上往往无法很好地推广。与其仅通过微调重量级视觉-语言模型（VLM）来适应新领域，我们引入了RF-DETR，一种轻量化的专业检测转换器，通过权重共享的神经架构搜索（NAS）为任意目标数据集发现准确-延迟的帕累托曲线。我们的方法微调预训练的基础网络到目标数据集，并在无需重新训练的情况下评估数千个不同准确-延迟折衷的网络配置。此外，我们重新审视了NAS的“可调旋钮”，以提高DETRs对不同目标领域的迁移能力。显著地，RF-DETR在COCO和Roboflow100-VL上的实时方法上显著优于之前的最新方法。RF-DETR（nano）在COCO上实现了48.0 AP，比D-FINE（nano）在类似延迟下高出5.3 AP，而RF-DETR（2x-large）在Roboflow100-VL上比GroundingDINO（tiny）高出1.2 AP，同时运行速度快20倍。据我们所知，RF-DETR（2x-large）是第一个在COCO上超过60 AP的实时检测器。我们的代码在这个网址：https URL。",
+        "地址": "https://arxiv.org/pdf/2511.09554.pdf"
+    },
+    {
+        "名称": "2025 [2511.11002] EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation.pdf",
+        "作者": "Zongyang Qiu, Bingyuan Wang, Xingbei Chen, Yingqing He, Zeyu Wang",
+        "摘要": "摘要：情感在基于视频的表达中起到关键作用，但现有的视频生成系统主要关注低层次的视觉指标，而忽略了情感维度。尽管情感分析在视觉领域取得了一定进展，但视频领域缺乏将情感理解与生成任务结合起来的专门资源，特别是在风格化和非现实背景下。为了解决这一问题，我们引入了EmoVid，这是第一个专为创意媒体设计的多模态、情感标注的视频数据集，包括卡通动画、电影剪辑和动画贴纸。每个视频都标注了情感标签、视觉属性(亮度、色彩度、色调)和文本说明。通过系统分析，我们揭示了视觉特征与情感感知之间在不同视频形式中的空间和时间模式。在这些见解的基础上，我们通过微调Wan2.1模型开发了一种情感控制的视频生成技术。结果显示，在文本到视频和图像到视频任务中，无论是定量指标还是生成视频的视觉质量都有显著提升。EmoVid为情感视频计算建立了新的基准。我们的工作不仅为艺术风格视频中的视觉情感分析提供了宝贵的见解，也为增强视频生成中的情感表达提供了实用方法。",
+        "地址": "https://arxiv.org/pdf/2511.11002.pdf"
+    },
+    {
+        "名称": "2025 [2511.10492] Don't Waste It: Guiding Generative Recommenders with Structured Human Priors via Multi-head Decoding.pdf",
+        "作者": "Yunkai Zhang, Qiang Zhang, Feng Lin, Ruizhong Qiu, Hanchao Yu, Jiayi Liu, Yinglong Xia, Zhuoran Yu, Zeyu Zheng, Diji Yang",
+        "摘要": "摘要: 优化推荐系统超越准确性目标，如多样性、新颖性和个性化，对于用户的长期满意度至关重要。为此，工业实践者积累了大量结构化领域知识，我们称之为人类先验（例如，项目分类法、时间模式）。这些知识通常通过排序或排序后的调整进行应用。然而，随着行业转向端到端生成推荐基础模型，这种方法与核心模型学习脱节是特别不可取的。另一方面，许多针对这些超出准确性目标的方法通常需要特定架构的修改，并通过完全无监督的方式学习用户意图而放弃了这些宝贵的人类先验。我们引入了一个与骨干无关的框架，将这些人类先验无缝整合到生成推荐器的端到端训练中。通过受高效LLM解码策略启发的轻量级、受先验调节的适配器头，我们的方法引导模型沿着人类可理解的轴线（例如，交互类型、长期与短期兴趣）来区分用户意图。我们还引入了一种层次组成策略，用于建模不同先验类型之间的复杂交互。在三个大规模数据集上的大量实验证明，我们的方法显著增强了准确性和超越准确性目标。我们还表明，人类先验允许骨干模型更有效地利用更长的上下文长度和更大的模型规模。",
+        "地址": "https://arxiv.org/pdf/2511.10492.pdf"
+    },
+    {
+        "名称": "2025 [2511.10258] Workload Schedulers -- Genesis, Algorithms and Differences.pdf",
+        "作者": "Leszek Sliwko, Vladimir Getov",
+        "摘要": "摘要：本文提出了一种对现代工作负载调度器进行分类的新方法。我们提供了三类调度器的描述：操作系统进程调度器、集群系统作业调度器和大数据调度器。我们描述了它们从早期应用到现代实现的演变过程，同时考虑了算法的使用和功能。总而言之，我们讨论了所有呈现的调度器类别之间的差异，并讨论了它们的时间演变。最后，我们强调了调度策略设计的重点相似之处，这些相似之处适用于本地和分布式系统。",
+        "地址": "https://arxiv.org/pdf/2511.10258.pdf"
+    },
+    {
+        "名称": "2025 [2511.07448] Large Language Models for Scientific Idea Generation: A Creativity-Centered Survey.pdf",
+        "作者": "Fatemeh Shahhosseini, Arash Marioriyad, Ali Momen, Mahdieh Soleymani Baghshah, Mohammad Hossein Rohban, Shaghayegh Haghjooy Javanmard",
+        "摘要": "摘要：科学理念的产生是科学发现的核心，通过解决未解决的问题或提出新的假设来解释未知现象，推动了人类进步。与标准的科学推理或一般的创造性生成不同，科学中的理念生成是一项多目标和开放式的任务，贡献的新颖性与科学合理性同等重要。大型语言模型（LLMs）最近崭露头角，作为科学理念产生的有前途生成器，能够产生连贯且事实性的输出，具有令人惊讶的直觉和可接受的推理。然而，其创造能力仍不稳定且缺乏充分了解。本综述提供了一个关于基于LLMs的科学理念生成方法的结构化综合，分析了不同方法如何在创造性与科学合理性之间保持平衡。我们将现有方法分为五个互补的类别：外部知识增强、基于提示的分布式引导、推理时刻缩放、多代理协作和参数级适应。为了解释其贡献，我们采用了两个互补的框架：Boden的组合、探索和变革创造力分类法以表征每个类别预计产生的理念水平，以及Rhodes的4P框架——人、过程、压力和产品，以找到每种方法强调的创造力的方面或来源。通过将方法进步与创造力框架对齐，本综述明确了该领域的现状，并概述了将LLMs可靠、系统和变革性地应用于科学发现的关键方向。",
+        "地址": "https://arxiv.org/pdf/2511.07448.pdf"
+    },
+    {
+        "名称": "2025 [2511.11287] Building the Web for Agents: A Declarative Framework for Agent-Web Interaction.pdf",
+        "作者": "Sven Schultze, Meike Verena Kietzmann, Nils-Lucas Schönfeld, Ruth Stock-Homburg",
+        "摘要": "摘要: 由于自主人工智能代理在网络上的部署日益增多，它们必须从以人为本的用户界面中推断可供性，导致交互变得脆弱、低效和不安全，从而阻碍了其发展。为了解决这一问题，我们引入了VOIX，这是一个网络原生框架，它通过简单的声明性HTML元素使网站能够为人工智能代理提供可靠的、可审计的和保护隐私的能力。VOIX引入了<tool>和<context>标签，使开发者能够明确定义可用的操作和相关状态，从而为代理行为创建了一个明确的、机器可读的规范。该方法将控制权转移给网站开发者，同时通过将对话交互与网站断开，保护用户隐私。我们在为期三天的黑客马拉松研究中评估了该框架的实用性、可学习性和表达性，有16位开发者参与。结果表明，参与者无论先前的经验如何，都能够快速构建多样且功能完备的代理支持的网络应用程序。最终，这项工作为实现智能网络提供了基础机制，推动了在网络上实现无缝和安全的人机协作的未来。\n\n作者: Sven Schultze, Meike Verena Kietzmann, Nils-Lucas Schönfeld, Ruth Stock-Homburg\n\n备注: 有关相关文档，请参见该https网址\n\n网址：https://arxiv.org/pdf/2511.11287.pdf\n\n标题: 2025 [2511.11287] Building the Web for Agents: A Declarative Framework for Agent-Web Interaction.pdf",
+        "地址": "https://arxiv.org/pdf/2511.11287.pdf"
+    },
+    {
+        "名称": "2025 [2511.11168] CATS-V2V: A Real-World Vehicle-to-Vehicle Cooperative Perception Dataset with Complex Adverse Traffic Scenarios.pdf",
+        "作者": "Hangyu Li, Bofeng Cao, Zhaohui Liang, Wuzhen Li, Juyoung Oh, Yuxuan Chen, Shixiao Liang, Hang Zhou, Chengyuan Ma, Jiaxi Liu, Zheng Li, Peng Zhang, KeKe Long, Maolin Liu, Jackson Jiang, Chunlei Yu, Shengxiang Liu, Hongkai Yu, Xiaopeng Li",
+        "摘要": "摘要: 车辆间合作感知（V2V）在通过克服复杂不利交通情境（CATS）中的感知限制来增强自动驾驶性能方面具有巨大潜力。同时，数据是现代自动驾驶AI的基础设施。然而，由于严格的数据收集要求，现有数据集主要关注普通交通场景，限制了合作感知的优势。为了应对这一挑战，我们引入了CATS-V2V，这是首个用于复杂不利交通情境下V2V合作感知的真实世界数据集。该数据集由两个硬件时间同步的车辆收集，涵盖了10种天气和光照条件以及10个不同地点。这个包含100段视频的数据集包括60,000帧10Hz激光雷达点云和1,260,000张30Hz多视角相机图像，以及750,000条匿名但高精度的RTK固定GNSS和IMU记录。我们提供了时间一致的3D边界框注释对象以及构建4D鸟瞰图（BEV）表示的静态场景。在此基础上，我们提出了一种基于目标的时间对齐方法，确保所有物体在所有传感器模式下精确对齐。我们希望CATS-V2V，这个迄今为止规模最大、支持力度最强、质量最高的数据集，能为自动驾驶社区的相关任务带来裨益。",
+        "地址": "https://arxiv.org/pdf/2511.11168.pdf"
+    },
+    {
+        "名称": "2025 [2511.10899] From Proof to Program: Characterizing Tool-Induced Reasoning Hallucinations in Large Language Models.pdf",
+        "作者": "Farima Fatahi Bayat, Pouya Pezeshkpour, Estevam Hruschka",
+        "摘要": "摘要：工具增强的语言模型（TaLMs）可以调用外部工具来解决超出其参数能力的问题。然而，这些工具支持的增益是否反映了可靠的推理尚不明确。专注于代码解释器工具，我们发现即使工具被正确选择和执行，TaLMs也将工具输出作为推理的替代品，生成看似正确但缺乏连贯解释的解决方案。我们将这种失败模式称为工具诱导近视（TIM），并使用PYMATH进行研究，这是一个包含1679个竞赛级数学问题的基准，其中Python代码有帮助但不充分。我们进一步开发了一个多维评估套件，以量化TaLMs相对于其非工具对应物的推理退化。我们的研究结果显示，虽然TaLMs在最终答案准确度上获得了高达19.3个百分点的增益，但其推理行为持续恶化（例如，在成对比较推理过程时，非工具LLMs胜利的次数高达41.5%）。这种退化随着工具使用频率的增加而加剧；模型调用工具的频率越高，其推理就越不连贯。此外，工具使用将错误从算术错误转移到全局推理失败（逻辑、假设、创造力），在约55%的高风险案例中存在TIM。最后，我们提出了一个基于偏好优化的框架，该框架重新调整TaLMs以将工具用作辅助证据，从而在使用工具时改善最终答案的准确性和推理深度。代码和数据可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2511.10899.pdf"
+    },
+    {
+        "名称": "2025 [2511.03108] miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward.pdf",
+        "作者": "Azim Ospanov, Farzan Farnia, Roozbeh Yousefzadeh",
+        "摘要": "摘 要: 我们从一个需要参与由miniF2F问题组成的数学奥林匹克竞赛的人工智能系统的角度，对miniF2F基准中的正式和非正式陈述进行了全面分析。在这种情况下，模型必须阅读和理解自然语言中的问题，将它们形式化为Lean语言，然后进行证明，如果形式证明与呈现给模型的原始非正式陈述相对应，它将获得每个问题的积分。我们的评估结果表明，使用文献中的先进技术状态（SoTA）模型的这种管道的最佳准确率约为36%，显著低于自动形式化和定理证明文献中报告的97%和69%的单个SoTA准确率。在分析失败模式时，我们追溯到miniF2F中超过一半的问题的正式和非正式陈述之间的差异，导致了相当大部分的下降。我们继续纠正正式和非正式陈述中的所有错误、不一致和简化，提出了拥有完全验证的正式和非正式陈述和证明的miniF2F-v2。在miniF2F-v2上评估完整的定理证明管道将最佳准确率提高到70%，从原版miniF2F的40%显著提升，但仍表明自动形式化模型和定理证明器之间存在相当大的不一致。我们的深入分析表明，更高质量的基准可以帮助社区更好地评估形式推理领域的进展，并更好地诊断自动形式化和定理证明模型的失败和成功模式。我们的数据集在此链接可用：https://arxiv.org/pdf/2511.03108.pdf。",
+        "地址": "https://arxiv.org/pdf/2511.03108.pdf"
+    }
+]
