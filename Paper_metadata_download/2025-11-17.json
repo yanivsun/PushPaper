@@ -1,0 +1,2856 @@
+[
+    {
+        "paper": {
+            "id": "2511.09146",
+            "authors": [
+                {
+                    "_id": "6917090db63bfc66e049897a",
+                    "name": "Jing Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897b",
+                    "name": "Liyang Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897c",
+                    "name": "Hui Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897d",
+                    "name": "Zunhai Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897e",
+                    "name": "Min Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897f",
+                    "name": "Lingpeng Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e0498980",
+                    "name": "Ngai Wong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-12T09:32:35.000Z",
+            "submittedOnDailyAt": "2025-11-17T04:37:56.746Z",
+            "title": "DoPE: Denoising Rotary Position Embedding",
+            "submittedOnDailyBy": {
+                "_id": "60851545a5da133ac6c38686",
+                "avatarUrl": "/avatars/d385fcc513acef80a3b711aa92d898e5.svg",
+                "isPro": false,
+                "fullname": "Jing Xiong",
+                "user": "menik1126",
+                "type": "user"
+            },
+            "summary": "Rotary Position Embedding (RoPE) in Transformer models has inherent limits that weaken length extrapolation. We reinterpret the attention map with positional encoding as a noisy feature map, and propose Denoising Positional Encoding (DoPE), a training-free method based on truncated matrix entropy to detect outlier frequency bands in the feature map. Leveraging the noise characteristics of the feature map, we further reparameterize it with a parameter-free Gaussian distribution to achieve robust extrapolation. Our method theoretically reveals the underlying cause of the attention sink phenomenon and its connection to truncated matrix entropy. Experiments on needle-in-a-haystack and many-shot in-context learning tasks demonstrate that DoPE significantly improves retrieval accuracy and reasoning stability across extended contexts (up to 64K tokens). The results show that the denoising strategy for positional embeddings effectively mitigates attention sinks and restores balanced attention patterns, providing a simple yet powerful solution for improving length generalization. Our project page is Project: https://The-physical-picture-of-LLMs.github.io",
+            "upvotes": 63,
+            "discussionId": "6917090db63bfc66e04989a3",
+            "projectPage": "https://The-physical-picture-of-LLMs.github.io",
+            "ai_summary": "Denoising Positional Encoding (DoPE) enhances length generalization in Transformer models by detecting and mitigating noisy frequency bands in positional embeddings, improving retrieval accuracy and reasoning stability.",
+            "ai_keywords": [
+                "Rotary Position Embedding (RoPE)",
+                "Transformer models",
+                "attention map",
+                "positional encoding",
+                "Denoising Positional Encoding (DoPE)",
+                "truncated matrix entropy",
+                "Gaussian distribution",
+                "attention sink phenomenon",
+                "needle-in-a-haystack",
+                "many-shot in-context learning",
+                "retrieval accuracy",
+                "reasoning stability",
+                "length generalization"
+            ]
+        },
+        "publishedAt": "2025-11-12T04:32:35.000Z",
+        "title": "DoPE: Denoising Rotary Position Embedding",
+        "summary": "Rotary Position Embedding (RoPE) in Transformer models has inherent limits that weaken length extrapolation. We reinterpret the attention map with positional encoding as a noisy feature map, and propose Denoising Positional Encoding (DoPE), a training-free method based on truncated matrix entropy to detect outlier frequency bands in the feature map. Leveraging the noise characteristics of the feature map, we further reparameterize it with a parameter-free Gaussian distribution to achieve robust extrapolation. Our method theoretically reveals the underlying cause of the attention sink phenomenon and its connection to truncated matrix entropy. Experiments on needle-in-a-haystack and many-shot in-context learning tasks demonstrate that DoPE significantly improves retrieval accuracy and reasoning stability across extended contexts (up to 64K tokens). The results show that the denoising strategy for positional embeddings effectively mitigates attention sinks and restores balanced attention patterns, providing a simple yet powerful solution for improving length generalization. Our project page is Project: https://The-physical-picture-of-LLMs.github.io",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.09146.png",
+        "numComments": 8,
+        "submittedBy": {
+            "_id": "60851545a5da133ac6c38686",
+            "avatarUrl": "/avatars/d385fcc513acef80a3b711aa92d898e5.svg",
+            "fullname": "Jing Xiong",
+            "name": "menik1126",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11434",
+            "authors": [
+                {
+                    "_id": "691adfa56bfd5965c0fd3604",
+                    "name": "Wei Chow",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3605",
+                    "name": "Jiachun Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3606",
+                    "name": "Yongyuan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3607",
+                    "name": "Mingze Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3608",
+                    "name": "Xue Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3609",
+                    "name": "Liyu Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360a",
+                    "name": "Saining Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360b",
+                    "name": "Siliang Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360c",
+                    "name": "Juncheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360d",
+                    "user": {
+                        "_id": "68637e529734255efb3be60c",
+                        "avatarUrl": "/avatars/d9cdefc30f50daabd173d0f3954e2320.svg",
+                        "isPro": false,
+                        "fullname": "Zhang Fengda",
+                        "user": "ZhangFengda",
+                        "type": "user"
+                    },
+                    "name": "Fengda Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:25:55.874Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360e",
+                    "name": "Weijia Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360f",
+                    "name": "Hanwang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3610",
+                    "name": "Tat-Seng Chua",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6345a93afe134dfd7a0cfabd/lzAZtYil2gu_ASTrabE2C.png"
+            ],
+            "publishedAt": "2025-11-14T16:02:38.000Z",
+            "submittedOnDailyAt": "2025-11-17T06:13:26.872Z",
+            "title": "WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation",
+            "submittedOnDailyBy": {
+                "_id": "6345a93afe134dfd7a0cfabd",
+                "avatarUrl": "/avatars/65130ce06b1c72ab1066678419731d88.svg",
+                "isPro": false,
+                "fullname": "wu weijia",
+                "user": "weijiawu",
+                "type": "user"
+            },
+            "summary": "Recent advances in unified multimodal models (UMMs) have enabled impressive progress in visual comprehension and generation. However, existing datasets and benchmarks focus primarily on single-turn interactions, failing to capture the multi-turn, context-dependent nature of real-world image creation and editing. To address this gap, we present WEAVE, the first suite for in-context interleaved cross-modality comprehension and generation. Our suite consists of two complementary parts. WEAVE-100k is a large-scale dataset of 100K interleaved samples spanning over 370K dialogue turns and 500K images, covering comprehension, editing, and generation tasks that require reasoning over historical context. WEAVEBench is a human-annotated benchmark with 100 tasks based on 480 images, featuring a hybrid VLM judger evaluation framework based on both the reference image and the combination of the original image with editing instructions that assesses models' abilities in multi-turn generation, visual memory, and world-knowledge reasoning across diverse domains. Experiments demonstrate that training on WEAVE-100k enables vision comprehension, image editing, and comprehension-generation collaboration capabilities. Furthermore, it facilitates UMMs to develop emergent visual-memory capabilities, while extensive evaluations on WEAVEBench expose the persistent limitations and challenges of current approaches in multi-turn, context-aware image generation and editing. We believe WEAVE provides a view and foundation for studying in-context interleaved comprehension and generation for multi-modal community.",
+            "upvotes": 41,
+            "discussionId": "691adfa56bfd5965c0fd3611",
+            "projectPage": "https://weichow23.github.io/weave/",
+            "githubRepo": "https://github.com/weichow23/weave",
+            "ai_summary": "WEAVE introduces a comprehensive suite including a large dataset and a benchmark to assess and improve multi-turn, context-dependent image generation and editing in unified multimodal models.",
+            "ai_keywords": [
+                "unified multimodal models",
+                "WEAVE",
+                "WEAVE-100k",
+                "interleaved samples",
+                "dialogue turns",
+                "comprehension",
+                "editing",
+                "generation",
+                "WEAVEBench",
+                "human-annotated benchmark",
+                "VLM judger",
+                "visual memory",
+                "world-knowledge reasoning",
+                "multi-turn generation",
+                "vision comprehension",
+                "image editing",
+                "comprehension-generation collaboration",
+                "emergent visual-memory capabilities"
+            ],
+            "githubStars": 16
+        },
+        "publishedAt": "2025-11-14T11:02:38.000Z",
+        "title": "WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation",
+        "summary": "Recent advances in unified multimodal models (UMMs) have enabled impressive progress in visual comprehension and generation. However, existing datasets and benchmarks focus primarily on single-turn interactions, failing to capture the multi-turn, context-dependent nature of real-world image creation and editing. To address this gap, we present WEAVE, the first suite for in-context interleaved cross-modality comprehension and generation. Our suite consists of two complementary parts. WEAVE-100k is a large-scale dataset of 100K interleaved samples spanning over 370K dialogue turns and 500K images, covering comprehension, editing, and generation tasks that require reasoning over historical context. WEAVEBench is a human-annotated benchmark with 100 tasks based on 480 images, featuring a hybrid VLM judger evaluation framework based on both the reference image and the combination of the original image with editing instructions that assesses models' abilities in multi-turn generation, visual memory, and world-knowledge reasoning across diverse domains. Experiments demonstrate that training on WEAVE-100k enables vision comprehension, image editing, and comprehension-generation collaboration capabilities. Furthermore, it facilitates UMMs to develop emergent visual-memory capabilities, while extensive evaluations on WEAVEBench expose the persistent limitations and challenges of current approaches in multi-turn, context-aware image generation and editing. We believe WEAVE provides a view and foundation for studying in-context interleaved comprehension and generation for multi-modal community.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/6345a93afe134dfd7a0cfabd/lzAZtYil2gu_ASTrabE2C.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11434.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6345a93afe134dfd7a0cfabd",
+            "avatarUrl": "/avatars/65130ce06b1c72ab1066678419731d88.svg",
+            "fullname": "wu weijia",
+            "name": "weijiawu",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 7
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11134",
+            "authors": [
+                {
+                    "_id": "691a96096bfd5965c0fd3476",
+                    "name": "Jingxuan Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3477",
+                    "name": "Caijun Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3478",
+                    "name": "Xi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3479",
+                    "name": "Xinglong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347a",
+                    "name": "Siyuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347b",
+                    "name": "Linzhuang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347c",
+                    "name": "Bihui Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347d",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347e",
+                    "name": "Lijun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347f",
+                    "name": "Cheng Tan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/MWaH1mrhdrfkzs10c7_y1.mp4"
+            ],
+            "publishedAt": "2025-11-14T10:07:53.000Z",
+            "submittedOnDailyAt": "2025-11-17T00:57:58.782Z",
+            "title": "GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The advent of Unified Multimodal Models (UMMs) signals a paradigm shift in artificial intelligence, moving from passive perception to active, cross-modal generation. Despite their unprecedented ability to synthesize information, a critical gap persists in evaluation: existing benchmarks primarily assess discriminative understanding or unconstrained image generation separately, failing to measure the integrated cognitive process of generative reasoning. To bridge this gap, we propose that geometric construction provides an ideal testbed as it inherently demands a fusion of language comprehension and precise visual generation. We introduce GGBench, a benchmark designed specifically to evaluate geometric generative reasoning. It provides a comprehensive framework for systematically diagnosing a model's ability to not only understand and reason but to actively construct a solution, thereby setting a more rigorous standard for the next generation of intelligent systems. Project website: https://opendatalab-raiser.github.io/GGBench/.",
+            "upvotes": 30,
+            "discussionId": "691a960a6bfd5965c0fd3480",
+            "ai_summary": "GGBench is introduced to evaluate geometric generative reasoning, addressing the gap in assessing integrated cognitive processes in multimodal models.",
+            "ai_keywords": [
+                "Unified Multimodal Models",
+                "generative reasoning",
+                "evaluation",
+                "discriminative understanding",
+                "unconstrained image generation",
+                "geometric construction",
+                "language comprehension",
+                "visual generation",
+                "benchmark"
+            ]
+        },
+        "publishedAt": "2025-11-14T05:07:53.000Z",
+        "title": "GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models",
+        "summary": "The advent of Unified Multimodal Models (UMMs) signals a paradigm shift in artificial intelligence, moving from passive perception to active, cross-modal generation. Despite their unprecedented ability to synthesize information, a critical gap persists in evaluation: existing benchmarks primarily assess discriminative understanding or unconstrained image generation separately, failing to measure the integrated cognitive process of generative reasoning. To bridge this gap, we propose that geometric construction provides an ideal testbed as it inherently demands a fusion of language comprehension and precise visual generation. We introduce GGBench, a benchmark designed specifically to evaluate geometric generative reasoning. It provides a comprehensive framework for systematically diagnosing a model's ability to not only understand and reason but to actively construct a solution, thereby setting a more rigorous standard for the next generation of intelligent systems. Project website: https://opendatalab-raiser.github.io/GGBench/.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/MWaH1mrhdrfkzs10c7_y1.mp4"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11134.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 162
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.08195",
+            "authors": [
+                {
+                    "_id": "69170901b63bfc66e04988d9",
+                    "name": "Zhen Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988da",
+                    "name": "Wenyi Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988db",
+                    "name": "Mingde Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988dc",
+                    "name": "Xinyue Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988dd",
+                    "name": "Weihan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988de",
+                    "name": "Jiele Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988df",
+                    "name": "Xiaotao Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988e0",
+                    "name": "Jie Tang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/dw6-SAx5OVrdfn0_0YutW.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/fHbYJ62-hSRF_OHc03iIk.jpeg"
+            ],
+            "publishedAt": "2025-11-11T13:00:09.000Z",
+            "submittedOnDailyAt": "2025-11-17T02:18:16.514Z",
+            "title": "UI2Code^N: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation",
+            "submittedOnDailyBy": {
+                "_id": "62ecd24cb8764c7738ef2793",
+                "avatarUrl": "/avatars/c1b80b5c55f9d652c1aaac7919e1fa32.svg",
+                "isPro": false,
+                "fullname": "Wenyi Hong",
+                "user": "wenyi",
+                "type": "user"
+            },
+            "summary": "User interface (UI) programming is a core yet highly complex part of modern software development. Recent advances in visual language models (VLMs) highlight the potential of automatic UI coding, but current approaches face two key limitations: multimodal coding capabilities remain underdeveloped, and single-turn paradigms make little use of iterative visual feedback. We address these challenges with an interactive UI-to-code paradigm that better reflects real-world workflows and raises the upper bound of achievable performance. Under this paradigm, we present UI2Code^N, a visual language model trained through staged pretraining, fine-tuning, and reinforcement learning to achieve foundational improvements in multimodal coding. The model unifies three key capabilities: UI-to-code generation, UI editing, and UI polishing. We further explore test-time scaling for interactive generation, enabling systematic use of multi-turn feedback. Experiments on UI-to-code and UI polishing benchmarks show that UI2Code^N establishes a new state of the art among open-source models and achieves performance comparable to leading closed-source models such as Claude-4-Sonnet and GPT-5. Our code and models are available at https://github.com/zai-org/UI2Code_N.",
+            "upvotes": 28,
+            "discussionId": "69170901b63bfc66e04988e1",
+            "projectPage": "https://zheny2751-dotcom.github.io/ui2code-n.github.io/",
+            "githubRepo": "https://github.com/zai-org/UI2Code_N",
+            "ai_summary": "UI2Code$^\\text{N}$, a visual language model enhanced through staged pretraining, fine-tuning, and reinforcement learning, achieves superior performance in UI-to-code generation, editing, and polishing with iterative feedback.",
+            "ai_keywords": [
+                "visual language models",
+                "VLMs",
+                "UI-to-code",
+                "staged pretraining",
+                "fine-tuning",
+                "reinforcement learning",
+                "UI-to-code generation",
+                "UI editing",
+                "UI polishing",
+                "multi-turn feedback",
+                "UI-to-code benchmarks",
+                "UI polishing benchmarks"
+            ],
+            "githubStars": 18
+        },
+        "publishedAt": "2025-11-11T08:00:09.000Z",
+        "title": "UI2Code^N: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation",
+        "summary": "User interface (UI) programming is a core yet highly complex part of modern software development. Recent advances in visual language models (VLMs) highlight the potential of automatic UI coding, but current approaches face two key limitations: multimodal coding capabilities remain underdeveloped, and single-turn paradigms make little use of iterative visual feedback. We address these challenges with an interactive UI-to-code paradigm that better reflects real-world workflows and raises the upper bound of achievable performance. Under this paradigm, we present UI2Code^N, a visual language model trained through staged pretraining, fine-tuning, and reinforcement learning to achieve foundational improvements in multimodal coding. The model unifies three key capabilities: UI-to-code generation, UI editing, and UI polishing. We further explore test-time scaling for interactive generation, enabling systematic use of multi-turn feedback. Experiments on UI-to-code and UI polishing benchmarks show that UI2Code^N establishes a new state of the art among open-source models and achieves performance comparable to leading closed-source models such as Claude-4-Sonnet and GPT-5. Our code and models are available at https://github.com/zai-org/UI2Code_N.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/dw6-SAx5OVrdfn0_0YutW.jpeg",
+            "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/fHbYJ62-hSRF_OHc03iIk.jpeg"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.08195.png",
+        "numComments": 4,
+        "submittedBy": {
+            "_id": "62ecd24cb8764c7738ef2793",
+            "avatarUrl": "/avatars/c1b80b5c55f9d652c1aaac7919e1fa32.svg",
+            "fullname": "Wenyi Hong",
+            "name": "wenyi",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 14
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11257",
+            "authors": [
+                {
+                    "_id": "691aa2536bfd5965c0fd358a",
+                    "user": {
+                        "_id": "66a5db1c94d2b190a23c9a46",
+                        "avatarUrl": "/avatars/e2caafde5b9383d63d9917d9476c9ee3.svg",
+                        "isPro": false,
+                        "fullname": "Yuqi Yin",
+                        "user": "chitanda-eru",
+                        "type": "user"
+                    },
+                    "name": "Yuqi Yin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:09.321Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358b",
+                    "name": "Yibo Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358c",
+                    "user": {
+                        "_id": "6495b0b844bc2e9ce6cc849b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/j6aucl_tefMHwtD-bdUAw.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyuan Wang",
+                        "user": "OldKingMeister",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:11.698Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358d",
+                    "user": {
+                        "_id": "67badcafb717d1b5a3ec8e66",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0QifFDd3MiLtdQT1TzVa8.png",
+                        "isPro": false,
+                        "fullname": "sp",
+                        "user": "Pengss",
+                        "type": "user"
+                    },
+                    "name": "Peng Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:06.909Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358e",
+                    "name": "Hongyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358f",
+                    "name": "Xiaohui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3590",
+                    "name": "Lei Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3591",
+                    "name": "Zhiyong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3592",
+                    "name": "Zhirong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3593",
+                    "name": "Jianji Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3594",
+                    "name": "Zhaoxi Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T12:53:57.000Z",
+            "submittedOnDailyAt": "2025-11-17T03:06:43.136Z",
+            "title": "AIonopedia: an LLM agent orchestrating multimodal learning for ionic liquid discovery",
+            "submittedOnDailyBy": {
+                "_id": "66a5db1c94d2b190a23c9a46",
+                "avatarUrl": "/avatars/e2caafde5b9383d63d9917d9476c9ee3.svg",
+                "isPro": false,
+                "fullname": "Yuqi Yin",
+                "user": "chitanda-eru",
+                "type": "user"
+            },
+            "summary": "The discovery of novel Ionic Liquids (ILs) is hindered by critical challenges in property prediction, including limited data, poor model accuracy, and fragmented workflows. Leveraging the power of Large Language Models (LLMs), we introduce AIonopedia, to the best of our knowledge, the first LLM agent for IL discovery. Powered by an LLM-augmented multimodal domain foundation model for ILs, AIonopedia enables accurate property predictions and incorporates a hierarchical search architecture for molecular screening and design. Trained and evaluated on a newly curated and comprehensive IL dataset, our model delivers superior performance. Complementing these results, evaluations on literature-reported systems indicate that the agent can perform effective IL modification. Moving beyond offline tests, the practical efficacy was further confirmed through real-world wet-lab validation, in which the agent demonstrated exceptional generalization capabilities on challenging out-of-distribution tasks, underscoring its ability to accelerate real-world IL discovery.",
+            "upvotes": 24,
+            "discussionId": "691aa2536bfd5965c0fd3595",
+            "ai_summary": "Axonopedia, an AI agent utilizing LLMs and a multimodal foundation model, enhances property prediction and molecular design for Ionic Liquids through hierarchical search and real-world validation.",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "multimodal domain foundation model",
+                "hierarchical search architecture",
+                "Ionic Liquids (ILs)",
+                "property predictions",
+                "molecular screening",
+                "design",
+                "dataset",
+                "generalization capabilities",
+                "wet-lab validation"
+            ]
+        },
+        "publishedAt": "2025-11-14T07:53:57.000Z",
+        "title": "AIonopedia: an LLM agent orchestrating multimodal learning for ionic liquid discovery",
+        "summary": "The discovery of novel Ionic Liquids (ILs) is hindered by critical challenges in property prediction, including limited data, poor model accuracy, and fragmented workflows. Leveraging the power of Large Language Models (LLMs), we introduce AIonopedia, to the best of our knowledge, the first LLM agent for IL discovery. Powered by an LLM-augmented multimodal domain foundation model for ILs, AIonopedia enables accurate property predictions and incorporates a hierarchical search architecture for molecular screening and design. Trained and evaluated on a newly curated and comprehensive IL dataset, our model delivers superior performance. Complementing these results, evaluations on literature-reported systems indicate that the agent can perform effective IL modification. Moving beyond offline tests, the practical efficacy was further confirmed through real-world wet-lab validation, in which the agent demonstrated exceptional generalization capabilities on challenging out-of-distribution tasks, underscoring its ability to accelerate real-world IL discovery.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11257.png",
+        "numComments": 4,
+        "submittedBy": {
+            "_id": "66a5db1c94d2b190a23c9a46",
+            "avatarUrl": "/avatars/e2caafde5b9383d63d9917d9476c9ee3.svg",
+            "fullname": "Yuqi Yin",
+            "name": "chitanda-eru",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.11062",
+            "authors": [
+                {
+                    "_id": "691ad5d46bfd5965c0fd35ef",
+                    "name": "Dor Shmilovich",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ad5d46bfd5965c0fd35f0",
+                    "name": "Tony Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ad5d46bfd5965c0fd35f1",
+                    "user": {
+                        "_id": "62aef7d9aa0a36b80938665f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62aef7d9aa0a36b80938665f/xZ0JrG6u6YKRa4g62MViY.jpeg",
+                        "isPro": false,
+                        "fullname": "Aviad Dahan",
+                        "user": "AviadDahan",
+                        "type": "user"
+                    },
+                    "name": "Aviad Dahan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:25:58.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ad5d46bfd5965c0fd35f2",
+                    "name": "Yuval Domb",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T08:26:55.000Z",
+            "submittedOnDailyAt": "2025-11-17T05:31:06.491Z",
+            "title": "LiteAttention: A Temporal Sparse Attention for Diffusion Transformers",
+            "submittedOnDailyBy": {
+                "_id": "62aef7d9aa0a36b80938665f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62aef7d9aa0a36b80938665f/xZ0JrG6u6YKRa4g62MViY.jpeg",
+                "isPro": false,
+                "fullname": "Aviad Dahan",
+                "user": "AviadDahan",
+                "type": "user"
+            },
+            "summary": "Diffusion Transformers, particularly for video generation, achieve remarkable quality but suffer from quadratic attention complexity, leading to prohibitive latency. Existing acceleration methods face a fundamental trade-off: dynamically estimating sparse attention patterns at each denoising step incurs high computational overhead and estimation errors, while static sparsity patterns remain fixed and often suboptimal throughout denoising. We identify a key structural property of diffusion attention, namely, its sparsity patterns exhibit strong temporal coherence across denoising steps. Tiles deemed non-essential at step t typically remain so at step t+δ. Leveraging this observation, we introduce LiteAttention, a method that exploits temporal coherence to enable evolutionary computation skips across the denoising sequence. By marking non-essential tiles early and propagating skip decisions forward, LiteAttention eliminates redundant attention computations without repeated profiling overheads, combining the adaptivity of dynamic methods with the efficiency of static ones. We implement a highly optimized LiteAttention kernel on top of FlashAttention and demonstrate substantial speedups on production video diffusion models, with no degradation in quality. The code and implementation details will be publicly released.",
+            "upvotes": 23,
+            "discussionId": "691ad5d46bfd5965c0fd35f3",
+            "projectPage": "https://moonmath-ai.github.io/LiteAttention/",
+            "githubRepo": "https://github.com/moonmath-ai/LiteAttention",
+            "ai_summary": "LiteAttention exploits temporal coherence in diffusion attention to accelerate video generation without quality loss.",
+            "ai_keywords": [
+                "diffusion attention",
+                "quadratic attention complexity",
+                "sparse attention patterns",
+                "denoising steps",
+                "LiteAttention",
+                "evolutionary computation skips",
+                "FlashAttention",
+                "video diffusion models"
+            ],
+            "githubStars": 13,
+            "organization": {
+                "_id": "68cbf62d48a4c7e10718fab0",
+                "name": "MoonMath-ai",
+                "fullname": "MoonMath.ai",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68ca89cce4b4f3be680193a9/lYufFwdLdvxpp-pvVKzAz.png"
+            }
+        },
+        "publishedAt": "2025-11-14T03:26:55.000Z",
+        "title": "LiteAttention: A Temporal Sparse Attention for Diffusion Transformers",
+        "summary": "Diffusion Transformers, particularly for video generation, achieve remarkable quality but suffer from quadratic attention complexity, leading to prohibitive latency. Existing acceleration methods face a fundamental trade-off: dynamically estimating sparse attention patterns at each denoising step incurs high computational overhead and estimation errors, while static sparsity patterns remain fixed and often suboptimal throughout denoising. We identify a key structural property of diffusion attention, namely, its sparsity patterns exhibit strong temporal coherence across denoising steps. Tiles deemed non-essential at step t typically remain so at step t+δ. Leveraging this observation, we introduce LiteAttention, a method that exploits temporal coherence to enable evolutionary computation skips across the denoising sequence. By marking non-essential tiles early and propagating skip decisions forward, LiteAttention eliminates redundant attention computations without repeated profiling overheads, combining the adaptivity of dynamic methods with the efficiency of static ones. We implement a highly optimized LiteAttention kernel on top of FlashAttention and demonstrate substantial speedups on production video diffusion models, with no degradation in quality. The code and implementation details will be publicly released.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11062.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "62aef7d9aa0a36b80938665f",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62aef7d9aa0a36b80938665f/xZ0JrG6u6YKRa4g62MViY.jpeg",
+            "fullname": "Aviad Dahan",
+            "name": "AviadDahan",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "organization": {
+            "_id": "68cbf62d48a4c7e10718fab0",
+            "name": "MoonMath-ai",
+            "fullname": "MoonMath.ai",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68ca89cce4b4f3be680193a9/lYufFwdLdvxpp-pvVKzAz.png"
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.11238",
+            "authors": [
+                {
+                    "_id": "691a99126bfd5965c0fd34b6",
+                    "name": "Seed",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34b7",
+                    "name": "Baisheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34b8",
+                    "name": "Banggu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34b9",
+                    "name": "Bole Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ba",
+                    "name": "Bowen Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34bb",
+                    "name": "Chaoyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34bc",
+                    "name": "Cheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34bd",
+                    "name": "Chengyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34be",
+                    "name": "Chenyin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34bf",
+                    "name": "Chi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c0",
+                    "name": "Chong Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c1",
+                    "name": "Daoguang Zan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c2",
+                    "name": "Defa Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c3",
+                    "name": "Dongyu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c4",
+                    "name": "Du Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c5",
+                    "name": "Faming Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c6",
+                    "name": "Fan Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c7",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c8",
+                    "name": "Guang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34c9",
+                    "name": "Haobin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ca",
+                    "name": "Hongyu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34cb",
+                    "name": "Hongzhi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34cc",
+                    "name": "Huan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34cd",
+                    "name": "Huanzhang Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ce",
+                    "name": "Jianhui Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34cf",
+                    "name": "Jianqiao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d0",
+                    "name": "Jianyu Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d1",
+                    "name": "Jiayi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d2",
+                    "name": "Jiecao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d3",
+                    "name": "Jin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d4",
+                    "name": "Jin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d5",
+                    "name": "Jing Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d6",
+                    "name": "Jingji Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d7",
+                    "name": "Jun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d8",
+                    "name": "Jun Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34d9",
+                    "name": "Juncai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34da",
+                    "name": "Jundong Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34db",
+                    "user": {
+                        "_id": "64e851825ddcace745ba15bd",
+                        "avatarUrl": "/avatars/7b6612c411222974d9ea181784eef915.svg",
+                        "isPro": false,
+                        "fullname": "Kai Hua",
+                        "user": "kkish",
+                        "type": "user"
+                    },
+                    "name": "Kai Hua",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:23.121Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34dc",
+                    "name": "Kai Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34dd",
+                    "name": "Kai Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34de",
+                    "name": "Kaiyuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34df",
+                    "name": "Kang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e0",
+                    "name": "Ke Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e1",
+                    "name": "Liang Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e2",
+                    "name": "Lin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e3",
+                    "name": "Lishu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e4",
+                    "name": "Mengyao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e5",
+                    "name": "Ming Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e6",
+                    "name": "Mofan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e7",
+                    "name": "Nianning Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e8",
+                    "name": "Peng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34e9",
+                    "name": "Penghao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ea",
+                    "name": "Pengpeng Mu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34eb",
+                    "name": "Qi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ec",
+                    "name": "Qianli Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ed",
+                    "name": "Qiyang Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ee",
+                    "name": "Qiying Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ef",
+                    "name": "Renming Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f0",
+                    "name": "Ru Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f1",
+                    "name": "Shen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f2",
+                    "name": "Shen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f3",
+                    "name": "Shixiong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f4",
+                    "name": "Shuaishuai Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f5",
+                    "name": "Shuang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f6",
+                    "name": "Siyan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f7",
+                    "name": "Siyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f8",
+                    "name": "Siyuan Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34f9",
+                    "name": "Tao Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34fa",
+                    "name": "Tian Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34fb",
+                    "name": "Tiantian Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34fc",
+                    "name": "Ting Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34fd",
+                    "name": "Ting-Han Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34fe",
+                    "name": "Wei Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd34ff",
+                    "name": "Wenqiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3500",
+                    "name": "Wenxuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3501",
+                    "name": "Xiangzhong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3502",
+                    "name": "Xiaochen Zuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3503",
+                    "name": "Xiaoying Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3504",
+                    "name": "Ximing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3505",
+                    "name": "Xin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3506",
+                    "name": "Xin Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3507",
+                    "name": "Xingyan Bin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3508",
+                    "name": "Xintong Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3509",
+                    "name": "Xiongcai Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350a",
+                    "name": "Xujing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350b",
+                    "name": "Xun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350c",
+                    "name": "Yanghua Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350d",
+                    "name": "Yangrui Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350e",
+                    "name": "Yi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd350f",
+                    "name": "Yichong Leng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3510",
+                    "name": "Yinghao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3511",
+                    "name": "Yingshuan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3512",
+                    "name": "Yiyuan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3513",
+                    "name": "Yong Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3514",
+                    "name": "Yongan Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3515",
+                    "name": "Yonghui Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3516",
+                    "name": "Yongtao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3517",
+                    "name": "Yongzhen Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3518",
+                    "name": "Yu Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3519",
+                    "name": "Yuehang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351a",
+                    "name": "Yufeng Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351b",
+                    "name": "Yunshui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351c",
+                    "name": "Yuqiao Xian",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351d",
+                    "name": "Yutao Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351e",
+                    "name": "Yuxuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd351f",
+                    "name": "Zehua Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3520",
+                    "name": "Zehua Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3521",
+                    "name": "Zengzhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3522",
+                    "name": "Zeyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3523",
+                    "name": "Zhengqiang Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3524",
+                    "name": "Zhenyi Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3525",
+                    "name": "Zhexi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3526",
+                    "name": "Zhi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3527",
+                    "name": "Zhi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3528",
+                    "name": "Zhiqi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd3529",
+                    "user": {
+                        "_id": "65a62085576772f531e13856",
+                        "avatarUrl": "/avatars/72c67a60422e333ea4e323f7480ae0b7.svg",
+                        "isPro": false,
+                        "fullname": "Huang Zihao",
+                        "user": "FetchFortune",
+                        "type": "user"
+                    },
+                    "name": "Zihao Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:25.138Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd352a",
+                    "name": "Zilin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd352b",
+                    "name": "Ziyun Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a99126bfd5965c0fd352c",
+                    "name": "Zuo Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T12:41:57.000Z",
+            "submittedOnDailyAt": "2025-11-17T01:10:23.490Z",
+            "title": "Virtual Width Networks",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce Virtual Width Networks (VWN), a framework that delivers the benefits of wider representations without incurring the quadratic cost of increasing the hidden size. VWN decouples representational width from backbone width, expanding the embedding space while keeping backbone compute nearly constant. In our large-scale experiment, an 8-times expansion accelerates optimization by over 2 times for next-token and 3 times for next-2-token prediction. The advantage amplifies over training as both the loss gap grows and the convergence-speedup ratio increases, showing that VWN is not only token-efficient but also increasingly effective with scale. Moreover, we identify an approximately log-linear scaling relation between virtual width and loss reduction, offering an initial empirical basis and motivation for exploring virtual-width scaling as a new dimension of large-model efficiency.",
+            "upvotes": 22,
+            "discussionId": "691a99136bfd5965c0fd352d",
+            "ai_summary": "Virtual Width Networks (VWN) enhance model efficiency by expanding representational width without increasing computational cost, accelerating optimization and improving loss reduction.",
+            "ai_keywords": [
+                "Virtual Width Networks",
+                "VWN",
+                "representational width",
+                "backbone width",
+                "embedding space",
+                "next-token prediction",
+                "next-2-token prediction",
+                "token-efficient",
+                "loss reduction"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "publishedAt": "2025-11-14T07:41:57.000Z",
+        "title": "Virtual Width Networks",
+        "summary": "We introduce Virtual Width Networks (VWN), a framework that delivers the benefits of wider representations without incurring the quadratic cost of increasing the hidden size. VWN decouples representational width from backbone width, expanding the embedding space while keeping backbone compute nearly constant. In our large-scale experiment, an 8-times expansion accelerates optimization by over 2 times for next-token and 3 times for next-2-token prediction. The advantage amplifies over training as both the loss gap grows and the convergence-speedup ratio increases, showing that VWN is not only token-efficient but also increasingly effective with scale. Moreover, we identify an approximately log-linear scaling relation between virtual width and loss reduction, offering an initial empirical basis and motivation for exploring virtual-width scaling as a new dimension of large-model efficiency.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11238.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 162
+        },
+        "organization": {
+            "_id": "67d1140985ea0644e2f14b99",
+            "name": "ByteDance-Seed",
+            "fullname": "ByteDance Seed",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.08585",
+            "authors": [
+                {
+                    "_id": "691708feb63bfc66e04988b1",
+                    "name": "Jingtong Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708feb63bfc66e04988b2",
+                    "name": "Ziqi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708feb63bfc66e04988b3",
+                    "name": "Zhaoxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708feb63bfc66e04988b4",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708feb63bfc66e04988b5",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708feb63bfc66e04988b6",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-11T18:59:50.000Z",
+            "submittedOnDailyAt": "2025-11-17T06:26:16.905Z",
+            "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+            "submittedOnDailyBy": {
+                "_id": "60efe7fa0d920bc7805cada5",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+                "isPro": false,
+                "fullname": "Ziqi Huang",
+                "user": "Ziqi",
+                "type": "user"
+            },
+            "summary": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+            "upvotes": 18,
+            "discussionId": "691708feb63bfc66e04988b7",
+            "projectPage": "https://world-model-roadmap.github.io",
+            "githubRepo": "https://github.com/ziqihuangg/Awesome-From-Video-Generation-to-World-Model",
+            "ai_summary": "Video generation is evolving towards foundation models that integrate world simulation and rendering to produce physically plausible and interactive videos.",
+            "ai_keywords": [
+                "video foundation models",
+                "implicit world models",
+                "video renderer",
+                "physical dynamics",
+                "agent-environment interactions",
+                "task planning",
+                "latent simulation",
+                "visual reasoning",
+                "temporal consistency",
+                "goal-driven planning",
+                "physical plausibility",
+                "multimodal interaction",
+                "spatiotemporal scales",
+                "agent intelligence"
+            ],
+            "githubStars": 207
+        },
+        "publishedAt": "2025-11-11T13:59:50.000Z",
+        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+        "summary": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.08585.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "60efe7fa0d920bc7805cada5",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+            "fullname": "Ziqi Huang",
+            "name": "Ziqi",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 13
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.07403",
+            "authors": [
+                {
+                    "_id": "69140683ac231a5726572002",
+                    "user": {
+                        "_id": "62f5c24eea5bd6b1abc8e151",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660273191881-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Hunar Batra",
+                        "user": "hunarbatra",
+                        "type": "user"
+                    },
+                    "name": "Hunar Batra",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:18:58.669Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69140683ac231a5726572003",
+                    "name": "Haoqin Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69140683ac231a5726572004",
+                    "name": "Hardy Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69140683ac231a5726572005",
+                    "name": "Yuanze Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69140683ac231a5726572006",
+                    "name": "Cihang Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69140683ac231a5726572007",
+                    "name": "Ronald Clark",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-10T18:52:47.000Z",
+            "submittedOnDailyAt": "2025-11-17T04:00:22.549Z",
+            "title": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards",
+            "submittedOnDailyBy": {
+                "_id": "62f5c24eea5bd6b1abc8e151",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660273191881-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Hunar Batra",
+                "user": "hunarbatra",
+                "type": "user"
+            },
+            "summary": "Multimodal large language models (MLLMs) have achieved remarkable progress in vision-language tasks, but they continue to struggle with spatial understanding. Existing spatial MLLMs often rely on explicit 3D inputs or architecture-specific modifications, and remain constrained by large-scale datasets or sparse supervision. To address these limitations, we introduce SpatialThinker, a 3D-aware MLLM trained with RL to integrate structured spatial grounding with multi-step reasoning. The model simulates human-like spatial perception by constructing a scene graph of task-relevant objects and spatial relations, and reasoning towards an answer via dense spatial rewards. SpatialThinker consists of two key contributions: (1) a data synthesis pipeline that generates STVQA-7K, a high-quality spatial VQA dataset, and (2) online RL with a multi-objective dense spatial reward enforcing spatial grounding. SpatialThinker-7B outperforms supervised fine-tuning and the sparse RL baseline on spatial understanding and real-world VQA benchmarks, nearly doubling the base-model gain compared to sparse RL, and surpassing GPT-4o. These results showcase the effectiveness of combining spatial supervision with reward-aligned reasoning in enabling robust 3D spatial understanding with limited data and advancing MLLMs towards human-level visual reasoning.",
+            "upvotes": 11,
+            "discussionId": "69140684ac231a5726572008",
+            "ai_summary": "SpatialThinker, a 3D-aware MLLM trained with RL, enhances spatial understanding by integrating structured spatial grounding and multi-step reasoning, outperforming existing models on spatial VQA and real-world benchmarks.",
+            "ai_keywords": [
+                "MLLMs",
+                "spatial understanding",
+                "3D inputs",
+                "architecture-specific modifications",
+                "large-scale datasets",
+                "sparse supervision",
+                "SpatialThinker",
+                "scene graph",
+                "spatial rewards",
+                "data synthesis pipeline",
+                "STVQA-7K",
+                "online RL",
+                "multi-objective dense spatial reward",
+                "spatial grounding",
+                "reward-aligned reasoning",
+                "visual reasoning"
+            ],
+            "organization": {
+                "_id": "690ddf6f05d3fca3614552a7",
+                "name": "OX-PIXL",
+                "fullname": "Perceptual Intelligence and Extended Reality Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6305ee63d70693fdf1c7dbb8/6pCxseWIvO9rzU5h5nFPr.png"
+            }
+        },
+        "publishedAt": "2025-11-10T13:52:47.000Z",
+        "title": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards",
+        "summary": "Multimodal large language models (MLLMs) have achieved remarkable progress in vision-language tasks, but they continue to struggle with spatial understanding. Existing spatial MLLMs often rely on explicit 3D inputs or architecture-specific modifications, and remain constrained by large-scale datasets or sparse supervision. To address these limitations, we introduce SpatialThinker, a 3D-aware MLLM trained with RL to integrate structured spatial grounding with multi-step reasoning. The model simulates human-like spatial perception by constructing a scene graph of task-relevant objects and spatial relations, and reasoning towards an answer via dense spatial rewards. SpatialThinker consists of two key contributions: (1) a data synthesis pipeline that generates STVQA-7K, a high-quality spatial VQA dataset, and (2) online RL with a multi-objective dense spatial reward enforcing spatial grounding. SpatialThinker-7B outperforms supervised fine-tuning and the sparse RL baseline on spatial understanding and real-world VQA benchmarks, nearly doubling the base-model gain compared to sparse RL, and surpassing GPT-4o. These results showcase the effectiveness of combining spatial supervision with reward-aligned reasoning in enabling robust 3D spatial understanding with limited data and advancing MLLMs towards human-level visual reasoning.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.07403.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "62f5c24eea5bd6b1abc8e151",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660273191881-noauth.jpeg",
+            "fullname": "Hunar Batra",
+            "name": "hunarbatra",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 2
+        },
+        "organization": {
+            "_id": "690ddf6f05d3fca3614552a7",
+            "name": "OX-PIXL",
+            "fullname": "Perceptual Intelligence and Extended Reality Lab",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6305ee63d70693fdf1c7dbb8/6pCxseWIvO9rzU5h5nFPr.png"
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.09915",
+            "authors": [
+                {
+                    "_id": "691700dab15c6ccd9319525e",
+                    "user": {
+                        "_id": "64a0ed5ed5374ca472cfb0ac",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+                        "isPro": false,
+                        "fullname": "ZhimingMa",
+                        "user": "JimmyMa99",
+                        "type": "user"
+                    },
+                    "name": "Zhiming Ma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:31:37.452Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd9319525f",
+                    "name": "Shiyu Gan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195260",
+                    "name": "Junhao Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195261",
+                    "name": "Xianming Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195262",
+                    "name": "Qingyun Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195263",
+                    "name": "Peidong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195264",
+                    "name": "Mingjun Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195265",
+                    "name": "Yuhao Mo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195266",
+                    "name": "Jiajie Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195267",
+                    "name": "Chengxin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195268",
+                    "name": "Zhonglun Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd93195269",
+                    "name": "Chonghan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691700dab15c6ccd9319526a",
+                    "name": "Shi Cheng",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64a0ed5ed5374ca472cfb0ac/U9AiRrfk3sO_dy7FWPZF7.png"
+            ],
+            "publishedAt": "2025-11-13T03:27:39.000Z",
+            "submittedOnDailyAt": "2025-11-17T05:40:57.525Z",
+            "title": "HI-TransPA: Hearing Impairments Translation Personal Assistant",
+            "submittedOnDailyBy": {
+                "_id": "64a0ed5ed5374ca472cfb0ac",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+                "isPro": false,
+                "fullname": "ZhimingMa",
+                "user": "JimmyMa99",
+                "type": "user"
+            },
+            "summary": "To provide a unified and flexible solution for daily communication among hearing-impaired individuals, we introduce the Omni-Model paradigm into assistive technology and present HI-TransPA, an instruction-driven audio-visual personal assistant. The model fuses indistinct speech with high-frame-rate lip dynamics, enabling both translation and dialogue within a single multimodal framework. To tackle the challenges of noisy and heterogeneous raw data and the limited adaptability of existing Omni-Models to hearing-impaired speech, we construct a comprehensive preprocessing and curation pipeline that detects facial landmarks, isolates and stabilizes the lip region, and quantitatively assesses multimodal sample quality. These quality scores guide a curriculum learning strategy that first trains on clean, high-confidence samples and progressively incorporates harder cases to strengthen model robustness. We further adopt a SigLIP encoder combined with a Unified 3D-Resampler to efficiently encode high-frame-rate lip motion. Experiments on our purpose-built HI-Dialogue dataset show that HI-TransPA achieves state-of-the-art performance in both literal accuracy and semantic fidelity. This work establishes a foundation for applying Omni-Models to assistive communication technology, providing an end-to-end modeling framework and essential processing tools for future research.",
+            "upvotes": 6,
+            "discussionId": "691700dab15c6ccd9319526b",
+            "ai_summary": "HI-TransPA, an instruction-driven audio-visual personal assistant, uses Omni-Model paradigm to translate and dialogue by fusing speech with lip dynamics, achieving state-of-the-art performance in assistive communication for hearing-impaired individuals.",
+            "ai_keywords": [
+                "Omni-Model",
+                "HI-TransPA",
+                "instruction-driven",
+                "audio-visual personal assistant",
+                "indistinct speech",
+                "high-frame-rate lip dynamics",
+                "preprocessing",
+                "curation pipeline",
+                "facial landmarks",
+                "lip region stabilization",
+                "multimodal sample quality",
+                "curriculum learning",
+                "SigLIP encoder",
+                "Unified 3D-Resampler",
+                "HI-Dialogue dataset",
+                "literal accuracy",
+                "semantic fidelity"
+            ],
+            "organization": {
+                "_id": "66963c2a5d3db972e6024b32",
+                "name": "SmartFlowAI",
+                "fullname": "SmartFlowAI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65ddd79e39bc3eeaabf688ee/llvy6prJaiTia6GyIlrKw.jpeg"
+            }
+        },
+        "publishedAt": "2025-11-12T22:27:39.000Z",
+        "title": "HI-TransPA: Hearing Impairments Translation Personal Assistant",
+        "summary": "To provide a unified and flexible solution for daily communication among hearing-impaired individuals, we introduce the Omni-Model paradigm into assistive technology and present HI-TransPA, an instruction-driven audio-visual personal assistant. The model fuses indistinct speech with high-frame-rate lip dynamics, enabling both translation and dialogue within a single multimodal framework. To tackle the challenges of noisy and heterogeneous raw data and the limited adaptability of existing Omni-Models to hearing-impaired speech, we construct a comprehensive preprocessing and curation pipeline that detects facial landmarks, isolates and stabilizes the lip region, and quantitatively assesses multimodal sample quality. These quality scores guide a curriculum learning strategy that first trains on clean, high-confidence samples and progressively incorporates harder cases to strengthen model robustness. We further adopt a SigLIP encoder combined with a Unified 3D-Resampler to efficiently encode high-frame-rate lip motion. Experiments on our purpose-built HI-Dialogue dataset show that HI-TransPA achieves state-of-the-art performance in both literal accuracy and semantic fidelity. This work establishes a foundation for applying Omni-Models to assistive communication technology, providing an end-to-end modeling framework and essential processing tools for future research.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/64a0ed5ed5374ca472cfb0ac/U9AiRrfk3sO_dy7FWPZF7.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.09915.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "64a0ed5ed5374ca472cfb0ac",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0ed5ed5374ca472cfb0ac/n_wXamXfR_PPn0hRbnR1X.jpeg",
+            "fullname": "ZhimingMa",
+            "name": "JimmyMa99",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 3
+        },
+        "organization": {
+            "_id": "66963c2a5d3db972e6024b32",
+            "name": "SmartFlowAI",
+            "fullname": "SmartFlowAI",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65ddd79e39bc3eeaabf688ee/llvy6prJaiTia6GyIlrKw.jpeg"
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.11373",
+            "authors": [
+                {
+                    "_id": "691a81b76bfd5965c0fd3430",
+                    "name": "Shulin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a81b76bfd5965c0fd3431",
+                    "user": {
+                        "_id": "651eaaad567de56557e7bde6",
+                        "avatarUrl": "/avatars/7ddf08fe4459fa2b7b3796be4eb4f43d.svg",
+                        "isPro": false,
+                        "fullname": "duu",
+                        "user": "dongdongdongdu",
+                        "type": "user"
+                    },
+                    "name": "Dong Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:30.664Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a81b76bfd5965c0fd3432",
+                    "name": "Tao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a81b76bfd5965c0fd3433",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a81b76bfd5965c0fd3434",
+                    "name": "Boyu Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T14:52:34.000Z",
+            "submittedOnDailyAt": "2025-11-17T01:31:35.105Z",
+            "title": "MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with Agentic Pipeline Parallelism",
+            "submittedOnDailyBy": {
+                "_id": "67cffe3d275d90f8097ae10a",
+                "avatarUrl": "/avatars/eb4d06abb06c677e4d1be77685fc23f6.svg",
+                "isPro": false,
+                "fullname": "liu",
+                "user": "forestliutc",
+                "type": "user"
+            },
+            "summary": "Recent progress in large language models (LLMs) has been propelled by reinforcement learning with verifiable rewards (RLVR) and test-time scaling. However, the limited output length of LLMs constrains the depth of reasoning attainable in a single inference process. Multi-agent reasoning systems offer a promising alternative by employing multiple agents including Solver, Verifier, and Corrector, to iteratively refine solutions. While effective in closed-source models like Gemini 2.5 Pro, they struggle to generalize to open-source models due to insufficient critic and correction capabilities. To address this, we propose MarsRL, a novel reinforcement learning framework with agentic pipeline parallelism, designed to jointly optimize all agents in the system. MarsRL introduces agent-specific reward mechanisms to mitigate reward noise and employs pipeline-inspired training to enhance efficiency in handling long trajectories. Applied to Qwen3-30B-A3B-Thinking-2507, MarsRL improves AIME2025 accuracy from 86.5% to 93.3% and BeyondAIME from 64.9% to 73.8%, even surpassing Qwen3-235B-A22B-Thinking-2507. These findings highlight the potential of MarsRL to advance multi-agent reasoning systems and broaden their applicability across diverse reasoning tasks.",
+            "upvotes": 4,
+            "discussionId": "691a81b76bfd5965c0fd3435",
+            "githubRepo": "https://github.com/liushulinle/MarsRL",
+            "ai_summary": "MarsRL enhances multi-agent reasoning systems by optimizing all agents jointly, improving accuracy in complex reasoning tasks.",
+            "ai_keywords": [
+                "reinforcement learning with verifiable rewards",
+                "test-time scaling",
+                "multi-agent reasoning systems",
+                "Solver",
+                "Verifier",
+                "Corrector",
+                "agentic pipeline parallelism",
+                "agent-specific reward mechanisms",
+                "pipeline-inspired training",
+                "AIME2025",
+                "BeyondAIME"
+            ],
+            "githubStars": 5,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "publishedAt": "2025-11-14T09:52:34.000Z",
+        "title": "MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with Agentic Pipeline Parallelism",
+        "summary": "Recent progress in large language models (LLMs) has been propelled by reinforcement learning with verifiable rewards (RLVR) and test-time scaling. However, the limited output length of LLMs constrains the depth of reasoning attainable in a single inference process. Multi-agent reasoning systems offer a promising alternative by employing multiple agents including Solver, Verifier, and Corrector, to iteratively refine solutions. While effective in closed-source models like Gemini 2.5 Pro, they struggle to generalize to open-source models due to insufficient critic and correction capabilities. To address this, we propose MarsRL, a novel reinforcement learning framework with agentic pipeline parallelism, designed to jointly optimize all agents in the system. MarsRL introduces agent-specific reward mechanisms to mitigate reward noise and employs pipeline-inspired training to enhance efficiency in handling long trajectories. Applied to Qwen3-30B-A3B-Thinking-2507, MarsRL improves AIME2025 accuracy from 86.5% to 93.3% and BeyondAIME from 64.9% to 73.8%, even surpassing Qwen3-235B-A22B-Thinking-2507. These findings highlight the potential of MarsRL to advance multi-agent reasoning systems and broaden their applicability across diverse reasoning tasks.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11373.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "67cffe3d275d90f8097ae10a",
+            "avatarUrl": "/avatars/eb4d06abb06c677e4d1be77685fc23f6.svg",
+            "fullname": "liu",
+            "name": "forestliutc",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 3
+        },
+        "organization": {
+            "_id": "66543b6e420092799d2f625c",
+            "name": "tencent",
+            "fullname": "Tencent",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11519",
+            "authors": [
+                {
+                    "_id": "691b507d6bfd5965c0fd373d",
+                    "name": "Adam Stein",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd373e",
+                    "name": "Matthew Trager",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd373f",
+                    "name": "Benjamin Bowman",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd3740",
+                    "name": "Michael Kleinman",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd3741",
+                    "name": "Aditya Chattopadhyay",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd3742",
+                    "name": "Wei Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b507d6bfd5965c0fd3743",
+                    "name": "Stefano Soatto",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T17:45:28.000Z",
+            "submittedOnDailyAt": "2025-11-17T15:31:25.744Z",
+            "title": "Experience-Guided Adaptation of Inference-Time Reasoning Strategies",
+            "submittedOnDailyBy": {
+                "_id": "64b6d0052662b49f164de3b3",
+                "avatarUrl": "/avatars/12e70c77c3bb0698cb64a878ff72de21.svg",
+                "isPro": false,
+                "fullname": "Adam Stein",
+                "user": "steinad",
+                "type": "user"
+            },
+            "summary": "Enabling agentic AI systems to adapt their problem-solving approaches based on post-training interactions remains a fundamental challenge. While systems that update and maintain a memory at inference time have been proposed, existing designs only steer the system by modifying textual input to a language model or agent, which means that they cannot change sampling parameters, remove tools, modify system prompts, or switch between agentic and workflow paradigms. On the other hand, systems that adapt more flexibly require offline optimization and remain static once deployed. We present Experience-Guided Reasoner (EGuR), which generates tailored strategies -- complete computational procedures involving LLM calls, tools, sampling parameters, and control logic -- dynamically at inference time based on accumulated experience. We achieve this using an LLM-based meta-strategy -- a strategy that outputs strategies -- enabling adaptation of all strategy components (prompts, sampling parameters, tool configurations, and control logic). EGuR operates through two components: a Guide generates multiple candidate strategies conditioned on the current problem and structured memory of past experiences, while a Consolidator integrates execution feedback to improve future strategy generation. This produces complete, ready-to-run strategies optimized for each problem, which can be cached, retrieved, and executed as needed without wasting resources. Across five challenging benchmarks (AIME 2025, 3-SAT, and three Big Bench Extra Hard tasks), EGuR achieves up to 14% accuracy improvements over the strongest baselines while reducing computational costs by up to 111x, with both metrics improving as the system gains experience.",
+            "upvotes": 3,
+            "discussionId": "691b507d6bfd5965c0fd3744",
+            "ai_summary": "Experience-Guided Reasoner dynamically generates and optimizes computational strategies at inference time, adapting to problems using accumulated experience and improving accuracy and efficiency.",
+            "ai_keywords": [
+                "LLM",
+                "meta-strategy",
+                "candidate strategies",
+                "structured memory",
+                "execution feedback",
+                "control logic",
+                "AIME 2025",
+                "3-SAT",
+                "Big Bench Extra Hard tasks"
+            ],
+            "organization": {
+                "_id": "6058ec29102f61b42f65ae35",
+                "name": "AWS",
+                "fullname": "Amazon Web Services",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66f19ed428ae41c20c470792/wtuzZxWzijQ3do3zYoOFH.png"
+            }
+        },
+        "publishedAt": "2025-11-14T12:45:28.000Z",
+        "title": "Experience-Guided Adaptation of Inference-Time Reasoning Strategies",
+        "summary": "Enabling agentic AI systems to adapt their problem-solving approaches based on post-training interactions remains a fundamental challenge. While systems that update and maintain a memory at inference time have been proposed, existing designs only steer the system by modifying textual input to a language model or agent, which means that they cannot change sampling parameters, remove tools, modify system prompts, or switch between agentic and workflow paradigms. On the other hand, systems that adapt more flexibly require offline optimization and remain static once deployed. We present Experience-Guided Reasoner (EGuR), which generates tailored strategies -- complete computational procedures involving LLM calls, tools, sampling parameters, and control logic -- dynamically at inference time based on accumulated experience. We achieve this using an LLM-based meta-strategy -- a strategy that outputs strategies -- enabling adaptation of all strategy components (prompts, sampling parameters, tool configurations, and control logic). EGuR operates through two components: a Guide generates multiple candidate strategies conditioned on the current problem and structured memory of past experiences, while a Consolidator integrates execution feedback to improve future strategy generation. This produces complete, ready-to-run strategies optimized for each problem, which can be cached, retrieved, and executed as needed without wasting resources. Across five challenging benchmarks (AIME 2025, 3-SAT, and three Big Bench Extra Hard tasks), EGuR achieves up to 14% accuracy improvements over the strongest baselines while reducing computational costs by up to 111x, with both metrics improving as the system gains experience.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11519.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "64b6d0052662b49f164de3b3",
+            "avatarUrl": "/avatars/12e70c77c3bb0698cb64a878ff72de21.svg",
+            "fullname": "Adam Stein",
+            "name": "steinad",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "organization": {
+            "_id": "6058ec29102f61b42f65ae35",
+            "name": "AWS",
+            "fullname": "Amazon Web Services",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66f19ed428ae41c20c470792/wtuzZxWzijQ3do3zYoOFH.png"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.10984",
+            "authors": [
+                {
+                    "_id": "691a98606bfd5965c0fd349e",
+                    "name": "Xiying Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd349f",
+                    "name": "Zhoufutu Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a0",
+                    "name": "Zhixuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a1",
+                    "name": "Jingzhe Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a2",
+                    "name": "Jianpeng Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a3",
+                    "name": "Shuai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a4",
+                    "name": "Xi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a5",
+                    "name": "Danni Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a6",
+                    "name": "Shengda Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a7",
+                    "name": "Qianqian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a8",
+                    "name": "Xianbo Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34a9",
+                    "name": "Hongwan Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34aa",
+                    "name": "Xiang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34ab",
+                    "name": "Liang Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34ac",
+                    "name": "Jiashuo Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34ad",
+                    "name": "Mengyun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34ae",
+                    "name": "Weiran Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34af",
+                    "name": "Chenghao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34b0",
+                    "name": "Qianyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34b1",
+                    "name": "Xuanliang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34b2",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a98606bfd5965c0fd34b3",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T06:09:37.000Z",
+            "submittedOnDailyAt": "2025-11-17T01:07:30.798Z",
+            "title": "DiscoX: Benchmarking Discourse-Level Translation task in Expert Domains",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The evaluation of discourse-level translation in expert domains remains inadequate, despite its centrality to knowledge dissemination and cross-lingual scholarly communication. While these translations demand discourse-level coherence and strict terminological precision, current evaluation methods predominantly focus on segment-level accuracy and fluency. To address this limitation, we introduce DiscoX, a new benchmark for discourse-level and expert-level Chinese-English translation. It comprises 200 professionally-curated texts from 7 domains, with an average length exceeding 1700 tokens. To evaluate performance on DiscoX, we also develop Metric-S, a reference-free system that provides fine-grained automatic assessments across accuracy, fluency, and appropriateness. Metric-S demonstrates strong consistency with human judgments, significantly outperforming existing metrics. Our experiments reveal a remarkable performance gap: even the most advanced LLMs still trail human experts on these tasks. This finding validates the difficulty of DiscoX and underscores the challenges that remain in achieving professional-grade machine translation. The proposed benchmark and evaluation system provide a robust framework for more rigorous evaluation, facilitating future advancements in LLM-based translation.",
+            "upvotes": 3,
+            "discussionId": "691a98606bfd5965c0fd34b4",
+            "ai_summary": "A new benchmark DiscoX and evaluation system Metric-S are introduced to assess discourse-level and expert-level Chinese-English translation, highlighting the challenges in achieving professional-grade machine translation.",
+            "ai_keywords": [
+                "discourse-level translation",
+                "DiscoX",
+                "Metric-S",
+                "reference-free system",
+                "accuracy",
+                "fluency",
+                "appropriateness",
+                "human judgments",
+                "LLMs",
+                "professional-grade machine translation"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "publishedAt": "2025-11-14T01:09:37.000Z",
+        "title": "DiscoX: Benchmarking Discourse-Level Translation task in Expert Domains",
+        "summary": "The evaluation of discourse-level translation in expert domains remains inadequate, despite its centrality to knowledge dissemination and cross-lingual scholarly communication. While these translations demand discourse-level coherence and strict terminological precision, current evaluation methods predominantly focus on segment-level accuracy and fluency. To address this limitation, we introduce DiscoX, a new benchmark for discourse-level and expert-level Chinese-English translation. It comprises 200 professionally-curated texts from 7 domains, with an average length exceeding 1700 tokens. To evaluate performance on DiscoX, we also develop Metric-S, a reference-free system that provides fine-grained automatic assessments across accuracy, fluency, and appropriateness. Metric-S demonstrates strong consistency with human judgments, significantly outperforming existing metrics. Our experiments reveal a remarkable performance gap: even the most advanced LLMs still trail human experts on these tasks. This finding validates the difficulty of DiscoX and underscores the challenges that remain in achieving professional-grade machine translation. The proposed benchmark and evaluation system provide a robust framework for more rigorous evaluation, facilitating future advancements in LLM-based translation.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.10984.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 162
+        },
+        "organization": {
+            "_id": "67d1140985ea0644e2f14b99",
+            "name": "ByteDance-Seed",
+            "fullname": "ByteDance Seed",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.09554",
+            "authors": [
+                {
+                    "_id": "69154d04a1b06ca3cc8134ee",
+                    "name": "Isaac Robinson",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d04a1b06ca3cc8134ef",
+                    "name": "Peter Robicheaux",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d04a1b06ca3cc8134f0",
+                    "name": "Matvei Popov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d04a1b06ca3cc8134f1",
+                    "name": "Deva Ramanan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d04a1b06ca3cc8134f2",
+                    "name": "Neehar Peri",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-12T18:58:39.000Z",
+            "submittedOnDailyAt": "2025-11-17T14:32:06.905Z",
+            "title": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+            "submittedOnDailyBy": {
+                "_id": "60315285d2c57896177ce764",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613845120202-noauth.png",
+                "isPro": false,
+                "fullname": "Merve Noyan",
+                "user": "mervenoyan",
+                "type": "user"
+            },
+            "summary": "Open-vocabulary detectors achieve impressive performance on COCO, but often fail to generalize to real-world datasets with out-of-distribution classes not typically found in their pre-training. Rather than simply fine-tuning a heavy-weight vision-language model (VLM) for new domains, we introduce RF-DETR, a light-weight specialist detection transformer that discovers accuracy-latency Pareto curves for any target dataset with weight-sharing neural architecture search (NAS). Our approach fine-tunes a pre-trained base network on a target dataset and evaluates thousands of network configurations with different accuracy-latency tradeoffs without re-training. Further, we revisit the \"tunable knobs\" for NAS to improve the transferability of DETRs to diverse target domains. Notably, RF-DETR significantly improves on prior state-of-the-art real-time methods on COCO and Roboflow100-VL. RF-DETR (nano) achieves 48.0 AP on COCO, beating D-FINE (nano) by 5.3 AP at similar latency, and RF-DETR (2x-large) outperforms GroundingDINO (tiny) by 1.2 AP on Roboflow100-VL while running 20x as fast. To the best of our knowledge, RF-DETR (2x-large) is the first real-time detector to surpass 60 AP on COCO. Our code is at https://github.com/roboflow/rf-detr",
+            "upvotes": 3,
+            "discussionId": "69154d04a1b06ca3cc8134f3",
+            "ai_summary": "RF-DETR, a light-weight detection transformer, uses weight-sharing NAS to optimize accuracy and latency for real-time detection across diverse datasets.",
+            "ai_keywords": [
+                "open-vocabulary detectors",
+                "vision-language model",
+                "detection transformer",
+                "weight-sharing neural architecture search",
+                "NAS",
+                "real-time methods",
+                "COCO",
+                "Roboflow100-VL",
+                "AP"
+            ],
+            "organization": {
+                "_id": "62b477802598d944dd4ad9c2",
+                "name": "Roboflow",
+                "fullname": "Roboflow",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6398f391b19804b589c83949/gTtGLeuSeG6_YUxWMtuvY.jpeg"
+            }
+        },
+        "publishedAt": "2025-11-12T13:58:39.000Z",
+        "title": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+        "summary": "Open-vocabulary detectors achieve impressive performance on COCO, but often fail to generalize to real-world datasets with out-of-distribution classes not typically found in their pre-training. Rather than simply fine-tuning a heavy-weight vision-language model (VLM) for new domains, we introduce RF-DETR, a light-weight specialist detection transformer that discovers accuracy-latency Pareto curves for any target dataset with weight-sharing neural architecture search (NAS). Our approach fine-tunes a pre-trained base network on a target dataset and evaluates thousands of network configurations with different accuracy-latency tradeoffs without re-training. Further, we revisit the \"tunable knobs\" for NAS to improve the transferability of DETRs to diverse target domains. Notably, RF-DETR significantly improves on prior state-of-the-art real-time methods on COCO and Roboflow100-VL. RF-DETR (nano) achieves 48.0 AP on COCO, beating D-FINE (nano) by 5.3 AP at similar latency, and RF-DETR (2x-large) outperforms GroundingDINO (tiny) by 1.2 AP on Roboflow100-VL while running 20x as fast. To the best of our knowledge, RF-DETR (2x-large) is the first real-time detector to surpass 60 AP on COCO. Our code is at https://github.com/roboflow/rf-detr",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.09554.png",
+        "numComments": 3,
+        "submittedBy": {
+            "_id": "60315285d2c57896177ce764",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613845120202-noauth.png",
+            "fullname": "Merve Noyan",
+            "name": "mervenoyan",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 128
+        },
+        "organization": {
+            "_id": "62b477802598d944dd4ad9c2",
+            "name": "Roboflow",
+            "fullname": "Roboflow",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6398f391b19804b589c83949/gTtGLeuSeG6_YUxWMtuvY.jpeg"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11002",
+            "authors": [
+                {
+                    "_id": "691a8d6d6bfd5965c0fd3460",
+                    "name": "Zongyang Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a8d6d6bfd5965c0fd3461",
+                    "name": "Bingyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a8d6d6bfd5965c0fd3462",
+                    "name": "Xingbei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a8d6d6bfd5965c0fd3463",
+                    "name": "Yingqing He",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a8d6d6bfd5965c0fd3464",
+                    "name": "Zeyu Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T06:44:21.000Z",
+            "submittedOnDailyAt": "2025-11-17T00:20:29.652Z",
+            "title": "EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Emotion plays a pivotal role in video-based expression, but existing video generation systems predominantly focus on low-level visual metrics while neglecting affective dimensions. Although emotion analysis has made progress in the visual domain, the video community lacks dedicated resources to bridge emotion understanding with generative tasks, particularly for stylized and non-realistic contexts. To address this gap, we introduce EmoVid, the first multimodal, emotion-annotated video dataset specifically designed for creative media, which includes cartoon animations, movie clips, and animated stickers. Each video is annotated with emotion labels, visual attributes (brightness, colorfulness, hue), and text captions. Through systematic analysis, we uncover spatial and temporal patterns linking visual features to emotional perceptions across diverse video forms. Building on these insights, we develop an emotion-conditioned video generation technique by fine-tuning the Wan2.1 model. The results show a significant improvement in both quantitative metrics and the visual quality of generated videos for text-to-video and image-to-video tasks. EmoVid establishes a new benchmark for affective video computing. Our work not only offers valuable insights into visual emotion analysis in artistically styled videos, but also provides practical methods for enhancing emotional expression in video generation.",
+            "upvotes": 2,
+            "discussionId": "691a8d6e6bfd5965c0fd3465",
+            "ai_summary": "EmoVid, a multimodal emotion-annotated video dataset, bridges emotion understanding with video generation, leading to improved emotional expression in generated videos.",
+            "ai_keywords": [
+                "emotion analysis",
+                "multimodal",
+                "emotion-annotated",
+                "text-to-video",
+                "image-to-video",
+                "Wan2.1 model",
+                "affective video computing"
+            ]
+        },
+        "publishedAt": "2025-11-14T01:44:21.000Z",
+        "title": "EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation",
+        "summary": "Emotion plays a pivotal role in video-based expression, but existing video generation systems predominantly focus on low-level visual metrics while neglecting affective dimensions. Although emotion analysis has made progress in the visual domain, the video community lacks dedicated resources to bridge emotion understanding with generative tasks, particularly for stylized and non-realistic contexts. To address this gap, we introduce EmoVid, the first multimodal, emotion-annotated video dataset specifically designed for creative media, which includes cartoon animations, movie clips, and animated stickers. Each video is annotated with emotion labels, visual attributes (brightness, colorfulness, hue), and text captions. Through systematic analysis, we uncover spatial and temporal patterns linking visual features to emotional perceptions across diverse video forms. Building on these insights, we develop an emotion-conditioned video generation technique by fine-tuning the Wan2.1 model. The results show a significant improvement in both quantitative metrics and the visual quality of generated videos for text-to-video and image-to-video tasks. EmoVid establishes a new benchmark for affective video computing. Our work not only offers valuable insights into visual emotion analysis in artistically styled videos, but also provides practical methods for enhancing emotional expression in video generation.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11002.png",
+        "numComments": 1,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 162
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.10492",
+            "authors": [
+                {
+                    "_id": "691971446bfd5965c0fd3343",
+                    "user": {
+                        "_id": "64e7bc340d1cc5d5e39df58e",
+                        "avatarUrl": "/avatars/4408a4239fb99fab16fcb3b3ab296252.svg",
+                        "isPro": false,
+                        "fullname": "Yunkai Zhang",
+                        "user": "zhykoties",
+                        "type": "user"
+                    },
+                    "name": "Yunkai Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:53.719Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3344",
+                    "name": "Qiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3345",
+                    "name": "Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3346",
+                    "name": "Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3347",
+                    "name": "Ruizhong Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3348",
+                    "name": "Hanchao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd3349",
+                    "name": "Jason Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd334a",
+                    "name": "Yinglong Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd334b",
+                    "name": "Zhuoran Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd334c",
+                    "name": "Zeyu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691971446bfd5965c0fd334d",
+                    "name": "Diji Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-13T16:59:22.000Z",
+            "submittedOnDailyAt": "2025-11-17T10:54:12.246Z",
+            "title": "Don't Waste It: Guiding Generative Recommenders with Structured Human Priors via Multi-head Decoding",
+            "submittedOnDailyBy": {
+                "_id": "64e7bc340d1cc5d5e39df58e",
+                "avatarUrl": "/avatars/4408a4239fb99fab16fcb3b3ab296252.svg",
+                "isPro": false,
+                "fullname": "Yunkai Zhang",
+                "user": "zhykoties",
+                "type": "user"
+            },
+            "summary": "Optimizing recommender systems for objectives beyond accuracy, such as diversity, novelty, and personalization, is crucial for long-term user satisfaction. To this end, industrial practitioners have accumulated vast amounts of structured domain knowledge, which we term human priors (e.g., item taxonomies, temporal patterns). This knowledge is typically applied through post-hoc adjustments during ranking or post-ranking. However, this approach remains decoupled from the core model learning, which is particularly undesirable as the industry shifts to end-to-end generative recommendation foundation models. On the other hand, many methods targeting these beyond-accuracy objectives often require architecture-specific modifications and discard these valuable human priors by learning user intent in a fully unsupervised manner.\n  Instead of discarding the human priors accumulated over years of practice, we introduce a backbone-agnostic framework that seamlessly integrates these human priors directly into the end-to-end training of generative recommenders. With lightweight, prior-conditioned adapter heads inspired by efficient LLM decoding strategies, our approach guides the model to disentangle user intent along human-understandable axes (e.g., interaction types, long- vs. short-term interests). We also introduce a hierarchical composition strategy for modeling complex interactions across different prior types. Extensive experiments on three large-scale datasets demonstrate that our method significantly enhances both accuracy and beyond-accuracy objectives. We also show that human priors allow the backbone model to more effectively leverage longer context lengths and larger model sizes.",
+            "upvotes": 1,
+            "discussionId": "691971456bfd5965c0fd334e",
+            "githubRepo": "https://github.com/zhykoties/Multi-Head-Recommendation-with-Human-Priors",
+            "ai_summary": "A framework integrates human priors into end-to-end generative recommenders, enhancing accuracy and beyond-accuracy objectives by leveraging lightweight adapter heads and hierarchical composition strategies.",
+            "ai_keywords": [
+                "recommender systems",
+                "diversity",
+                "novelty",
+                "personalization",
+                "human priors",
+                "item taxonomies",
+                "temporal patterns",
+                "end-to-end generative recommendation foundation models",
+                "backbone-agnostic framework",
+                "prior-conditioned adapter heads",
+                "efficient LLM decoding strategies",
+                "user intent",
+                "interaction types",
+                "hierarchical composition strategy"
+            ],
+            "githubStars": 2,
+            "organization": {
+                "_id": "66b54027408752ae16404b05",
+                "name": "metaresearch",
+                "fullname": "Meta Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66b25f3f58babfaeb76112dc/2GmiaF075AZ7BcE538oPk.png"
+            }
+        },
+        "publishedAt": "2025-11-13T11:59:22.000Z",
+        "title": "Don't Waste It: Guiding Generative Recommenders with Structured Human Priors via Multi-head Decoding",
+        "summary": "Optimizing recommender systems for objectives beyond accuracy, such as diversity, novelty, and personalization, is crucial for long-term user satisfaction. To this end, industrial practitioners have accumulated vast amounts of structured domain knowledge, which we term human priors (e.g., item taxonomies, temporal patterns). This knowledge is typically applied through post-hoc adjustments during ranking or post-ranking. However, this approach remains decoupled from the core model learning, which is particularly undesirable as the industry shifts to end-to-end generative recommendation foundation models. On the other hand, many methods targeting these beyond-accuracy objectives often require architecture-specific modifications and discard these valuable human priors by learning user intent in a fully unsupervised manner.\n  Instead of discarding the human priors accumulated over years of practice, we introduce a backbone-agnostic framework that seamlessly integrates these human priors directly into the end-to-end training of generative recommenders. With lightweight, prior-conditioned adapter heads inspired by efficient LLM decoding strategies, our approach guides the model to disentangle user intent along human-understandable axes (e.g., interaction types, long- vs. short-term interests). We also introduce a hierarchical composition strategy for modeling complex interactions across different prior types. Extensive experiments on three large-scale datasets demonstrate that our method significantly enhances both accuracy and beyond-accuracy objectives. We also show that human priors allow the backbone model to more effectively leverage longer context lengths and larger model sizes.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.10492.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "64e7bc340d1cc5d5e39df58e",
+            "avatarUrl": "/avatars/4408a4239fb99fab16fcb3b3ab296252.svg",
+            "fullname": "Yunkai Zhang",
+            "name": "zhykoties",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "organization": {
+            "_id": "66b54027408752ae16404b05",
+            "name": "metaresearch",
+            "fullname": "Meta Research",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66b25f3f58babfaeb76112dc/2GmiaF075AZ7BcE538oPk.png"
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.10258",
+            "authors": [
+                {
+                    "_id": "69187f736bfd5965c0fd3263",
+                    "user": {
+                        "_id": "68c90f3b622d9314451ff9ff",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c90f3b622d9314451ff9ff/Xm00KSMoQQ2bef3c2Gbt7.jpeg",
+                        "isPro": false,
+                        "fullname": "Leszek Sliwko",
+                        "user": "lsliwko",
+                        "type": "user"
+                    },
+                    "name": "Leszek Sliwko",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:27:15.824Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69187f736bfd5965c0fd3264",
+                    "name": "Vladimir Getov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/68c90f3b622d9314451ff9ff/w4W37-g9uU5vPP1khreHE.png"
+            ],
+            "publishedAt": "2025-11-13T12:46:01.000Z",
+            "submittedOnDailyAt": "2025-11-17T08:45:45.439Z",
+            "title": "Workload Schedulers -- Genesis, Algorithms and Differences",
+            "submittedOnDailyBy": {
+                "_id": "68c90f3b622d9314451ff9ff",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c90f3b622d9314451ff9ff/Xm00KSMoQQ2bef3c2Gbt7.jpeg",
+                "isPro": false,
+                "fullname": "Leszek Sliwko",
+                "user": "lsliwko",
+                "type": "user"
+            },
+            "summary": "This paper presents a novel approach to categorization of modern workload schedulers. We provide descriptions of three classes of schedulers: Operating Systems Process Schedulers, Cluster Systems Jobs Schedulers and Big Data Schedulers. We describe their evolution from early adoptions to modern implementations, considering both the use and features of algorithms. In summary, we discuss differences between all presented classes of schedulers and discuss their chronological development. In conclusion we highlight similarities in the focus of scheduling strategies design, applicable to both local and distributed systems.",
+            "upvotes": 1,
+            "discussionId": "69187f736bfd5965c0fd3265"
+        },
+        "publishedAt": "2025-11-13T07:46:01.000Z",
+        "title": "Workload Schedulers -- Genesis, Algorithms and Differences",
+        "summary": "This paper presents a novel approach to categorization of modern workload schedulers. We provide descriptions of three classes of schedulers: Operating Systems Process Schedulers, Cluster Systems Jobs Schedulers and Big Data Schedulers. We describe their evolution from early adoptions to modern implementations, considering both the use and features of algorithms. In summary, we discuss differences between all presented classes of schedulers and discuss their chronological development. In conclusion we highlight similarities in the focus of scheduling strategies design, applicable to both local and distributed systems.",
+        "mediaUrls": [
+            "https://cdn-uploads.huggingface.co/production/uploads/68c90f3b622d9314451ff9ff/w4W37-g9uU5vPP1khreHE.png"
+        ],
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.10258.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "68c90f3b622d9314451ff9ff",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c90f3b622d9314451ff9ff/Xm00KSMoQQ2bef3c2Gbt7.jpeg",
+            "fullname": "Leszek Sliwko",
+            "name": "lsliwko",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": true
+    },
+    {
+        "paper": {
+            "id": "2511.07448",
+            "authors": [
+                {
+                    "_id": "691ac9346bfd5965c0fd35dc",
+                    "name": "Fatemeh Shahhosseini",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ac9346bfd5965c0fd35dd",
+                    "name": "Arash Marioriyad",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ac9346bfd5965c0fd35de",
+                    "name": "Ali Momen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ac9346bfd5965c0fd35df",
+                    "name": "Mahdieh Soleymani Baghshah",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ac9346bfd5965c0fd35e0",
+                    "name": "Mohammad Hossein Rohban",
+                    "hidden": false
+                },
+                {
+                    "_id": "691ac9346bfd5965c0fd35e1",
+                    "name": "Shaghayegh Haghjooy Javanmard",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-05T07:50:43.000Z",
+            "submittedOnDailyAt": "2025-11-17T04:36:37.800Z",
+            "title": "Large Language Models for Scientific Idea Generation: A Creativity-Centered Survey",
+            "submittedOnDailyBy": {
+                "_id": "6404a0bf1a3babee78de3a49",
+                "avatarUrl": "/avatars/700f0c71946cbe8ef2728526c1ef1683.svg",
+                "isPro": false,
+                "fullname": "Arash Mari Oriyad",
+                "user": "arashmarioriyad",
+                "type": "user"
+            },
+            "summary": "Scientific idea generation lies at the heart of scientific discovery and has driven human progress-whether by solving unsolved problems or proposing novel hypotheses to explain unknown phenomena. Unlike standard scientific reasoning or general creative generation, idea generation in science is a multi-objective and open-ended task, where the novelty of a contribution is as essential as its empirical soundness. Large language models (LLMs) have recently emerged as promising generators of scientific ideas, capable of producing coherent and factual outputs with surprising intuition and acceptable reasoning, yet their creative capacity remains inconsistent and poorly understood. This survey provides a structured synthesis of methods for LLM-driven scientific ideation, examining how different approaches balance creativity with scientific soundness. We categorize existing methods into five complementary families: External knowledge augmentation, Prompt-based distributional steering, Inference-time scaling, Multi-agent collaboration, and Parameter-level adaptation. To interpret their contributions, we employ two complementary frameworks: Boden's taxonomy of Combinatorial, Exploratory and Transformational creativity to characterize the level of ideas each family expected to generate, and Rhodes' 4Ps framework-Person, Process, Press, and Product-to locate the aspect or source of creativity that each method emphasizes. By aligning methodological advances with creativity frameworks, this survey clarifies the state of the field and outlines key directions toward reliable, systematic, and transformative applications of LLMs in scientific discovery.",
+            "upvotes": 1,
+            "discussionId": "691ac9356bfd5965c0fd35e2",
+            "ai_summary": "This survey examines methods for using large language models to generate scientific ideas, categorizing them into five families and aligning them with creativity frameworks to improve scientific soundness and novelty.",
+            "ai_keywords": [
+                "large language models",
+                "scientific ideation",
+                "external knowledge augmentation",
+                "prompt-based distributional steering",
+                "inference-time scaling",
+                "multi-agent collaboration",
+                "parameter-level adaptation",
+                "Boden's taxonomy",
+                "Combinatorial creativity",
+                "Exploratory creativity",
+                "Transformational creativity",
+                "Rhodes' 4Ps framework"
+            ]
+        },
+        "publishedAt": "2025-11-05T02:50:43.000Z",
+        "title": "Large Language Models for Scientific Idea Generation: A Creativity-Centered Survey",
+        "summary": "Scientific idea generation lies at the heart of scientific discovery and has driven human progress-whether by solving unsolved problems or proposing novel hypotheses to explain unknown phenomena. Unlike standard scientific reasoning or general creative generation, idea generation in science is a multi-objective and open-ended task, where the novelty of a contribution is as essential as its empirical soundness. Large language models (LLMs) have recently emerged as promising generators of scientific ideas, capable of producing coherent and factual outputs with surprising intuition and acceptable reasoning, yet their creative capacity remains inconsistent and poorly understood. This survey provides a structured synthesis of methods for LLM-driven scientific ideation, examining how different approaches balance creativity with scientific soundness. We categorize existing methods into five complementary families: External knowledge augmentation, Prompt-based distributional steering, Inference-time scaling, Multi-agent collaboration, and Parameter-level adaptation. To interpret their contributions, we employ two complementary frameworks: Boden's taxonomy of Combinatorial, Exploratory and Transformational creativity to characterize the level of ideas each family expected to generate, and Rhodes' 4Ps framework-Person, Process, Press, and Product-to locate the aspect or source of creativity that each method emphasizes. By aligning methodological advances with creativity frameworks, this survey clarifies the state of the field and outlines key directions toward reliable, systematic, and transformative applications of LLMs in scientific discovery.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.07448.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6404a0bf1a3babee78de3a49",
+            "avatarUrl": "/avatars/700f0c71946cbe8ef2728526c1ef1683.svg",
+            "fullname": "Arash Mari Oriyad",
+            "name": "arashmarioriyad",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11287",
+            "authors": [
+                {
+                    "_id": "691b15346bfd5965c0fd36f2",
+                    "name": "Sven Schultze",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b15346bfd5965c0fd36f3",
+                    "name": "Meike Verena Kietzmann",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b15346bfd5965c0fd36f4",
+                    "name": "Nils-Lucas Schönfeld",
+                    "hidden": false
+                },
+                {
+                    "_id": "691b15346bfd5965c0fd36f5",
+                    "name": "Ruth Stock-Homburg",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T13:23:34.000Z",
+            "submittedOnDailyAt": "2025-11-17T10:00:03.334Z",
+            "title": "Building the Web for Agents: A Declarative Framework for Agent-Web Interaction",
+            "submittedOnDailyBy": {
+                "_id": "654dbac9938fbf1e696be8aa",
+                "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+                "isPro": true,
+                "fullname": "Chaoyun Zhang",
+                "user": "vyokky",
+                "type": "user"
+            },
+            "summary": "The increasing deployment of autonomous AI agents on the web is hampered by a fundamental misalignment: agents must infer affordances from human-oriented user interfaces, leading to brittle, inefficient, and insecure interactions. To address this, we introduce VOIX, a web-native framework that enables websites to expose reliable, auditable, and privacy-preserving capabilities for AI agents through simple, declarative HTML elements. VOIX introduces <tool> and <context> tags, allowing developers to explicitly define available actions and relevant state, thereby creating a clear, machine-readable contract for agent behavior. This approach shifts control to the website developer while preserving user privacy by disconnecting the conversational interactions from the website. We evaluated the framework's practicality, learnability, and expressiveness in a three-day hackathon study with 16 developers. The results demonstrate that participants, regardless of prior experience, were able to rapidly build diverse and functional agent-enabled web applications. Ultimately, this work provides a foundational mechanism for realizing the Agentic Web, enabling a future of seamless and secure human-AI collaboration on the web.",
+            "upvotes": 0,
+            "discussionId": "691b15356bfd5965c0fd36f6",
+            "ai_summary": "VOIX is a web-native framework that enables reliable and privacy-preserving interactions between AI agents and human-oriented user interfaces using declarative HTML elements.",
+            "ai_keywords": [
+                "VOIX",
+                "<tool> tag",
+                "<context> tag",
+                "Agentic Web"
+            ]
+        },
+        "publishedAt": "2025-11-14T08:23:34.000Z",
+        "title": "Building the Web for Agents: A Declarative Framework for Agent-Web Interaction",
+        "summary": "The increasing deployment of autonomous AI agents on the web is hampered by a fundamental misalignment: agents must infer affordances from human-oriented user interfaces, leading to brittle, inefficient, and insecure interactions. To address this, we introduce VOIX, a web-native framework that enables websites to expose reliable, auditable, and privacy-preserving capabilities for AI agents through simple, declarative HTML elements. VOIX introduces <tool> and <context> tags, allowing developers to explicitly define available actions and relevant state, thereby creating a clear, machine-readable contract for agent behavior. This approach shifts control to the website developer while preserving user privacy by disconnecting the conversational interactions from the website. We evaluated the framework's practicality, learnability, and expressiveness in a three-day hackathon study with 16 developers. The results demonstrate that participants, regardless of prior experience, were able to rapidly build diverse and functional agent-enabled web applications. Ultimately, this work provides a foundational mechanism for realizing the Agentic Web, enabling a future of seamless and secure human-AI collaboration on the web.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11287.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "654dbac9938fbf1e696be8aa",
+            "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+            "fullname": "Chaoyun Zhang",
+            "name": "vyokky",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 3
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.11168",
+            "authors": [
+                {
+                    "_id": "691a97986bfd5965c0fd3489",
+                    "name": "Hangyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348a",
+                    "name": "Bofeng Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348b",
+                    "name": "Zhaohui Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348c",
+                    "name": "Wuzhen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348d",
+                    "name": "Juyoung Oh",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348e",
+                    "name": "Yuxuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd348f",
+                    "name": "Shixiao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3490",
+                    "name": "Hang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3491",
+                    "name": "Chengyuan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3492",
+                    "name": "Jiaxi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3493",
+                    "name": "Zheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3494",
+                    "name": "Peng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3495",
+                    "name": "KeKe Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3496",
+                    "name": "Maolin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3497",
+                    "name": "Jackson Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3498",
+                    "name": "Chunlei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd3499",
+                    "name": "Shengxiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd349a",
+                    "name": "Hongkai Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a97986bfd5965c0fd349b",
+                    "name": "Xiaopeng Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T11:07:04.000Z",
+            "submittedOnDailyAt": "2025-11-17T01:04:01.853Z",
+            "title": "CATS-V2V: A Real-World Vehicle-to-Vehicle Cooperative Perception Dataset with Complex Adverse Traffic Scenarios",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Vehicle-to-Vehicle (V2V) cooperative perception has great potential to enhance autonomous driving performance by overcoming perception limitations in complex adverse traffic scenarios (CATS). Meanwhile, data serves as the fundamental infrastructure for modern autonomous driving AI. However, due to stringent data collection requirements, existing datasets focus primarily on ordinary traffic scenarios, constraining the benefits of cooperative perception. To address this challenge, we introduce CATS-V2V, the first-of-its-kind real-world dataset for V2V cooperative perception under complex adverse traffic scenarios. The dataset was collected by two hardware time-synchronized vehicles, covering 10 weather and lighting conditions across 10 diverse locations. The 100-clip dataset includes 60K frames of 10 Hz LiDAR point clouds and 1.26M multi-view 30 Hz camera images, along with 750K anonymized yet high-precision RTK-fixed GNSS and IMU records. Correspondingly, we provide time-consistent 3D bounding box annotations for objects, as well as static scenes to construct a 4D BEV representation. On this basis, we propose a target-based temporal alignment method, ensuring that all objects are precisely aligned across all sensor modalities. We hope that CATS-V2V, the largest-scale, most supportive, and highest-quality dataset of its kind to date, will benefit the autonomous driving community in related tasks.",
+            "upvotes": 0,
+            "discussionId": "691a97986bfd5965c0fd349c",
+            "ai_summary": "CATS-V2V is a new real-world dataset for V2V cooperative perception in complex adverse traffic scenarios, providing comprehensive sensor data and precise temporal alignment.",
+            "ai_keywords": [
+                "LiDAR point clouds",
+                "multi-view camera images",
+                "RTK-fixed GNSS",
+                "IMU records",
+                "3D bounding box annotations",
+                "4D BEV representation",
+                "target-based temporal alignment"
+            ]
+        },
+        "publishedAt": "2025-11-14T06:07:04.000Z",
+        "title": "CATS-V2V: A Real-World Vehicle-to-Vehicle Cooperative Perception Dataset with Complex Adverse Traffic Scenarios",
+        "summary": "Vehicle-to-Vehicle (V2V) cooperative perception has great potential to enhance autonomous driving performance by overcoming perception limitations in complex adverse traffic scenarios (CATS). Meanwhile, data serves as the fundamental infrastructure for modern autonomous driving AI. However, due to stringent data collection requirements, existing datasets focus primarily on ordinary traffic scenarios, constraining the benefits of cooperative perception. To address this challenge, we introduce CATS-V2V, the first-of-its-kind real-world dataset for V2V cooperative perception under complex adverse traffic scenarios. The dataset was collected by two hardware time-synchronized vehicles, covering 10 weather and lighting conditions across 10 diverse locations. The 100-clip dataset includes 60K frames of 10 Hz LiDAR point clouds and 1.26M multi-view 30 Hz camera images, along with 750K anonymized yet high-precision RTK-fixed GNSS and IMU records. Correspondingly, we provide time-consistent 3D bounding box annotations for objects, as well as static scenes to construct a 4D BEV representation. On this basis, we propose a target-based temporal alignment method, ensuring that all objects are precisely aligned across all sensor modalities. We hope that CATS-V2V, the largest-scale, most supportive, and highest-quality dataset of its kind to date, will benefit the autonomous driving community in related tasks.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.11168.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "6039478ab3ecf716b1a5fd4d",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+            "fullname": "taesiri",
+            "name": "taesiri",
+            "type": "user",
+            "isPro": true,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 162
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.10899",
+            "authors": [
+                {
+                    "_id": "691bbfef6bfd5965c0fd3788",
+                    "name": "Farima Fatahi Bayat",
+                    "hidden": false
+                },
+                {
+                    "_id": "691bbfef6bfd5965c0fd3789",
+                    "name": "Pouya Pezeshkpour",
+                    "hidden": false
+                },
+                {
+                    "_id": "691bbfef6bfd5965c0fd378a",
+                    "name": "Estevam Hruschka",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T02:21:34.000Z",
+            "submittedOnDailyAt": "2025-11-17T22:16:25.324Z",
+            "title": "From Proof to Program: Characterizing Tool-Induced Reasoning Hallucinations in Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "656e9e4c56dec97af0562420",
+                "avatarUrl": "/avatars/6062b4dcd88642386b6421f42bd3b6c0.svg",
+                "isPro": false,
+                "fullname": "pouya pezeshkpour",
+                "user": "pouyapezeshkpour",
+                "type": "user"
+            },
+            "summary": "Tool-augmented Language Models (TaLMs) can invoke external tools to solve problems beyond their parametric capacity. However, it remains unclear whether these tool-enabled gains reflect trustworthy reasoning. Focusing on the Code Interpreter tool, we show that even when tools are selected and executed correctly, TaLMs treat tool outputs as substitutes for reasoning, producing solutions that appear correct but lack coherent justification. We term this failure mode Tool-Induced Myopia (TIM), and study it using PYMATH, a benchmark of 1,679 competition-level mathematical problems for which Python code is helpful but not sufficient. We further develop a multi-dimensional evaluation suite to quantify reasoning degradation in TaLMs relative to their non-tool counterparts. Our findings reveal that while TaLMs achieve up to a 19.3 percentage point gain in final-answer accuracy, their reasoning behavior consistently deteriorates (e.g., non-tool LLMs win up to 41.5% more often in pairwise comparisons of the reasoning process). This degradation intensifies with tool use; the more frequently a model invokes tools, the less coherent its reasoning becomes. Moreover, tool use shifts errors from arithmetic mistakes toward global reasoning failures (logic, assumption, creativity); with TIM present in ~55% of high-risk cases. Finally, we propose a preference-optimization-based framework that realigns TaLMs to use tools as assistive evidence, improving both final-answer accuracy and reasoning depth under tool use. Codes and data are available at: https://github.com/megagonlabs/TIM.",
+            "upvotes": 0,
+            "discussionId": "691bbfef6bfd5965c0fd378b",
+            "organization": {
+                "_id": "6119fa21d3c7a4ea2d9c8b48",
+                "name": "megagonlabs",
+                "fullname": "Megagon Labs",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1629092364615-6119f91344bc44eba1515e6b.png"
+            }
+        },
+        "publishedAt": "2025-11-13T21:21:34.000Z",
+        "title": "From Proof to Program: Characterizing Tool-Induced Reasoning Hallucinations in Large Language Models",
+        "summary": "Tool-augmented Language Models (TaLMs) can invoke external tools to solve problems beyond their parametric capacity. However, it remains unclear whether these tool-enabled gains reflect trustworthy reasoning. Focusing on the Code Interpreter tool, we show that even when tools are selected and executed correctly, TaLMs treat tool outputs as substitutes for reasoning, producing solutions that appear correct but lack coherent justification. We term this failure mode Tool-Induced Myopia (TIM), and study it using PYMATH, a benchmark of 1,679 competition-level mathematical problems for which Python code is helpful but not sufficient. We further develop a multi-dimensional evaluation suite to quantify reasoning degradation in TaLMs relative to their non-tool counterparts. Our findings reveal that while TaLMs achieve up to a 19.3 percentage point gain in final-answer accuracy, their reasoning behavior consistently deteriorates (e.g., non-tool LLMs win up to 41.5% more often in pairwise comparisons of the reasoning process). This degradation intensifies with tool use; the more frequently a model invokes tools, the less coherent its reasoning becomes. Moreover, tool use shifts errors from arithmetic mistakes toward global reasoning failures (logic, assumption, creativity); with TIM present in ~55% of high-risk cases. Finally, we propose a preference-optimization-based framework that realigns TaLMs to use tools as assistive evidence, improving both final-answer accuracy and reasoning depth under tool use. Codes and data are available at: https://github.com/megagonlabs/TIM.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.10899.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "656e9e4c56dec97af0562420",
+            "avatarUrl": "/avatars/6062b4dcd88642386b6421f42bd3b6c0.svg",
+            "fullname": "pouya pezeshkpour",
+            "name": "pouyapezeshkpour",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false
+        },
+        "organization": {
+            "_id": "6119fa21d3c7a4ea2d9c8b48",
+            "name": "megagonlabs",
+            "fullname": "Megagon Labs",
+            "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1629092364615-6119f91344bc44eba1515e6b.png"
+        },
+        "isAuthorParticipating": false
+    },
+    {
+        "paper": {
+            "id": "2511.03108",
+            "authors": [
+                {
+                    "_id": "691bc2d06bfd5965c0fd378d",
+                    "name": "Azim Ospanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "691bc2d06bfd5965c0fd378e",
+                    "name": "Farzan Farnia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691bc2d06bfd5965c0fd378f",
+                    "name": "Roozbeh Yousefzadeh",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-05T01:27:49.000Z",
+            "submittedOnDailyAt": "2025-11-17T22:21:22.323Z",
+            "title": "miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward",
+            "submittedOnDailyBy": {
+                "_id": "63319750b7b8e9d6e8994cc5",
+                "avatarUrl": "/avatars/0566f525ec383958e24ebf4952f9067f.svg",
+                "isPro": false,
+                "fullname": "Roozbeh Yousefzadeh",
+                "user": "roozbeh-yz",
+                "type": "user"
+            },
+            "summary": "We perform a thorough analysis of the formal and informal statements in the miniF2F benchmark from the perspective of an AI system that is tasked to participate in a math Olympiad consisting of the problems in miniF2F. In such setting, the model has to read and comprehend the problems in natural language, formalize them in Lean language, then proceed with proving the problems, and it will get credit for each problem if the formal proof corresponds to the original informal statement presented to the model. Our evaluation results reveal that the best accuracy of such pipeline can be about 36% using the SoTA models in the literature, considerably lower than the individual SoTA accuracies, 97% and 69% reported in the autoformalization and theorem proving literature. Analyzing the failure modes, we trace back a considerable portion of this drop to discrepancies between the formal and informal statements for more than half of the problems in miniF2F. We proceed with correcting all the errors, discrepancies and simplifications in formal and informal statements, and present the miniF2F-v2 with fully verified formal and informal statements and proofs. Evaluating the full theorem proving pipeline on miniF2F-v2 leads to the best accuracy of 70%, a significant improvement from the 40% on the original miniF2F, yet indicating considerable misalignment between the autoformalization models and theorem provers. Our deep analysis suggests that a higher quality benchmark can help the community better evaluate progress in the field of formal reasoning and also better diagnose the failure and success modes of autoformalization and theorem proving models. Our dataset is available at https://github.com/roozbeh-yz/miniF2F_v2.",
+            "upvotes": 0,
+            "discussionId": "691bc2d06bfd5965c0fd3790"
+        },
+        "publishedAt": "2025-11-04T20:27:49.000Z",
+        "title": "miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward",
+        "summary": "We perform a thorough analysis of the formal and informal statements in the miniF2F benchmark from the perspective of an AI system that is tasked to participate in a math Olympiad consisting of the problems in miniF2F. In such setting, the model has to read and comprehend the problems in natural language, formalize them in Lean language, then proceed with proving the problems, and it will get credit for each problem if the formal proof corresponds to the original informal statement presented to the model. Our evaluation results reveal that the best accuracy of such pipeline can be about 36% using the SoTA models in the literature, considerably lower than the individual SoTA accuracies, 97% and 69% reported in the autoformalization and theorem proving literature. Analyzing the failure modes, we trace back a considerable portion of this drop to discrepancies between the formal and informal statements for more than half of the problems in miniF2F. We proceed with correcting all the errors, discrepancies and simplifications in formal and informal statements, and present the miniF2F-v2 with fully verified formal and informal statements and proofs. Evaluating the full theorem proving pipeline on miniF2F-v2 leads to the best accuracy of 70%, a significant improvement from the 40% on the original miniF2F, yet indicating considerable misalignment between the autoformalization models and theorem provers. Our deep analysis suggests that a higher quality benchmark can help the community better evaluate progress in the field of formal reasoning and also better diagnose the failure and success modes of autoformalization and theorem proving models. Our dataset is available at https://github.com/roozbeh-yz/miniF2F_v2.",
+        "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.03108.png",
+        "numComments": 2,
+        "submittedBy": {
+            "_id": "63319750b7b8e9d6e8994cc5",
+            "avatarUrl": "/avatars/0566f525ec383958e24ebf4952f9067f.svg",
+            "fullname": "Roozbeh Yousefzadeh",
+            "name": "roozbeh-yz",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 1
+        },
+        "isAuthorParticipating": false
+    }
+]
