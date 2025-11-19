@@ -1,0 +1,152 @@
+[
+    {
+        "名称": "2025 [2511.13612] P1: Mastering Physics Olympiads with Reinforcement Learning.pdf",
+        "作者": "Jiacheng Chen, Qianjia Cheng, Fangchen Yu, Haiyuan Wan, Yuchen Zhang, Shenghe Zheng, Junchi Yao, Qingyang Zhang, Haonan He, Yun Luo, Yufeng Zhao, Futing Wang, Li Sheng, Chengxing Xie, Yuxin Zuo, Yizhuo Li, Wenxauan Zeng, Yulun Wu, Rui Huang, Dongzhan Zhou, Kai Chen, Yu Qiao, Lei Bai, Yu Cheng, Ning Ding, Bowen Zhou, Peng Ye, Ganqu Cui",
+        "摘要": "摘要：最近在大型语言模型（LLMs）方面的进展，使得这一前沿领域从解谜转向科学级推理，即解决需要符合自然规律而不仅仅是适应评分标准的问题所需的推理。物理学是这种转变最严苛的考验，因为它以一种基础的方式将符号与现实联系起来，成为大多数现代技术的基石。在这项工作中，我们通过开发具有卓越物理推理能力的大型语言模型（LLMs）来推动物理学研究，这些模型特别擅长解决奥林匹克级别的物理问题。我们推出了P1，一个完全通过强化学习（RL）训练的开源物理推理模型系列。其中，P1-235B-A22B是第一个在最新的国际物理奥林匹克竞赛（IPhO 2025）中获得金牌表现的开源模型，并在2024/2025年的13次国际/地区物理竞赛中赢得了12枚金牌。P1-30B-A3B在IPhO 2025上也优于几乎所有其他开源模型，获得银牌。此外，配备了代理框架PhysicsMinions的P1-235B-A22B+PhysicsMinions在IPhO 2025中总体排名第一，并在13次物理竞赛中获得了最高平均分。除了物理学，P1模型在其他推理任务（如数学和编码）上也表现出色，展示了P1系列的强大通用性。",
+        "地址": "https://arxiv.org/pdf/2511.13612.pdf"
+    },
+    {
+        "名称": "2025 [2511.11793] MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling.pdf",
+        "作者": "MiroMind Team, Song Bai, Lidong Bing, Carson Chen, Guanzheng Chen, Yuntao Chen, Zhe Chen, Ziyi Chen, Jifeng Dai, Xuan Dong, Wenhan Dou, Yue Deng, Yunjie Fu, Junqi Ge, Chenxia Han, Tammy Huang, Zhenhang Huang, Jerry Jiao, Shilei Jiang, Tianyu Jiao, Xiaoqi Jian, Lei Lei, Ruilin Li, Ryan Luo, Tiantong Li, Xiang Lin, Ziyuan Liu, Zhiqi Li, Jie Ni, Qiang Ren, Pax Sun, Shiqian Su, Chenxin Tao, Bin Wang, Hellen Wang, Haonan Wang, James Wang, Jin Wang, Jojo Wang, Letian Wang, Shizun Wang, Weizhi Wang, Zixuan Wang, Jinfan Xu, Sen Xing, Chenyu Yang, Hai Ye, Jiaheng Yu, Yue Yu, Muyan Zhong, Tianchen Zhao, Xizhou Zhu, Yanpeng Zhou, Yifan Zhang, Zhi Zhu",
+        "摘要": "摘要：我们推出了MiroThinker v1.0，这是一款开源研究代理，旨在推进工具增强推理和信息检索能力。与仅通过增加模型规模或上下文长度来提升性能的先前代理不同，MiroThinker在模型层面探索了交互尺度，通过系统地训练模型以处理更深层次和更频繁的代理-环境交互，作为性能改进的第三个维度。不同于在孤立情况下运行且随着推理链变长而有退化风险的LLM测试时间扩展，交互扩展通过利用环境反馈和外部信息获取来校正错误，并改进路径。通过强化学习，模型实现了高效的交互扩展：在256K上下文窗口下，它每个任务能够执行多达600个工具调用，使得持续多轮推理和复杂的现实世界研究流程成为可能。在四个代表性基准-GAIA, HLE, BrowseComp, 和BrowseComp-ZH中的表现中，72B变体分别达到81.9%, 37.7%, 47.1%, 和55.6%的准确率，超越了先前的开源代理，并接近像GPT-5-high这样的商业对手。我们的分析表明MiroThinker从交互扩展中持续受益：研究性能在模型参与更深入和更频繁的代理-环境交互时具有可预见的提升，表明交互深度表现出类似于模型规模和上下文长度的扩展行为。这些发现确立了交互扩展作为构建下一代开放研究代理的第三重要维度，补充了模型容量和上下文窗口。",
+        "地址": "https://arxiv.org/pdf/2511.11793.pdf"
+    },
+    {
+        "名称": "2025 [2511.12609] Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data.pdf",
+        "作者": "Yunxin Li, Xinyu Chen, Shenyuan Jiang, Haoyuan Shi, Zhenyu Liu, Xuanyu Zhang, Nanhao Deng, Zhenran Xu, Yicheng Ma, Meishan Zhang, Baotian Hu, Min Zhang",
+        "摘要": "摘要（翻译为中文）：\n\n摘要：我们展示了来自Lychee家族的Uni-MoE 2.0。作为一个完全开源的全模态大型模型（OLM），它显著推进了Lychee的Uni-MoE系列在语言为中心的多模态理解、推理和生成方面的能力。基于Qwen2.5-7B的稠密架构，我们从头开始构建Uni-MoE-2.0-Omni，通过三大核心贡献：动态容量专家混合（MoE）设计、通过迭代强化策略增强的渐进训练策略以及精心策划的多模态数据匹配技术。它能够进行全模态理解，并生成图像、文本和语音。从架构上看，我们新的MoE框架在使用共享、路由和空专家时，平衡了计算效率和处理10个跨模态输入的能力，而我们的全模态3D RoPE在自注意力层中确保了时空跨模态对齐。在训练方面，继跨模态预训练之后，我们使用渐进式监督微调策略，该策略激活模态特定专家，并通过平衡的数据组合和迭代GSPO-DPO方法来稳定强化学习训练并改善推理。在数据方面，基础模型在大约750亿个开源多模态数据标记上进行训练，配备了特殊的语音和图像生成标记，使其能够通过语言线索来学习这些生成任务。85项基准测试的广泛评估表明，我们的模型在主流OLMs中取得了SOTA（目前最先进的）或高度竞争的性能，在76项基准测试中的50多项上超越了Qwen2.5-Omni（训练了1.2万亿标记）。其关键优势包括视频理解（平均提升7%，共8项）、全模态理解（平均提升7%，共4项）和视听推理（提升4%）。它还在长篇语音处理上取得了进展（将WER降低4.2%），并在低级别图像处理和可控生成方面在5个指标上领先。",
+        "地址": "https://arxiv.org/pdf/2511.12609.pdf"
+    },
+    {
+        "名称": "2025 [2511.13254] Souper-Model: How Simple Arithmetic Unlocks State-of-the-Art LLM Performance.pdf",
+        "作者": "Shalini Maiti, Amar Budhiraja, Bhavul Gauri, Gaurav Chaurasia, Anton Protopopov, Alexis Audran-Reiss, Michael Slater, Despoina Magka, Tatiana Shavrina, Roberta Raileanu, Yoram Bachrach",
+        "摘要": "摘要：大型语言模型（LLMs）在各个领域表现出显著的能力，但其训练仍然需要大量资源和时间，需大量计算能力以及仔细的训练程序协调。模型融合——即将多个相同架构模型的权重平均——作为一种有前途的训练前和训练后技术，可以在不进行昂贵的重新训练的情况下提高性能。在本文中，我们介绍了分类专家融合方法（SoCE），这是一个系统化的模型融合方法，利用基准组成来识别最佳模型候选，并应用非均匀加权平均来最大化性能。与之前的均匀平均方法相反，我们的方法利用观察到的基准类别在模型性能上通常表现出低互相关性。SoCE为每个弱相关类别组识别“专家”模型，并使用优化加权平均而非均匀权重来组合它们。我们展示了所提议的方法在多个领域提高了性能和鲁棒性，包括多语言能力、工具调用和数学，并在伯克利函数调用排行榜上达到了最先进的成果。\n\n翻译内容：https://arxiv.org/pdf/2511.13254.pdf",
+        "地址": "https://arxiv.org/pdf/2511.13254.pdf"
+    },
+    {
+        "名称": "2025 [2511.13647] Part-X-MLLM: Part-aware 3D Multimodal Large Language Model.pdf",
+        "作者": "Chunshi Wang, Junliang Ye, Yunhan Yang, Yang Li, Zizhuo Lin, Jun Zhu, Zhuo Chen, Yawei Luo, Chunchao Guo",
+        "摘要": "摘要：我们介绍了Part-X-MLLM，这是一种原生3D多模态大型语言模型，通过将各种3D任务作为按结构、可执行语法编写的程序来统一。给定一个RGB点云和自然语言提示，我们的模型以自回归方式生成单个连贯的令牌序列，编码部分级别的边框、语义描述和编辑命令。这种结构化输出作为通用接口，驱动下游几何感知模块进行基于部分生成和编辑。通过将符号规划与几何合成分离，我们的方法允许任何兼容的几何引擎通过一个语言原生前端进行控制。我们预训练了双编码器架构以解构结构和语义，并在大规模、基于部分的数据集上进行指令调优。实验表明，我们的模型在生产高质量、结构化计划方面表现出色，使其在一个统一界面中实现了最先进的基础问答、组合生成和局部编辑。项目页面：https://arxiv.org/pdf/2511.13647.pdf",
+        "地址": "https://arxiv.org/pdf/2511.13647.pdf"
+    },
+    {
+        "名称": "2025 [2511.09611] MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.pdf",
+        "作者": "Ye Tian, Ling Yang, Jiongfan Yang, Anran Wang, Yu Tian, Jiani Zheng, Haochen Wang, Zhiyang Teng, Zhuochen Wang, Yinjie Wang, Yunhai Tong, Mengdi Wang, Xiangtai Li",
+        "摘要": "摘要：尽管具有思维感知的生成旨在提升复杂任务的表现，但我们发现现有的顺序自回归方法存在一个关键的失效模式，即误差传播可能导致性能下降。为了系统地分析这个问题，我们提出了ParaBench，这是一个用来评估文本和图像输出模态的新基准。我们使用ParaBench进行的分析表明，这种性能下降与生成的推理与最终图像之间的对齐不良密切相关。为了解决这个问题，我们提出了一种并行多模态扩散框架MMaDA-Parallel，它在整个去噪过程中实现了文本与图像之间的连续双向互动。MMaDA-Parallel通过有监督的微调进行训练，然后通过并行强化学习（ParaRL）进一步优化，这是一种在轨迹中应用语义奖励的新策略，以强制跨模态的一致性。实验验证表明，我们的模型显著提高了跨模态对齐和语义一致性，在ParaBench上相比最先进的模型Bagel实现了6.9%的输出对齐提升，建立了一种更稳健的思维感知图像合成范式。我们的代码已在此URL开源。\n\n*翻译特别感谢：叶天、凌阳、炯凡杨、安然王、宇天、佳妮郑、浩晨王、智洋滕、卓辰王、银杰王、云海童、梦迪王、向太李 ",
+        "地址": "https://arxiv.org/pdf/2511.09611.pdf"
+    },
+    {
+        "名称": "2025 [2511.11653] GroupRank: A Groupwise Reranking Paradigm Driven by Reinforcement Learning.pdf",
+        "作者": "Duolin Sun, Meixiu Long, Dan Yang, Yihan Jiao, Zhehao Tan, Jie Feng, Junjie Wang, Yue Shen, Peng Wei, Jian Wang, Jinjie Gu",
+        "摘要": "摘要: 大型语言模型作为重新排序器在提高 RAG 系统整体性能方面显示出巨大潜力。然而，现有的重新排序范式受制于一个核心的理论和实践困境：单点方法虽然简单且高度灵活，但独立评估文档，使其容易陷入排名短视陷阱，忽视文档之间的相对重要性。相比之下，列表方法能够理解全局排名上下文，但由于固有的列表刚性，在处理大量候选集时导致严重的可扩展性和灵活性问题。为解决这些挑战，我们提出了一种新的重新排序范式 Groupwise。在这种方法中，查询和一组候选文档共同输入模型，模型在组内进行比较，为每个文档分配单独的相关性分数。该设计保留了单点方法的灵活性，同时实现了列表方法的比较能力。我们进一步采用 GRPO 进行模型训练，该方法配备了异质奖励函数，将排名指标与旨在对齐组间分数分布的分布奖励相结合。为克服高质量标签数据稀缺所造成的瓶颈，我们提出了一种创新的管道，用于合成高质量的检索和排序数据。生成的数据不仅可以用于训练重新排序器，还可以用于训练检索器。大量实验验证了我们方法的有效性。在两个推理密集型检索基准 BRIGHT 和 R2MED 上。\n\n作者: Duolin Sun, Meixiu Long, Dan Yang, Yihan Jiao, Zhehao Tan, Jie Feng, Junjie Wang, Yue Shen, Peng Wei, Jian Wang, Jinjie Gu\n\n链接: [https://arxiv.org/pdf/2511.11653.pdf](https://arxiv.org/pdf/2511.11653.pdf)\n\n标题: 2025 [2511.11653] GroupRank: 一个基于强化学习驱动的分组重新排序范式",
+        "地址": "https://arxiv.org/pdf/2511.11653.pdf"
+    },
+    {
+        "名称": "2025 [2511.13704] TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models.pdf",
+        "作者": "Harold Haodong Chen, Disen Lan, Wen-Jie Shu, Qingyang Liu, Zihan Wang, Sirui Chen, Wenkai Cheng, Kanghao Chen, Hongfei Zhang, Zixin Zhang, Rongjin Guo, Yu Cheng, Ying-Cong Chen",
+        "摘要": "摘要：视频生成模型的快速发展已将其重点从生成视觉上合理的输出转向解决需要物理合理性和逻辑一致性的任务。然而，尽管有最近诸如Veo 3的链式帧推理等突破，但仍不清楚这些模型是否能表现出类似于大型语言模型（LLMs）的推理能力。现有基准测试主要评估视觉保真度和时间一致性，未能捕捉更高阶的推理能力。为了弥补这一差距，我们提出了TiViBench，这是一个专门设计用于评估图像到视频（I2V）生成模型推理能力的分层基准。TiViBench系统地评估了四个维度的推理能力：i) 结构推理与搜索，ii) 空间与视觉模式推理，iii) 符号与逻辑推理，iv) 动作规划与任务执行，涵盖24个不同难度级别的任务场景。通过大量评估，我们发现商业模型（如Sora 2, Veo 3.1）展示了更强的推理潜力，而开源模型由于训练规模和数据多样性的限制，其潜力尚未被完全释放。为了进一步激发这种潜力，我们介绍了VideoTPO，这是一种简单而有效的测试时间策略，灵感来自偏好优化。通过对生成的候选项进行LLM自我分析以识别优缺点，VideoTPO显著提高了推理性能，而不需要额外的训练、数据或奖励模型。TiViBench和VideoTPO共同为评估和推进视频生成模型中的推理能力奠定了基础，为这一新兴领域的未来研究设定了方向。",
+        "地址": "https://arxiv.org/pdf/2511.13704.pdf"
+    },
+    {
+        "名称": "2025 [2511.13648] PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image.pdf",
+        "作者": "Ziang Cao, Fangzhou Hong, Zhaoxi Chen, Liang Pan, Ziwei Liu",
+        "摘要": "摘要：3D建模正在从静态的视觉表现转向可直接用于模拟和互动的物理、关节化资产。然而，大多数现有的3D生成方法忽视了关键的物理和关节属性，从而限制了它们在具身AI中的应用。为弥合这一差距，我们引入了PhysX-Anything，这是首个基于单张野外图像生成高质量可用于模拟的3D资产的框架，具备明确的几何、关节和物理属性。具体而言，我们提出了首个基于VLM的物理3D生成模型，以及一种新的3D表示法，能够高效地将几何体标记化。它将标记数量减少了193倍，在标准VLM标记预算内实现了明确的几何学习，同时在微调过程中未引入任何特殊标记，从而显著提升了生成质量。此外，为了克服现有物理3D数据集的多样性限制，我们构建了一个新的数据集，PhysX-Mobility，扩展了以前物理3D数据集的对象类别超过两倍，包含了超过2000个具有丰富物理注释的常见现实世界对象。在PhysX-Mobility和野外图像上的大量实验证明了PhysX-Anything提供了强大的生成性能和鲁棒的泛化能力。此外，在MuJoCo风格环境中的基于模拟的实验验证了我们的模拟资产可以直接用于复杂接触的机器人策略学习。我们相信，PhysX-Anything可以大大增强一系列下游应用，尤其是在具身AI和基于物理的模拟中。",
+        "地址": "https://arxiv.org/pdf/2511.13648.pdf"
+    },
+    {
+        "名称": "2025 [2511.11332] UFO$^3$: Weaving the Digital Agent Galaxy.pdf",
+        "作者": "Chaoyun Zhang, Liqun Li, He Huang, Chiming Ni, Bo Qiao, Si Qin, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
+        "摘要": "摘要（翻译为中文）：\n\n摘要：基于大型语言模型（LLM）的代理正在将数字设备从被动工具转变为主动的智能协作者。然而，目前的大多数现有框架仍局限于单一操作系统或设备，导致跨设备的工作流程脆弱且主要依赖手动操作。我们提出了UFO$^3$系统，它将异构端点（包括桌面、服务器、移动设备和边缘设备）统一为一个单一的编排结构。UFO$^3$将每个用户请求建模为一个可变的任务星座（TaskConstellation）：一个包含原子子任务（TaskStars）的分布式DAG，并具有显式的控制和数据依赖关系（TaskStarLines）。任务星座随着分布式设备传入的结果不断演变，支持异步执行、自适应恢复和动态优化。星座编排器（Constellation Orchestrator）在应用动态DAG更新的同时安全且异步地执行任务，代理交互协议（AIP）提供持久的低延迟通道，用于可靠的任务分派和结果传输。这些设计消除了设备和平台之间的传统边界，使代理能够无缝协作，增强其集体智能。\n\n我们在NebulaBench上评估了UFO$^3$，该基准测试包含55个跨设备任务，涉及5台机器和10个类别。UFO$^3$实现了83.3%的子任务完成率，70.9%的任务成功率，平均并行度为1.72，并将端到端延迟相对于顺序基准减少了31%。故障注入实验显示出在瞬时和永久代理故障下的优雅退化和恢复。这些结果表明，UFO$^3$能够在异构设备间实现准确、高效且有弹性的任务编排，将孤立的代理联合成一个连贯、自适应的计算结构，延伸到普适计算的整个范围。",
+        "地址": "https://arxiv.org/pdf/2511.11332.pdf"
+    },
+    {
+        "名称": "2025 [2511.12710] Evolve the Method, Not the Prompts: Evolutionary Synthesis of Jailbreak Attacks on LLMs.pdf",
+        "作者": "Yunhao Chen, Xin Wang, Juncheng Li, Yixu Wang, Jie Li, Yan Teng, Yingchun Wang, Xingjun Ma",
+        "摘要": "摘要：自动化红队框架用于大型语言模型（LLMs）的技术越来越复杂，但它们存在一个基本的局限性：其突破逻辑仅限于选择、组合或改进现有的攻击策略。这限制了它们的创造力，使其无法自主发明全新的攻击机制。为了解决这一问题，我们引入了\\textbf{EvoSynth}，一个自主框架，它将范畴从攻击规划转向突袭方法的进化合成。EvoSynth不再改进提示词，而是采用多代理系统自主设计、进化和执行新颖的代码攻击算法。其核心特征是代码级的自我修正循环，使其能够在失败后迭代重写自己的攻击逻辑。通过大量实验，我们证明了EvoSynth不仅通过对抗高度鲁棒的模型如Claude-Sonnet-4.5达成85.5\\%攻击成功率（ASR）从而确立了新的最先进水平，还生成了显著比现有方法更多样化的攻击。我们公开了此框架，以促进未来在这一进化合成突袭方法新方向上的研究。代码可从以下链接获得：this https URL。",
+        "地址": "https://arxiv.org/pdf/2511.12710.pdf"
+    },
+    {
+        "名称": "2025 [2511.13720] Back to Basics: Let Denoising Generative Models Denoise.pdf",
+        "作者": "Tianhong Li, Kaiming He",
+        "摘要": "摘要：现今的去噪扩散模型在经典意义上并不\"去噪\"，即它们不直接预测干净的图像，而是预测噪声或带噪声的量。在本文中，我们提出预测干净数据和预测带噪声的量在根本上是不同的。根据流形假设，自然数据应该存在于低维流形上，而带噪声的量则不然。基于这一假设，我们提倡模型直接预测干净数据，这使得在非常高维空间中，表面上容量不足的网络也能有效运作。我们展示了在像素上的简单大块Transformers可以是强大的生成模型：无需使用tokenizer，无需预训练，也无需额外损失。我们的方法在概念上不过是\"$\\textbf{仅仅是图像Transformers}$\"，我们称之为$\\textbf{JiT}$。我们在ImageNet数据集上的分辨率为256和512的图像中使用大块大小16和32的JiT报告了具有竞争力的结果，在这种情况下，预测高维的带噪声量可能会出现灾难性失败。通过我们的网络映射回流形的基础，我们的研究回归基础，并追求一个基于原始自然数据的自包含变压器扩散模型范式。",
+        "地址": "https://arxiv.org/pdf/2511.13720.pdf"
+    },
+    {
+        "名称": "2025 [2511.13655] OlmoEarth: Stable Latent Image Modeling for Multimodal Earth Observation.pdf",
+        "作者": "Henry Herzog, Favyen Bastani, Yawen Zhang, Gabriel Tseng, Joseph Redmon, Hadrien Sablon, Ryan Park, Jacob Morrison, Alexandra Buraczynski, Karen Farley, Joshua Hansen, Andrew Howe, Patrick Alan Johnson, Mark Otterlee, Ted Schmitt, Hunter Pitelka, Stephen Daspit, Rachel Ratner, Christopher Wilhelm, Sebastian Wood, Mike Jacobi, Hannah Kerner, Evan Shelhamer, Ali Farhadi, Ranjay Krishna, Patrick Beukema",
+        "摘要": "摘要：地球观测数据独具挑战性，因为它像图像一样具有空间特性，像视频或文本一样有序列性，并且是高度多模态的。我们介绍了OlmoEarth：一种多模态时空基础模型，它采用了一种新颖的自监督学习方法、掩码策略和损失函数，专为地球观测领域设计。与12种其他基础模型相比，OlmoEarth在各种研究基准和外部合作伙伴的实际任务中实现了最先进的性能。在对嵌入进行评估时，OlmoEarth在24项任务中有15项取得最佳表现，而在全面微调后，它在29项任务中有19项表现最佳。我们将OlmoEarth部署为一个端到端平台的核心，用于地球观测模型的数据收集、标注、训练和推理。OlmoEarth平台将前沿基础模型和强大的数据管理工具交到致力于解决全球重大问题的非营利组织和非政府组织手中。OlmoEarth的源代码、训练数据和预训练权重可在此 https URL 获取。",
+        "地址": "https://arxiv.org/pdf/2511.13655.pdf"
+    },
+    {
+        "名称": "2025 [2511.13646] Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?.pdf",
+        "作者": "Chunqiu Steven Xia, Zhe Wang, Yan Yang, Yuxiang Wei, Lingming Zhang",
+        "摘要": "摘要：大型语言模型（LLMs）正在重塑几乎所有行业，包括软件工程。近年来，许多LLM代理被提出用于解决现实世界的软件问题。此类软件代理通常配备一套编码工具，并可以自主决定下一步行动，以形成完整的轨迹来解决端到端的软件任务。尽管前景可观，但它们通常需要专门的设计，并且可能仍然不是最优的，因为穷尽整个代理框架的设计空间可能极其具有挑战性和高成本。认识到软件代理本质上也是可以进一步改进/修改的软件，研究人员最近提出了一些自我改进的软件代理，包括达尔文-哥德尔机器（DGM）。同时，这些自我改进的代理需要在特定基准上进行昂贵的离线训练，可能在不同的LLM或基准上泛化效果不好。在本文中，我们提出了Live-SWE-agent，这是第一个在解决现实世界软件问题时可以在运行时自主并持续进化的软件代理。更具体地说，Live-SWE-agent从最基本的代理框架（仅访问bash工具，例如mini-SWE-agent）开始，并在解决现实世界软件问题的同时自主进化其自身的框架实现。我们在广泛研究的SWE-bench Verified基准上的评估显示，Live-SWE-agent在没有测试时扩展的情况下可以达到75.4%的令人印象深刻的解决率，超过了所有现有的开源软件代理，并接近最佳专有解决方案的性能。此外，Live-SWE-agent在最新的SWE-Bench Pro基准上超越了最先进的手工制作的软件代理，达到45.8%的最佳已知解决率。\n\n作者：Chunqiu Steven Xia, Zhe Wang, Yan Yang, Yuxiang Wei, Lingming Zhang\n链接：https://arxiv.org/pdf/2511.13646.pdf\n标题：2025 [2511.13646] Live-SWE-agent: 软件工程代理可以即时自我进化吗？",
+        "地址": "https://arxiv.org/pdf/2511.13646.pdf"
+    },
+    {
+        "名称": "2025 [2511.12797] Genomic Next-Token Predictors are In-Context Learners.pdf",
+        "作者": "Nathan Breslow, Aayush Mishra, Mahler Revsine, Michael C. Schatz, Anqi Liu, Daniel Khashabi",
+        "摘要": "摘要：在语境中学习(ICL)--模型从输入中提供的示例中推断和应用抽象模式的能力--已经在训练用于下一令牌预测的人类文本的大型语言模型中进行了广泛研究。事实上，先前的研究往往将这种突现行为归因于人类语言中的独特统计特性。这引发了一个基本问题：ICL是否可以通过大规模预测训练在其他序列领域有机地出现？为了探索这一点，我们转向基因组序列，这是一种充满统计结构的替代符号领域。具体来说，我们研究了Evo2基因组模型，它主要在下一核苷酸(A/T/C/G)预测上进行训练，规模与中型LLM相当。我们开发了一个包含符号推理任务的受控实验框架，这些任务通过语言形式和基因组形式进行实例化，从而能够直接比较基因组和语言模型中的ICL。我们的结果表明，基因组模型与它们的语言模型类似，表现出随着语境中示例数量增加而出现的对模式归纳的对数线性增益。据我们所知，这是基因组序列中首次有机出现ICL的证据，支持ICL是大规模预测建模丰富数据的结果的假设。这些发现将突现的元学习扩展到语言之外，指出了语境学习的统一、模态无关视角。\n\n作者：Nathan Breslow, Aayush Mishra, Mahler Revsine, Michael C. Schatz, Anqi Liu, Daniel Khashabi\n\n链接：https://arxiv.org/pdf/2511.12797.pdf\n\n标题：2025 [2511.12797]基因组下一令牌预测器是语境学习者.pdf",
+        "地址": "https://arxiv.org/pdf/2511.12797.pdf"
+    },
+    {
+        "名称": "2025 [2511.12997] WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance.pdf",
+        "作者": "Genglin Liu, Shijie Geng, Sha Li, Hejie Cui, Sarah Zhang, Xin Liu, Tianyi Liu",
+        "摘要": "摘要：最近，采用多模态大型语言模型（LLM）的代理在网页导航方面展示了令人印象深刻的能力，使得代理能够完成跨多个领域的复杂浏览任务。然而，当前的代理在重复性错误方面表现不佳，且缺乏从过去经验中学习的能力，限制了它们的长期鲁棒性和样本效率。我们介绍了WebCoach，这是一种与模型无关的自进化框架，赋予网页浏览代理以持久的跨会话记忆，从而在不重新训练的情况下实现改进的长期规划、反思和持续学习。WebCoach由三个关键组件组成：（1）一个WebCondenser，将原始导航日志标准化为简洁的摘要；（2）一个外部记忆存储器，按情节体验组织完整的轨迹；（3）一个教练，根据相似性和最近程度检索相关经验，并决定是否通过运行时钩子向代理注入特定任务的建议。此设计使网页代理能够访问超出其本地上下文窗口的长期记忆，从而在复杂的浏览任务中提高鲁棒性。同时，WebCoach通过不断从新的导航轨迹中精选情节记忆，实现了自我进化，使代理无需重新训练即可随时间推移而改进。对WebVoyager基准的评估表明，WebCoach在三种不同的LLM基础上始终改进了浏览器使用代理的性能。在使用38B模型时，它将任务成功率从47％提高到61％，同时减少或维持平均步骤数。值得注意的是，使用WebCoach的小型基础模型的性能可与使用GPT-4o的同款网页代理相媲美。",
+        "地址": "https://arxiv.org/pdf/2511.12997.pdf"
+    },
+    {
+        "名称": "2025 [2511.12472] Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing.pdf",
+        "作者": "Mengying Wang, Chenhui Ma, Ao Jiao, Tuo Liang, Pengjun Lu, Shrinidhi Hegde, Yu Yin, Evren Gurkan-Cavusoglu, Yinghui Wu",
+        "摘要": "摘要：大型语言模型（LLMs）在知识图谱问答（KGQA）方面取得了巨大进展，但现有系统通常优化以返回高度相关但可预测的答案。一个缺失但理想的功能是利用LLMs提出意外和新奇（“意外”）的答案。在本文中，我们正式定义了以意外性为中心的KGQA任务，并提出了SerenQA框架以评估LLMs在科学KGQA任务中发现意外见解的能力。SerenQA包括一个基于相关性、新颖性和意外性的严格意外性度量标准，以及从临床知识图谱中提取的专家标注基准，专注于药物重新用途。此外，该框架具有结构化的评估管道，包含三个子任务：知识检索、子图推理和意外性探索。我们的实验表明，尽管最先进的LLMs在检索方面表现良好，但它们仍然难以识别真正令人惊讶且有价值的发现，表明未来改进的空间很大。我们发布了经过策划的资源和扩展版本：此https URL。\n\n作者：孟颖王，陈辉马，敖姣，梁拓，彭军路，Shrinidhi Hegde，于寅，Evren Gurkan-Cavusoglu，吴颖慧\n\n评论：第40届AAAI人工智能大会（AAAI-26）\n\n网址：https://arxiv.org/pdf/2511.12472.pdf\n\n标题：评估LLMs在知识图谱中发现意外性的能力：药物重新用途的案例研究\n",
+        "地址": "https://arxiv.org/pdf/2511.12472.pdf"
+    },
+    {
+        "名称": "2025 [2511.09809] Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models.pdf",
+        "作者": "Konstantinos M. Dafnis, Dimitris N. Metaxas",
+        "摘要": "摘要: 视觉-语言模型（VLMs）在零样本推理方面表现出色，但在测试时域变化下通常会退化。为此，最近出现了情景测试时间适应策略，这是将VLMs适应于单个未标记图像的强大技术。然而，现有的适应策略（例如测试时间提示微调）通常需要通过大型编码器权重的反向传播或改变核心模型组件。在这项工作中，我们介绍了一种轻量级适应框架，称为频谱感知测试时间引导（STS），该框架从文本嵌入中提取频谱子空间以定义主要语义方向，并通过调整少量每样本的位移参数，在不同的增强视图中最小化熵，从而在频谱感知的方式中引导潜在表示。STS完全在推理时操作于潜在空间中，不需要通过冻结编码器进行反向传播或修改它们。基于标准评估协议，我们的综合实验表明，STS在很大程度上优于或与最先进的测试时间适应方法相比，只有少量额外参数引入，并且在测试时间提示微调中实现了高达8倍的推理速度和12倍更小的内存需求。代码可在此HTTPS URL上获得。",
+        "地址": "https://arxiv.org/pdf/2511.09809.pdf"
+    },
+    {
+        "名称": "2025 [2511.13714] UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity.pdf",
+        "作者": "Junwei Yu, Trevor Darrell, XuDong Wang",
+        "摘要": "以下是该学术论文的摘要及其中文翻译：\n\n**摘要：**\nSegment Anything Model (SAM) 系列已成为广泛采用的视觉基础模型，但其控制分割粒度的能力仍然有限。用户通常需要手动细化结果——通过添加更多提示或从预生成的掩码中选择——以达到所需的细节水平。这个过程可能会模糊不清，因为相同的提示可能对应几个合理的掩码，且在所有粒度层面收集密集注释的成本极高，使监督解决方案变得不可行。为了解决这个局限性，我们引入了 UnSAMv2，它无需人工注释即可在任何粒度下实现分割。UnSAMv2 通过发现丰富的掩码-粒度对并引入一种新的粒度控制嵌入来扩展 UnSAM 的分而治之策略，实现对分割尺度的精确、连续控制。值得注意的是，仅用 $6$K 的未标注图像和 $0.02\\%$ 的额外参数，UnSAMv2 大幅增强了 SAM-2，在交互式、整体图像和视频分割任务中实现了任意粒度的分割。在超过 $11$ 个基准上的评估显示，UnSAMv2 改进了 $\\\\text{NoC}_{90}$ (5.69 $\\\\rightarrow$ 4.75)，1-IoU (58.0 $\\\\rightarrow$ 73.1) 和 $\\\\text{AR}_{1000}$ (49.6 $\\\\rightarrow$ 68.3)，表明少量未标注数据加上粒度感知的自监督学习方法可以释放视觉基础模型的潜力。\n\n**中文翻译：**\nSegment Anything Model (SAM) 系列已经成为广泛采用的视觉基础模型，但其控制分割粒度的能力仍然有限。用户通常需要手动细化结果——通过添加更多提示或从预生成的掩码中选择——以达到所需的细节水平。这个过程可能会模糊不清，因为相同的提示可能对应几个合理的掩码，且在所有粒度层面收集密集注释的成本极高，使监督解决方案变得不可行。为了解决这个局限性，我们引入了 UnSAMv2，它无需人工注释即可在任何粒度下实现分割。UnSAMv2 通过发现丰富的掩码-粒度对并引入一种新的粒度控制嵌入来扩展 UnSAM 的分而治之策略，实现对分割尺度的精确、连续控制。值得注意的是，仅用6000张未标注图像和0.02%的额外参数，UnSAMv2大幅增强了SAM-2，在交互式、整体图像和视频分割任务中实现了任意粒度的分割。在超过11个基准上的评估显示，UnSAMv2改进了$\\\\text{NoC}_{90}$(5.69 $\\\\rightarrow$ 4.75)，1-IoU(58.0 $\\\\rightarrow$ 73.1)和$\\\\text{AR}_{1000}$(49.6 $\\\\rightarrow$ 68.3)，表明少量未标注数据加上粒度感知的自监督学习方法可以释放视觉基础模型的潜力。",
+        "地址": "https://arxiv.org/pdf/2511.13714.pdf"
+    },
+    {
+        "名称": "2025 [2511.11407] MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model.pdf",
+        "作者": "Manyu Li, Ruian He, Chenxi Ma, Weimin Tan, Bo Yan",
+        "摘要": "摘要: 多模态大型语言模型正日益应用于生物医学成像领域，然而显微镜科学推理仍然受限于大规模、高质量训练数据的缺乏。我们推出了MicroVQA++，一个从BIOMEDICA存档中衍生的三阶段、大规模高质量显微镜视觉问答（VQA）语料库。第一阶段从同行评审文章中提取经过专家验证的图注对。第二阶段应用HiCQA-Graph，这是一种新颖的异构图，涵盖图像、标题和问答，融合了基于NLI的文本蕴含、基于CLIP的视觉语言对齐和代理信号，以识别并过滤不一致样本。第三阶段使用多模态大型语言模型（MLLM）代理生成多项选择题（MCQ），并由人工筛选。最终发布的数据集包括一个大型训练集和一个经过人工检查的测试集，其Bloom层级困难样本分布超过了MicroVQA基准。我们的工作提供了(i)结合专家文献、基于图的过滤和人工精炼的质量控制数据集；(ii) HiCQA-Graph，第一个联合建模（图像、标题、QA）以实现跨模态一致性过滤的图；(iii) 证据表明，精心构建的数据使得4B规模的MLLMs能够在显微镜推理性能上达到竞争力（如GPT-5），并在开源MLLMs中实现最先进的性能。代码和数据将在审查过程结束后发布。",
+        "地址": "https://arxiv.org/pdf/2511.11407.pdf"
+    },
+    {
+        "名称": "2025 [2511.02767] Dynamic Reflections: Probing Video Representations with Text Alignment.pdf",
+        "作者": "Tyler Zhu, Tengda Han, Leonidas Guibas, Viorica Pătrăucean, Maks Ovsjanikov",
+        "摘要": "摘要：不同模态的表示对齐最近被证明可以提供不同编码器在多种数据类型中的结构相似性和下游能力的洞见。尽管在图像与文本的对齐方面已经取得了显著进展，但视频数据的时间特性在这一背景下仍然基本未被探讨。在这项工作中，我们进行了第一次关于视频-文本表示对齐的综合研究，探索现代视频和语言编码器的能力。我们的研究发现了几个关键点。首先，我们证明了跨模态对齐在很大程度上依赖于测试时提供的视觉（静态图像与多帧视频）和文本（单个标题与集合）数据的丰富性，尤其是在使用最先进的视频编码器时。我们提出了参数化测试时的缩放定律，这些定律捕捉了这种行为，并显示出对经验观察的显著预测能力。其次，我们研究了语义对齐与语义和非语义下游任务性能之间的相关性，提供了初步证据，表明针对文本编码器的强对齐可能与通用的视频表示和理解有关。最后，我们将时间推理与跨模态对齐相关联，为视觉和语言模型提供了一个具有挑战性的测试平台。总的来说，我们的工作引入了视频-文本对齐作为一种信息丰富的零样本方法，用于探测不同编码器对时空数据的表示能力。\n\n项目页面可以在此https网址找到。\n\n作者：Tyler Zhu, Tengda Han, Leonidas Guibas, Viorica Pătrăucean, Maks Ovsjanikov\n\n评论：21页，12张图\n\n网址：https://arxiv.org/pdf/2511.02767.pdf\n\n标题：2025 [2511.02767] 动态反射：通过文本对齐探测视频表示",
+        "地址": "https://arxiv.org/pdf/2511.02767.pdf"
+    },
+    {
+        "名称": "2025 [2511.10628] Instella: Fully Open Language Models with Stellar Performance.pdf",
+        "作者": "Jiang Liu, Jialian Wu, Xiaodong Yu, Yusheng Su, Prakamya Mishra, Gowtham Ramesh, Sudhanshu Ranjan, Chaitanya Manem, Ximeng Sun, Ze Wang, Pratik Prabhanjan Brahma, Zicheng Liu, Emad Barsoum",
+        "摘要": "摘要：大型语言模型（LLMs）在各种任务中表现出色，但大多数高性能模型仍然是封闭源代码或部分开放的，限制了透明度和可重复性。在这项工作中，我们介绍了Instella，一个完全开放的三十亿参数语言模型系列，完全基于公开可用的数据和代码库进行训练。Instella由AMD Instinct MI300X GPU支持，通过大规模预训练、通用指令调优和与人类偏好对齐开发。尽管使用的预训练标记数量比许多同类模型要少得多，Instella在全开放模型中达到了最先进的结果，并且在同等大小的领先开放权重模型中具有竞争力。我们进一步发布了两个专门的变体：Instella-Long，能够处理长达128K标记的上下文长度，以及Instella-Math，一个通过监督微调和数学任务上的强化学习增强的推理专注模型。这些贡献共同将Instella确立为社区的一个透明、高性能且多功能的替代方案，推动开放和可重复的语言建模研究的目标。",
+        "地址": "https://arxiv.org/pdf/2511.10628.pdf"
+    },
+    {
+        "名称": "2025 [2511.07577] A Decentralized Retrieval Augmented Generation System with Source Reliabilities Secured on Blockchain.pdf",
+        "作者": "Yining Lu, Wenyi Tang, Max Johnson, Taeho Jung, Meng Jiang",
+        "摘要": "摘要：现有的检索增强生成（RAG）系统通常采用集中式架构，导致数据收集、集成和管理成本高昂，并引发隐私问题。迫切需要一种去中心化的RAG系统，使基础模型能够直接利用完全由数据所有者控制的信息来源。然而，去中心化带来了一个挑战：众多独立的数据源在可靠性上存在显著差异，这可能会降低检索精度和响应质量。为了解决这一问题，我们的去中心化RAG系统引入了一种新的可靠性评分机制，该机制可以根据每个源对生成的响应质量动态评估，并在检索过程中优先考虑高质量的来源。为了确保透明性和信任度，评分过程通过基于区块链的智能合约进行安全管理，创建可验证且防篡改的可靠性记录，而无需依赖中央权威。我们在两个模拟环境中使用两个Llama模型（3B和8B）对我们的去中心化系统进行了评估，这两个环境中的六个数据源具有不同的可靠性水平。在类似于真实世界的不可靠数据环境中，我们的系统相比其集中式对应系统性能提高了+10.7%。值得注意的是，它在理想可靠数据环境下接近集中式系统的性能上限。去中心化基础设施实现了安全和可信赖的评分管理，通过批处理更新操作大约节省了56%的边际成本。我们的代码和系统在这个链接上开源。",
+        "地址": "https://arxiv.org/pdf/2511.07577.pdf"
+    },
+    {
+        "名称": "2025 [2511.12982] SafeGRPO: Self-Rewarded Multimodal Safety Alignment via Rule-Governed Policy Optimization.pdf",
+        "作者": "Xuankun Rong, Wenke Huang, Tingfeng Wang, Daiguo Zhou, Bo Du, Mang Ye",
+        "摘要": "摘要：多模态大型语言模型（MLLMs）展示了令人印象深刻的推理和指令遵循能力，然而，它们扩展的模态空间引入了由复杂的文本-图像交互所产生的新组合安全风险。这些跨模态耦合即使在单个输入是良性的情况下也可能生成不安全的语义，揭示了当前MLLMs脆弱的安全意识。尽管最近的研究通过指导模型考虑潜在风险来增强安全性，但不受监管的推理轨迹可能会破坏一致性；尽管GRPO（Group Relative Policy Optimization）提供了无需人为监督的自我奖励优化，但它缺乏可验证的推理安全信号。为了解决这个问题，我们提出了SafeGRPO，这是一种将规则管理的奖励构建集成到GRPO中的自我奖励多模态安全对齐框架，能够实现可解释和可验证的推理安全优化。基于构建的具有明确视觉、文本和组合安全标签的SafeTag-VL-3K数据集，SafeGRPO执行分步骤的安全思考以强制实行结构化推理和行为对齐，在各种基准测试中显著提高了多模态安全意识、组合稳健性和推理稳定性，而不牺牲整体能力。\n\n作者：Rong Xuankun, Huang Wenke, Wang Tingfeng, Zhou Daiguo, Du Bo, Ye Mang\n\n链接：https://arxiv.org/pdf/2511.12982.pdf\n\n标题：SafeGRPO: 通过规则管理策略优化实现自我奖励的多模态安全对齐",
+        "地址": "https://arxiv.org/pdf/2511.12982.pdf"
+    },
+    {
+        "名称": "2025 [2511.11510] OpenUS: A Fully Open-Source Foundation Model for Ultrasound Image Analysis via Self-Adaptive Masked Contrastive Learning.pdf",
+        "作者": "Xiaoyu Zheng, Xu Chen, Awais Rauf, Qifan Fu, Benedetta Monosi, Felice Rivellese, Myles J. Lewis, Shaogang Gong, Gregory Slabaugh",
+        "摘要": "摘要：超声波（US）因其低成本、便携性、实时反馈和无电离辐射而成为最广泛使用的医学影像方式之一。然而，超声图像解读高度依赖操作员，并且在解剖区域、采集协议和设备类型之间存在显著差异。这些差异以及诸如斑点、低对比度和标准化标注有限等独特挑战，阻碍了可泛化、标签高效的超声人工智能模型的发展。在本文中，我们提出了OpenUS，这是首个基于大量公开数据构建的可复现、开源的超声基础模型。OpenUS采用了视觉Mamba主干，捕捉图像中的局部和全局长距离依赖关系。为了在预训练过程中提取丰富特征，我们引入了一种新颖的自适应掩码框架，该框架结合了对比学习和掩码图像建模。这种策略将教师的注意力图与学生重建损失相结合，自适应地细化临床相关的掩码，以提高预训练的有效性。OpenUS还应用了动态学习计划，以逐步调整预训练过程的难度。为了开发基础模型，我们编制了迄今为止最大的公共超声数据集，该数据集包含来自42个公开可用数据集的超过308K张图像，涵盖了不同的解剖区域、机构、成像设备和疾病类型。我们的预训练OpenUS模型可以很容易地适应特定的下游任务，成为标签高效微调的主干。代码可以在此https URL获得。",
+        "地址": "https://arxiv.org/pdf/2511.11510.pdf"
+    }
+]
