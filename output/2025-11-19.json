@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2511.08577] Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models.pdf",
+        "作者": "Tianyu Fu, Yichen You, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang",
+        "摘要": "摘要：提升大型语言模型（LLMs）的推理能力，尤其是在参数受限的情况下，对于现实应用至关重要。先前的研究提出了递归变压器，它为每个标记分配固定数量的额外迭代，以提高生成质量。在第一次标准前向传播之后，最后一层的隐藏状态被返回作为输入进行额外迭代，以改进标记预测。然而，我们发现了一种潜在的过度思考现象：在第一次传播中已经正确的标记预测，有时在额外迭代中会被修正成错误。为了解决这个问题，我们提出了一种动态的潜在思考方法——Think-at-Hard（TaH），它只在困难标记上进行更深入的迭代。该方法采用一个轻量级的神经决策器，仅在标准前向传播后可能不正确的标记处触发潜在迭代。在潜在迭代期间，低秩适应（LoRA）模块将LLM的目标从一般的下一个标记预测转移到聚焦的困难标记修正。我们进一步引入了一种双因果注意机制，将注意力从标记序列维度扩展到额外的迭代深度维度。这实现了跨迭代的信息流通，同时保持完整的序列并行性。实验表明，TaH在五个具有挑战性的基准测试中提升了LLM的推理性能，同时保持相同的参数量。与在所有输出标记上进行两次迭代的基线相比，TaH的准确率提升了8.1-11.3%，同时免除了94%的标记的第二次迭代。与使用相同数据微调的强单次迭代Qwen3模型相比，它也带来了4.0-5.0%的准确率提升。当LoRA和迭代决策器的额外参数少于3%时，提升分别增加到8.5-12.6%和5.3-5.4%。我们的代码可在这个网址获取：https://arxiv.org/pdf/2511.08577.pdf。",
+        "地址": "https://arxiv.org/pdf/2511.08577.pdf"
+    },
+    {
+        "名称": "2025 [2511.14295] AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models.pdf",
+        "作者": "Mohammad Zbib, Hasan Abed Al Kader Hammoud, Sina Mukalled, Nadine Rizk, Fatima Karnib, Issam Lakkis, Ammar Mohanna, Bernard Ghanem",
+        "摘要": "摘要：我们介绍了AraLingBench，这是一个完全由人工注释的基准，用于评估大型语言模型（LLM）的阿拉伯语言能力。该基准涵盖了语法、形态学、拼写、阅读理解和句法五个核心类别，通过150个专家设计的多项选择题直接评估结构性语言理解。对35个阿拉伯语和双语LLM的评估显示，当前模型在表面级别上表现出较强的能力，但在更深层次的语法和句法推理方面存在困难。AraLingBench突显了在基于知识的基准测试中高分与真正的语言掌握之间的持久差距，显示许多模型通过记忆或模式识别而非真实理解取得成功。通过隔离和测量基本语言技能，AraLingBench为开发阿拉伯语LLM提供了诊断框架。完整的评估代码在GitHub上公开。",
+        "地址": "https://arxiv.org/pdf/2511.14295.pdf"
+    },
+    {
+        "名称": "2025 [2511.11113] VIDEOP2R: Video Understanding from Perception to Reasoning.pdf",
+        "作者": "Yifan Jiang, Yueying Wang, Rui Zhao, Toufiq Parag, Zhimin Chen, Zhenyu Liao, Jayakrishnan Unnikrishnan",
+        "摘要": "摘要：强化微调（RFT）是一种包括监督微调（SFT）和强化学习（RL）在内的两阶段框架，已在提高大型语言模型（LLM）的推理能力方面显示出良好的效果。然而，将RFT扩展到大型视频语言模型（LVLMs）仍存在挑战。我们提出了VideoP2R，这是一种新颖的过程感知视频RFT框架，通过将感知和推理建模为不同的过程来增强视频推理。在SFT阶段，我们开发了一个三步流程来生成VideoP2R-CoT-162K，这是一个高质量、过程感知的感知和推理链数据集。在RL阶段，我们引入了一种新颖的过程感知群体相对策略优化（PA-GRPO）算法，为感知和推理提供独立的奖励。广泛的实验表明，VideoP2R在七个视频推理和理解基准测试中的六个上达到了最先进的性能（SotA）。消融研究进一步证实了我们过程感知建模和PA-GRPO的有效性，并表明模型的感知输出对于下游推理来说信息足够充分。",
+        "地址": "https://arxiv.org/pdf/2511.11113.pdf"
+    },
+    {
+        "名称": "2025 [2511.10555] A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space.pdf",
+        "作者": "Huijie Liu, Shuhao Cui, Haoxiang Cao, Shuai Ma, Kai Wu, Guoliang Kang",
+        "摘要": "摘要：创新的视觉风格化是艺术创作的基石，但生成新颖且一致的视觉风格仍然是一个重大的挑战。现有的生成方法通常依赖于冗长的文本提示、参考图像或高效的参数微调来指导风格感知的图像生成，但往往在风格一致性、创造力和复杂的风格表示方面存在困难。在本文中，我们通过介绍一种新的任务——代码到风格的图像生成，来肯定一种风格可以用一个数值代码来表示。这种方法仅仅依靠数值风格代码生成具有新颖且一致视觉风格的图像。迄今为止，这一领域主要由工业界（例如 Midjourney）探索，学术界缺乏开源研究。为填补这一空白，我们提出了 CoTyle，这是首次针对这一任务的开源方法。具体来说，我们首先从图像集合中训练一个离散风格代码本以提取风格嵌入。这些嵌入作为文本到图像扩散模型（T2I-DM）的条件，以生成具有风格的图像。随后，我们在离散风格嵌入上训练一个自回归风格生成器以建模其分布，从而能够合成新的风格嵌入。在推理过程中，数值风格代码被风格生成器映射到一个唯一的风格嵌入，这一嵌入引导 T2I-DM 生成相应风格的图像。与现有方法不同，我们的方法具有无与伦比的简单性和多样性，从最少的输入中解锁可重复的广阔风格空间。大量实验验证了 CoTyle 有效地将数值代码转化为风格控制器，展示了一种风格等于一个代码的概念。",
+        "地址": "https://arxiv.org/pdf/2511.10555.pdf"
+    },
+    {
+        "名称": "2025 [2511.13853] Can World Simulators Reason? Gen-ViRe: A Generative Visual Reasoning Benchmark.pdf",
+        "作者": "Xinxin Liu, Zhaopan Xu, Kai Wang, Yong Jae Lee, Yuzhang Shang",
+        "摘要": "摘要：尽管链式思维（Chain-of-Thought，CoT）提示可以在大型语言模型中实现复杂的符号推理，但它仅限于离散文本，无法模拟由物理规律支配的现实世界的连续动态。最近的视频生成模型通过链式帧推理（Chain-of-Frames，CoF），即将思维具体化为逐帧的视觉序列，每帧代表一个物理基础上的推理步骤，出现为潜在的世界模拟器。尽管展示了引人注目的效果，但一个问题仍然存在：现有的基准测试关注保真度或一致性，但未评估CoF推理，因此无法衡量多步骤规划、算法逻辑或抽象模式外推等核心认知能力。这种评估空白阻碍了对模型能力的系统理解以及有原则的改进指导。我们引入了Gen-ViRe（生成视觉推理基准），这是一个基于认知科学和现实世界AI应用的框架，将CoF推理分解为六个认知维度——从感知逻辑到抽象规划——和24个子任务。通过多源数据策展、最小化提示协议和结合详细标准的混合视觉语言模型辅助评估，Gen-ViRe首次定量评估了视频模型作为推理器的能力。我们对最先进系统的实验揭示了令人印象深刻的视觉质量与实际推理深度之间的显著差异，建立了基线并提供了诊断工具，以推进真正的世界模拟器的发展。\n\n作者：刘欣欣，徐兆潘，王凯，李勇宰，尚煜章\n\n评论：10页\n\nURL：https://arxiv.org/pdf/2511.13853.pdf\n\n标题：2025 [2511.13853] 世界模拟器可以推理吗？Gen-ViRe：一个生成视觉推理基准",
+        "地址": "https://arxiv.org/pdf/2511.13853.pdf"
+    },
+    {
+        "名称": "2025 [2511.14159] MVI-Bench: A Comprehensive Benchmark for Evaluating Robustness to Misleading Visual Inputs in LVLMs.pdf",
+        "作者": "Huiyi Chen, Jiawei Peng, Dehai Min, Changchang Sun, Kaijie Chen, Yan Yan, Xu Yang, Lu Cheng",
+        "摘要": "摘要：评估大规模视觉-语言模型（LVLMs）的鲁棒性对于其持续发展和在真实应用中的负责任部署至关重要。然而，现有的鲁棒性基准通常集中于幻觉或误导性文本输入，而在评估视觉理解时却在很大程度上忽视了同样关键的误导性视觉输入挑战。为填补这一重要空白，我们引入了MVI-Bench，这是首个专为评估误导性视觉输入对LVLMs鲁棒性影响而设计的全面基准。MVI-Bench的设计基于基本的视觉原语，涵盖三个层次的误导性视觉输入：视觉概念、视觉属性和视觉关系。基于这一分类法，我们精选了六个代表性类别，并编制了1,248个专家注释的视觉问答（VQA）实例。为了促进细粒度的鲁棒性评估，我们进一步引入了MVI-Sensitivity，这是一种表征LVLM鲁棒性的新颖指标。对18个最先进的LVLMs的实证结果揭示了其在面对误导性视觉输入时的显著脆弱性。我们在MVI-Bench上的深入分析提供了可行的见解，可指导开发更加可靠和鲁棒的LVLMs。该基准和代码库可以通过以下URL访问：https://arxiv.org/pdf/2511.14159.pdf。",
+        "地址": "https://arxiv.org/pdf/2511.14159.pdf"
+    },
+    {
+        "名称": "2025 [2511.13026] REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding.pdf",
+        "作者": "Jiaze Li, Hao Yin, Wenhui Tan, Jingyang Chen, Boshen Xu, Yuxun Qu, Yijing Chen, Jianzhong Ju, Zhenbo Luo, Jian Luan",
+        "摘要": "摘要：依赖于纯文本思考过程的自我反思机制在大多数多模态任务中表现良好。然而，当直接应用于长篇视频理解场景时，这类机制表现出明显的局限性。这种局限性主要体现在两个方面：(1)长篇视频理解涉及更丰富且更具动态性的视觉输入，这意味着仅凭文本信息的反思是不足的，需求一种专门针对视觉信息的进一步反思过程；(2)纯文本的反思机制缺乏跨模态的互动能力，使其无法在反思过程中充分整合视觉信息。基于这些见解，我们提出了REVISOR（反思视觉片段导向推理），这是一种新颖的工具增强多模态反思框架。REVISOR使多模态大语言模型（MLLMs）能够在文本和视觉模态之间协同构建自省的反思过程，大大提升了其对长篇视频的推理能力。为了确保REVISOR在强化学习过程中能够准确回顾与问题高度相关的视频片段，我们设计了双属性分离奖励（DADR）机制。该机制集成在GRPO训练策略中，强化了模型推理与所选视频证据之间的因果对齐。值得注意的是，REVISOR框架在不需要额外的监督微调或外部模型的情况下，显著提升了MLLMs在长篇视频理解上的能力，并在包括VideoMME、LongVideoBench、MLVU和LVBench在内的四个基准测试中取得了优异的成绩。\n\n链接: [https://arxiv.org/pdf/2511.13026.pdf](https://arxiv.org/pdf/2511.13026.pdf)\n\n作者: Jiaze Li, Hao Yin, Wenhui Tan, Jingyang Chen, Boshen Xu, Yuxun Qu, Yijing Chen, Jianzhong Ju, Zhenbo Luo, Jian Luan",
+        "地址": "https://arxiv.org/pdf/2511.13026.pdf"
+    },
+    {
+        "名称": "2025 [2511.14582] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models.pdf",
+        "作者": "Keda Tao, Kele Shao, Bohan Yu, Weiqiang Wang, Jian liu, Huan Wang",
+        "摘要": "摘要：Omnimodal大语言模型（OmniLLMs）旨在实现统一的音视频理解，近年来引起了越来越多的研究关注。然而，处理音视频令牌序列会造成显著的计算瓶颈。现有的令牌压缩方法尚未能满足联合压缩多模态令牌的新兴需求。为了解决这一问题，我们提出了OmniZip，一个无需训练的音频引导音视频令牌压缩框架，它优化了多模态令牌表示并加速了推理。具体来说，OmniZip首先识别出突出的音频令牌，然后计算每个时间组的音频保留分数以捕捉信息密度，从而动态地指导视频令牌修剪，并通过跨模态相似性增强保留音频锚点的线索。在每个时间窗口中，OmniZip使用交错的时空方案压缩视频令牌。大量的实验证明了OmniZip的优点——它在保持性能不变的情况下，实现了比其他顶尖的同类方法快3.42倍的推理速度和减少1.4倍的内存占用，而无需训练。\n\nAuthors: Keda Tao, Kele Shao, Bohan Yu, Weiqiang Wang, Jian liu, Huan Wang\n评论：代码链接：this https URL\nURL：https://arxiv.org/pdf/2511.14582.pdf\n标题：2025 [2511.14582] OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models",
+        "地址": "https://arxiv.org/pdf/2511.14582.pdf"
+    },
+    {
+        "名称": "2025 [2511.14366] ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning.pdf",
+        "作者": "Hongwei Liu, Junnan Liu, Shudong Liu, Haodong Duan, Yuqiang Li, Mao Su, Xiaohong Liu, Guangtao Zhai, Xinyu Fang, Qianhong Ma, Taolin Zhang, Zihan Ma, Yufeng Zhao, Peiheng Zhou, Linchen Xiao, Wenlong Zhang, Shijie Zhou, Xingjian Ma, Siqi Sun, Jiaye Ge, Meng Li, Yuhong Liu, Jianxin Dong, Jiaying Li, Hui Wu, Hanwen Liang, Jintai Lin, Yanting Wang, Jie Dong, Tong Zhu, Tianfan Fu, Conghui He, Qi Zhang, Songyang Zhang, Lei Bai, Kai Chen",
+        "摘要": "摘要：大型语言模型（LLM）的快速发展在许多既定基准上表现出饱和，质疑它们区分前沿模型的能力。同时，现有的高难度基准往往具有狭窄的学科关注点、过于简化的答案格式以及对数据污染的脆弱性，导致与真实世界的科学探究存在真实性差距。为了解决这些挑战，我们引入了ATLAS（AGI导向的科学逻辑应用测试平台），这是一个由大约800个原创问题组成的大规模、高难度、跨学科评估套件。由领域专家（博士级及以上）开发，ATLAS涵盖了七个核心科学领域：数学、物理、化学、生物学、计算机科学、地球科学、材料科学。其主要特点包括：（1）高原创性和抗污染性，所有问题均新创建或实质性改编以防止测试数据泄露；（2）跨学科焦点，旨在评估模型整合知识和跨科学领域推理的能力；（3）高保真答案，优先考虑涉及多步骤推理和LaTeX格式表达的复杂、开放式答案，而非简单的选择题；（4）严格的质量控制，采用多阶段的专家同行评审和对抗测试过程以确保问题的难度、科学价值和正确性。我们还提出了一个稳健的评估范式，使用一组LLM评审员进行复杂答案的自动化、细致评估。领先模型的初步结果表明ATLAS在区分其高级科学推理能力方面的有效性。我们计划将ATLAS发展为一个长期的、开放的、社区驱动的平台，为实现通用人工智能的进展提供可靠的“标尺”。\n\n来源：https://arxiv.org/pdf/2511.14366.pdf",
+        "地址": "https://arxiv.org/pdf/2511.14366.pdf"
+    },
+    {
+        "名称": "2025 [2511.13189] Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework.pdf",
+        "作者": "Diego Ortego, Marlon Rodríguez, Mario Almagro, Kunal Dahiya, David Jiménez, Juan C. SanMiguel",
+        "摘要": "摘要：基础模型在许多领域彻底改变了人工智能，但它们在极端多标签分类（XMC）中的变革潜力尚未被充分利用。XMC中的查询与来自超大型标签空间的相关标签相关联，这时平衡效率和性能至关重要。因此，许多最新方法通过从小型仅编码器Transformer结构中学习到的嵌入高效地将XMC视为最大内积搜索。在本文中，我们探讨了XMC中的两个重要方面：如何有效利用更大的仅解码器模型，以及如何在保持计算效率的同时利用视觉信息。我们证明了这两者在XMC中分别起着关键作用，并且可以结合以改进性能。我们展示了一个几十亿规模的解码器在控制计算开销的同时能提供显著的改进。此外，我们的视觉增强极端多标签学习框架（ViXML）通过每张图片汇聚单个嵌入高效地整合基础视觉模型。这限制了计算增长的同时解锁了多模态能力。值得注意的是，ViXML使用小型编码器在大多数情况下胜过仅文本解码器，显示出图像价值相当于数十亿参数。最后，我们展示了现有仅文本数据集的扩展，以利用视觉元数据，并使其可用于未来的基准测试。在四个公共仅文本数据集及其对应的图像增强版本上的综合实验验证了我们提议的有效性，超越了现有的最先进方法，在最大数据集上P@1中提升了高达8.21%。ViXML代码可以在该URL中获得。\n\n作者：Diego Ortego, Marlon Rodríguez, Mario Almagro, Kunal Dahiya, David Jiménez, Juan C. SanMiguel\n\n备注：将在2026年的AAAI会议上发表\n\n链接：https://arxiv.org/pdf/2511.13189.pdf\n\n标题：2025 [2511.13189] 大型语言模型遇上极端多标签分类：扩展和多模态框架",
+        "地址": "https://arxiv.org/pdf/2511.13189.pdf"
+    },
+    {
+        "名称": "2025 [2511.14460] Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning.pdf",
+        "作者": "Mingyue Cheng, Jie Ouyang, Shuo Yu, Ruiran Yan, Yucong Luo, Zirui Liu, Daoyu Wang, Qi Liu, Enhong Chen",
+        "摘要": "摘要：大规模语言模型（LLMs）越来越多地用于构建能够主动与环境互动（例如，通过使用工具）以解决复杂问题的智能体。强化学习（RL）被认为是训练此类智能体的关键技术，具有显著潜力。然而，RL在LLM智能体中的有效应用仍处于初期阶段，并面临相当大的挑战。目前，这一新兴领域缺乏针对LLM智能体背景的RL方法的深入探索，同时缺乏为此目的设计的灵活且易于扩展的训练框架。为了推动这一领域的发展，本文首先系统地扩展马尔可夫决策过程（MDP）框架，以全面定义LLM智能体的关键组成部分，进而重新审视并澄清适用于LLM智能体的强化学习方法。其次，我们介绍了Agent-R1，这是一种模块化、灵活且用户友好的RL训练框架，旨在轻松适应不同任务场景和互动环境。我们在多跳问答基准任务上进行了实验证明，证实了我们提出的方法和框架的有效性。\n\n作者：程明月, 欧阳杰, 于硕, 闫睿然, 罗玉聪, 刘子瑞, 王导宇, 刘琦, 陈恩红\n\n评论：本文是Agent-R1项目的技术报告\n\n链接：https://arxiv.org/pdf/2511.14460.pdf\n\n标题：Agent-R1：通过端到端强化学习训练强大的LLM智能体",
+        "地址": "https://arxiv.org/pdf/2511.14460.pdf"
+    },
+    {
+        "名称": "2025 [2511.14210] Orion: A Unified Visual Agent for Multimodal Perception, Advanced Visual Reasoning and Execution.pdf",
+        "作者": "N Dinesh Reddy, Sudeep Pillai",
+        "摘要": "摘要：我们介绍了Orion，这是一个可以接收任何模态并生成任何模态的视觉代理框架。使用一个具有多种工具调用能力的代理框架，Orion被设计用于视觉AI任务，并达到了最新的研究成果。与传统的生成描述性输出的视觉-语言模型不同，Orion协调了一套专业的计算机视觉工具，包括物体检测、关键点定位、全景分割、光学字符识别和几何分析，以执行复杂的多步骤视觉工作流程。该系统在MMMU、MMBench、DocVQA和MMLongBench等基准测试中取得了竞争性表现，并将单片视觉-语言模型扩展到生产级视觉智能。通过将神经感知与符号执行相结合，Orion实现了自主视觉推理，标志着被动视觉理解向主动、工具驱动的视觉智能的过渡。",
+        "地址": "https://arxiv.org/pdf/2511.14210.pdf"
+    },
+    {
+        "名称": "2025 [2511.11270] Φeat: Physically-Grounded Feature Representation.pdf",
+        "作者": "Giuseppe Vecchio, Adrien Kaiser, Rouffet Romain, Rosalie Martin, Elena Garces, Tamy Boubekeur",
+        "摘要": "摘要：基础模型已经成为许多视觉任务的有效基础。然而，目前的自监督特征将高级语义与几何和照明等低级物理因素纠缠在一起，阻碍了它们在需要明确物理推理的任务中的应用。在本文中，我们介绍了$\\\\Phi$eat，这是一种新颖的物理基础视觉骨干网络，它鼓励对材料特性（包括反射线索和几何微观结构）敏感的表征。我们的关键思路是采用一种预训练策略，对同一材料在不同形状和光照条件下的空间裁剪和物理增强进行对比。虽然此类数据已经用于诸如内在分解或材料估计等高端监督任务中，但我们证明了纯粹的自监督训练策略在没有显式标签的情况下，已经为需要在外部物理因素下保持鲁棒特征的任务提供了强有力的先验知识。我们通过特征相似性分析和材料选择评估了学习的表征，显示$\\\\Phi$eat超越了语义分组，捕捉到了物理基础结构。这些研究结果强调了无监督物理特征学习作为视觉和图形感知中具有物理意识的基础的潜力。\n\n翻译总结：基础模型在许多视觉任务中表现出色，但现有的自监督特征将语义和物理因素混合，限制了在需要物理推理的任务中的应用。本文提出$\\\\Phi$eat，一种对材料特性敏感的新型物理基础视觉骨干网络，通过对比不同形状和光照条件下同一材料的空间裁剪和物理增强进行预训练。研究表明，自监督训练策略无需显式标签即可为要求特征在外部物理因素下保持鲁棒的任务提供强有力的先验知识。通过特征相似性分析和材料选择评估，证明了$\\\\Phi$eat不仅超越了语义分组，还捕捉到了物理基础结构，展示了无监督物理特征学习在视觉和图形感知中的潜力。",
+        "地址": "https://arxiv.org/pdf/2511.11270.pdf"
+    },
+    {
+        "名称": "2025 [2511.14385] Mitigating Label Length Bias in Large Language Models.pdf",
+        "作者": "Mario Sanz-Guerrero, Katharina von der Wense",
+        "摘要": "摘要：大型语言模型（LLMs）是强大的零样本和少样本学习者。然而，当在一组候选选项上进行预测时，LLMs容易受到标签偏差的影响，现有的校准方法忽视了多标记类标签引起的偏差。我们解决一个我们称之为标签长度偏差的问题，即不同长度的标签即使经过标准长度归一化后仍然被不一致地处理。为了减轻这一问题，我们提出了归一化上下文校准（NCC），这是一种有效的方法，可以在全标签级别上归一化和校准预测。NCC在多个数据集和模型上实现了较之以前方法显著的统计学改进，性能提升高达10%的F1值。此外，NCC将偏差缓解扩展到更广泛的任务，如多项选择题回答。我们的分析表明，当与上下文学习结合使用时，NCC对少样本实例选择的敏感性较低，需要较少的实例即可取得竞争性能，并且可以产生更可靠的置信度估计。这些发现强调了减轻全标签偏差以改善LLM方法的性能和鲁棒性的重要性，尤其是在类标签自然包含多个标记符的现实世界应用中。\n\n翻译: Mario Sanz-Guerrero, Katharina von der Wense",
+        "地址": "https://arxiv.org/pdf/2511.14385.pdf"
+    },
+    {
+        "名称": "2025 [2511.12884] Agent READMEs: An Empirical Study of Context Files for Agentic Coding.pdf",
+        "作者": "Worawalan Chatlatanagulchai, Hao Li, Yutaro Kashiwa, Brittany Reid, Kundjanasith Thonglek, Pattara Leelaprute, Arnon Rungsawang, Bundit Manaskasemsak, Bram Adams, Ahmed E. Hassan, Hajimu Iida",
+        "摘要": "摘要：自代理编码工具接收用自然语言编写的目标作为输入，将其分解为具体任务，并在最少人类干预的情况下编写或执行实际代码。这个过程的核心是代理上下文文件（“代理的READMEs”），它们提供持久的项目级指示。在本文中，我们对1,925个代码库中的2,303个代理上下文文件进行了第一次大规模实证研究，以表征它们的结构、维护和内容。我们发现这些文件并不是静态文档，而是像配置代码一样演变的复杂且难以阅读的工件，通过频繁的小增量进行维护。我们的16种指示类型内容分析表明，开发者优先考虑功能性上下文，例如构建和运行命令（62.3%）、实现细节（69.9%）和架构（67.7%）。我们还发现了一个显著的差距：非功能性需求如安全性（14.5%）和性能（14.5%）很少被指定。这些发现表明，尽管开发人员使用上下文文件使代理具有功能性，但它们提供的防护措施很少，无法确保代理编写的代码是安全或高效的，强调了需要改进工具和实践的必要性。",
+        "地址": "https://arxiv.org/pdf/2511.12884.pdf"
+    },
+    {
+        "名称": "2025 [2511.13954] A Brain Wave Encodes a Thousand Tokens: Modeling Inter-Cortical Neural Interactions for Effective EEG-based Emotion Recognition.pdf",
+        "作者": "Nilay Kumar, Priyansh Bhandari, G. Maragatham",
+        "摘要": "摘要：人类的情绪难以通过语言传达，并且在这个过程中常常变得抽象；然而，脑电图（EEG）信号可以提供情绪脑活动的更直接的视角。最近的研究表明，深度学习模型可以处理这些信号以高精度进行情绪识别。然而，许多现有方法忽视了不同脑区之间的动态相互作用，这对于理解情绪如何随时间展开和演变可能至关重要，从而有助于更准确的情绪识别。为了解决这个问题，我们提出了RBTransformer，这是一种基于Transformer的神经网络架构，它在潜在空间中建模大脑的皮层间神经动态，以更好地捕捉结构化的神经交互，从而实现有效的基于EEG的情绪识别。首先，将EEG信号转换为带状微分熵（BDE）标记，然后通过电极身份嵌入保留空间来源。这些标记通过连续的皮层间多头注意力块进行处理，这些块构建了一个电极 x 电极注意力矩阵，使模型能够学习皮层间神经依赖关系。生成的特征随后通过分类头部获得最终预测。我们在SEED、DEAP 和DREAMER数据集上的全三维（Valence、Arousal 和Dominance，对于DEAP和DREAMER），在二元和多类分类设置下，进行了大量实验，特别是在受试者依赖设置下。结果表明，在所有三个数据集下，RBTransformer在所有三个维度、两种分类设置下均优于以前的所有最新方法。源代码可在以下网址获取：this https URL。",
+        "地址": "https://arxiv.org/pdf/2511.13954.pdf"
+    },
+    {
+        "名称": "2025 [2511.11473] Proactive Hearing Assistants that Isolate Egocentric Conversations.pdf",
+        "作者": "Guilin Hu, Malek Itani, Tuochao Chen, Shyamnath Gollakota",
+        "摘要": "摘要：我们介绍了一种自动识别和分离佩戴者的对话伙伴的主动听力助手，无需明确的提示。我们的系统基于佩戴者第一视角的双耳音频，使用佩戴者的自我语音作为锚点，利用轮流发言行为和对话动态推断对话伙伴，并抑制其他人。为了实现实时、设备上的操作，我们提出了一种双模型架构：一个轻量级的流模型每12.5毫秒运行一次，以低延迟提取对话伙伴，而一个较慢的模型不那么频繁地运行，以捕捉较长程的对话动态。对从11名参与者收集的共计6.8小时的真实世界2人和3人的对话测试集的结果表明，该系统能够在多对话环境中识别和隔离对话伙伴。我们的研究向主动适应对话动态和参与度的听力助手迈出了一步。更多信息可以在我们的网站上找到：this https URL",
+        "地址": "https://arxiv.org/pdf/2511.11473.pdf"
+    },
+    {
+        "名称": "2025 [2511.14086] Error-Driven Scene Editing for 3D Grounding in Large Language Models.pdf",
+        "作者": "Yue Zhang, Zun Wang, Han Lin, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal",
+        "摘要": "摘要：尽管在3D大型语言模型（LLMs）方面取得了最近的进展，它们在准确将语言与3D环境中的视觉和空间元素对应方面仍然有限。这一限制部分源于训练数据，侧重于语言推理而非空间理解，由于稀缺的3D资源，导致固有的基础偏差未得到解决。为了解决这个问题，我们提出了3D场景编辑作为生成精确视觉反事实的关键机制，通过细粒度的空间操作来减轻这些偏差，而不需要昂贵的场景重建或大规模3D数据收集。此外，为了使这些编辑具有针对性并直接解决模型的具体弱点，我们引入了DEER-3D，一个错误驱动的框架，遵循结构化的“分解、诊断评估、编辑和再训练”的工作流程，而不是像传统方法那样广泛或随机地增强数据。具体来说，在识别出3D-LLM的基础失败后，我们的框架首先诊断出确切的谓词级错误（例如属性或空间关系）。然后，执行最小的、与谓词对齐的3D场景编辑，如重新着色或重新定位，生成针对性反事实监督以进行迭代模型微调，显著提高基础准确性。我们在多个3D基础和场景理解任务的基准测试中评估了我们的编辑管道，通过迭代改进在所有评估数据集上持续表现出改进。DEER-3D强调了在3D LLMs中，将语言推理能力与空间基础结合的针对性错误驱动场景编辑的有效性。",
+        "地址": "https://arxiv.org/pdf/2511.14086.pdf"
+    },
+    {
+        "名称": "2025 [2511.07865] LLM-Powered Fully Automated Chaos Engineering: Towards Enabling Anyone to Build Resilient Software Systems at Low Cost.pdf",
+        "作者": "Daisuke Kikuta, Hiroki Ikeuchi, Kengo Tajiri",
+        "摘要": "摘要：混沌工程(Chaos Engineering, CE)是一种旨在提高分布式系统弹性的工程技术。它通过有意向系统注入故障来测试其弹性，发现薄弱环节，并在这些问题导致生产环境故障之前加以解决。现有的CE工具可以自动执行预定义的CE实验。然而，实验的规划和根据实验结果改进系统仍然需要人工操作。这些过程非常耗费劳力且需要多领域的专业知识。为了解决这些挑战，并使任何人都能以低成本构建弹性系统，本文提出了ChaosEater系统，该系统利用大型语言模型（LLMs）自动化整个CE周期。ChaosEater根据系统的CE周期预定义一个代理工作流，并将工作流内部的细化过程分配给LLMs。ChaosEater针对的是构建在Kubernetes之上的软件系统的CE。因此，ChaosEater中的LLMs通过软件工程任务来完成CE周期，包括需求定义、代码生成、测试和调试。我们通过对小型和大型Kubernetes系统的案例研究来评估ChaosEater。结果显示，它能够一致且显著地在较低时间和金钱成本下完成合理的CE周期。其周期也通过人类工程师和LLMs进行了定性验证。\n\n作者：菊田大辅、池内裕贵、田尻宪吾\n\n评论：已被ASE 2025 NIER Track接收。代码可在此HTTPS URL获取。\n\n链接：https://arxiv.org/pdf/2511.07865.pdf\n\n标题：2025 [2511.07865] 由LLM驱动的全自动化混沌工程：迈向让任何人能够以低成本构建弹性软件系统。",
+        "地址": "https://arxiv.org/pdf/2511.07865.pdf"
+    },
+    {
+        "名称": "2025 [2511.11831] TopoPerception: A Shortcut-Free Evaluation of Global Visual Perception in Large Vision-Language Models.pdf",
+        "作者": "Wenhao Zhou, Hao Zheng, Rong Zhao",
+        "摘要": "摘要: 大型视觉-语言模型（LVLMs）通常将编码器提取的视觉特征与预训练的大型语言模型（LLM）对齐。然而，这使得视觉感知模块成为瓶颈，限制了LVLMs的整体能力。传统的评估基准虽然富含视觉语义，但通常包含不可避免的局部捷径，可能导致模型感知能力的高估。在本文中，我们介绍了TopoPerception，这是一个利用拓扑特性严格评估LVLMs在不同粒度上全球视觉感知能力的基准。由于拓扑取决于图像的全局结构且对局部特征不变，TopoPerception能够无捷径地评估全球感知，这从根本上将其与语义丰富的任务区分开来。我们在TopoPerception上评估了最先进的模型，发现即使在最粗略的感知粒度上，所有模型的表现都不比随机概率好，这表明它们在感知全球视觉特征方面存在严重不足。值得注意的是，在模型家族中出现了一致的趋势：推理能力较强的更强大的模型表现出较低的准确度。这表明仅靠扩展模型规模不足以解决这一问题，甚至可能加剧问题。可能需要新的训练范式或架构来取得进展。TopoPerception不仅揭示了当前LVLMs中的一个关键瓶颈，还为改善其全球视觉感知能力提供了一个视角和方向。数据和代码可在以下网址公开获取：this https URL。\n\n作者: 周文浩, 郑浩, 赵荣\n\nURL: https://arxiv.org/pdf/2511.11831.pdf\n\n标题: 2025 [2511.11831] TopoPerception: 对大型视觉-语言模型的全球视觉感知进行无捷径评估",
+        "地址": "https://arxiv.org/pdf/2511.11831.pdf"
+    }
+]
