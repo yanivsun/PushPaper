@@ -1,0 +1,74 @@
+[
+    {
+        "名称": "2025 [2511.14993] Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation.pdf",
+        "作者": "Vladimir Arkhipkin, Vladimir Korviakov, Nikolai Gerasimenko, Denis Parkhomenko, Viacheslav Vasilev, Alexey Letunovskiy, Nikolai Vaulin, Maria Kovaleva, Ivan Kirillov, Lev Novitskiy, Denis Koposov, Nikita Kiselev, Alexander Varlamov, Dmitrii Mikhailov, Vladimir Polovnikov, Andrey Shutkin, Julia Agafonova, Ilya Vasiliev, Anastasiia Kargapoltseva, Anna Dmitrienko, Anastasia Maltseva, Anna Averchenkova, Olga Kim, Tatiana Nikulina, Denis Dimitrov",
+        "摘要": "摘要：本报告介绍了Kandinsky 5.0，这是一组用于高分辨率图像和10秒视频合成的最先进基础模型。该框架包含三个核心模型系列：Kandinsky 5.0 Image Lite——具有6B参数的图像生成模型系列，Kandinsky 5.0 Video Lite——快速且轻量的2B参数文本到视频和图像到视频模型，以及Kandinsky 5.0 Video Pro——具有卓越视频生成质量的19B参数模型。我们提供了数据策划生命周期的全面审查，包括多阶段训练流程中的收集、处理、过滤和聚类，涉及广泛的预训练并结合质量增强技术，如自监督微调（SFT）和基于强化学习（RL）的后训练。我们还介绍了新颖的架构、训练和推理优化，使Kandinsky 5.0能够在各种任务中实现高速生成和最先进的性能，这已通过人工评估得到证明。作为一个大规模、公开可用的生成框架，Kandinsky 5.0充分利用其预训练和后续阶段的潜力，适应广泛的生成应用。我们希望本报告以及公开源码和训练检查点的发布，将大大推动高质量生成模型的发展和研究社区的可用性。",
+        "地址": "https://arxiv.org/pdf/2511.14993.pdf"
+    },
+    {
+        "名称": "2025 [2511.15065] Reasoning via Video: The First Evaluation of Video Models' Reasoning Abilities through Maze-Solving Tasks.pdf",
+        "作者": "Cheng Yang, Haiyuan Wan, Yiran Peng, Xin Cheng, Zhaoyang Yu, Jiayi Zhang, Junchi Yu, Xinlei Yu, Xiawu Zheng, Dongzhan Zhou, Chenglin Wu",
+        "摘要": "摘要: 视频模型在生成高保真视频以及保持一致的运动动态方面取得了显著的成功。类似于语言模型从文本生成到基于文本推理的发展，视频模型的发展促使我们提出一个问题：视频模型能通过视频生成进行推理吗？相比离散的文本语料库，视频在空间布局和时间连续性方面提供了明确的基础，这使其成为空间推理的理想载体。在这项工作中，我们探索了通过视频进行推理的范式，并介绍了VR-Bench——一个全面的基准测试体系，旨在系统评估视频模型的推理能力。基于迷宫解决任务，这些任务本质上需要空间规划和多步推理，VR-Bench包含了7,920个程序生成的视频，涵盖了五种迷宫类型和多样的视觉风格。我们的实证分析表明，选择性细调（SFT）可以有效激发视频模型的推理能力。视频模型在推理过程中表现出更强的空间感知能力，优于领先的视觉语言模型（VLMs），并在不同场景、任务和复杂性等级中具有较好的泛化能力。我们进一步发现了一种测试时间缩放效应，其中在推理过程中进行多样性采样可以将推理可靠性提高10-20%。这些发现突显了通过视频进行推理在空间推理任务中的独特潜力和可扩展性。",
+        "地址": "https://arxiv.org/pdf/2511.15065.pdf"
+    },
+    {
+        "名称": "2025 [2511.15593] What Does It Take to Be a Good AI Research Agent? Studying the Role of Ideation Diversity.pdf",
+        "作者": "Alexis Audran-Reiss, Jordi Armengol Estapé, Karen Hambardzumyan, Amar Budhiraja, Martin Josifoski, Edan Toledo, Rishi Hazra, Despoina Magka, Michael Shvartsman, Parth Pathak, Justine T Kao, Lucia Cipolina-Kun, Bhavul Gauri, Jean-Christophe Gagnon-Audet, Emanuel Tewolde, Jenny Zhang, Taco Cohen, Yossi Adi, Tatiana Shavrina, Yoram Bachrach",
+        "摘要": "摘要：人工智能研究代理拥有通过自动化设计、实施和训练机器学习模型来加速科学进步的潜力。然而，这一领域仍处于起步阶段，决定代理轨迹成败的关键因素尚未完全被理解。我们研究了创意多样性在代理性能中所扮演的角色。首先，我们分析了不同模型和代理支架在MLE-bench——一个用于评估人工智能研究代理的知名基准——上的代理轨迹。我们的分析揭示，不同模型和代理支架会产生不同程度的创意多样性，而表现更优的代理往往具有更高的创意多样性。此外，我们进行了一个控制实验，通过改变创意多样性的程度，证明更高的创意多样性会带来更强的性能。最后，我们通过考察MLE-bench标准奖牌评分之外的额外评估指标，进一步强化了我们的结果，显示我们在其他代理性能指标上得出的结论依然成立。",
+        "地址": "https://arxiv.org/pdf/2511.15593.pdf"
+    },
+    {
+        "名称": "2025 [2511.15661] VisPlay: Self-Evolving Vision-Language Models from Images.pdf",
+        "作者": "Yicheng He, Chengsong Huang, Zongxia Li, Jiaxin Huang, Yonghui Yang",
+        "摘要": "摘要: 强化学习（RL）提供了一个提升视觉-语言模型（VLMs）在复杂推理任务上的理论框架。然而，现有的RL方法通常依赖于人工标注的标签或特定任务的启发式方法来定义可验证的奖励，这两者都昂贵且难以扩展。我们引入了VisPlay，这是一个自进化的RL框架，使VLMs能够使用大量未标记的图像数据自主提高其推理能力。VisPlay从一个基本的VLM开始，赋予模型两个交互角色：图像条件提问者，它提出具有挑战性但可回答的视觉问题；以及多模态推理者，它生成银级响应。这些角色通过群体相对策略优化（GRPO）进行联合训练，该方法结合了多样性和难度奖励，以平衡生成问题的复杂性和银级答案的质量。VisPlay在两个模型家族中有效扩展。通过在Qwen2.5-VL和MiMo-VL上训练，VisPlay在八个基准测试（包括MM-Vet和MMMU）中实现了在视觉推理、组成泛化和幻觉减少方面的一致改进，展示了自进化多模态智能的可扩展路径。项目页面可在此HTTPS URL访问。\n\n作者: 何奕成, 黄成松, 李宗霞, 黄嘉信, 杨永辉\n\nURL: https://arxiv.org/pdf/2511.15661.pdf\n\n标题: VisPlay: 从图像中自进化的视觉-语言模型",
+        "地址": "https://arxiv.org/pdf/2511.15661.pdf"
+    },
+    {
+        "名称": "2025 [2511.15186] Instruction-Guided Lesion Segmentation for Chest X-rays with Automatically Generated Large-Scale Dataset.pdf",
+        "作者": "Geon Choi, Hangyul Yoon, Hyunju Shin, Hyunki Park, Sang Hoon Seo, Eunho Yang, Edward Choi",
+        "摘要": "摘要: 目前胸部X光片(CXR)中病变分割模型的适用性受到目标标签数量少和依赖于长且详细的专家级文本输入的限制，从而对实际应用造成了障碍。为了解决这些问题，我们引入了一种新范式：指导性指令的病变分割 (ILS)，旨在基于简单的、用户友好的指令对多种病变类型进行分割。在这一范式下，我们构建了MIMIC-ILS，这是首个用于CXR病变分割的大规模指令-答案数据集。通过完全自动化的多模态流水线，我们从胸部X光片和其对应的报告中生成了注释。MIMIC-ILS包含了从19.2万张图像和9.1万个独特分割掩码中衍生出的110万个指令-答案对，涵盖了七大类主要病变。为了实证其实用性，我们引入了ROSALIA，一个在MIMIC-ILS上微调的视觉-语言模型。ROSALIA能够在响应用户指令时分割各种病变并提供文本解释。该模型在我们新提出的任务中实现了高分割和文本准确率，突显了我们流水线的有效性及MIMIC-ILS作为像素级CXR病变定位基础资源的价值。",
+        "地址": "https://arxiv.org/pdf/2511.15186.pdf"
+    },
+    {
+        "名称": "2025 [2511.14349] ARC-Chapter: Structuring Hour-Long Videos into Navigable Chapters and Hierarchical Summaries.pdf",
+        "作者": "Junfu Pu, Teng Wang, Yixiao Ge, Yuying Ge, Chen Li, Ying Shan",
+        "摘要": "摘要: 随着一个小时长的视频（例如，讲座、播客、纪录片）的增多，高效的内容结构化需求也在加剧。然而，现有的方法由于训练规模较小且注释通常短小和粗略，限制了对长视频中细微过渡的泛化。我们推出了ARC-Chapter，这是第一个在超过百万级长视频章节上训练的大规模视频章节模型，具有双语、时间定位和分层章节注释。为了实现这一目标，我们通过一个结构化流程统一了ASR转录、场景文本、视觉字幕，策划了一个双语的英-中章节数据集，从短标题到长摘要进行多层次注释。我们展示了在数据量和标签强度上扩展数据后的显著性能提升。此外，我们设计了一种新的评价指标称为GRACE，它结合了多对一片段重叠和语义相似度，更好地反映了真实世界章节的灵活性。大量实验表明，ARC-Chapter通过显著的边际优势建立了新的最先进水平，F1得分提高了14.0%，SODA得分提高了11.3%。此外，ARC-Chapter表现出优秀的迁移能力，提高了如YouCook2等下游任务上的最先进水平。",
+        "地址": "https://arxiv.org/pdf/2511.14349.pdf"
+    },
+    {
+        "名称": "2025 [2511.15586] MHR: Momentum Human Rig.pdf",
+        "作者": "Aaron Ferguson, Ahmed A. A. Osman, Berta Bescos, Carsten Stoll, Chris Twigg, Christoph Lassner, David Otte, Eric Vignola, Fabian Prada, Federica Bogo, Igor Santesteban, Javier Romero, Jenna Zarate, Jeongseok Lee, Jinhyung Park, Jinlong Yang, John Doublestein, Kishore Venkateshan, Kris Kitani, Ladislav Kavan, Marco Dal Farra, Matthew Hu, Matthew Cioffi, Michael Fabris, Michael Ranieri, Mohammad Modarres, Petr Kadlecek, Rawal Khirodkar, Rinat Abdrashitov, Romain Prévost, Roman Rajbhandari, Ronald Mallet, Russel Pearsall, Sandy Kao, Sanjeev Kumar, Scott Parrish, Shoou-I Yu, Shunsuke Saito, Takaaki Shiratori, Te-Li Wang, Tony Tung, Yichen Xu, Yuan Dong, Yuhua Chen, Yuanlu Xu, Yuting Ye, Zhongshi Jiang",
+        "摘要": "摘要：我们展示了MHR，这是一种参数化的人体模型，它结合了ATLAS的独立骨骼/形状范式和受到Momentum库启发的灵活、现代的装备及姿势矫正系统。我们的模型能够实现富有表现力的、符合解剖学的人体动画，支持非线性的姿势矫正，且专为在AR/VR和图形管道中的稳健集成而设计。",
+        "地址": "https://arxiv.org/pdf/2511.15586.pdf"
+    },
+    {
+        "名称": "2025 [2511.13524] FreeAskWorld: An Interactive and Closed-Loop Simulator for Human-Centric Embodied AI.pdf",
+        "作者": "Yuhang Peng, Yizhou Pan, Xinning He, Jihaoyu Yang, Xinyu Yin, Han Wang, Xiaoji Zheng, Chao Gao, Jiangtao Gong",
+        "摘要": "摘要：随着具身智能成为人工智能研究的核心前沿，仿真平台必须超越低级的物理交互，以捕捉复杂的人类为中心的社会行为。我们介绍了FreeAskWorld，一个交互式仿真框架，该框架结合了大型语言模型（LLMs）用于高级行为规划和语义基础的交互，受到意图和社会认知理论的启发。我们的框架支持可扩展、逼真的人类代理仿真，并包括一个模块化的数据生成管道，专为多样化的具身任务而设计。为了验证该框架，我们将经典的视觉与语言导航（VLN）任务扩展到一个充满交互的方向查询设置中，其中代理可以主动寻求和解释导航指导。我们展示并公开发布了FreeAskWorld，这是一套大型基准数据集，包括重建环境、六种不同任务类型、16个核心对象类别、63,429个标注示例帧和超过17小时的交互数据，以支持具身AI系统的训练和评估。我们在开放环路和闭环设置下对VLN模型和人类参与者进行了基准测试。实验结果表明，经过FreeAskWorld微调的模型优于其原始版本，达到了增强的语义理解和交互能力。这些发现强调了社会基础仿真框架在推进具身AI系统向复杂高级规划和更自然的人类代理交互方面的有效性。重要的是，我们的工作强调了交互本身作为一种额外的信息模态的作用。\n\n作者：彭宇航、潘一舟、何信宁、杨贾昱、殷鑫宇、王涵、郑晓基、高超、龚江涛\n\n评论：9页，4幅图\n\n链接：https://arxiv.org/pdf/2511.13524.pdf\n\n标题：FreeAskWorld：一个以人为中心的具身AI交互与闭环模拟器",
+        "地址": "https://arxiv.org/pdf/2511.13524.pdf"
+    },
+    {
+        "名称": "2025 [2511.15038] Aligning Generative Music AI with Human Preferences: Methods and Challenges.pdf",
+        "作者": "Dorien Herremans, Abhinaba Roy",
+        "摘要": "摘要：最近在生成性音乐人工智能领域的进展已经在保真度和风格多样性方面达到了显著的成就，然而这些系统由于所使用的特定损失函数，往往无法与细致入微的人类偏好相一致。本文主张系统性地将偏好对齐技术应用于音乐生成中，以解决计算优化与人类音乐欣赏之间的基本差距。本文讨论了如何通过音乐强化学习的大规模偏好学习、像基于扩散的偏好优化(DiffRhythm+)这样的多偏好对齐框架以及像Text2midi-InferAlign这样的推理时间优化技术来解决音乐生成中的独特挑战：时间一致性、和声一致性以及主观质量评估。我们还确定了关键的研究挑战，包括扩展到长篇作曲的可扩展性、偏好建模中的可靠性等等。展望未来，我们设想偏好对齐的音乐生成能够在互动作曲工具和个性化音乐服务中带来变革性的应用。本文呼吁持续的跨学科研究，结合机器学习和音乐理论的进展，以创建真正服务于人类创作和体验需求的音乐人工智能系统。\n\n翻译摘要：\n最近在生成性人工智能音乐领域的进展已经在保真度和风格多样性方面取得了显著成就，然而这些系统由于所使用的特定损失函数，仍往往无法与细致入微的人类偏好相一致。本文主张将偏好对齐技术系统性地应用于音乐生成，以解决计算优化与人类音乐欣赏之间的根本差距。我们借助于近期的突破，包括MusicRL的大规模偏好学习、类似于扩散偏好优化的多偏好对齐框架(DiffRhythm+)，以及如Text2midi-InferAlign的推理时间优化技术，讨论了这些技术如何应对音乐的独特挑战：时间一致性、和声一致性以及主观质量评估。我们确定了关键研究挑战，包括扩展到长篇作曲的可扩展性、偏好建模中的可靠性等。展望未来，我们设想偏好对齐的音乐生成将能够在互动作曲工具和个性化音乐服务中带来变革性的应用。本文呼吁持续的跨学科研究，结合机器学习和音乐理论的进展，以创建真正服务于人类创作和体验需求的音乐人工智能系统。",
+        "地址": "https://arxiv.org/pdf/2511.15038.pdf"
+    },
+    {
+        "名称": "2025 [2511.12207] Mixture of States: Routing Token-Level Dynamics for Multimodal Generation.pdf",
+        "作者": "Haozhe Liu, Ding Liu, Mingchen Zhuge, Zijian Zhou, Tian Xie, Sen He, Yukang Yang, Shuming Liu, Yuren Cong, Jiadong Guo, Hongyu Xu, Ke Xu, Kam-Woh Ng, Juan C. Pérez, Juan-ManuelPérez-Rúa, Tao Xiang, Wei Liu, Shikun Liu, Jürgen Schmidhuber",
+        "摘要": "摘要：我们引入了MoS（状态混合），这是一种用于多模态扩散模型的新型融合范式，通过灵活的、基于状态的交互来合并各模态。MoS的核心是一个可学习的、逐令牌（token-wise）的路由器，它在去噪时间步和输入依赖的基础上创建模态间隐藏状态的交互，精确对齐令牌级别的特征与扩散轨迹。这个路由器稀疏选择top-k隐藏状态，并通过$\\epsilon$-贪婪策略进行训练，以最小的可学习参数和可忽略的计算开销高效选择上下文特征。我们通过文本生成图像（MoS-Image）和编辑（MoS-Editing）验证了我们的设计，其结果达到了最新水平。我们的模型只需3B至5B参数即可匹敌或超越多达4倍参数的同类模型。这些发现确立了MoS作为一种灵活且计算高效的多模态扩散模型扩展范式。\n\n来源：https://arxiv.org/pdf/2511.12207.pdf\n\n作者：Haozhe Liu, Ding Liu, Mingchen Zhuge, Zijian Zhou, Tian Xie, Sen He, Yukang Yang, Shuming Liu, Yuren Cong, Jiadong Guo, Hongyu Xu, Ke Xu, Kam-Woh Ng, Juan C. Pérez, Juan-Manuel Pérez-Rúa, Tao Xiang, Wei Liu, Shikun Liu, Jürgen Schmidhuber",
+        "地址": "https://arxiv.org/pdf/2511.12207.pdf"
+    },
+    {
+        "名称": "2025 [2511.15706] RoMa v2: Harder Better Faster Denser Feature Matching.pdf",
+        "作者": "Johan Edstedt, David Nordström, Yushan Zhang, Georg Bökman, Jonathan Astermark, Viktor Larsson, Anders Heyden, Fredrik Kahl, Mårten Wadenbäck, Michael Felsberg",
+        "摘要": "摘要：密集特征匹配旨在估计3D场景中两张图像之间的所有对应关系，并因其高精度和鲁棒性最近被确立为金标准。然而，现有的密集匹配方法在许多现实世界中的难题下仍然失败或表现不佳，并且高精度模型通常较慢，限制了它们的适用性。在本文中，我们通过一系列系统性的改进，从广泛的方面攻击这些弱点，最终产出一个显著更好的模型。特别是，我们构建了一种新颖的匹配架构和损失函数，并结合精心挑选的多样化训练分布，使我们的模型能够解决许多复杂的匹配任务。我们进一步通过一个解耦的两阶段匹配-然后细化的流程加快训练，同时通过定制的CUDA内核显著减少细化的内存使用量。最后，我们利用最近的DINOv3基础模型以及其他多项见解，使模型更加鲁棒和无偏。在我们广泛的实验中，展示了新模型显著优于其前代，成为新的技术标杆。代码可在该URL获取。",
+        "地址": "https://arxiv.org/pdf/2511.15706.pdf"
+    },
+    {
+        "名称": "2025 [2511.13001] Medal S: Spatio-Textual Prompt Model for Medical Segmentation.pdf",
+        "作者": "Pengcheng Shi, Jiawei Chen, Jiaqi Liu, Xinglin Zhang, Tao Chen, Lei Li",
+        "摘要": "摘要: 我们介绍了Medal S，这是一种医疗分割基础模型，支持在端到端可训练框架中原生分辨率的空间和文本提示。与缺乏空间感知的纯文本方法不同，Medal S实现了体积提示和文本嵌入的通道对齐，减轻了分辨率不匹配带来的不准确性。通过保留完整的3D上下文，它可以并行处理多个原生分辨率掩膜，提高多类别分割性能。一个轻量级的3D卷积模块能够在体素空间内根据提示类型进行精确调整，支持BiomedSegFM数据集中的CT、MRI、PET、超声波和显微镜模式中的多达243个类别。Medal S提供了两种提示模式：纯文本模式，模型预测作为空间提示进行自我优化，无需人工输入；混合模式，结合手动注释以提高灵活性。对于24类分割任务，并行空间提示使推理时间相比顺序提示减少超过90%。我们提出动态重采样以解决目标-补丁比率不平衡，扩展了SAT和nnU-Net以进行数据增强。此外，我们开发了优化的文本预处理、两阶段推理策略和后处理技术，以提高内存效率、精确度和推理速度。在验证集的五种模式平均性能上，Medal S的DSC为75.44（相比于69.83），NSD为77.34（相比于71.06），F1为38.24（相比于24.88），DSC TP为65.46（相比于46.97）。通过协调空间精度和语义文本指导，Medal S在多类别医疗分割任务中展示了优异的效率和准确性，优于基于顺序提示的方法。Medal S将公开发布于此https URL。",
+        "地址": "https://arxiv.org/pdf/2511.13001.pdf"
+    }
+]
