@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2511.16668] V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models.pdf",
+        "作者": "Yang Luo, Xuanlei Zhao, Baijiong Lin, Lingting Zhu, Liyao Tang, Yuqi Liu, Ying-Cong Chen, Shengju Qian, Xin Wang, Yang You",
+        "摘要": "摘要：最近在生成视频模型方面的进展，例如Veo-3，展示了令人惊讶的零样本推理能力，从而对系统且可靠的评估方法产生了日益增长的需求。我们介绍了V-ReasonBench，这是一个用于评估视频推理的基准测试，涵盖四个关键维度：结构化问题解决、空间认知、基于模式的推理和物理动态。该基准测试由合成和现实世界的图像序列构建，提供了一套多样的、可验证答案的任务，具有可重复性、可扩展性和明确性。对六个最先进的视频模型的评估揭示了维度上的明显差异，在结构化、空间、基于模式和物理推理方面表现出强烈的变化。我们进一步将视频模型与强大的图像模型进行比较，分析常见的幻觉行为，并研究视频时长如何影响帧链推理。总的来说，V-ReasonBench提供了一个统一且可重复的框架来衡量视频推理，旨在支持模型的发展，使其具有更可靠、与人类一致的推理能力。\n\n作者：杨罗，赵选雷，林百炯，朱灵婷，唐力尧，刘雨琪，陈英聪，钱声巨，王鑫，尤洋\n\n评论：项目页面：此https URL\n\n链接：https://arxiv.org/pdf/2511.16668.pdf\n\n标题：2025 [2511.16668] V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models.pdf",
+        "地址": "https://arxiv.org/pdf/2511.16668.pdf"
+    },
+    {
+        "名称": "2025 [2511.15700] First Frame Is the Place to Go for Video Content Customization.pdf",
+        "作者": "Jingxi Chen, Zongxia Li, Zhichao Liu, Guangyao Shi, Xiyang Wu, Fuxiao Liu, Cornelia Fermuller, Brandon Y. Feng, Yiannis Aloimonos",
+        "摘要": "摘要：第一帧在视频生成模型中扮演什么角色？传统上，它被视为视频的时空起点，仅仅是后续动画的种子。在这项工作中，我们揭示了一个完全不同的视角：视频模型隐式地将第一帧视为一个概念记忆缓冲区，存储视觉实体以便在生成过程中重复使用。利用这一见解，我们展示了在各种情景下实现稳健且广义的视频内容定制的可能性，只需20至50个训练样本，无需架构更改或大规模微调。这揭示了视频生成模型在基于参考的视频定制方面强大且被忽视的能力。 \n\n作者：陈静茜，李宗夏，刘志超，史光耀，吴希洋，刘富详，康妮莉亚·费缪拉，布兰登·Y·冯，亚尼斯·阿洛伊莫诺斯\n\n评论：项目网站：[链接]\n\n网址：https://arxiv.org/pdf/2511.15700.pdf\n\n标题：《第一帧是视频内容定制的关键》",
+        "地址": "https://arxiv.org/pdf/2511.15700.pdf"
+    },
+    {
+        "名称": "2025 [2511.15848] Step-Audio-R1 Technical Report.pdf",
+        "作者": "Fei Tian, Xiangyu Tony Zhang, Yuxin Zhang, Haoyang Zhang, Yuxin Li, Daijiao Liu, Yayue Deng, Donghang Wu, Jun Chen, Liang Zhao, Chengyuan Yao, Hexin Liu, Eng Siong Chng, Xuerui Yang, Xiangyu Zhang, Daxin Jiang, Gang Yu",
+        "摘要": "摘要：最近在推理模型方面的进展，通过扩展的连续思考在文本和视觉领域取得了显著成功。然而，在音频语言模型中，存在一个令人困惑的现象：它们在最少或不进行推理的情况下表现更佳，这提出了一个基本问题——音频智能是否真正能从深思熟虑中受益？我们介绍了Step-Audio-R1，这是第一个成功开启音频领域推理能力的音频推理模型。通过我们提出的“基于模态的推理蒸馏”（MGRD）框架，Step-Audio-R1学习生成真正基于声学特征的音频相关推理链，而不是幻觉出离散的思考。我们的模型展示了强大的音频推理能力，超越了Gemini 2.5 Pro，并在涵盖语音、环境声音和音乐的全面音频理解和推理基准上，达到了与先进的Gemini 3 Pro相当的性能。这些结果表明，推理是一种跨模态的可转移能力，当适当锚定时，可以将扩展思考从一个障碍转变为音频智能的强大资产。通过建立第一个成功的音频推理模型，Step-Audio-R1开辟了构建真正多模态推理系统的新途径，使其能够在所有感官模态下进行深入思考。",
+        "地址": "https://arxiv.org/pdf/2511.15848.pdf"
+    },
+    {
+        "名称": "2025 [2511.13719] Scaling Spatial Intelligence with Multimodal Foundation Models.pdf",
+        "作者": "Zhongang Cai, Ruisi Wang, Chenyang Gu, Fanyi Pu, Junxiang Xu, Yubo Wang, Wanqi Yin, Zhitao Yang, Chen Wei, Qingping Sun, Tongxi Zhou, Jiaqi Li, Hui En Pang, Oscar Qian, Yukun Wei, Zhiqian Lin, Xuanke Shi, Kewang Deng, Xiaoyang Han, Zukai Chen, Xiangyu Fan, Hanming Deng, Lewei Lu, Liang Pan, Bo Li, Ziwei Liu, Quan Wang, Dahua Lin, Lei Yang",
+        "摘要": "摘要：尽管取得了显著进展，多模态基础模型在空间智能方面仍表现出令人惊讶的缺陷。在这项工作中，我们探索扩展多模态基础模型，以在SenseNova-SI系列中培养空间智能，该系列建立在包括视觉理解模型（如Qwen3-VL和InternVL3）以及统一理解和生成模型（如Bagel）的既有多模态基础之上。我们采用系统的方法，通过系统策划SenseNova-SI-8M：一个由八百万个在严格的空间能力分类下的多样化数据样本，构建高性能和鲁棒的空间智能。SenseNova-SI在广泛的空间智能基准测试中表现出前所未有的性能：在VSI-Bench上表现为68.7%，在MMSI上为43.3%，在MindCube上为85.6%，在ViewSpatial上为54.6%，在SITE上为50.1%，同时保持强大的多模态一般理解（例如在MMBench-En上为84.9%）。更重要的是，我们分析了数据扩展的影响，讨论了由多样化数据训练启发的一般化能力的早期迹象，分析了过拟合和语言捷径的风险，提出了关于空间链式思维推理的初步研究，并验证了潜在的下游应用。SenseNova-SI是一个持续的项目，此报告将不断更新。所有新训练的多模态基础模型均公开发布，以促进该领域进一步研究。",
+        "地址": "https://arxiv.org/pdf/2511.13719.pdf"
+    },
+    {
+        "名称": "2025 [2511.16624] SAM 3D: 3Dfy Anything in Images.pdf",
+        "作者": "SAM 3D Team, Xingyu Chen, Fu-Jen Chu, Pierre Gleize, Kevin J Liang, Alexander Sax, Hao Tang, Weiyao Wang, Michelle Guo, Thibaut Hardin, Xiang Li, Aohan Lin, Jiawei Liu, Ziqi Ma, Anushka Sagar, Bowen Song, Xiaodong Wang, Jianing Yang, Bowen Zhang, Piotr Dollár, Georgia Gkioxari, Matt Feiszli, Jitendra Malik",
+        "摘要": "摘要：我们介绍了SAM 3D，这是一种面向视觉的三维对象重建生成模型，它能够从单张图像中预测几何形状、纹理和布局。SAM 3D在自然图像中表现出色，这些图像中通常存在遮挡和场景混乱，视觉识别线索更多来自上下文。我们通过一个包含人类和模型在内的流程来注释物体的形状、纹理和姿态，提供了前所未有规模的视觉基础三维重建数据。我们在现代多阶段训练框架中学习这些数据，该框架结合了合成预训练和现实世界的对齐，打破了三维“数据壁垒”。与最近的工作相比，我们取得了显著的提升，在真实世界的对象和场景上至少以5:1的胜率通过了人类偏好测试。我们将发布我们的代码和模型权重、在线演示以及一个新的具有挑战性的野外三维对象重建基准。\n\n来源：https://arxiv.org/pdf/2511.16624.pdf\n\n作者：SAM 3D Team、陈星宇、傅任初、皮埃尔·格莱兹、凯文·J·梁、亚历山大·萨克斯、唐昊、王炜尧、郭涵、蒂博·哈丁、李翔、林奥翰、刘嘉伟、马子琪、阿努什卡·萨格尔、宋博文、王晓东、杨建宁、张博文、皮奥特·多拉尔、乔治娅·吉克斯雅丽、费兹利·马特、杰特迪斯拉·马里克",
+        "地址": "https://arxiv.org/pdf/2511.16624.pdf"
+    },
+    {
+        "名称": "2025 [2511.16669] Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO.pdf",
+        "作者": "Junhao Cheng, Liang Hou, Xin Tao, Jing Liao",
+        "摘要": "摘要：尽管语言模型在许多实际应用中已经产生了深远的影响，视频生成仍然主要局限于娱乐。鉴于视频在展示难以通过语言单独传达的物理世界信息方面具有内在能力（例如，想象仅用文字教别人打领带），我们发现了一种未充分利用的机会，可以将视频扩展为下一事件预测（NEP）中的一种新的回答方式，形式化为视频下一事件预测（VNEP）。虽然已建立的NEP任务通过输入带有程序或预测性问题的视频来预测文本中的下一个事件，VNEP则需要动态的视频响应。这种从讲述到展示的转变为程序学习和创造性探索解锁了更直观和定制化的答案。然而，这一任务对现有模型来说仍然具有挑战性，因为它要求理解多模态输入、指令条件推理以及生成在视觉和语义上一致的视频。为了解决这一问题，我们引入了VANS这一模型，利用强化学习将视觉语言模型（VLM）与视频扩散模型（VDM）对齐以进行VNEP。VANS的核心是我们提出的Joint-GRPO，它协调VLM和VDM作为一个整体运作。在各自输出的共享奖励推动下，它优化VLM生成既准确又易于可视化的字幕，同时指导VDM生成忠实于这些字幕和输入视觉上下文的视频。为了实现这种学习，我们制作了专用的数据集VANS-Data-100K，用于VNEP任务。在程序和预测基准上的实验表明，VANS在视频事件预测和可视化方面均达到了最先进的性能。代码已在此https URL上发布。",
+        "地址": "https://arxiv.org/pdf/2511.16669.pdf"
+    },
+    {
+        "名称": "2025 [2511.16518] MiMo-Embodied: X-Embodied Foundation Model Technical Report.pdf",
+        "作者": "Xiaoshuai Hao, Lei Zhou, Zhijian Huang, Zhiwen Hou, Yingbo Tang, Lingfeng Zhang, Guang Li, Zheng Lu, Shuhuai Ren, Xianhui Meng, Yuchen Zhang, Jing Wu, Jinghui Lu, Chenxu Dang, Jiayi Guan, Jianhua Wu, Zhiyi Hou, Hanbing Li, Shumeng Xia, Mingliang Zhou, Yinan Zheng, Zihao Yue, Shuhao Gu, Hao Tian, Yuannan Shen, Jianwei Cui, Wen Zhang, Shaoqing Xu, Bing Wang, Haiyang Sun, Zeyu Zhu, Yuncheng Jiang, Zibin Guo, Chuhong Gong, Chaofan Zhang, Wenbo Ding, Kun Ma, Guang Chen, Rui Cai, Diyun Xiang, Heng Qu, Fuli Luo, Hangjun Ye, Long Chen",
+        "摘要": "摘要: 我们开源了 MiMo-Embodied，这是第一个在自动驾驶和具身 AI 中成功集成并实现最先进性能的跨具身基础模型。MiMo-Embodied 在任务规划、可供性预测和空间理解的 17 个具身 AI 基准测试中创造了新纪录，同时在环境感知、状态预测和驾驶规划的 12 个自动驾驶基准测试中也表现出色。在这些任务中，MiMo-Embodied 显著优于现有的开源、闭源和专业基准。我们的结果表明，通过多阶段学习、策划数据构建和 CoT/RL 微调，这两个领域表现出强积极转移并相互增强。我们提供了详细的模型设计和训练方法分析以促进进一步研究。代码和模型可通过此 URL 获取。",
+        "地址": "https://arxiv.org/pdf/2511.16518.pdf"
+    },
+    {
+        "名称": "2025 [2511.16043] Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning.pdf",
+        "作者": "Peng Xia, Kaide Zeng, Jiaqi Liu, Can Qin, Fang Wu, Yiyang Zhou, Caiming Xiong, Huaxiu Yao",
+        "摘要": "摘要：大型语言模型（LLM）代理通常通过强化学习（RL）进行训练，但受到对人工数据依赖的限制，难以扩展且依赖于人类的知识。现有的自我进化框架提供了一种替代方案，但通常受限于模型的内在能力和单轮交互，阻碍了涉及工具使用或动态推理的复杂课程开发。我们介绍了Agent0，一个完全自主的框架，通过多步骤共同进化和无缝工具整合来进化高性能代理，而无需外部数据。Agent0在从同一基础LLM初始化的两个代理之间建立了共生竞争：一个提出日益具有挑战性的前沿任务的课程代理和一个学习解决这些任务的执行代理。我们整合了外部工具以增强执行代理的解决问题能力；这一改进反过来又促使课程代理构建更复杂的、基于工具的任务。通过这种迭代过程，Agent0建立了一个不断生产高质量课程的自我强化循环。实证上，Agent0显著提升了推理能力，使Qwen3-8B-Base模型在数学推理方面提升了18%，在一般推理基准测试中提升了24%。代码可以在https链接中获得。",
+        "地址": "https://arxiv.org/pdf/2511.16043.pdf"
+    },
+    {
+        "名称": "2025 [2511.16664] Nemotron Elastic: Towards Efficient Many-in-One Reasoning LLMs.pdf",
+        "作者": "Ali Taghibakhshi, Sharath Turuvekere Sreenivas, Saurav Muralidharan, Ruisi Cai, Marcin Chochowski, Ameya Sunil Mahabaleshwarkar, Yoshi Suhara, Oluwatobi Olabiyi, Daniel Korzekwa, Mostofa Patwary, Mohammad Shoeybi, Jan Kautz, Bryan Catanzaro, Ashwath Aithal, Nima Tajbakhsh, Pavlo Molchanov",
+        "摘要": "摘要：训练一个针对多个规模和部署目标的大型语言模型家族的成本非常高，需要为每种不同的规模进行单独的训练。最近关于通过剪枝和知识蒸馏进行模型压缩的工作降低了这一成本；然而，此过程仍然每个压缩模型花费数千亿个token的训练成本。在本文中，我们提出了Nemotron Elastic，这是一个构建面向推理的大型语言模型的框架，包括混合的Mamba-Attention架构，这些架构在单个父模型中嵌入多个嵌套子模型，每个模型都针对不同的部署配置和预算进行了优化。这些子模型与父模型共享权重，可以在部署期间零样本提取，无需额外的训练或微调。我们通过一个端到端训练的路由器实现了这一功能，与一个专门为推理模型设计的两阶段训练课程紧密结合。我们还引入了组感知SSM弹性化，保留了Mamba的结构约束，异构MLP弹性化，基于归一化MSE的层重要性以改进深度选择，以及允许同时进行多预算优化的知识蒸馏。我们将Nemotron Elastic应用于Nemotron Nano V2 12B模型，同时产生了9B和6B模型，仅使用了1100亿个训练token；这比从头训练模型家族减少了超过360倍的成本，并且比最新的压缩技术减少了约7倍。每个嵌套模型在准确度上表现与最新技术持平或更好。此外，与其他压缩方法不同，我们的方法的嵌套能力允许拥有一个多合一的推理模型，该模型在模型家族中保持恒定的部署内存。\n\n翻译为中文：训练一个针对多个规模和部署目标的大型语言模型家族的成本非常高，需要为每种不同的规模进行单独的训练。最近关于通过剪枝和知识蒸馏进行模型压缩的工作降低了这一成本；然而，此过程仍然每个压缩模型花费数千亿个token的训练成本。在本文中，我们提出了Nemotron Elastic，这是一个构建面向推理的大型语言模型的框架，包括混合的Mamba-Attention架构，这些架构在单个父模型中嵌入多个嵌套子模型，每个模型都针对不同的部署配置和预算进行了优化。这些子模型与父模型共享权重，可以在部署期间零样本提取，无需额外的训练或微调。我们通过一个端到端训练的路由器实现了这一功能，与一个专门为推理模型设计的两阶段训练课程紧密结合。我们还引入了组感知SSM弹性化，保留了Mamba的结构约束，异构MLP弹性化，基于归一化MSE的层重要性以改进深度选择，以及允许同时进行多预算优化的知识蒸馏。我们将Nemotron Elastic应用于Nemotron Nano V2 12B模型，同时产生了9B和6B模型，仅使用了1100亿个训练token；这比从头训练模型家族减少了超过360倍的成本，并且比最新的压缩技术减少了约7倍。每个嵌套模型在准确度上表现与最新技术持平或更好。此外，与其他压缩方法不同，我们的方法的嵌套能力允许拥有一个多合一的推理模型，该模型在模型家族中保持恒定的部署内存。",
+        "地址": "https://arxiv.org/pdf/2511.16664.pdf"
+    },
+    {
+        "名称": "2025 [2511.13703] Generalist Foundation Models Are Not Clinical Enough for Hospital Operations.pdf",
+        "作者": "Lavender Y. Jiang, Angelica Chen, Xu Han, Xujin Chris Liu, Radhika Dua, Kevin Eaton, Frederick Wolff, Robert Steele, Jeff Zhang, Anton Alyakin, Qingkai Pan, Yanbing Chen, Karl L. Sangwon, Daniel A. Alber, Jaden Stryker, Jin Vivian Lee, Yindalon Aphinyanaphongs, Kyunghyun Cho, Eric Karl Oermann",
+        "摘要": "摘要：医院和医疗系统依赖于决定病人流动、成本和护理质量的运营决策。尽管在医学知识和对话基准方面表现出色，基于一般文本训练的基础模型可能缺乏这些运营决策所需的专业知识。我们引入了Lang1，一系列（100M至7B参数）预训练在结合了来自NYU Langone Health的EHRs的80B临床令牌和来自互联网的627B令牌的专业语料库的模型。为了在现实世界环境中严格评估Lang1，我们开发了REalistic Medical Evaluation（ReMedE），这是基于668,331个EHR笔记的基准，评估五项关键任务：30天再入院预测、30天死亡率预测、住院时长、共病编码和保险索赔拒绝预测。在零样本设置中，通用模型和专用模型在五个任务中的四个任务上表现不佳（36.6%-71.7%的AUROC），死亡率预测是一个例外。在微调之后，Lang1-1B的表现优于微调后的多达大70倍的通用模型和多达大671倍的零样本模型，AUROC分别提高了3.64%-6.75%和1.66%-23.66%。我们还观察到跨任务扩展，通过联合微调多个任务，其他任务的表现也有所改善。Lang1-1B能有效转移到分布外设置，包括其他临床任务和外部健康系统。我们的研究结果表明，医院运营的预测能力需要明确的监督微调，且这种微调过程通过在EHR上的域内预训练变得更加高效。我们的发现支持了专用LLMs在专用任务中可以与通用模型竞争的观点，并表明有效的医疗系统AI需要结合域内预训练、监督微调和超越代理基准的现实世界评估。\n\n翻译为中文如下：",
+        "地址": "https://arxiv.org/pdf/2511.13703.pdf"
+    },
+    {
+        "名称": "2025 [2511.16671] Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation.pdf",
+        "作者": "Ziyu Guo, Renrui Zhang, Hongyu Li, Manyuan Zhang, Xinyan Chen, Sifan Wang, Yan Feng, Peng Pei, Pheng-Ann Heng",
+        "摘要": "摘要：近年来，视觉生成领域的最新进展越来越多地探索了推理能力的整合。这些研究在生成过程之前（作为预计划）或之后（作为后改进）融合了文本推理，但在生成过程中缺乏即时的多模态互动。在这项初步研究中，我们介绍了\"Thinking-while-Generating\"（TwiG），这是第一个允许在视觉生成过程中协同进化文本推理的交替框架。随着视觉内容的逐步生成，文本推理交替进行，以指导即将生成的局部区域并反映之前合成的区域。此动态交互产生了更多上下文感知和语义丰富的视觉输出。为了展示此框架的潜力，我们研究了三种候选策略，即零样本提示、在我们策划的TwiG-50K数据集上的监督微调（SFT）和通过定制的TwiG-GRPO策略的强化学习（RL），每种策略都提供了对交替推理动态的独特见解。我们希望这项工作能够激发进一步的研究，通过交替文本推理来增强视觉生成。代码将在此URL发布。",
+        "地址": "https://arxiv.org/pdf/2511.16671.pdf"
+    },
+    {
+        "名称": "2025 [2511.16528] TurkColBERT: A Benchmark of Dense and Late-Interaction Models for Turkish Information Retrieval.pdf",
+        "作者": "Özay Ezerceli, Mahmoud El Hussieni, Selva Taş, Reyhan Bayraktar, Fatma Betül Terzioğlu, Yusuf Çelebi, Yağız Asker",
+        "摘要": "摘要：神经信息检索系统在资源丰富的语言方面表现出色，但对土耳其语等形态丰富、资源较少的语言研究甚少。目前，密集双编码器在土耳其语信息检索中占主导地位，但保留细粒度匹配的令牌级表示的后期交互模型尚未得到系统评估。我们介绍了TurkColBERT，这是首个对土耳其语信息检索中密集编码器和后期交互模型进行全面比较的基准。我们的两阶段适应管道首先在土耳其语自然语言推理/语义文本相似性任务上微调英语和多语言编码器，然后使用训练于MS MARCO-TR的PyLate将它们转化为ColBERT风格的检索器。我们在五个覆盖科学、金融和争论领域的土耳其语BEIR数据集上评估了10个模型。结果表明，参数效率强大：参数量为1.0M的colbert-hash-nano-tr比参数量为600M的turkish-e5-large密集编码器小600倍，同时保留了其71%以上的平均mAP。比密集编码器小3-5倍的后期交互模型显著超越了它们；ColmmBERT-base-TR在特定领域任务上mAP提升了最多13.8%。为了生产准备，我们比较了索引算法：MUVERA+Rerank比PLAID快3.33倍，并提供了1.7%的相对mAP增益。这使得低延迟检索成为可能，ColmmBERT-base-TR在MUVERA下实现了0.54毫秒的查询时间。我们发布了所有检查点、配置和评估脚本。限制包括依赖中等大小数据集（≤50K文档）和翻译基准，这可能无法完全反映真实世界土耳其语检索条件；仍然需要更大规模的MUVERA评估。\n\n作者：Özay Ezerceli, Mahmoud El Hussieni, Selva Taş, Reyhan Bayraktar, Fatma Betül Terzioğlu, Yusuf Çelebi, Yağız Asker\n\n文章标题：2025 [2511.16528] TurkColBERT: 土耳其语信息检索中的密集和后期交互模型基准测试\n\n文章链接：https://arxiv.org/pdf/2511.16528.pdf",
+        "地址": "https://arxiv.org/pdf/2511.16528.pdf"
+    },
+    {
+        "名称": "2025 [2511.15605] SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models.pdf",
+        "作者": "Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu",
+        "摘要": "摘要：视觉-语言-行动（VLA）模型在机器人操作中表现出色，但它们过分依赖专家示范，导致示范偏差并限制性能。强化学习（RL）是一种克服这些限制的重要后续训练策略，但当前的VLA-RL方法，包括基于组的优化方法，都受到严重奖励稀疏问题的困扰。依赖于二进制成功指示器浪费了失败轨迹中的宝贵信息，导致训练效率低下。为了解决这个问题，我们提出了自参照策略优化（SRPO），这是一种新颖的VLA-RL框架。SRPO通过利用模型在当前训练批次中生成的成功轨迹作为自我参考，消除了对外部示范或手工奖励设计的需求。这使我们能够向失败尝试分配进度奖励。一个核心创新是使用潜在世界表示来可靠地衡量行为进度。我们利用世界模型的潜在空间中的压缩、可转移编码，而不是依赖于原始像素或需要领域特定的微调。这些表示自然地捕捉各环境中的进度模式，从而实现准确、通用的轨迹比较。在LIBERO基准上的实证评估表明，SRPO的效率和效果显著。从一个有监督的基线成功率48.9%开始，SRPO在仅200个RL步骤中达到了99.2%的全新最先进成功率，这意味着在没有任何额外监督的情况下实现了103%的相对改进。此外，SRPO表现出显著的鲁棒性，在LIBERO-Plus基准上实现了167%的性能提升。",
+        "地址": "https://arxiv.org/pdf/2511.15605.pdf"
+    },
+    {
+        "名称": "2025 [2511.16618] SAM2S: Segment Anything in Surgical Videos via Semantic Long-term Tracking.pdf",
+        "作者": "Haofeng Liu, Ziyue Wang, Sudhanshu Mishra, Mingqi Gao, Guanyi Qin, Chang Han Low, Alex Y. W. Kong, Yueming Jin",
+        "摘要": "摘要：\n手术视频分割对于计算机辅助手术至关重要，能够精确定位和跟踪工具和组织。交互式视频对象分割（iVOS）模型，如Segment Anything Model 2（SAM2），提供基于提示的灵活性，超越了预定义类别的方法，但由于领域差距和有限的长期跟踪，在手术场景中面临挑战。为了解决这些局限性，我们构建了SA-SV，这是最大的手术iVOS基准，在八种手术类型中提供实例级时空注释（masklets）（61k帧，1.6k masklets），用于长期跟踪和零样本泛化的全面开发和评估。基于SA-SV，我们提出了SAM2S，这是一个用于增强手术iVOS的基础模型，通过以下方法增强SAM2：（1）DiveMem，一种可训练的多样性记忆机制，用于鲁棒的长期跟踪；（2）用于理解工具的时间语义学习；（3）为了减轻跨多源数据集的注释不一致，采用抗歧义学习。大量实验表明，在SA-SV上进行微调可以显著提升性能，相较于原始SAM2，SAM2的性能提高了12.99平均$\\mathcal{J}$&$\\mathcal{F}$。SAM2S进一步将性能提高到80.42平均$\\mathcal{J}$&$\\mathcal{F}$，分别比原始和微调后的SAM2提高了17.10和4.11点，同时保持68 FPS的实时推理和强大的零样本泛化能力。代码和数据集将在此https URL公开。",
+        "地址": "https://arxiv.org/pdf/2511.16618.pdf"
+    },
+    {
+        "名称": "2025 [2511.16595] TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding.pdf",
+        "作者": "Boshen Xu, Zihan Xiao, Jiaze Li, Jianzhong Ju, Zhenbo Luo, Jian Luan, Qin Jin",
+        "摘要": "摘要：我们介绍了TimeViper，这是一种混合视听模型，旨在解决长视频理解的挑战。处理长视频需要高效的模型架构和处理扩展时间上下文的有效机制。为此，TimeViper采用了混合Mamba-Transformer骨干网，将状态空间模型的效率与注意力机制的表达能力结合起来。通过这种混合设计，我们揭示了视觉到文本信息聚合现象，即信息随着大语言模型（LLM）深度增加逐步从视觉标记流向文本标记，导致严重的视觉标记冗余。基于这一观察，我们提出了TransV，一个将视觉标记转移和压缩为指令标记的模块，同时保持多模态理解能力。这种设计使得TimeViper能够处理超过10,000帧的长达数小时的视频。在多个基准测试中的广泛实验表明，TimeViper在扩展帧数的同时能与最先进的模型竞争。我们进一步分析了Mamba和Transformer层的注意力行为，为混合模型的可解释性提供了新的见解。这项工作代表了开发、解释和压缩混合Mamba-Transformer架构的初步步骤。",
+        "地址": "https://arxiv.org/pdf/2511.16595.pdf"
+    },
+    {
+        "名称": "2025 [2511.16317] NaTex: Seamless Texture Generation as Latent Color Diffusion.pdf",
+        "作者": "Zeqiang Lai, Yunfei Zhao, Zibo Zhao, Xin Yang, Xin Huang, Jingwei Huang, Xiangyu Yue, Chunchao Guo",
+        "摘要": "摘要：我们提出了NaTex，一个原生纹理生成框架，可以直接在三维空间中预测纹理颜色。与以前依赖于由几何条件的多视图扩散模型（MVDs）合成的多视图图像烘焙的方式不同，NaTex避开了MVD流程中的多个固有限制，包括需要修补被遮挡区域的困难、沿边界实现精确网格纹理对齐以及在内容和颜色强度方面保持跨视图一致性和连贯性。NaTex采用了一种新颖的范式，通过将纹理视为密集的颜色点云来解决上述问题。受此理念驱动，我们提出了潜在颜色扩散，形成了一个几何感知的颜色点云VAE和一个多控制扩散转换器（DiT），完全从头开始使用三维数据进行训练，用于纹理重建和生成。为了实现精确对齐，我们引入了原生几何控制，通过位置嵌入和几何潜在信息将DiT固定在直接的三维空间信息上。我们共同设计了VAE-DiT架构，其中几何潜在信息由一个专门的几何分支提取，并与颜色VAE紧密耦合，提供细粒度的表面指导，并与纹理保持强对应关系。凭借这些设计，NaTex展示了强大的性能，在纹理连贯性和对齐方面显著优于现有方法。此外，NaTex还表现出强大的泛化能力，无需训练或简单调整即可应用于各种后续任务，例如材料生成、纹理细化、部分分割和纹理调整。\n\n原文链接：https://arxiv.org/pdf/2511.16317.pdf",
+        "地址": "https://arxiv.org/pdf/2511.16317.pdf"
+    },
+    {
+        "名称": "2025 [2511.16659] PartUV: Part-Based UV Unwrapping of 3D Meshes.pdf",
+        "作者": "Zhaoning Wang, Xinyue Wei, Ruoxi Shi, Xiaoshuai Zhang, Hao Su, Minghua Liu",
+        "摘要": "摘要：UV展开将3D表面展开为2D平面，力求最小化失真，通常需要将复杂表面分解为多个图块。尽管已经被广泛研究，但现有的UV展开方法在处理AI生成的网格时经常遇到困难，这些网格通常是噪声、凸起且条件较差的。现有方法常会产生高度碎片化的图块和次优的边界，从而引入伪影并阻碍下游任务。我们介绍了PartUV，一种基于部件的UV展开流程，它在保持低失真的情况下生成显著更少且对齐的图块。PartUV基于最新的学习型部件分解方法PartField，在自顶向下的递归框架中结合了高层语义部件分解和新颖的几何启发式方法。它确保每个图块的失真保持在用户指定的阈值以下，同时最小化图块数量。该流程整合和扩展了参数化和打包算法，并专门处理非流形和退化网格，同时进行了广泛的并行化以提高效率。在包括人造物、CAD、AI生成和常见形状的四个多样化数据集上的评估中，PartUV在图块计数和缝长上优于现有工具和最新的神经方法，达到了可比的失真度，在处理具有挑战性的网格时表现出高成功率，并启用部件特定多图块打包等新应用。我们的项目页面在此https URL。",
+        "地址": "https://arxiv.org/pdf/2511.16659.pdf"
+    },
+    {
+        "名称": "2025 [2511.15248] EntroPIC: Towards Stable Long-Term Training of LLMs via Entropy Stabilization with Proportional-Integral Control.pdf",
+        "作者": "Kai Yang, Xin Xu, Yangkun Chen, Weijie Liu, Jiafei Lyu, Zichuan Lin, Deheng Ye, Saiyong Yang",
+        "摘要": "摘要：长期训练大规模语言模型（LLMs）需要维持稳定的探索，以防止模型陷入次优行为。熵在此背景下至关重要，因为它控制探索，并有助于避免过早收敛至次优解。然而，现有的强化学习方法难以在训练过程中保持适当的熵水平，因为训练过程包含正负样本的混合，每个步骤中这些样本以不同方式影响熵。为了解决这个问题，我们提出了通过比例积分控制实现熵稳定（EntroPIC）的方法，这是一种新颖的方法，通过动态调整正负样本的损失系数来自适应地调整它们的影响。该方法在整个训练过程中稳定了熵，确保了高效探索和稳定进展。我们提供了关于on-policy和off-policy学习设置的全面理论分析，证明EntroPIC在控制大规模LLMs训练中的熵方面是有效的。实验结果表明，我们的方法成功地维持了所需的熵水平，使LLMs的强化学习训练稳定且达到最佳。",
+        "地址": "https://arxiv.org/pdf/2511.15248.pdf"
+    },
+    {
+        "名称": "2025 [2511.14865] FinTRec: Transformer Based Unified Contextual Ads Targeting and Personalization for Financial Applications.pdf",
+        "作者": "Dwipam Katariya, Snehita Varma, Akshat Shreemali, Benjamin Wu, Kalanand Mishra, Pranab Mohanty",
+        "摘要": "摘要：基于Transformer的架构已广泛应用于顺序推荐系统，但其在金融服务（FS）中的应用在实际操作和建模方面面临独特的挑战，这包括：a）跨数字和实体渠道的长距离用户交互（隐式和显式），生成时间上异质的上下文；b）存在多个相关联的产品，需要协调的模型来支持不同广告的位置和个性化的推送，同时平衡竞争的业务目标。我们提出了FinTRec，一个基于Transformer的框架，用于解决这些挑战及其在FS中的操作目标。虽然树模型因其可解释性和与监管要求的对齐性传统上在FS中更受青睐，我们的研究表明FinTRec在向基于Transformer的架构转变方面提供了可行有效的途径。通过历史模拟和现场A/B测试相关，我们展示了FinTRec持续优于生产级树模型基线。统一架构在针对产品调整优化时，能够实现跨产品信号共享，减少训练成本和技术债务，同时提高所有产品的离线性能。据我们所知，这是FS中关于统一顺序推荐建模的首个综合性研究，解决了技术和业务方面的考虑。",
+        "地址": "https://arxiv.org/pdf/2511.14865.pdf"
+    },
+    {
+        "名称": "2025 [2511.16315] BioBench: A Blueprint to Move Beyond ImageNet for Scientific ML Benchmarks.pdf",
+        "作者": "Samuel Stevens",
+        "摘要": "摘要：ImageNet-1K 线性探测转移准确率仍然是衡量视觉表征质量的默认标准，但它不再能预测科学影像的表现。在46个现代视觉模型检查点中，ImageNet 的 top-1 准确率仅解释了生态任务表现差异的34%，并且错误排名了 30% 以上准确率超过 75% 的模型。我们提出了 BioBench，这是一个开放的生态视觉基准，能够捕捉 ImageNet 所忽视的内容。BioBench 统一了 9 个公开发布的应用驱动任务、4 个分类学王国和 6 种采集方式（无人机 RGB、网络视频、显微照片、原位和标本照片、相机陷阱帧），共计 310 万张图像。一个单一的 Python API 可以下载数据，将轻量级分类器适配于冻结的主干网络，并报告类平衡的宏F1（以及 FishNet 和 FungiCLEF 的领域指标）；ViT-L 模型在 A6000 GPU 上评估时间为 6 小时。BioBench 为生态计算机视觉提供了新的信号，并为在任何领域中构建可靠的 AI-科学基准提供了模板。代码和预测可在此 https URL 获得，结果可在此 https URL 查看。",
+        "地址": "https://arxiv.org/pdf/2511.16315.pdf"
+    },
+    {
+        "名称": "2025 [2511.15943] Boosting Medical Visual Understanding From Multi-Granular Language Learning.pdf",
+        "作者": "Zihan Li, Yiqing Wang, Sina Farsiu, Paul Kinahan",
+        "摘要": "摘要：近年来，图像-文本预训练的进步通过对齐视觉和文本表示显著增强了视觉理解。对比语言-图像预训练 (CLIP) 在多模态学习中发挥了关键作用。然而，其对单标签、单粒度对齐的关注限制了其在复杂领域（如医学影像）中的有效性，因为医学影像通常对应于跨不同注释粒度（例如，诊断描述，临床解释）的多个高层次标签（例如，疾病类别）。为了解决这个问题，我们提出了多粒度语言学习（MGLL），一个旨在改进多标签和跨粒度对齐的对比学习框架。MGLL利用结构化多标签监督，整合了跨粒度的文本描述，并引入了具有点对点约束的软标签监督以增强对齐。MGLL采用平滑的Kullback-Leibler (KL)散度来确保跨粒度一致性，同时作为视觉-语言模型的即插即用模块保持计算效率。在我们构建的大规模多粒度数据集上进行了预训练，并在多个数据集上进行了评估，MGLL在下游任务中优于其他最先进的方法。代码可在此网址获取：this https URL。\n\n作者：Zihan Li, Yiqing Wang, Sina Farsiu, Paul Kinahan\n\n评论：预印本。40页\n\n网址：https://arxiv.org/pdf/2511.15943.pdf\n\n标题：通过多粒度语言学习提升医学视觉理解",
+        "地址": "https://arxiv.org/pdf/2511.15943.pdf"
+    },
+    {
+        "名称": "2025 [2511.11005] Draft and Refine with Visual Experts.pdf",
+        "作者": "Sungheon Jeong, Ryozo Masukawa, Jihong Park, Sanggeon Yun, Wenjun Huang, Hanning Chen, Mahdi Imani, Mohsen Imani",
+        "摘要": "摘要：尽管近年来的大型视觉-语言模型（LVLMs）表现出强大的多模态推理能力，但它们经常产生无依据或幻觉般的回答，因为它们在推理时过于依赖语言先验而非视觉证据。这一限制突显了缺乏一个量化指标来衡量这些模型在推理过程中实际使用视觉信息的程度。我们提出了\"起草和完善（DnR）\"，这是一个由问题调节使用量指标驱动的智能框架。该指标通过首先构建一个查询调节的相关性图来定位特定问题的线索，然后通过相关性引导的概率掩蔽来测量依赖性。通过该指标的引导，DnR智能体使用来自外部视觉专家的有针对性的反馈来完善其初始草稿。每个专家的输出（如框或掩膜）被呈现为图像上的视觉线索，模型被重新查询以选择在使用量上带来最大改进的回答。这个过程在不进行重新训练或结构更改的情况下，加强了视觉基础。跨VQA和图像描述基准的实验显示出一致的准确性提升和幻觉减少，证明了测量视觉使用量为更加可解释和基于证据的多模态智能体系统提供了一条原则性的路径。",
+        "地址": "https://arxiv.org/pdf/2511.11005.pdf"
+    }
+]
