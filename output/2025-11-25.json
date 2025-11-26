@@ -1,0 +1,182 @@
+[
+    {
+        "名称": "2025 [2511.18423] General Agentic Memory Via Deep Research.pdf",
+        "作者": "B.Y. Yan, Chaofan Li, Hongjin Qian, Shuqi Lu, Zheng Liu",
+        "摘要": "摘要:\n记忆对人工智能代理至关重要，但广泛采用的静态记忆由于提前创建现成的记忆而不可避免地面临严重的信息丢失。为了应对这一限制，我们提出了一种新颖的框架，称为通用代理记忆（GAM）。GAM遵循“即时编译（JIT）”的原则，在运行时为其客户端创建优化的上下文，同时在离线阶段仅保留简单但有用的记忆。为此，GAM采用了一种双重设计，包括以下组件：1) Memorizer，它使用轻量级内存突出关键的历史信息，同时在通用页面存储中保持完整的历史信息。2) Researcher，它根据预先构建的记忆，从页面存储中检索和整合有用信息，以应对在线请求。该设计使GAM能够有效利用前沿大语言模型（LLMs）的代理能力和测试时的可扩展性，同时通过强化学习促进端到端性能优化。在我们的实验研究中，我们证明了GAM在各种基于记忆的任务完成场景中相对于现有记忆系统取得了显著的改进。\n\n作者:\nB.Y. Yan, Chaofan Li, Hongjin Qian, Shuqi Lu, Zheng Liu\n\n链接:\nhttps://arxiv.org/pdf/2511.18423.pdf\n\n标题:\n通用代理记忆通过深度研究",
+        "地址": "https://arxiv.org/pdf/2511.18423.pdf"
+    },
+    {
+        "名称": "2025 [2511.19304] AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning.pdf",
+        "作者": "Jiayi Zhang, Yiran Peng, Fanqi Kong, Yang Cheng, Yifan Wu, Zhaoyang Yu, Jinyu Xiang, Jianhao Ruan, Jinlin Wang, Maojia Song, HongZhang Liu, Xiangru Tang, Bang Liu, Chenglin Wu, Yuyu Luo",
+        "摘要": "摘要：人类能够自然地适应多种环境，通过学习不同动态、观察和奖励结构的底层规则。而现有的智能体通常通过在单一领域内的自我进化来展示改进，隐含地假设了一个固定的环境分布。跨环境学习仍然在很大程度上未被衡量：没有一套标准的可控、异构环境集合，也没有统一的方法来表示智能体如何学习。我们通过两步解决这些空白。首先，我们提出了AutoEnv，这是一个自动化框架，它将环境视为可因子化的转移、观察和奖励分布，从而能够以低成本（平均4.12美元）生成异构世界。利用AutoEnv，我们构建了AutoEnv-36，一个包含36个环境、358个验证关卡的数据集，在该数据集上，七种语言模型实现了12-49%的标准化奖励，展示了AutoEnv-36的挑战。其次，我们将智能体学习形式化为一个组件中心的过程，由选择、优化和评估三个阶段驱动，应用于一个可改进的智能体组件。使用这种公式化，我们设计了八种学习方法，并在AutoEnv-36上对它们进行了评估。实证结果表明，任何单一学习方法的增益随着环境数量的增加迅速降低，揭示了固定学习方法无法在异构环境中扩展。环境自适应选择学习方法大幅提高了性能，但随着方法空间的扩展，其回报逐渐递减。这些结果凸显了可扩展的跨环境泛化所需的必要性以及当前智能体学习的局限性，并将AutoEnv和AutoEnv-36定位为研究跨环境智能体学习的测试平台。代码可在此https URL中获得。\n\n翻译：该文本的代码可在以下网址获得。",
+        "地址": "https://arxiv.org/pdf/2511.19304.pdf"
+    },
+    {
+        "名称": "2025 [2511.15567] Computer-Use Agents as Judges for Generative User Interface.pdf",
+        "作者": "Kevin Qinghong Lin, Siyuan Hu, Linjie Li, Zhengyuan Yang, Lijuan Wang, Philip Torr, Mike Zheng Shou",
+        "摘要": "摘要：计算机使用代理（Computer-Use Agents, CUA）在通过图形用户界面（Graphical User Interfaces, GUI）自主操作数字环境方面变得越来越强。然而，大多数GUI仍然主要为人类设计，优先考虑美观和可用性，迫使代理采用对高效任务执行并不必要的人类行为。同时，以编码为导向的语言模型（Coder）的快速进展改变了自动GUI设计。这引发了一个基本问题：CUA能否作为评估者辅助Coder进行自动GUI设计？为研究这个问题，我们引入了AUI-Gym，这是一个涵盖52个不同领域应用的自动GUI开发基准。使用语言模型，我们综合了1560个模拟现实场景的任务。为了确保任务的可靠性，我们进一步开发了一个验证工具，以编程方式检查每个任务在其环境中是否可执行。在此基础上，我们提出了一个Coder-CUA合作框架：Coder作为设计者，生成和修改网站，而CUA作为评估者，评估功能并完善设计。成功的标准不是视觉外观，而是任务的可解性和CUA导航的成功率。为了将CUA反馈转化为可用的指导，我们设计了一个CUA仪表板，将多步骤的导航历史压缩成简洁的视觉摘要，为迭代重新设计提供可解释的指导。通过将代理定位为设计者和评估者，我们的框架将界面设计转向代理本身的效率和可靠性。我们的工作向将代理从被动使用转向积极参与数字环境迈出了一步。我们的代码和数据集可在此处URL获取。\n\n翻译：\n计算机使用代理（CUA）在通过图形用户界面（GUI）自主操作数字环境方面变得越来越强。然而，大多数GUI仍为人类设计，重视美观和可用性，迫使代理采用不利于高效任务执行的人类行为。同时，以编码为主的语言模型（Coder）的快速进展改变了自动GUI设计。这引发了一个基本问题：CUA能否作为评审员帮助Coder进行自动GUI设计？为了研究这一问题，我们引入了AUI-Gym，这是一个覆盖52个不同领域应用程序的自动GUI开发基准。通过语言模型，我们综合了1560个模拟现实场景的任务。为了确保任务的可靠性，我们还开发了一个验证器，编程检查每个任务在其环境中的可执行性。在此基础上，我们提出了一个Coder-CUA协作框架：Coder作为设计师生成和修改网站，CUA作为评审员评估功能并优化设计。成功的标准不是视觉外观，而是任务的可解性和CUA导航的成功率。为了将CUA反馈转化为可用的指导，我们设计了一个CUA仪表盘，将多步骤导航历史压缩为简洁的视觉摘要，为反复设计提供可解释的指导。通过将代理设为设计者和评审员，我们的框架将界面设计转向代理本身的效率和可靠性。我们的工作将代理从被动使用转向积极参与数字环境迈出了一步。我们的代码和数据集可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2511.15567.pdf"
+    },
+    {
+        "名称": "2025 [2511.19365] DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation.pdf",
+        "作者": "Zehong Ma, Longhui Wei, Shuai Wang, Shiliang Zhang, Qi Tian",
+        "摘要": "摘要：像素扩散旨在以端到端的方式直接在像素空间生成图像。这种方法避免了VAE在两阶段潜在扩散中的限制，提供了更高的模型容量。现有的像素扩散模型在训练和推理上都很慢，因为它们通常在单个扩散变压器（DiT）中同时处理高频信号和低频语义。为了追求更高效的像素扩散范式，我们提出了频率解耦的像素扩散框架。根据将高频和低频组件生成解耦的直觉，我们利用一个轻量级的像素解码器在DiT的语义引导下生成高频细节。因此，这使得DiT专注于处理低频语义。此外，我们引入了一种频率感知的流匹配损失，该损失强调视觉上显著的频率，同时抑制不重要的频率。大量实验表明，DeCo在像素扩散模型中表现出色，在ImageNet上以256x256的分辨率达到了1.62的FID，以512x512的分辨率达到了2.22的FID，缩小了与潜在扩散方法的差距。此外，我们预训练的文本到图像模型在系统级比较中在GenEval上获得了0.86的领先评分。代码已在此https URL公开。\n\nAuthors: 马泽红、韦龙辉、王帅、张士亮、田琦\n\n评论：项目页面：此https URL。代码仓库：此https URL",
+        "地址": "https://arxiv.org/pdf/2511.19365.pdf"
+    },
+    {
+        "名称": "2025 [2511.19399] DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research.pdf",
+        "作者": "Rulin Shao, Akari Asai, Shannon Zejiang Shen, Hamish Ivison, Varsha Kishore, Jingming Zhuo, Xinran Zhao, Molly Park, Samuel G. Finlayson, David Sontag, Tyler Murray, Sewon Min, Pradeep Dasigi, Luca Soldaini, Faeze Brahman, Wen-tau Yih, Tongshuang Wu, Luke Zettlemoyer, Yoon Kim, Hannaneh Hajishirzi, Pang Wei Koh",
+        "摘要": "摘要：深度研究模型执行多步骤研究，以生成详细且可靠的答案。然而，目前大多数公开的深度研究模型通过基于可验证奖励的强化学习（RLVR）训练，只能处理易于验证的简短问答任务，难以扩展到现实的长篇任务。针对这一问题，我们提出了“随进化评分标准的强化学习”（RLER），其中我们在训练过程中构建并维护一个与策略模型共同进化的评分标准；这允许评分标准吸收模型新探索的信息，并提供辨别性的、基于策略的反馈。利用RLER，我们开发了“深度研究图卢”（DR Tulu-8B），这是第一个直接为开放式长篇深度研究训练的公开模型。在科学、医疗保健和普通领域的四个长篇深度研究基准测试中，DR Tulu显著优于现有的公开深度研究模型，并且匹配或超越了专有的深度研究系统，同时每查询成本明显更低。为了促进未来的研究，我们公开了所有数据、模型和代码，包括我们基于MCP的新型深度研究系统代理基础设施。",
+        "地址": "https://arxiv.org/pdf/2511.19399.pdf"
+    },
+    {
+        "名称": "2025 [2511.18050] UltraFlux: Data-Model Co-Design for High-quality Native 4K Text-to-Image Generation across Diverse Aspect Ratios.pdf",
+        "作者": "Tian Ye, Song Fei, Lei Zhu",
+        "摘要": "摘要：扩散变压器最近在1K分辨率下的文本到图像生成方面表现出色，但我们发现将其扩展到跨越多种纵横比的原生4K时，暴露出一个紧密耦合的失败模式，涉及位置编码、VAE压缩和优化。单独解决这些因素中的任何一个都会留下大量的质量问题。因此，我们采用数据-模型联合设计的观点，提出了UltraFlux，这是一种基于Flux的扩散变压器(Flux-based DiT)，在MultiAspect-4K-1M上进行原生4K训练，这是一个包含1百万张4K图像的语料库，具有控制的多纵横比覆盖、双语字幕和丰富的VLM/IQA元数据，支持分辨率和纵横比感知采样。在模型方面，UltraFlux结合以下几个关键元素：(i) 使用共振2D RoPE和YaRN的训练窗口、频率和纵横比感知的4K位置编码；(ii) 一个简单的非对抗性VAE后训练方案，提高4K重构保真度；(iii) 一个SNR感知的Huber小波目标函数，在时间步和频率带之间重新平衡梯度；(iv) 一个分阶段的美学课程学习策略，将高美学监督集中在由模型先验控制的高噪声步骤上。结合这些组件，UltraFlux生成了一个稳定、细节保留的4K扩散变压器，它可以跨宽幅、正方形和高幅纵横比进行泛化。在4096美学评估基准和多纵横比4K设置下，UltraFlux在保真度、美学和对齐度指标上均一致优于强大的开源基线，并通过使用LLM的提示精炼器，达到或超过专有的Seedream 4.0。\n\n翻译：2025年 [2511.18050] UltraFlux：跨多种纵横比的高质量原生4K文本到图像生成的数据-模型联合设计",
+        "地址": "https://arxiv.org/pdf/2511.18050.pdf"
+    },
+    {
+        "名称": "2025 [2511.19401] In-Video Instructions: Visual Signals as Generative Control.pdf",
+        "作者": "Gongfan Fang, Xinyin Ma, Xinchao Wang",
+        "摘要": "摘要：大型视频生成模型最近展示了强大的视觉能力，能够预测未来的帧，并且这些帧与当前观察中的逻辑和物理线索相一致。在这项工作中，我们研究了是否可以利用这种能力进行可控的图像到视频生成，通过将帧中嵌入的视觉信号解释为指令，这一范式我们称之为视频内指令（In-Video Instruction）。与基于提示的控制不同，后者提供的文本描述本质上是全局和粗略的，视频内指令通过诸如叠加文本、箭头或轨迹等元素直接将用户指导编码到视觉域中。这使得视觉主体与其预期动作之间能够建立明确的、空间感知的和毫不含糊的对应关系，通过为不同对象分配不同的指令。针对三个最先进生成器（包括Veo 3.1、Kling 2.5和Wan 2.2）进行的广泛实验证明，视频模型可以可靠地解释和执行这种视觉嵌入的指令，特别是在复杂的多对象场景中。",
+        "地址": "https://arxiv.org/pdf/2511.19401.pdf"
+    },
+    {
+        "名称": "2025 [2511.17006] Budget-Aware Tool-Use Enables Effective Agent Scaling.pdf",
+        "作者": "Tengxiao Liu, Zifeng Wang, Jin Miao, I-Hung Hsu, Jun Yan, Jiefeng Chen, Rujun Han, Fangyuan Xu, Yanfei Chen, Ke Jiang, Samira Daruki, Yi Liang, William Yang Wang, Tomas Pfister, Chen-Yu Lee",
+        "摘要": "摘要：通过扩展测试时间计算可以在大型语言模型（LLM）的不同任务上提升性能，这也已被扩展到增设工具的代理人上。对于这些代理人来说，扩展不仅涉及在标记中“思考”，还涉及通过工具调用“行动”。工具调用的数量直接限制了代理人与外部环境的交互。然而，我们发现仅仅给予代理人更大的工具调用预算并不能改善性能，因为他们缺乏“预算意识”，很快就会达到性能上限。为了解决这个问题，我们研究了如何在明确的工具调用预算下有效地扩展此类代理人，重点是网络搜索代理人。我们首先介绍了预算跟踪器，这是一种轻量级插件，它为代理人提供了持续的预算意识，从而实现简单而有效的扩展。我们进一步开发了BATS（预算感知测试时扩展），这是一种高级框架，利用这种预算意识动态地调整其计划和验证策略，根据剩余资源决定是深入挖掘一个有前途的线索还是转向新的路径。为了以控制的方式分析成本-性能扩展，我们统一了一个成本指标，该指标同时考虑了标记和工具的消耗。我们首次对预算受限代理人进行了系统的研究，表明预算感知方法产生了更有利的扩展曲线，并推进了成本-性能帕累托前沿。我们的工作提供了关于增设工具的代理人扩展的更加透明和有原则的理解的经验见解。\n\n翻译作者：Tengxiao Liu, Zifeng Wang, Jin Miao, I-Hung Hsu, Jun Yan, Jiefeng Chen, Rujun Han, Fangyuan Xu, Yanfei Chen, Ke Jiang, Samira Daruki, Yi Liang, William Yang Wang, Tomas Pfister, Chen-Yu Lee.",
+        "地址": "https://arxiv.org/pdf/2511.17006.pdf"
+    },
+    {
+        "名称": "2025 [2511.19418] Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens.pdf",
+        "作者": "Yiming Qin, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, Xudong Wang",
+        "摘要": "摘要：视觉语言模型（VLMs）在语言推理方面表现出色，但在需要密集视觉感知的感知理解（例如空间推理和几何意识）方面存在困难。这一局限性是由于当前的VLMs在捕捉跨空间维度的密集视觉信息方面机制有限。我们引入了Chain-of-Visual-Thought（COVT），一个框架，使VLMs不仅能够通过语言进行推理，还可以通过连续的视觉标记——编码丰富感知线索的紧凑潜在表示进行推理。在大约20个标记的小预算内，COVT从轻量级视觉专家处提炼知识，捕捉到互补的属性，如二维外观、三维几何结构、空间布局和边缘结构。在训练过程中，带有COVT的VLM自回归地预测这些视觉标记，以重建密集的监督信号（例如，深度、分割、边缘和DINO特征）。在推理时，模型直接在连续视觉标记空间中进行推理，保持效率的同时可选地解码密集的预测以提高可解释性。在包括CV-Bench、MMVP、RealWorldQA、MMStar、WorldMedQA和HRBench在内的超过十个不同感知基准的评估中，将COVT集成到强大的VLMs如Qwen2.5-VL和LLaVA中，一贯提高了3%到16%的性能，证明了紧凑连续的视觉思维可以实现更精确、扎实且可解释的多模态智能。\n\n作者：Yiming Qin, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, Xudong Wang\n\n评论：项目页面: 这个HTTPS URL\n\nURL: https://arxiv.org/pdf/2511.19418.pdf",
+        "地址": "https://arxiv.org/pdf/2511.19418.pdf"
+    },
+    {
+        "名称": "2025 [2511.17803] Pillar-0: A New Frontier for Radiology Foundation Models.pdf",
+        "作者": "Kumar Krishna Agrawal, Longchao Liu, Long Lian, Michael Nercessian, Natalia Harguindeguy, Yufu Wu, Peter Mikhael, Gigin Lin, Lecia V. Sequist, Florian Fintelmann, Trevor Darrell, Yutong Bai, Maggie Chung, Adam Yala",
+        "摘要": "摘要：放射学在现代医学中起着不可或缺的作用，但影像成像量的增加远远超过了工作人员的增长速度。基础模型为支持放射学任务的全面发展提供了一条途径，但现有的医学模型仍然有限：它们将体积CT和MRI处理为低保真的2D切片，丢弃了关键的灰度对比信息，并且缺乏反映真实临床实践的评估框架。我们介绍了Pillar-0，这是一种放射学基础模型，预训练于来自一家大型学术中心的42,990例腹部-骨盆CT，86,411例胸部CT，14,348例头部CT和11,543例乳房MRI。同时，我们还介绍了RATE，这是一个可扩展的框架，使用LLMs（大语言模型）以近乎完美的准确度提取366种放射学发现的结构化标签。在内部测试集的14,230例腹部-骨盆CT、10,646例胸部CT、4,906例头部CT和1,585例乳房MRI中，Pillar-0建立了新的性能前沿，分别达到了86.4、88.0、90.1和82.9的平均AUROC，并超越了MedGemma（谷歌）、MedImageInsight（微软）、Lingshu（阿里巴巴）和Merlin（斯坦福）7.8-15.8个AUROC点，在87.2\\%（319/366）任务中排名最佳。Pillar-0在斯坦福腹部CT数据集上的外部验证中也同样优于所有基线，包括Merlin（82.2 vs 80.6 AUROC）。Pillar-0扩展到超出其预训练的任务，例如长期肺癌风险预测，它在NLST上比最先进的Sybil提升了3.0 C-index点，在MGH和CGMH上分别提升了5.9和1.9。在脑出血检测中，Pillar-0仅使用其他最节省样本的基线的1/20数据时，获得了>95的AUROC。Pillar-0和RATE共同提供了一个公开的、临床严格的基础，用于构建高性能放射学系统，使由于计算、数据和评估约束而以前不可行的应用成为可能。",
+        "地址": "https://arxiv.org/pdf/2511.17803.pdf"
+    },
+    {
+        "名称": "2025 [2511.18870] HunyuanVideo 1.5 Technical Report.pdf",
+        "作者": "Bing Wu, Chang Zou, Changlin Li, Duojun Huang, Fang Yang, Hao Tan, Jack Peng, Jianbing Wu, Jiangfeng Xiong, Jie Jiang, Linus, Patrol, Peizhen Zhang, Peng Chen, Penghao Zhao, Qi Tian, Songtao Liu, Weijie Kong, Weiyan Wang, Xiao He, Xin Li, Xinchi Deng, Xuefei Zhe, Yang Li, Yanxin Long, Yuanbo Peng, Yue Wu, Yuhong Liu, Zhenyu Wang, Zuozhuo Dai, Bo Peng, Coopers Li, Gu Gong, Guojian Xiao, Jiahe Tian, Jiaxin Lin, Jie Liu, Jihong Zhang, Jiesong Lian, Kaihang Pan, Lei Wang, Lin Niu, Mingtao Chen, Mingyang Chen, Mingzhe Zheng, Miles Yang, Qiangqiang Hu, Qi Yang, Qiuyong Xiao, Runzhou Wu, Ryan Xu, Rui Yuan, Shanshan Sang, Shisheng Huang, Siruis Gong, Shuo Huang, Weiting Guo, Xiang Yuan, Xiaojia Chen, Xiawei Hu, Wenzhi Sun, Xiele Wu, Xianshun Ren, Xiaoyan Yuan, Xiaoyue Mi, Yepeng Zhang, Yifu Sun, Yiting Lu, Yitong Li, You Huang, Yu Tang, Yixuan Li, Yuhang Deng, Yuan Zhou, Zhichao Hu, Zhiguang Liu, Zhihe Yang, Zilin Yang, Zhenzhi Lu, Zixiang Zhou, Zhao Zhong",
+        "摘要": "摘要：我们介绍了HunyuanVideo 1.5，这是一款轻量级但强大的开源视频生成模型，具有仅8.3十亿参数即可实现的最新视觉质量和运动连贯性，从而能够在消费级GPU上进行高效推理。这一成就建立在几个关键组件之上，包括精心的数据管理、具有选择性和平滑块注意力（SSTA）的先进DiT架构、通过字形感知文本编码实现的增强双语理解、渐进式预训练和后训练，以及高效的视频超分辨率网络。利用这些设计，我们开发了一个统一的框架，能够在多个持续时间和分辨率下实现高质量的文本到视频和图像到视频的生成。大量实验表明，这种紧凑而高效的模型在开源视频生成模型中建立了新的行业标准。通过发布代码和模型权重，我们为社区提供了一个高性能的基础，降低了视频创作和研究的门槛，使先进的视频生成对更广泛的受众变得可访问。所有的开源资源都可以在这个https URL公开获得。",
+        "地址": "https://arxiv.org/pdf/2511.18870.pdf"
+    },
+    {
+        "名称": "2025 [2511.17986] Plan-X: Instruct Video Generation via Semantic Planning.pdf",
+        "作者": "Lun Huang, You Xie, Hongyi Xu, Tianpei Gu, Chenxu Zhang, Guoxian Song, Zenan Li, Xiaochen Zhao, Linjie Luo, Guillermo Sapiro",
+        "摘要": "摘要：扩散变压器在视觉合成方面展示了出色的能力，但它们常常在高层次语义推理和长程规划方面表现欠佳。这一限制经常导致视觉幻觉和与用户指令不一致的情况，尤其在涉及复杂场景理解、人-物体互动、多阶段动作以及语境运动推理的情境中。为了解决这些挑战，我们提出了Plan-X，这一框架通过明确实施高层次语义规划来指导视频生成过程。其核心是一个语义规划器，这是一个可学习的多模态语言模型，可以根据文本提示和视觉上下文推理用户的意图，并自回归地生成一系列以文本为基础的时空语义标记。这些语义标记作为高层次文本提示指导的补充，充当视频扩散模型在时间上的结构化“语义草图”，后者在合成高保真视觉细节方面有其优势。Plan-X有效地整合了语言模型在多模态语境推理和规划中的优势，以及扩散模型在真实感视频合成中的优势。大量实验表明，我们的框架显著减少了视觉幻觉，能够实现细粒度的、与指令一致的视频生成，并符合多模态语境。\n\n翻译：扩散变压器在视觉合成方面表现出了卓越的能力，但它们在高层语义推理和长时程规划方面往往表现不佳。这种限制经常导致视觉幻觉以及与用户指令的不一致，特别是在涉及复杂场景理解、人-物体互动、多阶段动作以及情境运动推理的情况下。为了解决这些挑战，我们提出了Plan-X，一个明确强制进行高层语义规划以指导视频生成过程的框架。其核心是一个语义规划器，这是一个可学习的多模态语言模型，可以根据用户的文本提示和视觉上下文进行推理，并自回归生成一系列基于文本的时空语义标记。这些语义标记作为高层文本提示指导的补充，作为视频扩散模型在时间上的结构化“语义素描”，该模型在合成高保真视觉细节方面具有优势。Plan-X有效地将语言模型在多模态语境推理和规划中的优势与扩散模型在逼真视频合成中的优势结合起来。大量实验证明，我们的框架大大减少了视觉幻觉，使得精细的、与指令一致的视频生成符合多模态语境。",
+        "地址": "https://arxiv.org/pdf/2511.17986.pdf"
+    },
+    {
+        "名称": "2025 [2511.17729] M3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark.pdf",
+        "作者": "Yang Zhou, Mingyu Zhao, Zhenting Wang, Difei Gu, Bangwei Guo, Ruosong Ye, Ligong Han, Can Jin, Dimitris N. Metaxas",
+        "摘要": "以下是这篇学术论文的摘要翻译：\n\n摘要：我们介绍了M^3-Bench，这是第一个在模型上下文协议（Model Context Protocol）下评估多模态工具使用的基准。该基准针对现实的多跳和多线程工作流，这些工作流需要视觉定位和文本推理、跨工具依赖以及步骤间的中间资源持久性。我们引入了一种相似性驱动的对齐方法，该方法将每个工具调用序列化，使用句子编码器嵌入签名，并执行相似性分桶匈牙利匹配以获得可审核的一对一对应关系。在此对齐之上，我们报告了解耦语义保真度与工作流一致性的可解释指标。该基准涵盖28台服务器和231种工具，通过一个执行者和裁判管道以及人工验证提供标准化的轨迹；一个辅助的四大语言模型裁判集群报告最终任务完成和信息定位。对代表性的最先进多模态LLMs（MLLMs）的评估揭示了多模态MCP工具使用中的持续差距，特别是在论据保真度和结构一致性方面，强调了在图像、文本和工具图上联合推理的方法的必要性。我们的基准的匿名仓库位于此URL。\n\n论文标题：2025年《M3-Bench：多模态、多跳、多线程工具使用MLLM代理基准》\n作者：周洋、赵明宇、王震庭、谷地飞、郭邦伟、叶若松、韩丽工、金灿、迪米特里斯·N·梅塔克萨斯\n链接：[点击此处](https://arxiv.org/pdf/2511.17729.pdf)",
+        "地址": "https://arxiv.org/pdf/2511.17729.pdf"
+    },
+    {
+        "名称": "2025 [2511.13288] Multi-Agent Deep Research: Training Multi-Agent Systems with M-GRPO.pdf",
+        "作者": "Haoyang Hong, Jiajun Yin, Yuan Wang, Jingnan Liu, Zhe Chen, Ailing Yu, Ji Li, Zhiling Ye, Hansong Xiao, Yefei Chen, Hualei Zhou, Yun Yue, Minghui Yang, Chunxiao Guo, Junwei Liu, Peng Wei, Jinjie Gu",
+        "摘要": "摘要：多智能体系统在一般推理任务中表现出色。然而，缺乏在专业领域的训练会影响其准确性。目前的训练方法为系统中的所有智能体训练一个统一的大语言模型（LLM）。由于不同智能体的底层分布不同，这可能会限制其表现。因此，使用不同的LLM来训练多智能体系统应是下一步的解决方案。然而，这种方法会引入优化挑战。例如，智能体以不同的频率运行，回滚涉及不同子智能体的调用，并且智能体通常部署在不同的服务器上，扰乱了端到端的梯度流。为了解决这些问题，我们提出了M-GRPO，这是一种为垂直多智能体系统设计的群相对策略优化的分层扩展，包括一个主要智能体（计划者）和多个子智能体（多轮工具执行器）。M-GRPO 为主要和子智能体计算群相对优势，保持分层信用分配。它还引入了一个轨迹对齐方案，尽管子智能体调用变化，仍能生成固定大小的批次。我们部署了一个解耦的训练管道，其中智能体在独立的服务器上运行，并通过共享存储交换最小的统计信息。这允许在没有跨服务器反向传播的情况下进行可扩展的训练。在真实基准测试（如GAIA，XBench-DeepSearch和WebWalkerQA）的实验中，M-GRPO 始终优于单智能体 GRPO 和带冻结子智能体的多智能体 GRPO，表现出更好的稳定性和样本效率。这些结果表明，对齐异构轨迹和跨专业智能体解耦优化增强了工具增强推理任务的性能。",
+        "地址": "https://arxiv.org/pdf/2511.13288.pdf"
+    },
+    {
+        "名称": "2025 [2511.17405] Beyond Multiple Choice: Verifiable OpenQA for Robust Vision-Language RFT.pdf",
+        "作者": "Yesheng Liu, Hao Li, Haiyu Xu, Baoqi Pei, Jiahao Wang, Mingxuan Zhao, Jingshu Zheng, Zheqi He, JG Yao, Bowen Qin, Xi Yang, Jiajun Zhang",
+        "摘要": "摘要：选择题问答（MCQA）一直是评估和强化微调（RFT）现代多模态语言模型的流行格式。其受限的输出格式允许简化的、确定性的自动验证。然而，我们发现选项可能泄露可利用的信号，这使得准确性指标在反映实际能力方面不可靠，并在RFT过程中鼓励明确或隐含的答案猜测行为。我们提出ReVeL（由LLM重写和验证），一个将选择题重写为开放式问题的框架，同时尽可能保持可验证的答案。该框架根据不同答案类型对问题进行分类，分别应用不同的重写和验证方案。当应用于RFT时，我们转换了2万个MCQA例子，并使用GRPO微调Qwen2.5-VL模型。在ReVeL-OpenQA上训练的模型在选择题基准测试中匹配MCQA的准确性，并将开放式问答的准确性提高了约六个百分点，表明相对于基于MCQA的训练，数据效率更高、奖励信号更健壮。当用于评估时，ReVeL在MCQA基准测试中也揭示了高达20个百分点的得分膨胀（相对于OpenQA），提高了评判准确性，并降低了成本和延迟。我们将公开发布代码和数据。\n\n翻译：2025年，选择题问答（MCQA）一直是评估和强化微调（RFT）现代多模态语言模型的流行格式。其受限的输出格式允许简化的、确定性的自动验证。然而，我们发现选项可能泄露可利用的信号，这使得准确性指标在反映实际能力方面不可靠，并在RFT过程中鼓励明确或隐含的答案猜测行为。我们提出ReVeL（由LLM重写和验证），一个将选择题重写为开放式问题的框架，同时尽可能保持可验证的答案。该框架根据不同答案类型对问题进行分类，分别应用不同的重写和验证方案。当应用于RFT时，我们转换了2万个MCQA例子，并使用GRPO微调Qwen2.5-VL模型。在ReVeL-OpenQA上训练的模型在选择题基准测试中匹配MCQA的准确性，并将开放式问答的准确性提高了约六个百分点，表明相对于基于MCQA的训练，数据效率更高、奖励信号更健壮。当用于评估时，ReVeL在MCQA基准测试中也揭示了高达20个百分点的得分膨胀（相对于OpenQA），提高了评判准确性，并降低了成本和延迟。我们将公开发布代码和数据。",
+        "地址": "https://arxiv.org/pdf/2511.17405.pdf"
+    },
+    {
+        "名称": "2025 [2511.18945] MIST: Mutual Information Via Supervised Training.pdf",
+        "作者": "German Gritsai, Megan Richards, Maxime Méloux, Kyunghyun Cho, Maxime Peyrard",
+        "摘要": "摘要：我们提出了一种完全数据驱动的方法来设计互信息（MI）估计器。由于任何MI估计器都是从两个随机变量的观测样本中得出的函数，我们通过神经网络（MIST）对该函数进行参数化，并端到端地训练它以预测MI值。训练是在具有已知真实MI值的625,000个合成联合分布的大型元数据集上进行的。为了处理可变的样本大小和维度，我们采用了二维注意力机制以确保输入样本的排列不变性。为了量化不确定性，我们优化了分位数回归损失，使估计器能够近似MI的采样分布，而不是返回单一的点估计。该研究方案通过采用完全实证的方法取消了以往工作的普遍理论保证，换取了灵活性和效率。从经验上看，所学习的估计器在样本大小和维度上大大优于经典基线，包括在训练期间未见过的联合分布上。生成的基于分位数的区间校准良好，比基于自助法的置信区间更可靠，而推断比现有的神经网络基线快几个数量级。除了直接的经验收益外，该框架还提供了可训练的、完全可微的估计器，可嵌入更大的学习流水线中。此外，利用MI对可逆变换的不变性，元数据集可以通过正则化流适应任意的数据模态，从而实现针对不同目标元分布的灵活训练。\n\n翻译后中文内容：\n我们提出了一种完全数据驱动的方法来设计互信息（MI）估计器。由于任何MI估计器都是从两个随机变量的观测样本中得出的函数，我们通过神经网络（MIST）对该函数进行参数化，并端到端地训练它以预测MI值。训练是在具有已知真实MI值的625,000个合成联合分布的大型元数据集上进行的。为了处理可变的样本大小和维度，我们采用了二维注意力机制以确保输入样本的排列不变性。为了量化不确定性，我们优化了分位数回归损失，使估计器能够近似MI的采样分布，而不是返回单一的点估计。该研究方案通过采用完全实证的方法取消了以往工作的普遍理论保证，换取了灵活性和效率。从经验上看，所学习的估计器在样本大小和维度上大大优于经典基线，包括在训练期间未见过的联合分布上。生成的基于分位数的区间校准良好，比基于自助法的置信区间更可靠，而推断比现有的神经网络基线快几个数量级。除了直接的经验收益外，该框架还提供了可训练的、完全可微的估计器，可嵌入更大的学习流水线中。此外，利用MI对可逆变换的不变性，元数据集可以通过正则化流适应任意的数据模态，从而实现针对不同目标元分布的灵活训练。\n\nAuthors: German Gritsai, Megan Richards, Maxime Méloux, Kyunghyun Cho, Maxime Peyrard",
+        "地址": "https://arxiv.org/pdf/2511.18945.pdf"
+    },
+    {
+        "名称": "2025 [2511.16249] Controllable Layer Decomposition for Reversible Multi-Layer Image Generation.pdf",
+        "作者": "Zihao Liu, Zunnan Xu, Shi Shu, Jun Zhou, Ruicheng Zhang, Zhenchao Tang, Xiu Li",
+        "摘要": "摘要：本研究提出了可控分层分解（Controllable Layer Decomposition, CLD）方法，实现了栅格图像的细粒度和可控多层分离。在实际工作流程中，设计师通常独立生成和编辑每个RGBA层，然后将它们合成为最终的栅格图像。然而，这个过程是不可逆的：一旦合成，层级编辑就不再可能。现有方法通常依赖图像抠图和修复，但在可控性和分割精度方面依然有限。为了解决这些问题，我们提出了两个关键模块：LayerDecompose-DiT（LD-DiT），它将图像元素分解为不同层次并实现细粒度控制；以及多层条件适配器（Multi-Layer Conditional Adapter, MLCA），它将目标图像信息注入多层标记以实现精确的条件生成。为了进行全面评估，我们建立了一个新的基准并引入了定制的评估指标。实验结果表明，CLD在分解质量和可控性方面始终优于现有方法。此外，由CLD生成的分离层可以直接在 PowerPoint等常用设计工具中操作，突出其在实际创意工作流程中的实用价值和适用性。我们的项目可在此HTTPS URL获得。",
+        "地址": "https://arxiv.org/pdf/2511.16249.pdf"
+    },
+    {
+        "名称": "2025 [2511.18373] MASS: Motion-Aware Spatial-Temporal Grounding for Physics Reasoning and Comprehension in Vision-Language Models.pdf",
+        "作者": "Xiyang Wu, Zongxia Li, Jihui Jin, Guangyao Shi, Gouthaman KV, Vishnu Raj, Nilotpal Sinha, Jingxi Chen, Fan Du, Dinesh Manocha",
+        "摘要": "摘要：视觉语言模型（VLMs）在标准视频任务上表现出色，但在涉及运动动态和空间交互的物理驱动推理方面表现不佳。这种限制降低了它们解释真实或AI生成内容（AIGC）视频以及生成物理一致内容的能力。我们提出了一种方法，通过将物理世界上下文线索转化为与VLMs感知、理解和推理相一致的可解释表示，从而解决了这一问题。我们介绍了MASS-Bench，这是一项包含4,350个真实和AIGC视频及8,361个自由形式视频问答对的综合基准，重点关注与物理相关的理解任务，具有详细的注释，包括视觉检测、子段落定位和实体的全序列3D运动跟踪。我们进一步提出了MASS，这是一种通过深度编码的3D和视觉定位将时空信号注入VLM语言空间的模型无关方法，并结合了对象动态的运动追踪器。为了加强跨模态对齐和推理，我们应用了强化微调。实验和消融实验表明，我们改进后的VLMs在物理推理和理解方面比同类和更大的基线以及先前的最先进模型分别提高了8.7%和6.0%，并且在物理推理和理解方面达到类似Gemini-2.5-Flash等闭源的最先进VLMs的表现。这些结果验证了我们方法的有效性。",
+        "地址": "https://arxiv.org/pdf/2511.18373.pdf"
+    },
+    {
+        "名称": "2025 [2511.19314] PRInTS: Reward Modeling for Long-Horizon Information Seeking.pdf",
+        "作者": "Jaewoo Lee, Archiki Prasad, Justin Chih-Yao Chen, Zaid Khan, Elias Stengel-Eskin, Mohit Bansal",
+        "摘要": "以下是英文摘要翻译成中文的内容：\n\n摘要：信息寻求是人工智能代理的核心能力，要求它们在长时间的过程中收集和推理工具生成的信息。然而，这种多步骤的信息寻求任务对于依赖语言模型的代理仍然具有挑战性。尽管过程奖励模型（PRMs）可以通过在测试时排名候选步骤来引导代理，但现有的PRMs设计用于短期推理和二元判断，无法捕捉信息寻求步骤的丰富维度，比如工具交互和对工具输出的推理，也无法处理长时间任务中迅速增长的上下文。为了解决这些限制，我们引入了PRInTS，这是一种具有双重能力的生成性PRM：（1）基于PRM对多个步骤质量维度（例如工具输出的解释，工具调用的信息量等）的推理进行密集评分，（2）轨迹总结，在压缩不断增长的上下文时保留步骤评估的关键信息。通过对FRAMES、GAIA（1-3级）和WebWalkerQA（易-难）基准在多个模型上的广泛评估，以及消融实验，揭示出使用PRInTS的最佳n抽样方式增强了开源模型以及专门代理的信息寻求能力，其表现匹配或超过了前沿模型，使用了更小的主干代理并超越了其他强大的奖励建模基线。",
+        "地址": "https://arxiv.org/pdf/2511.19314.pdf"
+    },
+    {
+        "名称": "2025 [2511.16301] Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling.pdf",
+        "作者": "Minseok Seo, Mark Hamilton, Changick Kim",
+        "摘要": "摘要：我们提出了一种轻量级测试时优化（TTO）的框架，名为“Upsample Anything”，能够在无须训练的情况下将低分辨率特征恢复为高分辨率逐像素输出。尽管视觉基础模型在各种下游任务中展示了很强的泛化能力，但其表示通常会被下采样14倍或16倍（例如ViT），这限制了它们在像素级应用中的直接使用。现有的特征上采样方法依赖于数据集特定的再训练或繁重的隐式优化，限制了其可扩展性和泛化能力。Upsample Anything通过简单的每图像优化解决了这些问题，该优化学习了一个结合空间和范围线索的各向异性高斯核，有效地将高斯喷溅和联合双边上采样结合在一起。学习到的核作为一种通用的、边缘感知操作符，能够无缝地跨体系结构和模态传递，使得特征、深度或概率图的精确高分辨率重建成为可能。它在每个224x224图像上的运行时间仅约为0.419秒，并在语义分割、深度估计以及深度和概率图上采样方面达到了最先进的性能。\n\n项目页面: https://arxiv.org/pdf/2511.16301.pdf",
+        "地址": "https://arxiv.org/pdf/2511.16301.pdf"
+    },
+    {
+        "名称": "2025 [2511.16166] EvoVLA: Self-Evolving Vision-Language-Action Model.pdf",
+        "作者": "Zeting Liu, Zida Yang, Zeyu Zhang, Hao Tang",
+        "摘要": "摘要：尽管在零样本泛化和从模拟到现实世界转移方面取得了近期进展，长期机器人操控对于视觉-语言-动作（VLA）模型仍然具挑战性。目前的VLA模型存在阶段幻觉问题，即智能体利用粗略的评估信号来简化多步骤任务，报告高进展但实际上并未完成任务。我们提出了EvoVLA，这是一种自监督VLA框架，通过三个互补组件来解决这一问题：阶段对齐奖励（SAR），它使用由Gemini生成的强负样本进行三重对比学习以防止视觉捷径；基于姿态的物体探索（POE），它在相对物体-夹持器姿态而非原始像素中建立好奇心；和长期记忆，它通过选择性上下文保留和门控融合来稳定长滚动中的内在塑造。在包含三个多阶段任务的长期操控基准Discoverse-L上进行的广泛评估显示，EvoVLA的平均任务成功率比最强基线（OpenVLA-OFT）提高了10.2个百分点，达到69.2%。EvoVLA还实现了1.5倍的样本效率，并且将阶段幻觉从38.5%减少到14.8%。在物理机器人上的实际部署在四个操控任务中的平均成功率达到54.6%，比OpenVLA-OFT高出11个百分点，展示了有效的模拟到实际转移和强大的泛化能力。代码和网址见全文。",
+        "地址": "https://arxiv.org/pdf/2511.16166.pdf"
+    },
+    {
+        "名称": "2025 [2511.19428] Flow Map Distillation Without Data.pdf",
+        "作者": "Shangyuan Tong, Nanye Ma, Saining Xie, Tommi Jaakkola",
+        "摘要": "摘要：最新的流模型虽然在质量上取得了显著的成果，但需要缓慢的迭代采样。为加速这一过程，可以从预训练的老师模型进行流图的蒸馏，而传统的蒸馏过程通常需要从外部数据集中采样。我们认为这种对数据的依赖引入了教师-数据不匹配的根本风险，因为一个静态数据集可能无法完整或准确地代表教师模型的全部生成能力。这使我们质疑这种对数据的依赖是否真的是成功蒸馏流图所必需的。在本研究中，我们探索了一种无数据的替代方法，仅从先验分布中采样，这种分布是教师模型按照构建保证遵循的，从而完全规避了不匹配的风险。为展示这一理念的实用性，我们提出了一个系统的框架，该框架学习预测教师的采样路径，同时主动纠正其自身的累积误差以确保高保真度。我们的方法超越了所有基于数据的方法，并以显著的优势建立了新的技术标准。具体来说，在从SiT-XL/2+REPA进行蒸馏时，我们的方法在ImageNet 256x256上达到了1.45的卓越FID评分，在ImageNet 512x512上达到了1.49，且采样步数仅为1步。我们希望我们的工作能够确立一种更稳健的加速生成模型的范式，并推动无数据流图蒸馏的广泛采用。\n\n翻译：汤尚元, 马楠烨, 谢思宁, Tommi Jaakkola。",
+        "地址": "https://arxiv.org/pdf/2511.19428.pdf"
+    },
+    {
+        "名称": "2025 [2511.18922] One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control.pdf",
+        "作者": "Zhenxing Mi, Yuxin Wang, Dan Xu",
+        "摘要": "摘要: 我们提出了One4D，一个用于4D生成和重建的统一框架，它能够生成同步的RGB帧和点图形式的动态4D内容。通过统一掩码条件（UMC）机制在处理不同稀疏性条件帧时保持一致，One4D可以在单图像的4D生成、完整视频的4D重建以及稀疏帧的混合生成与重建之间无缝切换。我们的框架采用了强大的视频生成模型，以生成联合的RGB和点图，并具有精心设计的网络架构。常用的深度图或点图重建的扩散微调策略往往在联合RGB和点图生成上失败，迅速降低了基础视频模型的性能。为了解决这一挑战，我们引入了解耦LoRA控制（DLC），它使用两个特定于模态的LoRA适配器来形成RGB帧和点图的解耦计算分支，通过轻量级的零初始化控制链接逐渐学习相互的像素级一致性。在适度的计算预算下对合成和真实的4D数据集混合训练后，One4D在生成和重建任务中都能生成高质量的RGB帧和准确的点图。这项工作代表了使用视频扩散模型进行高质量几何基础的4D世界建模的一步。项目页面：此https URL",
+        "地址": "https://arxiv.org/pdf/2511.18922.pdf"
+    },
+    {
+        "名称": "2025 [2511.17792] Target-Bench: Can World Models Achieve Mapless Path Planning with Semantic Targets?.pdf",
+        "作者": "Dingrui Wang, Hongyuan Ye, Zhihao Liang, Zhexiao Sun, Zhaowei Lu, Yuchen Zhang, Yuyu Zhao, Yuan Gao, Marvin Seegert, Finn Schäfer, Haotong Qin, Wei Li, Luigi Palmieri, Felix Jahncke, Mattia Piccinini, Johannes Betz",
+        "摘要": "摘要：尽管近年来的世界模型能够生成高度逼真的视频，但它们在机器人路径规划方面的能力仍不明确且未量化。我们介绍了Target-Bench，这是第一个专门设计用于评估世界模型在实际环境中无地图路径规划中针对语义目标的基准。Target-Bench提供了45个语义类别的450个机器人收集的视频序列，具有基于SLAM的真实轨迹。我们的评估管道从生成的视频中恢复摄像机运动，并使用五个互补指标来量化目标到达能力、轨迹准确性和方向一致性来衡量规划性能。我们评估了包括Sora 2、Veo 3.1和Wan系列的最先进模型。最好的现成模型（Wan2.2-Flash）总体得分仅为0.299，揭示了当前世界模型在机器人规划任务中的显著局限性。我们显示，通过对我们的数据集中的325个场景进行微调，一个开源的5B参数模型实现了0.345的总体得分——比其基础版本（0.066）提高了超过400%，并且比最好的现成模型高出15%。我们将开源代码和数据集。\n\n作者：Dingrui Wang, Hongyuan Ye, Zhihao Liang, Zhexiao Sun, Zhaowei Lu, Yuchen Zhang, Yuyu Zhao, Yuan Gao, Marvin Seegert, Finn Schäfer, Haotong Qin, Wei Li, Luigi Palmieri, Felix Jahncke, Mattia Piccinini, Johannes Betz\n评论：10页\nURL：https://arxiv.org/pdf/2511.17792.pdf\n标题：2025 [2511.17792] Target-Bench: Can World Models Achieve Mapless Path Planning with Semantic Targets?.pdf",
+        "地址": "https://arxiv.org/pdf/2511.17792.pdf"
+    },
+    {
+        "名称": "2025 [2511.16397] AICC: Parse HTML Finer, Make Models Better -- A 7.3T AI-Ready Corpus Built by a Model-Based HTML Parser.pdf",
+        "作者": "Ren Ma, Jiantao Qiu, Chao Xu, Pei Chu, Kaiwen Liu, Pengli Ren, Yuan Qu, Jiahui Peng, Linfeng Hou, Mengjie Liu, Lindong Lu, Wenchang Ning, Jia Yu, Rui Min, Jin Shi, Haojiong Chen, Peng Zhang, Wenjian Zhang, Qian Jiang, Zengjie Hu, Guoqiang Yang, Zhenxiang Li, Fukai Shang, Zhongying Tu, Wentao Zhang, Dahua Lin, Conghui He",
+        "摘要": "摘要：尽管网络数据质量对大型语言模型至关重要，但大多数数据整理工作主要集中在过滤和去重，而将HTML到文本的提取作为一个固定的预处理步骤。现有的网络语料库依赖于基于启发式的提取工具，如Trafilatura，这些工具难以保留文档结构，且经常破坏诸如公式、代码和表格等结构化元素。我们假设，提高提取质量可以像积极的过滤策略一样对下游性能产生重大影响。我们介绍了一种新颖的提取管线MinerU-HTML，它将内容提取重新表述为通过一个拥有0.6B参数的语言模型解决的序列标注问题。与文本密度启发式方法不同，MinerU-HTML利用语义理解并采用一个分两阶段的格式化管线，显式地分类语义元素然后转换为Markdown。重要的是，它的基于模型的方法本质上具有可扩展性，而启发式方法的改进路径有限。在我们的基准测试MainWebBench上（包含7,887个带注释的网页），MinerU-HTML实现了81.8\\%的ROUGE-N F1分数，而Trafilatura只有63.6\\%，且结构化元素的保留非常出色（代码块为90.9%，公式为94.0%）。使用MinerU-HTML，我们从两个Common Crawl快照中构建了AICC（AI准备好的Common Crawl），这是一个包含7.3万亿标记的多语言语料库。在对AICC和Trafilatura提取的TfCC进行相同过滤的受控预训练实验中，基于AICC（620亿标记）训练的模型在13个基准上达到了平均50.8%的准确率，超越了TfCC 1.08个百分点——直接证明了提取质量显著影响模型的能力。AICC还在关键基准测试中超越了RefinedWeb和FineWeb。我们公开发布了MainWebBench、MinerU-HTML和AICC，展示了HTML提取是网络语料库构建中一个至关重要且常被低估的组件。\n\n翻译：虽然网络数据质量对大型语言模型至关重要，但大多数策展工作都集中在过滤和数据去重上，将HTML到文本的提取视为一个固定的预处理步骤。现有的网络语料库依赖于像Trafilatura这样的基于启发式的提取器，它们在保留文档结构方面表现不佳，且常常破坏诸如公式、代码和表格等结构化元素。我们假设，提取质量的改进可以像积极过滤策略一样对下游性能产生重大影响。我们介绍了MinerU-HTML，一种将内容提取重新表述为序列标注问题并由0.6B参数的语言模型解决的新型提取管道。不同于文本密度启发式，MinerU-HTML利用语义理解并采用两阶段格式化管道，明确分类语义元素后再转换为Markdown。关键是，它的基于模型的方法本质上具有可扩展性，而启发式方法的改进途径有限。在我们的MainWebBench基准（包含7,887个注释的网页）上，MinerU-HTML实现了81.8% ROUGE-N F1，相比之下Trafilatura仅为63.6%，并且在结构化元素保留（代码块为90.9%，公式为94.0%）方面表现出色。使用MinerU-HTML，我们从两次Common Crawl快照中构建了一个7.3万亿标记的多语言语料库AICC。在对AICC和Trafilatura提取的TfCC进行相同过滤的受控预训练实验中，基于AICC（620亿标记）训练的模型在13个基准测试中的平均准确率达到了50.8%，超过TfCC 1.08个百分点——直接证明了提取质量显著影响模型的能力。在关键基准测试中AICC同样优于RefinedWeb和FineWeb。我们公开发布了MainWebBench、MinerU-HTML和AICC，表明HTML提取是网络语料库构建中的一个关键但经常被低估的组成部分。",
+        "地址": "https://arxiv.org/pdf/2511.16397.pdf"
+    },
+    {
+        "名称": "2025 [2511.19166] Representational Stability of Truth in Large Language Models.pdf",
+        "作者": "Samantha Dies, Courtney Maynard, Germans Savcisens, Tina Eliassi-Rad",
+        "摘要": "摘要：大型语言模型（LLMs）广泛应用于诸如“什么治疗哮喘？”或“拉脱维亚的首都是哪里？”等涉及事实的问题。然而，LLMs在其内部概率表示中对真实、虚假和非真实非虚假内容的区分能力的稳定性仍不明确。我们提出了表示稳定性这一概念，它指的是在真理的操作定义发生干扰时LLM的真实表示的稳健性。我们通过以下两种方法来评估表示稳定性：（i）在LLM的激活值上训练一个线性探测器，以区分真实与不真实的陈述；（ii）测量其在受控标签变化下学习到的决策边界如何移动。使用来自十六个开源模型和三个事实领域的激活值，我们比较了两种类型的非真实陈述。第一类是关于我们认为在任何训练数据中都不存在的实体的类事实陈述，我们称之为不熟悉的非真实陈述。第二类是从众所周知的虚构情境中抽取出的非事实性陈述，我们称之为熟悉的非真实陈述。不熟悉的陈述引起了最大的边界移动，在易受影响的领域（如词义定义）中产生了高达40%的翻转真相判断，而熟悉的虚构陈述则更为一致聚集，变化较小（≤8.2%）。这些结果表明，表示稳定性更多源于认知熟悉度，而非语言形式。更广泛地来说，我们的方法提供了一种诊断工具，用于在语义不确定性下审计和训练LLMs，以保持一致的真理分配，而不是仅优化输出的准确性。\n\n作者：Samantha Dies, Courtney Maynard, Germans Savcisens, Tina Eliassi-Rad\n\n评论：25页，24个图\n\n链接：[论文下载](https://arxiv.org/pdf/2511.19166.pdf)\n\n标题：2025 [2511.19166] 大型语言模型中真理的表示稳定性.pdf",
+        "地址": "https://arxiv.org/pdf/2511.19166.pdf"
+    },
+    {
+        "名称": "2025 [2511.19319] SyncMV4D: Synchronized Multi-view Joint Diffusion of Appearance and Motion for Hand-Object Interaction Synthesis.pdf",
+        "作者": "Lingwei Dang, Zonghan Li, Juntong Li, Hongwen Zhang, Liang An, Yebin Liu, Qingyao Wu",
+        "摘要": "摘要: 手物交互（HOI）生成在提升动画和机器人应用方面具有重要作用。目前基于视频的方法主要是单视角，这限制了对3D几何结构的全面感知，往往导致几何失真或不现实的运动模式。尽管3D HOI方法可以生成动态合理的运动，但它们依赖于在受控实验室环境中捕获的高质量3D数据，这大大限制了其在现实世界场景中的泛化能力。为了解决这些局限性，我们介绍了SyncMV4D，这是第一个通过统一视觉先验、运动动力学和多视角几何来共同生成同步多视角HOI视频和4D运动的模型。我们的框架具有两个核心创新点：(1) 多视角联合扩散 (MJD) 模型，能够共同生成HOI视频和中间运动；(2) 扩散点对齐 (DPA) 模型，能够将粗略的中间运动优化为全局对齐的4D度量点轨迹。为了紧密结合2D外观和4D动力学，我们建立了一个闭环、相互增强的循环。在扩散去噪过程中，生成的视频调节4D运动的优化，而对齐的4D点轨迹被重新投影以指导下一步的联合生成。实验表明，我们的方法在视觉真实感、运动合理性和多视角一致性方面优于最新的替代方法。\n\n作者: Lingwei Dang, Zonghan Li, Juntong Li, Hongwen Zhang, Liang An, Yebin Liu, Qingyao Wu",
+        "地址": "https://arxiv.org/pdf/2511.19319.pdf"
+    },
+    {
+        "名称": "2025 [2511.18047] Fidelity-Aware Recommendation Explanations via Stochastic Path Integration.pdf",
+        "作者": "Oren Barkan, Yahlly Schein, Yehonatan Elisha, Veronika Bogina, Mikhail Baklanov, Noam Koenigstein",
+        "摘要": "摘要: 解释保真度，即衡量解释在何种程度上准确反映模型真实推理的准确性，在推荐系统中仍然是一个未得到充分研究的关键问题。我们引入了SPINRec（用于神经推荐解释的随机路径积分），这是一种与模型无关的方法，适应于推荐数据的稀疏和隐含特性。为了克服现有方法的局限性，SPINRec采用了随机基线采样：它不是从一个固定或不切实际的基线开始积分，而是从经验数据分布中采样多个合理的用户配置文件，并选择最真实的归因路径。这种设计既捕捉到观察到的交互，也捕捉到未观察到的交互，从而生成更加稳定和个性化的解释。我们在三个模型（MF、VAE、NCF）、三个数据集（ML1M、Yahoo! Music、Pinterest）以及一组反事实度量（包括基于AUC的扰动曲线和固定长度诊断）中进行了迄今为止最全面的保真度评估。SPINRec始终优于所有基准，建立了推荐系统解释忠实性的新标准。代码和评估工具可以在此https URL公开获取。",
+        "地址": "https://arxiv.org/pdf/2511.18047.pdf"
+    },
+    {
+        "名称": "2025 [2511.18024] Extracting Interaction-Aware Monosemantic Concepts in Recommender Systems.pdf",
+        "作者": "Dor Arviv, Yehonatan Elisha, Oren Barkan, Noam Koenigstein",
+        "摘要": "摘要：我们提出了一种从推荐系统中的用户和物品嵌入中提取单义神经元（单义神经元定义为与连贯且可解释的概念对齐的潜在维度）的方法。我们的方法使用稀疏自编码器 (SAE) 来揭示预训练表示中的语义结构。与语言模型的工作不同，推荐系统中的单义性必须保留用户和物品嵌入之间的交互。为此，我们引入了一种预测感知训练目标，通过冻结的推荐器进行反向传播，并将学习到的潜在结构与模型的用户-物品亲和性预测对齐。由此产生的神经元捕捉到诸如类别、流行度和时间趋势等属性，并支持事后控制操作，包括有针对性的过滤和内容推广，而无需修改基础模型。我们的方法可以在不同的推荐模型和数据集上推广，提供了一个实用的、可解释和可控的个性化工具。代码和评估资源可在此处获得：https URL。",
+        "地址": "https://arxiv.org/pdf/2511.18024.pdf"
+    },
+    {
+        "名称": "2025 [2511.12810] MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection.pdf",
+        "作者": "Leena Alghamdi, Muhammad Usman, Hafeez Anwar, Abdul Bais, Saeed Anwar",
+        "摘要": "摘要：伪装物体检测是一项新兴且具有挑战性的计算机视觉任务，需要识别和分割在颜色、纹理和大小上高度相似，从而无缝融入其环境的物体。由于低光照条件、部分遮挡、小物体尺寸、复杂的背景图案和多物体存在，这一任务变得更加复杂。尽管许多复杂的方法已被提出用于解决该任务，现有方法在复杂场景中特别是在小物体和多物体情况下仍难以精确检测伪装物体，表明还有改进空间。我们提出了一种多尺度递归网络，借助金字塔视觉变压器骨干网提取多尺度特征，并通过专门的基于注意力的尺度集成单元进行选择性特征合并。为了更精确的物体检测，我们的解码器通过结合多粒度融合单元递归优化特征。我们开发了一种新颖的递归反馈解码策略以增强全局上下文理解，帮助模型克服该任务中的挑战。通过共同利用多尺度学习和递归特征优化，我们提出的方法实现了性能提升，成功检测小型和多重伪装物体。我们的模型在两个伪装物体检测基准数据集上取得了最先进的结果，并在剩下的两个数据集中排名第二。我们的代码、模型权重和结果可以在 \\\\href{this https URL}{this https URL} 获得。",
+        "地址": "https://arxiv.org/pdf/2511.12810.pdf"
+    }
+]
