@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2025 [2511.15552] Multimodal Evaluation of Russian-language Architectures.pdf",
+        "作者": "Artem Chervyakov, Ulyana Isaeva, Anton Emelyanov, Artem Safin, Maria Tikhonova, Alexander Kharitonov, Yulia Lyakh, Petr Surovtsev, Denis Shevelev, Vildan Saburov, Vasily Konovalov, Elisei Rykov, Ivan Sviridov, Amina Miftakhova, Ilseyar Alimova, Alexander Panchenko, Alexander Kapitanov, Alena Fenogenova",
+        "摘要": "摘要：多模态大语言模型(MLLMs)目前是研究的中心，展现了在规模和功能上的快速进步，但其智能、局限性和风险仍然理解不足。为了应对这些问题，特别是在俄语环境中(目前没有多模态基准测试存在的情况下)，我们引入了Mera Multi，一个用于俄语架构的开放多模态评估框架。该基准测试是基于指令的，涵盖了默认文本、图像、音频和视频模态，包含了18个新构建的评估任务，适用于通用模型和特定模态的架构(如从图像到文本、视频到文本和音频到文本)。我们的贡献包括：（i）建立了一个多模态能力的通用分类法；（ii）完全从头开始创建了18个数据集，关注俄语文化和语言的特殊性，统一的提示和指标；（iii）提供了封闭源代码和开源模型的基准结果；（iv）制定了防止基准泄漏的方法，包括水印和私人集的许可证。尽管我们目前的重点是俄语，但所提出的基准为在语言类型多样的语言中，特别是斯拉夫语系内构建多模态基准提供了可复制的方法。",
+        "地址": "https://arxiv.org/pdf/2511.15552.pdf"
+    },
+    {
+        "名称": "2025 [2511.20639] Latent Collaboration in Multi-Agent Systems.pdf",
+        "作者": "Jiaru Zou, Xiyuan Yang, Ruizhong Qiu, Gaotang Li, Katherine Tieu, Pan Lu, Ke Shen, Hanghang Tong, Yejin Choi, Jingrui He, James Zou, Mengdi Wang, Ling Yang",
+        "摘要": "摘要: 多智能体系统 (MAS) 将大型语言模型 (LLMs) 从独立的单模型推理扩展到协调的系统级智能。尽管现有的LLM代理依赖于基于文本的中介进行推理和通信，但我们更进一步，使模型能够在连续的潜在空间中直接协作。我们引入了LatentMAS，一个端到端、无训练框架，使LLM代理能够纯粹在潜在空间中进行协作。在LatentMAS中，每个代理首先通过最后一层的隐藏嵌入进行自回归潜在思维生成。共享的潜在工作记忆随后保留并传递每个代理的内部表示，确保无损的信息交换。我们的理论分析表明，与传统基于文本的MAS相比，LatentMAS具有更高的表达性和无损信息保留，并且复杂性显著降低。此外，通过跨越数学和科学推理、常识理解、代码生成的9个全面基准的实证评估显示，LatentMAS始终优于强大的单模型和基于文本的MAS基线，准确率提高高达14.6%，输出标记使用减少70.8%至83.7%，并提供4至4.3倍更快的端到端推理。这些结果表明，我们新的潜在协作框架在提高系统级推理质量的同时，提供了显著的效率提升，而无需额外的训练。代码和数据完全开源于这个https URL。",
+        "地址": "https://arxiv.org/pdf/2511.20639.pdf"
+    },
+    {
+        "名称": "2025 [2511.20714] Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simulation.pdf",
+        "作者": "Inferix Team: Tianyu Feng, Yizeng Han, Jiahao He, Yuanyu He, Xi Lin, Teng Liu, Hanfeng Lu, Jiasheng Tang, Wei Wang, Zhiyuan Wang, Jichao Wu, Mingyang Yang, Yinghao Yu, Zeyu Zhang, Bohan Zhuang",
+        "摘要": "摘要：世界模型作为代理人工智能、实体人工智能和游戏等领域的核心模拟器，能够生成长时间、物理现实和交互性强的高质量视频。此外，扩展这些模型可能在视觉感知、理解和推理方面解锁新的能力，为超越当前以大语言模型为中心的视觉基础模型开辟新范式。赋予这些模型能力的关键突破是半自回归（块扩散）解码范式，它通过在每个块内应用扩散生成视频令牌，同时以先前的块为条件，将扩散和自回归方法的优势融合起来，生成更连贯和稳定的视频序列。最重要的是，它通过重新引入大语言模型风格的KV缓存管理来克服标准视频扩散的限制，实现高效、可变长度和高质量的生成。\n\n因此，Inferix专为通过优化的半自回归解码过程实现沉浸式世界合成而设计。这种对世界模拟的专注使其明显有别于为高并发场景（如vLLM或SGLang）设计的系统以及传统的视频扩散模型（如xDiTs）。Inferix通过互动视频流和编剖功能进一步增强其功能，从而实现实时交互和逼真的模拟，以准确建模世界动态。此外，它通过与LV-Bench无缝集成来支持高效基准测试，这是一个为分钟级视频生成场景量身定制的细粒度评估基准。我们希望社区能够共同努力推进Inferix并促进世界模型研究。",
+        "地址": "https://arxiv.org/pdf/2511.20714.pdf"
+    },
+    {
+        "名称": "2025 [2511.21579] Harmony: Harmonizing Audio and Video Generation through Cross-Task Synergy.pdf",
+        "作者": "Teng Hu, Zhentao Yu, Guozhen Zhang, Zihan Su, Zhengguang Zhou, Youliang Zhang, Yuan Zhou, Qinglin Lu, Ran Yi",
+        "摘要": "摘要: 同步音频-视频内容的生成是生成式人工智能的关键挑战，开源模型在稳健的音视频对齐方面面临挑战。我们的分析表明，该问题根源于联合扩散过程的三个基本挑战：(1) 对应漂移：同时演化的噪声潜变量妨碍对齐的稳定学习；(2) 全局注意力机制效率低，无法捕捉细粒度的时间线索；及(3) 传统无分类器指导（CFG）的模式内偏差，增强了条件性但未改善跨模态同步。为了解决这些问题，我们引入了Harmony，一个在机械上强制音视频同步的新框架。首先，我们提出了跨任务协同训练范式，通过利用音频驱动视频和视频驱动音频生成任务的强监督信号来缓解漂移。其次，我们设计了一个全局-局部解耦交互模块，用于高效且精确的时间风格对齐。最后，我们引入了一种新的同步增强CFG（SyncCFG），在推理过程中明确地分离和放大对齐信号。大量实验表明，Harmony建立了新的技术水平，在生成保真度和音视频同步的细粒度实现上显著优于现有方法。\n\n翻译人员: Teng Hu, Zhentao Yu, Guozhen Zhang, Zihan Su, Zhengguang Zhou, Youliang Zhang, Yuan Zhou, Qinglin Lu, Ran Yi\n\n链接: https://arxiv.org/pdf/2511.21579.pdf\n\n标题: 2025 [2511.21579] Harmony: 通过跨任务协同实现音视频生成的和谐化",
+        "地址": "https://arxiv.org/pdf/2511.21579.pdf"
+    },
+    {
+        "名称": "2025 [2511.21692] Revisiting Generalization Across Difficulty Levels: It's Not So Easy.pdf",
+        "作者": "Yeganeh Kordi, Nihal V. Nayak, Max Zuo, Ilana Nguyen, Stephen H. Bach",
+        "摘要": "摘要：我们研究了大语言模型（LLMs）在不同任务难度上的泛化能力，这对于有效的数据整理和评估至关重要。现有研究对于在较容易或较难的数据上训练是否能带来更好的结果，以及这些收益是否体现在较容易或较难的测试数据上存在不同看法。我们通过对LLMs在模型、数据集和细粒度难度组中的泛化进行系统评估来回答这个问题。我们使用数千个不同LLMs和项目反应理论（IRT）作为教育测试中一个成熟的难度指标，对六个数据集中的示例进行排序。有别于以往的工作，我们的难度评级完全由众多不同LLMs的能力来决定，排除了人为难度意见。通过更加客观、大规模、细粒度的分析，我们发现跨难度泛化通常是有限的；在易或难数据上训练不能在整个难度范围内实现一致的改进。这些结果表明，在训练和评估数据中拥有不同难度级别的重要性，且在难度方面采取捷径是有风险的。\n\n作者：Yeganeh Kordi, Nihal V. Nayak, Max Zuo, Ilana Nguyen, Stephen H. Bach\n\n链接：https://arxiv.org/pdf/2511.21692.pdf\n\n标题：Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+        "地址": "https://arxiv.org/pdf/2511.21692.pdf"
+    },
+    {
+        "名称": "2025 [2511.21395] Monet: Reasoning in Latent Visual Space Beyond Images and Language.pdf",
+        "作者": "Qixun Wang, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang",
+        "摘要": "摘要（中文翻译）：\n\n\"用图像思考\"已经成为推进视觉推理的有效范式，通过在中间推理步骤中注入视觉证据，超越了仅依赖文本的思维链。然而，现有方法未能达到类似人类的抽象视觉思维，因为其灵活性在根本上受到外部工具的限制。在这项工作中，我们介绍了Monet，一个训练框架，使多模态大语言模型（MLLMs）能够通过生成作为中间视觉思维的连续嵌入来直接在潜在视觉空间中进行推理。我们在训练MLLMs进行潜在视觉推理时识别了两个核心挑战：潜在视觉对齐的高计算成本和对潜在嵌入监督不足，并通过基于三阶段蒸馏的监督微调（SFT）流水线来解决这些问题。我们进一步揭示了将GRPO应用于潜在推理的局限性：它主要增强了基于文本的推理，而不是潜在推理。为克服这一点，我们提出了VLPO（视觉-潜在策略优化），一种显式将潜在嵌入纳入策略梯度更新的强化学习方法。为了支持SFT，我们构建了Monet-SFT-125K，一个高质量的文本-图像交错CoT数据集，包含12.5万条现实世界、图表、OCR和几何CoTs。我们的模型Monet-7B在现实世界的感知和推理基准上显示出一致的提升，并在具有挑战性的抽象视觉推理任务上表现出强大的分布外泛化能力。我们还对每个训练组件的作用进行了经验分析，并讨论了我们早期的不成功尝试，为未来的视觉潜在推理发展提供了见解。我们的模型、数据和代码可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2511.21395.pdf"
+    },
+    {
+        "名称": "2025 [2511.20478] NVIDIA Nemotron Parse 1.1.pdf",
+        "作者": "Kateryna Chumachenko, Amala Sanjay Deshmukh, Jarno Seppanen, Ilia Karmanov, Chia-Chih Chen, Lukas Voegtle, Philipp Fischer, Marek Wawrzos, Saeid Motiian, Roman Ageev, Kedi Wu, Alexandre Milesi, Maryam Moosaei, Krzysztof Pawelec, Padmavathy Subramanian, Mehrzad Samadi, Xin Yu, Celina Dear, Sarah Stoddard, Jenna Diamond, Jesse Oliver, Leanna Chraghchian, Patrick Skelly, Tom Balough, Yao Xu, Jane Polak Scowcroft, Daniel Korzekwa, Darragh Hanley, Sandip Bhaskar, Timo Roman, Karan Sapra, Andrew Tao, Bryan Catanzaro",
+        "摘要": "摘要（翻译为中文）：\n我们介绍了Nemotron-Parse-1.1，这是一款轻量级文档解析和OCR模型，能够提升其前身Nemoretriever-Parse-1.0的功能。Nemotron-Parse-1.1在通用OCR、markdown格式化、结构化表格解析以及从图片、图表和图形中的文本提取方面提供了改进的功能。它还支持对于图像密集型文档更长的输出序列长度。与其前身一样，它提取文本段的边界框以及对应的语义类别。Nemotron-Parse-1.1采用编码器-解码器架构，包含885M参数，其中包括一个256M参数的紧凑型语言解码器。它在公共基准测试中实现了竞争力强的准确性，使其成为一种强大的轻量级OCR解决方案。我们在Huggingface上公开发布了模型权重，以及一个优化的NIM容器，并作为更广泛的Nemotron-VLM-v2数据集的一部分，提供了训练数据的子集。此外，我们发布了Nemotron-Parse-1.1-TC，该模型在视觉标记长度上进行了缩减，提供了20%的速度提升，同时质量降级最小。",
+        "地址": "https://arxiv.org/pdf/2511.20478.pdf"
+    },
+    {
+        "名称": "2025 [2511.19797] Terminal Velocity Matching.pdf",
+        "作者": "Linqi Zhou, Mathias Parger, Ayaan Haque, Jiaming Song",
+        "摘要": "摘要：我们提出了终端速度匹配（Terminal Velocity Matching, TVM），这是流匹配的一个推广，能够实现高保真的一步和少步生成建模。TVM模拟了任意两个扩散时间步之间的过渡，并调整其在终端时间的行为，而不是在初始时间。我们证明了当模型是Lipschitz连续时，TVM在数据和模型分布之间提供了2-Wasserstein距离的上界。然而，由于扩散变换器（Diffusion Transformers）缺少这种特性，我们引入了最小的架构变化，以实现稳定的单阶段训练。为了使TVM在实践中高效运行，我们开发了一个支持雅可比-向量积反向传播的融合注意力内核，该内核具有良好的可扩展性，与变压器架构配合使用。在ImageNet-256x256数据集上，TVM通过单次函数评估（NFE）实现了3.29的FID，通过4次NFE实现了1.99的FID。在ImageNet-512x512数据集上，通过单次NFE实现了4.32的FID，通过4次NFE实现了2.94的FID，这代表了从头开始的一步/少步模型的最先进性能。\n\n作者：周林奇，马蒂亚斯·帕尔格尔，阿扬·哈克，宋加明\n\n评论：代码可在此网址获得：this https URL\n\n网址：https://arxiv.org/pdf/2511.19797.pdf\n\n标题：2025 [2511.19797] 终端速度匹配.pdf",
+        "地址": "https://arxiv.org/pdf/2511.19797.pdf"
+    },
+    {
+        "名称": "2025 [2511.19413] UniGame: Turning a Unified Multimodal Model Into Its Own Adversary.pdf",
+        "作者": "Zhaolong Su, Wang Lu, Hao Chen, Sharon Li, Jindong Wang",
+        "摘要": "摘要：统一多模态模型(UMMs)在理解和生成方面表现出色，且仅用一个架构。然而，UMMs依然存在基本的不一致性：理解更倾向于紧凑的嵌入，而生成则偏好富有重建特性的表示。这种结构性折衷导致决策边界错位、跨模态一致性下降以及在分布变化和对抗性攻下的高度脆弱。在这篇文章中，我们提出了UniGame，一个自对抗后训练框架，直接针对这些不一致性。通过在共享标记接口应用一种轻量级的扰动器，UniGame使生成分支能够主动寻找和挑战脆弱的理解，将模型自身变成它自己的对手。实验表明，UniGame显著提高了一致性（+4.6%）。此外，它还在理解（+3.6%）、生成（+0.02）、分布外鲁棒性和对抗鲁棒性（在NaturalBench和AdVQA上分别提高+4.8%和+6.2%）方面取得了显著进步。该框架与架构无关，引入少于1%的额外参数，并且可以补充现有的后训练方法。这些结果将对抗自我博弈定位为增强未来多模态基础模型的连贯性、稳定性和统一能力的通用而有效的原则。官方代码可在此网址获取：this https URL",
+        "地址": "https://arxiv.org/pdf/2511.19413.pdf"
+    },
+    {
+        "名称": "2025 [2511.21688] G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning.pdf",
+        "作者": "Wenbo Hu, Jingli Lin, Yilin Long, Yunlong Ran, Lihan Jiang, Yifan Wang, Chenming Zhu, Runsen Xu, Tai Wang, Jiangmiao Pang",
+        "摘要": "摘要：视觉-语言模型(VLMs)在空间智能方面仍然缺乏鲁棒性，在空间理解和推理任务上表现不佳。我们将这种差距归因于缺乏能够从2D图像中重构3D空间的视觉几何学习过程。我们提出了G$^2$VLM，一种几何基础视觉-语言模型，桥接了空间智能的两个基本方面：空间3D重构和空间理解。G$^2$VLM原生地利用学习到的3D视觉几何特征直接预测3D属性，并通过上下文学习和交错推理增强空间推理任务。我们统一的设计在空间理解方面具有高度可扩展性：它在丰富的多视角图像和视频数据上进行训练，同时利用通常仅从难以收集的注释中获得的3D视觉先验。实验结果表明，G$^2$VLM在两项任务中均表现出色，在空间理解和推理任务中达到最先进的前馈3D重构模型的可比结果，并在空间理解和推理任务中取得更好或竞争性的结果。通过将语义强大的VLM与低级3D视觉任务统一起来，我们希望G$^2$VLM可以作为社区的强大基线，并解锁更多未来的应用，如3D场景编辑。",
+        "地址": "https://arxiv.org/pdf/2511.21688.pdf"
+    },
+    {
+        "名称": "2025 [2511.20426] Block Cascading: Training Free Acceleration of Block-Causal Video Models.pdf",
+        "作者": "Hmrishav Bandyopadhyay, Nikhil Pinnaparaju, Rahim Entezari, Jim Scott, Yi-Zhe Song, Varun Jampani",
+        "摘要": "摘要：区块因果视频生成面临速度与质量的显著权衡：小型1.3B模型只能达到16 FPS，而大型14B模型则以4.5 FPS的速度缓慢前行，这迫使用户在响应速度和质量之间做出选择。Block Cascading通过无需训练的并行化显著缓解了这一权衡。我们的关键见解在于：未来视频块不需要完全去噪的当前块即可开始生成。通过使用前驱块的部分去噪上下文来启动块生成，我们将顺序流水线转化为并行级联，其中多个块同时去噪。利用5个GPU进行时间并行化，我们在所有模型规模上实现了约2倍的加速：1.3B模型从16 FPS加速到30 FPS，14B模型从4.5 FPS加速到12.5 FPS。除了推理速度外，Block Cascading还消除了上下文切换期间KV重缓存（约200ms）的开销，从而实现交互式生成。通过对多种区块因果流水线的广泛评估验证，表明从区块因果切换到Block Cascading流水线进行推理时，生成质量并未显著下降。\n\n作者：Hmrishav Bandyopadhyay, Nikhil Pinnaparaju, Rahim Entezari, Jim Scott, Yi-Zhe Song, Varun Jampani\n\n网址：https://arxiv.org/pdf/2511.20426.pdf\n\n标题：2025 [2511.20426] Block Cascading：区块因果视频模型的无训练加速",
+        "地址": "https://arxiv.org/pdf/2511.20426.pdf"
+    },
+    {
+        "名称": "2025 [2511.17889] MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots.pdf",
+        "作者": "Ting Huang, Dongjian Li, Rui Yang, Zeyu Zhang, Zida Yang, Hao Tang",
+        "摘要": "摘要：\n将自然语言指令转化为四足机器人连续控制动作在视觉语言动作领域仍然是一个基础性挑战。现有方法难以连接高层语义推理和低层驱动，这导致了不稳定的落地性和在现实中的弱泛化性。为了解决这些问题，我们提出了MobileVLA-R1，一个统一的视觉-语言-动作框架，使四足机器人能够进行明确的推理和连续控制。我们构建了MobileVLA-CoT，一个包含多粒度链式思考（CoT）的大规模数据集，用于体现轨迹的结构化推理监督对齐。在此基础上，我们引入了一个结合有监督的CoT对齐和GRPO强化学习的两阶段训练范式，以增强推理一致性、控制稳定性和长时间执行能力。在VLN和VLA任务上的广泛评估显示，其性能优于强基线约5%。在四足机器人上的现实部署验证了其在复杂环境中的强健性能。代码和网站链接如下：this https URL。",
+        "地址": "https://arxiv.org/pdf/2511.17889.pdf"
+    },
+    {
+        "名称": "2025 [2511.20410] Image-Free Timestep Distillation via Continuous-Time Consistency with Trajectory-Sampled Pairs.pdf",
+        "作者": "Bao Tang, Shuai Zhang, Yueting Zhu, Jijun Xiang, Xin Yang, Li Yu, Wenyu Liu, Xinggang Wang",
+        "摘要": "摘要：时间步蒸馏是一种有效的方法，用于提高扩散模型的生成效率。作为一种基于轨迹的框架，一致性模型（Consistency Model, CM）由于其坚实的理论基础和高质量的少步生成，展示了显著的潜力。然而，当前连续时间一致性蒸馏方法仍然严重依赖训练数据和计算资源，从而阻碍其在资源有限的情况下的部署，并限制其在不同领域的可扩展性。为了解决这一问题，我们提出了轨迹反向一致性模型（Trajectory-Backward Consistency Model, TBCM），通过直接从教师模型的生成轨迹中提取潜在表示，消除了对外部训练数据的依赖。与需要VAE编码和大规模数据集的传统方法不同，我们的自包含蒸馏范式显著提高了效率和简洁性。此外，轨迹提取的样本自然地弥合了训练和推理之间的分布差距，从而实现了更有效的知识转移。实证结果表明，TBCM在MJHQ-30k数据集上以一步生成达到了6.52的FID分数和28.08的CLIP分数，同时与Sana-Sprint相比，训练时间减少了约40%，并节省了大量的GPU内存，展现了在不牺牲质量的情况下的出色效率。我们进一步揭示了连续时间一致性蒸馏中扩散-生成空间的差异，并分析了采样策略如何影响蒸馏性能，为未来的蒸馏研究提供了见解。GitHub链接：this https URL.",
+        "地址": "https://arxiv.org/pdf/2511.20410.pdf"
+    },
+    {
+        "名称": "2025 [2511.20814] SPHINX: A Synthetic Environment for Visual Perception and Reasoning.pdf",
+        "作者": "Md Tanvirul Alam, Saksham Aggarwal, Justin Yang Chae, Nidhi Rastogi",
+        "摘要": "摘要：我们介绍了Sphinx，这是一种用于视觉感知和推理的合成环境，旨在针对核心认知原语。Sphinx通过程序化生成使用图案、瓷砖、图表、图标和几何原语的谜题，每个谜题都配有可验证的真实解决方案，从而实现精确评估和大规模数据集建设。这个基准涵盖了25种任务类型，包括对称性检测、几何变换、空间推理、图表解释和序列预测。对最近的大型视觉语言模型(LVLMs)的评估表明，即使是最先进的GPT-5也仅达到了51.1%的准确率，远低于人类的表现。最后，我们表明，使用可验证奖励的强化学习(RLVR)大大提高了这些任务中的模型准确性，并在外部视觉推理基准上取得了进展，凸显了其在促进多模态推理方面的潜力。",
+        "地址": "https://arxiv.org/pdf/2511.20814.pdf"
+    },
+    {
+        "名称": "2025 [2511.20633] Reinforcing Action Policies by Prophesying.pdf",
+        "作者": "Jiahui Zhang, Ze Huang, Chun Gu, Zipei Ma, Li Zhang",
+        "摘要": "摘要：视觉-语言-动作（VLA）策略在语言、感知和机器人控制的对齐方面表现出色。然而，大多数VLA仅通过模仿训练，这导致对演示的过拟合，并且在分布转换下容易出现脆弱性。强化学习（RL）直接优化任务奖励，因此可以解决这种不对齐问题，但真实机器人交互昂贵，传统模拟器难以工程和迁移。我们通过学习的世界模型和针对基于流的动作头的RL过程，解决了VLA后训练中的数据效率和优化稳定性问题。具体而言，我们介绍了Prophet，一个在大规模、异质机器人数据上进行预训练的统一的动作到视频的机器人执行模型，用于学习可重用的动作-结果动态。它能够少量样本适应新机器人、对象和环境，生成一个可展开的模拟器。在Prophet的基础上，我们使用Flow-action-GRPO（FA-GRPO）强化动作策略，它将Flow-GRPO调整为作用于VLA动作，并使用FlowScale进行分步重新加权，重新调整流头中的每步梯度。总体而言，Prophet、FA-GRPO和FlowScale构成了ProphRL，一种实用的、数据和计算效率高的VLA后训练路径。实验表明，在公共基准上成功率提高了5-17%，在不同VLA变体的真实机器人上成功率提高了24-30%。\n\n作者：Jiahui Zhang, Ze Huang, Chun Gu, Zipei Ma, Li Zhang\n\n评论：Comments: this https URL\n\n链接：https://arxiv.org/pdf/2511.20633.pdf\n\n标题：2025 [2511.20633] Reinforcing Action Policies by Prophesying.pdf",
+        "地址": "https://arxiv.org/pdf/2511.20633.pdf"
+    },
+    {
+        "名称": "2025 [2511.18452] NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering.pdf",
+        "作者": "Loick Chambon, Paul Couairon, Eloi Zablocki, Alexandre Boulch, Nicolas Thome, Matthieu Cord",
+        "摘要": "摘要：视觉基础模型（VFMs）提取空间下采样表示，这对像素级任务带来了挑战。现有上采样方法面临一个基本的权衡：经典滤波器速度快且应用广泛，但依赖于固定形式，而现代上采样器通过可学习的、特定于VFM的形式实现更高的精度，但需要针对每个VFM进行重新训练。我们引入了邻域注意滤波（NAF），通过交叉尺度邻域注意和旋转位置嵌入（RoPE）来学习自适应的空间与内容权重，仅由高分辨率输入图片引导。NAF可以零样本运行：无需重新训练即可从任何VFM上采样特征，使其成为首个超过VFM特定上采样器且在多个下游任务中实现最先进性能的VFM无关架构。NAF保持高效性，可扩展到2K特征图，并以18 FPS重建中等分辨率图像。除了特征上采样外，NAF在图像恢复任务上也表现出色，突显出其多功能性。代码和检查点可在此HTTPS网址获取。",
+        "地址": "https://arxiv.org/pdf/2511.18452.pdf"
+    },
+    {
+        "名称": "2025 [2511.18005] RAISECity: A Multimodal Agent Framework for Reality-Aligned 3D World Generation at City-Scale.pdf",
+        "作者": "Shengyuan Wang, Zhiheng Zheng, Yu Shang, Lixuan He, Yangcheng Yu, Fan Hangyu, Jie Feng, Qingmin Liao, Yong Li",
+        "摘要": "摘要：城市规模的3D生成对于具身智能和世界模型的发展具有重要意义。然而，现有方法在3D世界生成的质量、保真度和可扩展性方面面临显著挑战。因此，我们提出了RAISECity，一个现实对齐智能合成引擎，能够创建详细的城市规模3D世界。我们引入了一个利用多样化多模态基础工具获取现实世界知识、维护稳健中间表示以及构建复杂3D场景的代理框架。此代理设计特点是动态数据处理、迭代自我反思与改进以及调用先进的多模态工具，从而减少累积错误并增强整体性能。大量的定量实验和定性分析验证了RAISECity在现实对齐、形状精度、纹理保真度和美学水平等方面的优越性能，在整体感知质量方面对比现有基准线赢得超过90%的胜率。结合3D质量、现实对齐、可扩展性以及与计算机图形管道的无缝兼容性，使得RAISECity成为在沉浸式媒体、具身智能和世界模型应用中的有前途的基础。\n\n作者：Shengyuan Wang, Zhiheng Zheng, Yu Shang, Lixuan He, Yangcheng Yu, Fan Hangyu, Jie Feng, Qingmin Liao, Yong Li\n\n评论：代码将在网址：this https URL 公布\n\n链接：https://arxiv.org/pdf/2511.18005.pdf\n\n标题：2025 [2511.18005] RAISECity: A Multimodal Agent Framework for Reality-Aligned 3D World Generation at City-Scale.pdf",
+        "地址": "https://arxiv.org/pdf/2511.18005.pdf"
+    },
+    {
+        "名称": "2025 [2511.21208] I-GLIDE: Input Groups for Latent Health Indicators in Degradation Estimation.pdf",
+        "作者": "Lucas Thil, Jesse Read, Rim Kaddah, Guillaume Doquet",
+        "摘要": "摘要：准确的剩余使用寿命 (RUL) 预测取决于健康指标 (HIs) 的质量，然而现有方法往往无法解开多传感器系统中复杂的退化机制或量化 HI 可靠性的uncertainty。这篇论文提出了一个新颖的 HI 构建框架，有三大重要贡献。首先，我们首次将沿投影路径重构 (RaPP) 作为健康指标 (HI) 适用于 RUL 预测中，并展示其性能优于传统的重构误差指标。其次，我们展示了通过蒙特卡洛丢弃法和概率潜在空间对 RaPP 派生成的 HIs 增加 aleatoric 和 epistemic hetreasonable uncertainty quantification (UQ) 显著提高了 RUL 预测的鲁棒性。第三，并且最为关键的是，我们提出了指标组，这是一种将传感器子集隔离出来以对系统特定的退化进行建模的范式，产生了我们的新方法 I-GLIDE，使机制特定诊断更加可解释。通过对来自航空航天和制造系统的数据进行评估，我们的方法在准确性和普遍性上均显著优于先进的 HI 方法，同时为系统故障路径提供了可行的见解。这项工作弥合了异常检测和预测之间的鸿沟，提供了一个合乎原则的框架来应对复杂系统中基于uncertainty的退化模型。",
+        "地址": "https://arxiv.org/pdf/2511.21208.pdf"
+    },
+    {
+        "名称": "2025 [2511.19504] Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma.pdf",
+        "作者": "Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary",
+        "摘要": "摘要: 从人类反馈中进行强化学习 (RLHF) 被广泛用于调整大型语言模型，然而实践者面临一个持久的难题：提高安全性通常会降低公平性，扩展到多样化人群变得计算上难以处理，使系统健壮通常会放大多数偏见。我们将这种紧张关系形式化为对齐三难困境：没有一个RLHF系统能够同时实现 (i) 多样人类价值观的 epsilon-代表性，(ii) 样本和计算复杂度的多项式可处理性，和 (iii) 对抗性扰动和分布偏移的 delta-鲁棒性。通过结合统计学习理论和鲁棒优化的复杂性理论分析，我们证明在全球规模人群中，同时实现代表性 (epsilon <= 0.01) 和鲁棒性 (delta <= 0.001) 需要 Omega(2^{d_context}) 次操作，这是在上下文维度上的超级多项式。我们展示当前的RLHF实现通过牺牲代表性来解决这一困境：它们从同质注释者池中收集了仅有10^3--10^4个样本，而真正的全球代表需要10^7--10^8个样本。我们的框架为已记录的RLHF病态提供了统一的解释，包括偏好崩溃，阿谀奉承和系统性偏见放大。我们最后提出通过策略性放松对齐要求来导航这些根本性的权衡的具体方向。",
+        "地址": "https://arxiv.org/pdf/2511.19504.pdf"
+    },
+    {
+        "名称": "2025 [2511.17918] Frequency-Adaptive Sharpness Regularization for Improving 3D Gaussian Splatting Generalization.pdf",
+        "作者": "Youngsik Yun, Dongjun Gu, Youngjung Uh",
+        "摘要": "摘要：尽管3D高斯散点图（3DGS）在大多数配置中表现出色，但在少样本情景下，它由于对稀疏观测的过度拟合而缺乏对新视角的泛化能力。我们从机器学习的角度重新审视3DGS优化，将新视角合成为一个泛化到未见视角的问题，这是一个尚未深入探索的方向。我们提出频率自适应锐度正则化（FASR），通过重新制定3DGS训练目标，引导3DGS收敛到更好的泛化解决方案。尽管结合锐度感知最小化（SAM）同样通过减少损失景观的锐度来改善分类模型的泛化，将其直接应用于3DGS由于任务之间的差异而效果不佳。具体来说，过度正则化会阻碍高频细节的重建，而减弱它的力度又会导致对锐度惩罚不足。为了解决这个问题，我们反映图像的局部频率，以设定正则化权重和估计局部锐度时的邻域半径。这在新的视角中防止出现漂浮人工痕迹，并重建SAM倾向于过度平滑的细节。在具有各种配置的数据集上，我们的方法始终改进了广泛的基线。代码将可在这个URL获得。\n\n作者：Youngsik Yun, Dongjun Gu, Youngjung Uh\n\n评论：项目页面：这个URL\n\n网址：https://arxiv.org/pdf/2511.17918.pdf\n\n标题：2025 [2511.17918] 频率自适应锐度正则化用于改进3D高斯散点图泛化能力.pdf",
+        "地址": "https://arxiv.org/pdf/2511.17918.pdf"
+    }
+]
