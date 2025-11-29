@@ -1,0 +1,44 @@
+[
+    {
+        "名称": "2025 [2511.21541] Video Generation Models Are Good Latent Reward Models.pdf",
+        "作者": "Xiaoyue Mi, Wenqing Yu, Jiesong Lian, Shibo Jie, Ruizhe Zhong, Zijun Liu, Guozhen Zhang, Zixiang Zhou, Zhiyong Xu, Yuan Zhou, Qinglin Lu, Fan Tang",
+        "摘要": "摘要：奖励反馈学习（ReFL）已被证明在使图像生成符合人类偏好方面是有效的。然而，将其扩展到视频生成面临重大挑战。现有的视频奖励模型依赖于用于像素空间输入的视觉语言模型，使得ReFL优化仅能在经过计算密集型的VAE解码之后接近完成的去噪步骤中进行。这种像素空间方法导致了大量的内存开销和增加的训练时间，并且其后期阶段优化缺乏早期阶段监督，只能提高视觉质量，而不是基本的运动动态和结构连贯性。在这项工作中，我们展示了预训练的视频生成模型在噪声潜在空间中进行奖励建模是自然适合的，因为它们显式地设计为能够在任意时间步处理噪声潜在表示，并通过其序列建模能力固有地保留时序信息。因此，我们提出了过程奖励反馈学习（PRFL），一个完全在潜在空间中进行偏好优化的框架，允许在不进行VAE解码的情况下在整个去噪链中有效地进行梯度反向传播。大量实验证明，PRFL显著提高了与人类偏好的一致性，同时在内存消耗和训练时间上相比RGB ReFL具有显著减少。\n\nAuthors: Xiaoyue Mi, Wenqing Yu, Jiesong Lian, Shibo Jie, Ruizhe Zhong, Zijun Liu, Guozhen Zhang, Zixiang Zhou, Zhiyong Xu, Yuan Zhou, Qinglin Lu, Fan Tang",
+        "地址": "https://arxiv.org/pdf/2511.21541.pdf"
+    },
+    {
+        "名称": "2025 [2511.21691] Canvas-to-Image: Compositional Image Generation with Multimodal Controls.pdf",
+        "作者": "Yusuf Dalva, Guocheng Gordon Qian, Maya Goldenberg, Tsai-Shien Chen, Kfir Aberman, Sergey Tulyakov, Pinar Yanardag, Kuan-Chieh Jackson Wang",
+        "摘要": "摘要: 尽管现代扩散模型在生成高质量和多样化的图像方面表现出色，但在高保真度构图和多模态控制方面仍然存在困难，尤其是在用户同时指定文本提示、主题参考、空间排列、姿态约束和布局注释时。我们引入了Canvas-to-Image这一统一框架，将这些异构控制整合到一个单一的画布界面，使用户能够生成忠实反映其意图的图像。我们的核心思想是将多种控制信号编码为单一的复合画布图像，模型可以直接解读用于综合视觉空间推理。我们进一步策划了一套多任务数据集，并提出了一种多任务画布训练策略，优化扩散模型，以便在统一的学习模式中联合理解和整合异构控制到文本图像生成中。这种联合训练使Canvas-to-Image能够在多种控制模态之间进行推理，而不是依赖于特定任务的启发式方法，并且在推理过程中很好地泛化到多控制场景。广泛的实验表明，Canvas-to-Image在身份保留和控制遵从方面显著优于当前最先进的方法，涵括了多人的构图、姿态控制的构图、布局约束生成以及多控制生成等具有挑战性的基准测试。",
+        "地址": "https://arxiv.org/pdf/2511.21691.pdf"
+    },
+    {
+        "名称": "2025 [2511.21087] MIRA: Multimodal Iterative Reasoning Agent for Image Editing.pdf",
+        "作者": "Ziyun Zeng, Hang Hua, Jiebo Luo",
+        "摘要": "摘要：基于指令的图像编辑为用户提供了一种通过自然语言编辑图像的直观方法。然而，基于扩散的编辑模型往往难以准确解释复杂的用户指令，尤其是涉及组合关系、上下文线索或参照表达的情况，导致编辑的语义漂移或未能反映预期的更改。我们通过提出MIRA（多模态迭代推理代理）来解决这个问题，这是一种轻量级的即插即用多模态推理代理，通过迭代的感知-推理-行动循环执行编辑，有效模拟多轮次的人机交互过程。MIRA通过逐步预测基本的编辑指令，而不是发出单一提示或静态计划，利用视觉反馈作出决策。我们利用150K多模态工具使用数据集MIRA-Editing，结合两阶段的SFT + GRPO训练流程，使MIRA在复杂编辑指令上执行推理和编辑。与Flux.1-Kontext、Step1X-Edit、Qwen-Image-Edit等开源图像编辑模型配对时，MIRA显著提升了语义一致性和感知质量，达到或超过了GPT-Image和Nano-Banana等专有系统的性能。\n\n作者：曾紫云, 华杭, 罗捷波\n\n链接：[2025 [2511.21087] MIRA: Multimodal Iterative Reasoning Agent for Image Editing.pdf](https://arxiv.org/pdf/2511.21087.pdf)",
+        "地址": "https://arxiv.org/pdf/2511.21087.pdf"
+    },
+    {
+        "名称": "2025 [2511.20937] ENACT: Evaluating Embodied Cognition with World Modeling of Egocentric Interaction.pdf",
+        "作者": "Qineng Wang, Wenlong Huang, Yu Zhou, Hang Yin, Tianwei Bao, Jianwen Lyu, Weiyu Liu, Ruohan Zhang, Jiajun Wu, Li Fei-Fei, Manling Li",
+        "摘要": "摘要：\n具体化认知认为，智能源自感觉运动互动，而非被动观察。这引发了一个耐人寻味的问题：训练中主要采用无实体方式的现代视觉语言模型 (VLMs) 是否表现出具体化认知的迹象？我们引入了ENACT，这是一个将具体化认知评估作为自我中心视角交互中的世界建模的基准，并采用视觉问答 (VQA) 格式。ENACT被构建为部分可观察的马尔可夫决策过程 (POMDP)，其动作为场景图的变化，包括两个互补的序列重排序任务：前向世界建模（在给定动作的情况下重排序被打乱的观察）和逆向世界建模（在给定观察的情况下重排序被打乱的动作）。尽管概念上简单，解决这些任务隐含地要求集中于具体化认知的能力——可供性识别、动作效应推理、具身意识、交互性长时间记忆，从部分可观察的自我中心输入中避免低级图像合成造成的评估混淆。我们提供了一个可扩展的流程，从机器人模拟 (BEHAVIOR) 中合成QA对，并评估模型在跨越长期家庭规模活动的8,972个QA对上的表现。实验揭示了前沿VLMs与人类之间的性能差距，且这种差距随着互动层级的增加而扩大。模型在逆向任务上的表现一致优于前向任务，并表现出以人为中心的偏差，包括对右手动作的偏好以及当相机内部参数或视角偏离人类视觉时性能下降。\n\n翻译作者：秦能 王, 温龙 黄, 余 周, 杭 尹, 天威 包, 建文 吕, 维宇 刘, 若涵 张, 家俊 吴, 李飞飞, 曼玲 李\n评论：预印本版本\n网址：https://arxiv.org/pdf/2511.20937.pdf\n题目：2025 [2511.20937] ENACT: 通过自我中心视角交互的世界建模评估具身认知.pdf",
+        "地址": "https://arxiv.org/pdf/2511.20937.pdf"
+    },
+    {
+        "名称": "2025 [2511.21662] Multi-Crit: Benchmarking Multimodal Judges on Pluralistic Criteria-Following.pdf",
+        "作者": "Tianyi Xiong, Yi Ge, Ming Li, Zuolong Zhang, Pranav Kulkarni, Kaishen Wang, Qi He, Zeying Zhu, Chenxi Liu, Ruibo Chen, Tong Zheng, Yanshuo Chen, Xiyao Wang, Renrui Zhang, Wenhu Chen, Heng Huang",
+        "摘要": "摘要: 由于大型多模态模型（LMMs）在指令跟随和与人类偏好一致性方面表现出色，它们越来越多地被用作多模态评估系统中的评判者。然而，它们执行多样且细致入微的评估标准的能力仍有待探索。我们开发了Multi-Crit，这是一个用于评估多模态评判者在遵循多元化标准和生成可靠标准级判断方面能力的基准。Multi-Crit涵盖了开放式生成和可验证的推理任务，通过一个严格的数据管理流程构建，收集了带有多标准人类注释的具有挑战性的响应对。此外，它引入了三个新颖的指标，用于系统地评估多元化的遵循、标准切换的灵活性以及识别标准级偏好冲突的能力。对25个LMMs的综合分析表明：1）专有模型在保持一致遵循多元标准方面仍然存在困难，尤其是在开放式评估中；2）开源模型在灵活遵循多样标准方面更加落后；3）通过整体判断信号进行的批评微调增强了视觉基础，但未能推广到多元化的标准级判断。关于推理微调、测试时扩展和开源与专有模型之间的界限一致性的额外分析进一步探讨了当前多模态评判者的局限性。作为一项开创性研究，Multi-Crit为构建可靠和可指导的多模态人工智能评估奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2511.21662.pdf"
+    },
+    {
+        "名称": "2025 [2511.19757] What does it mean to understand language?.pdf",
+        "作者": "Colton Casto, Anna Ivanova, Evelina Fedorenko, Nancy Kanwisher",
+        "摘要": "摘要：语言理解不仅仅是提取语言输入的表层意义，而是构建描述该情景的丰富心理模型。在本文中，我们提出了一个观点，即由于大脑核心语言系统的处理能力有限，深刻理解语言需要将信息从语言系统导出到其他脑区，这些脑区计算感知和运动表征、构建心理模型，并存储我们的世界知识和自传体记忆。我们回顾了现有关于这一假设的证据，并认为认知神经科学的最近进展不仅提供了概念基础，还提供了直接测试该假设的方法，从而开创了一种新策略，以揭示理解语言在认知和神经层面的真正含义。",
+        "地址": "https://arxiv.org/pdf/2511.19757.pdf"
+    },
+    {
+        "名称": "2025 [2511.21678] Agentic Learner with Grow-and-Refine Multimodal Semantic Memory.pdf",
+        "作者": "Weihao Bo, Shan Zhang, Yanpeng Sun, Jingjing Wu, Qunyi Xie, Xiao Tan, Kunbin Chen, Wei He, Xiaofan Li, Na Zhao, Jingdong Wang, Zechao Li",
+        "摘要": "摘要：机器学习语言模型（MLLMs）在处理孤立查询时展示了强大的推理能力，但它们是从头开始操作的——每个问题都是独立解决的，常常重复相同的错误。现有的记忆增强代理主要存储过去的轨迹以供重用。然而，基于轨迹的记忆存在简短偏向，逐渐丧失基本的领域知识。更关键的是，即使在真正的多模态问题解决环境中，它也只记录了过去行为的单一模态轨迹，未能保留视觉注意力和逻辑推理如何共同促成解决方案。这与人类认知存在根本性的不一致：语义记忆既是多模态的也是集成的，通过协调但不同的表示流保留视觉和抽象知识。因此，我们引入了ViLoMem，一种双流记忆框架，构建紧凑的、基于图式的记忆。它分别编码视觉干扰模式和逻辑推理错误，使MLLMs能够从成功和失败的经历中学习。遵循增长和精炼的原则，该系统逐步积累和更新多模态语义知识——保留稳定、可推广的策略，同时避免灾难性遗忘。在六个多模态基准上，ViLoMem持续提高pass@1准确率，并大幅减少重复的视觉和逻辑错误。消融实验证实了具有明确干扰—幻觉分离的双流记忆的必要性，展示了错误感知多模态记忆在终生和跨域代理学习中的价值。我们的项目页面将可在此URL上找到。\n\n作    者：Weihao Bo, Shan Zhang, Yanpeng Sun, Jingjing Wu, Qunyi Xie, Xiao Tan, Kunbin Chen, Wei He, Xiaofan Li, Na Zhao, Jingdong Wang, Zechao Li\n\n论文标题：2025 [2511.21678] 拥有增长和精炼多模态语义记忆的代理学习者\n\n链接：https://arxiv.org/pdf/2511.21678.pdf",
+        "地址": "https://arxiv.org/pdf/2511.21678.pdf"
+    }
+]
