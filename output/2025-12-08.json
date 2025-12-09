@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2512.05150] TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows.pdf",
+        "作者": "Zhenglin Cheng, Peng Sun, Jianguo Li, Tao Lin",
+        "摘要": "摘要：最近在多模态生成模型方面的进展展示了在图像和视频生成等多模态生成中的令人印象深刻的能力。通常，这些模型基于诸如扩散和流匹配的多步框架构建，这本质上限制了它们的推理效率（需要40-100次函数评估（NFE））。尽管各种少步方法旨在加速推断，但现有解决方案存在明显的局限性。突出的基于蒸馏的方法，如渐进和一致性蒸馏，或者需要迭代的蒸馏过程，或者在非常少的步骤（< 4-NFE）中表现出显著退化。同时，将对抗训练整合到蒸馏中（例如DMD/DMD2和SANA-Sprint）以增强性能，会引入训练不稳定性、增加复杂性，并由于辅助训练模型而产生高GPU内存开销。为此，我们提出了TwinFlow，这是一种训练一步生成模型的简单且有效的框架，无需固定的预训练教师模型，也避免了在训练过程中使用标准对抗网络，使其非常适合构建大规模、高效模型。在文本生成图像任务中，我们的方法在1-NFE中实现了0.83的GenEval评分，优于强基线如SANA-Sprint（基于GAN损失的框架）和RCGM（基于一致性的框架）。值得注意的是，我们通过全参数训练Qwen-Image-20B验证了TwinFlow的可扩展性，并将其转化为一个高效的少步生成器。仅在1-NFE情况下，我们的方法在GenEval和DPG-Bench基准测试中的表现几乎与原始的100-NFE模型相当，计算成本降低了100倍，但质量仅有轻微退化。项目页面可在此https URL查看。\n\n作者：郑林成，孙鹏，李建国，林涛",
+        "地址": "https://arxiv.org/pdf/2512.05150.pdf"
+    },
+    {
+        "名称": "2025 [2512.05965] EditThinker: Unlocking Iterative Reasoning for Any Image Editor.pdf",
+        "作者": "Hongyu Li, Manyuan Zhang, Dian Zheng, Ziyu Guo, Yimeng Jia, Kaituo Feng, Hao Yu, Yexin Liu, Yan Feng, Peng Pei, Xunliang Cai, Linjiang Huang, Hongsheng Li, Si Liu",
+        "摘要": "摘要：基于指令的图像编辑已成为一个重要的研究领域，借助图像生成基础模型，已经达到了高审美质量，使得遵循指令的能力成为主要挑战。现有方法通过监督学习或强化学习来提高指令的遵从性，但由于固有的随机性和缺乏深思熟虑，单回合成功率仍然有限。在这项工作中，我们提出了一个通过编辑进行思考的深思熟虑编辑框架，通过迭代执行“编辑中思考”循环来模拟人类认知过程：批评结果和改进指令，然后重复生成直到满意为止。具体来说，我们训练了一个单一的多模态大模型EditThinker，作为该框架的推理引擎，共同生成批评评分、推理过程和改进指令。我们采用强化学习来将EditThinker的思考与编辑对齐，从而生成更有针对性的指令改进。在四个基准测试上的大量实验表明，我们的方法显著提高了任何图像编辑模型的指令遵循能力。我们将发布我们的数据构建框架、数据集和模型，以惠及社区。",
+        "地址": "https://arxiv.org/pdf/2512.05965.pdf"
+    },
+    {
+        "名称": "2025 [2512.02580] From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks.pdf",
+        "作者": "Changpeng Yang, Jinyang Wu, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang",
+        "摘要": "摘要：强化学习已成为训练后大语言模型的一种范式，提升了其推理能力。这些方法基于每个样本计算优势值，反映出表现优于或差于预期，从而为训练提供正负两种信号。然而，现有的方法从早期阶段开始便不加区分地混合这两种信号，可能导致指导不明确和效果有限。为解决这一问题，我们提出了一种基于优势信号的自适应课程机制——**CAPO**（**C**urriculum **A**dvantage **P**olicy **O**ptimization）。该机制利用仅正优势样本启动模仿学习，以建立稳固的基础，随后引入负信号以培养判别能力，从而在复杂场景中提高泛化能力。该方法兼容多种优化方法，包括GRPO、PPO、RLOO和Reinforce++，在数学推理任务中持续获得稳定且显著的改进，并且在多模态图形用户界面（GUI）推理场景中有效泛化，确立了其作为一个多功能和鲁棒的优化框架的地位。\n\n作者：Changpeng Yang, Jinyang Wu, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang\n\n评论：被AAAI 2026会议接收\n\n链接：https://arxiv.org/pdf/2512.02580.pdf\n\n标题：从模仿到判别：面向增强跨域推理任务的通用课程优势机制",
+        "地址": "https://arxiv.org/pdf/2512.02580.pdf"
+    },
+    {
+        "名称": "2025 [2512.04810] EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture.pdf",
+        "作者": "Xin He, Longhui Wei, Jianbo Ouyang, Lingxi Xie, Qi Tian",
+        "摘要": "摘要：我们提出了EMMA，一种高效且统一的多模态理解、生成和编辑架构。具体而言，EMMA主要包括：1) 一个具有32倍压缩比的高效自动编码器，大大减少了生成所需的tokens数量，并通过对图像应用相同的压缩比，确保理解和生成任务之间的训练平衡。2) 采用通道级而非token级的连接方式来整合视觉理解和生成tokens，进一步减少统一架构中的视觉tokens。3) 一个共享与分离的网络，在满足任务特定建模需求的同时，实现任务间的相互改进。4) 在视觉理解编码器中采用专家混合机制，显著提升感知能力，并仅增加少量参数。大量实验表明，EMMA-4B在效率和性能方面显著超越了当前最先进的统一多模态方法（如BAGEL-7B），同时在多模态理解和生成专家（如Qwen3-VL和Qwen-Image）中也取得了有竞争力的结果。我们相信，EMMA为未来统一多模态架构的发展奠定了坚实的基础。\n\n作者：Xin He, Longhui Wei, Jianbo Ouyang, Lingxi Xie, Qi Tian\n\n评论：项目页面：this https URL\n\n网址：https://arxiv.org/pdf/2512.04810.pdf\n\n标题：2025 [2512.04810] EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture.pdf",
+        "地址": "https://arxiv.org/pdf/2512.04810.pdf"
+    },
+    {
+        "名称": "2025 [2512.04784] PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with Pairwise Reward Modeling.pdf",
+        "作者": "Bowen Ping, Chengyou Jia, Minnan Luo, Changliang Xia, Xin Shen, Zhuohang Dang, Hangwei Qian",
+        "摘要": "摘要：一致性图像生成需要在多个图像中忠实地保持身份、风格和逻辑连贯性，这对于故事讲述和角色设计等应用至关重要。由于缺乏大规模数据集以捕捉视觉一致性以及建模人类感知偏好的复杂性，监督训练方法在此任务中表现不佳。本文提出，强化学习（RL）通过让模型在无数据的情况下学习复杂的主观视觉标准，提供了一种有前途的替代方法。为实现这一目标，我们引入了PaCo-RL，一个结合了专业一致性奖励模型和高效RL算法的综合框架。第一个组成部分PaCo-Reward是一个通过自动子图配对构建的大规模数据集训练的成对一致性评估器。它通过生成性自回归评分机制、任务感知指令和连贯逻辑推理（CoT）来评估一致性。第二个组成部分PaCo-GRPO利用一种新颖的分辨率解耦优化策略来显著降低RL成本，并采用日志驯服的多重奖励聚合机制，确保奖励优化的平衡和稳定性。在两个具代表性的子任务中的广泛实验表明，PaCo-Reward显著改善了与人类对视觉一致性的感知对齐度，而PaCo-GRPO在一致性性能以及训练效率和稳定性上达到了最先进的水平。综合来看，这些结果突显了PaCo-RL作为一致性图像生成的实用且可扩展解决方案的前景。项目页面可在此https URL查阅。",
+        "地址": "https://arxiv.org/pdf/2512.04784.pdf"
+    },
+    {
+        "名称": "2025 [2512.05905] SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations.pdf",
+        "作者": "Wenhao Yan, Sheng Ye, Zhuoyi Yang, Jiayan Teng, ZhenHui Dong, Kairui Wen, Xiaotao Gu, Yong-Jin Liu, Jie Tang",
+        "摘要": "摘要：尽管最近在角色动画方面取得了进展，但要实现符合电影制作标准的动画仍然具挑战性。现有方法可以将驱动视频中的动作传递到参考图像，但在涉及复杂动作和跨身份动画的实际场景中，往往难以保持结构上的一致性和时间上的连续性。在这项工作中，我们提出了SCAIL（Studio-grade Character Animation via In-context Learning），这是一个旨在通过两个关键创新来解决这些挑战的框架。首先，我们提出了一种新颖的3D姿势表示，提供了更稳健和灵活的运动信号。其次，我们在扩散-转换器架构中引入了一种全上下文姿势注入机制，使得对整个运动序列进行有效的时空推理成为可能。为了符合电影级的要求，我们开发了一个精心策划的数据管道，以确保多样性和质量，并建立了一个全面的基准进行系统评估。实验表明，SCAIL实现了最先进的性能，推动了角色动画向电影级可靠性和现实主义迈进。",
+        "地址": "https://arxiv.org/pdf/2512.05905.pdf"
+    },
+    {
+        "名称": "2025 [2512.05591] Entropy Ratio Clipping as a Soft Global Constraint for Stable Reinforcement Learning.pdf",
+        "作者": "Zhenpeng Su, Leiyu Pan, Minxuan Lv, Tiehua Mei, Zijia Lin, Yuntao Li, Wenping Hu, Ruiming Tang, Kun Gai, Guorui Zhou",
+        "摘要": "摘要：大型语言模型的后训练依赖强化学习来提高模型能力和对齐质量。然而，非策略训练范式引入了分布转移，这通常将策略推向信任区域之外，导致训练不稳定，表现为策略熵波动和梯度不稳定。尽管PPO-Clip通过重要性裁剪减轻了这个问题，但它仍然忽略了动作的全局分布转移。为了解决这些挑战，我们提出使用当前政策和先前政策之间的熵比作为一种新的全局度量，能有效量化更新过程中策略探索的相对变化。基于此度量，我们引入了\\textbf{熵比裁剪}(ERC)机制，对熵比施加双向约束。在全局分布层面上稳定策略更新，并弥补了PPO-Clip无法调节未抽样动作概率转移的不足。我们将ERC集成到DAPO和GPPO强化学习算法中。多基准测试的实验表明，ERC持续改善性能。",
+        "地址": "https://arxiv.org/pdf/2512.05591.pdf"
+    },
+    {
+        "名称": "2025 [2512.05044] Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image.pdf",
+        "作者": "Yanran Zhang, Ziyi Wang, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu",
+        "摘要": "摘要：从单个静态图像生成交互和动态的4D场景仍然是一个核心挑战。大多数现有的生成-然后重建和重建-然后生成的方法将几何与运动解耦，导致时空不一致和泛化能力差。为了解决这些问题，我们将重建-然后生成框架扩展为共同执行运动生成和几何重建的4D综合（MoRe4D）。我们首先引入了TrajScene-60K，一个包含60,000个视频样本和密集点轨迹的大规模数据集，解决了高质量4D场景数据的稀缺问题。在此基础上，我们提出了基于扩散的4D场景轨迹生成器（4D-STraG），以共同生成几何一致和运动合理的4D点轨迹。为了利用单视图先验，我们设计了一种深度引导的运动归一化策略和一个运动感知模块，用于有效的几何和动态集成。然后，我们提出了一个4D视图合成模块（4D-ViSM），从4D点轨迹表示中渲染具有任意摄像机轨迹的视频。实验表明，MoRe4D能够从单个图像生成具有多视图一致性和丰富动态细节的高质量4D场景。\n\n作者：张延然、王子逸、郑文钊、朱政、周杰、卢继文\n\n评论：18页\n\n网址：https://arxiv.org/pdf/2512.05044.pdf\n\n标题：《从单个图像联合3D几何重建和运动生成的4D综合》",
+        "地址": "https://arxiv.org/pdf/2512.05044.pdf"
+    },
+    {
+        "名称": "2025 [2512.04563] COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence.pdf",
+        "作者": "Zefeng Zhang, Xiangzhao Hao, Hengzhu Tang, Zhenyu Zhang, Jiawei Sheng, Xiaodong Li, Zhenyang Li, Li Gao, Daiting Shi, Dawei Yin, Tingwen Liu",
+        "摘要": "摘要：视觉空间推理对于使多模态大语言模型 (MLLMs) 理解物体属性和空间关系至关重要，但当前的模型在三维感知推理方面仍然存在困难。现有的方法通常通过辅助模态（如深度和分割）增强RGB输入，来提升感知能力，或通过训练空间VQA数据集和应用强化学习来增强推理能力，因此将这两个方面分开处理。在本研究中，我们探讨了一个统一的MLLM是否可以通过适应性交替推理，内在地增强空间感知能力并实现更强的空间智能。我们提出了COOPER，一个统一的MLLM，利用深度和分割作为辅助模态，并通过两个阶段的训练来获得辅助模态生成和适应性、交替推理能力。COOPER在空间推理方面平均提升了6.91%，同时保持整体性能。此外，即使是仅训练辅助模态生成的变体在距离和大小估计上也达到了7.92%的提升，这表明学习生成辅助模态有助于内部化空间知识和增强空间理解。\n\n翻译：摘要：视觉空间推理对于使多模态大语言模型（MLLMs）理解物体属性和空间关系至关重要，但当前的模型在三维感知推理方面仍然存在困难。现有的方法通常通过辅助模态（例如深度和分割）增强RGB输入的感知能力，或通过训练空间VQA数据集和应用强化学习来增强推理能力，因此将这两个方面分开处理。在本研究中，我们探讨了一个统一的MLLM是否可以通过适应性交替推理内在地增强空间感知能力并实现更强的空间智能。我们提出了COOPER，一个统一的MLLM，利用深度和分割作为辅助模态，并通过两个阶段的训练来获得辅助模态生成和适应性、交替推理能力。COOPER在空间推理方面平均提升了6.91%，同时保持整体性能。此外，即使是仅训练辅助模态生成的变体在距离和大小估计上也达到了7.92%的提升，这表明学习生成辅助模态有助于内部化空间知识和增强空间理解。",
+        "地址": "https://arxiv.org/pdf/2512.04563.pdf"
+    },
+    {
+        "名称": "2025 [2512.00473] RealGen: Photorealistic Text-to-Image Generation via Detector-Guided Rewards.pdf",
+        "作者": "Junyan Ye, Leiqi Zhu, Yuncheng Guo, Dongzhi Jiang, Zilong Huang, Yifan Zhang, Zhiyuan Yan, Haohuan Fu, Conghui He, Weijia Li",
+        "摘要": "摘要：随着图像生成技术的不断进步，先进的模型如GPT-Image-1和Qwen-Image在文本到图像的一致性和世界知识方面取得了显著成就。然而，这些模型在生成逼真的图像方面仍然存在不足。在简单的文本到图像任务中，它们往往生成带有明显AI伪迹的“假”图像，常见的特征包括“过于光滑的皮肤”和“油腻的面部光泽”。为了重新实现“与现实无异”的生成目标，我们提出了RealGen，一个逼真的文本到图像框架。RealGen结合了用于提示优化的大型语言模型(LLM)组件和用于逼真图像生成的扩散模型。受对抗生成的启发，RealGen引入了“检测奖励”机制，使用语义级和特征级合成图像检测器量化伪迹并评估现实感。我们利用GRPO算法优化整个生成管道，显著增强图像的真实感和细节。此外，我们提出了RealBench，一个自动评价基准，采用检测评分和竞技场评分，实现无需人工的逼真度评估，结果更为准确且与真实用户体验一致。实验表明，RealGen在真实感、细节和美学方面显著优于通用模型如GPT-Image-1和Qwen-Image，以及专门的逼真模型如FLUX-Krea。代码可在此网址获取： https://arxiv.org/pdf/2512.00473.pdf。\n\n作者：Junyan Ye, Leiqi Zhu, Yuncheng Guo, Dongzhi Jiang, Zilong Huang, Yifan Zhang, Zhiyuan Yan, Haohuan Fu, Conghui He, Weijia Li",
+        "地址": "https://arxiv.org/pdf/2512.00473.pdf"
+    },
+    {
+        "名称": "2025 [2512.05145] Self-Improving VLM Judges Without Human Annotations.pdf",
+        "作者": "Inna Wanyin Lin, Yushi Hu, Shuyue Stella Li, Scott Geng, Pang Wei Koh, Luke Zettlemoyer, Tim Althoff, Marjan Ghazvininejad",
+        "摘要": "摘要：视觉-语言模型（VLMs）的有效评估对于模型开发至关重要。目前训练VLM评估模型的方法主要依赖于大规模的人类偏好注释。然而，这种方法成本高昂，并且随着模型的快速改进，注释很容易变得过时。在这项工作中，我们提出了一种无需任何人类偏好注释，仅使用自合成数据自我训练VLM评估模型的框架。我们的方法是迭代的，分为三个阶段：(1) 在不同质量水平上生成多样化的多模态指令-响应对，(2) 为每对生成推理轨迹和评判，去除不符合预期质量水平的对，(3) 训练正确的评判答案及其推理轨迹。我们在不同领域（正确性、偏好、推理、安全性和视觉问答）上对生成的评估模型进行了评估，包括Multimodal RewardBench和VL-RewardBench。我们的方法将Llama-3.2-11B多模态评估模型在VL-RewardBench上的总体准确率从0.38提升至0.51，且经常超越包括Llama-3.2-90B、GPT-4o和Claude 3.5 Sonnet在内的较大模型，尤其在泛化、幻觉和推理维度取得显著提升。这些无需人类注释的结果整体表现强劲，表明未来的自我评估模型有可能随着VLM能力的迅速提升而不断发展。",
+        "地址": "https://arxiv.org/pdf/2512.05145.pdf"
+    },
+    {
+        "名称": "2025 [2512.05927] World Models That Know When They Don't Know: Controllable Video Generation with Calibrated Uncertainty.pdf",
+        "作者": "Zhiting Mei, Tenny Yin, Micah Baker, Ola Shorinwa, Anirudha Majumdar",
+        "摘要": "摘要：近年来，生成视频模型取得了显著突破，特别是在可控视频生成方面，即生成的视频依据文本和动作输入进行调控，例如在指导编辑视频和机器人世界建模中。尽管具有这些卓越的能力，可控视频模型经常存在幻觉问题——生成的未来视频帧与物理现实不符——这在许多任务中引发了严重担忧，例如机器人策略评估和规划。然而，最先进的视频模型缺乏评估和表达自身信心的能力，阻碍了幻觉问题的缓解。为了严格解决这一挑战，我们提出了C3，一种不确定性量化（UQ）方法，用于训练连续标度校准的可控视频模型，以便在子补丁级别进行密集置信度估计，精确定位每个生成视频帧的不确定性。我们的UQ方法引入了三个核心创新，使视频模型能够估计其不确定性。首先，我们的方法开发了一个新颖的框架，通过严格的正确评分规则训练视频模型的正确性和校准。其次，我们在潜在空间中估计视频模型的不确定性，避免了像素空间方法所带来的训练不稳定性和极高的训练成本。第三，我们将密集的潜在空间不确定性映射到RGB空间中可解释的像素级不确定性，以便直观可视化，提供高分辨率的不确定性热图，识别不可信区域。通过对大规模机器人学习数据集（Bridge和DROID）的大量实验和实际评估，我们证明了我们的方法不仅在训练分布内提供了校准的不确定性估计，还能有效实现分布外检测。",
+        "地址": "https://arxiv.org/pdf/2512.05927.pdf"
+    },
+    {
+        "名称": "2025 [2512.05343] SpaceControl: Introducing Test-Time Spatial Control to 3D Generative Modeling.pdf",
+        "作者": "Elisabetta Fedele, Francis Engelmann, Ian Huang, Or Litany, Marc Pollefeys, Leonidas Guibas",
+        "摘要": "摘要：生成3D资产的方法最近取得了显著进展，但提供对物体几何形状的直观和精确控制仍然是一个关键挑战。现有方法主要依赖文本或图像提示，这在几何特异性上往往不尽如人意：语言可能含糊不清，图像则难以编辑。在这项工作中，我们介绍了SpaceControl，这是一种在测试时无需训练的方法，用于对3D生成进行显式空间控制。我们的方法接受从粗略原语到详细网格的广泛几何输入，并与现代预训练生成模型无缝集成，而无需任何额外训练。一个可控参数使用户可以在几何保真度和输出逼真度之间进行权衡。广泛的定量评估和用户研究表明，SpaceControl在几何真实性方面优于基于训练和优化的基线，同时保持了较高的视觉质量。最后，我们展示了一个交互式用户界面，允许在线编辑超二次曲面并直接转换为带纹理的3D资产，从而促进在创意工作流程中的实际应用。请访问我们的项目页面this https URL。\n\n作者：Elisabetta Fedele, Francis Engelmann, Ian Huang, Or Litany, Marc Pollefeys, Leonidas Guibas\n\n评论：项目页面：this https URL\n\n链接：https://arxiv.org/pdf/2512.05343.pdf\n\n标题：SpaceControl：引入测试时空间控制到3D生成建模",
+        "地址": "https://arxiv.org/pdf/2512.05343.pdf"
+    },
+    {
+        "名称": "2025 [2512.02835] ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning.pdf",
+        "作者": "Yifan Li, Yingda Yin, Lingting Zhu, Weikai Chen, Shengju Qian, Xin Wang, Yanwei Fu",
+        "摘要": "摘要：以推理为中心的视频对象分割是一项本质上复杂的任务：查询通常涉及动态性、因果关系和时间交互，而不仅仅是静态外观。然而，现有的解决方案通常将这些因素简化为隐式嵌入的推理，使推理链变得不透明且基本上难以处理。因此，我们采用明确分解的视角，并引入了ReVSeg，该方法在预训练视觉语言模型（VLMs）的原生界面中，将推理作为序列决策执行。ReVSeg并没有将所有推理折叠到单步预测中，而是执行了三步明确的操作——语义解释、时间证据选择和空间定位——以对齐预训练的能力。我们进一步采用强化学习来优化多步推理链，使模型能够从结果驱动的信号中自我优化决策质量。实验结果表明，ReVSeg在标准视频对象分割基准上达到了最新的性能，并产生了可解释的推理路径。项目页面可在此链接查看。",
+        "地址": "https://arxiv.org/pdf/2512.02835.pdf"
+    },
+    {
+        "名称": "2025 [2512.05356] AI & Human Co-Improvement for Safer Co-Superintelligence.pdf",
+        "作者": "Jason Weston, Jakob Foerster",
+        "摘要": "摘要: 自我提升是目前激励AI领域的一个目标，但充满危险，且可能需要时间才能完全实现。我们主张人类一个更可实现且更好的目标是最大化共同提升：人类研究人员与AI之间的协作以实现共同的超级智能。具体来说，目标是改进AI系统与人类研究人员合作开展AI研究的能力，从构思到实验，以便加速AI研究，并通过这种共生关系普遍赋予AI和人类更加安全的超级智能。专注于在循环中包括人类研究改进将帮助我们更快、更安全地达到这一目标。",
+        "地址": "https://arxiv.org/pdf/2512.05356.pdf"
+    },
+    {
+        "名称": "2025 [2512.03514] M3DR: Towards Universal Multilingual Multimodal Document Retrieval.pdf",
+        "作者": "Adithya S Kolavi, Vyoman Jain",
+        "摘要": "在这项研究中，我们提出了M3DR（Multilingual Multimodal Document Retrieval），一个旨在跨越语言障碍的框架，使其在不同的语言和文化背景下适用。M3DR利用合成的多语言文档数据，并在不同的视觉-语言架构和模型规模上进行泛化，从而实现强大的跨语言和跨模态对齐。通过使用对比训练，我们的模型学习到统一的文本和文档图像表示，并能有效地在不同语言间迁移。这种能力在22种具有不同语言类型的语言中得到了验证，展示了其在语言和字母系统变化中的一致表现和适应性。我们还引入了一个全面的基准，捕捉现实世界中的多语言场景，在单语言、多语言和混合语言设置下对模型进行评估。M3DR在单密向量和ColBERT风格的多向量检索范式中均能泛化。我们的模型NetraEmbed和ColNetraEmbed在跨语言检索上实现了大约150%的相对性能提升，达到了最先进水平。\n\n参考链接：https://arxiv.org/pdf/2512.03514.pdf",
+        "地址": "https://arxiv.org/pdf/2512.03514.pdf"
+    },
+    {
+        "名称": "2025 [2512.05277] From Segments to Scenes: Temporal Understanding in Autonomous Driving via Vision-Language Model.pdf",
+        "作者": "Kevin Cannons, Saeed Ranjbar Alvar, Mohammad Asiful Hossain, Ahmad Rezaei, Mohsen Gholami, Alireza Heidarikhazaei, Zhou Weimin, Yong Zhang, Mohammad Akbari",
+        "摘要": "摘要：自主驾驶（AD）中的时间理解仍然是一个重要的挑战，甚至对于最近的最先进（SoTA）视觉-语言模型（VLMs）也是如此。此前的工作已经引入了旨在改进时间推理的数据集和基准，但这些工作主要强调其他视频内容，包括体育、烹饪和电影。现有的基准尚未专注于自我中心视角下的AD视频片段中的时间理解所带来的独特挑战。为填补这一空白，本文提出了自动驾驶中的时间理解（TAD）基准，评估VLMs捕捉AD中的动态关系的能力。TAD包括近6,000个问答（QA）对，涵盖7个人工设计的任务。此外，还进行了评估，包括9个封闭和开源的通用模型以及SoTA AD专用模型。当应用于TAD时，当前的SoTA模型表现出不理想的准确性，主要原因是对细粒度运动理解的不足。为了改进运动理解和TAD上的整体准确性，提出了两种新的无需训练的解决方案：Scene-CoT，利用思维链（Chain-of-Thought，CoT）和TCogMap，结合自我中心的时间认知图。这些方法与现有的VLM联合使用，将TAD上的平均准确率提高了最多17.72%。通过引入TAD、对多个SoTA模型进行基准测试并提出有效的增强方法，这项工作旨在推动未来AD中的时间理解研究。基准和评估代码可在Hugging Face和Github上找到。\n\n网址：https://arxiv.org/pdf/2512.05277.pdf",
+        "地址": "https://arxiv.org/pdf/2512.05277.pdf"
+    },
+    {
+        "名称": "2025 [2512.05564] ProPhy: Progressive Physical Alignment for Dynamic World Simulation.pdf",
+        "作者": "Zijun Wang, Panwen Hu, Jing Wang, Terry Jingchen Zhang, Yuhao Cheng, Long Chen, Yiqiang Yan, Zutao Jiang, Hanhui Li, Xiaodan Liang",
+        "摘要": "摘要：近年来，视频生成技术取得了显著进展，在构建世界模拟器方面展现了巨大的潜力。然而，当前的模型在生成物理一致的结果时仍然存在困难，特别是在处理大规模或复杂动态时。这一限制主要是由于现有方法对物理提示的反应是各向同性的，忽略了生成内容与局部物理线索之间的细致对齐。为了解决这些挑战，我们提出了ProPhy，一个渐进物理对齐框架，它实现了显式的物理感知条件和各向异性生成。ProPhy采用了一个两阶段的物理专家混合（MoPE）机制，用于辨别性物理先验提取，其中语义专家通过文本描述推断语义层级的物理原则，细化专家捕捉到词汇层级的物理动态。该机制使模型能够学习细粒度的、物理感知的视频表征，更好地反映潜在的物理规律。此外，我们引入了一种物理对齐策略，将视觉语言模型（VLMs）的物理推理能力转移到细化专家中，从而更准确地表征动态物理现象。在物理感知视频生成基准上的大量实验表明，ProPhy比现有的最先进方法生成的结果更加真实、动态和物理一致。",
+        "地址": "https://arxiv.org/pdf/2512.05564.pdf"
+    },
+    {
+        "名称": "2025 [2512.05409] SQ-format: A Unified Sparse-Quantized Hardware-friendly Data Format for LLMs.pdf",
+        "作者": "Ruixuan Huang, Hao Zeng, Hantao Huang, Jinyuan Shi, Minghui Yu, Ian En-Hsu Yen, Shuai Wang",
+        "摘要": "摘要：后训练量化（PTQ）在大语言模型（LLM）的普及中起着至关重要的作用。然而，现有的低比特量化和稀疏化技术由于硬件支持的限制，很难在精度和效率之间取得平衡。例如，W4A8只能达到与W8A8相同的峰值TOPS，而GPU支持的稀疏数据格式（2:4半结构稀疏）由于精度损失很少被采用。为了解决这一鸿沟，本文提出了稀疏量化格式（SQ格式），这是一种统一的量化和稀疏化数据格式，可能被新的硬件和现有的GPU轻松支持。SQ格式利用了稀疏矩阵可以在高精度下加速的事实，低精度矩阵乘法也可以相应加速。因此，提出SQ格式以在性能和吞吐量之间实现帕累托改进。该格式特别适用于具有异常不平衡状态的激活，并使其静态压缩成为可能。我们展示了使用SQ格式的最新PTQ性能，提出了支持它所需的硬件，并进一步提供下一代AI加速器的设计探索和见解。",
+        "地址": "https://arxiv.org/pdf/2512.05409.pdf"
+    },
+    {
+        "名称": "2025 [2512.04694] TimesNet-Gen: Deep Learning-based Site Specific Strong Motion Generation.pdf",
+        "作者": "Baris Yilmaz, Bevan Deniz Cilgin, Erdem Akagündüz, Salih Tileylioglu",
+        "摘要": "摘要（翻译为中文）：\n\n有效的地震风险减少依赖于准确的场址特定评估。这需要能表示当地场址条件对地面运动特征影响的模型。在这种背景下，从记录的地面运动中学习场址控制特征的数据驱动方法提供了一个有前途的方向。我们通过时间域加速度计记录生成强地震运动，并引入TimesNet-Gen，一种时间域的条件生成器。该方法使用场站特定的隐藏瓶颈。我们通过比较真实记录和生成记录每个场站的HVSR 曲线和基本场址频率 $f_0$ 分布来评估生成效果，并通过基于 $f_0$ 分布混淆矩阵的评分总结场站特异性。TimesNet-Gen在场站特异性上取得了强的对齐，并在场址特异性强地震运动合成方面，与基于频谱图的条件VAE基线相比表现优异。我们的代码可通过以下网址获取：https://arxiv.org/pdf/2512.04694.pdf",
+        "地址": "https://arxiv.org/pdf/2512.04694.pdf"
+    },
+    {
+        "名称": "2025 [2512.03667] Colon-X: Advancing Intelligent Colonoscopy from Multimodal Understanding to Clinical Reasoning.pdf",
+        "作者": "Ge-Peng Ji, Jingyi Liu, Deng-Ping Fan, Nick Barnes",
+        "摘要": "在这项研究中，我们提出了 Colon-X，这是一个旨在推动结肠镜检查多模态智能发展的开放计划。我们首先构建了 ColonVQA，这是迄今为止最全面的结肠镜检查多模态数据集，包含超过110万个视觉问答条目，涵盖76个临床发现和18个多模态任务。除了作为一个社区范围的数据基础外，我们还深入研究了结肠镜检查中一个关键但未被充分探索的过渡——从多模态理解到临床推理：（一）为了捕捉当前的多模态理解行为，我们系统地评估了22个多模态大语言模型的泛化性，并检查了它们在人为扰动下的可靠性。结果表明，领先的多模态大语言模型的临床输出仍然远未达到稳健和可信的标准。（二）为了缩小这一差距，我们进一步探索了针对结肠镜检查的推理中心智能。具体来说，我们创建了 ColonReason，这是一个通过多专家辩论流程注释的临床推理数据集，并开发了 ColonR1，这是首个结合任务适应性奖励和梯度稳定优化技术的 R1 式模型。在数据稀缺的情况下，我们的 ColonR1 实现了56.61%的整体准确率，超出了监督微调25.22%，并为多模态结肠镜检查分析设定了一个新的推理基准。所有数据和模型资源在此网址公开。\n\n来源：Ge-Peng Ji, Jingyi Liu, Deng-Ping Fan, Nick Barnes\n评论：技术报告\n链接：https://arxiv.org/pdf/2512.03667.pdf\n标题：2025 [2512.03667] Colon-X：从多模态理解到临床推理的智能结肠镜检查.pdf",
+        "地址": "https://arxiv.org/pdf/2512.03667.pdf"
+    },
+    {
+        "名称": "2025 [2512.05774] Active Video Perception: Iterative Evidence Seeking for Agentic Long Video Understanding.pdf",
+        "作者": "Ziyang Wang, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles",
+        "摘要": "摘要：对长视频的理解（LVU）非常具有挑战性，因为回答现实世界中的问题通常依赖于分散在几小时冗余和不相关内容中的稀疏时间线索。尽管智能管道提高了视频推理能力，但现有框架依赖于与查询无关的字幕生成器来感知视频信息，这浪费了在不相关内容上的计算资源，并使细粒度的时间和空间信息模糊。受到主动感知理论的启发，我们认为LVU代理应该主动决定观察什么、何时观察和在哪里观察，并持续评估当前观察是否足以回答查询。我们提出了主动视频感知（AVP），这是一种证据搜索框架，它将视频视为交互环境，直接从像素中获取紧凑、与查询相关的证据。具体来说，AVP通过MLLM代理运行一个迭代的计划-观察-反思过程。在每一轮中，计划者提出有针对性的视频交互，观察者执行它们以提取时间标记的证据，反思者评估证据是否足以回答查询，或者通过一个答案结束，或者触发进一步的观察。在五个LVU基准测试中，AVP实现了最高性能，并显著改进。值得注意的是，AVP平均准确率比最好的智能方法高出5.7%，而仅需要18.4%的推理时间和12.4%的输入令牌。\n\n作者：Ziyang Wang, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles\n\n评论：网站链接：这个 https URL\n\n网址：https://arxiv.org/pdf/2512.05774.pdf\n\n标题：2025 [2512.05774] 主动视频感知：智能长视频理解的迭代证据搜索.pdf",
+        "地址": "https://arxiv.org/pdf/2512.05774.pdf"
+    },
+    {
+        "名称": "2025 [2512.04142] From FLOPs to Footprints: The Resource Cost of Artificial Intelligence.pdf",
+        "作者": "Sophia Falk, Nicholas Kluge Corrêa, Sasha Luccioni, Lisa Biber-Freudenberger, Aimee van Wynsberghe",
+        "摘要": "摘要：随着计算需求持续上升，评估人工智能的环境足迹需要超越能量和水的消耗，涵盖专用硬件的物质需求。本研究通过将计算工作负载与物理硬件需求联系起来，量化了人工智能训练的物质足迹。使用感应耦合等离子体发射光谱对Nvidia A100 SXM 40 GB图形处理单元（GPU）的元素组成进行了分析，识别出32种元素。结果表明，人工智能硬件由约90%的重金属和仅微量的贵金属组成。铜、铁、锡、硅和镍元素在质量上主导了GPU的组成。在多步骤方法中，我们将这些测量结果与不同寿命周期内单个GPU的计算吞吐量结合起来，计算具体人工智能模型在不同训练效率下的计算需求。基于情景分析显示，根据模型算力利用率（MFU）和硬件寿命，训练GPT-4需要1,174至8,800个A100 GPU，对应的有毒元素的提取和最终处置重量达7吨。综合的软硬件优化策略可以减少物质需求：将MFU从20%提高到60%可降低67%的GPU需求，而将寿命从1年延长到3年即可获得相当的节省；同时实施这两项措施可将GPU需求减少最多93%。我们的研究结果强调了诸如GPT-3.5和GPT-4之间观察到的性能增益是以高昂的物质成本为代价的。本研究强调了在讨论人工智能规模时必须纳入物质资源考虑，强调未来人工智能的进展必须与资源效率和环境责任原则保持一致。\n\n作者：Sophia Falk, Nicholas Kluge Corrêa, Sasha Luccioni, Lisa Biber-Freudenberger, Aimee van Wynsberghe\n\n链接：https://arxiv.org/pdf/2512.04142.pdf \n\n标题：从算力到足迹：人工智能的资源成本",
+        "地址": "https://arxiv.org/pdf/2512.04142.pdf"
+    },
+    {
+        "名称": "2025 [2512.05339] Taxonomy-Adaptive Moderation Model with Robust Guardrails for Large Language Models.pdf",
+        "作者": "Mahesh Kumar Nandwana, Youngwan Lim, Joseph Liu, Alex Yang, Varun Notibala, Nishchaie Khanna",
+        "摘要": "摘要：大型语言模型（LLMs）通常在后训练阶段进行安全校准；然而，它们可能仍会生成不恰当的输出，从而对用户构成潜在风险。这一挑战强调了需要在模型输入和输出两方面进行稳健的安全防护。在这项工作中，我们推出了Roblox Guard 1.0，这是一种最新的指令微调LLM，旨在通过全面的输入输出监管增强LLM系统的安全性，利用一系列LLM来提升监管能力。我们的模型基于Llama-3.1-8B-Instruct，并通过指令微调以泛化到未见过的安全分类法领域，并在域外安全基准测试中表现出色。指令微调过程使用混合的合成和开源安全数据集，辅以思维链（CoT）推理和输入反演来增强上下文理解和决策能力。为支持系统评估，我们还发布了RobloxGuard-Eval，这是一个新的基准，具有可扩展的安全分类法，以评估LLM护栏和监管框架的有效性。\n\n作者：Mahesh Kumar Nandwana, Youngwan Lim, Joseph Liu, Alex Yang, Varun Notibala, Nishchaie Khanna\n\n评论：将在AAAI-26 PerFM研讨会上展示\n\n网址：https://arxiv.org/pdf/2512.05339.pdf\n\n标题：2025 [2512.05339] 具有鲁棒护栏的大型语言模型的分类法自适应监管模型",
+        "地址": "https://arxiv.org/pdf/2512.05339.pdf"
+    }
+]
