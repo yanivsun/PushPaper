@@ -1,0 +1,176 @@
+[
+    {
+        "名称": "2025 [2512.07461] Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning.pdf",
+        "作者": "Tong Wu, Yang Liu, Jun Bai, Zixia Jia, Shuyi Zhang, Ziyong Lin, Yanting Wang, Song-Chun Zhu, Zilong Zheng",
+        "摘要": "摘要：我们介绍了Native Parallel Reasoner（NPR），这是一种无需教师的框架，使大语言模型（LLM）能够自主发展真正的并行推理能力。NPR通过三项关键创新将模型从顺序模仿转换为原生的并行认知：1）一种自我蒸馏的渐进训练范式，能够在没有外部监督的情况下，从\"冷启动\"格式发现到严格拓扑约束逐步过渡；2）一种新颖的并行感知策略优化（PAPO）算法，直接在执行图内优化分支策略，使模型能够通过试验和错误学习自适应分解；3）一个强大的NPR引擎，重构了SGLang的内存管理和流程控制，以实现稳定的大规模并行强化学习训练。在八个推理基准上，NPR在Qwen3-4B上的训练表现提高了高达24.5％，推理速度最高提高了4.6倍。与以往通常依赖自回归解码的基准不同，NPR展示了100％真正的并行执行，确立了一种自我演化、高效且可扩展的代理推理的新标准。",
+        "地址": "https://arxiv.org/pdf/2512.07461.pdf"
+    },
+    {
+        "名称": "2025 [2512.07525] Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs.pdf",
+        "作者": "Xiaoran Liu, Yuerong Song, Zhigeng Liu, Zengfeng Huang, Qipeng Guo, Zhaoxiang Liu, Shiguo Lian, Ziwei He, Xipeng Qiu",
+        "摘要": "摘要：旋转位置嵌入（RoPE）已成为通过在复平面中对查询和键向量应用旋转来编码大型语言模型（LLM）中序列顺序的标准方法。然而，标准实现仅利用复值点积的实部来计算注意力得分。这一简化忽略了包含有价值的相位信息的虚部，导致潜在的长距离依赖关系的细节丢失。在本文中，我们提出了一种扩展方法，将被丢弃的虚部重新纳入其中。我们的方法利用完整的复值表示来创建双分量注意力得分。我们从理论和实证上展示了这种方法通过保留更多的位置信息来增强长距离依赖关系的建模。此外，在一系列长距离上下文语言模型基准测试中的评估表明，我们的方法在上下文长度增加时，其表现一致优于标准的RoPE。相关代码可以在此https URL处获得。\n\n翻译：旋转位置嵌入（RoPE）已成为通过在复平面中对查询和键向量施加旋转来在大型语言模型（LLM）中编码序列顺序的标准方法。然而，标准实现仅利用复值点积的实部来计算注意得分。这种简化丢弃了包含有价值的相位信息的虚部，导致了潜在的关系细节损失，这对建模长上下文依赖关系至关重要。在本文中，我们提出了一种重纳这种被丢弃的虚部的扩展方法。我们的方法利用完整的复值表示来创建双分量的注意得分。我们从理论和实证上证明了这种方法通过保留更多的位置信息来增强长上下文依赖关系的建模。此外，在一组长上下文语言模型基准测试中的评估表明，我们的方法在上下文长度增加时，其表现一致优于标准的RoPE。相关代码可在此https URL获取。",
+        "地址": "https://arxiv.org/pdf/2512.07525.pdf"
+    },
+    {
+        "名称": "2025 [2512.07469] Unified Video Editing with Temporal Reasoner.pdf",
+        "作者": "Xiangpeng Yang, Ji Xie, Yiyuan Yang, Yan Huang, Min Xu, Qiang Wu",
+        "摘要": "摘要：现有的视频编辑方法面临一个关键的权衡：专家模型提供精确度，但依赖于特定任务的先验知识，如掩码，从而妨碍了统一性；相反，统一的时间上下文学习模型是无掩码的，但缺乏明确的空间线索，导致指令与区域的映射不清晰和定位不精确。为了解决这一矛盾，我们提出了VideoCoF，一种新颖的“帧链”方法，灵感源自“思维链”推理。VideoCoF通过强制视频扩散模型首先预测推理由（编辑区域潜在变量），然后生成目标视频来执行“看、推理、然后编辑”的程序。这一步明确的推理消除了用户提供掩码的需求，同时实现了精确的指令与区域对齐以及细粒度的视频编辑。此外，我们引入了一种RoPE对齐策略，利用这些推理由保证运动对齐，并使得视频长度超出训练时长。我们通过仅需5万对视频数据的成本，展示了VideoCoF在VideoCoF-Bench上实现了最先进的性能，验证了我们方法的高效性和有效性。我们的代码、权重、数据可在这个HTTPS URL下载。",
+        "地址": "https://arxiv.org/pdf/2512.07469.pdf"
+    },
+    {
+        "名称": "2025 [2512.07834] Voxify3D: Pixel Art Meets Volumetric Rendering.pdf",
+        "作者": "Yi-Chuan Huang, Jiewen Chan, Hao-Jen Chien, Yu-Lun Liu",
+        "摘要": "这里是对所提供学术论文材料中的摘要提取的中文翻译：\n\n摘要：体素艺术是一种广泛应用于游戏和数字媒体中的独特风格，然而，由于几何抽象、语义保留和离散颜色一致性之间的矛盾要求，从3D网格自动生成体素艺术仍然具有挑战性。现有方法要么过度简化几何形状，要么无法实现体素艺术所需的像素精确、调色板限制的美学效果。我们引入了Voxify3D，这是一个将3D网格优化与2D像素艺术监督桥接的可微分两阶段框架。我们的核心创新在于三个组件的协同整合：(1)消除透视失真的正交像素艺术监督，以实现精确的体素像素对齐；(2)基于块的CLIP对齐，以在离散化级别上保留语义；(3)调色板约束的Gumbel-Softmax量化，使得在可控调色板策略下在离散颜色空间中进行可微分优化成为可能。该整合解决了基本挑战：在极端离散化下语义保留，通过体积渲染实现像素艺术美学，以及端到端离散优化。实验表明，它在各种角色上表现出优越的性能（37.12 CLIP-IQA，77.90%用户偏好）和可控的抽象（颜色数量为2-8，分辨率为20x-50x）。\n\n项目页面：这个https URL",
+        "地址": "https://arxiv.org/pdf/2512.07834.pdf"
+    },
+    {
+        "名称": "2025 [2512.06905] Scaling Zero-Shot Reference-to-Video Generation.pdf",
+        "作者": "Zijian Zhou, Shikun Liu, Haozhe Liu, Haonan Qiu, Zhaochong An, Weiming Ren, Zhiheng Liu, Xiaoke Huang, Kam Woh Ng, Tian Xie, Xiao Han, Yuren Cong, Hang Li, Chuyan Zhu, Aditya Patel, Tao Xiang, Sen He",
+        "摘要": "摘要: 参考到视频（Reference-to-Video, R2V）生成旨在合成与文本提示对齐并保留参考图像中的主体身份的视频。然而，当前的R2V方法受限于依赖显式的参考图像-视频-文本三元组，而这种三元组的构建成本高且难以扩展。我们通过引入Saber（一个可扩展的零样本框架）绕过了这个瓶颈，Saber不需要显式的R2V数据。Saber仅在视频-文本对上进行训练，采用掩码训练策略和定制的注意力模型设计来学习一致身份和参考感知的表示。此外，Saber集成了掩码增强技术，以减轻R2V生成中常见的复制-粘贴伪影。此外，Saber在不同数量的参考对象上展示了出色的泛化能力，并在OpenS2V-Eval基准上实现了优于使用R2V数据训练的方法的性能。\n\n作者: 周子健、刘世勋、刘浩哲、邱昊楠、安肇聪、任伟明、刘志恒、黄晓科、吴锦和、解田、韩松、丛雨任、李航、朱初艳、帕特尔·阿迪亚、向涛、何森\n\n评论: 网站: this https URL\n\n链接: https://arxiv.org/pdf/2512.06905.pdf\n\n标题: 2025 [2512.06905] 扩展零样本参考到视频生成",
+        "地址": "https://arxiv.org/pdf/2512.06905.pdf"
+    },
+    {
+        "名称": "2025 [2512.06749] DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems.pdf",
+        "作者": "Ming Ma, Jue Zhang, Fangkai Yang, Yu Kang, Qingwei Lin, Tianming Yang, Saravan Rajmohan, Dongmei Zhang",
+        "摘要": "摘要：基于大型语言模型（LLM）的多代理系统调试难度较大，因为失败通常源于长且分支的互动轨迹。目前的实践是利用LLM进行基于日志的故障定位，将错误归因于特定代理和步骤。然而，这种范式有两个主要限制：（i）仅基于日志的调试缺乏验证，产生未经测试的假设；（ii）单步或单代理的归因通常描述不清，因为我们发现多种不同的干预措施可以独立修复失败的任务。为了解决第一个限制，我们引入了DoVer，这是一种干预驱动的调试框架，通过有针对性的干预（例如编辑消息，改变计划）增强假设生成和主动验证。针对第二个限制，我们不再评估归因准确性，而是重点测量系统是否解决了失败或在任务成功方面取得了可量化的进展，反映了一种更注重结果的调试视角。在Magnetic-One代理框架内，基于GAIA和AssistantBench衍生的数据集，DoVer将18-28%的失败试验转化为成功，达到了最多16%的里程碑进展，并验证或推翻了30-60%的失败假设。DoVer还在另一个数据集（GSMPlus）和代理框架（AG2）上表现良好，恢复了49%的失败试验。这些结果突显了干预作为提高代理系统可靠性的实用机制，并为LLM多代理系统提供了更健壮、可扩展的调试方法的机会。项目网站和代码将在此HTTPS URL上提供。",
+        "地址": "https://arxiv.org/pdf/2512.06749.pdf"
+    },
+    {
+        "名称": "2025 [2512.07778] Distribution Matching Variational AutoEncoder.pdf",
+        "作者": "Sen Ye, Jianning Pei, Mengde Xu, Shuyang Gu, Chunyu Wang, Liwei Wang, Han Hu",
+        "摘要": "摘要：\n大多数视觉生成模型在应用扩散或自回归建模之前都会将图像压缩到潜在空间中。然而，现有的方法如VAE和基础模型对齐的编码器隐含地约束了潜在空间，而没有明确地塑造其分布，这使得不清楚哪些类型的分布对于建模是最优的。我们介绍了\\textbf{Distribution-Matching VAE}（\\textbf{DMVAE}），该方法通过分布匹配约束显式地将编码器的潜在分布与任意的参考分布对齐。这超越了传统VAE的高斯先验，能够与从自监督特征、扩散噪声或其他先验分布中导出的分布对齐。通过DMVAE，我们可以系统地研究哪些潜在分布更有助于建模，发现SSL导出的分布在重建保真度和建模效率之间提供了出色的平衡，在ImageNet上仅用64个训练时期就达到了gFID等于3.2。我们的结果表明，选择适当的潜在分布结构（通过分布级对齐实现），而不是依赖固定的先验，是弥合易于建模的潜在分布和高保真图像合成之间差距的关键。代码可在该网址获得：https URL。",
+        "地址": "https://arxiv.org/pdf/2512.07778.pdf"
+    },
+    {
+        "名称": "2025 [2512.06065] EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing.pdf",
+        "作者": "Runjia Li, Moayed Haji-Ali, Ashkan Mirzaei, Chaoyang Wang, Arpit Sahni, Ivan Skorokhodov, Aliaksandr Siarohin, Tomas Jakab, Junlin Han, Sergey Tulyakov, Philip Torr, Willi Menapace",
+        "摘要": "摘要：我们研究了用于交互式AR应用指令引导的第一人称视频编辑。虽然最近的AI视频编辑器在第三人称视频上表现良好，但第一人称视角存在独特的挑战——包括快速的自我运动和频繁的手物体交互——这些都造成了显著的领域差距。此外，现有的离线编辑流程存在高延迟，限制了实时交互。为了解决这些问题，我们提出了一个完整的第一人称视频编辑生态系统。首先，我们构建了EgoEditData，这是一个精心设计和手动整理的数据集，专门用于第一人称编辑场景，具有丰富的手物体交互，同时显式保留了手的存在。其次，我们开发了EgoEdit，这是一个支持在单个GPU上进行实时流推断的指令跟随第一人称视频编辑器。最后，我们引入了EgoEditBench，这是一个评估套件，目标是指令的准确性、手和交互的保留，以及自我运动下的时间稳定性。无论是第一人称还是一般的编辑任务，EgoEdit都能产生时间稳定、指令准确的结果，并具有交互式延迟。它在现有方法表现不佳的第一人称编辑基准上取得了显著提升，同时在一般编辑任务上的性能可与最强的基线方法媲美。EgoEditData和EgoEditBench将向研究社区公开。有关更多信息，请访问我们的网站：此https URL。",
+        "地址": "https://arxiv.org/pdf/2512.06065.pdf"
+    },
+    {
+        "名称": "2025 [2512.07833] Relational Visual Similarity.pdf",
+        "作者": "Thao Nguyen, Sicheng Mo, Krishna Kumar Singh, Yilin Wang, Jing Shi, Nicholas Kolkin, Eli Shechtman, Yong Jae Lee, Yuheng Li",
+        "摘要": "摘要：人类不仅能够看到属性上的相似性——我们还能够看到关系上的相似性。例如，苹果和桃子是相似的，因为它们都是红色的水果，但地球也像桃子：它的地壳、地幔和地核分别对应于桃子的果皮、果肉和果核。认知科学家认为，这种感知和识别关系相似性的能力是人类与其他物种的区别。然而，目前广泛使用的视觉相似性度量指标（例如，LPIPS、CLIP、DINO）仅关注感知属性相似性，未能捕捉人类感知到的丰富且常常令人惊讶的关系相似性。如何超越图像的可见内容来捕捉其关系属性？如何将具有相同关系逻辑的图像在表示空间中拉近？为了解答这些问题，我们首先将关系图像相似性公式化为一个可测量的问题：当两个图像的内部关系或视觉元素之间的功能相对应时，即使它们的视觉属性不同，它们也在关系上是相似的。我们随后策划了一个包含11.4万张图像-字幕的数据库，其中字幕是匿名的——描述场景的基础关系逻辑而非其表面内容。使用这个数据集，我们微调了一个视觉-语言模型，以测量图像之间的关系相似性。这个模型作为第一个步骤，通过其基础关系结构而非可见外观来连接图像。我们的研究表明，尽管关系相似性有很多实际应用，现有图像相似性模型未能捕捉这一点，揭示了视觉计算中的一个关键缺口。\n\n作者：Thao Nguyen, Sicheng Mo, Krishna Kumar Singh, Yilin Wang, Jing Shi, Nicholas Kolkin, Eli Shechtman, Yong Jae Lee, Yuheng Li\n\n评论：项目页面、数据和代码：https网址\n\n标题：2025 [2512.07833] 关系视觉相似性",
+        "地址": "https://arxiv.org/pdf/2512.07833.pdf"
+    },
+    {
+        "名称": "2025 [2512.07806] Multi-view Pyramid Transformer: Look Coarser to See Broader.pdf",
+        "作者": "Gyeongjin Kang, Seungkwon Yang, Seungtae Nam, Younggeun Lee, Jungwoo Kim, Eunbyung Park",
+        "摘要": "摘要: 我们提出了一个可扩展的多视角变换器架构——多视角金字塔变换器(MVP)，它能够在一次前向传递中直接从数十到数百张图像中重建出大型三维场景。基于\"广视看全貌，细视看细节\"的理念，MVP建立在两个核心设计原则之上：1) 局部到整体的视角层次结构，逐渐扩大模型的视角范围，从局部视图到群组，最终到整个场景；2) 从细到粗的视图内层次结构，从详细的空间表示开始，逐步汇集成紧凑、信息密集的token。这种双层次结构实现了计算效率和表达丰富性，使得能够快速重建庞大而复杂的场景。我们在各类数据集上验证了MVP，并展示了在与高斯3D点镶嵌作为底层三维表示结合时，它在提供最先进的通用重建质量的同时，保持高效性和可扩展性，适用于多种视角配置。",
+        "地址": "https://arxiv.org/pdf/2512.07806.pdf"
+    },
+    {
+        "名称": "2025 [2512.07584] LongCat-Image Technical Report.pdf",
+        "作者": "Meituan LongCat Team: Hanghang Ma, Haoxian Tan, Jiale Huang, Junqiang Wu, Jun-Yan He, Lishuai Gao, Songlin Xiao, Xiaoming Wei, Xiaoqi Ma, Xunliang Cai, Yayong Guan, Jie Hu",
+        "摘要": "摘要：我们介绍了LongCat-Image，这是一个首创的开源双语（中英文）图像生成基础模型，旨在解决当前主流模型中常见的多语言文本渲染、照片真实感、部署效率和开发者可访问性等核心问题。1）通过在预训练、中期训练和SFT阶段的严格数据策划策略，并在RL阶段协调使用策划的奖励模型，我们实现了这一目标。此策略使得该模型成为新的最先进（SOTA）模型，提供了卓越的文本渲染能力和显著的照片真实感，并极大地提升了美学质量。2）值得注意的是，它为汉字渲染设定了新的行业标准。通过支持甚至是复杂和罕见的字符，它在覆盖范围上优于主要的开源和商业解决方案，同时还达到了较高的准确性。3）该模型通过其紧凑的设计实现了显著的效率。核心扩散模型仅有6B参数，远小于该领域常见的接近20B或更大的专家混合（MoE）架构。这确保了最小的VRAM使用量和快速推理，大大降低了部署成本。除了生成，LongCat-Image在图像编辑方面也表现出色，在标准基准测试中获得了SOTA结果，并且与其他开源作品相比，编辑一致性更佳。4）为了全面赋能社区，我们建立了迄今为止最全面的开源生态系统。我们不仅发布了多个文本到图像和图像编辑的模型版本，包括中期训练后和后期训练后的检查点，还发布了整个训练过程的工具链。我们相信，LongCat-Image的开放性将为开发者和研究人员提供坚实的支持，推动视觉内容创作的前沿发展。",
+        "地址": "https://arxiv.org/pdf/2512.07584.pdf"
+    },
+    {
+        "名称": "2025 [2512.07831] UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation.pdf",
+        "作者": "Jiehui Huang, Yuechen Zhang, Xu He, Yuan Gao, Zhi Cen, Bin Xia, Yan Zhou, Xin Tao, Pengfei Wan, Jiaya Jia",
+        "摘要": "摘要翻译如下：\n\n摘要：近期的视频生成模型展示了令人印象深刻的合成能力，但由于单一模态的条件限制，其对整体世界的理解仍然有限。这源于不足的跨模态互动和有限的模态多样性以全面表示世界知识。为了解决这些限制，我们引入了UnityVideo，一个统一的框架，用于综合世界视频生成，通过多种模态（分割掩码、人类骨架、DensePose、光流和深度图）和训练模式共同学习。我们的方法具有两个核心组件：（1）动态噪声处理以统一异构训练模式，和（2）具有上下文学习功能的模态切换器，能够通过模块化参数和上下文学习进行统一处理。我们贡献了一个包含130万样本的大规模统一数据集。通过联合优化，UnityVideo加快了收敛速度，并显著提升了对未见数据的零样本泛化能力。我们证明了UnityVideo实现了更高的视频质量、一致性，以及与物理世界约束的改进对齐。代码和数据可以在此网址找到：this https URL",
+        "地址": "https://arxiv.org/pdf/2512.07831.pdf"
+    },
+    {
+        "名称": "2025 [2512.07783] On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models.pdf",
+        "作者": "Charlie Zhang, Graham Neubig, Xiang Yue",
+        "摘要": "摘要：近期的强化学习（RL）技术在语言模型的推理能力上取得了显著的改进，但尚不清楚训练后期是否真正扩展了模型在预训练期间获得的推理能力。一个核心挑战在于现代训练流程中的缺乏控制：大规模预训练语料库不透明，训练中期常常被忽视，RL目标以复杂的方式与未知的先验知识相互作用。为了解决这一问题，我们开发了一个完全受控的实验框架，以分离预训练、训练中期和基于RL的训练后期的因果贡献。我们的方法采用了具有显式原子操作的合成推理任务，可解析的逐步推理轨迹，以及系统操纵训练分布。我们从两个方面评估模型：对更复杂构成的外推泛化和跨表面上下文的情境泛化。使用这个框架，我们调和了对RL有效性的一些竞争观点。我们显示：1）RL仅在预训练留下足够发展空间且RL数据目标在模型的能力边界时（即困难但尚未超出能力范围的任务）才能产生真正的能力提升（pass@128）；2）情境泛化需要最少但足够的预训练曝光，之后RL可以可靠地迁移；3）与仅RL相比，训练中期在固定计算下显著提升性能，表明其在训练流程中的中心但未被充分探索的角色；4）过程级奖励减少了奖励作弊并改善了推理的真实性。这些结果共同澄清了预训练、训练中期和RL之间的相互作用，为理解和改进推理语言模型的训练策略提供了基础。",
+        "地址": "https://arxiv.org/pdf/2512.07783.pdf"
+    },
+    {
+        "名称": "2025 [2512.03244] SPARK: Stepwise Process-Aware Rewards for Reference-Free Reinforcement Learning.pdf",
+        "作者": "Salman Rahman, Sruthi Gorantla, Arpit Gupta, Swastik Roy, Nanyun Peng, Yang Liu",
+        "摘要": "摘要: 过程奖励模型（PRMs）由于能够提供密集的逐步反馈，在强化学习中表现出色，但其应用仍然受到需要昂贵的逐步注释或真实参考的限制。我们提出了SPARK，这是一种三阶段框架，其中在第一阶段，一个生成模型产生不同的解决方案，并使用并行扩展（自一致性）和顺序扩展（元批判）进行评估。在第二阶段，我们将这些验证输出作为合成训练数据，用于微调生成过程奖励模型，这些模型随后在训练中作为奖励信号。我们展示了在步骤级别聚合多个独立验证可以产生训练数据，其效果超过了基于真实结果监督的方法，在ProcessBench（一个识别数学推理中错误步骤的基准测试）中实现了67.5的F1分数，而参考指导训练为66.4，GPT-4o为61.9。在最后阶段，我们应用具有链式思维验证的生成PRM（PRM-CoT）作为数学推理强化学习实验中的奖励模型，并引入格式约束防止奖励操纵。使用Qwen2.5-Math-7B，我们在六个数学推理基准上达到了47.4%的平均准确率，优于基于真实结果的RLVR（43.9%）。我们的工作实现了超越真实方法的无参考强化学习训练，为缺乏可验证答案或可访问真实答案的领域开辟了新可能性。\n\n翻译完成。",
+        "地址": "https://arxiv.org/pdf/2512.03244.pdf"
+    },
+    {
+        "名称": "2025 [2512.03621] ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation.pdf",
+        "作者": "Yaokun Li, Shuaixian Wang, Mantang Guo, Jiehui Huang, Taojun Ding, Mu Hu, Kaixuan Wang, Shaojie Shen, Guang Tan",
+        "摘要": "摘要：我们提出了ReCamDriving，一种完全基于视觉、相机控制的新轨迹视频生成框架。修复方法无法恢复复杂的伪影，基于LiDAR的方法依赖稀疏和不完整的线索，而ReCamDriving利用密集且场景完整的3DGS渲染进行明确的几何指导，实现精确的相机可控生成。为了减轻在使用3DGS渲染进行条件化时过拟合到修复行为，ReCamDriving采用了两阶段训练范式：第一阶段使用相机姿态进行粗略控制，第二阶段结合3DGS渲染进行细粒度视点和几何指导。此外，我们提出了一种基于3DGS的跨轨迹数据管理策略，以消除相机变换模式中的训练-测试间隙，从而实现了从单目视频中可扩展的多轨迹监督。基于这一策略，我们构建了ParaDrive数据集，包含超过110K对平行轨迹视频对。大量实验表明，ReCamDriving实现了最先进的相机可控性和结构一致性。",
+        "地址": "https://arxiv.org/pdf/2512.03621.pdf"
+    },
+    {
+        "名称": "2025 [2512.06589] OmniSafeBench-MM: A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack-Defense Evaluation.pdf",
+        "作者": "Xiaojun Jia, Jie Liao, Qi Guo, Teng Ma, Simeng Qin, Ranjie Duan, Tianlin Li, Yihao Huang, Zhitao Zeng, Dongxian Wu, Yiming Li, Wenqi Ren, Xiaochun Cao, Yang Liu",
+        "摘要": "摘要: 最近在多模态大语言模型（MLLMs）方面的进展使得统一的感知-推理能力成为可能，然而这些系统仍然容易受到绕过安全对齐并诱发有害行为的越狱攻击。现有的基准测试如JailBreakV-28K、MM-SafetyBench和HADES提供了关于多模态漏洞的有价值见解，但他们通常专注于有限的攻击场景，缺乏标准化的防御评估，并且没有统一的、可重复的工具箱。为了解决这些问题，我们介绍了OmniSafeBench-MM，这是一个全面的多模态越狱攻击-防御评估工具箱。OmniSafeBench-MM集成了13种代表性的攻击方法，15种防御策略，以及一个跨越9个主要风险域和50个细粒度类别的多样化数据集，结构涵盖咨询型、命令型和声明型查询类型，以反映现实的用户意图。超越数据覆盖范围，它建立了一个三维的评估协议，测量（1）有害性，通过一个细致的、多级别的尺度从低影响个体伤害到灾难性的社会威胁，（2）响应和查询之间的意图对齐，（3）响应细节水平，允许细致的安全-效用分析。我们对10个开源和8个闭源MLLMs进行了广泛的实验，揭示了它们对多模态越狱攻击的脆弱性。通过将数据、方法和评估统一到一个开源、可重复的平台上，OmniSafeBench-MM为未来的研究提供了一个标准化的基础。代码已在此网址发布。",
+        "地址": "https://arxiv.org/pdf/2512.06589.pdf"
+    },
+    {
+        "名称": "2025 [2512.06533] Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning.pdf",
+        "作者": "Ming Chen, Sheng Tang, Rong-Xi Tan, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian",
+        "摘要": "摘要：解码型回归（将回归重新定义为序列生成任务）已成为利用大规模语言模型进行数值预测的一种有前景的范式。然而，其发展受到离散的token级目标（如交叉熵）与连续数值之间不对齐的阻碍。现有依赖token级约束的方法往往无法捕捉目标值的全局量级，限制了它们的精度和泛化能力。本文提出通过强化学习（RL）释放解码型回归的潜力。我们将生成过程公式化为马尔可夫决策过程，利用序列级奖励来加强全局数值一致性。在表格回归和代码度量回归上的广泛实验表明，我们的方法（特别是ReMax和GRPO）始终优于最先进的token级基线和传统的回归头部，显示了引入序列级信号的优越性。我们的分析进一步揭示，RL显著提升了采样效率和预测精度，确立了解码型回归为通用数值预测的一种稳健且准确的范式。\n\n翻译为中文：解码型回归（将回归重新定义为序列生成任务）已成为利用大规模语言模型进行数值预测的一种有前景的范式。然而，其发展受到离散的token级目标（如交叉熵）与连续数值之间不对齐的阻碍。现有依赖token级约束的方法往往无法捕捉目标值的全局量级，限制了它们的精度和泛化能力。本文提出通过强化学习（RL）释放解码型回归的潜力。我们将生成过程公式化为马尔可夫决策过程，利用序列级奖励来加强全局数值一致性。在表格回归和代码度量回归上的广泛实验表明，我们的方法（特别是ReMax和GRPO）始终优于最先进的token级基线和传统的回归头部，显示了引入序列级信号的优越性。我们的分析进一步揭示，RL显著提升了采样效率和预测精度，确立了解码型回归为通用数值预测的一种稳健且准确的范式。",
+        "地址": "https://arxiv.org/pdf/2512.06533.pdf"
+    },
+    {
+        "名称": "2025 [2512.06373] VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning.pdf",
+        "作者": "Yuji Wang, Wenlong Liu, Jingxuan Niu, Haoji Zhang, Yansong Tang",
+        "摘要": "摘要：工具集成视觉推理（TiVR）在增强多模态问题解决方面展示了巨大潜力。然而，现有的TiVR范式主要关注通过强化学习集成各种视觉工具，而忽视了设计有效的响应机制来处理不可靠或错误的工具输出。这一局限在指代和定位任务中特别明显，其中不准确的检测工具预测经常误导TiVR模型生成虚幻的推理。为了解决这个问题，我们提出了VG-Refiner，这是第一个旨在工具优化指代定位推理的框架。在技术上，我们引入了一个两阶段的思考-再思考机制，使模型能够明确地分析和响应工具反馈，并引入精化奖励以鼓励在面对差的工具结果时进行有效的纠正。此外，我们提出了两个新的指标，并建立了公平的评估协议，以系统地衡量当前模型的精化能力。我们采用少量任务特定的数据来增强VG-Refiner的精化能力，在指代和推理定位基准测试中显著提高了准确性和纠正能力，同时保留了预训练模型的总体能力。",
+        "地址": "https://arxiv.org/pdf/2512.06373.pdf"
+    },
+    {
+        "名称": "2025 [2512.07829] One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation.pdf",
+        "作者": "Yuan Gao, Chen Chen, Tianrong Chen, Jiatao Gu",
+        "摘要": "摘要：视觉生成模型（例如扩散模型）通常在压缩的潜在空间中运行，以平衡训练效率和样本质量。同时，利用高质量的预训练视觉表示的兴趣也在增加，无论是通过将它们与VAE对齐还是直接在生成模型中利用。然而，由于理解导向的特征与适合生成的潜在空间之间存在根本的不匹配，适应这些表示仍然具有挑战性。表示编码器受益于高维潜在空间，这些空间可以捕捉被遮挡区域的多样化假设，而生成模型则偏好低维潜在空间，这些空间必须忠实地保留注入的噪声。这种差异导致先前的工作依赖于复杂的目标和架构。在本研究中，我们提出了FAE（特征自编码器），这是一个简单但有效的框架，它通过仅使用一个注意力层将预训练的视觉表示适应为适合生成的低维潜在空间，同时保留足够的信息用于重建和理解。关键在于连接两个独立的深度解码器：一个用于重建原始特征空间，另一个则以重建的特征为输入进行图像生成。FAE是通用的；它可以用各种自监督编码器（例如DINO，SigLIP）实例化，并可以插入两种不同的生成模型家族：扩散模型和规范化流模型。在类别条件和文本到图像基准测试中，FAE表现出色。例如，在ImageNet 256x256上，我们的带CFG的扩散模型在800个epochs中达到了接近最新的FID 1.29，在80个epochs中达到了1.70。没有CFG的情况下，FAE在800个epochs中达到了最新的FID 1.48，在80个epochs中达到了2.08，显示出高质量和快速学习的特性。\n\n年份：2025\n作者：Yuan Gao, Chen Chen, Tianrong Chen, Jiatao Gu\n链接：https://arxiv.org/pdf/2512.07829.pdf\n标题：2025 [2512.07829]一层足够：为图像生成调整预训练视觉编码器.pdf",
+        "地址": "https://arxiv.org/pdf/2512.07829.pdf"
+    },
+    {
+        "名称": "2025 [2512.07805] Group Representational Position Encoding.pdf",
+        "作者": "Yifan Zhang, Zixiang Chen, Yifeng Liu, Zhen Qin, Huizhuo Yuan, Kangping Xu, Yang Yuan, Quanquan Gu, Andrew Chi-Chih Yao",
+        "摘要": "摘要：我们提出GRAPE（Group RepresentAtional Position Encoding），这是一个基于群作用的统一位置编码框架。GRAPE结合了两个机制系列：（i）在$\\mathrm{SO}(d)$群中的乘法旋转（Multiplicative GRAPE）；（ii）在一般线性群$\\mathrm{GL}$中由幺半作用引入的加性logit偏置（Additive GRAPE）。在Multiplicative GRAPE中，位置$n \\in \\mathbb{Z}$（或$t \\in \\mathbb{R}$）作为$\\mathbf{G}(n)=\\exp(n\\,\\omega\\,\\mathbf{L})$作用，其中$\\mathbf{L} \\in \\mathbb{R}^{d \\times d}$是秩为2的反对称生成元，从而得到带有闭合形式矩阵指数的相对、组合、保持范数的映射。当$d/2$平面为具有对数均匀频谱的规范坐标对时，可以精确恢复RoPE。学习到的可交换子空间和紧凑的非可交换混合严格扩展了这一几何结构，以每个头部分别为$O(d)$和$O(r d)$的代价捕获跨子空间特征耦合。在Additive GRAPE中，加性logits来源于秩为1（或低秩）的幺半作用，精确恢复ALiBi和遗忘Transformer（FoX）为特例，同时保持精确的相对法和流媒体缓存能力。总的来说，GRAPE为长上下文模型中的位置几何提供了一个有原则的设计空间，包含了RoPE和ALiBi作为特例。项目页面：这个https URL。",
+        "地址": "https://arxiv.org/pdf/2512.07805.pdf"
+    },
+    {
+        "名称": "2025 [2512.06835] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning.pdf",
+        "作者": "Tingyu Li, Zheng Sun, Jingxuan Wei, Siyuan Li, Conghui He, Lijun Wu, Cheng Tan",
+        "摘要": "摘要：近期的视觉-语言模型（VLMs）通过强化学习（RL）在推理方面取得了显著进展，这为在经验时代实现持续自我进化的大型视觉-语言模型（LVLMs）提供了可行的解决方案。然而，在专门领域如化学、地球科学以及多模态数学中，VLMs的RL需要大量高质量的多模态数据，这是非常具有挑战性的。现有策略如合成数据和自我奖励机制存在分布有限和对齐困难的问题，最终导致奖励黑客：模型利用高奖励模式，导致策略熵崩溃和训练不稳定。我们提出了DoGe（Decouple to Generalize），一种双脱离框架，该框架引导模型先从上下文学习而不是解决问题，通过重调焦点到基于合成数据方法被忽视的问题上下文场景。通过将学习过程分解为两个组件（思考者和解决者），我们合理量化了这一过程的奖励信号，并提出了一个从自由探索上下文到实际解决任务的两阶段RL后训练方法。其次，为了提高训练数据的多样性，DoGe构建了一种进化课程学习管道：扩展的本地领域知识语料库和迭代进化的种子问题池。实验表明，我们的方法在各种基准测试中持续优于基线，为实现自我进化的LVLMs提供了一个可扩展的途径。\n\n作者：李亭羽，孙政，魏晶轩，李思远，何聪慧，吴力隽，谭丞\n\n评论：25页，5个图\n\n网址：https://arxiv.org/pdf/2512.06835.pdf\n\n标题：2025 [2512.06835] Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning.pdf",
+        "地址": "https://arxiv.org/pdf/2512.06835.pdf"
+    },
+    {
+        "名称": "2025 [2512.06963] VideoVLA: Video Generators Can Be Generalizable Robot Manipulators.pdf",
+        "作者": "Yichao Shen, Fangyun Wei, Zhiying Du, Yaobo Liang, Yan Lu, Jiaolong Yang, Nanning Zheng, Baining Guo",
+        "摘要": "摘要：在机器人操作中实现泛化对于在开放世界环境中部署机器人和迈向人工泛化智能至关重要。虽然最近的视觉-语言-动作（VLA）模型利用了大规模预训练理解模型来进行感知和指令跟随，它们在泛化到新任务、物体和环境方面的能力仍然有限。在这项工作中，我们提出了VideoVLA，这是一种探索将大型视频生成模型转化为机器人VLA操作者的简单方法。给定语言指令和图像，VideoVLA预测动作序列以及未来的视觉结果。VideoVLA建立在多模态扩散变压器之上，共同对视频语言和动作模态进行建模，使用预训练视频生成模型进行联合视觉和动作预测。我们的实验表明，高质量的想象未来与可靠的动作预测和任务成功相关，突显了视觉想象在操控中的重要性。VideoVLA展示了强大的泛化能力，包括模仿其他实施体的技能和处理新颖物体。这种双预测策略——同时预测动作及其视觉后果——探索了机器人学习中的范式转变，并解锁了操纵系统中的泛化能力。\n\n作者：沈逸超、魏方运、杜志颖、梁耀波、鲁燕、杨嘉隆、郑南宁、郭倍宁\n\n评论：项目页面：this https URL\n\n链接：https://arxiv.org/pdf/2512.06963.pdf\n\n标题：2025 [2512.06963] VideoVLA：视频生成器可以是可泛化的机器人操作者.pdf",
+        "地址": "https://arxiv.org/pdf/2512.06963.pdf"
+    },
+    {
+        "名称": "2025 [2512.06421] Rethinking Training Dynamics in Scale-wise Autoregressive Generation.pdf",
+        "作者": "Gengze Zhou, Chongjian Ge, Hao Tan, Feng Liu, Yicong Hong",
+        "摘要": "摘要：近年来，自回归生成模型在媒体合成方面取得了显著进展。在这些模型中，下一尺度预测已成为一种流行的范式，模型以从粗到细的方式生成图像。然而，尺度自回归模型受到暴露偏差的影响，降低了生成质量。我们确定了该问题的两个主要原因：（1）训练测试不匹配，即模型在推理过程中必须依赖自己不完善的预测；（2）尺度间学习难度的不平衡，某些尺度表现出明显更高的优化复杂性。通过对训练动态的全面分析，我们提出了自回归精炼（Self-Autoregressive Refinement, SAR）来解决这些问题。SAR引入了一个轻量级的Stagger-Scale Rollout (SSR)机制，通过自回归展开使模型接触到自己中间的预测，从而对齐训练和测试模式，并且使用对比学生强制损失（Contrastive Student-Forcing Loss, CSFL）提供充分的自生成环境监督，以确保训练的稳定性。实验结果表明，将SAR应用于预训练的自回归模型可以在最小计算开销的情况下始终如一地提高生成质量。例如，在ImageNet 256数据集上训练的FlexVAR-d16模型中，SAR在10个epoch（32xA100 GPUs上5小时）内实现了5.2%的FID降低。鉴于其效率、可扩展性和有效性，我们预计SAR将作为一种可靠的视觉自回归生成后训练方法。",
+        "地址": "https://arxiv.org/pdf/2512.06421.pdf"
+    },
+    {
+        "名称": "2025 [2512.06791] Small-Gain Nash: Certified Contraction to Nash Equilibria in Differentiable Games.pdf",
+        "作者": "Vedansh Sharma",
+        "摘要": "摘要：经典的基于梯度的学习在博弈中的收敛保证要求伪梯度在欧几里得几何上是（强）单调的，如Rosen（1965）所示，这一条件即使在具有强交叉玩家耦合的简单博弈中也常常失效。我们引入了Small-Gain Nash (SGN)，这是在自定义块加权几何中的块小增益条件。SGN将局部曲率和交叉玩家Lipschitz耦合界限转化为可处理的收缩性证明。它构建了一种加权块度量，在这些界限所在的任何区域内，伪梯度在这种设计的几何上成为强单调，即使在欧几里得意义上它是非单调的。连续流在这种几何上以指数方式收缩，并且在从SGN边界和局部Lipschitz常数导出的显式步长界内，投影欧拉和RK4离散化收敛。我们的分析揭示了一个有证书的“时间尺度带”，这是一个非渐近的、基于度量的证明，类似于TTUR：SGN识别了一个有限的相对度量权重带，为某个单步长动态提供可证明的收缩性，而不是通过消失的不等步长强制渐近时间尺度分离。我们在欧几里得单调性分析无法预测收敛的二次博弈中验证了这一框架，但SGN成功地证明了它，并将构造扩展到Markov博弈中的熵正则化策略梯度的镜像/费舍尔几何中。其结果是一个离线认证流程，它估计在紧凑区域上的曲率、耦合和Lipschitz参数，优化块权重以扩大SGN边界，并返回一个结构化、可计算的收敛证书，包含度量、收缩率和非单调博弈的安全步长。",
+        "地址": "https://arxiv.org/pdf/2512.06791.pdf"
+    },
+    {
+        "名称": "2025 [2512.06609] Vector Quantization using Gaussian Variational Autoencoder.pdf",
+        "作者": "Tongda Xu, Wendi Zheng, Jiajun He, Jose Miguel Hernandez-Lobato, Yan Wang, Ya-Qin Zhang, Jie Tang",
+        "摘要": "摘要：向量量化变分自编码器（VQ-VAE）是一种将图像压缩为离散编码的离散自编码器。由于离散化的原因，它很难训练。在本文中，我们提出了一种简单但有效的技术，称为高斯量化（GQ），其在不需要训练的情况下，将带有一定约束的高斯VAE转换为VQ-VAE。GQ生成随机高斯噪声作为码本，并找到最接近后验均值的噪声。从理论上讲，我们证明了当码本大小的对数超过高斯VAE的回收编码率时，可以保证较小的量化误差。实际上，我们提出了一种启发式方法来训练高斯VAE，以实现有效的GQ，称为目标偏差约束（TDC）。实验证明，GQ在UNet和ViT架构上优于以前的VQ-VAE方法，如VQGAN、FSQ、LFQ和BSQ。此外，TDC也优于以前的高斯VAE离散化方法，如TokenBridge。源代码可在本文提供的URL链接中获取。\n\n作者：Xu Tongda, Zheng Wendi, He Jiajun, Jose Miguel Hernandez-Lobato, Wang Yan, Zhang Ya-Qin, Tang Jie\n\nURL：https://arxiv.org/pdf/2512.06609.pdf\n\n标题：使用高斯变分自编码器的向量量化",
+        "地址": "https://arxiv.org/pdf/2512.06609.pdf"
+    },
+    {
+        "名称": "2025 [2512.03704] DZ-TDPO: Non-Destructive Temporal Alignment for Mutable State Tracking in Long-Context Dialogue.pdf",
+        "作者": "Yijun Liao",
+        "摘要": "摘要：长上下文对话系统存在状态惯性问题，静态约束无法解决不断变化的用户意图和已建立的历史背景之间的冲突。为了解决这个问题，我们提出了DZ-TDPO，这是一种非破坏性对齐框架，通过与校准的时间注意偏差相结合的冲突感知动态KL约束来实现。 在Multi-Session Chat（MSC）数据集上的实验表明，DZ-TDPO实现了最先进的胜率（在Phi-3.5上为55.4%），同时保持了强大的零样本泛化能力。我们的扩展分析揭示了“能力-稳定性权衡”：尽管较小的模型为了克服历史惯性而承担“对齐税”（困惑度激增），但较大的Qwen2.5-7B模型在50.8%的胜率下几乎没有困惑度的增加。这证实了TAI可以通过精确的注意力调节得到缓解，而不需要破坏性权重更新，从而在各模型规模上保持一般能力（MMLU）。代码和数据可在以下网址获取：https://arxiv.org/pdf/2512.03704.pdf",
+        "地址": "https://arxiv.org/pdf/2512.03704.pdf"
+    },
+    {
+        "名称": "2025 [2512.07168] JEPA as a Neural Tokenizer: Learning Robust Speech Representations with Density Adaptive Attention.pdf",
+        "作者": "Georgios Ioannides, Christos Constantinou, Aman Chadha, Aaron Elkins, Linsey Pang, Ravid Shwartz-Ziv, Yann LeCun",
+        "摘要": "摘要：我们提出了一个由两个阶段组成的自监督框架，该框架结合了联合嵌入预测架构 (JEPA) 和密度自适应注意机制 (DAAM) 以学习稳健的语音表征。第一阶段利用 JEPA 和 DAAM，通过潜在空间中的掩码预测来学习语义音频特征，完全与波形重建解耦。第二阶段利用这些表征进行有限标量量化 (FSQ) 和混合基数打包方案下的高效符号化，随后通过 HiFi-GAN 解码器进行高保真波形重建。通过将基于高斯混合的密度自适应门控集成到 JEPA 编码器中，该模型能够执行自适应时间特征选择，并以每秒 2.5 帧的低帧率发现层次化的语音结构。生成的符号（每秒 47.5 个符号）提供了一种可逆的、高度压缩的、语言模型友好的表征，与现有的神经音频编解码器相比具有竞争力，并且通常更高效。\n\n作者：Georgios Ioannides, Christos Constantinou, Aman Chadha, Aaron Elkins, Linsey Pang, Ravid Shwartz-Ziv, Yann LeCun\n\n评论：UniReps: 统一神经模型中的表征（NeurIPS 2025 研讨会）\n\n链接：https://arxiv.org/pdf/2512.07168.pdf\n\n标题：2025 [2512.07168] 以 JEPA 作为神经符号化器：使用密度自适应注意机制学习稳健的语音表征",
+        "地址": "https://arxiv.org/pdf/2512.07168.pdf"
+    },
+    {
+        "名称": "2025 [2512.06558] Embodied Referring Expression Comprehension in Human-Robot Interaction.pdf",
+        "作者": "Md Mofijul Islam, Alexi Gladstone, Sujan Sarker, Ganesh Nanduru, Md Fahim, Keyan Du, Aman Chadha, Tariq Iqbal",
+        "摘要": "摘要:随着机器人进入人类的工作空间，迫切需要它们理解具身的人类指令，从而实现直观和流畅的人机交互 (HRI)。然而，由于缺乏大规模捕捉不同HRI场景下自然具身互动的数据集，准确的理解是具有挑战性的。现有的数据集存在视角偏差、单一视角收集、对非语言手势覆盖不足以及主要关注室内环境等问题。为了解决这些问题，我们提出了Refer360数据集，这是一个大规模的数据集，收集了在室内和室外环境中从不同视点记录的具身语言和非语言互动。此外，我们还介绍了MuRes，一种多模态引导残差模块，旨在提高具身指称表达的理解。MuRes 作为信息瓶颈，提取显著的特定模态信号，并将其加强到预训练表示中，以形成下游任务的补充特征。我们在包括Refer360数据集在内的四个HRI数据集上进行了广泛的实验，结果表明当前的多模态模型未能全面捕捉具身互动；然而，在加入MuRes后，它们的性能持续提高。这些发现确立了Refer360作为一个有价值的基准，并展示了引导残差学习在提高机器人在有人类环境中操作时对具身指称表达理解的潜力。",
+        "地址": "https://arxiv.org/pdf/2512.06558.pdf"
+    },
+    {
+        "名称": "2025 [2512.06032] The SAM2-to-SAM3 Gap in the Segment Anything Model Family: Why Prompt-Based Expertise Fails in Concept-Driven Image Segmentation.pdf",
+        "作者": "Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee",
+        "摘要": "摘要：本文研究了最新两个 Segment Anything 模型（SAM2 和 SAM3）之间的根本不连续性。我们解释了为什么 SAM2 在基于提示的分割方面的专业知识无法转移到 SAM3 的多模态概念驱动范式。SAM2 通过空间提示点、框和掩码进行纯几何和时间分割。而 SAM3 引入了一种统一的视觉语言架构，能够进行开放词汇推理、语义基础、对比对齐以及基于示例的概念理解。我们通过五个核心部分构建了这项分析：(1) 基于提示和基于概念的分割之间的概念性断裂，比较了 SAM2 的空间提示语义与 SAM3 的多模态融合和文本条件掩码生成；(2) 架构差异，详细说明了 SAM2 的纯视觉时间设计与 SAM3 中视觉语言编码器、几何和示例编码器、融合模块、DETR 风格解码器、对象查询以及通过专家集处理不明确情况的整合；(3) 数据集和注释差异，对比了 SA-V 视频掩码与 SAM3 的多模态概念注释语料库；(4) 训练和超参数区别，说明为什么 SAM2 的优化知识不适用于 SAM3；(5) 评估、指标和失败模式，概述了从几何 IoU 指标到语义开放词汇评估的过渡。这些分析共同确立了 SAM3 为一种新的分割基础模型类别，并为新兴的概念驱动分割时代指明了未来的方向。",
+        "地址": "https://arxiv.org/pdf/2512.06032.pdf"
+    }
+]
