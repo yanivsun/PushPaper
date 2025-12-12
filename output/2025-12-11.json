@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2512.09363] StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation.pdf",
+        "作者": "Ke Xing, Xiaojie Jin, Longfei Li, Yuyang Yin, Hanwen Liang, Guixun Luo, Chen Fang, Jue Wang, Konstantinos N. Plataniotis, Yao Zhao, Yunchao Wei",
+        "摘要": "摘要：XR 设备的日益普及推动了高质量立体视频的强劲需求，但其制作成本高且容易产生瑕疵。为了解决这一挑战，我们提出了StereoWorld，一种端到端框架，可改造预训练视频生成器用于高保真单目到立体视频生成。我们的框架将模型联合置于单目视频输入的条件下，同时通过几何感知正则化进行明确监督，以确保3D结构的保真度。空间-时间平铺方案的进一步集成使得高效、高分辨率的合成成为可能。为了实现大规模训练和评估，我们策划了一个高分辨率立体视频数据集，包含超过1100万帧与自然人眼瞳距（IPD）对齐的帧。大量实验表明，StereoWorld在视觉保真度和几何一致性方面显著优于以前的方法。项目网页可在此URL处获得。",
+        "地址": "https://arxiv.org/pdf/2512.09363.pdf"
+    },
+    {
+        "名称": "2025 [2512.08560] BrainExplore: Large-Scale Discovery of Interpretable Visual Representations in the Human Brain.pdf",
+        "作者": "Navve Wasserman, Matias Cosarinsky, Yuval Golbari, Aude Oliva, Antonio Torralba, Tamar Rott Shaham, Michal Irani",
+        "摘要": "摘要：理解人类大脑如何表示视觉概念，以及这些表现在哪些大脑区域编码，仍然是一个长期的挑战。几十年的研究已经推进了我们对视觉表征的理解，但大脑信号仍然庞大且复杂，可能的视觉概念空间是广阔的。结果，大多数研究规模较小，依赖于人工检查，集中于特定区域和属性，并很少包含系统验证。我们提出了一个大规模、自动化的框架，用于发现和解释人类大脑皮质中的视觉表征。我们的方法包括两个主要阶段。首先，我们通过无监督的数据驱动分解方法发现fMRI活动中的候选可解释模式。接下来，通过识别最强烈引起这些模式的一组自然图像并生成它们共同视觉意义的自然语言描述来解释每个模式。为了扩展这一过程，我们引入了一个自动化管道，测试多个候选解释，分配定量可靠性评分，并为每个体素模式选择最一致的描述。我们的框架揭示了数千个跨越许多不同视觉概念的可解释模式，包括以前未报告的细粒度表征。\n\n翻译后摘要：理解人类大脑如何表示视觉概念及这些表现在哪些脑区编码仍然是一个长期挑战。数十年的研究推进了我们对视觉表征的理解，但大脑信号依然庞大复杂，潜在视觉概念的空间广阔。因此，大多数研究规模较小，依靠人工检查，聚焦特定区域和属性，很少进行系统验证。我们提出了一种用于发现和解释人类大脑皮层中视觉表征的大规模自动化框架。我们的方法包含两个主要阶段。首先，我们通过无监督的数据驱动分解方法发现fMRI活动中的候选可解释模式。接着，通过识别一组最强烈激发该模式的自然图像并生成它们共有的视觉意义的自然语言描述来解释每个模式。为了扩展这一过程，我们引入了一条自动化管道，测试多个候选解释，分配定量可靠性评分，并为每个体素模式选择最一致的描述。我们的框架揭示了数千个跨越许多不同视觉概念的可解释模式，包括以前未报告的细粒度表征。",
+        "地址": "https://arxiv.org/pdf/2512.08560.pdf"
+    },
+    {
+        "名称": "2025 [2512.09247] OmniPSD: Layered PSD Generation with Diffusion Transformer.pdf",
+        "作者": "Cheng Liu, Yiren Song, Haofan Wang, Mike Zheng Shou",
+        "摘要": "摘要：最近在扩散模型方面的进展极大地改进了图像生成和编辑，但生成或重建具有透明 alpha 通道的分层 PSD 文件仍然具有很大的挑战。我们提出了 OmniPSD，这是一种建立在 Flux 生态系统之上的统一扩散框架，它通过上下文学习实现了文本到 PSD 的生成和图像到 PSD 的分解。对于文本到 PSD 的生成，OmniPSD 将多个目标层在空间上排列到一个画布中，并通过空间注意力学习它们的组合关系，从而产生语义一致且分层结构化的层。对于图像到 PSD 的分解，OmniPSD 执行迭代的上下文编辑，逐步提取和擦除文本和前景组件，从单个扁平图像中重建可编辑的 PSD 层。为了在不影响结构学习的情况下保留透明度，使用了 RGBA-VAE 作为辅助表示模块。在我们新的 RGBA 分层数据集上的大量实验表明，OmniPSD 实现了高保真度生成、结构一致性和透明度感知，为分层设计生成和分解提供了一种新的范式。\n\n作者：Cheng Liu, Yiren Song, Haofan Wang, Mike Zheng Shou\n\n链接：https://arxiv.org/pdf/2512.09247.pdf\n\n标题：2025 [2512.09247] OmniPSD：使用扩散变压器的分层 PSD 生成.pdf",
+        "地址": "https://arxiv.org/pdf/2512.09247.pdf"
+    },
+    {
+        "名称": "2025 [2512.09824] Composing Concepts from Images and Videos via Concept-prompt Binding.pdf",
+        "作者": "Xianghao Kong, Zeyu Zhang, Yuwei Guo, Zhuoran Zhao, Songchun Zhang, Anyi Rao",
+        "摘要": "以下是从提供的学术论文材料中提取的摘要，并翻译为中文：\n\n原文摘要:\n\"Abstract: Visual concept composition, which aims to integrate different elements from images and videos into a single, coherent visual output, still falls short in accurately extracting complex concepts from visual inputs and flexibly combining concepts from both images and videos. We introduce Bind & Compose, a one-shot method that enables flexible visual concept composition by binding visual concepts with corresponding prompt tokens and composing the target prompt with bound tokens from various sources. It adopts a hierarchical binder structure for cross-attention conditioning in Diffusion Transformers to encode visual concepts into corresponding prompt tokens for accurate decomposition of complex visual concepts. To improve concept-token binding accuracy, we design a Diversify-and-Absorb Mechanism that uses an extra absorbent token to eliminate the impact of concept-irrelevant details when training with diversified prompts. To enhance the compatibility between image and video concepts, we present a Temporal Disentanglement Strategy that decouples the training process of video concepts into two stages with a dual-branch binder structure for temporal modeling. Evaluations demonstrate that our method achieves superior concept consistency, prompt fidelity, and motion quality over existing approaches, opening up new possibilities for visual creativity.\"\n\n翻译摘要:\n\"摘要：视觉概念组合旨在将图像和视频中的不同元素整合成一个连贯的视觉输出，但在准确提取视觉输入中的复杂概念和灵活组合图像与视频概念方面仍有所欠缺。我们介绍了一种称为 Bind & Compose 的一次性方法，通过将视觉概念与相应的提示标记绑定，并将来自各种来源的绑定标记组成目标提示，从而实现灵活的视觉概念组合。该方法采用了用于扩散变压器中的交叉注意力条件的分层绑定器结构，将视觉概念编码为相应的提示标记以准确分解复杂的视觉概念。为了提高概念标记绑定的准确性，我们设计了一种多样化吸收机制，通过使用额外的吸收标记，在使用多样化提示进行训练时消除与概念无关的细节影响。为了增强图像和视频概念之间的兼容性，我们提出了时间解耦策略，将视频概念的训练过程分解为两个阶段，并采用双分支绑定结构进行时间建模。评估表明，我们的方法在概念一致性、提示保真度和运动质量方面优于现有方法，为视觉创意开辟了新的可能性。\"",
+        "地址": "https://arxiv.org/pdf/2512.09824.pdf"
+    },
+    {
+        "名称": "2025 [2512.08829] InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models.pdf",
+        "作者": "Hongyuan Tao, Bencheng Liao, Shaoyu Chen, Haoran Yin, Qian Zhang, Wenyu Liu, Xinggang Wang",
+        "摘要": "摘要: 窗口注意力和线性注意力是缓解视觉语言模型（VLMs）中的二次复杂性和不断增长的KV缓存的两种主要策略。然而，我们观察到，当序列长度超过窗口大小时，基于窗口的VLMs会出现性能下降，而线性注意力在信息密集型任务（如OCR和文档理解）中表现不佳。为了克服这些限制，我们提出了InfiniteVL，这是一种线性复杂度的VLM架构，将滑动窗口注意力（SWA）与门控DeltaNet相结合。为了在有限资源下实现具有竞争力的多模态性能，我们设计了一个由蒸馏预训练、指令微调和长序列SFT组成的三阶段训练策略。值得注意的是，InfiniteVL使用不到领先VLMs所需的2%训练数据，不仅显著优于之前的线性复杂度VLMs，而且与领先的基于Transformer的VLMs性能相当，同时展示了有效的长期记忆保持。与通过FlashAttention-2加速的类似规模的基于Transformer的VLMs相比，InfiniteVL在保持固定延迟和内存占用的情况下，实现了超过3.6倍的推理速度提升。在流视频理解场景中，它在保持长期记忆缓存的同时，持续稳定地实现实时的24 FPS预填速度。代码和模型可在该https URL获得。",
+        "地址": "https://arxiv.org/pdf/2512.08829.pdf"
+    },
+    {
+        "名称": "2025 [2512.09928] HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models.pdf",
+        "作者": "Minghui Lin, Pengxiang Ding, Shu Wang, Zifeng Zhuang, Yang Liu, Xinyang Tong, Wenxuan Song, Shangke Lyu, Siteng Huang, Donglin Wang",
+        "摘要": "摘要: 视觉-语言-行为 (VLA) 模型最近通过将视觉和语言线索定位到动作上来实现机器人操作。然而，大多数 VLA 假设马尔可夫性质，仅依赖当前观察，因此遭受时间短视问题，导致长期一致性下降。在这项工作中，我们将运动视为时间上下文和世界动态的更紧凑且更有信息的表示，捕获状态间的变化，同时过滤静态像素级噪声。在这个想法的基础上，我们提出了 HiF-VLA（VLA 的事后、洞察和预见），一个利用运动进行双向时间推理的统一框架。HiF-VLA 通过事后先验编码过去动态，通过预见推理预测未来运动，并通过事后调节的联合专家整合两者，以实现长期操作的“边想边做”模式。结果表明，HiF-VLA 在 LIBERO-Long 和 CALVIN ABC-D 基准测试中超越了强大的基线，同时几乎不增加额外的推理延迟。此外，HiF-VLA 在实际长期操作任务中实现了显著的改进，展示了其在实际机器人设置中的广泛有效性。",
+        "地址": "https://arxiv.org/pdf/2512.09928.pdf"
+    },
+    {
+        "名称": "2025 [2512.09616] Rethinking Chain-of-Thought Reasoning for Videos.pdf",
+        "作者": "Yiwu Zhong, Zi-Yuan Hu, Yin Li, Liwei Wang",
+        "摘要": "摘要：链式思维（CoT）推理在解决自然语言处理中的复杂任务方面取得了巨大成功，最近的多模态大语言模型（MLLMs）将这一范式扩展到了视频推理。然而，这些模型通常基于冗长的推理链和大量的输入视觉符号。基于我们的基准研究中的经验观察，我们假设简洁的推理结合减少的视觉符号集足以实现高效的视频推理。为了验证这一假设，我们设计并验证了一个高效的后训练和推理框架，以增强视频MLLM的推理能力。我们的框架使模型能够处理压缩的视觉符号，并在回答之前生成简短的推理痕迹。最终模型在各种基准测试中实现了大幅度提高的推理效率，提供了有竞争力的表现，并且不依赖于手动CoT标注或监督微调。总体而言，我们的结果表明，对于一般视频推理而言，长时间的、人类般的CoT推理可能不是必需的，简洁的推理既有效又高效。我们的代码将在此 https URL 上发布。",
+        "地址": "https://arxiv.org/pdf/2512.09616.pdf"
+    },
+    {
+        "名称": "2025 [2512.02892] Fast-Decoding Diffusion Language Models via Progress-Aware Confidence Schedules.pdf",
+        "作者": "Amr Mohamed, Yang Zhang, Michalis Vazirgiannis, Guokan Shang",
+        "摘要": "摘要：扩散大语言模型（dLLMs）提供了一种有前途的替代自回归模型的方法，但由于缓慢和迭代的采样过程，其实际应用受到严重限制。我们提出了SchED，一种无需训练且与模型无关的提前退出算法，该算法通过聚合全跨度的logit边距，并在达到平滑的、与进度相关的置信度阈值后停止解码。我们在两个dLLM系列（Dream和LLaDA）的基础和指令调优变体上，跨越包括多项选择问答（MCQ）、数学、长篇QA/摘要和翻译在内的十个基准上评估了SchED。SchED提供了大幅且稳定的加速：在指令调优模型上，它实现了3.8-4.0倍的加速，同时平均保持了99.8%-100%的基线分数。在基础模型上，SchED在更激进的设置下实现了高达2.34倍的一致加速增益，并保留了99.1%-100%的性能。使用一个对质量损失进行严厉惩罚的保守速度指标（QPS，$\\gamma{=}4$），我们证明了SchED是稳健的，并且明显优于以前基于置信度的提前退出方法，这些方法在长篇生成上表现不佳。对模型的token预测的熵分析表明，指令调优加速了预测熵的衰减。通过将真正的置信度稳定转化为计算节约，SchED使dLLM解码显著更高效。\n\n翻译：扩散大语言模型（dLLMs）提供了一种有前途的替代自回归模型的方法，但其实际应用受到缓慢、迭代采样过程的严重限制。我们提出了SchED，这是一种无需训练、与模型无关的提前退出算法，该算法通过聚合全范围logit边距，并在达到平滑、与进度相关的置信度阈值后停止解码。我们在两个dLLM系列（Dream和LLaDA）的基础和指令调优变体上，针对包括多项选择问答（MCQ）、数学、长篇问答/摘要和翻译在内的十个基准，评估了SchED。SchED提供了大幅且稳定的加速：在指令调优模型上，它实现了3.8-4.0倍的加速，同时平均保持了99.8%-100%的基线得分。在基础模型上，SchED在更激进的设置下实现了高达2.34倍的一致加速增益，并保留了99.1%-100%的性能。使用一个对质量损失进行严格惩罚的保守速度指标（QPS，$\\gamma=4$），我们展示了SchED的稳健性，并且明显优于以前基于置信度的提前退出方法，这些方法在长篇生成上表现不佳。对模型token预测的熵分析显示，指令调优加速了预测熵的衰减。通过将真实的置信度稳定性转化为计算节约，SchED使dLLM解码过程显著更高效。",
+        "地址": "https://arxiv.org/pdf/2512.02892.pdf"
+    },
+    {
+        "名称": "2025 [2512.04753] EtCon: Edit-then-Consolidate for Reliable Knowledge Editing.pdf",
+        "作者": "Ruilin Li, Yibin Wang, Wenhong Zhu, Chenglin Li, Jinghao Zhang, Chenliang Li, Junchi Yan, Jiaqi Wang",
+        "摘要": "摘要：知识编辑旨在更新大型语言模型（LLM）中的特定事实，而无需进行全面重新训练。此前的研究尝试调整LLM的知识层，在进行选择性编辑方面取得了一定的效果。然而，在控制环境中的教师强制评估与其在终身学习场景中的实际效果之间仍存在显著差距，这极大地限制了其实际应用性。本研究的实证分析揭示了与这一差距相关的两个经常性问题：（1）大多数传统方法使得编辑后的模型对新事实过拟合，从而降低了预训练能力；（2）严重缺乏知识巩固阶段，使得新事实在自回归生成下的推理行为中没有得到充分整合，从而导致参数知识与实际生成行为之间的错配。为此，我们提出了一种新颖的知识编辑范式——\"编辑再巩固\"（Edit-then-Consolidate），旨在弥合理论知识编辑方法与其现实适用性之间的差距。具体来说，（1）我们的框架通过目标邻近监督微调（TPSFT）缓解过拟合问题，该方法通过信任区域目标将编辑局部化以限制策略漂移；（2）然后，使用群体相对策略优化（GRPO）进行巩固阶段，通过在综合奖励信号下优化轨迹级行为，将编辑后的知识与基于链条推理（CoT）的推理策略对齐。大量实验表明，我们的框架在实际评估中始终提高了编辑的可靠性和泛化性，同时更好地保留了局部性和预训练能力。\n\n翻译：Knowledge editing aims to update specific facts in large language models (LLMs) without full retraining. Prior efforts sought to tune the knowledge layers of LLMs, proving effective for making selective edits. However, a significant gap exists between their performance in controlled, teacher-forcing evaluations and their real-world effectiveness in lifelong learning scenarios, which greatly limits their practical applicability. This work's empirical analysis reveals two recurring issues associated with this gap: (1) Most traditional methods lead the edited model to overfit to the new fact, thereby degrading pre-trained capabilities; (2) There is a critical absence of a knowledge consolidation stage, leaving new facts insufficiently integrated into LLMs' inference-time behavior under autoregressive generation, thereby leading to a mismatch between parametric knowledge and actual generation behavior. To this end, we propose Edit-then-Consolidate, a novel knowledge editing paradigm that aims to bridge the gap between theoretical knowledge editing methods and their real-world applicability. Specifically, (1) our framework mitigates overfitting via Targeted Proximal Supervised Fine-Tuning (TPSFT) that localizes the edit via a trust-region objective to limit policy drift; (2) Then, a consolidation stage using Group Relative Policy Optimization (GRPO) aligns the edited knowledge with CoT-based inference policy by optimizing trajectory-level behavior under comprehensive reward signals. Extensive experiments demonstrate our framework consistently improves editing reliability and generalization under real-world evaluations, while better preserving locality and pre-trained capabilities.",
+        "地址": "https://arxiv.org/pdf/2512.04753.pdf"
+    },
+    {
+        "名称": "2025 [2512.09864] UniUGP: Unifying Understanding, Generation, and Planing For End-to-end Autonomous Driving.pdf",
+        "作者": "Hao Lu, Ziyang Liu, Guangfeng Jiang, Yuanfei Luo, Sheng Chen, Yangang Zhang, Ying-Cong Chen",
+        "摘要": "摘要：自动驾驶（AD）系统在长尾场景中由于有限的世界知识和较弱的视觉动态建模而面临挑战。现有的基于视觉-语言-动作（VLA）的方法无法利用未标记的视频进行视觉因果学习，而基于世界模型的方法缺乏从大型语言模型中推理的能力。本文构建了多个提供复杂场景推理和规划注释的专门数据集，提出了一个名为UniUGP的统一理解-生成-规划框架，通过混合专家架构协同场景推理、未来视频生成和轨迹规划。通过整合预训练的VLMs和视频生成模型，UniUGP利用视觉动态和语义推理来提高规划性能。该框架以多帧观测和语言指令为输入，生成可解释的思维链推理、物理一致的轨迹及连贯的未来视频。我们引入了一个四阶段训练策略，在多个现有AD数据集及提出的专门数据集上逐步建立这些能力。实验表明，该方法在感知、推理和决策方面表现出最先进的性能，在面对具有挑战性的长尾情况时具有优越的泛化能力。",
+        "地址": "https://arxiv.org/pdf/2512.09864.pdf"
+    },
+    {
+        "名称": "2025 [2512.09164] WonderZoom: Multi-Scale 3D World Generation.pdf",
+        "作者": "Jin Cao, Hong-Xing Yu, Jiajun Wu",
+        "摘要": "摘要: 我们提出了WonderZoom，这是一种从单一图像生成跨多个空间尺度的3D场景的新方法。现有的3D世界生成模型仍然局限于单一尺度的合成，无法生成在不同粒度下连贯的场景内容。其基本挑战在于缺乏一种能够生成和渲染具有显著不同空间尺寸内容的尺度感知3D表示。WonderZoom通过两个关键创新解决了这一问题：（1）尺度自适应高斯表面用于多尺度3D场景的生成和实时渲染；（2）渐进细节合成器逐步生成更精细的3D内容。我们的方法使用户能够“放大”3D区域，并自回归地从景观到微观特征合成以前不存在的细节。实验表明，WonderZoom在质量和一致性上显著优于最新的视频和3D模型，实现了从单一图像创建多尺度3D世界。在此https URL中展示了视频结果和生成的多尺度3D世界的交互式查看器。",
+        "地址": "https://arxiv.org/pdf/2512.09164.pdf"
+    },
+    {
+        "名称": "2025 [2512.09106] Learning Unmasking Policies for Diffusion Language Models.pdf",
+        "作者": "Metod Jazbec, Theo X. Olausson, Louis Béthune, Pierre Ablin, Michael Kirchhof, Joao Monterio, Victor Turrisi, Jason Ramapuram, Marco Cuturi",
+        "摘要": "摘要: 扩散（大型）语言模型（dLLMs）现在在许多任务中的下游表现上已与其自回归对手相匹敌，同时在推理过程中更具效率。一个特别成功的变体是掩码离散扩散，其中用特殊掩码标记填充的缓冲区逐步被模型词汇表中的标记替换。通过并行解掩码多个标记可以提高效率，但一次性替换过多标记会降低生成质量。因此，dLLMs 的一个关键设计方面是每一步扩散过程中选择替换哪个标记的采样程序。近期研究发现，诸如置信度阈值设定的启发式策略相比随机解掩码能同时提高质量和标记吞吐量。然而，这种启发式策略也有缺点：需要手动调整，且我们观察到其性能在较大缓冲区时会降低。在本文中，我们提出使用强化学习训练采样程序。具体而言，我们将掩码扩散采样形式化为马尔科夫决策过程，其中 dLLM 作为环境，并提出一种基于单层转换器的轻量级策略架构，将 dLLM 标记置信度映射到解掩码决策。我们的实验表明，结合半自回归生成时，这些训练的策略在性能上与最先进的启发式方法相匹敌，而在完全扩散设置中表现更优。我们还探讨了这些策略的迁移能力，发现它们可以泛化到新的底层 dLLMs 和更长的序列长度。然而，我们也观察到，应用于域外数据时其性能会下降，并且使用我们的方法进行细粒度准确性-效率权衡的调整可能具有挑战性。",
+        "地址": "https://arxiv.org/pdf/2512.09106.pdf"
+    },
+    {
+        "名称": "2025 [2512.08296] Towards a Science of Scaling Agent Systems.pdf",
+        "作者": "Yubin Kim, Ken Gu, Chanwoo Park, Chunjong Park, Samuel Schmidgall, A. Ali Heydari, Yao Yan, Zhihan Zhang, Yuchen Zhuang, Mark Malhotra, Paul Pu Liang, Hae Won Park, Yuzhe Yang, Xuhai Xu, Yilun Du, Shwetak Patel, Tim Althoff, Daniel McDuff, Xin Liu",
+        "摘要": "摘要：基于语言模型（LM）的能够进行推理、规划和行动的代理系统正在成为现实世界人工智能应用的主导范式。尽管这种广泛的采用，决定其性能的原则仍未被充分探索，实践者只能依赖于启发法而不是有原则的设计选择。我们通过推导代理系统的定量扩展原则来解决这一差距。我们在四个不同的基准上进行了评估：Finance-Agent、BrowseComp-Plus、PlanCraft和Workbench。使用五种典型架构（单一、独立、集中、分散、混合）在三个大语言模型家族中实例化，我们进行了跨180种配置的受控评估，使用标准化工具和令牌预算。我们使用包括效率、开销、错误放大和冗余在内的经验协调指标得出了一种预测模型，取得了交叉验证的R^2=0.513。我们确定了三种主要效果：(1)工具协调权衡：在固定计算预算下，工具密集型任务因多代理开销受到不成比例的影响。(2)能力饱和：一旦单代理基准超过约45%，协调会带来递减或负回报（beta=-0.408，p<0.001）。(3)依赖拓扑的错误放大：独立代理通过不受控制的传播放大错误17.2倍，而集中协调将其控制在4.4倍。集中协调在可并行任务（如金融推理）上提高了80.9%的性能，而分散协调在动态网页导航上表现更好（+9.2% vs. +0.2%）。然而，对于顺序推理任务，所有多代理变体的性能下降了39-70%。该框架预测了87%保留配置的最佳协调策略，提供了一种基于可测任务属性的代理扩展预测原则。\n\n作者：Yubin Kim, Ken Gu, Chanwoo Park, Chunjong Park, Samuel Schmidgall, A. Ali Heydari, Yao Yan, Zhihan Zhang, Yuchen Zhuang, Mark Malhotra, Paul Pu Liang, Hae Won Park, Yuzhe Yang, Xuhai Xu, Yilun Du, Shwetak Patel, Tim Althoff, Daniel McDuff, Xin Liu\n\n链接：https://arxiv.org/pdf/2512.08296.pdf\n\n标题：《迈向代理系统扩展科学的方向》",
+        "地址": "https://arxiv.org/pdf/2512.08296.pdf"
+    },
+    {
+        "名称": "2025 [2512.09663] IF-Bench: Benchmarking and Enhancing MLLMs for Infrared Images with Generative Visual Prompting.pdf",
+        "作者": "Tao Zhang, Yuyang Hong, Yang Xia, Kun Ding, Zeyu Zhang, Ying Wang, Shiming Xiang, Chunhong Pan",
+        "摘要": "摘要：最近在多模态大型语言模型（MLLMs）方面的进展在各类基准测试中取得了令人瞩目的成就。然而，它们在理解红外图像方面的能力仍然未被探索。为了解决这一问题，我们引入了IF-Bench，这是第一个为评估红外图像的多模态理解而设计的高质量基准。IF-Bench包含来自23个红外数据集的499幅图像和680个精心策划的视觉问答对，涵盖了图像理解的10个基本维度。基于这一基准，我们系统地评估了40余种开源和闭源的MLLMs，通过循环评估、双语评估和混合判断策略以增强结果的可靠性。我们的分析揭示了模型规模、架构和推理范式如何影响红外图像的理解，为这一领域提供了宝贵的见解。此外，我们提出了一种无需训练的生成视觉提示（GenViP）方法，利用先进的图像编辑模型将红外图像转换为在语义和空间上对齐的RGB图像，从而减轻领域分布转移。大量实验表明，我们的方法在各种MLLMs中一致地表现出显著的性能提升。基准和代码可通过这个超链接访问。",
+        "地址": "https://arxiv.org/pdf/2512.09663.pdf"
+    },
+    {
+        "名称": "2025 [2512.05446] TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression.pdf",
+        "作者": "Cheng-Yuan Ho, He-Bi Yang, Jui-Chiu Chiang, Yu-Lun Liu, Wen-Hsiao Peng",
+        "摘要": "摘要：基于在静态三维场景表示中成功应用的三维高斯散射(3DGS)，其在动态场景中的扩展,通常称为四维高斯散射(4DGS)或动态三维高斯散射，已引起越来越多的关注。然而，为动态三维高斯散射设计更紧凑和高效的变形方案以及率失真优化压缩策略仍是一个未充分探索的领域。先前的方法或依赖于时空4DGS，使用过度指定的、短命的高斯原语，或依赖于无法明确时间控制的规范3DGS变形。为了解决这一问题，我们提出了TED-4DGS，这是一种用于率失真优化4DGS压缩的时间激活及基于嵌入的变形方案，结合了两种方法的优势。TED-4DGS基于一个稀疏的锚点3DGS表示。每个规范锚点被分配可学习的时间激活参数，以指定其在时间上的出现和消失过渡，同时一个轻量级的每锚点时间嵌入查询共享的变形库以生成锚点特定的变形。对于率失真压缩，我们结合一个基于隐式神经表示（INR）的超前模型来模拟锚点属性分布，以及一个通道式自回归模型来捕捉锚点内相关性。借助这些新元素，我们的方案在几个真实世界数据集上实现了最先进的率失真表现。据我们所知，这项工作代表了追求动态三维高斯散射表示率失真优化压缩框架的首次尝试之一。",
+        "地址": "https://arxiv.org/pdf/2512.05446.pdf"
+    },
+    {
+        "名称": "2025 [2512.08006] Beyond Unified Models: A Service-Oriented Approach to Low Latency, Context Aware Phonemization for Real Time TTS.pdf",
+        "作者": "Mahta Fetrat, Donya Navabi, Zahra Dehghanian, Morteza Abolghasemi, Hamid R. Rabiee",
+        "摘要": "摘要：轻量级实时文本转语音（TTS）系统对于无障碍使用至关重要。然而，最高效的TTS模型往往依赖于轻量级音素化器，而这些音素化器在处理上下文相关的挑战时显得困难。相比之下，具有更深入语言理解的高级音素化器则通常需要很高的计算成本，从而妨碍了实时性能。本文研究了在G2P辅助的TTS系统中音素化质量与推理速度之间的权衡，并引入了一个实用框架来弥合这一差距。我们提出了一些轻量级的上下文感知音素化策略，并设计了一种基于服务的TTS架构，将这些模块作为独立的服务执行。该设计将重型上下文感知组件与核心TTS引擎解耦，有效地突破了延迟瓶颈，使得能够实时使用高质量的音素化模型。实验结果确认，该系统在提高发音准确性和语言准确性的同时保持了实时响应能力，非常适合离线和终端设备的TTS应用。",
+        "地址": "https://arxiv.org/pdf/2512.08006.pdf"
+    },
+    {
+        "名称": "2025 [2512.04519] VideoSSM: Autoregressive Long Video Generation with Hybrid State-Space Memory.pdf",
+        "作者": "Yifei Yu, Xiaoshan Wu, Xinting Hu, Tao Hu, Yangtian Sun, Xiaoyang Lyu, Bo Wang, Lin Ma, Yuewen Ma, Zhongrui Wang, Xiaojuan Qi",
+        "摘要": "摘要：自回归(AR)扩散方法通过按因果关系生成帧，实现了流式和交互式长视频生成。然而，由于累积误差、运动漂移和内容重复，保持分钟级时长的连贯性仍然具有挑战性。我们从记忆的角度解决这个问题，将视频合成视为需要协调短期和长期上下文的递归动态过程。我们提出了VideoSSM，一种融合了自回归扩散和混合状态空间记忆的长视频模型。状态空间模型(SSM)作为整个序列中场景动态的演变全局记忆，而上下文窗口则提供了运动线索和细节的局部记忆。这种混合设计在不产生冻结、重复模式的情况下保持全局一致性，支持提示自适应交互，并以线性时间随序列长度扩展。在短期和长期基准测试中的实验显示了在分钟级时长上，VideoSSM在时间一致性和运动稳定性方面相比其他自回归视频生成器具有最先进的性能，从而实现了内容多样性和基于提示的交互控制，建立了一个可扩展的、具有记忆感知的长视频生成框架。\n\n作者：余一飞、吴霄珊、胡欣婷、胡涛、孙洋天、吕晓阳、王波、马林、马悦文、王中瑞、齐晓娟\n\n链接：https://arxiv.org/pdf/2512.04519.pdf\n\n标题：VideoSSM: 自回归混合状态空间记忆的长视频生成",
+        "地址": "https://arxiv.org/pdf/2512.04519.pdf"
+    },
+    {
+        "名称": "2025 [2512.09112] GimbalDiffusion: Gravity-Aware Camera Control for Video Generation.pdf",
+        "作者": "Frédéric Fortier-Chouinard, Yannick Hold-Geoffroy, Valentin Deschaintre, Matheus Gadelha, Jean-François Lalonde",
+        "摘要": "摘要：最近在文本生成视频方面取得了显著的现实感，但对相机运动和方向的细粒度控制仍然难以实现。现有的方法通常通过相对或模糊的表示来编码相机轨迹，限制了明确的几何控制。我们介绍了GimbalDiffusion，一个基于物理世界坐标实现相机控制的框架，以重力作为全局参考。与其描述相对于前一帧的运动，我们的方法在绝对坐标系中定义相机轨迹，从而无需初始参考帧即可对相机参数进行精确且可解释的控制。我们利用全景360度视频构建了各种相机轨迹，远超传统视频数据中以直线、前向轨迹为主的情况。为了进一步增强相机引导，我们引入了无俯仰条件注释策略，减少模型在与相机规格（如当相机指向天空时生成草地）冲突时对文本内容的依赖。最后，我们通过重新平衡SpatialVID-HQ，建立了一个用于在大范围相机俯仰变化下全面评估的基准，从而在相机感知视频生成方面作出贡献。这些贡献共同提升了文本生成视频模型的可控性和鲁棒性，实现在生成性框架中对齐重力的精确相机操作。\n\n翻译作者： 弗雷德里克·福尔蒂尔-舒瓦纳德, 亚尼克·霍尔德-纪尧夫, 瓦伦丁·德尚特尔, 马修斯·加德尔哈, 让-弗朗索瓦·拉隆德\n\n注释：项目页面：[这个 URL](https://arxiv.org/pdf/2512.09112.pdf)",
+        "地址": "https://arxiv.org/pdf/2512.09112.pdf"
+    },
+    {
+        "名称": "2025 [2512.07222] Pay Less Attention to Function Words for Free Robustness of Vision-Language Models.pdf",
+        "作者": "Qiwei Tian, Chenhao Lin, Zhengyu Zhao, Chao Shen",
+        "摘要": "摘要：为了应对视觉语言模型（VLM）的鲁棒性和性能之间的权衡，我们观察到功能词会导致跨模态对抗攻击中的VLM脆弱性，并据此提出了功能词去注意（Function-word De-Attention, FDA）以减少功能词的影响。类似于差分放大器，我们的FDA在注意头中计算原始和功能词的交叉注意，并将后者从前者中差分减去，以实现更对齐且鲁棒的VLM。全面的实验包括在两项下游任务、三个数据集和三个模型上的六种不同攻击下的两种最先进基线。总体而言，我们的FDA在检索任务中在三个测试模型上分别减少了平均18/13/53%的攻击成功率（ASR），而性能仅下降0.2/0.3/0.6%。在视觉定位任务中，攻击成功率下降了90%，而性能提高了0.3%。我们通过实验展示了FDA的可扩展性、泛化能力和零样本性能，并进行了深入的消融研究和分析。代码将公开发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2512.07222.pdf"
+    },
+    {
+        "名称": "2025 [2512.05402] Smart Timing for Mining: A Deep Learning Framework for Bitcoin Hardware ROI Prediction.pdf",
+        "作者": "Sithumi Wickramasinghe, Bikramjit Das, Dorien Herremans",
+        "摘要": "摘要:\n比特币挖矿硬件的购买时机需要战略性考量，因为市场波动大、技术快速淘汰、以及受协议驱动的收入周期。尽管挖矿已发展为资本密集型行业，关于何时购买新的专用集成电路（ASIC）硬件却缺乏指导，也没有现有的计算框架来解决这个决策问题。我们通过将硬件采购问题形式化为时间序列分类任务填补了这一空白，预测在一年内购买ASIC机器是否能带来有利（投资回报率(ROI) >= 1）、边际(0 < ROI < 1)、或无利可图(ROI <= 0)的回报。我们提出了MineROI-Net，这是一个开源的基于Transformer架构的模型，旨在捕捉挖矿盈利中的多尺度时间模式。基于2015年至2024年之间发布的20台ASIC矿机的数据，并涵盖多种市场环境，MineROI-Net优于基于LSTM和TSLANet的基线模型，达到83.7%的准确率和83.1%的宏F1分数。该模型在经济相关性上表现强劲，检测无利可图时期的精度为93.6%，而有利可图时期的精度为98.5%，同时避免了将有利可图的情况误分类为无利可图，反之亦然。这些结果表明，MineROI-Net提供了一个实用的数据驱动工具，用于确定挖矿硬件采购的时机，潜在减少资本密集型挖矿操作中的财务风险。该模型可通过这个https URL获得。",
+        "地址": "https://arxiv.org/pdf/2512.05402.pdf"
+    },
+    {
+        "名称": "2025 [2512.01453] Reinventing Clinical Dialogue: Agentic Paradigms for LLM Enabled Healthcare Communication.pdf",
+        "作者": "Xiaoquan Zhi, Hongke Zhao, Likang Wu, Chuang Zhao, Hengshu Zhu",
+        "摘要": "摘要：临床对话需要兼顾自然对话的同理心和循证医学的严格精确性。虽然大型语言模型（LLM）具备前所未有的语言能力，但其架构依赖于反应性和无状态处理，这往往偏重于概率上的合理性而非事实的真实性。这一结构性限制促使了医疗人工智能领域的范式转变，从生成文本预测转向自主代理，其中模型作为一个能够进行深思熟虑和保持持续记忆的中央推理引擎。本研究不仅罗列下游应用，还提供了对支撑该转变的认知架构的本源分析。我们引入了一种新颖的分类法，沿着知识来源和代理目标的正交轴线，划分临床知识的起源以及系统的操作范围。该框架通过将方法分为四种原型——\\textit{隐空间临床医生}，\\textit{新兴规划者}，\\textit{扎实综述者}，和\\textit{可验证工作流程自动化者}，系统化地分析了创造力与可靠性之间的内在权衡。对于每一种范式，我们解构了贯穿整个认知流程的技术实现，包括战略规划、记忆管理、动作执行、协作和进化，揭示了不同架构选择如何在自主性和安全性间取得平衡。\n\n作者：支孝权，赵洪科，吴利康，赵闯，朱恒树\n\n链接：https://arxiv.org/pdf/2512.01453.pdf\n\n标题：重塑临床对话：LLM支持的医疗通信自主代理范式\n\n年份：2025",
+        "地址": "https://arxiv.org/pdf/2512.01453.pdf"
+    }
+]
