@@ -1,0 +1,128 @@
+[
+    {
+        "名称": "2025 [2512.08269] EgoX: Egocentric Video Generation from a Single Exocentric Video.pdf",
+        "作者": "Taewoong Kang, Kinam Kim, Dohyeon Kim, Minho Park, Junha Hyung, Jaegul Choo",
+        "摘要": "摘要：自我中心的感知使人类能够直接从自身视角体验和理解世界。将他人视角（第三人称）视频转换为自我视角（第一人称）视频为沉浸式理解开辟了新的可能性，但由于极端相机姿态变化和最小视图重叠，这一任务仍然具有很大挑战性。该任务需要忠实保留可见内容，同时在几何一致的方式下合成未见区域。为实现这一目标，我们提出了一种新的框架EgoX，用于从单个他人视角视频生成自我视角视频。EgoX通过轻量级的LoRA适配，利用大规模视频扩散模型的预训练时空知识，并引入了一种统一的条件策略，通过宽度和通道级联，将他人视角和自我视角先验结合在一起。此外，几何引导的自注意机制选择性地关注空间相关区域，确保几何一致性和高视觉保真度。我们的方法在实现连贯和现实的自我视角视频生成方面表现出强大的可扩展性和鲁棒性，并适用于未见和自然环境中的视频。\n\n翻译的摘要：自我中心的感知使人类能够直接从自身视角体验和理解世界。将他人视角（第三人称）视频转换为自我视角（第一人称）视频为沉浸式理解开辟了新的可能性，但由于极端相机姿态变化和最小视图重叠，这一任务仍然具有很大挑战性。该任务需要忠实保留可见内容，同时在几何一致的方式下合成未见区域。为实现这一目标，我们提出了一种新的框架EgoX，用于从单个他人视角视频生成自我视角视频。EgoX通过轻量级的LoRA适配，利用大规模视频扩散模型的预训练时空知识，并引入了一种统一的条件策略，通过宽度和通道级联，将他人视角和自我视角先验结合在一起。此外，几何引导的自注意机制选择性地关注空间相关区域，确保几何一致性和高视觉保真度。我们的方法在实现连贯和现实的自我视角视频生成方面表现出强大的可扩展性和鲁棒性，并适用于未见和自然环境中的视频。",
+        "地址": "https://arxiv.org/pdf/2512.08269.pdf"
+    },
+    {
+        "名称": "2025 [2512.11558] DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry.pdf",
+        "作者": "Zhenyang Cai, Jiaming Zhang, Junjie Zhao, Ziyi Zeng, Yanchao Li, Jingyi Liang, Junying Chen, Yunjin Yang, Jiajun You, Shuzhi Deng, Tongfei Wang, Wanting Chen, Chunxiu Hao, Ruiqi Xie, Zhenwei Wen, Xiangyi Feng, Zou Ting, Jin Zou Lin, Jianquan Li, Guangjun Yu, Liangyi Chen, Junwen Wang, Shan Jiang, Benyou Wang",
+        "摘要": "摘要：在牙科中对多模态数据进行可靠解释对于自动化口腔护理至关重要，但当前的多模态大型语言模型（MLLMs）难以捕捉细粒度的牙科视觉细节，且缺乏足够的推理能力来进行精确诊断。为了解决这些问题，我们提出了DentalGPT，这是一种通过高质量领域知识注入和强化学习开发的专门牙科MLLM。具体而言，通过聚合超过12万张牙科图像及其详细描述构建了截至目前最大的牙科多模态数据集，这些描述突出了诊断相关的视觉特征，使得这是迄今为止包含牙科图像数量最广泛的多模态数据集。在该数据集上的训练显著增强了MLLM对牙科状况的视觉理解能力，而后续的强化学习阶段进一步增强了其多模态复杂推理能力。在口内和全景基准测试以及牙科子集的医学VQA基准测试中的综合评估显示，DentalGPT在疾病分类和牙科VQA任务中表现优越，尽管只有7B参数，但仍优于许多最先进的MLLMs。这些结果表明，高质量的牙科数据结合阶段性适应提供了一条构建能力出众且领域专一的牙科MLLMs的有效途径。\n\n作者：蔡振杨、张佳明、赵俊杰、曾子一、李炎超、梁静怡、陈俊英、杨云瑾、游佳君、邓赦知、王通菲、陈宛婷、郝春秀、谢瑞琦、文振伟、封翔毅、丁邹、林金邹、李建全、于广俊、陈亮怡、王俊文、姜山、王本友\n\n链接：https://arxiv.org/pdf/2512.11558.pdf\n\n标题：2025 [2512.11558] DentalGPT: 激励牙科多模态复杂推理的模型",
+        "地址": "https://arxiv.org/pdf/2512.11558.pdf"
+    },
+    {
+        "名称": "2025 [2512.11749] SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder.pdf",
+        "作者": "Minglei Shi, Haolin Wang, Borui Zhang, Wenzhao Zheng, Bohan Zeng, Ziyang Yuan, Xiaoshi Wu, Yuanxing Zhang, Huan Yang, Xintao Wang, Pengfei Wan, Kun Gai, Jie Zhou, Jiwen Lu",
+        "摘要": "摘要：在视觉基础模型（VFM）表示中进行视觉生成提供了一种极具前景的统一途径，可融合视觉理解、感知和生成。尽管具备这种潜力，但完全在VFM表示空间中训练大规模文本到图像扩散模型仍然很少被探索。为了弥补这一差距，我们扩展了SVG（自监督表示视觉生成）框架，提出了SVG-T2I，以支持在VFM特征域中直接进行高质量的文本到图像合成。通过利用标准的文本到图像扩散流程，SVG-T2I取得了竞争力的性能，在GenEval上达到了0.75，在DPG-Bench上达到了85.78。这一表现验证了VFM在生成任务中的内在表征能力。我们完全开源了该项目，包括自动编码器和生成模型，以及它们的训练、推理、评估流程和预训练权重，以促进表示驱动的视觉生成的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2512.11749.pdf"
+    },
+    {
+        "名称": "2025 [2512.11799] V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties.pdf",
+        "作者": "Ye Fang, Tong Wu, Valentin Deschaintre, Duygu Ceylan, Iliyan Georgiev, Chun-Hao Paul Huang, Yiwei Hu, Xuelin Chen, Tuanfeng Yang Wang",
+        "摘要": "摘要：大规模视频生成模型在建模真实场景中的逼真外观和光照交互方面显示出了巨大的潜力。然而，一个能够共同理解内在场景属性（例如反照率、法线、材质和辐射度），利用它们进行视频合成，并支持可编辑的内在表示的闭环框架尚未被探索。我们提出了V-RGBX，这是首个面向内在感知视频编辑的端到端框架。V-RGBX统一了三项关键功能：（1）将视频逆向渲染为内在通道，（2）从这些内在表示中进行逼真的视频合成，以及（3）基于关键帧的、以内在通道为条件的视频编辑。V-RGBX的核心是交错的条件机制，使得用户选择的关键帧可以实现直观的、基于物理的视频编辑，支持灵活操作任何内在模态。大量的定量和定性结果表明，V-RGBX在物理上合理的方式下在序列中传播关键帧编辑，同时生成时间上一致的逼真视频。我们展示了其在各种应用中的有效性，包括物体外观编辑和场景级的重新照明，超越了现有方法的性能。",
+        "地址": "https://arxiv.org/pdf/2512.11799.pdf"
+    },
+    {
+        "名称": "2025 [2512.10411] Sliding Window Attention Adaptation.pdf",
+        "作者": "Yijiong Yu, Jiale Liu, Qingyun Wu, Huazheng Wang, Ji Pei",
+        "摘要": "摘要：基于Transformer的大型语言模型（LLMs）中的自注意力机制随着输入长度呈二次增长，使得长上下文推理非常昂贵。滑窗注意力（SWA）将此成本降低为线性复杂度，但在推理时对预训练使用全注意力（FA）的模型启用完整的SWA会由于训练-推理不匹配导致长上下文性能严重下降。这让我们产生了疑问：可以在不进行预训练的情况下将FA预训练的LLMs很好地适应SWA吗？我们通过提出滑窗注意力适应（SWAA）来研究这一问题，这是一组结合五种方法的实际配方，以更好地适应：(1) 仅在预填充期间应用SWA；(2) 保留“汇聚”标记；(3) 交错使用FA/SWA层；(4) 连锁思维（CoT）；(5) 微调。我们的实验表明，虽然SWA适应是可行的，但并非琐碎：没有单一方法是充分的，然而特定的协同组合可以有效地恢复原始的长上下文性能。我们进一步分析了不同SWAA配置的性能-效率权衡，并为各种情景提供了推荐配方。我们的代码可在此HTTPS网址找到。",
+        "地址": "https://arxiv.org/pdf/2512.10411.pdf"
+    },
+    {
+        "名称": "2025 [2512.11253] PersonaLive! Expressive Portrait Image Animation for Live Streaming.pdf",
+        "作者": "Zhiyuan Li, Chi-Man Pun, Chen Fang, Jue Wang, Xiaodong Cun",
+        "摘要": "摘要：当前基于扩散的肖像动画模型主要专注于增强视觉质量和表情真实感，忽视了生成延迟和实时性能，这限制了它们在直播场景中的应用范围。我们提出了PersonaLive，一个新颖的基于扩散的实时肖像动画框架，采用多阶段训练方法。具体而言，我们首先采用混合隐式信号，即隐式面部表示和3D隐式关键点，以实现富有表现力的图像级运动控制。然后，我们提出了一种简化步数的外观蒸馏策略，以消除去噪过程中的外观冗余，大大提高推理效率。最后，我们引入了一种自回归微块流式生成范例，配备滑动训练策略和历史关键帧机制，以实现低延迟和稳定的长期视频生成。大量实验表明，PersonaLive在基于扩散的肖像动画模型中达到了最新的性能，比之前的模型速度提高了7-22倍。\n\n来源：https://arxiv.org/pdf/2512.11253.pdf\n\n作者：李志远，潘智文，方晨，王珏，Cun Xiaodong",
+        "地址": "https://arxiv.org/pdf/2512.11253.pdf"
+    },
+    {
+        "名称": "2025 [2512.11464] Exploring MLLM-Diffusion Information Transfer with MetaCanvas.pdf",
+        "作者": "Han Lin, Xichen Pan, Ziqi Huang, Ji Hou, Jialiang Wang, Weifeng Chen, Zecheng He, Felix Juefei-Xu, Junzhe Sun, Zhipeng Fan, Ali Thabet, Mohit Bansal, Chu Wang",
+        "摘要": "摘要：多模态学习在视觉理解方面迅速发展，主要是通过使用强大的大语言模型（LLM）作为认知核心的多模态大语言模型（MLLMs）实现的。然而，在视觉生成中，这些强大的核心模型通常被简化为扩散模型的全局文本编码器，使它们的大多数推理和规划能力未被充分利用。这导致一个差距：当前的多模态LLMs可以解析复杂的布局、属性和知识密集的场景，但在生成图像或视频时却难以实现同样精确和结构化的控制。我们提出MetaCanvas，这是一个轻量级框架，使MLLMs能够直接在空间和时空潜在空间中进行推理和规划，并与扩散生成器紧密接口。我们在三种不同的扩散主干上实现了MetaCanvas，并在六项任务中评估了它，包括文本生成图像、文本/图像生成视频、图像/视频编辑和上下文视频生成，每项任务都需要精确的布局、稳健的属性绑定和需要推理的控制。MetaCanvas在所有任务中均优于全局条件基线，表明将MLLMs视为潜在空间规划者是缩小多模态理解与生成之间差距的有希望的方向。",
+        "地址": "https://arxiv.org/pdf/2512.11464.pdf"
+    },
+    {
+        "名称": "2025 [2512.11792] Structure From Tracking: Distilling Structure-Preserving Motion for Video Generation.pdf",
+        "作者": "Yang Fei, George Stoica, Jingyuan Liu, Qifeng Chen, Ranjay Krishna, Xiaojuan Wang, Benlin Liu",
+        "摘要": "摘要：现实是一场在严格约束和可变形结构之间的舞蹈。对于视频模型来说，这意味着生成既能保持逼真度又能保持结构的运动。尽管扩散模型有所进展，但生成保持结构的逼真运动仍然具有挑战性，尤其是对于人类和动物等关节和可变形物体。单独扩大训练数据规模迄今未能解决物理上不合理的过渡问题。现有方法依赖于带有噪声的运动表示来进行条件设置，例如使用外部不完美模型提取的光流或骨架。为了解决这些问题，我们引入了一种算法，通过自回归视频跟踪模型（SAM2）向双向视频扩散模型（CogVideoX）提炼保持结构的运动先验。通过我们的方法，我们训练了SAM2VideoX，该模型包含两个创新点：（1）一个双向特征融合模块，从像SAM2这样的递归模型中提取全局保持结构的运动先验；（2）局部Gram流失，校准局部特征的共同移动。VBench实验和人类研究表明，SAM2VideoX在先前基准上的表现有持续提升（在VBench上提升2.60%，FVD降低21-22%，人类偏好为71.4%）。具体而言，在VBench上我们达到95.51%，比REPA（92.91%）高出2.60%，将FVD减少到360.57，比REPA精细调整和LoRA精细调整分别提高了21.20%和22.46%。项目信息可在该网址找到：this https URL。",
+        "地址": "https://arxiv.org/pdf/2512.11792.pdf"
+    },
+    {
+        "名称": "2025 [2512.06818] MeshSplatting: Differentiable Rendering with Opaque Meshes.pdf",
+        "作者": "Jan Held, Sanghyun Son, Renaud Vandeghen, Daniel Rebain, Matheus Gadelha, Yi Zhou, Anthony Cioppa, Ming C. Lin, Marc Van Droogenbroeck, Andrea Tagliasacchi",
+        "摘要": "摘要：基于原语的喷涂方法，如3D高斯喷涂，已经通过实时渲染彻底改变了新视角合成。然而，它们的点云表示法与启用AR/VR和游戏引擎的网格管道仍不兼容。我们提出了MeshSplatting，一种基于网格的重建方法，通过可微渲染共同优化几何和外观。通过限制的德劳内三角化来强制连通性并优化表面一致性，MeshSplatting创建了端到端平滑、视觉上高质量的网格，这些网格可以在实时3D引擎中高效渲染。在Mip-NeRF360上，它使基于网格的新视角合成的PSNR比目前最先进的MiLo高出0.69 dB，同时训练速度加快2倍，内存使用减少2倍，实现了神经渲染与交互式3D图形的无缝实时场景交互。项目页面可在此https URL查看。",
+        "地址": "https://arxiv.org/pdf/2512.06818.pdf"
+    },
+    {
+        "名称": "2025 [2512.10605] LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator.pdf",
+        "作者": "Lihuang Chen, Xiangyu Luo, Jun Meng",
+        "摘要": "摘要：我们提出了LEO-RobotAgent，这是一个通用的语言驱动的智能机器人代理框架。在这个框架下，LLMs能够操作不同类型的机器人，以完成各种场景中的不可预见的复杂任务。该框架具有强大的泛化能力、鲁棒性和高效性。基于该框架构建的应用级系统可以全面增强人机双向意图理解，降低人机交互的门槛。关于机器人任务规划，现有研究主要集中在大模型在单任务场景和单一机器人类型中的应用。这些算法通常结构复杂，缺乏可推广性。因此，提出的LEO-RobotAgent框架尽可能设计为简化结构，使大型模型能够在这一清晰框架内独立思考、计划和行动。我们提供了一个模块化且易注册的工具集，允许大型模型灵活调用各种工具以满足不同需求。同时，该框架整合了人机交互机制，使算法能够像伙伴一样与人类协作。实验验证了该框架可以轻松适应包括无人机（UAVs）、机械臂和轮式机器人在内的主流机器人平台，并高效执行各种精心设计的不同复杂程度的任务。我们的代码可通过此HTTPS网址获取。\n\n作者：陈礼煌，罗翔宇，孟军\n\n链接： [2025 [2512.10605] LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator.pdf](https://arxiv.org/pdf/2512.10605.pdf)",
+        "地址": "https://arxiv.org/pdf/2512.10605.pdf"
+    },
+    {
+        "名称": "2025 [2512.11150] Causal Judge Evaluation: Calibrated Surrogate Metrics for LLM Systems.pdf",
+        "作者": "Eddie Landesberg",
+        "摘要": "摘要：LLM-评估已成为衡量模型的标准，但这种做法在统计上存在问题：未经校准的得分可能会颠倒偏好，未经校准得分的置信区间几乎无法覆盖，并且加权估计在有限重叠情况下即使有效样本量（ESS）很高也会崩溃。我们引入了因果法官评估（CJE），这种框架解决了所有这三种失败。在过滤后的4,961个Chatbot Arena提示中（原始为5k），CJE在全部样本中实现了99%的成对排名准确度（在所有配置中平均为94%），达到了Oracle的质量，并且在排名5个策略时成本降低了14倍，仅通过校准成本低16倍的法官的5% Oracle标签（约250个标签）来实现。CJE结合了三个部分：（i）AutoCal-R，通过均值保持同为回归的方法进行奖励校准；（ii）SIMCal-W，通过S单调候选的堆叠进行权重稳定化；和（iii）能将校准不确定性传播到置信区间的Oracle-不确定性感知推断。我们形式化了覆盖受限效率（CLE）诊断，这解释了为什么IPS风格的估计器即使在ESS超过90%时也会失败：记录器很少访问目标策略集中的区域。主要发现：SNIPS即使经过奖励校准也会因权重不稳定性颠倒排名（成对为38%，肯德尔tau为负）；尽管权重稳定化，校准后的IPS仍然接近随机（47%），与CLE一致；OUA将覆盖率从接近0%提高到约86%（直接）和约96%（堆叠-DR），其中天真的区间严重不足。",
+        "地址": "https://arxiv.org/pdf/2512.11150.pdf"
+    },
+    {
+        "名称": "2025 [2512.02901] Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in $\\{\\pm 1, \\pm i\\}$.pdf",
+        "作者": "Feiyu Wang, Xinyu Tan, Bokai Huang, Yihao Zhang, Guoan Wang, Peizhuang Cong, Tong Yang",
+        "摘要": "摘要：大型语言模型（LLMs）已经革新了人工智能，但其庞大的内存和计算需求需要积极的量化，越来越接近单比特的理论极限。虽然复值的LLMs（如iFairy）比实值LLMs在低比特表示方面有更优越的机会，但它们需要从头训练，无法利用已有的预训练实值基础模型生态系统。在此，我们提出了Fairy2i，这是一个通用框架，可以将预训练的实值层转化为等效的广义线性复数形式，使得在重用现有检查点的同时实现极低比特量化。通过证明实数和广义线性映射之间的无损数学等价性，我们将标准Transformer转换到复杂领域，并采用具有极高效率的四次方根代码表的相位感知量化方案。此外，我们引入了一种递归残差量化机制，迭代最小化量化误差，使推理通过高效的无乘累积进行。我们证明了Fairy2i在有效2比特精度下恢复了LLaMA-2 7B的性能，几乎可与全精度基线相媲美，显著超越了最先进的实值二进制和三进制量化方法。这项工作弥合了复数算术的表示效率与预训练模型实际应用之间的差距，为在普通硬件上进行高效推理开辟了新途径。",
+        "地址": "https://arxiv.org/pdf/2512.02901.pdf"
+    },
+    {
+        "名称": "2025 [2512.11437] CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare.pdf",
+        "作者": "Akash Ghosh, Srivarshinee Sridhar, Raghav Kaushik Ravi, Muhsin Muhsin, Sriparna Saha, Chirag Agarwal",
+        "摘要": "摘要：将语言模型（LMs）整合到医疗系统中，具有改善医疗工作流程和决策制定的巨大潜力。然而，其在实际应用中的一个关键障碍是缺乏对其可信性的可靠评估，尤其是在多语言医疗环境中。现有的语言模型主要在资源丰富的语言环境中训练，使它们无法处理中低资源语言中医疗查询的复杂性和多样性，这对在语言多样性至关重要的全球医疗背景中的部署构成了显著挑战。在这项工作中，我们提出了CLINIC，一个全面的多语言基准，用于评估语言模型在医疗领域的可信性。CLINIC系统地在可信性的五个关键维度上对语言模型进行基准测试：真实性、公平性、安全性、稳健性和隐私性，这些维度通过18个不同的任务形式化，涉及15种语言（涵盖所有主要洲），并包含广泛的关键医疗主题，如疾病状况、预防措施、诊断测试、治疗、手术和药物。我们的广泛评估显示，语言模型在事实正确性方面存在困难，表现出对不同人口和语言群体的偏见，并容易受到隐私泄露和对抗性攻击。通过突出这些缺点，CLINIC为增强语言模型在跨语言医疗领域的全球影响力和安全性奠定了基础。",
+        "地址": "https://arxiv.org/pdf/2512.11437.pdf"
+    },
+    {
+        "名称": "2025 [2512.06951] Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge.pdf",
+        "作者": "Ilia Larchenko, Gleb Zarin, Akash Karnatak",
+        "摘要": "摘要：我们展示了一种在2025 BEHAVIOR挑战赛中获得第一名的视觉行动策略。该挑战赛是一个大规模基准，涵盖50项多样的长期家庭任务，通过照片级逼真的仿真进行，要求双手操作、导航和情境感知的决策。基于Pi0.5架构，我们引入了几项创新。主要贡献是流匹配的相关噪声，这提高了训练效率并允许相关感知的修复，从而实现平滑的动作序列。我们还应用了可学习的混合层注意力机制和系统2阶段跟踪，用于解决歧义。训练过程中采用多样本流匹配以减少方差，而推理过程则使用动作压缩和特定挑战的修正规则。我们的方法在公共和私有排行榜上的50项任务中，整体q分数达到了26%。",
+        "地址": "https://arxiv.org/pdf/2512.06951.pdf"
+    },
+    {
+        "名称": "2025 [2512.11130] Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching.pdf",
+        "作者": "Bowen Wen, Shaurya Dewan, Stan Birchfield",
+        "摘要": "摘要：基础立体模型实现了强大的零样本泛化能力，但在实时应用中依然计算成本高昂。而高效立体架构则为了速度牺牲了鲁棒性，并且需要高成本的每域微调。为了解决这个差距，我们提出了Fast-FoundationStereo，这是一个首次在实时帧速率下实现强零样本泛化的架构系列。我们采用了分而治之的加速策略，包含三个组件：（1）知识蒸馏将混合骨干网络压缩成单一高效学生模型；（2）基于块的神经架构搜索，在延迟预算下自动发现最佳成本过滤设计，指数减少搜索复杂性；（3）结构化剪枝以消除迭代优化模块中的冗余。此外，我们引入了自动伪标注流水线，用于整理140万对野生立体图像对，以补充合成训练数据并促进知识蒸馏。最终模型的运行速度比FoundationStereo快10倍以上，同时其零样本准确率几乎匹敌FoundationStereo，从而在实时方法中确立了新的最先进标准。项目页面：this https URL\n\n翻译后的摘要如下：\n基础立体模型实现了强大的零样本泛化能力，但在实时应用中仍存在计算成本过高的问题。而高效立体架构则为了速度牺牲了鲁棒性，并且需要高成本的每领域微调。为了弥合这一差距，我们提出了Fast-FoundationStereo架构系列，这是首次在实时帧速率下实现强零样本泛化能力。我们采用了分而治之的加速策略，包含三个组件：（1）知识蒸馏技术将混合骨干网络压缩到单一高效学生模型；（2）块状神经架构搜索，用于在延迟预算内自动发现最佳成本过滤设计，指数减少搜索复杂性；（3）结构化剪枝，以消除迭代优化模块中的冗余。此外，我们引入了一条自动伪标注流水线，整理了140万对野生立体图像对，以补充合成训练数据并促进知识蒸馏。最终模型比FoundationStereo快10倍以上，同时其零样本准确性与FoundationStereo相差无几，从而在实时方法中确立了新的最先进标准。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2512.11130.pdf"
+    },
+    {
+        "名称": "2025 [2512.10858] Scaling Behavior of Discrete Diffusion Language Models.pdf",
+        "作者": "Dimitri von Rütte, Janis Fluri, Omead Pooladzandi, Bernhard Schölkopf, Thomas Hofmann, Antonio Orvieto",
+        "摘要": "这篇论文的摘要如下：\n\n现代的大型语言模型（LLM）的预训练消耗了大量的计算资源和训练数据，使得不同模型的扩展行为或扩展规律成为一个关键的区别因素。离散扩散语言模型（DLMs）被提议作为自回归语言模型（ALMs）的替代方案。然而，它们的扩展行为尚未得到充分探索，之前的研究表明它们需要更多的数据和计算资源才能匹配ALMs的性能。\n\n我们通过在掩码扩散和均匀扩散之间平滑插值，详细研究了DLM在不同噪声类型下的扩展行为，同时注意了诸如批处理大小和学习率等关键超参数。我们的实验表明，DLM的扩展行为强烈依赖于噪声类型，并且与ALMs有很大不同。虽然所有噪声类型在计算受限的扩展中收敛到相似的损失值，但我们发现，对于计算效率训练，均匀扩散比掩码扩散需要更多的参数和更少的数据，这使其在数据受限的环境中具有前景。我们将均匀扩散模型扩展到100亿参数，并训练了10²² FLOPs，确认了预测的扩展行为，使其成为迄今为止最大的公开已知的均匀扩散模型。\n\n作者: Dimitri von Rütte, Janis Fluri, Omead Pooladzandi, Bernhard Schölkopf, Thomas Hofmann, Antonio Orvieto  \n\n论文链接: [https://arxiv.org/pdf/2512.10858.pdf](https://arxiv.org/pdf/2512.10858.pdf)  \n标题: 2025 [2512.10858] 离散扩散语言模型的扩展行为",
+        "地址": "https://arxiv.org/pdf/2512.10858.pdf"
+    },
+    {
+        "名称": "2025 [2512.10715] CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images.pdf",
+        "作者": "Matias Cosarinsky, Nicolas Gaggion, Rodrigo Echeveste, Enzo Ferrante",
+        "摘要": "摘要：不确定性估计对于医学图像分割系统的安全临床部署至关重要，它能够识别不可靠的预测并支持人工监控。虽然先前的研究主要关注于像素级不确定性，但基于标志点的分割提供了固有的拓扑保证，然而在不确定性视角下却仍未被充分探索。在这项工作中，我们研究了在胸部X光片上进行解剖标志点分割的不确定性估计。受到标准图像卷积编码器与基于图的生成解码器相结合的混合神经网络结构的启发，并利用其变分潜在空间，我们得出了两种互补的度量：(i)直接从学习的分布参数中捕获的潜在不确定性，以及(ii)通过从潜在样本生成多个随机输出预测获得的预测不确定性。通过控制腐败实验，我们表明两种不确定性度量随着扰动严重程度的增加而增加，反映了整体和局部退化。通过与手动真值的比较，我们证明了这些不确定性信号能够识别不可靠的预测，并支持对CheXmask数据集的分布外检测。更重要的是，我们发布了CheXmask-U（这个网址），这是一个包含657,566个带有每节点不确定性估计的胸部X光标志点分割的大规模数据集，使研究人员能够在使用这些解剖掩膜时考虑分割质量的空间变化。我们的发现确立了不确定性估计作为一种增强胸部X光基于标志点的解剖分割方法的鲁棒性和安全部署的有前途的方向。该方法的完整互动演示在这个网址，而源代码在这个网址。",
+        "地址": "https://arxiv.org/pdf/2512.10715.pdf"
+    },
+    {
+        "名称": "2025 [2512.11393] The N-Body Problem: Parallel Execution from Single-Person Egocentric Video.pdf",
+        "作者": "Zhifan Zhu, Yifei Huang, Yoichi Sato, Dima Damen",
+        "摘要": "摘要: 人类可以直观地将复杂活动并行化，但模型能否通过观察单个人来学习这一点？给定一个自我中心的视频，我们介绍了N体问题：N个个体是否能够假设性地执行该视频中观测到的同一组任务。目标是最大化速度提升，但将视频片段简单地分配给个体常常会违反现实世界的约束, 导致物理上不可能的场景, 如两个人使用同一个物体或占据相同的空间。为了解决这个问题，我们形式化了N体问题，并提出了一套评估性能（速度提升、任务覆盖）和可行性（空间碰撞、物体冲突和因果约束）的指标。然后，我们引入了一种结构化提示策略，引导视觉语言模型（VLM）推理3D环境、物体使用和时间依赖性，以生成可行的并行执行。在EPIC-Kitchens和HD-EPIC的100个视频上，我们的方法在N=2时相对于Gemini 2.5 Pro的基线提示提高了45%的动作覆盖率，同时将碰撞率、物体和因果冲突分别减少了55%、45%和55%。",
+        "地址": "https://arxiv.org/pdf/2512.11393.pdf"
+    },
+    {
+        "名称": "2025 [2512.10685] Sharp Monocular View Synthesis in Less Than a Second.pdf",
+        "作者": "Lars Mescheder, Wei Dong, Shiwei Li, Xuyang Bai, Marcel Santos, Peiyun Hu, Bruno Lecouat, Mingmin Zhen, Amaël Delaunoy, Tian Fang, Yanghai Tsin, Stephan R. Richter, Vladlen Koltun",
+        "摘要": "摘要：我们介绍了SHARP，一种从单张图像生成逼真视图的技术。给定单张照片，SHARP回归所描绘场景的3D高斯表示参数。这在标准GPU上通过神经网络的单次前馈传递在不到一秒的时间内完成。由SHARP生成的3D高斯表示可以实时渲染，从而为附近视图生成高分辨率的逼真图像。该表示是有尺度的，支持绝对尺度和度量相机移动。实验结果表明，SHARP在多个数据集上提供了鲁棒的零样本泛化能力。它在多个数据集上设立了新的标准，将LPIPS减少了25-34％，DISTS减少了21-43％，而合成时间则降低了三个数量级。代码和权重可以在这个https URL上获取。",
+        "地址": "https://arxiv.org/pdf/2512.10685.pdf"
+    },
+    {
+        "名称": "2025 [2512.10092] Interpretable Embeddings with Sparse Autoencoders: A Data Analysis Toolkit.pdf",
+        "作者": "Nick Jiang, Xiaoqing Sun, Lisa Dunlap, Lewis Smith, Neel Nanda",
+        "摘要": "摘要：分析大规模文本语料库是机器学习中的核心挑战，对于识别不良模型行为或训练数据中的偏见等任务尤为重要。目前的方法通常依赖于昂贵的基于大型语言模型（LLM）的技术（例如标注数据集差异）或密集嵌入模型（例如聚类），这些方法在关注的属性上缺乏控制。我们提出使用稀疏自编码器（SAEs）来创建SAE嵌入：维度映射到可解释概念的表示。通过四个数据分析任务，我们展示了SAE嵌入比LLMs更具成本效益和可靠性，比密集嵌入更具可控性。利用SAEs的大假设空间，我们能够发现如（1）数据集之间的语义差异和（2）文档中意想不到的概念相关性等洞察。例如，通过比较模型响应，我们发现Grok-4比其他九个前沿模型更频繁地澄清模糊内容。相对于LLMs，SAE嵌入以2-8倍更低的成本揭示更大的差异，并更可靠地识别偏见。此外，SAE嵌入是可控的：通过过滤概念，我们可以（3）沿关注的轴线聚类文档，并且（4）在基于属性的检索上优于密集嵌入。使用SAE嵌入，我们通过两个案例研究研究模型行为：调查OpenAI模型行为如何随时间变化以及从Tulu-3（Lambert等，2024年）的训练数据中找到“触发”短语。结果表明，SAEs 是非结构化数据分析的多功能工具，并强调通过数据解释模型的重要性被忽视。",
+        "地址": "https://arxiv.org/pdf/2512.10092.pdf"
+    },
+    {
+        "名称": "2025 [2512.11798] Particulate: Feed-Forward 3D Object Articulation.pdf",
+        "作者": "Ruining Li, Yuxin Yao, Chuanxia Zheng, Christian Rupprecht, Joan Lasenby, Shangzhe Wu, Andrea Vedaldi",
+        "摘要": "摘要：我们介绍了一种名为Particulate的前馈方法。该方法可以通过给定的日常物品的单个静态3D网格，直接推断出其底层关节结构的所有属性，包括其3D部件、运动结构和运动约束。其核心是一个变压器网络，称为Part Articulation Transformer，它使用一个灵活且可扩展的架构处理输入网格的点云，从而预测所有上述属性，且天然支持多关节结构。我们在来自公共数据集的多样化关节3D资产集合上对该网络进行了端到端的训练。在推理过程中，Particulate将网络的前馈预测提升到输入网格，从而在几秒钟内生成一个完全关节化的3D模型，这比以前需要对每个对象进行优化的方法快得多。Particulate还可以准确推断AI生成的3D资产的关节结构，当与现成的图像到3D生成器结合使用时，可以从单个（真实或合成）图像中全面提取关节化3D对象。我们进一步引入了一个新的挑战性基准，用高质量的公共3D资产策划，以进行3D关节估计，并重新设计了评估协议，以更符合人类的偏好。定量和定性结果表明，Particulate显著优于最先进的方法。\n\n作者：李锐宁，姚雨欣，郑传侠，Christian Rupprecht，Joan Lasenby，武尚哲，Andrea Vedaldi\n\n链接：https://arxiv.org/pdf/2512.11798.pdf\n\n标题：2025 [2512.11798] Particulate：前馈3D对象关节化\n\n备注：项目页面：this https URL\n",
+        "地址": "https://arxiv.org/pdf/2512.11798.pdf"
+    }
+]
