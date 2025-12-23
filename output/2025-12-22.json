@@ -1,0 +1,134 @@
+[
+    {
+        "名称": "2025 [2512.16969] Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows.pdf",
+        "作者": "Wanghan Xu, Yuhao Zhou, Yifan Zhou, Qinglong Cao, Shuo Li, Jia Bu, Bo Liu, Yixin Chen, Xuming He, Xiangyu Zhao, Xiang Zhuang, Fengxiang Wang, Zhiwang Zhou, Qiantai Feng, Wenxuan Huang, Jiaqi Wei, Hao Wu, Yuejin Yang, Guangshuai Wang, Sheng Xu, Ziyan Huang, Xinyao Liu, Jiyao Liu, Cheng Tang, Wei Li, Ying Chen, Junzhi Ning, Pengfei Jiang, Chenglong Ma, Ye Du, Changkai Ji, Huihui Xu, Ming Hu, Jiangbin Zheng, Xin Chen, Yucheng Wu, Feifei Jiang, Xi Chen, Xiangru Tang, Yuchen Fu, Yingzhou Lu, Yuanyuan Zhang, Lihao Sun, Chengbo Li, Jinzhe Ma, Wanhao Liu, Yating Liu, Kuo-Cheng Wu, Shengdu Chai, Yizhou Wang, Ouwen Zhangjin, Chen Tang, Shufei Zhang, Wenbo Cao, Junjie Ren, Taoyong Cui, Zhouheng Yao, Juntao Deng, Yijie Sun, Feng Liu, Wangxu Wei, Jingyi Xu, Zhangrui Li, Junchao Gong, Zijie Guo, Zhiyu Yao, Zaoyu Chen, Tianhao Peng, Fangchen Yu, Bo Zhang, Dongzhan Zhou, Shixiang Tang, Jiaheng Liu, Fenghua Ling, Yan Lu, Yuchen Ren, Ben Fei, Zhen Zhao, Xinyu Gu, Rui Su, Xiao-Ming Wu, Weikang Si, Yang Liu, Hao Chen, Xiangchao Yan, Xue Yang, Junchi Yan, Jiamin Wu, Qihao Zheng, Chenhui Li, Zhiqiang Gao, Hao Kong, Junjun He, Mao Su, Tianfan Fu, Peng Ye, Chunfeng Song, Nanqing Dong, Yuqiang Li, Huazhu Fu\n\n\n        , Siqi Sun, Lijing Cheng, Jintai Lin, Wanli Ouyang, Bowen Zhou, Wenlong Zhang, Lei Bai\n\n\n    et al. (7 additional authors not shown)\n You must enable JavaScript to view entire author list.",
+        "摘要": "摘要：尽管科学AI取得了进展，但对能够自主设想、研究和跨科学领域推理的科学通用智能（SGI）尚缺乏一个连贯的框架。我们提出了一个基于实用探究模型（PIM：审议、构思、行动、感知）的操作性SGI定义，并通过四种与科学家对齐的任务将其操作化：深入研究、创意生成、干/湿实验和实验推理。SGI-Bench包含了超过1000个由专家策划的、跨学科样本，灵感来自《科学》125个重大问题，能够系统地评估最先进的语言模型（LLM）。研究结果揭示了差距：尽管在深入研究中步骤层面对齐准确率较低（10%-20%），点子缺乏可行性和细节；代码执行能力高，但在干实验中执行结果准确率低；湿实验协议中序列保真度低；以及持续存在的多模态比较推理挑战。我们进一步引入了测试时强化学习（TTRL），通过优化检索增强的新颖性奖励在推理阶段提高假设的新颖性，而无需参考答案。我们的PIM基础定义、基于工作流程的基准以及实证洞察，共同建立了AI系统真正参与科学发现的基础。",
+        "地址": "https://arxiv.org/pdf/2512.16969.pdf"
+    },
+    {
+        "名称": "2025 [2512.16793] PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Physical Intelligence.pdf",
+        "作者": "Xiaopeng Lin, Shijie Lian, Bin Yu, Ruoqi Yang, Changti Wu, Yuzhuo Miao, Yurun Jin, Yukun Shi, Cong Huang, Bojun Cheng, Kai Chen",
+        "摘要": "摘要:\n机器人泛化性依赖于物理智能：即在自我中心的感知和行动下，对状态变化、接触丰富的交互以及长远规划进行推理的能力。然而，大多数视觉语言模型(VLM)主要在第三人称数据上进行训练，这对类人机器人产生了一个基本的视角不匹配问题。由于高昂的成本和有限的多样性，扩大机器人自我中心数据收集在现实中不切实际，而大规模人类自我中心视频则提供了一种可扩展的替代方案，能够自然捕捉到丰富的交互背景和因果结构。关键挑战是将原始的自我中心视频转换为结构化且可靠的体现训练监督。为此，我们提出了一种Egocentric2Embodiment翻译管道，该管道将第一人称视频转化为多层次、基于模式的VQA监督，强制执行证据支撑和时间一致性，从而能够大规模构建Egocentric2Embodiment数据集（E2E-3M）。通过在E2E-3M数据集上进行训练，获得了一种具有自我中心意识的体现大脑，称为PhysBrain。PhysBrain在自我中心理解方面表现出显著改善，特别是在EgoThink上的规划方面。它提供了一种自我中心感知的初始化，使得VLA微调更加高效，并且在SimplerEnv上的成功率更高（53.9%），展示了从人类自我中心监督到下游机器人控制的有效迁移。",
+        "地址": "https://arxiv.org/pdf/2512.16793.pdf"
+    },
+    {
+        "名称": "2025 [2512.17901] When Reasoning Meets Its Laws.pdf",
+        "作者": "Junyu Zhang, Yifan Sun, Tianang Leng, Jingyan Shen, Liu Ziyin, Paul Pu Liang, Huan Zhang",
+        "摘要": "摘要：尽管大型推理模型（LRMs）的性能优越，但它们的推理行为往往不符合直觉，导致次优的推理能力。为了从理论上形式化理想的推理行为，本文提出了推理定律（LoRe），这是一个描述LRMs内在推理模式的统一框架。我们首先提出计算定律，假设推理计算应与问题复杂度线性扩展。除了计算之外，我们还扩展了LoRe，提出了一个补充的准确性定律。由于问题复杂度在实践中难以量化，我们通过推理定律的两个性质——单调性和组合性来检验这些假设。因此，我们引入了LoRe-Bench，这是一个系统地衡量大型推理模型这两个易处理性质的基准。评估显示，大多数推理模型表现出合理的单调性，但缺乏组合性。对此，我们开发了一种有效的微调方法，强制执行计算定律的组合性。广泛的实证研究表明，更好地遵守计算定律在多个基准上带来了持续改进的推理性能，并揭示了在性质和定律之间的协同效应。\n\n项目页面： https://arxiv.org/pdf/2512.17901.pdf",
+        "地址": "https://arxiv.org/pdf/2512.17901.pdf"
+    },
+    {
+        "名称": "2025 [2512.17260] Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience.pdf",
+        "作者": "Jiangjie Chen, Wenxiang Chen, Jiacheng Du, Jinyi Hu, Zhicheng Jiang, Allan Jie, Xiaoran Jin, Xing Jin, Chenggang Li, Wenlei Shi, Zhihong Wang, Mingxuan Wang, Chenrui Wei, Shufa Wei, Huajian Xin, Fan Yang, Weihao Gao, Zheng Yuan, Tianyang Zhan, Zeyu Zheng, Tianxi Zhou, Thomas Hanwen Zhu",
+        "摘要": "摘要：大型语言模型最近在生成严谨的数学证明方面取得了显著进展。然而，在形式化语言（如Lean）中利用LLMs进行定理证明仍然充满挑战且计算成本高昂，特别是在处理大学水平及以上的问题时。在这项工作中，我们提出了\\textbf{Seed-Prover 1.5}，这是一个通过大规模代理强化学习训练的形式定理证明模型，结合了一种高效的测试时尺度（TTS）工作流程。通过与Lean和其他工具的大量交互，模型在强化学习过程中不断积累经验，大大提高了形式定理证明的能力和效率。此外，利用最近在自然语言证明方面的进展，我们的TTS工作流程有效地弥合了自然语言和形式语言之间的差距。与最先进的方法相比，Seed-Prover 1.5在较小的计算预算下实现了卓越的性能。它解决了\\textbf{88\\%的PutnamBench}（本科水平）、\\textbf{80\\%的Fate-H}（研究生水平）和\\textbf{33\\%的Fate-X}（博士水平）问题。值得注意的是，使用我们的系统，我们在9小时内解决了Putnam 2025的\\textbf{12个问题中的11个}。我们的研究结果表明，通过高质量的形式反馈驱动的经验学习扩展，对于形式数学推理的未来具有巨大的潜力。",
+        "地址": "https://arxiv.org/pdf/2512.17260.pdf"
+    },
+    {
+        "名称": "2025 [2512.17909] Both Semantics and Reconstruction Matter: Making Representation Encoders Ready for Text-to-Image Generation and Editing.pdf",
+        "作者": "Shilong Zhang, He Zhang, Zhifei Zhang, Chongjian Ge, Shuchen Xue, Shaoteng Liu, Mengwei Ren, Soo Ye Kim, Yuqian Zhou, Qing Liu, Daniil Pakhomov, Kai Zhang, Zhe Lin, Ping Luo",
+        "摘要": "摘要： 现代隐变量扩散模型（LDMs）通常在主要为像素级重建优化的低级变分自编码器（VAE）隐空间中操作。为了统一视觉生成和理解，一个新兴趋势是采用表征编码器的高维特征作为生成隐变量。然而，我们实验证明了这一范式中的两个基本障碍：（1）判别特征空间缺乏紧凑正则化，使得扩散模型容易出现导致不准确物体结构的离开流形隐变量；（2）编码器固有的弱像素级重建阻碍了生成器学习准确的细致几何和纹理。在本文中，我们提出了一个系统框架，以适应理解导向的编码器特征用于生成任务。我们引入了一个语义-像素重建目标来正则化隐空间，使其能够将语义信息和细节压缩到一个高度紧凑的表示（96通道，16x16空间下采样）。这种设计确保了隐空间的语义丰富性，达到了最先进的图像重建效果，同时足够紧凑以实现准确的生成。利用这种表示，我们设计了一个统一的文本到图像（T2I）和图像编辑模型。在各种特征空间上的基准测试中，我们展示了我们的方法在重建、收敛速度以及在T2I和编辑任务中显著的性能提升，验证了表征编码器可以有效适应为强大的生成组件。",
+        "地址": "https://arxiv.org/pdf/2512.17909.pdf"
+    },
+    {
+        "名称": "2025 [2512.17012] 4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation.pdf",
+        "作者": "Chiao-An Yang, Ryo Hachiuma, Sifei Liu, Subhashree Radhakrishnan, Raymond A. Yeh, Yu-Chiang Frank Wang, Min-Hung Chen",
+        "摘要": "摘要：尽管多模态大型语言模型（MLLMs）取得了进展，但它们在推理3D结构和时间动态方面的能力仍然有限，受限于较弱的四维（4D）感知和时间理解。现有的3D和4D视频问答（VQA）基准也强调静态场景，缺乏区域级提示。我们提出以下解决方案：（a）4D-RGPT，一种专门设计用于从视频输入中捕捉4D表示的多模态LLM，具有增强的时间感知能力；（b）感知4D蒸馏（P4D），一种训练框架，通过冻结的专家模型将4D表示转移到4D-RGPT中，以实现全面的4D感知；（c）R4D-Bench，一种针对具有深度感知动态场景的区域级提示基准，通过混合自动和人工验证的流程构建。我们的4D-RGPT在现有的4D VQA基准和提出的R4D-Bench基准上均实现了显著的改进。\n\n作者：Chiao-An Yang、Ryo Hachiuma、Sifei Liu、Subhashree Radhakrishnan、Raymond A. Yeh、Yu-Chiang Frank Wang、Min-Hung Chen\n\n评论：项目页面：this https URL\n\n链接：https://arxiv.org/pdf/2512.17012.pdf\n\n标题：2025 [2512.17012] 4D-RGPT: 通过感知蒸馏迈向区域级4D理解",
+        "地址": "https://arxiv.org/pdf/2512.17012.pdf"
+    },
+    {
+        "名称": "2025 [2512.16041] Are We on the Right Way to Assessing LLM-as-a-Judge?.pdf",
+        "作者": "Yuanning Feng, Sinan Wang, Zhengxiang Cheng, Yao Wan, Dongping Chen",
+        "摘要": "摘要：LLM-as-a-Judge（大型语言模型作为评判者）已经被广泛采用为评估方法，并在模型训练中作为监督奖励。然而，现有的LLM-as-a-Judge基准主要依赖人工注释的真实数据，这引入了人为偏见，削弱了可靠性评估，并带来了可扩展性限制。为克服这些限制，我们引入了Sage，一个无需任何人工注释就能评估LLM评判质量的新颖评估套件。受到理性选择理论公理的启发，Sage引入了两个新的衡量LLM-as-a-Judge的视角：局部自我一致性（成对偏好稳定性）和全局逻辑一致性（跨整个偏好集的传递性）。我们通过结合结构化基准问题和现实用户查询，编制了一个包含650个问题的数据集。实验结果表明，我们的度量指标兼具稳定性并与监督基准（如LLMBar和RewardBench2）高度相关，确认了Sage作为评估LLM-as-a-Judge鲁棒性和准确性的可靠性。基于Sage，我们发现当前最先进的LLM在评分和成对设置中作为评判者时表现出显著的可靠性问题，甚至顶级模型Gemini-2.5-Pro和GPT-5在接近四分之一的困难案例中未能保持一致的偏好。我们将这归因于一种称为情境偏好（situational preference）的新现象，它解释了为何明确的评分标准或标准可以帮助模型在答案对之间保持一致的评判结果。进一步分析表明，微调的LLM-as-a-Judge是提升性能的可行方法，小组评审以及深度推理可以增强评判一致性。我们还发现人类判断存在显著的不一致性，这表明人工注释可能不是可靠的黄金标准。\n\n作者：冯元宁、王思南、程正祥、万尧、陈东平\n\n链接：https://arxiv.org/pdf/2512.16041.pdf\n\n标题：我们真的在正确的路上评估LLM-as-a-Judge吗？",
+        "地址": "https://arxiv.org/pdf/2512.16041.pdf"
+    },
+    {
+        "名称": "2025 [2512.11362] An Anatomy of Vision-Language-Action Models: From Modules to Milestones and Challenges.pdf",
+        "作者": "Chao Xu, Suyu Zhang, Yang Liu, Baigui Sun, Weihong Chen, Bo Xu, Qi Liu, Juncheng Wang, Shujun Wang, Shan Luo, Jan Peters, Athanasios V. Vasilakos, Stefanos Zafeiriou, Jiankang Deng",
+        "摘要": "摘要：视觉-语言-行动（VLA）模型正在引领机器人领域的革新，赋予机器理解指令并与物理世界互动的能力。这个领域涌现了众多新模型和数据集，使得这一领域充满了挑战与机遇。本文旨在提供一个清晰且结构化的VLA领域指南。我们设计的这篇综述遵循研究人员的自然学习路径：从任何VLA模型的基本模块入手，追溯关键里程碑的历史，然后深入探讨定义最新研究前沿的核心挑战。我们主要的贡献是详细分解了五大挑战：(1) 表征，(2) 执行，(3) 泛化，(4) 安全，以及 (5) 数据集和评估。这一结构反映了一般智能体的发展路线图：建立基本的感知-行动循环，扩展在不同体态和环境中的能力，最终确保可信的部署——所有这一切都由重要的数据基础设施支持。针对每个挑战，我们回顾了现有方法并突出了未来机遇。我们将这篇文章定位为新人入门的基础指南和经验丰富的研究人员的战略路线图，旨在加速学习并激发在具身智能方面的新想法。该综述的实时版本将在我们的项目页面上持续更新。\n\n作者：Chao Xu, Suyu Zhang, Yang Liu, Baigui Sun, Weihong Chen, Bo Xu, Qi Liu, Juncheng Wang, Shujun Wang, Shan Luo, Jan Peters, Athanasios V. Vasilakos, Stefanos Zafeiriou, Jiankang Deng\n\n项目页面：https://arxiv.org/pdf/2512.11362.pdf",
+        "地址": "https://arxiv.org/pdf/2512.11362.pdf"
+    },
+    {
+        "名称": "2025 [2512.17897] RadarGen: Automotive Radar Point Cloud Generation from Cameras.pdf",
+        "作者": "Tomer Borreda, Fangqiang Ding, Sanja Fidler, Shengyu Huang, Or Litany",
+        "摘要": "摘要: \n我们提出了RadarGen，这是一种通过多视角相机图像合成逼真汽车雷达点云的扩散模型。RadarGen 通过将雷达测量表示为鸟瞰视图形式，包含空间结构以及雷达横截面 (RCS) 和多普勒属性，来适应雷达领域的高效图像潜在扩散。一个轻量级恢复步骤从生成的地图重建点云。为了更好地与视觉场景对齐，RadarGen 结合了从预训练基础模型中提取的鸟瞰视图对齐的深度、语义和运动线索，引导随机生成过程朝着物理上合理的雷达模式发展。基于图像进行条件设定使该方法在原则上与现有的视觉数据集和仿真框架具有广泛的兼容性，为多模式生成仿真提供了一条可扩展的方向。对大规模驾驶数据的评估表明，RadarGen 捕捉到了典型的雷达测量分布，并缩小了在真实数据上训练的感知模型的差距，标志着朝着跨传感模式统一生成仿真迈进了一步。\n\n翻译：\n在这篇文章中，我们展示了RadarGen，这是一种用于从多视角摄像机图像生成逼真汽车雷达点云的扩散模型。RadarGen通过使用鸟瞰视图形式来表示雷达测量，结合空间结构以及雷达横截面（RCS）和多普勒属性，适应了雷达领域的高效图像潜在扩散技术。一个轻量级恢复步骤可以从生成的地图中重建点云。为了更好地使生成过程与视觉场景对齐，RadarGen结合了从预训练的基础模型中提取的对齐的深度、语义和运动线索，这些线索引导随机生成过程朝着物理上合理的雷达模式发展。基于图像进行条件设定，使这种方法原则上可以广泛兼容现有的视觉数据集和仿真框架，为多模式生成仿真提供了一条可扩展的方向。对大规模驾驶数据的评估显示，RadarGen捕捉到了典型的雷达测量分布，并且缩小了在真实数据上训练的感知模型的差距，这标志着朝着跨传感模式的统一生成仿真迈出了重要的一步。",
+        "地址": "https://arxiv.org/pdf/2512.17897.pdf"
+    },
+    {
+        "名称": "2025 [2512.17495] GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation.pdf",
+        "作者": "Rang Li, Lei Li, Shuhuai Ren, Hao Tian, Shuhao Gu, Shicheng Li, Zihao Yue, Yudong Wang, Wenhan Ma, Zhe Yang, Jingyuan Ma, Zhifang Sui, Fuli Luo",
+        "摘要": "摘要：视觉定位，即从自然语言描述中定位对象，是语言和视觉理解之间的关键桥梁。尽管多模态大语言模型（MLLMs）在现有基准上取得了令人印象深刻的成绩，但一个根本性的问题仍然存在：MLLMs是否真正能够以人类般的复杂程度将语言定位在视觉上，还是仅仅在简化的数据集上进行模式匹配？当前的基准未能捕捉到人类在复杂现实世界中轻松处理模糊参考并识别定位不可行性的能力。为严格评估MLLMs的真正能力，我们引入了GroundingME，一个系统地在四个关键维度上挑战模型的基准：（1）辨别性，区分高度相似的对象，（2）空间性，理解复杂的关系描述，（3）有限性，处理遮挡或微小物体，以及（4）拒绝性，识别不可定位的查询。通过结合自动生成和人工验证，我们创建了1005个反映现实世界复杂性的具有挑战性的示例。评估25个最先进的MLLMs揭示了一个严重的能力差距：最佳模型仅达到45.1%的准确率，而大多数在拒绝任务上得分为0%，反射性地臆测对象而不是承认其缺失，这对部署提出了关键的安全问题。我们探索了两种改进策略：（1）测试时扩展，选择最优响应路径，以提高复杂定位的达2.9%，以及（2）数据混合训练，教会模型识别不可定位的查询，将拒绝任务的准确率从0%提升到27.9%。因此，GroundingME既是揭示当前MLLMs局限性的诊断工具，也是通向人类水平视觉定位的路线图。",
+        "地址": "https://arxiv.org/pdf/2512.17495.pdf"
+    },
+    {
+        "名称": "2025 [2512.17351] Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers.pdf",
+        "作者": "Zeyuan Allen-Zhu",
+        "摘要": "摘要：了解语言模型在架构上的差异是具有挑战性的，特别是在学术规模的预训练中（如1.3B参数，100B tokens），结果往往受噪声和随机性的主导。为了解决这个问题，我们引入了控制合成预训练任务，以分离和评估核心模型能力。在此框架下，我们发现了CANON层：轻量级的架构组件——以音乐术语“canon”命名——促进了相邻tokens之间的横向信息流动。Canon层计算附近token表示的加权和，并无缝集成到Transformers、线性注意力、状态空间模型或任何序列架构中。\n\n我们展示了12个关键结果。这包括Canon层如何增强推理深度（例如提高2倍）、推理广度、知识操作等。它们使得弱架构如NoPE能与RoPE相媲美，并使线性注意力能与最新的线性模型如Mamba2/GDN竞争——这些通过合成任务和实际学术规模的预训练进行了验证。这个合成游乐场提供了一条经济且有原则的路径，以分离在学术规模中常常隐蔽的核心模型能力。配备了无限的高质量数据，它甚至可能预测未来架构在训练流程改善时的行为——例如通过更好的数据策划或基于RL的后训练——从而解锁更深层的推理和层次推理。\n\n作者：Zeyuan Allen-Zhu\n\n评论：版本1.1出现在NeurIPS 2025主会议中；版本2增加了GDN实验，紧缩了一些实验（以便更强、更公平的比较），并重新组织了部分章节\n\n网址：https://arxiv.org/pdf/2512.17351.pdf\n\n标题：2025 [2512.17351] 语言模型的物理学：第4.1部分，架构设计与Canon层的魔力.pdf",
+        "地址": "https://arxiv.org/pdf/2512.17351.pdf"
+    },
+    {
+        "名称": "2025 [2512.17008] Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs.pdf",
+        "作者": "Junbo Li, Peng Zhou, Rui Meng, Meet P. Vadera, Lihong Li, Yang Li",
+        "摘要": "摘要：强化学习（RL）作为一种用于在真实环境中训练交互式LLM代理的自然方法，重新受到了关注。然而，直接将广泛使用的Group Relative Policy Optimization (GRPO)算法应用于多回合任务时暴露出了显著的局限性，特别是在需要长时间推理的场景中。为了解决这些挑战，我们研究了更稳定和有效的优势估计策略，特别是针对多回合设置。我们首先探索了Proximal Policy Optimization (PPO)作为替代方案，发现其比GRPO更加稳健。为了进一步增强PPO在多回合场景中的表现，我们引入了turn-PPO，这是一种基于回合级MDP（马尔可夫决策过程）公式操作的变体，而不是常用的token级MDP。我们在WebShop和Sokoban数据集上的结果证明了turn-PPO的有效性，无论是否包含长时间推理组件。\n\n作者：Junbo Li, Peng Zhou, Rui Meng, Meet P. Vadera, Lihong Li, Yang Li\n\nURL：https://arxiv.org/pdf/2512.17008.pdf\n\n标题：2025 [2512.17008] Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
+        "地址": "https://arxiv.org/pdf/2512.17008.pdf"
+    },
+    {
+        "名称": "2025 [2512.14870] HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering.pdf",
+        "作者": "Dan Ben-Ami, Gabriele Serussi, Kobi Cohen, Chaim Baskin",
+        "摘要": "摘要: 视频大语言模型（Video-LLMs）正在迅速发展，然而目前的视频问答（VideoQA）基准往往允许通过单一显著线索回答问题，未能充分考察需要综合多个、在时间上分隔的视觉证据的推理能力。我们提出了HERBench，一个专门设计的VideoQA基准，用于评价跨时间的多证据整合。每个问题都需要综合至少三个不重叠的证据线索，覆盖不同的视频段落，因此不能仅通过语言先验或单一快照来回答。HERBench包括26K五项选择题，组织成十二个组合任务，探究身份绑定、跨实体关系、时间排序、并发验证和计数。为了使证据需求可度量，我们引入了最小必要帧集（MRFS），即模型必须融合以正确回答的最小帧数，并显示HERBench相比之前的数据集具有明显更高的要求（平均MRFS 5.5 vs. 2.6-4.2）。对13个最先进的Video-LLMs在HERBench上的评估揭示了普遍的失败：准确率为31-42%，仅略高于随机猜测的20%基线。我们将这种失败分解为两个关键瓶颈：（1）检索缺陷，帧选择器忽略关键证据；（2）融合缺陷，模型即使获得所有必要证据也未能整合信息。通过使跨时间证据既不可避免又可量化，HERBench为推进稳健的、组合的视频理解设立了一个有原则的目标。\n\n作者: Dan Ben-Ami, Gabriele Serussi, Kobi Cohen, Chaim Baskin",
+        "地址": "https://arxiv.org/pdf/2512.14870.pdf"
+    },
+    {
+        "名称": "2025 [2512.17796] Animate Any Character in Any World.pdf",
+        "作者": "Yitong Wang, Fangyun Wei, Hongyang Zhang, Bo Dai, Yan Lu",
+        "摘要": "摘要:近年来，世界模型的进展极大地提升了交互环境模拟。现有方法主要分为两类：（1）静态世界生成模型，在没有主动代理的情况下构建3D环境；（2）可控实体模型，允许单个实体在一个不可控制的环境中执行有限的动作。在这项工作中，我们引入了AniX，利用静态世界生成的真实感和结构基础，同时扩展可控实体模型以支持能够执行开放动作的用户指定角色。用户可以提供3DGS场景和角色，然后通过自然语言指示角色执行从基本移动到以物体为中心的交互等多种行为，同时自由探索环境。AniX合成的时间连贯视频片段在视觉保真度上保留了所提供的场景和角色，将其表述为条件自回归视频生成问题。基于预训练的视频生成器，我们的训练策略在显著增强运动动态的同时保持了对动作和角色的泛化能力。我们的评估涵盖了广泛的方面，包括视觉质量、角色一致性、动作可控性和长时段连贯性。\n\n作者: 王奕彤，魏方云，张洪阳，戴博，鲁艳",
+        "地址": "https://arxiv.org/pdf/2512.17796.pdf"
+    },
+    {
+        "名称": "2025 [2512.17419] SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories.pdf",
+        "作者": "Lilin Wang, Lucas Ramalho, Alan Celestino, Phuc Anthony Pham, Yu Liu, Umang Kumar Sinha, Andres Portillo, Onassis Osunwa, Gabriel Maduekwe",
+        "摘要": "摘要: 标准化基准测试如SWE-bench已对大型语言模型（LLMs）在仓库级软件工程任务上的评估进行了标准化。然而，这些努力仍然受到手动整理、静态数据集以及对基于Python的错误修复的关注的限制。我们引入了SWE-Bench++，一个从开源GitHub项目中生成仓库级编码任务的自动化框架。与合成方法不同，我们的流水线收集实时的拉取请求，以涵盖11种语言的错误修复和功能请求。SWE-Bench++通过四个阶段将GitHub拉取请求（PRs）转化为可重复的、基于执行的任务：程序化获取、环境合成、测试预言机提取和质量保证。最后一个提示引导的轨迹综合阶段将强模型无法解决的实例转换为培训轨迹。我们初始的基准测试由来自11种语言的3,971个仓库的11,133个实例组成。在这一基准测试的1,782个实例子集上，当今最强的模型表现如下：claude-sonnet-4.5达到36.20%的pass@10，gpt-5-2025-08-07达到34.57%，gemini/gemini-2.5-pro为24.92%，而gpt-4o为16.89%。我们进一步证明了我们的数据集的实用性，通过展示在SWE-Bench++实例上进行微调可以在SWE-bench多语言基准测试上带来可测量的改进。SWE-Bench++提供了一个可扩展的多语言基准，用于评估和改进仓库级代码生成。",
+        "地址": "https://arxiv.org/pdf/2512.17419.pdf"
+    },
+    {
+        "名称": "2025 [2512.16483] StageVAR: Stage-Aware Acceleration for Visual Autoregressive Models.pdf",
+        "作者": "Senmao Li, Kai Wang, Salman Khan, Fahad Shahbaz Khan, Jian Yang, Yaxing Wang",
+        "摘要": "摘要:\n视觉自回归（VAR）建模通过下一尺度预测偏离了传统自回归（AR）模型的下一个令牌预测范式，从而实现高质量的图像生成。然而，VAR范式在大尺度步骤中面临计算复杂性和运行时间急剧增加的问题。尽管现有的加速方法减少了大尺度步骤的运行时间，但依赖于手动步骤选择且忽视了生成过程不同阶段的重要性变化。为了解决这一挑战，我们提出了StageVAR，一个系统研究和阶段感知加速框架。我们的分析表明，早期步骤对于保持语义和结构一致性至关重要，应保持不变，而后期步骤主要优化细节，可以修剪或近似以实现加速。在这些见解的基础上，StageVAR引入了一种即插即用的加速策略，利用后期计算中的语义无关性和低秩性质，无需额外训练。我们提出的StageVAR在GenEval上仅下降0.01，在DPG上下降0.26的情况下，实现了高达3.4倍的加速，持续优于现有的加速基线。这些结果突显了阶段感知设计作为高效视觉自回归图像生成的强大原则。\n\n作者：\nSenmao Li, Kai Wang, Salman Khan, Fahad Shahbaz Khan, Jian Yang, Yaxing Wang\n\n链接：\nhttps://arxiv.org/pdf/2512.16483.pdf\n\n标题：\n2025 [2512.16483] StageVAR: Stage-Aware Acceleration for Visual Autoregressive Models.pdf",
+        "地址": "https://arxiv.org/pdf/2512.16483.pdf"
+    },
+    {
+        "名称": "2025 [2512.15586] Bolmo: Byteifying the Next Generation of Language Models.pdf",
+        "作者": "Benjamin Minixhofer, Tyler Murray, Tomasz Limisiewicz, Anna Korhonen, Luke Zettlemoyer, Noah A. Smith, Edoardo M. Ponti, Luca Soldaini, Valentin Hofmann",
+        "摘要": "摘要: 我们介绍了Bolmo，这是第一个在1B和7B参数规模上具有竞争力的完全开放字节级语言模型(LM)家族。与以前主要关注从头训练的字节级LM研究不同，我们通过将现有的子词级LM进行字节化来训练Bolmo。字节化能够克服子词标记化的局限性——例如，字符理解不足和由于固定子词词汇表带来的效率限制——同时在执行层面上与领先的子词级LM相当。Bolmo专门为字节化设计：我们的体系结构解决了以往字节级架构和子词级LM之间表达能力不匹配的问题，这使得能够在Bolmo和源子词模型之间采用有效的精确蒸馏目标。这允许通过投资少于1\\%的典型预训练标记预算，将子词级LM转换为字节级LM。Bolmo在相同规模的所有先前字节级LM上显著表现优越，并且在字符理解和某些情况下编码方面超过了源子词级LM，同时在其他任务上接近匹配原有LM的性能。此外，我们显示，通过训练更高的标记压缩比，Bolmo能够实现与子词级LM竞争的推理速度，并且可以通过利用源子词级LM的现有生态系统进行廉价且有效的后训练。我们的结果最终使字节级LM在广泛的用例中成为与子词级LM竞争的实际选择。",
+        "地址": "https://arxiv.org/pdf/2512.15586.pdf"
+    },
+    {
+        "名称": "2025 [2512.16848] Meta-RL Induces Exploration in Language Agents.pdf",
+        "作者": "Yulun Jiang, Liangze Jiang, Damien Teney, Michael Moor, Maria Brbic",
+        "摘要": "摘要：强化学习（RL）使得训练大型语言模型（LLM）代理与环境互动并解决多轮长时任务成为可能。然而，RL训练的代理通常在需要主动探索的任务中表现困难，并且无法有效地从试错经验中适应。在本文中，我们提出了LaMer，一种通用的元强化学习（Meta-RL）框架，它使LLM代理能够在测试时主动探索并从环境反馈中学习。LaMer包括两个关键组件：（i）跨集训练框架以鼓励探索和长期奖励优化；（ii）通过反思进行上下文内策略适应，允许代理在不进行梯度更新的情况下从任务反馈信号中调整其策略。各类环境的实验表明，LaMer在Sokoban、扫雷和网上商店中的表现分别比RL基线高出11%、14% 和19%。此外，与RL训练的代理相比，LaMer在泛化到更具挑战性或以前未见过的任务时也表现更好。总体而言，我们的结果表明，Meta-RL提供了一种系统的方法来引导语言代理的探索，通过学习的探索策略，实现对新环境的更加稳健的适应。",
+        "地址": "https://arxiv.org/pdf/2512.16848.pdf"
+    },
+    {
+        "名称": "2025 [2512.17532] Robust-R1: Degradation-Aware Reasoning for Robust Visual Understanding.pdf",
+        "作者": "Jiaqi Tang, Jianmin Chen, Wei Wei, Xiaogang Xu, Runtao Liu, Xiangyu Wu, Qipeng Xie, Jiafei Wu, Lei Zhang, Qifeng Chen",
+        "摘要": "摘要：多模态大语言模型在面对极端的真实世界视觉退化时难以保持可靠的性能，这阻碍了其实际的鲁棒性。目前现有的鲁棒多模态大语言模型主要依赖于隐式训练/适应，这种方法仅专注于视觉编码器的泛化，导致解释性和孤立优化的局限性。为了克服这些限制，我们提出了Robust-R1，这是一种通过结构化推理链来显式建模视觉退化的新框架。我们的方法整合了：(i) 以退化感知为基础的监督微调，(ii) 以准确感知退化参数为目标的奖励驱动对齐，(iii) 动态调整推理深度以适应退化强度。为了支持这一方法，我们引入了一个专门的11K数据集，该数据集在四个关键的真实视觉处理阶段合成了现实的退化，并标注了连接退化参数、感知影响、完美语义推理链和结论的结构化链。全面评估显示了最先进的鲁棒性：Robust-R1在真实世界退化基准R-Bench上超越了所有通用和鲁棒基准，同时在MMMB、MMStar和RealWorldQA上的多强度对抗退化下保持了卓越的抗退化性能。",
+        "地址": "https://arxiv.org/pdf/2512.17532.pdf"
+    },
+    {
+        "名称": "2025 [2512.17459] 3D-RE-GEN: 3D Reconstruction of Indoor Scenes with a Generative Framework.pdf",
+        "作者": "Tobias Sautter, Jan-Niklas Dihlmann, Hendrik P.A. Lensch",
+        "摘要": "摘要：最近在3D场景生成方面的进展产生了视觉上吸引的输出，但当前的表示形式对需要可修改3D纹理网格场景的艺术家工作流程构成了障碍，这对于视觉效果和游戏开发至关重要。尽管取得了重大进展，但当前的纹理网格场景重建方法还远未达到艺术家的需求，存在错误的对象分解、不准确的空间关系和缺失的背景。我们提出了3D-RE-GEN，这是一种组合框架，可将单张图片重建成有纹理的3D对象和背景。我们展示了结合来自特定领域的最先进模型可实现最先进的场景重建性能，满足艺术家的需求。\n\n我们的重建流程整合了资产检测、重建和放置模型，推动一些模型超越其最初的预定领域。对遮挡对象的获取被视为图像编辑任务，利用生成模型在一致的光照和几何条件下进行场景级推理和重建。与当前方法不同，3D-RE-GEN生成一个综合背景，在优化过程中空间约束对象，并为视觉效果和游戏中的真实光照和模拟任务提供基础。为了获得物理现实的布局，我们采用了一种新颖的4自由度可微分优化，将重建对象与估计的地面平面对齐。3D-RE-GEN在单图像3D场景重建中实现了最先进的性能，通过精确的相机恢复和空间优化指导的组合生成，生成连贯的、可修改的场景。\n\n评论：项目页面：https://arxiv.org/pdf/2512.17459.pdf\n\n作者：Tobias Sautter, Jan-Niklas Dihlmann, Hendrik P.A. Lensch",
+        "地址": "https://arxiv.org/pdf/2512.17459.pdf"
+    },
+    {
+        "名称": "2025 [2512.16978] A Benchmark and Agentic Framework for Omni-Modal Reasoning and Tool Use in Long Videos.pdf",
+        "作者": "Mohammed Irfan Kurpath, Jaseel Muhammad Kaithakkodan, Jinxing Zhou, Sahal Shaji Mullappilly, Mohammad Almansoori, Noor Ahsan, Beknur Kalmakhanbet, Sambal Shikhar, Rishabh Lalla, Jean Lahoud, Mariette Awad, Fahad Shahbaz Khan, Salman Khan, Rao Muhammad Anwer, Hisham Cholakkal",
+        "摘要": "摘要： 长时间多模态视频理解需要结合视觉、语音和环境音频进行连贯的长距离推理。现有的基准测试强调时间长度或多模态丰富性，但很少同时考虑两者，尽管其中一些包含开放式问题和高级指标，但主要依赖于单一准确性评分，这掩盖了失败模式。我们引入了LongShOTBench，一个具有开放式、意图驱动问题的诊断基准；单轮和多轮对话；以及需要跨视频、音频和语音进行多模态推理和代理工具使用的任务。每个项目都包括参考答案和用于可解释、可追踪评估的评分标准。LongShOTBench通过可扩展、人类验证的流水线生产，以确保覆盖率和可重复性。我们LongShOTBench中的所有样本都经过人类验证和校正。此外，我们介绍了LongShOTAgent，一个通过预处理、搜索和迭代优化分析长视频的代理系统。在LongShOTBench上，最先进的MLLMs表现出巨大差距：Gemini-2.5-Flash 达到52.95%，开源模型低于30%，而LongShOTAgent达到44.66%。这些结果突显了现实世界中长时间视频理解的难度。LongShOTBench为评估和改进MLLMs提供了一个实用、可重复的基础。所有资源均可在GitHub上获得：this https URL.\n\n作者：Mohammed Irfan Kurpath, Jaseel Muhammad Kaithakkodan, Jinxing Zhou, Sahal Shaji Mullappilly, Mohammad Almansoori, Noor Ahsan, Beknur Kalmakhanbet, Sambal Shikhar, Rishabh Lalla, Jean Lahoud, Mariette Awad, Fahad Shahbaz Khan, Salman Khan, Rao Muhammad Anwer, Hisham Cholakkal\n\n标题：2025 [2512.16978] 一种用于长视频中的全模态推理和工具使用的基准和代理框架",
+        "地址": "https://arxiv.org/pdf/2512.16978.pdf"
+    },
+    {
+        "名称": "2025 [2512.13427] MineTheGap: Automatic Mining of Biases in Text-to-Image Models.pdf",
+        "作者": "Noa Cohen, Nurit Spingarn-Eliezer, Inbar Huberman-Spiegelglas, Tomer Michaeli",
+        "摘要": "摘要：文字生成图像（TTI）模型根据文本提示生成图像，这种方法往往会使期望图像的某些方面不够明确。在面对这些不明确性的情况下，TTI模型已经被证明在其解释中表现出偏见。这些偏见可能会对社会产生影响，例如在展示某个职业时仅显示某一种族的人。此外，当生成的图像集中在一组冗余内容而不是展示多样的可能性时，这些偏见还会影响用户体验。在此，我们介绍了一种称为MineTheGap的方法，用于自动挖掘导致TTI模型生成偏见输出的提示。我们的方法不仅仅检测给定提示的偏见，而是利用遗传算法迭代地优化提示池，寻找那些暴露偏见的提示。这一优化过程由一种新颖的偏见评分驱动，该评分根据偏见的严重程度对其进行排序，我们在一个已知偏见的数据集上验证了这一点。对于给定的提示，通过将生成图像的分布与由大语言模型（LLM）生成的作为提示变体的文本分布进行比较来获得此评分。代码和示例可以在项目的网页上找到。",
+        "地址": "https://arxiv.org/pdf/2512.13427.pdf"
+    }
+]
