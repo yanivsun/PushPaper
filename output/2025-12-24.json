@@ -1,0 +1,110 @@
+[
+    {
+        "名称": "2025 [2512.20619] SemanticGen: Video Generation in Semantic Space.pdf",
+        "作者": "Jianhong Bai, Xiaoshi Wu, Xintao Wang, Xiao Fu, Yuanxing Zhang, Qinghe Wang, Xiaoyu Shi, Menghan Xia, Zuozhu Liu, Haoji Hu, Pengfei Wan, Kun Gai",
+        "摘要": "摘要：最先进的视频生成模型通常在VAE空间中学习视频潜变量的分布，并使用VAE解码器将其映射到像素。虽然这种方法可以生成高质量的视频，但在生成长视频时收敛速度慢且计算成本高。在本文中，我们介绍了SemanticGen，这是一种通过在语义空间中生成视频来解决这些局限性的新颖解决方案。我们的主要见解是，由于视频中固有的冗余性，生成过程应从紧凑的高层语义空间开始进行全局规划，然后添加高频细节，而不是通过双向注意力直接建模大量低层视频标记。SemanticGen采用两阶段生成过程。在第一阶段，一个扩散模型生成紧凑的语义视频特征，定义视频的整体布局。在第二阶段，另一个扩散模型在这些语义特征的条件下生成VAE潜变量，以产生最终输出。我们观察到，与VAE潜变量空间相比，在语义空间中的生成收敛速度更快。当扩展到长视频生成时，我们的方法也有效且计算效率高。大量实验表明，SemanticGen可以生成高质量的视频，并优于最先进的方法和强基线。\n\n翻译成中文的摘要：最先进的视频生成模型通常在VAE空间中学习视频潜变量的分布，并使用VAE解码器将其映射到像素。虽然这种方法可以生成高质量的视频，但在生成长视频时收敛速度慢且计算成本高。在本文中，我们介绍了SemanticGen，这是一种通过在语义空间中生成视频来解决这些局限性的新颖解决方案。我们的主要见解是，由于视频中固有的冗余性，生成过程应从紧凑的高层语义空间开始进行全局规划，然后添加高频细节，而不是通过双向注意力直接建模大量低层视频标记。SemanticGen采用两阶段生成过程。在第一阶段，一个扩散模型生成紧凑的语义视频特征，定义视频的整体布局。在第二阶段，另一个扩散模型在这些语义特征的条件下生成VAE潜变量，以产生最终输出。我们观察到，与VAE潜变量空间相比，在语义空间中的生成收敛速度更快。当扩展到长视频生成时，我们的方法也有效且计算效率高。大量实验表明，SemanticGen可以生成高质量的视频，并优于最先进的方法和强基线。",
+        "地址": "https://arxiv.org/pdf/2512.20619.pdf"
+    },
+    {
+        "名称": "2025 [2512.19673] Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies.pdf",
+        "作者": "Yuqiao Tan, Minzheng Wang, Shizhu He, Huanxuan Liao, Chengfeng Zhao, Qiunan Lu, Tian Liang, Jun Zhao, Kang Liu",
+        "摘要": "摘要：现有的强化学习（RL）方法将大型语言模型（LLMs）视为一个统一的策略，忽略了其内部机制。因此，理解策略在层和模块之间如何演化对于实现更有针对性的优化和揭示复杂的推理机制至关重要。在本文中，我们通过利用Transformer残差流的内在分割以及隐藏状态与解嵌矩阵组成和生成的可采样策略之间的等效关系来分解语言模型策略。这种分解揭示了内部层策略，对应于单层的贡献，以及内部模块策略，与每层中的自注意力和前馈网络（FFN）组件相一致。通过分析内部策略的熵，我们发现：(a) 初始层保持高熵以进行探索，而顶层则趋向于接近零熵以进行优化，不同模型系列的收敛模式各异。(b) LLama的预测空间在最后一层快速收敛，而Qwen系列模型，特别是Qwen3，展现出更类似人类的逐步结构化推理模式。受这些发现的启发，我们提出了一种新的RL范式——自下而上的策略优化（BuPO），在早期训练中直接优化内部层策略。通过在较低层对齐训练目标，BuPO重构了基础推理能力并获得了更优性能。我们在复杂推理基准上的广泛实验表明了我们方法的有效性。相关代码可以在此 https URL 获取。",
+        "地址": "https://arxiv.org/pdf/2512.19673.pdf"
+    },
+    {
+        "名称": "2025 [2512.20618] LongVideoAgent: Multi-Agent Reasoning with Long Videos.pdf",
+        "作者": "Runtao Liu, Ziyi Liu, Jiaqi Tang, Yue Ma, Renjie Pi, Jipeng Zhang, Qifeng Chen",
+        "摘要": "摘要: 近年来，具有工具的多模态LLMs和针对长视频问答的系统的最新进展，展示了在小时级别的剧集上进行推理的前景。然而，许多方法仍然将内容压缩成有损的摘要或依赖于有限的工具集，从而削弱了时间上的定位并错过了细粒度的线索。我们提出了一个多代理框架，其中一个主LLM协调一个定位代理来确定与问题相关的片段，以及一个视觉代理来提取目标文本观察。主代理在一个步骤限制下进行规划，并通过强化学习进行训练，以鼓励简洁、正确和高效的多代理合作。这种设计帮助主代理通过定位来关注相关片段，从视觉细节上补充字幕，并生成可解释的轨迹。在我们提出的从TVQA/TVQA+聚合的剧集级数据集LongTVQA和LongTVQA+上，我们的多代理系统显著优于强大的非代理基准。实验还表明，强化学习进一步增强了训练代理的推理和规划能力。代码和数据将在该https URL上共享。",
+        "地址": "https://arxiv.org/pdf/2512.20618.pdf"
+    },
+    {
+        "名称": "2025 [2512.20617] SpatialTree: How Spatial Abilities Branch Out in MLLMs.pdf",
+        "作者": "Yuxi Xiao, Longfei Li, Shen Yan, Xinhang Liu, Sida Peng, Yunchao Wei, Xiaowei Zhou, Bingyi Kang",
+        "摘要": "摘要: 认知科学表明，空间能力是渐进式发展的——从感知到推理和互动。然而，在多模态LLMs (MLLMs) 中，这一层次结构尚未得到充分理解，因为大多数研究集中于狭窄的任务集。我们引入了SpatialTree，这是一个认知科学启发的层次结构，将空间能力组织成四个层次：低级感知 (L1)、心理映射 (L2)、模拟 (L3) 和自主能力 (L4)。基于这一分类法，我们构建了第一个以能力为中心的分层基准，全面评估主流MLLMs的27种子能力。评估结果揭示了一个清晰的结构：L1技能在很大程度上是正交的，而高级技能则强烈相关，表明了日益增加的相互依赖性。通过有针对性的监督微调，我们发现了一个令人惊讶的迁移动态——L1内部的负迁移，但从低级到高级能力的跨层迁移强劲，且具有显著的协同作用。最后，我们探讨了如何改进整个层次结构。我们发现，鼓励广泛“思考”的简单RL是不可靠的：它有助于复杂的推理，但损害了直觉感知。我们提出了一种简单的自动思考策略，抑制不必要的深思熟虑，使RL能够持续改善所有层次的表现。通过构建SpatialTree，我们提供了一个概念验证框架，用于理解和系统地扩展MLLMs中的空间能力。",
+        "地址": "https://arxiv.org/pdf/2512.20617.pdf"
+    },
+    {
+        "名称": "2025 [2512.18746] MemEvolve: Meta-Evolution of Agent Memory Systems.pdf",
+        "作者": "Guibin Zhang, Haotian Ren, Chong Zhan, Zhenhong Zhou, Junhao Wang, He Zhu, Wangchunshu Zhou, Shuicheng Yan",
+        "摘要": "摘要：自我进化记忆系统前所未有地重塑了基于大语言模型（LLM）的代理进化范式。之前的工作主要依赖手动设计的记忆架构来存储轨迹、提炼经验和合成可重用的工具，从而使代理能够在与环境交互中即时进化。然而，这种范式从根本上受到记忆系统本身静态性的限制：虽然记忆促进了代理级别的进化，但底层记忆架构无法在不同任务上下文中进行元自适应。为了解决这一问题，我们提出了MemEvolve，一种元进化框架，它共同进化代理的经验知识及其记忆架构，使代理系统不仅能够积累经验，还能逐步完善其学习方式。为了将MemEvolve与现有研究联系起来，并促进未来自我进化系统的开放性，我们介绍了EvolveLab，这是一种统一的自我进化记忆代码库，将十二种代表性记忆系统提炼为一个模块化设计空间（编码、存储、检索、管理），提供了标准化的实现基础和公平的实验平台。在四个具有挑战性的代理基准测试中的广泛评估表明，MemEvolve实现了（I）显著的性能提升，使诸如SmolAgent和Flash-Searcher等框架的性能提高了最多17.06%；以及（II）强大的跨任务和跨LLM泛化能力，设计的记忆架构能够在不同的基准测试和基础模型中有效地转移。\n\n翻译作者：张贵斌，任浩天，詹崇，周振红，王俊浩，朱赫，周旺纯，严随成\n\n论文链接：https://arxiv.org/pdf/2512.18746.pdf\n\n标题：2025 [2512.18746] MemEvolve: 代理记忆系统的元进化",
+        "地址": "https://arxiv.org/pdf/2512.18746.pdf"
+    },
+    {
+        "名称": "2025 [2512.20491] Step-DeepResearch Technical Report.pdf",
+        "作者": "Chen Hu, Haikuo Du, Heng Wang, Lin Lin, Mingrui Chen, Peng Liu, Ruihang Miao, Tianchi Yue, Wang You, Wei Ji, Wei Yuan, Wenjin Deng, Xiaojian Yuan, Xiaoyun Zhang, Xiangyu Liu, Xikai Liu, Yanming Xu, Yicheng Cao, Yifei Zhang, Yongyao Wang, Yubo Shu, Yurong Zhang, Yuxiang Zhang, Zheng Gong, Zhichao Chang, Binyan Li, Dan Ma, Furong Jia, Hongyuan Wang, Jiayu Liu, Jing Bai, Junlan Liu, Manjiao Liu, Na Wang, Qiuping Wu, Qinxin Du, Shiwei Li, Wen Sun, Yifeng Gong, Yonglin Chen, Yuling Zhao, Yuxuan Lin, Ziqi Ren, Zixuan Wang, Aihu Zhang, Brian Li, Buyun Ma, Kang An, Li Xie, Mingliang Li, Pan Li, Shidong Yang, Xi Chen, Xiaojia Liu, Yuchu Luo, Yuan Song, YuanHao Ding, Yuanwei Liang, Zexi Li, Zhaoning Zhang, Zixin Zhang, Binxing Jiao, Daxin Jiang, Jiansheng Chen, Jing Li, Xiangyu Zhang, Yibo Zhu",
+        "摘要": "摘要: 随着大规模语言模型（LLMs）转向自主代理模型，深度研究已成为关键指标。然而，现有的学术基准（如BrowseComp）往往难以满足开放性研究的现实需求，这种研究需要强大的意图识别、长周期决策和跨源验证能力。为此，我们推出了Step-DeepResearch，一种经济高效的端到端代理。我们提出了一种基于原子能力的数据合成策略，以强化规划和报告撰写，并结合从代理中期训练到SFT和RL的渐进训练路径。通过清单式评判器，该方法显著提高了鲁棒性。此外，为了弥合中文领域的评估差距，我们建立了ADR-Bench以应对现实中的深度研究场景。实验结果显示，Step-DeepResearch（32B）在Scale AI Research Rubrics上得分为61.4%。在ADR-Bench上，它显著优于可比模型，并与OpenAI和Gemini深度研究等SOTA（state-of-the-art）闭源模型相媲美。这些发现证明，精细的训练可以使中型模型在业界领先的成本效率下实现专家级能力。\n\n链接：https://arxiv.org/pdf/2512.20491.pdf",
+        "地址": "https://arxiv.org/pdf/2512.20491.pdf"
+    },
+    {
+        "名称": "2025 [2512.17102] Reinforcement Learning for Self-Improving Agent with Skill Library.pdf",
+        "作者": "Jiongxiao Wang, Qiaojing Yan, Yawei Wang, Yijun Tian, Soumya Smruti Mishra, Zhichao Xu, Megha Gandhi, Panpan Xu, Lin Lee Cheong",
+        "摘要": "摘要：基于大型语言模型 (LLM) 的代理在复杂推理和多轮交互方面展现了显著的能力，但在部署到新环境中时，仍然难以持续改进和适应。一种有前途的方法是实现技能库，使代理能够学习、验证和应用新技能。然而，目前的技能库方法主要依赖于LLM提示，这使得技能库的稳定实现具有挑战性。为克服这些挑战，我们提出了一种基于强化学习 (RL) 的方法，通过技能库增强代理的自我改进能力。具体而言，我们介绍了一种新的RL框架，即自我进化的技能增强GRPO (SAGE)，这一框架系统地将技能纳入学习过程。框架的关键组件是顺序展开，它在每次展开时迭代地将代理部署到一系列相似任务链中。随着代理在任务链中导航，从先前任务生成的技能积累在库中，并可用于后续任务。此外，通过补充原始基于结果的奖励，框架通过技能整合奖励增强了技能生成和利用。在AppWorld上的实验结果表明，当SAGE应用于具有专家经验的监督微调模型时，它在场景目标完成方面提高了8.9%，同时需要的交互步骤减少了26%，生成的标记减少了59%，在准确性和效率上显著优于现有方法。",
+        "地址": "https://arxiv.org/pdf/2512.17102.pdf"
+    },
+    {
+        "名称": "2025 [2512.18099] SAM Audio: Segment Anything in Audio.pdf",
+        "作者": "Bowen Shi, Andros Tjandra, John Hoffman, Helin Wang, Yi-Chiao Wu, Luya Gao, Julius Richter, Matt Le, Apoorv Vyas, Sanyuan Chen, Christoph Feichtenhofer, Piotr Dollár, Wei-Ning Hsu, Ann Lee",
+        "摘要": "摘要：通用音频源分离是能够感知和推理声音的多模态人工智能系统的一项关键能力。尽管近年来取得了重大进展，但现有的分离模型要么是领域特定的，为固定类别如语音或音乐设计，要么在可控性方面有限，仅支持单一提示模态如文本。在这项工作中，我们介绍了SAM Audio，这是一种用于通用音频分离的基础模型，在单一框架内统一了文本、视觉和时间跨度提示。SAM Audio基于扩散变压器架构，通过流匹配在大规模音频数据上进行训练，涵盖语音、音乐和一般声音，并且可以灵活地分离通过语言、视觉掩膜或时间跨度描述的目标源。该模型在一系列基准测试中实现了最先进的性能，包括在野外和专业制作音频中的一般声音、语音、音乐和乐器分离，显著优于之前的通用和专业系统。此外，我们介绍了一个新的实际分离基准测试，包含人类标注的多模态提示和一个与人类判断高度相关的无参考评估模型。",
+        "地址": "https://arxiv.org/pdf/2512.18099.pdf"
+    },
+    {
+        "名称": "2025 [2512.16144] INTELLECT-3: Technical Report.pdf",
+        "作者": "Prime Intellect Team, Mika Senghaas, Fares Obeid, Sami Jaghouar, William Brown, Jack Min Ong, Daniel Auras, Matej Sirovatka, Jannik Straube, Andrew Baker, Sebastian Müller, Justus Mattern, Manveer Basra, Aiman Ismail, Dominik Scherm, Cooper Miller, Ameen Patel, Simon Kirsten, Mario Sieg, Christian Reetz, Kemal Erdem, Vincent Weisser, Johannes Hagemann",
+        "摘要": "摘要: 我们介绍了 INTELLECT-3，这是一种1060亿参数的专家混合模型（活跃参数为120亿），通过我们端到端的强化学习基础设施栈进行大规模强化学习训练。INTELLECT-3 在数学、代码、科学和推理基准方面实现了其规模的最先进性能，超过了许多更大的前沿模型。我们开源了这个模型以及用于创建它的完整基础设施栈，包括强化学习框架、完整的配方和多种用于训练和评估的环境，这些环境是通过我们的环境中心社区平台构建的验证库创建的。为了这一努力，我们引入了 prime-rl，一个用于大规模异步强化学习的开放框架，它可以无缝地从单个节点扩展到成千上万的 GPU，专为多轮交互和工具使用提供一流支持的 agenticRL。利用这个栈，我们在 GLM-4.5-Air-Base 模型之上运行了 SFT 和 RL 训练，将 RL 训练扩展到 512 个 H200s，并具有高训练效率。",
+        "地址": "https://arxiv.org/pdf/2512.16144.pdf"
+    },
+    {
+        "名称": "2025 [2512.20182] FaithLens: Detecting and Explaining Faithfulness Hallucination.pdf",
+        "作者": "Shuzheng Si, Qingyi Wang, Haozhe Zhao, Yuzhuo Bai, Guanqiao Chen, Kangyang Luo, Gang Chen, Fanchao Qi, Minjia Zhang, Baobao Chang, Maosong Sun",
+        "摘要": "摘要: 识别大型语言模型（LLMs）输出是否包含真实性幻觉对于实际应用至关重要，例如检索增强生成和摘要。在本文中，我们介绍了FaithLens，一种成本效益高且有效的真实性幻觉检测模型，可以联合提供二元预测和相应解释，以提高可信度。为实现这一目标，我们首先通过高级LLMs合成带有解释的训练数据，并应用定义良好的数据过滤策略以确保标签正确性、解释质量和数据多样性。随后，我们在这些精心策划的训练数据上对模型进行微调作为冷启动，并通过基于规则的强化学习进一步优化模型，使用预测正确性和解释质量的奖励。结果显示，在12个不同任务上，8B参数的FaithLens优于先进模型如GPT-4.1和o3。此外，FaithLens能够生成高质量解释，提供了独特的可信度、效率和有效性的平衡。",
+        "地址": "https://arxiv.org/pdf/2512.20182.pdf"
+    },
+    {
+        "名称": "2025 [2512.13472] Scaling Laws for Code: Every Programming Language Matters.pdf",
+        "作者": "Jian Yang, Shawn Guo, Lin Jing, Wei Zhang, Aishan Liu, Chuan Hao, Zhoujun Li, Wayne Xin Zhao, Xianglong Liu, Weifeng Lv, Bryan Dai",
+        "摘要": "摘要: 代码大语言模型（Code LLMs）功能强大但训练成本高，扩展定律预测模型性能与模型大小、数据和计算相关。然而，不同编程语言（PLs）在预训练期间有不同的影响，显著影响基本模型性能，导致性能预测不准确。此外，现有工作侧重于与编程语言无关的环境，忽略了现代软件开发固有的多语言特性。因此，首先有必要研究不同编程语言的扩展定律，然后考虑它们的相互影响以得出最终的多语言扩展定律。在本文中，我们首次系统性地探讨了多语言代码预训练的扩展定律，并在多个编程语言、模型大小（从0.2B到14B参数）和数据集大小（1T令牌）上进行了超过1000次实验（相当于336,000小时的H800计算）。我们为代码LLMs在多种编程语言上建立了全面的扩展定律，揭示了解释型语言（例如Python）比编译型语言（例如Rust）从增大模型大小和数据中受益更多的现象。研究表明，多语言预训练提供了协同效益，特别是语法相似的编程语言之间。此外，并行配对（将代码片段与其翻译连接）的预训练策略显著增强了跨语言能力，并具有良好的扩展特性。最后，提出了一种依赖于比例的多语言扩展定律，通过优先分配高效用编程语言（例如Python）的训练令牌，平衡高协同配对（例如JavaScript-TypeScript），减少快速饱和语言（Rust）的分配，在相同计算预算下实现了比统一分配更优异的所有编程语言的平均性能。",
+        "地址": "https://arxiv.org/pdf/2512.13472.pdf"
+    },
+    {
+        "名称": "2025 [2512.19526] QuantiPhy: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models.pdf",
+        "作者": "Li Puyin, Tiange Xiang, Ella Mao, Shirley Wei, Xinye Chen, Adnan Masood, Li Fei-fei, Ehsan Adeli",
+        "摘要": "摘要: 理解物理世界对于通用AI代理人至关重要。然而，目前尚不清楚最先进的视觉感知模型（如大型视觉语言模型，VLMs）是否能够定量地推理物理属性。现有的评估主要基于视觉问答（VQA）且为定性评估，无法深入了解这些模型能否从视频观察中推断出运动物体的运动学量值。为了解决这一问题，我们提出了QuantiPhy，这是第一个旨在定量衡量VLM物理推理能力的基准。QuantiPhy包含超过3.3K的视频文本实例和数值真实值，通过输入一个物体的某个属性，评估VLM在给定时间点估计物体的大小、速度和加速度的表现。该基准标准化了提示和评分以评估数值准确性，使得模型之间的比较更为公平。我们对最先进的VLM进行了实验，发现它们在定性合理性和实际数值准确性之间存在着一致的差距。我们进一步深入分析了背景噪音、反事实先验和战略提示等关键因素，发现最先进的VLM在定量推理运动学属性时，主要依赖于预先训练的世界知识，而不是忠实地使用提供的视觉和文本输入作为参考。QuantiPhy提供了第一个严格且可扩展的测试平台，以推动VLM从单纯的语言合理性向数值上有依据的物理理解迈进。",
+        "地址": "https://arxiv.org/pdf/2512.19526.pdf"
+    },
+    {
+        "名称": "2025 [2512.17648] Simulstream: Open-Source Toolkit for Evaluation and Demonstration of Streaming Speech-to-Text Translation Systems.pdf",
+        "作者": "Marco Gaido, Sara Papi, Mauro Cettolo, Matteo Negri, Luisa Bentivogli",
+        "摘要": "摘要：流媒体语音转文字翻译（StreamST）需要在语音输入的同时生成翻译，这对延迟有严格的要求，并且需要在部分信息决策与高翻译质量之间达到平衡。目前研究主要依赖于已不再维护且不支持修订输出的SimulEval库。此外，该库设计用于模拟短片段处理，而非长音频流处理，并且不易展示系统演示。为解决这些问题，我们引入了Simulstream，这是第一个专为StreamST系统的统一评估和演示设计的开源框架。它支持长表述语音处理，不仅支持增量解码方法，还支持重新翻译方法，能够在同一框架内比较它们的质量和延迟。此外，它还提供了一个交互式网络界面，供展示通过该工具构建的任何系统。\n\n翻译：Streaming Speech-to-Text Translation (StreamST) 需要在语音输入的同时生成翻译，这对延时有严格的要求，并且需要平衡部分信息决策与高翻译质量。目前的研究主要依赖于SimulEval库，该库已经不再维护并且不支持修订其输出。此外，它被设计用来模拟短段处理，而不是长形式的音频流，并且无法提供简单的方法来展示系统操作。作为解决方案，我们引入了Simulstream，第一个专注于StreamST系统的统一评估和演示的开源框架。该框架针对长形式语音处理，支持增量解码方法以及重新翻译方法，使得它们在同一框架内可以在质量和延时方面进行比较。此外，它还提供了一个交互式Web界面以演示在该工具内构建的任何系统。",
+        "地址": "https://arxiv.org/pdf/2512.17648.pdf"
+    },
+    {
+        "名称": "2025 [2512.20615] Active Intelligence in Video Avatars via Closed-loop World Modeling.pdf",
+        "作者": "Xuanhua He, Tianyu Yang, Ke Cao, Ruiqi Wu, Cheng Meng, Yong Zhang, Zhuoliang Kang, Xiaoming Wei, Qifeng Chen",
+        "摘要": "摘要：现有的视频化身生成方法在身份保持和动作对齐方面表现出色，但缺乏真正的自主性，它们无法通过适应环境互动自主追求长期目标。我们通过引入L-IVA（长时间交互视觉化身），一种用于评估目标导向规划在随机生成环境中的任务和基准，以及ORCA（在线推理与认知架构），第一个在视频化身中实现主动智能的框架来解决这一问题。ORCA通过两个关键创新体现内部世界模型（IWM）能力：(1) 闭环OTAR周期（观察-思考-行动-反思）在生成不确定性下通过持续验证预测结果与实际生成保持强健的状态追踪；(2) 分层双系统架构，其中系统2通过状态预测执行战略推理，而系统1将抽象计划转化为具体的、基于模型的行动说明。通过将化身控制表述为POMDP并实施基于结果验证的持续信念更新，ORCA能够在开放域场景中自主完成多步任务。大量实验表明，ORCA在任务成功率和行为一致性方面显著优于开放环和非反思基线，验证了我们基于IWM的设计，从被动动画向主动、目标导向行为推进视频化身智能。",
+        "地址": "https://arxiv.org/pdf/2512.20615.pdf"
+    },
+    {
+        "名称": "2025 [2512.20352] Multi-LLM Thematic Analysis with Dual Reliability Metrics: Combining Cohen's Kappa and Semantic Similarity for Qualitative Research Validation.pdf",
+        "作者": "Nilesh Jain, Seyi Adeyinka, Leor Roseman, Aza Allsop",
+        "摘要": "摘要：定性研究面临一个关键的可靠性挑战：传统的评分者一致性方法需要多个人工编码器，耗时且通常结果一致性中等。我们提出了一种基于大型语言模型（LLM）的多视角验证框架，结合集成验证和双重可靠性指标：用于评分者一致性的Cohen's Kappa（$\\\\kappa$）和用于语义一致性的余弦相似度。我们的框架可以进行可配置的分析参数（种子数量1-6，温度值0.0-2.0），支持具有变量替换的自定义提示结构，并提供跨任何JSON格式的共识主题提取。作为概念验证，我们评估了三个领先的LLM（Gemini 2.5 Pro、GPT-4o、Claude 3.5 Sonnet）在一次迷幻艺术治疗访谈记录上的表现，每个模型进行六次独立运行。结果表明，Gemini的可靠性最高（$\\\\kappa = 0.907$，余弦相似度=95.3%），其次是GPT-4o（$\\\\kappa = 0.853$，余弦相似度=92.6%）和Claude（$\\\\kappa = 0.842$，余弦相似度=92.1%）。所有三种模型都达到了高一致性（$\\\\kappa > 0.80$），验证了多次运行集成方法。该框架成功地提取了跨运行的共识主题，Gemini识别了6个共识主题（50-83%的一致性），GPT-4o识别了5个主题，Claude则识别了4个主题。我们开源的实现为研究人员提供了透明的可靠性指标、灵活的配置和结构无关的共识提取，奠定了可靠的AI辅助定性研究的方法论基础。\n\nSource URL: [arxiv.org/pdf/2512.20352.pdf](https://arxiv.org/pdf/2512.20352.pdf)",
+        "地址": "https://arxiv.org/pdf/2512.20352.pdf"
+    },
+    {
+        "名称": "2025 [2512.20092] Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents.pdf",
+        "作者": "Yiming Du, Baojun Wang, Yifan Xiang, Zhaowei Wang, Wenyu Huang, Boyang Xue, Bin Liang, Xingshan Zeng, Fei Mi, Haoli Bai, Lifeng Shang, Jeff Z. Pan, Yuxin Jiang, Kam-Fai Wong",
+        "摘要": "摘要: 在长、多会话对话中进行时间推理是会话代理的重要能力。然而，现有的研究和我们的初步研究表明，随着对话历史的增长和噪声的积累，当前的长上下文模型在准确识别时间相关信息方面存在困难，显著影响了推理性能。为了解决这一问题，我们提出了Memory-T1，一个利用强化学习（RL）学习时间感知记忆选择策略的框架。该框架采用由粗到细的策略，首先使用时间和相关性过滤器将对话历史修剪成候选集，然后由RL代理选择精确的证据会话。RL训练由多级奖励函数引导，优化(i)答案准确性，(ii)证据基础，和(iii)时间一致性。特别是，时间一致性奖励通过评估会话层次（时间接近性）和话语层次（时间忠实度）上的查询时间范围对齐情况提供密集信号，使代理能够解决细微的时间模糊性。在Time-Dialog基准上，Memory-T1将一个7B模型提升到了67.0%的总体得分，建立了开源模型的新状态，并比14B基线高出10.2%。消融研究表明，时间一致性和证据基础奖励共同贡献了15.0%的性能提升。此外，Memory-T1在高达128k个标记的情况下保持了稳健性，而基线模型崩溃，证明了其在大量对话历史中的抗噪声效果。代码和数据集公开发布在此https URL。\n\n作者: 杜奕铭，王保军，向一凡，王昭伟，黄文语，薛博阳，梁斌，曾兴山，弥飞，白浩立，尚立锋，潘毅信，蒋玉鑫，黄锦辉\n\n标题: 2025 [2512.20092] Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents.pdf\n\n链接: https://arxiv.org/pdf/2512.20092.pdf",
+        "地址": "https://arxiv.org/pdf/2512.20092.pdf"
+    },
+    {
+        "名称": "2025 [2512.15031] Toxicity Ahead: Forecasting Conversational Derailment on GitHub.pdf",
+        "作者": "Mia Mohammad Imran, Robert Zita, Rahat Rizvi Rahman, Preetha Chatterjee, Kostadin Damevski",
+        "摘要": "摘要：开放源码软件（OSS）社区中的有害互动会降低贡献者的参与度，并威胁项目的可持续性。预防此类有害行为的前提是清楚地了解有害对话的展开方式。然而，大多数主动调节策略是手动进行的，这需要社区维护者投入大量时间和精力。为了支持更具扩展性的方式，我们整理了一个包含159个有害对话线程和207个无害对话线程的GitHub讨论数据集。我们的分析显示，紧张的诱因、情感转变以及特定的对话模式可以预测有害行为的发生。\n我们提出了一种基于大型语言模型（LLM）的新框架，用于通过两个步骤的提示流程预测GitHub上的对话脱轨。首先，通过“从少到多”（LtM）提示生成对话动态摘要（SCDs）；然后使用这些摘要估算脱轨的可能性。在Qwen和Llama模型上的评估显示，在决策阈值为0.3时，我们的LtM策略分别达到了0.901和0.852的F1分数，优于既有的自然语言处理基准对话脱轨检测。在一个包含308个GitHub问题线程（65个有害，243个无害）的数据集上的外部验证显示，F1分数最高达到了0.797。我们的研究结果证明了结构化LLM提示在早期检测OSS对话脱轨方面的有效性，从而实现主动且可解释的调节。",
+        "地址": "https://arxiv.org/pdf/2512.15031.pdf"
+    },
+    {
+        "名称": "2025 [2512.19823] Learning to Refocus with Video Diffusion Models.pdf",
+        "作者": "SaiKiran Tedla, Zhoutong Zhang, Xuaner Zhang, Shumian Xin",
+        "摘要": "摘要：对焦是摄影的基石，然而自动对焦系统常常未能捕捉到预期的主体，用户也经常希望在拍摄后调整焦点。我们介绍了一种使用视频扩散模型进行逼真后期重新对焦的新方法。通过处理单张失焦图像，我们的方法生成了一个在感知上准确的焦距层叠序列，表现为视频序列，支持互动式重新对焦并解锁一系列下游应用。我们发布了一个在多种真实世界智能手机条件下获取的大规模焦距层叠数据集，以支持该研究和未来的研究。我们的方法在感知质量和鲁棒性上始终优于现有方法，能够在各种挑战性场景下表现出色，为日常摄影中的更高级对焦编辑能力铺平了道路。代码和数据请见此https URL。\n\n来源：SaiKiran Tedla, Zhoutong Zhang, Xuaner Zhang, Shumian Xin. Comments: Code and data are available at this https URL . SIGGRAPH Asia 2025, Dec. 2025\n\n标题：2025 [2512.19823] 学习使用视频扩散模型重新对焦",
+        "地址": "https://arxiv.org/pdf/2512.19823.pdf"
+    }
+]
