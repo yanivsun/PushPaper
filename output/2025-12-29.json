@@ -1,0 +1,86 @@
+[
+    {
+        "名称": "2025 [2512.17504] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion.pdf",
+        "作者": "Hoiyeong Jin, Hyojin Jang, Jeongho Kim, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin Choi, Hyeonji Kim, Jaegul Choo",
+        "摘要": "摘要：最近在基于扩散的视频生成方面取得的进展为可控的视频编辑开辟了新的可能性，而逼真的视频对象插入（VOI）由于对4D场景理解有限以及对遮挡和光照效果处理不足仍然具有挑战性。我们提出了InsertAnywhere，一个新的VOI框架，实现了几何一致的对象安置和外观真实的视频合成。我们的方法首先通过一个4D感知的蒙版生成模块来重建场景几何，并在保持时间连贯和遮挡一致性的基础上，在跨帧传播用户指定的对象安置。基于这一空间基础，我们扩展了一个基于扩散的视频生成模型，以联合合成插入的对象及其周围的局部变化，如照明和阴影。为了实现监督训练，我们介绍了ROSE++，一个通过将ROSE对象移除数据集转化为对象移除视频、对象存在视频和VLM生成参考图像三重组成的照明感知合成数据集。通过广泛的实验，我们证明了我们的框架在各种现实世界场景中产生几何上合理且视觉上连贯的对象插入，显著优于现有的研究和商业模型。\n\n作者：Hoiyeong Jin, Hyojin Jang, Jeongho Kim, Junha Hyung, Kinam Kim, Dongjin Kim, Huijin Choi, Hyeonji Kim, Jaegul Choo\n\n评论：16页，项目页面：此HTTPS URL\n\n链接：https://arxiv.org/pdf/2512.17504.pdf\n\n标题：2025 [2512.17504] InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion.pdf",
+        "地址": "https://arxiv.org/pdf/2512.17504.pdf"
+    },
+    {
+        "名称": "2025 [2512.17220] Mindscape-Aware Retrieval Augmented Generation for Improved Long Context Understanding.pdf",
+        "作者": "Yuqing Li, Jiangnan Li, Zheng Lin, Ziyan Zhou, Junjie Wu, Weiping Wang, Jie Zhou, Mo Yu",
+        "摘要": "2025年\n摘要: 人类通过依赖内容的整体语义表征来理解长篇且复杂的文本。这种全局视角有助于组织先前知识、解释新信息并整合分散在文档中的证据，这是通过心理学中人类的景观意识能力所揭示的。目前的检索增强生成（RAG）系统缺乏这种指导，因此在长上下文任务中表现困难。本文中，我们提出了Mindscape-Aware RAG (MiA-RAG)，这是第一个为基于LLM的RAG系统配备显式全局上下文意识的方法。MiA-RAG通过分层总结构建了一个心境图，并使得检索和生成都基于这一全局语义表征。这使得检索器能够形成丰富的查询嵌入，生成器能够在一致的全局上下文中推理检索到的证据。我们在各种长上下文和双语基准上评估了MiA-RAG在基于证据的理解和全局意义构建方面的表现。MiA-RAG始终优于基线系统，进一步分析表明其能将局部细节与一致的全局表征对齐，从而实现更人性化的长上下文检索和推理。",
+        "地址": "https://arxiv.org/pdf/2512.17220.pdf"
+    },
+    {
+        "名称": "2025 [2512.22047] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents.pdf",
+        "作者": "Hanzhang Zhou, Xu Zhang, Panrong Tong, Jianan Zhang, Liangyu Chen, Quyu Kong, Chenglin Cai, Chen Liu, Yue Wang, Jingren Zhou, Steven Hoi",
+        "摘要": "摘要: GUI 代理的发展可能会彻底改变下一代人机交互。出于这一愿景的驱动，我们提出了 MAI-UI，一系列涵盖全部规模的基础 GUI 代理，包括 2B, 8B, 32B 和 235B-A22B 变体。我们确定了实际部署的四大关键挑战：缺乏本地代理用户交互、仅限于 UI 操作的局限性、缺乏实际部署架构，以及在动态环境中的脆弱性。MAI-UI 通过统一的方法解决了这些问题：一个自我进化的数据管道，扩展导航数据以包括用户交互和 MCP 工具调用，一个本地设备-云协作系统，根据任务状态路由执行，以及一个带有高级优化的在线强化学习框架，以扩展并行环境和上下文长度。MAI-UI 在 GUI 定位和移动导航方面建立了新的行业标准。在定位基准测试中，它在 ScreenSpot-Pro 上达到了 73.5%，在 MMBench GUI L2 上达到了 91.3%，在 OSWorld-G 上达到了 70.9%，在 UI-Vision 上达到了 49.2%，超越了 ScreenSpot-Pro 上的 Gemini-3-Pro 和 Seed1.8。在移动 GUI 导航方面，它在 AndroidWorld 上创下了 76.7% 的新行业标准，超越了 UI-Tars-2、Gemini-2.5-Pro 和 Seed1.8。在 MobileWorld 上，MAI-UI 获得了 41.7% 的成功率，显著超越了端到端 GUI 模型，并且与基于 Gemini-3-Pro 的代理框架具有竞争力。我们的在线强化学习实验显示，从 32 到 512 扩展并行环境（增加 5.2 点）和从 15 到 50 增加环境步进预算（增加 4.3 点）带来了显著的收益。最后，本地设备-云协作系统提高了设备上的性能 33%，减少了超过 40% 的云模型调用，并保护了用户隐私。",
+        "地址": "https://arxiv.org/pdf/2512.22047.pdf"
+    },
+    {
+        "名称": "2025 [2512.21675] UniPercept: Towards Unified Perceptual-Level Image Understanding across Aesthetics, Quality, Structure, and Texture.pdf",
+        "作者": "Shuo Cao, Jiayang Li, Xiaohui Li, Yuandong Pu, Kaiwen Zhu, Yuanting Gao, Siqi Luo, Yi Xin, Qi Qin, Yu Zhou, Xiangyu Chen, Wenlong Zhang, Bin Fu, Yu Qiao, Yihao Liu",
+        "摘要": "摘要: 多模态大型语言模型（MLLMs）在视觉理解任务如视觉定位、分割和描述方面取得了显著进展。然而，它们感知感知层次图像特征的能力仍然有限。在这项工作中，我们提出了UniPercept-Bench，一个统一的框架，用于在三个关键领域：美学、质量、结构和纹理方面的感知层次图像理解。我们建立了一个层次定义系统，并构建了大规模数据集来评估感知层次图像理解。在此基础上，我们开发了一个强大的基线模型UniPercept，通过领域自适应预训练和任务对齐强化学习进行训练，能够在视觉评级（VR）和视觉问答（VQA）任务中实现稳健泛化。UniPercept在感知层次图像理解方面优于现有的MLLMs，并可作为文本到图像生成的即插即用奖励模型。本工作定义了处于MLLMs时代的感知层次图像理解，通过引入一个全面的基准和一个强大的基线，为推进感知层次多模态图像理解提供了坚实的基础。\n\n作者: 曹硕, 李佳阳, 李晓辉, 蒲延东, 朱凯文, 高远亭, 罗思齐, 辛怡, 秦岐, 周宇, 陈向宇, 张文龙, 傅彬, 乔宇, 刘毅豪\n\n链接: [https://arxiv.org/pdf/2512.21675.pdf](https://arxiv.org/pdf/2512.21675.pdf)\n\n评论: 27页，14幅图，17张表",
+        "地址": "https://arxiv.org/pdf/2512.21675.pdf"
+    },
+    {
+        "名称": "2025 [2512.22118] ProEdit: Inversion-based Editing From Prompts Done Right.pdf",
+        "作者": "Zhi Ouyang, Dian Zheng, Xiao-Ming Wu, Jian-Jian Jiang, Kun-Yu Lin, Jingke Meng, Wei-Shi Zheng",
+        "摘要": "以下是这份学术论文的摘要翻译：\n摘要：基于反演的视觉编辑提供了一种有效且无需训练的方法，可以根据用户指令编辑图像或视频。现有方法通常在采样过程中注入源图像信息以保持编辑的一致性。然而，这种采样策略过度依赖源信息，负面影响了目标图像中的编辑（例如，无法根据指示更改主体的属性，如姿势、数量或颜色）。在这项工作中，我们提出了ProEdit来从关注和潜在两个方面解决这一问题。在关注方面，我们引入了KV-mix，它在编辑区域混合源和目标的KV特征，减轻源图像对编辑区域的影响，同时保持背景一致性。在潜在方面，我们提出了Latents-Shift，它扰乱源潜在的编辑区域，消除反演潜在对采样的影响。在多个图像和视频编辑基准上的广泛实验表明，我们的方法实现了最先进的性能。此外，我们的设计是即插即用的，可以无缝集成到现有的反演和编辑方法中，如RF-Solver、FireFlow和UniEdit。",
+        "地址": "https://arxiv.org/pdf/2512.22118.pdf"
+    },
+    {
+        "名称": "2025 [2512.21859] TimeBill: Time-Budgeted Inference for Large Language Models.pdf",
+        "作者": "Qi Fan, An Zou, Yehan Ma",
+        "摘要": "摘要：大型语言模型 (LLMs) 正在越来越多地部署在时间关键系统中，如机器人技术、自动驾驶、具身智能和工业自动化，在这些领域内在限定的时间内生成准确的响应对决策、控制或安全关键任务至关重要。然而，LLMs 的自动回归生成过程使得难以建模和估计端到端执行时间。此外，现有基于固定键值 (KV) 缓存驱逐率的高效推断方法难以适应具有不同时间预算的多种任务，其中不适当的驱逐率可能导致推断不完整或响应性能下降。本文提出了TimeBill，一种针对 LLMs 的新颖时间预算推断框架，平衡了推断效率和响应性能。更具体地，我们提出了一个细粒度响应长度预测器 (RLP) 和执行时间估计器 (ETE)，以准确预测 LLMs 的端到端执行时间。随后，我们开发了一种时间预算的高效推断方法，根据执行时间预测和给定时间预算自适应调整 KV 缓存驱逐率。最后，通过大量实验，我们展示了 TimeBill 在提高任务完成率和在各种超限策略下保持响应性能方面的优势。",
+        "地址": "https://arxiv.org/pdf/2512.21859.pdf"
+    },
+    {
+        "名称": "2025 [2512.22120] See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning.pdf",
+        "作者": "Shuoshuo Zhang, Yizhen Zhang, Jingjing Fu, Lei Song, Jiang Bian, Yujiu Yang, Rui Wang",
+        "摘要": "摘要：大型视觉语言模型（VLMs）通常通过外部工具注入或在推理过程中生成潜在视觉标记，从中间视觉线索中受益，但这些机制仍然忽略了细粒度的视觉证据（例如图表中的折线），在不同领域中的泛化能力较差，并且推理时间成本高。在本文中，我们提出了双向感知塑造（BiPS），该方法将问题条件下的遮蔽视图转换为双向前瞻信号，在训练期间塑造感知。BiPS首先在原始图像与仅保留问题相关区域的证据保留视图之间应用KL一致性约束，鼓励粗略但完整地覆盖支持的像素。然后在原始图像与关键像素被遮蔽的证据丧失视图之间应用KL分离约束，使图像不再支持原答案，防止仅通过文本回答，并强制依赖细粒度的视觉信息。在八个基准测试中，BiPS平均提升Qwen2.5-VL-7B 8.2%，并在未见数据集和图像类型上表现出强大的域外泛化能力。\n\n作者：张硕硕、张以珍、傅晶晶、宋磊、边江、杨玉鹍、王锐\n\n链接：https://arxiv.org/pdf/2512.22120.pdf\n\n标题：2025 [2512.22120] See Less, See Right: 双向感知塑造用于多模态推理",
+        "地址": "https://arxiv.org/pdf/2512.22120.pdf"
+    },
+    {
+        "名称": "2025 [2512.21643] Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding.pdf",
+        "作者": "Zhiwang Zhou, Yuandong Pu, Xuming He, Yidi Liu, Yixin Chen, Junchao Gong, Xiang Zhuang, Wanghan Xu, Qinglong Cao, Shixiang Tang, Yihao Liu, Wenlong Zhang, Lei Bai",
+        "摘要": "摘要：天气建模需要精确的预测和机制解释，然而现有的方法将这些目标独立处理，分别进行生成和理解。为解决这一差距，我们提出了Omni-Weather，首个集成天气生成和理解的多模态基础模型。Omni-Weather集成了用于天气生成任务的雷达编码器，随后使用共享的自注意机制进行统一处理。此外，我们构建了用于天气生成因果推理的Chain-of-Thought数据集，实现了可解释的输出和更好的感知质量。大量实验表明，Omni-Weather在天气生成和理解方面均达到了最先进的性能。我们的研究结果进一步表明，天气领域的生成和理解任务可以相互增强。Omni-Weather还展示了统一天气生成和理解的可行性和价值。\n\n链接：https://arxiv.org/pdf/2512.21643.pdf\n\n作者：Zhiwang Zhou, Yuandong Pu, Xuming He, Yidi Liu, Yixin Chen, Junchao Gong, Xiang Zhuang, Wanghan Xu, Qinglong Cao, Shixiang Tang, Yihao Liu, Wenlong Zhang, Lei Bai\n\n标题：2025 [2512.21643] Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding.pdf",
+        "地址": "https://arxiv.org/pdf/2512.21643.pdf"
+    },
+    {
+        "名称": "2025 [2512.18745] InSight-o3: Empowering Multimodal Foundation Models with Generalized Visual Search.pdf",
+        "作者": "Kaican Li, Lewei Yao, Jiannan Wu, Tiezheng Yu, Jierun Chen, Haoli Bai, Lu Hou, Lanqing Hong, Wei Zhang, Nevin L. Zhang",
+        "摘要": "摘要: 为AI代理能够“用图像思考”需要结合复杂的推理和感知。然而，目前的开放多模态代理在推理方面仍然很欠缺，这对于分析包含密集图表/图示的文档和导航地图等实际任务至关重要。为了填补这一空白，我们推出了O3-Bench，这是一个旨在评估多模态推理能力的新基准，重点关注图像细节的交叉注意力。O3-Bench包含需要代理通过多步骤推理拼凑来自不同图像区域的细微视觉信息的挑战性问题。这些问题即使对于最前沿的系统如OpenAI o3也非常具有挑战性，仅在O3-Bench上获得40.8%的准确率。为了取得进展，我们提出了InSight-o3，一个由视觉推理代理(vReasoner)和视觉搜索代理(vSearcher)组成的多代理框架，我们为其引入了广义视觉搜索任务——在自由形式语言描述的关系、模糊或概念区域内定位，而不仅仅是自然图像中的简单对象或图形。我们随后通过强化学习训练了一个专门用于这一任务的多模态LLM。作为一个即插即用代理，vSearcher使最前沿的多模态模型(vReasoners)能够显著提升其在各种基准测试中的表现。这标志着向强大的类似o3的开放系统迈出的实质性一步。我们的代码和数据集可以在该网址找到：https://arxiv.org/pdf/2512.18745.pdf。",
+        "地址": "https://arxiv.org/pdf/2512.18745.pdf"
+    },
+    {
+        "名称": "2025 [2512.21919] SWE-RM: Execution-free Feedback For Software Engineering Agents.pdf",
+        "作者": "KaShun Shum, Binyuan Hui, Jiawei Chen, Lei Zhang, X. W., Jiaxi Yang, Yuzhen Huang, Junyang Lin, Junxian He",
+        "摘要": "摘要：基于执行的反馈，如单元测试，被广泛用于通过测试时间扩展 (TTS) 和强化学习 (RL) 开发编码代理。这种范式需要可扩展且可靠地收集单元测试用例以提供准确的反馈，而产生的反馈通常稀疏，无法有效区分两个同样成功或同样失败的轨迹。相比之下，来自奖励模型的无执行反馈可以提供更细粒度的信号，而无需依赖单元测试用例。尽管具有这种潜力，针对现实软件工程（SWE）代理的无执行反馈仍未得到充分探索。旨在开发能在 TTS 和 RL 上均有效的通用奖励模型，但我们发现两个具有几乎相同 TTS 性能的验证器在 RL 上却表现出显著不同的结果。直观地，TTS 主要反映模型选择最佳轨迹的能力，但这种能力并不必然推广到RL。为了解决这一局限性，我们确定了两个额外的方面，这对RL训练至关重要：分类准确性和校准。然后，我们进行了全面的控制实验，以研究如何训练一个在这些指标上表现良好的强大奖励模型。特别是，我们分析了各种因素的影响，如训练数据规模、策略混合和数据源组成。在这些研究的指导下，我们引入了SWE-RM，这是一个采用专家混合架构的准确且强大的奖励模型，总参数为30B，推理过程中激活3B参数。SWE-RM在TTS和RL性能上显著改进了SWE代理。例如，它将Qwen3-Coder-Flash在TTS上的准确度从51.6%提升到62.0%，将Qwen3-Coder-Max从67.0%提升到74.6%在SWE-Bench验证中，创造了开放源码模型的新性能记录。",
+        "地址": "https://arxiv.org/pdf/2512.21919.pdf"
+    },
+    {
+        "名称": "2025 [2512.21507] SVBench: Evaluation of Video Generation Models on Social Reasoning.pdf",
+        "作者": "Wenshuo Peng, Gongxuan Wang, Tianmeng Yang, Chuanhao Li, Xiaojie Xu, Hui He, Kaipeng Zhang",
+        "摘要": "摘要: 当前的文本生成视频模型在视觉逼真度、动作保真度和文本-视频对齐方面表现出显著进步，但在生成社会上连贯的行为方面仍存在根本性限制。与人类通过简短的视觉线索轻松推断出意图、信念、情感和社会规范不同，当前模型往往呈现字面上的场景，而没有捕捉到潜在的因果或心理逻辑。为了系统地评估这一差距，我们引入了首个视频生成中的社会推理基准。基于发展心理学和社会心理学的研究结果，我们的基准将三十个经典的社会认知范式组织成七个核心维度，包括心理状态推断、目标导向行为、共同注意力、社会协调、亲社会行为、社会规范和多智能体策略。为了使这些范式操作化，我们开发了一个完全无训练的基于代理的管道，(i) 提炼每个实验的推理机制，(ii) 综合多样的视频场景，(iii) 通过线索批评实现概念中立性和难度控制，(iv) 使用高容量的VLM裁判从五个可解释的社会推理维度对生成的视频进行评估。使用这一框架，我们对七个最先进的视频生成系统进行了首次大规模研究。我们的结果揭示了显著的性能差距：尽管现代模型在表面上的合理性方面表现出色，但在意图识别、信念推理、共同注意力和亲社会推理方面系统性地失败。\n\n作者: Peng Wenshuo, Wang Gongxuan, Yang Tianmeng, Li Chuanhao, Xu Xiaojie, He Hui, Zhang Kaipeng\n\n评论: 10页\n\n链接: https://arxiv.org/pdf/2512.21507.pdf\n\n标题: 2025 [2512.21507] SVBench: 视频生成模型在社会推理上的评估.pdf",
+        "地址": "https://arxiv.org/pdf/2512.21507.pdf"
+    },
+    {
+        "名称": "2025 [2512.20292] SlideTailor: Personalized Presentation Slide Generation for Scientific Papers.pdf",
+        "作者": "Wenzheng Zeng, Mingyu Ouyang, Langyuan Cui, Hwee Tou Ng",
+        "摘要": "摘要: 自动生成演示文稿幻灯片可以极大地简化内容创作。然而，由于每个用户的偏好不同，现有的规定不明确的设计方案往往会导致无法与个人用户需求对齐的次优结果。我们介绍了一项新任务，使论文到幻灯片的生成依据用户指定的偏好进行。我们提出了一个受人类行为启发的代理框架，SlideTailor，能够逐步生成符合用户需求的可编辑幻灯片。我们的系统不要求用户撰写详细文本形式的偏好，只需提供一对论文-幻灯片示例和一个视觉模板 - 这两种自然且易于提供的工件隐含编码了丰富的用户偏好，涉及内容和视觉风格。尽管这些输入是隐含且未标注的，我们的框架能够有效地提炼和泛化这些偏好，以指导定制化幻灯片的生成。我们还引入了一种新颖的链式讲稿机制，将幻灯片内容与预定的口头讲解对齐。这种设计显著提高了生成幻灯片的质量，并支持视频演示等后续应用。为了支持这一新任务，我们构建了一个基准数据集，该数据集捕捉了多样化的用户偏好，并通过精心设计的可解释度量标准进行稳健评估。大量实验表明，我们的框架的有效性。",
+        "地址": "https://arxiv.org/pdf/2512.20292.pdf"
+    },
+    {
+        "名称": "2025 [2512.21980] A 58-Addition, Rank-23 Scheme for General 3x3 Matrix Multiplication.pdf",
+        "作者": "A. I. Perminov",
+        "摘要": "摘要：本文提出了一种新的最先进的算法，用于在一般非交换环上进行精确的$3\\times3$矩阵乘法，取得了基数为23且仅需58次标量加法的方案。这改善了之前无需改变基的情况下，60次加法的最佳附加复杂性。该结果是通过自动搜索结合三元限制翻转图探索与常见子表达式消除的贪婪交叉减少而发现的。最终方案只使用来自$\\{-1, 0, 1\\}$的系数，确保了在任意领域内的效率和可移植性。总标量操作数从83减少到81。",
+        "地址": "https://arxiv.org/pdf/2512.21980.pdf"
+    },
+    {
+        "名称": "2025 [2512.21625] Rethinking Sample Polarity in Reinforcement Learning with Verifiable Rewards.pdf",
+        "作者": "Xinyu Tang, Yuliang Zhan, Zhixun Li, Wayne Xin Zhao, Zhenduo Zhang, Zujie Wen, Zhiqiang Zhang, Jun Zhou",
+        "摘要": "摘要：大型推理模型（LRMs）通常通过使用可验证奖励的强化学习（RLVR）来训练，以增强它们的推理能力。在这种范式中，策略通过正负自生成样本的展开进行更新，这些样本对应不同的样本极性。在本文中，我们系统地调查了这些样本极性如何影响RLVR的训练动态和行为。我们发现，正样本会增强现有的正确推理模式，而负样本则鼓励探索新的推理路径。我们进一步探索了在样本级别和标记级别调节正负样本优势值如何影响RLVR训练。基于这些见解，我们提出了一种用于策略优化的自适应和非对称标记级别优势塑造方法，称为A3PO，该方法更准确地将优势信号分配给不同极性的关键标记。在五个推理基准上的实验展示了我们方法的有效性。\n\n作者：汤新宇、詹雨良、李志勋、赵鑫、张振铎、文祖捷、张智强、周俊\n\n链接：https://arxiv.org/pdf/2512.21625.pdf\n\n标题：2025 [2512.21625] 重新考虑强化学习中可验证奖励的样本极性（英文标题：Rethinking Sample Polarity in Reinforcement Learning with Verifiable Rewards）",
+        "地址": "https://arxiv.org/pdf/2512.21625.pdf"
+    }
+]
