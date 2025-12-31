@@ -1,0 +1,188 @@
+[
+    {
+        "名称": "2025 [2512.23447] Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss.pdf",
+        "作者": "Ang Lv, Jin Ma, Yiyuan Ma, Siyuan Qiao",
+        "摘要": "摘要:混合专家(MoE)模型缺乏显式约束来确保路由器的决策与专家的能力很好地对齐，从而最终限制了模型性能。为了解决这个问题，我们提出了一种专家-路由器耦合(ERC)损失，这是一种轻量级的辅助损失，可以紧密耦合路由器的决策与专家能力。我们的方法将每个专家的路由器嵌入作为分配给该专家的令牌的代理令牌，并通过专家处理扰动的路由器嵌入以获得内部激活。ERC损失对这些激活施加了两个约束：(1)每个专家必须对自己的代理令牌表现出较高的激活，而不是其他任何专家的代理令牌。(2)每个代理令牌必须从其对应的专家那里引发更强的激活，而不是其他任何专家。这些约束共同确保每个路由器嵌入忠实地代表其对应专家的能力，同时每个专家专注于处理实际路由到它的令牌。ERC损失在计算上是高效的，仅处理n^2个激活，其中n是专家的数量。这表示一个与批量大小无关的固定成本，不像先前的耦合方法，它们随着令牌数量的增加而扩展(通常每批次数百万个令牌)。通过预训练从3B到15B参数的MoE-LLM，以及对数万亿个令牌的广泛分析，我们证明了ERC损失的有效性。此外，ERC损失提供了在训练期间专家专门化水平的灵活控制和定量跟踪，提供了关于MoE的宝贵见解。\n\n翻译：\n混合专家(MoE)模型缺乏显式约束来确保路由器的决策与专家的能力很好地对齐，从而最终限制了模型性能。为了解决这个问题，我们提出了一种专家-路由器耦合(ERC)损失，这是一种轻量级的辅助损失，可以紧密耦合路由器的决策与专家能力。我们的方法将每个专家的路由器嵌入作为分配给该专家的令牌的代理令牌，并通过专家处理扰动的路由器嵌入以获得内部激活。ERC损失对这些激活施加了两个约束：(1)每个专家必须对自己的代理令牌表现出较高的激活，而不是其他任何专家的代理令牌。(2)每个代理令牌必须从其对应的专家那里引发更强的激活，而不是其他任何专家。这些约束共同确保每个路由器嵌入忠实地代表其对应专家的能力，同时每个专家专注于处理实际路由到它的令牌。ERC损失在计算上是高效的，仅处理n^2个激活，其中n是专家的数量。这表示一个与批量大小无关的固定成本，不像先前的耦合方法，它们随着令牌数量的增加而扩展(通常每批次数百万个令牌)。通过预训练从3B到15B参数的MoE-LLM，以及对数万亿个令牌的广泛分析，我们证明了ERC损失的有效性。此外，ERC损失提供了在训练期间专家专门化水平的灵活控制和定量跟踪，提供了关于MoE的宝贵见解。",
+        "地址": "https://arxiv.org/pdf/2512.23447.pdf"
+    },
+    {
+        "名称": "2025 [2512.23576] LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation.pdf",
+        "作者": "Ethan Chern, Zhulin Hu, Bohao Tang, Jiadi Su, Steffi Chern, Zhijie Deng, Pengfei Liu",
+        "摘要": "摘要：通过扩散实现实时视频生成对于构建通用的多模态交互式人工智能系统至关重要。然而，在扩散模型中通过双向注意力迭代同时对所有视频帧进行去噪，阻碍了实时交互。尽管现有的蒸馏方法可以使模型具有自回归性并减少采样步骤以缓解这一问题，但它们主要关注文本到视频的生成，导致人机交互变得不自然且效率低下。本文旨在基于多模态上下文（包括文本、图像和音频）实现实时交互视频扩散，以弥补这一差距。鉴于主流的在策略蒸馏方法Self Forcing在多模态条件下遇到问题（如视觉伪影、黑帧和质量下降），我们探讨了一种改进的蒸馏方法，重点关注条件输入的质量以及在策略优化的初始化和时间表。在多模态条件（音频、图像和文本）的虚拟形象视频生成基准测试（包括HDTF、AVSpeech和CelebV-HQ）中，我们的蒸馏模型在视觉质量上匹配了相似或更大规模的全步双向基准模型，但推理成本和延迟减少了20倍。此外，我们将模型与音频语言模型和长视频推理技术Anchor-Heavy Identity Sinks集成，构建了LiveTalk，一个实时多模态交互虚拟形象系统。我们在自制的多轮交互基准测试中的系统级评估表明，LiveTalk在多轮视频连贯性和内容质量方面优于最先进的模型（如Sora2、Veo3），同时将响应延迟从1到2分钟减少到实时生成，从而实现了无缝的人机多模态交互。\n\n翻译：Ethan Chern, Zhulin Hu, Bohao Tang, Jiadi Su, Steffi Chern, Zhijie Deng, Pengfei Liu",
+        "地址": "https://arxiv.org/pdf/2512.23576.pdf"
+    },
+    {
+        "名称": "2025 [2512.22096] Yume-1.5: A Text-Controlled Interactive World Generation Model.pdf",
+        "作者": "Xiaofeng Mao, Zhen Li, Chuanhao Li, Xiaojie Xu, Kaining Ying, Tong He, Jiangmiao Pang, Yu Qiao, Kaipeng Zhang",
+        "摘要": "摘要：最近的方法展示了使用扩散模型生成交互和可探索世界的前景。然而，这些方法大多面临着一些关键挑战，如参数尺寸过大、依赖于冗长的推理步骤以及快速增长的历史上下文，这些都严重限制了实时性能，且缺乏文本控制生成能力。为了应对这些挑战，我们提出了一种称为\\method的新框架，旨在从单一图像或文本提示生成逼真、互动和连续的世界。\\method通过精心设计的框架实现了这一目标，支持基于键盘的生成世界探索。该框架包括三个核心组件：(1) 结合统一上下文压缩与线性注意的视频生成框架；(2) 由双向注意蒸馏和增强文本嵌入方案驱动的实时流加速策略；(3) 一种用于生成世界事件的文本控制方法。我们在补充材料中提供了代码库。\n\n作者：毛小枫, 李振, 李传浩, 许晓杰, 应开宁, 何统, 庞江淼, 乔宇, 张开鹏\n\n标题：Yume-1.5: 一个文本控制的交互世界生成模型",
+        "地址": "https://arxiv.org/pdf/2512.22096.pdf"
+    },
+    {
+        "名称": "2025 [2512.22322] SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents.pdf",
+        "作者": "Shaofei Cai, Yulei Qin, Haojia Lin, Zihan Xu, Gang Li, Yuchen Shi, Zongyi Li, Yong Mao, Siqi Cai, Xiaoyu Tan, Yitao Liang, Ke Li, Xing Sun",
+        "摘要": "摘要：代理强化学习（RL）在开发复杂图形用户界面任务下的自主代理方面展示了巨大的前景，但其可扩展性仍然受到任务完成验证的严重阻碍。现有的任务验证被视为一种被动的、事后分析过程：验证者（如基于规则的计分脚本、奖励或评价模型，以及作为裁判的大型语言模型）通过分析代理的整个交互轨迹来确定代理是否成功。这种对包含无关和噪声历史的冗长上下文的处理，对验证协议构成挑战，导致成本高昂且可靠性低。为克服这一瓶颈，我们提出了SmartSnap，一个从这种被动、事后验证转变为主动、现场自验证范式的转变。我们引入了自验证代理的新类型，该代理具有双重任务：不仅要完成任务，还要通过精心挑选的快照证据证明其完成情况。在我们提出的3C原则（完整性、简洁性和创造力）的指导下，代理利用其对在线环境的访问权限，对最小、决定性的一组快照进行自验证。这些证据将作为唯一的材料供通用的大型语言模型裁判验证其有效性和相关性。不同模型家族和规模的移动任务实验表明，我们的SmartSnap范式可以以可扩展的方式训练大型语言模型驱动的代理，分别为8B和30B模型带来高达26.08％和16.66％的性能提升。解决方案发现与证据寻求之间的协同作用促进了高效、自验证代理的培养，使其在性能上能够与DeepSeek V3.1和Qwen3-235B-A22B竞争。",
+        "地址": "https://arxiv.org/pdf/2512.22322.pdf"
+    },
+    {
+        "名称": "2025 [2512.23705] Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation.pdf",
+        "作者": "Shaocong Xu, Songlin Wei, Qizhe Wei, Zheng Geng, Hong Li, Licheng Shen, Qianpu Sun, Shu Han, Bin Ma, Bohan Li, Chongjie Ye, Yuhang Zheng, Nan Wang, Saining Zhang, Hao Zhao",
+        "摘要": "摘要：透明物体对于感知系统仍然是极其困难的：折射、反射和透射打破了立体视觉、飞行时间（ToF）和纯判别单目深度的假设，导致孔洞和时间上不稳定的估计。我们的关键观察是，现代视频扩散模型已经能够合成令人信服的透明现象，这表明它们已经内化了光学规则。我们构建了TransPhy3D，这是一个合成的视频语料库，包含透明/反射场景：使用Blender/Cycles渲染的11k序列。这些场景是从一个精心策划的类别丰富的静态资产和形状丰富的程序资产库中组装而成，并配有玻璃/塑料/金属材料。我们使用基于物理的光线追踪和OptiX去噪渲染RGB +深度+法线。通过从一个大型视频扩散模型开始，我们通过轻量级LoRA适配器学习深度（和法线）的视频到视频转译。在训练过程中，我们在DiT骨干中串联RGB和（有噪声的）深度潜变量，并在TransPhy3D和现有的逐帧合成数据集上进行共同训练，从而为任意长度的输入视频提供时间一致的预测。最终模型DKT在涉及透明度的真实和合成视频基准测试中实现了零样本的最新水平（SOTA）：ClearPose、DREDS（CatKnown/CatNovel）和TransPhy3D-Test。它在强大的图像/视频基线之上提高了准确性和时间一致性，而法线变体在ClearPose上设定了最佳视频法线估计结果。一个紧凑的1.3B版本运行速度约为0.17秒/帧。集成到抓取堆栈中，DKT的深度提高了在半透明、反射和漫反射表面上的成功率，优于先前的估计器。总之，这些结果支持一个更广泛的观点：“扩散知道透明度。”生成性视频先验可以被重新利用，既高效又不需要标签，从而实现对现实世界中挑战性操作的鲁棒且时间连贯的感知。\n\n翻译：透明物体对于感知系统来说依然是一大难题：折射、反射和透射打破了立体视觉、ToF和纯判别的单目深度估计的假设，导致孔洞和时间上不稳定的估计。我们的关键观察是，现代视频扩散模型已经能够合成令人信服的透明现象，这表明它们已经内化了光学规则。我们构建了TransPhy3D，这是一个合成的视频语料库，包含透明/反射场景：使用Blender/Cycles渲染的11,000个序列。这些场景由一个精心策划的类别丰富的静态资产库和形状丰富的程序资产库组装而成，并配有玻璃、塑料、金属材料。我们使用基于物理的光线追踪和OptiX降噪渲染RGB +深度+法线。通过从一个大型视频扩散模型开始，我们通过轻量级LoRA适配器学习深度（和法线）的视频到视频转译。在训练过程中，我们在DiT骨干中串联RGB和（有噪声的）深度潜变量，并在TransPhy3D和现有的逐帧合成数据集上进行联合训练，从而为任意长度的输入视频提供时间一致的预测。最终模型DKT在涉及透明度的真实和合成视频基准测试中实现了零样本的最新水平（SOTA）：ClearPose、DREDS（CatKnown/CatNovel）和TransPhy3D-Test。它比强大的图像/视频基线提高了准确性和时间一致性，而法线变体在ClearPose上取得了最佳视频法线估计结果。一个紧凑的1.3B版本运行速度约为每帧0.17秒。集成到抓取堆栈中，DKT的深度提高了半透明、反射和漫反射表面的抓取成功率，超过了之前的估计器。这些结果共同支持一个更广泛的观点：“扩散了解透明度”。生成性视频先验可以被重新利用，高效且无需标签，从而实现对现实世界中具有挑战性的操作进行鲁棒且时间一致的感知。",
+        "地址": "https://arxiv.org/pdf/2512.23705.pdf"
+    },
+    {
+        "名称": "2025 [2512.23709] Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion.pdf",
+        "作者": "Hau-Shiang Shiu, Chin-Yang Lin, Zhixiang Wang, Chi-Wei Hsiao, Po-Fan Yu, Yu-Chih Chen, Yu-Lun Liu",
+        "摘要": "摘要：基于扩散的视频超分辨率（VSR）方法在感知质量上表现出色，但由于依赖未来帧和昂贵的多步去噪，在对延迟敏感的环境中仍然不实用。我们提出了Stream-DiffVSR，一种用于高效在线VSR的因果条件扩散框架。该方法严格基于过去帧进行操作，结合了四步蒸馏去噪器以实现快速推理，自动回归时间指导（ARTG）模块在潜在去噪过程中注入运动对齐线索，以及带有时间处理模块（TPM）的轻量级时间感知解码器，以增强细节和时间一致性。Stream-DiffVSR在RTX4090 GPU上处理720p帧仅需0.328秒，并显著超过了之前基于扩散的方法。与在线SOTA TMP相比，它提高了感知质量（LPIPS +0.095），同时将延迟减少了超过130倍。Stream-DiffVSR实现了扩散VSR报告的最低延迟，将初始延迟从超过4600秒减少到0.328秒，从而使其成为首个适用于低延迟在线部署的扩散VSR方法。项目页面：此 https URL",
+        "地址": "https://arxiv.org/pdf/2512.23709.pdf"
+    },
+    {
+        "名称": "2025 [2512.22615] Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone.pdf",
+        "作者": "Jiacheng Ye, Shansan Gong, Jiahui Gao, Junming Fan, Shuang Wu, Wei Bi, Haoli Bai, Lifeng Shang, Lingpeng Kong",
+        "摘要": "摘要：尽管自回归大型视觉-语言模型（VLMs）取得了显著成功，但其顺序生成方式常常限制了其在复杂视觉规划和动态机器人控制中的有效性。在这项工作中，我们研究了基于扩散的大语言模型（dLLMs）构建视觉-语言模型的潜力，以克服这些限制。我们介绍了Dream-VL，这是一个开放的基于扩散的VLM（dVLM），在先前的dVLMs中实现了最先进的性能。Dream-VL在各种基准测试中与基于自回归的顶级VLMs（使用开放数据训练）相媲美，但在应用于视觉规划任务时表现出更大的潜力。在Dream-VL的基础上，我们通过在开放的机器人数据集上进行持续预训练，推出了Dream-VLA，这是一款基于dLLM的视觉-语言-动作模型（dVLA）。我们展示了这个扩散骨干网的原生双向特性是VLA任务的卓越基础，天然适合动作分块和并行生成，从而在下游微调中显著加速收敛速度。Dream-VLA在LIBERO上达到了97.2%的平均成功率，在SimplerEnv-Bridge上总体平均达到71.4%，在SimplerEnv-Fractal上总体平均达到60.5%，超越了领先的模型如$\\\\pi_0$和GR00T-N1。我们还验证了dVLMs在不同训练目标的下游任务中优于自回归基线。我们发布了Dream-VL和Dream-VLA，以促进研究社区的进一步研究。",
+        "地址": "https://arxiv.org/pdf/2512.22615.pdf"
+    },
+    {
+        "名称": "2025 [2512.22323] SpotEdit: Selective Region Editing in Diffusion Transformers.pdf",
+        "作者": "Zhibin Qin, Zhenxiong Tan, Zeqing Wang, Songhua Liu, Xinchao Wang",
+        "摘要": "摘要：扩散变压器模型通过编码条件图像并将其集成到变压器层中，显著提升了图像编辑效果。然而，大多数编辑只涉及修改小区域，而当前的方法需要在每个时间步均匀地处理和去噪所有标记，从而导致冗余计算，并可能损害未更改区域的质量。这提出了一个基本问题：在编辑过程中是否真的有必要重新生成每一个区域？为了解决这个问题，我们提出了SpotEdit，一种无需训练的扩散编辑框架，它仅选择性地更新修改过的区域。SpotEdit包含两个关键组件：SpotSelector通过感知相似性识别稳定区域，并通过重用条件图像特征跳过其计算；SpotFusion通过动态融合机制自适应地将这些特征与编辑过的标记融合，保持上下文一致性与编辑质量。通过减少不必要的计算并在未修改区域保持高保真度，SpotEdit实现了高效且精确的图像编辑。",
+        "地址": "https://arxiv.org/pdf/2512.22323.pdf"
+    },
+    {
+        "名称": "2025 [2512.15560] GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models.pdf",
+        "作者": "Bozhou Li, Sihan Yang, Yushuo Guan, Ruichuan An, Xinlong Chen, Yang Shi, Pengfei Wan, Wentao Zhang, Yuanxing zhang",
+        "摘要": "摘要：文本编码器是文本到图像和文本到视频扩散模型的关键组成部分，决定了生成内容的语义保真度。然而，其发展受到两个主要挑战的阻碍：缺乏一个高效的评估框架来可靠地预测下游生成性能，以及难以有效地调整预训练语言模型以用于视觉合成。为了解决这些问题，我们提出了GRAN-TED，一种用于扩散模型生成稳健、对齐和细腻文本嵌入的新范式。我们的贡献有两方面。首先，我们提出TED-6K，这是一个新颖的仅限文本的基准，无需高昂的端到端模型训练即可实现高效且稳健的编码器表示质量评估。我们证明了通过轻量化的统一适配器标准化的TED-6K性能与编码器在下游生成任务中的有效性强相关。在我们的实验设置下，与从零开始训练扩散模型相比，使用TED-6K评估大约快750倍。其次，在这个验证框架的指导下，我们使用一种新颖的两阶段训练范式开发了一个卓越的文本编码器。该过程包括在多模态大语言模型上的初步微调阶段以获得更好的视觉表示，随后通过逐层加权方法提取更细致和强大的文本特征。我们的实验表明，最终的GRAN-TED编码器不仅在TED-6K上达到了最先进的性能，而且在文本到图像和文本到视频生成方面也带来了可观的性能提升。我们的TED-6K数据集和评估代码可在以下链接获取: this https URL.",
+        "地址": "https://arxiv.org/pdf/2512.15560.pdf"
+    },
+    {
+        "名称": "2025 [2512.23541] Act2Goal: From World Model To General Goal-conditioned Policy.pdf",
+        "作者": "Pengfei Zhou, Liliang Chen, Shengcong Chen, Di Chen, Wenzhi Zhao, Rongjun Jin, Guanghui Ren, Jianlan Luo",
+        "摘要": "摘要: 指定机器人操作任务在表现力和精确性方面仍然是一个核心挑战。视觉目标提供了简洁明确的任务规范，但现有的目标条件政策常常因依赖单步动作预测而无法清晰地建模任务进展，从而在长时间操作中表现不佳。我们提出了Act2Goal，一种通用的目标条件操作策略，它结合了目标条件视觉世界模型与多尺度时间控制。在给定当前观察和目标视觉目标的情况下，世界模型生成了一系列合理的中间视觉状态序列，捕捉到长时间结构。为了将视觉计划转化为稳健的执行，我们引入了多尺度时间哈希（Multi-Scale Temporal Hashing，MSTH），它将预想的轨迹分解为密集的近端帧以实现精细闭环控制，以及稀疏的远端帧以确保总体任务一致性。该策略通过端到端交叉注意力将这些表示与运动控制结合起来，使得在长时间范围内保持连贯行为的同时对局部扰动具有反应能力。Act2Goal在新颖的物体、空间布局和环境中实现了强大的零样本泛化。我们进一步通过基于LoRA的微调实现了通过事后目标重标定进行无奖励在线适应，允许在没有外部监督的情况下快速自主改进。真实机器人实验显示，Act2Goal在具有挑战性的分布外任务中将成功率从30%提升至90%，验证了具有多尺度时间控制的目标条件世界模型为稳健的长时间操作提供了必要的结构化指导。项目页面：此https URL\n\n作者: 周鹏飞，陈立良，陈晟聪，陈迪，赵文智，金荣俊，任光辉，罗建兰",
+        "地址": "https://arxiv.org/pdf/2512.23541.pdf"
+    },
+    {
+        "名称": "2025 [2512.23676] Web World Models.pdf",
+        "作者": "Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang",
+        "摘要": "摘要：语言代理越来越需要持久的世界，在其中它们可以行动、记忆和学习。现有的方法分为两种极端：传统的网络框架提供可靠但固定的上下文，并由数据库支持，而完全生成的世界模型则致力于无限的环境，但以可控性和实际工程为代价。在这项工作中，我们引入了Web世界模型（WWM），它处于中间地带，其中世界状态和“物理”通过普通的网络代码实现，以确保逻辑一致性，而大型语言模型则在这个结构化的潜在状态之上生成上下文、叙事和高级决策。我们在一个现实的网络栈上构建了一套WWMs，包括一个基于真实地理的无限旅行地图、虚构的银河探索者、网络规模的百科和叙事世界，以及模拟和游戏般的环境。在这些系统中，我们确定了WWMs的实际设计原则：将代码定义的规则与模型驱动的想象分开，将潜在状态表示为类型化的网络接口，并利用确定性生成来实现无限但结构化的探索。我们的结果表明，网络栈本身可以作为世界模型的可扩展基质，提供可控但开放的环境。\n\n论文标题：2025 [2512.23676] Web World Models.pdf\n作者：冯继晨，张一凡，张成恭，陆一夫，刘世龙，王梦迪\n项目页面：此 https URL",
+        "地址": "https://arxiv.org/pdf/2512.23676.pdf"
+    },
+    {
+        "名称": "2025 [2512.22234] DiRL: An Efficient Post-Training Framework for Diffusion Language Models.pdf",
+        "作者": "Ying Zhu, Jiaxin Wan, Xiaoran Liu, Siyanag He, Qiqi Wang, Xu Guo, Tianyi Liang, Zengfeng Huang, Ziwei He, Xipeng Qiu",
+        "摘要": "摘要：扩散语言模型（dLLMs）已经成为自回归（AR）模型的有前途的替代品。尽管最近的研究验证了其预训练潜力及加速推理速度，dLLMs的训练后阶段依然不够完善。现有方法存在计算效率低下及训练与推理目标不匹配的问题，极大限制了其在数学等复杂推理任务中的表现。为了解决这个问题，我们引入了DiRL，一个高效的训练后框架，它紧密集成了FlexAttention加速的分块训练和LMDeploy优化的推理机制。该架构实现了简化的在线模型更新循环，促进了高效的两阶段训练后（监督微调后接强化学习）。基于这一框架，我们提出了DiPO，即首个针对dLLMs的无偏群体相对政策优化（GRPO）实现。通过在高质量数学数据上训练DiRL-8B-Instruct，我们验证了我们的方法。我们的模型在dLLMs中达到了最先进的数学表现，并在多个基准测试中超越了Qwen2.5系列的可比模型。\n\n翻译：扩散语言模型（dLLMs）已经作为自回归（AR）模型的有前景的替代品出现。尽管最近的努力验证了它们的预训练潜力和加快推理速度，但dLLMs的训练后阶段仍未得到充分发展。现有方法存在计算低效和训练与推理之间目标不匹配的问题，严重限制了它们在数学等复杂推理任务上的性能。为了解决这个问题，我们介绍了DiRL，一个高效的训练后框架，它将FlexAttention加速的分块训练与LMDeploy优化的推理紧密结合在一起。这种架构启用了一种精简的在线模型更新循环，促进了高效的两阶段训练后（监督微调后接强化学习）。在此框架的基础上，我们提出了DiPO，这是首个针对dLLMs的无偏群体相对政策优化（GRPO）实现。我们通过在高质量数学数据上训练DiRL-8B-Instruct验证了我们的方法。我们的模型在dLLMs中实现了最先进的数学表现，并在多个基准测试中超过了Qwen2.5系列的可比模型。",
+        "地址": "https://arxiv.org/pdf/2512.22234.pdf"
+    },
+    {
+        "名称": "2025 [2512.23707] Training AI Co-Scientists Using Rubric Rewards.pdf",
+        "作者": "Shashwat Goel, Rishi Hazra, Dulhan Jayalath, Timon Willi, Parag Jain, William F. Shen, Ilias Leontiadis, Francesco Barbieri, Yoram Bachrach, Jonas Geiping, Chenxi Whitehouse",
+        "摘要": "摘要：AI共同科学家作为一种工具正在帮助人类研究人员实现他们的研究目标。这些AI共同科学家的一个关键特征是能够在给定一组目标和限制条件下生成研究计划。研究人员可以使用这些计划进行脑暴，或者在进一步修订后实施。然而，目前的语言模型在生成符合所有约束和隐含要求的研究计划方面存在困难。在这项工作中，我们研究了如何利用现有研究论文的大量语料库来训练语言模型，以生成更好的研究计划。我们通过自动从多个领域的论文中提取研究目标和目标特定的评分标准来构建一个可扩展、多样化的训练语料库。然后，我们通过自我评分的强化学习来训练研究计划生成模型。在训练期间，初始策略的冻结副本作为评分者，评分标准创建了一个生成器-验证器差距，使改进在没有外部人类监督的情况下成为可能。为了验证这种方法，我们进行了一个涉及机器学习研究目标的专家研究，持续了225小时。专家们对我们的微调模型Qwen3-30B-A3B生成的计划表示更满意，70%的研究目标都更喜欢我们微调后的模型，并批准了84%的自动提取的目标特定评分标准。为了评估这种方法的普遍性，我们还将其扩展到医疗论文和新发布的arXiv预印本的研究目标，并通过一个前沿模型的陪审团进行了评估。我们的微调方法带来了12-22%的相对改进和显著的跨领域泛化，即使在医疗研究执行反馈无法实现的问题设置中也证明了其有效性。这些研究结果表明，一种可扩展、自动化的训练方案在改进通用AI共同科学家方面的潜力。",
+        "地址": "https://arxiv.org/pdf/2512.23707.pdf"
+    },
+    {
+        "名称": "2025 [2512.23044] Video-BrowseComp: Benchmarking Agentic Video Research on Open Web.pdf",
+        "作者": "Zhengyang Liang, Yan Shu, Xiangrui Liu, Minghao Qin, Kaixin Liang, Paolo Rota, Nicu Sebe, Zheng Liu, Lizi Liao",
+        "摘要": "摘要: 自主代理体的进化正在重新定义信息寻求，逐步从被动的检索转变为主动的、开放式的网络研究。然而，虽然文本和静态多模态代理已经取得了快速进展，但在处理网络中最动态的模态——视频方面，仍然存在显著的模态差距。现有的视频基准主要关注被动感知，通过向模型提供整理好的剪辑，而不需要外部检索。它们未能评估代理视频研究，后者需要积极地询问视频时间线，交叉引用分散的证据，并在开放网络中验证声明。为了填补这一空白，我们提出了\\\\textbf{Video-BrowseComp}，这是一个具有挑战性的基准，包含210个针对开放网络代理视频推理的问题。与之前的基准不同，Video-BrowseComp 强制依赖时间视觉证据，确保不能仅通过文本搜索得出答案，而必须导航视频时间线来验证外部声明。我们对最先进模型的评估揭示了一个关键瓶颈：即使是增强搜索功能的先进模型，如GPT-5.1（带搜索功能）也仅能达到15.24%的准确率。我们的分析表明，这些模型在很大程度上依赖文本代理，在元数据丰富的领域（如有剧情摘要的电视剧）中表现出色，但在元数据稀少、动态环境（如体育和游戏）中崩溃，而在这些环境中视觉定位至关重要。作为第一个开放网络视频研究基准，Video-BrowseComp推动了该领域从被动感知向主动视频推理的发展。",
+        "地址": "https://arxiv.org/pdf/2512.23044.pdf"
+    },
+    {
+        "名称": "2025 [2512.23646] OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding.pdf",
+        "作者": "Keda Tao, Wenjie Du, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang",
+        "摘要": "摘要: Omnimodal大型语言模型在统一音频和视觉模态方面取得了显著进展，但它们通常缺乏细粒度的跨模态理解并且在多模态对齐上存在困难。为了应对这些限制，我们介绍了OmniAgent，一个完全由音频引导的主动感知代理，它动态调度专业工具以实现更细粒度的音频-视觉推理。与依赖僵化、静态工作流程和密集帧字幕的先前研究不同，本文展示了从被动响应生成到主动多模态查询的范式转变。OmniAgent采用动态规划，自主协调按需调用工具，战略性地将感知注意力集中在与任务相关的线索上。我们方法的核心是一种新的从粗到细的音频引导感知范式，它利用音频线索来定位时间事件并指导后续推理。我们在三个音频-视频理解基准上的广泛实证评估表明，OmniAgent实现了最先进的性能，以10%-20%的准确率显著超过了领先的开源和专有模型。",
+        "地址": "https://arxiv.org/pdf/2512.23646.pdf"
+    },
+    {
+        "名称": "2025 [2512.23273] YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection.pdf",
+        "作者": "Xu Lin, Jinlong Peng, Zhenye Gan, Jiawen Zhu, Jun Liu",
+        "摘要": "以下是针对你提供的论文材料的摘要翻译:\n\n摘要: 现有的实时目标检测 (RTOD) 方法通常采用 YOLO 类架构，因为它们在准确性和速度之间具有良好的平衡。然而，这些模型依赖于静态的稠密计算，对所有输入都采用统一处理，导致表示能力和计算资源的错配，如在处理简单场景时过度分配，而在处理复杂场景时则服务不足。这种不匹配导致计算冗余和次优检测性能。为了解决这一限制，我们提出了 YOLO-Master，一种新的 YOLO 类框架，引入了用于 RTOD 的实例条件自适应计算。这是通过高效稀疏专家混合 (ES-MoE) 模块来实现的，该模块根据场景复杂性动态分配计算资源。其核心是一个轻量级动态路由网络，通过多样性增强目标，引导专家在训练期间的专长化，鼓励专家之间的互补专业知识。此外，路由网络自适应学习仅激活最相关的专家，从而在推理期间提高检测性能并最小化计算开销。在五个大规模基准上的全面实验表明了 YOLO-Master 的优越性。在 MS COCO 数据集上，我们的模型实现了 42.4% 的 AP 和 1.62 毫秒的延迟，性能比 YOLOv13-N 提高了 0.8% 的 mAP，推理速度快了 17.8%。值得注意的是，在具有挑战性的密集场景中增益最为明显，而该模型在典型输入上的效率得以保持，并维持了实时推理速度。代码将会发布。\n\n作者: Xu Lin, Jinlong Peng, Zhenye Gan, Jiawen Zhu, Jun Liu",
+        "地址": "https://arxiv.org/pdf/2512.23273.pdf"
+    },
+    {
+        "名称": "2025 [2512.22342] VL-LN Bench: Towards Long-horizon Goal-oriented Navigation with Active Dialogs.pdf",
+        "作者": "Wensi Huang, Shaohao Zhu, Meng Wei, Jinming Xu, Xihui Liu, Hanqing Wang, Tai Wang, Feng Zhao, Jiangmiao Pang",
+        "摘要": "以下是论文的摘要翻译：\n\n摘要: 在现有的大多数具身导航任务中，指令通常是明确且无歧义的，例如指令跟随和目标搜索。在这种理想化的设置下，智能体只需基于视觉和语言输入生成有效的导航输出。然而，实际中的导航指令往往含糊不清，要求智能体通过主动对话来解决不确定性并推断用户意图。为了解决这一问题，我们提出了互动实例对象导航（IION）任务，要求智能体不仅生成导航动作，还要通过主动对话生成语言输出，从而更接近实际情境。IION通过允许智能体在导航时自由地使用自然语言咨询预言者，扩展了实例对象导航（ION）。基于该任务，我们提出了视觉语言-语言导航（VL-LN）基准，提供了一个大规模、自动生成的数据集和一个全面的评估协议，用于训练和评估具备对话功能的导航模型。VL-LN包括超过41,000条用于训练的长程对话增强轨迹，以及一个能够响应智能体查询的预言者和自动评估协议。利用该基准，我们训练了一个具备对话能力的导航模型，并展示了其在基准模型上的显著提升。大量实验和分析进一步证明了VL-LN在推进对话驱动的具身导航研究中的效果和可靠性。代码和数据集：this https URL",
+        "地址": "https://arxiv.org/pdf/2512.22342.pdf"
+    },
+    {
+        "名称": "2025 [2512.23647] Nested Browser-Use Learning for Agentic Information Seeking.pdf",
+        "作者": "Baixuan Li, Jialong Wu, Wenbiao Yin, Kuan Li, Zhongwang Zhang, Huifeng Yin, Zhengwei Tao, Liwen Zhang, Pengjun Xie, Jingren Zhou, Yong Jiang",
+        "摘要": "摘要: 信息寻求 (IS) 代理已经在广泛而深入的搜索任务中取得了强大的性能，但它们的工具使用仍主要限于API级别的片段检索和基于URL的页面获取，这限制了通过真实浏览获取更丰富信息的能力。尽管完整的浏览器交互可以解锁更深层次的能力，但其细粒度控制和冗长的页面内容返回增加了ReAct式函数调用代理的复杂性。为弥合这一差距，我们提出了嵌套浏览器使用学习 (NestBrowse)，它引入了一个最小而完整的浏览器动作框架，通过嵌套结构将交互控制与页面探索解耦。这种设计简化了代理推理，同时实现了有效的深网信息获取。在具有挑战性的深度IS基准测试中，实证结果表明NestBrowse在实践中具有明显优势，更深入的分析强调了其效率和灵活性。",
+        "地址": "https://arxiv.org/pdf/2512.23647.pdf"
+    },
+    {
+        "名称": "2025 [2512.23162] SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling.pdf",
+        "作者": "Yufan He, Pengfei Guo, Mengya Xu, Zhaoshuo Li, Andriy Myronenko, Dillan Imans, Bingjie Liu, Dongren Yang, Mingxue Gu, Yongnan Ji, Yueming Jin, Ren Zhao, Baiyong Shen, Daguang Xu",
+        "摘要": "摘要：数据稀缺仍然是实现完全自主手术机器人的一大障碍。虽然大规模视觉语言动作（VLA）模型通过利用来自不同领域的配对视频动作数据，在家庭和工业操作中表现出令人印象深刻的泛化能力，但手术机器人因缺乏包含视觉观察和精确机器人运动学的数据集而受到影响。相比之下，存在大量的手术视频，但它们缺少对应的动作标签，阻碍了模仿学习或VLA训练的直接应用。在本研究中，我们旨在通过从为手术物理人工智能设计的世界模型 SurgWorld 中学习策略模型来缓解这一问题。我们策划了具有详细动作描述、专门针对手术机器人的 Surgical Action Text Alignment (SATA) 数据集，然后基于最先进的物理人工智能世界模型和 SATA 构建了 SurgeWorld，它能够生成多样化、广泛适用且逼真的手术视频。我们也是首次使用逆动力学模型从合成的手术视频中推断伪运动学，生成合成的配对视频动作数据。我们展示了使用这些增强数据训练的外科 VLA 策略在真实手术机器人平台上显著优于仅在真实示范数据上训练的模型。我们的方法通过利用丰富的未标记手术视频和生成世界建模提供了一种可扩展的路径，实现自主手术技能的获取，从而开启了通用化和数据高效的外科机器人策略的大门。\n\n作者：Yufan He, Pengfei Guo, Mengya Xu, Zhaoshuo Li, Andriy Myronenko, Dillan Imans, Bingjie Liu, Dongren Yang, Mingxue Gu, Yongnan Ji, Yueming Jin, Ren Zhao, Baiyong Shen, Daguang Xu\n\n链接：https://arxiv.org/pdf/2512.23162.pdf\n\n标题：SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling",
+        "地址": "https://arxiv.org/pdf/2512.23162.pdf"
+    },
+    {
+        "名称": "2025 [2512.22431] Monadic Context Engineering.pdf",
+        "作者": "Yifan Zhang, Mengdi Wang",
+        "摘要": "摘要：大型语言模型（LLMs）的普及已经催化了向能够进行复杂推理和工具使用的自主代理的转变。然而，目前的代理架构通常使用命令式、特设的模式构建。这导致系统脆弱，在状态管理、错误处理和并发方面存在困难。本文介绍了单子上下文工程（MCE），一种利用函子、应用函子和单子的代数结构来为代理设计提供正式基础的新颖架构范式。MCE将代理工作流视为计算上下文，其中如状态传播、短路错误处理和异步执行等横切关注点通过抽象的代数属性内在管理。我们展示了单子如何实现鲁棒的顺序组合，应用函子如何提供并行执行的原则结构，以及最重要的是，单子转换器如何系统地组合这些功能。这种分层方法使开发人员能够从简单、独立验证的组件构建复杂、弹性和高效的AI代理。我们进一步扩展了这个框架以描述元代理，元代理利用MCE进行生成编排，通过元编程动态创建和管理子代理工作流。项目页面：this https URL。",
+        "地址": "https://arxiv.org/pdf/2512.22431.pdf"
+    },
+    {
+        "名称": "2025 [2512.21720] An Information Theoretic Perspective on Agentic System Design.pdf",
+        "作者": "Shizhe He, Avanika Narayan, Ishan S. Khare, Scott W. Linderman, Christopher Ré, Dan Biderman",
+        "摘要": "摘要：代理语言模型（LM）系统推动了现代应用，如“Deep Research”和“Claude Code”，并利用多LM架构来克服上下文限制。在它们表面上的多样性之下，隐藏着一个重复的模式：较小的“压缩器”LM（甚至可以本地运行）将原始上下文提炼成紧凑的文本，然后由较大的“预测器”LM消耗。尽管它们很受欢迎，但压缩器-预测器系统的设计仍主要是临时的，对于压缩器和预测器的选择如何影响下游性能几乎没有指导。在实践中，将性能提升归因于压缩还是预测需要耗费大量成本的特定任务中的配对实验。我们认为这些系统设计问题的根源在于信息论。将压缩器LM视为一个有噪声的信道，我们引入了一个简单的估计器来量化上下文与其压缩之间的互信息，以一种与任务无关的方式评估压缩质量。我们展示了互信息能够强烈预测下游性能，独立于任何具体任务。通过一个信息论框架，我们对五个数据集和三种模型家族进行了全面的实证分析。结果表明较大的压缩器不仅更准确，而且更节省token，传递了更多每个token的信息量。例如，一个7B的Qwen-2.5压缩器比其1.5B的兄弟模型准确性提高了1.6倍，简洁性提高了4.6倍，并且每个token传递的信息量增加了5.5倍。在所有数据集中，扩展压缩器比扩展预测器更为有效，使得更大的本地压缩器可以与较小的云预测器配对。应用于一个Deep Research系统时，这些原则使得仅3B参数的小型本地压缩器可以恢复99％的前沿LM准确性，而API成本仅为26％。\n\n作者：Shizhe He, Avanika Narayan, Ishan S. Khare, Scott W. Linderman, Christopher Ré, Dan Biderman\n\n网址：[https://arxiv.org/pdf/2512.21720.pdf](https://arxiv.org/pdf/2512.21720.pdf)\n\n标题：《从信息论视角看代理系统设计》(An Information Theoretic Perspective on Agentic System Design)",
+        "地址": "https://arxiv.org/pdf/2512.21720.pdf"
+    },
+    {
+        "名称": "2025 [2512.20927] Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting.pdf",
+        "作者": "Yoonwoo Jeong, Cheng Sun, Frank Wang, Minsu Cho, Jaesung Choe",
+        "摘要": "摘要：最近在计算机视觉领域的进展成功地通过利用3D高斯点云（3D-GS）将开放词汇分割（OVS）扩展到3D领域。尽管取得了这些进展，有效地渲染开放词汇查询所需的高维特征仍然是一个重大挑战。现有的方法采用代码簿或特征压缩，导致信息损失，从而降低了分割质量。为了应对这一限制，我们引入了分位数渲染（Q-Render），一种新的3D高斯渲染策略，在处理高维特征时既高效又能保持高保真度。与传统的体渲染不同，Q-Render仅稀疏采样沿光线具有主导影响的高斯点，而不是密集采样所有与光线相交的3D高斯点。通过将Q-Render集成到可推广的3D神经网络中，我们还提出了高斯点云网络（GS-Net），可以以通用的方式预测高斯特征。在ScanNet和LeRF上的大量实验表明，我们的框架超越了最先进的方法，同时在512维特征图上实现了约43.7倍的实时渲染加速。代码将公开发布。\n\n作者：Yoonwoo Jeong, Cheng Sun, Frank Wang, Minsu Cho, Jaesung Choe\n\n评论：将更新\n\n链接：https://arxiv.org/pdf/2512.20927.pdf\n\n标题：2025 [2512.20927] Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting.pdf",
+        "地址": "https://arxiv.org/pdf/2512.20927.pdf"
+    },
+    {
+        "名称": "2025 [2512.23703] Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipulation.pdf",
+        "作者": "Huajie Tan, Sixiang Chen, Yijie Xu, Zixiao Wang, Yuheng Ji, Cheng Chi, Yaoxu Lyu, Zhongxia Zhao, Xiansheng Chen, Peterson Co, Shaoxuan Xie, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang",
+        "摘要": "摘要: 将强化学习（RL）应用于现实世界机器人中的主要障碍是设计有效的奖励函数。尽管基于学习的过程奖励模型（PRMs）最近成为一个有前途的方向，但它们通常受到两个基本限制的阻碍：其奖励模型缺乏步态理解并依赖单视角感知，导致对细粒度操作进展的评估不可靠；并且其奖励塑造过程在理论上不健全，常常导致语义陷阱，误导策略优化。为了解决这些问题，我们引入了Dopamine-Reward，这是一种新颖的奖励建模方法，可从多视角输入中学习通用、步态感知的过程奖励模型。其核心是我们的通用奖励模型（GRM），在超过3,400小时的数据集上训练，通过步骤奖励离散化进行结构理解和多视角奖励融合来克服感知限制。基于Dopamine-Reward，我们提出了Dopamine-RL，一种适用性强的策略学习框架，它采用理论上健全的策略不变奖励塑造方法，使代理能够利用密集奖励进行高效的自我改进而不改变最优策略，从而从根本上避免了语义陷阱。广泛的实验验证了我们的方法在不同的模拟和现实任务中的有效性。GRM在奖励评估中达到了最先进的准确性，并且基于GRM的Dopamine-RL显著提高了策略学习效率。例如，在GRM以单次示范方式适应新任务之后，所得奖励模型使Dopamine-RL能够在仅150次在线实战操作（大约1小时的真实机器人交互）内将策略从接近零提高到95%的成功率，同时保持了较强的任务泛化能力。项目网站：此URL\n\n摘要翻译完成。",
+        "地址": "https://arxiv.org/pdf/2512.23703.pdf"
+    },
+    {
+        "名称": "2025 [2512.23573] ProGuard: Towards Proactive Multimodal Safeguard.pdf",
+        "作者": "Shaohan Yu, Lijun Li, Chenyang Si, Lu Sheng, Jing Shao",
+        "摘要": "摘要: 生成模型的快速发展导致了多模态安全风险的不断涌现，暴露了现有防御方法的局限性。为应对这些挑战，我们提出了ProGuard，这是一种视觉-语言的主动防护措施，可以在不需要传统反应性方法所需的模型调整的情况下识别和描述分布外（OOD）安全风险。我们首先构建了一个均衡模态的数据集，包括8.7万样本，每一个样本都根据分层多模态安全分类法标注了二元安全标签和风险类别，有效减轻了模态偏差，并确保在文本、图像和文本-图像输入中的一致监管。在此数据集的基础上，我们通过纯强化学习（RL）训练我们的视觉-语言基础模型，以实现高效和简洁的推理。为了在可控环境中模拟主动安全场景，我们进一步引入了一个OOD安全类别推断任务，并通过增加基于同义词库的相似性奖励来增强RL目标，以鼓励模型为未见的不安全类别生成简洁的描述。实验结果显示，ProGuard在二元安全分类上实现了与封闭源大模型相当的性能，并在不安全内容分类上显著优于现有开源防护模型。最值得注意的是，ProGuard展现了强大的主动监管能力，将OOD风险检测提高了52.6%，将OOD风险描述提高了64.8%。\n\n作者: Shaohan Yu, Lijun Li, Chenyang Si, Lu Sheng, Jing Shao\n链接: https://arxiv.org/pdf/2512.23573.pdf\n标题: 2025 [2512.23573] ProGuard: Towards Proactive Multimodal Safeguard",
+        "地址": "https://arxiv.org/pdf/2512.23573.pdf"
+    },
+    {
+        "名称": "2025 [2512.23222] Bridging Your Imagination with Audio-Video Generation via a Unified Director.pdf",
+        "作者": "Jiaxu Zhang, Tianshu Hu, Yuan Zhang, Zenan Li, Linjie Luo, Guosheng Lin, Xin Chen",
+        "摘要": "摘要：现有的AI驱动视频创作系统通常将剧本撰写和关键镜头设计视为两个不相关的任务：前者依赖于大型语言模型，后者依赖于图像生成模型。我们认为这两个任务应该在一个框架内统一，因为逻辑推理和想象力都是电影导演的基本素质。在这项工作中，我们提出了UniMAGE，一个将用户提示与结构良好的剧本连接起来的统一导演模型，从而通过利用现有的音视频生成模型，使非专业人士能够制作具有长情节、多镜头的电影。为实现这一目标，我们采用了统一文本和图像生成的Transformer混合架构。为了进一步增强叙事逻辑和关键帧的一致性，我们引入了“首先交互，然后解耦”的训练范式。具体而言，我们首先执行交互概念学习，利用交互文本-图像数据来加深模型对剧本的理解和想象性解释。然后，我们进行解耦专家学习，将剧本写作与关键帧生成分离开来，增强了叙事的灵活性和创造性。大量实验表明，UniMAGE在开源模型中达到了最先进的性能，生成了逻辑连贯的视频剧本和视觉一致的关键帧图像。\n\n翻译：2025 [2512.23222]通过统一导演模型将您的想象与音视频生成联系起来",
+        "地址": "https://arxiv.org/pdf/2512.23222.pdf"
+    },
+    {
+        "名称": "2025 [2512.21734] Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation.pdf",
+        "作者": "Steven Xiao, Xindi Zhang, Dechao Meng, Qi Wang, Peng Zhang, Bang Zhang",
+        "摘要": "摘要：实时肖像动画对于虚拟助手和实时头像等交互应用至关重要，要求具有高视觉保真度、时间连贯性、超低延迟和能从参考图像和驱动信号等动态输入进行响应控制。虽然基于扩散的模型实现了较高的质量，但它们的非因果性阻碍了流媒体部署。因果自回归视频生成方法能够实现高效的逐帧生成，但会导致错误积累、块边界处的运动不连续性以及长期一致性降低。在这项工作中，我们提出了一种名为Knot Forcing的实时肖像动画的流媒体框架，通过三项关键设计解决了这些问题：（1）一种块式生成策略，利用参考图像的缓存KV状态进行全局身份保持，并使用滑动窗口注意力进行局部时间建模；（2）一个时间节点模块，通过图像到视频的条件传播空间时间线索，重叠相邻块并使块间运动过渡平滑；（3）一种“提前运行”机制，在推理过程中动态更新参考帧的时间坐标，使其语义上下文保持在当前展开帧之前，支持长期一致性。Knot Forcing在消费级GPU上实现了高保真、时间一致和交互式肖像动画于无限序列上的实时性能。\n\n作者：Steven Xiao, 张欣迪, 孟德超, 王琦, 张鹏, 张邦\n\n评论：项目页面：查看此https URL\n\n网址：https://arxiv.org/pdf/2512.21734.pdf\n\n标题：2025 [2512.21734] Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation",
+        "地址": "https://arxiv.org/pdf/2512.21734.pdf"
+    },
+    {
+        "名称": "2025 [2512.23236] KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta.pdf",
+        "作者": "Gang Liao, Hongsen Qin, Ying Wang, Alicia Golden, Michael Kuchnik, Yavuz Yetim, Jia Jiunn Ang, Chunli Fu, Yihan He, Samuel Hsia, Zewei Jiang, Dianshi Li, Uladzimir Pashkevich, Varna Puvvada, Feng Shi, Matt Steiner, Ruichao Xiao, Nathan Yan, Xiayu Yu, Zhou Fang, Abdul Zainul-Abedin, Ketan Singh, Hongtao Yu, Wenyuan Chi, Barney Huang, Sean Zhang, Noah Weller, Zach Marine, Wyatt Cook, Carole-Jean Wu, Gaoxiang Liu",
+        "摘要": "摘要：使深度学习推荐模型（DLRM）的训练和推理变得快速而高效是十分重要的。然而，这提出了三个关键的系统挑战：模型架构的多样性，内核原语的多样性，以及硬件代与架构的异构性。本文提出了KernelEvolve——一个代理性的内核编码框架，以应对DLRM中大规模的异构性。KernelEvolve旨在以内核规范为输入，自动生成和优化推荐模型的内核，以适应异构硬件架构。KernelEvolve通过操作多个编程抽象层，从Triton和CuTe DSL到低级硬件无关语言，涵盖了完整的硬件-软件优化栈来实现这一目标。内核优化过程被描述为基于图的搜索，包括选择策略、通用操作符、适应度函数和终止规则，通过检索增强提示综合动态适应运行时执行上下文。我们设计、实现并部署了KernelEvolve，以优化跨越不同代际的NVIDIA和AMD GPU以及Meta的AI加速器的各种生产推荐模型。我们在公开的KernelBench套件上验证了KernelEvolve，在三个难度级别中的全部250个问题上达到100%的通过率，并在三个异构硬件平台上的160个PyTorch ATen操作符上证明了100%的正确性。KernelEvolve将开发时间从数周减少到数小时，并在广泛的生产用例和大规模异构AI系统中，相对于PyTorch基准实现了显著的性能提升。除了性能效率的提高外，KernelEvolve还通过支持自动内核生成，显著降低了新AI硬件的编程障碍。",
+        "地址": "https://arxiv.org/pdf/2512.23236.pdf"
+    },
+    {
+        "名称": "2025 [2512.22100] Introducing TrGLUE and SentiTurca: A Comprehensive Benchmark for Turkish General Language Understanding and Sentiment Analysis.pdf",
+        "作者": "Duygu Altinok",
+        "摘要": "摘要: 评估各种模型架构（例如transformers、大型语言模型（LLMs）以及其他NLP系统）的性能需要综合性的基准测试，涵盖多个维度的表现评估。其中特别关键的是自然语言理解（NLU）的评估，这是评估模型能力的基本标准。因此，有必要建立能够从多种角度进行全面评估和分析NLU能力的基准测试。虽然GLUE基准已经为评估英语NLU设定了标准，但其他语言也开发了类似的基准，例如针对中文的CLUE、法语的FLUE以及日语的JGLUE。然而，目前没有针对土耳其语的类似基准测试。为了解决这一空缺，我们介绍了TrGLUE，这是一个涵盖多种土耳其语NLU任务的综合基准测试。此外，我们还提出了SentiTurca，这是一个专门用于情感分析的基准测试。为了支持研究人员，我们还提供了针对基于transformer模型的微调和评估代码，便于有效使用这些基准。TrGLUE包括了经过精心筛选的土耳其语语料库，模拟GLUE风格的领域和任务形式，标签通过半自动流程获取，该流程结合了强大的LLM注释、跨模型一致性检查以及后续人工验证。设计优先考虑语言的自然性，尽量减少直接翻译的伪影，并且产生了可扩展、可复制的工作流程。通过TrGLUE，我们的目标是为土耳其语NLU建立一个稳健的评估框架，为研究人员提供有价值的资源，并提供生成高质量半自动数据集的洞见。",
+        "地址": "https://arxiv.org/pdf/2512.22100.pdf"
+    },
+    {
+        "名称": "2025 [2512.22374] Self-Evaluation Unlocks Any-Step Text-to-Image Generation.pdf",
+        "作者": "Xin Yu, Xiaojuan Qi, Zhengqi Li, Kai Zhang, Richard Zhang, Zhe Lin, Eli Shechtman, Tianyu Wang, Yotam Nitzan",
+        "摘要": "摘要：我们介绍了自我评估模型（Self-E），一种全新的、从零开始的文本到图像生成训练方法，支持任意步数的推断。Self-E的学习方式类似于流匹配模型，同时采用了一种新颖的自我评估机制：使用当前得分估计对自己生成的样本进行评估，有效地充当动态的自我教师。与传统的扩散或流模型不同，它不只依靠局部监督，通常需要很多推断步骤。与基于蒸馏的方法不同，它不需要预训练的教师。这种即时的局部学习和自驱动的全局匹配相结合，弥合了两种范式之间的差距，使得从零开始训练出高质量的文本到图像模型，即使在非常少的步骤下也表现出色。大量在大规模文本到图像基准测试上的实验表明，Self-E不仅在少步生成中表现优异，而且在50步时也可与最先进的流匹配模型竞争。我们进一步发现，随着推断步骤的增加，其性能单调提升，从而在一个统一的模型内实现超快的少步生成和高质量的长轨迹采样。据我们所知，Self-E是首个从零开始的任意步数文本到图像模型，提供了一个高效和可扩展的统一生成框架。\n\n作者：於鑫 祁小娟 李政奇 张凯 张理查德 林哲 伊利·谢赫特曼 王天宇 尼赞·约塔默\n\n评论：项目页面：this https URL\n\n链接：https://arxiv.org/pdf/2512.22374.pdf\n\n标题：2025 [2512.22374] 自我评估解锁任意步数文本到图像生成.pdf",
+        "地址": "https://arxiv.org/pdf/2512.22374.pdf"
+    },
+    {
+        "名称": "2025 [2512.22255] Shape of Thought: When Distribution Matters More than Correctness in Reasoning Tasks.pdf",
+        "作者": "Abhranil Chandra, Ayush Agrawal, Arian Hosseini, Sebastian Fischmeister, Rishabh Agarwal, Navin Goyal, Aaron Courville",
+        "摘要": "摘要：我们提出了一个令人惊讶的发现，即通过训练一个语言模型使用从更强大的模型生成的链式思维（CoT）痕迹的合成数据集，即使这些痕迹都导致最终答案错误，也可以提高其推理能力。我们的实验表明，与训练使用人工标注数据集相比，这种方法能够在推理任务中获得更好的表现。我们假设有两个关键因素解释了这一现象：首先，合成数据的分布本质上更接近语言模型自身的分布，使其更易于学习。其次，这些“错误”的痕迹通常仅是部分有瑕疵，并包含有效的推理步骤，模型可以从中学习。为了进一步验证第一个假设，我们使用语言模型来改写人工标注的痕迹，使它们的分布更接近模型自身的分布，结果表明这提高了性能。对于第二个假设，我们引入越来越有瑕疵的CoT痕迹，并研究模型对这些瑕疵的容忍程度。我们在各种推理领域（如数学、算法推理和代码生成）使用MATH、GSM8K、Countdown和MBPP数据集和各种语言模型（范围从1.5B到9B的Qwen、Llama和Gemma模型）展示了我们的发现。我们的研究表明，规划更接近模型分布的数据集是一个关键因素。我们还表明，正确的最终答案并不总是可信推理过程的可靠指示。 \n\n链接: https://arxiv.org/pdf/2512.22255.pdf\n\n作者: Abhranil Chandra, Ayush Agrawal, Arian Hosseini, Sebastian Fischmeister, Rishabh Agarwal, Navin Goyal, Aaron Courville\n\n标题: 2025 [2512.22255] 思维的形状：分布在推理任务中比正确性更重要的情况",
+        "地址": "https://arxiv.org/pdf/2512.22255.pdf"
+    },
+    {
+        "名称": "2025 [2512.22984] Reverse Personalization.pdf",
+        "作者": "Han-Wei Kung, Tuomas Varanka, Nicu Sebe",
+        "摘要": "摘要: 最近的文本到图像扩散模型在基于文本提示和人类身份生成逼真的面部图像方面表现出色，使创建个性化面部图像成为可能。然而，现有的基于提示的方法用于移除或修改特定身份特征，依赖于预训练模型中良好表现的主体或需要针对特定身份进行模型微调。在这项工作中，我们分析了身份生成过程，并引入了一种用于面部匿名化的逆个性化框架。我们的方法利用有条件的扩散反转，允许直接操作图像而无需使用文本提示。为了超越模型训练数据中的主题，我们结合了身份引导的条件分支。与之前缺乏面部属性控制的匿名化方法不同，我们的框架支持属性可控的匿名化。我们通过实验演示了该方法在身份移除、属性保留和图像质量之间实现了最先进的平衡。源代码和数据可在该网址获取。",
+        "地址": "https://arxiv.org/pdf/2512.22984.pdf"
+    }
+]
