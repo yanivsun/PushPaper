@@ -1,0 +1,44 @@
+[
+    {
+        "名称": "2025 [2512.21185] UltraShape 1.0: High-Fidelity 3D Shape Generation via Scalable Geometric Refinement.pdf",
+        "作者": "Tanghui Jia, Dongyu Yan, Dehao Hao, Yang Li, Kaiyi Zhang, Xianyi He, Lanjiong Li, Yuhan Wang, Jinnan Chen, Lutao Jiang, Qishen Yin, Long Quan, Ying-Cong Chen, Li Yuan",
+        "摘要": "摘要:\n在本报告中，我们介绍了UltraShape 1.0，一个可扩展的用于高保真3D几何生成的3D扩散框架。该方法采用两个阶段的生成管道：首先合成粗略的全局结构，然后进行细化以生成详细的高质量几何体。为了支持可靠的3D生成，我们开发了一个全面的数据处理管道，包括一种新的不透水处理方法和高质量的数据过滤。该管道通过去除低质量样本、填补孔洞和加厚薄结构，同时保留细粒度几何细节，提升了公开3D数据集的几何质量。为了实现细粒度几何细化，我们在扩散过程中将空间定位与几何细节合成解耦。我们通过在固定空间位置进行基于体素的细化来实现这一点，来自粗略几何的体素查询提供了通过RoPE编码的显式位置锚点，使扩散模型能够在减小的、结构化的解空间内专注于合成局部几何细节。我们的模型完全在公开的3D数据集上进行训练，尽管训练资源有限，仍然实现了较强的几何质量。广泛的评估表明，UltraShape 1.0在数据处理质量和几何生成方面与现有的开源方法竞争力强。所有代码和训练模型将被发布，以支持未来的研究。",
+        "地址": "https://arxiv.org/pdf/2512.21185.pdf"
+    },
+    {
+        "名称": "2025 [2512.22525] DreamOmni3: Scribble-based Editing and Generation.pdf",
+        "作者": "Bin Xia, Bohao Peng, Jiyang Liu, Sitong Wu, Jingyao Li, Junjia Huang, Xu Zhao, Yitong Wang, Ruihang Chu, Bei Yu, Jiaya Jia",
+        "摘要": "摘要：最近，统一的生成和编辑模型以其卓越的性能取得了显著成功。这些模型主要依赖于文本提示进行基于指令的编辑和生成，但语言往往难以捕捉用户期望的编辑位置和细粒度的视觉细节。为此，我们提出了两个任务：基于涂鸦的编辑和生成，使用户能够通过结合文本、图像和手绘草图，在图形用户界面（GUI）上进行更灵活的创作。我们引入DreamOmni3来应对两个挑战：数据创建和框架设计。我们的数据合成流程包括两个部分：基于涂鸦的编辑和生成。对于基于涂鸦的编辑，我们定义了四个任务：涂鸦和指令编辑、涂鸦和多模态指令编辑、图像融合以及涂鸦编辑。基于DreamOmni2数据集，我们提取可编辑区域并覆盖手绘的方框、圆圈、涂鸦或裁剪后的图像以构建训练数据。对于基于涂鸦的生成，我们定义了三个任务：涂鸦和指令生成、涂鸦和多模态指令生成以及涂鸦生成，并采用类似的数据创建流程。对于框架设计，考虑到二值掩码在处理涉及多个涂鸦、图像和指令的复杂编辑时存在困难，我们提出了一种联合输入方案，将原始和涂鸦源图像一起输入模型，并使用不同颜色区分区域以简化处理。通过对两张图像应用相同的索引和位置编码，模型能够精确定位涂鸦区域，同时保持准确的编辑。最后，我们为这些任务建立了综合基准，以促进进一步研究。实验结果表明，DreamOmni3实现了卓越的性能，模型和代码将公开发布。\n\n翻译的摘要为中文如下：",
+        "地址": "https://arxiv.org/pdf/2512.22525.pdf"
+    },
+    {
+        "名称": "2025 [2512.23675] End-to-End Test-Time Training for Long Context.pdf",
+        "作者": "Arnuv Tandon, Karan Dalal, Xinhao Li, Daniel Koceja, Marcel Rød, Sam Buchanan, Xiaolong Wang, Jure Leskovec, Sanmi Koyejo, Tatsunori Hashimoto, Carlos Guestrin, Jed McCaleb, Yejin Choi, Yu Sun",
+        "摘要": "摘要: 我们将长上下文语言建模表述为一个持续学习问题，而不是架构设计问题。在这种表述下，我们仅使用标准架构——具有滑动窗口注意力机制的Transformer。然而，我们的模型在测试时通过给定上下文的下一个词预测，继续学习，将读取的上下文压缩到其权重中。此外，我们通过在训练时进行元学习来改进模型在测试时的学习初始化。总体而言，我们的方法是一种测试时间训练（Test-Time Training, TTT），在测试时（通过下一个词预测）和训练时（通过元学习）都是端到端（End-to-End, E2E）的，这与以前的形式不同。我们进行了广泛的实验，重点关注扩展属性。特别是，对于使用1640亿个标记训练的30亿模型，我们的方法（TTT-E2E）在上下文长度上的扩展方式与具有完全注意力的Transformer相同，而其他方法（如Mamba 2和Gated DeltaNet）则不同。然而，与RNNs类似，TTT-E2E的推理延迟不受上下文长度影响，对于128K上下文长度其速度比完全注意力机制快2.7倍。我们的代码是公开可用的。",
+        "地址": "https://arxiv.org/pdf/2512.23675.pdf"
+    },
+    {
+        "名称": "2025 [2512.23165] Evaluating Parameter Efficient Methods for RLVR.pdf",
+        "作者": "Qingyu Yin, Yulun Wu, Zhennan Shen, Sunbowen Li, Zhilin Wang, Yanshu Li, Chak Tou Leong, Jiale Kang, Jinjin Gu",
+        "摘要": "摘要: 我们系统地评估了在具有可验证奖励的强化学习（RLVR）范式下的参数高效微调（PEFT）方法。RLVR通过可验证的反馈激励语言模型提升其推理能力；然而，尽管LoRA等方法常被采用，但RLVR的最佳PEFT架构仍未确定。在这项工作中，我们对DeepSeek-R1-Distill系列中的12种以上的PEFT方法进行了首次全面评估。在数学推理基准上的实证结果对标准LoRA的默认采用提出了挑战，得出了三项主要发现。首先，我们证明了结构变体（如DoRA、AdaLoRA和MiSS）始终优于LoRA。其次，我们发现了SVD-informed 初始化策略（例如，PiSSA、MiLoRA）中的谱崩溃现象，将其失败归因于主成分更新与RL优化之间的基本错位。此外，我们的消融实验表明，极端的参数缩减（例如，VeRA，Rank-1）严重限制了推理能力。我们进一步进行了消融研究和扩展实验以验证我们的发现。这项工作为倡导更多对参数高效RL方法的探索提供了明确的指导。\n\n翻译：",
+        "地址": "https://arxiv.org/pdf/2512.23165.pdf"
+    },
+    {
+        "名称": "2025 [2512.22469] GraphLocator: Graph-guided Causal Reasoning for Issue Localization.pdf",
+        "作者": "Wei Liu, Chao Peng, Pengfei Gao, Aofan Liu, Wei Zhang, Haiyan Zhao, Zhi Jin",
+        "摘要": "摘要: 问题定位任务旨在根据自然语言问题描述，识别软件代码库中需要修改的位置。由于问题描述与源代码实现之间的语义差距，这一任务在自动化软件工程中既基本又具有挑战性。这一差距表现为两个不匹配：(1) 症状-原因不匹配，即描述未明确揭示潜在的根本原因；(2) 一对多不匹配，即单个问题对应多个相互依赖的代码实体。为了解决这两个不匹配，我们提出了GraphLocator，一种通过发现因果结构来缓解症状-原因不匹配，并通过动态问题解缠来解决一对多不匹配的方法。关键工具是因果问题图（CIG），其中顶点表示发现的子问题及其关联的代码实体，边表示它们之间的因果依赖关系。GraphLocator的工作流程包括两个阶段：定位症状顶点和动态CIG发现；首先在代码库图上识别症状位置，然后通过迭代推理邻近顶点动态扩展CIG。三个真实世界数据集上的实验表明了GraphLocator的有效性：(1) 与基线相比，GraphLocator在功能级召回率提高了19.49%，精度提高了11.89%；(2) GraphLocator在症状-原因和一对多不匹配场景中均优于基线，分别实现了16.44%和19.18%的召回率提高，7.78%和13.23%的精度提高；(3) GraphLocator生成的CIG在下游解决任务中的性能提升最大，达到28.74%的相对提升。\n\n链接: [https://arxiv.org/pdf/2512.22469.pdf](https://arxiv.org/pdf/2512.22469.pdf)",
+        "地址": "https://arxiv.org/pdf/2512.22469.pdf"
+    },
+    {
+        "名称": "2025 [2512.22206] CosineGate: Semantic Dynamic Routing via Cosine Incompatibility in Residual Networks.pdf",
+        "作者": "Yogeswar Reddy Thota",
+        "摘要": "摘要：现代深度残差网络通过为每个输入评估所有残差块来执行大量冗余计算，即使身份映射已足够。我们介绍了CosineGate，一种在残差网络中进行动态路由的端到端可微分架构，它利用身份和残差特征表示之间的余弦不兼容性作为自监督的跳过信号。CosineGate通过余弦不兼容比（CIR，定义为1 - cos(x, F(x))) 来衡量语义冗余，并使用Gumbel-Softmax松弛来实现训练过程中每个样本、每个块的门控。一个渐进的FLOPs正则化项控制平均计算使用，而不会导致优化不稳定。在CIFAR-10数据集上，CosineGate跨越了准确性-效率的帕累托前沿：一种激进配置达到了89.9%的准确率，并节省了24.1%的FLOPs，一种平衡配置在160轮时达到了91.3%的准确率，并节省了28.5%的FLOPs，而一种保守配置则在计算减少最小的情况下达到了93.2%的峰值准确率。这些结果在减少计算量的同时，与ResNet-20（91.3%）匹配或超过，而无需辅助监督、蒸馏或任务特定的启发式方法。我们的结果表明，特征不兼容的简单几何度量提供了一种有原则且有效的信号，用于动态残差路由。\n\n作者：Yogeswar Reddy Thota\n\n评论：目前实验仅限于CIFAR-10和MNIST；将CosineGate扩展到ImageNet规模的模型仍是未来的工作。\n\n来源：https://arxiv.org/pdf/2512.22206.pdf\n\n标题：2025 [2512.22206] CosineGate: Semantic Dynamic Routing via Cosine Incompatibility in Residual Networks.pdf",
+        "地址": "https://arxiv.org/pdf/2512.22206.pdf"
+    },
+    {
+        "名称": "2025 [2512.21008] GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs.pdf",
+        "作者": "Lichao Wu, Sasha Behrouzi, Mohamadreza Rostami, Stjepan Picek, Ahmad-Reza Sadeghi",
+        "摘要": "摘要：\n混合专家（MoE）架构通过每个输入仅激活一小部分参数来促进大型语言模型（LLM）的扩展，以减少计算成本并实现最先进的性能。随着这些模型越来越多地部署在关键领域，理解并加强其对齐机制对防止有害输出至关重要。然而，现有的LLM安全性研究几乎完全集中在稠密架构上，对MoE独特的安全特性研究较少。MoE的模块化、稀疏激活设计表明其安全机制可能与稠密模型不同，提出了关于其稳健性的问题。在本文中，我们提出了GateBreaker，这是第一个在推理时破坏现代MoE LLM安全对齐的、无需训练的、轻量级的、与架构无关的攻击框架。GateBreaker分三个阶段操作：（i）门级分析，识别对有害输入不成比例路由的安全专家，（ii）专家级定位，确定安全专家内的安全结构位置，以及（iii）有针对性的安全移除，禁用确定的安全结构以破坏安全对齐。我们的研究表明，MoE的安全性集中在由稀疏路由协调的一小部分神经元中。选择性禁用这些神经元（约占目标专家层中神经元的3%）显著增加了针对八个最新对齐MoE LLM的平均攻击成功率（ASR），从7.4%提升到64.9%，而效用下降有限。这些安全神经元在同一模型系列内转移时提高了ASR，从17.9%提升到67.7%的一次性转移攻击。此外，GateBreaker推广到五个MoE视觉语言模型（VLM），在不安全图像输入上的ASR为60.9%。\n\n作者：Lichao Wu, Sasha Behrouzi, Mohamadreza Rostami, Stjepan Picek, Ahmad-Reza Sadeghi\n备注：被USENIX Security'26接受\n网址：https://arxiv.org/pdf/2512.21008.pdf\n标题：2025 [2512.21008] GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2512.21008.pdf"
+    }
+]
