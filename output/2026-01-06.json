@@ -1,0 +1,146 @@
+[
+    {
+        "名称": "2025 [2512.20578] Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits.pdf",
+        "作者": "Amirhosein Ghasemabadi, Di Niu",
+        "摘要": "摘要：大型语言模型（LLMs）生成的内容通常流畅且复杂，但常常无法识别自身的错误和幻觉。现有的方法通常依赖于外部判断、多样本一致性或基于文本的自我批判，这些方法需要额外的计算并且与真实的正确性弱相关。我们提出一个问题：LLMs 能否通过检查推理过程中的内部状态来预测其失败？我们介绍了 Gnosis，这是一种轻量级的自我觉察机制，使得冻结的 LLMs 能够通过解码隐藏状态和注意模式中的信号来进行内在的自我验证。Gnosis 被动地观察内部轨迹，将其压缩成固定预算的描述符，以可忽略的推理成本预测准确性，仅增加大约 500 万个参数并独立于序列长度工作。在数学推理、开放域问答和学术知识基准测试中，以及在从 17 亿到 200 亿参数的冻结骨干网络的实验中，Gnosis 在准确性和校准方面始终优于强大的内部基线和大型外部判断。此外，它能够零样本推广到部分生成，从而实现早期检测失败轨迹和计算感知控制。这些结果表明，可靠的正确性线索是生成过程中内在的，可以在没有外部监督的情况下高效提取。\n\n作者：Amirhosein Ghasemabadi, Di Niu\n\n链接：https://arxiv.org/pdf/2512.20578.pdf\n\n标题：LLMs 能预测自身失败吗？基于内部电路的自我觉察（2025 [2512.20578] Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits.pdf）",
+        "地址": "https://arxiv.org/pdf/2512.20578.pdf"
+    },
+    {
+        "名称": "2026 [2601.02204] NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation.pdf",
+        "作者": "Huichao Zhang, Liao Qu, Yiheng Liu, Hang Chen, Yangyang Song, Yongsheng Dong, Shikun Sun, Xian Li, Xu Wang, Yi Jiang, Hu Ye, Bo Chen, Yiming Gao, Peng Liu, Akide Liu, Zhipeng Yang, Qili Deng, Linjie Xing, Jiyang Liu, Zhao Wang, Yang Zhou, Mingcong Liu, Yi Zhang, Qian He, Xiwei Hu, Zhongqi Qi, Jie Shao, Zhiye Fu, Shuai Wang, Fangmin Chen, Xuezhi Chai, Zhihua Wu, Yitong Wang, Zehuan Yuan, Daniel K. Du, Xinglong Wu",
+        "摘要": "摘要：我们介绍了NextFlow，这是一种统一的仅解码自回归Transformer，训练在6万亿交错的文本-图像离散标记上。通过在统一的自回归架构中利用统一的视觉表示，NextFlow本质上激活了多模态理解和生成能力，解锁了图像编辑、交错内容和视频生成的能力。鉴于不同模态的独特性——文本是严格的顺序性，而图像本质上是分层的——我们保留了文本的下一个标记预测，但为视觉生成采用了下一个尺度预测。这偏离了传统的光栅扫描方法，使得在仅仅5秒内生成1024x1024图像，比可比的自回归模型快了几个数量级。我们通过一种稳健的训练方法解决了多尺度生成的不稳定性。此外，我们引入了一种用于强化学习的前缀微调策略。实验表明，NextFlow在统一模型中达到了最先进的性能，并在视觉质量上与专业扩散基准相媲美。",
+        "地址": "https://arxiv.org/pdf/2601.02204.pdf"
+    },
+    {
+        "名称": "2026 [2601.01739] K-EXAONE Technical Report.pdf",
+        "作者": "Eunbi Choi, Kibong Choi, Seokhee Hong, Junwon Hwang, Hyojin Jeon, Hyunjik Jo, Joonkee Kim, Seonghwan Kim, Soyeon Kim, Sunkyoung Kim, Yireun Kim, Yongil Kim, Haeju Lee, Jinsik Lee, Kyungmin Lee, Sangha Park, Heuiyeen Yeen, Hwan Chang, Stanley Jungkyu Choi, Yejin Choi, Jiwon Ham, Kijeong Jeon, Geunyeong Jeong, Gerrard Jeongwon Jo, Yonghwan Jo, Jiyeon Jung, Naeun Kang, Dohoon Kim, Euisoon Kim, Hayeon Kim, Hyosang Kim, Hyunseo Kim, Jieun Kim, Minu Kim, Myoungshin Kim, Unsol Kim, Youchul Kim, YoungJin Kim, Chaeeun Lee, Chaeyoon Lee, Changhun Lee, Dahm Lee, Edward Hwayoung Lee, Honglak Lee, Jinsang Lee, Jiyoung Lee, Sangeun Lee, Seungwon Lim, Solji Lim, Woohyung Lim, Chanwoo Moon, Jaewoo Park, Jinho Park, Yongmin Park, Hyerin Seo, Wooseok Seo, Yongwoo Song, Sejong Yang, Sihoon Yang, Chang En Yea, Sihyuk Yi, Chansik Yoon, Dongkeun Yoon, Sangyeon Yoon, Hyeongu Yun",
+        "摘要": "以下是这篇学术论文的摘要部分的中文翻译：\n\n摘要：本技术报告介绍了K-EXAONE，这是由LG AI研究院开发的大规模多语言模型。K-EXAONE基于混合专家架构构建，具有总计2360亿个参数，在推理过程中激活了230亿个参数。它支持256K token的上下文窗口，覆盖了六种语言：韩语、英语、西班牙语、德语、日语和越南语。我们在一个 umfassive 基准测试套件中评估了K-EXAONE，涵盖推理能力、代理性、通用能力、韩语能力和多语言能力。在这些评估中，K-EXAONE展示了与同规模的开源模型相当的性能。K-EXAONE旨在通过先进的AI改善生活，被定位为一个强大的专有AI基础模型，适用于广泛的工业和研究应用。",
+        "地址": "https://arxiv.org/pdf/2601.01739.pdf"
+    },
+    {
+        "名称": "2026 [2601.01425] DreamID-V:Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer.pdf",
+        "作者": "Xu Guo, Fulong Ye, Xinghui Li, Pengqi Tu, Pengze Zhang, Qichao Sun, Songtao Zhao, Xiangwang Hou, Qian He",
+        "摘要": "摘要：视频换脸（VFS）需要在保持原有姿态、表情、光照、背景和动态信息的同时，将一个源身份无缝地注入到目标视频中。现有的方法在保持身份相似性和属性的同时难以保持时间一致性。为了解决这一挑战，我们提出了一个综合框架，将图像换脸（IFS）的优势无缝转移到视频领域。我们首先介绍了一种新的数据管道SyncID-Pipe，该管道预训练了一个身份锚定的视频合成器，并将其与IFS模型结合起来，构建双向ID四元组以进行明确的监督。在配对数据的基础上，我们提出了第一个基于扩散变压器的框架DreamID-V，其核心是模态感知条件模块，用于区分性地注入多模态条件。同时，我们提出了一种从合成到真实的课程机制和身份一致性强化学习策略，以提高在具有挑战性场景下的视觉真实感和身份一致性。为了解决基准测试有限的问题，我们介绍了IDBench-V，这是一个包含多样场景的综合基准测试。大量实验表明，DreamID-V优于最先进的方法，并且展示了卓越的通用性，可以无缝地适应各种换脸相关任务。",
+        "地址": "https://arxiv.org/pdf/2601.01425.pdf"
+    },
+    {
+        "名称": "2026 [2601.02256] VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation.pdf",
+        "作者": "Shikun Sun, Liao Qu, Huichao Zhang, Yiheng Liu, Yangyang Song, Xian Li, Xu Wang, Yi Jiang, Daniel K. Du, Xinglong Wu, Jia Jia",
+        "摘要": "摘要：视觉生成领域主要由三大范式主导：自回归（AR）、扩散和视觉自回归（VAR）模型。与AR和扩散不同，VAR在其生成步骤中处理异构输入结构，这引发了严重的异步策略冲突。在强化学习（RL）场景中，这一问题尤为严重，导致训练不稳定和次优的策略对齐。为了解决这个问题，我们提出了一个新框架，通过明确管理这些冲突来增强群体相对策略优化（GRPO）。我们的方法整合了三个协同组件：1）引导早期生成的稳定中间奖励；2）用于精确归因的动态时间步重加权方案；3）源自奖励反馈学习（ReFL）原理的新型掩码传播算法，旨在空间和时间上隔离优化效果。我们的方法在样本质量和目标对齐方面，相较于原始GRPO基线有显著提升，使得VAR模型的优化更加稳健和有效。\n\n文献来源：https://arxiv.org/pdf/2601.02256.pdf",
+        "地址": "https://arxiv.org/pdf/2601.02256.pdf"
+    },
+    {
+        "名称": "2025 [2512.24138] GARDO: Reinforcing Diffusion Models without Reward Hacking.pdf",
+        "作者": "Haoran He, Yuxiao Ye, Jie Liu, Jiajun Liang, Zhiyong Wang, Ziyang Yuan, Xintao Wang, Hangyu Mao, Pengfei Wan, Ling Pan",
+        "摘要": "摘要:通过在线强化学习（RL）微调扩散模型在增强文本与图像的匹配性方面表现出巨大潜力。然而，由于精确指定视觉任务的真实目标仍然具有挑战性，模型通常使用仅部分反映真实目标的代理奖励进行优化。这种不匹配常常导致奖励滥用，即代理得分增加而真实图像质量下降，生成的多样性也随之崩溃。常见的解决方案是在参考策略中添加正则化以防止奖励滥用，但这会牺牲样本效率并阻碍对新颖高奖励区域的探索，因为参考策略通常不是最优的。为了应对样本效率、有效探索和减轻奖励滥用的相互竞争需求，我们提出了一种兼容多种RL算法的多功能框架——具备多样性优化的门控自适应正则化（GARDO）。我们的关键见解是，正则化不需要普遍应用；相反，有选择地惩罚部分表现出高不确定性的样本是非常有效的。为了应对探索挑战，GARDO引入了一种自适应正则化机制，其中参考模型定期更新以匹配在线策略的能力，确保相关的正则化目标。为了解决RL中的模式崩溃问题，GARDO放大了对表现出高质量和高多样性的样本的奖励，鼓励模式覆盖而不破坏优化过程。通过在各种代理奖励和持出未见指标上的广泛实验，GARDO始终证明其减轻了奖励滥用并增强了生成多样性，而没有牺牲样本效率或探索，体现了其有效性和鲁棒性。",
+        "地址": "https://arxiv.org/pdf/2512.24138.pdf"
+    },
+    {
+        "名称": "2026 [2601.02358] VINO: A Unified Visual Generator with Interleaved OmniModal Context.pdf",
+        "作者": "Junyi Chen, Tong He, Zhoujie Fu, Pengfei Wan, Kun Gai, Weicai Ye",
+        "摘要": "摘要：我们提出了VINO，一个能在单一框架内进行图像和视频生成和编辑的统一视觉生成器。不同于依赖于任务特定模型或独立模块的做法，VINO使用一个共享的扩散主干，通过文本、图像和视频进行调控，从而实现广泛的视觉创建和编辑任务。具体来说，VINO结合了一个视觉语言模型（VLM）和一个多模态扩散变压器（MMDiT），其中多模态输入被编码为交错的条件符，并随后用于引导扩散过程。这个设计支持多参考定位、长篇指令遵循以及跨静态和动态内容的一致性身份保留，同时避免了特定模态的架构组件。为了训练这样一个统一系统，我们引入了一个多阶段训练流程，逐步将视频生成基础模型扩展为一个能够处理图像和视频输入输出的统一多任务生成器。在各种生成和编辑基准上，VINO展示出了强大的视觉质量、忠实的指令遵循、改进的参考和属性保留以及更可控的多身份编辑。我们的结果突出了朝着可扩展的统一视觉生成的实用路径，以及交错、上下文计算作为通用视觉创建基础的前景。",
+        "地址": "https://arxiv.org/pdf/2601.02358.pdf"
+    },
+    {
+        "名称": "2026 [2601.02281] InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams.pdf",
+        "作者": "Shuai Yuan, Yantai Yang, Xiaotian Yang, Xupeng Zhang, Zhonghao Zhao, Lingming Zhang, Zhipeng Zhang",
+        "摘要": "摘要：实现持久的大规模3D视觉几何理解的宏伟愿景受到可扩展性和长期稳定性无法调和的需求的约束。尽管离线模型如VGGT在几何能力方面有所启示，但它们基于批处理的特性使其与实时系统无关。尽管流式架构是实时操作的预期解决方案，但它们已被证明不足以应对。现有方法要么未能支持真正的无限视野输入，要么在长序列中遭受灾难性漂移。我们通过InfiniteVGGT打破了这一长期困境，这是一种因果视觉几何变换器，通过有界但自适应和永恒表现力的KV缓存，实现了滚动记忆的概念。利用这一点，我们设计了一种无需训练、不依赖注意力的修剪策略，可以智能地丢弃过时信息，有效地随着每个新帧“向前滚动”记忆。InfiniteVGGT完全兼容FlashAttention，最终缓解了妥协，实现了无限视野流媒体，同时在长期稳定性上优于现有的流媒体方法。这种系统的最终测试是其在真正的无限视野上的性能，由于缺乏极长时间的连续基准，这一能力一直无法得到严格验证。为了解决这一关键差距，我们引入了Long3D基准，这首次允许对约10,000帧的序列进行连续3D几何估计的严格评估。这为未来在长期3D几何理解领域的研究提供了权威的评估平台。代码可在此链接获取：https://arxiv.org/pdf/2601.02281.pdf。\n\n作者：袁帅、杨彦泰、杨晓天、张旭鹏、赵仲豪、张灵明、张志鹏\nURL：https://arxiv.org/pdf/2601.02281.pdf\n标题：2026 [2601.02281] InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams.pdf",
+        "地址": "https://arxiv.org/pdf/2601.02281.pdf"
+    },
+    {
+        "名称": "2025 [2512.24601] Recursive Language Models.pdf",
+        "作者": "Alex L. Zhang, Tim Kraska, Omar Khattab",
+        "摘要": "摘要：我们研究通过推理时间缩放允许大型语言模型（LLMs）处理任意长提示。我们提出递归语言模型（RLMs），这是一种通用的推理策略，将长提示视为外部环境的一部分，并允许LLM以编程方式检查、分解并递归地调用其自身处理提示片段。我们发现，RLMs 成功处理了比模型上下文窗口大两个数量级的输入，即使对于较短的提示，在四种不同的长上下文任务中，其质量也远远优于基础LLM和常见的长上下文结构，同时每次查询的成本相当（或更便宜）。\n\n作者：Alex L. Zhang, Tim Kraska, Omar Khattab\n\n备注：9页，附录33页\n\n网址：https://arxiv.org/pdf/2512.24601.pdf\n\n标题：2025 [2512.24601] 递归语言模型.pdf",
+        "地址": "https://arxiv.org/pdf/2512.24601.pdf"
+    },
+    {
+        "名称": "2026 [2601.02346] Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling.pdf",
+        "作者": "Falcon LLM Team, Iheb Chaabane, Puneesh Khanna, Suhail Mohmad, Slim Frikha, Shi Hu, Abdalgader Abubaker, Reda Alami, Mikhail Lubinets, Mohamed El Amine Seddik, Hakim Hacid",
+        "摘要": "摘要：本文介绍了Falcon-H1R，这是一个拥有70亿参数的推理优化模型，证明了使用小型语言模型(SLMs)也能实现具有竞争力的推理性能。Falcon-H1R以其参数效率脱颖而出，在各种以推理为导向的基准测试中，它的表现与比其大2至7倍的最新推理模型相媲美甚至更好。这些结果强调了通过谨慎的数据筛选和针对性的训练策略（通过高效的SFT和RL扩展）在不增加模型大小的情况下实现显著性能提升的重要性。此外，通过结合更快的推理（基于其混合并行架构设计）、令牌效率和更高的准确性，Falcon-H1R推进了推理效率的三维极限。这种独特的组合使得Falcon-H1R-70亿参数成为扩展高级推理系统的实用基础，特别是在需要生成大量思维链和并行测试时间扩展的场景中。利用最新引入的DeepConf方法，Falcon-H1R在测试时间扩展效率上实现了最新的技术水平，在准确性和计算成本方面提供了显著改进。结果表明，通过有针对性的模型训练和架构选择，紧凑型模型也能提供稳健且可扩展的推理性能。",
+        "地址": "https://arxiv.org/pdf/2601.02346.pdf"
+    },
+    {
+        "名称": "2026 [2601.02356] Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes.pdf",
+        "作者": "Jing Tan, Zhaoyang Zhang, Yantao Shen, Jiarui Cai, Shuo Yang, Jiajun Wu, Wei Xia, Zhuowen Tu, Stefano Soatto",
+        "摘要": "摘要翻译如下：\n\n我们介绍了一种基于强化学习（RL）的扩散框架Talk2Move，用于根据文本指示在场景中进行对象的空间变换。通过自然语言在场景中对对象进行空间操作对多模态生成系统来说是一个挑战。尽管现有的基于文本的操作方法可以调整外观或风格，但由于缺乏配对监督和像素级优化限制，它们在执行对象级几何变换（如平移、旋转或调整大小）时表现不佳。Talk2Move采用群体相对策略优化（GRPO），通过从输入图像和轻量级文本变体生成的多样化演练来探索几何动作，从而无需昂贵的成对数据。一个空间奖励引导模型将几何变换与语言描述对齐，而离策略步骤评估和主动步骤采样则通过关注信息量大的变换阶段来提高学习效率。此外，我们设计了面向对象的空间奖励，直接评估位移、旋转和缩放行为，从而实现可解释和连贯的变换。在策划的基准测试上，实验表明Talk2Move在对象变换的精确度、一致性和语义忠实性上超越了现有的文本指导编辑方法。",
+        "地址": "https://arxiv.org/pdf/2601.02356.pdf"
+    },
+    {
+        "名称": "2026 [2601.02179] Confidence Estimation for LLMs in Multi-turn Interactions.pdf",
+        "作者": "Caiqi Zhang, Ruihan Yang, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier",
+        "摘要": "摘要：尽管置信度估计是缓解大语言模型（LLMs）幻觉的一个有前途的方向，但当前的研究主要集中在单回合设置上。在多回合对话中，随着上下文的积累和歧义的逐渐解决，模型置信度的动态变化仍然基本未被探索。多回合设置中可靠的置信度估计对许多下游应用（如自主代理和人机协作系统）至关重要。本文首次对多回合交互中的置信度估计进行了系统研究，建立了一个基于两个关键目标（每回合校准和置信度的单调性）的正式评估框架。为此，我们引入了新颖的度量标准，包括长度标准化的期望校准误差（InfoECE）和一种新的“暗示-猜测者”范式，用于生成受控评估数据集。我们的实验表明，广泛使用的置信度技术在多回合对话中的校准和单调性方面表现不佳。我们提出了P(Sufficient)，一种基于logit的探针，尽管任务仍然远未解决，但其表现相对较好。我们的工作为开发更可靠和可信赖的对话代理提供了基础性方法论。 \n\n作者：Caiqi Zhang, Ruihan Yang, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier\n\n链接：https://arxiv.org/pdf/2601.02179.pdf\n\n标题：2026 [2601.02179] 多回合交互中LLMs的置信度估计",
+        "地址": "https://arxiv.org/pdf/2601.02179.pdf"
+    },
+    {
+        "名称": "2026 [2601.01046] KV-Embedding: Training-free Text Embedding via Internal KV Re-routing in Decoder-only LLMs.pdf",
+        "作者": "Yixuan Tang, Yi Yang",
+        "摘要": "以下是提取的摘要，并翻译成中文：\n\n摘要：虽然大型语言模型（LLMs）作为强大的嵌入骨干网络具有很强的能力，但其在无训练环境中的应用面临两个结构性挑战：因果注意力机制限制了早期的标记访问后续上下文，并且下一个标记预测目标使表示偏向于生成而非语义压缩。为了应对这些限制，我们提出了KV-Embedding框架，该框架激活了冻结的LLMs的潜在表示能力。我们的方法利用了这样的观察，即每层最后一个标记的键值（KV）状态编码了序列的压缩视图。通过将这些状态重新路由为前置前缀，我们能够让所有标记在一次前向传递中访问序列级上下文。为了确保模型无关的适用性，我们引入了一种基于固有维度的自动层选择策略。在Qwen、Mistral和Llama骨干模型上的MTEB评估中，KV-Embedding比现有的无训练基线表现高出最多10%，同时在长达4096个标记的序列上保持了稳健的性能。这些结果表明，内部状态操作提供了输入修改的一种高效替代方案，并且我们希望这项工作能鼓励进一步探索LLM的内部机制以进行表示学习。\n\n作者：Tang Yixuan, Yang Yi\n\n链接：https://arxiv.org/pdf/2601.01046.pdf\n\n标题：2026 [2601.01046] KV-Embedding: Training-free Text Embedding via Internal KV Re-routing in Decoder-only LLMs.pdf",
+        "地址": "https://arxiv.org/pdf/2601.01046.pdf"
+    },
+    {
+        "名称": "2026 [2601.00501] CPPO: Contrastive Perception for Vision Language Policy Optimization.pdf",
+        "作者": "Ahmad Rezaei, Mohsen Gholami, Saeed Ranjbar Alvar, Kevin Cannons, Mohammad Asiful Hossain, Zhou Weimin, Shunbo Zhou, Yong Zhang, Mohammad Akbari",
+        "摘要": "摘要：我们介绍了一种用于微调视觉语言模型（VLMs）的对比感知策略优化方法（CPPO）。尽管强化学习（RL）已经在语言模型的推理中取得了进展，但将其扩展到多模态推理需要同时改进感知和推理方面。以往的工作主要通过显性感知奖励来应对这一挑战，但将感知标记与推理标记分离是困难的，这需要额外的大型语言模型、真实数据、通过策略模型强制将感知与推理分离，或者对所有输出标记一视同仁地应用奖励。CPPO通过检测模型在扰动输入图像下输出的熵变化来解决这一问题。然后，CPPO通过一种对比感知损失（CPL）来扩展RL目标函数，该损失在信息保留的扰动下强制一致性，并在信息丧失的情况下增强敏感性。实验表明，CPPO在避免使用额外模型的同时，超越了先前的感知奖励方法，使得训练更高效和可扩展。",
+        "地址": "https://arxiv.org/pdf/2601.00501.pdf"
+    },
+    {
+        "名称": "2026 [2601.02267] DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies.pdf",
+        "作者": "Renke Wang, Zhenyu Zhang, Ying Tai, Jian Yang",
+        "摘要": "摘要（翻译为中文）：\n\n多人视图图像中的人类网格恢复面临一个基本挑战：真实世界数据集包含不完善的地面实况注释，导致模型训练有偏，而具有精确监督的合成数据则存在领域差距。在本文中，我们提出了DiffProxy，一种生成多人视图一致的代理人网格恢复的新框架。DiffProxy的核心是利用基于扩散的生成先验来弥合合成训练和真实世界泛化之间的差距。其关键创新包括：（1）一种多条件机制，用于生成多人视图一致的、像素对齐的人类代理；（2）一个手部细化模块，结合灵活的视觉提示来增强局部细节；（3）一种不确定性感知的测试时缩放方法，在优化过程中增加对挑战性案例的鲁棒性。这些设计确保网格恢复过程能够有效地从精确的合成地面真相和基于扩散的生成管道的优势中获益。在完全基于合成数据进行训练时，DiffProxy在五个真实世界基准上实现了最先进的性能，特别是在含有遮挡和部分视图的挑战性场景下表现出强大的零样本泛化能力。项目页面： 在此 https URL",
+        "地址": "https://arxiv.org/pdf/2601.02267.pdf"
+    },
+    {
+        "名称": "2026 [2601.01836] COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs.pdf",
+        "作者": "Dasol Choi, DongGeon Lee, Brigitta Jesica Kartono, Helena Berndt, Taeyoun Kwon, Joonwon Jang, Haon Park, Hwanjo Yu, Minsuk Kahng",
+        "摘要": "摘要：随着大型语言模型在医疗保健和金融等高风险企业应用中的部署，确保其遵循特定组织的政策变得至关重要。然而，现有的安全评估仅关注普遍性危害。我们提出了COMPASS（公司/组织政策对齐评估），这是第一个系统性框架，评估LLMs是否符合组织的允许列表和拒绝列表政策。我们将COMPASS应用于八个不同的行业场景，生成并验证了5920个测试查询，这些查询通过策略性设计的边缘案例测试例行合规性和对抗性鲁棒性。评估七个最先进的模型，我们发现了一个基本的不对称性：模型可靠处理合法请求（>95%的准确率），但在执行禁令时严重失败，仅拒绝13-40%的对抗性拒绝列表违规行为。这些结果表明当前的LLMs缺乏进行关键政策部署所需的鲁棒性，确立了COMPASS作为组织AI安全性评估的必要框架。",
+        "地址": "https://arxiv.org/pdf/2601.01836.pdf"
+    },
+    {
+        "名称": "2026 [2601.01426] SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving.pdf",
+        "作者": "Chaofan Tao, Jierun Chen, Yuxin Jiang, Kaiqi Kou, Shaowei Wang, Ruoyu Wang, Xiaohui Li, Sidi Yang, Yiming Du, Jianbo Dai, Zhiming Mao, Xinyu Wang, Lifeng Shang, Haoli Bai",
+        "摘要": "摘要：我们介绍了SWE-Lego，这是一种监督微调（SFT）方法，旨在实现软件工程（SWE）问题解决领域的最新性能。与依赖复杂训练范式（如中期训练、SFT、强化学习及其组合）的现有方法不同，我们探讨了如何通过仅使用轻量级的SFT方法来提升SWE任务的极限。SWE-Lego包含三个核心模块，其主要发现总结如下：1）SWE-Lego数据集：包括32k高质量任务实例和18k验证轨迹的集合，结合了真实和合成数据，以在质量和数量上互补；2）经过改进的SFT过程，其中包括错误掩蔽和基于难度的课程，显著改善了操作质量和整体性能。实验证明，仅使用这两个构建模块，SWE-Lego模型在同等规模的开源模型中能够达到SWE-bench的最新性能：SWE-Lego-Qwen3-8B达到42.2%，SWE-Lego-Qwen3-32B达到52.6%。3）我们进一步评估并改进了基于SFT基础的测试时间缩放（TTS）。在训练良好的验证器基础上，SWE-Lego模型可以显著提升，例如8B和32B模型在TTS@16下分别从42.2%提升到49.6%，从52.6%提升到58.8%。",
+        "地址": "https://arxiv.org/pdf/2601.01426.pdf"
+    },
+    {
+        "名称": "2025 [2512.23035] Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion.pdf",
+        "作者": "Yi Zhou, Xuechao Zou, Shun Zhang, Kai Li, Shiying Wang, Jingming Chen, Congyan Lang, Tengfei Cao, Pin Tao, Yuanchun Shi",
+        "摘要": "摘要：半监督遥感（RS）图像语义分割提供了一种减轻详尽标注负担的有希望的解决方案，但它本质上存在伪标签漂移的问题，即确认偏差在训练过程中导致错误积累。在这项工作中，我们提出了Co2S，一个稳定的半监督RS分割框架，它协同融合了视觉-语言模型和自监督模型的先验知识。具体而言，我们构建了一个异构的双学生架构，包含两个不同的基于ViT的视觉基础模型，这些模型通过预训练的CLIP和DINOv3初始化，以减少错误积累和伪标签漂移。为了有效地整合这些不同的先验知识，提出了一种显式-隐式语义共指导机制，该机制利用文本嵌入和可学习查询分别提供显式和隐式的类级指导，从而共同增强语义一致性。此外，开发了一种全局-局部特征协作融合策略，有效融合了CLIP捕捉到的全局上下文信息和DINOv3生成的局部细节，使模型能够生成高度精确的分割结果。在六个流行数据集上的广泛实验表明，所提出的方法在各种分割协议和不同场景中一致地实现了领先的性能。项目页面可在此HTTPS URL中找到。",
+        "地址": "https://arxiv.org/pdf/2512.23035.pdf"
+    },
+    {
+        "名称": "2026 [2601.01576] OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment.pdf",
+        "作者": "Ming Zhang, Kexin Tan, Yueyuan Huang, Yujiong Shen, Chunchun Ma, Li Ju, Xinran Zhang, Yuhui Wang, Wenqing Jing, Jingyi Deng, Huayu Sha, Binze Hu, Jingqi Tong, Changhao Jiang, Yage Geng, Yuankai Ying, Yue Zhang, Zhangyue Yin, Zhiheng Xi, Shihan Dou, Tao Gui, Qi Zhang, Xuanjing Huang",
+        "摘要": "摘要：在同行评审中，评估新颖性非常关键但具有挑战性，因为评审员必须根据庞大的、快速发展的文献来评估投稿。本文介绍了OpenNovelty，一个基于大型语言模型（LLM）的代理系统，用于透明、基于证据的新颖性分析。该系统通过四个阶段运作：（1）提取核心任务和贡献声明以生成检索查询；（2）通过语义搜索引擎根据提取的查询检索相关的现有工作；（3）构建与核心任务相关工作的层次分类，并对每项贡献进行全文比较分析；（4）将所有分析综合成一个结构化的新颖性报告，附有明确的引用和证据片段。与简单的基于LLM的方法不同，OpenNovelty将所有评估基于真实检索到的论文，从而确保判断的可验证性。我们在500多篇ICLR 2026投稿中部署了我们的系统，所有报告都在我们的网站上公开可用，初步分析表明它可以识别相关的现有工作，包括作者可能忽略的紧密相关的论文。OpenNovelty旨在为研究社区提供一个可扩展的工具，促进公平、一致和基于证据的同行评审。",
+        "地址": "https://arxiv.org/pdf/2601.01576.pdf"
+    },
+    {
+        "名称": "2025 [2601.00863] Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery.pdf",
+        "作者": "Markus J. Buehler",
+        "摘要": "摘要：我们提出了一种名为materiomusic的生成框架，将物质的层级结构与音乐的作曲逻辑联系起来。在蛋白质、蜘蛛网和火焰动力学等领域中，振动和建筑原理以音调层级、和声进行和长程音乐形式重复出现。利用从分子光谱到音乐音调的可逆映射以及从三维网络到可演奏乐器的可逆映射，我们展示了声音如何作为科学探针，通过聆听成为一种观测方式，而音乐创作成为物质的蓝图。这些映射挖掘了深层时间：起源于飞秒分子振动或十亿年进化历史的模式变得可听见。我们认为，当现有自由度内的约束无法满足时，科学和艺术中的新奇性就会出现，从而迫使可行配置空间的扩展。选择性不完美提供了恢复连贯性和适应性之间平衡的机制。通过对所有2^12个音阶的详尽枚举，我们提供了定量支持，揭示了文化上重要的系统聚集在中等熵、中等缺陷走廊中，直接与Hall-Petch最佳值平行，在该值中中等缺陷密度最大化材料强度。迭代这些映射在人类创造力和物理学之间创造了富有成效的碰撞，随着音乐结构遇到进化约束生成新信息。我们展示了基于蜂群的AI模型如何创作出具有类人结构特征（如小世界连通性、模块整合、长程连贯性）的音乐，表明了超越插值走向发明的路径。我们表明，科学和艺术是受约束的创造性世界建构行为，振动作为跨尺度组织结构的共享语法。\n\n作者：Markus J. Buehler\n链接：https://arxiv.org/pdf/2601.00863.pdf\n标题：选择性不完美作为分析、创造力和发现的生成框架",
+        "地址": "https://arxiv.org/pdf/2601.00863.pdf"
+    },
+    {
+        "名称": "2025 [2512.21472] IMA++: ISIC Archive Multi-Annotator Dermoscopic Skin Lesion Segmentation Dataset.pdf",
+        "作者": "Kumar Abhishek, Jeremy Kawahara, Ghassan Hamarneh",
+        "摘要": "摘要：多标注者医学图像分割是一个重要的研究问题，但需要收集带标注的数据集，这样的过程非常昂贵。皮肤镜下皮肤病灶成像允许人类专家和人工智能系统观察到普通临床照片无法分辨的形态结构。然而，目前在皮肤镜下皮肤病灶成像方面，没有公开的大规模多标注者皮肤病灶分割（SLS）数据集带有标注者标签。我们引入了ISIC MultiAnnot++，这是一个来自ISIC档案的大型公共多标注者皮肤病灶分割数据集。最终的数据集包含17,684个分割掩码，涵盖14,967张皮肤镜图像，其中2,394张皮肤镜图像每张图像有2-5个分割，从而成为最大的公开可用的SLS数据集。此外，还包含有关分割的元数据，包括标注者的技能水平和分割工具，能够进行诸如基于标注者的偏好建模和标注者元数据分析等研究。我们提供了对该数据集的特性分析、策划的数据分区以及共识分割掩码。",
+        "地址": "https://arxiv.org/pdf/2512.21472.pdf"
+    },
+    {
+        "名称": "2026 [2601.02315] Prithvi-Complimentary Adaptive Fusion Encoder (CAFE): unlocking full-potential for flood inundation mapping.pdf",
+        "作者": "Saurabh Kaushik, Lalit Maurya, Beth Tellman",
+        "摘要": "摘要：地理基础模型（GFMs）已在语义分割、分类和回归任务等多个下游应用中证明了其有效性。然而，在使用Sen1Flood11数据集进行洪水制图作为下游任务时，GFMs难以超越基线U-Net，突显了模型在捕捉关键局部细节方面的局限性。为了解决这一问题，我们提出了Prithvi-互补自适应融合编码器（CAFE），它将预训练的Prithvi GFM编码器与增强型卷积注意模块（CAM）并行的CNN残差分支相结合。Prithvi-CAFE通过Prithvi中的适配器实现快速高效的微调，并与CNN特征进行多尺度、多层次融合，捕捉关键局部细节的同时保留了长程依赖。我们在两个全面的洪水制图数据集（Sen1Flood11和FloodPlanet）上取得了最新最优绩效结果。在Sen1Flood11测试数据上，Prithvi-CAFE的IoU为83.41，优于原始Prithvi（IoU 82.50）和其他主要GFMs （TerraMind 82.90，DOFA 81.54，spectralGPT: 81.02）。在独立测试站点上，Prithvi-CAFE实现了IoU 81.37，相比基线U-Net（70.57）和原始Prithvi（72.42），改善更为显著。在FloodPlanet上，Prithvi-CAFE也超过了基线U-Net和其他GFMs，IoU达64.70，相比U-Net（60.14），Terramind（62.33），DOFA（59.15）和Prithvi 2.0（61.91）。我们提出的简单而有效的Prithvi-CAFE展示了强烈的潜力，能够改进多通道和多模态数据提供互补信息且局部细节关键的分割任务。代码已在Prithvi-CAFE Github上发布。\n\n链接：https://arxiv.org/pdf/2601.02315.pdf",
+        "地址": "https://arxiv.org/pdf/2601.02315.pdf"
+    },
+    {
+        "名称": "2026 [2601.02314] Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents.pdf",
+        "作者": "Sourena Khanzadeh",
+        "摘要": "摘要：随着大型语言模型（LLM）代理越来越多地承担高风险的自主决策任务，其推理过程的透明性已成为一个重要的安全问题。虽然\\textit{Chain-of-Thought}（CoT）提示允许代理生成人类可读的推理轨迹，但这些轨迹是否是模型输出的\\textbf{真实}生成驱动还是仅仅是\\textbf{事后合理化}仍不清楚。我们引入了\\textbf{Project Ariadne}，一个利用结构因果模型（SCM）和反事实逻辑来审计代理推理因果完整性的XAI框架。与现有依赖表面文本相似性的可解释性方法不同，Project Ariadne对中间推理节点进行\\textbf{硬干预}（$do$-演算）——系统地颠倒逻辑、否定前提和反转事实声明——以衡量最终答案的\\textbf{因果敏感性}（$\\\\phi$）。对最先进模型的实证评估揭示了持久的\\textit{真实度差距}。我们定义并检测到一种广泛的故障模式，称为\\textbf{因果脱钩}（Causal Decoupling），其中代理在事实和科学领域表现出高达$0.77$的违约密度（$\\\\rho$）。在这些情况下，代理尽管其内部逻辑自相矛盾，但仍然得出相同结论，证明其推理轨迹只是“推理剧场”，而决策由潜在参数先验驱动。我们的研究结果表明，当前的代理架构固有地倾向于不真实解释，并且我们提出Ariadne Score作为使声明逻辑与模型行为一致的新基准。",
+        "地址": "https://arxiv.org/pdf/2601.02314.pdf"
+    },
+    {
+        "名称": "2025 [2512.22877] M-ErasureBench: A Comprehensive Multimodal Evaluation Benchmark for Concept Erasure in Diffusion Models.pdf",
+        "作者": "Ju-Hsuan Weng, Jia-Wei Liao, Cheng-Fu Chou, Jun-Cheng Chen",
+        "摘要": "摘要: 文本到图像扩散模型可能会生成有害或受版权保护的内容，这促使了对概念删除的研究。然而，现有的方法主要集中在从文本提示中删除概念，忽视了其他在现实应用中越来越重要的输入模式，例如图像编辑和个性化生成。这些模式可能成为攻击面，使得已删除的概念在防御措施下重新出现。为了解决这一差距，我们引入了M-ErasureBench，一个新颖的多模态评估框架，它系统地对概念删除方法在三个输入模式下进行基准测试：文本提示、学习的嵌入和倒置的潜变量。对于后两者，我们评估了白盒和黑盒访问，得出了五种评估场景。我们的分析显示，现有的方法在对抗文本提示时表现出强劲的删除性能，但在面对学习的嵌入和倒置的潜变量时大部分失败，概念重现率（CRR）在白盒环境中超过了90%。为了解决这些漏洞，我们提出了IRECE（推理时增强概念删除的鲁棒性），一个插件模块，它通过交叉注意机制定位目标概念并在去噪期间扰乱相关的潜变量。实验表明，IRECE能够一致地恢复鲁棒性，在最具挑战性的白盒潜变量倒置场景下将CRR减少最多40%，同时保持视觉质量。据我们所知，M-ErasureBench提供了首个超越文本提示的全面概念删除基准。与IRECE一起，我们的基准为构建更可靠的防护生成模型提供了实用的保障。",
+        "地址": "https://arxiv.org/pdf/2512.22877.pdf"
+    }
+]
