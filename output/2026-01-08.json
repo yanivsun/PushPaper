@@ -1,0 +1,122 @@
+[
+    {
+        "名称": "2026 [2601.02151] Entropy-Adaptive Fine-Tuning: Resolving Confident Conflicts to Mitigate Forgetting.pdf",
+        "作者": "Muxi Diao, Lele Yang, Wuxuan Gong, Yutong Zhang, Zhonghao Yan, Yufei Han, Kongming Liang, Weiran Xu, Zhanyu Ma",
+        "摘要": "摘要: 监督微调（SFT）是领域适应的标准范式，但它经常会导致灾难性的遗忘。与此形成鲜明对比的是，基于策略的强化学习（RL）能够有效地保留模型的通用能力。我们研究了这种差异并确定了一个根本的分布差距：RL与模型的内部信念对齐，而SFT则迫使模型符合外部监督。这种不匹配通常表现为“自信冲突”标记，这些标记的特点是低概率但低熵。在这些情况下，模型对自己的预测高度自信，但被迫学习不同的真实值，触发了破坏性的梯度更新。为了解决这一问题，我们提出了熵自适应微调（EAFT）。与仅依赖预测概率的方法不同，EAFT利用标记级的熵作为门控机制，以区分认知不确定性和知识冲突。这使得模型能够从不确定的样本中学习，同时抑制冲突数据上的梯度。我们在数学、医疗和代理域的大量实验（使用Qwen和GLM系列，从4B到32B参数）中证实了我们的假设。EAFT在显著减轻通用能力退化的同时，一致地匹配了标准SFT的下游表现。\n\n作者: 缪希刁，杨乐乐，龚武炫，张羽童，颜忠浩，韩羽飞，梁孔明，徐巍然，马展宇\n\n链接: https://arxiv.org/pdf/2601.02151.pdf\n\n标题: 熵自适应微调：解决自信冲突以减轻遗忘",
+        "地址": "https://arxiv.org/pdf/2601.02151.pdf"
+    },
+    {
+        "名称": "2026 [2601.03509] Evolving Programmatic Skill Networks.pdf",
+        "作者": "Haochen Shi, Xingdi Yuan, Bang Liu",
+        "摘要": "以下是摘要的中文翻译：\n\n摘要：我们研究了在开放式具身环境中持续技能获取的问题，这种环境下代理必须构建、改进和重用一个不断扩展的可执行技能库。我们引入了程序化技能网络（PSN），这是一个框架，其中技能是可执行的符号程序，形成一个通过经验演化的组合网络。PSN定义了通过大型语言模型实现的三种核心机制：（1）REFLECT用于技能组合的结构化故障定位，（2）通过成熟度感知更新门控进行渐进优化，稳定可靠的技能，同时保持对不确定技能的可塑性，以及（3）通过回滚验证进行规范结构重构，保持网络的紧凑性。我们进一步展示了PSN的学习动态在结构上与神经网络训练具有相似性。在MineDojo和Crafter上的实验表明，PSN展示了强大的技能重用、快速适应能力以及在开放式任务分布中的强泛化能力。我们计划开源代码。\n\n作者：时浩晨，袁兴迪，刘邦\n\n链接：https://arxiv.org/pdf/2601.03509.pdf\n\n标题：2026 [2601.03509] 程序化技能网络的演化\n",
+        "地址": "https://arxiv.org/pdf/2601.03509.pdf"
+    },
+    {
+        "名称": "2026 [2601.03872] Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning.pdf",
+        "作者": "Jinyang Wu, Guocheng Zhai, Ruihan Jin, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao",
+        "摘要": "摘要: 大型语言模型（LLMs）与外部工具的结合显著扩展了人工智能代理的能力。然而，随着LLMs和工具的多样性增加，选择最佳的模型工具组合成为一个高维优化挑战。现有方法通常依赖于单一模型或固定的工具调用逻辑，未能利用异质模型工具对的性能变化。在本文中，我们提出了ATLAS（Adaptive Tool-LLM Alignment and Synergistic Invocation），一个用于跨领域复杂推理的动态工具使用的双路径框架。ATLAS通过双路径方法操作：（1）利用域特定对齐经验先验的无训练集群路由，以及（2）探索超出分布泛化的RL（强化学习）多步路由。在15个基准测试上的广泛实验表明，我们的方法在分布内任务（+10.1%）和分布外任务（+13.1%）上均优于GPT-4等闭源模型，同时在通过协调专门的多模态工具的视觉推理上显示出显著提升。\n\n作者：吴劲扬、翟国成、金锐涵、袁嘉豪、沈宇豪、张帅、文正琪、陶建华\n\n链接：https://arxiv.org/pdf/2601.03872.pdf\n\n标题：Atlas：协调异质模型和工具进行多领域复杂推理",
+        "地址": "https://arxiv.org/pdf/2601.03872.pdf"
+    },
+    {
+        "名称": "2026 [2601.03986] Benchmark^2: Systematic Evaluation of LLM Benchmarks.pdf",
+        "作者": "Qi Qian, Chengsong Huang, Jingwen Xu, Changze Lv, Muling Wu, Wenhao Liu, Xiaohua Wang, Zhenghua Wang, Zisu Huang, Muzhao Tian, Jianhan Xu, Kun Hu, He-Da Wang, Yao Hu, Xuanjing Huang, Xiaoqing Zheng",
+        "摘要": "摘要：快速增多的用于评估大型语言模型（LLM）的基准测试，迫切需要系统化的方法来评估基准测试本身的质量。我们提出了Benchmark^2，一个由三个互补指标组成的全面框架：（1）跨基准排名一致性，衡量某个基准是否产生与同行基准一致的模型排名；（2）区分能力评分，量化一个基准区分不同模型的能力；和（3）能力对齐偏差，识别在同一模型家族中更强的模型失败而较弱的模型成功的有问题实例。我们在数学、推理和知识领域跨15个基准和四个模型家族的11个LLM上进行了广泛实验。我们的分析揭示了现有基准测试之间显著的质量差异，并且证明基于我们的指标选择性地构建基准测试可以在大幅减少测试集的情况下，实现可比的评估性能。\n\n作者：Qian Qi, Chengsong Huang, Jingwen Xu, Changze Lv, Muling Wu, Wenhao Liu, Xiaohua Wang, Zhenghua Wang, Zisu Huang, Muzhao Tian, Jianhan Xu, Kun Hu, He-Da Wang, Yao Hu, Xuanjing Huang, Xiaoqing Zheng\n\nURL：https://arxiv.org/pdf/2601.03986.pdf\n\n标题: 2026 [2601.03986] Benchmark^2: Systematic Evaluation of LLM Benchmarks.pdf",
+        "地址": "https://arxiv.org/pdf/2601.03986.pdf"
+    },
+    {
+        "名称": "2026 [2601.03822] ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition.pdf",
+        "作者": "Muyang Zhao, Qi Qi, Hao Sun",
+        "摘要": "标题: ROI-Reasoning: 通过预计算元认知进行推理的理性优化\n\n摘要: 大型语言模型（LLMs）可以在充分计算的情况下实现强大的推理性能，但它们本质上并不知道任务需要多少计算。我们研究了在严格的全局token约束下，多任务预算推理的推理时间，并将其形式化为有序随机多重选择背包问题（OS-MCKP）。这种观点强调了元认知要求 -- 预测任务难度，估计投资回报率（ROI），并战略性地分配计算资源。我们提出了ROI-Reasoning，这是一个分两个阶段的框架，使LLMs具有内在的、预算意识的理性。在第一阶段，元认知微调（Meta-Cognitive Fine-Tuning）教会模型在生成之前预测推理成本和预期效用，从而实现显式的解决或跳过决策。接下来，理性感知强化学习（Rationality-Aware Reinforcement Learning）优化了在硬token预算下的顺序决策，使模型能够学习长时间范围的分配策略。在有预算限制的数学推理基准测试中，ROI-Reasoning在大幅减少后悔值的同时，持续提高整体分数。",
+        "地址": "https://arxiv.org/pdf/2601.03822.pdf"
+    },
+    {
+        "名称": "2026 [2601.04151] Klear: Unified Multi-Task Audio-Video Joint Generation.pdf",
+        "作者": "Jun Wang, Chunyu Qiang, Yuxin Guo, Yiran Wang, Xijuan Zeng, Chen Zhang, Pengfei Wan",
+        "摘要": "摘要：音视频联合生成技术已经快速发展，但仍面临重大挑战。非商业方法仍存在音视频不同步、嘴唇与语音不匹配、单模式退化等问题，这些问题源于音视频对应建模较弱、泛化能力有限以及高质量密集字幕数据稀缺。为解决这些问题，我们引入了Klear系统，并从模型架构、训练策略和数据整理三方面进行了深入研究。在架构上，我们采用了单塔设计，结合统一的DiT块和全方位注意机制，实现了紧密的音视频对齐和强大的可扩展性。在训练方面，我们采用了渐进多任务训练机制，从随机模态屏蔽到任务联合优化，并设计了多阶段课程，生成了强健的表征，增强了音视频对齐的世界知识，防止单模态崩溃。对于数据集，我们提供了首个带有密集字幕的大规模音视频数据集，并引入了一种新的自动数据构建管道，该管道为数百万个多样化、高质量、严格对齐的音视频字幕三元组进行注释和过滤。基于此，Klear能够扩展至大型数据集，实现高保真、语义和时间对齐的生成，并能够在联合与单模式设置中遵循指令生成，同时对分布外场景具有鲁棒的泛化能力。在各项任务中，Klear大幅超越了早期方法，其性能可与Veo 3媲美，为下一代音视频合成提供了统一、可扩展的路径。\n\n作者：Jun Wang, Chunyu Qiang, Yuxin Guo, Yiran Wang, Xijuan Zeng, Chen Zhang, Pengfei Wan\n\n链接：https://arxiv.org/pdf/2601.04151.pdf\n\n标题：2026 [2601.04151] Klear：统一多任务音视频联合生成",
+        "地址": "https://arxiv.org/pdf/2601.04151.pdf"
+    },
+    {
+        "名称": "2026 [2601.04194] Choreographing a World of Dynamic Objects.pdf",
+        "作者": "Yanzhe Lyu, Chen Geng, Karthik Dharmarajan, Yunzhi Zhang, Hadi Alzayer, Shangzhe Wu, Jiajun Wu",
+        "摘要": "摘要：物理的四维（3D＋时间）世界中的动态对象不断演变、变形和与其他对象相互作用，导致多样化的四维场景动态。在本文中，我们提出了一种通用生成流水线，CHORD，用于编排动态对象和场景并合成这种现象。传统基于规则的图形流水线创建这些动态是基于类别特定的启发式方法，但劳动密集且不可扩展。最近的基于学习的方法通常需要大规模数据集，这可能不会涵盖所有感兴趣的对象类别。我们的方法通过提出一种基于蒸馏的流水线来提取隐藏在二维视频的欧拉表示中的丰富的拉格朗日运动信息，从而继承了视频生成模型的通用性。我们的方法是通用的、多功能的、与类别无关的。我们通过进行实验来生成多种多身体的四维动态，展示它相对于现有方法的优势，并展示其在生成机器人操作策略中的适用性。项目页面：this https URL",
+        "地址": "https://arxiv.org/pdf/2601.04194.pdf"
+    },
+    {
+        "名称": "2026 [2601.04171] Agentic Rubrics as Contextual Verifiers for SWE Agents.pdf",
+        "作者": "Mohit Raghavendra, Anisha Gunjal, Bing Liu, Yunzhong He",
+        "摘要": "摘要：验证对于提高代理非常重要：它为强化学习提供奖励信号，并通过测试时间缩放（TTS）在推理时实现收益。尽管其重要性，软件工程（SWE）代理设置中的验证通常依赖于代码执行，由于环境设置的开销，这可能难以扩展。可扩展的替代方法如补丁分类器和启发式方法存在，但它们在代码库上下文中不够扎实，且更难解释。为此，我们探索代理评分标准：一个专家代理与代码库交互来创建一个基于上下文的评分清单，然后候选补丁在无需测试执行的情况下根据该清单进行评分。在SWE-Bench通过并行TTS评估的情况下，代理评分标准在Qwen3-Coder-30B-A3B上得分为54.2%，在Qwen3-32B上得分为40.6%，至少比我们比较集中的最强基线高出3.5个百分点。我们进一步分析评分标准的行为，显示评分标准得分与真实测试一致，同时也标记测试未能捕捉到的问题。我们的消融研究表明，代理的上下文收集对于生成特定代码库的明确标准至关重要。总的来说，这些结果表明代理评分标准为SWE代理提供了一种高效、可扩展和细粒度的验证信号。",
+        "地址": "https://arxiv.org/pdf/2601.04171.pdf"
+    },
+    {
+        "名称": "2026 [2601.02075] MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics.pdf",
+        "作者": "Zhuofan Shi, Hubao A, Yufei Shao, Dongliang Huang, Hongxu An, Chunxiao Xin, Haiyang Shen, Zhenyu Wang, Yunshan Na, Gang Huang, Xiang Jing",
+        "摘要": "摘要：分子动力学（MD）模拟对于理解材料科学中的原子级行为至关重要，但编写LAMMPS脚本仍然是高度专业化且耗时的任务。尽管大型语言模型（LLM）在代码生成和特定领域问答方面表现出色，但它们在MD场景中的表现受到领域数据稀缺、最新LLM部署成本高以及代码可执行性低的限制。在我们之前的MDAgent基础上，我们提出了MDAgent2，这是首个能够在MD领域内执行知识问答和代码生成的端到端框架。我们构建了一个领域特定的数据构建管道，生成了三个高质量的数据集，涵盖MD知识、问答和代码生成。基于这些数据集，我们采用了三个阶段的后期训练策略——继续预训练（CPT）、监督微调（SFT）和强化学习（RL）——来训练两个领域自适应模型，MD-Instruct和MD-Code。此外，我们介绍了MD-GRPO，这是一种闭环RL方法，它利用模拟结果作为奖励信号，并回收低奖励轨迹以持续优化。我们进一步构建了可部署的多代理系统MDAgent2-RUNTIME，集成了代码生成、执行、评估和自我修正。在本工作中提出的MD-EvalBench，首个用于LAMMPS代码生成和问答的基准测试，与我们的模型和系统一起，实现了超越几个强大的参考，在工业模拟任务中系统地展示了大型语言模型的适应性和泛化能力，为自动代码生成在科学AI和工业规模模拟中的应用奠定了方法论基础。\n\n评论：24页，4张图\nURL：https://arxiv.org/pdf/2601.02075.pdf",
+        "地址": "https://arxiv.org/pdf/2601.02075.pdf"
+    },
+    {
+        "名称": "2026 [2601.00423] E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models.pdf",
+        "作者": "Shengjun Zhang, Zhang Zhang, Chensheng Dai, Yueqi Duan",
+        "摘要": "摘要：最近的强化学习增强了在人类偏好对齐方面的流匹配模型。虽然随机抽样能够探索降噪方向，但现有在多个降噪步骤上进行优化的方法面临稀疏和模糊的奖励信号问题。我们观察到高熵步骤使探索更高效和有效，而低熵步骤则导致不明显的卷展。为此，我们提出了E-GRPO，一种熵感知组相对策略优化，以增加SDE抽样步骤的熵。由于从多个步骤的随机性使得随机微分方程整合过程遭受模糊的奖励信号，专门合并连续的低熵步骤形成一个高熵步骤用于SDE抽样，同时在其他步骤应用ODE抽样。在此基础上，我们引入了多步骤组规范化优势，在共享同一整合SDE降噪步骤的样本内计算组相对优势。不同奖励设置的实验结果证明了我们方法的有效性。\n\n翻译中文摘要：最近的强化学习增强了流匹配模型在人类偏好对齐方面的表现。虽然随机采样能够探索降噪的方向，但现有的方法在多个降噪步骤上优化时面临稀疏和模糊的奖励信号。我们发现，高熵步骤能够更高效和更有效地进行探索，而低熵步骤则导致不明显的回滚。为此，我们提出了E-GRPO，一种熵感知的组相对策略优化方法，以增加随机微分方程（SDE）采样步骤的熵。由于多个步骤的随机性导致随机微分方程整合过程中出现模糊奖励信号，我们专门合并连续的低熵步骤形成一个高熵步骤用于SDE采样，同时在其他步骤应用常微分方程（ODE）采样。在此基础上，我们引入多步骤组规范化优势，在共享同一整合SDE降噪步骤的样本内计算组相对优势。不同奖励设置的实验结果证明了我们方法的有效性。",
+        "地址": "https://arxiv.org/pdf/2601.00423.pdf"
+    },
+    {
+        "名称": "2026 [2601.03471] EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering for Enhanced Alignment and Reasoning.pdf",
+        "作者": "Mingyang Wei, Dehai Min, Zewen Liu, Yuzhang Xie, Guanchen Wu, Carl Yang, Max S. Y. Lau, Qi He, Lu Cheng, Wei Jin",
+        "摘要": "摘要: 可靠的流行病学推理需要综合研究证据，以推断疾病负担、传播动态以及干预效果在群体层面的影响。现有的医学问答基准主要强调临床知识或患者层面的推理，然而很少系统性地评估依据证据的流行病学推论。我们提出EpiQAL，这是首个针对不同疾病的流行病学问答诊断基准，包括从开放获取文献中构建的三个子集。这些子集分别评估基于文本的事实回忆、多步骤推理（将文档证据与流行病学原则联系起来）以及在隐去讨论部分情况下的结论重建。该基准的构建结合了专家设计的分类指导、多模型验证以及基于检索的难度控制。对十个开放模型的实验显示，当前的大型语言模型在流行病学推理方面表现有限，其中多步骤推理是最大的挑战。模型排名在各子集间有所变化，规模本身并不能预测成功。链式思维提示对多步骤推理有益，但在其他方面结果混杂。EpiQAL为证据基础、推理推断和结论重建提供了细化的诊断信号。",
+        "地址": "https://arxiv.org/pdf/2601.03471.pdf"
+    },
+    {
+        "名称": "2026 [2601.03699] RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models.pdf",
+        "作者": "Quy-Anh Dang, Chris Ngo, Truong-Son Hy",
+        "摘要": "摘要：随着大型语言模型（LLMs）成为安全关键应用的重要组成部分，确保其对抗性提示的鲁棒性至关重要。然而，现有的红队数据集由于风险分类不一致、领域覆盖有限以及评估过时等问题，阻碍了系统性的漏洞评估。为了解决这些挑战，我们推出了RedBench，一个汇集了来自领先会议和仓库的37个基准数据集的通用数据集，包括29,362个攻击和拒绝提示样本。RedBench采用了包含22个风险类别和19个领域的标准化分类法，实现了对LLM漏洞的一致且全面的评估。我们提供了现有数据集的详细分析，为现代LLMs建立了基准，并开源了数据集和评估代码。我们的贡献促进了鲁棒比较，推动了未来研究，并推动了在实际部署中开发安全可靠的LLMs。\n\nCode：此https URL",
+        "地址": "https://arxiv.org/pdf/2601.03699.pdf"
+    },
+    {
+        "名称": "2026 [2601.03315] Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts.pdf",
+        "作者": "Dhruv Trehan, Paras Chopra",
+        "摘要": "摘要：我们报告了一个使用六个大型语言模型（LLM）代理映射到科学工作流程阶段，尝试自主生成机器学习研究论文的端到端案例研究。在这四次尝试中，有三次在实施或评估期间失败。一篇论文完成了整个流程，并被Agents4Science 2025接收，这是一个实验性的首次场合，要求AI系统作为第一作者，经过人工和多AI审查。这些尝试中，我们记录了六种重复出现的失败模式：偏向于训练数据默认值、在执行压力下的实施漂移、长时间任务中的记忆和背景退化、即使明显失败但仍宣布成功的过度兴奋、域智能不足以及实验设计中的科学品味较弱。我们最后讨论了更稳健的AI科学家系统的四个设计原则、自主科学发现的意义，并在此https URL发布了所有提示、工件和输出。\n\n作者：Dhruv Trehan, Paras Chopra\n\nURL：https://arxiv.org/pdf/2601.03315.pdf\n\n标题：为什么大型语言模型还不是科学家：来自四次自主研究尝试的教训",
+        "地址": "https://arxiv.org/pdf/2601.03315.pdf"
+    },
+    {
+        "名称": "2026 [2601.03467] ThinkRL-Edit: Thinking in Reinforcement Learning for Reasoning-Centric Image Editing.pdf",
+        "作者": "Hengjia Li, Liming Jiang, Qing Yan, Yizhi Song, Hao Kang, Zichuan Liu, Xin Lu, Boxi Wu, Deng Cai",
+        "摘要": "摘要：以文指图编辑的统一多模态生成模型快速发展，然而其基础的视觉推理仍然有限，导致在以推理为中心的编辑中表现不佳。强化学习（RL）已被研究用于改善图像编辑质量，但面临三个关键挑战： (1) 限于去噪随机性的有限推理探索，(2) 有偏奖励融合，(3) 基于视觉语言模型（VLM）的不稳定指令奖励。在本文中，我们提出了ThinkRL-Edit，这是一种以推理为中心的RL框架，将视觉推理与图像合成解耦，将推理探索扩展到去噪之外。为此，我们在在线采样生成之前引入了基于链式思维（CoT）的推理采样及规划和反思阶段，迫使模型探索多个语义假设并验证其合理性，以避免加权聚合的失败，我们提出了一种跨多个奖励维度的无偏链偏好分组策略。此外，我们用二进制清单替换了基于区间的VLM评分，从而为复杂推理带来了更精确、低方差和可解释的奖励。实验表明，我们的方法在以推理为中心的图像编辑中显著优于先前的工作，产生了对指令忠实、视觉一致和语义合理的编辑结果。",
+        "地址": "https://arxiv.org/pdf/2601.03467.pdf"
+    },
+    {
+        "名称": "2026 [2601.03448] Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks.pdf",
+        "作者": "Atsuki Yamaguchi, Maggie Mi, Nikolaos Aletras",
+        "摘要": "摘要：语言模型（LMs）在原始文本数据集上进行预训练，以逐字生成文本序列。虽然这种方法促进了世界知识和推理的学习，但没有明确优化语言能力。为弥补这一差距，我们提出了L2T，一种在标准下一个令牌预测之外，集成语言学习任务的预训练框架。受人类语言习得的启发，L2T将原始文本转化为结构化的输入-输出对，以提供明确的语言刺激。在混合原始文本和L2T数据上预训练LMs，不仅提升了语言能力基准测试的整体表现，还加快了其获取速度，同时在一般推理任务上保持竞争力。",
+        "地址": "https://arxiv.org/pdf/2601.03448.pdf"
+    },
+    {
+        "名称": "2026 [2601.02933] Pearmut: Human Evaluation of Translation Made Trivial.pdf",
+        "作者": "Vilém Zouhar, Tom Kocmi",
+        "摘要": "摘要：人工评估是多语言自然语言处理的黄金标准，但在实践中经常被跳过，取而代之的是自动指标，因为使用现有工具进行人工评估设置具有相当大的工程和操作开销，且复杂且耗时。我们介绍了Pearmut，一个轻量级但功能丰富的平台，使端到端的人工评估变得如同自动评估一样容易进行。Pearmut消除了常见的准入障碍，提供了对多语言任务评估的支持，特别是机器翻译。该平台实施了标准评估协议，包括DA、ESA或MQM，但也可扩展以允许新协议的原型制作。它具有文档级上下文、绝对和对比评估、注意检查、ESA AI预标注以及静态和基于主动学习的分配策略。Pearmut使得可靠的人工评估成为模型开发和诊断的实际例行组成部分，而不仅仅是偶尔的努力。",
+        "地址": "https://arxiv.org/pdf/2601.02933.pdf"
+    },
+    {
+        "名称": "2026 [2601.03955] ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation.pdf",
+        "作者": "Xu Zhang, Cheng Da, Huan Yang, Kun Gai, Ming Lu, Zhan Ma",
+        "摘要": "摘要: 现有的一维视觉分词器用于自回归（AR）生成，主要遵循语言建模的设计原则，因为它们直接建立在起源于语言的transformer上，产生单层次的潜伏token，并将视觉数据处理为平面的顺序token流。然而，这种类语言的形式忽视了视觉的关键属性，特别是长期以来对视觉模型的收敛和效率至关重要的层次和残差网络设计。为了将“视觉”重新带入视觉，我们提出了残差分词器（ResTok），一种建立层次残差用于图像token和潜伏token的一维视觉分词器。通过逐步合并获得的层次表示在每一层实现跨层次特征融合，大大增强了表示能力。同时，层次间的语义残差防止了信息重叠，产生更集中的潜伏分布，更容易进行AR建模。因此，无需任何显式约束即可出现跨层绑定。为了加速生成过程，我们进一步引入了一个层次自回归生成器，通过一次预测一个层次的潜伏token而不是逐个生成它们，显著减少了采样步骤。广泛的实验表明，在视觉分词中恢复层次残差先验显著提高了自回归图像生成，在ImageNet-256上，仅使用9个采样步骤就实现了2.34的gFID。代码可以在这个URL获取。\n\n作者: 张旭，成达，杨欢，盖昆，鲁明，马展\n\n评论: 技术报告\n\nURL: https://arxiv.org/pdf/2601.03955.pdf\n\n标题: ResTok: 在自回归图像生成的一维视觉分词器中学习层次残差",
+        "地址": "https://arxiv.org/pdf/2601.03955.pdf"
+    },
+    {
+        "名称": "2026 [2601.03236] MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents.pdf",
+        "作者": "Dongming Jiang, Yi Li, Guanpeng Li, Bingzhe Li",
+        "摘要": "摘要：记忆增强生成（Memory-Augmented Generation, MAG）通过外部记忆扩展大型语言模型，以支持长上下文推理，但现有方法主要依赖于单一记忆存储的语义相似性，纠缠了时间、因果和实体信息。这种设计限制了查询意图与检索证据之间的可解释性和对齐，从而导致推理准确性不佳。本文提出了一种多图代理记忆架构（MAGMA），它在正交的语义、时间、因果和实体图中表示每个记忆项。MAGMA将检索表述为通过这些关系视图的策略引导遍历，使得查询自适应选择和结构化上下文构建成为可能。通过将记忆表示与检索逻辑解耦，MAGMA提供了透明的推理路径和对检索的细粒度控制。在LoCoMo和LongMemEval上的实验表明，MAGMA在长视野推理任务中始终优于最先进的代理记忆系统。\n\n论文作者：姜东明，李毅，李冠鹏，李秉哲\n\n网址：https://arxiv.org/pdf/2601.03236.pdf\n\n标题：2026 [2601.03236] MAGMA：一种基于多图的AI代理记忆架构",
+        "地址": "https://arxiv.org/pdf/2601.03236.pdf"
+    },
+    {
+        "名称": "2026 [2601.04090] Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction.pdf",
+        "作者": "Jiaxin Huang, Yuanbo Yang, Bangbang Yang, Lin Ma, Yuewen Ma, Yiyi Liao",
+        "摘要": "摘要：我们介绍了Gen3R，这是一种将基础重建模型和视频扩散模型的强先验知识连接起来用于场景级3D生成的方法。我们重新利用VGGT重建模型，通过训练一个适配器来生成几何潜变量，这些潜变量被正则化以与预训练的视频扩散模型的外观潜变量对齐。通过共同生成这些解耦但对齐的潜变量，Gen3R可以生成RGB视频和相应的3D几何数据，包括相机姿态、深度图和全局点云。实验表明，我们的方法在单图像和多图像条件下的3D场景生成中达到了最先进的结果。此外，我们的方法可以通过利用生成先验知识来增强重建的鲁棒性，展示了紧密结合重建和生成模型的互利性。\n\n",
+        "地址": "https://arxiv.org/pdf/2601.04090.pdf"
+    },
+    {
+        "名称": "2025 [2601.00705] RGS-SLAM: Robust Gaussian Splatting SLAM with One-Shot Dense Initialization.pdf",
+        "作者": "Wei-Tse Cheng, Yen-Jen Chiou, Yuan-Fu Yang",
+        "摘要": "摘要：\n我们介绍了RGS-SLAM，一种稳健的高斯喷溅SLAM框架，该框架用无训练的对应关系到高斯初始化替换了GS-SLAM的残差驱动密化阶段。与渐进添加高斯以填补几何缺失的方式不同，RGS-SLAM通过信心感知内点分类器优化后的DINOv3描述符，从密集多视图对应关系中进行一次性三角化，生成一个分布良好且结构感知的高斯种子，在优化之前初始化。这种初始化稳定了早期地图构建，并使收敛速度加快了大约20%，在纹理丰富和混乱场景中呈现更高的渲染保真度，同时完全兼容现有的GS-SLAM管道。在TUM RGB-D和Replica数据集上进行了评估，RGS-SLAM在定位和重建精度上达到了与最先进的高斯和点基SLAM系统相竞争或优越的水平，并保持了最高925 FPS的实时映射性能。\n\n译者:\n郑伟则、邱彦仁、杨远甫\n\n备注：\n10页，9张图\n\n链接：\n[https://arxiv.org/pdf/2601.00705.pdf](https://arxiv.org/pdf/2601.00705.pdf)\n\n标题:\n2025 [2601.00705] RGS-SLAM：具有一次性密集初始化的稳健高斯喷溅SLAM",
+        "地址": "https://arxiv.org/pdf/2601.00705.pdf"
+    }
+]
