@@ -1,0 +1,200 @@
+[
+    {
+        "名称": "2026 [2601.05242] GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization.pdf",
+        "作者": "Shih-Yang Liu, Xin Dong, Ximing Lu, Shizhe Diao, Peter Belcak, Mingjie Liu, Min-Hung Chen, Hongxu Yin, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Yejin Choi, Jan Kautz, Pavlo Molchanov",
+        "摘要": "摘要: 随着语言模型能力的不断提升，用户期望它们不仅能提供准确的回应，还能在各种场景中表现出与不同人类偏好相一致的行为。为实现这一目标，强化学习 (RL) 管道已开始结合多种奖励，每种奖励捕捉不同的偏好，以引导模型朝着这些期望的行为方向发展。然而，最新的研究在多奖励情境下默认采用Group Relative Policy Optimization (GRPO)，却未对其适用性进行验证。本文证明，直接应用GRPO来规范不同回合的奖励组合，会使这些组合归于相同的优势值，从而降低训练信号的分辨率，导致次优的收敛效果，有时甚至导致训练早期失败。为了解决这些问题，我们引入了Group reward-Decoupled Normalization Policy Optimization (GDPO)——一种新的策略优化方法，通过分离个别奖励的规范化，更真实地保留了它们的相对差异，并且能够更准确地进行多奖励优化，同时显著提高了训练的稳定性。我们在三个任务（工具调用、数学推理和编码推理）中比较了GDPO和GRPO，评估了正确性指标（准确性、错误率）和约束遵守指标（格式、长度）。在所有设置中，GDPO都稳定地优于GRPO，展示了其在多奖励强化学习优化中的有效性和普适性。\n\n来源: NVIDIA技术报告\n\nURL: https://arxiv.org/pdf/2601.05242.pdf",
+        "地址": "https://arxiv.org/pdf/2601.05242.pdf"
+    },
+    {
+        "名称": "2026 [2601.04890] Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers.pdf",
+        "作者": "Maksim Velikanov, Ilyas Chahed, Jingwei Zuo, Dhia Eddine Rhaiem, Younes Belkada, Hakim Hacid",
+        "摘要": "摘要：在大型语言模型的预训练中，对矩阵层应用权重衰减（WD）是标准做法。先前的研究表明，随机梯度噪声会引发权重矩阵W的布朗式膨胀，其增长由WD抵消，导致WD-噪声平衡并具有一定的权重范数||W||。在此工作中，我们将这种平衡范数视为训练过程的不良产物，并通过引入可学习的乘数来学习最佳尺度来解决这一问题。首先，我们将一个可学习的标量乘数附加到W上，并确认WD-噪声平衡范数并非最优：学习到的尺度会适应数据并提高性能。接着，我们认为各行和列的范数同样受到约束，并通过引入每行和每列的可学习乘数来释放它们的尺度。我们的方法可以看作是muP乘数的可学习、更具表达性的泛化版本。它不仅优于经过良好调整的muP基准，减少了乘数调整的计算开销，还提出了一些实际问题，如前向传递对称性和学习到的乘数的宽度缩放。最后，我们在Adam和Muon优化器上验证了可学习乘数，在下游评估中显示出与从Adam切换到Muon相匹配的改进。\n\n作者：Maksim Velikanov, Ilyas Chahed, Jingwei Zuo, Dhia Eddine Rhaiem, Younes Belkada, Hakim Hacid",
+        "地址": "https://arxiv.org/pdf/2601.04890.pdf"
+    },
+    {
+        "名称": "2026 [2601.05249] RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes.pdf",
+        "作者": "Yuan-Kang Lee, Kuan-Lin Chen, Chia-Che Chang, Yu-Lun Liu",
+        "摘要": "摘要：夜间色彩恒常性由于低光噪声和复杂的光照条件一直是计算摄影中的一个难题。我们提出了RL-AWB，一种结合统计方法与深度强化学习用于夜间白平衡的新框架。我们的方法首先采用针对夜间场景量身定制的统计算法，将显著灰色像素检测与新颖的光照估计相结合。在此基础上，我们开发了首个用于色彩恒常性的深度强化学习方法，通过动态优化每张图像的参数模仿专业AWB调优专家。为促进跨传感器评估，我们引入了首个多传感器夜间数据集。实验结果表明，我们的方法在低光和良好照明的图像上展现了出色的泛化能力。项目页面：此https URL",
+        "地址": "https://arxiv.org/pdf/2601.05249.pdf"
+    },
+    {
+        "名称": "2026 [2601.05106] Token-Level LLM Collaboration via FusionRoute.pdf",
+        "作者": "Nuoya Xiong, Yuhang Zhou, Hanqing Zeng, Zhaorun Chen, Furong Huang, Shuchao Bi, Lizhu Zhang, Zhuokai Zhao",
+        "摘要": "摘要：大语言模型（LLMs）在多个领域展现出强大的能力。然而，要想在这些领域中实现高性能，通常需要一个规模巨大且通用的模型，而这对于训练和部署来说成本高昂。相比之下，虽然较小的领域专用模型更高效，但它们却难以泛化到训练分布之外。为了解决这一难题，我们提出了FusionRoute，这是一种稳健且有效的词元级多LLM协作框架，其中一个轻量级的路由器可以同时（i）在每个解码步骤选择最合适的专家，并且（ii）通过添加对数几率来贡献一个补充数值，从而优化或修正所选专家的下一个词元分布。与现有的仅依赖于固定专家输出的词元级协作方法不同，我们通过理论分析表明，纯专家路由在根本上是有限的：除非法覆盖全局假设成立，否则它在一般情况下无法实现最佳解码策略。通过增加一个可训练的补充生成器，FusionRoute扩展了有效的策略类别，并使在温和条件下的最佳价值函数恢复成为可能。在Llama-3和Gemma-2系列的广泛基准上（包括数学推理、代码生成和指令执行等任务），FusionRoute在性能上超过了序列级和词元级协作、模型合并以及直接微调，同时在各自任务上与领域专家保持竞争力。\n\n翻译：2026年，Nuoya Xiong, Yuhang Zhou, Hanqing Zeng, Zhaorun Chen, Furong Huang, Shuchao Bi, Lizhu Zhang, Zhuokai Zhao撰写的题为《词元级大语言模型协作：FusionRoute》的论文摘要如上所述。",
+        "地址": "https://arxiv.org/pdf/2601.05106.pdf"
+    },
+    {
+        "名称": "2026 [2601.05241] RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation.pdf",
+        "作者": "Boyang Wang, Haoran Zhang, Shujie Zhang, Jinkun Hao, Mingda Jia, Qi Lv, Yucheng Mao, Zhaoyang Lyu, Jia Zeng, Xudong Xu, Jiangmiao Pang",
+        "摘要": "摘要：操纵数据的多样性、数量和质量对于训练有效的机器人策略至关重要。然而，由于硬件和物理设置的限制，在各种环境中收集大规模的实际操纵数据仍然很困难。最近的研究使用文本提示条件的图像扩散模型，通过改变视觉观测中的背景和桌面物体来增加操纵数据。然而，这些方法通常忽视了最新策略模型所需的多视角和时间一致的观测的实际需要。此外，仅靠文本提示无法可靠地指定场景设置。为了给扩散模型提供明确的视觉引导，我们引入了视觉身份提示，即提供示例图像作为条件输入，以引导所需场景设置的生成。为此，我们还建立了一个可扩展的流程，从大型机器人数据集中整理视觉身份库。使用我们增强的操纵数据训练下游的视觉-语言-动作和视觉运动策略模型，在模拟和实际机器人环境中都能获得一致的性能提升。\n\n（翻译为中文）",
+        "地址": "https://arxiv.org/pdf/2601.05241.pdf"
+    },
+    {
+        "名称": "2026 [2601.05167] RelayLLM: Efficient Reasoning via Collaborative Decoding.pdf",
+        "作者": "Chengsong Huang, Tong Zheng, Langlin Huang, Jinyuan Li, Haolin Liu, Jiaxin Huang",
+        "摘要": "摘要：大型语言模型（LLMs）在进行复杂推理时，通常会受到高计算成本和延迟的限制，而资源高效的小型语言模型（SLMs）则通常缺乏必要的推理能力。现有的协同方法，如级联或路由，都是通过将整个查询卸载到LLMs来操作的，这在SLM能够处理大部分推理步骤时，导致了大量的计算浪费。为了解决这个问题，我们提出了RelayLLM，这是一种通过令牌级协同解码进行高效推理的新框架。与路由器不同，RelayLLM使SLM能够作为一个主动控制器，通过一个特殊命令在关键令牌上动态调用LLM，有效地“接力”生成过程。我们引入了一个包括热身和群体相对策略优化（GRPO）的两阶段训练框架，以教会模型在独立性与战略性寻求帮助之间取得平衡。基于六个基准的实证结果表明，RelayLLM平均达到了49.52%的准确率，有效地弥合了这两种模型之间的性能差距。值得注意的是，这仅通过调用LLM占总生成令牌的1.07%，相比于性能匹配的随机路由器，提供了98.2%的成本节约。",
+        "地址": "https://arxiv.org/pdf/2601.05167.pdf"
+    },
+    {
+        "名称": "2026 [2601.04767] AT$^2$PO: Agentic Turn-based Policy Optimization via Tree Search.pdf",
+        "作者": "Zefang Zong, Dingwei Chen, Yang Li, Qi Yi, Bo Zhou, Chengming Li, Bo Qian, Peng Chen, Jie Jiang",
+        "摘要": "摘要：大规模语言模型（LLM）代理已经成为处理多回合任务的强大系统，通过交织内部推理和外部工具交互来应对这些任务。代理式强化学习最近作为一个关键的后训练范式引起了显著的研究关注，用于进一步完善这些能力。在本文中，我们提出AT$^2$PO（基于树搜索的代理式回合策略优化），这是一个统一的多回合代理式强化学习框架，解决了三个核心挑战：有限的探索多样性、稀疏的信用分配和政策优化不一致。AT$^2$PO引入回合级树结构，联合实现熵导向的树扩展以进行战略探索和回合级信用分配以从稀疏的结果中进行细粒度的奖励传播。与此相辅相成的是，我们提出了代理式回合策略优化，这是一个回合级学习目标，使政策更新与代理交互的自然决策粒度对齐。ATPO是正交于树搜索的，可以轻松集成到任何多回合强化学习管道中。基于七个基准测试的实验表明，平均超过当前最先进的基线改善了最多1.84个百分点，消融研究验证了每个组件的有效性。我们的代码可在这个URL获取。",
+        "地址": "https://arxiv.org/pdf/2601.04767.pdf"
+    },
+    {
+        "名称": "2025 [2512.21815] Few Tokens Matter: Entropy Guided Attacks on Vision-Language Models.pdf",
+        "作者": "Mengqi He, Xinyu Tian, Xin Shen, Jinhong Ni, Shu Zou, Zhaoyuan Yang, Jing Zhang",
+        "摘要": "摘要：视觉-语言模型（VLMs）取得了显著的性能，但仍易受对抗性攻击的影响。熵作为模型不确定性的度量，与VLM的可靠性强相关。此前基于熵的攻击在所有解码步骤中最大化不确定性，隐含假设每个标记对生成不稳定性的贡献相等。我们表明，相反，一小部分（约20%）高熵标记，即自回归生成中的关键决策点，不成比例地决定了输出轨迹。通过集中对这些位置进行对抗性扰动，我们在使用较小预算的情况下，达到了与全局方法相当的语义退化效果。更重要的是，在多个代表性VLM中，这种选择性攻击使35-49%的良性输出转化为有害输出，暴露出了更关键的安全风险。值得注意的是，这些易受攻击的高熵分叉在架构上多样的VLM中重复出现，使得可行的迁移性成为可能（在未见目标上有17-26%的有害率）。受这些发现的激励，我们提出了熵库引导对抗性攻击（EGA），实现了竞争性的攻击成功率（93-95%）以及高有害转化率，从而揭示了当前VLM安全机制的新弱点。",
+        "地址": "https://arxiv.org/pdf/2512.21815.pdf"
+    },
+    {
+        "名称": "2026 [2601.05175] VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice.pdf",
+        "作者": "Shuming Liu, Mingchen Zhuge, Changsheng Zhao, Jun Chen, Lemeng Wu, Zechun Liu, Chenchen Zhu, Zhipeng Cai, Chong Zhou, Haozhe Liu, Ernie Chang, Saksham Suri, Hongyu Xu, Qi Qian, Wei Wen, Balakrishnan Varadarajan, Zhuang Liu, Hu Xu, Florian Bordes, Raghuraman Krishnamoorthi, Bernard Ghanem, Vikas Chandra, Yunyang Xiong",
+        "摘要": "摘要: 链式思维推理作为一种强大的工具已经在视频理解任务的多模态大规模语言模型中脱颖而出。然而，其必要性及优于直接回答的优势尚未被深入探讨。在本文中，我们首先展示了，对于经过强化学习训练的视频模型，直接回答往往能与链式思维表现匹敌甚至超越，尽管链式思维产生逐步分析需要更高的计算成本。受此启发，我们提出了VideoAuto-R1，一个采用必要时推理策略的视频理解框架。在训练过程中，我们的方法遵循一次思考，两次回答的范式:模型首先生成初步答案，然后进行推理，最后输出经过审查的答案。两个答案均通过可验证的奖励进行监督。在推理过程中，模型使用初步答案的置信度得分来决定是否需要进行推理。在视频问答和定位基准测试中，VideoAuto-R1实现了最先进的准确性，并显著提高了效率，将平均响应长度减少了约3.3倍，例如从149减少到仅44个标记。此外，我们观察到在感知导向任务中，思考模式激活率较低，而在推理密集任务中激活率较高。这表明显式基于语言的推理通常是有益的，但并不总是必要的。",
+        "地址": "https://arxiv.org/pdf/2601.05175.pdf"
+    },
+    {
+        "名称": "2026 [2601.05138] VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control.pdf",
+        "作者": "Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, Yanwei Fu",
+        "摘要": "摘要：视频世界模型旨在模拟动态的真实环境，但现有方法在摄像机和多物体运动的统一和精确控制方面存在困难，因为视频本质上是在投影的2D图像平面上操作动态。为了解决这一问题，我们引入了VerseCrafter，这是一种能够在统一的4D几何世界状态下对摄像机和物体动态进行显式且连贯控制的4D感知视频世界模型。我们的方法中心是一种新颖的4D几何控制表示，它通过静态背景点云和每个物体的3D高斯轨迹来编码世界状态。这种表示不仅捕捉了物体的路径，还捕捉了其随时间的概率3D占用，为刚性边界框或参数模型提供了一种灵活的、类别无关的替代方案。这些4D控制被渲染为预训练视频扩散模型的条件信号，从而生成高保真、视图一致的视频，精确地遵循指定的动态。不幸的是，另一个主要挑战在于缺乏具有明确4D标注的大规模训练数据。我们通过开发一个自动数据引擎来解决这个问题，该引擎从自然视频中提取所需的4D控制，使我们能够在庞大且多样化的数据集上训练我们的模型。\n\n翻译：\n摘要：视频世界模型旨在模拟动态的真实世界环境，但现有方法在摄像机和多物体运动的统一且精确控制上存在困难，因为视频本质上在投影的2D图像平面上操作动态。为弥合这一差距，我们引入了VerseCrafter，这是一种4D感知视频世界模型，使得能够在统一的4D几何世界状态中对摄像机和物体动态进行显式且连贯的控制。我们的方法以一种新颖的4D几何控制表示为核心，该表示通过静态背景点云和每个物体的3D高斯轨迹来编码世界状态。这种表示不仅捕捉了物体的路径，还捕捉了其随时间变化的概率3D占用，为刚性边界框或参数模型提供了一种灵活、与特定类别无关的替代方案。这些4D控制被渲染为预训练视频扩散模型的条件信号，从而生成高保真、视图一致的视频，精确地遵循指定的动态。不幸的是，另一个主要挑战在于缺乏具有明确4D标注的大规模训练数据。我们通过开发一个自动数据引擎来解决这一问题，该引擎从自然视频中提取所需的4D控制，使我们能够在庞大且多样化的数据集上训练我们的模型。",
+        "地址": "https://arxiv.org/pdf/2601.05138.pdf"
+    },
+    {
+        "名称": "2026 [2601.03425] The Illusion of Specialization: Unveiling the Domain-Invariant \"Standing Committee\" in Mixture-of-Experts Models.pdf",
+        "作者": "Yan Wang, Yitao Xu, Nanhan Shen, Jinyan Su, Jimin Huang, Zining Zhu",
+        "摘要": "摘要: 专家混合模型广泛被认为通过稀疏路由实现领域专门化。在这项工作中，我们引入了COMMITTEEAUDIT，这是一个事后框架，分析专家组而非单个专家的路由行为。通过对三个代表性模型和MMLU基准的分析，我们发现了一个领域不变的常设委员会。这个常设委员会是一个紧凑的专家联盟，在不同领域、层次和路由预算下始终捕获大部分的路由量，即使在模型架构中已经包含共享专家的情况下也是如此。定性分析进一步表明，常设委员会锚定了推理结构和语法，而外围专家处理领域特定的知识。这些发现揭示了对集中计算的强烈结构偏向，表明在专家混合模型中的专门化远没有普遍认为的那样广泛。这种内在的偏差也表明，目前的训练目标，如强制均匀专家利用率的负载平衡损失，可能与模型的自然优化路径相悖，从而限制了训练效率和性能。\n\n作者: 王岩，徐一涛，沈南汉，苏锦焱，黄济民，朱子宁\n\n评论: 16页，10张图\n\n链接: [https://arxiv.org/pdf/2601.03425.pdf](https://arxiv.org/pdf/2601.03425.pdf)\n\n标题: 2026 [2601.03425] 专门化的假象：揭示在专家混合模型中的领域不变的 \"常设委员会\"",
+        "地址": "https://arxiv.org/pdf/2601.03425.pdf"
+    },
+    {
+        "名称": "2026 [2601.05239] Plenoptic Video Generation.pdf",
+        "作者": "Xiao Fu, Shitao Tang, Min Shi, Xian Liu, Jinwei Gu, Ming-Yu Liu, Dahua Lin, Chen-Hsuan Lin",
+        "摘要": "摘要：尽管相机控制的生成视频再渲染方法（例如ReCamMaster）在单视图设置中取得了显著进展，但在多视图场景中保持一致性仍然具有挑战性。生成模型的固有随机性使得在虚构区域中确保时空一致性变得困难。为了解决这一问题，我们提出了PlenopticDreamer框架，该框架通过同步生成的幻觉以保持时空记忆。其核心思想是在自回归方式下训练一个多输入单输出视频条件模型，并通过一个相机引导的视频检索策略自适应地选择之前生成的显著视频作为条件输入。此外，我们的训练过程引入了渐进式上下文缩放以改善收敛，自我条件以增强抵抗误差积累导致的远程视觉退化的鲁棒性，并采用长视频条件机制以支持延长的视频生成。基于Basic和Agibot基准的广泛实验表明，PlenopticDreamer在视频再渲染方面达到了最新水平，提供了卓越的视图同步、高保真视觉效果、准确的相机控制及多样的视图转换（例如，在机器人操作中从第三视角到第三视角以及从头部视角到抓取器视角）。",
+        "地址": "https://arxiv.org/pdf/2601.05239.pdf"
+    },
+    {
+        "名称": "2026 [2601.05111] Agent-as-a-Judge.pdf",
+        "作者": "Runyang You, Hongru Cai, Caiqi Zhang, Qiancheng Xu, Meng Liu, Tiezheng Yu, Yongqi Li, Wenjie Li",
+        "摘要": "摘要：LLM-as-a-Judge通过利用大规模语言模型进行可扩展评估，彻底改变了AI评估。然而，随着被评估对象变得越来越复杂、专业化和多步骤，LLM-as-a-Judge的可靠性受到了内在偏见、浅层单次推理以及无法根据现实观察验证评估结果的限制。这促使了向Agent-as-a-Judge的转变，其中代理评判者采用规划、工具增强验证、多代理协作和持久记忆，以实现更强大、可验证和细致的评估。尽管代理评估系统迅速普及，该领域仍缺乏统一的框架来驾驭这一变化的格局。为弥补这一差距，我们提供了首个全面调查，追踪了这一演变过程。具体而言，我们确定了这一范式转变的关键维度，并建立了发展分类法。我们整理了核心方法，调查了在通用和专业领域中的应用。此外，我们分析了前沿挑战并确定了有前景的研究方向，最终为新一代代理评估提供了明确的路线图。",
+        "地址": "https://arxiv.org/pdf/2601.05111.pdf"
+    },
+    {
+        "名称": "2026 [2601.05172] CoV: Chain-of-View Prompting for Spatial Reasoning.pdf",
+        "作者": "Haoyu Zhao, Akide Liu, Zeyu Zhang, Weijie Wang, Feng Chen, Ruihan Zhu, Gholamreza Haffari, Bohan Zhuang",
+        "摘要": "摘要（翻译为中文）：\n\n三维环境中的具身问答（Embodied Question Answering, EQA）通常需要从多个视点收集分布式且部分被遮挡的上下文。然而，最近的大多数视觉-语言模型（Vision-Language Models, VLMs）被限制在一组固定且有限的输入视图上，这限制了它们在推理时获取与问题相关的上下文的能力，并阻碍了复杂的空间推理。我们提出了Chain-of-View（CoV）提示，一种无需训练的测试时推理框架，通过粗到细的探索过程，将VLM转变为一个主动视点推理器。CoV首先使用视图选择代理滤除冗余帧并识别与问题对齐的锚视图。然后，通过交替的迭代推理与离散相机动作进行细粒度视图调整，从底层3D场景表示中获取新观测，直到收集到足够的上下文或达到步长限制。\n\n我们在OpenEQA上评估了CoV在四个主流VLM上的表现，LLM-Match平均提升11.56%，在Qwen3-VL-Flash上最大提升13.62%。CoV还展现了测试时的扩展性：增加最小动作预算带来了额外的平均2.51%的提升，在Gemini-2.5-Flash上峰值提升至3.73%。在ScanQA和SQA3D上，CoV表现出强劲的性能（例如，在ScanQA上116 CIDEr / 31.9 EM@1，在SQA3D上51.1 EM@1）。总体上，这些结果表明，与问题对齐的视图选择结合开放视图搜索是改善3D EQA中的空间推理的一种有效的、与模型无关的策略，无需额外训练。",
+        "地址": "https://arxiv.org/pdf/2601.05172.pdf"
+    },
+    {
+        "名称": "2026 [2601.05163] DocDancer: Towards Agentic Document-Grounded Information Seeking.pdf",
+        "作者": "Qintong Zhang, Xinjie Lv, Jialong Wu, Baixuan Li, Zhengwei Tao, Guochen Yan, Huanyao Zhang, Bin Wang, Jiahao Xu, Haitao Mi, Wentao Zhang",
+        "摘要": "摘要: 文档问答（DocQA）专注于回答基于给定文档的问题，但现有的DocQA代理缺乏有效的工具利用，并且在很大程度上依赖于闭源模型。在这项工作中，我们介绍了DocDancer，这是一种端到端训练的开源Doc代理。我们将DocQA定义为一个信息寻求问题，并提出了一种工具驱动的代理框架，该框架明确建模文档的探索和理解。为了实现这种代理的端到端训练，我们引入了一个“先探索后综合”的数据综合流程，以解决高质量DocQA训练数据稀缺的问题。在合成数据上的训练，在两个长上下文文档理解基准MMLongBench-Doc和DocBench上的训练模型显示了它们的有效性。进一步的分析为代理工具设计和合成数据提供了宝贵的见解。\n\n作者: 张琼桐，吕新捷，吴佳龙，李百轩，陶正伟，颜国臣，张焕尧，王斌，徐嘉豪，米海涛，张文韬\n\n链接: [https://arxiv.org/pdf/2601.05163.pdf](https://arxiv.org/pdf/2601.05163.pdf)\n\n标题: 2026 [2601.05163] DocDancer: 朝向基于文档的信息寻求代理模型",
+        "地址": "https://arxiv.org/pdf/2601.05163.pdf"
+    },
+    {
+        "名称": "2026 [2601.05124] Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation and Editing.pdf",
+        "作者": "Runze He, Yiji Cheng, Tiankai Hang, Zhimin Li, Yu Xu, Zijin Yin, Shiyi Zhang, Wenxun Dai, Penghui Du, Ao Ma, Chunyu Wang, Qinglin Lu, Jizhong Han, Jiao Dai",
+        "摘要": "摘要：情境图像生成和编辑（ICGE）使用户能够通过交错的图像-文本提示来指定视觉概念，要求对用户意图有精确的理解和忠实的执行。尽管最近的统一多模态模型表现出令人期待的理解能力，但这些优势经常无法有效转移到图像生成上。我们介绍了Re-Align，这是一种通过结构化推理指导的对齐框架来弥合理解和生成之间差距的统一框架。其核心是情境链式思维（IC-CoT），这是一种结构化推理范式，它解耦了语义指导和参考关联，提供了清晰的文本目标并减轻了参考图像之间的混淆。此外，Re-Align引入了一种有效的RL训练方案，利用代理奖励来衡量结构化推理文本与生成图像之间的对齐，从而提高了模型在ICGE任务中的整体性能。广泛的实验验证了Re-Align在可比模型规模和资源的情况下，在情境图像生成和编辑任务上优于竞争方法。\n\n翻译：情境图像生成和编辑（ICGE）使用户能够通过交错的图像-文本提示来指定视觉概念，对用户意图的精确理解和忠实执行要求很高。尽管最近的统一多模态模型展现了有前景的理解能力，但这些优势常常不能有效地转移到图像生成领域。我们提出了Re-Align，这是一种通过结构化推理指导对齐来桥接理解和生成之间差距的统一框架。其核心在于情境链式思维（IC-CoT），一种解耦语义指导和参考关联的结构化推理范式，提供了明确的文本目标，从而减轻了参考图像之间的混淆。与此同时，Re-Align引入了一种有效的RL训练方案，通过代理奖励来衡量结构化推理文本与生成图像之间的对齐，从而提高了模型在ICGE任务中的整体性能。广泛的实验证明，在可比的模型规模和资源条件下，Re-Align在情境图像生成和编辑任务上优于其他竞争方法。",
+        "地址": "https://arxiv.org/pdf/2601.05124.pdf"
+    },
+    {
+        "名称": "2026 [2601.03559] DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs.pdf",
+        "作者": "Shidong Cao, Hongzhan Lin, Yuxuan Gu, Ziyang Luo, Jing Ma",
+        "摘要": "摘要: Chain-of-Thought (CoT) 推理可以改善大型语言模型在多步骤数学问题解决中的表现，但容易受到暴露偏差和错误积累的影响，因为早期的错误通过自回归解码不可逆地传播。在这项工作中，我们提出了DiffCoT，一种扩散风格的CoT框架，将CoT推理重新表述为迭代去噪过程。DiffCoT通过滑动窗口机制在推理步骤级别上整合了扩散原理，实现了中间步骤的统一生成和回顾性校正，同时保留了标记级别的自回归。为了保持因果一致性，我们进一步引入了符合推理链时间结构的因果扩散噪声安排。在三个多步骤CoT推理基准测试中的广泛实验表明，DiffCoT在各种模型基础上始终优于现有的CoT偏好优化方法，表现出在CoT推理中的更强鲁棒性和错误校正能力。",
+        "地址": "https://arxiv.org/pdf/2601.03559.pdf"
+    },
+    {
+        "名称": "2026 [2601.04754] ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting.pdf",
+        "作者": "Yen-Jen Chiou, Wei-Tse Cheng, Yuan-Fu Yang",
+        "摘要": "摘要：本文提出了ProFuse，一种高效的上下文感知框架，用于使用3D高斯喷射（3DGS）进行开放词汇的3D场景理解。该流程在直接配准设置中增强了跨视图一致性和掩码内凝聚力，增加了最小的开销且无需渲染监督的微调。我们引入了一个密集的对应引导预配准阶段，初始高斯具有精确的几何形状，同时通过跨视图聚类共同构建3D上下文建议。每个提议通过成员嵌入的加权聚合获得全局特征，这些特征在直接配准过程中融合到高斯上，以在视图之间保持每个原语的语言一致性。由于关联提前建立，语义融合不需要标准重建之外的额外优化，模型在不加密的情况下保持几何细化。ProFuse在大约五分钟内完成每个场景的语义附加，实现了强大的开放词汇3DGS理解，比最新的技术状态（SOTA）快两倍。\n\n翻译：本文提出了ProFuse，一种高效的上下文感知框架，用于使用3D高斯喷射（3DGS）进行开放词汇的3D场景理解。该流程增强了跨视图一致性和掩码内凝聚力，增加了最小的开销且无需渲染监督的微调。我们引入了一个密集的对应引导预配准阶段，使用准确的几何初始化高斯，同时通过跨视图聚类共同构建3D上下文建议。每个提议通过成员嵌入的加权聚合获得全局特征，这些特征在直接配准过程中被融合到高斯上，以在视图之间保持每个原语的语言一致性。由于关联提前建立，语义融合不需要标准重建之外的额外优化，且模型在不增加密度的情况下保持几何细化。ProFuse可以在大约五分钟内完成每个场景的语义附加，实现了强大的开放词汇3DGS理解，其速度是当前最新技术状态（SOTA）的两倍。",
+        "地址": "https://arxiv.org/pdf/2601.04754.pdf"
+    },
+    {
+        "名称": "2026 [2601.03362] Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views.pdf",
+        "作者": "Xiang Zhang, Yang Zhang, Lukas Mehl, Markus Gross, Christopher Schroers",
+        "摘要": "摘要：像细毛这样的软边界在自然和计算生成的图像中很常见，但由于前景和背景线索的不明混合，它们在3D视觉中仍然具有挑战性。本文介绍了HairGuard，这是一种旨在恢复3D视觉任务中精细软边界细节的框架。具体来说，我们首先提出了一种新的数据管理流程，利用图像抠图数据集进行训练，并设计了一个深度修复网络，自动识别软边界区域。通过门控残差模块，深度修复器能够精确地在软边界周围优化深度，同时保持全局深度质量，从而允许与最先进的深度模型即插即用集成。在视图合成方面，我们执行基于深度的前向扭曲以保留高保真纹理，接着是生成场景绘制器填充未遮挡区域并消除软边界内的多余背景伪影。最后，颜色融合器自适应地结合扭曲和修复的结果，产生具有一致几何和精细细节的新视图。大量实验表明，HairGuard在单目深度估计、立体图像/视频转换和新视图合成中实现了最先进的性能，并在软边界区域显著提升。",
+        "地址": "https://arxiv.org/pdf/2601.03362.pdf"
+    },
+    {
+        "名称": "2026 [2601.03111] One Sample to Rule Them All: Extreme Data Efficiency in RL Scaling.pdf",
+        "作者": "Yiyuan Li, Zhen Huang, Yanan Wu, Weixun Wang, Xuefeng Li, Yijia Luo, Wenbo Su, Bo Zheng, Pengfei Liu",
+        "摘要": "摘要: 大型语言模型（LLMs）的推理能力可以通过强化学习（RL）得到释放（OpenAI, 2024; DeepSeek-AI等, 2025a; Zeng等, 2025）。现有的在LLMs中尝试RL通常依赖于数千个或更多高质量样本。在本文中，我们通过展示一次学习的一次学习的显著效果来挑战RL数据需求的基本假设。具体而言，我们引入了博学学习，这是一个设计一个训练样本以激发多学科影响的框架。我们提出了三个关键发现：（1）一个经过战略性选择的数学推理样本可以通过RL在物理、化学和生物学等多个领域产生显著的性能提高；（2）数学推理的显著技能表明了最佳博学样本的特征；（3）一个集成了多学科元素的合成样本比使用自然发生的单一样本训练的效果更优。我们的方法在各种推理基准上实现了优于使用较大数据集训练的卓越性能，表明样本的质量和设计而不是数量可能是释放语言模型增强推理能力的关键。我们的结果表明一种转变，即样本工程，向着训练样本的精确工程而不是简单地增加数据量。",
+        "地址": "https://arxiv.org/pdf/2601.03111.pdf"
+    },
+    {
+        "名称": "2025 [2512.23628] Memorization in 3D Shape Generation: An Empirical Study.pdf",
+        "作者": "Shu Pu, Boya Zeng, Kaichen Zhou, Mengyu Wang, Zhuang Liu",
+        "摘要": "摘要：生成模型越来越多地用于3D视觉中以合成新形状，但其生成是否依赖于记忆训练形状仍不清楚。理解其记忆过程有助于防止训练数据泄露并提高生成结果的多样性。在本文中，我们设计了一个评估框架来量化3D生成模型中的记忆，并研究不同数据和建模设计对记忆的影响。我们首先应用我们的框架来量化现有方法中的记忆。接下来，通过对潜向量集（Vecset）扩散模型的控制实验，我们发现，在数据方面，记忆依赖于数据模态，并随着数据多样性和更细粒度条件的增加而增加；在建模方面，它在适度的引导尺度上达到峰值，并可以通过更长的Vecset和简单的旋转增强来减轻。我们的框架和分析共同提供了对3D生成模型中记忆的经验理解，并提出了简单而有效的策略来减少记忆而不降低生成质量。我们的代码可以在这个网址找到。",
+        "地址": "https://arxiv.org/pdf/2512.23628.pdf"
+    },
+    {
+        "名称": "2026 [2601.05149] Multi-Scale Local Speculative Decoding for Image Generation.pdf",
+        "作者": "Elia Peruzzo, Guillaume Sautière, Amirhossein Habibian",
+        "摘要": "摘要: 自回归（AR）模型在图像合成方面取得了显著成功，但其顺序性质带来了显著的延迟限制。推测解码为加速提供了一个有希望的途径，但现有方法因标记级别的模糊性和缺乏空间感知而受到限制。在这项工作中，我们引入了多尺度局部推测解码（MuLo-SD），这是一种结合多分辨率草稿和空间感知验证的新框架，用于加速AR图像生成。我们的方法利用一个低分辨率草稿生成器与学习的升采样器配对来提出候选图像标记，然后由一个高分辨率目标模型并行验证。最重要的是，我们引入了局部拒绝和重采样机制，通过关注空间邻域而非在首次拒绝后的光栅扫描重采样，能够有效纠正草稿错误。我们证明MuLo-SD实现了显著的加速——最高达到$1.7\\\\times$，在加速方面优于强大的推测解码基准，如EAGLE-2和LANTERN，同时保持可比的语义对齐和感知质量。这些结果通过使用GenEval、DPG-Bench和MS-COCO 5k验证集上的FID/HPSv2得到验证。广泛的消融研究突出了升采样设计、概率池化以及带有邻域扩展的局部拒绝和重采样的影响。我们的方法在图像合成的推测解码方面设立了新的最先进水平，弥合了效率与保真度之间的差距。",
+        "地址": "https://arxiv.org/pdf/2601.05149.pdf"
+    },
+    {
+        "名称": "2026 [2601.04792] PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference.pdf",
+        "作者": "Denis Korzhenkov, Adil Karjauv, Animesh Karnewar, Mohsen Ghafoorian, Amirhossein Habibian",
+        "摘要": "摘要：最近提出的金字塔模型将传统的正向和反向扩散过程分解为在不同分辨率下操作的多个阶段。这些模型在较低分辨率下处理具有较高噪声水平的输入，而在较高分辨率下处理噪声较小的输入。这种分层方法显著降低了多步骤去噪模型的推理计算成本。然而，现有的开源金字塔视频模型都是从头开始训练的，在视觉逼真度方面往往表现不如最先进的系统。在这项工作中，我们提出了一种通过低成本微调将预训练扩散模型转换为金字塔模型的管道，实现这种转换而不降低输出视频质量。此外，我们探讨并比较了金字塔模型中各步骤蒸馏的各种策略，旨在进一步提高推理效率。我们的结果可以在本文URL处查看。",
+        "地址": "https://arxiv.org/pdf/2601.04792.pdf"
+    },
+    {
+        "名称": "2026 [2601.04620] AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering.pdf",
+        "作者": "Di Zhang",
+        "摘要": "摘要：最近在大语言模型（LLM）代理方面的进展主要集中在为代理嵌入自我改进机制或在许多并发变体上进行搜索。虽然这些方法可以提高总体得分，但它们通常会导致不稳定且难以审计的改进轨迹，从而难以保证不回归或推理版本间的故障。我们将代理改进重新定义为发布工程：代理被视为可交付的工件，改进被外化为一个感知回归的发布流程。我们引入了AgentDevel，一个发布工程流程，它通过可执行诊断生成单个发布候选（RC），并在翻转中心门控下促进其发布，从而迭代地运行当前代理，生成来自执行踪迹的实施盲症状级质量信号。AgentDevel具有三个核心设计：（i）一个实施盲LLM评论员，在不访问代理内部的情况下描述故障外观，（ii）基于脚本的可执行诊断，汇总主要症状模式并生成可审计的工程规范，以及（iii）翻转中心门控，将优先从成功到失败的回归和从失败到成功的修复作为一等证据。与基于种群的搜索或在代理内部的自我优化不同，AgentDevel保持了单一的规范版本线，并强调不回归作为主要目标。在执行繁重的基准测试上的实验表明，AgentDevel以显著较少的回归带来了稳定的改进，同时生成了可重复、可审计的工件。总的来说，AgentDevel为构建、调试和发布LLM代理提供了一种实际的发展规范。\n\n原文链接：[AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering](https://arxiv.org/pdf/2601.04620.pdf)",
+        "地址": "https://arxiv.org/pdf/2601.04620.pdf"
+    },
+    {
+        "名称": "2026 [2601.04575] Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing.pdf",
+        "作者": "Yuguang Yue, Irakli Salia, Samuel Hunt, Chris Green, Wenzhe Shi, Jonathan J Hunt",
+        "摘要": "摘要：行为克隆由于在模型和数据规模扩展上的成功，成为了许多感兴趣任务的有力起点。在这项工作中，我们介绍了一种用于训练实时在消费者GPU上进行推理的视频游戏基础模型的开放配方。我们发布了所有数据（超过8300小时的高质量人类游戏），训练和推理代码，以及在开放许可下的预训练检查点。我们展示了我们最好的模型能够以与人类游戏水平相近的水平玩多种3D视频游戏。我们使用这一配方系统地研究行为克隆的扩展规律，以理解模型的性能和因果推理如何随着模型和数据的规模变化。我们首先在一个简单的玩具问题中展示了，对于某些类型的因果推理，增加训练数据量和网络深度会使模型学习更具因果性的策略。然后我们系统地研究了在多达12亿参数的扩展模型中，因果性如何随着参数（和深度）和训练步数的变化而变化，我们发现了与玩具问题中类似的扩展结果。\n\n翻译后的摘要：\n行为克隆因模型和数据规模的扩展而重新受到欢迎，成为许多任务的强有力起点。在这项工作中，我们介绍了一种用于训练可以在消费者GPU上进行实时推理的视频游戏基础模型的开放配方。我们在开放许可下发布了所有数据（8300多小时的高质量人类游戏）、训练和推理代码，以及预训练的检查点。我们展示了我们最好的模型能够以与人类游戏水平相当的水平玩各种3D视频游戏。我们使用这一配方系统地研究了行为克隆的扩展规律，理解模型性能和因果推理如何随着模型和数据规模的变化而变化。我们首先在一个简单的玩具问题中展示了，对于某些类型的因果推理，增加训练数据量和网络深度会使模型学习到更多因果性策略。然后，我们系统地研究了多达12亿参数的扩展模型中因果性如何随着参数（和深度）以及训练步骤的变化而变化，发现了与玩具问题中类似的扩展结果。",
+        "地址": "https://arxiv.org/pdf/2601.04575.pdf"
+    },
+    {
+        "名称": "2026 [2601.04342] ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers.pdf",
+        "作者": "Mohsen Ghafoorian, Amirhossein Habibian",
+        "摘要": "摘要：最近视频扩散模型的发展已经转向了基于transformer的架构，虽然达到了视频生成的最新水平，但代价是二次注意力复杂度，严重限制了更长序列的可扩展性。我们引入了ReHyAt，一种结合了softmax注意力高保真度与线性注意力高效性的递归混合注意力机制，实现了分块递归重构和恒定内存使用。与同时期仅使用线性注意力的SANA Video不同，ReHyAt的混合设计允许从现有的基于softmax的模型进行有效的蒸馏，将训练成本降低了两个数量级至大约160个GPU小时，同时在质量上具有竞争力。我们轻量级的蒸馏和微调管道提供了一种可以应用于未来最先进的双向softmax基础模型的配方。在VBench和VBench-2.0上的实验以及一项人类偏好研究表明，ReHyAt在实现了最先进视频质量的同时，将注意力成本从二次降低到线性，从而解锁了长时间和设备上视频生成的实际可扩展性。项目页面可通过此链接访问。\n\n项目页面链接: https://arxiv.org/pdf/2601.04342.pdf",
+        "地址": "https://arxiv.org/pdf/2601.04342.pdf"
+    },
+    {
+        "名称": "2026 [2601.04300] Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes.pdf",
+        "作者": "Chenye Meng, Zejian Li, Zhongni Liu, Yize Li, Changle Xie, Kaixin Jia, Ling Yang, Huanghuang Deng, Shiying Ding, Shengyuan Zhang, Jiayi Li, Lingyun Sun",
+        "摘要": "摘要: 训练后对扩散模型进行对齐依赖于简化的信号，例如标量奖励或二元偏好。这限制了与复杂的、层次分明的、细粒度的人类专业知识对齐。为了解决这个问题，我们首先与领域专家构建了一个分层的、细粒度的评价标准，将图像质量分解为多个正面和负面属性，并组织成树状结构。在此基础上，我们提出了一个两阶段对齐框架。首先，我们通过监督微调将领域知识注入一个辅助扩散模型。其次，我们引入了复杂偏好优化 (CPO)，扩展了 DPO 以将目标扩散对齐到我们的非二元分层标准。具体而言，我们将对齐问题重新表述为在辅助扩散模型中同时最大化正面属性的概率并最小化负面属性的概率。我们在绘画生成领域实例化了我们的方法，并基于我们的标准对带有细粒度属性的标注绘画数据集进行了CPO训练。广泛的实验表明，CPO显著提高了生成质量和与专业知识的对齐，开辟了细粒度标准对齐的新途径。",
+        "地址": "https://arxiv.org/pdf/2601.04300.pdf"
+    },
+    {
+        "名称": "2026 [2601.02016] Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach.pdf",
+        "作者": "Matthias Bartolo, Dylan Seychell, Gabriel Hili, Matthew Montebello, Carl James Debono, Saviour Formosa, Konstantinos Makantasis",
+        "摘要": "摘要：本文研究了在目标检测中融合使用特权信息（LUPI）范式，以利用训练过程中可用但在推理时不可获取的细粒度描述信息。我们引入了一种通用的、与特定模型无关的方法，通过教师-学生架构将特权信息（如边界框掩码、显著性图和深度线索）注入基于深度学习的目标检测器。在五种最先进的目标检测模型和多个公共基准（包括基于无人机的垃圾检测数据集和Pascal VOC 2012）上进行实验，以评估其对准确性、泛化能力和计算效率的影响。结果表明，LUPI训练的学生模型在检测准确性上始终优于其基线模型，且在推理复杂性或模型大小不增加的情况下实现了显著提升。改进在中等和大型物体检测中尤为显著，而消融研究表明，教师指导的中间加权能够最佳地平衡从特权和标准输入中学习的效果。研究结果确认LUPI框架为在资源受限和实际应用环境中优化目标检测系统提供了一种有效且实用的策略。\n\n作者：Matthias Bartolo, Dylan Seychell, Gabriel Hili, Matthew Montebello, Carl James Debono, Saviour Formosa, Konstantinos Makantasis\n\n注释：代码可在GitHub上获得：详见链接\n\n链接：https://arxiv.org/pdf/2601.02016.pdf",
+        "地址": "https://arxiv.org/pdf/2601.02016.pdf"
+    },
+    {
+        "名称": "2026 [2601.05125] VERSE: Visual Embedding Reduction and Space Exploration. Clustering-Guided Insights for Training Data Enhancement in Visually-Rich Document Understanding.pdf",
+        "作者": "Ignacio de Rodrigo, Alvaro J. Lopez-Lopez, Jaime Boal",
+        "摘要": "摘要：该研究引入了VERSE，这是一种通过探索视觉嵌入空间来分析和改进应用于视觉丰富文档理解的视觉-语言模型的方法。VERSE使潜在表示的可视化成为可能，支持模型可行性的评估。它还促进了问题区域的识别，并指导生成合成数据以增强这些区域的性能。我们通过在合成的MERIT数据集上训练并在其真实世界对应物MERIT Secret上进行评估验证了该方法。结果表明，VERSE有助于发现与易出错群相关的视觉特征，并且通过包含这些特征的样本进行重新训练大大提高了F1性能而不会降低泛化性能。此外，我们证明了像Donut和Idefics2这样的本地模型在使用VERSE进行优化时，其性能可以媲美甚至超过SaaS解决方案如GPT-4和Pixtral。\n\n翻译：\nIgnacio de Rodrigo, Alvaro J. Lopez-Lopez, Jaime Boal（作者）\nURL：https://arxiv.org/pdf/2601.05125.pdf\n标题：2026 [2601.05125] VERSE: Visual Embedding Reduction and Space Exploration. Clustering-Guided Insights for Training Data Enhancement in Visually-Rich Document Understanding.pdf",
+        "地址": "https://arxiv.org/pdf/2601.05125.pdf"
+    },
+    {
+        "名称": "2026 [2601.02702] Learning User Preferences Through Interaction for Long-Term Collaboration.pdf",
+        "作者": "Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür",
+        "摘要": "摘要: 随着会话代理积累与用户合作的经验，适应用户偏好对于促进长期关系和提高合作质量至关重要。我们介绍了MultiSessionCollab，这是一种评估代理如何学习用户偏好并利用它们在多个会话中提高合作质量的基准。为了开发在这一环境中成功的代理，我们展示了配备有持久的内存并随着交互经验积累精炼用户偏好的长期合作代理。此外，我们证明了可以从MultiSessionCollab中的用户模拟器行为中获得学习信号，以训练代理生成更全面的反思并更有效地更新其内存。大量实验表明，配备内存的代理提高了长期合作的质量，带来了更高的任务成功率、更高效的互动以及减少的用户努力。最后，我们进行了一项人类用户研究，证明了内存有助于在现实环境中改善用户体验。",
+        "地址": "https://arxiv.org/pdf/2601.02702.pdf"
+    },
+    {
+        "名称": "2026 [2601.01887] Safety at One Shot: Patching Fine-Tuned LLMs with A Single Instance.pdf",
+        "作者": "Jiawen Zhang, Lipeng He, Kejia Chen, Jian Lou, Jian Liu, Xiaohu Yang, Ruoxi Jia",
+        "摘要": "摘要（翻译为中文）：\n\n摘要: 对安全对齐的大型语言模型(LLMs)进行微调可能会显著损害其安全性。先前的方法需要大量的安全样本或校准集，这不仅在重新对齐期间会带来显著的计算开销，还会导致模型效用的明显下降。与这一信念相反，我们表明，只需一个安全示例即可完全恢复安全对齐，而无需牺牲效用，并且成本极低。值得注意的是，这种恢复无论在微调中使用的有害示例的数量还是底层模型的大小方面都是有效的，而且收敛仅在几个epochs内就能实现。此外，我们揭示了安全梯度的低秩结构，这解释了为何这样的高效校正是可能的。我们在五个安全对齐的LLMs和多个数据集上验证了我们的发现，展示了我们方法的普遍性。\n\n原标题：2026 [2601.01887]单次安全：使用单一实例修补微调的LLM\n作者：Jiawen Zhang, Lipeng He, Kejia Chen, Jian Lou, Jian Liu, Xiaohu Yang, Ruoxi Jia\nURL: https://arxiv.org/pdf/2601.01887.pdf",
+        "地址": "https://arxiv.org/pdf/2601.01887.pdf"
+    },
+    {
+        "名称": "2026 [2601.04233] LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech Models.pdf",
+        "作者": "Zhiyuan Zhao, Lijian Lin, Ye Zhu, Kai Xie, Yunfei Liu, Yu Li",
+        "摘要": "摘要：我们介绍了LEMAS数据集，据我们所知，这是目前最大的开源多语言语音语料库，包含单词级时间戳。LEMAS数据集覆盖10种主要语言，共超过150,000小时，通过高效的数据处理流水线构建，确保数据和注释的高质量。为了验证LEMAS数据集在不同生成范式中的有效性，我们在此数据集上训练了两个具有不同架构和任务专长的基准模型。LEMAS-TTS基于非自回归流匹配框架，利用数据集的大规模和语言多样性，实现了强大的零样本多语言合成。我们提出的口音对抗训练和CTC损失减轻了跨语言口音问题，增强了合成的稳定性。作为补充，LEMAS-Edit采用自回归的仅解码器架构，将语音编辑形式化为掩码令牌填充任务。通过利用精确的单词级对齐构建训练掩码，并采用自适应解码策略，它实现了顺滑自然过渡的无缝语音编辑。实验结果表明，基于LEMAS数据集训练的模型在合成和编辑性能上均表现出色，证实了该数据集的质量。我们设想这个精细时间戳注释的多语言语料库将推动基于提示的语音生成系统的未来进展。\n\n作者：赵志远，林李健，朱叶，谢凯，刘云飞，李宇\n\n更多信息：Demo页面：https URL\n\n论文地址：https://arxiv.org/pdf/2601.04233.pdf\n\n标题：LEMAS：大型150K小时大规模可扩展多语言音频套件与生成语音模型",
+        "地址": "https://arxiv.org/pdf/2601.04233.pdf"
+    },
+    {
+        "名称": "2025 [2512.24160] Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset.pdf",
+        "作者": "TsaiChing Ni, ZhenQi Chen, YuanFu Yang",
+        "摘要": "摘要：我们提出了IMDD-1M，这是首个包含100万对齐图像-文本对的大规模工业多模态缺陷数据集，旨在促进制造和质量检验中的多模态学习。IMDD-1M包含超过60种材料类别和400多种缺陷类型的高分辨率真实世界缺陷，每个缺陷都配有专家验证的注释和详细说明缺陷位置、严重程度和上下文属性的细粒度文本描述。该数据集支持广泛的应用，包括分类、分割、检索、描述生成和生成建模。基于IMDD-1M，我们从头开始训练了一个基于扩散的视觉语言基础模型，专门针对工业场景设计。该模型作为一个可推广的基础，可通过轻量级微调高效地适应专业领域。只需不足5%的特定任务数据，即可达到可与专用专家模型媲美的性能，这突显了数据高效基础模型适应工业检测和生成的潜力，为可扩展的、领域自适应的和知识基础的制造智能铺平了道路。",
+        "地址": "https://arxiv.org/pdf/2512.24160.pdf"
+    }
+]
