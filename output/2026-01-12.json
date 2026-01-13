@@ -1,0 +1,182 @@
+[
+    {
+        "名称": "2026 [2601.05432] Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization.pdf",
+        "作者": "Yuxiang Ji, Yong Wang, Ziyu Ma, Yiming Hu, Hailang Huang, Xuecai Hu, Guanhua Chen, Liaoni Wu, Xiangxiang Chu",
+        "摘要": "摘要：图像地理定位任务旨在利用视觉线索预测图像在地球上拍摄的位置。现有的大型视觉语言模型（LVLM）方法利用世界知识、链式思维推理和代理能力，但忽视了人类常用的一种策略——使用地图。在这项工作中，我们首先为模型配备了“地图思维”能力，并将其形式化为地图内代理循环。我们为其开发了一个两阶段优化方案，包括代理强化学习（RL）和并行测试时扩展（TTS）。RL加强了模型的代理能力，以提高采样效率，并行TTS使模型在做出最终预测前能够探索多个候选路径，这对于地理定位至关重要。为了评估我们的方法在最新的真实世界图像上的表现，我们进一步提出了MAPBench，一个全面的地理定位训练和评估基准，完全由真实世界图像组成。实验结果表明，我们的方法在大多数指标上优于现有的开源和闭源模型，特别是将500米内准确率（Acc@500m）从8.0%提高到22.1%，相较于使用Google搜索/地图模式的Gemini-3-Pro模型。",
+        "地址": "https://arxiv.org/pdf/2601.05432.pdf"
+    },
+    {
+        "名称": "2026 [2601.03017] MMFormalizer: Multimodal Autoformalization in the Wild.pdf",
+        "作者": "Jing Xiong, Qi Han, Yunta Hsieh, Hui Shen, Huajian Xin, Chaofan Tao, Chenyang Zhao, Hengyuan Zhang, Taiqiang Wu, Zhen Zhang, Haochen Wang, Zhongwei Wan, Lingpeng Kong, Ngai Wong",
+        "摘要": "摘要：自动形式化技术将自然语言的数学翻译为正式声明，以实现机器推理。然而，由于物理世界的多模态特性（如物理需要从视觉元素推断隐藏约束，如质量或能量），这一技术在实际应用中面临根本挑战。为解决此问题，我们提出了MMFormalizer，它通过将适应性基础与来自现实世界数学和物理领域的实体集成，将自动形式化扩展到文本之外。MMFormalizer通过递归基础和公理构建，从感知基础原始体中递归构建正式命题，并通过自适应递归终止确保每个抽象由视觉证据支持并且基于维度或公理基础。我们在新的基准PhyX-AF上评估了MMFormalizer，该基准包括来自MathVerse、PhyX、Synthetic Geometry和Analytic Geometry的115个精心挑选的样本，涵盖多种多模态自动形式化任务。结果显示前沿模型如GPT-5和Gemini-3-Pro在编译和语义准确性方面表现最佳，其中GPT-5在物理推理方面表现突出，而几何领域仍是最具挑战性的领域。总体而言，MMFormalizer提供了一个统一多模态自动形式化的可扩展框架，弥合了感知和形式推理的鸿沟。据我们所知，这是第一个能够处理经典力学（源自哈密顿量），以及相对论、量子力学和热力学的多模态自动形式化方法。更多详细信息请访问我们的项目页面：此http网址。\n\n作者：荆雄, 韩琪, 谢云塔, 沈慧, 辛华剑, 陶超凡, 赵晨阳, 张恒源, 吴太强, 张祯, 王浩辰, 万忠伟, 孔令鹏, 王毅\n\n评论：技术报告\n\n链接：https://arxiv.org/pdf/2601.03017.pdf\n\n标题：2026 [2601.03017] MMFormalizer: Multimodal Autoformalization in the Wild.pdf",
+        "地址": "https://arxiv.org/pdf/2601.03017.pdf"
+    },
+    {
+        "名称": "2026 [2601.03319] CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature.pdf",
+        "作者": "Eldad Matmon, Amit Bracha, Noam Rotstein, Ron Kimmel",
+        "摘要": "摘要：介绍了一种面部逼真可控的三维漫画化框架。我们首先采用了一种基于固有高斯曲率的表面夸张技术，当与纹理结合时，往往会产生过度平滑的结果。为了解决这个问题，我们使用3D高斯散点技术（3DGS），该技术最近被证明能生成逼真的自由视点头像。基于多视角序列，我们提取FLAME网格，求解曲率加权泊松方程，并得到其夸张形式。然而，直接变形高斯散点会产生较差的结果，因此需要通过使用局部仿射变换将每一帧变形到其夸张的二维表示来合成伪真实的漫画图像。然后，我们设计了一种交替真实和合成监督的训练方案，使得单个高斯集合能够同时表现自然和夸张的头像。该方案提高了真实度，支持局部编辑，并允许不断地控制漫画的强度。为了实现实时变形，介绍了一种在原始和夸张表面之间的高效插值方法。我们进一步分析并表明该方法与闭形式解具有有限偏差。在定量和定性评价中，我们的结果优于之前的工作，提供了逼真、几何可控的漫画化头像。\n\n翻译：\nEldad Matmon, Amit Bracha, Noam Rotstein, Ron Kimmel\n\n标题：《漫画GS：用高斯曲率夸张3D高斯散点面部》\n\n链接：https://arxiv.org/pdf/2601.03319.pdf",
+        "地址": "https://arxiv.org/pdf/2601.03319.pdf"
+    },
+    {
+        "名称": "2026 [2601.06002] The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning.pdf",
+        "作者": "Qiguang Chen, Yantao Du, Ziniu Li, Jinhao Liu, Songyao Duan, Jiarui Guo, Minghao Liu, Jiaheng Liu, Tong Yang, Ge Zhang, Libo Qin, Wanxiang Che, Wenhao Huang",
+        "摘要": "摘要：大型语言模型（LLMs）在从人类或非长链推理（Long CoT）LLMs模仿中学习有效的长链推理能力方面往往表现不佳。为了理解这一点，我们提出了一个统一的观点，即有效且可学习的长链推理轨迹具有稳定的类分子结构，这些结构是由三种相互作用类型形成的：深度推理（类共价键）、自我反思（类氢键）和自我探索（类范德瓦尔斯力）。通过对蒸馏轨迹的分析表明，这些结构是从Long CoT微调中出现的，而不是通过关键词模仿得来的。我们引入了有效语义异构体，并证明只有促进快速熵收敛的键支持稳定的Long CoT学习，而结构竞争则会损害训练。基于这些发现，我们提出了一种称为Mole-Syn的分布转移图方法，该方法指导有效Long CoT结构的合成，提高了跨基准测试的性能和强化学习的稳定性。",
+        "地址": "https://arxiv.org/pdf/2601.06002.pdf"
+    },
+    {
+        "名称": "2026 [2601.06021] Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards.pdf",
+        "作者": "Jiajie Zhang, Xin Lv, Ling Feng, Lei Hou, Juanzi Li",
+        "摘要": "摘要：强化学习 (RL) 已成为提高基于大规模语言模型 (LLM) 的深度搜索代理的关键技术。然而，现有方法主要依赖二进制结果奖励，这无法捕捉代理推理过程的全面性和事实性，且常导致不良行为如捷径利用和幻觉。为了解决这些限制，我们提出了 \\textbf{Citation-aware Rubric Rewards (CaRR)}，这是一个针对深度搜索代理的细粒度奖励框架，强调推理的全面性、事实基础和证据连接性。CaRR 将复杂问题分解为可验证的单跳评分标准，并要求代理通过显式识别隐藏实体、用正确引用支持这些实体、并构建链接到预测答案的完整证据链来满足这些评分标准。我们进一步提出 \\textbf{Citation-aware Group Relative Policy Optimization (C-GRPO)}，结合 CaRR 和结果奖励来训练强健的深度搜索代理。实验显示，C-GRPO 在多个深度搜索基准上持续优于标准的基于结果的强化学习基线。我们的分析也验证了 C-GRPO 能有效阻止捷径利用，促进全面的、基于证据的推理，并且在开放式深度研究任务中表现出强大的泛化能力。我们的代码和数据可通过此 URL 获得。",
+        "地址": "https://arxiv.org/pdf/2601.06021.pdf"
+    },
+    {
+        "名称": "2026 [2601.05808] EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis.pdf",
+        "作者": "Xiaoshuai Song, Haofei Chang, Guanting Dong, Yutao Zhu, Zhicheng Dou, Ji-Rong Wen",
+        "摘要": "摘要：大语言模型（LLMs）预计会在各种现实环境中作为代理进行训练，但这个过程需要丰富多样的工具交互沙盘。然而，访问真实系统通常受到限制；由LLM模拟的环境容易出现幻觉和不一致；手动构建的沙盘难以扩展。本文提出了一种通过程序合成实现可扩展工具交互环境的自动化框架EnvScaler。EnvScaler包含两个组件。首先，SkelBuilder通过主题挖掘、逻辑建模和质量评估构建多样化的环境骨架。然后，ScenGenerator为每个环境生成多个任务场景和基于规则的轨迹验证函数。使用EnvScaler，我们合成了191个环境和大约7000个场景，并将它们应用于Qwen3系列模型的监督微调（SFT）和强化学习（RL）。在三个基准测试中的结果表明，EnvScaler显著提高了LLMs在涉及多轮、多工具交互的复杂环境中解决任务的能力。我们在此https URL发布了我们的代码和数据。",
+        "地址": "https://arxiv.org/pdf/2601.05808.pdf"
+    },
+    {
+        "名称": "2026 [2601.04720] Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking.pdf",
+        "作者": "Mingxin Li, Yanzhao Zhang, Dingkun Long, Keqin Chen, Sibo Song, Shuai Bai, Zhibo Yang, Pengjun Xie, An Yang, Dayiheng Liu, Jingren Zhou, Junyang Lin",
+        "摘要": "2026年 [2601.04720] Qwen3-VL-Embedding 与 Qwen3-VL-Reranker：统领当前最高水平多模态检索与排序的统一框架.pdf\n\n摘要：在本报告中，我们介绍了Qwen3-VL-Embedding和Qwen3-VL-Reranker模型系列，这是基于Qwen3-VL基础模型的Qwen系列最新扩展。它们共同提供了一个端到端的高精度多模态搜索流程，通过将文本、图像、文档图像和视频等多种模态映射到统一的表示空间。Qwen3-VL-Embedding模型采用多阶段训练范式，从大规模对比预训练到重排序模型蒸馏，生成语义丰富的高维向量。该模型支持Matryoshka表示学习，允许灵活的嵌入维度，并能处理多达32k标记的输入。Qwen3-VL-Reranker则利用交叉编码架构和交叉注意机制对查询-文档对进行细粒度相关性评估。这两个模型系列继承了Qwen3-VL的多语言能力，支持超过30种语言，并以$\\\\textbf{2B}$和$\\\\textbf{8B}$参数规模发布，以适应多样化的部署需求。实证评估显示，Qwen3-VL-Embedding系列在多种多模态嵌入评估基准中取得了最先进的结果。具体而言，Qwen3-VL-Embedding-8B在MMEB-V2上获得了$\\\\textbf{77.8}$的总体得分，截至2025年1月8日，在所有模型中排名第一。本报告介绍了该系列的架构、训练方法和实际能力，展示了它们在图像-文本检索、视觉问答和视频-文本匹配等各种多模态检索任务中的有效性。",
+        "地址": "https://arxiv.org/pdf/2601.04720.pdf"
+    },
+    {
+        "名称": "2026 [2601.05930] Can We Predict Before Executing Machine Learning Agents?.pdf",
+        "作者": "Jingsheng Zheng, Jintian Zhang, Yujie Luo, Yuren Mao, Yunjun Gao, Lun Du, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：自主机器学习代理已经革新了科学发现，但它们仍然受制于生成-执行-反馈范式。先前的方法因假设评估严格依赖于昂贵的物理执行而遭受执行瓶颈。为了绕过这些物理约束，我们将执行先验内化，以即时的预测推理取代成本高昂的运行时检查，借鉴了世界模型的灵感。在这项工作中，我们将任务形式化为以数据为中心的解偏好，并构建了一个包含18,438对比数据的综合语料库。我们展示了当语言模型具备经验证的数据分析报告时，显示出显著的预测能力，达到了61.5%的准确率和稳健的置信校正。最后，我们在FOREAGENT中实现了这一框架，该代理采用先预测再验证的循环，实现了6倍的收敛加速，同时超越了基于执行的基线+6%。我们的代码和数据集将很快在这个URL公开发布。\n\n翻译为中文：\n\n摘要：自主机器学习代理已经革新了科学发现，但它们仍然受制于生成-执行-反馈范式。先前的方法因为假设评估严格依赖于昂贵的物理执行而面临着执行瓶颈。为了绕过这些物理约束，我们通过从世界模型获取灵感，将执行先验内化，以即时预测推理取代昂贵的运行时检查。在这项工作中，我们将任务形式化为以数据为中心的解决方案偏好，并构建了一个包含18,438对比数据的综合语料库。我们展示了，当大型语言模型（LLMs）具备经验证的数据分析报告时，显示出显著的预测能力，达到了61.5%的准确率和稳健的信心校准。最后，我们在FOREAGENT中实现了这一框架，该代理采用预测然后验证的循环，实现了6倍的收敛加速，同时超越了基于执行的基线性能+6%。我们的代码和数据集将很快在此URL公开发布。",
+        "地址": "https://arxiv.org/pdf/2601.05930.pdf"
+    },
+    {
+        "名称": "2026 [2601.05882] An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift.pdf",
+        "作者": "Constantinos Karouzos, Xingwei Tan, Nikolaos Aletras",
+        "摘要": "摘要：偏好调试通过优化显式偏好信号而不是单纯的可能性，将预训练语言模型与人类对质量、有用性或安全性的判断对齐。先前的研究表明，在训练域外进行评估时，偏好调试会降低性能并减少有用性。然而，适应策略在多大程度上能够减轻这种域转移的影响尚未探讨。我们通过对域转移下的对齐泛化进行全面而系统的研究来解决这一挑战。我们比较了五种流行的对齐目标和各种从源域到目标域的适应策略，包括目标域监督微调和伪标记，涵盖了总结和问答有用性任务。我们的研究结果揭示了在域转移下对齐目标的泛化的系统性差异。我们显示了基于伪标记的适应策略可以显著减少域转移的降级。",
+        "地址": "https://arxiv.org/pdf/2601.05882.pdf"
+    },
+    {
+        "名称": "2026 [2601.04786] AgentOCR: Reimagining Agent History via Optical Self-Compression.pdf",
+        "作者": "Lang Feng, Fuchao Yang, Feng Chen, Xin Cheng, Haiyang Xu, Zhenglin Wan, Ming Yan, Bo An",
+        "摘要": "摘要: 最近的大型语言模型(LLMs)的进展使得可以通过多轮互动轨迹上的强化学习(RL)训练出代理系统，但现实中的部署由于快速增长的文本历史而使得token预算和内存使用增加，从而受到限制。我们介绍了AgentOCR，一个通过将累计的观察-行动历史表示为紧凑的渲染图像，利用视觉token优越的信息密度的框架。为了使多轮回合可扩展，AgentOCR提议使用段光学缓存。通过将历史分解成可散列的段并维护视觉缓存，这一机制消除了冗余的重新渲染。除了固定渲染，AgentOCR引入了代理自压缩，代理主动发出压缩率，并根据压缩感知奖励进行训练，以自适应地平衡任务成功和token效率。我们在具有挑战性的代理标准ALFWorld和基于搜索的QA上进行了广泛的实验。令人瞩目的结果表明，AgentOCR在显著减少token消耗(>50%)的同时保持了95%以上的基于文本的代理性能，提供了一致的token和内存效率。我们的进一步分析验证了通过段光学缓存获得的20倍渲染加速和有效的自压缩战略平衡。\n\n年度: 2026 \n\n作者: 兰风，杨富超，陈峰，程鑫，徐海洋，万正林，闫明，安波\n\n评论: 工作进行中\n\n链接: https://arxiv.org/pdf/2601.04786.pdf\n\n标题: 2026 [2601.04786] AgentOCR: 通过光学自压缩重新构想代理历史.pdf",
+        "地址": "https://arxiv.org/pdf/2601.04786.pdf"
+    },
+    {
+        "名称": "2026 [2601.05966] VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction.pdf",
+        "作者": "Longbin Ji, Xiaoxiong Liu, Junyuan Shang, Shuohuan Wang, Yu Sun, Hua Wu, Haifeng Wang",
+        "摘要": "摘要: 最近视频生成领域的进展主要由扩散模型和流匹配模型主导，这些模型生成的结果质量很高，但计算密集且难以扩展。在这项工作中，我们介绍了VideoAR，这是首个结合多尺度下一帧预测与自回归建模的大规模视觉自回归（VAR）框架。VideoAR通过结合帧内VAR建模和因果下一帧预测来解耦空间和时间依赖关系，并由有效编码时空动态的3D多尺度标记器支持。为了提高长期一致性，我们提出了多尺度时间RoPE、跨帧错误校正和随机帧掩码，这些方法共同减轻了误差传播并稳定了时间一致性。我们的多阶段预训练管道逐步对齐了跨不同分辨率和时长的空间和时间学习。实验证明，VideoAR在自回归模型中达到了新的最先进成果，将UCF-101上的FVD从99.5提高到88.6，同时推理步骤减少了超过10倍，并在VBench上达到了81.74的分数，与规模大一个数量级的扩散模型相比竞争力十足。这些结果表明，VideoAR缩小了自回归范式与扩散范式之间的性能差距，提供了一个可扩展、高效及时间一致的基础，供未来的视频生成研究使用。",
+        "地址": "https://arxiv.org/pdf/2601.05966.pdf"
+    },
+    {
+        "名称": "2026 [2601.05905] Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency.pdf",
+        "作者": "Haoming Xu, Ningyuan Zhao, Yunzhi Yao, Weihong Xu, Hongru Wang, Xinle Deng, Shumin Deng, Jeff Z. Pan, Huajun Chen, Ningyu Zhang",
+        "摘要": "摘要：随着大语言模型（LLMs）在现实世界中的广泛应用，仅仅依靠正确性已经不足以保证其可靠性能。稳定的部署要求在上下文扰动下保持真实的信念。现有评估主要依赖于点状信心（如自一致性），但这可能掩盖脆弱的信念。我们证明，即使是在完美自一致性下回答的问题，也可能在轻度上下文干扰下迅速崩溃。为了解决这个问题，我们提出了邻居一致性信念（NCB），这是一种信念鲁棒性的结构性测量，评估概念邻域内的响应一致性。为了验证NCB的效率，我们引入了一种新的认知压力测试协议，在上下文干扰下探测输出稳定性。多种LLMs的实验表明，高NCB数据的性能对干扰具有相对更高的抵抗力。最后，我们展示了结构感知训练（SAT），它优化了上下文不变的信念结构，并将长尾知识的脆弱性减少了约30%。代码将在此URL提供：https://arxiv.org/pdf/2601.05905.pdf。",
+        "地址": "https://arxiv.org/pdf/2601.05905.pdf"
+    },
+    {
+        "名称": "2026 [2601.05848] Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals.pdf",
+        "作者": "Nate Gillman, Yinghua Zhou, Zitian Tang, Evan Luo, Arjan Chakravarthy, Daksh Aggarwal, Michael Freeman, Charles Herrmann, Chen Sun",
+        "摘要": "摘要: 最近的视频生成技术进展使得开发能够模拟潜在机器人和规划的“世界模型”成为可能。然而，为这些模型指定精确目标仍然是一个挑战；文本指令往往过于抽象，无法捕捉物理细节，而目标图像在动态任务中通常难以指定。为了解决这个问题，我们引入了Goal Force，一种新颖的框架，允许用户通过显式力向量和中间动力学来定义目标，类似于人类概念化物理任务的方式。我们在精心策划的合成因果原件（如弹性碰撞和倒下的多米诺骨牌）数据集上训练视频生成模型，教它在时间和空间中传播力。尽管仅在简单物理数据上进行训练，我们的模型在复杂的现实场景中表现出显著的零样本泛化能力，包括工具操作和多物体因果链。我们的结果表明，通过在基本物理交互中进行视频生成，模型可以作为隐式神经物理模拟器，启用精确的、具有物理意识的规划，而无需依赖外部引擎。我们在项目页面上发布了所有数据集、代码、模型权重和交互视频演示。",
+        "地址": "https://arxiv.org/pdf/2601.05848.pdf"
+    },
+    {
+        "名称": "2026 [2601.05573] Orient Anything V2: Unifying Orientation and Rotation Understanding.pdf",
+        "作者": "Zehan Wang, Ziang Zhang, Jiayang Xu, Jialei Wang, Tianyu Pang, Chao Du, HengShuang Zhao, Zhou Zhao",
+        "摘要": "摘要：本研究提出了Orient Anything V2，这是一个用于从单张或配对图像中统一理解物体3D方向和旋转的增强基础模型。在Orient Anything V1的基础上，V2定义了通过一个独特的前面来定向，并扩展了处理具有不同旋转对称性的物体并直接估计相对旋转的能力。这些改进是通过四项关键创新实现的：1）由生成模型合成的可扩展3D资产，确保广泛的类别覆盖和均衡的数据分布；2）高效的、模型循环中的注释系统，能够稳健地识别每个物体的0到N个有效前面；3）对称感知的周期分布拟合目标，捕捉所有合理的前向方向，有效地建模物体的旋转对称性；4）直接预测相对物体旋转的多帧架构。广泛的实验表明，Orient Anything V2在方向估计、6自由度姿态估计和物体对称识别方面实现了最先进的零样本性能，跨越11个广泛使用的基准。该模型展示了强大的泛化能力，显著扩展了方向估计在多种下游任务中的应用。",
+        "地址": "https://arxiv.org/pdf/2601.05573.pdf"
+    },
+    {
+        "名称": "2026 [2601.05403] Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection.pdf",
+        "作者": "Zhiwei Liu, Yupen Cao, Yuechen Jiang, Mohsinul Kabir, Polydoros Giannouris, Chen Xu, Ziyang Xu, Tianlei Zhu, Tariquzzaman Faisal, Triantafillos Papadopoulos, Yan Wang, Lingfei Qian, Xueqing Peng, Zhuohan Xie, Ye Yuan, Saeed Almheiri, Abdulrazzaq Alnajjar, Mingbin Chen, Harry Stuart, Paul Thompson, Prayag Tiwari, Alejandro Lopez-Lira, Xue Liu, Jimin Huang, Sophia Ananiadou",
+        "摘要": "摘要：大型语言模型（LLMs）已广泛应用于金融领域。由于它们的训练数据主要来自人类撰写的语料库，LLMs可能会继承一系列人类偏见。行为偏见在处理金融信息时会导致决策的不稳定性和不确定性。然而，现有关于LLM偏见的研究主要集中在直接提问或简化的一般环境中，较少考虑复杂的现实金融环境和高风险、情境敏感的多语言金融误导信息检测任务（\\\\mfmd）。在这项工作中，我们提出了\\\\mfmdscen，一个用于评估LLMs在不同经济情境中行为偏见的全面基准。我们与金融专家合作，构建了三种类型的复杂金融情境：（i）基于角色和个性的，（ii）基于角色和地区的，以及（iii）结合种族和宗教信仰的角色情境。我们还开发了一个涵盖英语、中文、希腊语和孟加拉语的多语言金融误导信息数据集。通过将这些情境与误导信息声明结合，\\\\mfmdscen能够系统地评估22个主流LLMs。我们的研究发现，无论是商业模型还是开源模型，都普遍存在显著的行为偏见。该项目的相关资料将发布在此https URL。",
+        "地址": "https://arxiv.org/pdf/2601.05403.pdf"
+    },
+    {
+        "名称": "2026 [2601.02760] AnyDepth: Depth Estimation Made Easy.pdf",
+        "作者": "Zeyu Ren, Zeyu Zhang, Wukai Li, Qingxiang Liu, Hao Tang",
+        "摘要": "摘要：单目深度估计旨在从二维图像恢复三维场景的深度信息。尽管最近的工作取得了显著进展，但依赖于大规模数据集和复杂解码器限制了其效率和泛化能力。本文提出了一种轻量级和数据驱动的零次单目深度估计框架。我们首先采用DINOv3作为视觉编码器，以获得高质量密集特征。其次，为了解决DPT复杂结构的固有缺陷，我们设计了简单深度变换器（SDT），一种紧凑的基于变换器的解码器。与DPT相比，它使用单路径特征融合和上采样过程，减少了跨尺度特征融合的计算开销，在减少约85%-89%参数数量的同时实现更高的精度。此外，我们提出了一种基于质量的过滤策略，以过滤掉有害样本，从而在提高整体训练质量的同时减小数据集规模。在五个基准测试上的广泛实验表明，我们的框架在精度上超过了DPT。这项工作强调了在实现高效和可泛化的零次深度估计中平衡模型设计和数据质量的重要性。代码和网站链接。",
+        "地址": "https://arxiv.org/pdf/2601.02760.pdf"
+    },
+    {
+        "名称": "2026 [2601.04888] SmartSearch: Process Reward-Guided Query Refinement for Search Agents.pdf",
+        "作者": "Tongyu Wen, Guanting Dong, Zhicheng Dou",
+        "摘要": "摘要：基于大型语言模型（LLM）的搜索代理通过整合信息检索能力，在解决知识密集型问题方面表现出良好前景。现有工作主要集中于优化搜索代理的推理范式，然而在推理过程中生成的中间搜索查询质量却常被忽视。因此，生成的查询往往不准确，导致意外的检索结果，最终限制了搜索代理的整体有效性。为了解决这一问题，我们引入了SmartSearch框架，该框架基于两个关键机制：（1）过程奖励，通过双层信用评估提供对每个中间搜索查询质量的细粒度监督。（2）查询优化，通过选择性地优化低质量搜索查询并基于这些优化重生成后续搜索轮次，促进查询生成的优化。为了使搜索代理逐步掌握在过程奖励指导下提高查询质量的能力，我们设计了一个三阶段课程学习框架。该框架引导代理从模仿，到对齐，最终到泛化。实验结果表明，SmartSearch持续超越现有基准，进一步的定量分析也证实了其在搜索效率和查询质量方面的显著提升。代码可以在此https URL上找到。",
+        "地址": "https://arxiv.org/pdf/2601.04888.pdf"
+    },
+    {
+        "名称": "2026 [2601.05503] Over-Searching in Search-Augmented Large Language Models.pdf",
+        "作者": "Roy Xie, Deepak Gopinath, David Qiu, Dong Lin, Haitian Sun, Saloni Potdar, Bhuwan Dhingra",
+        "摘要": "摘要：搜索增强型大语言模型 (LLMs) 通过整合外部检索在知识密集型任务中表现优异。然而，它们通常会过度搜索——即使在搜索工具不会提高响应质量时仍然调用搜索工具，从而导致计算效率低下，并因引入无关上下文而产生幻觉。在这项工作中，我们从多个维度对过度搜索进行了系统评估，包括查询类型、模型类别、检索条件和多轮对话。我们的发现表明：（i）搜索通常可以提高可回答查询的回答准确性，但对不可回答查询的节制有害；（ii）在复杂推理模型和深度研究系统中，过度搜索更为明显，在嘈杂的检索环境中加剧，并且在多轮对话中随着轮次累积；（iii）检索证据的组成至关重要，因为负面证据的存在提高了节制性。为量化过度搜索，我们引入了每正确性令牌数 (Tokens Per Correctness, TPC) 这一评估指标，能够捕捉搜索增强型LLMs的性能-成本权衡。最后，我们在查询和检索层面研究了缓解方法，并发布了OverSearchQA，以促进对高效搜索增强型LLMs的持续研究。",
+        "地址": "https://arxiv.org/pdf/2601.05503.pdf"
+    },
+    {
+        "名称": "2026 [2601.04823] DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation.pdf",
+        "作者": "Guanzhi Deng, Bo Li, Ronghao Chen, Huacan Wang, Linqi Song, Lijie Wen",
+        "摘要": "摘要：混合专家（Mixture-of-Experts，MoE）已经成为扩展大型语言模型（Large Language Models，LLMs）的重要范式。参数高效微调（Parameter-efficient fine-tuning，PEFT）方法，如LoRA，被广泛采用以适应预训练的MoE LLMs到下游任务。然而，现有方法为所有专家分配相同的LoRA等级，忽略了MoE LLMs中内在的功能专门化。这种统一分配导致资源错配，任务相关的专家资源不足，而不相关的专家却获得了冗余参数。我们提出了一种名为DR-LoRA的动态等级LoRA框架，该框架在微调过程中基于任务具体需求动态增加专家LoRA等级。DR-LoRA采用一个集成专家路由频率和LoRA等级重要性的专家显著性评分机制，量化每个专家对额外容量的需求。得分较高的专家优先进行等级扩展，自动形成适应目标任务的异质等级分布。多项基准测试实验表明，在相同参数预算下，DR-LoRA始终优于标准LoRA和静态分配策略，以更高效的参数利用实现卓越的任务性能。",
+        "地址": "https://arxiv.org/pdf/2601.04823.pdf"
+    },
+    {
+        "名称": "2026 [2601.04726] Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning.pdf",
+        "作者": "Yuyang Hu, Jiongnan Liu, Jiejun Tan, Yutao Zhu, Zhicheng Dou",
+        "摘要": "摘要：大型语言模型（LLMs）越来越多地被部署为能够推理、规划和与环境互动的智能代理。为了有效地应对长时间情境，一个关键能力是记忆机制，它能够保留、组织和检索过去的经验以支持下游决策。然而，大多数现有方法以平面方式组织和存储记忆，并依赖于简单的基于相似性的检索技术。即使引入了结构化记忆，现有方法往往也难以显式捕捉经验或记忆单元之间的逻辑关系。此外，记忆访问在很大程度上与构建的结构脱节，仍然依赖于浅层语义检索，阻碍了代理在长时间依赖关系上进行逻辑推理。在这项工作中，我们提出了CompassMem，一种受事件分段理论启发的以事件为中心的记忆框架。CompassMem通过逐步将经验分割成事件并通过显式逻辑关系链接这些事件，将记忆组织为事件图。这幅图作为逻辑地图，使代理能够进行结构化和目标导向的记忆导航，而不仅仅是表面检索，逐步收集有价值的记忆以支持长时间推理。在LoCoMo和NarrativeQA上的实验表明，CompassMem在多个主干模型上始终提高了检索和推理性能。",
+        "地址": "https://arxiv.org/pdf/2601.04726.pdf"
+    },
+    {
+        "名称": "2026 [2601.05637] GenCtrl -- A Formal Controllability Toolkit for Generative Models.pdf",
+        "作者": "Emily Cheng, Carmen Amo Alonso, Federico Danieli, Arno Blaas, Luca Zappella, Pau Rodriguez, Xavier Suau",
+        "摘要": "摘要: 随着生成模型变得无处不在，精细控制生成过程的需求变得至关重要。然而，尽管从提示到微调的控制生成方法不断涌现，但一个基本问题仍未得到回答：这些模型是否真的可以控制？在这项工作中，我们提供了一个理论框架来正式回答这个问题。将人机交互框架化为一个控制过程，我们提出了一种新算法，用于估计对话环境中模型的可控集合。值得注意的是，我们对估计误差提供了正式保证，作为样本复杂度的函数：我们得出了概率近似正确的可控集合估计界，这些界是无分布的，只需输出有界性，且适用于任何黑盒非线性控制系统（即任何生成模型）。我们在不同任务上对理论框架进行了经验验证，包括控制对话过程，涉及语言模型和文本到图像生成。我们的结果表明，模型的可控性出乎意料地脆弱，并且高度依赖于实验设置。这突显了严格可控性分析的必要性，从简单尝试控制转向首先理解其基本限制。",
+        "地址": "https://arxiv.org/pdf/2601.05637.pdf"
+    },
+    {
+        "名称": "2026 [2601.04544] TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration.pdf",
+        "作者": "Jiuzhou Zhao, Chunrong Chen, Chenqi Qiao, Lebin Zheng, Minqi Han, Yanchi Liu Yongzhou Xu Xiaochuan Xu Min Zhang",
+        "摘要": "以下是根据提供材料进行的摘要提取及中文翻译：\n\n摘要：多智能体系统（MAS）已成为构建高性能智能应用的强大范例。在这些系统中，负责确定哪些专家智能体处理给定查询的路由器在整体性能中起着至关重要的作用。现有的路由策略通常分为两类：性能路由，通过平衡不同规模模型的延迟和成本，以及任务路由，将查询分配给特定领域的专家以提高准确性。在现实世界的企业应用中，任务路由更为适合；然而，大多数现有方法依赖于静态的单标签决策，这带来了两个主要限制：（i）难以在业务领域扩展时无缝整合新代理；（ii）由于代理能力重叠导致的路由冲突，最终降低了准确性。为了解决这些挑战，我们提出了TCAndon-Router（TCAR）：一个用于多智能体协作的自适应推理路由器。与传统路由器不同，TCAR支持动态代理集成，并首先生成一个自然语言推理链，然后预测一组能够处理查询的候选代理。此外，我们设计了一个协作执行流程，选择的代理独立生成响应，然后由一个专门的精炼器聚合并优化为一个高质量的响应。基于公共数据集和真实企业数据的实验表明，TCAR显著提高了路由准确性，减少了路由冲突，并在模糊场景中依然保持稳健性。为了支持未来关于可解释和协作多智能体路由的研究，我们已在此网址发布TCAR。\n\n发布网址：https://arxiv.org/pdf/2601.04544.pdf",
+        "地址": "https://arxiv.org/pdf/2601.04544.pdf"
+    },
+    {
+        "名称": "2026 [2601.05960] Distilling Feedback into Memory-as-a-Tool.pdf",
+        "作者": "Víctor Gallego",
+        "摘要": "摘要：我们提出了一个框架，通过文件系统记忆和代理控制工具调用，将瞬时评价转化为可检索的指南，从而降低推理时间的成本。我们在一个新颖的数据集Rubric Feedback Bench上评估了这一方法，该数据集用于基于评分标准的学习。实验表明，我们增强的语言模型能够快速达到测试时完善管道的性能，同时大幅降低推理成本。",
+        "地址": "https://arxiv.org/pdf/2601.05960.pdf"
+    },
+    {
+        "名称": "2026 [2601.05899] TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents.pdf",
+        "作者": "Dawei Wang, Chengming Zhou, Di Zhao, Xinyuan Liu, Marci Chi Ma, Gary Ushaw, Richard Davison",
+        "摘要": "摘要：大型语言模型(LLMs)的最新突破使其成为代理人的有希望模式，长期规划和决策成为适应各种场景和任务的核心通用能力。实时战略(RTS)游戏是评估这两项能力的理想测试平台，因为它们的游戏玩法要求宏观的战略规划和微观的战术适应及行动执行。现有的基于RTS游戏的环境要么存在相对较高的计算需求，要么缺乏对文本观察的支持，这限制了RTS游戏用于LLM评估。基于此，我们提出TowerMind，这是一个以塔防(TD)子类型RTS游戏为基础的新环境。TowerMind保留了评估RTS游戏对LLMs的核心优势，同时具有低计算需求和包括像素、文本和结构化游戏状态表示的多模态观察空间。此外，TowerMind支持评估模型幻觉并具有高度定制性。我们设计了五个基准关卡来评估几种广泛使用的LLMs在不同多模态输入设置下的表现。结果显示LLMs和人类专家在能力和幻觉维度上存在明显的性能差距。实验进一步指出了LLM行为中的关键限制，如规划验证不足、决策中的多终点现象缺乏和效率低下的行动使用。我们还评估了两个经典的强化学习算法：Ape-X DQN和PPO。通过提供轻量级和多模态设计，TowerMind补充了现有基于RTS游戏的环境景观，并为AI代理领域引入了新的基准。源代码已在GitHub(该https网址)上公开提供。\n\n作者: 王大为、周成铭、赵迪、刘新元、马驰、加里·乌肖、理查德·戴维森\n\n评论: AAAI 2026口头报告\n\n网址: https://arxiv.org/pdf/2601.05899.pdf\n\n标题: TowerMind：一个塔防游戏学习环境和用于LLM作为代理的基准",
+        "地址": "https://arxiv.org/pdf/2601.05899.pdf"
+    },
+    {
+        "名称": "2026 [2601.05851] Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs.pdf",
+        "作者": "Sandeep Mishra, Devichand Budagam, Anubhab Mandal, Bishal Santra, Pawan Goyal, Manish Gupta",
+        "摘要": "摘要：实时多模态自动补全对于数字助理、聊天机器人、设计工具和健康咨询至关重要，在这些场景中，用户输入依赖于共享的视觉上下文。我们引入了多模态自动补全（MAC）任务，该任务利用部分输入的文本和视觉线索预测对话中即将输入的字符。与传统的仅限文本的自动补全（TAC）不同，MAC在多模态上下文中进行预测，以更好地捕捉用户意图。为使这一任务成为可能，我们将MMDialog和ImageChat适配为基准数据集。我们评估了领先的视觉语言模型（VLMs）相对于强大的文本基线，突出了准确性和效率之间的权衡。我们提出了Router-Suggest，一个根据对话上下文动态选择文本模型和视觉语言模型的路由框架，并提供了一个适用于资源受限环境的轻量级变体。与最佳表现的视觉语言模型相比，Router-Suggest实现了2.3倍到10倍的加速。用户研究表明，在用户满意度方面，视觉语言模型显著优于文本模型，尤其是在多轮对话中节省用户输入时间并提高补全质量。这些发现强调了在自动补全中使用多模态上下文的必要性，从而打造出更智能、更具用户感知的助手。\n\n翻译作者：Sandeep Mishra, Devichand Budagam, Anubhab Mandal, Bishal Santra, Pawan Goyal, Manish Gupta\n\n评论：已被EACL 2026行业轨道接收，12页，6张图\n\n网址：https://arxiv.org/pdf/2601.05851.pdf\n\n标题：2026 [2601.05851] Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs.pdf",
+        "地址": "https://arxiv.org/pdf/2601.05851.pdf"
+    },
+    {
+        "名称": "2026 [2601.05741] ViTNT-FIQA: Training-Free Face Image Quality Assessment with Vision Transformers.pdf",
+        "作者": "Guray Ozgur, Eduarda Caldeira, Tahar Chettaoui, Jan Niklas Kolf, Marco Huber, Naser Damer, Fadi Boutros",
+        "摘要": "摘要：人脸图像质量评估（FIQA）对于可靠的人脸识别系统至关重要。目前的方法主要利用最终层的表示，而无训练方法则需要多次前向传播或反向传播。我们提出了ViTNT-FIQA，一种无训练方法，通过Vision Transformer（ViT）中间块的补丁嵌入演变的稳定性来测量图像质量。我们展示了高质量的人脸图像在不同块中的特征精炼轨迹是稳定的，而退化的图像则表现出不稳定的变换。我们的方法计算连续变压器块中L2归一化补丁嵌入之间的欧几里得距离，并将它们汇总成图像级别的质量得分。我们在一个具有控制退化程度的质量标注合成数据集上实验证实了这种相关性。与现有的无训练方法不同，ViTNT-FIQA只需一次前向传播，无需反向传播或建筑改动。通过在八个基准（LFW, AgeDB-30, CFP-FP, CALFW, Adience, CPLFW, XQLFW, IJB-C）上的广泛评估，我们展示了ViTNT-FIQA在保持计算效率和即时应用于任何预训练的基于ViT的人脸识别模型的同时，达到了与最先进方法具有竞争力的性能。\n\n评论：已被WACV研讨会接受\n\n\n\n作者：Guray Ozgur, Eduarda Caldeira, Tahar Chettaoui, Jan Niklas Kolf, Marco Huber, Naser Damer, Fadi Boutros\n\n网址：https://arxiv.org/pdf/2601.05741.pdf\n\n标题：2026 [2601.05741] ViTNT-FIQA：基于视觉变压器的无训练人脸图像质量评估",
+        "地址": "https://arxiv.org/pdf/2601.05741.pdf"
+    },
+    {
+        "名称": "2026 [2601.05870] IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck.pdf",
+        "作者": "Huilin Deng, Hongchen Luo, Yue Zhu, Long Li, Zhuoyue Chen, Xinghao Zhao, Ming Li, Jihai Zhang, Mengchang Wang, Yang Cao, Yu Kang",
+        "摘要": "摘要：近年来，在大语言模型（LLM）推理中使用可验证奖励的强化学习（RLVR）取得了显著进展，但仍面临一个持续的挑战：探索崩溃。随机回合的语义同质性常常将模型困在狭窄的、过度优化的行为中。尽管现有方法利用策略熵来鼓励探索，但它们存在固有的局限性。全局熵正则化易受奖励攻击，导致无意义的冗长，而局部的标记选择性更新则难以克服预训练模型的强引导偏差。为了解决这一问题，我们提出了通过迭代信息瓶颈（IIB-LPO）进行潜在策略优化的新方法。IIB-LPO将探索从标记分布的统计扰动转移到推理轨迹的拓扑分支。在高熵状态下触发潜在分支以多样化推理路径，并应用信息瓶颈原理作为轨迹过滤器和自我奖励机制，确保简洁和信息丰富的探索。四个数学推理基准的实证结果表明，IIB-LPO在准确性和多样性指标上分别超越现有方法最多5.3%和7.4%，实现了最新的性能。\n\n翻译作者：邓慧林、罗泓辰、朱悦、李龙、陈卓越、赵兴昊、李明、张吉海、王梦昶、曹阳、康昱",
+        "地址": "https://arxiv.org/pdf/2601.05870.pdf"
+    },
+    {
+        "名称": "2026 [2601.05699] Afri-MCQA: Multimodal Cultural Question Answering for African Languages.pdf",
+        "作者": "Atnafu Lambebo Tonja, Srija Anand, Emilio Villa-Cueva, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A. Mohamed, Debela Desalegn Yadeta, Negasi Haile Abadi, Abigail Oppong, Nnaemeka Casmir Obiefuna, Idris Abdulmumin, Naome A Etori, Eric Peter Wairagala, Kanda Patrick Tshinu, Imanigirimbabazi Emmanuel, Gabofetswe Malema, Alham Fikri Aji, David Ifeoluwa Adelani, Thamar Solorio",
+        "摘要": "摘要：非洲拥有世界上三分之一以上的语言，但在人工智能研究中仍然缺乏代表性。我们介绍了Afri-MCQA，这是第一个涵盖12个国家的15种非洲语言中7.5k问答对的多语言文化问答基准。该基准提供了英语与非洲语言的平行问答对，包括文本和语音形式，完全由母语人士创建。在Afri-MCQA上对大规模语言模型（LLMs）的基准测试表明，开开放权重的模型在评估的文化中表现不佳，当用母语或语音查询时开放式视觉问答的准确率接近于零。为了评估语言能力，我们进行了控制实验，旨在分别评估这一特定方面与文化知识，并观察到母语和英语之间在文本和语音方面存在显著的性能差距。这些发现强调了以语音为主的方法、文化基础预训练和跨语言文化转移的必要性。为了支持更具包容性的非洲语言多模态人工智能开发，我们根据学术许可或CC BY-NC 4.0授权在HuggingFace发布我们的Afri-MCQA (this https URL)。",
+        "地址": "https://arxiv.org/pdf/2601.05699.pdf"
+    },
+    {
+        "名称": "2026 [2601.05376] The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models.pdf",
+        "作者": "Tassallah Abdullahi, Shrestha Ghosh, Hamish S Fraser, Daniel León Tramontini, Adeel Abbasi, Ghada Bourjeily, Carsten Eickhoff, Ritambhara Singh",
+        "摘要": "摘要：个性条件反射可以被视为大型语言模型（LLMs）的一种行为先验，并且通常被认为能够单调地赋予专业知识并提高安全性。然而，其对高风险临床决策的影响仍然缺乏充分的表征。我们系统地评估了基于个性控制的临床LLMs，研究专业角色（如急诊室医生、护士）和交互风格（大胆与谨慎）在不同模型和医学任务中的行为表现。我们通过多维评估任务准确性、校准度和安全相关的风险行为，评估在临床分诊和患者安全任务中的表现。我们发现了系统的、上下文依赖的、非单调的效应：医学个性在重症护理任务中提高了性能，准确性和校准度提升了高达约20%，但在初级保健环境中则表现下降，幅度相当。交互风格调节了风险倾向和敏感性，但高度依赖于模型。尽管综合LLM评委排名在安全关键案例中支持医学个性优于非医学个性，我们发现人类临床医生对于安全符合性的平均一致性较低（Cohen's κ = 0.43），但对其在推理质量上的回答95.9%表现出低信心。我们的研究表明，个性作为行为先验引入了上下文依赖的权衡，而不是安全性或专业知识的保证。代码可在该URL上获得。\n\n翻译后的摘要：个性条件反射可以被视为一种行为的先验，对于大型语言模型（LLMs）通常被认为可以单调地赋予专业知识并提高安全性。然而，其对高风险临床决策的影响仍然缺乏系统性表征。我们系统地评估了基于个性的控制在临床LLMs中的作用，研究了专业角色（例如急诊室医生、护士）和交互风格（大胆与谨慎）在不同模型和医学任务中的表现。我们通过多维评估任务准确性、校准度和安全相关的风险行为，评估了它们在临床分诊和患者安全任务中的表现。我们发现，个性的影响是系统性且具有上下文依赖的，并非单调的：医学个性在重症护理任务中提高了性能，使准确性和校准度提升高达约20%，但在初级护理环境中表现下降，幅度相当。交互风格调节了风险倾向和敏感性，但高度依赖于具体的模型。尽管综合LLM评委排名在安全关键案例中更倾向于医学个性优于非医学个性，我们发现临床医生在人类评估中的安全符合性一致性中等（平均Cohen's κ=0.43），但在95.9%的推理质量问答中信心较低。我们的研究表明，个性作为一种行为上的先验，更多地引入了上下文依赖的权衡，而不是对安全性或专业知识的保证。代码可在此URL获取。",
+        "地址": "https://arxiv.org/pdf/2601.05376.pdf"
+    },
+    {
+        "名称": "2026 [2601.04175] Legal Alignment for Safe and Ethical AI.pdf",
+        "作者": "Noam Kolt, Nicholas Caputo, Jack Boeglin, Cullen O'Keefe, Rishi Bommasani, Stephen Casper, Mariano-Florentino Cuéllar, Noah Feldman, Iason Gabriel, Gillian K. Hadfield, Lewis Hammond, Peter Henderson, Atoosa Kasirzadeh, Seth Lazar, Anka Reuel, Kevin L. Wei, Jonathan Zittrain",
+        "摘要": "摘要：人工智能（AI）的对齐涵盖了规范问题，即如何规定AI系统行为的方式，以及技术问题，即确保AI系统遵守这些规定。迄今为止，AI对齐通常忽略了一个重要的知识和实践来源来解决这些问题：法律。在本文中，我们旨在填补这一空白，探索如何利用法律规则、原则和方法来解决对齐问题，并为设计安全和道德的AI系统提供指导。这个新兴领域——法律对齐——主要关注三个研究方向：（1）设计AI系统以符合通过合法机构和程序制定的法律规则的内容，（2）采用法律解释方法来指导AI系统如何推理和决策，以及（3）利用法律概念作为应对AI系统中可靠性、信任和合作挑战的结构蓝图。这些研究方向提出了新的概念、经验和制度问题，包括审查特定AI系统应该遵循的法律集，创建评估以评估其在现实环境中的法律合规性，并开发治理框架以支持法律对齐的实施。解决这些问题需要跨越法律、计算机科学等多个领域的专业知识，为这些社区提供了合作设计更好AI系统的机会。",
+        "地址": "https://arxiv.org/pdf/2601.04175.pdf"
+    }
+]
